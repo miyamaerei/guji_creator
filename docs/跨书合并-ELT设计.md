@@ -1,0 +1,157 @@
+# 跨书合并 ELT 设计：去歧义合并与关系消歧
+
+> 本文是《跨书合并方案》的落地细化（联邦库四层里的 **L1 装载 + L2 装入 + T 变换**）。
+> 聚焦用户两点诉求：**① 所有东西加一层去歧义合并；② 用关系识别同实体**。
+> 状态：**设计待拍板**，未写代码。
+
+---
+
+## 1. 一句话设计
+
+```
+抽上来（不判断）  →  直载进库（复合主键隔离）  →  库内做去歧义合并（谨慎建链接，不破坏原数据）
+     E                          L                              T
+```
+
+**「去歧义的合并」语义**（贯穿全局，不只对实体）：
+
+- **物理不合并**——每本书的实体、层记录原样保留，复合主键 `(book_id, local_id)` 隔离。
+- **逻辑建链接**——用一个 `canonical`（代表）+ `member`（成员列表）表达「这是同一人」。
+- 查询时 `cross_search("王守仁")` 返回所有 member、各自出处、置信度、关系网。
+- **宁可漏不可错**：同人的没并上可以补，两人的错并成一个会静默污染全库且难回滚。
+
+> 这条原则适用于**所有可跨书对齐的对象**：实体（ENT）、地点（GEO）、职官（APPT 的人-职-机构三元组）、事件（MING 纪事），不只人名。
+
+---
+
+## 2. E / L / T 三段职责
+
+### E — Extract：每书一个 adapter，纯抽取不判断
+
+输入：该书 `_kg_join.json` + 各层产物 + `ent_keys.json` + `_item_registry` 指纹。
+
+六种 join 形态（已由体检确认）由 adapter 各归一为四张中间表：
+
+| 中间表 | 内容 | 来源 |
+|---|---|---|
+| `items` | `item_id, volume, title, layer_count` | join 的条目行 |
+| `layer_records` | 层记录原样 + 归一后的 `layer_key` | 各层 json |
+| `entities` | `local_id, normalized, type, count, first_source` | ent_keys |
+| `aliases` | `alias → local_id` | ent_keys.alias_index |
+
+**不改任何源数据**，只抽取。撞号在此阶段不处理（留给 L 的复合主键）。
+
+### L — Load：直载进库，幂等隔离
+
+- 所有表主键带 `(book_id, local_id)` 复合；`uid = book_id:local_id`。
+- 幂等：`BEGIN; DELETE WHERE book_id=?; 批量 INSERT; COMMIT`——重跑结果一致（守「一切可重跑」）。
+- `items` 只存指针（`book_id + item_id + fingerprint`），**不抄正文**（守「原文只在指纹库」铁律）。
+- 此阶段书与书完全隔离，**撞号自然消解**（2847 个撞号无需改写 ID）。
+
+### T — Transform：去歧义合并，核心
+
+```
+T0  层 key 归一    events→evt / ents→ent ... 映射表；未登记层报 WARN（反制 #27 静默吸收）
+T1  名字→ID 解析  REL/APPT 里的「名字」经 ent_keys 解析成本书 ENT id，建 ENT-ENT 关系图
+T2  候选生成      精确(normalized+type 一致) + 别名(alias_index 交叉)
+T3  关系消歧      集体消歧（并查集 + 约束 + 迭代）→ entity_links
+```
+
+---
+
+## 3. 关键发现：关系层存的是「名字」，不是 ID
+
+实测（决定设计走向）：
+
+```jsonc
+// REL 层
+{"item_id":"04-001", "person_a":"李廷珪", "person_b":"李超", "relation_type":"父子", ...}
+// APPT 层
+{"item_id":"07-001", "person":"海瑞", "office":"南右都御史", "institution":"南京都察院", ...}
+```
+
+两者都不直接引用 `ENT-xxx`。含义：**「用关系识别实体」不能直接用**——
+必须先经 `ent_keys.normalized / alias_index` 把名字解析回本书 ENT id，才能建 ENT-ENT 关系图。
+**T1 是关系消歧的前提，也是最容易漏的一步。**
+
+解析失败处理：若 `person_a/b` 在 ent_keys 查不到（如「李超」未单独立实体），该边**悬空入库**为 pending 关系，不强行丢弃也不强行造实体。
+
+---
+
+## 4. 如何利用现有数据（逐条对应）
+
+| 现有文件 / 层 | 在 ELT 中的用途 |
+|---|---|
+| `ent_keys.json`（`normalized`/`type`/`alias_index`） | **最值钱**：T1 名字解析 + T2 候选生成 |
+| `REL` 层（`person_a`/`person_b`/`relation_type`） | T1 解析成 ENT-ENT 边（父子/师生/同僚…） |
+| `APPT` 层（`person`/`office`/`institution`） | T1 解析成人-职-机构三类 ENT 的任职边 |
+| `_item_registry.json`（指纹） | L 阶段 items 指针，原文回查 |
+| 蘧编 `CHR` / 各书 `MING` | 时间一致性，T3 可选约束（同时代才可能是同一人） |
+| `kb_mcp` 撞号体检 | E 阶段前置断言：撞号必须被复合主键消解，否则报错 |
+
+---
+
+## 5. 集体实体消歧算法（T3）——「用关系识别同实体」的落地
+
+**核心思想**：同人不仅在名字上一致，其**关系网络**也该一致。
+`A1(书1) ≡ A2(书2)` 的置信，可由「A1 的儿子 B1 与 A2 的儿子 B2 也已对齐」来增强（共指传递）。
+
+**输入**：
+- 候选对 `P`：T2 产出的 `(Ea, Eb)`（跨书、同 type）
+- 关系图 `G`：节点 = ENT（带 book_id），边 = REL/APPT 派生关系（带 relation_type）
+- 类型向量：每个 ENT 的 `type`
+
+**算法（等价闭包 + 约束剪枝）**：
+
+```
+1. 初始化
+   精确匹配对  conf = 1.0   入并查集
+   别名匹配对  conf = 0.9   入并查集
+
+2. 迭代 N 轮（相似度传播）：
+   for 每条关系边 (u, v, rtype):
+     if u≡u' 且 v≡v' 且边 (u',v',rtype) 存在:  强化两对候选（conf 取路径 min）
+     if u≡u' 已知 且 (v, v') 有候选 且 rtype 一致:  提升 (v,v') 置信
+     if v≡v' 已知 且 (u, u') 有候选 且 rtype 一致:  提升 (u,u') 置信
+
+3. 约束剪枝（避免错并）：
+   - 类型一致：person 不可 ≡ institution（跨 type 一律不 union）
+   - 关系互斥：父子边跨书必须指向同一 canonical 父亲，否则解除该 union
+   - 一对一：并查集天然保证每个 ENT 至多一个代表
+
+4. 稳定后落库
+   entity_links(canonical_uid, member_uid, method, confidence, status)
+   method ∈ {exact, alias, relation}; status ∈ {auto, conflict, pending}
+```
+
+**并查集表达等价，约束违背则解除对应 union**——这是「去歧义」的硬闸门。
+
+---
+
+## 6. 输出与查询
+
+| 产物 | 内容 |
+|---|---|
+| `entity_links` | 跨书同人/同地链接 + 置信 + 方法 + 冲突标记 |
+| 跨书关系图（派生） | A(书1) 的儿子 B 在书2 的身份，需经两次对齐才连通 |
+| `cross_search(name)` | 返回所有 member + 出处 + 关系网 |
+
+---
+
+## 7. 落地第一步（最小，建议）
+
+1. **F0-a 撞号体检脚本**：数字已算（2847 撞号），固化为 `tools/kb-federation/check_collision.py`。
+2. **F0-b schema + books 注册表**：按《跨书合并方案》§5 建表，SQLite 单文件。
+3. **F1 单书 loader 试点（先进遗风）**：验证 L 阶段撞号消解、重跑幂等。
+4. 确认 L 无误后，再做 **T1→T2→T3**（先进遗风最小，关系网也最简单）。
+
+> 不先做 T 的原因：L 一旦有 bug（撞号没消解、幂等失效），T 的所有对账都是空中楼阁。
+> 先让「六本书安全地躺在同一个库里互不踩踏」，再谈「把它们连起来」。
+
+---
+
+## 8. 与已落地工具的关系
+
+- 不重复实现枚举/层解析：从 `Skills/00-…/references/` 读（同契约线做法）。
+- `kb_mcp` 撞号体检 → 可作为 E 的前置断言，复用其 adapters 的扫描逻辑。
+- 总库只读六本书，**绝不回写**；实体的「合并」只产生 links，不改动 `_layers/`。
