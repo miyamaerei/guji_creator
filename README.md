@@ -5,7 +5,8 @@
 仓库由两部分组成：
 
 - **`*-kb/`** —— 5 部已做完结构化的书，每部一个独立目录：底座拆分脚本、分层打包脚本、AI/人工填写的源数据、验证器与交付物。
-- **`Skills/`** —— 沉淀下来的**生成技能**：两套「工厂」+ 6 个「书实例 skill」，用来把这套方法复用到下一本书。其中《先进遗风》目前只有 skill，还没有 `-kb/` 工程目录。
+- **`Skills/`** —— 沉淀下来的**生成技能**：两套「工厂」+ 5 个「书实例 skill」，用来把这套方法复用到下一本书。
+- **`xianjinyifeng-kb/`** —— 正在建的第六本（《先进遗风》），**第一个「先有 skill、再建工程」**的书，工程与它的实例 skill 同目录。
 
 **原书正文默认不入库**（放在各项目 `_source/`，用环境变量或脚本常量指向）；`Skills/` 内实例自带的 `assets/sources/` 是唯一的例外，见 §8。
 
@@ -35,7 +36,7 @@
 | `shuidongriji-kb/`  | 38 卷 + 00 卷 | 1197            | **8** 层                                           | `run_all.py`（`/ --volumes NN`）                             | `Skills/01-shuidong-riji-knowledge` | ✅ 全书完成（ERR=0 / GAP=0 / OK=322） |
 | `xinguanguifan-kb/` | 11 章        | 275             | 结构 / 规则 / 流程 / 事件 4 类                             | `build_struct_ai_新官轨范.py` 等 + `build_kg_join.py`           | ❌ **无**（当时还没这套 skill）               | ✅ 含网页阅读器 + epub 导出             |
 | `qubian_kb/`        | 20 卷 + 序/前言 | 76              | **8** 类（ents/evts/chrs/mems/rels/lits/appts/trls） | `build_base.py` → `build_layers.py` → `build_trl.py`       | `Skills/02-qubian-knowledge`        | ✅ 全卷交付说明已出                     |
-| —                   | 2 卷（上/下）    | 100 段 / 27031 字 | 无（仅结构提取）                                          | `python scripts/extract.py --mode volumes`                 | `Skills/05-xianjinyifeng-knowledge` | 🚧 只做了结构提取，未建 `-kb/` 工程        |
+| `xianjinyifeng-kb/` | 2 卷（上/下）    | 约 100 条（空行段落 = 条） | **6** 层（ENT/APPT/REL/EVT/OPN/TRL）              | `05-xianjinyifeng-knowledge/scripts/annotate.py`          | `xianjinyifeng-kb/05-xianjinyifeng-knowledge` | 🚧 工程在建：2026-10-11 定方案，脚本编写中    |
 
 ---
 
@@ -162,6 +163,15 @@
 - 8 类归一：`ents / evts / chrs / mems / rels / lits / appts / trls`，聚合为 `归一_*.json`。
 - TRL 层产出最实用：`trl_全书记译_卷01-20.txt` 是全书白话记译合册。
 
+### 5.6 `xianjinyifeng-kb/` 《先进遗风》（在建）
+
+明 · 耿定向撰、毛在增补，二卷笔记，记明代名臣遗闻琐事。**唯一「先有 skill、后建工程」的一本**。
+
+- 已提取正文：卷上 / 卷下 / 全本 txt（100 段 / 27031 字，四库本含提要）。
+- 方案（2026-10-11 确认）6 层：`ENT` 实体 / `APPT` 职官任职 / `REL` 人物关系 / `EVT` 事件 / `OPN` 作者论说 / `TRL` 古今翻译 + V2 人工校验 + V3 枚举校准 + 跨层索引。
+- 切条方案：这本书**没有条目标题**（纯段落连排），粒度定为**空行段落 = 条**，卷标记与书名段不入条目。
+- 实例与工程同目录：`xianjinyifeng-kb/05-xianjinyifeng-knowledge/`（`SKILL.md` + `references/schemas.md` + `scripts/`）。
+
 ---
 
 ## 6. `Skills/`：把这套方法复用到新书
@@ -189,7 +199,7 @@
 | `02-qubian-knowledge`        | 蘧编   | A  | 8 层：实体/职官任职/事件/人物关系/文献资产/古今翻译/奏疏谕旨互动/年谱纪年索引 + V2 人工校验 + V3 枚举校准 | `assets/sources/蘧编_结构化.json`                 |
 | `03-wuzazu-knowledge`        | 五杂俎  | A  | 11 层：实体/事件/人物关系/名录谱牒/引书索引/名物/方言风俗/作者论说/明代纪事/职官任职/古今翻译 + 卷阅读模式   | `assets/sources/五杂俎.txt`                     |
 | `04-kezuozhuiyu-knowledge`   | 客座赘语 | A  | 13 层（含自定义「南京地理古迹层」）+ V2 + V3                                    | 不随实例存放，指向 `kezuozhuiyu-kb/_source/客座赘语_txt/` |
-| `05-xianjinyifeng-knowledge` | 先进遗风 | B  | 无语义层：2 卷（卷上/卷下）、100 段、27031 字，无条目标题                             | `assets/sources/先进遗风.txt`                    |
+| `05-xianjinyifeng-knowledge` | 先进遗风 | B → **A** | 初版（B）：只做结构提取，2 卷 / 100 段 / 27031 字，无条目标题 → **已由工厂 A 重新实例化为 6 层 KG**（ENT/APPT/REL/EVT/OPN/TRL + V2/V3 + 跨层索引；粒度=空行段落），现驻 `xianjinyifeng-kb/05-xianjinyifeng-knowledge/` | `assets/sources/先进遗风_全本.txt` |
 
 ### 6.3 覆盖矩阵：谁有工程、谁有 skill
 
@@ -197,12 +207,11 @@
 | ---------------------- | ------------------- | ---------------------------- |
 | 水东日记 / 蘧编 / 五杂俎 / 客座赘语 | ✅                   | ✅                            |
 | 新官轨范                   | ✅                   | ❌ **缺** —— 它是第一本，做的时候还没有这套工厂 |
-| 先进遗风                   | ❌ **缺** —— 目前只有结构提取 | ✅（工厂 B 生成）                   |
+| 先进遗风                   | 🚧 **在建**（2026-10-11 起）               | ✅（先 B 后 A，见下）                |
 
-两个缺口方向正好相反：
+《先进遗风》的路径很典型，值得记一笔：先用**工厂 B** 快速拆出结构（分卷/全本/目录 txt），发现这本书没有条目标题、切条没法直接做；于是交给**工厂 A** 重新反思定层，把粒度定为「空行段落 = 条」，一次定下 6 层 KG 方案，再开 `xianjinyifeng-kb/` 建工程。即 **B 探底、A 定案**。
 
-- **《新官轨范》缺 skill**：工程已完成，但方案没固化成实例。要补的话，`00-book-knowledge-factory/assets/samples/xinguan-guifan/` 里已经躺着他当年实例化时的**样例**（`instance_skill_example.md` + `reflection_example.md`），照着回填即可，编号取 `06-`。
-- **《先进遗风》缺工程**：只有结构提取（分卷 / 全本 / 目录 txt），没做条粒度指纹库、没建语义层。要继续就照 §2 的四段式开一个 `xianjinyifeng-kb/`，或直接把这本书交给工厂 A 重新反思定层（它记明代名臣遗闻琐事，人物/职官/事件/品行类目密度很高，适合建层）。
+《新官轨范》仍是唯一缺口：工程已完成，但方案没固化成实例。要补的话，`00-book-knowledge-factory/assets/samples/xinguan-guifan/` 里已经躺着他当年实例化时的**样例**（`instance_skill_example.md` + `reflection_example.md`），照着回填即可，编号取 `06-`。
 
 ### 6.4 新开一本书走哪条路
 
@@ -274,6 +283,10 @@ python scripts/extract.py --mode full                # 输出全本 txt（含目
 - ~~**硬编码本机路径**~~ ✅ 已解决：全部脚本改为由 `__file__` 推导项目根，源文本走 `_source/` + 环境变量。
 - **《客座赘语》侧需按 v4 回溯存量**：`00-book-knowledge-factory` 的枚举库已升 **v4**（回写客座全卷增量八组：GEO 新段 / LIT 四部树 / 事件 +4 顶层 / 名物 / 风俗 / 涉明 / 名录 / 实体），
   但客座实例 `references/schemas.md` 与实际数据仍是旧口径（GEO 跑出 52 种子类、EVT 111 种），需按归并表 registerVersion+1 回溯，走 `increment-upgrade.md`。
+- **《先进遗风》实例有两份**：`Skills/05-xianjinyifeng-knowledge/`（工厂 B 初版，只剩 SKILL.md + schemas.md + 模板）与
+  `xianjinyifeng-kb/05-xianjinyifeng-knowledge/`（工厂 A 重做的 6 层版，在活跃开发）。工程完工后应保留后者、归档前者。
+- **新实例的枚举快照仍是 v3 口径**：`xianjinyifeng-kb/.../references/schemas.md` 写的是 ENTITY 18 值 / EVENT 23 值，
+  而基准库已升 v4（20 / 27）。本书讲名臣清操轶事，`异闻` `宗教` 两类新顶层可能用得上，实例化收尾时同步一次。
 - **层命名未统一**：同为职官层，有的叫 `appt`、有的在 `data/appt/`；交付目录有 `_deliver/` 与 `交付物/` 两种写法。后续可考虑抽一层公共包。
 - **《水东日记》阅读器只有设计稿**：`交付物/Vue3多书知识阅读器设计文档.md` 尚未实现前端（全书知识资产本身已完成）。
 - **子项目 README 的「当前状态」章节可能过期**：五本的知识资产实际均已装填完成（本书目表已按实测核对），  
