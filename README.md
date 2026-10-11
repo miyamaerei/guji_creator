@@ -232,6 +232,39 @@ python scripts/extract.py --mode full                # 输出全本 txt（含目
 
 ---
 
+## 6.6 `tools/kb-mcp/`：枚举治理 MCP 服务（P0 只读）
+
+六部书的枚举散在五种互不兼容的载体里（工厂 Markdown 库、四种形态的 `_kg_enums.py`、
+层产物 JSON），人工核对既慢又容易漏。`tools/kb-mcp/` 把它变成可查询、可比对的工具。
+
+**当前 P0：全部只读**，不写任何文件。六个工具：
+
+| 工具 | 回答什么 |
+|---|---|
+| `kb_books` | 哪几本书能被读到？各自枚举后端是什么形态？ |
+| `enum_list` | 工厂基准库 / 某本书现在有哪些规范值和别名？ |
+| `enum_get` | 某个值到底有没有定义？在层产物里被用了多少次？ |
+| `enum_drift` | **层产物实际跑出多少种取值，有没有超出定义集？** |
+| `enum_sync` | 工厂库 / 实例 `_kg_enums.py` / `schemas.md` 三处差多少？ |
+| `enum_checklist` | 缺兜底值吗？树超深吗？哪一层压根没有枚举护栏？ |
+
+零第三方依赖（手写 MCP 协议，标准库实现），既可挂为 MCP 服务，也能直接命令行跑：
+
+```bash
+cd tools/kb-mcp
+python server.py selftest                      # 自检
+python server.py drift --book kezuozhuiyu-kb   # 漂移报告
+python server.py checklist                     # 全库体检
+```
+
+首次体检暴露的三件事：**客座赘语 6 层漂移 / 704 条库外记录**（#27 的实时佐证）；
+**新官轨范 proc、struct 两层完全没有枚举定义**（942 条记录无护栏）；
+蘧编与客座赘语**没有单点 `_kg_enums.py`**，只能用工厂库当基准。
+
+详见 `tools/kb-mcp/README.md`，路线与待办见 `docs/mcp-规划.md`。
+
+---
+
 ## 7. 环境要求与源文本放置
 
 - Python **3.12+**（五书均只用标准库，无第三方依赖，无需 `pip install`）
@@ -289,5 +322,8 @@ python scripts/extract.py --mode full                # 输出全本 txt（含目
   而基准库已升 v4（20 / 27）。本书讲名臣清操轶事，`异闻` `宗教` 两类新顶层可能用得上，实例化收尾时同步一次。
 - **层命名未统一**：同为职官层，有的叫 `appt`、有的在 `data/appt/`；交付目录有 `_deliver/` 与 `交付物/` 两种写法。后续可考虑抽一层公共包。
 - **《水东日记》阅读器只有设计稿**：`交付物/Vue3多书知识阅读器设计文档.md` 尚未实现前端（全书知识资产本身已完成）。
+- **枚举治理 MCP 仍在 P0（只读）**：`tools/kb-mcp/` 已能跑漂移/同步/体检，但写操作
+  （`propose / review / add / deprecate`）还没做，且**客座赘语、蘧编缺 `_kg_enums.py` 单点**
+  （P1.5 前置），这两本目前只能拿工厂库当基准。下一阶段先在《先进遗风》试点写链路。
 - **子项目 README 的「当前状态」章节可能过期**：五本的知识资产实际均已装填完成（本书目表已按实测核对），  
   但各子项目 README 里的进度段落是不同时点写的。`shuidongriji-kb/README.md` 已修正，其余四本待下次动工时同步。
