@@ -281,13 +281,21 @@ python server.py checklist                     # 全库体检
 
 ```bash
 cd tools/book-mcp
-python server.py selftest          # 自检
-python server.py list              # 列出 C1–C7
-python server.py get --id C5       # 取某条完整规定（如 C5 = 枚举单点必建）
+python server.py selftest              # 自检（20 项）
+python server.py list                  # C1–C7 七条契约
+python server.py get --id C5           # 某条契约（如 C5 = 枚举单点必建）
+python server.py layers                # 层库全部候选层（22 项）
+python server.py layer --key appt      # 某一层（key / code / 前缀 / 名称片段均可）
+python server.py enums                 # 基准枚举库 17 组
+python server.py enum --group EVENT    # 某组枚举：顶层值 + 子类值 + 别名映射
 ```
+
+六个工具：`contract_list` / `contract_get`（格式怎么定）、
+`layer_list` / `layer_get`（层怎么定义）、`enum_list` / `enum_get`（基准枚举值有哪些）。
 
 每条契约带 `why`（现状为什么乱）、`rules`（可校验点）、正反例与条文出处。
 `rules` 已按 `{check, args}` 结构化，将来 `book_check` 可直接遍历执行。
+**层定义与枚举值不抄进契约**——运行时从 `Skills/00-…/references/` 实时读，避免副本过期。
 
 **当前只做 C0**（最小的处理）：不扫任何书的数据、不生成脚手架、不做 `book_check`、不提供增改删。
 

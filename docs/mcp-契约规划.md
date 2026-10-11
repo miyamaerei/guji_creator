@@ -105,17 +105,42 @@
 
 ---
 
-## 4. 工具集（就这四个，不多）
+## 4. 工具集
+
+### 4.1 已落地（C0，六个只读工具）
 
 ```
-contract_list()                      # 列出 C1–C7 全部契约项与当前 format_version
-contract_get(id)                     # 取某条契约：规定 + 正例 + 反例 + 违反后果
+contract_list()                 # C1–C7 全部契约项 + format_version
+contract_get(id)                # 某条契约：规定 + 为什么 + 可校验点 + 正反例 + 出处
+layer_list()                    # 层库全部候选层（22 项）+ key/code/前缀/一句话定义
+layer_get(key)                  # 某一层完整定义（key / code / 前缀 / 名称片段均可查）
+enum_list(group?)               # 工厂基准枚举库 17 组及其规范值
+enum_get(group)                 # 某组枚举：顶层值 / 子类值 / 别名映射 + C5 格式要求
+```
+
+分两个面：**契约面**回答「格式怎么定」，**内容面**（层 + 枚举）回答「现成的层和基准值长什么样」——
+新书开工时这两类问题最高频（选层、定枚举），所以都做进来了。
+
+### 4.2 未做（C1/C2 及以后再说）
+
+```
 book_init(book, layers, prefixes)    # 按契约生成脚手架：目录 + _kg_enums.py + ID 前缀表 + schemas 骨架
-book_check(book)                     # 按契约校验全书，报违反项（C1–C7 逐条）
+book_check(book)                     # 按契约校验全书，报违反项（遍历 C1–C7 的 rules）
 ```
 
-`book_check` 是真正的主力——它把存量线的 `enum_drift` 从"交付后"挪到"写入前"。
+`book_check` 会是真正的主力——它把存量线的 `enum_drift` 从"交付后"挪到"写入前"，
+且可直接消费契约里已结构化的 `rules`，不必重新定义规则。
 其余（`add/update/delete`、`ent_merge`）**一律不做**，那些是治理动作，属于存量线。
+
+### 4.3 关键设计：不抄值
+
+层定义与枚举规范值**不复制进 `contract.json`**，而是运行时从
+`Skills/00-…/references/layer-library.md` 与 `enum-library.md` 读（路径写在契约的 `sources` 里）。
+
+理由：`enum-induction-guide.md` 曾抄了一份事件树，抄的时候是 v1 的 22 个顶层，
+实际已 27 个——**副本必然过期**。契约只存「格式规则」，内容一律实时读权威源。
+枚举值解析复用存量线 `kb_mcp/adapters.py`（它踩过 8 个坑），失败时 `enum_*` 降级，
+其余工具不受影响。
 
 ---
 
@@ -149,11 +174,17 @@ tools/book-mcp/
 
 ```bash
 cd tools/book-mcp
-python server.py selftest          # 自检（9 项）
-python server.py list              # 列出 C1–C7
-python server.py get --id C5       # 取某条完整规定（人类可读）
-python server.py get --id C5 --format json
+python server.py selftest              # 自检（20 项）
+python server.py list                  # C1–C7 七条契约
+python server.py get --id C5           # 某条契约的完整规定
+python server.py layers                # 层库全部候选层
+python server.py layer --key appt      # 某一层（key / code / 前缀 / 名称均可）
+python server.py enums                 # 基准枚举库 17 组
+python server.py enum --group EVENT    # 某组枚举：顶层值 + 子类值 + 别名
 ```
+
+六个工具：`contract_list` / `contract_get` / `layer_list` / `layer_get` / `enum_list` / `enum_get`。
+全部加 `--format json` 可拿结构化输出。
 
 挂为 MCP（`~/.workbuddy/mcp.json` 的 `mcpServers`）：
 

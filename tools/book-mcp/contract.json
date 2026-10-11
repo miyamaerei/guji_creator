@@ -6,8 +6,28 @@
   "principle": [
     "契约必须机器可读——否则又变成「人工读 Markdown 再人工比对」，正是枚举漂移（pitfalls #27）的根源。",
     "校验前置——违反在写入前被拒，不留到交付后复盘。",
-    "不回头治理存量——对旧书只读不写、不强制回溯。旧书的账由存量线自己结。"
+    "不回头治理存量——对旧书只读不写、不强制回溯。旧书的账由存量线自己结。",
+    "不抄值——契约只存「格式规则」，层定义与枚举值从权威源实时读，避免副本过期（enum-induction-guide 曾因抄值而过期的教训）。"
   ],
+  "sources": {
+    "layer_library": "../../Skills/00-book-knowledge-factory/references/layer-library.md",
+    "enum_library": "../../Skills/00-book-knowledge-factory/references/enum-library.md",
+    "note": "相对本文件所在目录。层定义与枚举规范值不抄进本文件，运行时从这两个源读，保证与权威源同步。"
+  },
+  "layer_key_by_code": {
+    "L0": "base",
+    "L1": "ent",
+    "L2": "rule",
+    "L3": "proc",
+    "L4": "struct",
+    "L5": "evt",
+    "V2": "review",
+    "V3": "enum_calib",
+    "note": "层库里 L0–L5 与 V2–V3 的标题不带 ID 前缀括号，故在此显式登记其 layer_key（与 C4 的 snake_case 要求一致）。C1–C12 / V1 的 key 直接取标题括号里的前缀小写。"
+  },
+  "layer_prefix_inferred": {
+    "note": "L0–L5 / V2–V3 在层库里没有写死 ID 前缀，工具按 layer_key 大写推导显示（如 ent→ENT、evt→EVT），并标 inferred=true。真实前缀按 C2 在开工时登记，推导值只作建议。"
+  },
   "contracts": [
     {
       "id": "C1",
