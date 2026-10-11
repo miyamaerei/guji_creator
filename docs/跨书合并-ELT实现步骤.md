@@ -10,11 +10,20 @@
 > **铁律不变**：零第三方依赖（仅 `sqlite3`、`json`、`re`、`os`、`argparse`）；
 > 复合主键 `(book_id, …)` 隔离撞号；原文只存指针；Tier1/2 全部可重建、不入 git；联邦只读六书、绝不回写。
 
-> **落地进度（2026-10-11）**：F0-a（撞号体检）与 F1（先进遗风单书试点）**已完成并实证**。
-> - `tools/kb-federation/` 已落地可跑：`kbdb.py` / `adapters/{__init__,base,layers_adapter}.py` / `extract.py` / `load.py` / `collision.py` / `federation.py`，均为零第三方依赖。
-> - 撞号体检复现设计数字：总 ID **14302** / 跨书撞号 **2847**（占 19.9%）/ ENT **2448**（详见 §2）。
-> - F1 实证：先进遗风 `items=100`、`records=19`（ent9/appt2/rel1/event2/opn1/trl4）、复合主键零重复、重跑幂等（再 load 总数不变）。
-> - **数据特征修正（已实现）**：先进遗风 ent 层无显式 `id`，且同一 `item_id` 在同层内重复（同一条目提到多实体，如 `01-039` 含王守仁/刑部/提牢厅）。故无 `id` 的层，local_id 取 `item_id#层内序号`，保证 `(book_id,layer_key,local_id)` 唯一且重跑稳定。
+> **落地进度（2026-10-11）**：F0-a / F1 / **F2（六书全量装载）均已落地并实证**。
+> - `tools/kb-federation/` 已落地可跑：`kbdb.py` / `collision.py` / `extract.py` / `load.py` / `federation.py` / `schema.sql` / `adapters/{__init__,base,layers_adapter,vol_layer_adapter,data_layer_adapter,norm_layer_adapter,xgf_adapter}.py`，均为零第三方依赖。
+> - **撞号体检**：总 ID **14302** / 跨书撞号 **2847**（占 19.9%）/ ENT **2448**（详见 §2）。将 8MB 扫描上限提到 64MB 后数字不变（蘧编 `归一_ents.json` 11MB 纳入后，其 ENT-5xx 段早已被他书撞过，不改总计）。
+> - **F1 实证**：先进遗风 `items=100`、`records=19`、复合主键零重复、重跑幂等。
+> - **F2 实证（六书全量）**：`federation.py load-all` 一次装载六书，结果——
+>   `items=3407`（kzz476/wzz1288/sdr1197/xgf275/qb71/xyf100）、
+>   `records=32647`（kzz13779/wzz10582/sdr4348/xgf1975/qb1944/xyf19）、
+>   `load_runs=6`（全 `done`）、`layer_catalog` 申报 55 个层（13/11/8/9/8/6）。
+>   **折叠丢失 = 0**：所有跨书撞号（含 ENT-2448）均由复合主键 `(book_id,layer_key,local_id)` 消解，DB 内 0 个重复主键组。
+> - **数据特征修正（F1/F2 已实现）**：
+>   1. 先进遗风 ent 层无显式 `id` 且同 `item_id` 同层重复 → local_id 取 `item_id#层内序号`。
+>   2. **客座/五杂俎 ID 按卷重排**（vol02 又从 `ENT-0001` 起）→ `local_id` 统一加卷前缀 `卷:ENT-xxxx` 隔离。
+>   3. **水东/新官 的 `id` 是「按实体」复用标识**（同一实体在多处出现，如 `ENT-263` 在一卷出现 6 次、`XGF-R-008` 出现 3 次）→ 用 `dedup_local_id` 追加 `#n` 后缀去重，保证每条记录都落到库里、零折叠。
+>   4. 蘧编 `归一_ents.json` 达 11MB（>旧 8MB 上限）→ 上限提到 64MB，否则实体层会被静默丢弃。
 
 ---
 
@@ -26,15 +35,15 @@ tools/kb-federation/
 ├── federation.py           # CLI 入口：create / collision / load / align / query
 ├── kbdb.py                 # 低层 DB 工具：连接、建库、uid 生成、幂等 upsert
 ├── adapters/
-│   ├── __init__.py         # 注册表：book_id → adapter 类 + 每书 catalog 声明
-│   ├── base.py             # BookAdapter 抽象基类 + LayerSlice 中间表
-│   ├── rows_adapter.py     # 客座/五杂俎：{rows:[],evts:[],...}
-│   ├── entries_adapter.py  # 新官：{entries:[],rules:[],processes:[],...}
-│   ├── list_adapter.py     # 水东：顶层 list（每条自带层标识）
-│   ├── records_adapter.py  # 蘧编：{records:{id:rec},...}
-│   └── layers_adapter.py   # 先进遗风：{fingerprints:[],layers:{key:[rec]}}
+│   ├── __init__.py         # 注册表：book_id → adapter 类 + 每书 catalog 声明 + LAYER_DECL
+│   ├── base.py             # BookAdapter 抽象基类 + LayerSlice + pick_id/build_local_id/dedup_local_id
+│   ├── layers_adapter.py   # 先进遗风（xyf）：{fingerprints:[],layers:{key:[rec]}}
+│   ├── vol_layer_adapter.py# 客座/五杂俎（kzz/wzz）：_layers/<layer>_<vol>.json
+│   ├── data_layer_adapter.py # 水东（sdr）：data/<layer>/*.json（ent 用 annotations，余用 records）
+│   ├── norm_layer_adapter.py # 蘧编（qb）：归一_<layer>.json（跨卷单文件，ID 全局唯一）
+│   └── xgf_adapter.py      # 新官（xgf）：多份「归一_汇总」文件（实体/规则/流程/事件/结构×5）
 ├── extract.py              # E 阶段：调 adapter → 标准中间表
-├── load.py                 # L 阶段：中间表 → Tier1（items/records）+ 写 catalog
+├── load.py                 # L 阶段：中间表 → Tier1（items/records）+ 写 catalog（含折叠告警）
 ├── transform.py            # T 阶段编排：T0→T1→T2→T3
 ├── name_resolver.py        # T1：ent_keys 名字 → node uid
 ├── align.py                # T2/T3：候选生成 + 集体消歧（并查集/传播/剪枝）
@@ -201,36 +210,41 @@ def load_book(con, book_id, *, wipe_first=True) -> LoadReport:
 
 ---
 
-## 4. F2 全量装载（补齐其余 4 个 adapter）
+## 4. F2 全量装载（补齐其余 4 个 adapter）✅ 已实现并实证
 
-### 4.1 写四个 adapter
+### 4.1 四个 adapter（实际形态与初版设计不同，按真实源数据落地）
 
-按 `LayerSlice` 契约，把四种 join 形态归一：
+初版设计的 `RowsAdapter/EntriesAdapter/ListAdapter/RecordsAdapter`（假设 join 是平铺容器列表）
+与真实源数据不符——实测六书的层产物是**各自分散的层文件**，且部分书的 `id` 是「按实体」复用标识。
+故改为按真实形态实现四个 adapter：
 
-| adapter | 书 | join 形态 | 抽取要点 |
+| adapter | 书 | 真实源形态 | 抽取要点 / 坑 |
 |---|---|---|---|
-| `RowsAdapter` | 客座 / 五杂俎 | `{rows:[],evts:[],...}` | 遍历**所有容器键**（events/evts 都认），按 `layer_key` 分桶；`layer_key` 从 key 名推断（evts→evt） |
-| `EntriesAdapter` | 新官 | `{entries:[],rules:[],processes:[],ledgers:[],times:[],docs:[],actors:[],frauds:[]}` | 同上，多容器；注意 `rule/process/struct` 是 annotation 不抽 node |
-| `ListAdapter` | 水东 | 顶层 `list`，每条自带层标识 | 按每条的层标识字段分流到对应 Slice |
-| `RecordsAdapter` | 蘧编 | `{records:{id:rec}, scope, items}` | dict → list，层 key 从 rec 结构推断（chr/mem/...） |
+| `LayersAdapter` | 先进遗风 xyf | `data/_layers/kg_join.json`：`{fingerprints:[],layers:{key:[rec]}}` | 全量最新；无 `id` 的层用 `item_id#层内序号` |
+| `VolLayerAdapter` | 客座 kzz / 五杂俎 wzz | `_layers/<layer>_<vol>.json`，wrapper 含 `records` | **ID 按卷重排**（vol02 又起 `ENT-0001`）→ `local_id` 加卷前缀；跳过 `ent_alias/ent_keys/ent_index` 等非层文件 |
+| `DataLayerAdapter` | 水东 sdr | `data/<layer>/*.json`，wrapper `{volume, annotations/records}` | ent 用 `annotations`，其余 7 层用 `records`；跳过 `ent_keys.json` 等非 wrapper；`id` 按实体复用 → 需 `#n` 去重 |
+| `NormLayerAdapter` | 蘧编 qb | `归一_<layer>.json`（跨卷单文件，`records` 列表） | ID 全局唯一；`归一_ents.json` 达 11MB（>旧 8MB）→ 扫描/装载上限提到 64MB |
+| `XgfAdapter` | 新官 xgf | 多份「归一_汇总」：实体/规则/流程/事件/结构(ledger/time/doc/actor/fraud) | `id` 按实体复用（`XGF-R-008` 出现 3 次）→ `#n` 去重；事件可借 `derived_from` 反推 item_id |
 
-**验收**：每书 `discover()` 返回的 Slice 数与 `layer-library` 实际层数匹配（如五杂俎 13 层、水东 8 层）。
+> **统一去重**：`base.build_local_id` 产出候选 `local_id`（有 `id` 直接用、可加卷前缀；无 `id` 用 `item_id#idx`）；
+> `base.dedup_local_id` 在 `(book,layer)` 内对重复候选追加 `#1/#2/...`，保证 `(book_id,layer_key,local_id)` 唯一、
+> 零 OR-REPLACE 折叠。这是 #27 反制的具体落地。
+
+**验收**：每书 `discover()` 返回的 Slice 数 = 该书实测层数（kzz13/wzz11/sdr8/qb8/xgf9/xyf6），且装载后 DB 内 0 个重复主键组。
 
 ### 4.2 六书全量 load
 
 ```bash
 python federation.py create --db kb.sqlite
 python federation.py collision           # 前置断言：撞号必须存在且被隔离
-for b in kzz wzz sdr xgf qb xyf; do
-  python federation.py load --book $b
-done
+python federation.py load-all            # 按 xyf→kzz→wzz→sdr→qb→xgf 顺序六书全装
 ```
 
-**验收**：
-- 撞号体检脚本通过（2847 个撞号全部以 `book_id` 前缀区分，无主键冲突）。
-- 六书 records 总和 ≈ 现有各层产物之和。
-- `load_runs` 六行，status 全 `done`。
-- 全文检索（若 FTS5 可用）：`fts_nodes` 可搜到「王守仁」且只命中含该名的书。
+**验收（均通过）**：
+- 撞号体检脚本通过（14302 ID / 2847 撞号 / ENT2448，全部以 `book_id` 前缀区分，零主键冲突）。
+- 六书 `records=32647`、`items=3407`，与各层产物之和一致；`load_runs=6` 全 `done`。
+- **折叠丢失 = 0**：`federation.py load-all` 在装载后比对「插入条数」与「去重主键数」，若有 `OR REPLACE` 折叠会告警；本次六书零折叠，跨书撞号已被复合主键完整消解。
+- 全文检索（FTS5 可用时）：`fts_nodes` 可建，可搜「王守仁」并只命中含该名的书（隔离未被打破）。
 
 ---
 

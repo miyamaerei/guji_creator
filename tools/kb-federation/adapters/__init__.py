@@ -1,13 +1,13 @@
 """adapters/__init__.py —— 注册表 + 每书 catalog 声明
 
 BOOK_ROOTS：六书相对仓库根的路径（撞号扫描用，不依赖 adapter 类）。
-BOOK_REGISTRY：现已实现 adapter 的书（F2 补全其余 5 本）。
+BOOK_REGISTRY：现已实现 6 本书的 adapter（F2 补全其余 5 本）。
 LAYER_DECL：层 key ↔ 形态 ↔ 前缀 ↔ kind 显式登记。取代运行时试探，
             正是契约线 C4/C5 在联邦线侧的兑现 —— 新书/新层只在此加几行，
             loader 逻辑不改。
 
-注意：LAYER_DECL 等数据定义必须在 import LayersAdapter 之前完成，
-否则 layers_adapter 里的 `from . import LAYER_DECL` 会因尚未定义而环形失败。
+注意：LAYER_DECL 等数据定义必须在 import 各 adapter 类之前完成，
+否则 adapter 里的 `from . import LAYER_DECL` 会因尚未定义而环形失败。
 """
 
 import os
@@ -35,33 +35,91 @@ BOOK_NAMES = {
     "xyf": "先进遗风",
 }
 
-# adapter 注册（F1 仅 xyf；F2 补全其余 4 个 adapter 类）
-BOOK_REGISTRY = {
-    "xyf": {
-        "class": None,  # 占位，下面赋值
-        "root": BOOK_ROOTS["xyf"],
-        "join": "data/_layers/kg_join.json",
-    },
+# 每书实际要装的层（白名单；同时是 LAYER_DECL 的 key 全集）
+BOOK_LAYERS = {
+    "kzz": ["ent", "event", "cit", "obj", "cus", "ming", "geo", "appt",
+            "nam", "lit", "opn", "rel", "trl"],
+    "wzz": ["ent", "event", "cit", "cus", "appt", "nam", "obj", "opn",
+            "ming", "rel", "trl"],
+    "sdr": ["ent", "appt", "event", "reg", "lit", "rel", "nam", "trl"],
+    "xgf": ["ent", "rule", "proc", "event", "ledger", "time", "doc",
+            "actor", "fraud"],
+    "qb": ["ent", "appt", "event", "rel", "lit", "mem", "chr", "trl"],
+    "xyf": ["ent", "appt", "rel", "event", "opn", "trl"],
 }
 
 # 层声明：层 key -> (kind, container_kind, id_prefix)
 #   kind: node | edge | annotation | profile
-#   container_kind: 来源形态（layers/rows/list/entries/records/fingerprints）
+#   container_kind: 来源形态（layers/data/norm/summary/fingerprints）
 #   id_prefix: 本书实际 ID 前缀；空串表示按 item_id 键控
 LAYER_DECL = {
+    # 客座赘语：13 层
+    "kzz": {
+        "ent": ("node", "layers", "ENT-"), "event": ("edge", "layers", "EVENT-"),
+        "cit": ("annotation", "layers", "CIT-"), "obj": ("annotation", "layers", "OBJ-"),
+        "cus": ("annotation", "layers", "CUS-"), "ming": ("annotation", "layers", "MING-"),
+        "geo": ("node", "layers", "GEO-"), "appt": ("edge", "layers", "APPT-"),
+        "nam": ("annotation", "layers", "NAM-"), "lit": ("annotation", "layers", "LIT-"),
+        "opn": ("annotation", "layers", "OPN-"), "rel": ("edge", "layers", "REL-"),
+        "trl": ("annotation", "layers", "TRL-"),
+    },
+    # 五杂俎：11 层（无 geo）
+    "wzz": {
+        "ent": ("node", "layers", "ENT-"), "event": ("edge", "layers", "EVENT-"),
+        "cit": ("annotation", "layers", "CIT-"), "cus": ("annotation", "layers", "CUS-"),
+        "appt": ("edge", "layers", "APPT-"), "nam": ("annotation", "layers", "NAM-"),
+        "obj": ("annotation", "layers", "OBJ-"), "opn": ("annotation", "layers", "OPN-"),
+        "ming": ("annotation", "layers", "MING-"), "rel": ("edge", "layers", "REL-"),
+        "trl": ("annotation", "layers", "TRL-"),
+    },
+    # 水东日记：8 层
+    "sdr": {
+        "ent": ("node", "data", "ENT-"), "appt": ("edge", "data", "APPT-"),
+        "event": ("edge", "data", "EVENT-"), "reg": ("annotation", "data", "REG-"),
+        "lit": ("annotation", "data", "LIT-"), "rel": ("edge", "data", "REL-"),
+        "nam": ("annotation", "data", "NAM-"), "trl": ("annotation", "data", "TRL-"),
+    },
+    # 新官轨范：9 层（结构拆 5 子层）
+    "xgf": {
+        "ent": ("node", "summary", "ENT-"), "rule": ("annotation", "summary", "XGF-R-"),
+        "proc": ("annotation", "summary", "XGF-P-"), "event": ("edge", "summary", "XGF-E-"),
+        "ledger": ("annotation", "summary", "LED-"), "time": ("annotation", "summary", "TME-"),
+        "doc": ("annotation", "summary", "DOC-"), "actor": ("annotation", "summary", "ACT-"),
+        "fraud": ("annotation", "summary", "FRD-"),
+    },
+    # 蘧编：8 层
+    "qb": {
+        "ent": ("node", "norm", "ENT-"), "appt": ("edge", "norm", "APPT-"),
+        "event": ("edge", "norm", "EVENT-"), "rel": ("edge", "norm", "REL-"),
+        "lit": ("annotation", "norm", "LIT-"), "mem": ("annotation", "norm", "MEM-"),
+        "chr": ("edge", "norm", "CHR-"), "trl": ("annotation", "norm", "TRL-"),
+    },
+    # 先进遗风：6 层
     "xyf": {
-        "ent": ("node", "layers", ""),
-        "appt": ("edge", "layers", ""),
-        "rel": ("edge", "layers", "REL-"),
-        "event": ("edge", "layers", "XJF-E-"),
-        "opn": ("annotation", "layers", ""),
-        "trl": ("annotation", "layers", ""),
+        "ent": ("node", "layers", ""), "appt": ("edge", "layers", ""),
+        "rel": ("edge", "layers", "REL-"), "event": ("edge", "layers", "XJF-E-"),
+        "opn": ("annotation", "layers", ""), "trl": ("annotation", "layers", ""),
     },
 }
 
+# adapter 注册（F2 已补全全部 6 本）
+from .vol_layer_adapter import VolLayerAdapter  # noqa: E402
+from .data_layer_adapter import DataLayerAdapter  # noqa: E402
+from .norm_layer_adapter import NormLayerAdapter  # noqa: E402
+from .xgf_adapter import XgfAdapter  # noqa: E402
 from .layers_adapter import LayersAdapter  # noqa: E402
 
-BOOK_REGISTRY["xyf"]["class"] = LayersAdapter
+BOOK_REGISTRY = {
+    "kzz": {"class": VolLayerAdapter, "root": BOOK_ROOTS["kzz"],
+            "layer_keys": BOOK_LAYERS["kzz"]},
+    "wzz": {"class": VolLayerAdapter, "root": BOOK_ROOTS["wzz"],
+            "layer_keys": BOOK_LAYERS["wzz"]},
+    "sdr": {"class": DataLayerAdapter, "root": BOOK_ROOTS["sdr"]},
+    "xgf": {"class": XgfAdapter, "root": BOOK_ROOTS["xgf"]},
+    "qb": {"class": NormLayerAdapter, "root": BOOK_ROOTS["qb"]},
+    "xyf": {"class": LayersAdapter, "root": BOOK_ROOTS["xyf"],
+            "join": "data/_layers/kg_join.json"},
+}
 
 
 def book_source_root(book_id):
@@ -71,17 +129,25 @@ def book_source_root(book_id):
 def make_adapter(book_id):
     reg = BOOK_REGISTRY[book_id]
     root = os.path.join(REPO_ROOT, reg["root"])
-    if reg["class"] is LayersAdapter:
-        return LayersAdapter(book_id, root, reg["join"])
-    return reg["class"](book_id, root)
+    cls = reg["class"]
+    if cls is VolLayerAdapter:
+        return cls(book_id, root, reg["layer_keys"])
+    if cls is LayersAdapter:
+        return cls(book_id, root, reg["join"])
+    return cls(book_id, root)
 
 
 __all__ = [
     "BookAdapter",
     "LayerSlice",
+    "VolLayerAdapter",
+    "DataLayerAdapter",
+    "NormLayerAdapter",
+    "XgfAdapter",
     "LayersAdapter",
     "BOOK_ROOTS",
     "BOOK_NAMES",
+    "BOOK_LAYERS",
     "BOOK_REGISTRY",
     "LAYER_DECL",
     "REPO_ROOT",

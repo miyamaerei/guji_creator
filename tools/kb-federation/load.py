@@ -110,7 +110,14 @@ def load_records(con, book_id, slices, adapter):
                 }
             )
     upsert(con, "records", rec_rows, ["book_id", "layer_key", "local_id"])
-    return len(item_rows), len(rec_rows)
+    # 防御性检查：插入的去重主键数若小于记录数，说明同 (book,layer,local_id)
+    # 出现重复 —— 通常是某书 ID 按卷重排却没加卷前缀导致的折叠。
+    distinct = con.execute(
+        "SELECT COUNT(*) FROM (SELECT 1 FROM records WHERE book_id=? "
+        "GROUP BY book_id,layer_key,local_id)",
+        (book_id,),
+    ).fetchone()[0]
+    return len(item_rows), len(rec_rows), distinct
 
 
 def load_book(con, book_id, *, wipe_first=True, commit=True):
@@ -119,8 +126,15 @@ def load_book(con, book_id, *, wipe_first=True, commit=True):
         wipe_book(con, book_id)
     slices = adapter.discover()
     n_cat, n_field = register_catalog(con, book_id, slices)
-    n_items, n_rec = load_records(con, book_id, slices, adapter)
+    n_items, n_rec, distinct = load_records(con, book_id, slices, adapter)
     counts = {k: len(s.records) for k, s in slices.items()}
+    # 主键折叠告警（F2 关键断言：六书 ID 撞号必须由复合主键消解，不能静默丢记录）
+    collision_lost = n_rec - distinct
+    if collision_lost > 0:
+        print(
+            f"  ⚠️ 警告：{book_id} 有 {collision_lost} 条记录因 "
+            f"(book,layer,local_id) 重复被 OR REPLACE 折叠 —— 请检查 ID 命名空间！"
+        )
     con.execute(
         "INSERT INTO load_runs(book_id,started_at,finished_at,status,record_counts) "
         "VALUES(?,?,?,?,?)",
@@ -133,6 +147,8 @@ def load_book(con, book_id, *, wipe_first=True, commit=True):
         "layers": counts,
         "items": n_items,
         "records": n_rec,
+        "distinct": distinct,
+        "collision_lost": collision_lost,
         "catalog": n_cat,
         "fields": n_field,
     }

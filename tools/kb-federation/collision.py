@@ -40,7 +40,7 @@ def iter_json_files(root):
                 continue
             p = os.path.join(dp, f)
             try:
-                if os.path.getsize(p) > 8 * 1024 * 1024:  # >8MB 跳过
+                if os.path.getsize(p) > 64 * 1024 * 1024:  # 大文件（如蘧编 ents 11MB）不跳过
                     continue
             except OSError:
                 continue
