@@ -1,0 +1,430 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "03",
+ "chapter": "卷下_上任第一",
+ "chapter_no": "03",
+ "source_file": "03_卷下_上任第一.xhtml",
+ "item_count": 16,
+ "rule_item_count": 12,
+ "rule_count": 12,
+ "rules": [
+  {
+   "rule_id": "XGF-R-056",
+   "type": "禁止型+处罚型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "计论□俭，但祭祀仪注看过，预戒礼生务如礼仪，令兵房戒谕诸色人等；喧哗；挤塞观望，亦不遽然行刑",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "兵房戒谕诸色人等",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "点上任参见先后，起数来看，以便明日酬答",
+   "source": "03_卷下_上任第一.xhtml#条1",
+   "original": "初到境上，择善地停泊着落兵房，整点祗候，省谕地方，并礼房引领官属父老人等记名来参，就令洒扫，合祭神宇，备祭仪以候谒告，其祭仪皆从前。署印官备办，不得计论□俭，但祭祀仪注看过，预戒礼生务如礼仪，令兵房戒谕诸色人等不得喧哗，不得挤塞观望，亦不遽然行刑，其吏房打点上任参见先后，起数来看，以便明日酬答。",
+   "original_offset": {
+    "start": 0,
+    "end": 148
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】日常政务时，若计论□俭，但祭祀仪注看过，预戒礼生务如礼仪，令兵房戒谕诸色人等；喧哗；挤塞观望，亦不遽然行刑，即属违禁；合规做法：改用文内许可途径。【场景】违者依规点上任参见先后，起数来看，以便明日酬答。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 1
+  },
+  {
+   "rule_id": "XGF-R-057",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "凡献爵读祝，皆行跪礼",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "先与礼生议定，依仪注行礼，令人不误",
+   "prohibited_effect": "",
+   "object": "人不误",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条2",
+   "original": "凡献爵读祝，皆行跪礼。须先与礼生议定，依仪注行礼，令人不误，",
+   "original_offset": {
+    "start": 10,
+    "end": 40
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡献爵读祝，皆行跪礼时，官府（知县）应先与礼生议定，依仪注行礼，令人不误。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 2
+  },
+  {
+   "rule_id": "XGF-R-058",
+   "type": "禁止型+允许型+义务型+程序型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "allow",
+    "obligation",
+    "procedure"
+   ],
+   "condition": "入县当问民问俗志",
+   "subject": "官府（知县）",
+   "prohibited_action": "先执己见，逆民心；偏听，拘×向远走××",
+   "allowed_action": "各投次序，引导随从",
+   "obligation_action": "鼓乐",
+   "prohibited_effect": "",
+   "object": "×向远走××",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条3",
+   "original": "入县当问民问俗志，不可先执己见，逆民心，又不可偏听，拘×向远走××，止许各投次序，引导随从，不须鼓乐。",
+   "original_offset": {
+    "start": 0,
+    "end": 51
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】入县当问民问俗志时，若先执己见，逆民心；偏听，拘×向远走××，即属违禁；合规做法：各投次序，引导随从。【场景】入县当问民问俗志时，官府（知县）应鼓乐。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-059",
+   "type": "禁止型+义务型+程序型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "obligation",
+    "procedure"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "坐谕",
+   "allowed_action": "",
+   "obligation_action": "知，吏房先取到任公文签押；吏典逐一指点签押，直印吏众开印禀说某字几号铜印一颗，四角俱全，就将所佥公文用印毕，分付同僚及该吏，各将公文、仓库、狱囚、门禁等项钥匙整理文案，逐一交割乃退",
+   "prohibited_effect": "",
+   "object": "签押",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条4",
+   "original": "先期于仪门外设坐次，待至，就易公服。从中道入，于站台上望阙谢恩毕，仍与僚属拱手上厅。着落吏礼房分付诸色人等各于仪门外以次伺候参见，其师生候于便厅升公座，皂隶排衙，阴阳生报时，吏房送公座与同僚取笔押字毕，起与同僚供手退后堂，便服出堂。原署印官吏交割，次序放诸色人入，立厅下门子、禁子、祗候之类，先参次吏典二拜，坐受次属官二拜，坐受一属官二拜，坐而拱手，次首领官二拜，起身供手。次学官出公座答礼，佐贰官二拜答礼，毕谕僚属，遣礼生代谕亦可，但不可坐谕。次则发放合属并生员先出，乃揖同僚一人，陪学官入后堂待茶，仍复上公座。各房呈递须知，吏房先取到任公文签押，须吏典逐一指点签押，直印吏众开印禀说某字几号铜印一颗，四角俱全，就将所佥公文用印毕，分付同僚及该吏，各将公文、仓库、狱囚、门禁等项钥匙整理文案，逐一交割乃退。",
+   "original_offset": {
+    "start": 0,
+    "end": 354
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若坐谕，即属违禁；合规做法：改用文内许可途径。【场景】日常政务时，官府（知县）应知，吏房先取到任公文签押；吏典逐一指点签押，直印吏众开印禀说某字几号铜印一颗，四角俱全，就将所佥公文用印毕，分付同僚及该吏，各将公文、仓库、狱囚、门禁等项钥匙整理文案，逐一交割乃退。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 4
+  },
+  {
+   "rule_id": "XGF-R-060",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "歌唱喧哗",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条5",
+   "original": "佐贰首领及学官，候佥押发放之后，请入后堂，以所祭物从俭设席。正官首席坐，佐贰官、东南学官、西南首领官傍坐，属官不与。吏、礼房行酒六七行，不得歌唱喧哗。祭物有余，分给父老吏典，问以县中急务。",
+   "original_offset": {
+    "start": 0,
+    "end": 94
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若歌唱喧哗，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 5
+  },
+  {
+   "rule_id": "XGF-R-061",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "势豪子弟混入进见",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条6",
+   "original": "□□来贺乡官次门上，值日阴阳生每日用二名，俱各分付见任致仕首领官、寿官、义官，及京官子弟会齐，次第报入。免举酒请酒，坐待酒叙话，迎送远近酒，问前官所行，再自斟酌，不许势豪子弟混入进见。",
+   "original_offset": {
+    "start": 0,
+    "end": 92
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若势豪子弟混入进见，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 6
+  },
+  {
+   "rule_id": "XGF-R-062",
+   "type": "义务型+时限型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "deadline",
+    "prohibit"
+   ],
+   "condition": "到任次日",
+   "subject": "官府（知县）",
+   "prohibited_action": "听求免",
+   "allowed_action": "",
+   "obligation_action": "知事件；知体式，点有违误",
+   "prohibited_effect": "",
+   "object": "有违误",
+   "purpose": "",
+   "deadline": "依式改正",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条8",
+   "original": "到任次日，将各房所递须知事件，取原领须知体式，点有违误，责限依式改正。三日后不改正，呈报者即将司吏取问违制，勿听求免。",
+   "original_offset": {
+    "start": 0,
+    "end": 59
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】到任次日时，若听求免，即属违禁；合规做法：改用文内许可途径。【场景】到任次日时，官府（知县）应知事件；知体式，点有违误。【场景】到任次日事项须在依式改正内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-063",
+   "type": "禁止型+程序型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "完者，亦便举行",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条9",
+   "original": "到任次日，先问刷过卷案，将通照卷宗抄入交卷小册次第完结，如有不可完者，亦便举行。",
+   "original_offset": {
+    "start": 0,
+    "end": 40
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若完者，亦便举行，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 9
+  },
+  {
+   "rule_id": "XGF-R-064",
+   "type": "时限型",
+   "primary_type": "时限型",
+   "is_combo": false,
+   "modals": [
+    "deadline"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "完报",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条10",
+   "original": "到任次日，查取六房勘合卷宗及上司有司催并事件，立限完报。",
+   "original_offset": {
+    "start": 0,
+    "end": 28
+   },
+   "confidence": 0.81,
+   "example": {
+    "text": "【场景】日常政务事项须在完报内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 10
+  },
+  {
+   "rule_id": "XGF-R-065",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "若寄监者",
+   "subject": "官府（知县）",
+   "prohibited_action": "拘留",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条11",
+   "original": "若寄监者，不许拘留。",
+   "original_offset": {
+    "start": 74,
+    "end": 84
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若寄监者时，若拘留，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 11
+  },
+  {
+   "rule_id": "XGF-R-066",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "若金银钱物，逐一拆封看验，计号上帐",
+   "subject": "官府（知县）",
+   "prohibited_action": "信凭领状",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条12",
+   "original": "若金银钱物，逐一拆封看验，计号上帐。遇要放支，先要取卷查数明白，不可信凭领状。",
+   "original_offset": {
+    "start": 32,
+    "end": 71
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若金银钱物，逐一拆封看验，计号上帐时，若信凭领状，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 12
+  },
+  {
+   "rule_id": "XGF-R-067",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "急遽苟且",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条13",
+   "original": "将所行事件，且依旧施行，有当革者，渐更改。若有禁约，宜从□访问而行，不可急遽苟且。",
+   "original_offset": {
+    "start": 0,
+    "end": 41
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若急遽苟且，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "03",
+   "chapter": "卷下_上任第一",
+   "item": 13
+  }
+ ]
+}

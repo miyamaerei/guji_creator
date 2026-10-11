@@ -1,0 +1,723 @@
+{
+ "schema_version": "kg-struct-ai-json-v1",
+ "struct_version": "struct-ai-v1",
+ "volume": "11",
+ "chapter": "卷下_词讼第九",
+ "source_file": "11_卷下_词讼第九.xhtml",
+ "ledgers_count": 5,
+ "ledgers": [
+  {
+   "name": "斗殴伤医回报簿",
+   "purpose": "斗殴验伤医治、平复回报",
+   "keeper": "直日医生",
+   "entry": "验实有伤、原被害告人、汤药供给、平复回报",
+   "frequency": "当日拘拿即医",
+   "check": "伤重不堪调理呈白究治，将原犯入监",
+   "anti_fraud": "防斗殴伤不治、防伤情隐漏",
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "confidence": 0.9,
+   "analysis": "伤医台账：验伤→眼同医治→平复回报。",
+   "ledger_id": "LGR-094",
+   "original": "凡斗殴者，俱要当日陈告拘拿到官。验实有伤，责令直日医生带同原、被害告人于廨处眼同医治，供给汤药，平复回报。如伤重不堪调理，须呈白究治，将原犯入监。",
+   "derived_rule": "XGF-R-259",
+   "item_id": "11-001"
+  },
+  {
+   "name": "申明亭示众簿",
+   "purpose": "兄弟叔侄亲族争讼监内并锁带出申明亭示众",
+   "keeper": "官府",
+   "entry": "争讼人犯、并锁连杻、示众候悔",
+   "frequency": "每日（不能决者）",
+   "check": "候各犯自悔如息",
+   "anti_fraud": "防亲族争讼不决",
+   "source": "11_卷下_词讼第九.xhtml#条2",
+   "confidence": 0.88,
+   "analysis": "申明亭示众：并锁连杻→示众→候悔。",
+   "ledger_id": "LGR-095",
+   "original": "凡兄弟叔侄及亲戚争论，不能决者，每日监内并锁连杻带出申明亭示众，以候各犯自悔如息。",
+   "derived_rule": "XGF-R-260",
+   "item_id": "11-002"
+  },
+  {
+   "name": "要紧重犯木牌",
+   "purpose": "要紧重犯另置木牌十面挂后堂，亲笔出名密差捉获",
+   "keeper": "官府（后堂）",
+   "entry": "要紧重犯名姓（亲笔出名）",
+   "frequency": "遇要行拿时",
+   "check": "密差应捕刻期捉获",
+   "anti_fraud": "防重犯走漏",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.9,
+   "analysis": "重犯木牌：置牌→亲笔出名→密差刻期。",
+   "ledger_id": "LGR-096",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013"
+  },
+  {
+   "name": "拘摄发牌簿",
+   "purpose": "拘摄量地方远近人犯多寡定日期发牌",
+   "keeper": "官府",
+   "entry": "地方远近、人犯多寡、拘唤日期",
+   "frequency": "拘摄时",
+   "check": "发牌拘唤，不可凭吏妄听举行",
+   "anti_fraud": "防凭吏妄听滥拘",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.9,
+   "analysis": "拘摄牌：量远近→定日期→发牌。",
+   "ledger_id": "LGR-097",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013"
+  },
+  {
+   "name": "里老词讼缴引",
+   "purpose": "里老承办词讼，情轻判明及自息和者朔望引缴",
+   "keeper": "里老",
+   "entry": "词讼缘由、干证二三人、判理明白/自息和",
+   "frequency": "每月朔望日辰时引缴",
+   "check": "余日不准，可免拘留人众",
+   "anti_fraud": "防拘留人众",
+   "source": "11_卷下_词讼第九.xhtml#条12",
+   "confidence": 0.88,
+   "analysis": "里老词讼缴引：带干证→判理/自息→朔望引缴。",
+   "ledger_id": "LGR-098",
+   "original": "里老承办词讼，如有事情难豁者，即带干证紧关二三人。如情轻，判理明白及自息和者，止将缘由每月于朔望日辰时引缴，余日不准，可免拘留人众。",
+   "derived_rule": "XGF-R-270",
+   "item_id": "11-012"
+  }
+ ],
+ "times_count": 6,
+ "times": [
+  {
+   "keyword": "当日",
+   "value": "当日",
+   "unit": "日",
+   "scope": "斗殴陈告拘拿到官",
+   "frequency": "随告随拘",
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "confidence": 0.9,
+   "analysis": "斗殴当日拘拿。",
+   "time_id": "TME-133",
+   "original": "凡斗殴者，俱要当日陈告拘拿到官。验实有伤，责令直日医生带同原、被害告人于廨处眼同医治，供给汤药，平复回报。如伤重不堪调理，须呈白究治，将原犯入监。",
+   "derived_rule": "XGF-R-259",
+   "item_id": "11-001"
+  },
+  {
+   "keyword": "远不三日/不过三日",
+   "value": "不超过3日",
+   "unit": "日",
+   "scope": "人命告理、检验",
+   "frequency": "人命案",
+   "source": "11_卷下_词讼第九.xhtml#条6",
+   "confidence": 0.93,
+   "analysis": "人命案告理检验三日限。",
+   "time_id": "TME-134",
+   "original": "凡告人命，远不三日，过期告理不准。若谋杀、故杀，检验亦不过三日，若过期杀及斗殴致死者，须要勘提，不可巡抚，以误两家。",
+   "derived_rule": "XGF-R-264",
+   "item_id": "11-006"
+  },
+  {
+   "keyword": "每十日一放告/每日放告",
+   "value": "户婚田土10日一放告；斗殴人命奸盗每日放告",
+   "unit": "日",
+   "scope": "词状受理节奏",
+   "frequency": "10日/每日",
+   "source": "11_卷下_词讼第九.xhtml#条9",
+   "confidence": 0.93,
+   "analysis": "放告节奏分级：常事十日、重事每日。",
+   "time_id": "TME-135",
+   "original": "告户婚田土等事，每十日一放告。若斗殴人命奸盗，每日放告。",
+   "derived_rule": "XGF-R-267",
+   "item_id": "11-009"
+  },
+  {
+   "keyword": "朔望日辰时",
+   "value": "每月朔望日辰时",
+   "unit": "月/时",
+   "scope": "里老词讼引缴",
+   "frequency": "每月2次",
+   "source": "11_卷下_词讼第九.xhtml#条12",
+   "confidence": 0.9,
+   "analysis": "里老词讼朔望辰时引缴。",
+   "time_id": "TME-136",
+   "original": "里老承办词讼，如有事情难豁者，即带干证紧关二三人。如情轻，判理明白及自息和者，止将缘由每月于朔望日辰时引缴，余日不准，可免拘留人众。",
+   "derived_rule": "XGF-R-270",
+   "item_id": "11-012"
+  },
+  {
+   "keyword": "量地方远近定日期/刻期",
+   "value": "按远近定日；刻期捉获",
+   "unit": "日",
+   "scope": "拘摄日期、重犯捉获限期",
+   "frequency": "拘摄时",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.9,
+   "analysis": "拘摄定日+刻期捉获。",
+   "time_id": "TME-137",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013"
+  },
+  {
+   "keyword": "立定限期",
+   "value": "立限期",
+   "unit": "日",
+   "scope": "海行事件轻省词讼准自投到",
+   "frequency": "告示时",
+   "source": "11_卷下_词讼第九.xhtml#条14",
+   "confidence": 0.85,
+   "analysis": "轻省词讼限期自投。",
+   "time_id": "TME-138",
+   "original": "凡遇海行事件及轻省词讼，须开写告示，立定限期，准自投到。如有监人命差，委里老应捕拘促，情愿不服，应申照律施行。如争情可处者，且从宽，如着犯有力亲属缉捕，切不可滥差，添皂隶人等。",
+   "derived_rule": "XGF-R-272",
+   "item_id": "11-014"
+  }
+ ],
+ "docs_count": 5,
+ "docs": [
+  {
+   "doc_type": "伤医回报",
+   "stages": [
+    {
+     "stage": "验伤",
+     "action": "斗殴当日陈告拘拿到官，验实有伤",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "医治",
+     "action": "责令直日医生带同原被害告人于廨处眼同医治，供给汤药",
+     "agent": "直日医生",
+     "location": "廨处"
+    },
+    {
+     "stage": "回报",
+     "action": "平复回报；伤重不堪调理须呈白究治，将原犯入监",
+     "agent": "直日医生",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防斗殴伤不治、防伤情隐漏",
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "confidence": 0.9,
+   "analysis": "伤医文书生命周期：验伤→医治→回报/究治。",
+   "doc_id": "DOC-083",
+   "original": "凡斗殴者，俱要当日陈告拘拿到官。验实有伤，责令直日医生带同原、被害告人于廨处眼同医治，供给汤药，平复回报。如伤重不堪调理，须呈白究治，将原犯入监。",
+   "derived_rule": "XGF-R-259",
+   "item_id": "11-001"
+  },
+  {
+   "doc_type": "词状受理",
+   "stages": [
+    {
+     "stage": "审理",
+     "action": "些小钱债及无力家贫被骗即与管理拘追；富豪数多者不与追理",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "踏看",
+     "action": "告田土须着实踏看，公事自行到彼一问胜如委人",
+     "agent": "新官",
+     "location": "田所"
+    },
+    {
+     "stage": "准驳",
+     "action": "粮数不清典卖不明年远不与准理；人命远不三日过期不准",
+     "agent": "官府",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防词状滥准混理",
+   "source": "11_卷下_词讼第九.xhtml#条7",
+   "confidence": 0.93,
+   "analysis": "词状受理：审理→踏看→准驳。",
+   "doc_id": "DOC-084",
+   "original": "告些小钱债，及无力家贫被骗，即与管理拘追。若富豪之家，并所告人多及钱米数多者，不与追理。",
+   "derived_rule": "XGF-R-265",
+   "item_id": "11-007"
+  },
+  {
+   "doc_type": "放告告示",
+   "stages": [
+    {
+     "stage": "定日",
+     "action": "户婚田土每十日一放告，斗殴人命奸盗每日放告",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "告示",
+     "action": "海行事件及轻省词讼开写告示立定限期准自投到",
+     "agent": "官府",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防词讼积压",
+   "source": "11_卷下_词讼第九.xhtml#条9",
+   "confidence": 0.88,
+   "analysis": "放告节奏：重事每日、常事十日。",
+   "doc_id": "DOC-085",
+   "original": "告户婚田土等事，每十日一放告。若斗殴人命奸盗，每日放告。",
+   "derived_rule": "XGF-R-267",
+   "item_id": "11-009"
+  },
+  {
+   "doc_type": "木牌拘拿",
+   "stages": [
+    {
+     "stage": "置牌",
+     "action": "要紧重犯另置木牌十面挂于后堂",
+     "agent": "官府",
+     "location": "后堂"
+    },
+    {
+     "stage": "出名",
+     "action": "遇要行拿亲笔出名于上",
+     "agent": "新官",
+     "location": "后堂"
+    },
+    {
+     "stage": "捉获",
+     "action": "密差应捕刻期捉获，不容皂隶等押带囚犯出外召保",
+     "agent": "应捕",
+     "location": "地方"
+    }
+   ],
+   "anti_fraud": "防重犯走漏、防皂隶召保",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.9,
+   "analysis": "重犯拘拿：置牌→亲笔出名→密差刻期。",
+   "doc_id": "DOC-086",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013"
+  },
+  {
+   "doc_type": "里老词讼引缴",
+   "stages": [
+    {
+     "stage": "承办",
+     "action": "里老承办词讼，事情难豁者带干证紧关二三人",
+     "agent": "里老",
+     "location": "本里"
+    },
+    {
+     "stage": "判息",
+     "action": "情轻判理明白及自息和者，止将缘由",
+     "agent": "里老",
+     "location": "本里"
+    },
+    {
+     "stage": "引缴",
+     "action": "每月朔望日辰时引缴，余日不准",
+     "agent": "里老",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防拘留人众",
+   "source": "11_卷下_词讼第九.xhtml#条12",
+   "confidence": 0.88,
+   "analysis": "里老词讼生命周期：承办→判息→朔望引缴。",
+   "doc_id": "DOC-087",
+   "original": "里老承办词讼，如有事情难豁者，即带干证紧关二三人。如情轻，判理明白及自息和者，止将缘由每月于朔望日辰时引缴，余日不准，可免拘留人众。",
+   "derived_rule": "XGF-R-270",
+   "item_id": "11-012"
+  }
+ ],
+ "actors_count": 7,
+ "actors": [
+  {
+   "name": "直日医生",
+   "role_type": "专业",
+   "affiliation": "县衙医学",
+   "duties": [
+    {
+     "duty": "斗殴伤带同原被害告人眼同医治，供给汤药，平复回报",
+     "from_source": "11-001"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "11-001"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "confidence": 0.88,
+   "analysis": "伤医执行者。",
+   "actor_id": "ACT-151",
+   "original": "凡斗殴者，俱要当日陈告拘拿到官。验实有伤，责令直日医生带同原、被害告人于廨处眼同医治，供给汤药，平复回报。如伤重不堪调理，须呈白究治，将原犯入监。",
+   "derived_rule": "XGF-R-259",
+   "item_id": "11-001",
+   "ent_ids": []
+  },
+  {
+   "name": "干证人",
+   "role_type": "民",
+   "affiliation": "词讼相关",
+   "duties": [
+    {
+     "duty": "量拘紧关人犯（多则三四人少则二人）；责审口词相同即将干证先省回家",
+     "from_source": "11-011"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "官府",
+     "source": "11-011"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条11",
+   "confidence": 0.85,
+   "analysis": "干证拘审与释放。",
+   "actor_id": "ACT-152",
+   "original": "有词讼应理者，量拘紧关人犯，多则三四人，少则二人。责审口词相同，即将干证人先省回家，不可将老幼及妇女一概监提，不许照名罚赎。",
+   "derived_rule": "XGF-R-269",
+   "item_id": "11-011",
+   "ent_ids": []
+  },
+  {
+   "name": "里老",
+   "role_type": "民役",
+   "affiliation": "各里",
+   "duties": [
+    {
+     "duty": "承办词讼，事情难豁者带干证紧关二三人；情轻判理明白及自息和者朔望引缴",
+     "from_source": "11-012"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "11-012"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条12",
+   "confidence": 0.88,
+   "analysis": "基层词讼承办。",
+   "actor_id": "ACT-153",
+   "original": "里老承办词讼，如有事情难豁者，即带干证紧关二三人。如情轻，判理明白及自息和者，止将缘由每月于朔望日辰时引缴，余日不准，可免拘留人众。",
+   "derived_rule": "XGF-R-270",
+   "item_id": "11-012",
+   "ent_ids": [
+    "ENT-017"
+   ]
+  },
+  {
+   "name": "应捕",
+   "role_type": "役",
+   "affiliation": "县衙（捕役）",
+   "duties": [
+    {
+     "duty": "密差刻期捉获要紧重犯",
+     "from_source": "11-013"
+    },
+    {
+     "duty": "监人命差委里老应捕拘促",
+     "from_source": "11-014"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "11-013"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.85,
+   "analysis": "重犯捉获执行。",
+   "actor_id": "ACT-154",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013",
+   "ent_ids": [
+    "ENT-137"
+   ]
+  },
+  {
+   "name": "皂隶",
+   "role_type": "役",
+   "affiliation": "县衙（三班）",
+   "duties": [
+    {
+     "duty": "（被约束）不容皂隶等押带囚犯出外召保",
+     "from_source": "11-013"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被禁召保",
+     "target": "官府",
+     "source": "11-013"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.85,
+   "analysis": "押囚召保被禁对象。",
+   "actor_id": "ACT-155",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013",
+   "ent_ids": [
+    "ENT-010"
+   ]
+  },
+  {
+   "name": "权毫势要",
+   "role_type": "民",
+   "affiliation": "本县势要之家",
+   "duties": [
+    {
+     "duty": "（被约束）遇权毫势要易气处之，不可受笼络挟制，亦不可故意窘辱",
+     "from_source": "11-015"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被节制",
+     "target": "新官",
+     "source": "11-015"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条15",
+   "confidence": 0.88,
+   "analysis": "势要相处约束对象。",
+   "actor_id": "ACT-156",
+   "original": "遇权毫势要须当，平日易气处之。不可受其笼络挟制，亦不可故意窘辱，自立门户。",
+   "derived_rule": "XGF-R-273",
+   "item_id": "11-015",
+   "ent_ids": []
+  },
+  {
+   "name": "原被害告人",
+   "role_type": "民",
+   "affiliation": "斗殴事主",
+   "duties": [
+    {
+     "duty": "眼同医生医治",
+     "from_source": "11-001"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受医治",
+     "target": "直日医生",
+     "source": "11-001"
+    }
+   ],
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "confidence": 0.8,
+   "analysis": "斗殴伤医在场人。",
+   "actor_id": "ACT-157",
+   "original": "凡斗殴者，俱要当日陈告拘拿到官。验实有伤，责令直日医生带同原、被害告人于廨处眼同医治，供给汤药，平复回报。如伤重不堪调理，须呈白究治，将原犯入监。",
+   "derived_rule": "XGF-R-259",
+   "item_id": "11-001",
+   "ent_ids": []
+  }
+ ],
+ "frauds_count": 14,
+ "frauds": [
+  {
+   "fraud": "斗殴伤不治",
+   "mechanism": "当日陈告拘拿到官，直日医生眼同医治供给汤药，平复回报",
+   "mechanism_type": "流程制衡",
+   "agent": "直日医生",
+   "target": "斗殴伤",
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "confidence": 0.9,
+   "analysis": "当日拘拿+眼同医治。",
+   "fraud_id": "FRD-184",
+   "original": "凡斗殴者，俱要当日陈告拘拿到官。验实有伤，责令直日医生带同原、被害告人于廨处眼同医治，供给汤药，平复回报。如伤重不堪调理，须呈白究治，将原犯入监。",
+   "derived_rule": "XGF-R-259",
+   "item_id": "11-001"
+  },
+  {
+   "fraud": "亲族争讼不决",
+   "mechanism": "监内并锁连杻带出申明亭示众，候各犯自悔如息",
+   "mechanism_type": "隔离防弊",
+   "agent": "官府",
+   "target": "争讼亲族",
+   "source": "11_卷下_词讼第九.xhtml#条2",
+   "confidence": 0.85,
+   "analysis": "示众促悔。",
+   "fraud_id": "FRD-185",
+   "original": "凡兄弟叔侄及亲戚争论，不能决者，每日监内并锁连杻带出申明亭示众，以候各犯自悔如息。",
+   "derived_rule": "XGF-R-260",
+   "item_id": "11-002"
+  },
+  {
+   "fraud": "主奴互告诬捏",
+   "mechanism": "家主告奴盗财物、奴告主奸妻女多系诬捏，不要轻准",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "主奴词讼",
+   "source": "11_卷下_词讼第九.xhtml#条3",
+   "confidence": 0.88,
+   "analysis": "诬捏不轻准。",
+   "fraud_id": "FRD-186",
+   "original": "凡家主告奴仆盗财物，奴仆告家主奸妻女，多系诬捏，不要轻准。",
+   "derived_rule": "XGF-R-261",
+   "item_id": "11-003"
+  },
+  {
+   "fraud": "夫妻互告轻易发落",
+   "mechanism": "仔细观律处理，不可轻易发落",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "夫妻词讼",
+   "source": "11_卷下_词讼第九.xhtml#条4",
+   "confidence": 0.85,
+   "analysis": "观律慎断。",
+   "fraud_id": "FRD-187",
+   "original": "凡妇人告夫，或夫告妇，须仔细观律处理，不可轻易发落。",
+   "derived_rule": "XGF-R-262",
+   "item_id": "11-004"
+  },
+  {
+   "fraud": "告子不孝姑息伤伦",
+   "mechanism": "虽有可怜之情亦须痛责不可姑息；父纵不慈不可加罪",
+   "mechanism_type": "惩罚威慑",
+   "agent": "官府",
+   "target": "不孝之子",
+   "source": "11_卷下_词讼第九.xhtml#条5",
+   "confidence": 0.88,
+   "analysis": "痛责维伦、不罪父。",
+   "fraud_id": "FRD-188",
+   "original": "凡告子不孝，虽有可怜之情，亦须痛责，不可姑息，以伤伦理。父纵不慈，不可加罪。",
+   "derived_rule": "XGF-R-263",
+   "item_id": "11-005"
+  },
+  {
+   "fraud": "人命过期告理/检验过期",
+   "mechanism": "远不三日，过期告理不准；谋杀故杀检验不过三日",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "人命词讼",
+   "source": "11_卷下_词讼第九.xhtml#条6",
+   "confidence": 0.9,
+   "analysis": "三日限+勘提防误。",
+   "fraud_id": "FRD-189",
+   "original": "凡告人命，远不三日，过期告理不准。若谋杀、故杀，检验亦不过三日，若过期杀及斗殴致死者，须要勘提，不可巡抚，以误两家。",
+   "derived_rule": "XGF-R-264",
+   "item_id": "11-006"
+  },
+  {
+   "fraud": "富豪钱债混追",
+   "mechanism": "些小钱债无力家贫被骗即管理拘追；富豪数多者不与追理",
+   "mechanism_type": "分级防弊",
+   "agent": "官府",
+   "target": "钱债词讼",
+   "source": "11_卷下_词讼第九.xhtml#条7",
+   "confidence": 0.88,
+   "analysis": "按贫富数额分级受理。",
+   "fraud_id": "FRD-190",
+   "original": "告些小钱债，及无力家贫被骗，即与管理拘追。若富豪之家，并所告人多及钱米数多者，不与追理。",
+   "derived_rule": "XGF-R-265",
+   "item_id": "11-007"
+  },
+  {
+   "fraud": "田土不踏看轻断",
+   "mechanism": "着实踏看，公事自行到彼一问胜如委人；粮数不清典卖不明年远不准",
+   "mechanism_type": "复核防弊",
+   "agent": "新官",
+   "target": "田土词讼",
+   "source": "11_卷下_词讼第九.xhtml#条8",
+   "confidence": 0.9,
+   "analysis": "亲踏看+年远不准。",
+   "fraud_id": "FRD-191",
+   "original": "告田土，须着实踏看。若得公事，须便自行到彼一问，胜如委人。倘粮数不清，典卖不明者，年远不与准理。",
+   "derived_rule": "XGF-R-266",
+   "item_id": "11-008"
+  },
+  {
+   "fraud": "妇人近前审问/凌辱恐吓",
+   "mechanism": "妇人告状并犯罪不可近前审问，亦不可纵容手下人凌辱恐吓",
+   "mechanism_type": "隔离防弊",
+   "agent": "官府",
+   "target": "妇人",
+   "source": "11_卷下_词讼第九.xhtml#条10",
+   "confidence": 0.88,
+   "analysis": "妇人审问隔离。",
+   "fraud_id": "FRD-192",
+   "original": "妇人告状并犯罪，不可近前审问，亦不可纵容手下人凌辱恐吓。",
+   "derived_rule": "XGF-R-268",
+   "item_id": "11-010"
+  },
+  {
+   "fraud": "一概监提老幼妇女/照名罚赎",
+   "mechanism": "量拘紧关人犯多则三四人少则二人；干证先省回家；不许照名罚赎",
+   "mechanism_type": "限权防弊",
+   "agent": "官府",
+   "target": "人犯",
+   "source": "11_卷下_词讼第九.xhtml#条11",
+   "confidence": 0.9,
+   "analysis": "量拘+省干证+禁罚赎。",
+   "fraud_id": "FRD-193",
+   "original": "有词讼应理者，量拘紧关人犯，多则三四人，少则二人。责审口词相同，即将干证人先省回家，不可将老幼及妇女一概监提，不许照名罚赎。",
+   "derived_rule": "XGF-R-269",
+   "item_id": "11-011"
+  },
+  {
+   "fraud": "凭吏妄听滥拘",
+   "mechanism": "量地方远近人犯多寡定日期发牌拘唤，不可凭吏妄听举行",
+   "mechanism_type": "限权防弊",
+   "agent": "官府",
+   "target": "拘摄",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.9,
+   "analysis": "发牌定量禁妄听。",
+   "fraud_id": "FRD-194",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013"
+  },
+  {
+   "fraud": "皂隶押带囚犯出外召保",
+   "mechanism": "要紧重犯置木牌亲笔出名密差应捕刻期捉获，不容皂隶等押带囚犯出外召保",
+   "mechanism_type": "隔离防弊",
+   "agent": "应捕",
+   "target": "重犯",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "confidence": 0.88,
+   "analysis": "亲笔出名+密差+禁召保。",
+   "fraud_id": "FRD-195",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。如有要紧重犯，另置木牌十面挂于后堂。遇要行拿，亲笔出名于上，密差应捕，刻期捉获，不容皂隶等押带囚犯出外召保。",
+   "derived_rule": "XGF-R-271",
+   "item_id": "11-013"
+  },
+  {
+   "fraud": "滥差添皂隶拘促",
+   "mechanism": "海行事件轻省词讼开写告示立定限期准自投到；切不可滥差添皂隶人等",
+   "mechanism_type": "限权防弊",
+   "agent": "官府",
+   "target": "拘促",
+   "source": "11_卷下_词讼第九.xhtml#条14",
+   "confidence": 0.88,
+   "analysis": "限期自投+禁滥差。",
+   "fraud_id": "FRD-196",
+   "original": "凡遇海行事件及轻省词讼，须开写告示，立定限期，准自投到。如有监人命差，委里老应捕拘促，情愿不服，应申照律施行。如争情可处者，且从宽，如着犯有力亲属缉捕，切不可滥差，添皂隶人等。",
+   "derived_rule": "XGF-R-272",
+   "item_id": "11-014"
+  },
+  {
+   "fraud": "受权毫笼络挟制/故意窘辱",
+   "mechanism": "易气处之，不可受其笼络挟制，亦不可故意窘辱自立门户",
+   "mechanism_type": "隔离防弊",
+   "agent": "新官",
+   "target": "权毫势要",
+   "source": "11_卷下_词讼第九.xhtml#条15",
+   "confidence": 0.88,
+   "analysis": "势要不笼络不窘辱。",
+   "fraud_id": "FRD-197",
+   "original": "遇权毫势要须当，平日易气处之。不可受其笼络挟制，亦不可故意窘辱，自立门户。",
+   "derived_rule": "XGF-R-273",
+   "item_id": "11-015"
+  }
+ ]
+}

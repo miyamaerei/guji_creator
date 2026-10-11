@@ -1,0 +1,797 @@
+{
+ "schema_version": "kg-proc-ai-json-v1",
+ "process_version": "proc-ai-v1",
+ "volume": "06",
+ "chapter": "卷下_民情第四",
+ "source_file": "06_卷下_民情第四.xhtml",
+ "process_count": 14,
+ "event_count": 14,
+ "events_note": "events 字段为事件层引用（XGF-E 命名空间归事件层维护）",
+ "processes": [
+  {
+   "process_id": "XGF-P-144",
+   "event_type": "御灾赈济",
+   "title": "赈恤给散",
+   "trigger": "青黄不接之时",
+   "timeline": [
+    "岁一举行"
+   ],
+   "steps": [
+    {
+     "step_id": "06-001-s1",
+     "state": "申禀",
+     "action": "先期须将赈济缘由申禀上司",
+     "agent": "官府",
+     "next": "06-001-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-001-s2",
+     "state": "给散",
+     "action": "将粮挨次限日量情给散",
+     "agent": "官府",
+     "next": "06-001-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-001-s3",
+     "state": "征还",
+     "action": "收粮时就征还",
+     "agent": "官府",
+     "condition": "赈恤不限丰凶，预要岁一举行",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-002",
+   "source": "06_卷下_民情第四.xhtml#条1",
+   "derived_from": [
+    "06-001"
+   ],
+   "confidence": 0.9,
+   "analysis": "赈恤：先申禀上司→挨次限日给散→收粮征还，岁一举行。",
+   "original": "赈恤不限丰凶，每遇青黄不接之时，将粮挨次限日量情给散。收粮时就征还，先期须将赈济缘由申禀上司，预要岁一举行。",
+   "derived_rule": "XGF-R-143",
+   "events": [
+    "XGF-E-099"
+   ]
+  },
+  {
+   "process_id": "XGF-P-145",
+   "event_type": "新政施行",
+   "title": "劝种树木",
+   "trigger": "及时",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-002-s1",
+     "state": "劝种",
+     "action": "省令人户于空闲地内随地土所宜种栽各项树木，不可闲废",
+     "agent": "人户",
+     "next": "06-002-s2",
+     "agent_ent_ids": [
+      "ENT-013"
+     ]
+    },
+    {
+     "step_id": "06-002-s2",
+     "state": "催督",
+     "action": "里老催督，但有因时报数",
+     "agent": "里老",
+     "next": "06-002-s3",
+     "agent_ent_ids": [
+      "ENT-017"
+     ]
+    },
+    {
+     "step_id": "06-002-s3",
+     "state": "责警",
+     "action": "遇出行时见有空闲地方，追问责发警众",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-003",
+   "source": "06_卷下_民情第四.xhtml#条2",
+   "derived_from": [
+    "06-002"
+   ],
+   "confidence": 0.85,
+   "analysis": "劝种树木：省令种栽→里老催督→出行见闲追问责警。",
+   "original": "及时省令人户，于空闲地内，随地土所宜种栽各项树木，不可闲废。里老催督，但有因时报数，遇出行时，见有空闲地方，追问责发警众。",
+   "derived_rule": "XGF-R-144",
+   "events": [
+    "XGF-E-100"
+   ]
+  },
+  {
+   "process_id": "XGF-P-146",
+   "event_type": "赋役编审",
+   "title": "逃田分拨",
+   "trigger": "有逃亡人户",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-003-s1",
+     "state": "图写",
+     "action": "田上许各里老图写田亩数",
+     "agent": "里老",
+     "next": "06-003-s2",
+     "agent_ent_ids": [
+      "ENT-017"
+     ]
+    },
+    {
+     "step_id": "06-003-s2",
+     "state": "分拨",
+     "action": "分拨与近田之人耕种，贴种承粮",
+     "agent": "官府/里老",
+     "next": "06-003-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-003-s3",
+     "state": "论数",
+     "action": "倘有田亩数多须论四至分拨，若数少止付田多人户",
+     "agent": "官府",
+     "condition": "不可凭书手望空隔远分派",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-004",
+   "source": "06_卷下_民情第四.xhtml#条3",
+   "derived_from": [
+    "06-003"
+   ],
+   "confidence": 0.88,
+   "analysis": "逃田分拨：图写亩数→分拨近田人→论四至分派。",
+   "original": "若有逃亡人户，田上许各里老图写田亩数，分拨与近田之人耕种，贴种承粮，倘有田亩数多，须论四至分拨，若数少，止付田多人户，亦不可凭书手望空隔远分派。",
+   "derived_rule": "XGF-R-145",
+   "events": [
+    "XGF-E-101"
+   ]
+  },
+  {
+   "process_id": "XGF-P-147",
+   "event_type": "新政施行",
+   "title": "倒塌房整理",
+   "trigger": "有官民房倒塌",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-004-s1",
+     "state": "审由",
+     "action": "便须审问缘由",
+     "agent": "官府",
+     "next": "06-004-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-004-s2",
+     "state": "居住",
+     "action": "如无人住，主管可令无居之人整理居住",
+     "agent": "主管",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "06-005",
+   "source": "06_卷下_民情第四.xhtml#条4",
+   "derived_from": [
+    "06-004"
+   ],
+   "confidence": 0.8,
+   "analysis": "倒塌房：审缘由→无主则令无居之人整理居住。",
+   "original": "凡有官民房倒塌，便须审问缘由。如无人住，主管可令无居之人整理居住。",
+   "derived_rule": "XGF-R-146",
+   "events": [
+    "XGF-E-102"
+   ]
+  },
+  {
+   "process_id": "XGF-P-148",
+   "event_type": "赋役编审",
+   "title": "黄册开报会算",
+   "trigger": "未造黄册之先",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-005-s1",
+     "state": "开报",
+     "action": "省令该里甲排年各领所管甲者开□各户田地四至亩数，呈报在官收完",
+     "agent": "里甲排年",
+     "next": "06-005-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-005-s2",
+     "state": "会算",
+     "action": "招集能书算人隔别会算",
+     "agent": "书算人",
+     "next": "06-005-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-005-s3",
+     "state": "造册",
+     "action": "如无亏折照数造册；如有亏折以次挨查",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-006",
+   "source": "06_卷下_民情第四.xhtml#条5",
+   "derived_from": [
+    "06-005"
+   ],
+   "confidence": 0.88,
+   "analysis": "黄册前置：开报四至亩数→隔别会算→照数造册/挨查。",
+   "original": "未造黄册之先，须预省令该里甲排年，各领所管甲者开□各户田地四至亩数，呈报在官收完。招集能书算人隔别会算，如无亏折，照数造册，如有亏折，以次挨查。",
+   "derived_rule": "XGF-R-147",
+   "events": [
+    "XGF-E-103"
+   ]
+  },
+  {
+   "process_id": "XGF-P-149",
+   "event_type": "赋役编审",
+   "title": "造黄册",
+   "trigger": "遇造黄册",
+   "timeline": [
+    "一月"
+   ],
+   "steps": [
+    {
+     "step_id": "06-006-s1",
+     "state": "禁革",
+     "action": "须禁革里书科派纸札等项",
+     "agent": "官府",
+     "next": "06-006-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-006-s2",
+     "state": "择地",
+     "action": "择一空闲去处分定都图，责令里长出备桌凳，书手自备饭食",
+     "agent": "里长/书手",
+     "next": "06-006-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-006-s3",
+     "state": "取底",
+     "action": "追取前次册底，告示概县人民知会",
+     "agent": "官府",
+     "next": "06-006-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-006-s4",
+     "state": "纳纸",
+     "action": "每收割田一千亩纳纸一百张，田一百亩为止纳纸一十张为止，十亩以下免其纳纸",
+     "agent": "人户",
+     "next": "06-006-s5",
+     "agent_ent_ids": [
+      "ENT-013"
+     ]
+    },
+    {
+     "step_id": "06-006-s5",
+     "state": "对会",
+     "action": "就与对会问限造完底；倘有告争，改正后再行对会过不准",
+     "agent": "官府",
+     "next": "06-006-s6",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-006-s6",
+     "state": "完册",
+     "action": "一月之要册，完底备县册总图总自查",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-007",
+   "source": "06_卷下_民情第四.xhtml#条6",
+   "derived_from": [
+    "06-006"
+   ],
+   "confidence": 0.9,
+   "analysis": "造黄册 6 步：禁科派→择地分图→取册底→按亩纳纸→对会告争→一月完册。",
+   "original": "遇造黄册，须禁革里书科派纸札等项。择一空闲去处，分定都图，责令里长出备桌凳，书手自备饭食，追取前次册底，告示概县人民知会。每收割田一千亩，纳纸一百张，田一百亩为止，纳纸一十张为止，十亩以下者，免其纳纸。就与对会问限造完底，倘有告争，改正后再行对会过不准，一月之要册，完底备县册总图总自查。",
+   "derived_rule": "XGF-R-148",
+   "events": [
+    "XGF-E-104"
+   ]
+  },
+  {
+   "process_id": "XGF-P-150",
+   "event_type": "赋役编审",
+   "title": "均徭编审",
+   "trigger": "临审编定日期",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "06-007-s1",
+     "state": "合计",
+     "action": "均徭合计每岁该役若干，共该工值若干",
+     "agent": "官府",
+     "next": "06-007-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-007-s2",
+     "state": "定类",
+     "action": "家富力寡者使之出银定为柴薪皂隶之类；家贫力众者使之出力定为祗候弓兵之类",
+     "agent": "官府",
+     "next": "06-007-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-007-s3",
+     "state": "点佥",
+     "action": "狱卒点惯熟人，铺兵佥傍近人户",
+     "agent": "官府",
+     "next": "06-007-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-007-s4",
+     "state": "审承",
+     "action": "临审编定日期，每日十甲人户集于概下，逐日审其愿承何役",
+     "agent": "官府/人户",
+     "next": "06-007-s5",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-007-s5",
+     "state": "贴户",
+     "action": "既与注定，如有贴户止是算银津贴数足，将正户一人出名，以贴户别立一小票使之自贴",
+     "agent": "官府",
+     "condition": "不可照名行属追扰",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-008",
+   "source": "06_卷下_民情第四.xhtml#条7",
+   "derived_from": [
+    "06-007"
+   ],
+   "confidence": 0.9,
+   "analysis": "均徭编审：合计役值→富银贫力→点狱卒铺兵→逐日审承→贴户小票。",
+   "original": "均徭合计每岁该役若干，共该工值若干。其家富力寡者，使之出银，定为柴薪皂隶之类；家贫力众者，使之出力，定为祗候弓兵之类。如狱卒点惯熟人，如铺兵佥傍近人户，临审编定日期，每日十甲人户集于概下，逐日审其愿承何役。既与注定，如有贴户止是算银津贴数足，将正户一人出名，以贴户别立一小票，使之自贴，不可照名行属追扰。",
+   "derived_rule": "XGF-R-149",
+   "events": [
+    "XGF-E-105"
+   ]
+  },
+  {
+   "process_id": "XGF-P-151",
+   "event_type": "赋役编审",
+   "title": "审均徭",
+   "trigger": "定审编之时",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-008-s1",
+     "state": "誊册",
+     "action": "不须各里先递手册，只照黄册在县委人誊出",
+     "agent": "官府",
+     "next": "06-008-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-008-s2",
+     "state": "开注",
+     "action": "如有出卖田地，临审时即于本户下开注",
+     "agent": "官府",
+     "next": "06-008-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-008-s3",
+     "state": "示期",
+     "action": "定审编之时先示之日期，使之依日候审",
+     "agent": "官府",
+     "next": "06-008-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-008-s4",
+     "state": "审完",
+     "action": "本日倘有事冗虽夜必尽，不得姑待明日",
+     "agent": "官府",
+     "next": "06-008-s5",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-008-s5",
+     "state": "补审",
+     "action": "如事不得已，须是日之人尽令回还后，通审完日补审",
+     "agent": "官府",
+     "condition": "事不得已时",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-009",
+   "source": "06_卷下_民情第四.xhtml#条8",
+   "derived_from": [
+    "06-008"
+   ],
+   "confidence": 0.88,
+   "analysis": "审均徭：誊黄册→开注卖田→示期候审→当日审完→不得已补审。",
+   "original": "审均徭，不须各里先递手册，只照黄册在县委人誊出。如有出卖田地，临审时即于本户下开注，定审编之时，先示之日期，使之依日候审。本日倘有事冗，虽夜必尽，不得姑待明日，如事不得已，须将是日之人尽令回还后，通审完日补审。",
+   "derived_rule": "XGF-R-150",
+   "events": [
+    "XGF-E-106"
+   ]
+  },
+  {
+   "process_id": "XGF-P-152",
+   "event_type": "度牒管理",
+   "title": "僧道度牒管理",
+   "trigger": "收养徒弟",
+   "timeline": [
+    "每年终"
+   ],
+   "steps": [
+    {
+     "step_id": "06-009-s1",
+     "state": "查勘",
+     "action": "僧道徒弟必须告官查勘无碍，方许收养",
+     "agent": "官府/僧道",
+     "next": "06-009-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-009-s2",
+     "state": "附名",
+     "action": "若收各县人亦要附他本名下",
+     "agent": "官府",
+     "next": "06-009-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-009-s3",
+     "state": "追牒",
+     "action": "遇有死亡随追度牒",
+     "agent": "官府",
+     "next": "06-009-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-009-s4",
+     "state": "送数",
+     "action": "每年终将事故度牒数送上司，仍付簿明白备照",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-010",
+   "source": "06_卷下_民情第四.xhtml#条9",
+   "derived_from": [
+    "06-009"
+   ],
+   "confidence": 0.88,
+   "analysis": "度牒管理：查勘收养→附名→死亡追牒→年终送数。",
+   "original": "僧道徒弟，必须告官查勘无碍，方许收养。若收各县人，亦要附他本名下，遇有死亡，随追度牒。每年终，将事故度牒数送上司，仍付簿明白备照。",
+   "derived_rule": "XGF-R-151",
+   "events": [
+    "XGF-E-107"
+   ]
+  },
+  {
+   "process_id": "XGF-P-153",
+   "event_type": "御灾赈济",
+   "title": "养济院收养乞丐",
+   "trigger": "见道路乞丐",
+   "timeline": [
+    "每月初旬"
+   ],
+   "steps": [
+    {
+     "step_id": "06-010-s1",
+     "state": "收养",
+     "action": "道路乞丐不论老幼笃废，如果无依即与付收养济院，令补收附卷，不必里老举报",
+     "agent": "官府",
+     "next": "06-010-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-010-s2",
+     "state": "支粮",
+     "action": "其合得衣粮每月初旬支",
+     "agent": "官府",
+     "next": "06-010-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-010-s3",
+     "state": "修院",
+     "action": "本院房屋修葺完固，编号与居，毋使男女混处",
+     "agent": "官府",
+     "next": "06-010-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-010-s4",
+     "state": "点视",
+     "action": "公廨随便点视",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-011",
+   "source": "06_卷下_民情第四.xhtml#条10",
+   "derived_from": [
+    "06-010"
+   ],
+   "confidence": 0.9,
+   "analysis": "养济院：无依即收养→初旬支衣粮→修院编号→点视。",
+   "original": "见道路乞丐之人，不论老幼笃废，如果无依，即与付收养济院，令补收附卷，不必里老举报。其合得衣粮，每月初旬支，本院房屋，修葺完固，编号与居，毋使男女混处，公廨随便点视。",
+   "derived_rule": "XGF-R-152",
+   "events": [
+    "XGF-E-108"
+   ]
+  },
+  {
+   "process_id": "XGF-P-154",
+   "event_type": "清军勘审",
+   "title": "清军查对",
+   "trigger": "清军",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-011-s1",
+     "state": "查对",
+     "action": "须将发册与该房册自行查对，分项计算",
+     "agent": "官府",
+     "next": "06-011-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-011-s2",
+     "state": "告示",
+     "action": "仍告示有军都图逃日赴审",
+     "agent": "官府",
+     "next": "06-011-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-011-s3",
+     "state": "呈审",
+     "action": "其清军都图止令见年里老具呈",
+     "agent": "里老",
+     "condition": "不得将远年一概拘候",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-017"
+     ]
+    }
+   ],
+   "next_process": "06-012",
+   "source": "06_卷下_民情第四.xhtml#条11",
+   "derived_from": [
+    "06-011"
+   ],
+   "confidence": 0.88,
+   "analysis": "清军：发册查对→告示赴审→里老具呈，禁远年拘候。",
+   "original": "清军须将发册，与该房册自行查对，分项计算，仍告示有军都图逃日赴审，其清军都图，止令见年里老具呈，不得将远年一概拘候。",
+   "derived_rule": "XGF-R-153",
+   "events": [
+    "XGF-E-109"
+   ]
+  },
+  {
+   "process_id": "XGF-P-155",
+   "event_type": "清军勘审",
+   "title": "边远军甘结免解",
+   "trigger": "边远军无查",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-012-s1",
+     "state": "甘结",
+     "action": "边远军虽是远年无查及无册勾取审勘，该都里老众口甘结",
+     "agent": "里老",
+     "next": "06-012-s2",
+     "agent_ent_ids": [
+      "ENT-017"
+     ]
+    },
+    {
+     "step_id": "06-012-s2",
+     "state": "免解",
+     "action": "可与宛转方便，免其解查",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-013",
+   "source": "06_卷下_民情第四.xhtml#条12",
+   "derived_from": [
+    "06-012"
+   ],
+   "confidence": 0.85,
+   "analysis": "边远军：里老甘结→宛转免解。",
+   "original": "边远军虽是远年无查，及无册勾取审勘，该都里老众口甘结，可与宛转方便，免其解查。",
+   "derived_rule": "XGF-R-154",
+   "events": [
+    "XGF-E-110"
+   ]
+  },
+  {
+   "process_id": "XGF-P-156",
+   "event_type": "清军勘审",
+   "title": "佥补京役",
+   "trigger": "勇士力士校役厨役逃亡",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "06-013-s1",
+     "state": "查审",
+     "action": "有在京勇士、力士、校役、厨役逃亡相应佥补者，须查审属原籍",
+     "agent": "官府",
+     "next": "06-013-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-013-s2",
+     "state": "佥解",
+     "action": "在京曾在京住过者通报未审，量与佥解，可免逃亡",
+     "agent": "官府",
+     "next": "06-013-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-013-s3",
+     "state": "禁革",
+     "action": "及里甲出办路费有营求免当者，须痛禁革",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "06-014",
+   "source": "06_卷下_民情第四.xhtml#条13",
+   "derived_from": [
+    "06-013"
+   ],
+   "confidence": 0.85,
+   "analysis": "佥补京役：查审原籍→量佥解→痛禁营求免当。",
+   "original": "有在京勇士、力士、校役、厨役、逃亡相应佥补者，须查审属原籍，在京，曾在京住过者，通报未审，量与佥解，可免逃亡。及里甲出办路费，有营求免当者，须痛禁革。",
+   "derived_rule": "XGF-R-155",
+   "events": [
+    "XGF-E-111"
+   ]
+  },
+  {
+   "process_id": "XGF-P-157",
+   "event_type": "匠籍管理",
+   "title": "清匠勘合",
+   "trigger": "清匠",
+   "timeline": [
+    "随日"
+   ],
+   "steps": [
+    {
+     "step_id": "06-014-s1",
+     "state": "着会",
+     "action": "清匠先该房额匠册随日着会，亲赍勘合，销立案附簿备照",
+     "agent": "匠房/匠户",
+     "next": "06-014-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "06-014-s2",
+     "state": "查班",
+     "action": "若班匠不必给批文，止用勘合查班",
+     "agent": "官府",
+     "next": "06-014-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "06-014-s3",
+     "state": "存留",
+     "action": "其勘合不必在县存留",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "",
+   "source": "06_卷下_民情第四.xhtml#条14",
+   "derived_from": [
+    "06-014"
+   ],
+   "confidence": 0.85,
+   "analysis": "清匠：额匠册随日着会→勘合查班→勘合不存县。",
+   "original": "清匠先该房额匠册随日着会，亲赍勘合，销立案附簿备照。若班匠，不必给批文，止用勘合查班，其勘合不必在县存留。",
+   "derived_rule": "XGF-R-156",
+   "events": [
+    "XGF-E-112"
+   ]
+  }
+ ]
+}

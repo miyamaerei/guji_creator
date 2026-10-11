@@ -1,0 +1,15 @@
+RULE keys: ['allowed_action', 'analysis', 'condition', 'confidence', 'deadline', 'item_id', 'modals', 'object', 'obligation_action', 'original', 'prohibited_action', 'prohibited_effect', 'punishment', 'purpose', 'rule_id', 'source', 'subject', 'subject_ent_ids', 'type']
+RULE[0]: type=禁止型 modals=['prohibit'] subject_ent_ids=['ENT-396']
+RULE type 分布: {'禁止型': 8, '程序型': 41, '义务型+禁止型': 33, '义务型+程序型': 3, '禁止型+义务型': 12, '义务型': 48, '义务型+处罚型': 12, '禁止型+程序型': 6, '时限型+处罚型': 1, '禁止型+允许型': 3, '允许型+禁止型+程序型': 1, '义务型+处罚型+禁止型': 1, '义务型+禁止型+处罚型+允许型': 2, '程序型+允许型+禁止型': 2, '程序型+处罚型': 8, '允许型+禁止型': 3, '义务型+禁止型+处罚型': 4, '程序型+禁止型': 49, '允许型': 2, '义务型+允许型+处罚型': 1, '程序型+时限型': 4, '义务型+允许型': 2, '程序型+义务型': 4, '处罚型+程序型': 1, '义务型+时限型': 3, '义务型+禁止型+时限型': 1, '程序型+禁止型+处罚型': 5, '处罚型': 1, '程序型+允许型': 2, '处罚型+时限型': 1, '禁止型+义务型+允许型': 1, '程序型+禁止型+允许型': 2, '允许型+程序型': 1, '禁止型+处罚型': 1, '允许型+处罚型': 1, '时限型+禁止型': 1, '时限型': 1, '程序型+时限型+禁止型': 1}
+PROC keys: ['analysis', 'confidence', 'derived_from', 'derived_rule', 'event_type', 'events', 'next_process', 'original', 'process_id', 'source', 'steps', 'timeline', 'title', 'trigger']
+PROC[0]: event_type=到任礼 steps=1 events=['XGF-E-001']
+EVENT keys: ['action', 'analysis', 'confidence', 'derived_from', 'derived_rule', 'event_id', 'original', 'source', 'title', 'type', 'what', 'when', 'where', 'who', 'who_ent_ids']
+EVENT[0]: type=到任礼 who_ent_ids=['ENT-323']
+EVENT type 分布: {'到任礼': 5, '贺官接见': 5, '仓库交割': 2, '词讼受理': 19, '审囚': 3, '禁令示众': 11, '狱政管理': 6, '文书流转': 27, '放告': 6, '勾摄拘唤': 8, '清军勘审': 5, '新政施行': 13, '比较查催': 6, '迎送支应': 6, '巡行巡察': 1, '学校考课': 3, '优免执照': 1, '赋役编审': 18, '到任谒祭': 1, '宴席接见': 3, '到任散堂': 1, '须知道查': 1, '卷宗清理': 1, '勘合催办': 1, '下监点囚': 1, '下学行香': 1, '巡视坛宇': 2, '册图整理': 1, '未升堂洒扫': 3, '升堂礼仪': 2, '退堂封门': 2, '散衙封监': 1, '用印发行': 4, '直日时刻表': 2, '御灾赈济': 9, '度牒管理': 2, '匠籍管理': 1, '缉捕防盗': 10, '旌表举保': 2, '尸伤处置': 2, '征收钱粮': 19, '祭祀仪礼': 12}
+STRUCT ledgers[0] keys: ['analysis', 'anti_fraud', 'check', 'confidence', 'derived_rule', 'entry', 'frequency', 'item_id', 'keeper', 'ledger_id', 'name', 'original', 'purpose', 'source']
+STRUCT times[0] keys: ['analysis', 'confidence', 'derived_rule', 'frequency', 'item_id', 'keyword', 'original', 'scope', 'source', 'time_id', 'unit', 'value']
+STRUCT docs[0] keys: ['analysis', 'anti_fraud', 'confidence', 'derived_rule', 'doc_id', 'doc_type', 'item_id', 'original', 'source', 'stages']
+STRUCT actors[0] keys: ['actor_id', 'affiliation', 'analysis', 'confidence', 'derived_rule', 'duties', 'ent_ids', 'item_id', 'name', 'original', 'relations', 'role_type', 'source']
+STRUCT frauds[0] keys: ['agent', 'analysis', 'confidence', 'derived_rule', 'fraud', 'fraud_id', 'item_id', 'mechanism', 'mechanism_type', 'original', 'source', 'target']
+STRUCT 维度数量: {'ledgers': 98, 'times': 138, 'docs': 87, 'actors': 157, 'frauds': 197}
+JOIN[0] keys: ['ent_ids', 'event_ids', 'item_id', 'proc_ids', 'rule_id', 'source', 'struct']

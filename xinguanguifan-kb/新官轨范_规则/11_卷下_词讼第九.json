@@ -1,0 +1,462 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "11",
+ "chapter": "卷下_词讼第九",
+ "chapter_no": "11",
+ "source_file": "11_卷下_词讼第九.xhtml",
+ "item_count": 15,
+ "rule_item_count": 11,
+ "rule_count": 13,
+ "rules": [
+  {
+   "rule_id": "XGF-R-192",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "如伤重不堪调理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "呈白究治，将原犯入监",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条1",
+   "original": "如伤重不堪调理，须呈白究治，将原犯入监。",
+   "original_offset": {
+    "start": 53,
+    "end": 73
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】如伤重不堪调理时，官府（知县）应呈白究治，将原犯入监。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 1
+  },
+  {
+   "rule_id": "XGF-R-193",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "或夫告妇",
+   "subject": "官府（知县）",
+   "prohibited_action": "轻易发落",
+   "allowed_action": "",
+   "obligation_action": "仔细观律处理",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条4",
+   "original": "或夫告妇，须仔细观律处理，不可轻易发落。",
+   "original_offset": {
+    "start": 6,
+    "end": 26
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】或夫告妇时，若轻易发落，即属违禁；合规做法：改用文内许可途径。【场景】或夫告妇时，官府（知县）应仔细观律处理。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 4
+  },
+  {
+   "rule_id": "XGF-R-194",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "凡告子不孝，虽有可怜之情，亦",
+   "subject": "官府（知县）",
+   "prohibited_action": "姑息；加罪",
+   "allowed_action": "",
+   "obligation_action": "痛责",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条5",
+   "original": "凡告子不孝，虽有可怜之情，亦须痛责，不可姑息，以伤伦理。父纵不慈，不可加罪。",
+   "original_offset": {
+    "start": 0,
+    "end": 38
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡告子不孝，虽有可怜之情，亦时，若姑息；加罪，即属违禁；合规做法：改用文内许可途径。【场景】凡告子不孝，虽有可怜之情，亦时，官府（知县）应痛责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 5
+  },
+  {
+   "rule_id": "XGF-R-195",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "凡告人命，远不三日，过期告理",
+   "subject": "官府（知县）",
+   "prohibited_action": "不准",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条6",
+   "original": "凡告人命，远不三日，过期告理不准。",
+   "original_offset": {
+    "start": 0,
+    "end": 17
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡告人命，远不三日，过期告理时，若不准，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 6
+  },
+  {
+   "rule_id": "XGF-R-195",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "若过期杀及斗殴致死者",
+   "subject": "官府（知县）",
+   "prohibited_action": "巡抚，以误两家",
+   "allowed_action": "",
+   "obligation_action": "要勘提",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条6",
+   "original": "若过期杀及斗殴致死者，须要勘提，不可巡抚，以误两家。",
+   "original_offset": {
+    "start": 32,
+    "end": 58
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若过期杀及斗殴致死者时，若巡抚，以误两家，即属违禁；合规做法：改用文内许可途径。【场景】若过期杀及斗殴致死者时，官府（知县）应要勘提。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 6
+  },
+  {
+   "rule_id": "XGF-R-197",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "若得公事",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "便自行到彼一问，胜如委人",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条8",
+   "original": "若得公事，须便自行到彼一问，胜如委人。",
+   "original_offset": {
+    "start": 10,
+    "end": 29
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若得公事时，官府（知县）应便自行到彼一问，胜如委人。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-198",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "妇人告状并犯罪",
+   "subject": "官府（知县）",
+   "prohibited_action": "近前审问；纵容手下人凌辱恐吓",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条10",
+   "original": "妇人告状并犯罪，不可近前审问，亦不可纵容手下人凌辱恐吓。",
+   "original_offset": {
+    "start": 0,
+    "end": 28
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】妇人告状并犯罪时，若近前审问；纵容手下人凌辱恐吓，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 10
+  },
+  {
+   "rule_id": "XGF-R-199",
+   "type": "禁止型+处罚型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "将老幼及妇女一概监提；照名",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "赎",
+   "source": "11_卷下_词讼第九.xhtml#条11",
+   "original": "有词讼应理者，量拘紧关人犯，多则三四人，少则二人。责审口词相同，即将干证人先省回家，不可将老幼及妇女一概监提，不许照名罚赎。",
+   "original_offset": {
+    "start": 0,
+    "end": 62
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】日常政务时，若将老幼及妇女一概监提；照名，即属违禁；合规做法：改用文内许可途径。【场景】违者依规赎。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 11
+  },
+  {
+   "rule_id": "XGF-R-200",
+   "type": "允许型+禁止型",
+   "primary_type": "允许型",
+   "is_combo": true,
+   "modals": [
+    "allow",
+    "prohibit"
+   ],
+   "condition": "如情轻，判理明白及自息和者",
+   "subject": "官府（知县）",
+   "prohibited_action": "可免拘留人众",
+   "allowed_action": "缘由每月于朔望日辰时引缴",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "留人众",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条12",
+   "original": "如情轻，判理明白及自息和者，止将缘由每月于朔望日辰时引缴，余日不准，可免拘留人众。",
+   "original_offset": {
+    "start": 25,
+    "end": 66
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】如情轻，判理明白及自息和者时，若可免拘留人众，即属违禁；合规做法：缘由每月于朔望日辰时引缴。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 12
+  },
+  {
+   "rule_id": "XGF-R-201",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "凡拘摄次，量地方远近，人犯多寡",
+   "subject": "官府（知县）",
+   "prohibited_action": "凭吏妄听举行",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条13",
+   "original": "凡拘摄次，量地方远近，人犯多寡，以定日期，发牌拘唤，不可凭吏妄听举行。",
+   "original_offset": {
+    "start": 0,
+    "end": 35
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡拘摄次，量地方远近，人犯多寡时，若凭吏妄听举行，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 13
+  },
+  {
+   "rule_id": "XGF-R-202",
+   "type": "义务型+时限型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "deadline"
+   ],
+   "condition": "凡遇海行事件及轻省词讼",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "开写告示",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "期，准自投到",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条14",
+   "original": "凡遇海行事件及轻省词讼，须开写告示，立定限期，准自投到。",
+   "original_offset": {
+    "start": 0,
+    "end": 28
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡遇海行事件及轻省词讼时，官府（知县）应开写告示。【场景】凡遇海行事件及轻省词讼事项须在期，准自投到内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 14
+  },
+  {
+   "rule_id": "XGF-R-202",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "如着犯有力亲属缉捕，切",
+   "subject": "官府（知县）",
+   "prohibited_action": "滥差，添皂隶人等",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条14",
+   "original": "如着犯有力亲属缉捕，切不可滥差，添皂隶人等。",
+   "original_offset": {
+    "start": 66,
+    "end": 88
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】如着犯有力亲属缉捕，切时，若滥差，添皂隶人等，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 14
+  },
+  {
+   "rule_id": "XGF-R-204",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "遇权毫势要须当",
+   "subject": "官府（知县）",
+   "prohibited_action": "受其笼络挟制；故意窘辱，自立门户",
+   "allowed_action": "",
+   "obligation_action": "当",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "11_卷下_词讼第九.xhtml#条15",
+   "original": "遇权毫势要须当，平日易气处之。不可受其笼络挟制，亦不可故意窘辱，自立门户。",
+   "original_offset": {
+    "start": 0,
+    "end": 37
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】遇权毫势要须当时，若受其笼络挟制；故意窘辱，自立门户，即属违禁；合规做法：改用文内许可途径。【场景】遇权毫势要须当时，官府（知县）应当。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "11",
+   "chapter": "卷下_词讼第九",
+   "item": 15
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "schema_version": "kg-event-ai-json-v1",
+ "event_version": "event-ai-v1",
+ "volume": "09",
+ "chapter": "卷下_礼仪第七",
+ "source_file": "09_卷下_礼仪第七.xhtml",
+ "event_count": 18,
+ "events": [
+  {
+   "type": "祭祀仪礼",
+   "title": "文公家礼颁降省谕",
+   "who": [
+    "里老"
+   ],
+   "action": "省谕里老遵奉文公家礼→尸棺暴露火作斋醮俱律法所禁",
+   "what": [
+    "尸棺暴露",
+    "火作斋醮"
+   ],
+   "when": "颁降后",
+   "where": "乡里",
+   "source": "09_卷下_礼仪第七.xhtml#条1",
+   "derived_from": [
+    "09-001"
+   ],
+   "confidence": 0.88,
+   "analysis": "家礼禁约省谕。",
+   "event_id": "XGF-E-184",
+   "original": "文公家礼颁降之书，其尸棺暴露，火作斋醮，俱律法所禁，须省谕里老各要遵奉。",
+   "derived_rule": "XGF-R-228",
+   "who_ent_ids": [
+    "ENT-017"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "习仪拜牌礼生监",
+   "who": [
+    "礼生",
+    "礼房该吏"
+   ],
+   "action": "定礼生分投监习仪拜牌→不许分外生事→礼生不循礼先后不齐先责礼房该吏",
+   "what": [
+    "习仪拜牌"
+   ],
+   "when": "习仪时",
+   "where": "县衙/礼房",
+   "source": "09_卷下_礼仪第七.xhtml#条2",
+   "derived_from": [
+    "09-002"
+   ],
+   "confidence": 0.88,
+   "analysis": "习仪礼生分监+责礼房吏。",
+   "event_id": "XGF-E-185",
+   "original": "习仪拜牌，定礼生分投监，不许分外生事。如礼生不循礼，先后不齐者，先责礼房该吏。",
+   "derived_rule": "XGF-R-229",
+   "who_ent_ids": [
+    "ENT-055"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "救护行礼",
+   "who": [
+    "僧道",
+    "地方总甲"
+   ],
+   "action": "告示僚属拘集僧道至期行礼→令地方总甲巡视莫容闲人喧哗",
+   "what": [
+    "救护礼"
+   ],
+   "when": "救护期",
+   "where": "县衙",
+   "source": "09_卷下_礼仪第七.xhtml#条3",
+   "derived_from": [
+    "09-003"
+   ],
+   "confidence": 0.85,
+   "analysis": "救护礼：拘集+巡视。",
+   "event_id": "XGF-E-186",
+   "original": "救护须告示僚属，拘集僧道至期行礼。仍令地方总甲巡视，莫容闲人喧哗。",
+   "derived_rule": "XGF-R-230",
+   "who_ent_ids": [
+    "ENT-101"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "乡宦位高请报",
+   "who": [
+    "该里长",
+    "官府"
+   ],
+   "action": "乡宦位高者令里长请报官→小者告示知悉→务查点齐集行礼",
+   "what": [
+    "习仪拜牌救护人员"
+   ],
+   "when": "行礼时",
+   "where": "县衙",
+   "source": "09_卷下_礼仪第七.xhtml#条4",
+   "derived_from": [
+    "09-004"
+   ],
+   "confidence": 0.85,
+   "analysis": "乡宦礼集：高者请报+小者告示。",
+   "event_id": "XGF-E-187",
+   "original": "遇习仪拜牌救护等项，有乡宦位高者，令该里长请报官，小者告示知悉，务查点齐集行礼。",
+   "derived_rule": "XGF-R-231",
+   "who_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "迎春乐事",
+   "who": [
+    "官府"
+   ],
+   "action": "迎春从容为之→春花春杖所费不多不可分派里甲",
+   "what": [
+    "迎春春花春杖"
+   ],
+   "when": "迎春时",
+   "where": "县境",
+   "source": "09_卷下_礼仪第七.xhtml#条5",
+   "derived_from": [
+    "09-005"
+   ],
+   "confidence": 0.85,
+   "analysis": "迎春禁分派。",
+   "event_id": "XGF-E-188",
+   "original": "迎春乃百姓乐事，宜从容为之。其春花、春杖，所费不多，不可分派里甲。",
+   "derived_rule": "XGF-R-232",
+   "who_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "乡饮酒教读掌礼",
+   "who": [
+    "教读"
+   ],
+   "action": "令教读掌乡饮酒礼→毕日回话",
+   "what": [
+    "乡饮酒礼"
+   ],
+   "when": "乡饮时",
+   "where": "乡学",
+   "source": "09_卷下_礼仪第七.xhtml#条6",
+   "derived_from": [
+    "09-006"
+   ],
+   "confidence": 0.85,
+   "analysis": "乡饮教读掌礼回话。",
+   "event_id": "XGF-E-189",
+   "original": "乡属乡饮酒，须令教读掌礼毕日回话。",
+   "derived_rule": "XGF-R-233",
+   "who_ent_ids": [
+    "ENT-565"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "祭祀牲口买办",
+   "who": [
+    "牙行"
+   ],
+   "action": "先期查照旧案价值支钱→与牙行收买牲口等项完算备公用→不可逼勒赊买及容情贵买",
+   "what": [
+    "祭祀牲口"
+   ],
+   "when": "祭祀先期",
+   "where": "县衙/牙行",
+   "source": "09_卷下_礼仪第七.xhtml#条7",
+   "derived_from": [
+    "09-007"
+   ],
+   "confidence": 0.88,
+   "analysis": "祭品买办：旧案计价+禁赊贵。",
+   "event_id": "XGF-E-190",
+   "original": "凡遇祭祀，先期查照旧案价值支钱，与牙行收买牲口等项，完算以备公用。不可逼勒赊买及容情贵买。",
+   "derived_rule": "XGF-R-234",
+   "who_ent_ids": []
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "祭坛僧道诵经",
+   "who": [
+    "僧道"
+   ],
+   "action": "所属僧道分坛诵经自朝至暮→祭毕分与羹饮",
+   "what": [
+    "祭坛诵经"
+   ],
+   "when": "祭祀日",
+   "where": "祭坛",
+   "source": "09_卷下_礼仪第七.xhtml#条8",
+   "derived_from": [
+    "09-008"
+   ],
+   "confidence": 0.85,
+   "analysis": "祭坛僧道诵经分羹。",
+   "event_id": "XGF-E-191",
+   "original": "祭坛令所属僧道分坛诵经，自朝至暮，祭毕分与羹饮。",
+   "derived_rule": "XGF-R-235",
+   "who_ent_ids": [
+    "ENT-101"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "祭神庙赛检束",
+   "who": [
+    "官府",
+    "会首"
+   ],
+   "action": "小处禁止庙赛→大处人众不可遏者会赛日差人检束→收其香钱公用勿容会首克落",
+   "what": [
+    "祭神庙赛",
+    "香钱"
+   ],
+   "when": "会赛日",
+   "where": "庙宇",
+   "source": "09_卷下_礼仪第七.xhtml#条9",
+   "derived_from": [
+    "09-009"
+   ],
+   "confidence": 0.88,
+   "analysis": "庙赛分级：小禁大检+香钱公用。",
+   "event_id": "XGF-E-192",
+   "original": "祭神庙赛，小处则当禁止，大处人众不可遏者，须与会赛日差人检朿，收其香钱公用，勿容会首克落。",
+   "derived_rule": "XGF-R-236",
+   "who_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "淫祠改置",
+   "who": [
+    "官府"
+   ],
+   "action": "淫祠不必悉行拆毁→量地方改为公廨社学等项",
+   "what": [
+    "淫祠"
+   ],
+   "when": "查核时",
+   "where": "县境",
+   "source": "09_卷下_礼仪第七.xhtml#条10",
+   "derived_from": [
+    "09-010"
+   ],
+   "confidence": 0.85,
+   "analysis": "淫祠改公廨社学。",
+   "event_id": "XGF-E-193",
+   "original": "淫祠不必悉行拆毁，须量地方改为公廨社学等项。",
+   "derived_rule": "XGF-R-237",
+   "who_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "禁令示众",
+   "title": "禁妇人入寺烧香",
+   "who": [
+    "地方人"
+   ],
+   "action": "省谕地方禁约妇人入寺烧香听讲经会→如违先将地方问罪",
+   "what": [
+    "妇人入寺烧香"
+   ],
+   "when": "常时",
+   "where": "寺观",
+   "source": "09_卷下_礼仪第七.xhtml#条11",
+   "derived_from": [
+    "09-011"
+   ],
+   "confidence": 0.88,
+   "analysis": "禁妇人入寺+地方连罪。",
+   "event_id": "XGF-E-194",
+   "original": "禁僧不许纵容妇人入寺烧香、听讲经会。先须省谕地方禁约，如违，先将地方问罪。",
+   "derived_rule": "XGF-R-238",
+   "who_ent_ids": []
+  },
+  {
+   "type": "旌表举保",
+   "title": "义节孝顺密访举保",
+   "who": [
+    "官府",
+    "里老",
+    "乡宦"
+   ],
+   "action": "密访的实着实举保义夫节妇孝子顺孙→里老呈报乡宦保者不实不可保举",
+   "what": [
+    "义夫节妇孝子顺孙"
+   ],
+   "when": "举保时",
+   "where": "县境",
+   "source": "09_卷下_礼仪第七.xhtml#条12",
+   "derived_from": [
+    "09-012"
+   ],
+   "confidence": 0.9,
+   "analysis": "旌表举保：密访着实+不实不保。",
+   "event_id": "XGF-E-195",
+   "original": "义夫、节妇、孝子、顺孙，须自密访，的实着实举保。若里老呈报及乡宦保者，不实不可保举。",
+   "derived_rule": "XGF-R-239",
+   "who_ent_ids": [
+    "ENT-017",
+    "ENT-103",
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "学校考课",
+   "title": "季考朔望抽签讲论",
+   "who": [
+    "学校生儒",
+    "该吏"
+   ],
+   "action": "遵上司案验季考→朔望抽签讲论→不到仰令该吏附卷施行",
+   "what": [
+    "生儒考课"
+   ],
+   "when": "季考/朔望",
+   "where": "县学",
+   "source": "09_卷下_礼仪第七.xhtml#条13",
+   "derived_from": [
+    "09-013"
+   ],
+   "confidence": 0.88,
+   "analysis": "学校考课：季考+朔望抽签讲论。",
+   "event_id": "XGF-E-196",
+   "original": "凡学校生儒，须遵上司案验季考，朔望抽签讲论。如有不到，仰令该吏附卷施行。",
+   "derived_rule": "XGF-R-240",
+   "who_ent_ids": []
+  },
+  {
+   "type": "赋役编审",
+   "title": "生员乡宦免役执照",
+   "who": [
+    "生员乡宦之家",
+    "里书"
+   ],
+   "action": "遇编差役均徭先取本家实在事产→每人将应免供丁令里书开写一帖付以为执照",
+   "what": [
+    "应免供丁"
+   ],
+   "when": "编差役均徭时",
+   "where": "县衙",
+   "source": "09_卷下_礼仪第七.xhtml#条14",
+   "derived_from": [
+    "09-014"
+   ],
+   "confidence": 0.9,
+   "analysis": "免役执照：先取事产+帖执照。",
+   "event_id": "XGF-E-197",
+   "original": "生员乡宦之家，遇编差役均徭，先取本家实在事产，免致临期告扰。每人将应免供丁，责令里书开写一帖，付之以为执照。",
+   "derived_rule": "XGF-R-241",
+   "who_ent_ids": []
+  },
+  {
+   "type": "贺官接见",
+   "title": "乡宦宽待尽礼",
+   "who": [
+    "乡宦",
+    "官府"
+   ],
+   "action": "乡宦不论存亡高下贫富与些小事情亦宜宽待→遇有凶吉须自尽礼",
+   "what": [
+    "乡宦"
+   ],
+   "when": "遇凶吉时",
+   "where": "乡间",
+   "source": "09_卷下_礼仪第七.xhtml#条15",
+   "derived_from": [
+    "09-015"
+   ],
+   "confidence": 0.88,
+   "analysis": "乡宦宽待+凶吉尽礼。",
+   "event_id": "XGF-E-198",
+   "original": "乡宦不论存亡、高下、贫富，与些小事情，亦宜宽待，遇有凶吉，须自尽礼。",
+   "derived_rule": "XGF-R-242",
+   "who_ent_ids": [
+    "ENT-103",
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "宴席接见",
+   "title": "乡饮敦请仪注",
+   "who": [
+    "官府",
+    "礼生"
+   ],
+   "action": "自访实敦请乡饮→近县自请各乡遣礼生致请→不许省祭生员混坐寓到→将晏之先令具仪注呈看→饮毕候收完器皿撤去桌椅方散",
+   "what": [
+    "乡饮酒礼"
+   ],
+   "when": "乡饮时",
+   "where": "乡学/县衙",
+   "source": "09_卷下_礼仪第七.xhtml#条16",
+   "derived_from": [
+    "09-016"
+   ],
+   "confidence": 0.93,
+   "analysis": "乡饮全流程：敦请→仪注→饮毕收撤。",
+   "event_id": "XGF-E-199",
+   "original": "乡饮须自访实敦请，近县者自请，各乡遣礼生致请，不许省祭生员混坐寓到。将晏之先，令具仪注呈看，即饮之后，候收完器皿，撤去桌椅方散。",
+   "derived_rule": "XGF-R-243",
+   "who_ent_ids": [
+    "ENT-055",
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "祭祀仪礼",
+   "title": "祭祀斋戒临祭巡视",
+   "who": [
+    "官府"
+   ],
+   "action": "遇祭祀斋戒不许粮里置酒办饭→临祭自巡视祭品→先要仪注呈看",
+   "what": [
+    "祭祀斋戒",
+    "祭品"
+   ],
+   "when": "祭祀斋戒期",
+   "where": "祭坛",
+   "source": "09_卷下_礼仪第七.xhtml#条17",
+   "derived_from": [
+    "09-017"
+   ],
+   "confidence": 0.9,
+   "analysis": "斋戒禁酒饭+临祭巡视。",
+   "event_id": "XGF-E-200",
+   "original": "遇祭祀斋戒，不许粮里人等置酒办饭。临祭，须自巡视祭品，亦先要仪注呈看。",
+   "derived_rule": "XGF-R-244",
+   "who_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "type": "学校考课",
+   "title": "季考问民情",
+   "who": [
+    "生员"
+   ],
+   "action": "季考时问境内民情土俗兴利除害之策使人各得尽请",
+   "what": [
+    "民情土俗兴利除害策"
+   ],
+   "when": "季考时",
+   "where": "县学",
+   "source": "09_卷下_礼仪第七.xhtml#条18",
+   "derived_from": [
+    "09-018"
+   ],
+   "confidence": 0.88,
+   "analysis": "季考兼采民情。",
+   "event_id": "XGF-E-201",
+   "original": "季考生员，当问境内民情土俗，兴利除害之策，使人各得尽请，愈于询访。",
+   "derived_rule": "XGF-R-245",
+   "who_ent_ids": [
+    "ENT-044"
+   ]
+  }
+ ]
+}

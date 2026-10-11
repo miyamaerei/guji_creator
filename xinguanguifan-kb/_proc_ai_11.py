@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+"""11 卷（词讼第九）AI 流程/事件抽取（kg-proc-ai-v1）。original 由打包器从指纹库注入，不手抄。"""
+PROCESSES = [
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="斗殴验伤医治疗", trigger="凡斗殴",
+         timeline=["当日"], steps=[
+            dict(step_id="11-001-s1", state="陈告", action="俱要当日陈告拘拿到官", agent="官府", next="11-001-s2"),
+            dict(step_id="11-001-s2", state="验伤", action="验实有伤，责令直日医生带同原、被害告人于廨处眼同医治", agent="直日医生", next="11-001-s3"),
+            dict(step_id="11-001-s3", state="回报", action="供给汤药，平复回报", agent="医生", next="11-001-s4"),
+            dict(step_id="11-001-s4", state="究治", action="如伤重不堪调理，须呈白究治，将原犯入监", agent="官府", condition="伤重不堪调理时", next="END"),
+         ], next_process="11-002", source="11_卷下_词讼第九.xhtml#条1", derived_from=["11-001"],
+         confidence=0.88, analysis="斗殴处理：当日陈告→验伤医治→平复回报→伤重入监。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="亲族争讼示众", trigger="兄弟叔侄及亲戚争论",
+         timeline=["每日"], steps=[
+            dict(step_id="11-002-s1", state="示众", action="每日监内并锁连杻带出申明亭示众", agent="官府", next="11-002-s2"),
+            dict(step_id="11-002-s2", state="候悔", action="以候各犯自悔如息", agent="争讼之人", next="END"),
+         ], next_process="11-003", source="11_卷下_词讼第九.xhtml#条2", derived_from=["11-002"],
+         confidence=0.8, analysis="亲族争讼：申明亭示众→候自悔息。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="主奴互告辨诬", trigger="家主告奴仆盗财物/奴仆告家主奸妻女",
+         timeline=[], steps=[
+            dict(step_id="11-003-s1", state="辨诬", action="多系诬捏，不要轻准", agent="官府", next="END"),
+         ], next_process="11-004", source="11_卷下_词讼第九.xhtml#条3", derived_from=["11-003"],
+         confidence=0.9, analysis="主奴互告：多系诬捏，勿轻准。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="夫妇词讼观律", trigger="妇人告夫/夫告妇",
+         timeline=[], steps=[
+            dict(step_id="11-004-s1", state="观律", action="须仔细观律处理", agent="官府", condition="不可轻易发落", next="END"),
+         ], next_process="11-005", source="11_卷下_词讼第九.xhtml#条4", derived_from=["11-004"],
+         confidence=0.9, analysis="夫妇词讼：仔细观律→不轻易发落。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="告子不孝痛责", trigger="告子不孝",
+         timeline=[], steps=[
+            dict(step_id="11-005-s1", state="痛责", action="虽有可怜之情，亦须痛责", agent="官府", next="11-005-s2"),
+            dict(step_id="11-005-s2", state="维伦", action="不可姑息，以伤伦理", agent="官府", next="11-005-s3"),
+            dict(step_id="11-005-s3", state="恕父", action="父纵不慈，不可加罪", agent="官府", next="END"),
+         ], next_process="11-006", source="11_卷下_词讼第九.xhtml#条5", derived_from=["11-005"],
+         confidence=0.93, analysis="告子不孝：痛责维伦理→父不慈不加罪。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="人命勘提", trigger="告人命",
+         timeline=["三日"], steps=[
+            dict(step_id="11-006-s1", state="限期", action="远不三日，过期告理不准；谋杀、故杀检验亦不过三日", agent="官府", next="11-006-s2"),
+            dict(step_id="11-006-s2", state="勘提", action="若过期杀及斗殴致死者须要勘提", agent="官府", condition="不可巡抚，以误两家", next="END"),
+         ], next_process="11-007", source="11_卷下_词讼第九.xhtml#条6", derived_from=["11-006"],
+         confidence=0.93, analysis="人命案：三日限期→过期不准→致死勘提。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="钱债追理", trigger="告钱债",
+         timeline=[], steps=[
+            dict(step_id="11-007-s1", state="拘追", action="告些小钱债及无力家贫被骗，即与管理拘追", agent="官府", next="11-007-s2"),
+            dict(step_id="11-007-s2", state="不追", action="若富豪之家并所告人多及钱米数多者，不与追理", agent="官府", next="END"),
+         ], next_process="11-008", source="11_卷下_词讼第九.xhtml#条7", derived_from=["11-007"],
+         confidence=0.85, analysis="钱债分级：小债贫家拘追→富豪数多不追。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="田土踏看", trigger="告田土",
+         timeline=[], steps=[
+            dict(step_id="11-008-s1", state="踏看", action="须着实踏看", agent="官府", next="11-008-s2"),
+            dict(step_id="11-008-s2", state="亲问", action="若得公事须便自行到彼一问，胜如委人", agent="官府", next="11-008-s3"),
+            dict(step_id="11-008-s3", state="不准", action="倘粮数不清、典卖不明者，年远不与准理", agent="官府", next="END"),
+         ], next_process="11-009", source="11_卷下_词讼第九.xhtml#条8", derived_from=["11-008"],
+         confidence=0.88, analysis="田土案：着实踏看→自行亲问→粮数不清不准。"),
+    dict(process_id="XGF-P-000", event_type="放告", title="放告日程", trigger="放告",
+         timeline=["每十日","每日"], steps=[
+            dict(step_id="11-009-s1", state="定期", action="告户婚田土等事每十日一放告", agent="官府", next="11-009-s2"),
+            dict(step_id="11-009-s2", state="每日", action="若斗殴人命奸盗每日放告", agent="官府", next="END"),
+         ], next_process="11-010", source="11_卷下_词讼第九.xhtml#条9", derived_from=["11-009"],
+         confidence=0.88, analysis="放告日程：户婚田土十日/斗殴人命奸盗每日。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="妇讼审问", trigger="妇人告状并犯罪",
+         timeline=[], steps=[
+            dict(step_id="11-010-s1", state="远审", action="不可近前审问", agent="官府", next="11-010-s2"),
+            dict(step_id="11-010-s2", state="禁辱", action="亦不可纵容手下人凌辱恐吓", agent="官府", next="END"),
+         ], next_process="11-011", source="11_卷下_词讼第九.xhtml#条10", derived_from=["11-010"],
+         confidence=0.9, analysis="妇讼：不近前审问→禁凌辱恐吓。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="量拘审词", trigger="有词讼应理者",
+         timeline=[], steps=[
+            dict(step_id="11-011-s1", state="量拘", action="量拘紧关人犯，多则三四人，少则二人", agent="官府", next="11-011-s2"),
+            dict(step_id="11-011-s2", state="审词", action="责审口词相同，即将干证人先省回家", agent="官府", next="11-011-s3"),
+            dict(step_id="11-011-s3", state="禁滥", action="不可将老幼及妇女一概监提，不许照名罚赎", agent="官府", next="END"),
+         ], next_process="11-012", source="11_卷下_词讼第九.xhtml#条11", derived_from=["11-011"],
+         confidence=0.9, analysis="量拘：紧关人犯二三→口词同省干证→禁滥监。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="里老承讼引缴", trigger="里老承办词讼",
+         timeline=["朔望日辰时"], steps=[
+            dict(step_id="11-012-s1", state="带证", action="如有事情难豁者，即带干证紧关二三人", agent="里老", next="11-012-s2"),
+            dict(step_id="11-012-s2", state="引缴", action="如情轻判理明白及自息和者，止将缘由每月于朔望日辰时引缴", agent="里老", condition="余日不准，可免拘留人众", next="END"),
+         ], next_process="11-013", source="11_卷下_词讼第九.xhtml#条12", derived_from=["11-012"],
+         confidence=0.88, analysis="里老承讼：难豁带干证→情轻朔望引缴。"),
+    dict(process_id="XGF-P-000", event_type="勾摄拘唤", title="拘摄发牌", trigger="凡拘摄",
+         timeline=["刻期"], steps=[
+            dict(step_id="11-013-s1", state="定期", action="量地方远近、人犯多寡以定日期，发牌拘唤", agent="官府", condition="不可凭吏妄听举行", next="11-013-s2"),
+            dict(step_id="11-013-s2", state="木牌", action="如有要紧重犯另置木牌十面挂于后堂", agent="官府", next="11-013-s3"),
+            dict(step_id="11-013-s3", state="捉获", action="遇要行拿亲笔出名于上，密差应捕，刻期捉获", agent="应捕", condition="不容皂隶等押带囚犯出外召保", next="END"),
+         ], next_process="11-014", source="11_卷下_词讼第九.xhtml#条13", derived_from=["11-013"],
+         confidence=0.93, analysis="拘摄：量远近定日期发牌→重犯木牌→密差应捕刻期。"),
+    dict(process_id="XGF-P-000", event_type="勾摄拘唤", title="轻讼自投", trigger="海行事件及轻省词讼",
+         timeline=["立定限期"], steps=[
+            dict(step_id="11-014-s1", state="告示", action="须开写告示，立定限期，准自投到", agent="官府", next="11-014-s2"),
+            dict(step_id="11-014-s2", state="拘促", action="如有监人命差，委里老应捕拘促，情愿不服应申照律施行", agent="里老/应捕", next="11-014-s3"),
+            dict(step_id="11-014-s3", state="从宽", action="如争情可处者且从宽，如着犯有力亲属缉捕", agent="官府", condition="切不可滥差，添皂隶人等", next="END"),
+         ], next_process="11-015", source="11_卷下_词讼第九.xhtml#条14", derived_from=["11-014"],
+         confidence=0.9, analysis="轻讼：告示限期自投→监命差委拘促→争情从宽。"),
+    dict(process_id="XGF-P-000", event_type="词讼受理", title="处势要", trigger="遇权毫势要",
+         timeline=[], steps=[
+            dict(step_id="11-015-s1", state="易气", action="须平日易气处之", agent="官府", next="11-015-s2"),
+            dict(step_id="11-015-s2", state="守正", action="不可受其笼络挟制，亦不可故意窘辱，自立门户", agent="官府", next="END"),
+         ], next_process="", source="11_卷下_词讼第九.xhtml#条15", derived_from=["11-015"],
+         confidence=0.9, analysis="处势要：平日易气→不笼络不窘辱。"),
+]
+EVENTS = []

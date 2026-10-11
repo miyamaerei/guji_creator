@@ -1,0 +1,77 @@
+# -*- coding: utf-8 -*-
+"""《水东日记》卷 32 —— APPT 职官任职 源数据（AI 判定逐条填写）"""
+
+ITEM_LIST = [
+    "32-001 | 英宗皇帝一日御祥凤楼",
+    "32-002 | 二月十一日熹顿首再拜上记",
+    "32-003 | 德修宫使直阁左史舍人老兄",
+    "32-004 | 熹顿首再拜上记",
+    "32-005 | 山西疆理图",
+    "32-006 | 此图盖据今山西左布政使丘陵",
+    "32-007 | 左布政使杨鼎廷器扶沟县人",
+    "32-008 | 张茂景芳咸宁县人",
+    "32-009 | 右布政使侯复昌平县人",
+    "32-010 | 陈翌冲霄虹县人",
+    "32-011 | 左参政王英闽县人",
+    "32-012 | 刘训忠言麻城县人",
+    "32-013 | 右参政王庾仲京江夏县人",
+    "32-014 | 杨璿叔玑无锡县人",
+    "32-015 | 左参议祝颢维清长洲县人",
+    "32-016 | 右参议郭恕安仁鸡泽县人",
+    "32-017 | 魏琳廷珪肥乡县人",
+    "32-018 | 于泰伯亨德州人",
+    "32-019 | 毕鸾冲霄井陉县人",
+    "32-020 | 昆山龚钝庵老先生今年八十七矣",
+    "32-021 | 丞相雍国忠肃公奏议序",
+]
+
+DATA = [
+    # ---- 32-001 吴瑾恭顺侯 ----
+    {"appointment_id": "APPT-16001", "item_id": "32-001",
+     "person": {"text": "吴瑾", "person_ent_ids": []},
+     "office": {"text": "恭顺侯", "official_ent_ids": []},
+     "institution": {"text": "未明", "ent_ids": []},
+     "when": "天顺初", "status": "现任",
+     "evidence": "恭顺侯吴瑾抚宁伯朱永等被召入侍",
+     "confidence": 0.85},
+    {"appointment_id": "APPT-16002", "item_id": "32-001",
+     "person": {"text": "朱永", "person_ent_ids": []},
+     "office": {"text": "抚宁伯", "official_ent_ids": []},
+     "institution": {"text": "未明", "ent_ids": []},
+     "when": "天顺初", "status": "现任",
+     "evidence": "抚宁伯朱永",
+     "confidence": 0.85},
+    # ---- 32-006 山西左布政使 ----
+    {"appointment_id": "APPT-16003", "item_id": "32-006",
+     "person": {"text": "丘陵", "person_ent_ids": []},
+     "office": {"text": "山西左布政使", "official_ent_ids": []},
+     "institution": {"text": "山西布政司", "ent_ids": []},
+     "when": "景泰壬申", "status": "现任",
+     "evidence": "今山西左布政使丘陵封来印本",
+     "confidence": 0.85},
+    # ---- 32-007 杨鼎左布政使 ----
+    {"appointment_id": "APPT-16004", "item_id": "32-007",
+     "person": {"text": "杨鼎（廷器）", "person_ent_ids": []},
+     "office": {"text": "左布政使", "official_ent_ids": []},
+     "institution": {"text": "山西布政司", "ent_ids": []},
+     "when": "景泰壬申", "status": "现任",
+     "evidence": "左布政使杨鼎廷器扶沟县人",
+     "confidence": 0.85},
+    # ---- 32-009 侯复右布政使 ----
+    {"appointment_id": "APPT-16005", "item_id": "32-009",
+     "person": {"text": "侯复", "person_ent_ids": []},
+     "office": {"text": "右布政使", "official_ent_ids": []},
+     "institution": {"text": "山西布政司", "ent_ids": []},
+     "when": "景泰壬申", "status": "现任",
+     "evidence": "右布政使侯复昌平县人",
+     "confidence": 0.85},
+    # ---- 32-021 虞允文中书舍人 ----
+    {"appointment_id": "APPT-16006", "item_id": "32-021",
+     "person": {"text": "虞允文", "person_ent_ids": []},
+     "office": {"text": "中书舍人", "official_ent_ids": []},
+     "institution": {"text": "中书省", "ent_ids": []},
+     "when": "南宋绍兴", "status": "升迁",
+     "evidence": "高宗皇帝擢为中书舍人",
+     "confidence": 0.85},
+]
+# 缺口登记：其余条目为书信/诗/序，不单列任职；山西参政/参议见 NAM 题名。

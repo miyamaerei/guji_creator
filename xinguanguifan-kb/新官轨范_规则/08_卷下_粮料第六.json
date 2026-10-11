@@ -1,0 +1,706 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "08",
+ "chapter": "卷下_粮料第六",
+ "chapter_no": "08",
+ "source_file": "08_卷下_粮料第六.xhtml",
+ "item_count": 19,
+ "rule_item_count": 19,
+ "rule_count": 20,
+ "rules": [
+  {
+   "rule_id": "XGF-R-146",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "征收夏麦秋粮",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "定某都某处收",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条1",
+   "original": "征收夏麦秋粮，须定某都某处收。每日各粮长将所收过数，日于本日晚具数报知。次日户房将已完、未完数禀，以凭催责。",
+   "original_offset": {
+    "start": 0,
+    "end": 54
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】征收夏麦秋粮时，官府（知县）应定某都某处收。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 1
+  },
+  {
+   "rule_id": "XGF-R-147",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "分派粮数本色、折色",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "先定都图总撒数目，当堂量平日熟知都分，高下分派",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条2",
+   "original": "分派粮数本色、折色，须先定都图总撒数目，当堂量平日熟知都分，高下分派。",
+   "original_offset": {
+    "start": 0,
+    "end": 35
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】分派粮数本色、折色时，官府（知县）应先定都图总撒数目，当堂量平日熟知都分，高下分派。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 2
+  },
+  {
+   "rule_id": "XGF-R-148",
+   "type": "义务型+禁止型+处罚型+程序型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit",
+    "penalty",
+    "procedure"
+   ],
+   "condition": "征收寄庄田粮",
+   "subject": "官府（知县）",
+   "prohibited_action": "与耕种；移关拘取",
+   "allowed_action": "",
+   "obligation_action": "先省谕该都里长，着人佃户于秋收时除起纳粮数",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "佃户",
+   "source": "08_卷下_粮料第六.xhtml#条3",
+   "original": "征收寄庄田粮，须先省谕该都里长，着人佃户于秋收时除起纳粮数，然后纳租。倘有强索，即令佃户下年勿与耕种。违者止罚佃户，不许移关拘取。",
+   "original_offset": {
+    "start": 0,
+    "end": 65
+   },
+   "confidence": 0.95,
+   "example": {
+    "text": "【场景】征收寄庄田粮时，若与耕种；移关拘取，即属违禁；合规做法：改用文内许可途径。【场景】征收寄庄田粮时，官府（知县）应先省谕该都里长，着人佃户于秋收时除起纳粮数，以佃户。【场景】违者依规佃户。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-149",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "禁揽纳",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "先出由帖，分散各户自执赴官交纳注销；痛治，亦不□□信小户，愿与附纳",
+   "prohibited_effect": "",
+   "object": "各户自执赴官交纳注销",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "original_offset": {
+    "start": 0,
+    "end": 57
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】禁揽纳时，官府（知县）应先出由帖，分散各户自执赴官交纳注销；痛治，亦不□□信小户，愿与附纳。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 4
+  },
+  {
+   "rule_id": "XGF-R-150",
+   "type": "禁止型+时限型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "deadline"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "逐年推故，仍将该催钱粮逐一填写",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "钱粮逐一填写",
+   "purpose": "",
+   "deadline": "注销，完日总缴",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "original_offset": {
+    "start": 0,
+    "end": 72
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若逐年推故，仍将该催钱粮逐一填写，即属违禁；合规做法：改用文内许可途径。【场景】日常政务事项须在注销，完日总缴内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 5
+  },
+  {
+   "rule_id": "XGF-R-151",
+   "type": "处罚型+禁止型",
+   "primary_type": "处罚型",
+   "is_combo": true,
+   "modals": [
+    "penalty",
+    "prohibit"
+   ],
+   "condition": "实征该用纸札",
+   "subject": "官府（知县）",
+   "prohibited_action": "科派里甲",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "免责名下",
+   "source": "08_卷下_粮料第六.xhtml#条6",
+   "original": "实征该用纸札，先自记数于愿罚免责名下。量数出备，不许科派里甲。",
+   "original_offset": {
+    "start": 0,
+    "end": 31
+   },
+   "confidence": 0.95,
+   "example": {
+    "text": "【场景】实征该用纸札时，若科派里甲，即属违禁；合规做法：改用文内许可途径。【场景】违者依规免责名下。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 6
+  },
+  {
+   "rule_id": "XGF-R-152",
+   "type": "义务型+允许型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "allow",
+    "prohibit"
+   ],
+   "condition": "折银务须量粮均派",
+   "subject": "官府（知县）",
+   "prohibited_action": "混派，以",
+   "allowed_action": "以派征余下零数悉作本色，至于分派一里",
+   "obligation_action": "量粮均派，且如某户该本色若干",
+   "prohibited_effect": "致多征作弊",
+   "object": "",
+   "purpose": "致多征作弊",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条7",
+   "original": "折银务须量粮均派，且如某户该本色若干，共该折银若干。止许以派征余下零数悉作本色，至于分派一里，亦推此□。切不得混派，以致多征作弊。",
+   "original_offset": {
+    "start": 0,
+    "end": 65
+   },
+   "confidence": 0.96,
+   "example": {
+    "text": "【场景】折银务须量粮均派时，若混派，以，即属违禁，致多征作弊；合规做法：以派征余下零数悉作本色，至于分派一里。【场景】折银务须量粮均派时，官府（知县）应量粮均派，且如某户该本色若干。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 7
+  },
+  {
+   "rule_id": "XGF-R-153",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "将收粮之时",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳",
+   "prohibited_effect": "",
+   "object": "审上年拖赖侵欠人户",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条8",
+   "original": "将收粮之时，须先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳。如再违期，比众加罪。",
+   "original_offset": {
+    "start": 0,
+    "end": 44
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】将收粮之时时，官府（知县）应先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-154",
+   "type": "禁止型+程序型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "派于升合，有能自行清出告鸣者，即与分豁",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条9",
+   "original": "派无征粮，先尽本里田多人户次，及一里次，及一都内田多之人，验田均派。凡田户不及十亩者，亦不可派于升合，有能自行清出告鸣者，即与分豁。",
+   "original_offset": {
+    "start": 0,
+    "end": 66
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若派于升合，有能自行清出告鸣者，即与分豁，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 9
+  },
+  {
+   "rule_id": "XGF-R-155",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "白粮不可先派",
+   "subject": "官府（知县）",
+   "prohibited_action": "先派，另催项造粮，一并征派",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "项造粮",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条10",
+   "original": "白粮不可先派，另催项造粮，一并征派。每造粮二石，坐派白粮一斗，粮不及二石者止可派与一升。",
+   "original_offset": {
+    "start": 0,
+    "end": 44
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】白粮不可先派时，若先派，另催项造粮，一并征派，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 10
+  },
+  {
+   "rule_id": "XGF-R-156",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "存留等项余米",
+   "subject": "官府（知县）",
+   "prohibited_action": "先后分征，以",
+   "allowed_action": "",
+   "obligation_action": "于征收京通之时一齐催完",
+   "prohibited_effect": "致彼此推延侵欺",
+   "object": "",
+   "purpose": "致彼此推延侵欺",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条11",
+   "original": "存留等项余米，须于征收京通之时一齐催完，不可先后分征，以致彼此推延侵欺。其县仓学、仓通关及折银抛荒，俱要并算，慎缴勘合。",
+   "original_offset": {
+    "start": 0,
+    "end": 60
+   },
+   "confidence": 0.96,
+   "example": {
+    "text": "【场景】存留等项余米时，若先后分征，以，即属违禁，致彼此推延侵欺；合规做法：改用文内许可途径。【场景】存留等项余米时，官府（知县）应于征收京通之时一齐催完。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 11
+  },
+  {
+   "rule_id": "XGF-R-157",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "征完粮料",
+   "subject": "官府（知县）",
+   "prohibited_action": "一时追并；责令粮里陪纳应数",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "令粮里陪纳应数",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条12",
+   "original": "征完粮料，方收折银，不可一时追并，亦不可责令粮里陪纳应数。",
+   "original_offset": {
+    "start": 0,
+    "end": 29
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】征完粮料时，若一时追并；责令粮里陪纳应数，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 12
+  },
+  {
+   "rule_id": "XGF-R-158",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "斗斛须先较勘印",
+   "subject": "官府（知县）",
+   "prohibited_action": "责及纳户",
+   "allowed_action": "",
+   "obligation_action": "先较勘印，略用铁裹四角，如有破损，来告必是",
+   "prohibited_effect": "",
+   "object": "及纳户",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条13",
+   "original": "斗斛须先较勘印，略用铁裹四角，如有破损，来告必是，粮长装诬不可责及纳户。",
+   "original_offset": {
+    "start": 0,
+    "end": 36
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】斗斛须先较勘印时，若责及纳户，即属违禁；合规做法：改用文内许可途径。【场景】斗斛须先较勘印时，官府（知县）应先较勘印，略用铁裹四角，如有破损，来告必是。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 13
+  },
+  {
+   "rule_id": "XGF-R-159",
+   "type": "禁止型+时限型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "deadline"
+   ],
+   "condition": "征粮不可先期报完",
+   "subject": "官府（知县）",
+   "prohibited_action": "先期报完，及空文起解，以",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "致欺上罔下、害人损己",
+   "object": "",
+   "purpose": "致欺上罔下、害人损己",
+   "deadline": "征解",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条14",
+   "original": "征粮不可先期报完，及空文起解，以致欺上罔下、害人损己，先期多出告示，省令纳户办备，立限征解。",
+   "original_offset": {
+    "start": 0,
+    "end": 46
+   },
+   "confidence": 0.96,
+   "example": {
+    "text": "【场景】征粮不可先期报完时，若先期报完，及空文起解，以，即属违禁，致欺上罔下、害人损己；合规做法：改用文内许可途径。【场景】征粮不可先期报完事项须在征解内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 14
+  },
+  {
+   "rule_id": "XGF-R-160",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "扣留分耗",
+   "allowed_action": "",
+   "obligation_action": "计其所费多寡以增减之，如有扣下火耗留作公堂响馈送等项，公用重者当全给",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条15",
+   "original": "征收各项粮价，择立良善殷实收头，量价纳多寡难易，加增起解火耗。亦须计其所费多寡以增减之，如有扣下火耗留作公堂响馈送等项，公用重者当全给，不可扣留分耗。",
+   "original_offset": {
+    "start": 0,
+    "end": 75
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若扣留分耗，即属违禁；合规做法：改用文内许可途径。【场景】日常政务时，官府（知县）应计其所费多寡以增减之，如有扣下火耗留作公堂响馈送等项，公用重者当全给。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 15
+  },
+  {
+   "rule_id": "XGF-R-161",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "凡收价折银字项",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。",
+   "original_offset": {
+    "start": 0,
+    "end": 37
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡收价折银字项时，官府（知县）应写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 16
+  },
+  {
+   "rule_id": "XGF-R-161",
+   "type": "允许型",
+   "primary_type": "允许型",
+   "is_combo": false,
+   "modals": [
+    "allow"
+   ],
+   "condition": "如有刁蹬，即",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "口禀",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "original": "如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "original_offset": {
+    "start": 37,
+    "end": 85
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】如有刁蹬，即时，官府（知县）可口禀。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 16
+  },
+  {
+   "rule_id": "XGF-R-163",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "密切申禀",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条17",
+   "original": "凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下须，密切申禀。",
+   "original_offset": {
+    "start": 0,
+    "end": 36
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下时，官府（知县）应密切申禀。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 17
+  },
+  {
+   "rule_id": "XGF-R-164",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "解粮料须宽与文费",
+   "subject": "官府（知县）",
+   "prohibited_action": "与追筭索取",
+   "allowed_action": "",
+   "obligation_action": "宽与文费，宁使两余",
+   "prohibited_effect": "",
+   "object": "筭索取",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条18",
+   "original": "解粮料须宽与文费，宁使两余，勿与追筭索取。",
+   "original_offset": {
+    "start": 0,
+    "end": 21
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】解粮料须宽与文费时，若与追筭索取，即属违禁；合规做法：改用文内许可途径。【场景】解粮料须宽与文费时，官府（知县）应宽与文费，宁使两余。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 18
+  },
+  {
+   "rule_id": "XGF-R-165",
+   "type": "允许型",
+   "primary_type": "允许型",
+   "is_combo": false,
+   "modals": [
+    "allow"
+   ],
+   "condition": "倘有失水等项",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "告验实，即与处置换易",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "08_卷下_粮料第六.xhtml#条19",
+   "original": "倘有失水等项，许告验实，即与处置换易，",
+   "original_offset": {
+    "start": 6,
+    "end": 25
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】倘有失水等项时，官府（知县）可告验实，即与处置换易。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "08",
+   "chapter": "卷下_粮料第六",
+   "item": 19
+  }
+ ]
+}

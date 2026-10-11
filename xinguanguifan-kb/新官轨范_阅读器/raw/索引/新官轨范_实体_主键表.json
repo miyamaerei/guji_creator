@@ -1,0 +1,7707 @@
+{
+ "schema_version": "kg-entity-key-v1",
+ "total": 591,
+ "unique_entities": 591,
+ "total_annotations": 1981,
+ "alias_index_count": 591,
+ "entity_types": {
+  "org": 264,
+  "place": 158,
+  "document": 195,
+  "quantity": 163,
+  "time": 156,
+  "official": 262,
+  "person": 125,
+  "behavior": 441,
+  "institution": 92,
+  "object": 95,
+  "punishment": 30
+ },
+ "entities": [
+  {
+   "normalized": "县",
+   "type": "org",
+   "count": 48,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "县"
+   ],
+   "ent_id": "ENT-001"
+  },
+  {
+   "normalized": "上司",
+   "type": "org",
+   "count": 36,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "上司"
+   ],
+   "ent_id": "ENT-002"
+  },
+  {
+   "normalized": "里",
+   "type": "place",
+   "count": 35,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "里"
+   ],
+   "ent_id": "ENT-003"
+  },
+  {
+   "normalized": "公文",
+   "type": "document",
+   "count": 34,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "公文"
+   ],
+   "ent_id": "ENT-004"
+  },
+  {
+   "normalized": "簿",
+   "type": "document",
+   "count": 31,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "簿"
+   ],
+   "ent_id": "ENT-005"
+  },
+  {
+   "normalized": "若干",
+   "type": "quantity",
+   "count": 30,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "若干"
+   ],
+   "ent_id": "ENT-006"
+  },
+  {
+   "normalized": "每日",
+   "type": "time",
+   "count": 29,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "每日"
+   ],
+   "ent_id": "ENT-007"
+  },
+  {
+   "normalized": "吏典",
+   "type": "official",
+   "count": 25,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "吏典"
+   ],
+   "ent_id": "ENT-008"
+  },
+  {
+   "normalized": "六房",
+   "type": "org",
+   "count": 25,
+   "first_source": "01_卷上_体立为政事情.xhtml#条24",
+   "surfaces": [
+    "六房"
+   ],
+   "ent_id": "ENT-009"
+  },
+  {
+   "normalized": "皂隶",
+   "type": "official",
+   "count": 23,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "皂隶"
+   ],
+   "ent_id": "ENT-010"
+  },
+  {
+   "normalized": "监",
+   "type": "org",
+   "count": 22,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "监"
+   ],
+   "ent_id": "ENT-011"
+  },
+  {
+   "normalized": "田",
+   "type": "place",
+   "count": 22,
+   "first_source": "06_卷下_民情第四.xhtml#条3",
+   "surfaces": [
+    "田"
+   ],
+   "ent_id": "ENT-012"
+  },
+  {
+   "normalized": "人户",
+   "type": "person",
+   "count": 21,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "人户"
+   ],
+   "ent_id": "ENT-013"
+  },
+  {
+   "normalized": "到任",
+   "type": "behavior",
+   "count": 20,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "到任"
+   ],
+   "ent_id": "ENT-014"
+  },
+  {
+   "normalized": "库",
+   "type": "org",
+   "count": 19,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "库"
+   ],
+   "ent_id": "ENT-015"
+  },
+  {
+   "normalized": "里长",
+   "type": "official",
+   "count": 19,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "里长"
+   ],
+   "ent_id": "ENT-016"
+  },
+  {
+   "normalized": "里老",
+   "type": "official",
+   "count": 18,
+   "first_source": "01_卷上_体立为政事情.xhtml#条26",
+   "surfaces": [
+    "里老"
+   ],
+   "ent_id": "ENT-017"
+  },
+  {
+   "normalized": "比较",
+   "type": "behavior",
+   "count": 17,
+   "first_source": "01_卷上_体立为政事情.xhtml#条23",
+   "surfaces": [
+    "比较"
+   ],
+   "ent_id": "ENT-018"
+  },
+  {
+   "normalized": "一人",
+   "type": "quantity",
+   "count": 17,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "一人"
+   ],
+   "ent_id": "ENT-019"
+  },
+  {
+   "normalized": "书手",
+   "type": "official",
+   "count": 16,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "书手"
+   ],
+   "ent_id": "ENT-020"
+  },
+  {
+   "normalized": "每月",
+   "type": "time",
+   "count": 16,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "每月"
+   ],
+   "ent_id": "ENT-021"
+  },
+  {
+   "normalized": "告示",
+   "type": "document",
+   "count": 16,
+   "first_source": "01_卷上_体立为政事情.xhtml#条40",
+   "surfaces": [
+    "告示"
+   ],
+   "ent_id": "ENT-022"
+  },
+  {
+   "normalized": "直堂吏",
+   "type": "official",
+   "count": 15,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "直堂吏"
+   ],
+   "ent_id": "ENT-023"
+  },
+  {
+   "normalized": "开写",
+   "type": "behavior",
+   "count": 14,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "开写"
+   ],
+   "ent_id": "ENT-024"
+  },
+  {
+   "normalized": "里甲",
+   "type": "institution",
+   "count": 14,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "里甲"
+   ],
+   "ent_id": "ENT-025"
+  },
+  {
+   "normalized": "本县",
+   "type": "org",
+   "count": 13,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "本县"
+   ],
+   "ent_id": "ENT-026"
+  },
+  {
+   "normalized": "后堂",
+   "type": "place",
+   "count": 12,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "后堂"
+   ],
+   "ent_id": "ENT-027"
+  },
+  {
+   "normalized": "一扇",
+   "type": "quantity",
+   "count": 12,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "一扇"
+   ],
+   "ent_id": "ENT-028"
+  },
+  {
+   "normalized": "发落",
+   "type": "behavior",
+   "count": 11,
+   "first_source": "01_卷上_体立为政事情.xhtml#条6",
+   "surfaces": [
+    "发落"
+   ],
+   "ent_id": "ENT-029"
+  },
+  {
+   "normalized": "五日",
+   "type": "time",
+   "count": 10,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "五日"
+   ],
+   "ent_id": "ENT-030"
+  },
+  {
+   "normalized": "概县",
+   "type": "org",
+   "count": 10,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "概县"
+   ],
+   "ent_id": "ENT-031"
+  },
+  {
+   "normalized": "牌",
+   "type": "object",
+   "count": 10,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "牌"
+   ],
+   "ent_id": "ENT-032"
+  },
+  {
+   "normalized": "都",
+   "type": "place",
+   "count": 10,
+   "first_source": "04_卷下_直日第二.xhtml#条5",
+   "surfaces": [
+    "都"
+   ],
+   "ent_id": "ENT-033"
+  },
+  {
+   "normalized": "钱粮",
+   "type": "institution",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "钱粮"
+   ],
+   "ent_id": "ENT-034"
+  },
+  {
+   "normalized": "一次",
+   "type": "quantity",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "一次"
+   ],
+   "ent_id": "ENT-035"
+  },
+  {
+   "normalized": "朔望",
+   "type": "time",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条13",
+   "surfaces": [
+    "朔望"
+   ],
+   "ent_id": "ENT-036"
+  },
+  {
+   "normalized": "一件",
+   "type": "quantity",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "一件"
+   ],
+   "ent_id": "ENT-037"
+  },
+  {
+   "normalized": "一个",
+   "type": "quantity",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "一个"
+   ],
+   "ent_id": "ENT-038"
+  },
+  {
+   "normalized": "贼",
+   "type": "person",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "贼"
+   ],
+   "ent_id": "ENT-039"
+  },
+  {
+   "normalized": "老人",
+   "type": "official",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "老人"
+   ],
+   "ent_id": "ENT-040"
+  },
+  {
+   "normalized": "仓",
+   "type": "org",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条63",
+   "surfaces": [
+    "仓"
+   ],
+   "ent_id": "ENT-041"
+  },
+  {
+   "normalized": "省谕",
+   "type": "behavior",
+   "count": 9,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "省谕"
+   ],
+   "ent_id": "ENT-042"
+  },
+  {
+   "normalized": "图",
+   "type": "place",
+   "count": 9,
+   "first_source": "03_卷下_上任第一.xhtml#条16",
+   "surfaces": [
+    "图"
+   ],
+   "ent_id": "ENT-043"
+  },
+  {
+   "normalized": "生员",
+   "type": "person",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "生员"
+   ],
+   "ent_id": "ENT-044"
+  },
+  {
+   "normalized": "三日",
+   "type": "time",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "三日"
+   ],
+   "ent_id": "ENT-045"
+  },
+  {
+   "normalized": "一日",
+   "type": "time",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "一日"
+   ],
+   "ent_id": "ENT-046"
+  },
+  {
+   "normalized": "囚犯",
+   "type": "person",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "囚犯"
+   ],
+   "ent_id": "ENT-047"
+  },
+  {
+   "normalized": "衙门",
+   "type": "org",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "衙门"
+   ],
+   "ent_id": "ENT-048"
+  },
+  {
+   "normalized": "乡",
+   "type": "place",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "乡"
+   ],
+   "ent_id": "ENT-049"
+  },
+  {
+   "normalized": "一名",
+   "type": "quantity",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "一名"
+   ],
+   "ent_id": "ENT-050"
+  },
+  {
+   "normalized": "门子",
+   "type": "official",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "门子"
+   ],
+   "ent_id": "ENT-051"
+  },
+  {
+   "normalized": "分派",
+   "type": "behavior",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条72",
+   "surfaces": [
+    "分派"
+   ],
+   "ent_id": "ENT-052"
+  },
+  {
+   "normalized": "征收",
+   "type": "behavior",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条84",
+   "surfaces": [
+    "征收"
+   ],
+   "ent_id": "ENT-053"
+  },
+  {
+   "normalized": "佐贰",
+   "type": "official",
+   "count": 8,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "佐贰"
+   ],
+   "ent_id": "ENT-054"
+  },
+  {
+   "normalized": "礼生",
+   "type": "person",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "礼生"
+   ],
+   "ent_id": "ENT-055"
+  },
+  {
+   "normalized": "士夫",
+   "type": "person",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "士夫"
+   ],
+   "ent_id": "ENT-056"
+  },
+  {
+   "normalized": "责罚",
+   "type": "punishment",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条13",
+   "surfaces": [
+    "责罚"
+   ],
+   "ent_id": "ENT-057"
+  },
+  {
+   "normalized": "勘合",
+   "type": "document",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "勘合"
+   ],
+   "ent_id": "ENT-058"
+  },
+  {
+   "normalized": "黄册",
+   "type": "document",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "黄册"
+   ],
+   "ent_id": "ENT-059"
+  },
+  {
+   "normalized": "巡视",
+   "type": "behavior",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条62",
+   "surfaces": [
+    "巡视"
+   ],
+   "ent_id": "ENT-060"
+  },
+  {
+   "normalized": "纸札",
+   "type": "object",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "纸札"
+   ],
+   "ent_id": "ENT-061"
+  },
+  {
+   "normalized": "吏房",
+   "type": "org",
+   "count": 7,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "吏房"
+   ],
+   "ent_id": "ENT-062"
+  },
+  {
+   "normalized": "呈报",
+   "type": "behavior",
+   "count": 7,
+   "first_source": "03_卷下_上任第一.xhtml#条8",
+   "surfaces": [
+    "呈报"
+   ],
+   "ent_id": "ENT-063"
+  },
+  {
+   "normalized": "仪注",
+   "type": "document",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "仪注"
+   ],
+   "ent_id": "ENT-064"
+  },
+  {
+   "normalized": "行礼",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "行礼"
+   ],
+   "ent_id": "ENT-065"
+  },
+  {
+   "normalized": "巡风",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "巡风"
+   ],
+   "ent_id": "ENT-066"
+  },
+  {
+   "normalized": "看守",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "看守"
+   ],
+   "ent_id": "ENT-067"
+  },
+  {
+   "normalized": "开报",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "开报"
+   ],
+   "ent_id": "ENT-068"
+  },
+  {
+   "normalized": "一本",
+   "type": "quantity",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "一本"
+   ],
+   "ent_id": "ENT-069"
+  },
+  {
+   "normalized": "词状",
+   "type": "document",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "词状"
+   ],
+   "ent_id": "ENT-070"
+  },
+  {
+   "normalized": "铺",
+   "type": "org",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条28",
+   "surfaces": [
+    "铺"
+   ],
+   "ent_id": "ENT-071"
+  },
+  {
+   "normalized": "木牌",
+   "type": "object",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "木牌"
+   ],
+   "ent_id": "ENT-072"
+  },
+  {
+   "normalized": "问理",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条43",
+   "surfaces": [
+    "问理"
+   ],
+   "ent_id": "ENT-073"
+  },
+  {
+   "normalized": "刑房",
+   "type": "org",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条46",
+   "surfaces": [
+    "刑房"
+   ],
+   "ent_id": "ENT-074"
+  },
+  {
+   "normalized": "用刑",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条50",
+   "surfaces": [
+    "用刑"
+   ],
+   "ent_id": "ENT-075"
+  },
+  {
+   "normalized": "出办",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "出办"
+   ],
+   "ent_id": "ENT-076"
+  },
+  {
+   "normalized": "行移",
+   "type": "document",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "行移"
+   ],
+   "ent_id": "ENT-077"
+  },
+  {
+   "normalized": "参见",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "参见"
+   ],
+   "ent_id": "ENT-078"
+  },
+  {
+   "normalized": "公座",
+   "type": "object",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "公座"
+   ],
+   "ent_id": "ENT-079"
+  },
+  {
+   "normalized": "首领官",
+   "type": "official",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "首领官"
+   ],
+   "ent_id": "ENT-080"
+  },
+  {
+   "normalized": "佐贰官",
+   "type": "official",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "佐贰官"
+   ],
+   "ent_id": "ENT-081"
+  },
+  {
+   "normalized": "直印吏",
+   "type": "official",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "直印吏"
+   ],
+   "ent_id": "ENT-082"
+  },
+  {
+   "normalized": "用印",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "用印"
+   ],
+   "ent_id": "ENT-083"
+  },
+  {
+   "normalized": "直堂",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "直堂"
+   ],
+   "ent_id": "ENT-084"
+  },
+  {
+   "normalized": "都图",
+   "type": "place",
+   "count": 6,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "都图"
+   ],
+   "ent_id": "ENT-085"
+  },
+  {
+   "normalized": "礼房",
+   "type": "org",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "礼房"
+   ],
+   "ent_id": "ENT-086"
+  },
+  {
+   "normalized": "交盘",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "交盘"
+   ],
+   "ent_id": "ENT-087"
+  },
+  {
+   "normalized": "缉访",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条7",
+   "surfaces": [
+    "缉访"
+   ],
+   "ent_id": "ENT-088"
+  },
+  {
+   "normalized": "量情",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "量情"
+   ],
+   "ent_id": "ENT-089"
+  },
+  {
+   "normalized": "某日",
+   "type": "time",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "某日"
+   ],
+   "ent_id": "ENT-090"
+  },
+  {
+   "normalized": "交割",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "交割"
+   ],
+   "ent_id": "ENT-091"
+  },
+  {
+   "normalized": "多寡",
+   "type": "quantity",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条20",
+   "surfaces": [
+    "多寡"
+   ],
+   "ent_id": "ENT-092"
+  },
+  {
+   "normalized": "城",
+   "type": "place",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "城"
+   ],
+   "ent_id": "ENT-093"
+  },
+  {
+   "normalized": "直老",
+   "type": "official",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "直老"
+   ],
+   "ent_id": "ENT-094"
+  },
+  {
+   "normalized": "签",
+   "type": "object",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "签"
+   ],
+   "ent_id": "ENT-095"
+  },
+  {
+   "normalized": "王大",
+   "type": "person",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "王大"
+   ],
+   "ent_id": "ENT-096"
+  },
+  {
+   "normalized": "兵房",
+   "type": "org",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条47",
+   "surfaces": [
+    "兵房"
+   ],
+   "ent_id": "ENT-097"
+  },
+  {
+   "normalized": "升堂",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "升堂"
+   ],
+   "ent_id": "ENT-098"
+  },
+  {
+   "normalized": "学官",
+   "type": "official",
+   "count": 5,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "学官"
+   ],
+   "ent_id": "ENT-099"
+  },
+  {
+   "normalized": "粮料",
+   "type": "institution",
+   "count": 5,
+   "first_source": "04_卷下_直日第二.xhtml#条4",
+   "surfaces": [
+    "粮料"
+   ],
+   "ent_id": "ENT-100"
+  },
+  {
+   "normalized": "僧道",
+   "type": "person",
+   "count": 5,
+   "first_source": "06_卷下_民情第四.xhtml#条9",
+   "surfaces": [
+    "僧道"
+   ],
+   "ent_id": "ENT-101"
+  },
+  {
+   "normalized": "总甲",
+   "type": "official",
+   "count": 5,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "总甲"
+   ],
+   "ent_id": "ENT-102"
+  },
+  {
+   "normalized": "乡宦",
+   "type": "person",
+   "count": 5,
+   "first_source": "07_卷下_公务第五.xhtml#条35",
+   "surfaces": [
+    "乡宦"
+   ],
+   "ent_id": "ENT-103"
+  },
+  {
+   "normalized": "折银",
+   "type": "institution",
+   "count": 5,
+   "first_source": "08_卷下_粮料第六.xhtml#条7",
+   "surfaces": [
+    "折银"
+   ],
+   "ent_id": "ENT-104"
+  },
+  {
+   "normalized": "手本",
+   "type": "document",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "手本"
+   ],
+   "ent_id": "ENT-105"
+  },
+  {
+   "normalized": "县衙",
+   "type": "org",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "县衙"
+   ],
+   "ent_id": "ENT-106"
+  },
+  {
+   "normalized": "簿籍",
+   "type": "document",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "簿籍"
+   ],
+   "ent_id": "ENT-107"
+  },
+  {
+   "normalized": "十日",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "十日"
+   ],
+   "ent_id": "ENT-108"
+  },
+  {
+   "normalized": "夜晚",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "夜晚"
+   ],
+   "ent_id": "ENT-109"
+  },
+  {
+   "normalized": "刑房吏",
+   "type": "official",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "刑房吏"
+   ],
+   "ent_id": "ENT-110"
+  },
+  {
+   "normalized": "六房吏典",
+   "type": "org",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "六房吏典"
+   ],
+   "ent_id": "ENT-111"
+  },
+  {
+   "normalized": "承发吏",
+   "type": "official",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "承发吏"
+   ],
+   "ent_id": "ENT-112"
+  },
+  {
+   "normalized": "某月",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "某月"
+   ],
+   "ent_id": "ENT-113"
+  },
+  {
+   "normalized": "递送",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条20",
+   "surfaces": [
+    "递送"
+   ],
+   "ent_id": "ENT-114"
+  },
+  {
+   "normalized": "禁革",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "禁革"
+   ],
+   "ent_id": "ENT-115"
+  },
+  {
+   "normalized": "勾摄",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "勾摄"
+   ],
+   "ent_id": "ENT-116"
+  },
+  {
+   "normalized": "赵甲",
+   "type": "person",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "赵甲"
+   ],
+   "ent_id": "ENT-117"
+  },
+  {
+   "normalized": "保举",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "保举"
+   ],
+   "ent_id": "ENT-118"
+  },
+  {
+   "normalized": "审问",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "审问"
+   ],
+   "ent_id": "ENT-119"
+  },
+  {
+   "normalized": "除免",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "除免"
+   ],
+   "ent_id": "ENT-120"
+  },
+  {
+   "normalized": "医生",
+   "type": "official",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条38",
+   "surfaces": [
+    "医生"
+   ],
+   "ent_id": "ENT-121"
+  },
+  {
+   "normalized": "一面",
+   "type": "quantity",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "一面"
+   ],
+   "ent_id": "ENT-122"
+  },
+  {
+   "normalized": "明日",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条41",
+   "surfaces": [
+    "明日"
+   ],
+   "ent_id": "ENT-123"
+  },
+  {
+   "normalized": "次日",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条41",
+   "surfaces": [
+    "次日"
+   ],
+   "ent_id": "ENT-124"
+  },
+  {
+   "normalized": "卷宗",
+   "type": "document",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条47",
+   "surfaces": [
+    "卷宗"
+   ],
+   "ent_id": "ENT-125"
+  },
+  {
+   "normalized": "科敛",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "科敛"
+   ],
+   "ent_id": "ENT-126"
+  },
+  {
+   "normalized": "道路",
+   "type": "place",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条77",
+   "surfaces": [
+    "道路"
+   ],
+   "ent_id": "ENT-127"
+  },
+  {
+   "normalized": "每年",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条85",
+   "surfaces": [
+    "每年"
+   ],
+   "ent_id": "ENT-128"
+  },
+  {
+   "normalized": "洒扫",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "洒扫"
+   ],
+   "ent_id": "ENT-129"
+  },
+  {
+   "normalized": "鼓",
+   "type": "object",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条3",
+   "surfaces": [
+    "鼓"
+   ],
+   "ent_id": "ENT-130"
+  },
+  {
+   "normalized": "阴阳生",
+   "type": "official",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "阴阳生"
+   ],
+   "ent_id": "ENT-131"
+  },
+  {
+   "normalized": "属官",
+   "type": "official",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "属官"
+   ],
+   "ent_id": "ENT-132"
+  },
+  {
+   "normalized": "须知",
+   "type": "document",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "须知"
+   ],
+   "ent_id": "ENT-133"
+  },
+  {
+   "normalized": "乡官",
+   "type": "official",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "乡官"
+   ],
+   "ent_id": "ENT-134"
+  },
+  {
+   "normalized": "到任次日",
+   "type": "time",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条8",
+   "surfaces": [
+    "到任次日"
+   ],
+   "ent_id": "ENT-135"
+  },
+  {
+   "normalized": "立限",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条10",
+   "surfaces": [
+    "立限"
+   ],
+   "ent_id": "ENT-136"
+  },
+  {
+   "normalized": "应捕",
+   "type": "official",
+   "count": 4,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "应捕"
+   ],
+   "ent_id": "ENT-137"
+  },
+  {
+   "normalized": "注销",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "05_卷下_御史第三.xhtml#条6",
+   "surfaces": [
+    "注销"
+   ],
+   "ent_id": "ENT-138"
+  },
+  {
+   "normalized": "四至",
+   "type": "place",
+   "count": 4,
+   "first_source": "06_卷下_民情第四.xhtml#条3",
+   "surfaces": [
+    "四至"
+   ],
+   "ent_id": "ENT-139"
+  },
+  {
+   "normalized": "田地",
+   "type": "place",
+   "count": 4,
+   "first_source": "06_卷下_民情第四.xhtml#条5",
+   "surfaces": [
+    "田地"
+   ],
+   "ent_id": "ENT-140"
+  },
+  {
+   "normalized": "粮长",
+   "type": "official",
+   "count": 4,
+   "first_source": "07_卷下_公务第五.xhtml#条3",
+   "surfaces": [
+    "粮长"
+   ],
+   "ent_id": "ENT-141"
+  },
+  {
+   "normalized": "礼房吏",
+   "type": "official",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "礼房吏"
+   ],
+   "ent_id": "ENT-142"
+  },
+  {
+   "normalized": "买办",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "买办"
+   ],
+   "ent_id": "ENT-143"
+  },
+  {
+   "normalized": "支应",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "支应"
+   ],
+   "ent_id": "ENT-144"
+  },
+  {
+   "normalized": "查勘",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "查勘"
+   ],
+   "ent_id": "ENT-145"
+  },
+  {
+   "normalized": "提督",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "提督"
+   ],
+   "ent_id": "ENT-146"
+  },
+  {
+   "normalized": "结状",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "结状"
+   ],
+   "ent_id": "ENT-147"
+  },
+  {
+   "normalized": "修筑",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条9",
+   "surfaces": [
+    "修筑"
+   ],
+   "ent_id": "ENT-148"
+  },
+  {
+   "normalized": "一处",
+   "type": "quantity",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "一处"
+   ],
+   "ent_id": "ENT-149"
+  },
+  {
+   "normalized": "案卷",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "案卷"
+   ],
+   "ent_id": "ENT-150"
+  },
+  {
+   "normalized": "清查",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "清查"
+   ],
+   "ent_id": "ENT-151"
+  },
+  {
+   "normalized": "某年月日",
+   "type": "time",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "某年月日"
+   ],
+   "ent_id": "ENT-152"
+  },
+  {
+   "normalized": "完报",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "完报"
+   ],
+   "ent_id": "ENT-153"
+  },
+  {
+   "normalized": "注写",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "注写"
+   ],
+   "ent_id": "ENT-154"
+  },
+  {
+   "normalized": "收掌",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "收掌"
+   ],
+   "ent_id": "ENT-155"
+  },
+  {
+   "normalized": "催办",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条29",
+   "surfaces": [
+    "催办"
+   ],
+   "ent_id": "ENT-156"
+  },
+  {
+   "normalized": "甲首",
+   "type": "official",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "甲首"
+   ],
+   "ent_id": "ENT-157"
+  },
+  {
+   "normalized": "百姓",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条33",
+   "surfaces": [
+    "百姓"
+   ],
+   "ent_id": "ENT-158"
+  },
+  {
+   "normalized": "街",
+   "type": "place",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "街"
+   ],
+   "ent_id": "ENT-159"
+  },
+  {
+   "normalized": "军民",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "军民"
+   ],
+   "ent_id": "ENT-160"
+  },
+  {
+   "normalized": "初一日",
+   "type": "time",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "初一日"
+   ],
+   "ent_id": "ENT-161"
+  },
+  {
+   "normalized": "学校",
+   "type": "org",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "学校"
+   ],
+   "ent_id": "ENT-162"
+  },
+  {
+   "normalized": "强盗",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条40",
+   "surfaces": [
+    "强盗"
+   ],
+   "ent_id": "ENT-163"
+  },
+  {
+   "normalized": "甬路",
+   "type": "place",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "甬路"
+   ],
+   "ent_id": "ENT-164"
+  },
+  {
+   "normalized": "干证",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "干证"
+   ],
+   "ent_id": "ENT-165"
+  },
+  {
+   "normalized": "窃盗",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "窃盗"
+   ],
+   "ent_id": "ENT-166"
+  },
+  {
+   "normalized": "清军",
+   "type": "institution",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条48",
+   "surfaces": [
+    "清军"
+   ],
+   "ent_id": "ENT-167"
+  },
+  {
+   "normalized": "赋役",
+   "type": "institution",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "赋役"
+   ],
+   "ent_id": "ENT-168"
+  },
+  {
+   "normalized": "桌凳",
+   "type": "object",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "桌凳"
+   ],
+   "ent_id": "ENT-169"
+  },
+  {
+   "normalized": "供状",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条52",
+   "surfaces": [
+    "供状"
+   ],
+   "ent_id": "ENT-170"
+  },
+  {
+   "normalized": "拶指",
+   "type": "object",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "拶指"
+   ],
+   "ent_id": "ENT-171"
+  },
+  {
+   "normalized": "禁子",
+   "type": "official",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条57",
+   "surfaces": [
+    "禁子"
+   ],
+   "ent_id": "ENT-172"
+  },
+  {
+   "normalized": "治罪",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条62",
+   "surfaces": [
+    "治罪"
+   ],
+   "ent_id": "ENT-173"
+  },
+  {
+   "normalized": "文案",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条67",
+   "surfaces": [
+    "文案"
+   ],
+   "ent_id": "ENT-174"
+  },
+  {
+   "normalized": "文卷",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条70",
+   "surfaces": [
+    "文卷"
+   ],
+   "ent_id": "ENT-175"
+  },
+  {
+   "normalized": "修理",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "修理"
+   ],
+   "ent_id": "ENT-176"
+  },
+  {
+   "normalized": "地界",
+   "type": "place",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条79",
+   "surfaces": [
+    "地界"
+   ],
+   "ent_id": "ENT-177"
+  },
+  {
+   "normalized": "签押",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "签押"
+   ],
+   "ent_id": "ENT-178"
+  },
+  {
+   "normalized": "祭祀",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "祭祀"
+   ],
+   "ent_id": "ENT-179"
+  },
+  {
+   "normalized": "佥押",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "佥押"
+   ],
+   "ent_id": "ENT-180"
+  },
+  {
+   "normalized": "锁",
+   "type": "object",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条11",
+   "surfaces": [
+    "锁"
+   ],
+   "ent_id": "ENT-181"
+  },
+  {
+   "normalized": "眼同",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "眼同"
+   ],
+   "ent_id": "ENT-182"
+  },
+  {
+   "normalized": "坛",
+   "type": "org",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条15",
+   "surfaces": [
+    "坛"
+   ],
+   "ent_id": "ENT-183"
+  },
+  {
+   "normalized": "养济院",
+   "type": "org",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条15",
+   "surfaces": [
+    "养济院"
+   ],
+   "ent_id": "ENT-184"
+  },
+  {
+   "normalized": "点对",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条16",
+   "surfaces": [
+    "点对"
+   ],
+   "ent_id": "ENT-185"
+  },
+  {
+   "normalized": "禀报",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "禀报"
+   ],
+   "ent_id": "ENT-186"
+  },
+  {
+   "normalized": "放告",
+   "type": "institution",
+   "count": 3,
+   "first_source": "04_卷下_直日第二.xhtml#条5",
+   "surfaces": [
+    "放告"
+   ],
+   "ent_id": "ENT-187"
+  },
+  {
+   "normalized": "狱卒",
+   "type": "official",
+   "count": 3,
+   "first_source": "04_卷下_直日第二.xhtml#条8",
+   "surfaces": [
+    "狱卒"
+   ],
+   "ent_id": "ENT-188"
+  },
+  {
+   "normalized": "贼盗",
+   "type": "person",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "贼盗"
+   ],
+   "ent_id": "ENT-189"
+  },
+  {
+   "normalized": "月终",
+   "type": "time",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条6",
+   "surfaces": [
+    "月终"
+   ],
+   "ent_id": "ENT-190"
+  },
+  {
+   "normalized": "铺长",
+   "type": "official",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条7",
+   "surfaces": [
+    "铺长"
+   ],
+   "ent_id": "ENT-191"
+  },
+  {
+   "normalized": "均派",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条16",
+   "surfaces": [
+    "均派"
+   ],
+   "ent_id": "ENT-192"
+  },
+  {
+   "normalized": "科派",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "科派"
+   ],
+   "ent_id": "ENT-193"
+  },
+  {
+   "normalized": "均徭",
+   "type": "institution",
+   "count": 3,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "均徭"
+   ],
+   "ent_id": "ENT-194"
+  },
+  {
+   "normalized": "度牒",
+   "type": "document",
+   "count": 3,
+   "first_source": "06_卷下_民情第四.xhtml#条9",
+   "surfaces": [
+    "度牒"
+   ],
+   "ent_id": "ENT-195"
+  },
+  {
+   "normalized": "公堂",
+   "type": "place",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条1",
+   "surfaces": [
+    "公堂"
+   ],
+   "ent_id": "ENT-196"
+  },
+  {
+   "normalized": "体访",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条11",
+   "surfaces": [
+    "体访"
+   ],
+   "ent_id": "ENT-197"
+  },
+  {
+   "normalized": "塘",
+   "type": "place",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条12",
+   "surfaces": [
+    "塘"
+   ],
+   "ent_id": "ENT-198"
+  },
+  {
+   "normalized": "习仪",
+   "type": "institution",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条13",
+   "surfaces": [
+    "习仪"
+   ],
+   "ent_id": "ENT-199"
+  },
+  {
+   "normalized": "实征",
+   "type": "document",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条18",
+   "surfaces": [
+    "实征"
+   ],
+   "ent_id": "ENT-200"
+  },
+  {
+   "normalized": "起解",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条44",
+   "surfaces": [
+    "起解"
+   ],
+   "ent_id": "ENT-201"
+  },
+  {
+   "normalized": "本色",
+   "type": "institution",
+   "count": 3,
+   "first_source": "08_卷下_粮料第六.xhtml#条2",
+   "surfaces": [
+    "本色"
+   ],
+   "ent_id": "ENT-202"
+  },
+  {
+   "normalized": "佃户",
+   "type": "person",
+   "count": 3,
+   "first_source": "08_卷下_粮料第六.xhtml#条3",
+   "surfaces": [
+    "佃户"
+   ],
+   "ent_id": "ENT-203"
+  },
+  {
+   "normalized": "一里",
+   "type": "quantity",
+   "count": 3,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "一里"
+   ],
+   "ent_id": "ENT-204"
+  },
+  {
+   "normalized": "救护",
+   "type": "institution",
+   "count": 3,
+   "first_source": "09_卷下_礼仪第七.xhtml#条3",
+   "surfaces": [
+    "救护"
+   ],
+   "ent_id": "ENT-205"
+  },
+  {
+   "normalized": "官民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "官民"
+   ],
+   "ent_id": "ENT-206"
+  },
+  {
+   "normalized": "公馆",
+   "type": "org",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "公馆"
+   ],
+   "ent_id": "ENT-207"
+  },
+  {
+   "normalized": "吊取",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "吊取"
+   ],
+   "ent_id": "ENT-208"
+  },
+  {
+   "normalized": "官库",
+   "type": "org",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "官库"
+   ],
+   "ent_id": "ENT-209"
+  },
+  {
+   "normalized": "封记",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "封记"
+   ],
+   "ent_id": "ENT-210"
+  },
+  {
+   "normalized": "供给",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "供给"
+   ],
+   "ent_id": "ENT-211"
+  },
+  {
+   "normalized": "接管",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "接管"
+   ],
+   "ent_id": "ENT-212"
+  },
+  {
+   "normalized": "巡风吏",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "巡风吏"
+   ],
+   "ent_id": "ENT-213"
+  },
+  {
+   "normalized": "归结",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条6",
+   "surfaces": [
+    "归结"
+   ],
+   "ent_id": "ENT-214"
+  },
+  {
+   "normalized": "申详",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条7",
+   "surfaces": [
+    "申详"
+   ],
+   "ent_id": "ENT-215"
+  },
+  {
+   "normalized": "半月",
+   "type": "time",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "半月"
+   ],
+   "ent_id": "ENT-216"
+  },
+  {
+   "normalized": "灯",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "灯"
+   ],
+   "ent_id": "ENT-217"
+  },
+  {
+   "normalized": "锁钥",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "锁钥"
+   ],
+   "ent_id": "ENT-218"
+  },
+  {
+   "normalized": "三名",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "三名"
+   ],
+   "ent_id": "ENT-219"
+  },
+  {
+   "normalized": "囚簿",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "囚簿"
+   ],
+   "ent_id": "ENT-220"
+  },
+  {
+   "normalized": "淹禁",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "淹禁"
+   ],
+   "ent_id": "ENT-221"
+  },
+  {
+   "normalized": "风宪",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "风宪"
+   ],
+   "ent_id": "ENT-222"
+  },
+  {
+   "normalized": "监簿",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "监簿"
+   ],
+   "ent_id": "ENT-223"
+  },
+  {
+   "normalized": "律例",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "律例"
+   ],
+   "ent_id": "ENT-224"
+  },
+  {
+   "normalized": "责治",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条13",
+   "surfaces": [
+    "责治"
+   ],
+   "ent_id": "ENT-225"
+  },
+  {
+   "normalized": "须知文册",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "须知文册"
+   ],
+   "ent_id": "ENT-226"
+  },
+  {
+   "normalized": "三人",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "三人"
+   ],
+   "ent_id": "ENT-227"
+  },
+  {
+   "normalized": "守掌",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "守掌"
+   ],
+   "ent_id": "ENT-228"
+  },
+  {
+   "normalized": "批状",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "批状"
+   ],
+   "ent_id": "ENT-229"
+  },
+  {
+   "normalized": "状子",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "状子"
+   ],
+   "ent_id": "ENT-230"
+  },
+  {
+   "normalized": "勾销",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "勾销"
+   ],
+   "ent_id": "ENT-231"
+  },
+  {
+   "normalized": "票帖",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条18",
+   "surfaces": [
+    "票帖"
+   ],
+   "ent_id": "ENT-232"
+  },
+  {
+   "normalized": "贴写",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "贴写"
+   ],
+   "ent_id": "ENT-233"
+  },
+  {
+   "normalized": "递年",
+   "type": "time",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "递年"
+   ],
+   "ent_id": "ENT-234"
+  },
+  {
+   "normalized": "事例",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "事例"
+   ],
+   "ent_id": "ENT-235"
+  },
+  {
+   "normalized": "抄写",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条27",
+   "surfaces": [
+    "抄写"
+   ],
+   "ent_id": "ENT-236"
+  },
+  {
+   "normalized": "稽考",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "稽考"
+   ],
+   "ent_id": "ENT-237"
+  },
+  {
+   "normalized": "小民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条32",
+   "surfaces": [
+    "小民"
+   ],
+   "ent_id": "ENT-238"
+  },
+  {
+   "normalized": "访知",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条33",
+   "surfaces": [
+    "访知"
+   ],
+   "ent_id": "ENT-239"
+  },
+  {
+   "normalized": "二名",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "二名"
+   ],
+   "ent_id": "ENT-240"
+  },
+  {
+   "normalized": "举保",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "举保"
+   ],
+   "ent_id": "ENT-241"
+  },
+  {
+   "normalized": "三四个",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "三四个"
+   ],
+   "ent_id": "ENT-242"
+  },
+  {
+   "normalized": "刁泼",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "刁泼"
+   ],
+   "ent_id": "ENT-243"
+  },
+  {
+   "normalized": "责打",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "责打"
+   ],
+   "ent_id": "ENT-244"
+  },
+  {
+   "normalized": "免差",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "免差"
+   ],
+   "ent_id": "ENT-245"
+  },
+  {
+   "normalized": "守把",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条37",
+   "surfaces": [
+    "守把"
+   ],
+   "ent_id": "ENT-246"
+  },
+  {
+   "normalized": "痛责",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "痛责"
+   ],
+   "ent_id": "ENT-247"
+  },
+  {
+   "normalized": "审理",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条41",
+   "surfaces": [
+    "审理"
+   ],
+   "ent_id": "ENT-248"
+  },
+  {
+   "normalized": "拘唤",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条43",
+   "surfaces": [
+    "拘唤"
+   ],
+   "ent_id": "ENT-249"
+  },
+  {
+   "normalized": "背审",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "背审"
+   ],
+   "ent_id": "ENT-250"
+  },
+  {
+   "normalized": "差徭",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条48",
+   "surfaces": [
+    "差徭"
+   ],
+   "ent_id": "ENT-251"
+  },
+  {
+   "normalized": "刁民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "刁民"
+   ],
+   "ent_id": "ENT-252"
+  },
+  {
+   "normalized": "拘集",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "拘集"
+   ],
+   "ent_id": "ENT-253"
+  },
+  {
+   "normalized": "一张",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "一张"
+   ],
+   "ent_id": "ENT-254"
+  },
+  {
+   "normalized": "晓谕",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "晓谕"
+   ],
+   "ent_id": "ENT-255"
+  },
+  {
+   "normalized": "贫民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "贫民"
+   ],
+   "ent_id": "ENT-256"
+  },
+  {
+   "normalized": "口词",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条52",
+   "surfaces": [
+    "口词"
+   ],
+   "ent_id": "ENT-257"
+  },
+  {
+   "normalized": "底札",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条52",
+   "surfaces": [
+    "底札"
+   ],
+   "ent_id": "ENT-258"
+  },
+  {
+   "normalized": "点查",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条54",
+   "surfaces": [
+    "点查"
+   ],
+   "ent_id": "ENT-259"
+  },
+  {
+   "normalized": "封锁",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条54",
+   "surfaces": [
+    "封锁"
+   ],
+   "ent_id": "ENT-260"
+  },
+  {
+   "normalized": "肘镣",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "肘镣"
+   ],
+   "ent_id": "ENT-261"
+  },
+  {
+   "normalized": "夹棍",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "夹棍"
+   ],
+   "ent_id": "ENT-262"
+  },
+  {
+   "normalized": "预备",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "预备"
+   ],
+   "ent_id": "ENT-263"
+  },
+  {
+   "normalized": "器皿",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "器皿"
+   ],
+   "ent_id": "ENT-264"
+  },
+  {
+   "normalized": "桌椅",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "桌椅"
+   ],
+   "ent_id": "ENT-265"
+  },
+  {
+   "normalized": "铺舍",
+   "type": "org",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条60",
+   "surfaces": [
+    "铺舍"
+   ],
+   "ent_id": "ENT-266"
+  },
+  {
+   "normalized": "家伙",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条60",
+   "surfaces": [
+    "家伙"
+   ],
+   "ent_id": "ENT-267"
+  },
+  {
+   "normalized": "画卯",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "画卯"
+   ],
+   "ent_id": "ENT-268"
+  },
+  {
+   "normalized": "收买",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "收买"
+   ],
+   "ent_id": "ENT-269"
+  },
+  {
+   "normalized": "收贮",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "收贮"
+   ],
+   "ent_id": "ENT-270"
+  },
+  {
+   "normalized": "前官",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "前官"
+   ],
+   "ent_id": "ENT-271"
+  },
+  {
+   "normalized": "支销",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条66",
+   "surfaces": [
+    "支销"
+   ],
+   "ent_id": "ENT-272"
+  },
+  {
+   "normalized": "抚恤",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条69",
+   "surfaces": [
+    "抚恤"
+   ],
+   "ent_id": "ENT-273"
+  },
+  {
+   "normalized": "书房",
+   "type": "place",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条70",
+   "surfaces": [
+    "书房"
+   ],
+   "ent_id": "ENT-274"
+  },
+  {
+   "normalized": "笔墨",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "笔墨"
+   ],
+   "ent_id": "ENT-275"
+  },
+  {
+   "normalized": "桥梁",
+   "type": "place",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条77",
+   "surfaces": [
+    "桥梁"
+   ],
+   "ent_id": "ENT-276"
+  },
+  {
+   "normalized": "二三人",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "二三人"
+   ],
+   "ent_id": "ENT-277"
+  },
+  {
+   "normalized": "大户",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条84",
+   "surfaces": [
+    "大户"
+   ],
+   "ent_id": "ENT-278"
+  },
+  {
+   "normalized": "教官",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条91",
+   "surfaces": [
+    "教官"
+   ],
+   "ent_id": "ENT-279"
+  },
+  {
+   "normalized": "署印官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "署印官"
+   ],
+   "ent_id": "ENT-280"
+  },
+  {
+   "normalized": "仪门",
+   "type": "place",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "仪门"
+   ],
+   "ent_id": "ENT-281"
+  },
+  {
+   "normalized": "站台",
+   "type": "place",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "站台"
+   ],
+   "ent_id": "ENT-282"
+  },
+  {
+   "normalized": "祭物",
+   "type": "object",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "祭物"
+   ],
+   "ent_id": "ENT-283"
+  },
+  {
+   "normalized": "正官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "正官"
+   ],
+   "ent_id": "ENT-284"
+  },
+  {
+   "normalized": "寿官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "寿官"
+   ],
+   "ent_id": "ENT-285"
+  },
+  {
+   "normalized": "义官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "义官"
+   ],
+   "ent_id": "ENT-286"
+  },
+  {
+   "normalized": "势豪",
+   "type": "person",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "势豪"
+   ],
+   "ent_id": "ENT-287"
+  },
+  {
+   "normalized": "司吏",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条8",
+   "surfaces": [
+    "司吏"
+   ],
+   "ent_id": "ENT-288"
+  },
+  {
+   "normalized": "小册",
+   "type": "document",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条9",
+   "surfaces": [
+    "小册"
+   ],
+   "ent_id": "ENT-289"
+  },
+  {
+   "normalized": "锁押",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条11",
+   "surfaces": [
+    "锁押"
+   ],
+   "ent_id": "ENT-290"
+  },
+  {
+   "normalized": "禁约",
+   "type": "institution",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条13",
+   "surfaces": [
+    "禁约"
+   ],
+   "ent_id": "ENT-291"
+  },
+  {
+   "normalized": "提牢",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "提牢"
+   ],
+   "ent_id": "ENT-292"
+  },
+  {
+   "normalized": "廊",
+   "type": "place",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "廊"
+   ],
+   "ent_id": "ENT-293"
+  },
+  {
+   "normalized": "辰时",
+   "type": "time",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条3",
+   "surfaces": [
+    "辰时"
+   ],
+   "ent_id": "ENT-294"
+  },
+  {
+   "normalized": "退堂",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条3",
+   "surfaces": [
+    "退堂"
+   ],
+   "ent_id": "ENT-295"
+  },
+  {
+   "normalized": "申时",
+   "type": "time",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条7",
+   "surfaces": [
+    "申时"
+   ],
+   "ent_id": "ENT-296"
+  },
+  {
+   "normalized": "户房",
+   "type": "org",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "户房"
+   ],
+   "ent_id": "ENT-297"
+  },
+  {
+   "normalized": "里长簿",
+   "type": "document",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "里长簿"
+   ],
+   "ent_id": "ENT-298"
+  },
+  {
+   "normalized": "催征",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "催征"
+   ],
+   "ent_id": "ENT-299"
+  },
+  {
+   "normalized": "销缴",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条6",
+   "surfaces": [
+    "销缴"
+   ],
+   "ent_id": "ENT-300"
+  },
+  {
+   "normalized": "架阁库吏",
+   "type": "official",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条9",
+   "surfaces": [
+    "架阁库吏"
+   ],
+   "ent_id": "ENT-301"
+  },
+  {
+   "normalized": "十亩",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "十亩"
+   ],
+   "ent_id": "ENT-302"
+  },
+  {
+   "normalized": "对会",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "对会"
+   ],
+   "ent_id": "ENT-303"
+  },
+  {
+   "normalized": "弓兵",
+   "type": "official",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "弓兵"
+   ],
+   "ent_id": "ENT-304"
+  },
+  {
+   "normalized": "存留",
+   "type": "institution",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "存留"
+   ],
+   "ent_id": "ENT-305"
+  },
+  {
+   "normalized": "交界",
+   "type": "place",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "交界"
+   ],
+   "ent_id": "ENT-306"
+  },
+  {
+   "normalized": "火夫",
+   "type": "official",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条11",
+   "surfaces": [
+    "火夫"
+   ],
+   "ent_id": "ENT-307"
+  },
+  {
+   "normalized": "痛治",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条26",
+   "surfaces": [
+    "痛治"
+   ],
+   "ent_id": "ENT-308"
+  },
+  {
+   "normalized": "具结",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条33",
+   "surfaces": [
+    "具结"
+   ],
+   "ent_id": "ENT-309"
+  },
+  {
+   "normalized": "问罪",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条36",
+   "surfaces": [
+    "问罪"
+   ],
+   "ent_id": "ENT-310"
+  },
+  {
+   "normalized": "社学",
+   "type": "org",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条39",
+   "surfaces": [
+    "社学"
+   ],
+   "ent_id": "ENT-311"
+  },
+  {
+   "normalized": "执照",
+   "type": "document",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条39",
+   "surfaces": [
+    "执照"
+   ],
+   "ent_id": "ENT-312"
+  },
+  {
+   "normalized": "馈送",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条41",
+   "surfaces": [
+    "馈送"
+   ],
+   "ent_id": "ENT-313"
+  },
+  {
+   "normalized": "征粮",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条9",
+   "surfaces": [
+    "征粮"
+   ],
+   "ent_id": "ENT-314"
+  },
+  {
+   "normalized": "白粮",
+   "type": "institution",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "白粮"
+   ],
+   "ent_id": "ENT-315"
+  },
+  {
+   "normalized": "二石",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "二石"
+   ],
+   "ent_id": "ENT-316"
+  },
+  {
+   "normalized": "纳户",
+   "type": "person",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条13",
+   "surfaces": [
+    "纳户"
+   ],
+   "ent_id": "ENT-317"
+  },
+  {
+   "normalized": "火耗",
+   "type": "institution",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条15",
+   "surfaces": [
+    "火耗"
+   ],
+   "ent_id": "ENT-318"
+  },
+  {
+   "normalized": "验实",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条19",
+   "surfaces": [
+    "验实"
+   ],
+   "ent_id": "ENT-319"
+  },
+  {
+   "normalized": "拜牌",
+   "type": "institution",
+   "count": 2,
+   "first_source": "09_卷下_礼仪第七.xhtml#条2",
+   "surfaces": [
+    "拜牌"
+   ],
+   "ent_id": "ENT-320"
+  },
+  {
+   "normalized": "乡饮",
+   "type": "institution",
+   "count": 2,
+   "first_source": "09_卷下_礼仪第七.xhtml#条6",
+   "surfaces": [
+    "乡饮"
+   ],
+   "ent_id": "ENT-321"
+  },
+  {
+   "normalized": "踏勘",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "10_卷下_御灾第八.xhtml#条3",
+   "surfaces": [
+    "踏勘"
+   ],
+   "ent_id": "ENT-322"
+  },
+  {
+   "normalized": "新官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "新官"
+   ],
+   "ent_id": "ENT-323"
+  },
+  {
+   "normalized": "庙庵",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "庙庵"
+   ],
+   "ent_id": "ENT-324"
+  },
+  {
+   "normalized": "城隍",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "城隍"
+   ],
+   "ent_id": "ENT-325"
+  },
+  {
+   "normalized": "二门",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "二门"
+   ],
+   "ent_id": "ENT-326"
+  },
+  {
+   "normalized": "文庙",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "文庙"
+   ],
+   "ent_id": "ENT-327"
+  },
+  {
+   "normalized": "猪羊",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "猪羊"
+   ],
+   "ent_id": "ENT-328"
+  },
+  {
+   "normalized": "屠户",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "屠户"
+   ],
+   "ent_id": "ENT-329"
+  },
+  {
+   "normalized": "胙肉",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "胙肉"
+   ],
+   "ent_id": "ENT-330"
+  },
+  {
+   "normalized": "经手官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "经手官"
+   ],
+   "ent_id": "ENT-331"
+  },
+  {
+   "normalized": "称验",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "称验"
+   ],
+   "ent_id": "ENT-332"
+  },
+  {
+   "normalized": "巡更",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "巡更"
+   ],
+   "ent_id": "ENT-333"
+  },
+  {
+   "normalized": "七八日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "七八日"
+   ],
+   "ent_id": "ENT-334"
+  },
+  {
+   "normalized": "注标",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "注摽"
+   ],
+   "ent_id": "ENT-335"
+  },
+  {
+   "normalized": "法司",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "法司"
+   ],
+   "ent_id": "ENT-336"
+  },
+  {
+   "normalized": "勘合文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "勘合文簿"
+   ],
+   "ent_id": "ENT-337"
+  },
+  {
+   "normalized": "朝觐考察",
+   "type": "institution",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "朝觐考察"
+   ],
+   "ent_id": "ENT-338"
+  },
+  {
+   "normalized": "文册",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "文册"
+   ],
+   "ent_id": "ENT-339"
+  },
+  {
+   "normalized": "批状簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "批状簿"
+   ],
+   "ent_id": "ENT-340"
+  },
+  {
+   "normalized": "词状簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "词状簿"
+   ],
+   "ent_id": "ENT-341"
+  },
+  {
+   "normalized": "出票文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条18",
+   "surfaces": [
+    "出票文簿"
+   ],
+   "ent_id": "ENT-342"
+  },
+  {
+   "normalized": "接递文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "接递文簿"
+   ],
+   "ent_id": "ENT-343"
+  },
+  {
+   "normalized": "牌帖",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "牌帖"
+   ],
+   "ent_id": "ENT-344"
+  },
+  {
+   "normalized": "转递",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "转递"
+   ],
+   "ent_id": "ENT-345"
+  },
+  {
+   "normalized": "清军簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "清军簿"
+   ],
+   "ent_id": "ENT-346"
+  },
+  {
+   "normalized": "卫",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "卫"
+   ],
+   "ent_id": "ENT-347"
+  },
+  {
+   "normalized": "兵房吏",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "兵房吏"
+   ],
+   "ent_id": "ENT-348"
+  },
+  {
+   "normalized": "军役",
+   "type": "institution",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "军役"
+   ],
+   "ent_id": "ENT-349"
+  },
+  {
+   "normalized": "公罚文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "公罚文簿"
+   ],
+   "ent_id": "ENT-350"
+  },
+  {
+   "normalized": "罚纸札",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "罚纸札"
+   ],
+   "ent_id": "ENT-351"
+  },
+  {
+   "normalized": "量罚",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "量罚"
+   ],
+   "ent_id": "ENT-352"
+  },
+  {
+   "normalized": "文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条23",
+   "surfaces": [
+    "文簿"
+   ],
+   "ent_id": "ENT-353"
+  },
+  {
+   "normalized": "三十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "三十里"
+   ],
+   "ent_id": "ENT-354"
+  },
+  {
+   "normalized": "六十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "六十里"
+   ],
+   "ent_id": "ENT-355"
+  },
+  {
+   "normalized": "二日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "二日"
+   ],
+   "ent_id": "ENT-356"
+  },
+  {
+   "normalized": "九十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "九十里"
+   ],
+   "ent_id": "ENT-357"
+  },
+  {
+   "normalized": "打三十",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "打三十"
+   ],
+   "ent_id": "ENT-358"
+  },
+  {
+   "normalized": "快手",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "快手"
+   ],
+   "ent_id": "ENT-359"
+  },
+  {
+   "normalized": "县印",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条32",
+   "surfaces": [
+    "县印"
+   ],
+   "ent_id": "ENT-360"
+  },
+  {
+   "normalized": "庄",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "庄"
+   ],
+   "ent_id": "ENT-361"
+  },
+  {
+   "normalized": "三四十家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "三四十家"
+   ],
+   "ent_id": "ENT-362"
+  },
+  {
+   "normalized": "七八十家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "七八十家"
+   ],
+   "ent_id": "ENT-363"
+  },
+  {
+   "normalized": "胡同",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "胡同"
+   ],
+   "ent_id": "ENT-364"
+  },
+  {
+   "normalized": "五七十家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "五七十家"
+   ],
+   "ent_id": "ENT-365"
+  },
+  {
+   "normalized": "半年",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "半年"
+   ],
+   "ent_id": "ENT-366"
+  },
+  {
+   "normalized": "打四十大棍",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "打四十大棍"
+   ],
+   "ent_id": "ENT-367"
+  },
+  {
+   "normalized": "纸笔",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "纸笔"
+   ],
+   "ent_id": "ENT-368"
+  },
+  {
+   "normalized": "柴炭",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "柴炭"
+   ],
+   "ent_id": "ENT-369"
+  },
+  {
+   "normalized": "廪增",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "廪增"
+   ],
+   "ent_id": "ENT-370"
+  },
+  {
+   "normalized": "附学",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "附学"
+   ],
+   "ent_id": "ENT-371"
+  },
+  {
+   "normalized": "把守",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条37",
+   "surfaces": [
+    "把守"
+   ],
+   "ent_id": "ENT-372"
+  },
+  {
+   "normalized": "头门",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条38",
+   "surfaces": [
+    "头门"
+   ],
+   "ent_id": "ENT-373"
+  },
+  {
+   "normalized": "印信文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条38",
+   "surfaces": [
+    "印信文簿"
+   ],
+   "ent_id": "ENT-374"
+  },
+  {
+   "normalized": "三五个",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "三五个"
+   ],
+   "ent_id": "ENT-375"
+  },
+  {
+   "normalized": "三六九日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条40",
+   "surfaces": [
+    "三六九日"
+   ],
+   "ent_id": "ENT-376"
+  },
+  {
+   "normalized": "被告",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条43",
+   "surfaces": [
+    "被告"
+   ],
+   "ent_id": "ENT-377"
+  },
+  {
+   "normalized": "原告",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "原告"
+   ],
+   "ent_id": "ENT-378"
+  },
+  {
+   "normalized": "锁闭",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条47",
+   "surfaces": [
+    "锁闭"
+   ],
+   "ent_id": "ENT-379"
+  },
+  {
+   "normalized": "一年",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条48",
+   "surfaces": [
+    "一年"
+   ],
+   "ent_id": "ENT-380"
+  },
+  {
+   "normalized": "赃官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "赃官"
+   ],
+   "ent_id": "ENT-381"
+  },
+  {
+   "normalized": "赋役册",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "赋役册"
+   ],
+   "ent_id": "ENT-382"
+  },
+  {
+   "normalized": "五七十张",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "五七十张"
+   ],
+   "ent_id": "ENT-383"
+  },
+  {
+   "normalized": "三处",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "三处"
+   ],
+   "ent_id": "ENT-384"
+  },
+  {
+   "normalized": "八十大板",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "八十大板"
+   ],
+   "ent_id": "ENT-385"
+  },
+  {
+   "normalized": "处治",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条51",
+   "surfaces": [
+    "处治"
+   ],
+   "ent_id": "ENT-386"
+  },
+  {
+   "normalized": "监候",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条54",
+   "surfaces": [
+    "监候"
+   ],
+   "ent_id": "ENT-387"
+  },
+  {
+   "normalized": "铁索",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "铁索"
+   ],
+   "ent_id": "ENT-388"
+  },
+  {
+   "normalized": "铁锁",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "铁锁"
+   ],
+   "ent_id": "ENT-389"
+  },
+  {
+   "normalized": "刑枷",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "刑枷"
+   ],
+   "ent_id": "ENT-390"
+  },
+  {
+   "normalized": "六七人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条57",
+   "surfaces": [
+    "六七人"
+   ],
+   "ent_id": "ENT-391"
+  },
+  {
+   "normalized": "三司",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "三司"
+   ],
+   "ent_id": "ENT-392"
+  },
+  {
+   "normalized": "府厅",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "府厅"
+   ],
+   "ent_id": "ENT-393"
+  },
+  {
+   "normalized": "床帐",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "床帐"
+   ],
+   "ent_id": "ENT-394"
+  },
+  {
+   "normalized": "坛庙",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条60",
+   "surfaces": [
+    "坛庙"
+   ],
+   "ent_id": "ENT-395"
+  },
+  {
+   "normalized": "官府",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "官府"
+   ],
+   "ent_id": "ENT-396"
+  },
+  {
+   "normalized": "五七十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条63",
+   "surfaces": [
+    "五七十里"
+   ],
+   "ent_id": "ENT-397"
+  },
+  {
+   "normalized": "十月",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "十月"
+   ],
+   "ent_id": "ENT-398"
+  },
+  {
+   "normalized": "油蜡",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "油蜡"
+   ],
+   "ent_id": "ENT-399"
+  },
+  {
+   "normalized": "县官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "县官"
+   ],
+   "ent_id": "ENT-400"
+  },
+  {
+   "normalized": "三二人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "三二人"
+   ],
+   "ent_id": "ENT-401"
+  },
+  {
+   "normalized": "经收",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "经收"
+   ],
+   "ent_id": "ENT-402"
+  },
+  {
+   "normalized": "提磨",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条65",
+   "surfaces": [
+    "提磨"
+   ],
+   "ent_id": "ENT-403"
+  },
+  {
+   "normalized": "主文",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条67",
+   "surfaces": [
+    "主文"
+   ],
+   "ent_id": "ENT-404"
+  },
+  {
+   "normalized": "刷卷",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条69",
+   "surfaces": [
+    "刷卷"
+   ],
+   "ent_id": "ENT-405"
+  },
+  {
+   "normalized": "一二人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条69",
+   "surfaces": [
+    "一二人"
+   ],
+   "ent_id": "ENT-406"
+  },
+  {
+   "normalized": "前堂",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条70",
+   "surfaces": [
+    "前堂"
+   ],
+   "ent_id": "ENT-407"
+  },
+  {
+   "normalized": "卷架",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "卷架"
+   ],
+   "ent_id": "ENT-408"
+  },
+  {
+   "normalized": "砚瓦",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "砚瓦"
+   ],
+   "ent_id": "ENT-409"
+  },
+  {
+   "normalized": "州",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条76",
+   "surfaces": [
+    "州"
+   ],
+   "ent_id": "ENT-410"
+  },
+  {
+   "normalized": "沟渠",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条77",
+   "surfaces": [
+    "沟渠"
+   ],
+   "ent_id": "ENT-411"
+  },
+  {
+   "normalized": "表背匠人",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条78",
+   "surfaces": [
+    "表背匠人"
+   ],
+   "ent_id": "ENT-412"
+  },
+  {
+   "normalized": "一二百本",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条78",
+   "surfaces": [
+    "一二百本"
+   ],
+   "ent_id": "ENT-413"
+  },
+  {
+   "normalized": "巡捕官员",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条79",
+   "surfaces": [
+    "巡捕官员"
+   ],
+   "ent_id": "ENT-414"
+  },
+  {
+   "normalized": "迎接",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条79",
+   "surfaces": [
+    "迎接"
+   ],
+   "ent_id": "ENT-415"
+  },
+  {
+   "normalized": "竹片",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条80",
+   "surfaces": [
+    "竹片"
+   ],
+   "ent_id": "ENT-416"
+  },
+  {
+   "normalized": "棍板",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条80",
+   "surfaces": [
+    "棍板"
+   ],
+   "ent_id": "ENT-417"
+  },
+  {
+   "normalized": "起盖",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "起盖"
+   ],
+   "ent_id": "ENT-418"
+  },
+  {
+   "normalized": "三间",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "三间"
+   ],
+   "ent_id": "ENT-419"
+  },
+  {
+   "normalized": "两三间",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "两三间"
+   ],
+   "ent_id": "ENT-420"
+  },
+  {
+   "normalized": "两三日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "两三日"
+   ],
+   "ent_id": "ENT-421"
+  },
+  {
+   "normalized": "提铃",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条82",
+   "surfaces": [
+    "提铃"
+   ],
+   "ent_id": "ENT-422"
+  },
+  {
+   "normalized": "钟鼓",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条82",
+   "surfaces": [
+    "钟鼓"
+   ],
+   "ent_id": "ENT-423"
+  },
+  {
+   "normalized": "岁办",
+   "type": "institution",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条85",
+   "surfaces": [
+    "岁办"
+   ],
+   "ent_id": "ENT-424"
+  },
+  {
+   "normalized": "申报",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条85",
+   "surfaces": [
+    "申报"
+   ],
+   "ent_id": "ENT-425"
+  },
+  {
+   "normalized": "木梆",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "木梆"
+   ],
+   "ent_id": "ENT-426"
+  },
+  {
+   "normalized": "五更",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "五更"
+   ],
+   "ent_id": "ENT-427"
+  },
+  {
+   "normalized": "二次",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "二次"
+   ],
+   "ent_id": "ENT-428"
+  },
+  {
+   "normalized": "刑具",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条90",
+   "surfaces": [
+    "刑具"
+   ],
+   "ent_id": "ENT-429"
+  },
+  {
+   "normalized": "十两",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条91",
+   "surfaces": [
+    "十两"
+   ],
+   "ent_id": "ENT-430"
+  },
+  {
+   "normalized": "富民",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条91",
+   "surfaces": [
+    "富民"
+   ],
+   "ent_id": "ENT-431"
+  },
+  {
+   "normalized": "早堂",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条92",
+   "surfaces": [
+    "早堂"
+   ],
+   "ent_id": "ENT-432"
+  },
+  {
+   "normalized": "中堂",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条92",
+   "surfaces": [
+    "中堂"
+   ],
+   "ent_id": "ENT-433"
+  },
+  {
+   "normalized": "晚堂",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条92",
+   "surfaces": [
+    "晚堂"
+   ],
+   "ent_id": "ENT-434"
+  },
+  {
+   "normalized": "香纸",
+   "type": "object",
+   "count": 1,
+   "first_source": "02_卷下_牧民备用.xhtml#条1",
+   "surfaces": [
+    "香纸"
+   ],
+   "ent_id": "ENT-435"
+  },
+  {
+   "normalized": "整点",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "整点"
+   ],
+   "ent_id": "ENT-436"
+  },
+  {
+   "normalized": "戒谕",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "戒谕"
+   ],
+   "ent_id": "ENT-437"
+  },
+  {
+   "normalized": "行刑",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "行刑"
+   ],
+   "ent_id": "ENT-438"
+  },
+  {
+   "normalized": "打点",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "打点"
+   ],
+   "ent_id": "ENT-439"
+  },
+  {
+   "normalized": "望阙谢恩",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "望阙谢恩"
+   ],
+   "ent_id": "ENT-440"
+  },
+  {
+   "normalized": "开印",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "开印"
+   ],
+   "ent_id": "ENT-441"
+  },
+  {
+   "normalized": "铜印",
+   "type": "object",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "铜印"
+   ],
+   "ent_id": "ENT-442"
+  },
+  {
+   "normalized": "设席",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "设席"
+   ],
+   "ent_id": "ENT-443"
+  },
+  {
+   "normalized": "行酒",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "行酒"
+   ],
+   "ent_id": "ENT-444"
+  },
+  {
+   "normalized": "父老",
+   "type": "person",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "父老"
+   ],
+   "ent_id": "ENT-445"
+  },
+  {
+   "normalized": "京官",
+   "type": "official",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "京官"
+   ],
+   "ent_id": "ENT-446"
+  },
+  {
+   "normalized": "下狱",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条7",
+   "surfaces": [
+    "下狱"
+   ],
+   "ent_id": "ENT-447"
+  },
+  {
+   "normalized": "点囚",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条7",
+   "surfaces": [
+    "点囚"
+   ],
+   "ent_id": "ENT-448"
+  },
+  {
+   "normalized": "封监",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条7",
+   "surfaces": [
+    "封监"
+   ],
+   "ent_id": "ENT-449"
+  },
+  {
+   "normalized": "催并",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条10",
+   "surfaces": [
+    "催并"
+   ],
+   "ent_id": "ENT-450"
+  },
+  {
+   "normalized": "拆封",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "拆封"
+   ],
+   "ent_id": "ENT-451"
+  },
+  {
+   "normalized": "看验",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "看验"
+   ],
+   "ent_id": "ENT-452"
+  },
+  {
+   "normalized": "放支",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "放支"
+   ],
+   "ent_id": "ENT-453"
+  },
+  {
+   "normalized": "明伦堂",
+   "type": "org",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条14",
+   "surfaces": [
+    "明伦堂"
+   ],
+   "ent_id": "ENT-454"
+  },
+  {
+   "normalized": "卯时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "卯时"
+   ],
+   "ent_id": "ENT-455"
+  },
+  {
+   "normalized": "长官",
+   "type": "official",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "长官"
+   ],
+   "ent_id": "ENT-456"
+  },
+  {
+   "normalized": "巳时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条4",
+   "surfaces": [
+    "巳时"
+   ],
+   "ent_id": "ENT-457"
+  },
+  {
+   "normalized": "午时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条5",
+   "surfaces": [
+    "午时"
+   ],
+   "ent_id": "ENT-458"
+  },
+  {
+   "normalized": "未时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条6",
+   "surfaces": [
+    "未时"
+   ],
+   "ent_id": "ENT-459"
+  },
+  {
+   "normalized": "封门",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条6",
+   "surfaces": [
+    "封门"
+   ],
+   "ent_id": "ENT-460"
+  },
+  {
+   "normalized": "行杖",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条7",
+   "surfaces": [
+    "行杖"
+   ],
+   "ent_id": "ENT-461"
+  },
+  {
+   "normalized": "重杖",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条7",
+   "surfaces": [
+    "重杖"
+   ],
+   "ent_id": "ENT-462"
+  },
+  {
+   "normalized": "酉时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条8",
+   "surfaces": [
+    "酉时"
+   ],
+   "ent_id": "ENT-463"
+  },
+  {
+   "normalized": "税粮簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "税粮簿"
+   ],
+   "ent_id": "ENT-464"
+  },
+  {
+   "normalized": "巡检弓兵簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "巡检弓兵簿"
+   ],
+   "ent_id": "ENT-465"
+  },
+  {
+   "normalized": "十六日",
+   "type": "time",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "十六日"
+   ],
+   "ent_id": "ENT-466"
+  },
+  {
+   "normalized": "杂役",
+   "type": "institution",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "杂役"
+   ],
+   "ent_id": "ENT-467"
+  },
+  {
+   "normalized": "四日",
+   "type": "time",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条4",
+   "surfaces": [
+    "四日"
+   ],
+   "ent_id": "ENT-468"
+  },
+  {
+   "normalized": "工房",
+   "type": "org",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条5",
+   "surfaces": [
+    "工房"
+   ],
+   "ent_id": "ENT-469"
+  },
+  {
+   "normalized": "圩塘长簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条5",
+   "surfaces": [
+    "圩塘长簿"
+   ],
+   "ent_id": "ENT-470"
+  },
+  {
+   "normalized": "赤历",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条7",
+   "surfaces": [
+    "赤历"
+   ],
+   "ent_id": "ENT-471"
+  },
+  {
+   "normalized": "查销",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条9",
+   "surfaces": [
+    "查销"
+   ],
+   "ent_id": "ENT-472"
+  },
+  {
+   "normalized": "倒换",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条11",
+   "surfaces": [
+    "倒换"
+   ],
+   "ent_id": "ENT-473"
+  },
+  {
+   "normalized": "送缴",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条12",
+   "surfaces": [
+    "送缴"
+   ],
+   "ent_id": "ENT-474"
+  },
+  {
+   "normalized": "关领",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条12",
+   "surfaces": [
+    "关领"
+   ],
+   "ent_id": "ENT-475"
+  },
+  {
+   "normalized": "刑簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条22",
+   "surfaces": [
+    "刑簿"
+   ],
+   "ent_id": "ENT-476"
+  },
+  {
+   "normalized": "赈恤",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条1",
+   "surfaces": [
+    "赈恤"
+   ],
+   "ent_id": "ENT-477"
+  },
+  {
+   "normalized": "给散",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条1",
+   "surfaces": [
+    "给散"
+   ],
+   "ent_id": "ENT-478"
+  },
+  {
+   "normalized": "种栽",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条2",
+   "surfaces": [
+    "种栽"
+   ],
+   "ent_id": "ENT-479"
+  },
+  {
+   "normalized": "会算",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条5",
+   "surfaces": [
+    "会算"
+   ],
+   "ent_id": "ENT-480"
+  },
+  {
+   "normalized": "造册",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条5",
+   "surfaces": [
+    "造册"
+   ],
+   "ent_id": "ENT-481"
+  },
+  {
+   "normalized": "一千亩",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一千亩"
+   ],
+   "ent_id": "ENT-482"
+  },
+  {
+   "normalized": "一百张",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一百张"
+   ],
+   "ent_id": "ENT-483"
+  },
+  {
+   "normalized": "一百亩",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一百亩"
+   ],
+   "ent_id": "ENT-484"
+  },
+  {
+   "normalized": "一十张",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一十张"
+   ],
+   "ent_id": "ENT-485"
+  },
+  {
+   "normalized": "一月",
+   "type": "time",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一月"
+   ],
+   "ent_id": "ENT-486"
+  },
+  {
+   "normalized": "铺兵",
+   "type": "official",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "铺兵"
+   ],
+   "ent_id": "ENT-487"
+  },
+  {
+   "normalized": "小票",
+   "type": "document",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "小票"
+   ],
+   "ent_id": "ENT-488"
+  },
+  {
+   "normalized": "初旬",
+   "type": "time",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条10",
+   "surfaces": [
+    "初旬"
+   ],
+   "ent_id": "ENT-489"
+  },
+  {
+   "normalized": "修葺",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条10",
+   "surfaces": [
+    "修葺"
+   ],
+   "ent_id": "ENT-490"
+  },
+  {
+   "normalized": "点视",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条10",
+   "surfaces": [
+    "点视"
+   ],
+   "ent_id": "ENT-491"
+  },
+  {
+   "normalized": "佥补",
+   "type": "institution",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条13",
+   "surfaces": [
+    "佥补"
+   ],
+   "ent_id": "ENT-492"
+  },
+  {
+   "normalized": "佥解",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条13",
+   "surfaces": [
+    "佥解"
+   ],
+   "ent_id": "ENT-493"
+  },
+  {
+   "normalized": "清匠",
+   "type": "institution",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "清匠"
+   ],
+   "ent_id": "ENT-494"
+  },
+  {
+   "normalized": "班匠",
+   "type": "institution",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "班匠"
+   ],
+   "ent_id": "ENT-495"
+  },
+  {
+   "normalized": "批文",
+   "type": "document",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "批文"
+   ],
+   "ent_id": "ENT-496"
+  },
+  {
+   "normalized": "杖",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条1",
+   "surfaces": [
+    "杖"
+   ],
+   "ent_id": "ENT-497"
+  },
+  {
+   "normalized": "六日",
+   "type": "time",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条3",
+   "surfaces": [
+    "六日"
+   ],
+   "ent_id": "ENT-498"
+  },
+  {
+   "normalized": "油烛",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "油烛"
+   ],
+   "ent_id": "ENT-499"
+  },
+  {
+   "normalized": "月夜",
+   "type": "time",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "月夜"
+   ],
+   "ent_id": "ENT-500"
+  },
+  {
+   "normalized": "雪夜",
+   "type": "time",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "雪夜"
+   ],
+   "ent_id": "ENT-501"
+  },
+  {
+   "normalized": "点检",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条6",
+   "surfaces": [
+    "点检"
+   ],
+   "ent_id": "ENT-502"
+  },
+  {
+   "normalized": "揭帖",
+   "type": "document",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条7",
+   "surfaces": [
+    "揭帖"
+   ],
+   "ent_id": "ENT-503"
+  },
+  {
+   "normalized": "回申",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条8",
+   "surfaces": [
+    "回申"
+   ],
+   "ent_id": "ENT-504"
+  },
+  {
+   "normalized": "乡里",
+   "type": "place",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条9",
+   "surfaces": [
+    "乡里"
+   ],
+   "ent_id": "ENT-505"
+  },
+  {
+   "normalized": "邻县",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "邻县"
+   ],
+   "ent_id": "ENT-506"
+  },
+  {
+   "normalized": "关文",
+   "type": "document",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "关文"
+   ],
+   "ent_id": "ENT-507"
+  },
+  {
+   "normalized": "擒拿",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "擒拿"
+   ],
+   "ent_id": "ENT-508"
+  },
+  {
+   "normalized": "葺治",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条12",
+   "surfaces": [
+    "葺治"
+   ],
+   "ent_id": "ENT-509"
+  },
+  {
+   "normalized": "杂差",
+   "type": "institution",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条12",
+   "surfaces": [
+    "杂差"
+   ],
+   "ent_id": "ENT-510"
+  },
+  {
+   "normalized": "丁粮",
+   "type": "institution",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条15",
+   "surfaces": [
+    "丁粮"
+   ],
+   "ent_id": "ENT-511"
+  },
+  {
+   "normalized": "巷",
+   "type": "place",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条16",
+   "surfaces": [
+    "巷"
+   ],
+   "ent_id": "ENT-512"
+  },
+  {
+   "normalized": "卯簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条18",
+   "surfaces": [
+    "卯簿"
+   ],
+   "ent_id": "ENT-513"
+  },
+  {
+   "normalized": "五名",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条20",
+   "surfaces": [
+    "五名"
+   ],
+   "ent_id": "ENT-514"
+  },
+  {
+   "normalized": "注簿",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条20",
+   "surfaces": [
+    "注簿"
+   ],
+   "ent_id": "ENT-515"
+  },
+  {
+   "normalized": "开筑",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条21",
+   "surfaces": [
+    "开筑"
+   ],
+   "ent_id": "ENT-516"
+  },
+  {
+   "normalized": "佥点",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条22",
+   "surfaces": [
+    "佥点"
+   ],
+   "ent_id": "ENT-517"
+  },
+  {
+   "normalized": "巡检司",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条23",
+   "surfaces": [
+    "巡检司"
+   ],
+   "ent_id": "ENT-518"
+  },
+  {
+   "normalized": "仵作",
+   "type": "official",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条26",
+   "surfaces": [
+    "仵作"
+   ],
+   "ent_id": "ENT-519"
+  },
+  {
+   "normalized": "土工",
+   "type": "official",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条26",
+   "surfaces": [
+    "土工"
+   ],
+   "ent_id": "ENT-520"
+  },
+  {
+   "normalized": "除豁",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条27",
+   "surfaces": [
+    "除豁"
+   ],
+   "ent_id": "ENT-521"
+  },
+  {
+   "normalized": "师巫",
+   "type": "person",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条28",
+   "surfaces": [
+    "师巫"
+   ],
+   "ent_id": "ENT-522"
+  },
+  {
+   "normalized": "寺观",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条29",
+   "surfaces": [
+    "寺观"
+   ],
+   "ent_id": "ENT-523"
+  },
+  {
+   "normalized": "决一二十",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条31",
+   "surfaces": [
+    "决一二十"
+   ],
+   "ent_id": "ENT-524"
+  },
+  {
+   "normalized": "坊",
+   "type": "place",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条35",
+   "surfaces": [
+    "坊"
+   ],
+   "ent_id": "ENT-525"
+  },
+  {
+   "normalized": "修整",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条35",
+   "surfaces": [
+    "修整"
+   ],
+   "ent_id": "ENT-526"
+  },
+  {
+   "normalized": "儒学",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条37",
+   "surfaces": [
+    "儒学"
+   ],
+   "ent_id": "ENT-527"
+  },
+  {
+   "normalized": "款待",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条41",
+   "surfaces": [
+    "款待"
+   ],
+   "ent_id": "ENT-528"
+  },
+  {
+   "normalized": "驿递",
+   "type": "institution",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条41",
+   "surfaces": [
+    "驿递"
+   ],
+   "ent_id": "ENT-529"
+  },
+  {
+   "normalized": "畜养",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条42",
+   "surfaces": [
+    "畜养"
+   ],
+   "ent_id": "ENT-530"
+  },
+  {
+   "normalized": "鸡鹅",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条42",
+   "surfaces": [
+    "鸡鹅"
+   ],
+   "ent_id": "ENT-531"
+  },
+  {
+   "normalized": "两支",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条43",
+   "surfaces": [
+    "两支"
+   ],
+   "ent_id": "ENT-532"
+  },
+  {
+   "normalized": "出纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条43",
+   "surfaces": [
+    "出纳"
+   ],
+   "ent_id": "ENT-533"
+  },
+  {
+   "normalized": "支给",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条43",
+   "surfaces": [
+    "支给"
+   ],
+   "ent_id": "ENT-534"
+  },
+  {
+   "normalized": "马匹",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条47",
+   "surfaces": [
+    "马匹"
+   ],
+   "ent_id": "ENT-535"
+  },
+  {
+   "normalized": "种树",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条48",
+   "surfaces": [
+    "种树"
+   ],
+   "ent_id": "ENT-536"
+  },
+  {
+   "normalized": "监房",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条49",
+   "surfaces": [
+    "监房"
+   ],
+   "ent_id": "ENT-537"
+  },
+  {
+   "normalized": "响板",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条49",
+   "surfaces": [
+    "响板"
+   ],
+   "ent_id": "ENT-538"
+  },
+  {
+   "normalized": "监禁",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条49",
+   "surfaces": [
+    "监禁"
+   ],
+   "ent_id": "ENT-539"
+  },
+  {
+   "normalized": "相视",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条51",
+   "surfaces": [
+    "相视"
+   ],
+   "ent_id": "ENT-540"
+  },
+  {
+   "normalized": "埋葬",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条51",
+   "surfaces": [
+    "埋葬"
+   ],
+   "ent_id": "ENT-541"
+  },
+  {
+   "normalized": "掩埋",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条51",
+   "surfaces": [
+    "掩埋"
+   ],
+   "ent_id": "ENT-542"
+  },
+  {
+   "normalized": "夏麦",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条1",
+   "surfaces": [
+    "夏麦"
+   ],
+   "ent_id": "ENT-543"
+  },
+  {
+   "normalized": "秋粮",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条1",
+   "surfaces": [
+    "秋粮"
+   ],
+   "ent_id": "ENT-544"
+  },
+  {
+   "normalized": "折色",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条2",
+   "surfaces": [
+    "折色"
+   ],
+   "ent_id": "ENT-545"
+  },
+  {
+   "normalized": "寄庄",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条3",
+   "surfaces": [
+    "寄庄"
+   ],
+   "ent_id": "ENT-546"
+  },
+  {
+   "normalized": "揽纳",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条4",
+   "surfaces": [
+    "揽纳"
+   ],
+   "ent_id": "ENT-547"
+  },
+  {
+   "normalized": "由帖",
+   "type": "document",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条4",
+   "surfaces": [
+    "由帖"
+   ],
+   "ent_id": "ENT-548"
+  },
+  {
+   "normalized": "填写",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "填写"
+   ],
+   "ent_id": "ENT-549"
+  },
+  {
+   "normalized": "十年",
+   "type": "time",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "十年"
+   ],
+   "ent_id": "ENT-550"
+  },
+  {
+   "normalized": "完纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "完纳"
+   ],
+   "ent_id": "ENT-551"
+  },
+  {
+   "normalized": "上纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条8",
+   "surfaces": [
+    "上纳"
+   ],
+   "ent_id": "ENT-552"
+  },
+  {
+   "normalized": "坐派",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "坐派"
+   ],
+   "ent_id": "ENT-553"
+  },
+  {
+   "normalized": "一斗",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "一斗"
+   ],
+   "ent_id": "ENT-554"
+  },
+  {
+   "normalized": "一升",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "一升"
+   ],
+   "ent_id": "ENT-555"
+  },
+  {
+   "normalized": "征完",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条12",
+   "surfaces": [
+    "征完"
+   ],
+   "ent_id": "ENT-556"
+  },
+  {
+   "normalized": "追并",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条12",
+   "surfaces": [
+    "追并"
+   ],
+   "ent_id": "ENT-557"
+  },
+  {
+   "normalized": "陪纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条12",
+   "surfaces": [
+    "陪纳"
+   ],
+   "ent_id": "ENT-558"
+  },
+  {
+   "normalized": "较勘",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条13",
+   "surfaces": [
+    "较勘"
+   ],
+   "ent_id": "ENT-559"
+  },
+  {
+   "normalized": "追算",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条18",
+   "surfaces": [
+    "追筭"
+   ],
+   "ent_id": "ENT-560"
+  },
+  {
+   "normalized": "律法",
+   "type": "institution",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条1",
+   "surfaces": [
+    "律法"
+   ],
+   "ent_id": "ENT-561"
+  },
+  {
+   "normalized": "迎春",
+   "type": "institution",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条5",
+   "surfaces": [
+    "迎春"
+   ],
+   "ent_id": "ENT-562"
+  },
+  {
+   "normalized": "春花",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条5",
+   "surfaces": [
+    "春花"
+   ],
+   "ent_id": "ENT-563"
+  },
+  {
+   "normalized": "春杖",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条5",
+   "surfaces": [
+    "春杖"
+   ],
+   "ent_id": "ENT-564"
+  },
+  {
+   "normalized": "教读",
+   "type": "official",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条6",
+   "surfaces": [
+    "教读"
+   ],
+   "ent_id": "ENT-565"
+  },
+  {
+   "normalized": "牲口",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条7",
+   "surfaces": [
+    "牲口"
+   ],
+   "ent_id": "ENT-566"
+  },
+  {
+   "normalized": "庙",
+   "type": "org",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条9",
+   "surfaces": [
+    "庙"
+   ],
+   "ent_id": "ENT-567"
+  },
+  {
+   "normalized": "密访",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条12",
+   "surfaces": [
+    "密访"
+   ],
+   "ent_id": "ENT-568"
+  },
+  {
+   "normalized": "斋戒",
+   "type": "institution",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条17",
+   "surfaces": [
+    "斋戒"
+   ],
+   "ent_id": "ENT-569"
+  },
+  {
+   "normalized": "祭品",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条17",
+   "surfaces": [
+    "祭品"
+   ],
+   "ent_id": "ENT-570"
+  },
+  {
+   "normalized": "陂",
+   "type": "place",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条1",
+   "surfaces": [
+    "陂"
+   ],
+   "ent_id": "ENT-571"
+  },
+  {
+   "normalized": "堰",
+   "type": "place",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条1",
+   "surfaces": [
+    "堰"
+   ],
+   "ent_id": "ENT-572"
+  },
+  {
+   "normalized": "街坊",
+   "type": "place",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条2",
+   "surfaces": [
+    "街坊"
+   ],
+   "ent_id": "ENT-573"
+  },
+  {
+   "normalized": "昏夜",
+   "type": "time",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条2",
+   "surfaces": [
+    "昏夜"
+   ],
+   "ent_id": "ENT-574"
+  },
+  {
+   "normalized": "罚谷",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条4",
+   "surfaces": [
+    "罚谷"
+   ],
+   "ent_id": "ENT-575"
+  },
+  {
+   "normalized": "开垦",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条5",
+   "surfaces": [
+    "开垦"
+   ],
+   "ent_id": "ENT-576"
+  },
+  {
+   "normalized": "三年",
+   "type": "time",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条5",
+   "surfaces": [
+    "三年"
+   ],
+   "ent_id": "ENT-577"
+  },
+  {
+   "normalized": "祈祷",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条9",
+   "surfaces": [
+    "祈祷"
+   ],
+   "ent_id": "ENT-578"
+  },
+  {
+   "normalized": "耆宿",
+   "type": "person",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条9",
+   "surfaces": [
+    "耆宿"
+   ],
+   "ent_id": "ENT-579"
+  },
+  {
+   "normalized": "五里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条10",
+   "surfaces": [
+    "五里"
+   ],
+   "ent_id": "ENT-580"
+  },
+  {
+   "normalized": "十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条10",
+   "surfaces": [
+    "十里"
+   ],
+   "ent_id": "ENT-581"
+  },
+  {
+   "normalized": "镣杻",
+   "type": "object",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条12",
+   "surfaces": [
+    "镣杻"
+   ],
+   "ent_id": "ENT-582"
+  },
+  {
+   "normalized": "笞责",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条12",
+   "surfaces": [
+    "笞责"
+   ],
+   "ent_id": "ENT-583"
+  },
+  {
+   "normalized": "拘拿",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条1",
+   "surfaces": [
+    "拘拿"
+   ],
+   "ent_id": "ENT-584"
+  },
+  {
+   "normalized": "杻",
+   "type": "object",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条2",
+   "surfaces": [
+    "杻"
+   ],
+   "ent_id": "ENT-585"
+  },
+  {
+   "normalized": "检验",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条6",
+   "surfaces": [
+    "检验"
+   ],
+   "ent_id": "ENT-586"
+  },
+  {
+   "normalized": "两家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条6",
+   "surfaces": [
+    "两家"
+   ],
+   "ent_id": "ENT-587"
+  },
+  {
+   "normalized": "拘追",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条7",
+   "surfaces": [
+    "拘追"
+   ],
+   "ent_id": "ENT-588"
+  },
+  {
+   "normalized": "三四人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条11",
+   "surfaces": [
+    "三四人"
+   ],
+   "ent_id": "ENT-589"
+  },
+  {
+   "normalized": "二人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条11",
+   "surfaces": [
+    "二人"
+   ],
+   "ent_id": "ENT-590"
+  },
+  {
+   "normalized": "十面",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条13",
+   "surfaces": [
+    "十面"
+   ],
+   "ent_id": "ENT-591"
+  }
+ ],
+ "alias_index": {
+  "新官": [
+   "ENT-323"
+  ],
+  "官民": [
+   "ENT-206"
+  ],
+  "公馆": [
+   "ENT-207"
+  ],
+  "庙庵": [
+   "ENT-324"
+  ],
+  "到任": [
+   "ENT-014"
+  ],
+  "礼房吏": [
+   "ENT-142"
+  ],
+  "礼生": [
+   "ENT-055"
+  ],
+  "生员": [
+   "ENT-044"
+  ],
+  "开写": [
+   "ENT-024"
+  ],
+  "仪注": [
+   "ENT-064"
+  ],
+  "手本": [
+   "ENT-105"
+  ],
+  "行礼": [
+   "ENT-065"
+  ],
+  "城隍": [
+   "ENT-325"
+  ],
+  "县衙": [
+   "ENT-106"
+  ],
+  "二门": [
+   "ENT-326"
+  ],
+  "后堂": [
+   "ENT-027"
+  ],
+  "士夫": [
+   "ENT-056"
+  ],
+  "文庙": [
+   "ENT-327"
+  ],
+  "猪羊": [
+   "ENT-328"
+  ],
+  "买办": [
+   "ENT-143"
+  ],
+  "里甲": [
+   "ENT-025"
+  ],
+  "屠户": [
+   "ENT-329"
+  ],
+  "支应": [
+   "ENT-144"
+  ],
+  "上司": [
+   "ENT-002"
+  ],
+  "三日": [
+   "ENT-045"
+  ],
+  "吊取": [
+   "ENT-208"
+  ],
+  "礼房": [
+   "ENT-086"
+  ],
+  "胙肉": [
+   "ENT-330"
+  ],
+  "簿籍": [
+   "ENT-107"
+  ],
+  "查勘": [
+   "ENT-145"
+  ],
+  "交盘": [
+   "ENT-087"
+  ],
+  "官库": [
+   "ENT-209"
+  ],
+  "经手官": [
+   "ENT-331"
+  ],
+  "库": [
+   "ENT-015"
+  ],
+  "钱粮": [
+   "ENT-034"
+  ],
+  "称验": [
+   "ENT-332"
+  ],
+  "封记": [
+   "ENT-210"
+  ],
+  "供给": [
+   "ENT-211"
+  ],
+  "接管": [
+   "ENT-212"
+  ],
+  "巡风": [
+   "ENT-066"
+  ],
+  "提督": [
+   "ENT-146"
+  ],
+  "巡更": [
+   "ENT-333"
+  ],
+  "看守": [
+   "ENT-067"
+  ],
+  "巡风吏": [
+   "ENT-213"
+  ],
+  "结状": [
+   "ENT-147"
+  ],
+  "发落": [
+   "ENT-029"
+  ],
+  "归结": [
+   "ENT-214"
+  ],
+  "申详": [
+   "ENT-215"
+  ],
+  "缉访": [
+   "ENT-088"
+  ],
+  "七八日": [
+   "ENT-334"
+  ],
+  "十日": [
+   "ENT-108"
+  ],
+  "半月": [
+   "ENT-216"
+  ],
+  "一次": [
+   "ENT-035"
+  ],
+  "夜晚": [
+   "ENT-109"
+  ],
+  "灯": [
+   "ENT-217"
+  ],
+  "锁钥": [
+   "ENT-218"
+  ],
+  "修筑": [
+   "ENT-148"
+  ],
+  "刑房吏": [
+   "ENT-110"
+  ],
+  "三名": [
+   "ENT-219"
+  ],
+  "每日": [
+   "ENT-007"
+  ],
+  "监": [
+   "ENT-011"
+  ],
+  "五日": [
+   "ENT-030"
+  ],
+  "一日": [
+   "ENT-046"
+  ],
+  "囚犯": [
+   "ENT-047"
+  ],
+  "一处": [
+   "ENT-149"
+  ],
+  "囚簿": [
+   "ENT-220"
+  ],
+  "一扇": [
+   "ENT-028"
+  ],
+  "若干": [
+   "ENT-006"
+  ],
+  "淹禁": [
+   "ENT-221"
+  ],
+  "案卷": [
+   "ENT-150"
+  ],
+  "注摽": [
+   "ENT-335"
+  ],
+  "风宪": [
+   "ENT-222"
+  ],
+  "法司": [
+   "ENT-336"
+  ],
+  "县": [
+   "ENT-001"
+  ],
+  "清查": [
+   "ENT-151"
+  ],
+  "监簿": [
+   "ENT-223"
+  ],
+  "簿": [
+   "ENT-005"
+  ],
+  "律例": [
+   "ENT-224"
+  ],
+  "量情": [
+   "ENT-089"
+  ],
+  "朔望": [
+   "ENT-036"
+  ],
+  "责治": [
+   "ENT-225"
+  ],
+  "责罚": [
+   "ENT-057"
+  ],
+  "六房吏典": [
+   "ENT-111"
+  ],
+  "须知文册": [
+   "ENT-226"
+  ],
+  "开报": [
+   "ENT-068"
+  ],
+  "某年月日": [
+   "ENT-152"
+  ],
+  "一件": [
+   "ENT-037"
+  ],
+  "三人": [
+   "ENT-227"
+  ],
+  "勘合文簿": [
+   "ENT-337"
+  ],
+  "一本": [
+   "ENT-069"
+  ],
+  "某日": [
+   "ENT-090"
+  ],
+  "衙门": [
+   "ENT-048"
+  ],
+  "公文": [
+   "ENT-004"
+  ],
+  "勘合": [
+   "ENT-058"
+  ],
+  "本县": [
+   "ENT-026"
+  ],
+  "完报": [
+   "ENT-153"
+  ],
+  "朝觐考察": [
+   "ENT-338"
+  ],
+  "文册": [
+   "ENT-339"
+  ],
+  "承发吏": [
+   "ENT-112"
+  ],
+  "守掌": [
+   "ENT-228"
+  ],
+  "批状簿": [
+   "ENT-340"
+  ],
+  "批状": [
+   "ENT-229"
+  ],
+  "某月": [
+   "ENT-113"
+  ],
+  "一个": [
+   "ENT-038"
+  ],
+  "吏典": [
+   "ENT-008"
+  ],
+  "词状簿": [
+   "ENT-341"
+  ],
+  "词状": [
+   "ENT-070"
+  ],
+  "注写": [
+   "ENT-154"
+  ],
+  "里": [
+   "ENT-003"
+  ],
+  "状子": [
+   "ENT-230"
+  ],
+  "勾销": [
+   "ENT-231"
+  ],
+  "出票文簿": [
+   "ENT-342"
+  ],
+  "票帖": [
+   "ENT-232"
+  ],
+  "接递文簿": [
+   "ENT-343"
+  ],
+  "牌帖": [
+   "ENT-344"
+  ],
+  "转递": [
+   "ENT-345"
+  ],
+  "交割": [
+   "ENT-091"
+  ],
+  "递送": [
+   "ENT-114"
+  ],
+  "多寡": [
+   "ENT-092"
+  ],
+  "清军簿": [
+   "ENT-346"
+  ],
+  "概县": [
+   "ENT-031"
+  ],
+  "卫": [
+   "ENT-347"
+  ],
+  "兵房吏": [
+   "ENT-348"
+  ],
+  "贴写": [
+   "ENT-233"
+  ],
+  "书手": [
+   "ENT-020"
+  ],
+  "递年": [
+   "ENT-234"
+  ],
+  "军役": [
+   "ENT-349"
+  ],
+  "公罚文簿": [
+   "ENT-350"
+  ],
+  "事例": [
+   "ENT-235"
+  ],
+  "禁革": [
+   "ENT-115"
+  ],
+  "罚纸札": [
+   "ENT-351"
+  ],
+  "量罚": [
+   "ENT-352"
+  ],
+  "收掌": [
+   "ENT-155"
+  ],
+  "文簿": [
+   "ENT-353"
+  ],
+  "比较": [
+   "ENT-018"
+  ],
+  "六房": [
+   "ENT-009"
+  ],
+  "里老": [
+   "ENT-017"
+  ],
+  "抄写": [
+   "ENT-236"
+  ],
+  "铺": [
+   "ENT-071"
+  ],
+  "催办": [
+   "ENT-156"
+  ],
+  "城": [
+   "ENT-093"
+  ],
+  "三十里": [
+   "ENT-354"
+  ],
+  "六十里": [
+   "ENT-355"
+  ],
+  "二日": [
+   "ENT-356"
+  ],
+  "九十里": [
+   "ENT-357"
+  ],
+  "勾摄": [
+   "ENT-116"
+  ],
+  "稽考": [
+   "ENT-237"
+  ],
+  "打三十": [
+   "ENT-358"
+  ],
+  "皂隶": [
+   "ENT-010"
+  ],
+  "快手": [
+   "ENT-359"
+  ],
+  "乡": [
+   "ENT-049"
+  ],
+  "里长": [
+   "ENT-016"
+  ],
+  "甲首": [
+   "ENT-157"
+  ],
+  "小民": [
+   "ENT-238"
+  ],
+  "县印": [
+   "ENT-360"
+  ],
+  "百姓": [
+   "ENT-158"
+  ],
+  "访知": [
+   "ENT-239"
+  ],
+  "庄": [
+   "ENT-361"
+  ],
+  "人户": [
+   "ENT-013"
+  ],
+  "三四十家": [
+   "ENT-362"
+  ],
+  "直老": [
+   "ENT-094"
+  ],
+  "一名": [
+   "ENT-050"
+  ],
+  "七八十家": [
+   "ENT-363"
+  ],
+  "二名": [
+   "ENT-240"
+  ],
+  "街": [
+   "ENT-159"
+  ],
+  "胡同": [
+   "ENT-364"
+  ],
+  "五七十家": [
+   "ENT-365"
+  ],
+  "举保": [
+   "ENT-241"
+  ],
+  "赵甲": [
+   "ENT-117"
+  ],
+  "保举": [
+   "ENT-118"
+  ],
+  "军民": [
+   "ENT-160"
+  ],
+  "每月": [
+   "ENT-021"
+  ],
+  "初一日": [
+   "ENT-161"
+  ],
+  "审问": [
+   "ENT-119"
+  ],
+  "半年": [
+   "ENT-366"
+  ],
+  "三四个": [
+   "ENT-242"
+  ],
+  "一人": [
+   "ENT-019"
+  ],
+  "打四十大棍": [
+   "ENT-367"
+  ],
+  "刁泼": [
+   "ENT-243"
+  ],
+  "学校": [
+   "ENT-162"
+  ],
+  "签": [
+   "ENT-095"
+  ],
+  "纸笔": [
+   "ENT-368"
+  ],
+  "柴炭": [
+   "ENT-369"
+  ],
+  "除免": [
+   "ENT-120"
+  ],
+  "责打": [
+   "ENT-244"
+  ],
+  "免差": [
+   "ENT-245"
+  ],
+  "廪增": [
+   "ENT-370"
+  ],
+  "附学": [
+   "ENT-371"
+  ],
+  "把守": [
+   "ENT-372"
+  ],
+  "守把": [
+   "ENT-246"
+  ],
+  "头门": [
+   "ENT-373"
+  ],
+  "医生": [
+   "ENT-121"
+  ],
+  "印信文簿": [
+   "ENT-374"
+  ],
+  "木牌": [
+   "ENT-072"
+  ],
+  "一面": [
+   "ENT-122"
+  ],
+  "牌": [
+   "ENT-032"
+  ],
+  "三五个": [
+   "ENT-375"
+  ],
+  "痛责": [
+   "ENT-247"
+  ],
+  "告示": [
+   "ENT-022"
+  ],
+  "三六九日": [
+   "ENT-376"
+  ],
+  "强盗": [
+   "ENT-163"
+  ],
+  "明日": [
+   "ENT-123"
+  ],
+  "次日": [
+   "ENT-124"
+  ],
+  "审理": [
+   "ENT-248"
+  ],
+  "被告": [
+   "ENT-377"
+  ],
+  "拘唤": [
+   "ENT-249"
+  ],
+  "问理": [
+   "ENT-073"
+  ],
+  "原告": [
+   "ENT-378"
+  ],
+  "甬路": [
+   "ENT-164"
+  ],
+  "干证": [
+   "ENT-165"
+  ],
+  "门子": [
+   "ENT-051"
+  ],
+  "窃盗": [
+   "ENT-166"
+  ],
+  "贼": [
+   "ENT-039"
+  ],
+  "背审": [
+   "ENT-250"
+  ],
+  "王大": [
+   "ENT-096"
+  ],
+  "刑房": [
+   "ENT-074"
+  ],
+  "兵房": [
+   "ENT-097"
+  ],
+  "锁闭": [
+   "ENT-379"
+  ],
+  "卷宗": [
+   "ENT-125"
+  ],
+  "一年": [
+   "ENT-380"
+  ],
+  "差徭": [
+   "ENT-251"
+  ],
+  "清军": [
+   "ENT-167"
+  ],
+  "赋役": [
+   "ENT-168"
+  ],
+  "赃官": [
+   "ENT-381"
+  ],
+  "刁民": [
+   "ENT-252"
+  ],
+  "黄册": [
+   "ENT-059"
+  ],
+  "赋役册": [
+   "ENT-382"
+  ],
+  "拘集": [
+   "ENT-253"
+  ],
+  "桌凳": [
+   "ENT-169"
+  ],
+  "一张": [
+   "ENT-254"
+  ],
+  "五七十张": [
+   "ENT-383"
+  ],
+  "老人": [
+   "ENT-040"
+  ],
+  "三处": [
+   "ENT-384"
+  ],
+  "八十大板": [
+   "ENT-385"
+  ],
+  "晓谕": [
+   "ENT-255"
+  ],
+  "贫民": [
+   "ENT-256"
+  ],
+  "用刑": [
+   "ENT-075"
+  ],
+  "处治": [
+   "ENT-386"
+  ],
+  "口词": [
+   "ENT-257"
+  ],
+  "供状": [
+   "ENT-170"
+  ],
+  "底札": [
+   "ENT-258"
+  ],
+  "监候": [
+   "ENT-387"
+  ],
+  "点查": [
+   "ENT-259"
+  ],
+  "封锁": [
+   "ENT-260"
+  ],
+  "铁索": [
+   "ENT-388"
+  ],
+  "肘镣": [
+   "ENT-261"
+  ],
+  "铁锁": [
+   "ENT-389"
+  ],
+  "夹棍": [
+   "ENT-262"
+  ],
+  "拶指": [
+   "ENT-171"
+  ],
+  "刑枷": [
+   "ENT-390"
+  ],
+  "预备": [
+   "ENT-263"
+  ],
+  "禁子": [
+   "ENT-172"
+  ],
+  "六七人": [
+   "ENT-391"
+  ],
+  "三司": [
+   "ENT-392"
+  ],
+  "府厅": [
+   "ENT-393"
+  ],
+  "床帐": [
+   "ENT-394"
+  ],
+  "器皿": [
+   "ENT-264"
+  ],
+  "桌椅": [
+   "ENT-265"
+  ],
+  "坛庙": [
+   "ENT-395"
+  ],
+  "铺舍": [
+   "ENT-266"
+  ],
+  "家伙": [
+   "ENT-267"
+  ],
+  "升堂": [
+   "ENT-098"
+  ],
+  "画卯": [
+   "ENT-268"
+  ],
+  "科敛": [
+   "ENT-126"
+  ],
+  "官府": [
+   "ENT-396"
+  ],
+  "巡视": [
+   "ENT-060"
+  ],
+  "治罪": [
+   "ENT-173"
+  ],
+  "仓": [
+   "ENT-041"
+  ],
+  "五七十里": [
+   "ENT-397"
+  ],
+  "出办": [
+   "ENT-076"
+  ],
+  "十月": [
+   "ENT-398"
+  ],
+  "油蜡": [
+   "ENT-399"
+  ],
+  "纸札": [
+   "ENT-061"
+  ],
+  "收买": [
+   "ENT-269"
+  ],
+  "县官": [
+   "ENT-400"
+  ],
+  "收贮": [
+   "ENT-270"
+  ],
+  "三二人": [
+   "ENT-401"
+  ],
+  "经收": [
+   "ENT-402"
+  ],
+  "前官": [
+   "ENT-271"
+  ],
+  "提磨": [
+   "ENT-403"
+  ],
+  "支销": [
+   "ENT-272"
+  ],
+  "文案": [
+   "ENT-174"
+  ],
+  "主文": [
+   "ENT-404"
+  ],
+  "刷卷": [
+   "ENT-405"
+  ],
+  "一二人": [
+   "ENT-406"
+  ],
+  "抚恤": [
+   "ENT-273"
+  ],
+  "前堂": [
+   "ENT-407"
+  ],
+  "书房": [
+   "ENT-274"
+  ],
+  "文卷": [
+   "ENT-175"
+  ],
+  "分派": [
+   "ENT-052"
+  ],
+  "卷架": [
+   "ENT-408"
+  ],
+  "砚瓦": [
+   "ENT-409"
+  ],
+  "笔墨": [
+   "ENT-275"
+  ],
+  "修理": [
+   "ENT-176"
+  ],
+  "州": [
+   "ENT-410"
+  ],
+  "桥梁": [
+   "ENT-276"
+  ],
+  "道路": [
+   "ENT-127"
+  ],
+  "沟渠": [
+   "ENT-411"
+  ],
+  "表背匠人": [
+   "ENT-412"
+  ],
+  "一二百本": [
+   "ENT-413"
+  ],
+  "巡捕官员": [
+   "ENT-414"
+  ],
+  "地界": [
+   "ENT-177"
+  ],
+  "迎接": [
+   "ENT-415"
+  ],
+  "竹片": [
+   "ENT-416"
+  ],
+  "棍板": [
+   "ENT-417"
+  ],
+  "起盖": [
+   "ENT-418"
+  ],
+  "三间": [
+   "ENT-419"
+  ],
+  "两三间": [
+   "ENT-420"
+  ],
+  "两三日": [
+   "ENT-421"
+  ],
+  "行移": [
+   "ENT-077"
+  ],
+  "二三人": [
+   "ENT-277"
+  ],
+  "提铃": [
+   "ENT-422"
+  ],
+  "钟鼓": [
+   "ENT-423"
+  ],
+  "征收": [
+   "ENT-053"
+  ],
+  "大户": [
+   "ENT-278"
+  ],
+  "每年": [
+   "ENT-128"
+  ],
+  "岁办": [
+   "ENT-424"
+  ],
+  "申报": [
+   "ENT-425"
+  ],
+  "木梆": [
+   "ENT-426"
+  ],
+  "五更": [
+   "ENT-427"
+  ],
+  "二次": [
+   "ENT-428"
+  ],
+  "签押": [
+   "ENT-178"
+  ],
+  "刑具": [
+   "ENT-429"
+  ],
+  "十两": [
+   "ENT-430"
+  ],
+  "教官": [
+   "ENT-279"
+  ],
+  "富民": [
+   "ENT-431"
+  ],
+  "早堂": [
+   "ENT-432"
+  ],
+  "中堂": [
+   "ENT-433"
+  ],
+  "晚堂": [
+   "ENT-434"
+  ],
+  "香纸": [
+   "ENT-435"
+  ],
+  "整点": [
+   "ENT-436"
+  ],
+  "省谕": [
+   "ENT-042"
+  ],
+  "洒扫": [
+   "ENT-129"
+  ],
+  "署印官": [
+   "ENT-280"
+  ],
+  "祭祀": [
+   "ENT-179"
+  ],
+  "戒谕": [
+   "ENT-437"
+  ],
+  "行刑": [
+   "ENT-438"
+  ],
+  "吏房": [
+   "ENT-062"
+  ],
+  "打点": [
+   "ENT-439"
+  ],
+  "参见": [
+   "ENT-078"
+  ],
+  "鼓": [
+   "ENT-130"
+  ],
+  "仪门": [
+   "ENT-281"
+  ],
+  "站台": [
+   "ENT-282"
+  ],
+  "望阙谢恩": [
+   "ENT-440"
+  ],
+  "公座": [
+   "ENT-079"
+  ],
+  "阴阳生": [
+   "ENT-131"
+  ],
+  "属官": [
+   "ENT-132"
+  ],
+  "首领官": [
+   "ENT-080"
+  ],
+  "学官": [
+   "ENT-099"
+  ],
+  "佐贰官": [
+   "ENT-081"
+  ],
+  "须知": [
+   "ENT-133"
+  ],
+  "直印吏": [
+   "ENT-082"
+  ],
+  "开印": [
+   "ENT-441"
+  ],
+  "铜印": [
+   "ENT-442"
+  ],
+  "用印": [
+   "ENT-083"
+  ],
+  "佐贰": [
+   "ENT-054"
+  ],
+  "佥押": [
+   "ENT-180"
+  ],
+  "祭物": [
+   "ENT-283"
+  ],
+  "设席": [
+   "ENT-443"
+  ],
+  "正官": [
+   "ENT-284"
+  ],
+  "行酒": [
+   "ENT-444"
+  ],
+  "父老": [
+   "ENT-445"
+  ],
+  "乡官": [
+   "ENT-134"
+  ],
+  "寿官": [
+   "ENT-285"
+  ],
+  "义官": [
+   "ENT-286"
+  ],
+  "京官": [
+   "ENT-446"
+  ],
+  "势豪": [
+   "ENT-287"
+  ],
+  "下狱": [
+   "ENT-447"
+  ],
+  "点囚": [
+   "ENT-448"
+  ],
+  "封监": [
+   "ENT-449"
+  ],
+  "到任次日": [
+   "ENT-135"
+  ],
+  "呈报": [
+   "ENT-063"
+  ],
+  "司吏": [
+   "ENT-288"
+  ],
+  "小册": [
+   "ENT-289"
+  ],
+  "催并": [
+   "ENT-450"
+  ],
+  "立限": [
+   "ENT-136"
+  ],
+  "锁押": [
+   "ENT-290"
+  ],
+  "锁": [
+   "ENT-181"
+  ],
+  "眼同": [
+   "ENT-182"
+  ],
+  "拆封": [
+   "ENT-451"
+  ],
+  "看验": [
+   "ENT-452"
+  ],
+  "放支": [
+   "ENT-453"
+  ],
+  "禁约": [
+   "ENT-291"
+  ],
+  "明伦堂": [
+   "ENT-454"
+  ],
+  "坛": [
+   "ENT-183"
+  ],
+  "养济院": [
+   "ENT-184"
+  ],
+  "图": [
+   "ENT-043"
+  ],
+  "点对": [
+   "ENT-185"
+  ],
+  "卯时": [
+   "ENT-455"
+  ],
+  "长官": [
+   "ENT-456"
+  ],
+  "直堂吏": [
+   "ENT-023"
+  ],
+  "直堂": [
+   "ENT-084"
+  ],
+  "应捕": [
+   "ENT-137"
+  ],
+  "禀报": [
+   "ENT-186"
+  ],
+  "提牢": [
+   "ENT-292"
+  ],
+  "都图": [
+   "ENT-085"
+  ],
+  "廊": [
+   "ENT-293"
+  ],
+  "辰时": [
+   "ENT-294"
+  ],
+  "退堂": [
+   "ENT-295"
+  ],
+  "巳时": [
+   "ENT-457"
+  ],
+  "粮料": [
+   "ENT-100"
+  ],
+  "午时": [
+   "ENT-458"
+  ],
+  "放告": [
+   "ENT-187"
+  ],
+  "都": [
+   "ENT-033"
+  ],
+  "未时": [
+   "ENT-459"
+  ],
+  "封门": [
+   "ENT-460"
+  ],
+  "申时": [
+   "ENT-296"
+  ],
+  "行杖": [
+   "ENT-461"
+  ],
+  "重杖": [
+   "ENT-462"
+  ],
+  "酉时": [
+   "ENT-463"
+  ],
+  "狱卒": [
+   "ENT-188"
+  ],
+  "户房": [
+   "ENT-297"
+  ],
+  "税粮簿": [
+   "ENT-464"
+  ],
+  "里长簿": [
+   "ENT-298"
+  ],
+  "催征": [
+   "ENT-299"
+  ],
+  "巡检弓兵簿": [
+   "ENT-465"
+  ],
+  "十六日": [
+   "ENT-466"
+  ],
+  "贼盗": [
+   "ENT-189"
+  ],
+  "杂役": [
+   "ENT-467"
+  ],
+  "四日": [
+   "ENT-468"
+  ],
+  "工房": [
+   "ENT-469"
+  ],
+  "圩塘长簿": [
+   "ENT-470"
+  ],
+  "注销": [
+   "ENT-138"
+  ],
+  "月终": [
+   "ENT-190"
+  ],
+  "销缴": [
+   "ENT-300"
+  ],
+  "铺长": [
+   "ENT-191"
+  ],
+  "赤历": [
+   "ENT-471"
+  ],
+  "架阁库吏": [
+   "ENT-301"
+  ],
+  "查销": [
+   "ENT-472"
+  ],
+  "倒换": [
+   "ENT-473"
+  ],
+  "送缴": [
+   "ENT-474"
+  ],
+  "关领": [
+   "ENT-475"
+  ],
+  "均派": [
+   "ENT-192"
+  ],
+  "刑簿": [
+   "ENT-476"
+  ],
+  "赈恤": [
+   "ENT-477"
+  ],
+  "给散": [
+   "ENT-478"
+  ],
+  "种栽": [
+   "ENT-479"
+  ],
+  "田": [
+   "ENT-012"
+  ],
+  "四至": [
+   "ENT-139"
+  ],
+  "田地": [
+   "ENT-140"
+  ],
+  "会算": [
+   "ENT-480"
+  ],
+  "造册": [
+   "ENT-481"
+  ],
+  "科派": [
+   "ENT-193"
+  ],
+  "一千亩": [
+   "ENT-482"
+  ],
+  "一百张": [
+   "ENT-483"
+  ],
+  "一百亩": [
+   "ENT-484"
+  ],
+  "一十张": [
+   "ENT-485"
+  ],
+  "十亩": [
+   "ENT-302"
+  ],
+  "对会": [
+   "ENT-303"
+  ],
+  "一月": [
+   "ENT-486"
+  ],
+  "均徭": [
+   "ENT-194"
+  ],
+  "弓兵": [
+   "ENT-304"
+  ],
+  "铺兵": [
+   "ENT-487"
+  ],
+  "小票": [
+   "ENT-488"
+  ],
+  "僧道": [
+   "ENT-101"
+  ],
+  "度牒": [
+   "ENT-195"
+  ],
+  "初旬": [
+   "ENT-489"
+  ],
+  "修葺": [
+   "ENT-490"
+  ],
+  "点视": [
+   "ENT-491"
+  ],
+  "佥补": [
+   "ENT-492"
+  ],
+  "佥解": [
+   "ENT-493"
+  ],
+  "清匠": [
+   "ENT-494"
+  ],
+  "班匠": [
+   "ENT-495"
+  ],
+  "批文": [
+   "ENT-496"
+  ],
+  "存留": [
+   "ENT-305"
+  ],
+  "公堂": [
+   "ENT-196"
+  ],
+  "杖": [
+   "ENT-497"
+  ],
+  "粮长": [
+   "ENT-141"
+  ],
+  "六日": [
+   "ENT-498"
+  ],
+  "总甲": [
+   "ENT-102"
+  ],
+  "油烛": [
+   "ENT-499"
+  ],
+  "月夜": [
+   "ENT-500"
+  ],
+  "雪夜": [
+   "ENT-501"
+  ],
+  "点检": [
+   "ENT-502"
+  ],
+  "揭帖": [
+   "ENT-503"
+  ],
+  "回申": [
+   "ENT-504"
+  ],
+  "乡里": [
+   "ENT-505"
+  ],
+  "邻县": [
+   "ENT-506"
+  ],
+  "关文": [
+   "ENT-507"
+  ],
+  "擒拿": [
+   "ENT-508"
+  ],
+  "交界": [
+   "ENT-306"
+  ],
+  "火夫": [
+   "ENT-307"
+  ],
+  "体访": [
+   "ENT-197"
+  ],
+  "塘": [
+   "ENT-198"
+  ],
+  "葺治": [
+   "ENT-509"
+  ],
+  "杂差": [
+   "ENT-510"
+  ],
+  "习仪": [
+   "ENT-199"
+  ],
+  "丁粮": [
+   "ENT-511"
+  ],
+  "巷": [
+   "ENT-512"
+  ],
+  "卯簿": [
+   "ENT-513"
+  ],
+  "实征": [
+   "ENT-200"
+  ],
+  "五名": [
+   "ENT-514"
+  ],
+  "注簿": [
+   "ENT-515"
+  ],
+  "开筑": [
+   "ENT-516"
+  ],
+  "佥点": [
+   "ENT-517"
+  ],
+  "巡检司": [
+   "ENT-518"
+  ],
+  "仵作": [
+   "ENT-519"
+  ],
+  "土工": [
+   "ENT-520"
+  ],
+  "痛治": [
+   "ENT-308"
+  ],
+  "除豁": [
+   "ENT-521"
+  ],
+  "师巫": [
+   "ENT-522"
+  ],
+  "寺观": [
+   "ENT-523"
+  ],
+  "决一二十": [
+   "ENT-524"
+  ],
+  "具结": [
+   "ENT-309"
+  ],
+  "乡宦": [
+   "ENT-103"
+  ],
+  "坊": [
+   "ENT-525"
+  ],
+  "修整": [
+   "ENT-526"
+  ],
+  "问罪": [
+   "ENT-310"
+  ],
+  "儒学": [
+   "ENT-527"
+  ],
+  "社学": [
+   "ENT-311"
+  ],
+  "执照": [
+   "ENT-312"
+  ],
+  "馈送": [
+   "ENT-313"
+  ],
+  "款待": [
+   "ENT-528"
+  ],
+  "驿递": [
+   "ENT-529"
+  ],
+  "畜养": [
+   "ENT-530"
+  ],
+  "鸡鹅": [
+   "ENT-531"
+  ],
+  "两支": [
+   "ENT-532"
+  ],
+  "出纳": [
+   "ENT-533"
+  ],
+  "支给": [
+   "ENT-534"
+  ],
+  "起解": [
+   "ENT-201"
+  ],
+  "马匹": [
+   "ENT-535"
+  ],
+  "种树": [
+   "ENT-536"
+  ],
+  "监房": [
+   "ENT-537"
+  ],
+  "响板": [
+   "ENT-538"
+  ],
+  "监禁": [
+   "ENT-539"
+  ],
+  "相视": [
+   "ENT-540"
+  ],
+  "埋葬": [
+   "ENT-541"
+  ],
+  "掩埋": [
+   "ENT-542"
+  ],
+  "夏麦": [
+   "ENT-543"
+  ],
+  "秋粮": [
+   "ENT-544"
+  ],
+  "本色": [
+   "ENT-202"
+  ],
+  "折色": [
+   "ENT-545"
+  ],
+  "寄庄": [
+   "ENT-546"
+  ],
+  "佃户": [
+   "ENT-203"
+  ],
+  "揽纳": [
+   "ENT-547"
+  ],
+  "由帖": [
+   "ENT-548"
+  ],
+  "填写": [
+   "ENT-549"
+  ],
+  "一里": [
+   "ENT-204"
+  ],
+  "十年": [
+   "ENT-550"
+  ],
+  "完纳": [
+   "ENT-551"
+  ],
+  "折银": [
+   "ENT-104"
+  ],
+  "上纳": [
+   "ENT-552"
+  ],
+  "征粮": [
+   "ENT-314"
+  ],
+  "白粮": [
+   "ENT-315"
+  ],
+  "二石": [
+   "ENT-316"
+  ],
+  "坐派": [
+   "ENT-553"
+  ],
+  "一斗": [
+   "ENT-554"
+  ],
+  "一升": [
+   "ENT-555"
+  ],
+  "征完": [
+   "ENT-556"
+  ],
+  "追并": [
+   "ENT-557"
+  ],
+  "陪纳": [
+   "ENT-558"
+  ],
+  "较勘": [
+   "ENT-559"
+  ],
+  "纳户": [
+   "ENT-317"
+  ],
+  "火耗": [
+   "ENT-318"
+  ],
+  "追筭": [
+   "ENT-560"
+  ],
+  "验实": [
+   "ENT-319"
+  ],
+  "律法": [
+   "ENT-561"
+  ],
+  "拜牌": [
+   "ENT-320"
+  ],
+  "救护": [
+   "ENT-205"
+  ],
+  "迎春": [
+   "ENT-562"
+  ],
+  "春花": [
+   "ENT-563"
+  ],
+  "春杖": [
+   "ENT-564"
+  ],
+  "乡饮": [
+   "ENT-321"
+  ],
+  "教读": [
+   "ENT-565"
+  ],
+  "牲口": [
+   "ENT-566"
+  ],
+  "庙": [
+   "ENT-567"
+  ],
+  "密访": [
+   "ENT-568"
+  ],
+  "斋戒": [
+   "ENT-569"
+  ],
+  "祭品": [
+   "ENT-570"
+  ],
+  "陂": [
+   "ENT-571"
+  ],
+  "堰": [
+   "ENT-572"
+  ],
+  "街坊": [
+   "ENT-573"
+  ],
+  "昏夜": [
+   "ENT-574"
+  ],
+  "踏勘": [
+   "ENT-322"
+  ],
+  "罚谷": [
+   "ENT-575"
+  ],
+  "开垦": [
+   "ENT-576"
+  ],
+  "三年": [
+   "ENT-577"
+  ],
+  "祈祷": [
+   "ENT-578"
+  ],
+  "耆宿": [
+   "ENT-579"
+  ],
+  "五里": [
+   "ENT-580"
+  ],
+  "十里": [
+   "ENT-581"
+  ],
+  "镣杻": [
+   "ENT-582"
+  ],
+  "笞责": [
+   "ENT-583"
+  ],
+  "拘拿": [
+   "ENT-584"
+  ],
+  "杻": [
+   "ENT-585"
+  ],
+  "检验": [
+   "ENT-586"
+  ],
+  "两家": [
+   "ENT-587"
+  ],
+  "拘追": [
+   "ENT-588"
+  ],
+  "三四人": [
+   "ENT-589"
+  ],
+  "二人": [
+   "ENT-590"
+  ],
+  "十面": [
+   "ENT-591"
+  ]
+ }
+}

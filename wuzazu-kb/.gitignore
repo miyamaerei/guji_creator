@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 底座切出的分卷正文（可由 build_base.py 重建）
+_extract/
+
+# 机器产物（可重建；交付物在 _deliver/，不忽略）
+_layers/
+_build/
+_validate/
+_selftest_last.txt
+
+# 注：以下**不**忽略，属可交付资产
+#   _item_registry.json   条粒度指纹库（重建成本高，建议入库）
+#   _src/                 各层源数据（人工/AI 手写，必须入库）
+#   _deliver/             交付 CSV / 报告

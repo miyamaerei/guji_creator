@@ -1,0 +1,459 @@
+{
+ "schema_version": "kg-rule-ai-json-v1",
+ "rule_version": "rule-ai-v1",
+ "volume": "09",
+ "chapter": "卷下_礼仪第七",
+ "source_file": "09_卷下_礼仪第七.xhtml",
+ "item_count": 18,
+ "rule_count": 18,
+ "rules": [
+  {
+   "rule_id": "XGF-R-228",
+   "item_id": "09-001",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "文公家礼颁行",
+   "subject": "官府（知县）/里老",
+   "prohibited_action": "尸棺暴露、火作斋醮（律法所禁）",
+   "prohibited_effect": "违礼违法",
+   "allowed_action": "",
+   "obligation_action": "须省谕里老各要遵奉",
+   "object": "里老",
+   "purpose": "家礼遵行",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条1",
+   "original": "文公家礼颁降之书，其尸棺暴露，火作斋醮，俱律法所禁，须省谕里老各要遵奉。",
+   "confidence": 0.85,
+   "analysis": "『须省谕里老各要遵奉』义务+『尸棺暴露火作斋醮俱律法所禁』禁止。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-229",
+   "item_id": "09-002",
+   "type": "程序型+禁止型+处罚型",
+   "modals": [
+    "procedure",
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "习仪拜牌",
+   "subject": "官府（知县）/礼生",
+   "prohibited_action": "分外生事",
+   "prohibited_effect": "习仪失序",
+   "allowed_action": "",
+   "obligation_action": "定礼生分投监",
+   "object": "礼生",
+   "purpose": "习仪有序",
+   "deadline": "",
+   "punishment": "如礼生不循礼，先后不齐者，先责礼房该吏",
+   "source": "09_卷下_礼仪第七.xhtml#条2",
+   "original": "习仪拜牌，定礼生分投监，不许分外生事。如礼生不循礼，先后不齐者，先责礼房该吏。",
+   "confidence": 0.85,
+   "analysis": "『定礼生分投监』程序+『不许分外生事』禁止+『礼生不循礼先责礼房该吏』处罚。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-230",
+   "item_id": "09-003",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "救护行礼",
+   "subject": "官府（知县）",
+   "prohibited_action": "闲人喧哗",
+   "prohibited_effect": "行礼失肃",
+   "allowed_action": "",
+   "obligation_action": "须告示僚属，拘集僧道至期行礼；仍令地方总甲巡视",
+   "object": "僚属、僧道、总甲",
+   "purpose": "救护行礼肃然",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条3",
+   "original": "救护须告示僚属，拘集僧道至期行礼。仍令地方总甲巡视，莫容闲人喧哗。",
+   "confidence": 0.85,
+   "analysis": "『告示僚属拘集僧道至期行礼、总甲巡视』程序+『莫容闲人喧哗』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-231",
+   "item_id": "09-004",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "习仪拜牌救护",
+   "subject": "官府（知县）/里长",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "有乡宦位高者，令该里长请报官，小者告示知悉，务查点齐集行礼",
+   "object": "乡宦",
+   "purpose": "行礼齐集",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条4",
+   "original": "遇习仪拜牌救护等项，有乡宦位高者，令该里长请报官，小者告示知悉，务查点齐集行礼。",
+   "confidence": 0.78,
+   "analysis": "『位高者令里长请报官、小者告示知悉，务查点齐集』为行礼齐集程序。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-232",
+   "item_id": "09-005",
+   "type": "允许型+禁止型",
+   "modals": [
+    "allow",
+    "prohibit"
+   ],
+   "condition": "迎春",
+   "subject": "官府（知县）",
+   "prohibited_action": "春花、春杖分派里甲",
+   "prohibited_effect": "迎春扰民",
+   "allowed_action": "宜从容为之",
+   "obligation_action": "",
+   "object": "春花春杖",
+   "purpose": "迎春乐民",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条5",
+   "original": "迎春乃百姓乐事，宜从容为之。其春花、春杖，所费不多，不可分派里甲。",
+   "confidence": 0.85,
+   "analysis": "『宜从容为之』允许+『不可分派里甲』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-233",
+   "item_id": "09-006",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "乡饮酒礼",
+   "subject": "官府（知县）/教读",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "须令教读掌礼毕日回话",
+   "object": "教读",
+   "purpose": "乡饮掌礼有责",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条6",
+   "original": "乡属乡饮酒，须令教读掌礼毕日回话。",
+   "confidence": 0.78,
+   "analysis": "『须令教读掌礼毕日回话』为乡饮掌礼程序。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-234",
+   "item_id": "09-007",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "凡遇祭祀",
+   "subject": "官府（知县）",
+   "prohibited_action": "逼勒赊买及容情贵买（牲口）",
+   "prohibited_effect": "祭祀采买失公",
+   "allowed_action": "",
+   "obligation_action": "先期查照旧案价值支钱，与牙行收买牲口等项，完算以备公用",
+   "object": "牲口、牙行",
+   "purpose": "祭祀采买有则",
+   "deadline": "先期",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条7",
+   "original": "凡遇祭祀，先期查照旧案价值支钱，与牙行收买牲口等项，完算以备公用。不可逼勒赊买及容情贵买。",
+   "confidence": 0.88,
+   "analysis": "『先期查照旧案价值支钱牙行收买』程序+『不可逼勒赊买容情贵买』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-235",
+   "item_id": "09-008",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "祭坛",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "令所属僧道分坛诵经，自朝至暮，祭毕分与羹饮",
+   "object": "僧道",
+   "purpose": "祭坛诵经有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条8",
+   "original": "祭坛令所属僧道分坛诵经，自朝至暮，祭毕分与羹饮。",
+   "confidence": 0.75,
+   "analysis": "『令僧道分坛诵经自朝至暮祭毕分羹饮』为祭坛程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-236",
+   "item_id": "09-009",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "祭神庙赛",
+   "subject": "官府（知县）",
+   "prohibited_action": "会首克落（香钱）",
+   "prohibited_effect": "香钱失公",
+   "allowed_action": "",
+   "obligation_action": "小处则当禁止，大处人众不可遏者，须与会赛日差人检束，收其香钱公用",
+   "object": "香钱、会首",
+   "purpose": "庙赛有禁香钱公用",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条9",
+   "original": "祭神庙赛，小处则当禁止，大处人众不可遏者，须与会赛日差人检朿，收其香钱公用，勿容会首克落。",
+   "confidence": 0.85,
+   "analysis": "『小处禁止、大处差人检束收香钱公用』程序+『勿容会首克落』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-237",
+   "item_id": "09-010",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "淫祠处置",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "不必悉行拆毁，须量地方改为公廨社学等项",
+   "object": "淫祠",
+   "purpose": "淫祠改造公用",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条10",
+   "original": "淫祠不必悉行拆毁，须量地方改为公廨社学等项。",
+   "confidence": 0.8,
+   "analysis": "『不必悉行拆毁，须量地方改为公廨社学』为淫祠处置程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-238",
+   "item_id": "09-011",
+   "type": "禁止型+处罚型",
+   "modals": [
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "禁僧（寺院管理）",
+   "subject": "官府（知县）",
+   "prohibited_action": "纵容妇人入寺烧香、听讲经会",
+   "prohibited_effect": "寺禁弛废",
+   "allowed_action": "",
+   "obligation_action": "先须省谕地方禁约",
+   "object": "僧人、妇人",
+   "purpose": "寺禁肃然",
+   "deadline": "",
+   "punishment": "如违，先将地方问罪",
+   "source": "09_卷下_礼仪第七.xhtml#条11",
+   "original": "禁僧不许纵容妇人入寺烧香、听讲经会。先须省谕地方禁约，如违，先将地方问罪。",
+   "confidence": 0.9,
+   "analysis": "『不许纵容妇人入寺烧香听讲经会』禁止+『如违先将地方问罪』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-239",
+   "item_id": "09-012",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "举保义夫节妇孝子顺孙",
+   "subject": "官府（知县）",
+   "prohibited_action": "里老呈报及乡宦保者不实不可保举",
+   "prohibited_effect": "名节滥举",
+   "allowed_action": "",
+   "obligation_action": "须自密访，的实着实举保",
+   "object": "义夫节妇孝子顺孙",
+   "purpose": "旌表得实",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条12",
+   "original": "义夫、节妇、孝子、顺孙，须自密访，的实着实举保。若里老呈报及乡宦保者，不实不可保举。",
+   "confidence": 0.88,
+   "analysis": "『须自密访的实着实举保』义务+『里老乡宦保者不实不可保举』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-240",
+   "item_id": "09-013",
+   "type": "程序型+义务型",
+   "modals": [
+    "procedure",
+    "obligation"
+   ],
+   "condition": "学校生儒",
+   "subject": "官府（知县）/生儒",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "须遵上司案验季考，朔望抽签讲论；如有不到，仰令该吏附卷施行",
+   "object": "生儒、季考",
+   "purpose": "学校考课有程",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条13",
+   "original": "凡学校生儒，须遵上司案验季考，朔望抽签讲论。如有不到，仰令该吏附卷施行。",
+   "confidence": 0.85,
+   "analysis": "『遵上司案验季考朔望抽签讲论、不到附卷施行』为学校考课程序。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-241",
+   "item_id": "09-014",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "生员乡宦之家编差役均徭",
+   "subject": "官府（知县）/里书",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "先取本家实在事产，免致临期告扰；每人将应免供丁，责令里书开写一帖，付之以为执照",
+   "object": "事产、供丁帖",
+   "purpose": "优免有据",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条14",
+   "original": "生员乡宦之家，遇编差役均徭，先取本家实在事产，免致临期告扰。每人将应免供丁，责令里书开写一帖，付之以为执照。",
+   "confidence": 0.85,
+   "analysis": "『先取本家实在事产、里书开写供丁帖为执照』为优免执照程序。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-242",
+   "item_id": "09-015",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "乡宦往来",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "不论存亡、高下、贫富，与些小事情亦宜宽待，遇有凶吉须自尽礼",
+   "object": "乡宦",
+   "purpose": "乡宦宽待尽礼",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条15",
+   "original": "乡宦不论存亡、高下、贫富，与些小事情，亦宜宽待，遇有凶吉，须自尽礼。",
+   "confidence": 0.75,
+   "analysis": "『亦宜宽待』『须自尽礼』为乡宦接遇义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-243",
+   "item_id": "09-016",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "乡饮",
+   "subject": "官府（知县）/礼生",
+   "prohibited_action": "省祭生员混坐寓到",
+   "prohibited_effect": "乡饮失序",
+   "allowed_action": "",
+   "obligation_action": "须自访实敦请，近县者自请，各乡遣礼生致请；将晏之先，令具仪注呈看，即饮之后，候收完器皿，撤去桌椅方散",
+   "object": "礼生、生员",
+   "purpose": "乡饮有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条16",
+   "original": "乡饮须自访实敦请，近县者自请，各乡遣礼生致请，不许省祭生员混坐寓到。将晏之先，令具仪注呈看，即饮之后，候收完器皿，撤去桌椅方散。",
+   "confidence": 0.85,
+   "analysis": "『自访实敦请、遣礼生致请、仪注呈看、收完器皿方散』程序+『不许省祭生员混坐寓到』禁止。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-244",
+   "item_id": "09-017",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "遇祭祀斋戒",
+   "subject": "官府（知县）",
+   "prohibited_action": "粮里人等置酒办饭",
+   "prohibited_effect": "祭祀渎慢",
+   "allowed_action": "",
+   "obligation_action": "临祭须自巡视祭品，亦先要仪注呈看",
+   "object": "祭品、仪注",
+   "purpose": "祭祀肃然",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条17",
+   "original": "遇祭祀斋戒，不许粮里人等置酒办饭。临祭，须自巡视祭品，亦先要仪注呈看。",
+   "confidence": 0.88,
+   "analysis": "『不许粮里置酒办饭』禁止+『临祭自巡视祭品先要仪注呈看』程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-245",
+   "item_id": "09-018",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "季考生员",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "当问境内民情土俗，兴利除害之策，使人各得尽请，愈于询访",
+   "object": "生员",
+   "purpose": "考课访民情",
+   "deadline": "",
+   "punishment": "",
+   "source": "09_卷下_礼仪第七.xhtml#条18",
+   "original": "季考生员，当问境内民情土俗，兴利除害之策，使人各得尽请，愈于询访。",
+   "confidence": 0.75,
+   "analysis": "『当问境内民情土俗兴利除害之策』为季考问策程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  }
+ ]
+}

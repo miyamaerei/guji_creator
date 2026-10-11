@@ -1,0 +1,941 @@
+{
+ "type_normalize_rule": {
+  "book": "work",
+  "other": "unknown",
+  "nature": "SPLIT"
+ },
+ "nature_split": {
+  "animal": [
+   "老猿",
+   "壁虱",
+   "龙种",
+   "鲥鱼鳞花",
+   "牵牛",
+   "绿蝴蝶",
+   "蚡蝶",
+   "师婆鱼",
+   "斗鱼",
+   "波斯鱼",
+   "三角水牛",
+   "三角羊",
+   "八眼龟",
+   "六眼龟",
+   "四眼龟",
+   "白孔雀",
+   "白羊",
+   "虱",
+   "青虫",
+   "鼠",
+   "龙",
+   "鼠",
+   "主簿虫",
+   "蜗牛",
+   "龙",
+   "龙",
+   "乌鸦",
+   "蛤蟆",
+   "猿",
+   "白兔",
+   "白猿",
+   "蜈蚣",
+   "白猿",
+   "白鼠",
+   "红鹅",
+   "黑龙"
+  ],
+  "plant": [
+   "兰花",
+   "扶桑花",
+   "杏花",
+   "栀子花",
+   "桂花",
+   "桃花",
+   "梅花",
+   "牡丹花",
+   "玉兰花",
+   "玉簪花",
+   "百合花",
+   "秋海棠花",
+   "罂粟花",
+   "芍药花",
+   "荼縻花",
+   "菊花",
+   "虞美人花",
+   "蜡梅花",
+   "西番莲花",
+   "橘蠹",
+   "豨莶草",
+   "桂枝",
+   "冰花",
+   "嘉禾",
+   "桑树",
+   "橘",
+   "荷花",
+   "菊"
+  ],
+  "unknown": [
+   "威喜芝",
+   "芝",
+   "七叶树",
+   "娑罗树",
+   "北斗",
+   "南斗",
+   "天府",
+   "天机",
+   "天梁",
+   "天相",
+   "斗六星",
+   "星纪",
+   "须女",
+   "七政星",
+   "天枢",
+   "弼星",
+   "摇光",
+   "机",
+   "权",
+   "玉衡",
+   "璇",
+   "闿阳",
+   "班鸠",
+   "白头翁",
+   "鹖鸟",
+   "鹞子",
+   "樗树",
+   "疣子",
+   "疣赘",
+   "白头乌",
+   "白雁",
+   "紫痣",
+   "茯苓",
+   "荚菜",
+   "赤痣",
+   "赤白鹦鹉",
+   "锦橙",
+   "青精",
+   "鬼目菜",
+   "虿",
+   "蝎",
+   "螫",
+   "江",
+   "长江",
+   "蟾",
+   "穿山甲",
+   "鸲鸽"
+  ]
+ },
+ "event_type_deprecated": [
+  "倭变",
+  "土木",
+  "土木之难",
+  "定鼎金陵",
+  "宸濠之乱",
+  "成祖北迁",
+  "永乐北建",
+  "苗刘兵变",
+  "谋不轨",
+  "靖难"
+ ],
+ "canonical_proposals": [
+  {
+   "text": "秦淮",
+   "type": "place",
+   "n": 13,
+   "norm_counter": {
+    "秦淮": 10,
+    "秦淮河": 3
+   },
+   "proposal": "秦淮"
+  },
+  {
+   "text": "太祖",
+   "type": "person",
+   "n": 12,
+   "norm_counter": {
+    "太祖": 3,
+    "明太祖": 9
+   },
+   "proposal": "明太祖"
+  },
+  {
+   "text": "南都",
+   "type": "place",
+   "n": 10,
+   "norm_counter": {
+    "南都": 8,
+    "南京": 2
+   },
+   "proposal": "南都"
+  },
+  {
+   "text": "弇州",
+   "type": "person",
+   "n": 9,
+   "norm_counter": {
+    "弇州": 5,
+    "王世贞": 4
+   },
+   "proposal": "弇州"
+  },
+  {
+   "text": "秣陵",
+   "type": "place",
+   "n": 7,
+   "norm_counter": {
+    "秣陵": 6,
+    "金陵": 1
+   },
+   "proposal": "秣陵"
+  },
+  {
+   "text": "石城",
+   "type": "place",
+   "n": 7,
+   "norm_counter": {
+    "石城": 3,
+    "石头": 1,
+    "石头城": 3
+   },
+   "proposal": "石城"
+  },
+  {
+   "text": "白下",
+   "type": "place",
+   "n": 7,
+   "norm_counter": {
+    "白下": 6,
+    "大中桥": 1
+   },
+   "proposal": "白下"
+  },
+  {
+   "text": "留都",
+   "type": "place",
+   "n": 6,
+   "norm_counter": {
+    "留都": 4,
+    "南京": 2
+   },
+   "proposal": "留都"
+  },
+  {
+   "text": "李后主",
+   "type": "person",
+   "n": 6,
+   "norm_counter": {
+    "李后主": 5,
+    "李煜": 1
+   },
+   "proposal": "李后主"
+  },
+  {
+   "text": "王荆公",
+   "type": "person",
+   "n": 6,
+   "norm_counter": {
+    "王荆公": 2,
+    "王安石": 4
+   },
+   "proposal": "王安石"
+  },
+  {
+   "text": "牛首",
+   "type": "place",
+   "n": 5,
+   "norm_counter": {
+    "牛首": 2,
+    "牛首山": 3
+   },
+   "proposal": "牛首山"
+  },
+  {
+   "text": "成祖",
+   "type": "person",
+   "n": 5,
+   "norm_counter": {
+    "成祖": 3,
+    "明成祖": 2
+   },
+   "proposal": "成祖"
+  },
+  {
+   "text": "先大夫",
+   "type": "person",
+   "n": 4,
+   "norm_counter": {
+    "先大夫": 3,
+    "顾起元之父": 1
+   },
+   "proposal": "先大夫"
+  },
+  {
+   "text": "陈鲁南",
+   "type": "person",
+   "n": 4,
+   "norm_counter": {
+    "陈鲁南": 2,
+    "陈沂": 2
+   },
+   "proposal": "陈鲁南"
+  },
+  {
+   "text": "李太白",
+   "type": "person",
+   "n": 4,
+   "norm_counter": {
+    "李太白": 2,
+    "李白": 2
+   },
+   "proposal": "李太白"
+  },
+  {
+   "text": "蒋山",
+   "type": "place",
+   "n": 4,
+   "norm_counter": {
+    "蒋山": 2,
+    "钟山": 2
+   },
+   "proposal": "蒋山"
+  },
+  {
+   "text": "东坡",
+   "type": "person",
+   "n": 4,
+   "norm_counter": {
+    "东坡": 3,
+    "苏轼": 1
+   },
+   "proposal": "东坡"
+  },
+  {
+   "text": "淮水",
+   "type": "place",
+   "n": 4,
+   "norm_counter": {
+    "淮水": 2,
+    "秦淮河": 2
+   },
+   "proposal": "淮水"
+  },
+  {
+   "text": "赵松雪",
+   "type": "person",
+   "n": 4,
+   "norm_counter": {
+    "赵松雪": 1,
+    "赵孟頫": 3
+   },
+   "proposal": "赵孟頫"
+  },
+  {
+   "text": "金陵琐事",
+   "type": "book",
+   "n": 4,
+   "norm_counter": {
+    "金陵琐事": 3,
+    "《金陵琐事》": 1
+   },
+   "proposal": "金陵琐事"
+  },
+  {
+   "text": "金陵新志",
+   "type": "book",
+   "n": 4,
+   "norm_counter": {
+    "金陵新志": 3,
+    "《金陵新志》": 1
+   },
+   "proposal": "金陵新志"
+  },
+  {
+   "text": "报恩寺",
+   "type": "place",
+   "n": 3,
+   "norm_counter": {
+    "报恩寺": 2,
+    "大报恩寺": 1
+   },
+   "proposal": "报恩寺"
+  },
+  {
+   "text": "颜鲁公",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "颜鲁公": 2,
+    "颜真卿": 1
+   },
+   "proposal": "颜鲁公"
+  },
+  {
+   "text": "国初",
+   "type": "era",
+   "n": 3,
+   "norm_counter": {
+    "国初": 2,
+    "明初": 1
+   },
+   "proposal": "国初"
+  },
+  {
+   "text": "长干",
+   "type": "place",
+   "n": 3,
+   "norm_counter": {
+    "长干": 2,
+    "长干里": 1
+   },
+   "proposal": "长干"
+  },
+  {
+   "text": "金元玉",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "金元玉": 2,
+    "金琮": 1
+   },
+   "proposal": "金元玉"
+  },
+  {
+   "text": "少冶先生",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "少冶先生": 2,
+    "王可大": 1
+   },
+   "proposal": "少冶先生"
+  },
+  {
+   "text": "大司马",
+   "type": "official",
+   "n": 3,
+   "norm_counter": {
+    "大司马": 2,
+    "兵部尚书": 1
+   },
+   "proposal": "大司马"
+  },
+  {
+   "text": "太常寺志",
+   "type": "book",
+   "n": 3,
+   "norm_counter": {
+    "太常寺志": 2,
+    "《太常寺志》": 1
+   },
+   "proposal": "太常寺志"
+  },
+  {
+   "text": "顾尚书璘",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "顾尚书璘": 1,
+    "顾璘": 2
+   },
+   "proposal": "顾璘"
+  },
+  {
+   "text": "南畿志",
+   "type": "book",
+   "n": 3,
+   "norm_counter": {
+    "南畿志": 2,
+    "《南畿志》": 1
+   },
+   "proposal": "南畿志"
+  },
+  {
+   "text": "金陵志",
+   "type": "book",
+   "n": 3,
+   "norm_counter": {
+    "金陵志": 1,
+    "《金陵志》": 2
+   },
+   "proposal": "《金陵志》"
+  },
+  {
+   "text": "周吉甫",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "周吉甫": 2,
+    "周晖": 1
+   },
+   "proposal": "周吉甫"
+  },
+  {
+   "text": "酉阳杂俎",
+   "type": "book",
+   "n": 3,
+   "norm_counter": {
+    "酉阳杂俎": 2,
+    "《酉阳杂俎》": 1
+   },
+   "proposal": "酉阳杂俎"
+  },
+  {
+   "text": "沈存中",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "沈存中": 2,
+    "沈括": 1
+   },
+   "proposal": "沈存中"
+  },
+  {
+   "text": "何柘湖",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "何柘湖": 1,
+    "何良俊": 2
+   },
+   "proposal": "何良俊"
+  },
+  {
+   "text": "大京兆",
+   "type": "official",
+   "n": 3,
+   "norm_counter": {
+    "大京兆": 1,
+    "顺天府尹": 2
+   },
+   "proposal": "顺天府尹"
+  },
+  {
+   "text": "徐子仁",
+   "type": "person",
+   "n": 3,
+   "norm_counter": {
+    "徐霖": 2,
+    "徐子仁": 1
+   },
+   "proposal": "徐霖"
+  },
+  {
+   "text": "金陵人物志",
+   "type": "book",
+   "n": 3,
+   "norm_counter": {
+    "金陵人物志": 1,
+    "《金陵人物志》": 2
+   },
+   "proposal": "《金陵人物志》"
+  },
+  {
+   "text": "铁窗棂",
+   "type": "place",
+   "n": 3,
+   "norm_counter": {
+    "铁窗棂": 1,
+    "铁窗楞": 2
+   },
+   "proposal": "铁窗楞"
+  },
+  {
+   "text": "丹丘先生",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "丹丘先生": 1,
+    "王可立": 1
+   },
+   "proposal": "丹丘先生"
+  },
+  {
+   "text": "王藩幕元燿",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "王藩幕元燿": 1,
+    "王元燿": 1
+   },
+   "proposal": "王藩幕元燿"
+  },
+  {
+   "text": "万历戊子",
+   "type": "era",
+   "n": 2,
+   "norm_counter": {
+    "万历戊子": 1,
+    "万历": 1
+   },
+   "proposal": "万历戊子"
+  },
+  {
+   "text": "小仙",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "小仙": 1,
+    "吴伟": 1
+   },
+   "proposal": "小仙"
+  },
+  {
+   "text": "葛仙公",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "葛仙公": 1,
+    "葛洪": 1
+   },
+   "proposal": "葛仙公"
+  },
+  {
+   "text": "昭明太子",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "昭明太子": 1,
+    "萧统": 1
+   },
+   "proposal": "昭明太子"
+  },
+  {
+   "text": "高宗",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "高宗": 1,
+    "唐高宗": 1
+   },
+   "proposal": "高宗"
+  },
+  {
+   "text": "邝公埜",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "邝公埜": 1,
+    "邝埜": 1
+   },
+   "proposal": "邝公埜"
+  },
+  {
+   "text": "户部志",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "户部志": 1,
+    "《户部志》": 1
+   },
+   "proposal": "户部志"
+  },
+  {
+   "text": "湛甘泉",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "湛甘泉": 1,
+    "湛若水": 1
+   },
+   "proposal": "湛甘泉"
+  },
+  {
+   "text": "司马温公",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "司马温公": 1,
+    "司马光": 1
+   },
+   "proposal": "司马温公"
+  },
+  {
+   "text": "殷宗伯迈",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "殷宗伯迈": 1,
+    "殷迈": 1
+   },
+   "proposal": "殷宗伯迈"
+  },
+  {
+   "text": "童尚书轩",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "童尚书轩": 1,
+    "童轩": 1
+   },
+   "proposal": "童尚书轩"
+  },
+  {
+   "text": "陈中丞镐",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "陈中丞镐": 1,
+    "陈镐": 1
+   },
+   "proposal": "陈中丞镐"
+  },
+  {
+   "text": "梁武",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "梁武": 1,
+    "梁武帝": 1
+   },
+   "proposal": "梁武"
+  },
+  {
+   "text": "宋仁庙",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "宋仁庙": 1,
+    "宋仁宗": 1
+   },
+   "proposal": "宋仁庙"
+  },
+  {
+   "text": "渑水燕谈",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "渑水燕谈": 1,
+    "《渑水燕谈录》": 1
+   },
+   "proposal": "渑水燕谈"
+  },
+  {
+   "text": "陶隐居",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "陶隐居": 1,
+    "陶弘景": 1
+   },
+   "proposal": "陶隐居"
+  },
+  {
+   "text": "光武",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "光武": 1,
+    "汉光武帝": 1
+   },
+   "proposal": "光武"
+  },
+  {
+   "text": "后湖志",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "后湖志": 1,
+    "《后湖志》": 1
+   },
+   "proposal": "后湖志"
+  },
+  {
+   "text": "米元章",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "米元章": 1,
+    "米芾": 1
+   },
+   "proposal": "米元章"
+  },
+  {
+   "text": "荆公",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "荆公": 1,
+    "王安石": 1
+   },
+   "proposal": "荆公"
+  },
+  {
+   "text": "天圣中",
+   "type": "era",
+   "n": 2,
+   "norm_counter": {
+    "天圣中": 1,
+    "天圣": 1
+   },
+   "proposal": "天圣中"
+  },
+  {
+   "text": "金陵梵刹志",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "金陵梵刹志": 1,
+    "《金陵梵刹志》": 1
+   },
+   "proposal": "金陵梵刹志"
+  },
+  {
+   "text": "陆务观",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "陆务观": 1,
+    "陆游": 1
+   },
+   "proposal": "陆务观"
+  },
+  {
+   "text": "李北海",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "李北海": 1,
+    "李邕": 1
+   },
+   "proposal": "李北海"
+  },
+  {
+   "text": "梵刹志",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "梵刹志": 1,
+    "《梵刹志》": 1
+   },
+   "proposal": "梵刹志"
+  },
+  {
+   "text": "王文成公",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "王文成公": 1,
+    "王守仁": 1
+   },
+   "proposal": "王文成公"
+  },
+  {
+   "text": "中山王",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "中山王": 1,
+    "徐达": 1
+   },
+   "proposal": "中山王"
+  },
+  {
+   "text": "顾司寇",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "顾司寇": 1,
+    "顾璘": 1
+   },
+   "proposal": "顾司寇"
+  },
+  {
+   "text": "欧阳率更",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "欧阳率更": 1,
+    "欧阳询": 1
+   },
+   "proposal": "欧阳率更"
+  },
+  {
+   "text": "建业风俗记",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "建业风俗记": 1,
+    "《建业风俗记》": 1
+   },
+   "proposal": "建业风俗记"
+  },
+  {
+   "text": "贾生",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "贾生": 1,
+    "贾谊": 1
+   },
+   "proposal": "贾生"
+  },
+  {
+   "text": "元帝",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "晋元帝": 1,
+    "元帝": 1
+   },
+   "proposal": "晋元帝"
+  },
+  {
+   "text": "万历乙卯",
+   "type": "era",
+   "n": 2,
+   "norm_counter": {
+    "万历乙卯": 1,
+    "万历": 1
+   },
+   "proposal": "万历乙卯"
+  },
+  {
+   "text": "金陵世纪",
+   "type": "book",
+   "n": 2,
+   "norm_counter": {
+    "金陵世纪": 1,
+    "《金陵世纪》": 1
+   },
+   "proposal": "金陵世纪"
+  },
+  {
+   "text": "陈中丞",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "陈中丞": 1,
+    "陈镐": 1
+   },
+   "proposal": "陈中丞"
+  },
+  {
+   "text": "宪宗皇帝",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "明宪宗": 1,
+    "宪宗皇帝": 1
+   },
+   "proposal": "明宪宗"
+  },
+  {
+   "text": "石碌金都阃",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "石碌金都阃": 1,
+    "石碌金": 1
+   },
+   "proposal": "石碌金都阃"
+  },
+  {
+   "text": "谢",
+   "type": "person",
+   "n": 2,
+   "norm_counter": {
+    "谢灵运": 1,
+    "谢安": 1
+   },
+   "proposal": "谢灵运"
+  }
+ ]
+}

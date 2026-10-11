@@ -1,0 +1,103 @@
+# -*- coding: utf-8 -*-
+# _rel_ai_01.py  卷一 人物关系层源数据（AI 判定）
+# relation_type 枚举：同僚/师生/姻亲/同乡/同科/举荐/弹劾/恩怨/上下级/父子亲属/敌对/其他
+# direction 枚举：单向/双向/未明；只建文本有直接证据的关系
+
+RECORDS = [
+    {
+        "item_id": "01-002",
+        "person_a": {"text": "杨溥", "person_a_ent_ids": []},
+        "person_b": {"text": "周述", "person_b_ent_ids": []},
+        "relation_type": "同僚",
+        "direction": "双向",
+        "evidence": "原文'永乐十二年……应天乡试，皇太子命洗马杨溥、编修周述为考试官'",
+    },
+    {
+        "item_id": "01-002",
+        "person_a": {"text": "梁潜", "person_a_ent_ids": []},
+        "person_b": {"text": "陈全", "person_b_ent_ids": []},
+        "relation_type": "同僚",
+        "direction": "双向",
+        "evidence": "原文'十五年命侍讲梁潜、陈全（为应天乡试考试官）'",
+    },
+    {
+        "item_id": "01-002",
+        "person_a": {"text": "皇太子", "person_a_ent_ids": []},
+        "person_b": {"text": "杨溥", "person_b_ent_ids": []},
+        "relation_type": "上下级",
+        "direction": "单向",
+        "evidence": "原文'应天乡试，皇太子命洗马杨溥、编修周述为考试官'",
+    },
+    {
+        "item_id": "01-004",
+        "person_a": {"text": "刘玺", "person_a_ent_ids": []},
+        "person_b": {"text": "黄印", "person_b_ent_ids": []},
+        "relation_type": "同乡",
+        "direction": "双向",
+        "evidence": "原文'嘉靖中，吾乡刘都督玺、黄都督印，皆以卫官任至总兵，管漕运'",
+    },
+    {
+        "item_id": "01-004",
+        "person_a": {"text": "黄印", "person_a_ent_ids": []},
+        "person_b": {"text": "先大夫", "person_b_ent_ids": []},
+        "relation_type": "其他",
+        "direction": "双向",
+        "evidence": "原文'黄与先大夫往还，余犹及见之'",
+    },
+    {
+        "item_id": "01-013",
+        "person_a": {"text": "郑宣化", "person_a_ent_ids": []},
+        "person_b": {"text": "郑元炜", "person_b_ent_ids": []},
+        "relation_type": "父子亲属",
+        "direction": "单向",
+        "evidence": "原文'郑太守宣化官邵武，太守卒于郡……后太守子上舍元炜移居南门'",
+    },
+    {
+        "item_id": "01-013",
+        "person_a": {"text": "王公", "person_a_ent_ids": []},
+        "person_b": {"text": "顾起元", "person_b_ent_ids": []},
+        "relation_type": "姻亲",
+        "direction": "双向",
+        "evidence": "原文'三十年前，有人自闽中携佛桑花至者，余外舅王公咤以为奇，作诗咏之'",
+    },
+    {
+        "item_id": "01-014",
+        "person_a": {"text": "袁淑", "person_a_ent_ids": []},
+        "person_b": {"text": "谢庄", "person_b_ent_ids": []},
+        "relation_type": "其他",
+        "direction": "双向",
+        "evidence": "原文'宋谢庄希逸为《赤鹦鹉赋》，袁淑见而叹曰：江东无我，卿当独秀；我若无卿，亦一时之杰也'",
+    },
+    {
+        "item_id": "01-026",
+        "person_a": {"text": "建文帝", "person_a_ent_ids": []},
+        "person_b": {"text": "明成祖", "person_b_ent_ids": []},
+        "relation_type": "敌对",
+        "direction": "双向",
+        "evidence": "原文'国朝壬午之事，建文皇帝逊位……靖难师至日……'（靖难之役敌对双方）",
+    },
+    {
+        "item_id": "01-029",
+        "person_a": {"text": "高皇帝", "person_a_ent_ids": []},
+        "person_b": {"text": "解道", "person_b_ent_ids": []},
+        "relation_type": "上下级",
+        "direction": "单向",
+        "evidence": "原文'高皇帝心怜之，命抱其孙至，为赐今名，手书予之……授道为今官……立命兵部调京卫'",
+    },
+    {
+        "item_id": "01-029",
+        "person_a": {"text": "解道", "person_a_ent_ids": []},
+        "person_b": {"text": "张真人", "person_b_ent_ids": []},
+        "relation_type": "其他",
+        "direction": "单向",
+        "evidence": "原文'道入朝，与张真人遇，真人于班中与道拱手……对曰：道乃天上黑煞神，故臣为加礼耳'",
+    },
+    {
+        "item_id": "01-030",
+        "person_a": {"text": "明成祖", "person_a_ent_ids": []},
+        "person_b": {"text": "郑和", "person_b_ent_ids": []},
+        "relation_type": "上下级",
+        "direction": "单向",
+        "evidence": "原文'永乐三年三月，命太监郑和等行赏赐古里、满刺诸国'",
+    },
+]

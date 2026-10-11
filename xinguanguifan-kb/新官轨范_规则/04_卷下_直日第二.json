@@ -1,0 +1,186 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "04",
+ "chapter": "卷下_直日第二",
+ "chapter_no": "04",
+ "source_file": "04_卷下_直日第二.xhtml",
+ "item_count": 10,
+ "rule_item_count": 5,
+ "rule_count": 5,
+ "rules": [
+  {
+   "rule_id": "XGF-R-068",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "非时乱发，自此以后，虽有公文俱，不佥押用印",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "押用印",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "04_卷下_直日第二.xhtml#条2",
+   "original": "或状，依数逐一禀报。取状一一点对，内外巡风、洒扫、提牢、管库等件，各报无事。粮里长等各照都图挨次站立，两廊下次第升堂作揖，听发放出，乃押公文毕，方用印毕，分付直堂吏一顿发行，不可非时乱发，自此以后，虽有公文俱，不佥押用印。",
+   "original_offset": {
+    "start": 149,
+    "end": 260
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若非时乱发，自此以后，虽有公文俱，不佥押用印，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "04",
+   "chapter": "卷下_直日第二",
+   "item": 2
+  },
+  {
+   "rule_id": "XGF-R-069",
+   "type": "禁止型+义务型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "一人出入，如有紧急",
+   "allowed_action": "",
+   "obligation_action": "吏典禀告",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "04_卷下_直日第二.xhtml#条3",
+   "original": "每日辰时，皂隶人等换理，直堂吏报无事，乃退堂。将外门下锁，不许一人出入，如有紧急，须吏典禀告。",
+   "original_offset": {
+    "start": 0,
+    "end": 47
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若一人出入，如有紧急，即属违禁；合规做法：改用文内许可途径。【场景】日常政务时，官府（知县）应吏典禀告。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "04",
+   "chapter": "卷下_直日第二",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-070",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "每日午时",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "令男子、妇人东西分入，□□（切莫）混作一处，其所告状；逐都收取；见张数，逐起封号，该其审发",
+   "prohibited_effect": "",
+   "object": "男子、妇人东西分入",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "04_卷下_直日第二.xhtml#条5",
+   "original": "每日午时，值堂吏禀请放告。须令男子、妇人东西分入，□□（切莫）混作一处，其所告状，亦须逐都收取。先将妇女余依里分□（审）理。倘直事冗，须见张数，逐起封号，该其审发。",
+   "original_offset": {
+    "start": 0,
+    "end": 82
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】每日午时时，官府（知县）应令男子、妇人东西分入，□□（切莫）混作一处，其所告状；逐都收取；见张数，逐起封号，该其审发。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "04",
+   "chapter": "卷下_直日第二",
+   "item": 5
+  },
+  {
+   "rule_id": "XGF-R-071",
+   "type": "义务型+处罚型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "penalty",
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "重",
+   "allowed_action": "",
+   "obligation_action": "戒誓行",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "人；杖",
+   "source": "04_卷下_直日第二.xhtml#条7",
+   "original": "每日申时，直堂吏请审囚刑房，将监簿递送，看缓急取囚一项审问。须戒誓行杖人，当盛怒及酒醉时不得重杖。",
+   "original_offset": {
+    "start": 0,
+    "end": 49
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】日常政务时，若重，即属违禁；合规做法：改用文内许可途径。【场景】日常政务时，官府（知县）应戒誓行，以人；杖。【场景】违者依规人；杖。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "04",
+   "chapter": "卷下_直日第二",
+   "item": 7
+  },
+  {
+   "rule_id": "XGF-R-072",
+   "type": "允许型",
+   "primary_type": "允许型",
+   "is_combo": false,
+   "modals": [
+    "allow"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "不时禀请",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "04_卷下_直日第二.xhtml#条9",
+   "original": "每日退衙时，直堂吏将六房一应收下公文，及将行移于拟稿送看。直堂吏亦要逐日禀讫送公文若干件，明早依数取出，若有迟慢，许不时禀请。",
+   "original_offset": {
+    "start": 0,
+    "end": 63
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，官府（知县）可不时禀请。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "04",
+   "chapter": "卷下_直日第二",
+   "item": 9
+  }
+ ]
+}

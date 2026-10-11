@@ -1,0 +1,430 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "10",
+ "chapter": "卷下_御灾第八",
+ "chapter_no": "10",
+ "source_file": "10_卷下_御灾第八.xhtml",
+ "item_count": 13,
+ "rule_item_count": 13,
+ "rule_count": 12,
+ "rules": [
+  {
+   "rule_id": "XGF-R-180",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "另起民夫及科敛民财",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条1",
+   "original": "陂、岸、塘、堰、闸损坏，即令附近富实居民量力并工修理，不可另起民夫及科敛民财。仍委信实人分投修理，若遇大水后具结呈报。",
+   "original_offset": {
+    "start": 0,
+    "end": 59
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若另起民夫及科敛民财，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 1
+  },
+  {
+   "rule_id": "XGF-R-181",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "旱干之时",
+   "subject": "官府（知县）",
+   "prohibited_action": "抢夺",
+   "allowed_action": "",
+   "obligation_action": "谕各乡及街坊火烛；亲往视，拨人救护",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条2",
+   "original": "旱干之时，须谕各乡及街坊火烛。倘遇火发，不分昏夜，须亲往视，拨人救护，仍严禁抢夺。",
+   "original_offset": {
+    "start": 0,
+    "end": 41
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】旱干之时时，若抢夺，即属违禁；合规做法：改用文内许可途径。【场景】旱干之时时，官府（知县）应谕各乡及街坊火烛；亲往视，拨人救护。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 2
+  },
+  {
+   "rule_id": "XGF-R-182",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "遇灾伤",
+   "subject": "官府（知县）",
+   "prohibited_action": "凭里老总报作弊",
+   "allowed_action": "",
+   "obligation_action": "出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同",
+   "prohibited_effect": "",
+   "object": "被灾者",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条3",
+   "original": "遇灾伤，须出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同，即与申闻上司。亦于亲自履亩，或门点踏勘，毋凭里老总报作弊。",
+   "original_offset": {
+    "start": 0,
+    "end": 85
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】遇灾伤时，若凭里老总报作弊，即属违禁；合规做法：改用文内许可途径。【场景】遇灾伤时，官府（知县）应出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-183",
+   "type": "处罚型",
+   "primary_type": "处罚型",
+   "is_combo": false,
+   "modals": [
+    "penalty"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "谷或米，给被灾贫民",
+   "source": "10_卷下_御灾第八.xhtml#条4",
+   "original": "踏勘灾伤之时，就将该问轻犯有力押带，遇假就问，即于各犯名下量情罚谷或米，给被灾贫民。",
+   "original_offset": {
+    "start": 0,
+    "end": 42
+   },
+   "confidence": 0.83,
+   "example": {
+    "text": "【场景】违者依规谷或米，给被灾贫民。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 4
+  },
+  {
+   "rule_id": "XGF-R-184",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "凡有水塌以压田土",
+   "subject": "官府（知县）",
+   "prohibited_action": "差委他官",
+   "allowed_action": "",
+   "obligation_action": "令该户自写四至田叚地方及该陪粮，呈告以凭，查算覆勘",
+   "prohibited_effect": "",
+   "object": "委他官",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条6",
+   "original": "凡有水塌以压田土，须令该户自写四至田叚地方及该陪粮，呈告以凭，查算覆勘，不可差委他官。",
+   "original_offset": {
+    "start": 0,
+    "end": 43
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡有水塌以压田土时，若差委他官，即属违禁；合规做法：改用文内许可途径。【场景】凡有水塌以压田土时，官府（知县）应令该户自写四至田叚地方及该陪粮，呈告以凭，查算覆勘。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 6
+  },
+  {
+   "rule_id": "XGF-R-185",
+   "type": "义务型+允许型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "allow"
+   ],
+   "condition": "但能害苗者",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "诸人不拘多少捕来，量类给赏米谷",
+   "obligation_action": "出告示",
+   "prohibited_effect": "",
+   "object": "多少捕来",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条7",
+   "original": "但能害苗者，须出告示，许诸人不拘多少捕来，量类给赏米谷。",
+   "original_offset": {
+    "start": 6,
+    "end": 34
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】但能害苗者时，官府（知县）应出告示。【场景】但能害苗者时，官府（知县）可诸人不拘多少捕来，量类给赏米谷。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 7
+  },
+  {
+   "rule_id": "XGF-R-186",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "闻境内有盗贼、妖邪、讹言之类",
+   "subject": "官府（知县）",
+   "prohibited_action": "容令惑众",
+   "allowed_action": "",
+   "obligation_action": "先省谕平日有见识富家人户各于交界地方传晓防守",
+   "prohibited_effect": "",
+   "object": "惑众",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条8",
+   "original": "闻境内有盗贼、妖邪、讹言之类，须先省谕平日有见识富家人户各于交界地方传晓防守，不可容令惑众。",
+   "original_offset": {
+    "start": 0,
+    "end": 46
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】闻境内有盗贼、妖邪、讹言之类时，若容令惑众，即属违禁；合规做法：改用文内许可途径。【场景】闻境内有盗贼、妖邪、讹言之类时，官府（知县）应先省谕平日有见识富家人户各于交界地方传晓防守。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-187",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "凡祈祷雨泽",
+   "subject": "官府（知县）",
+   "prohibited_action": "点集里老人等行礼",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "集里老人等行礼",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条9",
+   "original": "凡祈祷雨泽，不可点集里老人等行礼。",
+   "original_offset": {
+    "start": 0,
+    "end": 17
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡祈祷雨泽时，若点集里老人等行礼，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 9
+  },
+  {
+   "rule_id": "XGF-R-188",
+   "type": "禁止型+程序型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "泛罪总甲",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条10",
+   "original": "贼盗生发，先于地方开张赌博、淫宰牛马、遭充警迹人家挨究不获，然后将附近地方内挨访，仍要省谕邻里跟寻□路，违者治罪。亦不可泛罪总甲。如窃，五里内挨（究），强盗于十里内巡捕。",
+   "original_offset": {
+    "start": 0,
+    "end": 85
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若泛罪总甲，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 10
+  },
+  {
+   "rule_id": "XGF-R-189",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "因无指害不与受理",
+   "allowed_action": "",
+   "obligation_action": "省令被害人将来与仇隙者指名告理以凭，查审惩治",
+   "prohibited_effect": "",
+   "object": "被害人将来与仇隙者指名告理以",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条11",
+   "original": "盗掠禾稻芝麦及放火决水等项侵损，须省令被害人将来与仇隙者指名告理以凭，查审惩治，不可因无指害不与受理。",
+   "original_offset": {
+    "start": 0,
+    "end": 51
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若因无指害不与受理，即属违禁；合规做法：改用文内许可途径。【场景】日常政务时，官府（知县）应省令被害人将来与仇隙者指名告理以凭，查审惩治。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 11
+  },
+  {
+   "rule_id": "XGF-R-190",
+   "type": "处罚型+禁止型+义务型",
+   "primary_type": "处罚型",
+   "is_combo": true,
+   "modals": [
+    "penalty",
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "若屡犯者，取定供招牢固镣杻押发被害之处，各行笞责",
+   "subject": "官府（知县）",
+   "prohibited_action": "不可",
+   "allowed_action": "",
+   "obligation_action": "屡犯",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "死可也",
+   "source": "10_卷下_御灾第八.xhtml#条12",
+   "original": "窃盗初犯者，依律究治。若屡犯者，取定供招牢固镣杻押发被害之处，各行笞责，呈报收减赃，打死可也。初犯不可，须屡犯。",
+   "original_offset": {
+    "start": 0,
+    "end": 56
+   },
+   "confidence": 0.95,
+   "example": {
+    "text": "【场景】若屡犯者，取定供招牢固镣杻押发被害之处，各行笞责时，若不可，即属违禁；合规做法：改用文内许可途径。【场景】若屡犯者，取定供招牢固镣杻押发被害之处，各行笞责时，官府（知县）应屡犯，以死可也。【场景】违者依规死可也。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 12
+  },
+  {
+   "rule_id": "XGF-R-191",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "若遇失贼，虽无指实，亦",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "告鸣，追问地方",
+   "prohibited_effect": "",
+   "object": "问地方",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "10_卷下_御灾第八.xhtml#条13",
+   "original": "若遇失贼，虽无指实，亦须告鸣，追问地方。",
+   "original_offset": {
+    "start": 29,
+    "end": 49
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若遇失贼，虽无指实，亦时，官府（知县）应告鸣，追问地方。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "10",
+   "chapter": "卷下_御灾第八",
+   "item": 13
+  }
+ ]
+}

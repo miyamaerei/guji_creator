@@ -1,0 +1,932 @@
+{
+ "schema_version": "kg-struct-ai-json-v1",
+ "struct_version": "struct-ai-v1",
+ "volume": "08",
+ "chapter": "卷下_粮料第六",
+ "source_file": "08_卷下_粮料第六.xhtml",
+ "ledgers_count": 6,
+ "ledgers": [
+  {
+   "name": "粮数日报",
+   "purpose": "每日粮长报收过数，户房禀已完未完以凭催责",
+   "keeper": "粮长（日报）→户房（禀报）",
+   "entry": "各粮长所收过数、已完未完数",
+   "frequency": "每日（本日晚报知，次日禀）",
+   "check": "次日户房将已完未完数禀以凭催责",
+   "anti_fraud": "防粮数隐漏稽延",
+   "source": "08_卷下_粮料第六.xhtml#条1",
+   "confidence": 0.9,
+   "analysis": "粮数日账：当晚报数、次日禀催。",
+   "ledger_id": "LGR-078",
+   "original": "征收夏麦秋粮，须定某都某处收。每日各粮长将所收过数，日于本日晚具数报知。次日户房将已完、未完数禀，以凭催责。",
+   "derived_rule": "XGF-R-209",
+   "item_id": "08-001"
+  },
+  {
+   "name": "由帖",
+   "purpose": "分散各户自执赴官交纳注销",
+   "keeper": "官府（出帖）",
+   "entry": "各户由帖、交纳注销",
+   "frequency": "禁揽纳时先出",
+   "check": "自执赴官交纳注销",
+   "anti_fraud": "防揽纳哄吓私收",
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "confidence": 0.9,
+   "analysis": "由帖制度：自执赴官、交纳注销。",
+   "ledger_id": "LGR-079",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "derived_rule": "XGF-R-212",
+   "item_id": "08-004"
+  },
+  {
+   "name": "实征票",
+   "purpose": "照黄册底开写里甲户籍实征，一里十票印合十年",
+   "keeper": "户房/里长",
+   "entry": "该催钱粮逐一填写、一里十票印合十年",
+   "frequency": "逐年（不许推故）",
+   "check": "里长亲催完纳，立限注销，完日总缴",
+   "anti_fraud": "防推故、防票伪造",
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "confidence": 0.93,
+   "analysis": "实征票：一里十票、印合十年、完日总缴。",
+   "ledger_id": "LGR-080",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "derived_rule": "XGF-R-213",
+   "item_id": "08-005"
+  },
+  {
+   "name": "实征纸札愿罚账",
+   "purpose": "实征纸札先自记数于愿罚免责名下",
+   "keeper": "官府",
+   "entry": "纸札数、愿罚免责记数",
+   "frequency": "征前量数出备",
+   "check": "量数出备，不许科派里甲",
+   "anti_fraud": "防科派里甲",
+   "source": "08_卷下_粮料第六.xhtml#条6",
+   "confidence": 0.85,
+   "analysis": "纸札自备账：愿罚免责记数。",
+   "ledger_id": "LGR-081",
+   "original": "实征该用纸札，先自记数于愿罚免责名下。量数出备，不许科派里甲。",
+   "derived_rule": "XGF-R-214",
+   "item_id": "08-006"
+  },
+  {
+   "name": "折银收头簿",
+   "purpose": "收头名下折银都界、封记入库、两报总数",
+   "keeper": "收头/库子",
+   "entry": "收头名字、某都起至某都止、封记银数、已收/未收总数",
+   "frequency": "每日",
+   "check": "次日早库子报已收总数，收头亦报未收总数",
+   "anti_fraud": "防折银刁蹬侵欺",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "confidence": 0.93,
+   "analysis": "折银台账：写名贴示→封记入库→次日双报。",
+   "ledger_id": "LGR-082",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "derived_rule": "XGF-R-224",
+   "item_id": "08-016"
+  },
+  {
+   "name": "抛荒折银并算簿",
+   "purpose": "县仓学仓通关及折银抛荒并算慎缴勘合",
+   "keeper": "户房",
+   "entry": "存留余米、京通征收、通关、折银抛荒",
+   "frequency": "征收京通之时",
+   "check": "一齐催完，并算慎缴勘合",
+   "anti_fraud": "防先后分征推延侵欺",
+   "source": "08_卷下_粮料第六.xhtml#条11",
+   "confidence": 0.88,
+   "analysis": "京通并算账：一齐催完、慎缴勘合。",
+   "ledger_id": "LGR-083",
+   "original": "存留等项余米，须于征收京通之时一齐催完，不可先后分征，以致彼此推延侵欺。其县仓学、仓通关及折银抛荒，俱要并算，慎缴勘合。",
+   "derived_rule": "XGF-R-219",
+   "item_id": "08-011"
+  }
+ ],
+ "times_count": 9,
+ "times": [
+  {
+   "keyword": "每日/本日晚/次日",
+   "value": "每日；当晚；次日",
+   "unit": "日",
+   "scope": "粮长报数、户房禀催",
+   "frequency": "每日",
+   "source": "08_卷下_粮料第六.xhtml#条1",
+   "confidence": 0.9,
+   "analysis": "粮数日报节奏。",
+   "time_id": "TME-109",
+   "original": "征收夏麦秋粮，须定某都某处收。每日各粮长将所收过数，日于本日晚具数报知。次日户房将已完、未完数禀，以凭催责。",
+   "derived_rule": "XGF-R-209",
+   "item_id": "08-001"
+  },
+  {
+   "keyword": "秋收时",
+   "value": "秋收时节",
+   "unit": "不定",
+   "scope": "寄庄田粮除起纳粮数然后纳租",
+   "frequency": "每年秋收",
+   "source": "08_卷下_粮料第六.xhtml#条3",
+   "confidence": 0.88,
+   "analysis": "寄庄田租次序。",
+   "time_id": "TME-110",
+   "original": "征收寄庄田粮，须先省谕该都里长，着人佃户于秋收时除起纳粮数，然后纳租。倘有强索，即令佃户下年勿与耕种。违者止罚佃户，不许移关拘取。",
+   "derived_rule": "XGF-R-211",
+   "item_id": "08-003"
+  },
+  {
+   "keyword": "印合十年",
+   "value": "票契十年一轮",
+   "unit": "年",
+   "scope": "一里十票印合十年",
+   "frequency": "十年一轮",
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "confidence": 0.88,
+   "analysis": "实征票十年周期。",
+   "time_id": "TME-111",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "derived_rule": "XGF-R-213",
+   "item_id": "08-005"
+  },
+  {
+   "keyword": "将收粮之时",
+   "value": "开征前",
+   "unit": "不定",
+   "scope": "查上年拖赖侵欠指名告示",
+   "frequency": "每轮开征前",
+   "source": "08_卷下_粮料第六.xhtml#条8",
+   "confidence": 0.88,
+   "analysis": "开征前查欠告示。",
+   "time_id": "TME-112",
+   "original": "将收粮之时，须先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳。如再违期，比众加罪。",
+   "derived_rule": "XGF-R-216",
+   "item_id": "08-008"
+  },
+  {
+   "keyword": "征收京通之时",
+   "value": "征收京通时",
+   "unit": "不定",
+   "scope": "存留余米一齐催完",
+   "frequency": "每轮征收",
+   "source": "08_卷下_粮料第六.xhtml#条11",
+   "confidence": 0.88,
+   "analysis": "京通并征。",
+   "time_id": "TME-113",
+   "original": "存留等项余米，须于征收京通之时一齐催完，不可先后分征，以致彼此推延侵欺。其县仓学、仓通关及折银抛荒，俱要并算，慎缴勘合。",
+   "derived_rule": "XGF-R-219",
+   "item_id": "08-011"
+  },
+  {
+   "keyword": "征完粮料方收折银",
+   "value": "征完粮料之后",
+   "unit": "不定",
+   "scope": "方收折银",
+   "frequency": "每轮征收",
+   "source": "08_卷下_粮料第六.xhtml#条12",
+   "confidence": 0.9,
+   "analysis": "先粮后银次序。",
+   "time_id": "TME-114",
+   "original": "征完粮料，方收折银，不可一时追并，亦不可责令粮里陪纳应数。",
+   "derived_rule": "XGF-R-220",
+   "item_id": "08-012"
+  },
+  {
+   "keyword": "先期",
+   "value": "开征前",
+   "unit": "不定",
+   "scope": "出告示省令纳户办备、立限征解",
+   "frequency": "每轮开征前",
+   "source": "08_卷下_粮料第六.xhtml#条14",
+   "confidence": 0.88,
+   "analysis": "先期告示立限。",
+   "time_id": "TME-115",
+   "original": "征粮不可先期报完，及空文起解，以致欺上罔下、害人损己，先期多出告示，省令纳户办备，立限征解。",
+   "derived_rule": "XGF-R-222",
+   "item_id": "08-014"
+  },
+  {
+   "keyword": "次日早",
+   "value": "次日清晨",
+   "unit": "日",
+   "scope": "库子报已收总数、收头报未收总数",
+   "frequency": "每日",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "confidence": 0.88,
+   "analysis": "折银次日双报。",
+   "time_id": "TME-116",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "derived_rule": "XGF-R-224",
+   "item_id": "08-016"
+  },
+  {
+   "keyword": "到县即申",
+   "value": "非经常办物料到县时",
+   "unit": "不定",
+   "scope": "密切申禀",
+   "frequency": "随时",
+   "source": "08_卷下_粮料第六.xhtml#条17",
+   "confidence": 0.85,
+   "analysis": "异常物料到县即申。",
+   "time_id": "TME-117",
+   "original": "凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下须，密切申禀。",
+   "derived_rule": "XGF-R-225",
+   "item_id": "08-017"
+  }
+ ],
+ "docs_count": 6,
+ "docs": [
+  {
+   "doc_type": "由帖",
+   "stages": [
+    {
+     "stage": "出帖",
+     "action": "禁揽纳先出由帖",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "分散",
+     "action": "分散各户自执",
+     "agent": "官府",
+     "location": "各户"
+    },
+    {
+     "stage": "注销",
+     "action": "赴官交纳注销",
+     "agent": "纳户",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防揽纳哄吓私收",
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "confidence": 0.9,
+   "analysis": "由帖生命周期：出帖→分散→交纳注销。",
+   "doc_id": "DOC-066",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "derived_rule": "XGF-R-212",
+   "item_id": "08-004"
+  },
+  {
+   "doc_type": "实征票",
+   "stages": [
+    {
+     "stage": "开写",
+     "action": "书手照依黄册底开写里甲户籍就作实征，该催钱粮逐一填写",
+     "agent": "书手",
+     "location": "户房"
+    },
+    {
+     "stage": "印发",
+     "action": "一里十票印合十年",
+     "agent": "户房",
+     "location": "县衙"
+    },
+    {
+     "stage": "催缴",
+     "action": "里长亲催完纳，立限注销，完日总缴",
+     "agent": "里长",
+     "location": "各里"
+    }
+   ],
+   "anti_fraud": "防推故、防票伪造",
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "confidence": 0.93,
+   "analysis": "实征票生命周期：开写→印发→催缴总缴。",
+   "doc_id": "DOC-067",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "derived_rule": "XGF-R-213",
+   "item_id": "08-005"
+  },
+  {
+   "doc_type": "指名告示",
+   "stages": [
+    {
+     "stage": "查审",
+     "action": "将收粮之时先查审上年拖赖侵欠人户",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "告示",
+     "action": "指名告示使其改过依期上纳",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "加罪",
+     "action": "如再违期比众加罪",
+     "agent": "官府",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防拖赖侵欠",
+   "source": "08_卷下_粮料第六.xhtml#条8",
+   "confidence": 0.88,
+   "analysis": "欠户治理：查审→告示→加罪。",
+   "doc_id": "DOC-068",
+   "original": "将收粮之时，须先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳。如再违期，比众加罪。",
+   "derived_rule": "XGF-R-216",
+   "item_id": "08-008"
+  },
+  {
+   "doc_type": "折银单",
+   "stages": [
+    {
+     "stage": "写名",
+     "action": "收价折银字项写收头名字，下注某都起至某都止",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "贴示",
+     "action": "廊下贴示晓谕，就征秤；刁蹬即许口禀",
+     "agent": "官府",
+     "location": "廊下"
+    },
+    {
+     "stage": "封记",
+     "action": "秤实时查较轻重，时将银封记入库",
+     "agent": "官府",
+     "location": "库房"
+    },
+    {
+     "stage": "双报",
+     "action": "次日早库子报已收总数，收头亦报未收总数",
+     "agent": "库子/收头",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防折银刁蹬侵欺",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "confidence": 0.93,
+   "analysis": "折银单生命周期：写名→贴示→封记→双报。",
+   "doc_id": "DOC-069",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "derived_rule": "XGF-R-224",
+   "item_id": "08-016"
+  },
+  {
+   "doc_type": "起解文",
+   "stages": [
+    {
+     "stage": "告示",
+     "action": "先期多出告示省令纳户办备",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "征解",
+     "action": "立限征解，不可先期报完及空文起解",
+     "agent": "官府",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防欺上罔下空文起解",
+   "source": "08_卷下_粮料第六.xhtml#条14",
+   "confidence": 0.9,
+   "analysis": "起解文书：告示→立限征解。",
+   "doc_id": "DOC-070",
+   "original": "征粮不可先期报完，及空文起解，以致欺上罔下、害人损己，先期多出告示，省令纳户办备，立限征解。",
+   "derived_rule": "XGF-R-222",
+   "item_id": "08-014"
+  },
+  {
+   "doc_type": "勘合缴销",
+   "stages": [
+    {
+     "stage": "并算",
+     "action": "县仓学仓通关及折银抛荒俱要并算",
+     "agent": "户房",
+     "location": "县衙"
+    },
+    {
+     "stage": "缴销",
+     "action": "慎缴勘合",
+     "agent": "户房",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防先后分征侵欺",
+   "source": "08_卷下_粮料第六.xhtml#条11",
+   "confidence": 0.85,
+   "analysis": "仓储勘合并算缴销。",
+   "doc_id": "DOC-071",
+   "original": "存留等项余米，须于征收京通之时一齐催完，不可先后分征，以致彼此推延侵欺。其县仓学、仓通关及折银抛荒，俱要并算，慎缴勘合。",
+   "derived_rule": "XGF-R-219",
+   "item_id": "08-011"
+  }
+ ],
+ "actors_count": 9,
+ "actors": [
+  {
+   "name": "粮长",
+   "role_type": "民役",
+   "affiliation": "各里",
+   "duties": [
+    {
+     "duty": "每日将所收过数本日晚具数报知",
+     "from_source": "08-001"
+    },
+    {
+     "duty": "（被约束）斗斛破损粮长装诬不可责及纳户",
+     "from_source": "08-013"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "08-001"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条1",
+   "confidence": 0.88,
+   "analysis": "粮数日报与装诬约束。",
+   "actor_id": "ACT-120",
+   "original": "征收夏麦秋粮，须定某都某处收。每日各粮长将所收过数，日于本日晚具数报知。次日户房将已完、未完数禀，以凭催责。",
+   "derived_rule": "XGF-R-209",
+   "item_id": "08-001",
+   "ent_ids": [
+    "ENT-141"
+   ]
+  },
+  {
+   "name": "户房",
+   "role_type": "吏",
+   "affiliation": "六房·户房",
+   "duties": [
+    {
+     "duty": "次日将已完未完数禀以凭催责",
+     "from_source": "08-001"
+    },
+    {
+     "duty": "分派本色折色先定都图总撒数目",
+     "from_source": "08-002"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "08-001"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条1",
+   "confidence": 0.88,
+   "analysis": "粮料征派主管房。",
+   "actor_id": "ACT-121",
+   "original": "征收夏麦秋粮，须定某都某处收。每日各粮长将所收过数，日于本日晚具数报知。次日户房将已完、未完数禀，以凭催责。",
+   "derived_rule": "XGF-R-209",
+   "item_id": "08-001",
+   "ent_ids": [
+    "ENT-297"
+   ]
+  },
+  {
+   "name": "里长",
+   "role_type": "民役",
+   "affiliation": "各里",
+   "duties": [
+    {
+     "duty": "省谕寄庄田粮、着人佃户除起纳粮数",
+     "from_source": "08-003"
+    },
+    {
+     "duty": "实征票亲催完纳立限注销完日总缴",
+     "from_source": "08-005"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "08-003"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条3",
+   "confidence": 0.88,
+   "analysis": "田粮催纳与实征票催缴。",
+   "actor_id": "ACT-122",
+   "original": "征收寄庄田粮，须先省谕该都里长，着人佃户于秋收时除起纳粮数，然后纳租。倘有强索，即令佃户下年勿与耕种。违者止罚佃户，不许移关拘取。",
+   "derived_rule": "XGF-R-211",
+   "item_id": "08-003",
+   "ent_ids": [
+    "ENT-016"
+   ]
+  },
+  {
+   "name": "书手",
+   "role_type": "专业",
+   "affiliation": "各都/户房",
+   "duties": [
+    {
+     "duty": "照依黄册底开写里甲户籍就作实征",
+     "from_source": "08-005"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "户房",
+     "source": "08-005"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "confidence": 0.85,
+   "analysis": "实征票开写。",
+   "actor_id": "ACT-123",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "derived_rule": "XGF-R-213",
+   "item_id": "08-005",
+   "ent_ids": [
+    "ENT-020"
+   ]
+  },
+  {
+   "name": "收头",
+   "role_type": "民",
+   "affiliation": "择立良善殷实",
+   "duties": [
+    {
+     "duty": "量价纳多寡难易加增起解火耗",
+     "from_source": "08-015"
+    },
+    {
+     "duty": "写名下注都界、报未收总数",
+     "from_source": "08-016"
+    },
+    {
+     "duty": "（被约束）扣下火耗留作馈送公用重者当全给，不可扣留分耗",
+     "from_source": "08-015"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "08-015"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条15",
+   "confidence": 0.88,
+   "analysis": "折银征收与火耗约束。",
+   "actor_id": "ACT-124",
+   "original": "征收各项粮价，择立良善殷实收头，量价纳多寡难易，加增起解火耗。亦须计其所费多寡以增减之，如有扣下火耗留作公堂响馈送等项，公用重者当全给，不可扣留分耗。",
+   "derived_rule": "XGF-R-223",
+   "item_id": "08-015",
+   "ent_ids": []
+  },
+  {
+   "name": "库子",
+   "role_type": "役",
+   "affiliation": "库房",
+   "duties": [
+    {
+     "duty": "银封记入库，次日早报已收总数",
+     "from_source": "08-016"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "官府",
+     "source": "08-016"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "confidence": 0.85,
+   "analysis": "银库收报。",
+   "actor_id": "ACT-125",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "derived_rule": "XGF-R-224",
+   "item_id": "08-016",
+   "ent_ids": []
+  },
+  {
+   "name": "纳户",
+   "role_type": "民",
+   "affiliation": "各户",
+   "duties": [
+    {
+     "duty": "自执由帖赴官交纳注销",
+     "from_source": "08-004"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "官府",
+     "source": "08-004"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "confidence": 0.85,
+   "analysis": "由帖交纳主体。",
+   "actor_id": "ACT-126",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "derived_rule": "XGF-R-212",
+   "item_id": "08-004",
+   "ent_ids": [
+    "ENT-317"
+   ]
+  },
+  {
+   "name": "佃户",
+   "role_type": "民",
+   "affiliation": "寄庄田耕户",
+   "duties": [
+    {
+     "duty": "秋收时除起纳粮数然后纳租",
+     "from_source": "08-003"
+    },
+    {
+     "duty": "（被约束）强索时令下年勿与耕种；违者止罚佃户不许移关拘取",
+     "from_source": "08-003"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "里长",
+     "source": "08-003"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条3",
+   "confidence": 0.85,
+   "analysis": "寄庄租佃对象。",
+   "actor_id": "ACT-127",
+   "original": "征收寄庄田粮，须先省谕该都里长，着人佃户于秋收时除起纳粮数，然后纳租。倘有强索，即令佃户下年勿与耕种。违者止罚佃户，不许移关拘取。",
+   "derived_rule": "XGF-R-211",
+   "item_id": "08-003",
+   "ent_ids": [
+    "ENT-203"
+   ]
+  },
+  {
+   "name": "揽纳者",
+   "role_type": "民",
+   "affiliation": "私收之家",
+   "duties": [
+    {
+     "duty": "（被约束）哄吓小户并私家收受须痛治",
+     "from_source": "08-004"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被痛治",
+     "target": "官府",
+     "source": "08-004"
+    }
+   ],
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "confidence": 0.88,
+   "analysis": "揽纳被禁对象。",
+   "actor_id": "ACT-128",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "derived_rule": "XGF-R-212",
+   "item_id": "08-004",
+   "ent_ids": []
+  }
+ ],
+ "frauds_count": 17,
+ "frauds": [
+  {
+   "fraud": "寄庄强索田租",
+   "mechanism": "强索即令佃户下年勿与耕种；违者止罚佃户不许移关拘取",
+   "mechanism_type": "惩罚威慑",
+   "agent": "官府",
+   "target": "强索者",
+   "source": "08_卷下_粮料第六.xhtml#条3",
+   "confidence": 0.88,
+   "analysis": "下年停耕+止罚佃户。",
+   "fraud_id": "FRD-142",
+   "original": "征收寄庄田粮，须先省谕该都里长，着人佃户于秋收时除起纳粮数，然后纳租。倘有强索，即令佃户下年勿与耕种。违者止罚佃户，不许移关拘取。",
+   "derived_rule": "XGF-R-211",
+   "item_id": "08-003"
+  },
+  {
+   "fraud": "揽纳哄吓私收",
+   "mechanism": "先出由帖分散各户自执赴官交纳注销，哄吓私收痛治",
+   "mechanism_type": "簿证防弊",
+   "agent": "官府",
+   "target": "揽纳者",
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "confidence": 0.9,
+   "analysis": "由帖自执+痛治。",
+   "fraud_id": "FRD-143",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "derived_rule": "XGF-R-212",
+   "item_id": "08-004"
+  },
+  {
+   "fraud": "逐年推故",
+   "mechanism": "不许逐年推故，一里十票印合十年",
+   "mechanism_type": "物理防伪",
+   "agent": "户房",
+   "target": "实征票",
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "confidence": 0.9,
+   "analysis": "印合十年防推故。",
+   "fraud_id": "FRD-144",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "derived_rule": "XGF-R-213",
+   "item_id": "08-005"
+  },
+  {
+   "fraud": "实征纸札科派里甲",
+   "mechanism": "先自记数于愿罚免责名下量数出备，不许科派里甲",
+   "mechanism_type": "定额防弊",
+   "agent": "官府",
+   "target": "纸札",
+   "source": "08_卷下_粮料第六.xhtml#条6",
+   "confidence": 0.85,
+   "analysis": "愿罚免责记数。",
+   "fraud_id": "FRD-145",
+   "original": "实征该用纸札，先自记数于愿罚免责名下。量数出备，不许科派里甲。",
+   "derived_rule": "XGF-R-214",
+   "item_id": "08-006"
+  },
+  {
+   "fraud": "混派多征折银",
+   "mechanism": "量粮均派，止许派征余下零数作本色，切不得混派",
+   "mechanism_type": "复核防弊",
+   "agent": "户房",
+   "target": "折银",
+   "source": "08_卷下_粮料第六.xhtml#条7",
+   "confidence": 0.9,
+   "analysis": "均派禁混。",
+   "fraud_id": "FRD-146",
+   "original": "折银务须量粮均派，且如某户该本色若干，共该折银若干。止许以派征余下零数悉作本色，至于分派一里，亦推此□。切不得混派，以致多征作弊。",
+   "derived_rule": "XGF-R-215",
+   "item_id": "08-007"
+  },
+  {
+   "fraud": "拖赖侵欠",
+   "mechanism": "先查审上年拖赖侵欠人户指名告示，再违期比众加罪",
+   "mechanism_type": "惩罚威慑",
+   "agent": "官府",
+   "target": "欠户",
+   "source": "08_卷下_粮料第六.xhtml#条8",
+   "confidence": 0.88,
+   "analysis": "指名告示+加罪。",
+   "fraud_id": "FRD-147",
+   "original": "将收粮之时，须先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳。如再违期，比众加罪。",
+   "derived_rule": "XGF-R-216",
+   "item_id": "08-008"
+  },
+  {
+   "fraud": "派无征粮不均",
+   "mechanism": "验田均派，田不及十亩者不可派于升合",
+   "mechanism_type": "定额防弊",
+   "agent": "官府",
+   "target": "无征粮",
+   "source": "08_卷下_粮料第六.xhtml#条9",
+   "confidence": 0.9,
+   "analysis": "验田均派+小户免派。",
+   "fraud_id": "FRD-148",
+   "original": "派无征粮，先尽本里田多人户次，及一里次，及一都内田多之人，验田均派。凡田户不及十亩者，亦不可派于升合，有能自行清出告鸣者，即与分豁。",
+   "derived_rule": "XGF-R-217",
+   "item_id": "08-009"
+  },
+  {
+   "fraud": "白粮先派",
+   "mechanism": "白粮不可先派，另催项造粮一并征派，造粮二石坐派白粮一斗",
+   "mechanism_type": "流程制衡",
+   "agent": "官府",
+   "target": "白粮",
+   "source": "08_卷下_粮料第六.xhtml#条10",
+   "confidence": 0.9,
+   "analysis": "白粮并征定比。",
+   "fraud_id": "FRD-149",
+   "original": "白粮不可先派，另催项造粮，一并征派。每造粮二石，坐派白粮一斗，粮不及二石者止可派与一升。",
+   "derived_rule": "XGF-R-218",
+   "item_id": "08-010"
+  },
+  {
+   "fraud": "先后分征推延侵欺",
+   "mechanism": "存留余米于征收京通之时一齐催完，不可先后分征",
+   "mechanism_type": "流程制衡",
+   "agent": "官府",
+   "target": "存留余米",
+   "source": "08_卷下_粮料第六.xhtml#条11",
+   "confidence": 0.9,
+   "analysis": "并征防推延。",
+   "fraud_id": "FRD-150",
+   "original": "存留等项余米，须于征收京通之时一齐催完，不可先后分征，以致彼此推延侵欺。其县仓学、仓通关及折银抛荒，俱要并算，慎缴勘合。",
+   "derived_rule": "XGF-R-219",
+   "item_id": "08-011"
+  },
+  {
+   "fraud": "一时追并/粮里陪纳",
+   "mechanism": "征完粮料方收折银，不可一时追并，亦不可责令粮里陪纳应数",
+   "mechanism_type": "禁行防弊",
+   "agent": "官府",
+   "target": "征银",
+   "source": "08_卷下_粮料第六.xhtml#条12",
+   "confidence": 0.9,
+   "analysis": "先后次序+禁陪纳。",
+   "fraud_id": "FRD-151",
+   "original": "征完粮料，方收折银，不可一时追并，亦不可责令粮里陪纳应数。",
+   "derived_rule": "XGF-R-220",
+   "item_id": "08-012"
+  },
+  {
+   "fraud": "斗斛破损粮长装诬",
+   "mechanism": "斗斛先较勘印铁裹四角，破损来告必是，粮长装诬不可责及纳户",
+   "mechanism_type": "物理防伪",
+   "agent": "官府",
+   "target": "斗斛",
+   "source": "08_卷下_粮料第六.xhtml#条13",
+   "confidence": 0.88,
+   "analysis": "较勘铁裹+装诬不责。",
+   "fraud_id": "FRD-152",
+   "original": "斗斛须先较勘印，略用铁裹四角，如有破损，来告必是，粮长装诬不可责及纳户。",
+   "derived_rule": "XGF-R-221",
+   "item_id": "08-013"
+  },
+  {
+   "fraud": "先期报完/空文起解",
+   "mechanism": "不可先期报完及空文起解，先期告示立限征解",
+   "mechanism_type": "禁行防弊",
+   "agent": "官府",
+   "target": "征解",
+   "source": "08_卷下_粮料第六.xhtml#条14",
+   "confidence": 0.9,
+   "analysis": "禁空文、立限征解。",
+   "fraud_id": "FRD-153",
+   "original": "征粮不可先期报完，及空文起解，以致欺上罔下、害人损己，先期多出告示，省令纳户办备，立限征解。",
+   "derived_rule": "XGF-R-222",
+   "item_id": "08-014"
+  },
+  {
+   "fraud": "扣留火耗分耗",
+   "mechanism": "计所费多寡增减，公用重者当全给，不可扣留分耗",
+   "mechanism_type": "定额防弊",
+   "agent": "收头",
+   "target": "火耗",
+   "source": "08_卷下_粮料第六.xhtml#条15",
+   "confidence": 0.9,
+   "analysis": "火耗计费+禁扣留。",
+   "fraud_id": "FRD-154",
+   "original": "征收各项粮价，择立良善殷实收头，量价纳多寡难易，加增起解火耗。亦须计其所费多寡以增减之，如有扣下火耗留作公堂响馈送等项，公用重者当全给，不可扣留分耗。",
+   "derived_rule": "XGF-R-223",
+   "item_id": "08-015"
+  },
+  {
+   "fraud": "折银刁蹬侵欺",
+   "mechanism": "写名贴示就征秤、秤实时查较、银封记入库、次日库子收头双报",
+   "mechanism_type": "簿证防弊",
+   "agent": "收头/库子",
+   "target": "折银",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "confidence": 0.93,
+   "analysis": "贴示+封记+双报三重留痕。",
+   "fraud_id": "FRD-155",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "derived_rule": "XGF-R-224",
+   "item_id": "08-016"
+  },
+  {
+   "fraud": "奸猾贪图收纳物料",
+   "mechanism": "不系常年常办物料到县密切申禀",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "物料收纳",
+   "source": "08_卷下_粮料第六.xhtml#条17",
+   "confidence": 0.85,
+   "analysis": "异常物料申禀。",
+   "fraud_id": "FRD-156",
+   "original": "凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下须，密切申禀。",
+   "derived_rule": "XGF-R-225",
+   "item_id": "08-017"
+  },
+  {
+   "fraud": "追筭索取解费",
+   "mechanism": "解粮料宽与文费，宁使两余勿与追筭索取",
+   "mechanism_type": "禁行防弊",
+   "agent": "官府",
+   "target": "解费",
+   "source": "08_卷下_粮料第六.xhtml#条18",
+   "confidence": 0.85,
+   "analysis": "宽给解费禁追筭。",
+   "fraud_id": "FRD-157",
+   "original": "解粮料须宽与文费，宁使两余，勿与追筭索取。",
+   "derived_rule": "XGF-R-226",
+   "item_id": "08-018"
+  },
+  {
+   "fraud": "失水粮米不换易",
+   "mechanism": "许告验实即与处置换易，或别行申诉",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "粮米",
+   "source": "08_卷下_粮料第六.xhtml#条19",
+   "confidence": 0.85,
+   "analysis": "验实换易。",
+   "fraud_id": "FRD-158",
+   "original": "户所纳粮米，倘有失水等项，许告验实，即与处置换易，或别行申诉。",
+   "derived_rule": "XGF-R-227",
+   "item_id": "08-019"
+  }
+ ]
+}

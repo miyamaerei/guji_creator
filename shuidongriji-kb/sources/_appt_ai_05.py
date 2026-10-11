@@ -1,0 +1,177 @@
+# -*- coding: utf-8 -*-
+"""《水东日记》卷 05 —— APPT 职官任职 源数据（AI 判定逐条填写）
+
+说明：任职记录：person(人物含 person_ent_ids)/office(官职含 official_ent_ids)/institution(机构含 ent_ids)/when(时间，未明写'未明')/status(任职状态)/evidence(证据)
+
+字段说明：
+  * 只写条号 + 解读字段，不手抄原文（original 由打包器从指纹库注入）
+  * 枚举（封闭+兜底）：现任=在任 / 致仕=退休 / 升迁=晋升调任 / 贬谪=降职流放 / 罢黜=罢官 / 兼领=兼职兼任 / 暂代=暂时代理 / 追赠=死后追赠 / 未明=原文未明写
+  * 未建模条目在下方注释中如实单列，不强行编造
+
+填写方式：把 DATA 中的示例记录替换为本卷实际判定结果；
+         每条记录为一个 dict；未判定条目保留注释占位。
+"""
+
+ITEM_LIST = [  # 本卷条目清单（条号 | 原文首 30 字，供对照）
+    "05-001 | 左都御史自刘观后不轻受观以前亦可数也近年有陈镒王翺杨善王文马",
+    "05-002 | 总督军务自总兵官以下悉听节制盖始于王靖远麓川之役己巳多事以来",
+    "05-003 | 礼部尚书致仕毘陵胡公予赴广时谒之尚强徤取酒命酌因有请曰老先生",
+    "05-004 | 国朝将官专生杀如都督韩观守广西尚然观师行庆远生员迎候悉命斩之",
+    "05-005 | 广西守将韩都督观英武有文颇喜诛杀山忠毅公继之则光前絶后矣公深",
+    "05-006 | 聂大年诗翰著名一时不得预京衔或曰大年尝署桃符云文章高似翰林院",
+    "05-007 | 武安侯郑亨守大同年已七十余刚正有为一志为国而性稍每议事辄不",
+    "05-008 | 兴安侯徐亨正统中守关中一日御史张文昌语及时将徐云以亨观今之将",
+    "05-009 | 故事凡各部请勅行事该部备词奏请既得防移文翰林即今文渊阁下学士",
+    "05-010 | 上复寳位二三日间诸文武首功之臣列侍文华殿上喜见眉宇呼诸臣曰弟",
+    "05-011 | 张学士士谦夏太常仲昭两人同登第乡甚欵密皆及与陈嗣初王孟端诸",
+    "05-012 | 近代杂书著述考据多不精如翰墨全书以彭思永为明道母舅事文聚以",
+    "05-013 | 珍珠初采一万四千五百余两大约三石五斗次年采九千六百余两每百两",
+    "05-014 | 范德机古见推当时近见廉州海角亭记为其自书无疑此碑亦用汉唐碑",
+    "05-015 | 刘侍郎廉夫清余同年乡举自负文武才筹边论兵歴歴如见景泰初为庶吉",
+    "05-016 | 文渊阁宥密之地外臣非公事不能至廷陛机宜无敢泄者杨文贞文定文敏",
+    "05-017 | 广西总帅府一郑牢者老也性鲠直敢言都督韩观威严不可犯亦知牢观",
+    "05-018 | 夏太常仲昭常闻之杨文敏公荣曰吾见人臣以伉直受祸者每深惜之事人",
+    "05-019 | 近年大臣各醵白金送寺观祈报行礼云始于陈汝言万寿节亦然云始于杨",
+    "05-020 | 耿恒庵云吴思庵集解小学翟黑子章取熊氏所解脱字二十一字可删盖吾",
+    "05-021 | 李祭酒先生哭侄诗所谓朝餐对按浑无味暮骑逢人不记名其死生骨肉之",
+    "05-022 | 中书舎人卢儒字为己号重齐昆山人博学能文善笔札文学韩栁书法欧顔",
+    "05-023 | 景泰中盛奏旌褒用兵地方死节之臣以浙江都指挥脱纲佥事王晟为首盖",
+    "05-024 | 吴人耕作或舟行之劳多作讴歌以自遣名唱山歌中亦多可为警劝者谩记",
+]
+
+# 字段键（打包器校验用）：appointment_id, item_id, person, office, institution, when, status, evidence, confidence
+# 示例记录（保留作格式对照）：
+# {"appointment_id": "APPT-001", "item_id": "01-004", "person": {"text": "汪澄", "person_ent_ids": ["ENT-xxx"]}, "office": {"text": "巡按御史", "official_ent_ids": ["ENT-xxx"]}, "institution": {"text": "福建（巡按）", "ent_ids": ["ENT-xxx"]}, "when": "正统十三年", "status": "现任", "evidence": "巡按御史汪澄将至延平", "confidence": 0.92}
+
+DATA = [
+    # 05-001 左都御史诸人
+    {"appointment_id": "APPT-2501", "item_id": "05-001",
+     "person": {"text": "陈镒", "person_ent_ids": []},
+     "office": {"text": "左都御史", "official_ent_ids": []},
+     "institution": {"text": "都察院", "ent_ids": []},
+     "when": "正统景泰", "status": "现任",
+     "evidence": "近年有陈镒王翺杨善王文马昻萧维祯寇深轩輗",
+     "confidence": 0.85},
+    {"appointment_id": "APPT-2502", "item_id": "05-001",
+     "person": {"text": "轩輗", "person_ent_ids": []},
+     "office": {"text": "左都御史（起自刑部尚书致仕改）", "official_ent_ids": []},
+     "institution": {"text": "都察院", "ent_ids": []},
+     "when": "景泰", "status": "现任",
+     "evidence": "輗起自刑部尚书致仕改本官",
+     "confidence": 0.82},
+    # 05-002 总督军务
+    {"appointment_id": "APPT-2503", "item_id": "05-002",
+     "person": {"text": "王骥（靖远伯）", "person_ent_ids": []},
+     "office": {"text": "总督军务", "official_ent_ids": []},
+     "institution": {"text": "麓川", "ent_ids": []},
+     "when": "正统（麓川之役）", "status": "现任",
+     "evidence": "盖始于王靖远麓川之役",
+     "confidence": 0.85},
+    {"appointment_id": "APPT-2504", "item_id": "05-002",
+     "person": {"text": "侯璡", "person_ent_ids": []},
+     "office": {"text": "总督军务（尚书）", "official_ent_ids": []},
+     "institution": {"text": "未明", "ent_ids": []},
+     "when": "景泰", "status": "现任",
+     "evidence": "继靖远者侯尚书璡也",
+     "confidence": 0.8},
+    # 05-003 胡濙
+    {"appointment_id": "APPT-2505", "item_id": "05-003",
+     "person": {"text": "胡濙（毗陵）", "person_ent_ids": []},
+     "office": {"text": "礼部尚书（致仕）", "official_ent_ids": []},
+     "institution": {"text": "礼部", "ent_ids": []},
+     "when": "永乐至宣德", "status": "致仕",
+     "evidence": "礼部尚书致仕毘陵胡公",
+     "confidence": 0.9},
+    {"appointment_id": "APPT-2506", "item_id": "05-003",
+     "person": {"text": "胡濙", "person_ent_ids": []},
+     "office": {"text": "礼部侍郎", "official_ent_ids": []},
+     "institution": {"text": "礼部", "ent_ids": []},
+     "when": "永乐", "status": "升迁",
+     "evidence": "上召吏部特升某礼部侍郎",
+     "confidence": 0.85},
+    # 05-004 韩观/杨洪
+    {"appointment_id": "APPT-2507", "item_id": "05-004",
+     "person": {"text": "韩观", "person_ent_ids": []},
+     "office": {"text": "都督（守广西）", "official_ent_ids": []},
+     "institution": {"text": "广西", "ent_ids": []},
+     "when": "明初", "status": "现任",
+     "evidence": "国朝将官专生杀如都督韩观守广西尚然",
+     "confidence": 0.85},
+    {"appointment_id": "APPT-2508", "item_id": "05-004",
+     "person": {"text": "杨洪", "person_ent_ids": []},
+     "office": {"text": "封侯（自百户至）", "official_ent_ids": []},
+     "institution": {"text": "宣府", "ent_ids": []},
+     "when": "宣德正统", "status": "升迁",
+     "evidence": "洪自百户至封侯威名闻岭北",
+     "confidence": 0.85},
+    # 05-005 岑绍
+    {"appointment_id": "APPT-2509", "item_id": "05-005",
+     "person": {"text": "岑绍", "person_ent_ids": []},
+     "office": {"text": "田州知府（土官）", "official_ent_ids": []},
+     "institution": {"text": "田州", "ent_ids": []},
+     "when": "明初", "status": "现任",
+     "evidence": "却田州知府岑绍银事",
+     "confidence": 0.82},
+    {"appointment_id": "APPT-2510", "item_id": "05-005",
+     "person": {"text": "朱瑛", "person_ent_ids": []},
+     "office": {"text": "武进伯（广西守将）", "official_ent_ids": []},
+     "institution": {"text": "广西", "ent_ids": []},
+     "when": "明初", "status": "现任",
+     "evidence": "至武进伯朱瑛则扫地矣",
+     "confidence": 0.8},
+    # 05-007 郑亨
+    {"appointment_id": "APPT-2511", "item_id": "05-007",
+     "person": {"text": "郑亨（武安侯）", "person_ent_ids": []},
+     "office": {"text": "武安侯（守大同）", "official_ent_ids": []},
+     "institution": {"text": "大同", "ent_ids": []},
+     "when": "永乐宣德", "status": "现任",
+     "evidence": "武安侯郑亨守大同年已七十余刚正有为",
+     "confidence": 0.85},
+    # 05-008 徐亨
+    {"appointment_id": "APPT-2512", "item_id": "05-008",
+     "person": {"text": "徐亨（兴安侯）", "person_ent_ids": []},
+     "office": {"text": "兴安侯（守关中）", "official_ent_ids": []},
+     "institution": {"text": "关中", "ent_ids": []},
+     "when": "正统中", "status": "现任",
+     "evidence": "兴安侯徐亨正统中守关中",
+     "confidence": 0.82},
+    # 05-010 刘深
+    {"appointment_id": "APPT-2513", "item_id": "05-010",
+     "person": {"text": "刘深", "person_ent_ids": []},
+     "office": {"text": "左都督（总兵挂征蛮将军印）", "official_ent_ids": []},
+     "institution": {"text": "广西", "ent_ids": []},
+     "when": "天顺初", "status": "升迁",
+     "evidence": "深以复位功进左都督后充总兵官挂征蛮将军印来广西",
+     "confidence": 0.85},
+    # 05-015 刘廉夫
+    {"appointment_id": "APPT-2514", "item_id": "05-015",
+     "person": {"text": "刘廉夫", "person_ent_ids": []},
+     "office": {"text": "刑部右侍郎", "official_ent_ids": []},
+     "institution": {"text": "刑部", "ent_ids": []},
+     "when": "景泰", "status": "升迁",
+     "evidence": "还朝吏部拟迁本科内批特升刑部右侍郎",
+     "confidence": 0.82},
+    {"appointment_id": "APPT-2515", "item_id": "05-015",
+     "person": {"text": "刘廉夫", "person_ent_ids": []},
+     "office": {"text": "四川布政司参政", "official_ent_ids": []},
+     "institution": {"text": "四川", "ent_ids": []},
+     "when": "天顺初", "status": "贬谪",
+     "evidence": "天顺初改四川布政",
+     "confidence": 0.8},
+    # 05-019 于谦巡抚
+    {"appointment_id": "APPT-2516", "item_id": "05-019",
+     "person": {"text": "于谦（节庵）", "person_ent_ids": []},
+     "office": {"text": "兵部侍郎（巡抚河南山西）", "official_ent_ids": []},
+     "institution": {"text": "河南山西", "ent_ids": []},
+     "when": "宣德正统", "status": "现任",
+     "evidence": "于节庵以兵部侍郎巡抚河南山西迁大理少卿前后几二十年",
+     "confidence": 0.88},
+    # 05-023 脱纲王晟
+    {"appointment_id": "APPT-2517", "item_id": "05-023",
+     "person": {"text": "脱纲", "person_ent_ids": []},
+     "office": {"text": "浙江都指挥", "official_ent_ids": []},
+     "institution": {"text": "浙江", "ent_ids": []},
+     "when": "景泰", "status": "追赠",
+     "evidence": "景泰中盛奏旌褒用兵地方死节之臣以浙江都指挥脱纲佥事王晟为首",
+     "confidence": 0.82},
+]

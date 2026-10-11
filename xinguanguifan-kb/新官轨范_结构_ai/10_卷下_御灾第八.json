@@ -1,0 +1,848 @@
+{
+ "schema_version": "kg-struct-ai-json-v1",
+ "struct_version": "struct-ai-v1",
+ "volume": "10",
+ "chapter": "卷下_御灾第八",
+ "source_file": "10_卷下_御灾第八.xhtml",
+ "ledgers_count": 6,
+ "ledgers": [
+  {
+   "name": "水利修理具结",
+   "purpose": "陂岸塘堰闸损坏修理，大水后具结呈报",
+   "keeper": "信实人",
+   "entry": "损坏处所、修理分投、具结呈报",
+   "frequency": "损坏即修；大水后具结",
+   "check": "委信实人分投修理",
+   "anti_fraud": "防另起民夫科敛民财",
+   "source": "10_卷下_御灾第八.xhtml#条1",
+   "confidence": 0.88,
+   "analysis": "水利台账：量力并工→分投修理→具结呈报。",
+   "ledger_id": "LGR-088",
+   "original": "陂、岸、塘、堰、闸损坏，即令附近富实居民量力并工修理，不可另起民夫及科敛民财。仍委信实人分投修理，若遇大水后具结呈报。",
+   "derived_rule": "XGF-R-246",
+   "item_id": "10-001"
+  },
+  {
+   "name": "灾伤附簿",
+   "purpose": "被灾田粮开报四至土名及免粮数附簿查算",
+   "keeper": "官府",
+   "entry": "本户所种田粮、四至土名、该免粮数",
+   "frequency": "遇灾伤即开报",
+   "check": "总撒相同即与申闻上司；亲履亩或门点踏勘",
+   "anti_fraud": "防里老总报作弊",
+   "source": "10_卷下_御灾第八.xhtml#条3",
+   "confidence": 0.93,
+   "analysis": "灾伤台账：开报→附簿→查算→申闻。",
+   "ledger_id": "LGR-089",
+   "original": "遇灾伤，须出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同，即与申闻上司。亦于亲自履亩，或门点踏勘，毋凭里老总报作弊。",
+   "derived_rule": "XGF-R-248",
+   "item_id": "10-003"
+  },
+  {
+   "name": "罚谷给贫簿",
+   "purpose": "踏勘时就问轻犯罚谷米给被灾贫民",
+   "keeper": "官府",
+   "entry": "轻犯罚谷米数、给被灾贫民",
+   "frequency": "踏勘灾伤之时",
+   "check": "遇假就问、量情罚谷或米",
+   "anti_fraud": "防假灾冒赈",
+   "source": "10_卷下_御灾第八.xhtml#条4",
+   "confidence": 0.88,
+   "analysis": "罚谷给贫台账：踏勘带犯→罚谷→给贫。",
+   "ledger_id": "LGR-090",
+   "original": "踏勘灾伤之时，就将该问轻犯有力押带，遇假就问，即于各犯名下量情罚谷或米，给被灾贫民。",
+   "derived_rule": "XGF-R-249",
+   "item_id": "10-004"
+  },
+  {
+   "name": "荒芜田垦种簿",
+   "purpose": "荒芜田召令附田人户开垦，纳粮三年后成熟",
+   "keeper": "里长",
+   "entry": "荒芜田段、附田人户、成熟纳粮、逃户派银佃种",
+   "frequency": "及时召令",
+   "check": "如违里长当罪税租俱看附田之人",
+   "anti_fraud": "防荒田久荒",
+   "source": "10_卷下_御灾第八.xhtml#条5",
+   "confidence": 0.88,
+   "analysis": "垦荒台账：召令→开垦→三年纳粮。",
+   "ledger_id": "LGR-091",
+   "original": "遇有荒芜田地，里长须要及时召令附田人户开垦耕种，其纳粮待三年之后成熟。或逃户不行复业，量情派与收银，仍与佃种。如违里长，当罪税租，俱看附田之人。",
+   "derived_rule": "XGF-R-250",
+   "item_id": "10-005"
+  },
+  {
+   "name": "水塌田陪粮簿",
+   "purpose": "水塌压田该户自写四至及陪粮呈告查算覆勘",
+   "keeper": "官府",
+   "entry": "四至田叚地方、该陪粮",
+   "frequency": "水塌即呈告",
+   "check": "查算覆勘，不可差委他官",
+   "anti_fraud": "防勘灾舞弊",
+   "source": "10_卷下_御灾第八.xhtml#条6",
+   "confidence": 0.88,
+   "analysis": "水塌陪粮台账：自写→呈告→覆勘。",
+   "ledger_id": "LGR-092",
+   "original": "凡有水塌以压田土，须令该户自写四至田叚地方及该陪粮，呈告以凭，查算覆勘，不可差委他官。",
+   "derived_rule": "XGF-R-251",
+   "item_id": "10-006"
+  },
+  {
+   "name": "捕蝗赏给簿",
+   "purpose": "捕蝗量类给赏米谷",
+   "keeper": "官府",
+   "entry": "捕蝗人数、量类给赏米谷",
+   "frequency": "蝗发时",
+   "check": "许诸人不拘多少捕来",
+   "anti_fraud": "防蝗灾蔓延",
+   "source": "10_卷下_御灾第八.xhtml#条7",
+   "confidence": 0.88,
+   "analysis": "捕蝗赏给台账。",
+   "ledger_id": "LGR-093",
+   "original": "如蝗虫之类，但能害苗者，须出告示，许诸人不拘多少捕来，量类给赏米谷。",
+   "derived_rule": "XGF-R-252",
+   "item_id": "10-007"
+  }
+ ],
+ "times_count": 6,
+ "times": [
+  {
+   "keyword": "即令/大水后",
+   "value": "损坏即修；大水后",
+   "unit": "不定",
+   "scope": "陂岸塘堰闸量力并工修理、具结呈报",
+   "frequency": "损坏/大水后",
+   "source": "10_卷下_御灾第八.xhtml#条1",
+   "confidence": 0.88,
+   "analysis": "水利修理与具结时机。",
+   "time_id": "TME-127",
+   "original": "陂、岸、塘、堰、闸损坏，即令附近富实居民量力并工修理，不可另起民夫及科敛民财。仍委信实人分投修理，若遇大水后具结呈报。",
+   "derived_rule": "XGF-R-246",
+   "item_id": "10-001"
+  },
+  {
+   "keyword": "旱干之时/不分昏夜",
+   "value": "旱时；火发不分昼夜",
+   "unit": "不定",
+   "scope": "谕各乡街坊火烛、亲往视拨人救护",
+   "frequency": "火发即往",
+   "source": "10_卷下_御灾第八.xhtml#条2",
+   "confidence": 0.9,
+   "analysis": "火警亲往不分昼夜。",
+   "time_id": "TME-128",
+   "original": "旱干之时，须谕各乡及街坊火烛。倘遇火发，不分昏夜，须亲往视，拨人救护，仍严禁抢夺。",
+   "derived_rule": "XGF-R-247",
+   "item_id": "10-002"
+  },
+  {
+   "keyword": "遇灾伤",
+   "value": "灾伤发生即办",
+   "unit": "不定",
+   "scope": "开报免粮、附簿查算、申闻上司",
+   "frequency": "灾伤时",
+   "source": "10_卷下_御灾第八.xhtml#条3",
+   "confidence": 0.9,
+   "analysis": "灾伤申报时限。",
+   "time_id": "TME-129",
+   "original": "遇灾伤，须出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同，即与申闻上司。亦于亲自履亩，或门点踏勘，毋凭里老总报作弊。",
+   "derived_rule": "XGF-R-248",
+   "item_id": "10-003"
+  },
+  {
+   "keyword": "踏勘灾伤之时",
+   "value": "踏勘时",
+   "unit": "不定",
+   "scope": "就问轻犯罚谷给贫",
+   "frequency": "踏勘时",
+   "source": "10_卷下_御灾第八.xhtml#条4",
+   "confidence": 0.85,
+   "analysis": "踏勘并审假灾。",
+   "time_id": "TME-130",
+   "original": "踏勘灾伤之时，就将该问轻犯有力押带，遇假就问，即于各犯名下量情罚谷或米，给被灾贫民。",
+   "derived_rule": "XGF-R-249",
+   "item_id": "10-004"
+  },
+  {
+   "keyword": "三年之后",
+   "value": "开垦三年后",
+   "unit": "年",
+   "scope": "荒芜田成熟纳粮",
+   "frequency": "三年一轮",
+   "source": "10_卷下_御灾第八.xhtml#条5",
+   "confidence": 0.9,
+   "analysis": "垦荒免粮三年。",
+   "time_id": "TME-131",
+   "original": "遇有荒芜田地，里长须要及时召令附田人户开垦耕种，其纳粮待三年之后成熟。或逃户不行复业，量情派与收银，仍与佃种。如违里长，当罪税租，俱看附田之人。",
+   "derived_rule": "XGF-R-250",
+   "item_id": "10-005"
+  },
+  {
+   "keyword": "五里内/十里内",
+   "value": "窃盗5里内；强盗10里内",
+   "unit": "里",
+   "scope": "挨究巡捕范围",
+   "frequency": "贼盗发生时",
+   "source": "10_卷下_御灾第八.xhtml#条10",
+   "confidence": 0.9,
+   "analysis": "贼盗巡查半径分级。",
+   "time_id": "TME-132",
+   "original": "贼盗生发，先于地方开张赌博、淫宰牛马、遭充警迹人家挨究不获，然后将附近地方内挨访，仍要省谕邻里跟寻□路，违者治罪。亦不可泛罪总甲。如窃，五里内挨（究），强盗于十里内巡捕。",
+   "derived_rule": "XGF-R-255",
+   "item_id": "10-010"
+  }
+ ],
+ "docs_count": 6,
+ "docs": [
+  {
+   "doc_type": "灾伤告示",
+   "stages": [
+    {
+     "stage": "告示",
+     "action": "遇灾伤出告示省谕被灾人民将本户所种田粮逐一开报",
+     "agent": "官府",
+     "location": "被灾区"
+    },
+    {
+     "stage": "开报",
+     "action": "开报四至土名及该免粮数具告",
+     "agent": "被灾人民",
+     "location": "被灾区"
+    },
+    {
+     "stage": "查算",
+     "action": "附簿查算，总撒相同即与申闻上司",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "踏勘",
+     "action": "亲自履亩或门点踏勘，毋凭里老总报作弊",
+     "agent": "新官",
+     "location": "被灾区"
+    }
+   ],
+   "anti_fraud": "防里老总报作弊",
+   "source": "10_卷下_御灾第八.xhtml#条3",
+   "confidence": 0.93,
+   "analysis": "灾伤文书生命周期：告示→开报→查算→踏勘。",
+   "doc_id": "DOC-077",
+   "original": "遇灾伤，须出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同，即与申闻上司。亦于亲自履亩，或门点踏勘，毋凭里老总报作弊。",
+   "derived_rule": "XGF-R-248",
+   "item_id": "10-003"
+  },
+  {
+   "doc_type": "罚谷给贫单",
+   "stages": [
+    {
+     "stage": "带犯",
+     "action": "踏勘灾伤之时就将该问轻犯有力押带",
+     "agent": "官府",
+     "location": "被灾区"
+    },
+    {
+     "stage": "问罚",
+     "action": "遇假即问，量情罚谷或米",
+     "agent": "官府",
+     "location": "被灾区"
+    },
+    {
+     "stage": "给贫",
+     "action": "给被灾贫民",
+     "agent": "官府",
+     "location": "被灾区"
+    }
+   ],
+   "anti_fraud": "防假灾冒赈",
+   "source": "10_卷下_御灾第八.xhtml#条4",
+   "confidence": 0.85,
+   "analysis": "罚谷给贫：带犯→问罚→给贫。",
+   "doc_id": "DOC-078",
+   "original": "踏勘灾伤之时，就将该问轻犯有力押带，遇假就问，即于各犯名下量情罚谷或米，给被灾贫民。",
+   "derived_rule": "XGF-R-249",
+   "item_id": "10-004"
+  },
+  {
+   "doc_type": "水塌呈告",
+   "stages": [
+    {
+     "stage": "自写",
+     "action": "水塌压田土须令该户自写四至田叚地方及该陪粮",
+     "agent": "该户",
+     "location": "本户"
+    },
+    {
+     "stage": "呈告",
+     "action": "呈告以凭",
+     "agent": "该户",
+     "location": "县衙"
+    },
+    {
+     "stage": "覆勘",
+     "action": "查算覆勘，不可差委他官",
+     "agent": "官府",
+     "location": "田所"
+    }
+   ],
+   "anti_fraud": "防勘灾舞弊",
+   "source": "10_卷下_御灾第八.xhtml#条6",
+   "confidence": 0.88,
+   "analysis": "水塌文书：自写→呈告→覆勘。",
+   "doc_id": "DOC-079",
+   "original": "凡有水塌以压田土，须令该户自写四至田叚地方及该陪粮，呈告以凭，查算覆勘，不可差委他官。",
+   "derived_rule": "XGF-R-251",
+   "item_id": "10-006"
+  },
+  {
+   "doc_type": "捕蝗告示",
+   "stages": [
+    {
+     "stage": "告示",
+     "action": "蝗虫害苗须出告示",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "许捕",
+     "action": "许诸人不拘多少捕来",
+     "agent": "诸人",
+     "location": "田所"
+    },
+    {
+     "stage": "给赏",
+     "action": "量类给赏米谷",
+     "agent": "官府",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防蝗灾蔓延",
+   "source": "10_卷下_御灾第八.xhtml#条7",
+   "confidence": 0.88,
+   "analysis": "捕蝗文书：告示→许捕→给赏。",
+   "doc_id": "DOC-080",
+   "original": "如蝗虫之类，但能害苗者，须出告示，许诸人不拘多少捕来，量类给赏米谷。",
+   "derived_rule": "XGF-R-252",
+   "item_id": "10-007"
+  },
+  {
+   "doc_type": "防盗告示",
+   "stages": [
+    {
+     "stage": "大写",
+     "action": "盗贼生发处大写“此处有贼”四字告示",
+     "agent": "官府",
+     "location": "盗发处"
+    },
+    {
+     "stage": "告鸣",
+     "action": "遇失贼虽无指实亦须告鸣，追问地方",
+     "agent": "被害之人",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防贼盗蔓延不知戒",
+   "source": "10_卷下_御灾第八.xhtml#条13",
+   "confidence": 0.88,
+   "analysis": "防盗告示：大写标戒→失贼告鸣。",
+   "doc_id": "DOC-081",
+   "original": "如有盗贼生发去处，大写“此处有贼”四字告示，以便众知防戒。若遇失贼，虽无指实，亦须告鸣，追问地方。",
+   "derived_rule": "XGF-R-258",
+   "item_id": "10-013"
+  },
+  {
+   "doc_type": "窃盗招供",
+   "stages": [
+    {
+     "stage": "取供",
+     "action": "屡犯者取定供招牢固镣杻",
+     "agent": "官府",
+     "location": "县衙"
+    },
+    {
+     "stage": "押发",
+     "action": "押发被害之处各行笞责",
+     "agent": "官府",
+     "location": "被害之处"
+    },
+    {
+     "stage": "呈报",
+     "action": "呈报收减赃；初犯不可，须屡犯",
+     "agent": "官府",
+     "location": "县衙"
+    }
+   ],
+   "anti_fraud": "防屡犯不治",
+   "source": "10_卷下_御灾第八.xhtml#条12",
+   "confidence": 0.9,
+   "analysis": "窃盗处置：取供→押发笞责→呈报收赃。",
+   "doc_id": "DOC-082",
+   "original": "窃盗初犯者，依律究治。若屡犯者，取定供招牢固镣杻押发被害之处，各行笞责，呈报收减赃，打死可也。初犯不可，须屡犯。",
+   "derived_rule": "XGF-R-257",
+   "item_id": "10-012"
+  }
+ ],
+ "actors_count": 10,
+ "actors": [
+  {
+   "name": "信实人",
+   "role_type": "民",
+   "affiliation": "本县居民（委任）",
+   "duties": [
+    {
+     "duty": "分投修理陂岸塘堰闸；大水后具结呈报",
+     "from_source": "10-001"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "10-001"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条1",
+   "confidence": 0.85,
+   "analysis": "水利修理承办人。",
+   "actor_id": "ACT-141",
+   "original": "陂、岸、塘、堰、闸损坏，即令附近富实居民量力并工修理，不可另起民夫及科敛民财。仍委信实人分投修理，若遇大水后具结呈报。",
+   "derived_rule": "XGF-R-246",
+   "item_id": "10-001",
+   "ent_ids": []
+  },
+  {
+   "name": "里老",
+   "role_type": "民役",
+   "affiliation": "各里",
+   "duties": [
+    {
+     "duty": "（被约束）踏勘灾伤毋凭里老总报作弊",
+     "from_source": "10-003"
+    },
+    {
+     "duty": "（被约束）祈祷雨泽不可点集里老人等行礼",
+     "from_source": "10-009"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被监督",
+     "target": "新官",
+     "source": "10-003"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条3",
+   "confidence": 0.88,
+   "analysis": "灾报与祈雨被约束对象。",
+   "actor_id": "ACT-142",
+   "original": "遇灾伤，须出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同，即与申闻上司。亦于亲自履亩，或门点踏勘，毋凭里老总报作弊。",
+   "derived_rule": "XGF-R-248",
+   "item_id": "10-003",
+   "ent_ids": [
+    "ENT-017"
+   ]
+  },
+  {
+   "name": "里长",
+   "role_type": "民役",
+   "affiliation": "各里",
+   "duties": [
+    {
+     "duty": "荒芜田及时召令附田人户开垦耕种",
+     "from_source": "10-005"
+    },
+    {
+     "duty": "（连带责任）如违里长当罪税租俱看附田之人",
+     "from_source": "10-005"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "10-005"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条5",
+   "confidence": 0.88,
+   "analysis": "垦荒召令与连带责任。",
+   "actor_id": "ACT-143",
+   "original": "遇有荒芜田地，里长须要及时召令附田人户开垦耕种，其纳粮待三年之后成熟。或逃户不行复业，量情派与收银，仍与佃种。如违里长，当罪税租，俱看附田之人。",
+   "derived_rule": "XGF-R-250",
+   "item_id": "10-005",
+   "ent_ids": [
+    "ENT-016"
+   ]
+  },
+  {
+   "name": "附田人户",
+   "role_type": "民",
+   "affiliation": "荒田附近",
+   "duties": [
+    {
+     "duty": "开垦耕种，纳粮三年之后成熟",
+     "from_source": "10-005"
+    },
+    {
+     "duty": "（对象）逃户不行复业量情派与收银仍与佃种",
+     "from_source": "10-005"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "里长",
+     "source": "10-005"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条5",
+   "confidence": 0.85,
+   "analysis": "垦荒承种人户。",
+   "actor_id": "ACT-144",
+   "original": "遇有荒芜田地，里长须要及时召令附田人户开垦耕种，其纳粮待三年之后成熟。或逃户不行复业，量情派与收银，仍与佃种。如违里长，当罪税租，俱看附田之人。",
+   "derived_rule": "XGF-R-250",
+   "item_id": "10-005",
+   "ent_ids": []
+  },
+  {
+   "name": "逃户",
+   "role_type": "民",
+   "affiliation": "逃亡人户",
+   "duties": [
+    {
+     "duty": "（对象）不行复业量情派与收银仍与佃种",
+     "from_source": "10-005"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被派佃",
+     "target": "里长",
+     "source": "10-005"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条5",
+   "confidence": 0.8,
+   "analysis": "逃户复业对象。",
+   "actor_id": "ACT-145",
+   "original": "遇有荒芜田地，里长须要及时召令附田人户开垦耕种，其纳粮待三年之后成熟。或逃户不行复业，量情派与收银，仍与佃种。如违里长，当罪税租，俱看附田之人。",
+   "derived_rule": "XGF-R-250",
+   "item_id": "10-005",
+   "ent_ids": []
+  },
+  {
+   "name": "耆宿/生员/官吏/僧道",
+   "role_type": "专业",
+   "affiliation": "本县",
+   "duties": [
+    {
+     "duty": "祈祷雨泽躬行早领祝祷",
+     "from_source": "10-009"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "10-009"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条9",
+   "confidence": 0.85,
+   "analysis": "祈雨行礼群体。",
+   "actor_id": "ACT-146",
+   "original": "凡祈祷雨泽，不可点集里老人等行礼。但当省谕耆宿、生员、官吏、僧道，躬行早领祝祷，其它役放归，自行救济田业。",
+   "derived_rule": "XGF-R-254",
+   "item_id": "10-009",
+   "ent_ids": []
+  },
+  {
+   "name": "总甲",
+   "role_type": "役",
+   "affiliation": "坊里",
+   "duties": [
+    {
+     "duty": "（被约束）贼盗挨究不可泛罪总甲",
+     "from_source": "10-010"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被限责",
+     "target": "官府",
+     "source": "10-010"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条10",
+   "confidence": 0.85,
+   "analysis": "贼盗追责限免对象。",
+   "actor_id": "ACT-147",
+   "original": "贼盗生发，先于地方开张赌博、淫宰牛马、遭充警迹人家挨究不获，然后将附近地方内挨访，仍要省谕邻里跟寻□路，违者治罪。亦不可泛罪总甲。如窃，五里内挨（究），强盗于十里内巡捕。",
+   "derived_rule": "XGF-R-255",
+   "item_id": "10-010",
+   "ent_ids": [
+    "ENT-102"
+   ]
+  },
+  {
+   "name": "轻犯",
+   "role_type": "囚",
+   "affiliation": "本县犯轻罪者",
+   "duties": [
+    {
+     "duty": "（对象）踏勘时就问量情罚谷或米给被灾贫民",
+     "from_source": "10-004"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "被罚谷",
+     "target": "官府",
+     "source": "10-004"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条4",
+   "confidence": 0.85,
+   "analysis": "假灾问罚对象。",
+   "actor_id": "ACT-148",
+   "original": "踏勘灾伤之时，就将该问轻犯有力押带，遇假就问，即于各犯名下量情罚谷或米，给被灾贫民。",
+   "derived_rule": "XGF-R-249",
+   "item_id": "10-004",
+   "ent_ids": []
+  },
+  {
+   "name": "被害之人",
+   "role_type": "民",
+   "affiliation": "被盗掠之家",
+   "duties": [
+    {
+     "duty": "盗掠禾稻芝麦及放火决水指名告理",
+     "from_source": "10-011"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "告理于",
+     "target": "官府",
+     "source": "10-011"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条11",
+   "confidence": 0.85,
+   "analysis": "侵损告理主体。",
+   "actor_id": "ACT-149",
+   "original": "盗掠禾稻芝麦及放火决水等项侵损，须省令被害人将来与仇隙者指名告理以凭，查审惩治，不可因无指害不与受理。",
+   "derived_rule": "XGF-R-256",
+   "item_id": "10-011",
+   "ent_ids": []
+  },
+  {
+   "name": "富家人户",
+   "role_type": "民",
+   "affiliation": "交界地方",
+   "duties": [
+    {
+     "duty": "各于交界地方传晓防守（盗贼妖邪讹言）",
+     "from_source": "10-008"
+    }
+   ],
+   "relations": [
+    {
+     "rel_type": "受命于",
+     "target": "新官",
+     "source": "10-008"
+    }
+   ],
+   "source": "10_卷下_御灾第八.xhtml#条8",
+   "confidence": 0.85,
+   "analysis": "交界传晓防守户。",
+   "actor_id": "ACT-150",
+   "original": "闻境内有盗贼、妖邪、讹言之类，须先省谕平日有见识富家人户各于交界地方传晓防守，不可容令惑众。",
+   "derived_rule": "XGF-R-253",
+   "item_id": "10-008",
+   "ent_ids": []
+  }
+ ],
+ "frauds_count": 13,
+ "frauds": [
+  {
+   "fraud": "另起民夫科敛民财修水利",
+   "mechanism": "令附近富实居民量力并工修理，不可另起民夫及科敛民财",
+   "mechanism_type": "禁行防弊",
+   "agent": "官府",
+   "target": "民夫科敛",
+   "source": "10_卷下_御灾第八.xhtml#条1",
+   "confidence": 0.88,
+   "analysis": "就近量力禁科敛。",
+   "fraud_id": "FRD-171",
+   "original": "陂、岸、塘、堰、闸损坏，即令附近富实居民量力并工修理，不可另起民夫及科敛民财。仍委信实人分投修理，若遇大水后具结呈报。",
+   "derived_rule": "XGF-R-246",
+   "item_id": "10-001"
+  },
+  {
+   "fraud": "火发抢夺财物",
+   "mechanism": "亲往视拨人救护，仍严禁抢夺",
+   "mechanism_type": "禁行防弊",
+   "agent": "官府",
+   "target": "抢夺",
+   "source": "10_卷下_御灾第八.xhtml#条2",
+   "confidence": 0.88,
+   "analysis": "火场禁抢。",
+   "fraud_id": "FRD-172",
+   "original": "旱干之时，须谕各乡及街坊火烛。倘遇火发，不分昏夜，须亲往视，拨人救护，仍严禁抢夺。",
+   "derived_rule": "XGF-R-247",
+   "item_id": "10-002"
+  },
+  {
+   "fraud": "里老总报灾伤作弊",
+   "mechanism": "开报附簿查算总撒相同申闻，亲履亩或门点踏勘，毋凭里老总报",
+   "mechanism_type": "复核防弊",
+   "agent": "新官",
+   "target": "灾报",
+   "source": "10_卷下_御灾第八.xhtml#条3",
+   "confidence": 0.93,
+   "analysis": "亲履亩+总撒比对防作弊。",
+   "fraud_id": "FRD-173",
+   "original": "遇灾伤，须出告示省谕被灾人民，将本户所种田粮委被灾者，逐一开报四至土名及该免粮数，具告以凭，附簿查算，总撒相同，即与申闻上司。亦于亲自履亩，或门点踏勘，毋凭里老总报作弊。",
+   "derived_rule": "XGF-R-248",
+   "item_id": "10-003"
+  },
+  {
+   "fraud": "假灾冒赈",
+   "mechanism": "踏勘时就问轻犯，量情罚谷或米给被灾贫民",
+   "mechanism_type": "惩罚威慑",
+   "agent": "官府",
+   "target": "假灾者",
+   "source": "10_卷下_御灾第八.xhtml#条4",
+   "confidence": 0.88,
+   "analysis": "踏勘带犯即问。",
+   "fraud_id": "FRD-174",
+   "original": "踏勘灾伤之时，就将该问轻犯有力押带，遇假就问，即于各犯名下量情罚谷或米，给被灾贫民。",
+   "derived_rule": "XGF-R-249",
+   "item_id": "10-004"
+  },
+  {
+   "fraud": "荒田久荒",
+   "mechanism": "里长及时召令开垦，如违当罪税租",
+   "mechanism_type": "惩罚威慑",
+   "agent": "里长",
+   "target": "附田之人",
+   "source": "10_卷下_御灾第八.xhtml#条5",
+   "confidence": 0.88,
+   "analysis": "召令+连罪。",
+   "fraud_id": "FRD-175",
+   "original": "遇有荒芜田地，里长须要及时召令附田人户开垦耕种，其纳粮待三年之后成熟。或逃户不行复业，量情派与收银，仍与佃种。如违里长，当罪税租，俱看附田之人。",
+   "derived_rule": "XGF-R-250",
+   "item_id": "10-005"
+  },
+  {
+   "fraud": "勘灾差委他官舞弊",
+   "mechanism": "该户自写四至呈告，查算覆勘，不可差委他官",
+   "mechanism_type": "限权防弊",
+   "agent": "官府",
+   "target": "勘灾",
+   "source": "10_卷下_御灾第八.xhtml#条6",
+   "confidence": 0.88,
+   "analysis": "覆勘主官亲办。",
+   "fraud_id": "FRD-176",
+   "original": "凡有水塌以压田土，须令该户自写四至田叚地方及该陪粮，呈告以凭，查算覆勘，不可差委他官。",
+   "derived_rule": "XGF-R-251",
+   "item_id": "10-006"
+  },
+  {
+   "fraud": "妖邪讹言惑众",
+   "mechanism": "省谕富家人户交界传晓防守，不可容令惑众",
+   "mechanism_type": "隔离防弊",
+   "agent": "富家人户",
+   "target": "妖邪讹言",
+   "source": "10_卷下_御灾第八.xhtml#条8",
+   "confidence": 0.88,
+   "analysis": "传晓防守防惑众。",
+   "fraud_id": "FRD-177",
+   "original": "闻境内有盗贼、妖邪、讹言之类，须先省谕平日有见识富家人户各于交界地方传晓防守，不可容令惑众。",
+   "derived_rule": "XGF-R-253",
+   "item_id": "10-008"
+  },
+  {
+   "fraud": "祈雨点集里老妨农",
+   "mechanism": "不可点集里老人等行礼；他役放归自行救济田业",
+   "mechanism_type": "禁行防弊",
+   "agent": "官府",
+   "target": "里老",
+   "source": "10_卷下_御灾第八.xhtml#条9",
+   "confidence": 0.88,
+   "analysis": "祈雨省集、他役放归。",
+   "fraud_id": "FRD-178",
+   "original": "凡祈祷雨泽，不可点集里老人等行礼。但当省谕耆宿、生员、官吏、僧道，躬行早领祝祷，其它役放归，自行救济田业。",
+   "derived_rule": "XGF-R-254",
+   "item_id": "10-009"
+  },
+  {
+   "fraud": "贼盗挨究无据泛查",
+   "mechanism": "先开张赌博淫宰牛马遭充警迹人家挨究不获，然后附近挨访，邻里跟寻",
+   "mechanism_type": "流程制衡",
+   "agent": "官府",
+   "target": "贼盗",
+   "source": "10_卷下_御灾第八.xhtml#条10",
+   "confidence": 0.9,
+   "analysis": "先嫌疑户后附近的两段挨究。",
+   "fraud_id": "FRD-179",
+   "original": "贼盗生发，先于地方开张赌博、淫宰牛马、遭充警迹人家挨究不获，然后将附近地方内挨访，仍要省谕邻里跟寻□路，违者治罪。亦不可泛罪总甲。如窃，五里内挨（究），强盗于十里内巡捕。",
+   "derived_rule": "XGF-R-255",
+   "item_id": "10-010"
+  },
+  {
+   "fraud": "泛罪总甲",
+   "mechanism": "亦不可泛罪总甲；窃五里内挨究，强盗十里内巡捕",
+   "mechanism_type": "限权防弊",
+   "agent": "官府",
+   "target": "总甲",
+   "source": "10_卷下_御灾第八.xhtml#条10",
+   "confidence": 0.88,
+   "analysis": "限责+分级巡查。",
+   "fraud_id": "FRD-180",
+   "original": "贼盗生发，先于地方开张赌博、淫宰牛马、遭充警迹人家挨究不获，然后将附近地方内挨访，仍要省谕邻里跟寻□路，违者治罪。亦不可泛罪总甲。如窃，五里内挨（究），强盗于十里内巡捕。",
+   "derived_rule": "XGF-R-255",
+   "item_id": "10-010"
+  },
+  {
+   "fraud": "因无指害不受理侵损",
+   "mechanism": "指名告理以凭查审惩治，不可因无指害不与受理",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "侵损案",
+   "source": "10_卷下_御灾第八.xhtml#条11",
+   "confidence": 0.88,
+   "analysis": "指名告理必须受理。",
+   "fraud_id": "FRD-181",
+   "original": "盗掠禾稻芝麦及放火决水等项侵损，须省令被害人将来与仇隙者指名告理以凭，查审惩治，不可因无指害不与受理。",
+   "derived_rule": "XGF-R-256",
+   "item_id": "10-011"
+  },
+  {
+   "fraud": "窃盗屡犯不治",
+   "mechanism": "初犯依律究治，屡犯取定供招镣杻押发笞责、呈报收减赃",
+   "mechanism_type": "惩罚威慑",
+   "agent": "官府",
+   "target": "屡犯窃盗",
+   "source": "10_卷下_御灾第八.xhtml#条12",
+   "confidence": 0.9,
+   "analysis": "初犯/屡犯分治。",
+   "fraud_id": "FRD-182",
+   "original": "窃盗初犯者，依律究治。若屡犯者，取定供招牢固镣杻押发被害之处，各行笞责，呈报收减赃，打死可也。初犯不可，须屡犯。",
+   "derived_rule": "XGF-R-257",
+   "item_id": "10-012"
+  },
+  {
+   "fraud": "失贼不告不戒",
+   "mechanism": "大写“此处有贼”告示；失贼虽无指实亦须告鸣追问地方",
+   "mechanism_type": "形式审查",
+   "agent": "官府",
+   "target": "失贼",
+   "source": "10_卷下_御灾第八.xhtml#条13",
+   "confidence": 0.88,
+   "analysis": "告示防戒+失贼告鸣。",
+   "fraud_id": "FRD-183",
+   "original": "如有盗贼生发去处，大写“此处有贼”四字告示，以便众知防戒。若遇失贼，虽无指实，亦须告鸣，追问地方。",
+   "derived_rule": "XGF-R-258",
+   "item_id": "10-013"
+  }
+ ]
+}

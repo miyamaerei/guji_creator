@@ -1,0 +1,2417 @@
+{
+ "schema_version": "kg-rule-ai-json-v1",
+ "rule_version": "rule-ai-v1",
+ "volume": "01",
+ "chapter": "卷上_体立为政事情",
+ "source_file": "01_卷上_体立为政事情.xhtml",
+ "item_count": 94,
+ "rule_count": 94,
+ "rules": [
+  {
+   "rule_id": "XGF-R-001",
+   "item_id": "01-001",
+   "type": "禁止型",
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "新官未任之先",
+   "subject": "官府（知县）",
+   "prohibited_action": "安歇官民之家或公馆庙庵等处",
+   "prohibited_effect": "不惹嫌疑",
+   "allowed_action": "",
+   "obligation_action": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条1",
+   "original": "新官未任之先，不可安歇官民之家或公馆庙庵等处，暂为择日到任，不惹嫌疑。",
+   "confidence": 0.93,
+   "analysis": "条首以『不可』禁止到任前安歇民家公馆，属到任禁忌规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-002",
+   "item_id": "01-002",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "到任行礼之前",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "预先分付礼房吏，唤取平昔惯作礼生、生员，亲自分付，开写到任仪注手本，预先窥视",
+   "object": "礼房吏、礼生、生员",
+   "purpose": "到任行礼不致差错",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条2",
+   "original": "预先分付礼房吏，唤取平昔惯作礼生、生员，亲自分付，开写到任仪注手本，预先窥视。如此到任行礼，不致差错。",
+   "confidence": 0.88,
+   "analysis": "『预先』开头构成程序指令：先分付礼房吏开写仪注手本，目标为行礼无差错。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-003",
+   "item_id": "01-003",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "到任行礼接见士夫",
+   "subject": "官府（知县）",
+   "prohibited_action": "分付之言多发",
+   "prohibited_effect": "不合民情土俗事，反惹耻笑",
+   "allowed_action": "",
+   "obligation_action": "择定到任日期时辰，城隍导引，县衙二门更换公服，祭门谢恩行礼了毕，稍退后堂变服上厅，接见士夫，务要须先斟酌，等第相宜；将祭文庙猪羊分付买办，里甲秤知分两须与屠户，陆续支应上司",
+   "object": "士夫、祭文庙猪羊",
+   "purpose": "等第相宜、合民情土俗",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条3",
+   "original": "择定到任日期时辰，城隍导引，县衙二门更换公服幞预，祭门了毕上厅就便，谢恩了毕，然后照依先开仪注次序行礼了毕，稍退后堂，变服上厅，接见士夫，回答各行相见人等之礼，务要须先斟酌，等第相宜及分付之言不宜多发，诚恐不合民情土俗事，反惹耻笑。将祭文庙猪羊分付买办，里甲秤知分两须与屠户，陆续支应上司。",
+   "confidence": 0.88,
+   "analysis": "『务要须先斟酌』为义务指令，『不宜多发』为禁止；并含到任礼程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-004",
+   "item_id": "01-004",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "到任三日之后",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "吊取礼房旧日分散胙肉历日士大夫簿籍，查勘明白，然后回望士夫，预先斟酌，可去则去，可止则止",
+   "object": "士大夫簿籍、士夫",
+   "purpose": "回拜士夫斟酌可否",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条4",
+   "original": "到任三日之后，吊取礼房旧日分散胙肉历日士大夫簿籍，查勘明白，然后回望士夫，预先斟酌，可去则去，可止则止。",
+   "confidence": 0.85,
+   "analysis": "『先……然后』构成程序：先查勘簿籍再回拜士夫，属到任交际程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-005",
+   "item_id": "01-005",
+   "type": "义务型+程序型",
+   "modals": [
+    "obligation",
+    "procedure"
+   ],
+   "condition": "交盘官库之时",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致短少、日后以便查考",
+   "allowed_action": "",
+   "obligation_action": "务要公同原旧经手官、吏门、库人等，将在库应在钱粮取出当厅对众拆见称验明白；亲手笔踪封记停当仍放入库；取具交盘官员关支及库吏人等不致短少；供给开写交盘过对象数目收入私宅备写；接管之后用心分付经手之人及巡风该吏每夜提督巡更牢固看守；次令巡风吏递巡风无事结状",
+   "object": "官库钱粮、库吏人等",
+   "purpose": "日后查考、自干系有据",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条5",
+   "original": "交盘官库，务要公同原旧经手官、吏门、库人等，即将在库应在钱粮取出，当厅对众拆见，称验明白。用亲手笔踪封记停当，仍放入库，取具交盘官员关支及库吏人等，不致短少，供给开写交盘过对象数目，收入私宅备写，日后以便查考。接管之后，用心分付经手之人及巡风该吏每夜提督巡更，牢固看守，从此自己干系，次令巡风吏递巡风无事结状。",
+   "confidence": 0.9,
+   "analysis": "『务要公同……称验明白』为核心义务，辅以封记、开写数目、看守、递结状等程序步骤。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-006",
+   "item_id": "01-006",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "凡民间伸冤、理枉、干理公务",
+   "subject": "官府（知县）",
+   "prohibited_action": "实时料量停当就便发落",
+   "prohibited_effect": "倘有差错，难以追悔",
+   "allowed_action": "",
+   "obligation_action": "务将所犯实情，各另差人缉知，方可归结",
+   "object": "差人",
+   "purpose": "归结有据",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条6",
+   "original": "凡民间伸冤，理枉干理公务，各有自然之理，但中间恐有耳目所不间，思虑所不及，异常之事，绝不可实时料量停当就便发落，倘有差错，难以追悔。务将所犯实情，各另差人缉知方可归结。",
+   "confidence": 0.93,
+   "analysis": "『绝不可实时料量停当就便发落』禁止不核实即断案，『务将……缉知方可归结』要求差人缉实后结案。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-007",
+   "item_id": "01-007",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "凡问人命重情",
+   "subject": "官府（知县）",
+   "prohibited_action": "自恃聪明辄便轻易（推问）；扭成案而枉其生；因姑息而冤其死",
+   "prohibited_effect": "人命冤枉致有凶报，隐匿实情事有反复，致有别词负累不便",
+   "allowed_action": "",
+   "obligation_action": "务要多方设法，多使平素可托心腹之人各令缉访，务要事得其情、刑服其罪",
+   "object": "心腹之人",
+   "purpose": "得其情刑服其罪，不枉不纵",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条7",
+   "original": "凡问人命重情，不可自恃聪明，辄便轻易，以理推问明白，就便申详，倘中间若有不实，不惟人命冤枉，致有凶报，抑且目下隐匿实情，事有反复，致有别词，负累不便。务要多方设法，多使平素可托心腹之人，各令缉访务要事，得其情刑服其罪，毋扭成案而枉其生，毋因姑息而冤其死。",
+   "confidence": 0.95,
+   "analysis": "『不可自恃聪明』『毋扭成案而枉其生，毋因姑息而冤其死』双重禁止，『务要多方设法……缉访』为义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-008",
+   "item_id": "01-008",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "到任数日之后（约每七八日、十日、半月一次）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "下人不敢怠慢误事",
+   "allowed_action": "",
+   "obligation_action": "夜晚亲自引人执灯，将县衙各处门户、锁钥、封皮亲看一遍",
+   "object": "县衙门户、锁钥、封皮",
+   "purpose": "防下人怠慢误事",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条8",
+   "original": "到任数日之后，或待七八日、十日、半月一次，夜晚亲自引人执灯县衙各处，门户、锁钥、封皮，亲看一遍，如此下人不敢怠慢误事。",
+   "confidence": 0.88,
+   "analysis": "『夜晚亲自……亲看一遍』为义务指令，周期性的夜巡查视制度。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-009",
+   "item_id": "01-009",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "县衙及宅院防御",
+   "subject": "官府（知县）",
+   "prohibited_action": "留小路",
+   "prohibited_effect": "吏卒人等早晚扒墙出入，通露消息，深有不便",
+   "allowed_action": "",
+   "obligation_action": "将县衙前后门户闸扳，并各宅周围墙垣修筑坚固，高耸棘剌固塞",
+   "object": "门户、墙垣",
+   "purpose": "防出入泄密",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条9",
+   "original": "将县衙前后门户闸扳，并各宅周围墙垣修筑坚固，高耸棘剌固塞，勿留小路。倘或不谨，以致吏卒人等早晚扒墙出入，通露消息，深有不便。",
+   "confidence": 0.88,
+   "analysis": "『修筑坚固……勿留小路』义务+『勿』禁止，防御泄密。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-010",
+   "item_id": "01-010",
+   "type": "义务型+处罚型",
+   "modals": [
+    "obligation",
+    "penalty"
+   ],
+   "condition": "狱中看守",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致疏虞、囚犯结通",
+   "allowed_action": "",
+   "obligation_action": "分付刑房吏三名每日在监轮流宿歇看守，起头看守之日就令本吏先递在监，轮流看守，收一处以便查考",
+   "object": "刑房吏三名、囚犯",
+   "purpose": "狱防疏虞、责任可究",
+   "deadline": "",
+   "punishment": "倘有不测之事，罪有所归",
+   "source": "01_卷上_体立为政事情.xhtml#条10",
+   "original": "分付刑房吏三名，每日在监轮流宿歇看守，或五日，或一日，那个起头看守之日，就令本吏先递在监，轮流看守几日，不致疏虞，囚犯结通，收一处，以便日后查考，倘有不测之事，罪有所归。",
+   "confidence": 0.9,
+   "analysis": "『轮流宿歇看守』为义务，『罪有所归』为责任归属式处罚约束。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-011",
+   "item_id": "01-011",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "狱囚管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致淹禁",
+   "allowed_action": "",
+   "obligation_action": "置立囚簿一扇在监，一应轻重囚犯逐日令看监吏开写实在若干名数",
+   "object": "囚簿、看监吏",
+   "purpose": "发落囚犯不致淹禁",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条11",
+   "original": "置立囚簿一扇在监，一应轻重囚犯，逐日令看监吏开写实在若干名数，以便发落囚犯，不致淹禁。",
+   "confidence": 0.88,
+   "analysis": "『置立囚簿……逐日令看监吏开写』为义务型簿记规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-012",
+   "item_id": "01-012",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "狱囚发落记录与上司清查",
+   "subject": "官府（知县）",
+   "prohibited_action": "将发落簿封送与按临官员看（以此藏掩弊端）",
+   "prohibited_effect": "弊端易为藏掩，不合律例，量情发落人犯无处查究",
+   "allowed_action": "",
+   "obligation_action": "另置囚簿一扇，将一应发落过有头尾案卷囚犯开写于上，或五日、十日誊作一次，用朱笔注摽",
+   "object": "囚簿、案卷",
+   "purpose": "狱囚发落可查",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条12",
+   "original": "另置囚簿一扇，将一应发落过有头尾案卷囚犯，开写于上，或五日、十日誊作一次，用朱笔注摽。倘或风宪法司官员按临到县，清查狱囚，吊看监簿，将此簿封送与看，如此弊端易为藏掩，不合律例，量情发落，人犯无处查究。",
+   "confidence": 0.85,
+   "analysis": "正面义务为置簿誊写注摽；末句警示封送旧簿藏掩弊端『不合律例』，隐含禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-013",
+   "item_id": "01-013",
+   "type": "义务型+处罚型",
+   "modals": [
+    "obligation",
+    "penalty"
+   ],
+   "condition": "朔望之日分付大小公事",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "公事不致迟误差错；久后免致劳神费力",
+   "allowed_action": "",
+   "obligation_action": "分付吏卒里甲人等俱各在厅，通行分付一应大小公事，各人务要经心用意、对面听说",
+   "object": "吏卒里甲人等",
+   "purpose": "公事无误、警惧人心",
+   "deadline": "",
+   "punishment": "中间倘有大胆奸顽之徒不肯经心听、东觑西望、交头接耳说话者，痛加责治；如遇前项之徒着实责罚",
+   "source": "01_卷上_体立为政事情.xhtml#条13",
+   "original": "到任数日之后，到于朔望之日，分付吏卒里甲人等俱各在厅通行分付：今后自我到任为始，凡百分付一应大小公事，各人务要经心用意，对面听说，如此公事不致迟误差错。中间倘有大胆奸顽之徒，不肯经心听我，正分付中间，他却东觑西望，交头接耳说话，痛加责治，并不虚言。如此分付，久后免致劳神费力。如遇前项之徒，着实责罚，此时人之警惧。",
+   "confidence": 0.93,
+   "analysis": "『务要经心用意对面听说』为义务，『痛加责治』『着实责罚』为违者处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-014",
+   "item_id": "01-014",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "到任数日之后",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致隐漏、以便查考",
+   "allowed_action": "",
+   "obligation_action": "分付六房吏典照依吏部验封司给领须知文册，每房各将一应不分远近未完事件逐日开报，开报完备仍具各房三人连名，事件结状一纸一同呈来，其手册并结状取收私宅遇闲验看陆续举行",
+   "object": "六房吏典、手册、结状",
+   "purpose": "未完事件查考举行",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条14",
+   "original": "到任数日之后，分付六房吏典各人，照依吏部验封司给领须知文册。每房各将一应不分远近未完事件逐日开报，手册或算本，某年月日一件为某事，因何未完，开报完备，仍具各房，三人连名，不致隐漏。事件结状一纸，一同呈来，其将手册并结状，取收私宅，遇闲验看，陆续举行，以便查考。",
+   "confidence": 0.9,
+   "analysis": "『分付六房吏典……逐日开报……连名具结状』为文书义务规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-015",
+   "item_id": "01-015",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "上司行文到县",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "日后以便查造朝觐考察文册",
+   "allowed_action": "",
+   "obligation_action": "置立奉到合于上司转行勘合文簿一本，某日奉到某衙门公文备奉某字号勘合仰本县作何施行，前件用红笔填注某日完报讫，此簿令承发吏守掌",
+   "object": "勘合文簿、承发吏",
+   "purpose": "公文查考、防弊",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条15",
+   "original": "置立奉到合于上司转行勘合文簿一本。某日奉到某衙门公文为某事备，奉某字号勘合仰本县作何施行，前件不□红笔填注某日完报讫，日后以便查造朝觐考察文册，此簿令承发吏守掌。",
+   "confidence": 0.88,
+   "analysis": "『置立……文簿……红笔填注完报……令承发吏守掌』为文书登记义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-016",
+   "item_id": "01-016",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "上司批状到县",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "吏典难以作弊",
+   "allowed_action": "",
+   "obligation_action": "置立奉到上司批状簿一本，某年月日奉到某衙门批状据某处某人告前事仰本县作何问断，前件项下某月日回讫，前件头上又用朱笔写一大‘完’字",
+   "object": "批状簿",
+   "purpose": "批状办理留痕防弊",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条16",
+   "original": "置立奉到上司批状簿一本。某年月日，奉到某衙门批状据某处某人告前事，仰本县作何问断，前件项下某月日回□讫，前件头上，又用朱笔写一大“完”字，一个如此，吏典难以□弊。",
+   "confidence": 0.88,
+   "analysis": "『置立批状簿……朱笔写完字』为防弊文书义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-017",
+   "item_id": "01-017",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "词状受理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "下人不敢作弊、以便查考",
+   "allowed_action": "",
+   "obligation_action": "置立本县受理词状簿一扇，每三日受理词状一次，该受理之日将一应词状通记注写，某日受状若干列项开某里某人告某里某人某事，问完一纸勾销",
+   "object": "词状簿、状子",
+   "purpose": "词状查考、防作弊",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条17",
+   "original": "置立本县受理词状簿一扇。每三日受理词状一次，该受理那一日，将一应词状通记注写。某日受状若干，列项开某里某人告某里某人等，某事底下差何勾唤，以便查考概日那一日受到状子数日，下人不敢作弊，问完一纸勾销。",
+   "confidence": 0.88,
+   "analysis": "『每三日受理词状一次』『通记注写』『问完勾销』为词状管理义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-018",
+   "item_id": "01-018",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "出票管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "以便查考，深为便益",
+   "allowed_action": "",
+   "obligation_action": "置立本县出票文簿一扇，勾告状之人票帖就行计写告状簿下外，其余一应公事批票通写此簿文上",
+   "object": "出票文簿、批票",
+   "purpose": "出票留痕查考",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条18",
+   "original": "置立本县出票文簿一扇。除将勾告状之人票帖就行计写告状簿下外，其余该一应公事，批票通写此簿文上，以便查考，深为便益。",
+   "confidence": 0.85,
+   "analysis": "『置立出票文簿……批票通写』为票务登记义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-019",
+   "item_id": "01-019",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "递送囚犯交接",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "吏典不敢卖放囚犯",
+   "allowed_action": "",
+   "obligation_action": "置立接递文簿一扇，某月奉某衙门牌帖递到囚犯若干名，某日差何人转递何衙门交割，用红笔注写回关到日方才勾销",
+   "object": "接递文簿、囚犯",
+   "purpose": "囚犯交接留痕防卖放",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条19",
+   "original": "置立接递文簿一扇。某月奉某衙门牌帖，或准某□□文□何事递到囚犯若干名，某日差何人转递，何衙门交割，记□件，下用红笔注写回关到日，方才勾销，如此吏典不敢卖放囚犯。",
+   "confidence": 0.88,
+   "analysis": "『置立接递文簿……红笔注写回关到日方才勾销』为囚犯递解留痕义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-020",
+   "item_id": "01-020",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "差人递送囚犯",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致疏虞",
+   "allowed_action": "",
+   "obligation_action": "量事轻重，可差那等之人递送，及可用人多寡亦要斟酌",
+   "object": "递送之人",
+   "purpose": "递送无疏虞",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条20",
+   "original": "差人递送囚犯，量事轻重，可差那等之人递送，及可用人多寡亦要斟酌，不致疏虞。",
+   "confidence": 0.85,
+   "analysis": "『量事轻重……亦要斟酌』为差遣斟酌义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-021",
+   "item_id": "01-021",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "清军编审",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "军数相合原额、递年查照",
+   "allowed_action": "",
+   "obligation_action": "置立清军簿一扇，将概县原额各里军数若干各等项目，分付兵房吏典并原在房贴写书手通行查出，务要将各项之数相合原额，总收录一本收入库内，递年将解过军役于此簿上通行查照",
+   "object": "清军簿、兵房吏典、书手",
+   "purpose": "军役数目可查",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条21",
+   "original": "置立清军簿一扇。即将概县原额各里军数若干，中间见在各卫着役若干纪录，若干跟捉，若干挨无，若干户绝，若干见解，若干再有别行事故等项，若干遇闲，分付兵房吏典，并原在房贴写书手通行查出。务要将各项之数相合原额，总收录一本，收入库内，递年将解过军役于此簿上，通行查照。",
+   "confidence": 0.88,
+   "analysis": "『置立清军簿……务要将各项之数相合原额』为清军造册义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-022",
+   "item_id": "01-022",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "公罚财物管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "以便查考、以便花销",
+   "allowed_action": "",
+   "obligation_action": "置立公罚文簿一扇，公罚纸札等物记写某月某人为某事量罚何物若干，常要记写，此簿自己收掌",
+   "object": "公罚文簿",
+   "purpose": "公罚财物留痕",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条22",
+   "original": "置立公罚文簿一扇。虽有见行事例禁革罚治，但有司若全依事例，凡事不能得斟酌，公罚纸札等物，记写某月某人为某事量罚何物若干，常要记写，以便查考。倘有词讼，以便花销，此簿自己收掌。",
+   "confidence": 0.85,
+   "analysis": "『置立公罚文簿……常要记写……自己收掌』为罚没财物登记义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-023",
+   "item_id": "01-023",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "紧要文簿管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "比较深为便益",
+   "allowed_action": "",
+   "obligation_action": "将各项置立紧要文簿数本，俱令承发吏守掌，每日遇闲验看比较",
+   "object": "紧要文簿、承发吏",
+   "purpose": "文簿验看比较",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条23",
+   "original": "将各项置立紧要文簿数本。俱令承发吏守掌，每日遇闲验看，比较深为便益。",
+   "confidence": 0.85,
+   "analysis": "『俱令承发吏守掌，每日遇闲验看』为文簿日常管理义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-024",
+   "item_id": "01-024",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "上司公文下发",
+   "subject": "官府（知县）",
+   "prohibited_action": "轻易忽略就一边",
+   "prohibited_effect": "有误大事",
+   "allowed_action": "",
+   "obligation_action": "将上司发下一应公文，务要从看一遍，方下六房",
+   "object": "上司公文",
+   "purpose": "公文无误、不误大事",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条24",
+   "original": "将上司发下一应公文，务要从看一遍方下六房。不可轻易忽略就一边，有误大事。",
+   "confidence": 0.93,
+   "analysis": "『务要从看一遍方下六房』义务+『不可轻易忽略』禁止，公文审阅规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-025",
+   "item_id": "01-025",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "到任个月之间",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "比较公事有章可循",
+   "allowed_action": "",
+   "obligation_action": "将各项簿籍定立规矩停当，从此缓缓生发比较公事",
+   "object": "簿籍",
+   "purpose": "公事比较有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条25",
+   "original": "到任个月之间，将各项簿籍定立规矩，停当及后，从此缓缓生发，比较公事。",
+   "confidence": 0.8,
+   "analysis": "『将各项簿籍定立规矩』为簿籍制度化义务，语义较弱。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-026",
+   "item_id": "01-026",
+   "type": "义务型+处罚型",
+   "modals": [
+    "obligation",
+    "penalty"
+   ],
+   "condition": "吏役勤惰考核",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "人知惧怕，不敢迟错误事",
+   "allowed_action": "",
+   "obligation_action": "将六房吏典里老门库隶兵人等每日窥视，那个勤谨不误公事、那个赖惰常误公事俱各留记在心，遇闲将各样簿籍验看，查出未完事件通行比较",
+   "object": "六房吏典里老门库隶兵人等",
+   "purpose": "勤惰奖惩有据",
+   "deadline": "",
+   "punishment": "勤谨小心之人饶责，误事大胆之徒着实责罚",
+   "source": "01_卷上_体立为政事情.xhtml#条26",
+   "original": "将六房吏典里老、门库、隶兵人等，每日窥视。那个勤谨，不误公事？那个赖惰，常误公事？俱各留记在心，遇闲将前项各样簿籍验看，查出未完事件，通行比较。勤谨小心之人饶责，误事大胆之徒着实责罚。如此人知惧怕，不敢迟错误事。",
+   "confidence": 0.9,
+   "analysis": "『每日窥视……留记在心』义务考核，『勤谨饶责、误事责罚』奖惩处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-027",
+   "item_id": "01-027",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "上司紧急公文",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致迟误",
+   "allowed_action": "",
+   "obligation_action": "将上司发下十分紧急公文，随即先将中间紧关字样用小纸一块抄写，粘贴书案之上，常看",
+   "object": "紧急公文",
+   "purpose": "防公文迟误",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条27",
+   "original": "将上司发下十分紧急公文，随即先将中间紧关字样用小纸一块抄写，粘贴书案之上，常看自公文，不致迟误。",
+   "confidence": 0.88,
+   "analysis": "『随即先将紧关字样抄写粘贴书案常看』为紧急公文盯办义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-028",
+   "item_id": "01-028",
+   "type": "禁止型+程序型",
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "上司急密重事差人到县或公文入铺来到",
+   "subject": "官府（知县）",
+   "prohibited_action": "令吏卒人等知会消息发露",
+   "prohibited_effect": "事难完结、消息泄露",
+   "allowed_action": "",
+   "obligation_action": "先将公文袖入私宅，处置停当，将事毕方下六房",
+   "object": "急密公文",
+   "purpose": "机密不泄、事得完结",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条28",
+   "original": "上司倘有急密重事差人到县，或公文入铺来到，勿令吏卒人等知会消息发露。事难完结，先将公文袖入私宅，处置停当，将事毕，方下六房。",
+   "confidence": 0.93,
+   "analysis": "『勿令吏卒人等知会消息发露』禁止泄密，『先袖入私宅处置停当方下六房』为机密处置程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-029",
+   "item_id": "01-029",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "上司差人到县催办公事",
+   "subject": "官府（知县）",
+   "prohibited_action": "阿谀奉承；十分怠慢",
+   "prohibited_effect": "加厚相待则人人营求前来，交浅望深倘不遂意反结仇恨坏事",
+   "allowed_action": "",
+   "obligation_action": "务要量事之轻重，视人之高低应付",
+   "object": "上司差人",
+   "purpose": "应付得体、免生仇怨",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条29",
+   "original": "上司差人到县催办公事，务要量事之轻重，视人之高低应付，不可阿谀奉承，亦不可十分怠慢。如加厚相待，上司手下之人闻知，个个营求前来，如是交浅望深，倘不遂意，反结仇恨坏事。",
+   "confidence": 0.93,
+   "analysis": "『务要量事之轻重视人之高低应付』义务，『不可阿谀奉承，亦不可十分怠慢』双向禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-030",
+   "item_id": "01-030",
+   "type": "时限型+处罚型",
+   "modals": [
+    "deadline",
+    "penalty"
+   ],
+   "condition": "凡遇勾摄公事（按里分距城远近）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "如此公事易完",
+   "allowed_action": "",
+   "obligation_action": "将概县里分分为三等，离城三十里限一日到，六十里限二日到，九十里限三日到，用大字书写贴于书案两傍，稽考差去之人",
+   "object": "差去之人、各里",
+   "purpose": "催办公事有程限",
+   "deadline": "离城三十里限一日、六十里限二日、九十里限三日",
+   "punishment": "违限一日打三十，至四十已上加罚公用之物",
+   "source": "01_卷上_体立为政事情.xhtml#条30",
+   "original": "将概县里分，分为三等：离城三十里限一日到，离城六十里限二日，到离城九十里限三日到。用大字书写贴于书案两傍，凡遇勾摄公事，稽考差去之人甘受其罪。违限一日，打三十，至四十已上，加罚公用之物，如此公事易完。",
+   "confidence": 0.95,
+   "analysis": "『限一日/二日/三日』明确程限，『违限一日打三十，加罚公用之物』为对应处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-031",
+   "item_id": "01-031",
+   "type": "禁止型+允许型",
+   "modals": [
+    "prohibit",
+    "allow"
+   ],
+   "condition": "凡勾摄公事",
+   "subject": "官府（知县）",
+   "prohibited_action": "差皂隶、快手、兵人等下乡生事害人",
+   "prohibited_effect": "致生不虞，负累不便",
+   "allowed_action": "差各里里长，转令甲首拘与",
+   "obligation_action": "",
+   "object": "皂隶快手兵人／里长甲首",
+   "purpose": "免生事害民",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条31",
+   "original": "凡勾摄公事，不可差皂隶、快手、兵人等下乡生事害人，致生不虞，负累不便。止许差各里里长，转令甲首拘与。",
+   "confidence": 0.96,
+   "analysis": "『不可差皂隶快手兵人下乡』禁止+『止许差里长转令甲首』允许，为经典禁止+允许组合规则。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-032",
+   "item_id": "01-032",
+   "type": "允许型+禁止型+程序型",
+   "modals": [
+    "allow",
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "公事催办（小节/大事）",
+   "subject": "官府（知县）",
+   "prohibited_action": "拘勾泛滥一概出票，致使小民轻易不惧官法",
+   "prohibited_effect": "小民不惧官法、票务混乱",
+   "allowed_action": "凡有小节公事只可用言语分付催办完结不必出票；如有大事不能结绝或各样差使不完方才出票；勾到人名，照名先点到者书上‘到’字，一个不到者名字傍边记‘不’字，分付再行拘去",
+   "obligation_action": "",
+   "object": "票帖、勾到之人",
+   "purpose": "轻重有别、催办有据",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条32",
+   "original": "凡有小节公事，只可用言语分付催办完结，不必出票。如有大事，不能结绝，或各样差使不完，方才出票。拘勾不可泛滥，一概出票，致使小民轻易不惧官法。及票俱用县印一颗，其勾人到县，照名先点到者，名字之上书“到”字。一个不到者，名字傍边记写“不”字一个，分付再行拘去。宜待事完之日，将票涂抹，亦还收库，日后以便查考。",
+   "confidence": 0.9,
+   "analysis": "『小节只可用言语分付、大事方才出票』允许+『拘勾不可泛滥』禁止+『点名注到、事完涂抹还库』程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-033",
+   "item_id": "01-033",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "访察民情（到任之后）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "小民各肯用心访事，深为便益",
+   "allowed_action": "",
+   "obligation_action": "访知可托殷实百姓数十人，各另密密分付，凡百行事何事有益于民何事有害于民何事可行何事当止，十分用心缉访着实，遇闲无人去处一件件来说；此言语连妻子也不要说知",
+   "object": "殷实百姓",
+   "purpose": "缉访民情、防弊漏",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条33",
+   "original": "将前项勤谨之人数内，及在外殷实百姓，访知可托数十之人，各另密密分付：自我到任之后，凡百行事，何事有益于民，何事有害于民，何事可行，何事当止，你与我十分用心缉访着实。遇闲无人去处，与我一件件来说，如果你与我尽心，你无私弊，就是你扶持我做官第一件好事。我如今做官，虽时下无有照顾你处，日后人心服顺我，我那时虽不要钱，却照顾你个富贵。此言，你妻子也不要说知。一个个俱要这等言语，各另哄说，致使小民各肯用心，访事凡百行事，深为便益。",
+   "confidence": 0.85,
+   "analysis": "『密密分付……用心缉访着实』为秘密访察民情义务，含保密要求。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-034",
+   "item_id": "01-034",
+   "type": "义务型+处罚型+禁止型",
+   "modals": [
+    "obligation",
+    "penalty",
+    "prohibit"
+   ],
+   "condition": "设立直老（到任之后，按庄户多寡）",
+   "subject": "官府（知县）",
+   "prohibited_action": "听纵喉舌士夫、刁泼并写状之人讨论，将无作有将有作无，为报复私仇；直老赵甲在外乘机诓骗财物",
+   "prohibited_effect": "致生别端、民情失真",
+   "allowed_action": "",
+   "obligation_action": "省令各里里老，每一庄有人户三四十家者设立直老一名，七八十家者设立二名，城市街面胡同相离五七十家者亦设立一名，就令本地方人民连名举保身家无过、行止端正之人，各取执结在官备照；分付直里每月初一日俱各来县，以礼相待，审问军民通弊利病，每月点写一件各另呈来",
+   "object": "直老、里老、保举人民",
+   "purpose": "军民利病可闻、事有归责",
+   "deadline": "每月初一日",
+   "punishment": "直老无呈报者打四十大棍；听纵士夫刁泼讨论事发痛加责罚，并将原保直老之人通行责罚",
+   "source": "01_卷上_体立为政事情.xhtml#条34",
+   "original": "到任之后，省令各里里老，每一庄有人户三四十家者，设立直老一名。有七八十家者，设立直老二名。城市街面胡同相离五七十家者，亦设立一名。就令本地方人民连名举保，今本地方新设直老、赵甲，平素身家无过，行止端正，情愿保举本人在县听察军民利病等情，赵甲倘后在外乘机诓骗财物，将无作有，将有作无，或怀报私仇，致生别端，某人等甘当重罪。各取执结，在官备照。分付直里每月初一日俱各来县，以礼相待，立站两傍审问：自我到任之后，本县凡有军民通弊利病，各照地方每月初一日到县，每月点写一件。料想众人禀说老爷廉干，无有弊病，此言哄说，行至半年或三四个月之上，另分付你每，哄我不肯举行。待每月初一日，每点写一件，各另呈来，我试验你每心法。勿令一人知之，本职自有处置。如无者，打四十大棍，仍分付各人自己，直言书写本官某官吏贪赃，何事不平，某军民欺公，因何害事，别情亦然。却不许听纵喉舌士夫，乃刁泼并写状之人讨论，将无作有，将有作无，为报复私仇事发，痛加责罚。及将原前保你每直老之人通行责罚，又分付你每原保直老、赵甲公平，今赵甲举事不公。如此施行，万事无失。（你每=你们）",
+   "confidence": 0.9,
+   "analysis": "设立直老并连名举保为制度义务，『打四十大棍』『痛加责罚』『通行责罚』为处罚，『不许听纵士夫刁泼讨论』为禁止，属制度+义务+处罚+禁止复合规则。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-035",
+   "item_id": "01-035",
+   "type": "义务型+禁止型+处罚型+允许型",
+   "modals": [
+    "obligation",
+    "prohibit",
+    "penalty",
+    "allow"
+   ],
+   "condition": "学校作兴（到任三四个月之后）",
+   "subject": "官府（知县）",
+   "prohibited_action": "太过致使师生交浅望深不遂私意反惹怪恨；不切致生挟仇排陷",
+   "prohibited_effect": "反惹怪恨、挟仇排陷",
+   "allowed_action": "其应免差徭，止免廪增生员（附学不免）",
+   "obligation_action": "只是用心处之平易；待到任三四个月之间稍知民情，朔望行香到学抽签讲书一次照例会馔，有进益者俱各宿号读书，区画纸笔灯油柴炭等物赏赐勉励，依例除免人丁当差，务要等第相待使人各肯尽心仿效奋志读书",
+   "object": "师生、廪增生员",
+   "purpose": "学校兴、士人奋志",
+   "deadline": "",
+   "punishment": "如无进益者着实责打",
+   "source": "01_卷上_体立为政事情.xhtml#条35",
+   "original": "学校凡事作兴，虽然却不可太过，致使师生交浅望深，不遂私意，反惹怪恨。亦不可不切，致生挟仇排陷。只是用心处之平易，免至口舌。待到任三四个月之间，稍知民情，朔望行香，到学抽签讲书一次，照例会馔，即将中间有进益者，俱各宿号读书区画纸笔、灯油、柴炭等物赏赐勉励，依例除免人丁当差。如无进益者，着实责打，务要等第相待，使人各肯尽心仿效，奋志读书。其应免差徭，止免廪增生员（附学不免），致使初进之人奋志。",
+   "confidence": 0.9,
+   "analysis": "『不可太过』『亦不可不切』双向禁止，『朔望行香到学讲书』等为义务，『无进益者着实责打』处罚，『止免廪增生员』允许。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-036",
+   "item_id": "01-036",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "士夫差徭优免",
+   "subject": "官府（知县）",
+   "prohibited_action": "容令入县替人嘱托说事",
+   "prohibited_effect": "嘱托营私",
+   "allowed_action": "",
+   "obligation_action": "将概县士夫人等应免差徭，依例就便除免",
+   "object": "士夫人等",
+   "purpose": "优免有度、防嘱托",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条36",
+   "original": "将概县士夫人等应免差徭，依例就便除免，不可容令入县替人嘱托说事。",
+   "confidence": 0.9,
+   "analysis": "『依例除免』义务+『不可容令入县替人嘱托说事』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-037",
+   "item_id": "01-037",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "把门皂隶轮值",
+   "subject": "官府（知县）",
+   "prohibited_action": "闲杂人等一个入县探听事情",
+   "prohibited_effect": "致惹别端",
+   "allowed_action": "",
+   "obligation_action": "将把门皂隶均拨，或三日或五日轮流一遍，分付经心时时把守",
+   "object": "把门皂隶",
+   "purpose": "防探听滋事",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条37",
+   "original": "将把门皂隶均拨，或三日，或五日，轮流一遍。分付经心时时把守，不许闲杂人等一个入县探听事情，致惹别端。守把日久，人心生怨。",
+   "confidence": 0.9,
+   "analysis": "『轮流把守』义务+『不许闲杂入县探听』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-038",
+   "item_id": "01-038",
+   "type": "程序型+允许型+禁止型",
+   "modals": [
+    "procedure",
+    "allow",
+    "prohibit"
+   ],
+   "condition": "士夫禀见（县衙头门）",
+   "subject": "官府（知县）",
+   "prohibited_action": "不肯写者进入（不登记放行）",
+   "prohibited_effect": "出入无稽",
+   "allowed_action": "写了方许入县",
+   "obligation_action": "将县衙头门设立听缺吏一名或阴阳医生俱各轮流守把，置立印信文簿一本，凡有士夫要禀见就令本人于簿上亲写某年月日某人为某事赴县来说",
+   "object": "听缺吏、印信文簿、士夫",
+   "purpose": "出入登记可稽",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条38",
+   "original": "将县衙头门设立听缺吏一名，或阴阳、医生，俱各轮流守把。置立印信文簿一本，凡有士夫要禀见，就令本人在于簿上亲写某年月日，某人为某事赴县来说，写了方许入县，不肯写不许进入。",
+   "confidence": 0.9,
+   "analysis": "『写了方许入县，不肯写不许进入』为允许+禁止组合的出入登记程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-039",
+   "item_id": "01-039",
+   "type": "程序型+处罚型",
+   "modals": [
+    "procedure",
+    "penalty"
+   ],
+   "condition": "接状之日递状",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "置立木牌一面吊挂面里影壁之上，遇接状之日告状之人牌下立站，聚有三五个人将牌手执赴县递状",
+   "object": "木牌、告状之人",
+   "purpose": "递状有序",
+   "deadline": "",
+   "punishment": "若把门之人敢有当拦掯要财者，许令告状之人口告痛责",
+   "source": "01_卷上_体立为政事情.xhtml#条39",
+   "original": "置立木牌一面，吊挂面里影壁之上。遇接状之日，告状之人牌下立站，聚有三五个人，将牌手执赴县递状。若把门之人敢有当拦掯要财者，许令告状之人口告痛责。",
+   "confidence": 0.9,
+   "analysis": "执牌递状为程序，『把门人当拦掯要财者许令口告痛责』为处罚条款。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-040",
+   "item_id": "01-040",
+   "type": "允许型+禁止型",
+   "modals": [
+    "allow",
+    "prohibit"
+   ],
+   "condition": "告状递状日期",
+   "subject": "官府（知县）",
+   "prohibited_action": "余日打搅（递状）",
+   "prohibited_effect": "政务秩序受扰",
+   "allowed_action": "每月三六九日方许递状，立定牌下立站执牌进入；其人命、强盗等项重情不在限次",
+   "obligation_action": "",
+   "object": "告状之人",
+   "purpose": "放告有序、重情不限",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条40",
+   "original": "告示众告状之人，每月三六九日方许递状。立定牌下立站，执牌进入，余日不许打搅，其人命、强盗等项重情不在限次。",
+   "confidence": 0.93,
+   "analysis": "『每月三六九日方许递状』允许+『余日不许打搅』禁止，重情例外。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-041",
+   "item_id": "01-041",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "词状受理审理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "将状子不分有理无理俱各接下，省令告状之人明日来朝听审，当夜用心将状逐一参看，可受理者紧关去处用笔标下，次日只在红笔去处审理；如无理者将状扯毁赶出，若中间十分冤枉者日后未免再来告理，如无理者灰心罢词",
+   "object": "状子、告状之人",
+   "purpose": "词状审阅有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条41",
+   "original": "将状子不分有理无理，俱各接下。省令告状之人，俱各明日来朝听审。当夜用心将状逐一参看，可受理者紧关去处，□笔标下，次日只在红笔去处审理。如无理者，将状扯毁赶出，若中间十分冤枉者，日后未免再来告理；如无理者，灰心罢词。",
+   "confidence": 0.88,
+   "analysis": "『接状→听审→当夜参看→次日审红笔处』为完整审理程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-042",
+   "item_id": "01-042",
+   "type": "义务型+禁止型+处罚型",
+   "modals": [
+    "obligation",
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "拘人到县发落",
+   "subject": "官府（知县）",
+   "prohibited_action": "在县饮酒作乐，延迟不去",
+   "prohibited_effect": "有妨农业",
+   "allowed_action": "",
+   "obligation_action": "预告示仰本县人民知会，凡一应大小公事拘人到，随到随入就行，发落了毕即回家各生理",
+   "object": "拘到之人",
+   "purpose": "不误农时",
+   "deadline": "",
+   "punishment": "缉知不饶",
+   "source": "01_卷上_体立为政事情.xhtml#条42",
+   "original": "预告示仰本县人民知会，凡有一应大小公事，拘人到随到，随入就行，发落了毕，即回家各生理。不可在县饮酒作乐，延迟不去，有妨农业，缉知不饶。",
+   "confidence": 0.93,
+   "analysis": "『随到随入就行发落了毕即回家』义务，『不可在县饮酒作乐』禁止，『缉知不饶』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-043",
+   "item_id": "01-043",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "拘唤被告到县问理",
+   "subject": "官府（知县）",
+   "prohibited_action": "一概淹禁人难",
+   "prohibited_effect": "致惹怨恨",
+   "allowed_action": "",
+   "obligation_action": "将被告人等拘唤到县问理，先行照依票帖查点完销；如果事实无疑难，斗打相争一切小事对面审理明白；即便量情责打发落",
+   "object": "被告人等",
+   "purpose": "小事速结、不致淹禁",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条43",
+   "original": "将被告人等拘唤到县问理，先行照依票帖查点完销。如果事实无疑难，斗打相争一切小事，对面审理明白。即便量情责打发落，不可一概淹禁人难，致惹怨恨。",
+   "confidence": 0.93,
+   "analysis": "『先行查点票帖→小事对面审理→量情责打发落』程序，『不可一概淹禁』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-044",
+   "item_id": "01-044",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "刁诈词讼审理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "方得明白",
+   "allowed_action": "",
+   "obligation_action": "将刁诈词讼拘人到县问理，先将原告分付甬路两边，干证之人当面对排开跪下不许交头接耳说话，先将事内紧关一人证佐叫到书案傍取下各样重刑吓问，说知着甬路左边，又叫一人照前吓问，回话了毕着甬路右边一个个背问，若三人相同不必再追究；如过十分刁□势要之家、人命等项重情，将门子皂隶喝叱远离，将证佐之人一个个照前叫于书案前桌下肯审真情",
+   "object": "原告、干证、证佐之人",
+   "purpose": "口供互证得实",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条44",
+   "original": "将刁诈词讼，拘人到县问理。先将原告分付甬路两边，及将干证之人当面对排开跪下，不许交头接耳说话。先将事内紧关一人证佐叫到书案傍，取下各样重刑，吓问：“若你不说实话，交你目下了不得。此事实情我已访知了。”说知着甬路左边，又叫一人照前吓问，回话了毕，着甬路右边一个个背问，若三人相同，不必再追究。如果过十分刁□势要之家，人命等项重情，将门子、皂隶喝叱远离，将证佐之人一个个照前叫于书案前桌下肯审真情，方得明白。",
+   "confidence": 0.88,
+   "analysis": "『先……又叫……一个个背问，若三人相同不必再追究』为隔离讯问+背审互证程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-045",
+   "item_id": "01-045",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "审问强盗窃盗",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "件件各得实情，良民不致妄举",
+   "allowed_action": "",
+   "obligation_action": "问强盗窃盗，先将该获贼几人一个个各另背审打劫某人家、因何说起、打劫情由、平日先曾打劫何人家，背审明白又问何处聚集、何人、用何器械、先从何处入宅、到宅内曾否拏住、主家何人、有何言语吓说、先入某房内打劫出何物、到于何处分散、及后因何事发拏、获几人，务要将见获贼人个个各另背问，要见设谋之时王大曾否有何言语、分财之时王大分去何物，俱要言语相同定有王大，如有一人言语不同定无王大",
+   "object": "获贼之人、王大",
+   "purpose": "口供互证、防妄攀",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条45",
+   "original": "问强盗、窃盗，先将该获贼几人一个个各另背审，打劫某人家？因何说起？打劫情由？平日先曾打劫何人家？今日方才说起，平日不曾做贼打劫何人，今日怎么说起？此节背审明白，又问何处聚集？何人？用何器械？先从何处入宅？到宅内曾否拏住？主家何人？有何言语吓说？先入某房内打劫出何物？到于何处分散？及后因何事发拏？获几人？在官倘在攀出同行上盗几人，中闲恐有挟仇妄攀出一人王大，务要将见获贼人个个各另背问。要见设谋之时，王大曾否有何言语？或□合，或起初时，有也分财之时，王大分去何物？俱要言语相同，定有王大。如有一人言语不同，定无王大。如此设法问理，件件各得实情，良民不致妄举。",
+   "confidence": 0.88,
+   "analysis": "『一个个各另背审』『言语相同定有、不同定无』为逐人背审互证程序，防挟仇妄攀。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-046",
+   "item_id": "01-046",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "重情案卷保管",
+   "subject": "官府（知县）",
+   "prohibited_action": "轻易与人看（重情案卷）",
+   "prohibited_effect": "疏虞、泄密",
+   "allowed_action": "",
+   "obligation_action": "问完强窃盗贼人命等项重情案卷，放房内偏僻架阁之上，分付各吏经心暗记，倘上司用勘以便取用",
+   "object": "重情案卷、刑房",
+   "purpose": "案卷防泄、取用有据",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条46",
+   "original": "问完强窃盗贼人命等项重情案卷，刑房不可轻易与人□见。房内偏僻架阁之上垛放，分付各吏经心暗记，倘上司□本县用勘，以便取用及又不致疏虞。",
+   "confidence": 0.88,
+   "analysis": "『不可轻易与人见』禁止案卷外泄，『架阁垛放经心暗记』为保管义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-047",
+   "item_id": "01-047",
+   "type": "义务型+禁止型+处罚型",
+   "modals": [
+    "obligation",
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "六房门禁",
+   "subject": "官府（知县）",
+   "prohibited_action": "擅入六房探听消息、窥视卷宗",
+   "prohibited_effect": "消息泄露、卷宗失窃",
+   "allowed_action": "",
+   "obligation_action": "将六房门首俱用栅栏，吏兵房门总开小门，散堂之后将门锁闭，上堂之时开门不分是何人等",
+   "object": "六房、闲杂人等",
+   "purpose": "防探听窥视",
+   "deadline": "",
+   "punishment": "拏住一人，在房务要打问招出实问不应罪名，其本房吏典俱要责罚",
+   "source": "01_卷上_体立为政事情.xhtml#条47",
+   "original": "将六房门首俱用栅栏，吏兵房门总开小门，散堂之后，将门锁闭。上堂之时，开门不分是何人等，不许擅入六房探听消息，窥视卷宗。拏住一人，在房务要打问招出，实问不应罪名，其本房吏典，俱要责罚。",
+   "confidence": 0.93,
+   "analysis": "『散堂锁闭』义务+『不许擅入六房探听窥视』禁止+『拏住打问、本房吏典责罚』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-048",
+   "item_id": "01-048",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "书手设置",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致差错",
+   "allowed_action": "",
+   "obligation_action": "将概县原设书手每里一年更换一名常川在县，除免维泛差徭；另外每里又报曾经应当书手、年深多知里中弊病深知地理好否人户贫富事情一名，不用常川在县，倘或清军分粮新换书手不知，旋唤来县使用",
+   "object": "书手",
+   "purpose": "清军分粮有熟手可用",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条48",
+   "original": "将概县原设书手，每里一年更换一名，常川在县，除免维泛差徭。另外每里又报曾经应当书手，年深多知里中弊病，深知地理好否，人户贫富事情一名，不用常川在县。倘或清军分粮，新换书手不知，旋唤来县使用，不致差错。",
+   "confidence": 0.85,
+   "analysis": "『每里一年更换一名』『另报熟手一名备用』为书手轮换与储备义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-049",
+   "item_id": "01-049",
+   "type": "义务型+禁止型+处罚型+允许型",
+   "modals": [
+    "obligation",
+    "prohibit",
+    "penalty",
+    "allow"
+   ],
+   "condition": "编审赋役（今后）",
+   "subject": "官府（知县）",
+   "prohibited_action": "变乱那移；交头接耳说话；书手不实开报",
+   "prohibited_effect": "赋役不均、经年词讼不绝",
+   "allowed_action": "斟酌不定误写前后者，许令更改均平；若有亏枉者，许令本人攀告",
+   "obligation_action": "将各里赋役务要从公查造，即将各里黄册格眼并赋役册籍吊取在官，拘集各里里老新旧书手，革在三处，将黄册并赋役先与新旧书手分付各里人户见在若干不论财产多少答配一处，先写次序了毕将书手责令一壁等候，却分付老人亦照前开写，老人内不识字者却令另里书手代写完备，却令里长开写，俱各写完通行分付，将人户作四等，次日将各派房次序名字俱写告示晓谕里老人户照依这等次序",
+   "object": "里老、新旧书手、里长、人户",
+   "purpose": "次序均平、贫民不致靠损",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条49",
+   "original": "将各里赋役，务要从公查造，中间多因经年赃官在县，俱被刁民势要挟制掣肘难行，以此不敢变乱那移，止应旧造定赋役派差，中间多有不均，以致经年词讼不绝。今后即将各里黄册格眼并赋役册籍吊取在官，拘集各里里老、新旧书手，桌凳一张，大纸五七十张，绝早到县，里长、老人、书手，革在三处，不许交头接耳说话。将黄册并赋役先与新旧书手，分付各里人户见在若干，不论财产多少，答配一处，谁可做第一户，谁可做第二户，其余仿此。若你怕人户与你为冤，不□从实开报，目今就令里老各另写一张，你写不□□□□□八十大板，吓唬书手，先写次序了毕，将书手责令一壁等候。却分付老人，亦照前开写，如老人内有不识字者，却令另里书手代写完备递了，却令里长开写，俱各写完，通行分付，中间将人户作四等。斟酌不定，误写前后者，许令更改均平，明日不许。次日将各派房次序、名字俱写告示，晓谕里老人户照依这等次序，若有亏枉者，许令本人攀告。如此人户方得次序均平，贫民不致靠损，差使亦将颠倒。",
+   "confidence": 0.93,
+   "analysis": "『务要从公查造』义务+『不许交头接耳』禁止+『八十大板』『责罚』处罚+『许令更改均平、许令攀告』允许，赋役编审复合规则。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-050",
+   "item_id": "01-050",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "问理公事用刑",
+   "subject": "官府（知县）",
+   "prohibited_action": "抢夺刑法；预先使钱买免用刑之人",
+   "prohibited_effect": "轻重之间甘苦十倍、偏苦不公",
+   "allowed_action": "",
+   "obligation_action": "每日分付皂隶东西两班立站，凡要用刑或是东班、西班第几个过来用刑，正用中间却又使别个过来；如不这等置一签通写各名字，抽叫用刑",
+   "object": "皂隶东西两班",
+   "purpose": "用刑公允、防买免",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条50",
+   "original": "问理公事，每日分付皂隶东西两班立站，倘要用刑，不许抢夺刑法，中间预买之人，轻重之间，甘苦十倍。人后凡要用刑，或是东班、西班，第几个过来用刑，正用中间，却又使别个过来，如不这等，置一签通写各名字，抽叫用刑。如此，轻则不能偏苦，行之日久，人心恐怕临时不遇，不肯预先使钱买免。",
+   "confidence": 0.9,
+   "analysis": "『不许抢夺刑法』禁止+『置签抽叫用刑』程序，防刑责偏私买免。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-051",
+   "item_id": "01-051",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "问理轻重词讼遇刁泼偏执之徒言语相激",
+   "subject": "官府（知县）",
+   "prohibited_action": "乘怒用刑太过",
+   "prohibited_effect": "致惹别端",
+   "allowed_action": "",
+   "obligation_action": "务要暂息忿怒，且将众人收入监内，再行散思，处治发落，凡事无失",
+   "object": "刁泼之徒、偏执鲁夫",
+   "purpose": "息怒慎刑",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条51",
+   "original": "问理轻重词讼，一时倘遇刁泼之徒，或遇偏执鲁夫不通人事，言语相激冒犯，绝不可乘怒用刑太过，致惹别端。务要暂息忿怒，且将众人收入监内，再行散思，处治发落，凡事无失。",
+   "confidence": 0.93,
+   "analysis": "『绝不可乘怒用刑太过』禁止+『务要暂息忿怒……再行散思处治』义务，怒中慎刑。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-052",
+   "item_id": "01-052",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "问理大小词讼（口供供状管理）",
+   "subject": "官府（知县）",
+   "prohibited_action": "烧毁供状底札或拿空便去处积放；令供状人带去",
+   "prohibited_effect": "案卷疏虞、日后致生别情",
+   "allowed_action": "",
+   "obligation_action": "问理大小词讼，先摘口词在官，然后责令供状毕，即将供状底札尽行收取",
+   "object": "口词、供状底札",
+   "purpose": "供状留档可查",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条52",
+   "original": "问理大小词讼，先摘口词在官，然后责令供状毕，即将供状底札尽行收取。不可烧毁或拿空便去处积放，倘后案卷疏虞，寻用底札以便查勘，不可令供状人带去，日后致生别情。",
+   "confidence": 0.93,
+   "analysis": "『先摘口词→责令供状→收取底札』程序，『不可烧毁』『不可令供状人带去』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-053",
+   "item_id": "01-053",
+   "type": "禁止型",
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "凡告大小词状，上无写状之人姓名、贯址者",
+   "subject": "官府（知县）",
+   "prohibited_action": "准理（无姓名贯址之状）",
+   "prohibited_effect": "词状无稽",
+   "allowed_action": "",
+   "obligation_action": "",
+   "object": "写状之人",
+   "purpose": "词状实名可稽",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条53",
+   "original": "告示。凡告大小词状，上无写状之人姓名、贯址者，俱不准理。",
+   "confidence": 0.93,
+   "analysis": "『俱不准理』禁止受理无姓名贯址词状，属受理资格规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-054",
+   "item_id": "01-054",
+   "type": "义务型+程序型",
+   "modals": [
+    "obligation",
+    "procedure"
+   ],
+   "condition": "发落罪囚",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致疏虞",
+   "allowed_action": "",
+   "obligation_action": "发落罪囚及别样轻罪犯人招议停当，罪轻之人在外听候，罪重之人监候申详，夜晚遇闲亲去监内点查上视封锁罪人",
+   "object": "罪囚、轻罪犯人",
+   "purpose": "罪罚轻重有序、狱防疏虞",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条54",
+   "original": "发落罪囚及别样轻罪犯人，招议停当，罪轻之人在外听候，罪重之人监候申详，夜晚遇闲，亲去监内点查上视封锁罪人，不致疏虞。",
+   "confidence": 0.88,
+   "analysis": "『招议停当』『罪轻在外听候、罪重监候申详』『夜晚亲点查』为发落与狱查程序义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-055",
+   "item_id": "01-055",
+   "type": "义务型+禁止型+处罚型",
+   "modals": [
+    "obligation",
+    "prohibit",
+    "penalty"
+   ],
+   "condition": "监牢防守",
+   "subject": "官府（知县）",
+   "prohibited_action": "忽略、虚应故事",
+   "prohibited_effect": "狱防疏虞",
+   "allowed_action": "",
+   "obligation_action": "将监内墙垣房屋修筑高厚坚固，多用剌棘囤寨，夜晚内外俱用人夫巡绰呼应；刑房吏三名常川轮流在监宿歇提督犯人",
+   "object": "墙垣、人夫、刑房吏",
+   "purpose": "狱防严密",
+   "deadline": "",
+   "punishment": "倘有疏虞，罪有所归",
+   "source": "01_卷上_体立为政事情.xhtml#条55",
+   "original": "将监内墙垣、房屋修筑高厚坚固，多用剌棘囤寨。夜晚内外俱用人夫巡绰呼应，不可忽略，虚应故事。刑房吏三名，常川轮流在监宿歇提督犯人，倘有疏虞，罪有所归。",
+   "confidence": 0.93,
+   "analysis": "『修筑坚固』『人夫巡绰』『刑房吏轮宿提督』义务+『不可忽略虚应故事』禁止+『疏虞罪有所归』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-056",
+   "item_id": "01-056",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "狱具预备",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致吏卒残毁",
+   "allowed_action": "",
+   "obligation_action": "将监内房门锁钥铁索等项俱用壮实，所有一应刑法肘镣、铁锁、夹棍、拶指、刑枷等件俱用要多置预备；上司案临仍将数目置个簿籍令刑房吏记写",
+   "object": "锁钥铁索、刑具、簿籍",
+   "purpose": "狱具齐备防残毁",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条56",
+   "original": "将监内房门锁钥铁索等项，俱用壮实，其将所有一应刑法肘镣、铁锁、夹棍、拶指、刑枷等件，俱用要多置预备。上司案临，仍将数目置个簿籍，令刑房吏记写，如此不致吏卒残毁。",
+   "confidence": 0.88,
+   "analysis": "『俱用壮实』『多置预备』『置簿籍令刑房吏记写』为狱具预备与登记义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-057",
+   "item_id": "01-057",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "监内看守与狱情保密",
+   "subject": "官府（知县）",
+   "prohibited_action": "令送饭家人到监；在监犯人（不分轻重）与在外人接见",
+   "prohibited_effect": "透漏狱情，致惹别患",
+   "allowed_action": "",
+   "obligation_action": "监内可用禁子六七人常川在内看守，分付把门",
+   "object": "禁子、送饭家人、在监犯人",
+   "purpose": "狱情保密",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条57",
+   "original": "监内可用禁子六七人，常川在内看守，分付把门。禁子不许令送饭家人到监，及在监犯人，不分轻重，不许与在外人接见，透漏狱情，致惹别患。",
+   "confidence": 0.93,
+   "analysis": "『禁子常川看守』义务+『不许令送饭家人到监』『不许犯人接见外人』禁止透漏狱情。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-058",
+   "item_id": "01-058",
+   "type": "义务型+处罚型",
+   "modals": [
+    "obligation",
+    "penalty"
+   ],
+   "condition": "公馆府厅器物管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "将本县布按三司公馆府厅原设一应床帐、器皿、桌椅等件，俱要置立木牌一面逐件开写于上，各另经手门子收掌看守应用",
+   "object": "床帐器皿桌椅、门子",
+   "purpose": "器物数目可查",
+   "deadline": "",
+   "punishment": "日后倘有短少损坏，责令经手之人赔补",
+   "source": "01_卷上_体立为政事情.xhtml#条58",
+   "original": "将本县布按三司公馆府厅，原设有一应床帐、器皿、桌椅等件，俱要置立木牌一面，逐件开写于上。各另经手门子收掌看守应用，日后倘有短少损坏，责令经手之人赔补。",
+   "confidence": 0.9,
+   "analysis": "『置立木牌逐件开写、门子收掌』义务+『短少损坏责令赔补』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-059",
+   "item_id": "01-059",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "各衙门差徭（日常）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "稍加恩惠、免生诽谤",
+   "allowed_action": "",
+   "obligation_action": "将各衙门差徭量为除免，稍加恩惠",
+   "object": "各衙门差徭",
+   "purpose": "结好衙门防诽谤",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条59",
+   "original": "将各衙门差徭，量为除免，稍加恩惠。倘遇上司到县，一时询问官吏贤否，诚恐人乘机诽谤，有坏大事。",
+   "confidence": 0.8,
+   "analysis": "『量为除免稍加恩惠』为笼络性义务，语义较宽。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-060",
+   "item_id": "01-060",
+   "type": "允许型",
+   "modals": [
+    "allow"
+   ],
+   "condition": "衙门应用对象原旧数少",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "添用便益",
+   "allowed_action": "止可将坛庙、铺舍、路傍官树木伐毁，修治家伙，添用",
+   "obligation_action": "",
+   "object": "坛庙铺舍官树木",
+   "purpose": "家伙添用",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条60",
+   "original": "前项各衙门应用对象，原旧数少，止可将坛庙、铺舍、路傍官树木伐毁，修治家伙，添用便益。",
+   "confidence": 0.8,
+   "analysis": "『止可』允许伐用官树修治家伙的变通条款，语义为有限允许。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-061",
+   "item_id": "01-061",
+   "type": "禁止型",
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "六房办事（升堂画卯后）",
+   "subject": "官府（知县）",
+   "prohibited_action": "科敛民财买办；无事一人在堂闲立假公营私窥视官府行事细故；乘机诓骗财物；闲游各房妄语捏事勾引别端",
+   "prohibited_effect": "民财受损、别端滋生",
+   "allowed_action": "",
+   "obligation_action": "有事唤某人来听分付了毕，即便回房办事",
+   "object": "六房吏典",
+   "purpose": "吏务专一防弊",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条61",
+   "original": "告示六房，每日升堂画卯毕，不可科敛民财买办。各房办事，无事不许一人在堂闲立，假公营私，窥视官府行事细故。及乘机诓骗财物，有事唤某人来听分付了毕，即便回房办事，不许闲游各房，妄语捏事，勾引别端。",
+   "confidence": 0.93,
+   "analysis": "『不可科敛民财』『不许闲立窥视』『不许闲游妄语』多项禁止，规范吏房行为。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-062",
+   "item_id": "01-062",
+   "type": "义务型+允许型+处罚型",
+   "modals": [
+    "obligation",
+    "allow",
+    "penalty"
+   ],
+   "condition": "县内巡视",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "但有在官人数行事不公，许令本人告禀",
+   "obligation_action": "置立巡视木牌，每日早辰亲拨皂隶一名提牌在县前后巡视",
+   "object": "皂隶、巡视木牌",
+   "purpose": "行事不公可纠",
+   "deadline": "",
+   "punishment": "如本人知而通同不行禀告，事发一体治罪",
+   "source": "01_卷上_体立为政事情.xhtml#条62",
+   "original": "置立巡视木牌，每日早辰，亲拨皂隶一名，提牌在县前后巡视。但有在官人数行事不公，许令本人告禀。如本人知而通同，不行禀告，事发一体治罪。",
+   "confidence": 0.9,
+   "analysis": "『亲拨皂隶提牌巡视』义务+『许令告禀』允许+『通同不禀告一体治罪』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-063",
+   "item_id": "01-063",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "仓库交盘之后",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "官物不致侵欺",
+   "allowed_action": "",
+   "obligation_action": "仓库交盘了毕钱粮无亏少差错，就将原旧门、库俱各革退，推访离城五七十里住座殷实之家志诚儿男更换使用；凡收官物亦不要本人经手，另发殷实老人及乖觉吏典收受",
+   "object": "原旧门库、殷实老人、吏典",
+   "purpose": "官物防侵欺",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条63",
+   "original": "到任数日之间，仓库交盘了毕，钱粮无有亏少差错，就将原旧门、库，俱各革退，推访离城五七十里住座殷实之家志诚儿男更换使用。凡收官物，亦不要本人经手，另发殷实老人及乖觉吏典收受，如此官物不致侵欺。",
+   "confidence": 0.88,
+   "analysis": "『革退旧门库更换殷实之家』『另发老人吏典收受』为仓库人事更换义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-064",
+   "item_id": "01-064",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "支应上司出办下程（本年）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "里甲庶得苏醒，取物又以便益",
+   "allowed_action": "",
+   "obligation_action": "在官支应上司出办下程之类，先依前该官吏规矩将就接管施行；直待本年十月交替里长之时预先定为三等，上里中里下里各量为出办若干，三样俱收中半，或收齐备令的当乖觉里老并可托吏典公同前去出产大米油蜡纸札等物地方收买来县官库收贮，令十分可托之人三二人经收，支应上司",
+   "object": "里长、里老、吏典、官库",
+   "purpose": "支应省钱、里甲苏息",
+   "deadline": "本年十月交替里长之时",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条64",
+   "original": "在官支应上司出办下程之类，先依前该官吏规矩将就接管施行，若便更改，倘里甲先有出过者，有浅薄里分逃躲未出者，有出办多半或少半者，则事体不一，难以遵守。直待本年十月交替里长之时，预先定为三等。上里量为出办若干，中里若干，下里若干，三样俱收中半，或收齐备令的当乖觉里老，并可托吏典公同前去，出产大米、油蜡、纸札等物地方，收买来县官库收贮，令十分可托之人三二人经收，支应上司，公用亦此省钱，比如前官文应费用减省十倍。里甲庶得苏醒，取物又以便益。",
+   "confidence": 0.85,
+   "analysis": "『先依前规接管』『十月预先定三等』『公同收买贮库』为支应物资程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-065",
+   "item_id": "01-065",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "纸札收支管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "纸札不致作践",
+   "allowed_action": "",
+   "obligation_action": "将里甲出办并陆续区罚治纸札俱各收入官库，某日某吏领那样纸若干书办何样文书就令本吏亲手支写，过闲提磨一次",
+   "object": "纸札、官库",
+   "purpose": "纸札收支留痕",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条65",
+   "original": "将里甲出办并陆续区罚治，纸札俱各收入官库，某日某吏领那样纸若干，书办何样，文书就令本吏亲手支写。过闲提磨一次，如此纸札不致作践。",
+   "confidence": 0.85,
+   "analysis": "『俱各收入官库』『本吏亲手支写』『提磨』为纸札出入管理义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-066",
+   "item_id": "01-066",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "官物收贮",
+   "subject": "官府（知县）",
+   "prohibited_action": "令门库经自专侵欺",
+   "prohibited_effect": "官物侵欺",
+   "allowed_action": "",
+   "obligation_action": "将在官一应收贮官物，俱照各项设法令人经手出入支销",
+   "object": "官物、门库",
+   "purpose": "官物出入有控",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条66",
+   "original": "将在官一应收贮官物，俱照各项设法令人经手出入支销，勿令门库经自专侵欺。",
+   "confidence": 0.9,
+   "analysis": "『令人经手出入支销』义务+『勿令门库自专侵欺』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-067",
+   "item_id": "01-067",
+   "type": "禁止型",
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "六房贴写主文管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "即便革去六房贴写文案主文",
+   "prohibited_effect": "倘有异常难处之事吏典不能作做，深为未便",
+   "allowed_action": "",
+   "obligation_action": "",
+   "object": "贴写、文案主文",
+   "purpose": "留熟手备难事",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条67",
+   "original": "将六房贴写文案主文，不可即便革去。倘有异常难处之事，吏典不能作做，深为未便。",
+   "confidence": 0.88,
+   "analysis": "『不可即便革去』禁止裁撤贴写主文熟手，属用人留任规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-068",
+   "item_id": "01-068",
+   "type": "禁止型",
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "到任之后对贴写主文的态度",
+   "subject": "官府（知县）",
+   "prohibited_action": "分付禁革；显出容留",
+   "prohibited_effect": "熟手去留失当、政务阻滞",
+   "allowed_action": "",
+   "obligation_action": "凡有疑难出文令该吏做来，虽不到似此将就凡事不致阻滞",
+   "object": "该吏、贴写主文",
+   "purpose": "疑难有吏可办",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条68",
+   "original": "到任之后，也不要分付禁革，亦不要显出容留。凡有疑难，出文令该吏做来，我改吏典及不能自己亲笔做，未免转求文起摘为官者，只虽不到似此将就，凡事不致阻滞。",
+   "confidence": 0.85,
+   "analysis": "『不要分付禁革』『亦不要显出容留』双重禁止，保持贴写主文去留模糊以备用。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-069",
+   "item_id": "01-069",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "缉访谙晓刑名吏典",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "本人方肯留心",
+   "allowed_action": "",
+   "obligation_action": "预先缉访刑房曾积年在县曾经刷卷谙晓刑名一二人有用可托吏典，遇闲唤叫后堂抚恤分付，以礼使用",
+   "object": "刑房吏典",
+   "purpose": "备用谙晓刑名之人",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条69",
+   "original": "预先缉访刑房曾积年在县，曾经刷卷，谙晓刑名一二人，有用可托吏典，遇闲唤叫后堂，抚恤分付：你且回去，待后有事便来叫你。如此以礼使用，本人方肯留心。",
+   "confidence": 0.8,
+   "analysis": "『预先缉访……以礼使用』为人才储备性义务，语义较软。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-070",
+   "item_id": "01-070",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "机密文卷安置",
+   "subject": "官府（知县）",
+   "prohibited_action": "闲杂人等擅入（书房），透漏消息或偷扯卷案；要人在内读书（假书房）",
+   "prohibited_effect": "消息透漏、卷案偷扯，深为未便",
+   "allowed_action": "",
+   "obligation_action": "将后堂或前堂左右空闲去处假指修盖书房，倘有急密重事文卷申达、刁民公文或递年须知文册俱各安置在内，禁将在官闲杂人等个个不许擅入",
+   "object": "急密文卷、须知文册、闲杂人等",
+   "purpose": "机密文卷防泄",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条70",
+   "original": "将后堂或前堂左右空闲去处，假指修盖书房，却不要□人在内读书。倘有急密重事文卷申达、刁民公文或递年须知文册，俱各安置在内，禁将在官闲杂人等，个个不许擅入，透漏消息或偷扯卷案，深为未便。",
+   "confidence": 0.9,
+   "analysis": "『俱各安置在内』『禁……个个不许擅入』为机密文卷保密义务+禁止闲杂擅入。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-071",
+   "item_id": "01-071",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "刑名律例研习",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "难处之事不致求人",
+   "allowed_action": "",
+   "obligation_action": "将用刑名律例时时经心参看，遇有疑难事在于盖书房之内或后宅便益去处，唤叫通晓刑名人常川讲论",
+   "object": "刑名律例、通晓刑名人",
+   "purpose": "刑名娴熟",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条71",
+   "original": "将用刑名律例，时时经心参看。遇有疑难事，在于盖书房之内或后宅便益去处，唤叫通晓刑名人常川讲论，庶得难处之事，不致求人。",
+   "confidence": 0.85,
+   "analysis": "『时时经心参看』『常川讲论』为刑名研习义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-072",
+   "item_id": "01-072",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "分派粮差",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "里老难以作弊及更改数目多寡",
+   "allowed_action": "",
+   "obligation_action": "将概县里分贫富时时用心访察人户贫富地出薄厚，务要分为次序；凡遇分派粮差照依里分力量，亲自分派总数目以定各里",
+   "object": "里分、人户",
+   "purpose": "粮差分派公允",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条72",
+   "original": "将概县里分贫富，时时用心访察人户贫富，地出薄厚，务要分为次序。凡遇分派粮差，照依里分力量，亲自分派总数目，以定各里，里老难以作弊及更改数目多寡。",
+   "confidence": 0.88,
+   "analysis": "『访察贫富务要分为次序』『亲自分派总数目』为粮差分派义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-073",
+   "item_id": "01-073",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "六房吏典日常管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "容令一时闲睱静中寻思搜求事端、害人要钱",
+   "prohibited_effect": "吏弊害民",
+   "allowed_action": "",
+   "obligation_action": "每日过令各人诵律，除兵刑户三房日每公事繁多少读外，其余者每日令多读上一二十项，如此逼迫不惟日后出仕有用抑且目下工夫不暇寻常害人",
+   "object": "六房吏典",
+   "purpose": "以读律占工夫、防吏害民",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条73",
+   "original": "将六房吏典，不可容令一时闲睱静中寻思搜求事端、害人要钱。每日过令各人诵律，除兵、刑、户三房，日每公事繁多少读外，其余者每日令多读上一二十项。如此逼迫，不惟日后出仕有用，抑且目下工夫，不暇寻常害人。",
+   "confidence": 0.9,
+   "analysis": "『不可容令闲睱搜求事端害人要钱』禁止+『每日令诵律』义务，以诵律防吏弊。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-074",
+   "item_id": "01-074",
+   "type": "义务型+处罚型",
+   "modals": [
+    "obligation",
+    "penalty"
+   ],
+   "condition": "六房文书验看",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "以警将来，深为便益",
+   "allowed_action": "",
+   "obligation_action": "遇闲暇之时亲去六房看架上文书，冒扯一宗验看，如少略节者分付去便补完",
+   "object": "架上文书",
+   "purpose": "文书完具",
+   "deadline": "",
+   "punishment": "如头尾不相样者，就便责材，以警将来",
+   "source": "01_卷上_体立为政事情.xhtml#条74",
+   "original": "遇闲暇之时，亲去六房看架上文书，冒扯一宗验看，如少略节者即骂，分付去便补完。如头尾不相样者，就便责材，以警将来，深为便益。",
+   "confidence": 0.85,
+   "analysis": "『亲去六房冒扯验看』义务抽检，『头尾不样者责材』处罚。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-075",
+   "item_id": "01-075",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "六房办公条件",
+   "subject": "官府（知县）",
+   "prohibited_action": "笔墨纸札欠缺；作践秽污；容闲人入房闲搅",
+   "prohibited_effect": "误公事、人心不静",
+   "allowed_action": "",
+   "obligation_action": "将六房卷架桌凳砚瓦置立停当，笔墨纸札务要修理齐备，常川省令打扫洁净，务使人心安静专意书辨",
+   "object": "卷架桌凳砚瓦笔墨纸札",
+   "purpose": "办公齐备专心",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条75",
+   "original": "将六房卷架、桌凳、砚瓦，置立停当。笔墨、纸札，一时不可欠缺，又不许作践秽污，务要修理齐备。常川省令打扫洁净，勿容闲人入房闲搅，务使人心安静，专意书辨，勿误公事。",
+   "confidence": 0.9,
+   "analysis": "『置立停当』『修理齐备』『打扫洁净』义务+『不可欠缺』『勿容闲人入房闲搅』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-076",
+   "item_id": "01-076",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "风宪上司出巡",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "以便预备、以便闻报",
+   "allowed_action": "",
+   "obligation_action": "预先责者闲吏一名前去行□州县打探，比较何事催办何差又要询问，大人禀性好减省好奉承，以便预备；及将比较过事件用手本报写来县",
+   "object": "闲吏、手本",
+   "purpose": "迎接预备有据",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条76",
+   "original": "风宪上司出巡，预先责者闲吏一名前去行□州县打探，比较何事催办，何差又要询问，大人禀性好减省，好奉承，以便预备。及将比较过事件，用手本报写来县，以便闻报。",
+   "confidence": 0.85,
+   "analysis": "『预先……打探……报写』为迎接上司的预探义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-077",
+   "item_id": "01-077",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "桥梁道路经雨损坏、风闻上司将到",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "无碍行走，深为便益",
+   "allowed_action": "",
+   "obligation_action": "本县桥梁道路倘遇天雨连绵水满沟渠有碍经行，风闻上司将到，先差的当老人或能干吏典带领人夫前去经过路上修筑平垣",
+   "object": "老人、吏典、人夫、道路",
+   "purpose": "道路无碍行走",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条77",
+   "original": "本县桥梁道路，倘遇天雨连绵，水满沟渠，有碍经行。风闻上司将到，先差的当老人或能干吏典带领人夫前去经过路上修筑平垣，无碍行走，深为便益。",
+   "confidence": 0.88,
+   "analysis": "『先差……带领人夫修筑平垣』为雨损道路抢修义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-078",
+   "item_id": "01-078",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "手本预备",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致费心",
+   "allowed_action": "",
+   "obligation_action": "将六房应递手本专令表背匠人或惯熟折迭书籍之人预先折迭一二百本，长短阔狭各要齐整，倘上司到县倚托的当一人提督开写",
+   "object": "表背匠人、手本",
+   "purpose": "手本齐备",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条78",
+   "original": "将六房应递手本，专令表背匠人或惯熟折迭书籍之人，预先折迭一二百本。长短阔狭，各要齐整。倘上司到县，倚托的当一人提督开写，常时如此，不致费心。",
+   "confidence": 0.85,
+   "analysis": "『专令……预先折迭……各要齐整』为手本预备义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-079",
+   "item_id": "01-079",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "上司按临到县",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "勿致有误",
+   "allowed_action": "",
+   "obligation_action": "预先着差巡捕官员或能干吏典带领少壮夫马在于该管地界迎接，宁可等候",
+   "object": "巡捕官员、吏典、夫马",
+   "purpose": "迎接无误",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条79",
+   "original": "将上司内按临到县，预先着差巡捕官员或能干吏典，带领少壮夫马在于该管地界迎接，宁可等候，勿致有误。",
+   "confidence": 0.88,
+   "analysis": "『预先着差……迎接，宁可等候』为迎送义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-080",
+   "item_id": "01-080",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "上司到县（用刑具呈送）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "将应用各项肘镣、绳索、夹棍、拶指、竹片粗细棍板俱要写手本，随到未曾拜见先令刑房吏送",
+   "object": "肘镣绳索夹棍拶指竹片棍板、刑房吏",
+   "purpose": "用刑之具先备",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条80",
+   "original": "将应用各项肘镣、绳索、夹棍、拶指、竹片粗细棍板，俱要写手本，随到未曾拜见，先令刑房吏送。",
+   "confidence": 0.8,
+   "analysis": "『俱要写手本，先令刑房吏送』为刑具呈送程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-081",
+   "item_id": "01-081",
+   "type": "义务型+程序型",
+   "modals": [
+    "obligation",
+    "procedure"
+   ],
+   "condition": "布按二司按临（上司到县）",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "有助声价、终是心上喜欢",
+   "allowed_action": "",
+   "obligation_action": "将布按二司前左右起盖空房三间，如无官地民间空闲房屋借用两三间；凡有上司到县遇先两三日呼唤平素可托通晓行移能书算写书手二三人伺候上司，倘有发出公文随到众人分写即便回报；拜见先递手木毕出司便递下程，铺陈诸事各要齐整豊盛",
+   "object": "空房、书手、下程铺陈",
+   "purpose": "接待齐整、公文速办",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条81",
+   "original": "将布按二司，前左右起盖空房三间，如无官地，民间空闲房屋，借用两三间。凡有上司到县，遇先两三日呼唤平素于可托通晓行移，能书算写书手二三人伺候上司。倘有发出公文，随到众人分写，即便回报，有助声价。拜见先递手木毕，出司便递下程。铺陈诸事，各要齐整豊盛，中间多有不肯收受，终是心上喜欢。故曰：“周公不受礼，也怪不来人。”",
+   "confidence": 0.85,
+   "analysis": "『起盖空房』『书手伺候分写公文』『先递手木毕出司便递下程』为接待程序+义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-082",
+   "item_id": "01-082",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "夜晚值守",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "戒备无误",
+   "allowed_action": "",
+   "obligation_action": "夜晚分付巡风吏提铃，及分付钟鼓分明，不惟上司在县中，常常如此",
+   "object": "巡风吏、钟鼓",
+   "purpose": "更鼓戒备",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条82",
+   "original": "夜晚分付巡风吏提铃，及分付钟鼓分明，不惟上司在县中，常常如此。",
+   "confidence": 0.8,
+   "analysis": "『分付巡风吏提铃、钟鼓分明，常常如此』为夜间更鼓义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-083",
+   "item_id": "01-083",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "到县行事",
+   "subject": "官府（知县）",
+   "prohibited_action": "擅自更改（行事规则）",
+   "prohibited_effect": "政务失序",
+   "allowed_action": "",
+   "obligation_action": "待六房吏典每日行事，如各有条款照依旧行；如有一件事行的无有条叚不合人情，却照咱每写上规矩",
+   "object": "六房吏典",
+   "purpose": "行事有章程",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条83",
+   "original": "到县凡百行事，不可擅自更改。待六房吏典每日行事，如各有条款，照依旧行。如有一件事行的无有条叚，不合人情，却照咱每写上规矩。",
+   "confidence": 0.93,
+   "analysis": "『不可擅自更改』禁止+『有条款照依旧行、无条款写规矩』义务，行政延续性规范。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-084",
+   "item_id": "01-084",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "凡征收各项钱粮",
+   "subject": "官府（知县）",
+   "prohibited_action": "令大户那移多收",
+   "prohibited_effect": "事发负累不便",
+   "allowed_action": "",
+   "obligation_action": "各要照依上司原定价银数目征收",
+   "object": "大户、钱粮",
+   "purpose": "征收有则、防大户那移",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条84",
+   "original": "凡征收各项钱粮，各要照依上司原定价银数日征收，不可令大户那移多收，事发负累不便。",
+   "confidence": 0.93,
+   "analysis": "『照依上司原定价银征收』义务+『不可令大户那移多收』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-085",
+   "item_id": "01-085",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "岁办钱粮申报",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "勿致有误",
+   "allowed_action": "",
+   "obligation_action": "将每年岁办钱粮并一应申报上司，日报依章日月食□□件，六房用大字类写书案傍边，常接乎日",
+   "object": "六房、钱粮",
+   "purpose": "申报无误",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条85",
+   "original": "将每年岁办钱粮并一应申报上司，日报依章日月食□□件，六房用大字类写书案傍边，常接乎日，勿致有误。",
+   "confidence": 0.8,
+   "analysis": "『用大字类写书案傍边，常接乎日』为钱粮申报盯办义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-086",
+   "item_id": "01-086",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "吏典抚恤",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "小人肯尽心力",
+   "allowed_action": "",
+   "obligation_action": "六房通晓刑名行移吏典，常加抚恤",
+   "object": "通晓刑名行移吏典",
+   "purpose": "得吏尽力",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条86",
+   "original": "六房通晓刑名行移吏典，常加抚恤，致使小人肯尽心力。",
+   "confidence": 0.8,
+   "analysis": "『常加抚恤』为笼络吏典义务，语义较软。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-087",
+   "item_id": "01-087",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "仕宦之家安顿",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "不致阴害",
+   "allowed_action": "",
+   "obligation_action": "将本县仕宦之家常加好言安顿，遇有不害于事的方便；亦要缉访各家违法等事记之防攻",
+   "object": "仕宦之家",
+   "purpose": "安顿防阴害、留底防攻",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条87",
+   "original": "将本县仕宦之家，常加好言安顿，遇有不害于事的，事情£成方便如此，不致阴害。亦要缉访各家违法等事，记之防攻。",
+   "confidence": 0.8,
+   "analysis": "『常加好言安顿』『亦要缉访各家违法等事记之防攻』为乡宦应对义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-088",
+   "item_id": "01-088",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "作官大体",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "凡事无失、手下人不敢恃爱",
+   "allowed_action": "",
+   "obligation_action": "作官大概之法常要谨慎，戒暴怒之性；少发喜中言",
+   "object": "",
+   "purpose": "持身谨慎",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条88",
+   "original": "作官大概之法，常要谨慎，戒暴怒之性，凡事无失。少发喜中言，手下人不敢恃爱。",
+   "confidence": 0.85,
+   "analysis": "『常要谨慎戒暴怒』『少发喜中言』为作官持身义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-089",
+   "item_id": "01-089",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "宅内作息",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "宅内置木梆一个，五更时一声令把门皂隶公廨内摇铃，第一次省令，第二次吏兴，上堂签押公文，皂隶站堂方出",
+   "object": "木梆、把门皂隶",
+   "purpose": "作息有序",
+   "deadline": "五更",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条89",
+   "original": "宅内置木梆一个，五更时一声，令把门皂隶公廨内摇铃。第一次省令，第二次吏兴，上堂签押公文，皂隶站堂方出。",
+   "confidence": 0.8,
+   "analysis": "『五更一声→省令→吏兴→上堂签押』为梆铃作息程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-090",
+   "item_id": "01-090",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "委别县催粮",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "到时粮则完矣",
+   "allowed_action": "",
+   "obligation_action": "委别县催粮先行牌，多置刑具以畏百姓，吾则缓行",
+   "object": "刑具、牌",
+   "purpose": "先声夺人、粮完",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条90",
+   "original": "委别县催粮先行牌，多置刑具，以畏百姓，吾则缓行，到时粮则完矣。",
+   "confidence": 0.72,
+   "analysis": "『先行牌、多置刑具、缓行』为委县催粮的威慑策略程序，语义近权术，置信调低。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-091",
+   "item_id": "01-091",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "学校或废坏",
+   "subject": "官府（知县）",
+   "prohibited_action": "辄申上司（学校废坏时）",
+   "prohibited_effect": "贻累上司、事体张扬",
+   "allowed_action": "",
+   "obligation_action": "出俸资十两，同僚并教官各出少许，士夫富民各认定若干写上，令儒官收在县一本在学一本，终不经手",
+   "object": "俸资、儒官",
+   "purpose": "废校自修、不经吏手",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条91",
+   "original": "学校或废坏，不可辄申上司。我出俸资十两，同僚并教官各出少许，士夫富民各认定若干，写上。令儒官收在县一本，在学一本，终不经手。",
+   "confidence": 0.9,
+   "analysis": "『不可辄申上司』禁止动辄上请，『出俸资募修、令儒官收管不经手』为自筹修复义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-092",
+   "item_id": "01-092",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "早堂中堂晚堂士夫来见",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "相见有序",
+   "allowed_action": "",
+   "obligation_action": "凡士夫来见，仰把门皂隶持禀帖预禀，然后次序相见",
+   "object": "把门皂隶、禀帖、士夫",
+   "purpose": "接见有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条92",
+   "original": "早堂、中堂、晚堂，凡士夫来见，仰把门皂隶持禀帖预禀，然后次序相见。",
+   "confidence": 0.85,
+   "analysis": "『持禀帖预禀，然后次序相见』为士夫接见程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-093",
+   "item_id": "01-093",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "司内应用家伙管理",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "免致怪责",
+   "allowed_action": "",
+   "obligation_action": "将司内应用家伙俱要照依原置木牌数日点查齐，备厨房亦要洁净",
+   "object": "司内家伙、厨房",
+   "purpose": "器物齐整、厨房洁净",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条93",
+   "original": "将司内应用家伙，俱要照依原置木牌数，日点查齐。备厨房亦要洁净，免致怪责。",
+   "confidence": 0.85,
+   "analysis": "『照依木牌数日点查齐』『厨房洁净』为器物卫生义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-094",
+   "item_id": "01-094",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "封皮纸裁制（公文防伪）",
+   "subject": "官府（知县）",
+   "prohibited_action": "忽略（封皮防伪之法）",
+   "prohibited_effect": "下人摘揭作弊",
+   "allowed_action": "",
+   "obligation_action": "凡封皮纸俱要横裁，使下人不敢摘揭",
+   "object": "封皮纸",
+   "purpose": "公文防伪",
+   "deadline": "",
+   "punishment": "",
+   "source": "01_卷上_体立为政事情.xhtml#条94",
+   "original": "凡封皮纸，俱要横裁，使下人不敢摘揭。若摘揭，则便破矣。此皮传之有自，不可忽略。",
+   "confidence": 0.88,
+   "analysis": "『俱要横裁』义务（防伪工艺），『不可忽略』禁止废弃防伪之法。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  }
+ ]
+}

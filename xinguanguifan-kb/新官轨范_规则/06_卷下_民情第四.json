@@ -1,0 +1,497 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "06",
+ "chapter": "卷下_民情第四",
+ "chapter_no": "06",
+ "source_file": "06_卷下_民情第四.xhtml",
+ "item_count": 14,
+ "rule_item_count": 12,
+ "rule_count": 14,
+ "rules": [
+  {
+   "rule_id": "XGF-R-086",
+   "type": "时限型+义务型+程序型",
+   "primary_type": "时限型",
+   "is_combo": true,
+   "modals": [
+    "deadline",
+    "obligation",
+    "procedure"
+   ],
+   "condition": "赈恤不限丰凶",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "将赈济缘由申禀上司，预要岁一举行",
+   "prohibited_effect": "",
+   "object": "济缘由申禀上司",
+   "purpose": "",
+   "deadline": "丰凶，每遇青黄不接之时；日量情给散",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条1",
+   "original": "赈恤不限丰凶，每遇青黄不接之时，将粮挨次限日量情给散。收粮时就征还，先期须将赈济缘由申禀上司，预要岁一举行。",
+   "original_offset": {
+    "start": 0,
+    "end": 54
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】赈恤不限丰凶时，官府（知县）应将赈济缘由申禀上司，预要岁一举行。【场景】赈恤不限丰凶事项须在丰凶，每遇青黄不接之时；日量情给散内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 1
+  },
+  {
+   "rule_id": "XGF-R-087",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "闲废",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条2",
+   "original": "及时省令人户，于空闲地内，随地土所宜种栽各项树木，不可闲废。里老催督，但有因时报数，遇出行时，见有空闲地方，追问责发警众。",
+   "original_offset": {
+    "start": 0,
+    "end": 61
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若闲废，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 2
+  },
+  {
+   "rule_id": "XGF-R-088",
+   "type": "允许型",
+   "primary_type": "允许型",
+   "is_combo": false,
+   "modals": [
+    "allow"
+   ],
+   "condition": "若有逃亡人户，田上",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "各里老图写田亩数，分拨与近田之人耕种，贴种承粮",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条3",
+   "original": "若有逃亡人户，田上许各里老图写田亩数，分拨与近田之人耕种，贴种承粮，",
+   "original_offset": {
+    "start": 0,
+    "end": 34
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若有逃亡人户，田上时，官府（知县）可各里老图写田亩数，分拨与近田之人耕种，贴种承粮。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-088",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "倘有田亩数多",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "论四至分拨",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条3",
+   "original": "倘有田亩数多，须论四至分拨，",
+   "original_offset": {
+    "start": 34,
+    "end": 48
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】倘有田亩数多时，官府（知县）应论四至分拨。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-088",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "若数少，止付田多人户，亦",
+   "subject": "官府（知县）",
+   "prohibited_action": "凭书手望空隔远分派",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条3",
+   "original": "若数少，止付田多人户，亦不可凭书手望空隔远分派。",
+   "original_offset": {
+    "start": 48,
+    "end": 72
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若数少，止付田多人户，亦时，若凭书手望空隔远分派，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-091",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "凡有官民房倒塌，便",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "审问缘由",
+   "prohibited_effect": "",
+   "object": "问缘由",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条4",
+   "original": "凡有官民房倒塌，便须审问缘由。",
+   "original_offset": {
+    "start": 0,
+    "end": 15
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】凡有官民房倒塌，便时，官府（知县）应审问缘由。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 4
+  },
+  {
+   "rule_id": "XGF-R-092",
+   "type": "义务型+时限型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "deadline",
+    "prohibit"
+   ],
+   "condition": "遇造黄册",
+   "subject": "官府（知县）",
+   "prohibited_action": "一月之要册，完底备县册总图总自查",
+   "allowed_action": "",
+   "obligation_action": "禁革里书科派纸札等项",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "造完底，倘有告争，改正后再行对会过",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条6",
+   "original": "遇造黄册，须禁革里书科派纸札等项。择一空闲去处，分定都图，责令里长出备桌凳，书手自备饭食，追取前次册底，告示概县人民知会。每收割田一千亩，纳纸一百张，田一百亩为止，纳纸一十张为止，十亩以下者，免其纳纸。就与对会问限造完底，倘有告争，改正后再行对会过不准，一月之要册，完底备县册总图总自查。",
+   "original_offset": {
+    "start": 0,
+    "end": 144
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】遇造黄册时，若一月之要册，完底备县册总图总自查，即属违禁；合规做法：改用文内许可途径。【场景】遇造黄册时，官府（知县）应禁革里书科派纸札等项。【场景】遇造黄册事项须在造完底，倘有告争，改正后再行对会过内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 6
+  },
+  {
+   "rule_id": "XGF-R-093",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "如有贴户止是算银津贴数足，将正户一人出名，以贴户别立一小票",
+   "subject": "官府（知县）",
+   "prohibited_action": "照名行属追扰",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条7",
+   "original": "如有贴户止是算银津贴数足，将正户一人出名，以贴户别立一小票，使之自贴，不可照名行属追扰。",
+   "original_offset": {
+    "start": 108,
+    "end": 152
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】如有贴户止是算银津贴数足，将正户一人出名，以贴户别立一小票时，若照名行属追扰，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 7
+  },
+  {
+   "rule_id": "XGF-R-094",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "姑待明日",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条8",
+   "original": "如有出卖田地，临审时即于本户下开注，定审编之时，先示之日期，使之依日候审。本日倘有事冗，虽夜必尽，不得姑待明日，",
+   "original_offset": {
+    "start": 24,
+    "end": 80
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若姑待明日，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-094",
+   "type": "禁止型+义务型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "如事",
+   "subject": "官府（知县）",
+   "prohibited_action": "已",
+   "allowed_action": "",
+   "obligation_action": "将是日之人尽令回还后，通审完日补审",
+   "prohibited_effect": "",
+   "object": "回还后",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条8",
+   "original": "如事不得已，须将是日之人尽令回还后，通审完日补审。",
+   "original_offset": {
+    "start": 80,
+    "end": 105
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】如事时，若已，即属违禁；合规做法：改用文内许可途径。【场景】如事时，官府（知县）应将是日之人尽令回还后，通审完日补审。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-096",
+   "type": "义务型+允许型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "allow"
+   ],
+   "condition": "僧道徒弟",
+   "subject": "僧道",
+   "prohibited_action": "",
+   "allowed_action": "收养",
+   "obligation_action": "告官查勘无碍",
+   "prohibited_effect": "",
+   "object": "勘无碍",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条9",
+   "original": "僧道徒弟，必须告官查勘无碍，方许收养。若收各县人，亦要附他本名下，遇有死亡，随追度牒。每年终，将事故度牒数送上司，仍付簿明白备照。",
+   "original_offset": {
+    "start": 0,
+    "end": 65
+   },
+   "confidence": 0.97,
+   "example": {
+    "text": "【场景】僧道徒弟时，僧道应告官查勘无碍。【场景】僧道徒弟时，僧道可收养。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 9
+  },
+  {
+   "rule_id": "XGF-R-097",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "使男女混处，公廨随便点视",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条10",
+   "original": "见道路乞丐之人，不论老幼笃废，如果无依，即与付收养济院，令补收附卷，不必里老举报。其合得衣粮，每月初旬支，本院房屋，修葺完固，编号与居，毋使男女混处，公廨随便点视。",
+   "original_offset": {
+    "start": 0,
+    "end": 82
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若使男女混处，公廨随便点视，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 10
+  },
+  {
+   "rule_id": "XGF-R-098",
+   "type": "义务型+允许型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "allow",
+    "prohibit"
+   ],
+   "condition": "清军须将发册",
+   "subject": "官府（知县）",
+   "prohibited_action": "将远年一概拘候",
+   "allowed_action": "见年里老具呈",
+   "obligation_action": "将发册，与该房册自行查对，分项计算，仍告示有军都图逃日赴审，其清军都图",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条11",
+   "original": "清军须将发册，与该房册自行查对，分项计算，仍告示有军都图逃日赴审，其清军都图，止令见年里老具呈，不得将远年一概拘候。",
+   "original_offset": {
+    "start": 0,
+    "end": 58
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】清军须将发册时，若将远年一概拘候，即属违禁；合规做法：见年里老具呈。【场景】清军须将发册时，官府（知县）应将发册，与该房册自行查对，分项计算，仍告示有军都图逃日赴审，其清军都图。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 11
+  },
+  {
+   "rule_id": "XGF-R-099",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "查审属原籍，在京，曾在京住过者，通报未审，量与佥解；痛禁革",
+   "prohibited_effect": "",
+   "object": "审属原籍",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "06_卷下_民情第四.xhtml#条13",
+   "original": "有在京勇士、力士、校役、厨役、逃亡相应佥补者，须查审属原籍，在京，曾在京住过者，通报未审，量与佥解，可免逃亡。及里甲出办路费，有营求免当者，须痛禁革。",
+   "original_offset": {
+    "start": 0,
+    "end": 75
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，官府（知县）应查审属原籍，在京，曾在京住过者，通报未审，量与佥解；痛禁革。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "06",
+   "chapter": "卷下_民情第四",
+   "item": 13
+  }
+ ]
+}

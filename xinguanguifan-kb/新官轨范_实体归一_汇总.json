@@ -1,0 +1,5538 @@
+{
+ "schema_version": "kg-annot-json-v1",
+ "enum_version": "entity-type-enum-v1",
+ "total_items": 274,
+ "total_entities": 1981,
+ "unique_entities": 591,
+ "by_type": {
+  "org": 264,
+  "place": 158,
+  "document": 195,
+  "quantity": 163,
+  "time": 156,
+  "official": 262,
+  "person": 125,
+  "behavior": 441,
+  "institution": 92,
+  "object": 95,
+  "punishment": 30
+ },
+ "per_chapter": [
+  {
+   "chapter_no": "01",
+   "file": "01_卷上_体立为政事情.xhtml",
+   "item_count": 94,
+   "entity_count": 842,
+   "by_type": {
+    "official": 81,
+    "person": 63,
+    "org": 142,
+    "behavior": 176,
+    "document": 76,
+    "place": 46,
+    "object": 50,
+    "institution": 24,
+    "time": 67,
+    "quantity": 101,
+    "punishment": 16
+   }
+  },
+  {
+   "chapter_no": "02",
+   "file": "02_卷下_牧民备用.xhtml",
+   "item_count": 1,
+   "entity_count": 1,
+   "by_type": {
+    "object": 1
+   }
+  },
+  {
+   "chapter_no": "03",
+   "file": "03_卷下_上任第一.xhtml",
+   "item_count": 16,
+   "entity_count": 168,
+   "by_type": {
+    "org": 31,
+    "behavior": 42,
+    "official": 40,
+    "document": 14,
+    "person": 8,
+    "time": 8,
+    "object": 12,
+    "place": 8,
+    "quantity": 2,
+    "punishment": 2,
+    "institution": 1
+   }
+  },
+  {
+   "chapter_no": "04",
+   "file": "04_卷下_直日第二.xhtml",
+   "item_count": 10,
+   "entity_count": 118,
+   "by_type": {
+    "time": 17,
+    "official": 34,
+    "behavior": 28,
+    "org": 8,
+    "quantity": 4,
+    "place": 7,
+    "object": 3,
+    "document": 12,
+    "institution": 3,
+    "punishment": 2
+   }
+  },
+  {
+   "chapter_no": "05",
+   "file": "05_卷下_御史第三.xhtml",
+   "item_count": 22,
+   "entity_count": 184,
+   "by_type": {
+    "org": 24,
+    "behavior": 40,
+    "official": 27,
+    "document": 39,
+    "quantity": 15,
+    "time": 28,
+    "place": 3,
+    "person": 1,
+    "institution": 4,
+    "punishment": 2,
+    "object": 1
+   }
+  },
+  {
+   "chapter_no": "06",
+   "file": "06_卷下_民情第四.xhtml",
+   "item_count": 14,
+   "entity_count": 106,
+   "by_type": {
+    "behavior": 19,
+    "org": 8,
+    "person": 7,
+    "official": 12,
+    "place": 20,
+    "document": 14,
+    "institution": 10,
+    "object": 2,
+    "quantity": 8,
+    "time": 6
+   }
+  },
+  {
+   "chapter_no": "07",
+   "file": "07_卷下_公务第五.xhtml",
+   "item_count": 52,
+   "entity_count": 249,
+   "by_type": {
+    "official": 46,
+    "place": 32,
+    "object": 13,
+    "quantity": 13,
+    "org": 29,
+    "time": 15,
+    "behavior": 56,
+    "document": 22,
+    "person": 10,
+    "institution": 9,
+    "punishment": 4
+   }
+  },
+  {
+   "chapter_no": "08",
+   "file": "08_卷下_粮料第六.xhtml",
+   "item_count": 19,
+   "entity_count": 122,
+   "by_type": {
+    "behavior": 34,
+    "institution": 24,
+    "place": 19,
+    "time": 4,
+    "official": 5,
+    "org": 8,
+    "person": 7,
+    "document": 7,
+    "punishment": 1,
+    "quantity": 12,
+    "object": 1
+   }
+  },
+  {
+   "chapter_no": "09",
+   "file": "09_卷下_礼仪第七.xhtml",
+   "item_count": 18,
+   "entity_count": 75,
+   "by_type": {
+    "institution": 14,
+    "behavior": 17,
+    "official": 5,
+    "person": 13,
+    "org": 9,
+    "document": 5,
+    "object": 7,
+    "place": 4,
+    "time": 1
+   }
+  },
+  {
+   "chapter_no": "10",
+   "file": "10_卷下_御灾第八.xhtml",
+   "item_count": 13,
+   "entity_count": 66,
+   "by_type": {
+    "place": 16,
+    "behavior": 19,
+    "time": 2,
+    "institution": 1,
+    "document": 4,
+    "org": 1,
+    "official": 5,
+    "punishment": 2,
+    "person": 13,
+    "quantity": 2,
+    "object": 1
+   }
+  },
+  {
+   "chapter_no": "11",
+   "file": "11_卷下_词讼第九.xhtml",
+   "item_count": 15,
+   "entity_count": 50,
+   "by_type": {
+    "behavior": 10,
+    "official": 7,
+    "org": 4,
+    "time": 8,
+    "object": 4,
+    "punishment": 1,
+    "quantity": 6,
+    "place": 3,
+    "institution": 2,
+    "document": 2,
+    "person": 3
+   }
+  }
+ ],
+ "normalized_inventory": [
+  {
+   "normalized": "县",
+   "type": "org",
+   "count": 48,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "县"
+   ]
+  },
+  {
+   "normalized": "上司",
+   "type": "org",
+   "count": 36,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "上司"
+   ]
+  },
+  {
+   "normalized": "里",
+   "type": "place",
+   "count": 35,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "里"
+   ]
+  },
+  {
+   "normalized": "公文",
+   "type": "document",
+   "count": 34,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "公文"
+   ]
+  },
+  {
+   "normalized": "簿",
+   "type": "document",
+   "count": 31,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "簿"
+   ]
+  },
+  {
+   "normalized": "若干",
+   "type": "quantity",
+   "count": 30,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "若干"
+   ]
+  },
+  {
+   "normalized": "每日",
+   "type": "time",
+   "count": 29,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "每日"
+   ]
+  },
+  {
+   "normalized": "吏典",
+   "type": "official",
+   "count": 25,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "吏典"
+   ]
+  },
+  {
+   "normalized": "六房",
+   "type": "org",
+   "count": 25,
+   "first_source": "01_卷上_体立为政事情.xhtml#条24",
+   "surfaces": [
+    "六房"
+   ]
+  },
+  {
+   "normalized": "皂隶",
+   "type": "official",
+   "count": 23,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "皂隶"
+   ]
+  },
+  {
+   "normalized": "监",
+   "type": "org",
+   "count": 22,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "监"
+   ]
+  },
+  {
+   "normalized": "田",
+   "type": "place",
+   "count": 22,
+   "first_source": "06_卷下_民情第四.xhtml#条3",
+   "surfaces": [
+    "田"
+   ]
+  },
+  {
+   "normalized": "人户",
+   "type": "person",
+   "count": 21,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "人户"
+   ]
+  },
+  {
+   "normalized": "到任",
+   "type": "behavior",
+   "count": 20,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "到任"
+   ]
+  },
+  {
+   "normalized": "库",
+   "type": "org",
+   "count": 19,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "库"
+   ]
+  },
+  {
+   "normalized": "里长",
+   "type": "official",
+   "count": 19,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "里长"
+   ]
+  },
+  {
+   "normalized": "里老",
+   "type": "official",
+   "count": 18,
+   "first_source": "01_卷上_体立为政事情.xhtml#条26",
+   "surfaces": [
+    "里老"
+   ]
+  },
+  {
+   "normalized": "比较",
+   "type": "behavior",
+   "count": 17,
+   "first_source": "01_卷上_体立为政事情.xhtml#条23",
+   "surfaces": [
+    "比较"
+   ]
+  },
+  {
+   "normalized": "一人",
+   "type": "quantity",
+   "count": 17,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "一人"
+   ]
+  },
+  {
+   "normalized": "书手",
+   "type": "official",
+   "count": 16,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "书手"
+   ]
+  },
+  {
+   "normalized": "每月",
+   "type": "time",
+   "count": 16,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "每月"
+   ]
+  },
+  {
+   "normalized": "告示",
+   "type": "document",
+   "count": 16,
+   "first_source": "01_卷上_体立为政事情.xhtml#条40",
+   "surfaces": [
+    "告示"
+   ]
+  },
+  {
+   "normalized": "直堂吏",
+   "type": "official",
+   "count": 15,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "直堂吏"
+   ]
+  },
+  {
+   "normalized": "开写",
+   "type": "behavior",
+   "count": 14,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "开写"
+   ]
+  },
+  {
+   "normalized": "里甲",
+   "type": "institution",
+   "count": 14,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "里甲"
+   ]
+  },
+  {
+   "normalized": "本县",
+   "type": "org",
+   "count": 13,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "本县"
+   ]
+  },
+  {
+   "normalized": "后堂",
+   "type": "place",
+   "count": 12,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "后堂"
+   ]
+  },
+  {
+   "normalized": "一扇",
+   "type": "quantity",
+   "count": 12,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "一扇"
+   ]
+  },
+  {
+   "normalized": "发落",
+   "type": "behavior",
+   "count": 11,
+   "first_source": "01_卷上_体立为政事情.xhtml#条6",
+   "surfaces": [
+    "发落"
+   ]
+  },
+  {
+   "normalized": "五日",
+   "type": "time",
+   "count": 10,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "五日"
+   ]
+  },
+  {
+   "normalized": "概县",
+   "type": "org",
+   "count": 10,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "概县"
+   ]
+  },
+  {
+   "normalized": "牌",
+   "type": "object",
+   "count": 10,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "牌"
+   ]
+  },
+  {
+   "normalized": "都",
+   "type": "place",
+   "count": 10,
+   "first_source": "04_卷下_直日第二.xhtml#条5",
+   "surfaces": [
+    "都"
+   ]
+  },
+  {
+   "normalized": "钱粮",
+   "type": "institution",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "钱粮"
+   ]
+  },
+  {
+   "normalized": "一次",
+   "type": "quantity",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "一次"
+   ]
+  },
+  {
+   "normalized": "朔望",
+   "type": "time",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条13",
+   "surfaces": [
+    "朔望"
+   ]
+  },
+  {
+   "normalized": "一件",
+   "type": "quantity",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "一件"
+   ]
+  },
+  {
+   "normalized": "一个",
+   "type": "quantity",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "一个"
+   ]
+  },
+  {
+   "normalized": "贼",
+   "type": "person",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "贼"
+   ]
+  },
+  {
+   "normalized": "老人",
+   "type": "official",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "老人"
+   ]
+  },
+  {
+   "normalized": "仓",
+   "type": "org",
+   "count": 9,
+   "first_source": "01_卷上_体立为政事情.xhtml#条63",
+   "surfaces": [
+    "仓"
+   ]
+  },
+  {
+   "normalized": "省谕",
+   "type": "behavior",
+   "count": 9,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "省谕"
+   ]
+  },
+  {
+   "normalized": "图",
+   "type": "place",
+   "count": 9,
+   "first_source": "03_卷下_上任第一.xhtml#条16",
+   "surfaces": [
+    "图"
+   ]
+  },
+  {
+   "normalized": "生员",
+   "type": "person",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "生员"
+   ]
+  },
+  {
+   "normalized": "三日",
+   "type": "time",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "三日"
+   ]
+  },
+  {
+   "normalized": "一日",
+   "type": "time",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "一日"
+   ]
+  },
+  {
+   "normalized": "囚犯",
+   "type": "person",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "囚犯"
+   ]
+  },
+  {
+   "normalized": "衙门",
+   "type": "org",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "衙门"
+   ]
+  },
+  {
+   "normalized": "乡",
+   "type": "place",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "乡"
+   ]
+  },
+  {
+   "normalized": "一名",
+   "type": "quantity",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "一名"
+   ]
+  },
+  {
+   "normalized": "门子",
+   "type": "official",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "门子"
+   ]
+  },
+  {
+   "normalized": "分派",
+   "type": "behavior",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条72",
+   "surfaces": [
+    "分派"
+   ]
+  },
+  {
+   "normalized": "征收",
+   "type": "behavior",
+   "count": 8,
+   "first_source": "01_卷上_体立为政事情.xhtml#条84",
+   "surfaces": [
+    "征收"
+   ]
+  },
+  {
+   "normalized": "佐贰",
+   "type": "official",
+   "count": 8,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "佐贰"
+   ]
+  },
+  {
+   "normalized": "礼生",
+   "type": "person",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "礼生"
+   ]
+  },
+  {
+   "normalized": "士夫",
+   "type": "person",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "士夫"
+   ]
+  },
+  {
+   "normalized": "责罚",
+   "type": "punishment",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条13",
+   "surfaces": [
+    "责罚"
+   ]
+  },
+  {
+   "normalized": "勘合",
+   "type": "document",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "勘合"
+   ]
+  },
+  {
+   "normalized": "黄册",
+   "type": "document",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "黄册"
+   ]
+  },
+  {
+   "normalized": "巡视",
+   "type": "behavior",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条62",
+   "surfaces": [
+    "巡视"
+   ]
+  },
+  {
+   "normalized": "纸札",
+   "type": "object",
+   "count": 7,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "纸札"
+   ]
+  },
+  {
+   "normalized": "吏房",
+   "type": "org",
+   "count": 7,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "吏房"
+   ]
+  },
+  {
+   "normalized": "呈报",
+   "type": "behavior",
+   "count": 7,
+   "first_source": "03_卷下_上任第一.xhtml#条8",
+   "surfaces": [
+    "呈报"
+   ]
+  },
+  {
+   "normalized": "仪注",
+   "type": "document",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "仪注"
+   ]
+  },
+  {
+   "normalized": "行礼",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "行礼"
+   ]
+  },
+  {
+   "normalized": "巡风",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "巡风"
+   ]
+  },
+  {
+   "normalized": "看守",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "看守"
+   ]
+  },
+  {
+   "normalized": "开报",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "开报"
+   ]
+  },
+  {
+   "normalized": "一本",
+   "type": "quantity",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "一本"
+   ]
+  },
+  {
+   "normalized": "词状",
+   "type": "document",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "词状"
+   ]
+  },
+  {
+   "normalized": "铺",
+   "type": "org",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条28",
+   "surfaces": [
+    "铺"
+   ]
+  },
+  {
+   "normalized": "木牌",
+   "type": "object",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "木牌"
+   ]
+  },
+  {
+   "normalized": "问理",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条43",
+   "surfaces": [
+    "问理"
+   ]
+  },
+  {
+   "normalized": "刑房",
+   "type": "org",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条46",
+   "surfaces": [
+    "刑房"
+   ]
+  },
+  {
+   "normalized": "用刑",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条50",
+   "surfaces": [
+    "用刑"
+   ]
+  },
+  {
+   "normalized": "出办",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "出办"
+   ]
+  },
+  {
+   "normalized": "行移",
+   "type": "document",
+   "count": 6,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "行移"
+   ]
+  },
+  {
+   "normalized": "参见",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "参见"
+   ]
+  },
+  {
+   "normalized": "公座",
+   "type": "object",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "公座"
+   ]
+  },
+  {
+   "normalized": "首领官",
+   "type": "official",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "首领官"
+   ]
+  },
+  {
+   "normalized": "佐贰官",
+   "type": "official",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "佐贰官"
+   ]
+  },
+  {
+   "normalized": "直印吏",
+   "type": "official",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "直印吏"
+   ]
+  },
+  {
+   "normalized": "用印",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "用印"
+   ]
+  },
+  {
+   "normalized": "直堂",
+   "type": "behavior",
+   "count": 6,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "直堂"
+   ]
+  },
+  {
+   "normalized": "都图",
+   "type": "place",
+   "count": 6,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "都图"
+   ]
+  },
+  {
+   "normalized": "礼房",
+   "type": "org",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "礼房"
+   ]
+  },
+  {
+   "normalized": "交盘",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "交盘"
+   ]
+  },
+  {
+   "normalized": "缉访",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条7",
+   "surfaces": [
+    "缉访"
+   ]
+  },
+  {
+   "normalized": "量情",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "量情"
+   ]
+  },
+  {
+   "normalized": "某日",
+   "type": "time",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "某日"
+   ]
+  },
+  {
+   "normalized": "交割",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "交割"
+   ]
+  },
+  {
+   "normalized": "多寡",
+   "type": "quantity",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条20",
+   "surfaces": [
+    "多寡"
+   ]
+  },
+  {
+   "normalized": "城",
+   "type": "place",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "城"
+   ]
+  },
+  {
+   "normalized": "直老",
+   "type": "official",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "直老"
+   ]
+  },
+  {
+   "normalized": "签",
+   "type": "object",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "签"
+   ]
+  },
+  {
+   "normalized": "王大",
+   "type": "person",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "王大"
+   ]
+  },
+  {
+   "normalized": "兵房",
+   "type": "org",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条47",
+   "surfaces": [
+    "兵房"
+   ]
+  },
+  {
+   "normalized": "升堂",
+   "type": "behavior",
+   "count": 5,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "升堂"
+   ]
+  },
+  {
+   "normalized": "学官",
+   "type": "official",
+   "count": 5,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "学官"
+   ]
+  },
+  {
+   "normalized": "粮料",
+   "type": "institution",
+   "count": 5,
+   "first_source": "04_卷下_直日第二.xhtml#条4",
+   "surfaces": [
+    "粮料"
+   ]
+  },
+  {
+   "normalized": "僧道",
+   "type": "person",
+   "count": 5,
+   "first_source": "06_卷下_民情第四.xhtml#条9",
+   "surfaces": [
+    "僧道"
+   ]
+  },
+  {
+   "normalized": "总甲",
+   "type": "official",
+   "count": 5,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "总甲"
+   ]
+  },
+  {
+   "normalized": "乡宦",
+   "type": "person",
+   "count": 5,
+   "first_source": "07_卷下_公务第五.xhtml#条35",
+   "surfaces": [
+    "乡宦"
+   ]
+  },
+  {
+   "normalized": "折银",
+   "type": "institution",
+   "count": 5,
+   "first_source": "08_卷下_粮料第六.xhtml#条7",
+   "surfaces": [
+    "折银"
+   ]
+  },
+  {
+   "normalized": "手本",
+   "type": "document",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "手本"
+   ]
+  },
+  {
+   "normalized": "县衙",
+   "type": "org",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "县衙"
+   ]
+  },
+  {
+   "normalized": "簿籍",
+   "type": "document",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "簿籍"
+   ]
+  },
+  {
+   "normalized": "十日",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "十日"
+   ]
+  },
+  {
+   "normalized": "夜晚",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "夜晚"
+   ]
+  },
+  {
+   "normalized": "刑房吏",
+   "type": "official",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "刑房吏"
+   ]
+  },
+  {
+   "normalized": "六房吏典",
+   "type": "org",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "六房吏典"
+   ]
+  },
+  {
+   "normalized": "承发吏",
+   "type": "official",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "承发吏"
+   ]
+  },
+  {
+   "normalized": "某月",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "某月"
+   ]
+  },
+  {
+   "normalized": "递送",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条20",
+   "surfaces": [
+    "递送"
+   ]
+  },
+  {
+   "normalized": "禁革",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "禁革"
+   ]
+  },
+  {
+   "normalized": "勾摄",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "勾摄"
+   ]
+  },
+  {
+   "normalized": "赵甲",
+   "type": "person",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "赵甲"
+   ]
+  },
+  {
+   "normalized": "保举",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "保举"
+   ]
+  },
+  {
+   "normalized": "审问",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "审问"
+   ]
+  },
+  {
+   "normalized": "除免",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "除免"
+   ]
+  },
+  {
+   "normalized": "医生",
+   "type": "official",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条38",
+   "surfaces": [
+    "医生"
+   ]
+  },
+  {
+   "normalized": "一面",
+   "type": "quantity",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "一面"
+   ]
+  },
+  {
+   "normalized": "明日",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条41",
+   "surfaces": [
+    "明日"
+   ]
+  },
+  {
+   "normalized": "次日",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条41",
+   "surfaces": [
+    "次日"
+   ]
+  },
+  {
+   "normalized": "卷宗",
+   "type": "document",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条47",
+   "surfaces": [
+    "卷宗"
+   ]
+  },
+  {
+   "normalized": "科敛",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "科敛"
+   ]
+  },
+  {
+   "normalized": "道路",
+   "type": "place",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条77",
+   "surfaces": [
+    "道路"
+   ]
+  },
+  {
+   "normalized": "每年",
+   "type": "time",
+   "count": 4,
+   "first_source": "01_卷上_体立为政事情.xhtml#条85",
+   "surfaces": [
+    "每年"
+   ]
+  },
+  {
+   "normalized": "洒扫",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "洒扫"
+   ]
+  },
+  {
+   "normalized": "鼓",
+   "type": "object",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条3",
+   "surfaces": [
+    "鼓"
+   ]
+  },
+  {
+   "normalized": "阴阳生",
+   "type": "official",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "阴阳生"
+   ]
+  },
+  {
+   "normalized": "属官",
+   "type": "official",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "属官"
+   ]
+  },
+  {
+   "normalized": "须知",
+   "type": "document",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "须知"
+   ]
+  },
+  {
+   "normalized": "乡官",
+   "type": "official",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "乡官"
+   ]
+  },
+  {
+   "normalized": "到任次日",
+   "type": "time",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条8",
+   "surfaces": [
+    "到任次日"
+   ]
+  },
+  {
+   "normalized": "立限",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "03_卷下_上任第一.xhtml#条10",
+   "surfaces": [
+    "立限"
+   ]
+  },
+  {
+   "normalized": "应捕",
+   "type": "official",
+   "count": 4,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "应捕"
+   ]
+  },
+  {
+   "normalized": "注销",
+   "type": "behavior",
+   "count": 4,
+   "first_source": "05_卷下_御史第三.xhtml#条6",
+   "surfaces": [
+    "注销"
+   ]
+  },
+  {
+   "normalized": "四至",
+   "type": "place",
+   "count": 4,
+   "first_source": "06_卷下_民情第四.xhtml#条3",
+   "surfaces": [
+    "四至"
+   ]
+  },
+  {
+   "normalized": "田地",
+   "type": "place",
+   "count": 4,
+   "first_source": "06_卷下_民情第四.xhtml#条5",
+   "surfaces": [
+    "田地"
+   ]
+  },
+  {
+   "normalized": "粮长",
+   "type": "official",
+   "count": 4,
+   "first_source": "07_卷下_公务第五.xhtml#条3",
+   "surfaces": [
+    "粮长"
+   ]
+  },
+  {
+   "normalized": "礼房吏",
+   "type": "official",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条2",
+   "surfaces": [
+    "礼房吏"
+   ]
+  },
+  {
+   "normalized": "买办",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "买办"
+   ]
+  },
+  {
+   "normalized": "支应",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "支应"
+   ]
+  },
+  {
+   "normalized": "查勘",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "查勘"
+   ]
+  },
+  {
+   "normalized": "提督",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "提督"
+   ]
+  },
+  {
+   "normalized": "结状",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "结状"
+   ]
+  },
+  {
+   "normalized": "修筑",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条9",
+   "surfaces": [
+    "修筑"
+   ]
+  },
+  {
+   "normalized": "一处",
+   "type": "quantity",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "一处"
+   ]
+  },
+  {
+   "normalized": "案卷",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "案卷"
+   ]
+  },
+  {
+   "normalized": "清查",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "清查"
+   ]
+  },
+  {
+   "normalized": "某年月日",
+   "type": "time",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "某年月日"
+   ]
+  },
+  {
+   "normalized": "完报",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "完报"
+   ]
+  },
+  {
+   "normalized": "注写",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "注写"
+   ]
+  },
+  {
+   "normalized": "收掌",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "收掌"
+   ]
+  },
+  {
+   "normalized": "催办",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条29",
+   "surfaces": [
+    "催办"
+   ]
+  },
+  {
+   "normalized": "甲首",
+   "type": "official",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "甲首"
+   ]
+  },
+  {
+   "normalized": "百姓",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条33",
+   "surfaces": [
+    "百姓"
+   ]
+  },
+  {
+   "normalized": "街",
+   "type": "place",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "街"
+   ]
+  },
+  {
+   "normalized": "军民",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "军民"
+   ]
+  },
+  {
+   "normalized": "初一日",
+   "type": "time",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "初一日"
+   ]
+  },
+  {
+   "normalized": "学校",
+   "type": "org",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "学校"
+   ]
+  },
+  {
+   "normalized": "强盗",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条40",
+   "surfaces": [
+    "强盗"
+   ]
+  },
+  {
+   "normalized": "甬路",
+   "type": "place",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "甬路"
+   ]
+  },
+  {
+   "normalized": "干证",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "干证"
+   ]
+  },
+  {
+   "normalized": "窃盗",
+   "type": "person",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "窃盗"
+   ]
+  },
+  {
+   "normalized": "清军",
+   "type": "institution",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条48",
+   "surfaces": [
+    "清军"
+   ]
+  },
+  {
+   "normalized": "赋役",
+   "type": "institution",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "赋役"
+   ]
+  },
+  {
+   "normalized": "桌凳",
+   "type": "object",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "桌凳"
+   ]
+  },
+  {
+   "normalized": "供状",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条52",
+   "surfaces": [
+    "供状"
+   ]
+  },
+  {
+   "normalized": "拶指",
+   "type": "object",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "拶指"
+   ]
+  },
+  {
+   "normalized": "禁子",
+   "type": "official",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条57",
+   "surfaces": [
+    "禁子"
+   ]
+  },
+  {
+   "normalized": "治罪",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条62",
+   "surfaces": [
+    "治罪"
+   ]
+  },
+  {
+   "normalized": "文案",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条67",
+   "surfaces": [
+    "文案"
+   ]
+  },
+  {
+   "normalized": "文卷",
+   "type": "document",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条70",
+   "surfaces": [
+    "文卷"
+   ]
+  },
+  {
+   "normalized": "修理",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "修理"
+   ]
+  },
+  {
+   "normalized": "地界",
+   "type": "place",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条79",
+   "surfaces": [
+    "地界"
+   ]
+  },
+  {
+   "normalized": "签押",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "签押"
+   ]
+  },
+  {
+   "normalized": "祭祀",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "祭祀"
+   ]
+  },
+  {
+   "normalized": "佥押",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "佥押"
+   ]
+  },
+  {
+   "normalized": "锁",
+   "type": "object",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条11",
+   "surfaces": [
+    "锁"
+   ]
+  },
+  {
+   "normalized": "眼同",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "眼同"
+   ]
+  },
+  {
+   "normalized": "坛",
+   "type": "org",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条15",
+   "surfaces": [
+    "坛"
+   ]
+  },
+  {
+   "normalized": "养济院",
+   "type": "org",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条15",
+   "surfaces": [
+    "养济院"
+   ]
+  },
+  {
+   "normalized": "点对",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "03_卷下_上任第一.xhtml#条16",
+   "surfaces": [
+    "点对"
+   ]
+  },
+  {
+   "normalized": "禀报",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "禀报"
+   ]
+  },
+  {
+   "normalized": "放告",
+   "type": "institution",
+   "count": 3,
+   "first_source": "04_卷下_直日第二.xhtml#条5",
+   "surfaces": [
+    "放告"
+   ]
+  },
+  {
+   "normalized": "狱卒",
+   "type": "official",
+   "count": 3,
+   "first_source": "04_卷下_直日第二.xhtml#条8",
+   "surfaces": [
+    "狱卒"
+   ]
+  },
+  {
+   "normalized": "贼盗",
+   "type": "person",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "贼盗"
+   ]
+  },
+  {
+   "normalized": "月终",
+   "type": "time",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条6",
+   "surfaces": [
+    "月终"
+   ]
+  },
+  {
+   "normalized": "铺长",
+   "type": "official",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条7",
+   "surfaces": [
+    "铺长"
+   ]
+  },
+  {
+   "normalized": "均派",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "05_卷下_御史第三.xhtml#条16",
+   "surfaces": [
+    "均派"
+   ]
+  },
+  {
+   "normalized": "科派",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "科派"
+   ]
+  },
+  {
+   "normalized": "均徭",
+   "type": "institution",
+   "count": 3,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "均徭"
+   ]
+  },
+  {
+   "normalized": "度牒",
+   "type": "document",
+   "count": 3,
+   "first_source": "06_卷下_民情第四.xhtml#条9",
+   "surfaces": [
+    "度牒"
+   ]
+  },
+  {
+   "normalized": "公堂",
+   "type": "place",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条1",
+   "surfaces": [
+    "公堂"
+   ]
+  },
+  {
+   "normalized": "体访",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条11",
+   "surfaces": [
+    "体访"
+   ]
+  },
+  {
+   "normalized": "塘",
+   "type": "place",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条12",
+   "surfaces": [
+    "塘"
+   ]
+  },
+  {
+   "normalized": "习仪",
+   "type": "institution",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条13",
+   "surfaces": [
+    "习仪"
+   ]
+  },
+  {
+   "normalized": "实征",
+   "type": "document",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条18",
+   "surfaces": [
+    "实征"
+   ]
+  },
+  {
+   "normalized": "起解",
+   "type": "behavior",
+   "count": 3,
+   "first_source": "07_卷下_公务第五.xhtml#条44",
+   "surfaces": [
+    "起解"
+   ]
+  },
+  {
+   "normalized": "本色",
+   "type": "institution",
+   "count": 3,
+   "first_source": "08_卷下_粮料第六.xhtml#条2",
+   "surfaces": [
+    "本色"
+   ]
+  },
+  {
+   "normalized": "佃户",
+   "type": "person",
+   "count": 3,
+   "first_source": "08_卷下_粮料第六.xhtml#条3",
+   "surfaces": [
+    "佃户"
+   ]
+  },
+  {
+   "normalized": "一里",
+   "type": "quantity",
+   "count": 3,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "一里"
+   ]
+  },
+  {
+   "normalized": "救护",
+   "type": "institution",
+   "count": 3,
+   "first_source": "09_卷下_礼仪第七.xhtml#条3",
+   "surfaces": [
+    "救护"
+   ]
+  },
+  {
+   "normalized": "官民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "官民"
+   ]
+  },
+  {
+   "normalized": "公馆",
+   "type": "org",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "公馆"
+   ]
+  },
+  {
+   "normalized": "吊取",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "吊取"
+   ]
+  },
+  {
+   "normalized": "官库",
+   "type": "org",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "官库"
+   ]
+  },
+  {
+   "normalized": "封记",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "封记"
+   ]
+  },
+  {
+   "normalized": "供给",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "供给"
+   ]
+  },
+  {
+   "normalized": "接管",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "接管"
+   ]
+  },
+  {
+   "normalized": "巡风吏",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "巡风吏"
+   ]
+  },
+  {
+   "normalized": "归结",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条6",
+   "surfaces": [
+    "归结"
+   ]
+  },
+  {
+   "normalized": "申详",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条7",
+   "surfaces": [
+    "申详"
+   ]
+  },
+  {
+   "normalized": "半月",
+   "type": "time",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "半月"
+   ]
+  },
+  {
+   "normalized": "灯",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "灯"
+   ]
+  },
+  {
+   "normalized": "锁钥",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "锁钥"
+   ]
+  },
+  {
+   "normalized": "三名",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条10",
+   "surfaces": [
+    "三名"
+   ]
+  },
+  {
+   "normalized": "囚簿",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "囚簿"
+   ]
+  },
+  {
+   "normalized": "淹禁",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条11",
+   "surfaces": [
+    "淹禁"
+   ]
+  },
+  {
+   "normalized": "风宪",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "风宪"
+   ]
+  },
+  {
+   "normalized": "监簿",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "监簿"
+   ]
+  },
+  {
+   "normalized": "律例",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "律例"
+   ]
+  },
+  {
+   "normalized": "责治",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条13",
+   "surfaces": [
+    "责治"
+   ]
+  },
+  {
+   "normalized": "须知文册",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "须知文册"
+   ]
+  },
+  {
+   "normalized": "三人",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条14",
+   "surfaces": [
+    "三人"
+   ]
+  },
+  {
+   "normalized": "守掌",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "守掌"
+   ]
+  },
+  {
+   "normalized": "批状",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "批状"
+   ]
+  },
+  {
+   "normalized": "状子",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "状子"
+   ]
+  },
+  {
+   "normalized": "勾销",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "勾销"
+   ]
+  },
+  {
+   "normalized": "票帖",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条18",
+   "surfaces": [
+    "票帖"
+   ]
+  },
+  {
+   "normalized": "贴写",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "贴写"
+   ]
+  },
+  {
+   "normalized": "递年",
+   "type": "time",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "递年"
+   ]
+  },
+  {
+   "normalized": "事例",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "事例"
+   ]
+  },
+  {
+   "normalized": "抄写",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条27",
+   "surfaces": [
+    "抄写"
+   ]
+  },
+  {
+   "normalized": "稽考",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "稽考"
+   ]
+  },
+  {
+   "normalized": "小民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条32",
+   "surfaces": [
+    "小民"
+   ]
+  },
+  {
+   "normalized": "访知",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条33",
+   "surfaces": [
+    "访知"
+   ]
+  },
+  {
+   "normalized": "二名",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "二名"
+   ]
+  },
+  {
+   "normalized": "举保",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "举保"
+   ]
+  },
+  {
+   "normalized": "三四个",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "三四个"
+   ]
+  },
+  {
+   "normalized": "刁泼",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "刁泼"
+   ]
+  },
+  {
+   "normalized": "责打",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "责打"
+   ]
+  },
+  {
+   "normalized": "免差",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "免差"
+   ]
+  },
+  {
+   "normalized": "守把",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条37",
+   "surfaces": [
+    "守把"
+   ]
+  },
+  {
+   "normalized": "痛责",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "痛责"
+   ]
+  },
+  {
+   "normalized": "审理",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条41",
+   "surfaces": [
+    "审理"
+   ]
+  },
+  {
+   "normalized": "拘唤",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条43",
+   "surfaces": [
+    "拘唤"
+   ]
+  },
+  {
+   "normalized": "背审",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条45",
+   "surfaces": [
+    "背审"
+   ]
+  },
+  {
+   "normalized": "差徭",
+   "type": "institution",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条48",
+   "surfaces": [
+    "差徭"
+   ]
+  },
+  {
+   "normalized": "刁民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "刁民"
+   ]
+  },
+  {
+   "normalized": "拘集",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "拘集"
+   ]
+  },
+  {
+   "normalized": "一张",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "一张"
+   ]
+  },
+  {
+   "normalized": "晓谕",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "晓谕"
+   ]
+  },
+  {
+   "normalized": "贫民",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "贫民"
+   ]
+  },
+  {
+   "normalized": "口词",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条52",
+   "surfaces": [
+    "口词"
+   ]
+  },
+  {
+   "normalized": "底札",
+   "type": "document",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条52",
+   "surfaces": [
+    "底札"
+   ]
+  },
+  {
+   "normalized": "点查",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条54",
+   "surfaces": [
+    "点查"
+   ]
+  },
+  {
+   "normalized": "封锁",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条54",
+   "surfaces": [
+    "封锁"
+   ]
+  },
+  {
+   "normalized": "肘镣",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "肘镣"
+   ]
+  },
+  {
+   "normalized": "夹棍",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "夹棍"
+   ]
+  },
+  {
+   "normalized": "预备",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "预备"
+   ]
+  },
+  {
+   "normalized": "器皿",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "器皿"
+   ]
+  },
+  {
+   "normalized": "桌椅",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "桌椅"
+   ]
+  },
+  {
+   "normalized": "铺舍",
+   "type": "org",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条60",
+   "surfaces": [
+    "铺舍"
+   ]
+  },
+  {
+   "normalized": "家伙",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条60",
+   "surfaces": [
+    "家伙"
+   ]
+  },
+  {
+   "normalized": "画卯",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "画卯"
+   ]
+  },
+  {
+   "normalized": "收买",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "收买"
+   ]
+  },
+  {
+   "normalized": "收贮",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "收贮"
+   ]
+  },
+  {
+   "normalized": "前官",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "前官"
+   ]
+  },
+  {
+   "normalized": "支销",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条66",
+   "surfaces": [
+    "支销"
+   ]
+  },
+  {
+   "normalized": "抚恤",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条69",
+   "surfaces": [
+    "抚恤"
+   ]
+  },
+  {
+   "normalized": "书房",
+   "type": "place",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条70",
+   "surfaces": [
+    "书房"
+   ]
+  },
+  {
+   "normalized": "笔墨",
+   "type": "object",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "笔墨"
+   ]
+  },
+  {
+   "normalized": "桥梁",
+   "type": "place",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条77",
+   "surfaces": [
+    "桥梁"
+   ]
+  },
+  {
+   "normalized": "二三人",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "二三人"
+   ]
+  },
+  {
+   "normalized": "大户",
+   "type": "person",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条84",
+   "surfaces": [
+    "大户"
+   ]
+  },
+  {
+   "normalized": "教官",
+   "type": "official",
+   "count": 2,
+   "first_source": "01_卷上_体立为政事情.xhtml#条91",
+   "surfaces": [
+    "教官"
+   ]
+  },
+  {
+   "normalized": "署印官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "署印官"
+   ]
+  },
+  {
+   "normalized": "仪门",
+   "type": "place",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "仪门"
+   ]
+  },
+  {
+   "normalized": "站台",
+   "type": "place",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "站台"
+   ]
+  },
+  {
+   "normalized": "祭物",
+   "type": "object",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "祭物"
+   ]
+  },
+  {
+   "normalized": "正官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "正官"
+   ]
+  },
+  {
+   "normalized": "寿官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "寿官"
+   ]
+  },
+  {
+   "normalized": "义官",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "义官"
+   ]
+  },
+  {
+   "normalized": "势豪",
+   "type": "person",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "势豪"
+   ]
+  },
+  {
+   "normalized": "司吏",
+   "type": "official",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条8",
+   "surfaces": [
+    "司吏"
+   ]
+  },
+  {
+   "normalized": "小册",
+   "type": "document",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条9",
+   "surfaces": [
+    "小册"
+   ]
+  },
+  {
+   "normalized": "锁押",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条11",
+   "surfaces": [
+    "锁押"
+   ]
+  },
+  {
+   "normalized": "禁约",
+   "type": "institution",
+   "count": 2,
+   "first_source": "03_卷下_上任第一.xhtml#条13",
+   "surfaces": [
+    "禁约"
+   ]
+  },
+  {
+   "normalized": "提牢",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "提牢"
+   ]
+  },
+  {
+   "normalized": "廊",
+   "type": "place",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "廊"
+   ]
+  },
+  {
+   "normalized": "辰时",
+   "type": "time",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条3",
+   "surfaces": [
+    "辰时"
+   ]
+  },
+  {
+   "normalized": "退堂",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条3",
+   "surfaces": [
+    "退堂"
+   ]
+  },
+  {
+   "normalized": "申时",
+   "type": "time",
+   "count": 2,
+   "first_source": "04_卷下_直日第二.xhtml#条7",
+   "surfaces": [
+    "申时"
+   ]
+  },
+  {
+   "normalized": "户房",
+   "type": "org",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "户房"
+   ]
+  },
+  {
+   "normalized": "里长簿",
+   "type": "document",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "里长簿"
+   ]
+  },
+  {
+   "normalized": "催征",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "催征"
+   ]
+  },
+  {
+   "normalized": "销缴",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条6",
+   "surfaces": [
+    "销缴"
+   ]
+  },
+  {
+   "normalized": "架阁库吏",
+   "type": "official",
+   "count": 2,
+   "first_source": "05_卷下_御史第三.xhtml#条9",
+   "surfaces": [
+    "架阁库吏"
+   ]
+  },
+  {
+   "normalized": "十亩",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "十亩"
+   ]
+  },
+  {
+   "normalized": "对会",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "对会"
+   ]
+  },
+  {
+   "normalized": "弓兵",
+   "type": "official",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "弓兵"
+   ]
+  },
+  {
+   "normalized": "存留",
+   "type": "institution",
+   "count": 2,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "存留"
+   ]
+  },
+  {
+   "normalized": "交界",
+   "type": "place",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "交界"
+   ]
+  },
+  {
+   "normalized": "火夫",
+   "type": "official",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条11",
+   "surfaces": [
+    "火夫"
+   ]
+  },
+  {
+   "normalized": "痛治",
+   "type": "punishment",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条26",
+   "surfaces": [
+    "痛治"
+   ]
+  },
+  {
+   "normalized": "具结",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条33",
+   "surfaces": [
+    "具结"
+   ]
+  },
+  {
+   "normalized": "问罪",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条36",
+   "surfaces": [
+    "问罪"
+   ]
+  },
+  {
+   "normalized": "社学",
+   "type": "org",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条39",
+   "surfaces": [
+    "社学"
+   ]
+  },
+  {
+   "normalized": "执照",
+   "type": "document",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条39",
+   "surfaces": [
+    "执照"
+   ]
+  },
+  {
+   "normalized": "馈送",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "07_卷下_公务第五.xhtml#条41",
+   "surfaces": [
+    "馈送"
+   ]
+  },
+  {
+   "normalized": "征粮",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条9",
+   "surfaces": [
+    "征粮"
+   ]
+  },
+  {
+   "normalized": "白粮",
+   "type": "institution",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "白粮"
+   ]
+  },
+  {
+   "normalized": "二石",
+   "type": "quantity",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "二石"
+   ]
+  },
+  {
+   "normalized": "纳户",
+   "type": "person",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条13",
+   "surfaces": [
+    "纳户"
+   ]
+  },
+  {
+   "normalized": "火耗",
+   "type": "institution",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条15",
+   "surfaces": [
+    "火耗"
+   ]
+  },
+  {
+   "normalized": "验实",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "08_卷下_粮料第六.xhtml#条19",
+   "surfaces": [
+    "验实"
+   ]
+  },
+  {
+   "normalized": "拜牌",
+   "type": "institution",
+   "count": 2,
+   "first_source": "09_卷下_礼仪第七.xhtml#条2",
+   "surfaces": [
+    "拜牌"
+   ]
+  },
+  {
+   "normalized": "乡饮",
+   "type": "institution",
+   "count": 2,
+   "first_source": "09_卷下_礼仪第七.xhtml#条6",
+   "surfaces": [
+    "乡饮"
+   ]
+  },
+  {
+   "normalized": "踏勘",
+   "type": "behavior",
+   "count": 2,
+   "first_source": "10_卷下_御灾第八.xhtml#条3",
+   "surfaces": [
+    "踏勘"
+   ]
+  },
+  {
+   "normalized": "新官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "新官"
+   ]
+  },
+  {
+   "normalized": "庙庵",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条1",
+   "surfaces": [
+    "庙庵"
+   ]
+  },
+  {
+   "normalized": "城隍",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "城隍"
+   ]
+  },
+  {
+   "normalized": "二门",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "二门"
+   ]
+  },
+  {
+   "normalized": "文庙",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "文庙"
+   ]
+  },
+  {
+   "normalized": "猪羊",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "猪羊"
+   ]
+  },
+  {
+   "normalized": "屠户",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条3",
+   "surfaces": [
+    "屠户"
+   ]
+  },
+  {
+   "normalized": "胙肉",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条4",
+   "surfaces": [
+    "胙肉"
+   ]
+  },
+  {
+   "normalized": "经手官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "经手官"
+   ]
+  },
+  {
+   "normalized": "称验",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "称验"
+   ]
+  },
+  {
+   "normalized": "巡更",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条5",
+   "surfaces": [
+    "巡更"
+   ]
+  },
+  {
+   "normalized": "七八日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条8",
+   "surfaces": [
+    "七八日"
+   ]
+  },
+  {
+   "normalized": "注标",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "注摽"
+   ]
+  },
+  {
+   "normalized": "法司",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条12",
+   "surfaces": [
+    "法司"
+   ]
+  },
+  {
+   "normalized": "勘合文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "勘合文簿"
+   ]
+  },
+  {
+   "normalized": "朝觐考察",
+   "type": "institution",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "朝觐考察"
+   ]
+  },
+  {
+   "normalized": "文册",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条15",
+   "surfaces": [
+    "文册"
+   ]
+  },
+  {
+   "normalized": "批状簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条16",
+   "surfaces": [
+    "批状簿"
+   ]
+  },
+  {
+   "normalized": "词状簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条17",
+   "surfaces": [
+    "词状簿"
+   ]
+  },
+  {
+   "normalized": "出票文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条18",
+   "surfaces": [
+    "出票文簿"
+   ]
+  },
+  {
+   "normalized": "接递文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "接递文簿"
+   ]
+  },
+  {
+   "normalized": "牌帖",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "牌帖"
+   ]
+  },
+  {
+   "normalized": "转递",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条19",
+   "surfaces": [
+    "转递"
+   ]
+  },
+  {
+   "normalized": "清军簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "清军簿"
+   ]
+  },
+  {
+   "normalized": "卫",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "卫"
+   ]
+  },
+  {
+   "normalized": "兵房吏",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "兵房吏"
+   ]
+  },
+  {
+   "normalized": "军役",
+   "type": "institution",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条21",
+   "surfaces": [
+    "军役"
+   ]
+  },
+  {
+   "normalized": "公罚文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "公罚文簿"
+   ]
+  },
+  {
+   "normalized": "罚纸札",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "罚纸札"
+   ]
+  },
+  {
+   "normalized": "量罚",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条22",
+   "surfaces": [
+    "量罚"
+   ]
+  },
+  {
+   "normalized": "文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条23",
+   "surfaces": [
+    "文簿"
+   ]
+  },
+  {
+   "normalized": "三十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "三十里"
+   ]
+  },
+  {
+   "normalized": "六十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "六十里"
+   ]
+  },
+  {
+   "normalized": "二日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "二日"
+   ]
+  },
+  {
+   "normalized": "九十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "九十里"
+   ]
+  },
+  {
+   "normalized": "打三十",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条30",
+   "surfaces": [
+    "打三十"
+   ]
+  },
+  {
+   "normalized": "快手",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条31",
+   "surfaces": [
+    "快手"
+   ]
+  },
+  {
+   "normalized": "县印",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条32",
+   "surfaces": [
+    "县印"
+   ]
+  },
+  {
+   "normalized": "庄",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "庄"
+   ]
+  },
+  {
+   "normalized": "三四十家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "三四十家"
+   ]
+  },
+  {
+   "normalized": "七八十家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "七八十家"
+   ]
+  },
+  {
+   "normalized": "胡同",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "胡同"
+   ]
+  },
+  {
+   "normalized": "五七十家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "五七十家"
+   ]
+  },
+  {
+   "normalized": "半年",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "半年"
+   ]
+  },
+  {
+   "normalized": "打四十大棍",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条34",
+   "surfaces": [
+    "打四十大棍"
+   ]
+  },
+  {
+   "normalized": "纸笔",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "纸笔"
+   ]
+  },
+  {
+   "normalized": "柴炭",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "柴炭"
+   ]
+  },
+  {
+   "normalized": "廪增",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "廪增"
+   ]
+  },
+  {
+   "normalized": "附学",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条35",
+   "surfaces": [
+    "附学"
+   ]
+  },
+  {
+   "normalized": "把守",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条37",
+   "surfaces": [
+    "把守"
+   ]
+  },
+  {
+   "normalized": "头门",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条38",
+   "surfaces": [
+    "头门"
+   ]
+  },
+  {
+   "normalized": "印信文簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条38",
+   "surfaces": [
+    "印信文簿"
+   ]
+  },
+  {
+   "normalized": "三五个",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条39",
+   "surfaces": [
+    "三五个"
+   ]
+  },
+  {
+   "normalized": "三六九日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条40",
+   "surfaces": [
+    "三六九日"
+   ]
+  },
+  {
+   "normalized": "被告",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条43",
+   "surfaces": [
+    "被告"
+   ]
+  },
+  {
+   "normalized": "原告",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条44",
+   "surfaces": [
+    "原告"
+   ]
+  },
+  {
+   "normalized": "锁闭",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条47",
+   "surfaces": [
+    "锁闭"
+   ]
+  },
+  {
+   "normalized": "一年",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条48",
+   "surfaces": [
+    "一年"
+   ]
+  },
+  {
+   "normalized": "赃官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "赃官"
+   ]
+  },
+  {
+   "normalized": "赋役册",
+   "type": "document",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "赋役册"
+   ]
+  },
+  {
+   "normalized": "五七十张",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "五七十张"
+   ]
+  },
+  {
+   "normalized": "三处",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "三处"
+   ]
+  },
+  {
+   "normalized": "八十大板",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条49",
+   "surfaces": [
+    "八十大板"
+   ]
+  },
+  {
+   "normalized": "处治",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条51",
+   "surfaces": [
+    "处治"
+   ]
+  },
+  {
+   "normalized": "监候",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条54",
+   "surfaces": [
+    "监候"
+   ]
+  },
+  {
+   "normalized": "铁索",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "铁索"
+   ]
+  },
+  {
+   "normalized": "铁锁",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "铁锁"
+   ]
+  },
+  {
+   "normalized": "刑枷",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条56",
+   "surfaces": [
+    "刑枷"
+   ]
+  },
+  {
+   "normalized": "六七人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条57",
+   "surfaces": [
+    "六七人"
+   ]
+  },
+  {
+   "normalized": "三司",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "三司"
+   ]
+  },
+  {
+   "normalized": "府厅",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "府厅"
+   ]
+  },
+  {
+   "normalized": "床帐",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条58",
+   "surfaces": [
+    "床帐"
+   ]
+  },
+  {
+   "normalized": "坛庙",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条60",
+   "surfaces": [
+    "坛庙"
+   ]
+  },
+  {
+   "normalized": "官府",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条61",
+   "surfaces": [
+    "官府"
+   ]
+  },
+  {
+   "normalized": "五七十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条63",
+   "surfaces": [
+    "五七十里"
+   ]
+  },
+  {
+   "normalized": "十月",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "十月"
+   ]
+  },
+  {
+   "normalized": "油蜡",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "油蜡"
+   ]
+  },
+  {
+   "normalized": "县官",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "县官"
+   ]
+  },
+  {
+   "normalized": "三二人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "三二人"
+   ]
+  },
+  {
+   "normalized": "经收",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条64",
+   "surfaces": [
+    "经收"
+   ]
+  },
+  {
+   "normalized": "提磨",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条65",
+   "surfaces": [
+    "提磨"
+   ]
+  },
+  {
+   "normalized": "主文",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条67",
+   "surfaces": [
+    "主文"
+   ]
+  },
+  {
+   "normalized": "刷卷",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条69",
+   "surfaces": [
+    "刷卷"
+   ]
+  },
+  {
+   "normalized": "一二人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条69",
+   "surfaces": [
+    "一二人"
+   ]
+  },
+  {
+   "normalized": "前堂",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条70",
+   "surfaces": [
+    "前堂"
+   ]
+  },
+  {
+   "normalized": "卷架",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "卷架"
+   ]
+  },
+  {
+   "normalized": "砚瓦",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条75",
+   "surfaces": [
+    "砚瓦"
+   ]
+  },
+  {
+   "normalized": "州",
+   "type": "org",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条76",
+   "surfaces": [
+    "州"
+   ]
+  },
+  {
+   "normalized": "沟渠",
+   "type": "place",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条77",
+   "surfaces": [
+    "沟渠"
+   ]
+  },
+  {
+   "normalized": "表背匠人",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条78",
+   "surfaces": [
+    "表背匠人"
+   ]
+  },
+  {
+   "normalized": "一二百本",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条78",
+   "surfaces": [
+    "一二百本"
+   ]
+  },
+  {
+   "normalized": "巡捕官员",
+   "type": "official",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条79",
+   "surfaces": [
+    "巡捕官员"
+   ]
+  },
+  {
+   "normalized": "迎接",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条79",
+   "surfaces": [
+    "迎接"
+   ]
+  },
+  {
+   "normalized": "竹片",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条80",
+   "surfaces": [
+    "竹片"
+   ]
+  },
+  {
+   "normalized": "棍板",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条80",
+   "surfaces": [
+    "棍板"
+   ]
+  },
+  {
+   "normalized": "起盖",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "起盖"
+   ]
+  },
+  {
+   "normalized": "三间",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "三间"
+   ]
+  },
+  {
+   "normalized": "两三间",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "两三间"
+   ]
+  },
+  {
+   "normalized": "两三日",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条81",
+   "surfaces": [
+    "两三日"
+   ]
+  },
+  {
+   "normalized": "提铃",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条82",
+   "surfaces": [
+    "提铃"
+   ]
+  },
+  {
+   "normalized": "钟鼓",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条82",
+   "surfaces": [
+    "钟鼓"
+   ]
+  },
+  {
+   "normalized": "岁办",
+   "type": "institution",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条85",
+   "surfaces": [
+    "岁办"
+   ]
+  },
+  {
+   "normalized": "申报",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条85",
+   "surfaces": [
+    "申报"
+   ]
+  },
+  {
+   "normalized": "木梆",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "木梆"
+   ]
+  },
+  {
+   "normalized": "五更",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "五更"
+   ]
+  },
+  {
+   "normalized": "二次",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条89",
+   "surfaces": [
+    "二次"
+   ]
+  },
+  {
+   "normalized": "刑具",
+   "type": "object",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条90",
+   "surfaces": [
+    "刑具"
+   ]
+  },
+  {
+   "normalized": "十两",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条91",
+   "surfaces": [
+    "十两"
+   ]
+  },
+  {
+   "normalized": "富民",
+   "type": "person",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条91",
+   "surfaces": [
+    "富民"
+   ]
+  },
+  {
+   "normalized": "早堂",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条92",
+   "surfaces": [
+    "早堂"
+   ]
+  },
+  {
+   "normalized": "中堂",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条92",
+   "surfaces": [
+    "中堂"
+   ]
+  },
+  {
+   "normalized": "晚堂",
+   "type": "time",
+   "count": 1,
+   "first_source": "01_卷上_体立为政事情.xhtml#条92",
+   "surfaces": [
+    "晚堂"
+   ]
+  },
+  {
+   "normalized": "香纸",
+   "type": "object",
+   "count": 1,
+   "first_source": "02_卷下_牧民备用.xhtml#条1",
+   "surfaces": [
+    "香纸"
+   ]
+  },
+  {
+   "normalized": "整点",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "整点"
+   ]
+  },
+  {
+   "normalized": "戒谕",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "戒谕"
+   ]
+  },
+  {
+   "normalized": "行刑",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "行刑"
+   ]
+  },
+  {
+   "normalized": "打点",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条1",
+   "surfaces": [
+    "打点"
+   ]
+  },
+  {
+   "normalized": "望阙谢恩",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "望阙谢恩"
+   ]
+  },
+  {
+   "normalized": "开印",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "开印"
+   ]
+  },
+  {
+   "normalized": "铜印",
+   "type": "object",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条4",
+   "surfaces": [
+    "铜印"
+   ]
+  },
+  {
+   "normalized": "设席",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "设席"
+   ]
+  },
+  {
+   "normalized": "行酒",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "行酒"
+   ]
+  },
+  {
+   "normalized": "父老",
+   "type": "person",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条5",
+   "surfaces": [
+    "父老"
+   ]
+  },
+  {
+   "normalized": "京官",
+   "type": "official",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条6",
+   "surfaces": [
+    "京官"
+   ]
+  },
+  {
+   "normalized": "下狱",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条7",
+   "surfaces": [
+    "下狱"
+   ]
+  },
+  {
+   "normalized": "点囚",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条7",
+   "surfaces": [
+    "点囚"
+   ]
+  },
+  {
+   "normalized": "封监",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条7",
+   "surfaces": [
+    "封监"
+   ]
+  },
+  {
+   "normalized": "催并",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条10",
+   "surfaces": [
+    "催并"
+   ]
+  },
+  {
+   "normalized": "拆封",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "拆封"
+   ]
+  },
+  {
+   "normalized": "看验",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "看验"
+   ]
+  },
+  {
+   "normalized": "放支",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条12",
+   "surfaces": [
+    "放支"
+   ]
+  },
+  {
+   "normalized": "明伦堂",
+   "type": "org",
+   "count": 1,
+   "first_source": "03_卷下_上任第一.xhtml#条14",
+   "surfaces": [
+    "明伦堂"
+   ]
+  },
+  {
+   "normalized": "卯时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "卯时"
+   ]
+  },
+  {
+   "normalized": "长官",
+   "type": "official",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条2",
+   "surfaces": [
+    "长官"
+   ]
+  },
+  {
+   "normalized": "巳时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条4",
+   "surfaces": [
+    "巳时"
+   ]
+  },
+  {
+   "normalized": "午时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条5",
+   "surfaces": [
+    "午时"
+   ]
+  },
+  {
+   "normalized": "未时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条6",
+   "surfaces": [
+    "未时"
+   ]
+  },
+  {
+   "normalized": "封门",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条6",
+   "surfaces": [
+    "封门"
+   ]
+  },
+  {
+   "normalized": "行杖",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条7",
+   "surfaces": [
+    "行杖"
+   ]
+  },
+  {
+   "normalized": "重杖",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条7",
+   "surfaces": [
+    "重杖"
+   ]
+  },
+  {
+   "normalized": "酉时",
+   "type": "time",
+   "count": 1,
+   "first_source": "04_卷下_直日第二.xhtml#条8",
+   "surfaces": [
+    "酉时"
+   ]
+  },
+  {
+   "normalized": "税粮簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条2",
+   "surfaces": [
+    "税粮簿"
+   ]
+  },
+  {
+   "normalized": "巡检弓兵簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "巡检弓兵簿"
+   ]
+  },
+  {
+   "normalized": "十六日",
+   "type": "time",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "十六日"
+   ]
+  },
+  {
+   "normalized": "杂役",
+   "type": "institution",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条3",
+   "surfaces": [
+    "杂役"
+   ]
+  },
+  {
+   "normalized": "四日",
+   "type": "time",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条4",
+   "surfaces": [
+    "四日"
+   ]
+  },
+  {
+   "normalized": "工房",
+   "type": "org",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条5",
+   "surfaces": [
+    "工房"
+   ]
+  },
+  {
+   "normalized": "圩塘长簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条5",
+   "surfaces": [
+    "圩塘长簿"
+   ]
+  },
+  {
+   "normalized": "赤历",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条7",
+   "surfaces": [
+    "赤历"
+   ]
+  },
+  {
+   "normalized": "查销",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条9",
+   "surfaces": [
+    "查销"
+   ]
+  },
+  {
+   "normalized": "倒换",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条11",
+   "surfaces": [
+    "倒换"
+   ]
+  },
+  {
+   "normalized": "送缴",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条12",
+   "surfaces": [
+    "送缴"
+   ]
+  },
+  {
+   "normalized": "关领",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条12",
+   "surfaces": [
+    "关领"
+   ]
+  },
+  {
+   "normalized": "刑簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "05_卷下_御史第三.xhtml#条22",
+   "surfaces": [
+    "刑簿"
+   ]
+  },
+  {
+   "normalized": "赈恤",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条1",
+   "surfaces": [
+    "赈恤"
+   ]
+  },
+  {
+   "normalized": "给散",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条1",
+   "surfaces": [
+    "给散"
+   ]
+  },
+  {
+   "normalized": "种栽",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条2",
+   "surfaces": [
+    "种栽"
+   ]
+  },
+  {
+   "normalized": "会算",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条5",
+   "surfaces": [
+    "会算"
+   ]
+  },
+  {
+   "normalized": "造册",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条5",
+   "surfaces": [
+    "造册"
+   ]
+  },
+  {
+   "normalized": "一千亩",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一千亩"
+   ]
+  },
+  {
+   "normalized": "一百张",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一百张"
+   ]
+  },
+  {
+   "normalized": "一百亩",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一百亩"
+   ]
+  },
+  {
+   "normalized": "一十张",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一十张"
+   ]
+  },
+  {
+   "normalized": "一月",
+   "type": "time",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条6",
+   "surfaces": [
+    "一月"
+   ]
+  },
+  {
+   "normalized": "铺兵",
+   "type": "official",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "铺兵"
+   ]
+  },
+  {
+   "normalized": "小票",
+   "type": "document",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条7",
+   "surfaces": [
+    "小票"
+   ]
+  },
+  {
+   "normalized": "初旬",
+   "type": "time",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条10",
+   "surfaces": [
+    "初旬"
+   ]
+  },
+  {
+   "normalized": "修葺",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条10",
+   "surfaces": [
+    "修葺"
+   ]
+  },
+  {
+   "normalized": "点视",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条10",
+   "surfaces": [
+    "点视"
+   ]
+  },
+  {
+   "normalized": "佥补",
+   "type": "institution",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条13",
+   "surfaces": [
+    "佥补"
+   ]
+  },
+  {
+   "normalized": "佥解",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条13",
+   "surfaces": [
+    "佥解"
+   ]
+  },
+  {
+   "normalized": "清匠",
+   "type": "institution",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "清匠"
+   ]
+  },
+  {
+   "normalized": "班匠",
+   "type": "institution",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "班匠"
+   ]
+  },
+  {
+   "normalized": "批文",
+   "type": "document",
+   "count": 1,
+   "first_source": "06_卷下_民情第四.xhtml#条14",
+   "surfaces": [
+    "批文"
+   ]
+  },
+  {
+   "normalized": "杖",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条1",
+   "surfaces": [
+    "杖"
+   ]
+  },
+  {
+   "normalized": "六日",
+   "type": "time",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条3",
+   "surfaces": [
+    "六日"
+   ]
+  },
+  {
+   "normalized": "油烛",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "油烛"
+   ]
+  },
+  {
+   "normalized": "月夜",
+   "type": "time",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "月夜"
+   ]
+  },
+  {
+   "normalized": "雪夜",
+   "type": "time",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条4",
+   "surfaces": [
+    "雪夜"
+   ]
+  },
+  {
+   "normalized": "点检",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条6",
+   "surfaces": [
+    "点检"
+   ]
+  },
+  {
+   "normalized": "揭帖",
+   "type": "document",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条7",
+   "surfaces": [
+    "揭帖"
+   ]
+  },
+  {
+   "normalized": "回申",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条8",
+   "surfaces": [
+    "回申"
+   ]
+  },
+  {
+   "normalized": "乡里",
+   "type": "place",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条9",
+   "surfaces": [
+    "乡里"
+   ]
+  },
+  {
+   "normalized": "邻县",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "邻县"
+   ]
+  },
+  {
+   "normalized": "关文",
+   "type": "document",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "关文"
+   ]
+  },
+  {
+   "normalized": "擒拿",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条10",
+   "surfaces": [
+    "擒拿"
+   ]
+  },
+  {
+   "normalized": "葺治",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条12",
+   "surfaces": [
+    "葺治"
+   ]
+  },
+  {
+   "normalized": "杂差",
+   "type": "institution",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条12",
+   "surfaces": [
+    "杂差"
+   ]
+  },
+  {
+   "normalized": "丁粮",
+   "type": "institution",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条15",
+   "surfaces": [
+    "丁粮"
+   ]
+  },
+  {
+   "normalized": "巷",
+   "type": "place",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条16",
+   "surfaces": [
+    "巷"
+   ]
+  },
+  {
+   "normalized": "卯簿",
+   "type": "document",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条18",
+   "surfaces": [
+    "卯簿"
+   ]
+  },
+  {
+   "normalized": "五名",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条20",
+   "surfaces": [
+    "五名"
+   ]
+  },
+  {
+   "normalized": "注簿",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条20",
+   "surfaces": [
+    "注簿"
+   ]
+  },
+  {
+   "normalized": "开筑",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条21",
+   "surfaces": [
+    "开筑"
+   ]
+  },
+  {
+   "normalized": "佥点",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条22",
+   "surfaces": [
+    "佥点"
+   ]
+  },
+  {
+   "normalized": "巡检司",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条23",
+   "surfaces": [
+    "巡检司"
+   ]
+  },
+  {
+   "normalized": "仵作",
+   "type": "official",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条26",
+   "surfaces": [
+    "仵作"
+   ]
+  },
+  {
+   "normalized": "土工",
+   "type": "official",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条26",
+   "surfaces": [
+    "土工"
+   ]
+  },
+  {
+   "normalized": "除豁",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条27",
+   "surfaces": [
+    "除豁"
+   ]
+  },
+  {
+   "normalized": "师巫",
+   "type": "person",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条28",
+   "surfaces": [
+    "师巫"
+   ]
+  },
+  {
+   "normalized": "寺观",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条29",
+   "surfaces": [
+    "寺观"
+   ]
+  },
+  {
+   "normalized": "决一二十",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条31",
+   "surfaces": [
+    "决一二十"
+   ]
+  },
+  {
+   "normalized": "坊",
+   "type": "place",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条35",
+   "surfaces": [
+    "坊"
+   ]
+  },
+  {
+   "normalized": "修整",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条35",
+   "surfaces": [
+    "修整"
+   ]
+  },
+  {
+   "normalized": "儒学",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条37",
+   "surfaces": [
+    "儒学"
+   ]
+  },
+  {
+   "normalized": "款待",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条41",
+   "surfaces": [
+    "款待"
+   ]
+  },
+  {
+   "normalized": "驿递",
+   "type": "institution",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条41",
+   "surfaces": [
+    "驿递"
+   ]
+  },
+  {
+   "normalized": "畜养",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条42",
+   "surfaces": [
+    "畜养"
+   ]
+  },
+  {
+   "normalized": "鸡鹅",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条42",
+   "surfaces": [
+    "鸡鹅"
+   ]
+  },
+  {
+   "normalized": "两支",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条43",
+   "surfaces": [
+    "两支"
+   ]
+  },
+  {
+   "normalized": "出纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条43",
+   "surfaces": [
+    "出纳"
+   ]
+  },
+  {
+   "normalized": "支给",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条43",
+   "surfaces": [
+    "支给"
+   ]
+  },
+  {
+   "normalized": "马匹",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条47",
+   "surfaces": [
+    "马匹"
+   ]
+  },
+  {
+   "normalized": "种树",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条48",
+   "surfaces": [
+    "种树"
+   ]
+  },
+  {
+   "normalized": "监房",
+   "type": "org",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条49",
+   "surfaces": [
+    "监房"
+   ]
+  },
+  {
+   "normalized": "响板",
+   "type": "object",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条49",
+   "surfaces": [
+    "响板"
+   ]
+  },
+  {
+   "normalized": "监禁",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条49",
+   "surfaces": [
+    "监禁"
+   ]
+  },
+  {
+   "normalized": "相视",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条51",
+   "surfaces": [
+    "相视"
+   ]
+  },
+  {
+   "normalized": "埋葬",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条51",
+   "surfaces": [
+    "埋葬"
+   ]
+  },
+  {
+   "normalized": "掩埋",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "07_卷下_公务第五.xhtml#条51",
+   "surfaces": [
+    "掩埋"
+   ]
+  },
+  {
+   "normalized": "夏麦",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条1",
+   "surfaces": [
+    "夏麦"
+   ]
+  },
+  {
+   "normalized": "秋粮",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条1",
+   "surfaces": [
+    "秋粮"
+   ]
+  },
+  {
+   "normalized": "折色",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条2",
+   "surfaces": [
+    "折色"
+   ]
+  },
+  {
+   "normalized": "寄庄",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条3",
+   "surfaces": [
+    "寄庄"
+   ]
+  },
+  {
+   "normalized": "揽纳",
+   "type": "institution",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条4",
+   "surfaces": [
+    "揽纳"
+   ]
+  },
+  {
+   "normalized": "由帖",
+   "type": "document",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条4",
+   "surfaces": [
+    "由帖"
+   ]
+  },
+  {
+   "normalized": "填写",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "填写"
+   ]
+  },
+  {
+   "normalized": "十年",
+   "type": "time",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "十年"
+   ]
+  },
+  {
+   "normalized": "完纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条5",
+   "surfaces": [
+    "完纳"
+   ]
+  },
+  {
+   "normalized": "上纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条8",
+   "surfaces": [
+    "上纳"
+   ]
+  },
+  {
+   "normalized": "坐派",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "坐派"
+   ]
+  },
+  {
+   "normalized": "一斗",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "一斗"
+   ]
+  },
+  {
+   "normalized": "一升",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条10",
+   "surfaces": [
+    "一升"
+   ]
+  },
+  {
+   "normalized": "征完",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条12",
+   "surfaces": [
+    "征完"
+   ]
+  },
+  {
+   "normalized": "追并",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条12",
+   "surfaces": [
+    "追并"
+   ]
+  },
+  {
+   "normalized": "陪纳",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条12",
+   "surfaces": [
+    "陪纳"
+   ]
+  },
+  {
+   "normalized": "较勘",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条13",
+   "surfaces": [
+    "较勘"
+   ]
+  },
+  {
+   "normalized": "追算",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "08_卷下_粮料第六.xhtml#条18",
+   "surfaces": [
+    "追筭"
+   ]
+  },
+  {
+   "normalized": "律法",
+   "type": "institution",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条1",
+   "surfaces": [
+    "律法"
+   ]
+  },
+  {
+   "normalized": "迎春",
+   "type": "institution",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条5",
+   "surfaces": [
+    "迎春"
+   ]
+  },
+  {
+   "normalized": "春花",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条5",
+   "surfaces": [
+    "春花"
+   ]
+  },
+  {
+   "normalized": "春杖",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条5",
+   "surfaces": [
+    "春杖"
+   ]
+  },
+  {
+   "normalized": "教读",
+   "type": "official",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条6",
+   "surfaces": [
+    "教读"
+   ]
+  },
+  {
+   "normalized": "牲口",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条7",
+   "surfaces": [
+    "牲口"
+   ]
+  },
+  {
+   "normalized": "庙",
+   "type": "org",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条9",
+   "surfaces": [
+    "庙"
+   ]
+  },
+  {
+   "normalized": "密访",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条12",
+   "surfaces": [
+    "密访"
+   ]
+  },
+  {
+   "normalized": "斋戒",
+   "type": "institution",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条17",
+   "surfaces": [
+    "斋戒"
+   ]
+  },
+  {
+   "normalized": "祭品",
+   "type": "object",
+   "count": 1,
+   "first_source": "09_卷下_礼仪第七.xhtml#条17",
+   "surfaces": [
+    "祭品"
+   ]
+  },
+  {
+   "normalized": "陂",
+   "type": "place",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条1",
+   "surfaces": [
+    "陂"
+   ]
+  },
+  {
+   "normalized": "堰",
+   "type": "place",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条1",
+   "surfaces": [
+    "堰"
+   ]
+  },
+  {
+   "normalized": "街坊",
+   "type": "place",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条2",
+   "surfaces": [
+    "街坊"
+   ]
+  },
+  {
+   "normalized": "昏夜",
+   "type": "time",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条2",
+   "surfaces": [
+    "昏夜"
+   ]
+  },
+  {
+   "normalized": "罚谷",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条4",
+   "surfaces": [
+    "罚谷"
+   ]
+  },
+  {
+   "normalized": "开垦",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条5",
+   "surfaces": [
+    "开垦"
+   ]
+  },
+  {
+   "normalized": "三年",
+   "type": "time",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条5",
+   "surfaces": [
+    "三年"
+   ]
+  },
+  {
+   "normalized": "祈祷",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条9",
+   "surfaces": [
+    "祈祷"
+   ]
+  },
+  {
+   "normalized": "耆宿",
+   "type": "person",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条9",
+   "surfaces": [
+    "耆宿"
+   ]
+  },
+  {
+   "normalized": "五里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条10",
+   "surfaces": [
+    "五里"
+   ]
+  },
+  {
+   "normalized": "十里",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条10",
+   "surfaces": [
+    "十里"
+   ]
+  },
+  {
+   "normalized": "镣杻",
+   "type": "object",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条12",
+   "surfaces": [
+    "镣杻"
+   ]
+  },
+  {
+   "normalized": "笞责",
+   "type": "punishment",
+   "count": 1,
+   "first_source": "10_卷下_御灾第八.xhtml#条12",
+   "surfaces": [
+    "笞责"
+   ]
+  },
+  {
+   "normalized": "拘拿",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条1",
+   "surfaces": [
+    "拘拿"
+   ]
+  },
+  {
+   "normalized": "杻",
+   "type": "object",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条2",
+   "surfaces": [
+    "杻"
+   ]
+  },
+  {
+   "normalized": "检验",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条6",
+   "surfaces": [
+    "检验"
+   ]
+  },
+  {
+   "normalized": "两家",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条6",
+   "surfaces": [
+    "两家"
+   ]
+  },
+  {
+   "normalized": "拘追",
+   "type": "behavior",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条7",
+   "surfaces": [
+    "拘追"
+   ]
+  },
+  {
+   "normalized": "三四人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条11",
+   "surfaces": [
+    "三四人"
+   ]
+  },
+  {
+   "normalized": "二人",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条11",
+   "surfaces": [
+    "二人"
+   ]
+  },
+  {
+   "normalized": "十面",
+   "type": "quantity",
+   "count": 1,
+   "first_source": "11_卷下_词讼第九.xhtml#条13",
+   "surfaces": [
+    "十面"
+   ]
+  }
+ ]
+}

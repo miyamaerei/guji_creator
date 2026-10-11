@@ -1,0 +1,460 @@
+{
+ "schema_version": "kg-rule-json-v1",
+ "rule_version": "rule-layer-v1",
+ "volume": "05",
+ "chapter": "卷下_御史第三",
+ "chapter_no": "05",
+ "source_file": "05_卷下_御史第三.xhtml",
+ "item_count": 22,
+ "rule_item_count": 12,
+ "rule_count": 13,
+ "rules": [
+  {
+   "rule_id": "XGF-R-073",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "常时更换",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条1",
+   "original": "吏房免巡风、直堂，总管各房吏典。各房吏分管诸色人役，如有不遵规矩，先责该管司典役及本犯。当房置立见任致仕乡官省祭簿一扇，各写脚色在下。每遇庆眉、节日，禀请查点此簿，不可常时更换。农民，吏典别置一簿，开写脚色缘由及役、未役，官司备照。",
+   "original_offset": {
+    "start": 0,
+    "end": 116
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若常时更换，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 1
+  },
+  {
+   "rule_id": "XGF-R-074",
+   "type": "禁止型+时限型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "deadline"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "更换；无故唤点各房，乱行比较",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "各房",
+   "purpose": "",
+   "deadline": "月分各名下修写催征勾扰解事由，于点日照依次第该房禀请比较",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条2",
+   "original": "户房每年置立税粮簿一扇，所征派数目，随注都图下，随时比较，不可更换。又置立里长簿一扇，限月分各名下修写催征勾扰解事由，于点日照依次第该房禀请比较。不可无故唤点各房，乱行比较。牙行、埠头，亦别置一扇，书手就附经该里长簿内。",
+   "original_offset": {
+    "start": 0,
+    "end": 110
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，若更换；无故唤点各房，乱行比较，即属违禁；合规做法：改用文内许可途径。【场景】日常政务事项须在月分各名下修写催征勾扰解事由，于点日照依次第该房禀请比较内办结，逾期按规追责。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 2
+  },
+  {
+   "rule_id": "XGF-R-075",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "攒一簿，遇发册勾，执此清查其吏，专管门禁，免其巡风，仍直堂",
+   "prohibited_effect": "",
+   "object": "册勾",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条3",
+   "original": "兵房立巡检弓兵簿，每月初二、十六日禀请查。如有贼盗生发，照依分定地方决责。其概县军户须攒一簿，遇发册勾，执此清查其吏，专管门禁，免其巡风，仍直堂。又预将概县杂役人去□开正身、替身，置立一簿，遇有差役，簿内次第勾记。",
+   "original_offset": {
+    "start": 0,
+    "end": 107
+   },
+   "confidence": 0.91,
+   "example": {
+    "text": "【场景】日常政务时，官府（知县）应攒一簿，遇发册勾，执此清查其吏，专管门禁，免其巡风，仍直堂。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 3
+  },
+  {
+   "rule_id": "XGF-R-076",
+   "type": "禁止型+义务型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "工房置立圩塘长簿",
+   "subject": "官府（知县）",
+   "prohibited_action": "滥及里甲人等",
+   "allowed_action": "",
+   "obligation_action": "开具于簿，以便稽考",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条5",
+   "original": "工房置立圩塘长簿，朔望日禀请查点，不可滥及里甲人等。其概县户，立要挨都总立一簿，以备清查处勾换。本县并所属公廨，开坐□数，并大小器用，须开具于簿，以便稽考。",
+   "original_offset": {
+    "start": 0,
+    "end": 78
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】工房置立圩塘长簿时，若滥及里甲人等，即属违禁；合规做法：改用文内许可途径。【场景】工房置立圩塘长簿时，官府（知县）应开具于簿，以便稽考。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 5
+  },
+  {
+   "rule_id": "XGF-R-077",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "直印吏须于无事房分吏典择用",
+   "subject": "直印吏",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "于无事房分吏典择用，先于六房吏同具呈措，各保举帖，与专管每日记印公文呈禀，月终具缴印簿",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条8",
+   "original": "直印吏须于无事房分吏典择用，先于六房吏同具呈措，各保举帖，与专管每日记印公文呈禀，月终具缴印簿。",
+   "original_offset": {
+    "start": 0,
+    "end": 48
+   },
+   "confidence": 0.97,
+   "example": {
+    "text": "【场景】直印吏须于无事房分吏典择用时，直印吏应于无事房分吏典择用，先于六房吏同具呈措，各保举帖，与专管每日记印公文呈禀，月终具缴印簿。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 8
+  },
+  {
+   "rule_id": "XGF-R-078",
+   "type": "处罚型",
+   "primary_type": "处罚型",
+   "is_combo": false,
+   "modals": [
+    "penalty"
+   ],
+   "condition": "但有违误，实时",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "责罚",
+   "source": "05_卷下_御史第三.xhtml#条10",
+   "original": "但有违误，实时责罚。",
+   "original_offset": {
+    "start": 43,
+    "end": 53
+   },
+   "confidence": 0.85,
+   "example": {
+    "text": "【场景】违者依规责罚。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 10
+  },
+  {
+   "rule_id": "XGF-R-079",
+   "type": "义务型+禁止型",
+   "primary_type": "义务型",
+   "is_combo": true,
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "六房行移须简约",
+   "subject": "六房",
+   "prohibited_action": "添捏，妄自巧取，其钱粮数目用印钤盖",
+   "allowed_action": "",
+   "obligation_action": "简约，朱语上依律条",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条15",
+   "original": "六房行移须简约，朱语上依律条，自不得添捏，妄自巧取，其钱粮数目用印钤盖。",
+   "original_offset": {
+    "start": 0,
+    "end": 36
+   },
+   "confidence": 0.97,
+   "example": {
+    "text": "【场景】六房行移须简约时，若添捏，妄自巧取，其钱粮数目用印钤盖，即属违禁；合规做法：改用文内许可途径。【场景】六房行移须简约时，六房应简约，朱语上依律条。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 15
+  },
+  {
+   "rule_id": "XGF-R-080",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "六房",
+   "prohibited_action": "各房径自派支",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条16",
+   "original": "六房遇有应办物料，并各支官钱者，俱实数移付该房均派支销，不许各房径自派支。",
+   "original_offset": {
+    "start": 0,
+    "end": 37
+   },
+   "confidence": 0.95,
+   "example": {
+    "text": "【场景】日常政务时，若各房径自派支，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 16
+  },
+  {
+   "rule_id": "XGF-R-081",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "",
+   "subject": "六房",
+   "prohibited_action": "各房径自问拟；混乱承行",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条17",
+   "original": "六房有遇该罪人犯，俱要取供明白，移付刑房问拟归结，不许各房径自问拟。其分理词讼等项，要看事情明白，批某房承行，但置簿挂号，每五日差佐贰查考，不必自收自理，亦不可混乱承行。",
+   "original_offset": {
+    "start": 0,
+    "end": 85
+   },
+   "confidence": 0.95,
+   "example": {
+    "text": "【场景】日常政务时，若各房径自问拟；混乱承行，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 17
+  },
+  {
+   "rule_id": "XGF-R-082",
+   "type": "禁止型+义务型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "直堂吏每日报某时",
+   "subject": "直堂吏",
+   "prohibited_action": "一人放过，遇有紧急他故；令人守候",
+   "allowed_action": "",
+   "obligation_action": "发落人去",
+   "prohibited_effect": "",
+   "object": "人守候",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条18",
+   "original": "直堂吏每日报某时，依期就禀该行某事，不许一人放过，遇有紧急他故，便须发落人去，不可令人守候。",
+   "original_offset": {
+    "start": 0,
+    "end": 46
+   },
+   "confidence": 0.97,
+   "example": {
+    "text": "【场景】直堂吏每日报某时时，若一人放过，遇有紧急他故；令人守候，即属违禁；合规做法：改用文内许可途径。【场景】直堂吏每日报某时时，直堂吏应发落人去。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 18
+  },
+  {
+   "rule_id": "XGF-R-083",
+   "type": "义务型",
+   "primary_type": "义务型",
+   "is_combo": false,
+   "modals": [
+    "obligation"
+   ],
+   "condition": "若立案",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "allowed_action": "",
+   "obligation_action": "实时判定施行",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条19",
+   "original": "若立案，须实时判定施行，",
+   "original_offset": {
+    "start": 68,
+    "end": 80
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若立案时，官府（知县）应实时判定施行。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 19
+  },
+  {
+   "rule_id": "XGF-R-083",
+   "type": "禁止型",
+   "primary_type": "禁止型",
+   "is_combo": false,
+   "modals": [
+    "prohibit"
+   ],
+   "condition": "若行案，亦先一日判定",
+   "subject": "官府（知县）",
+   "prohibited_action": "同公文一齐补入",
+   "allowed_action": "",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条19",
+   "original": "若行案，亦先一日判定，不许同公文一齐补入。",
+   "original_offset": {
+    "start": 80,
+    "end": 101
+   },
+   "confidence": 0.93,
+   "example": {
+    "text": "【场景】若行案，亦先一日判定时，若同公文一齐补入，即属违禁；合规做法：改用文内许可途径。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 19
+  },
+  {
+   "rule_id": "XGF-R-085",
+   "type": "禁止型+允许型",
+   "primary_type": "禁止型",
+   "is_combo": true,
+   "modals": [
+    "prohibit",
+    "allow"
+   ],
+   "condition": "吏典不由呼唤",
+   "subject": "吏典",
+   "prohibited_action": "辄近公座；妄有所禀，其农民、书手等项",
+   "allowed_action": "行自请起草",
+   "obligation_action": "",
+   "prohibited_effect": "",
+   "object": "",
+   "purpose": "",
+   "deadline": "",
+   "punishment": "",
+   "source": "05_卷下_御史第三.xhtml#条21",
+   "original": "吏典不由呼唤，不许辄近公座。不问及不许妄有所禀，其农民、书手等项，不容一人出入。若吏典不会行移刑名，许行自请起草。",
+   "original_offset": {
+    "start": 0,
+    "end": 57
+   },
+   "confidence": 0.97,
+   "example": {
+    "text": "【场景】吏典不由呼唤时，若辄近公座；妄有所禀，其农民、书手等项，即属违禁；合规做法：行自请起草。",
+    "kind": "generated",
+    "note": "AI 发散示例，非原文，仅作理解辅助"
+   },
+   "volume": "05",
+   "chapter": "卷下_御史第三",
+   "item": 21
+  }
+ ]
+}

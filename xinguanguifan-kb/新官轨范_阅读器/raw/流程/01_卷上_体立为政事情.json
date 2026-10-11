@@ -1,0 +1,4268 @@
+{
+ "schema_version": "kg-proc-ai-json-v1",
+ "process_version": "proc-ai-v1",
+ "volume": "01",
+ "chapter": "卷上_体立为政事情",
+ "source_file": "01_卷上_体立为政事情.xhtml",
+ "process_count": 94,
+ "event_count": 50,
+ "events_note": "events 字段为事件层引用（XGF-E 命名空间归事件层维护）",
+ "processes": [
+  {
+   "process_id": "XGF-P-001",
+   "event_type": "到任礼",
+   "title": "择日到任",
+   "trigger": "新官未任之先",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-001-s1",
+     "state": "择日",
+     "action": "暂为择日到任，不惹嫌疑",
+     "agent": "新官",
+     "condition": "不可安歇官民之家或公馆庙庵等处",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-002",
+   "source": "01_卷上_体立为政事情.xhtml#条1",
+   "derived_from": [
+    "01-001"
+   ],
+   "confidence": 0.85,
+   "analysis": "到任前置：择日到任，禁歇官民之家公馆庙庵。",
+   "original": "新官未任之先，不可安歇官民之家或公馆庙庵等处，暂为择日到任，不惹嫌疑。",
+   "derived_rule": "XGF-R-001",
+   "events": [
+    "XGF-E-001"
+   ]
+  },
+  {
+   "process_id": "XGF-P-002",
+   "event_type": "到任礼",
+   "title": "到任仪注预拟",
+   "trigger": "到任前",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-002-s1",
+     "state": "唤礼",
+     "action": "预先分付礼房吏，唤取平昔惯作礼生、生员",
+     "agent": "礼房",
+     "next": "01-002-s2",
+     "agent_ent_ids": [
+      "ENT-086"
+     ]
+    },
+    {
+     "step_id": "01-002-s2",
+     "state": "手本",
+     "action": "亲自分付，开写到任仪注手本，预先窥视",
+     "agent": "礼生/生员",
+     "condition": "如此到任行礼不致差错",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-003",
+   "source": "01_卷上_体立为政事情.xhtml#条2",
+   "derived_from": [
+    "01-002"
+   ],
+   "confidence": 0.85,
+   "analysis": "到任仪注预拟：唤礼生→开手本窥视。",
+   "original": "预先分付礼房吏，唤取平昔惯作礼生、生员，亲自分付，开写到任仪注手本，预先窥视。如此到任行礼，不致差错。",
+   "derived_rule": "XGF-R-002",
+   "events": [
+    "XGF-E-002"
+   ]
+  },
+  {
+   "process_id": "XGF-P-003",
+   "event_type": "到任礼",
+   "title": "到任行礼",
+   "trigger": "择定到任日期时辰",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-003-s1",
+     "state": "导引",
+     "action": "城隍导引",
+     "agent": "城隍仪仗",
+     "next": "01-003-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-003-s2",
+     "state": "更服",
+     "action": "县衙二门更换公服幞预",
+     "agent": "新官",
+     "next": "01-003-s3",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-003-s3",
+     "state": "祭门",
+     "action": "祭门了毕，上厅就便谢恩了毕",
+     "agent": "新官",
+     "next": "01-003-s4",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-003-s4",
+     "state": "行礼",
+     "action": "照依先开仪注次序行礼了毕",
+     "agent": "新官",
+     "next": "01-003-s5",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-003-s5",
+     "state": "变服",
+     "action": "稍退后堂，变服上厅，接见士夫，回答各行相见人等之礼",
+     "agent": "新官",
+     "next": "01-003-s6",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-003-s6",
+     "state": "斟酌",
+     "action": "务要须先斟酌，等第相宜，分付之言不宜多发",
+     "agent": "新官",
+     "condition": "诚恐不合民情土俗事反惹耻笑",
+     "next": "01-003-s7",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-003-s7",
+     "state": "买办",
+     "action": "将祭文庙猪羊分付买办，里甲秤知分两须与屠户，陆续支应上司",
+     "agent": "里甲/屠户",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-004",
+   "source": "01_卷上_体立为政事情.xhtml#条3",
+   "derived_from": [
+    "01-003"
+   ],
+   "confidence": 0.93,
+   "analysis": "到任行礼 7 步：城隍导引→更服→祭门谢恩→仪注行礼→变服接见→斟酌等第→买办祭物。",
+   "original": "择定到任日期时辰，城隍导引，县衙二门更换公服幞预，祭门了毕上厅就便，谢恩了毕，然后照依先开仪注次序行礼了毕，稍退后堂，变服上厅，接见士夫，回答各行相见人等之礼，务要须先斟酌，等第相宜及分付之言不宜多发，诚恐不合民情土俗事，反惹耻笑。将祭文庙猪羊分付买办，里甲秤知分两须与屠户，陆续支应上司。",
+   "derived_rule": "XGF-R-003",
+   "events": [
+    "XGF-E-003"
+   ]
+  },
+  {
+   "process_id": "XGF-P-004",
+   "event_type": "到任礼",
+   "title": "回望士夫",
+   "trigger": "到任三日之后",
+   "timeline": [
+    "三日之后"
+   ],
+   "steps": [
+    {
+     "step_id": "01-004-s1",
+     "state": "吊籍",
+     "action": "吊取礼房旧日分散胙肉历日、士大夫簿籍，查勘明白",
+     "agent": "礼房",
+     "next": "01-004-s2",
+     "agent_ent_ids": [
+      "ENT-086"
+     ]
+    },
+    {
+     "step_id": "01-004-s2",
+     "state": "斟酌",
+     "action": "然后回望士夫，预先斟酌，可去则去，可止则止",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-005",
+   "source": "01_卷上_体立为政事情.xhtml#条4",
+   "derived_from": [
+    "01-004"
+   ],
+   "confidence": 0.85,
+   "analysis": "回望士夫：吊胙肉簿查勘→酌定去止。",
+   "original": "到任三日之后，吊取礼房旧日分散胙肉历日士大夫簿籍，查勘明白，然后回望士夫，预先斟酌，可去则去，可止则止。",
+   "derived_rule": "XGF-R-004",
+   "events": [
+    "XGF-E-004"
+   ]
+  },
+  {
+   "process_id": "XGF-P-005",
+   "event_type": "到任交割",
+   "title": "交盘官库",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-005-s1",
+     "state": "公同",
+     "action": "务要公同原旧经手官、吏门、库人等",
+     "agent": "原旧经手官/吏门/库人",
+     "next": "01-005-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-005-s2",
+     "state": "拆验",
+     "action": "将在库应在钱粮取出，当厅对众拆见，称验明白",
+     "agent": "新官",
+     "next": "01-005-s3",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-005-s3",
+     "state": "封记",
+     "action": "用亲手笔踪封记停当，仍放入库",
+     "agent": "新官",
+     "next": "01-005-s4",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-005-s4",
+     "state": "开写",
+     "action": "取具交盘官员关支及库吏人等不致短少，供给开写交盘过对象数目，收入私宅备写",
+     "agent": "交盘官员/库吏",
+     "next": "01-005-s5",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-005-s5",
+     "state": "巡守",
+     "action": "接管之后用心分付经手之人及巡风该吏每夜提督巡更，牢固看守",
+     "agent": "巡风吏",
+     "next": "01-005-s6",
+     "agent_ent_ids": [
+      "ENT-213"
+     ]
+    },
+    {
+     "step_id": "01-005-s6",
+     "state": "结状",
+     "action": "次令巡风吏递巡风无事结状",
+     "agent": "巡风吏",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-213"
+     ]
+    }
+   ],
+   "next_process": "01-006",
+   "source": "01_卷上_体立为政事情.xhtml#条5",
+   "derived_from": [
+    "01-005"
+   ],
+   "confidence": 0.9,
+   "analysis": "交盘官库：公同经手→拆验封记→开写数目→巡更守库→递无事结状。",
+   "original": "交盘官库，务要公同原旧经手官、吏门、库人等，即将在库应在钱粮取出，当厅对众拆见，称验明白。用亲手笔踪封记停当，仍放入库，取具交盘官员关支及库吏人等，不致短少，供给开写交盘过对象数目，收入私宅备写，日后以便查考。接管之后，用心分付经手之人及巡风该吏每夜提督巡更，牢固看守，从此自己干系，次令巡风吏递巡风无事结状。",
+   "derived_rule": "XGF-R-005",
+   "events": [
+    "XGF-E-005"
+   ]
+  },
+  {
+   "process_id": "XGF-P-006",
+   "event_type": "词讼受理",
+   "title": "伸冤理枉",
+   "trigger": "民间伸冤理枉",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-006-s1",
+     "state": "缉知",
+     "action": "务将所犯实情，各另差人缉知方可归结",
+     "agent": "官府",
+     "condition": "不可实时料量停当就便发落，恐异常之事差错难追",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-007",
+   "source": "01_卷上_体立为政事情.xhtml#条6",
+   "derived_from": [
+    "01-006"
+   ],
+   "confidence": 0.85,
+   "analysis": "伸冤理枉：先差人缉实情，禁即时发落。",
+   "original": "凡民间伸冤，理枉干理公务，各有自然之理，但中间恐有耳目所不间，思虑所不及，异常之事，绝不可实时料量停当就便发落，倘有差错，难以追悔。务将所犯实情，各另差人缉知方可归结。",
+   "derived_rule": "XGF-R-006",
+   "events": [
+    "XGF-E-006"
+   ]
+  },
+  {
+   "process_id": "XGF-P-007",
+   "event_type": "审囚",
+   "title": "人命缉访",
+   "trigger": "问人命重情",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-007-s1",
+     "state": "缉访",
+     "action": "务要多方设法，多使平素可托心腹之人，各令缉访",
+     "agent": "心腹之人",
+     "condition": "不可自恃聪明辄便轻易以理推问",
+     "next": "01-007-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-007-s2",
+     "state": "得情",
+     "action": "务要事得其情，刑服其罪",
+     "agent": "官府",
+     "next": "01-007-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-007-s3",
+     "state": "申详",
+     "action": "就便申详",
+     "agent": "官府",
+     "condition": "毋扭成案而枉其生，毋因姑息而冤其死",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-008",
+   "source": "01_卷上_体立为政事情.xhtml#条7",
+   "derived_from": [
+    "01-007"
+   ],
+   "confidence": 0.9,
+   "analysis": "人命案：心腹缉访→得情刑服→申详，禁枉生冤死。",
+   "original": "凡问人命重情，不可自恃聪明，辄便轻易，以理推问明白，就便申详，倘中间若有不实，不惟人命冤枉，致有凶报，抑且目下隐匿实情，事有反复，致有别词，负累不便。务要多方设法，多使平素可托心腹之人，各令缉访务要事，得其情刑服其罪，毋扭成案而枉其生，毋因姑息而冤其死。",
+   "derived_rule": "XGF-R-007",
+   "events": [
+    "XGF-E-007"
+   ]
+  },
+  {
+   "process_id": "XGF-P-008",
+   "event_type": "禁令示众",
+   "title": "夜巡衙署",
+   "trigger": "到任数日之后",
+   "timeline": [
+    "七八日十日半月一次"
+   ],
+   "steps": [
+    {
+     "step_id": "01-008-s1",
+     "state": "夜巡",
+     "action": "夜晚亲自引人执灯县衙各处，门户、锁钥、封皮，亲看一遍",
+     "agent": "新官",
+     "condition": "如此下人不敢怠慢误事",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-009",
+   "source": "01_卷上_体立为政事情.xhtml#条8",
+   "derived_from": [
+    "01-008"
+   ],
+   "confidence": 0.85,
+   "analysis": "夜巡衙署：亲自执灯看门户锁钥封皮。",
+   "original": "到任数日之后，或待七八日、十日、半月一次，夜晚亲自引人执灯县衙各处，门户、锁钥、封皮，亲看一遍，如此下人不敢怠慢误事。",
+   "derived_rule": "XGF-R-008",
+   "events": [
+    "XGF-E-008"
+   ]
+  },
+  {
+   "process_id": "XGF-P-009",
+   "event_type": "新政施行",
+   "title": "衙署修固",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-009-s1",
+     "state": "修固",
+     "action": "将县衙前后门户闸扳并各宅周围墙垣修筑坚固，高耸棘剌固塞，勿留小路",
+     "agent": "官府",
+     "condition": "倘不谨致吏卒扒墙出入通露消息深有不便",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-010",
+   "source": "01_卷上_体立为政事情.xhtml#条9",
+   "derived_from": [
+    "01-009"
+   ],
+   "confidence": 0.85,
+   "analysis": "衙署修固：筑墙固塞勿留小路。",
+   "original": "将县衙前后门户闸扳，并各宅周围墙垣修筑坚固，高耸棘剌固塞，勿留小路。倘或不谨，以致吏卒人等早晚扒墙出入，通露消息，深有不便。",
+   "derived_rule": "XGF-R-009",
+   "events": [
+    "XGF-E-009"
+   ]
+  },
+  {
+   "process_id": "XGF-P-010",
+   "event_type": "狱政管理",
+   "title": "监守轮值",
+   "trigger": "到任",
+   "timeline": [
+    "每日",
+    "五日或一日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-010-s1",
+     "state": "分派",
+     "action": "分付刑房吏三名，每日在监轮流宿歇看守",
+     "agent": "刑房吏",
+     "next": "01-010-s2",
+     "agent_ent_ids": [
+      "ENT-110"
+     ]
+    },
+    {
+     "step_id": "01-010-s2",
+     "state": "递状",
+     "action": "那个起头看守之日，就令本吏先递在监，轮流看守几日",
+     "agent": "刑房吏",
+     "next": "01-010-s3",
+     "agent_ent_ids": [
+      "ENT-110"
+     ]
+    },
+    {
+     "step_id": "01-010-s3",
+     "state": "收处",
+     "action": "囚犯结通收一处，以便日后查考",
+     "agent": "官府",
+     "condition": "倘有不测之事罪有所归",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-011",
+   "source": "01_卷上_体立为政事情.xhtml#条10",
+   "derived_from": [
+    "01-010"
+   ],
+   "confidence": 0.88,
+   "analysis": "监守轮值：刑房吏三名轮流宿歇→起头递状→结通收一处。",
+   "original": "分付刑房吏三名，每日在监轮流宿歇看守，或五日，或一日，那个起头看守之日，就令本吏先递在监，轮流看守几日，不致疏虞，囚犯结通，收一处，以便日后查考，倘有不测之事，罪有所归。",
+   "derived_rule": "XGF-R-010",
+   "events": [
+    "XGF-E-010"
+   ]
+  },
+  {
+   "process_id": "XGF-P-011",
+   "event_type": "狱政管理",
+   "title": "囚簿置立",
+   "trigger": "到任",
+   "timeline": [
+    "逐日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-011-s1",
+     "state": "置簿",
+     "action": "置立囚簿一扇在监",
+     "agent": "官府",
+     "next": "01-011-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-011-s2",
+     "state": "开写",
+     "action": "一应轻重囚犯逐日令看监吏开写实在若干名数",
+     "agent": "看监吏",
+     "condition": "以便发落囚犯不致淹禁",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-012",
+   "source": "01_卷上_体立为政事情.xhtml#条11",
+   "derived_from": [
+    "01-011"
+   ],
+   "confidence": 0.88,
+   "analysis": "囚簿：置簿→逐日开写名数。",
+   "original": "置立囚簿一扇在监，一应轻重囚犯，逐日令看监吏开写实在若干名数，以便发落囚犯，不致淹禁。",
+   "derived_rule": "XGF-R-011",
+   "events": [
+    "XGF-E-011"
+   ]
+  },
+  {
+   "process_id": "XGF-P-012",
+   "event_type": "狱政管理",
+   "title": "发落囚簿",
+   "trigger": "到任",
+   "timeline": [
+    "五日或十日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-012-s1",
+     "state": "另簿",
+     "action": "另置囚簿一扇，将一应发落过有头尾案卷囚犯开写于上",
+     "agent": "官府",
+     "next": "01-012-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-012-s2",
+     "state": "注摽",
+     "action": "或五日、十日誊作一次，用朱笔注摽",
+     "agent": "刑房吏",
+     "next": "01-012-s3",
+     "agent_ent_ids": [
+      "ENT-110"
+     ]
+    },
+    {
+     "step_id": "01-012-s3",
+     "state": "送看",
+     "action": "倘风宪法司官员按临到县清查狱囚，吊看监簿，将此簿封送与看",
+     "agent": "官府",
+     "condition": "如此弊端易为藏掩，不合律例，量情发落",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-013",
+   "source": "01_卷上_体立为政事情.xhtml#条12",
+   "derived_from": [
+    "01-012"
+   ],
+   "confidence": 0.85,
+   "analysis": "发落囚簿：另簿开写→朱笔注摽→按临封送。",
+   "original": "另置囚簿一扇，将一应发落过有头尾案卷囚犯，开写于上，或五日、十日誊作一次，用朱笔注摽。倘或风宪法司官员按临到县，清查狱囚，吊看监簿，将此簿封送与看，如此弊端易为藏掩，不合律例，量情发落，人犯无处查究。",
+   "derived_rule": "XGF-R-012",
+   "events": [
+    "XGF-E-012"
+   ]
+  },
+  {
+   "process_id": "XGF-P-013",
+   "event_type": "禁令示众",
+   "title": "朔望申饬",
+   "trigger": "朔望之日",
+   "timeline": [
+    "朔望"
+   ],
+   "steps": [
+    {
+     "step_id": "01-013-s1",
+     "state": "通行",
+     "action": "分付吏卒里甲人等俱各在厅通行分付：凡百公事各人务要经心用意，对面听说",
+     "agent": "吏卒/里甲",
+     "next": "01-013-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-013-s2",
+     "state": "责治",
+     "action": "中间倘有大胆奸顽之徒不肯经心听，东觑西望交头接耳说话，痛加责治",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-014",
+   "source": "01_卷上_体立为政事情.xhtml#条13",
+   "derived_from": [
+    "01-013"
+   ],
+   "confidence": 0.88,
+   "analysis": "朔望申饬：通行分付经心听→顽徒痛加责治。",
+   "original": "到任数日之后，到于朔望之日，分付吏卒里甲人等俱各在厅通行分付：今后自我到任为始，凡百分付一应大小公事，各人务要经心用意，对面听说，如此公事不致迟误差错。中间倘有大胆奸顽之徒，不肯经心听我，正分付中间，他却东觑西望，交头接耳说话，痛加责治，并不虚言。如此分付，久后免致劳神费力。如遇前项之徒，着实责罚，此时人之警惧。",
+   "derived_rule": "XGF-R-013",
+   "events": [
+    "XGF-E-013"
+   ]
+  },
+  {
+   "process_id": "XGF-P-014",
+   "event_type": "文书流转",
+   "title": "六房须知文册",
+   "trigger": "到任数日之后",
+   "timeline": [
+    "逐日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-014-s1",
+     "state": "给册",
+     "action": "分付六房吏典照依吏部验封司给领须知文册",
+     "agent": "六房吏典",
+     "next": "01-014-s2",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    },
+    {
+     "step_id": "01-014-s2",
+     "state": "开报",
+     "action": "每房将一应不分远近未完事件逐日开报，手册或算本：某年月日一件为某事，因何未完，开报完备",
+     "agent": "六房吏典",
+     "next": "01-014-s3",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    },
+    {
+     "step_id": "01-014-s3",
+     "state": "连名",
+     "action": "仍具各房三人连名不致隐漏事件结状一纸，一同呈来",
+     "agent": "六房吏典",
+     "next": "01-014-s4",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    },
+    {
+     "step_id": "01-014-s4",
+     "state": "验看",
+     "action": "将手册并结状取收私宅，遇闲验看，陆续举行",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-015",
+   "source": "01_卷上_体立为政事情.xhtml#条14",
+   "derived_from": [
+    "01-014"
+   ],
+   "confidence": 0.9,
+   "analysis": "六房须知文册：给领文册→逐日开报未完→连名结状→私宅验看。",
+   "original": "到任数日之后，分付六房吏典各人，照依吏部验封司给领须知文册。每房各将一应不分远近未完事件逐日开报，手册或算本，某年月日一件为某事，因何未完，开报完备，仍具各房，三人连名，不致隐漏。事件结状一纸，一同呈来，其将手册并结状，取收私宅，遇闲验看，陆续举行，以便查考。",
+   "derived_rule": "XGF-R-014",
+   "events": [
+    "XGF-E-014"
+   ]
+  },
+  {
+   "process_id": "XGF-P-015",
+   "event_type": "文书流转",
+   "title": "勘合文簿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-015-s1",
+     "state": "置簿",
+     "action": "置立奉到合于上司转行勘合文簿一本",
+     "agent": "官府",
+     "next": "01-015-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-015-s2",
+     "state": "填注",
+     "action": "某日奉到某衙门公文为某事，备奉某字号勘合仰本县作何施行，前件红笔填注某日完报讫",
+     "agent": "承发吏",
+     "next": "01-015-s3",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    },
+    {
+     "step_id": "01-015-s3",
+     "state": "守掌",
+     "action": "日后以便查造朝觐考察文册，此簿令承发吏守掌",
+     "agent": "承发吏",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    }
+   ],
+   "next_process": "01-016",
+   "source": "01_卷上_体立为政事情.xhtml#条15",
+   "derived_from": [
+    "01-015"
+   ],
+   "confidence": 0.88,
+   "analysis": "勘合文簿：置簿→红笔填注完报→承发吏守掌。",
+   "original": "置立奉到合于上司转行勘合文簿一本。某日奉到某衙门公文为某事备，奉某字号勘合仰本县作何施行，前件不□红笔填注某日完报讫，日后以便查造朝觐考察文册，此簿令承发吏守掌。",
+   "derived_rule": "XGF-R-015",
+   "events": [
+    "XGF-E-015"
+   ]
+  },
+  {
+   "process_id": "XGF-P-016",
+   "event_type": "文书流转",
+   "title": "批状簿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-016-s1",
+     "state": "置簿",
+     "action": "置立奉到上司批状簿一本",
+     "agent": "官府",
+     "next": "01-016-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-016-s2",
+     "state": "注问",
+     "action": "某年月日奉到某衙门批状据某处某人告前事，仰本县作何问断，前件项下某月日回□讫",
+     "agent": "承发吏",
+     "next": "01-016-s3",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    },
+    {
+     "step_id": "01-016-s3",
+     "state": "朱完",
+     "action": "前件头上又用朱笔写一大“完”字，如此吏典难以□弊",
+     "agent": "承发吏",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    }
+   ],
+   "next_process": "01-017",
+   "source": "01_卷上_体立为政事情.xhtml#条16",
+   "derived_from": [
+    "01-016"
+   ],
+   "confidence": 0.88,
+   "analysis": "批状簿：置簿→注问断→朱笔完字。",
+   "original": "置立奉到上司批状簿一本。某年月日，奉到某衙门批状据某处某人告前事，仰本县作何问断，前件项下某月日回□讫，前件头上，又用朱笔写一大“完”字，一个如此，吏典难以□弊。",
+   "derived_rule": "XGF-R-016",
+   "events": [
+    "XGF-E-016"
+   ]
+  },
+  {
+   "process_id": "XGF-P-017",
+   "event_type": "放告",
+   "title": "词状簿",
+   "trigger": "到任",
+   "timeline": [
+    "每三日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-017-s1",
+     "state": "置簿",
+     "action": "置立本县受理词状簿一扇",
+     "agent": "官府",
+     "next": "01-017-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-017-s2",
+     "state": "注记",
+     "action": "每三日受理词状一次，该受理那一日将一应词状通记注写：某日受状若干，列项开某里某人告某里某人，某事底下差何勾唤",
+     "agent": "官府",
+     "next": "01-017-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-017-s3",
+     "state": "勾销",
+     "action": "问完一纸勾销",
+     "agent": "官府",
+     "condition": "以便查考概日受到状子数日，下人不敢作弊",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-018",
+   "source": "01_卷上_体立为政事情.xhtml#条17",
+   "derived_from": [
+    "01-017"
+   ],
+   "confidence": 0.88,
+   "analysis": "词状簿：置簿→三日注记→问完勾销。",
+   "original": "置立本县受理词状簿一扇。每三日受理词状一次，该受理那一日，将一应词状通记注写。某日受状若干，列项开某里某人告某里某人等，某事底下差何勾唤，以便查考概日那一日受到状子数日，下人不敢作弊，问完一纸勾销。",
+   "derived_rule": "XGF-R-017",
+   "events": [
+    "XGF-E-017"
+   ]
+  },
+  {
+   "process_id": "XGF-P-018",
+   "event_type": "文书流转",
+   "title": "出票文簿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-018-s1",
+     "state": "置簿",
+     "action": "置立本县出票文簿一扇",
+     "agent": "官府",
+     "next": "01-018-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-018-s2",
+     "state": "批票",
+     "action": "除勾告状之人票帖计写告状簿下，其余一应公事批票通写此簿上",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-019",
+   "source": "01_卷上_体立为政事情.xhtml#条18",
+   "derived_from": [
+    "01-018"
+   ],
+   "confidence": 0.85,
+   "analysis": "出票文簿：置簿→公事批票通写。",
+   "original": "置立本县出票文簿一扇。除将勾告状之人票帖就行计写告状簿下外，其余该一应公事，批票通写此簿文上，以便查考，深为便益。",
+   "derived_rule": "XGF-R-018",
+   "events": [
+    "XGF-E-018"
+   ]
+  },
+  {
+   "process_id": "XGF-P-019",
+   "event_type": "文书流转",
+   "title": "接递文簿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-019-s1",
+     "state": "置簿",
+     "action": "置立接递文簿一扇",
+     "agent": "官府",
+     "next": "01-019-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-019-s2",
+     "state": "注递",
+     "action": "某月奉某衙门牌帖或准某□□文□何事递到囚犯若干名，某日差何人转递何衙门交割",
+     "agent": "承发吏",
+     "next": "01-019-s3",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    },
+    {
+     "step_id": "01-019-s3",
+     "state": "勾销",
+     "action": "记□件下用红笔注写回关到日方才勾销",
+     "agent": "承发吏",
+     "condition": "如此吏典不敢卖放囚犯",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    }
+   ],
+   "next_process": "01-020",
+   "source": "01_卷上_体立为政事情.xhtml#条19",
+   "derived_from": [
+    "01-019"
+   ],
+   "confidence": 0.88,
+   "analysis": "接递文簿：置簿→注递囚犯→回关勾销。",
+   "original": "置立接递文簿一扇。某月奉某衙门牌帖，或准某□□文□何事递到囚犯若干名，某日差何人转递，何衙门交割，记□件，下用红笔注写回关到日，方才勾销，如此吏典不敢卖放囚犯。",
+   "derived_rule": "XGF-R-019",
+   "events": [
+    "XGF-E-019"
+   ]
+  },
+  {
+   "process_id": "XGF-P-020",
+   "event_type": "勾摄拘唤",
+   "title": "递囚差遣",
+   "trigger": "差人递送囚犯",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-020-s1",
+     "state": "量事",
+     "action": "量事轻重，可差那等之人递送",
+     "agent": "官府",
+     "next": "01-020-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-020-s2",
+     "state": "酌人",
+     "action": "可用人多寡亦要斟酌，不致疏虞",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-021",
+   "source": "01_卷上_体立为政事情.xhtml#条20",
+   "derived_from": [
+    "01-020"
+   ],
+   "confidence": 0.8,
+   "analysis": "递囚：量事轻重→酌人多少。",
+   "original": "差人递送囚犯，量事轻重，可差那等之人递送，及可用人多寡亦要斟酌，不致疏虞。",
+   "derived_rule": "XGF-R-020",
+   "events": [
+    "XGF-E-020"
+   ]
+  },
+  {
+   "process_id": "XGF-P-021",
+   "event_type": "清军勘审",
+   "title": "清军簿",
+   "trigger": "到任",
+   "timeline": [
+    "递年"
+   ],
+   "steps": [
+    {
+     "step_id": "01-021-s1",
+     "state": "置簿",
+     "action": "置立清军簿一扇",
+     "agent": "官府",
+     "next": "01-021-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-021-s2",
+     "state": "查出",
+     "action": "概县原额各里军数若干，中间见在各卫着役若干、纪录若干、跟捉若干、挨无若干、户绝若干、见解若干，分付兵房吏典并原在房贴写书手通行查出",
+     "agent": "兵房吏典/书手",
+     "next": "01-021-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-021-s3",
+     "state": "收库",
+     "action": "务要将各项之数相合原额，总收录一本，收入库内",
+     "agent": "官府",
+     "next": "01-021-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-021-s4",
+     "state": "查照",
+     "action": "递年将解过军役于此簿上通行查照",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-022",
+   "source": "01_卷上_体立为政事情.xhtml#条21",
+   "derived_from": [
+    "01-021"
+   ],
+   "confidence": 0.88,
+   "analysis": "清军簿：置簿→查各项军数→总收库→递年查照。",
+   "original": "置立清军簿一扇。即将概县原额各里军数若干，中间见在各卫着役若干纪录，若干跟捉，若干挨无，若干户绝，若干见解，若干再有别行事故等项，若干遇闲，分付兵房吏典，并原在房贴写书手通行查出。务要将各项之数相合原额，总收录一本，收入库内，递年将解过军役于此簿上，通行查照。",
+   "derived_rule": "XGF-R-021",
+   "events": [
+    "XGF-E-021"
+   ]
+  },
+  {
+   "process_id": "XGF-P-022",
+   "event_type": "文书流转",
+   "title": "公罚文簿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-022-s1",
+     "state": "置簿",
+     "action": "置立公罚文簿一扇",
+     "agent": "官府",
+     "next": "01-022-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-022-s2",
+     "state": "记写",
+     "action": "公罚纸札等物，记写某月某人为某事量罚何物若干，常要记写",
+     "agent": "官府",
+     "next": "01-022-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-022-s3",
+     "state": "自掌",
+     "action": "倘有词讼以便花销，此簿自己收掌",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-023",
+   "source": "01_卷上_体立为政事情.xhtml#条22",
+   "derived_from": [
+    "01-022"
+   ],
+   "confidence": 0.85,
+   "analysis": "公罚文簿：置簿→记写量罚→自掌花销。",
+   "original": "置立公罚文簿一扇。虽有见行事例禁革罚治，但有司若全依事例，凡事不能得斟酌，公罚纸札等物，记写某月某人为某事量罚何物若干，常要记写，以便查考。倘有词讼，以便花销，此簿自己收掌。",
+   "derived_rule": "XGF-R-022",
+   "events": [
+    "XGF-E-022"
+   ]
+  },
+  {
+   "process_id": "XGF-P-023",
+   "event_type": "文书流转",
+   "title": "紧要文簿",
+   "trigger": "到任",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-023-s1",
+     "state": "置簿",
+     "action": "将各项置立紧要文簿数本",
+     "agent": "官府",
+     "next": "01-023-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-023-s2",
+     "state": "守掌",
+     "action": "俱令承发吏守掌，每日遇闲验看，比较深为便益",
+     "agent": "承发吏",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-112"
+     ]
+    }
+   ],
+   "next_process": "01-024",
+   "source": "01_卷上_体立为政事情.xhtml#条23",
+   "derived_from": [
+    "01-023"
+   ],
+   "confidence": 0.85,
+   "analysis": "紧要文簿：置簿→承发吏守掌验看比较。",
+   "original": "将各项置立紧要文簿数本。俱令承发吏守掌，每日遇闲验看，比较深为便益。",
+   "derived_rule": "XGF-R-023",
+   "events": [
+    "XGF-E-023"
+   ]
+  },
+  {
+   "process_id": "XGF-P-024",
+   "event_type": "文书流转",
+   "title": "上司公文审看",
+   "trigger": "上司公文",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-024-s1",
+     "state": "审看",
+     "action": "将上司发下一应公文，务要从看一遍方下六房",
+     "agent": "新官",
+     "condition": "不可轻易忽略就一边，有误大事",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-025",
+   "source": "01_卷上_体立为政事情.xhtml#条24",
+   "derived_from": [
+    "01-024"
+   ],
+   "confidence": 0.88,
+   "analysis": "上司公文：从看一遍方下六房。",
+   "original": "将上司发下一应公文，务要从看一遍方下六房。不可轻易忽略就一边，有误大事。",
+   "derived_rule": "XGF-R-024",
+   "events": [
+    "XGF-E-024"
+   ]
+  },
+  {
+   "process_id": "XGF-P-025",
+   "event_type": "比较查催",
+   "title": "簿籍定规",
+   "trigger": "到任个月之间",
+   "timeline": [
+    "个月"
+   ],
+   "steps": [
+    {
+     "step_id": "01-025-s1",
+     "state": "定规",
+     "action": "将各项簿籍定立规矩，停当及后",
+     "agent": "新官",
+     "next": "01-025-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-025-s2",
+     "state": "生发",
+     "action": "从此缓缓生发，比较公事",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-026",
+   "source": "01_卷上_体立为政事情.xhtml#条25",
+   "derived_from": [
+    "01-025"
+   ],
+   "confidence": 0.8,
+   "analysis": "簿籍定规：月内定规矩→缓缓比较。",
+   "original": "到任个月之间，将各项簿籍定立规矩，停当及后，从此缓缓生发，比较公事。",
+   "derived_rule": "XGF-R-025",
+   "events": [
+    "XGF-E-025"
+   ]
+  },
+  {
+   "process_id": "XGF-P-026",
+   "event_type": "比较查催",
+   "title": "吏典考勤比较",
+   "trigger": "到任",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-026-s1",
+     "state": "窥视",
+     "action": "将六房吏典里老、门库、隶兵人等每日窥视，勤谨赖惰俱各留记在心",
+     "agent": "新官",
+     "next": "01-026-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-026-s2",
+     "state": "验看",
+     "action": "遇闲将前项各样簿籍验看，查出未完事件，通行比较",
+     "agent": "新官",
+     "next": "01-026-s3",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-026-s3",
+     "state": "赏罚",
+     "action": "勤谨小心之人饶责，误事大胆之徒着实责罚",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-027",
+   "source": "01_卷上_体立为政事情.xhtml#条26",
+   "derived_from": [
+    "01-026"
+   ],
+   "confidence": 0.88,
+   "analysis": "吏典考勤：每日窥视→簿籍验看→赏罚分明。",
+   "original": "将六房吏典里老、门库、隶兵人等，每日窥视。那个勤谨，不误公事？那个赖惰，常误公事？俱各留记在心，遇闲将前项各样簿籍验看，查出未完事件，通行比较。勤谨小心之人饶责，误事大胆之徒着实责罚。如此人知惧怕，不敢迟错误事。",
+   "derived_rule": "XGF-R-026",
+   "events": [
+    "XGF-E-026"
+   ]
+  },
+  {
+   "process_id": "XGF-P-027",
+   "event_type": "文书流转",
+   "title": "紧急公文抄贴",
+   "trigger": "十分紧急公文",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-027-s1",
+     "state": "抄写",
+     "action": "随即先将中间紧关字样用小纸一块抄写，粘贴书案之上",
+     "agent": "新官",
+     "next": "01-027-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-027-s2",
+     "state": "常看",
+     "action": "常看自公文，不致迟误",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-028",
+   "source": "01_卷上_体立为政事情.xhtml#条27",
+   "derived_from": [
+    "01-027"
+   ],
+   "confidence": 0.85,
+   "analysis": "紧急公文：抄紧关字样贴案→常看防迟误。",
+   "original": "将上司发下十分紧急公文，随即先将中间紧关字样用小纸一块抄写，粘贴书案之上，常看自公文，不致迟误。",
+   "derived_rule": "XGF-R-027",
+   "events": [
+    "XGF-E-027"
+   ]
+  },
+  {
+   "process_id": "XGF-P-028",
+   "event_type": "文书流转",
+   "title": "急密公文处置",
+   "trigger": "上司急密重事",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-028-s1",
+     "state": "保密",
+     "action": "勿令吏卒人等知会消息发露",
+     "agent": "新官",
+     "next": "01-028-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-028-s2",
+     "state": "袖入",
+     "action": "先将公文袖入私宅，处置停当",
+     "agent": "新官",
+     "next": "01-028-s3",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-028-s3",
+     "state": "下房",
+     "action": "将事毕，方下六房",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-029",
+   "source": "01_卷上_体立为政事情.xhtml#条28",
+   "derived_from": [
+    "01-028"
+   ],
+   "confidence": 0.88,
+   "analysis": "急密公文：保密→袖入私宅处置→事毕下房。",
+   "original": "上司倘有急密重事差人到县，或公文入铺来到，勿令吏卒人等知会消息发露。事难完结，先将公文袖入私宅，处置停当，将事毕，方下六房。",
+   "derived_rule": "XGF-R-028",
+   "events": [
+    "XGF-E-028"
+   ]
+  },
+  {
+   "process_id": "XGF-P-029",
+   "event_type": "迎送支应",
+   "title": "上司差人应付",
+   "trigger": "上司差人到县催办",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-029-s1",
+     "state": "量视",
+     "action": "务要量事之轻重，视人之高低应付",
+     "agent": "新官",
+     "condition": "不可阿谀奉承，亦不可十分怠慢",
+     "next": "01-029-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-029-s2",
+     "state": "戒厚",
+     "action": "如加厚相待，上司手下之人闻知个个营求前来，交浅望深倘不遂意反结仇恨坏事",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-030",
+   "source": "01_卷上_体立为政事情.xhtml#条29",
+   "derived_from": [
+    "01-029"
+   ],
+   "confidence": 0.85,
+   "analysis": "上司差人：量轻重应酬→戒加厚招营求。",
+   "original": "上司差人到县催办公事，务要量事之轻重，视人之高低应付，不可阿谀奉承，亦不可十分怠慢。如加厚相待，上司手下之人闻知，个个营求前来，如是交浅望深，倘不遂意，反结仇恨坏事。",
+   "derived_rule": "XGF-R-029",
+   "events": [
+    "XGF-E-029"
+   ]
+  },
+  {
+   "process_id": "XGF-P-030",
+   "event_type": "勾摄拘唤",
+   "title": "勾摄限期",
+   "trigger": "勾摄公事",
+   "timeline": [
+    "三十里一日",
+    "六十里二日",
+    "九十里三日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-030-s1",
+     "state": "分等",
+     "action": "将概县里分分为三等：离城三十里限一日到，六十里限二日到，九十里限三日到",
+     "agent": "官府",
+     "next": "01-030-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-030-s2",
+     "state": "贴榜",
+     "action": "用大字书写贴于书案两傍",
+     "agent": "官府",
+     "next": "01-030-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-030-s3",
+     "state": "稽考",
+     "action": "凡遇勾摄公事稽考差去之人，甘受其罪；违限一日打三十，至四十已上加罚公用之物",
+     "agent": "官府",
+     "condition": "违限一日打三十",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-031",
+   "source": "01_卷上_体立为政事情.xhtml#条30",
+   "derived_from": [
+    "01-030"
+   ],
+   "confidence": 0.93,
+   "analysis": "勾摄限期：里分三等限日→大字贴榜→违限打罚。",
+   "original": "将概县里分，分为三等：离城三十里限一日到，离城六十里限二日，到离城九十里限三日到。用大字书写贴于书案两傍，凡遇勾摄公事，稽考差去之人甘受其罪。违限一日，打三十，至四十已上，加罚公用之物，如此公事易完。",
+   "derived_rule": "XGF-R-030",
+   "events": [
+    "XGF-E-030"
+   ]
+  },
+  {
+   "process_id": "XGF-P-031",
+   "event_type": "勾摄拘唤",
+   "title": "勾摄差里长",
+   "trigger": "勾摄公事",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-031-s1",
+     "state": "禁差",
+     "action": "不可差皂隶、快手、兵人等下乡生事害人",
+     "agent": "官府",
+     "next": "01-031-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-031-s2",
+     "state": "里长",
+     "action": "止许差各里里长，转令甲首拘与",
+     "agent": "里长/甲首",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-032",
+   "source": "01_卷上_体立为政事情.xhtml#条31",
+   "derived_from": [
+    "01-031"
+   ],
+   "confidence": 0.93,
+   "analysis": "勾摄：禁差皂隶快手兵人→止许差里长转甲首。",
+   "original": "凡勾摄公事，不可差皂隶、快手、兵人等下乡生事害人，致生不虞，负累不便。止许差各里里长，转令甲首拘与。",
+   "derived_rule": "XGF-R-031",
+   "events": [
+    "XGF-E-031"
+   ]
+  },
+  {
+   "process_id": "XGF-P-032",
+   "event_type": "勾摄拘唤",
+   "title": "出票拘勾",
+   "trigger": "小节公事",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-032-s1",
+     "state": "言语",
+     "action": "凡有小节公事只可用言语分付催办完结，不必出票",
+     "agent": "官府",
+     "next": "01-032-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-032-s2",
+     "state": "出票",
+     "action": "如有大事不能结绝或各样差使不完，方才出票",
+     "agent": "官府",
+     "condition": "拘勾不可泛滥，一概出票致使小民轻易不惧官法",
+     "next": "01-032-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-032-s3",
+     "state": "点到",
+     "action": "票俱用县印一颗，其勾人到县照名先点到者名字之上书“到”字，不到者名字傍边记写“不”字，分付再行拘去",
+     "agent": "官府",
+     "next": "01-032-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-032-s4",
+     "state": "收库",
+     "action": "宜待事完之日将票涂抹，亦还收库",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-033",
+   "source": "01_卷上_体立为政事情.xhtml#条32",
+   "derived_from": [
+    "01-032"
+   ],
+   "confidence": 0.9,
+   "analysis": "出票拘勾：小事先言语→大事出票→点到书到字→事完收库。",
+   "original": "凡有小节公事，只可用言语分付催办完结，不必出票。如有大事，不能结绝，或各样差使不完，方才出票。拘勾不可泛滥，一概出票，致使小民轻易不惧官法。及票俱用县印一颗，其勾人到县，照名先点到者，名字之上书“到”字。一个不到者，名字傍边记写“不”字一个，分付再行拘去。宜待事完之日，将票涂抹，亦还收库，日后以便查考。",
+   "derived_rule": "XGF-R-032",
+   "events": [
+    "XGF-E-032"
+   ]
+  },
+  {
+   "process_id": "XGF-P-033",
+   "event_type": "新政施行",
+   "title": "密访民情",
+   "trigger": "到任之后",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-033-s1",
+     "state": "访托",
+     "action": "将前项勤谨之人数内及在外殷实百姓，访知可托数十之人",
+     "agent": "新官",
+     "next": "01-033-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-033-s2",
+     "state": "密付",
+     "action": "各另密密分付：何事有益于民、有害于民、可行、当止，遇闲无人去处一件件来说",
+     "agent": "可托之人",
+     "next": "01-033-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-033-s3",
+     "state": "励心",
+     "action": "日后人心服顺我时照顾你个富贵，各另哄说",
+     "agent": "新官",
+     "condition": "此言你妻子也不要说知",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-034",
+   "source": "01_卷上_体立为政事情.xhtml#条33",
+   "derived_from": [
+    "01-033"
+   ],
+   "confidence": 0.88,
+   "analysis": "密访民情：访可托人→密密分付缉访→以富贵励心。",
+   "original": "将前项勤谨之人数内，及在外殷实百姓，访知可托数十之人，各另密密分付：自我到任之后，凡百行事，何事有益于民，何事有害于民，何事可行，何事当止，你与我十分用心缉访着实。遇闲无人去处，与我一件件来说，如果你与我尽心，你无私弊，就是你扶持我做官第一件好事。我如今做官，虽时下无有照顾你处，日后人心服顺我，我那时虽不要钱，却照顾你个富贵。此言，你妻子也不要说知。一个个俱要这等言语，各另哄说，致使小民各肯用心，访事凡百行事，深为便益。",
+   "derived_rule": "XGF-R-033",
+   "events": [
+    "XGF-E-033"
+   ]
+  },
+  {
+   "process_id": "XGF-P-034",
+   "event_type": "新政施行",
+   "title": "直老设立",
+   "trigger": "到任之后",
+   "timeline": [
+    "每月初一日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-034-s1",
+     "state": "设直老",
+     "action": "省令各里里老：每庄人户三四十家设直老一名，七八十家设二名，城市街面胡同相离五七十家亦设一名",
+     "agent": "里老",
+     "next": "01-034-s2",
+     "agent_ent_ids": [
+      "ENT-017"
+     ]
+    },
+    {
+     "step_id": "01-034-s2",
+     "state": "举保",
+     "action": "就令本地方人民连名举保，平素身家无过行止端正者，情愿保举在县听察军民利病",
+     "agent": "本地方人民",
+     "next": "01-034-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-034-s3",
+     "state": "执结",
+     "action": "直老倘后在外乘机诓骗财物、将无作有、怀报私仇者，某人等甘当重罪，各取执结在官备照",
+     "agent": "保举人",
+     "next": "01-034-s4",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-034-s4",
+     "state": "月见",
+     "action": "分付直老每月初一日俱各来县，以礼相待，立站两傍审问，每月点写一件",
+     "agent": "直老",
+     "next": "01-034-s5",
+     "agent_ent_ids": [
+      "ENT-094"
+     ]
+    },
+    {
+     "step_id": "01-034-s5",
+     "state": "验心",
+     "action": "行至半年或三四个月之上另分付，每月初一日每点写一件各另呈来，试验心法",
+     "agent": "新官",
+     "next": "01-034-s6",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-034-s6",
+     "state": "责罚",
+     "action": "如无者打四十大棍；却不许听纵喉舌士夫刁泼写状之人讨论，将无作有，事发痛加责罚，及将原保直老之人通行责罚",
+     "agent": "新官",
+     "condition": "勿令一人知之，本职自有处置",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-035",
+   "source": "01_卷上_体立为政事情.xhtml#条34",
+   "derived_from": [
+    "01-034"
+   ],
+   "confidence": 0.93,
+   "analysis": "直老设立 6 步：按户设直老→连名举保→执结备照→月一见审→验心→责罚。",
+   "original": "到任之后，省令各里里老，每一庄有人户三四十家者，设立直老一名。有七八十家者，设立直老二名。城市街面胡同相离五七十家者，亦设立一名。就令本地方人民连名举保，今本地方新设直老、赵甲，平素身家无过，行止端正，情愿保举本人在县听察军民利病等情，赵甲倘后在外乘机诓骗财物，将无作有，将有作无，或怀报私仇，致生别端，某人等甘当重罪。各取执结，在官备照。分付直里每月初一日俱各来县，以礼相待，立站两傍审问：自我到任之后，本县凡有军民通弊利病，各照地方每月初一日到县，每月点写一件。料想众人禀说老爷廉干，无有弊病，此言哄说，行至半年或三四个月之上，另分付你每，哄我不肯举行。待每月初一日，每点写一件，各另呈来，我试验你每心法。勿令一人知之，本职自有处置。如无者，打四十大棍，仍分付各人自己，直言书写本官某官吏贪赃，何事不平，某军民欺公，因何害事，别情亦然。却不许听纵喉舌士夫，乃刁泼并写状之人讨论，将无作有，将有作无，为报复私仇事发，痛加责罚。及将原前保你每直老之人通行责罚，又分付你每原保直老、赵甲公平，今赵甲举事不公。如此施行，万事无失。（你每=你们）",
+   "derived_rule": "XGF-R-034",
+   "events": [
+    "XGF-E-034"
+   ]
+  },
+  {
+   "process_id": "XGF-P-035",
+   "event_type": "学校考课",
+   "title": "学校作兴",
+   "trigger": "到任三四个月之间",
+   "timeline": [
+    "三四个月",
+    "朔望"
+   ],
+   "steps": [
+    {
+     "step_id": "01-035-s1",
+     "state": "平易",
+     "action": "学校凡事作兴，不可太过致师生交浅望深，亦不可不切致生挟仇排陷，用心处之平易",
+     "agent": "新官",
+     "next": "01-035-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-035-s2",
+     "state": "行香",
+     "action": "待到任三四个月之间稍知民情，朔望行香，到学抽签讲书一次，照例会馔",
+     "agent": "新官",
+     "next": "01-035-s3",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-035-s3",
+     "state": "赏罚",
+     "action": "中间有进益者俱各宿号读书，区画纸笔灯油柴炭等物赏赐勉励，依例除免人丁当差；如无进益者着实责打",
+     "agent": "新官",
+     "next": "01-035-s4",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-035-s4",
+     "state": "除免",
+     "action": "其应免差徭止免廪增生员，附学不免",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-036",
+   "source": "01_卷上_体立为政事情.xhtml#条35",
+   "derived_from": [
+    "01-035"
+   ],
+   "confidence": 0.9,
+   "analysis": "学校作兴：平易处之→朔望讲书→赏进罚退→廪增免徭。",
+   "original": "学校凡事作兴，虽然却不可太过，致使师生交浅望深，不遂私意，反惹怪恨。亦不可不切，致生挟仇排陷。只是用心处之平易，免至口舌。待到任三四个月之间，稍知民情，朔望行香，到学抽签讲书一次，照例会馔，即将中间有进益者，俱各宿号读书区画纸笔、灯油、柴炭等物赏赐勉励，依例除免人丁当差。如无进益者，着实责打，务要等第相待，使人各肯尽心仿效，奋志读书。其应免差徭，止免廪增生员（附学不免），致使初进之人奋志。",
+   "derived_rule": "XGF-R-035",
+   "events": [
+    "XGF-E-035"
+   ]
+  },
+  {
+   "process_id": "XGF-P-036",
+   "event_type": "优免执照",
+   "title": "士夫优免",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-036-s1",
+     "state": "除免",
+     "action": "将概县士夫人等应免差徭，依例就便除免",
+     "agent": "官府",
+     "condition": "不可容令入县替人嘱托说事",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-037",
+   "source": "01_卷上_体立为政事情.xhtml#条36",
+   "derived_from": [
+    "01-036"
+   ],
+   "confidence": 0.85,
+   "analysis": "士夫优免：依例除免→禁入县嘱托。",
+   "original": "将概县士夫人等应免差徭，依例就便除免，不可容令入县替人嘱托说事。",
+   "derived_rule": "XGF-R-036",
+   "events": [
+    "XGF-E-036"
+   ]
+  },
+  {
+   "process_id": "XGF-P-037",
+   "event_type": "禁令示众",
+   "title": "把门轮值",
+   "trigger": "到任",
+   "timeline": [
+    "三日或五日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-037-s1",
+     "state": "均拨",
+     "action": "将把门皂隶均拨，或三日或五日轮流一遍",
+     "agent": "皂隶",
+     "next": "01-037-s2",
+     "agent_ent_ids": [
+      "ENT-010"
+     ]
+    },
+    {
+     "step_id": "01-037-s2",
+     "state": "把守",
+     "action": "分付经心时时把守，不许闲杂人等一个入县探听事情",
+     "agent": "皂隶",
+     "condition": "守把日久，人心生怨",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-010"
+     ]
+    }
+   ],
+   "next_process": "01-038",
+   "source": "01_卷上_体立为政事情.xhtml#条37",
+   "derived_from": [
+    "01-037"
+   ],
+   "confidence": 0.85,
+   "analysis": "把门轮值：均拨轮流→时时把守禁闲人。",
+   "original": "将把门皂隶均拨，或三日，或五日，轮流一遍。分付经心时时把守，不许闲杂人等一个入县探听事情，致惹别端。守把日久，人心生怨。",
+   "derived_rule": "XGF-R-037",
+   "events": [
+    "XGF-E-037"
+   ]
+  },
+  {
+   "process_id": "XGF-P-038",
+   "event_type": "禁令示众",
+   "title": "头门听缺",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-038-s1",
+     "state": "立缺",
+     "action": "将县衙头门设立听缺吏一名，或阴阳、医生俱各轮流守把",
+     "agent": "听缺吏/阴阳/医生",
+     "next": "01-038-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-038-s2",
+     "state": "印簿",
+     "action": "置立印信文簿一本，凡有士夫要禀见，就令本人于簿上亲写某年月日、某人为某事赴县来说",
+     "agent": "士夫",
+     "next": "01-038-s3",
+     "agent_ent_ids": [
+      "ENT-056"
+     ]
+    },
+    {
+     "step_id": "01-038-s3",
+     "state": "准入",
+     "action": "写了方许入县，不肯写不许进入",
+     "agent": "听缺吏",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-039",
+   "source": "01_卷上_体立为政事情.xhtml#条38",
+   "derived_from": [
+    "01-038"
+   ],
+   "confidence": 0.88,
+   "analysis": "头门听缺：立听缺吏→士夫簿上亲写→写方准入。",
+   "original": "将县衙头门设立听缺吏一名，或阴阳、医生，俱各轮流守把。置立印信文簿一本，凡有士夫要禀见，就令本人在于簿上亲写某年月日，某人为某事赴县来说，写了方许入县，不肯写不许进入。",
+   "derived_rule": "XGF-R-038",
+   "events": [
+    "XGF-E-038"
+   ]
+  },
+  {
+   "process_id": "XGF-P-039",
+   "event_type": "放告",
+   "title": "木牌递状",
+   "trigger": "遇接状之日",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-039-s1",
+     "state": "立牌",
+     "action": "置立木牌一面吊挂面里影壁之上",
+     "agent": "官府",
+     "next": "01-039-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-039-s2",
+     "state": "递状",
+     "action": "遇接状之日告状之人牌下立站，聚有三五个人将牌手执赴县递状",
+     "agent": "告状之人",
+     "next": "01-039-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-039-s3",
+     "state": "责拦",
+     "action": "若把门之人敢有当拦掯要财者，许令告状之人口告痛责",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-040",
+   "source": "01_卷上_体立为政事情.xhtml#条39",
+   "derived_from": [
+    "01-039"
+   ],
+   "confidence": 0.88,
+   "analysis": "木牌递状：立牌→三五人执牌递状→拦财者痛责。",
+   "original": "置立木牌一面，吊挂面里影壁之上。遇接状之日，告状之人牌下立站，聚有三五个人，将牌手执赴县递状。若把门之人敢有当拦掯要财者，许令告状之人口告痛责。",
+   "derived_rule": "XGF-R-039",
+   "events": [
+    "XGF-E-039"
+   ]
+  },
+  {
+   "process_id": "XGF-P-040",
+   "event_type": "放告",
+   "title": "放告日期",
+   "trigger": "放告",
+   "timeline": [
+    "每月三六九日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-040-s1",
+     "state": "告示",
+     "action": "告示众告状之人，每月三六九日方许递状",
+     "agent": "官府",
+     "next": "01-040-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-040-s2",
+     "state": "执牌",
+     "action": "立定牌下立站，执牌进入，余日不许打搅",
+     "agent": "告状之人",
+     "condition": "其人命、强盗等项重情不在限次",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-041",
+   "source": "01_卷上_体立为政事情.xhtml#条40",
+   "derived_from": [
+    "01-040"
+   ],
+   "confidence": 0.9,
+   "analysis": "放告日期：三六九日递状→余日禁打搅，重情不限。",
+   "original": "告示众告状之人，每月三六九日方许递状。立定牌下立站，执牌进入，余日不许打搅，其人命、强盗等项重情不在限次。",
+   "derived_rule": "XGF-R-040",
+   "events": [
+    "XGF-E-040"
+   ]
+  },
+  {
+   "process_id": "XGF-P-041",
+   "event_type": "放告",
+   "title": "状子参看",
+   "trigger": "接状",
+   "timeline": [
+    "当夜",
+    "次日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-041-s1",
+     "state": "接下",
+     "action": "将状子不分有理无理俱各接下",
+     "agent": "官府",
+     "next": "01-041-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-041-s2",
+     "state": "听审",
+     "action": "省令告状之人俱各明日来朝听审",
+     "agent": "官府",
+     "next": "01-041-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-041-s3",
+     "state": "参看",
+     "action": "当夜用心将状逐一参看，可受理者紧关去处□笔标下",
+     "agent": "新官",
+     "next": "01-041-s4",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-041-s4",
+     "state": "审红",
+     "action": "次日只在红笔去处审理；如无理者将状扯毁赶出",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-042",
+   "source": "01_卷上_体立为政事情.xhtml#条41",
+   "derived_from": [
+    "01-041"
+   ],
+   "confidence": 0.9,
+   "analysis": "状子参看：接下→明日听审→当夜参看标红→次日审红处。",
+   "original": "将状子不分有理无理，俱各接下。省令告状之人，俱各明日来朝听审。当夜用心将状逐一参看，可受理者紧关去处，□笔标下，次日只在红笔去处审理。如无理者，将状扯毁赶出，若中间十分冤枉者，日后未免再来告理；如无理者，灰心罢词。",
+   "derived_rule": "XGF-R-041",
+   "events": [
+    "XGF-E-041"
+   ]
+  },
+  {
+   "process_id": "XGF-P-042",
+   "event_type": "勾摄拘唤",
+   "title": "拘人随到",
+   "trigger": "一应大小公事",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-042-s1",
+     "state": "随到",
+     "action": "凡有一应大小公事拘人到随到随入就行，发落了毕即回家各生理",
+     "agent": "官府",
+     "next": "01-042-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-042-s2",
+     "state": "禁留",
+     "action": "不可在县饮酒作乐延迟不去，有妨农业",
+     "agent": "官府",
+     "condition": "缉知不饶",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-043",
+   "source": "01_卷上_体立为政事情.xhtml#条42",
+   "derived_from": [
+    "01-042"
+   ],
+   "confidence": 0.88,
+   "analysis": "拘人随到：随到随入→发落回家，禁留县饮酒。",
+   "original": "预告示仰本县人民知会，凡有一应大小公事，拘人到随到，随入就行，发落了毕，即回家各生理。不可在县饮酒作乐，延迟不去，有妨农业，缉知不饶。",
+   "derived_rule": "XGF-R-042",
+   "events": [
+    "XGF-E-042"
+   ]
+  },
+  {
+   "process_id": "XGF-P-043",
+   "event_type": "词讼受理",
+   "title": "小事速理",
+   "trigger": "被告人等拘唤到县",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-043-s1",
+     "state": "查销",
+     "action": "先行照依票帖查点完销",
+     "agent": "官府",
+     "next": "01-043-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-043-s2",
+     "state": "速审",
+     "action": "如果事实无疑难，斗打相争一切小事，对面审理明白",
+     "agent": "官府",
+     "next": "01-043-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-043-s3",
+     "state": "发落",
+     "action": "即便量情责打发落",
+     "agent": "官府",
+     "condition": "不可一概淹禁人难，致惹怨恨",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-044",
+   "source": "01_卷上_体立为政事情.xhtml#条43",
+   "derived_from": [
+    "01-043"
+   ],
+   "confidence": 0.88,
+   "analysis": "小事速理：查点完销→对面审理→量情发落。",
+   "original": "将被告人等拘唤到县问理，先行照依票帖查点完销。如果事实无疑难，斗打相争一切小事，对面审理明白。即便量情责打发落，不可一概淹禁人难，致惹怨恨。",
+   "derived_rule": "XGF-R-043",
+   "events": [
+    "XGF-E-043"
+   ]
+  },
+  {
+   "process_id": "XGF-P-044",
+   "event_type": "词讼受理",
+   "title": "刁讼背审",
+   "trigger": "刁诈词讼拘到",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-044-s1",
+     "state": "分置",
+     "action": "先将原告分付甬路两边，干证之人当面对排开跪下，不许交头接耳说话",
+     "agent": "官府",
+     "next": "01-044-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-044-s2",
+     "state": "吓问",
+     "action": "先将事内紧关一人证佐叫到书案傍，取下各样重刑吓问，说知着甬路左边",
+     "agent": "官府",
+     "next": "01-044-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-044-s3",
+     "state": "背问",
+     "action": "又叫一人照前吓问回话了毕，着甬路右边，一个个背问，若三人相同不必再追究",
+     "agent": "官府",
+     "next": "01-044-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-044-s4",
+     "state": "重情",
+     "action": "如果过十分刁□势要之家人命等项重情，将门子皂隶喝叱远离，将证佐之人一个个叫于书案前桌下肯审真情，方得明白",
+     "agent": "官府",
+     "condition": "过刁势要之家时",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-045",
+   "source": "01_卷上_体立为政事情.xhtml#条44",
+   "derived_from": [
+    "01-044"
+   ],
+   "confidence": 0.93,
+   "analysis": "刁讼背审：分置→吓问→逐个背问→三人同则止，重情桌下审真情。",
+   "original": "将刁诈词讼，拘人到县问理。先将原告分付甬路两边，及将干证之人当面对排开跪下，不许交头接耳说话。先将事内紧关一人证佐叫到书案傍，取下各样重刑，吓问：“若你不说实话，交你目下了不得。此事实情我已访知了。”说知着甬路左边，又叫一人照前吓问，回话了毕，着甬路右边一个个背问，若三人相同，不必再追究。如果过十分刁□势要之家，人命等项重情，将门子、皂隶喝叱远离，将证佐之人一个个照前叫于书案前桌下肯审真情，方得明白。",
+   "derived_rule": "XGF-R-044",
+   "events": [
+    "XGF-E-044"
+   ]
+  },
+  {
+   "process_id": "XGF-P-045",
+   "event_type": "审囚",
+   "title": "强盗背审",
+   "trigger": "问强盗窃盗",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-045-s1",
+     "state": "背审",
+     "action": "先将该获贼几人一个个各另背审：打劫某人家？因何说起？平日先曾打劫何人家",
+     "agent": "官府",
+     "next": "01-045-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-045-s2",
+     "state": "问聚",
+     "action": "又问何处聚集？何人？用何器械？先从何处入宅？到宅内曾否拏住？主家何人有何言语吓说？先入某房内打劫出何物？到于何处分散？",
+     "agent": "官府",
+     "next": "01-045-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-045-s3",
+     "state": "辨攀",
+     "action": "在官倘在攀出同行上盗几人，中闲恐有挟仇妄攀出一人王大，务要将见获贼人个个各另背问，设谋之时王大曾否有何言语，分财之时王大分去何物，俱要言语相同定有王大",
+     "agent": "官府",
+     "next": "01-045-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-045-s4",
+     "state": "定案",
+     "action": "如有一人言语不同定无王大，如此设法问理件件各得实情，良民不致妄举",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-046",
+   "source": "01_卷上_体立为政事情.xhtml#条45",
+   "derived_from": [
+    "01-045"
+   ],
+   "confidence": 0.93,
+   "analysis": "强盗背审：逐个背审情由→问聚集器械→辨挟仇妄攀→言语同则定。",
+   "original": "问强盗、窃盗，先将该获贼几人一个个各另背审，打劫某人家？因何说起？打劫情由？平日先曾打劫何人家？今日方才说起，平日不曾做贼打劫何人，今日怎么说起？此节背审明白，又问何处聚集？何人？用何器械？先从何处入宅？到宅内曾否拏住？主家何人？有何言语吓说？先入某房内打劫出何物？到于何处分散？及后因何事发拏？获几人？在官倘在攀出同行上盗几人，中闲恐有挟仇妄攀出一人王大，务要将见获贼人个个各另背问。要见设谋之时，王大曾否有何言语？或□合，或起初时，有也分财之时，王大分去何物？俱要言语相同，定有王大。如有一人言语不同，定无王大。如此设法问理，件件各得实情，良民不致妄举。",
+   "derived_rule": "XGF-R-045",
+   "events": [
+    "XGF-E-045"
+   ]
+  },
+  {
+   "process_id": "XGF-P-046",
+   "event_type": "狱政管理",
+   "title": "重情案卷藏放",
+   "trigger": "问完重情案卷",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-046-s1",
+     "state": "藏放",
+     "action": "问完强窃盗贼人命等项重情案卷，刑房不可轻易与人见，房内偏僻架阁之上垛放",
+     "agent": "刑房",
+     "next": "01-046-s2",
+     "agent_ent_ids": [
+      "ENT-074"
+     ]
+    },
+    {
+     "step_id": "01-046-s2",
+     "state": "暗记",
+     "action": "分付各吏经心暗记，倘上司□本县用勘，以便取用又不致疏虞",
+     "agent": "各吏",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-047",
+   "source": "01_卷上_体立为政事情.xhtml#条46",
+   "derived_from": [
+    "01-046"
+   ],
+   "confidence": 0.85,
+   "analysis": "重情案卷：架阁垛放→吏暗记取用。",
+   "original": "问完强窃盗贼人命等项重情案卷，刑房不可轻易与人□见。房内偏僻架阁之上垛放，分付各吏经心暗记，倘上司□本县用勘，以便取用及又不致疏虞。",
+   "derived_rule": "XGF-R-046",
+   "events": [
+    "XGF-E-046"
+   ]
+  },
+  {
+   "process_id": "XGF-P-047",
+   "event_type": "禁令示众",
+   "title": "六房门禁",
+   "trigger": "散堂之后",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-047-s1",
+     "state": "栅栏",
+     "action": "将六房门首俱用栅栏，吏兵房门总开小门，散堂之后将门锁闭",
+     "agent": "官府",
+     "next": "01-047-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-047-s2",
+     "state": "禁入",
+     "action": "上堂之时开门不分是何人等，不许擅入六房探听消息，窥视卷宗",
+     "agent": "官府",
+     "next": "01-047-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-047-s3",
+     "state": "责罚",
+     "action": "拏住一人务要打问招出，实问不应罪名，其本房吏典俱要责罚",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-048",
+   "source": "01_卷上_体立为政事情.xhtml#条47",
+   "derived_from": [
+    "01-047"
+   ],
+   "confidence": 0.88,
+   "analysis": "六房门禁：栅栏锁闭→禁擅入探听→拏住问罪。",
+   "original": "将六房门首俱用栅栏，吏兵房门总开小门，散堂之后，将门锁闭。上堂之时，开门不分是何人等，不许擅入六房探听消息，窥视卷宗。拏住一人，在房务要打问招出，实问不应罪名，其本房吏典，俱要责罚。",
+   "derived_rule": "XGF-R-047",
+   "events": [
+    "XGF-E-047"
+   ]
+  },
+  {
+   "process_id": "XGF-P-048",
+   "event_type": "赋役编审",
+   "title": "书手更替",
+   "trigger": "到任",
+   "timeline": [
+    "一年"
+   ],
+   "steps": [
+    {
+     "step_id": "01-048-s1",
+     "state": "轮换",
+     "action": "将概县原设书手每里一年更换一名，常川在县，除免维泛差徭",
+     "agent": "官府",
+     "next": "01-048-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-048-s2",
+     "state": "报老",
+     "action": "另外每里又报曾经应当书手、年深多知里中弊病、深知地理人户贫富事情一名，不用常川在县",
+     "agent": "官府",
+     "next": "01-048-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-048-s3",
+     "state": "旋唤",
+     "action": "倘或清军分粮新换书手不知，旋唤来县使用",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-049",
+   "source": "01_卷上_体立为政事情.xhtml#条48",
+   "derived_from": [
+    "01-048"
+   ],
+   "confidence": 0.88,
+   "analysis": "书手更替：年换新书手→另报熟里弊老手→急用旋唤。",
+   "original": "将概县原设书手，每里一年更换一名，常川在县，除免维泛差徭。另外每里又报曾经应当书手，年深多知里中弊病，深知地理好否，人户贫富事情一名，不用常川在县。倘或清军分粮，新换书手不知，旋唤来县使用，不致差错。",
+   "derived_rule": "XGF-R-048",
+   "events": [
+    "XGF-E-048"
+   ]
+  },
+  {
+   "process_id": "XGF-P-049",
+   "event_type": "赋役编审",
+   "title": "赋役查造",
+   "trigger": "到任",
+   "timeline": [
+    "次日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-049-s1",
+     "state": "吊册",
+     "action": "将各里黄册格眼并赋役册籍吊取在官",
+     "agent": "官府",
+     "next": "01-049-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-049-s2",
+     "state": "拘集",
+     "action": "拘集各里里老、新旧书手，桌凳一张、大纸五七十张，绝早到县",
+     "agent": "里老/书手",
+     "next": "01-049-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-049-s3",
+     "state": "隔离",
+     "action": "里长、老人、书手革在三处，不许交头接耳说话",
+     "agent": "官府",
+     "next": "01-049-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-049-s4",
+     "state": "排户",
+     "action": "将黄册并赋役先与新旧书手，分付各里人户见在若干，不论财产多少答配一处，谁可做第一户谁可做第二户其余仿此",
+     "agent": "书手",
+     "next": "01-049-s5",
+     "agent_ent_ids": [
+      "ENT-020"
+     ]
+    },
+    {
+     "step_id": "01-049-s5",
+     "state": "吓写",
+     "action": "若怕人户与你为冤不从实开报，目今就令里老各另写一张，你写不□□□□□八十大板，吓唬书手先写次序了毕，将书手责令一壁等候",
+     "agent": "官府",
+     "next": "01-049-s6",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-049-s6",
+     "state": "分写",
+     "action": "却分付老人亦照前开写，如老人内有不识字者却令另里书手代写完备递了，却令里长开写，俱各写完通行分付，中间将人户作四等",
+     "agent": "老人/里长",
+     "next": "01-049-s7",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-049-s7",
+     "state": "告示",
+     "action": "次日将各派房次序、名字俱写告示，晓谕里老人户照依这等次序，若有亏枉者许令本人攀告",
+     "agent": "官府",
+     "condition": "斟酌不定误写前后者许令更改均平，明日不许",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-050",
+   "source": "01_卷上_体立为政事情.xhtml#条49",
+   "derived_from": [
+    "01-049"
+   ],
+   "confidence": 0.93,
+   "analysis": "赋役查造 7 步：吊册→拘集隔离→书手排户→吓写→里长老分写→四等→告示攀告。",
+   "original": "将各里赋役，务要从公查造，中间多因经年赃官在县，俱被刁民势要挟制掣肘难行，以此不敢变乱那移，止应旧造定赋役派差，中间多有不均，以致经年词讼不绝。今后即将各里黄册格眼并赋役册籍吊取在官，拘集各里里老、新旧书手，桌凳一张，大纸五七十张，绝早到县，里长、老人、书手，革在三处，不许交头接耳说话。将黄册并赋役先与新旧书手，分付各里人户见在若干，不论财产多少，答配一处，谁可做第一户，谁可做第二户，其余仿此。若你怕人户与你为冤，不□从实开报，目今就令里老各另写一张，你写不□□□□□八十大板，吓唬书手，先写次序了毕，将书手责令一壁等候。却分付老人，亦照前开写，如老人内有不识字者，却令另里书手代写完备递了，却令里长开写，俱各写完，通行分付，中间将人户作四等。斟酌不定，误写前后者，许令更改均平，明日不许。次日将各派房次序、名字俱写告示，晓谕里老人户照依这等次序，若有亏枉者，许令本人攀告。如此人户方得次序均平，贫民不致靠损，差使亦将颠倒。",
+   "derived_rule": "XGF-R-049",
+   "events": [
+    "XGF-E-049"
+   ]
+  },
+  {
+   "process_id": "XGF-P-050",
+   "event_type": "审囚",
+   "title": "用刑抽签",
+   "trigger": "问理公事",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-050-s1",
+     "state": "立班",
+     "action": "每日分付皂隶东西两班立站",
+     "agent": "皂隶",
+     "next": "01-050-s2",
+     "agent_ent_ids": [
+      "ENT-010"
+     ]
+    },
+    {
+     "step_id": "01-050-s2",
+     "state": "禁夺",
+     "action": "倘要用刑不许抢夺刑法，中间预买之人轻重之间甘苦十倍",
+     "agent": "官府",
+     "next": "01-050-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-050-s3",
+     "state": "抽签",
+     "action": "凡要用刑或是东班、西班第几个过来用刑，正用中间却又使别个过来；如不这等置一签通写各名字抽叫用刑",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-051",
+   "source": "01_卷上_体立为政事情.xhtml#条50",
+   "derived_from": [
+    "01-050"
+   ],
+   "confidence": 0.88,
+   "analysis": "用刑抽签：两班立站→禁抢刑→抽签用刑防买免。",
+   "original": "问理公事，每日分付皂隶东西两班立站，倘要用刑，不许抢夺刑法，中间预买之人，轻重之间，甘苦十倍。人后凡要用刑，或是东班、西班，第几个过来用刑，正用中间，却又使别个过来，如不这等，置一签通写各名字，抽叫用刑。如此，轻则不能偏苦，行之日久，人心恐怕临时不遇，不肯预先使钱买免。",
+   "derived_rule": "XGF-R-050",
+   "events": [
+    "XGF-E-050"
+   ]
+  },
+  {
+   "process_id": "XGF-P-051",
+   "event_type": "词讼受理",
+   "title": "刁讼息怒",
+   "trigger": "遇刁泼之徒",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-051-s1",
+     "state": "息怒",
+     "action": "不可乘怒用刑太过，务要暂息忿怒",
+     "agent": "官府",
+     "condition": "遇刁泼偏执鲁夫言语相激冒犯",
+     "next": "01-051-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-051-s2",
+     "state": "收监",
+     "action": "且将众人收入监内，再行散思，处治发落，凡事无失",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-052",
+   "source": "01_卷上_体立为政事情.xhtml#条51",
+   "derived_from": [
+    "01-051"
+   ],
+   "confidence": 0.88,
+   "analysis": "刁讼息怒：暂息忿怒→收监散思→处治。",
+   "original": "问理轻重词讼，一时倘遇刁泼之徒，或遇偏执鲁夫不通人事，言语相激冒犯，绝不可乘怒用刑太过，致惹别端。务要暂息忿怒，且将众人收入监内，再行散思，处治发落，凡事无失。",
+   "derived_rule": "XGF-R-051",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-052",
+   "event_type": "词讼受理",
+   "title": "口词供状收存",
+   "trigger": "问理大小词讼",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-052-s1",
+     "state": "摘词",
+     "action": "先摘口词在官，然后责令供状毕",
+     "agent": "官府",
+     "next": "01-052-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-052-s2",
+     "state": "收底",
+     "action": "即将供状底札尽行收取，不可烧毁或拿空便去处积放",
+     "agent": "官府",
+     "next": "01-052-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-052-s3",
+     "state": "存查",
+     "action": "倘后案卷疏虞，寻用底札以便查勘，不可令供状人带去",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-053",
+   "source": "01_卷上_体立为政事情.xhtml#条52",
+   "derived_from": [
+    "01-052"
+   ],
+   "confidence": 0.88,
+   "analysis": "口词供状：摘词→供状收底→存查防案卷疏虞。",
+   "original": "问理大小词讼，先摘口词在官，然后责令供状毕，即将供状底札尽行收取。不可烧毁或拿空便去处积放，倘后案卷疏虞，寻用底札以便查勘，不可令供状人带去，日后致生别情。",
+   "derived_rule": "XGF-R-052",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-053",
+   "event_type": "放告",
+   "title": "告状姓名",
+   "trigger": "告大小词状",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-053-s1",
+     "state": "验名",
+     "action": "凡告大小词状，上无写状之人姓名、贯址者，俱不准理",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-054",
+   "source": "01_卷上_体立为政事情.xhtml#条53",
+   "derived_from": [
+    "01-053"
+   ],
+   "confidence": 0.9,
+   "analysis": "告状准入：无姓名贯址者不准理。",
+   "original": "告示。凡告大小词状，上无写状之人姓名、贯址者，俱不准理。",
+   "derived_rule": "XGF-R-053",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-054",
+   "event_type": "狱政管理",
+   "title": "罪囚发落点查",
+   "trigger": "发落罪囚",
+   "timeline": [
+    "夜晚"
+   ],
+   "steps": [
+    {
+     "step_id": "01-054-s1",
+     "state": "分等",
+     "action": "招议停当，罪轻之人在外听候，罪重之人监候申详",
+     "agent": "官府",
+     "next": "01-054-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-054-s2",
+     "state": "点查",
+     "action": "夜晚遇闲亲去监内点查，上视封锁罪人，不致疏虞",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-055",
+   "source": "01_卷上_体立为政事情.xhtml#条54",
+   "derived_from": [
+    "01-054"
+   ],
+   "confidence": 0.88,
+   "analysis": "罪囚发落：轻者外候重者监候→夜亲点查。",
+   "original": "发落罪囚及别样轻罪犯人，招议停当，罪轻之人在外听候，罪重之人监候申详，夜晚遇闲，亲去监内点查上视封锁罪人，不致疏虞。",
+   "derived_rule": "XGF-R-054",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-055",
+   "event_type": "狱政管理",
+   "title": "监墙巡绰",
+   "trigger": "到任",
+   "timeline": [
+    "夜晚"
+   ],
+   "steps": [
+    {
+     "step_id": "01-055-s1",
+     "state": "修墙",
+     "action": "将监内墙垣房屋修筑高厚坚固，多用剌棘囤寨",
+     "agent": "官府",
+     "next": "01-055-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-055-s2",
+     "state": "巡绰",
+     "action": "夜晚内外俱用人夫巡绰呼应，不可忽略虚应故事",
+     "agent": "人夫",
+     "next": "01-055-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-055-s3",
+     "state": "宿歇",
+     "action": "刑房吏三名常川轮流在监宿歇提督犯人",
+     "agent": "刑房吏",
+     "condition": "倘有疏虞罪有所归",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-110"
+     ]
+    }
+   ],
+   "next_process": "01-056",
+   "source": "01_卷上_体立为政事情.xhtml#条55",
+   "derived_from": [
+    "01-055"
+   ],
+   "confidence": 0.88,
+   "analysis": "监墙巡绰：修墙固→夜巡绰→刑房吏宿歇。",
+   "original": "将监内墙垣、房屋修筑高厚坚固，多用剌棘囤寨。夜晚内外俱用人夫巡绰呼应，不可忽略，虚应故事。刑房吏三名，常川轮流在监宿歇提督犯人，倘有疏虞，罪有所归。",
+   "derived_rule": "XGF-R-055",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-056",
+   "event_type": "狱政管理",
+   "title": "刑具预备记簿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-056-s1",
+     "state": "壮备",
+     "action": "将监内房门锁钥铁索等项俱用壮实，所有一应刑法肘镣、铁锁、夹棍、拶指、刑枷等件俱要多置预备",
+     "agent": "官府",
+     "next": "01-056-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-056-s2",
+     "state": "记簿",
+     "action": "上司案临仍将数目置个簿籍，令刑房吏记写",
+     "agent": "刑房吏",
+     "condition": "如此不致吏卒残毁",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-110"
+     ]
+    }
+   ],
+   "next_process": "01-057",
+   "source": "01_卷上_体立为政事情.xhtml#条56",
+   "derived_from": [
+    "01-056"
+   ],
+   "confidence": 0.85,
+   "analysis": "刑具预备：锁钥壮实多置→案临记簿防残毁。",
+   "original": "将监内房门锁钥铁索等项，俱用壮实，其将所有一应刑法肘镣、铁锁、夹棍、拶指、刑枷等件，俱用要多置预备。上司案临，仍将数目置个簿籍，令刑房吏记写，如此不致吏卒残毁。",
+   "derived_rule": "XGF-R-056",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-057",
+   "event_type": "狱政管理",
+   "title": "禁子看守",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-057-s1",
+     "state": "看守",
+     "action": "监内可用禁子六七人常川在内看守，分付把门",
+     "agent": "禁子",
+     "next": "01-057-s2",
+     "agent_ent_ids": [
+      "ENT-172"
+     ]
+    },
+    {
+     "step_id": "01-057-s2",
+     "state": "禁接",
+     "action": "禁子不许令送饭家人到监，在监犯人不分轻重不许与在外人接见透漏狱情",
+     "agent": "禁子",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-172"
+     ]
+    }
+   ],
+   "next_process": "01-058",
+   "source": "01_卷上_体立为政事情.xhtml#条57",
+   "derived_from": [
+    "01-057"
+   ],
+   "confidence": 0.88,
+   "analysis": "禁子看守：六七人常川→禁送饭家人到监→禁外人接见。",
+   "original": "监内可用禁子六七人，常川在内看守，分付把门。禁子不许令送饭家人到监，及在监犯人，不分轻重，不许与在外人接见，透漏狱情，致惹别患。",
+   "derived_rule": "XGF-R-057",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-058",
+   "event_type": "迎送支应",
+   "title": "公馆器用登记",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-058-s1",
+     "state": "木牌",
+     "action": "将本县布按三司公馆府厅原设一应床帐、器皿、桌椅等件，俱要置立木牌一面逐件开写于上",
+     "agent": "官府",
+     "next": "01-058-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-058-s2",
+     "state": "看守",
+     "action": "各另经手门子收掌看守应用",
+     "agent": "门子",
+     "next": "01-058-s3",
+     "agent_ent_ids": [
+      "ENT-051"
+     ]
+    },
+    {
+     "step_id": "01-058-s3",
+     "state": "赔补",
+     "action": "日后倘有短少损坏，责令经手之人赔补",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-059",
+   "source": "01_卷上_体立为政事情.xhtml#条58",
+   "derived_from": [
+    "01-058"
+   ],
+   "confidence": 0.85,
+   "analysis": "公馆器用：木牌开写→门子看守→损坏赔补。",
+   "original": "将本县布按三司公馆府厅，原设有一应床帐、器皿、桌椅等件，俱要置立木牌一面，逐件开写于上。各另经手门子收掌看守应用，日后倘有短少损坏，责令经手之人赔补。",
+   "derived_rule": "XGF-R-058",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-059",
+   "event_type": "优免执照",
+   "title": "差徭除免",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-059-s1",
+     "state": "除免",
+     "action": "将各衙门差徭量为除免，稍加恩惠",
+     "agent": "官府",
+     "condition": "倘遇上司到县询问官吏贤否，诚恐人乘机诽谤",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-060",
+   "source": "01_卷上_体立为政事情.xhtml#条59",
+   "derived_from": [
+    "01-059"
+   ],
+   "confidence": 0.8,
+   "analysis": "差徭除免：量免加惠防诽谤。",
+   "original": "将各衙门差徭，量为除免，稍加恩惠。倘遇上司到县，一时询问官吏贤否，诚恐人乘机诽谤，有坏大事。",
+   "derived_rule": "XGF-R-059",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-060",
+   "event_type": "新政施行",
+   "title": "家伙修治",
+   "trigger": "应用对象原旧数少",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-060-s1",
+     "state": "伐修",
+     "action": "止可将坛庙、铺舍、路傍官树木伐毁，修治家伙，添用便益",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-061",
+   "source": "01_卷上_体立为政事情.xhtml#条60",
+   "derived_from": [
+    "01-060"
+   ],
+   "confidence": 0.8,
+   "analysis": "家伙修治：伐官树修治添用。",
+   "original": "前项各衙门应用对象，原旧数少，止可将坛庙、铺舍、路傍官树木伐毁，修治家伙，添用便益。",
+   "derived_rule": "XGF-R-060",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-061",
+   "event_type": "禁令示众",
+   "title": "六房画卯禁闲",
+   "trigger": "每日升堂画卯",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-061-s1",
+     "state": "禁敛",
+     "action": "每日升堂画卯毕，不可科敛民财买办",
+     "agent": "六房",
+     "next": "01-061-s2",
+     "agent_ent_ids": [
+      "ENT-009"
+     ]
+    },
+    {
+     "step_id": "01-061-s2",
+     "state": "禁闲",
+     "action": "各房办事，无事不许一人在堂闲立，假公营私，窥视官府行事细故及乘机诓骗财物",
+     "agent": "六房吏典",
+     "next": "01-061-s3",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    },
+    {
+     "step_id": "01-061-s3",
+     "state": "归房",
+     "action": "有事唤某人来听分付了毕即便回房办事，不许闲游各房妄语捏事",
+     "agent": "六房吏典",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    }
+   ],
+   "next_process": "01-062",
+   "source": "01_卷上_体立为政事情.xhtml#条61",
+   "derived_from": [
+    "01-061"
+   ],
+   "confidence": 0.88,
+   "analysis": "六房画卯：禁科敛→禁堂闲立→事毕回房。",
+   "original": "告示六房，每日升堂画卯毕，不可科敛民财买办。各房办事，无事不许一人在堂闲立，假公营私，窥视官府行事细故。及乘机诓骗财物，有事唤某人来听分付了毕，即便回房办事，不许闲游各房，妄语捏事，勾引别端。",
+   "derived_rule": "XGF-R-061",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-062",
+   "event_type": "比较查催",
+   "title": "巡视木牌",
+   "trigger": "每日早辰",
+   "timeline": [
+    "每日早辰"
+   ],
+   "steps": [
+    {
+     "step_id": "01-062-s1",
+     "state": "提牌",
+     "action": "置立巡视木牌，每日早辰亲拨皂隶一名提牌在县前后巡视",
+     "agent": "皂隶",
+     "next": "01-062-s2",
+     "agent_ent_ids": [
+      "ENT-010"
+     ]
+    },
+    {
+     "step_id": "01-062-s2",
+     "state": "告禀",
+     "action": "但有在官人数行事不公，许令本人告禀",
+     "agent": "本人",
+     "next": "01-062-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-062-s3",
+     "state": "治罪",
+     "action": "如本人知而通同不行禀告，事发一体治罪",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-063",
+   "source": "01_卷上_体立为政事情.xhtml#条62",
+   "derived_from": [
+    "01-062"
+   ],
+   "confidence": 0.88,
+   "analysis": "巡视木牌：拨皂隶提牌→不公告禀→通同治罪。",
+   "original": "置立巡视木牌，每日早辰，亲拨皂隶一名，提牌在县前后巡视。但有在官人数行事不公，许令本人告禀。如本人知而通同，不行禀告，事发一体治罪。",
+   "derived_rule": "XGF-R-062",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-063",
+   "event_type": "仓库交割",
+   "title": "仓库换役",
+   "trigger": "仓库交盘了毕",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-063-s1",
+     "state": "革退",
+     "action": "到任数日仓库交盘了毕，钱粮无亏少差错，就将原旧门、库俱各革退",
+     "agent": "官府",
+     "next": "01-063-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-063-s2",
+     "state": "换役",
+     "action": "推访离城五七十里住座殷实之家志诚儿男更换使用",
+     "agent": "官府",
+     "next": "01-063-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-063-s3",
+     "state": "另收",
+     "action": "凡收官物亦不要本人经手，另发殷实老人及乖觉吏典收受",
+     "agent": "殷实老人/吏典",
+     "condition": "如此官物不致侵欺",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-064",
+   "source": "01_卷上_体立为政事情.xhtml#条63",
+   "derived_from": [
+    "01-063"
+   ],
+   "confidence": 0.88,
+   "analysis": "仓库换役：革旧门库→换殷实儿男→官物另人经手。",
+   "original": "到任数日之间，仓库交盘了毕，钱粮无有亏少差错，就将原旧门、库，俱各革退，推访离城五七十里住座殷实之家志诚儿男更换使用。凡收官物，亦不要本人经手，另发殷实老人及乖觉吏典收受，如此官物不致侵欺。",
+   "derived_rule": "XGF-R-063",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-064",
+   "event_type": "迎送支应",
+   "title": "下程三等支应",
+   "trigger": "支应上司",
+   "timeline": [
+    "本年十月"
+   ],
+   "steps": [
+    {
+     "step_id": "01-064-s1",
+     "state": "接管",
+     "action": "在官支应上司出办下程之类，先依前该官吏规矩将就接管施行，若便更改则事体不一",
+     "agent": "官府",
+     "next": "01-064-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-064-s2",
+     "state": "定等",
+     "action": "直待本年十月交替里长之时，预先定为三等：上里量为出办若干，中里若干，下里若干，三样俱收中半",
+     "agent": "官府",
+     "next": "01-064-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-064-s3",
+     "state": "收买",
+     "action": "令的当乖觉里老并可托吏典公同前去出产大米、油蜡、纸札等物地方，收买来县官库收贮",
+     "agent": "里老/吏典",
+     "next": "01-064-s4",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-064-s4",
+     "state": "经收",
+     "action": "令十分可托之人三二人经收，支应上司",
+     "agent": "可托之人",
+     "condition": "公用省钱，里甲庶得苏醒",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-065",
+   "source": "01_卷上_体立为政事情.xhtml#条64",
+   "derived_from": [
+    "01-064"
+   ],
+   "confidence": 0.9,
+   "analysis": "下程支应：接管→十月定三等→收买官库→可托人经收。",
+   "original": "在官支应上司出办下程之类，先依前该官吏规矩将就接管施行，若便更改，倘里甲先有出过者，有浅薄里分逃躲未出者，有出办多半或少半者，则事体不一，难以遵守。直待本年十月交替里长之时，预先定为三等。上里量为出办若干，中里若干，下里若干，三样俱收中半，或收齐备令的当乖觉里老，并可托吏典公同前去，出产大米、油蜡、纸札等物地方，收买来县官库收贮，令十分可托之人三二人经收，支应上司，公用亦此省钱，比如前官文应费用减省十倍。里甲庶得苏醒，取物又以便益。",
+   "derived_rule": "XGF-R-064",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-065",
+   "event_type": "征收钱粮",
+   "title": "纸札收支",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-065-s1",
+     "state": "收库",
+     "action": "将里甲出办并陆续区罚治纸札俱各收入官库",
+     "agent": "官府",
+     "next": "01-065-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-065-s2",
+     "state": "支写",
+     "action": "某日某吏领那样纸若干，书办何样文书，就令本吏亲手支写",
+     "agent": "该吏",
+     "next": "01-065-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-065-s3",
+     "state": "提磨",
+     "action": "过闲提磨一次，如此纸札不致作践",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-066",
+   "source": "01_卷上_体立为政事情.xhtml#条65",
+   "derived_from": [
+    "01-065"
+   ],
+   "confidence": 0.85,
+   "analysis": "纸札收支：收库→亲手支写→闲时提磨。",
+   "original": "将里甲出办并陆续区罚治，纸札俱各收入官库，某日某吏领那样纸若干，书办何样，文书就令本吏亲手支写。过闲提磨一次，如此纸札不致作践。",
+   "derived_rule": "XGF-R-065",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-066",
+   "event_type": "仓库交割",
+   "title": "官物经手",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-066-s1",
+     "state": "经手",
+     "action": "将在官一应收贮官物俱照各项设法令人经手出入支销",
+     "agent": "官府",
+     "condition": "勿令门库经自专侵欺",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-067",
+   "source": "01_卷上_体立为政事情.xhtml#条66",
+   "derived_from": [
+    "01-066"
+   ],
+   "confidence": 0.85,
+   "analysis": "官物经手：设法经手支销禁门库专侵。",
+   "original": "将在官一应收贮官物，俱照各项设法令人经手出入支销，勿令门库经自专侵欺。",
+   "derived_rule": "XGF-R-066",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-067",
+   "event_type": "新政施行",
+   "title": "贴写留用",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-067-s1",
+     "state": "留用",
+     "action": "将六房贴写文案主文不可即便革去",
+     "agent": "官府",
+     "condition": "倘有异常难处之事吏典不能作做深为未便",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-068",
+   "source": "01_卷上_体立为政事情.xhtml#条67",
+   "derived_from": [
+    "01-067"
+   ],
+   "confidence": 0.85,
+   "analysis": "贴写留用：不即革去，备异常难处之事。",
+   "original": "将六房贴写文案主文，不可即便革去。倘有异常难处之事，吏典不能作做，深为未便。",
+   "derived_rule": "XGF-R-067",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-068",
+   "event_type": "新政施行",
+   "title": "疑难委做",
+   "trigger": "到任之后",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-068-s1",
+     "state": "出文",
+     "action": "凡有疑难出文令该吏做来，我改吏典及不能自己亲笔做，未免转求文起摘为官者",
+     "agent": "新官",
+     "next": "01-068-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-068-s2",
+     "state": "将就",
+     "action": "只虽不到似此将就，凡事不致阻滞",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-069",
+   "source": "01_卷上_体立为政事情.xhtml#条68",
+   "derived_from": [
+    "01-068"
+   ],
+   "confidence": 0.85,
+   "analysis": "疑难委做：出文令吏做→将就行事不致阻滞。",
+   "original": "到任之后，也不要分付禁革，亦不要显出容留。凡有疑难，出文令该吏做来，我改吏典及不能自己亲笔做，未免转求文起摘为官者，只虽不到似此将就，凡事不致阻滞。",
+   "derived_rule": "XGF-R-068",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-069",
+   "event_type": "新政施行",
+   "title": "刑房吏预访",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-069-s1",
+     "state": "缉访",
+     "action": "预先缉访刑房曾积年在县、曾经刷卷、谙晓刑名一二人，有用可托吏典",
+     "agent": "新官",
+     "next": "01-069-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-069-s2",
+     "state": "抚恤",
+     "action": "遇闲唤叫后堂抚恤分付：你且回去，待后有事便来叫你",
+     "agent": "新官",
+     "next": "01-069-s3",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-069-s3",
+     "state": "留心",
+     "action": "如此以礼使用，本人方肯留心",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-070",
+   "source": "01_卷上_体立为政事情.xhtml#条69",
+   "derived_from": [
+    "01-069"
+   ],
+   "confidence": 0.85,
+   "analysis": "刑房吏预访：缉访谙刑名者→后堂抚恤→以礼使用。",
+   "original": "预先缉访刑房曾积年在县，曾经刷卷，谙晓刑名一二人，有用可托吏典，遇闲唤叫后堂，抚恤分付：你且回去，待后有事便来叫你。如此以礼使用，本人方肯留心。",
+   "derived_rule": "XGF-R-069",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-070",
+   "event_type": "文书流转",
+   "title": "书房藏卷",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-070-s1",
+     "state": "盖房",
+     "action": "将后堂或前堂左右空闲去处，假指修盖书房，却不要□人在内读书",
+     "agent": "官府",
+     "next": "01-070-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-070-s2",
+     "state": "藏卷",
+     "action": "倘有急密重事文卷申达、刁民公文或递年须知文册，俱各安置在内",
+     "agent": "官府",
+     "next": "01-070-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-070-s3",
+     "state": "禁入",
+     "action": "禁将在官闲杂人等个个不许擅入，透漏消息或偷扯卷案",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-071",
+   "source": "01_卷上_体立为政事情.xhtml#条70",
+   "derived_from": [
+    "01-070"
+   ],
+   "confidence": 0.88,
+   "analysis": "书房藏卷：盖书房→藏密卷→禁闲人擅入。",
+   "original": "将后堂或前堂左右空闲去处，假指修盖书房，却不要□人在内读书。倘有急密重事文卷申达、刁民公文或递年须知文册，俱各安置在内，禁将在官闲杂人等，个个不许擅入，透漏消息或偷扯卷案，深为未便。",
+   "derived_rule": "XGF-R-070",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-071",
+   "event_type": "审囚",
+   "title": "刑名讲论",
+   "trigger": "遇有疑难事",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-071-s1",
+     "state": "参看",
+     "action": "将用刑名律例时时经心参看",
+     "agent": "新官",
+     "next": "01-071-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-071-s2",
+     "state": "讲论",
+     "action": "遇有疑难事，在盖书房之内或后宅便益去处，唤叫通晓刑名人常川讲论",
+     "agent": "通晓刑名人",
+     "condition": "庶得难处之事不致求人",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-072",
+   "source": "01_卷上_体立为政事情.xhtml#条71",
+   "derived_from": [
+    "01-071"
+   ],
+   "confidence": 0.88,
+   "analysis": "刑名讲论：常参律例→疑难唤通晓刑名讲论。",
+   "original": "将用刑名律例，时时经心参看。遇有疑难事，在于盖书房之内或后宅便益去处，唤叫通晓刑名人常川讲论，庶得难处之事，不致求人。",
+   "derived_rule": "XGF-R-071",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-072",
+   "event_type": "赋役编审",
+   "title": "里分次序",
+   "trigger": "到任",
+   "timeline": [
+    "时时"
+   ],
+   "steps": [
+    {
+     "step_id": "01-072-s1",
+     "state": "访察",
+     "action": "将概县里分贫富时时用心访察，人户贫富、地出薄厚务要分为次序",
+     "agent": "新官",
+     "next": "01-072-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-072-s2",
+     "state": "亲派",
+     "action": "凡遇分派粮差照依里分力量，亲自分派总数目以定各里",
+     "agent": "新官",
+     "condition": "里老难以作弊及更改数目多寡",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-073",
+   "source": "01_卷上_体立为政事情.xhtml#条72",
+   "derived_from": [
+    "01-072"
+   ],
+   "confidence": 0.88,
+   "analysis": "里分次序：访贫富薄厚→亲分粮差定各里。",
+   "original": "将概县里分贫富，时时用心访察人户贫富，地出薄厚，务要分为次序。凡遇分派粮差，照依里分力量，亲自分派总数目，以定各里，里老难以作弊及更改数目多寡。",
+   "derived_rule": "XGF-R-072",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-073",
+   "event_type": "学校考课",
+   "title": "六房诵律",
+   "trigger": "到任",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-073-s1",
+     "state": "禁闲",
+     "action": "将六房吏典不可容令一时闲睱静中寻思搜求事端、害人要钱",
+     "agent": "官府",
+     "next": "01-073-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-073-s2",
+     "state": "诵律",
+     "action": "每日过令各人诵律，除兵、刑、户三房日每公事繁多少读外，其余者每日令多读上一二十项",
+     "agent": "六房吏典",
+     "condition": "如此逼迫不惟日后出仕有用，抑且目下工夫不暇寻常害人",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    }
+   ],
+   "next_process": "01-074",
+   "source": "01_卷上_体立为政事情.xhtml#条73",
+   "derived_from": [
+    "01-073"
+   ],
+   "confidence": 0.85,
+   "analysis": "六房诵律：禁闲思害人→每日诵律。",
+   "original": "将六房吏典，不可容令一时闲睱静中寻思搜求事端、害人要钱。每日过令各人诵律，除兵、刑、户三房，日每公事繁多少读外，其余者每日令多读上一二十项。如此逼迫，不惟日后出仕有用，抑且目下工夫，不暇寻常害人。",
+   "derived_rule": "XGF-R-073",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-074",
+   "event_type": "比较查催",
+   "title": "架卷抽查",
+   "trigger": "闲暇之时",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-074-s1",
+     "state": "扯验",
+     "action": "遇闲暇之时亲去六房看架上文书，冒扯一宗验看",
+     "agent": "新官",
+     "next": "01-074-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-074-s2",
+     "state": "补责",
+     "action": "如少略节者即骂，分付去便补完；如头尾不相样者就便责材，以警将来",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-075",
+   "source": "01_卷上_体立为政事情.xhtml#条74",
+   "derived_from": [
+    "01-074"
+   ],
+   "confidence": 0.85,
+   "analysis": "架卷抽查：扯验→少略补完→头尾不样责。",
+   "original": "遇闲暇之时，亲去六房看架上文书，冒扯一宗验看，如少略节者即骂，分付去便补完。如头尾不相样者，就便责材，以警将来，深为便益。",
+   "derived_rule": "XGF-R-074",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-075",
+   "event_type": "文书流转",
+   "title": "六房卷架整备",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-075-s1",
+     "state": "置备",
+     "action": "将六房卷架、桌凳、砚瓦置立停当，笔墨纸札一时不可欠缺，又不许作践秽污，务要修理齐备",
+     "agent": "官府",
+     "next": "01-075-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-075-s2",
+     "state": "洁净",
+     "action": "常川省令打扫洁净，勿容闲人入房闲搅",
+     "agent": "官府",
+     "condition": "务使人心安静专意书辨勿误公事",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-076",
+   "source": "01_卷上_体立为政事情.xhtml#条75",
+   "derived_from": [
+    "01-075"
+   ],
+   "confidence": 0.85,
+   "analysis": "六房卷架：置备修齐→打扫洁净禁闲人。",
+   "original": "将六房卷架、桌凳、砚瓦，置立停当。笔墨、纸札，一时不可欠缺，又不许作践秽污，务要修理齐备。常川省令打扫洁净，勿容闲人入房闲搅，务使人心安静，专意书辨，勿误公事。",
+   "derived_rule": "XGF-R-075",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-076",
+   "event_type": "迎送支应",
+   "title": "上司出巡打探",
+   "trigger": "风宪上司出巡",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-076-s1",
+     "state": "打探",
+     "action": "预先责者闲吏一名前去行□州县打探，比较何事催办、何差又要询问，大人禀性好减省好奉承，以便预备",
+     "agent": "闲吏",
+     "next": "01-076-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-076-s2",
+     "state": "报写",
+     "action": "及将比较过事件用手本报写来县，以便闻报",
+     "agent": "闲吏",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-077",
+   "source": "01_卷上_体立为政事情.xhtml#条76",
+   "derived_from": [
+    "01-076"
+   ],
+   "confidence": 0.85,
+   "analysis": "上司出巡打探：遣吏打探→手本报写。",
+   "original": "风宪上司出巡，预先责者闲吏一名前去行□州县打探，比较何事催办，何差又要询问，大人禀性好减省，好奉承，以便预备。及将比较过事件，用手本报写来县，以便闻报。",
+   "derived_rule": "XGF-R-076",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-077",
+   "event_type": "迎送支应",
+   "title": "道路预修",
+   "trigger": "上司将到",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-077-s1",
+     "state": "踏路",
+     "action": "本县桥梁道路倘遇天雨连绵水满沟渠有碍经行，风闻上司将到",
+     "agent": "官府",
+     "next": "01-077-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-077-s2",
+     "state": "修筑",
+     "action": "先差的当老人或能干吏典带领人夫前去经过路上修筑平垣，无碍行走",
+     "agent": "老人/吏典/人夫",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-078",
+   "source": "01_卷上_体立为政事情.xhtml#条77",
+   "derived_from": [
+    "01-077"
+   ],
+   "confidence": 0.85,
+   "analysis": "道路预修：风闻上司→遣人夫修路。",
+   "original": "本县桥梁道路，倘遇天雨连绵，水满沟渠，有碍经行。风闻上司将到，先差的当老人或能干吏典带领人夫前去经过路上修筑平垣，无碍行走，深为便益。",
+   "derived_rule": "XGF-R-077",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-078",
+   "event_type": "迎送支应",
+   "title": "手本预叠",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-078-s1",
+     "state": "预叠",
+     "action": "将六房应递手本专令表背匠人或惯熟折迭书籍之人，预先折迭一二百本，长短阔狭各要齐整",
+     "agent": "表背匠人",
+     "next": "01-078-s2",
+     "agent_ent_ids": [
+      "ENT-412"
+     ]
+    },
+    {
+     "step_id": "01-078-s2",
+     "state": "提督",
+     "action": "倘上司到县倚托的当一人提督开写，常时如此不致费心",
+     "agent": "的当之人",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-079",
+   "source": "01_卷上_体立为政事情.xhtml#条78",
+   "derived_from": [
+    "01-078"
+   ],
+   "confidence": 0.85,
+   "analysis": "手本预叠：匠人预叠一二百本→上司到时提督开写。",
+   "original": "将六房应递手本，专令表背匠人或惯熟折迭书籍之人，预先折迭一二百本。长短阔狭，各要齐整。倘上司到县，倚托的当一人提督开写，常时如此，不致费心。",
+   "derived_rule": "XGF-R-078",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-079",
+   "event_type": "迎送支应",
+   "title": "上司迎接",
+   "trigger": "上司按临到县",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-079-s1",
+     "state": "迎接",
+     "action": "预先着差巡捕官员或能干吏典，带领少壮夫马在该管地界迎接",
+     "agent": "巡捕官员/吏典",
+     "condition": "宁可等候，勿致有误",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-080",
+   "source": "01_卷上_体立为政事情.xhtml#条79",
+   "derived_from": [
+    "01-079"
+   ],
+   "confidence": 0.85,
+   "analysis": "上司迎接：遣巡捕带领夫马地界迎接。",
+   "original": "将上司内按临到县，预先着差巡捕官员或能干吏典，带领少壮夫马在于该管地界迎接，宁可等候，勿致有误。",
+   "derived_rule": "XGF-R-079",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-080",
+   "event_type": "迎送支应",
+   "title": "刑具手本",
+   "trigger": "上司到县",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-080-s1",
+     "state": "写本",
+     "action": "将应用各项肘镣、绳索、夹棍、拶指、竹片粗细棍板俱要写手本",
+     "agent": "官府",
+     "next": "01-080-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-080-s2",
+     "state": "先送",
+     "action": "随到未曾拜见，先令刑房吏送",
+     "agent": "刑房吏",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-110"
+     ]
+    }
+   ],
+   "next_process": "01-081",
+   "source": "01_卷上_体立为政事情.xhtml#条80",
+   "derived_from": [
+    "01-080"
+   ],
+   "confidence": 0.85,
+   "analysis": "刑具手本：写手本→未拜见先送。",
+   "original": "将应用各项肘镣、绳索、夹棍、拶指、竹片粗细棍板，俱要写手本，随到未曾拜见，先令刑房吏送。",
+   "derived_rule": "XGF-R-080",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-081",
+   "event_type": "迎送支应",
+   "title": "上司书手伺候",
+   "trigger": "上司到县",
+   "timeline": [
+    "先两三日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-081-s1",
+     "state": "盖房",
+     "action": "将布按二司前左右起盖空房三间，如无官地民间空闲房屋借用两三间",
+     "agent": "官府",
+     "next": "01-081-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-081-s2",
+     "state": "候书",
+     "action": "凡有上司到县遇先两三日，呼唤平素于可托通晓行移、能书算写书手二三人伺候上司",
+     "agent": "书手",
+     "next": "01-081-s3",
+     "agent_ent_ids": [
+      "ENT-020"
+     ]
+    },
+    {
+     "step_id": "01-081-s3",
+     "state": "分写",
+     "action": "倘有发出公文随到众人分写，即便回报，有助声价",
+     "agent": "书手",
+     "next": "01-081-s4",
+     "agent_ent_ids": [
+      "ENT-020"
+     ]
+    },
+    {
+     "step_id": "01-081-s4",
+     "state": "下程",
+     "action": "拜见先递手木毕，出司便递下程；铺陈诸事各要齐整豊盛",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-082",
+   "source": "01_卷上_体立为政事情.xhtml#条81",
+   "derived_from": [
+    "01-081"
+   ],
+   "confidence": 0.88,
+   "analysis": "上司书手伺候：盖空房→先两三日唤书手→随到分写→递下程铺陈。",
+   "original": "将布按二司，前左右起盖空房三间，如无官地，民间空闲房屋，借用两三间。凡有上司到县，遇先两三日呼唤平素于可托通晓行移，能书算写书手二三人伺候上司。倘有发出公文，随到众人分写，即便回报，有助声价。拜见先递手木毕，出司便递下程。铺陈诸事，各要齐整豊盛，中间多有不肯收受，终是心上喜欢。故曰：“周公不受礼，也怪不来人。”",
+   "derived_rule": "XGF-R-081",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-082",
+   "event_type": "禁令示众",
+   "title": "夜巡提铃",
+   "trigger": "夜晚",
+   "timeline": [
+    "夜晚"
+   ],
+   "steps": [
+    {
+     "step_id": "01-082-s1",
+     "state": "提铃",
+     "action": "夜晚分付巡风吏提铃，及分付钟鼓分明，不惟上司在县中常常如此",
+     "agent": "巡风吏",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-213"
+     ]
+    }
+   ],
+   "next_process": "01-083",
+   "source": "01_卷上_体立为政事情.xhtml#条82",
+   "derived_from": [
+    "01-082"
+   ],
+   "confidence": 0.8,
+   "analysis": "夜巡提铃：巡风吏提铃，钟鼓分明。",
+   "original": "夜晚分付巡风吏提铃，及分付钟鼓分明，不惟上司在县中，常常如此。",
+   "derived_rule": "XGF-R-082",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-083",
+   "event_type": "新政施行",
+   "title": "行事照旧",
+   "trigger": "到县",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-083-s1",
+     "state": "照旧",
+     "action": "到县凡百行事不可擅自更改，待六房吏典每日行事如各有条款照依旧行",
+     "agent": "六房吏典",
+     "next": "01-083-s2",
+     "agent_ent_ids": [
+      "ENT-111"
+     ]
+    },
+    {
+     "step_id": "01-083-s2",
+     "state": "立规",
+     "action": "如有一件事行的无有条叚、不合人情，却照咱每写上规矩",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-084",
+   "source": "01_卷上_体立为政事情.xhtml#条83",
+   "derived_from": [
+    "01-083"
+   ],
+   "confidence": 0.85,
+   "analysis": "行事照旧：有条款照旧→无条叚写新规矩。",
+   "original": "到县凡百行事，不可擅自更改。待六房吏典每日行事，如各有条款，照依旧行。如有一件事行的无有条叚，不合人情，却照咱每写上规矩。",
+   "derived_rule": "XGF-R-083",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-084",
+   "event_type": "征收钱粮",
+   "title": "钱粮定价征收",
+   "trigger": "征收钱粮",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-084-s1",
+     "state": "照价",
+     "action": "凡征收各项钱粮各要照依上司原定价银数日征收",
+     "agent": "官府",
+     "condition": "不可令大户那移多收，事发负累不便",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-085",
+   "source": "01_卷上_体立为政事情.xhtml#条84",
+   "derived_from": [
+    "01-084"
+   ],
+   "confidence": 0.88,
+   "analysis": "钱粮征收：照上司定价→禁大户那移多收。",
+   "original": "凡征收各项钱粮，各要照依上司原定价银数日征收，不可令大户那移多收，事发负累不便。",
+   "derived_rule": "XGF-R-084",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-085",
+   "event_type": "征收钱粮",
+   "title": "岁办钱粮榜写",
+   "trigger": "到任",
+   "timeline": [
+    "每年"
+   ],
+   "steps": [
+    {
+     "step_id": "01-085-s1",
+     "state": "类写",
+     "action": "将每年岁办钱粮并一应申报上司，日报依章日月食□□件，六房用大字类写书案傍边，常接乎日勿致有误",
+     "agent": "六房",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-009"
+     ]
+    }
+   ],
+   "next_process": "01-086",
+   "source": "01_卷上_体立为政事情.xhtml#条85",
+   "derived_from": [
+    "01-085"
+   ],
+   "confidence": 0.8,
+   "analysis": "岁办钱粮：大字类写书案傍，常看防误。",
+   "original": "将每年岁办钱粮并一应申报上司，日报依章日月食□□件，六房用大字类写书案傍边，常接乎日，勿致有误。",
+   "derived_rule": "XGF-R-085",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-086",
+   "event_type": "新政施行",
+   "title": "吏典抚恤",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-086-s1",
+     "state": "抚恤",
+     "action": "六房通晓刑名行移吏典常加抚恤，致使小人肯尽心力",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-087",
+   "source": "01_卷上_体立为政事情.xhtml#条86",
+   "derived_from": [
+    "01-086"
+   ],
+   "confidence": 0.8,
+   "analysis": "吏典抚恤：常加抚恤使肯尽心。",
+   "original": "六房通晓刑名行移吏典，常加抚恤，致使小人肯尽心力。",
+   "derived_rule": "XGF-R-086",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-087",
+   "event_type": "新政施行",
+   "title": "仕宦安顿",
+   "trigger": "到任",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-087-s1",
+     "state": "安顿",
+     "action": "将本县仕宦之家常加好言安顿，遇有不害于事的，事情£成方便，如此不致阴害",
+     "agent": "新官",
+     "next": "01-087-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-087-s2",
+     "state": "缉防",
+     "action": "亦要缉访各家违法等事，记之防攻",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-088",
+   "source": "01_卷上_体立为政事情.xhtml#条87",
+   "derived_from": [
+    "01-087"
+   ],
+   "confidence": 0.85,
+   "analysis": "仕宦安顿：好言安顿→缉访违法防攻。",
+   "original": "将本县仕宦之家，常加好言安顿，遇有不害于事的，事情£成方便如此，不致阴害。亦要缉访各家违法等事，记之防攻。",
+   "derived_rule": "XGF-R-087",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-088",
+   "event_type": "禁令示众",
+   "title": "作官谨慎",
+   "trigger": "作官",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-088-s1",
+     "state": "谨慎",
+     "action": "常要谨慎，戒暴怒之性，凡事无失",
+     "agent": "新官",
+     "next": "01-088-s2",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    },
+    {
+     "step_id": "01-088-s2",
+     "state": "少言",
+     "action": "少发喜中言，手下人不敢恃爱",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-089",
+   "source": "01_卷上_体立为政事情.xhtml#条88",
+   "derived_from": [
+    "01-088"
+   ],
+   "confidence": 0.8,
+   "analysis": "作官谨慎：戒暴怒→少发喜中言。",
+   "original": "作官大概之法，常要谨慎，戒暴怒之性，凡事无失。少发喜中言，手下人不敢恃爱。",
+   "derived_rule": "XGF-R-088",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-089",
+   "event_type": "直日时刻表",
+   "title": "五更梆铃",
+   "trigger": "五更时",
+   "timeline": [
+    "五更"
+   ],
+   "steps": [
+    {
+     "step_id": "01-089-s1",
+     "state": "梆铃",
+     "action": "宅内置木梆一个，五更时一声，令把门皂隶公廨内摇铃",
+     "agent": "把门皂隶",
+     "next": "01-089-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-089-s2",
+     "state": "兴堂",
+     "action": "第一次省令，第二次吏兴，上堂签押公文，皂隶站堂方出",
+     "agent": "吏/皂隶",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-090",
+   "source": "01_卷上_体立为政事情.xhtml#条89",
+   "derived_from": [
+    "01-089"
+   ],
+   "confidence": 0.85,
+   "analysis": "五更梆铃：梆铃两声→吏兴上堂签押。",
+   "original": "宅内置木梆一个，五更时一声，令把门皂隶公廨内摇铃。第一次省令，第二次吏兴，上堂签押公文，皂隶站堂方出。",
+   "derived_rule": "XGF-R-089",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-090",
+   "event_type": "征收钱粮",
+   "title": "催粮缓行",
+   "trigger": "委别县催粮",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-090-s1",
+     "state": "先行",
+     "action": "委别县催粮先行牌，多置刑具以畏百姓，吾则缓行，到时粮则完矣",
+     "agent": "新官",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-323"
+     ]
+    }
+   ],
+   "next_process": "01-091",
+   "source": "01_卷上_体立为政事情.xhtml#条90",
+   "derived_from": [
+    "01-090"
+   ],
+   "confidence": 0.8,
+   "analysis": "催粮缓行：先行牌置刑具→缓行到而粮完。",
+   "original": "委别县催粮先行牌，多置刑具，以畏百姓，吾则缓行，到时粮则完矣。",
+   "derived_rule": "XGF-R-090",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-091",
+   "event_type": "学校考课",
+   "title": "学校修费",
+   "trigger": "学校或废坏",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-091-s1",
+     "state": "捐费",
+     "action": "不可辄申上司，我出俸资十两，同僚并教官各出少许，士夫富民各认定若干写上",
+     "agent": "新官/同僚/教官/士夫富民",
+     "next": "01-091-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-091-s2",
+     "state": "收账",
+     "action": "令儒官收在县一本、在学一本，终不经手",
+     "agent": "儒官",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "01-092",
+   "source": "01_卷上_体立为政事情.xhtml#条91",
+   "derived_from": [
+    "01-091"
+   ],
+   "confidence": 0.88,
+   "analysis": "学校修费：捐俸集费→儒官两簿收账不经手。",
+   "original": "学校或废坏，不可辄申上司。我出俸资十两，同僚并教官各出少许，士夫富民各认定若干，写上。令儒官收在县一本，在学一本，终不经手。",
+   "derived_rule": "XGF-R-091",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-092",
+   "event_type": "升堂礼仪",
+   "title": "士夫禀见",
+   "trigger": "早堂中堂晚堂",
+   "timeline": [
+    "早中晚堂"
+   ],
+   "steps": [
+    {
+     "step_id": "01-092-s1",
+     "state": "预禀",
+     "action": "凡士夫来见，仰把门皂隶持禀帖预禀",
+     "agent": "把门皂隶",
+     "next": "01-092-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "01-092-s2",
+     "state": "序见",
+     "action": "然后次序相见",
+     "agent": "士夫",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-056"
+     ]
+    }
+   ],
+   "next_process": "01-093",
+   "source": "01_卷上_体立为政事情.xhtml#条92",
+   "derived_from": [
+    "01-092"
+   ],
+   "confidence": 0.85,
+   "analysis": "士夫禀见：皂隶持禀帖预禀→次序相见。",
+   "original": "早堂、中堂、晚堂，凡士夫来见，仰把门皂隶持禀帖预禀，然后次序相见。",
+   "derived_rule": "XGF-R-092",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-093",
+   "event_type": "禁令示众",
+   "title": "家伙点查",
+   "trigger": "每日",
+   "timeline": [
+    "每日"
+   ],
+   "steps": [
+    {
+     "step_id": "01-093-s1",
+     "state": "点查",
+     "action": "将司内应用家伙俱要照依原置木牌数，日点查齐备",
+     "agent": "官府",
+     "next": "01-093-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "01-093-s2",
+     "state": "洁净",
+     "action": "厨房亦要洁净，免致怪责",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "01-094",
+   "source": "01_卷上_体立为政事情.xhtml#条93",
+   "derived_from": [
+    "01-093"
+   ],
+   "confidence": 0.8,
+   "analysis": "家伙点查：照木牌数日点→厨房洁净。",
+   "original": "将司内应用家伙，俱要照依原置木牌数，日点查齐。备厨房亦要洁净，免致怪责。",
+   "derived_rule": "XGF-R-093",
+   "events": []
+  },
+  {
+   "process_id": "XGF-P-094",
+   "event_type": "文书流转",
+   "title": "封皮横裁",
+   "trigger": "封皮纸",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "01-094-s1",
+     "state": "横裁",
+     "action": "凡封皮纸俱要横裁，使下人不敢摘揭；若摘揭则便破矣",
+     "agent": "官府",
+     "condition": "此皮传之有自，不可忽略",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "",
+   "source": "01_卷上_体立为政事情.xhtml#条94",
+   "derived_from": [
+    "01-094"
+   ],
+   "confidence": 0.85,
+   "analysis": "封皮横裁：横裁防摘揭。",
+   "original": "凡封皮纸，俱要横裁，使下人不敢摘揭。若摘揭，则便破矣。此皮传之有自，不可忽略。",
+   "derived_rule": "XGF-R-094",
+   "events": []
+  }
+ ]
+}

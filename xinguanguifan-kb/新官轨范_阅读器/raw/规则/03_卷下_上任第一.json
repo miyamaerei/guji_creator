@@ -1,0 +1,416 @@
+{
+ "schema_version": "kg-rule-ai-json-v1",
+ "rule_version": "rule-ai-v1",
+ "volume": "03",
+ "chapter": "卷下_上任第一",
+ "source_file": "03_卷下_上任第一.xhtml",
+ "item_count": 16,
+ "rule_count": 16,
+ "rules": [
+  {
+   "rule_id": "XGF-R-095",
+   "item_id": "03-001",
+   "type": "禁止型+义务型",
+   "modals": [
+    "prohibit",
+    "obligation"
+   ],
+   "condition": "初到境上（谒告祭神）",
+   "subject": "官府（知县）/礼房、兵房",
+   "prohibited_action": "计论祭仪□俭；喧哗；挤塞观望；遽然行刑",
+   "prohibited_effect": "祭仪失序",
+   "allowed_action": "",
+   "obligation_action": "择善地停泊着落兵房整点祗候，省谕地方；礼房引领官属父老人等记名来参，洒扫合祭神宇，备祭仪候谒告；预戒礼生务如礼仪；令兵房戒谕诸色人等",
+   "object": "礼生、官属父老、诸色人等",
+   "purpose": "祭仪如礼有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条1",
+   "original": "初到境上，择善地停泊着落兵房，整点祗候，省谕地方，并礼房引领官属父老人等记名来参，就令洒扫，合祭神宇，备祭仪以候谒告，其祭仪皆从前。署印官备办，不得计论□俭，但祭祀仪注看过，预戒礼生务如礼仪，令兵房戒谕诸色人等不得喧哗，不得挤塞观望，亦不遽然行刑，其吏房打点上任参见先后，起数来看，以便明日酬答。",
+   "confidence": 0.88,
+   "analysis": "『不得计论□俭』『不得喧哗挤塞观望』『不遽然行刑』多项禁止，『礼生务如礼仪』『兵房戒谕』为义务。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-096",
+   "item_id": "03-002",
+   "type": "义务型+禁止型",
+   "modals": [
+    "obligation",
+    "prohibit"
+   ],
+   "condition": "到任谒祭",
+   "subject": "官府（知县）",
+   "prohibited_action": "或用祭服",
+   "prohibited_effect": "礼失",
+   "allowed_action": "",
+   "obligation_action": "但用便服，凡献爵读祝皆行跪礼；须先与礼生议定，依仪注行礼",
+   "object": "礼生",
+   "purpose": "令人不误",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条2",
+   "original": "到任谒初，但用便服，凡献爵读祝，皆行跪礼。须先与礼生议定，依仪注行礼，令人不误，或用祭服，皆为失。",
+   "confidence": 0.88,
+   "analysis": "『须先与礼生议定依仪注行礼』义务+『或用祭服皆为失』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-097",
+   "item_id": "03-003",
+   "type": "禁止型+允许型",
+   "modals": [
+    "prohibit",
+    "allow"
+   ],
+   "condition": "入县问民俗",
+   "subject": "官府（知县）",
+   "prohibited_action": "先执己见逆民心；偏听（拘×向远走××）",
+   "prohibited_effect": "逆民心",
+   "allowed_action": "止许各投次序，引导随从，不须鼓乐",
+   "obligation_action": "",
+   "object": "民",
+   "purpose": "顺民心",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条3",
+   "original": "入县当问民问俗志，不可先执己见，逆民心，又不可偏听，拘×向远走××，止许各投次序，引导随从，不须鼓乐。",
+   "confidence": 0.9,
+   "analysis": "『不可先执己见逆民心』『又不可偏听』禁止+『止许各投次序』允许。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-098",
+   "item_id": "03-004",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "到任日升公座、参见交割",
+   "subject": "官府（知县）",
+   "prohibited_action": "坐谕（遣礼生代谕亦可）",
+   "prohibited_effect": "礼序失",
+   "allowed_action": "",
+   "obligation_action": "仪门外设坐次→易公服→从中道入站台望阙谢恩→拱手上厅→诸色人依次参见（门子禁子祗候先参、吏典二拜坐受、属官二拜、首领官二拜起身供手、学官出公座答礼、佐贰官答礼）→各房呈递须知，吏房取到任公文签押，须吏典逐一指点签押，直印吏开印禀说某字几号铜印一颗四角俱全，用印毕分付同僚该吏将公文仓库狱囚门禁钥匙逐一交割",
+   "object": "吏典、属官、首领官、学官、佐贰官、直印吏",
+   "purpose": "参见交割有序无误",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条4",
+   "original": "先期于仪门外设坐次，待至，就易公服。从中道入，于站台上望阙谢恩毕，仍与僚属拱手上厅。着落吏礼房分付诸色人等各于仪门外以次伺候参见，其师生候于便厅升公座，皂隶排衙，阴阳生报时，吏房送公座与同僚取笔押字毕，起与同僚供手退后堂，便服出堂。原署印官吏交割，次序放诸色人入，立厅下门子、禁子、祗候之类，先参次吏典二拜，坐受次属官二拜，坐受一属官二拜，坐而拱手，次首领官二拜，起身供手。次学官出公座答礼，佐贰官二拜答礼，毕谕僚属，遣礼生代谕亦可，但不可坐谕。次则发放合属并生员先出，乃揖同僚一人，陪学官入后堂待茶，仍复上公座。各房呈递须知，吏房先取到任公文签押，须吏典逐一指点签押，直印吏众开印禀说某字几号铜印一颗，四角俱全，就将所佥公文用印毕，分付同僚及该吏，各将公文、仓库、狱囚、门禁等项钥匙整理文案，逐一交割乃退。",
+   "confidence": 0.85,
+   "analysis": "『先期设坐次→谢恩→参见→签押→开印禀说→交割』完整程序链，『不可坐谕』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-099",
+   "item_id": "03-005",
+   "type": "禁止型+程序型",
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "宴请佐贰首领学官",
+   "subject": "官府（知县）",
+   "prohibited_action": "歌唱喧哗",
+   "prohibited_effect": "失仪",
+   "allowed_action": "",
+   "obligation_action": "以所祭物从俭设席，正官首席坐，佐贰东南学官西南首领官傍坐，属官不与；吏礼房行酒六七行；祭物有余分给父老吏典，问以县中急务",
+   "object": "佐贰首领学官、父老吏典",
+   "purpose": "宴叙得体并问急务",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条5",
+   "original": "佐贰首领及学官，候佥押发放之后，请入后堂，以所祭物从俭设席。正官首席坐，佐贰官、东南学官、西南首领官傍坐，属官不与。吏、礼房行酒六七行，不得歌唱喧哗。祭物有余，分给父老吏典，问以县中急务。",
+   "confidence": 0.85,
+   "analysis": "『不得歌唱喧哗』禁止，『从俭设席、行酒六七行、问急务』为宴序程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-100",
+   "item_id": "03-006",
+   "type": "禁止型+程序型",
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "到任来贺乡官",
+   "subject": "官府（知县）",
+   "prohibited_action": "势豪子弟混入进见",
+   "prohibited_effect": "进见失序",
+   "allowed_action": "",
+   "obligation_action": "值日阴阳生每日用二名，分付见任致仕首领官、寿官、义官及京官子弟会齐，次第报入；免举酒请酒，坐待酒叙话，迎送远近酒，问前官所行再自斟酌",
+   "object": "乡官、阴阳生",
+   "purpose": "来贺次第有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条6",
+   "original": "□□来贺乡官次门上，值日阴阳生每日用二名，俱各分付见任致仕首领官、寿官、义官，及京官子弟会齐，次第报入。免举酒请酒，坐待酒叙话，迎送远近酒，问前官所行，再自斟酌，不许势豪子弟混入进见。",
+   "confidence": 0.85,
+   "analysis": "『次第报入』程序+『不许势豪子弟混入进见』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-101",
+   "item_id": "03-007",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "到任日将散堂",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "狱库封固无虞",
+   "allowed_action": "",
+   "obligation_action": "先分付佐贰首领官同刑房下狱点囚，封监回报；县内拘管人俱要分付停当；封锁仓库门房等项俱要齐备，乃可击鼓散堂",
+   "object": "狱囚、仓库门房",
+   "purpose": "散堂前狱库封固",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条7",
+   "original": "到任日，将散堂，先分付佐贰官首领官同刑房下狱点囚，封监回报。及县内拘管人，俱要分付停当。封锁仓库门房等项，俱要齐备。乃可击鼓散堂。",
+   "confidence": 0.85,
+   "analysis": "『先点囚封监→封锁仓库→乃可击鼓散堂』为散堂程序门。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-102",
+   "item_id": "03-008",
+   "type": "义务型+处罚型",
+   "modals": [
+    "obligation",
+    "penalty"
+   ],
+   "condition": "到任次日查须知事件",
+   "subject": "官府（知县）/司吏",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "将各房所递须知事件取原领须知体式点对，有违误责限依式改正",
+   "object": "须知文册",
+   "purpose": "须知依式",
+   "deadline": "三日后",
+   "punishment": "三日后不改正呈报者即将司吏取问违制，勿听求免",
+   "source": "03_卷下_上任第一.xhtml#条8",
+   "original": "到任次日，将各房所递须知事件，取原领须知体式，点有违误，责限依式改正。三日后不改正，呈报者即将司吏取问违制，勿听求免。",
+   "confidence": 0.9,
+   "analysis": "『责限依式改正』义务+『三日后不改正取问违制』时限处罚，『勿听求免』禁止宽免。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-103",
+   "item_id": "03-009",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "到任次日",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "先问刷过卷案，将通照卷宗抄入交卷小册，次第完结；如有不可完者亦便举行",
+   "object": "卷宗、交卷小册",
+   "purpose": "卷案次第完结",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条9",
+   "original": "到任次日，先问刷过卷案，将通照卷宗抄入交卷小册次第完结，如有不可完者，亦便举行。",
+   "confidence": 0.8,
+   "analysis": "『先问刷过卷案→抄入小册次第完结』为卷案整理程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-104",
+   "item_id": "03-010",
+   "type": "程序型+时限型",
+   "modals": [
+    "procedure",
+    "deadline"
+   ],
+   "condition": "到任次日",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "查取六房勘合卷宗及上司有司催并事件，立限完报",
+   "object": "勘合卷宗",
+   "purpose": "催并事件有期完报",
+   "deadline": "立限",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条10",
+   "original": "到任次日，查取六房勘合卷宗及上司有司催并事件，立限完报。",
+   "confidence": 0.8,
+   "analysis": "『查取……立限完报』为限办程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-105",
+   "item_id": "03-011",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "到任次日下监",
+   "subject": "官府（知县）",
+   "prohibited_action": "拘留寄监者",
+   "prohibited_effect": "冤滞",
+   "allowed_action": "",
+   "obligation_action": "取新旧监历逐项查点，更问有无在外羁候；应释放者即释放，应保领者与保领，应锁押者即锁押；检其床褥，试其扃锁，仍巡视周围墙垣好完始出",
+   "object": "监历、羁候之人",
+   "purpose": "狱囚无冤滞、监固无虞",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条11",
+   "original": "到任次日，下监取新旧监历逐项查点，更问有无在外羁候。如有应释放者即释放，应保领者与保领，应锁押者即锁押。检其床褥，试其扃锁，仍巡视周围墙垣好完始出，若寄监者，不许拘留。",
+   "confidence": 0.88,
+   "analysis": "『查点→释放保领锁押→检褥试锁巡墙』程序，『若寄监者不许拘留』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-106",
+   "item_id": "03-012",
+   "type": "程序型+禁止型",
+   "modals": [
+    "procedure",
+    "prohibit"
+   ],
+   "condition": "交割仓库",
+   "subject": "官府（知县）/佐贰官",
+   "prohibited_action": "信凭领状（放支）",
+   "prohibited_effect": "钱物失实",
+   "allowed_action": "",
+   "obligation_action": "须要佐贰官眼同交盘，仍委官兼管粮，计廒数取斗级执结；金银钱物逐一拆封看验，计号上帐；遇要放支先要取卷查数明白",
+   "object": "仓库钱粮、斗级",
+   "purpose": "交盘确实",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条12",
+   "original": "交割仓库，须要佐贰官眼同交盘，仍委官兼管粮，但计廒数取斗级执结。若金银钱物，逐一拆封看验，计号上帐。遇要放支，先要取卷查数明白，不可信凭领状。",
+   "confidence": 0.9,
+   "analysis": "『须要佐贰官眼同交盘』『拆封看验计号上帐』程序+『不可信凭领状』禁止。",
+   "subject_ent_ids": []
+  },
+  {
+   "rule_id": "XGF-R-107",
+   "item_id": "03-013",
+   "type": "禁止型+程序型",
+   "modals": [
+    "prohibit",
+    "procedure"
+   ],
+   "condition": "到任后新政",
+   "subject": "官府（知县）",
+   "prohibited_action": "急遽苟且（更革禁约）",
+   "prohibited_effect": "政令失当",
+   "allowed_action": "",
+   "obligation_action": "将所行事件且依旧施行，有当革者渐更改；若有禁约宜从□访问而行",
+   "object": "所行事件、禁约",
+   "purpose": "更革平稳",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条13",
+   "original": "将所行事件，且依旧施行，有当革者，渐更改。若有禁约，宜从□访问而行，不可急遽苟且。",
+   "confidence": 0.88,
+   "analysis": "『且依旧施行、渐更改』程序+『不可急遽苟且』禁止。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-108",
+   "item_id": "03-014",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "到任后三日五更行香",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "下学行香，升明伦堂，待诸人参见后，佐贰首领东坐教官西坐，抽签讲书；生员有不到者礼房吏收签；乃回望学官",
+   "object": "生员、教官、礼房吏",
+   "purpose": "学校作兴有序",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条14",
+   "original": "到任后三日五，更下学行香，升明伦堂，待诸人参见后，佐贰首领东坐，教官西坐，抽签讲书。生员有不到者，礼房吏收签□后，其告销日考试不必赏纸等项已，乃回望学官。",
+   "confidence": 0.8,
+   "analysis": "『行香→升堂→抽签讲书→收签』为学政程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-109",
+   "item_id": "03-015",
+   "type": "程序型",
+   "modals": [
+    "procedure"
+   ],
+   "condition": "行香后",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "",
+   "allowed_action": "",
+   "obligation_action": "随处巡视坛宇、养济院及仓库，就回望乡官",
+   "object": "坛宇、养济院、仓库",
+   "purpose": "诸务尽察",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条15",
+   "original": "行香后，随处巡视坛宇、养济院及仓库，就回望乡官。",
+   "confidence": 0.78,
+   "analysis": "『随处巡视坛宇养济院仓库→回望乡官』为到任巡视程序。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  },
+  {
+   "rule_id": "XGF-R-110",
+   "item_id": "03-016",
+   "type": "义务型",
+   "modals": [
+    "obligation"
+   ],
+   "condition": "日常治县",
+   "subject": "官府（知县）",
+   "prohibited_action": "",
+   "prohibited_effect": "一县人户每在目前",
+   "allowed_action": "",
+   "obligation_action": "将概县册图眼滕作一小册置于左右，遇有事故亲自点对；仍要画县地理图一幅，时当俭看",
+   "object": "册图、县地理图",
+   "purpose": "民情在目",
+   "deadline": "",
+   "punishment": "",
+   "source": "03_卷下_上任第一.xhtml#条16",
+   "original": "将概县册图眼，滕作一小册，置于左右。遇有事故，亲自点对。使一县人户每在目前，仍要画县地理图一幅，时当俭看。",
+   "confidence": 0.82,
+   "analysis": "『滕作小册置左右亲自点对』『画县地理图时当俭看』为治县舆图义务。",
+   "subject_ent_ids": [
+    "ENT-396"
+   ]
+  }
+ ]
+}

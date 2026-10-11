@@ -1,0 +1,854 @@
+{
+ "schema_version": "kg-proc-ai-json-v1",
+ "process_version": "proc-ai-v1",
+ "volume": "08",
+ "chapter": "卷下_粮料第六",
+ "source_file": "08_卷下_粮料第六.xhtml",
+ "process_count": 19,
+ "event_count": 19,
+ "events_note": "events 字段为事件层引用（XGF-E 命名空间归事件层维护）",
+ "processes": [
+  {
+   "process_id": "XGF-P-210",
+   "event_type": "征收钱粮",
+   "title": "征收日报催责",
+   "trigger": "征收夏麦秋粮",
+   "timeline": [
+    "每日",
+    "次日"
+   ],
+   "steps": [
+    {
+     "step_id": "08-001-s1",
+     "state": "定收",
+     "action": "须定某都某处收",
+     "agent": "官府",
+     "next": "08-001-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-001-s2",
+     "state": "日报",
+     "action": "每日各粮长将所收过数于本日晚具数报知",
+     "agent": "粮长",
+     "next": "08-001-s3",
+     "agent_ent_ids": [
+      "ENT-141"
+     ]
+    },
+    {
+     "step_id": "08-001-s3",
+     "state": "禀催",
+     "action": "次日户房将已完、未完数禀，以凭催责",
+     "agent": "户房",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-297"
+     ]
+    }
+   ],
+   "next_process": "08-002",
+   "source": "08_卷下_粮料第六.xhtml#条1",
+   "derived_from": [
+    "08-001"
+   ],
+   "confidence": 0.9,
+   "analysis": "征收：定都处→粮长日报→次日户房禀催。",
+   "original": "征收夏麦秋粮，须定某都某处收。每日各粮长将所收过数，日于本日晚具数报知。次日户房将已完、未完数禀，以凭催责。",
+   "derived_rule": "XGF-R-209",
+   "events": [
+    "XGF-E-165"
+   ]
+  },
+  {
+   "process_id": "XGF-P-211",
+   "event_type": "征收钱粮",
+   "title": "粮数分派",
+   "trigger": "分派粮数",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-002-s1",
+     "state": "定撒",
+     "action": "本色、折色须先定都图总撒数目",
+     "agent": "官府",
+     "next": "08-002-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-002-s2",
+     "state": "高下",
+     "action": "当堂量平日熟知都分，高下分派",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-003",
+   "source": "08_卷下_粮料第六.xhtml#条2",
+   "derived_from": [
+    "08-002"
+   ],
+   "confidence": 0.85,
+   "analysis": "粮数分派：先定都图总撒→按熟知高下分派。",
+   "original": "分派粮数本色、折色，须先定都图总撒数目，当堂量平日熟知都分，高下分派。",
+   "derived_rule": "XGF-R-210",
+   "events": [
+    "XGF-E-166"
+   ]
+  },
+  {
+   "process_id": "XGF-P-212",
+   "event_type": "征收钱粮",
+   "title": "寄庄田粮",
+   "trigger": "征收寄庄田粮",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-003-s1",
+     "state": "省谕",
+     "action": "须先省谕该都里长，着人佃户于秋收时除起纳粮数",
+     "agent": "里长/佃户",
+     "next": "08-003-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "08-003-s2",
+     "state": "纳租",
+     "action": "然后纳租",
+     "agent": "佃户",
+     "next": "08-003-s3",
+     "agent_ent_ids": [
+      "ENT-203"
+     ]
+    },
+    {
+     "step_id": "08-003-s3",
+     "state": "强索",
+     "action": "倘有强索即令佃户下年勿与耕种",
+     "agent": "佃户",
+     "next": "08-003-s4",
+     "agent_ent_ids": [
+      "ENT-203"
+     ]
+    },
+    {
+     "step_id": "08-003-s4",
+     "state": "罚佃",
+     "action": "违者止罚佃户，不许移关拘取",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-004",
+   "source": "08_卷下_粮料第六.xhtml#条3",
+   "derived_from": [
+    "08-003"
+   ],
+   "confidence": 0.88,
+   "analysis": "寄庄田粮：省谕→除粮纳租→强索停耕→止罚佃户。",
+   "original": "征收寄庄田粮，须先省谕该都里长，着人佃户于秋收时除起纳粮数，然后纳租。倘有强索，即令佃户下年勿与耕种。违者止罚佃户，不许移关拘取。",
+   "derived_rule": "XGF-R-211",
+   "events": [
+    "XGF-E-167"
+   ]
+  },
+  {
+   "process_id": "XGF-P-213",
+   "event_type": "征收钱粮",
+   "title": "禁揽纳由帖",
+   "trigger": "禁揽纳",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-004-s1",
+     "state": "由帖",
+     "action": "须先出由帖，分散各户自执赴官交纳注销",
+     "agent": "官府/各户",
+     "next": "08-004-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "08-004-s2",
+     "state": "痛治",
+     "action": "如粮里人等有哄吓小户并私家收受，须痛治",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-005",
+   "source": "08_卷下_粮料第六.xhtml#条4",
+   "derived_from": [
+    "08-004"
+   ],
+   "confidence": 0.9,
+   "analysis": "禁揽纳：出由帖自执交纳→哄吓私收痛治。",
+   "original": "禁揽纳，须先出由帖，分散各户自执赴官交纳注销。如粮里人等有哄吓小户，并私家收受，须痛治，亦不□□信小户，愿与附纳。",
+   "derived_rule": "XGF-R-212",
+   "events": [
+    "XGF-E-168"
+   ]
+  },
+  {
+   "process_id": "XGF-P-214",
+   "event_type": "征收钱粮",
+   "title": "征钱粮十票",
+   "trigger": "征钱粮",
+   "timeline": [
+    "十年"
+   ],
+   "steps": [
+    {
+     "step_id": "08-005-s1",
+     "state": "实征",
+     "action": "责令该都书手照依黄册底开写里甲户籍，就作实征",
+     "agent": "书手",
+     "next": "08-005-s2",
+     "agent_ent_ids": [
+      "ENT-020"
+     ]
+    },
+    {
+     "step_id": "08-005-s2",
+     "state": "填数",
+     "action": "不许逐年推故，仍将该催钱粮逐一填写",
+     "agent": "书手",
+     "next": "08-005-s3",
+     "agent_ent_ids": [
+      "ENT-020"
+     ]
+    },
+    {
+     "step_id": "08-005-s3",
+     "state": "印票",
+     "action": "一里十票，印合十年",
+     "agent": "官府",
+     "next": "08-005-s4",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-005-s4",
+     "state": "完缴",
+     "action": "里长亲催完纳，立限注销，完日总缴",
+     "agent": "里长",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-016"
+     ]
+    }
+   ],
+   "next_process": "08-006",
+   "source": "08_卷下_粮料第六.xhtml#条5",
+   "derived_from": [
+    "08-005"
+   ],
+   "confidence": 0.9,
+   "analysis": "征钱粮：黄册实征→填数→十里印票→里长完缴。",
+   "original": "征钱粮，责令该都书手照依黄册底开写里甲户籍，就作实征。不许逐年推故，仍将该催钱粮逐一填写。一里十票，印合十年。里长亲催完纳，立限注销，完日总缴。",
+   "derived_rule": "XGF-R-213",
+   "events": [
+    "XGF-E-169"
+   ]
+  },
+  {
+   "process_id": "XGF-P-215",
+   "event_type": "征收钱粮",
+   "title": "实征纸札",
+   "trigger": "实征",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-006-s1",
+     "state": "记数",
+     "action": "实征该用纸札，先自记数于愿罚免责名下",
+     "agent": "官府",
+     "next": "08-006-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-006-s2",
+     "state": "出备",
+     "action": "量数出备",
+     "agent": "官府",
+     "condition": "不许科派里甲",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-007",
+   "source": "08_卷下_粮料第六.xhtml#条6",
+   "derived_from": [
+    "08-006"
+   ],
+   "confidence": 0.8,
+   "analysis": "实征纸札：记数→量数出备，禁科派。",
+   "original": "实征该用纸札，先自记数于愿罚免责名下。量数出备，不许科派里甲。",
+   "derived_rule": "XGF-R-214",
+   "events": [
+    "XGF-E-170"
+   ]
+  },
+  {
+   "process_id": "XGF-P-216",
+   "event_type": "征收钱粮",
+   "title": "折银均派",
+   "trigger": "折银",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-007-s1",
+     "state": "量派",
+     "action": "折银务须量粮均派，且如某户该本色若干共该折银若干",
+     "agent": "官府",
+     "next": "08-007-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-007-s2",
+     "state": "本色",
+     "action": "止许以派征余下零数悉作本色，至于分派一里亦推此□",
+     "agent": "官府",
+     "condition": "切不得混派，以致多征作弊",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-008",
+   "source": "08_卷下_粮料第六.xhtml#条7",
+   "derived_from": [
+    "08-007"
+   ],
+   "confidence": 0.88,
+   "analysis": "折银均派：量粮均派→零数作本色，禁混派。",
+   "original": "折银务须量粮均派，且如某户该本色若干，共该折银若干。止许以派征余下零数悉作本色，至于分派一里，亦推此□。切不得混派，以致多征作弊。",
+   "derived_rule": "XGF-R-215",
+   "events": [
+    "XGF-E-171"
+   ]
+  },
+  {
+   "process_id": "XGF-P-217",
+   "event_type": "征收钱粮",
+   "title": "拖赖查审",
+   "trigger": "将收粮之时",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-008-s1",
+     "state": "查审",
+     "action": "须先查审上年拖赖侵欠人户，指名告示，使其改过",
+     "agent": "官府",
+     "next": "08-008-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-008-s2",
+     "state": "上纳",
+     "action": "依期上纳",
+     "agent": "拖赖人户",
+     "next": "08-008-s3",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "08-008-s3",
+     "state": "加罪",
+     "action": "如再违期比众加罪",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-009",
+   "source": "08_卷下_粮料第六.xhtml#条8",
+   "derived_from": [
+    "08-008"
+   ],
+   "confidence": 0.88,
+   "analysis": "拖赖查审：查指名告示→依期上纳→再违加罪。",
+   "original": "将收粮之时，须先查审上年拖赖侵欠人户，指名告示，使其改过，依期上纳。如再违期，比众加罪。",
+   "derived_rule": "XGF-R-216",
+   "events": [
+    "XGF-E-172"
+   ]
+  },
+  {
+   "process_id": "XGF-P-218",
+   "event_type": "征收钱粮",
+   "title": "无征粮均派",
+   "trigger": "派无征粮",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-009-s1",
+     "state": "均派",
+     "action": "先尽本里田多人户，次及一里，次及一都内田多之人，验田均派",
+     "agent": "官府",
+     "next": "08-009-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-009-s2",
+     "state": "豁免",
+     "action": "凡田户不及十亩者亦不可派于升合，有能自行清出告鸣者即与分豁",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-010",
+   "source": "08_卷下_粮料第六.xhtml#条9",
+   "derived_from": [
+    "08-009"
+   ],
+   "confidence": 0.88,
+   "analysis": "无征粮：田多者先派→田户十亩下豁免。",
+   "original": "派无征粮，先尽本里田多人户次，及一里次，及一都内田多之人，验田均派。凡田户不及十亩者，亦不可派于升合，有能自行清出告鸣者，即与分豁。",
+   "derived_rule": "XGF-R-217",
+   "events": [
+    "XGF-E-173"
+   ]
+  },
+  {
+   "process_id": "XGF-P-219",
+   "event_type": "征收钱粮",
+   "title": "白粮坐派",
+   "trigger": "白粮",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-010-s1",
+     "state": "并征",
+     "action": "白粮不可先派，另催项造粮一并征派",
+     "agent": "官府",
+     "next": "08-010-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-010-s2",
+     "state": "坐派",
+     "action": "每造粮二石坐派白粮一斗，粮不及二石者止可派与一升",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-011",
+   "source": "08_卷下_粮料第六.xhtml#条10",
+   "derived_from": [
+    "08-010"
+   ],
+   "confidence": 0.88,
+   "analysis": "白粮：并造粮征派→按比例坐派。",
+   "original": "白粮不可先派，另催项造粮，一并征派。每造粮二石，坐派白粮一斗，粮不及二石者止可派与一升。",
+   "derived_rule": "XGF-R-218",
+   "events": [
+    "XGF-E-174"
+   ]
+  },
+  {
+   "process_id": "XGF-P-220",
+   "event_type": "征收钱粮",
+   "title": "余米并催",
+   "trigger": "存留等项余米",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-011-s1",
+     "state": "并催",
+     "action": "存留等项余米须于征收京通之时一齐催完",
+     "agent": "官府",
+     "condition": "不可先后分征，以致彼此推延侵欺",
+     "next": "08-011-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-011-s2",
+     "state": "并算",
+     "action": "县仓学仓通关及折银抛荒俱要并算，慎缴勘合",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-012",
+   "source": "08_卷下_粮料第六.xhtml#条11",
+   "derived_from": [
+    "08-011"
+   ],
+   "confidence": 0.88,
+   "analysis": "余米并催：与京通齐催→仓关折银并算缴勘合。",
+   "original": "存留等项余米，须于征收京通之时一齐催完，不可先后分征，以致彼此推延侵欺。其县仓学、仓通关及折银抛荒，俱要并算，慎缴勘合。",
+   "derived_rule": "XGF-R-219",
+   "events": [
+    "XGF-E-175"
+   ]
+  },
+  {
+   "process_id": "XGF-P-221",
+   "event_type": "征收钱粮",
+   "title": "粮折先后",
+   "trigger": "征完粮料",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-012-s1",
+     "state": "先后",
+     "action": "征完粮料方收折银",
+     "agent": "官府",
+     "condition": "不可一时追并，亦不可责令粮里陪纳应数",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-013",
+   "source": "08_卷下_粮料第六.xhtml#条12",
+   "derived_from": [
+    "08-012"
+   ],
+   "confidence": 0.85,
+   "analysis": "粮折先后：粮完后方收折银。",
+   "original": "征完粮料，方收折银，不可一时追并，亦不可责令粮里陪纳应数。",
+   "derived_rule": "XGF-R-220",
+   "events": [
+    "XGF-E-176"
+   ]
+  },
+  {
+   "process_id": "XGF-P-222",
+   "event_type": "征收钱粮",
+   "title": "斗斛较勘",
+   "trigger": "斗斛",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-013-s1",
+     "state": "较勘",
+     "action": "斗斛须先较勘印，略用铁裹四角",
+     "agent": "官府",
+     "next": "08-013-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-013-s2",
+     "state": "辨诬",
+     "action": "如有破损来告必是，粮长装诬不可责及纳户",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-014",
+   "source": "08_卷下_粮料第六.xhtml#条13",
+   "derived_from": [
+    "08-013"
+   ],
+   "confidence": 0.88,
+   "analysis": "斗斛较勘：先较勘铁裹→破损辨诬不责纳户。",
+   "original": "斗斛须先较勘印，略用铁裹四角，如有破损，来告必是，粮长装诬不可责及纳户。",
+   "derived_rule": "XGF-R-221",
+   "events": [
+    "XGF-E-177"
+   ]
+  },
+  {
+   "process_id": "XGF-P-223",
+   "event_type": "征收钱粮",
+   "title": "征粮立限",
+   "trigger": "征粮",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-014-s1",
+     "state": "告示",
+     "action": "先期多出告示，省令纳户办备",
+     "agent": "官府",
+     "condition": "不可先期报完及空文起解，以致欺上罔下害人损己",
+     "next": "08-014-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-014-s2",
+     "state": "立限",
+     "action": "立限征解",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-015",
+   "source": "08_卷下_粮料第六.xhtml#条14",
+   "derived_from": [
+    "08-014"
+   ],
+   "confidence": 0.88,
+   "analysis": "征粮立限：告示办备→立限征解，禁空文起解。",
+   "original": "征粮不可先期报完，及空文起解，以致欺上罔下、害人损己，先期多出告示，省令纳户办备，立限征解。",
+   "derived_rule": "XGF-R-222",
+   "events": [
+    "XGF-E-178"
+   ]
+  },
+  {
+   "process_id": "XGF-P-224",
+   "event_type": "征收钱粮",
+   "title": "粮价收头火耗",
+   "trigger": "征收各项粮价",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-015-s1",
+     "state": "择头",
+     "action": "择立良善殷实收头，量价纳多寡难易",
+     "agent": "官府",
+     "next": "08-015-s2",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-015-s2",
+     "state": "加耗",
+     "action": "加增起解火耗，亦须计其所费多寡以增减之",
+     "agent": "官府",
+     "next": "08-015-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-015-s3",
+     "state": "公用",
+     "action": "如有扣下火耗留作公堂响馈送等项，公用重者当全给",
+     "agent": "官府",
+     "condition": "不可扣留分耗",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-016",
+   "source": "08_卷下_粮料第六.xhtml#条15",
+   "derived_from": [
+    "08-015"
+   ],
+   "confidence": 0.88,
+   "analysis": "粮价收头：择殷实收头→加火耗→公用全给禁扣留。",
+   "original": "征收各项粮价，择立良善殷实收头，量价纳多寡难易，加增起解火耗。亦须计其所费多寡以增减之，如有扣下火耗留作公堂响馈送等项，公用重者当全给，不可扣留分耗。",
+   "derived_rule": "XGF-R-223",
+   "events": [
+    "XGF-E-179"
+   ]
+  },
+  {
+   "process_id": "XGF-P-225",
+   "event_type": "征收钱粮",
+   "title": "折银收秤入库",
+   "trigger": "收价折银",
+   "timeline": [
+    "当日",
+    "次日早"
+   ],
+   "steps": [
+    {
+     "step_id": "08-016-s1",
+     "state": "贴示",
+     "action": "须写收头名字，下注某都起至某都止，廊下贴示晓谕，就征秤",
+     "agent": "官府/收头",
+     "next": "08-016-s2",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "08-016-s2",
+     "state": "口禀",
+     "action": "如有刁蹬即许口禀；仍将秤实时查较轻重",
+     "agent": "官府",
+     "next": "08-016-s3",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    },
+    {
+     "step_id": "08-016-s3",
+     "state": "封库",
+     "action": "时将银封记入库",
+     "agent": "库子",
+     "next": "08-016-s4",
+     "agent_ent_ids": []
+    },
+    {
+     "step_id": "08-016-s4",
+     "state": "报数",
+     "action": "次日早库子报已收总数，收头亦报未收总数",
+     "agent": "库子/收头",
+     "next": "END",
+     "agent_ent_ids": []
+    }
+   ],
+   "next_process": "08-017",
+   "source": "08_卷下_粮料第六.xhtml#条16",
+   "derived_from": [
+    "08-016"
+   ],
+   "confidence": 0.9,
+   "analysis": "折银收秤：贴示→征秤→查较→封库→次日双报数。",
+   "original": "凡收价折银字项，须写收头名字，下注某都起，至某都止，廊下贴示晓谕，就征秤。如有刁蹬，即许口禀。仍将秤实时查较轻重，时将银封记入库，次日早库子报已收总数，收头亦报未收总数。",
+   "derived_rule": "XGF-R-224",
+   "events": [
+    "XGF-E-180"
+   ]
+  },
+  {
+   "process_id": "XGF-P-226",
+   "event_type": "征收钱粮",
+   "title": "非常物料申禀",
+   "trigger": "非常物料到县",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-017-s1",
+     "state": "申禀",
+     "action": "凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下须，密切申禀",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-018",
+   "source": "08_卷下_粮料第六.xhtml#条17",
+   "derived_from": [
+    "08-017"
+   ],
+   "confidence": 0.8,
+   "analysis": "非常物料：防奸猾收纳→密切申禀。",
+   "original": "凡遇不系常年常办物料到县，多是奸猾贪图收纳，计令上司分派下须，密切申禀。",
+   "derived_rule": "XGF-R-225",
+   "events": [
+    "XGF-E-181"
+   ]
+  },
+  {
+   "process_id": "XGF-P-227",
+   "event_type": "征收钱粮",
+   "title": "解粮宽费",
+   "trigger": "解粮料",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-018-s1",
+     "state": "宽费",
+     "action": "解粮料须宽与文费，宁使两余",
+     "agent": "官府",
+     "condition": "勿与追筭索取",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "08-019",
+   "source": "08_卷下_粮料第六.xhtml#条18",
+   "derived_from": [
+    "08-018"
+   ],
+   "confidence": 0.88,
+   "analysis": "解粮：宽与文费宁使两余，禁追筭索取。",
+   "original": "解粮料须宽与文费，宁使两余，勿与追筭索取。",
+   "derived_rule": "XGF-R-226",
+   "events": [
+    "XGF-E-182"
+   ]
+  },
+  {
+   "process_id": "XGF-P-228",
+   "event_type": "征收钱粮",
+   "title": "失水换易",
+   "trigger": "户所纳粮米失水",
+   "timeline": [],
+   "steps": [
+    {
+     "step_id": "08-019-s1",
+     "state": "告验",
+     "action": "户所纳粮米倘有失水等项，许告验实",
+     "agent": "纳户",
+     "next": "08-019-s2",
+     "agent_ent_ids": [
+      "ENT-317"
+     ]
+    },
+    {
+     "step_id": "08-019-s2",
+     "state": "换易",
+     "action": "即与处置换易，或别行申诉",
+     "agent": "官府",
+     "next": "END",
+     "agent_ent_ids": [
+      "ENT-396"
+     ]
+    }
+   ],
+   "next_process": "",
+   "source": "08_卷下_粮料第六.xhtml#条19",
+   "derived_from": [
+    "08-019"
+   ],
+   "confidence": 0.85,
+   "analysis": "失水粮米：告验实→换易或申诉。",
+   "original": "户所纳粮米，倘有失水等项，许告验实，即与处置换易，或别行申诉。",
+   "derived_rule": "XGF-R-227",
+   "events": [
+    "XGF-E-183"
+   ]
+  }
+ ]
+}
