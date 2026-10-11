@@ -107,7 +107,8 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 **运行时必用**（走五阶段/增量时按阶段读取）：
 
 - `references/layer-library.md`：**层库（引导参考板）**——底座+5层+索引/治理组件模板 + 自定义层注册指南（Phase ② 必用）。
-- `references/enum-library.md`：**通用枚举基准库（权威源）**——四实例合并全部枚举基准值，**含事件类型子库 §1.3**（原独立 event-type-library.md 已并入，23 顶层 + 43 子类型明细）；实例化时按启用层拉取快照（Phase ③ 枚举快照来源）。
+- `references/enum-library.md`：**通用枚举基准库（权威源）**——五实例合并全部枚举基准值，只存当前生效的规范值（含别名 + 使用说明 + 归并映射），**不存历史**；**含事件类型子库 §1.3**（原独立 event-type-library.md 已并入，27 顶层 + 43 子类型明细）；实例化时按启用层拉取快照（Phase ③ 枚举快照来源）。
+- `references/enum-changelog.md`：**枚举库变更记录**——v1~v4 版本历史、各书原枚举快照（溯源）、实测证据、归并理由与待办（只增不改）。**入库必须双写**：改 enum-library + 在此追加版本条目，缺一即为野分支。
 - `assets/templates/book_skill_template.md`：**书实例 skill 的 SKILL.md 母版**（Phase ③ 必用，含引导式反思记录节）。
 - `references/checklists.md`：工厂阶段（定向/反思/实例化/试点/交付回写）+ 增量升级 + 实例执行阶段检查单。
 - `references/registry.md`：**实例台账**——全部书实例的状态/方案/增量/源文件指针索引（Phase ③⑤ 与增量升级后必更新）。
@@ -118,7 +119,7 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 - `references/methodology.md`：方法论——工厂与实例关系、结构性探查方法、引导式反思原则、10 条操作原则（理解"为什么"时读）。
 - `references/schemas.md`：通用 schema 规范——ID 命名空间、枚举治理、original 注入（实例化选择层模板时对照）。
 - `references/pitfalls.md`：坑库——把工厂当执行器/重复读取/覆盖回归/ID 撞号/枚举漂移/增量漂移等真实踩坑；出问题时先查。
-- `references/enum-induction-guide.md`：**枚举归纳方法论**——基准值+新书归纳 7 步流程、新增/归并判定标准、树状结构设计（执行期枚举校准前读）。
+- `references/enum-induction-guide.md`：**枚举归纳方法论**——基准值+新书归纳 7 步流程、新增/归并判定标准、树状结构设计、操作清单（执行期枚举校准前读）。只讲方法，不含具体值。
 - `references/pending-review.md`：**待评审提案区**——学习回路的候选新层/新坑/新枚举先进这里，评审合并后入各库。
 - `references/case-feedback-shuidong-riji.md`：**《水东日记》全量实例反馈**——38 卷 × 8 层执行完成后的设计回顾、11 项问题与根因、可修正项分级（P0/P1/P2）（实例化新书时参考，避免同类坑）。
 - `assets/templates/usage_report_template.md`、`project_summary_template.md`：报告母版（实例化时复制进实例）。

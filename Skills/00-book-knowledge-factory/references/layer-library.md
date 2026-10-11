@@ -180,7 +180,7 @@
 - **定义**：枚举值随实例执行动态校准的标准流程，替代"报错终止"。
 - **流程**：① 实例先跑，打包器收集未匹配值（不终止，入 pending 表）；② 每卷/每片结束输出枚举使用分布；③ 批处理决议（新增/归并/改名，新增值必须有实例证据）；④ registerVersion+1；⑤ 回溯存量（旧值→新值映射，逐条 dry-run 再 commit）；⑥ 更新快照。
 - **配套**：动态回填工具（按映射批量改、dry-run 预览、commit 留痕）；枚举值补"使用说明"（语义+正反例）减少同名不同义误用。
-- **升级（v8，2026-10-10 用户决策）**：枚举从"每本书封闭归纳"改为"**基准值 + 新书归纳 + 树状管理**"——基准值继承 `references/enum-library.md`（权威源，树状注册表），归纳流程与树状设计见 `references/enum-induction-guide.md`；值多时按树组织（顶层大类封闭 → 子类 → 叶子，深度 ≤3，父类计数=子类求和）；事件类型明细见 `references/enum-library.md` §1.3。
+- **升级（v8，2026-10-10 用户决策）**：枚举从"每本书封闭归纳"改为"**基准值 + 新书归纳 + 树状管理**"——基准值继承 `references/enum-library.md`（权威源，树状注册表，只存当前生效值），变更历史与证据见 `references/enum-changelog.md`，归纳流程与树状设计见 `references/enum-induction-guide.md`；值多时按树组织（顶层大类封闭 → 子类 → 叶子，深度 ≤3，父类计数=子类求和）；事件类型明细见 `references/enum-library.md` §1.3。
 - **参考来源**：《水东日记》实例（LIT 增"集"/EVENT 增"军政司法边政"/REG 增"祭祀"/APPT_STATUS 增"起复世袭举荐"均待 registerVersion 回溯；执行期 5 次中断的教训）。
 
 ## 自定义层注册（v6，源自《五杂俎》实例 wuzazu-knowledge）
