@@ -10,6 +10,12 @@
 > **铁律不变**：零第三方依赖（仅 `sqlite3`、`json`、`re`、`os`、`argparse`）；
 > 复合主键 `(book_id, …)` 隔离撞号；原文只存指针；Tier1/2 全部可重建、不入 git；联邦只读六书、绝不回写。
 
+> **落地进度（2026-10-11）**：F0-a（撞号体检）与 F1（先进遗风单书试点）**已完成并实证**。
+> - `tools/kb-federation/` 已落地可跑：`kbdb.py` / `adapters/{__init__,base,layers_adapter}.py` / `extract.py` / `load.py` / `collision.py` / `federation.py`，均为零第三方依赖。
+> - 撞号体检复现设计数字：总 ID **14302** / 跨书撞号 **2847**（占 19.9%）/ ENT **2448**（详见 §2）。
+> - F1 实证：先进遗风 `items=100`、`records=19`（ent9/appt2/rel1/event2/opn1/trl4）、复合主键零重复、重跑幂等（再 load 总数不变）。
+> - **数据特征修正（已实现）**：先进遗风 ent 层无显式 `id`，且同一 `item_id` 在同层内重复（同一条目提到多实体，如 `01-039` 含王守仁/刑部/提牢厅）。故无 `id` 的层，local_id 取 `item_id#层内序号`，保证 `(book_id,layer_key,local_id)` 唯一且重跑稳定。
+
 ---
 
 ## 0. 程序骨架（先定目录与模块，再写逻辑）
@@ -117,7 +123,7 @@ def wipe_book(con, book_id):   # 清 books/layer_catalog/items/records + 关联 
 
 ## 2. F0 前置基建与体检（回本第一块）
 
-### F0-a 撞号体检 `collision.py`
+### F0-a 撞号体检 `collision.py` ✅ 已实现并实证
 
 **目标**：把「14302 个 ID 中 2847 个跨书撞号」固化为可重复脚本，作为 E 阶段前置断言——
 撞号必须被复合主键消解，否则程序在 load 前就报错（而不是静默污染，对应 #27 反制）。
@@ -153,7 +159,7 @@ def check_collision(roots) -> CollisionReport:
 
 ---
 
-## 3. F1 单书 loader 试点（先进遗风，最小最规整）
+## 3. F1 单书 loader 试点（先进遗风，最小最规整）✅ 已实现并实证
 
 > 选先进遗风：它只有 76 条、`fingerprints+layers` 形态最新、无历史包袱，最适合先证明「六本书能安全躺在同一个库」。
 
@@ -184,11 +190,14 @@ def load_book(con, book_id, *, wipe_first=True) -> LoadReport:
     load_records(con, book_id, slices)
 ```
 
-**验收**（关键）：
-- 先进遗风 76 条 items + 各层 records 全部入库，`records` 行数 = 原 join 各层之和。
-- `items` 只存 `fingerprint_ref` 指针，**不含正文大段**（抽查 payload 比对原 `_item_registry`）。
-- 复合主键工作：`SELECT count(*) FROM records WHERE book_id='xyf'` 与单书计数一致，`xyf:ENT-001` 与 `kzz:ENT-001` 互不干扰。
-- 重跑幂等：第二次 load 后总数不变（`wipe_first=True` 先删后插）。
+**验收**（关键，均已实测通过）：
+- 先进遗风 **items=100**（= `fingerprints` 数）+ **records=19**（= ent9/appt2/rel1/event2/opn1/trl4 之和）。
+- `items` 只存 `fingerprint_ref` 指针 + 前 50 字 title 摘要，**不含正文大段**。
+- 复合主键工作：`records` 按 `(book_id,layer_key,local_id)` 零重复；`xyf:01-039#0`（王守仁）与 `kzz:ENT-001` 互不干扰。
+- 重跑幂等：第二次 load（`wipe_first=True` 先删后插）后总数不变。
+
+> **local_id 约定**（已落地）：层记录有显式 `id`（rel/event）即用 `id`；无 `id` 的层（ent/appt/opn/trl）用 `item_id#层内序号`。
+> 理由：先进遗风 ent 层同 `item_id` 在同层内重复（同条目多实体），纯 `item_id` 会触发 `INSERT OR REPLACE` 折叠丢失记录。
 
 ---
 

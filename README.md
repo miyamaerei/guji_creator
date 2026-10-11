@@ -304,6 +304,19 @@ python server.py enum --group EVENT    # 某组枚举：顶层值 + 子类值 + 
 > **新书怎么起步**：见 `docs/新书开工流程.md`——把「工厂五阶段 → 四段式管线 → 格式契约」
 > 串成一条动线，含命令序列与逐步自检清单。
 
+### 6.6.3 `tools/kb-federation/` —— 联邦线，跨书合并成统一库（F0-a + F1 已完成）
+
+把六本书的产物合并进一个 SQLite（零依赖）联邦库：复合主键 `(book_id, …)` 隔离撞号、
+所有层统一落 `records` 表、原文只存指针、Tier1/2 全部可重建（库文件 `kb.sqlite` 不入库）。
+
+- **F0-a 撞号体检已实证**：总 ID 14302 / 跨书撞号 2847（ENT 2448 为主）——正是复合主键隔离要解决的硬约束。
+- **F1 先进遗风单书试点已实证**：`items=100`、`records=19`（ent9/appt2/rel1/event2/opn1/trl4）、零主键重复、重跑幂等。
+- 用法：`python tools/kb-federation/federation.py create|collision|extract|load --book xyf`
+- 设计：详见 `docs/跨书合并方案.md` / `docs/跨书合并-ELT设计.md` / `docs/跨书合并-数据库设计.md` / `docs/跨书合并-ELT实现步骤.md`。
+
+> **三线条关系**：存量线（`kb-mcp`）治已交付书的体检、契约线（`book-mcp`）管新书格式、联邦线（`kb-federation`）
+> 消费六书产物做跨书合并——三条互不修改，联邦线只读六书、绝不回写。
+
 ---
 
 ## 7. 环境要求与源文本放置
