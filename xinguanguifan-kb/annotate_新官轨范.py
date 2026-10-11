@@ -8,7 +8,7 @@
 """
 import os, re, json, html as htmllib, glob
 
-OUT_DIR = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat"
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))  # 项目根：脚本自身位置推导
 CH_DIR = os.path.join(OUT_DIR, "新官轨范_章节")
 ANN_DIR = os.path.join(OUT_DIR, "新官轨范_标注")
 PRE_FILE = os.path.join(OUT_DIR, "新官轨范_预处理_分词.txt")

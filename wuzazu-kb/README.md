@@ -20,7 +20,7 @@
 ```
 wuzazu/
 ├─ 源文本（外部，可用环境变量覆盖）
-│   C:\Users\Administrator\Downloads\五杂俎.txt        # WZZ_TXT 可覆盖
+│   _source/五杂俎.txt                # 默认位置；环境变量 WZZ_TXT 可覆盖
 │
 ├─ 底座与引擎（公共代码）
 │   _kg_pack_base.py      公共基座：路径/常量/IO/词形归一/源数据装载/ID 分配/CLI

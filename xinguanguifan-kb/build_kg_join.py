@@ -7,7 +7,7 @@
 """
 import os, re, json, glob
 
-BASE = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat"
+BASE = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
 OUT = os.path.join(BASE, "_kg_join.json")
 
 REG = json.load(open(os.path.join(BASE, "_item_registry.json"), encoding="utf-8"))

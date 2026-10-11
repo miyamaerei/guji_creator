@@ -3,8 +3,9 @@
 口径：original=去√后的逐字原文（保留标点/缺字□/异体）；norm=去空白版（供比对）。"""
 import os, re, json, html as htmllib
 
-CH_DIR = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\新官轨范_章节"
-OUT = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\_item_registry.json"
+ROOT = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
+CH_DIR = os.path.join(ROOT, "新官轨范_章节")
+OUT = os.path.join(ROOT, "_item_registry.json")
 
 def norm(s):
     return re.sub(r"\s+", "", s)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json, io, sys, os
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-BASE = r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat'
+BASE = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
 def load(rel):
     return json.load(open(os.path.join(BASE, rel), encoding='utf-8'))
 r = load(r'新官轨范_规则_ai\归一_汇总.json')['rules']
@@ -33,4 +33,4 @@ out.append('STRUCT 维度数量: %s' % secs)
 # join 结构
 j = load(r'_kg_join.json')['entries'][0]
 out.append('JOIN[0] keys: %s' % sorted(j.keys()))
-open(r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\_check_fields.txt', 'w', encoding='utf-8').write('\n'.join(out))
+open(os.path.join(BASE, '_check_fields.txt'), 'w', encoding='utf-8').write('\n'.join(out))

@@ -7,7 +7,7 @@
 """
 import os, re, json, glob, shutil, html as htmllib
 
-BASE = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat"
+BASE = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
 RD = os.path.join(BASE, "新官轨范_阅读器")
 CH_DIR = os.path.join(BASE, "新官轨范_章节")
 ANN_DIR = os.path.join(BASE, "新官轨范_标注")

@@ -140,13 +140,24 @@
 
 ---
 
-## 6. 环境要求
+## 6. 环境要求与源文本放置
 
 - Python **3.12+**（五书均只用标准库，无第三方依赖，无需 `pip install`）
-- 源文本通过脚本内常量或环境变量指向，例如：
-  - `KZZ_SRC` → 《客座赘语》源目录
-  - `WZZ_TXT` → 《五杂俎》源 txt
-  具体常量见各目录 `_kg_pack_base.py` / `common.py` 顶部。
+- **所有路径都是相对的**：脚本用 `os.path.dirname(os.path.abspath(__file__))` 自行推导项目根，
+  整个目录拷到任何机器、任何盘符都能直接跑，不需要改代码。
+
+原书正文不入库（体积大且涉整理者署名与版权）。放在各项目根目录的 `_source/` 下即可被自动找到：
+
+| 项目 | 放到 `_source/` 的文件 | 覆盖用环境变量 |
+| --- | --- | --- |
+| `kezuozhuiyu-kb/` | `客座赘语_txt/`（10 卷分卷 txt） | `KZZ_SRC` |
+| `wuzazu-kb/` | `五杂俎.txt` | `WZZ_TXT` |
+| `shuidongriji-kb/` | `水东日记.txt` | `SDR_TXT` |
+| `xinguanguifan-kb/` | `新官轨范.txt` | `XGG_TXT` |
+| `qubian_kb/` | `蘧编_结构化.json` | `QB_SRC` |
+
+优先级：**环境变量 > `_source/` 默认位置**。想放在别处就设环境变量，脚本逻辑不用动。
+各 `_source/README.md` 里有逐步说明。
 
 ---
 
@@ -162,6 +173,7 @@
 | `skill/`、`samples/`、`references/` | `__pycache__/`、`*.pyc` |
 | `_deliver/` 里的报告与 CSV | `*.zip`、`*_global_layers/`、`*.epub`、阅读器 `raw/` |
 | `新官轨范_阅读器/*.html`、`data.js` | `_tmp*/`、`_backup*/`、`_shots/`、`.dumate/` |
+| `_source/README.md`（放置说明） | `_source/` 里的原书正文与源数据 |
 
 > 原始体积约 275 MB，按上表裁剪后入库约 **31 MB / 1105 个文件**。
 
@@ -169,6 +181,6 @@
 
 ## 8. 已知待办
 
-- **硬编码本机路径**：部分脚本与文档写死了 `C:\Users\Administrator\...` 的源文本路径（如 `wuzazu-kb/README.md`、`xinguanguifan-kb/build_reader_data.py`、`qubian_kb/build_base.py` 等）。换机器时会失效，建议后续统一改为环境变量优先 + 相对路径兜底。
+- ~~**硬编码本机路径**~~ ✅ 已解决：全部脚本改为由 `__file__` 推导项目根，源文本走 `_source/` + 环境变量。
 - **层命名未统一**：同为职官层，有的叫 `appt`、有的在 `data/appt/`；交付目录有 `_deliver/` 与 `交付物/` 两种写法。后续可考虑抽一层公共包。
 - **《水东日记》剩余 36 卷**待按 S1–S4 分片装填。

@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-import json, io, sys, glob, re, html as h
+import os, json, io, sys, glob, re, html as h
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-CH = r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\新官轨范_章节'
-ANN = r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\新官轨范_标注'
+ROOT = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
+CH = os.path.join(ROOT, '新官轨范_章节')
+ANN = os.path.join(ROOT, '新官轨范_标注')
 texts = {}
 for fp in sorted(glob.glob(CH + '\\*.xhtml')):
     no = fp.split('\\')[-1][:2]
@@ -26,5 +27,5 @@ for f in sorted(glob.glob(ANN + '\\*.json')):
             out.append('交割实体: iid=%s s=%s e=%s textlen=%s type=%s' % (iid, e['start'], e['end'], L, e['type']))
             out.append('条目文本: ' + texts.get(iid, '<空>')[:120])
             out.append('---')
-open(r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\_check_jiaoge_out.txt', 'w', encoding='utf-8').write('\n'.join(out))
+open(os.path.join(ROOT, '_check_jiaoge_out.txt'), 'w', encoding='utf-8').write('\n'.join(out))
 print('done')

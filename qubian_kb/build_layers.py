@@ -6,7 +6,7 @@ ID 段位：卷 NN 基础 = NN*500；每卷每层独立从 1 编起 → 前缀+(
 """
 import json, os, re, sys
 
-KB = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-10\new-chat-7\qubian_kb"
+KB = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
 VOLUMES = [f"{i:02d}" for i in range(1, 21)]
 LAYERS = ["ents", "appts", "evts", "rels", "lits", "mems", "chrs", "trls"]
 PREFIX = {"ents": "ENT-", "appts": "APPT-", "evts": "EVT-", "rels": "REL-",

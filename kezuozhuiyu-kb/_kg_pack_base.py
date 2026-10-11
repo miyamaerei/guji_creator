@@ -33,7 +33,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-DEFAULT_SRC = r"C:\Users\Administrator\.qianfan\workspace\sessions\5c7aeec1c4044e68bb49a4541b18ed5b\2026-10-10\new-chat-2\客座赘语_txt"
+# 源文本目录：优先环境变量 KZZ_SRC；未设置时默认取 <项目根>/_source/客座赘语_txt
+# （原书正文不入库：把分卷 txt 放到 _source/ 下，或用 KZZ_SRC 指向任意位置）
+DEFAULT_SRC = str(ROOT / "_source" / "客座赘语_txt")
 SOURCE_DIR = Path(os.environ.get("KZZ_SRC", DEFAULT_SRC))
 
 EXTRACT_DIR = ROOT / "_extract"

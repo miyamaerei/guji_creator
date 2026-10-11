@@ -11,8 +11,10 @@ import re
 import sys
 import csv
 
-SRC = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-10\new-chat-6\蘧编_结构化.json"
-OUT_DIR = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-10\new-chat-7\qubian_kb"
+ROOT = os.path.dirname(os.path.abspath(__file__))   # 项目根：脚本自身位置推导
+# 源数据：优先环境变量 QB_SRC；未设置时默认取 <项目根>/_source/蘧编_结构化.json
+SRC = os.environ.get("QB_SRC") or os.path.join(ROOT, "_source", "蘧编_结构化.json")
+OUT_DIR = os.environ.get("QB_OUT") or ROOT
 
 # ---- 章号映射：JSON 章标题 → 卷号 ----
 VOLUME_RE = re.compile(r"^卷(.+)$")   # 01-20

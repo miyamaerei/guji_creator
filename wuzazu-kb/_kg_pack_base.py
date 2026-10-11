@@ -34,7 +34,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-SOURCE_TXT = Path(os.environ.get("WZZ_TXT", r"C:\Users\Administrator\Downloads\五杂俎.txt"))
+# 源文本：优先环境变量 WZZ_TXT；未设置时默认取 <项目根>/_source/五杂俎.txt
+SOURCE_TXT = Path(os.environ.get("WZZ_TXT") or (ROOT / "_source" / "五杂俎.txt"))
 EXTRACT_DIR = ROOT / "_extract"
 REGISTRY_PATH = ROOT / "_item_registry.json"
 

@@ -6,8 +6,9 @@
 """
 import os, re, uuid, zipfile, html as htmllib
 
-SRC = r"C:\Users\Administrator\Downloads\新官轨范.txt"
-OUT_DIR = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat"
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))  # 项目根：脚本自身位置推导
+# 源文本：优先环境变量 XGG_TXT；未设置时默认取 <项目根>/_source/新官轨范.txt
+SRC = os.environ.get("XGG_TXT") or os.path.join(OUT_DIR, "_source", "新官轨范.txt")
 CH_DIR = os.path.join(OUT_DIR, "新官轨范_章节")
 EPUB_PATH = os.path.join(OUT_DIR, "新官轨范.epub")
 TOC_MD_PATH = os.path.join(OUT_DIR, "新官轨范_目录.md")

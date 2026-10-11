@@ -4,7 +4,7 @@ import json
 import os
 import re
 
-OUT_DIR = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-10\new-chat-7\qubian_kb"
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))  # 项目根：脚本自身位置推导
 REPORT = os.path.join(OUT_DIR, "base_验证缺漏清单.txt")
 errors = []
 warns = []

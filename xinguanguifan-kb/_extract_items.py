@@ -2,7 +2,7 @@
 """提取 02-11 卷 XHTML 条目文本为干净 TXT（供 AI 逐条分析）"""
 import os, re, html as h
 
-OUT = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat"
+OUT = os.path.dirname(os.path.abspath(__file__))      # 项目根：脚本自身位置推导
 CH = os.path.join(OUT, "新官轨范_章节")
 EX = os.path.join(OUT, "_extract")
 os.makedirs(EX, exist_ok=True)

@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import os, json, io, sys, glob, re, html as h
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-CH = r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\新官轨范_章节'
-ANN = r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\新官轨范_标注'
+ROOT = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
+CH = os.path.join(ROOT, '新官轨范_章节')
+ANN = os.path.join(ROOT, '新官轨范_标注')
 texts = {}
 for fp in sorted(glob.glob(os.path.join(CH, '*.xhtml'))):
     no = os.path.basename(fp)[:2]
@@ -32,4 +33,4 @@ for f in sorted(glob.glob(os.path.join(ANN, '*.json'))):
 out.append('bad count: %d' % len(bad))
 for b in bad[:30]:
     out.append(str(b))
-open(r'C:\Users\Administrator\DoubaoWork\chats\2026-10-09\new-chat\_check_ent_bounds2.txt', 'w', encoding='utf-8').write('\n'.join(out))
+open(os.path.join(ROOT, '_check_ent_bounds2.txt'), 'w', encoding='utf-8').write('\n'.join(out))

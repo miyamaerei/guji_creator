@@ -9,12 +9,14 @@
 import ast
 import io
 import json
+import os
 import re
 import sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-ROOT = "C:/Users/Administrator/.qianfan/workspace/sessions/5c7aeec1c4044e68bb49a4541b18ed5b/2026-10-10/new-chat-4/kezuozhuiyu"
+# 项目根：由脚本自身位置推导（本文件在 <项目根>/_global/ 下），整体搬移无需改路径
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = ROOT + "/_src"
 DRY = "--dry-run" in sys.argv
 

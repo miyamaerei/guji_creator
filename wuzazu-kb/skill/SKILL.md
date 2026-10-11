@@ -76,7 +76,7 @@ description: 《五杂俎》（明・谢肇淛）知识工程实例 skill—— 
 
 
 
-1. 输入文件：`C:\Users\Administrator\Downloads\五杂俎.txt`（用户提供 txt，直接拆分，无转码 / OCR）
+1. 输入文件：`_source/五杂俎.txt`（项目根下的 `_source/` 目录；也可用环境变量 `WZZ_TXT` 指向任意位置。原书 txt 不入库）
 
 2. 章节划分：`00_版本说明与序`（序 3 条）+ `01_天部一` \~ `16_事部四`（每卷一个 XHTML/MD，命名 `NN_卷名.xhtml`）
 

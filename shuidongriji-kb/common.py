@@ -24,7 +24,8 @@ SOURCES_DIR = os.path.join(PROJECT_ROOT, "sources")
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 REPORTS_DIR = os.path.join(PROJECT_ROOT, "reports")
 
-INPUT_TXT = r"C:\Users\Administrator\Downloads\水东日记.txt"
+# 源文本：优先环境变量 SDR_TXT；未设置时默认取 <项目根>/_source/水东日记.txt
+INPUT_TXT = os.environ.get("SDR_TXT") or os.path.join(PROJECT_ROOT, "_source", "水东日记.txt")
 
 # 卷名映射（阿拉伯卷号 → 原文卷名行）
 CN_NUM = "一二三四五六七八九十"

@@ -4,7 +4,7 @@
 """
 import json, os, re
 
-KB = r"C:\Users\Administrator\DoubaoWork\chats\2026-10-10\new-chat-7\qubian_kb"
+KB = os.path.dirname(os.path.abspath(__file__))     # 项目根：脚本自身位置推导
 REPORT = os.path.join(KB, "layers_验证缺漏清单.txt")
 errors, gaps, pending, stats = [], [], [], {}
 
