@@ -1,0 +1,131 @@
+{
+  "format_version": "0.1.0",
+  "updated": "2026-10-11",
+  "applies_to": "第 7 本及以后的新书。已交付的 6 本存量书不受本契约约束（它们由 tools/kb-mcp/ 体检）。",
+  "source_of_truth": "本文件是「新书格式」的唯一真源。Skills/00-…/references/ 下的 Markdown 是条文出处，不是执行依据；Markdown 只是给人读的渲染视图，改格式先改这里。",
+  "principle": [
+    "契约必须机器可读——否则又变成「人工读 Markdown 再人工比对」，正是枚举漂移（pitfalls #27）的根源。",
+    "校验前置——违反在写入前被拒，不留到交付后复盘。",
+    "不回头治理存量——对旧书只读不写、不强制回溯。旧书的账由存量线自己结。"
+  ],
+  "contracts": [
+    {
+      "id": "C1",
+      "title": "目录结构",
+      "statement": "四段式目录各自职责固定，交付目录只叫 _deliver/，层产物只放 _layers/<layer_key>/。",
+      "why": "现存两种写法：交付目录有 _deliver/ 与 交付物/；职官层有的在 _layers/appt/ 有的在 data/appt/。两种写法让工具无法用统一路径定位产物。",
+      "rules": [
+        {"check": "dir_required", "args": {"name": "_extract", "desc": "切条原文，NN_卷名.txt，行格式 `条N|正文`，00 为版本说明卷"}},
+        {"check": "dir_required", "args": {"name": "_src", "desc": "AI 源数据：只写条号与解读字段"}},
+        {"check": "dir_required", "args": {"name": "_layers", "desc": "层产物，位置 _layers/<layer_key>/，可重建、不入库"}},
+        {"check": "dir_required", "args": {"name": "_build", "desc": "打包结果"}},
+        {"check": "dir_required", "args": {"name": "_validate", "desc": "校验报告"}},
+        {"check": "dir_required", "args": {"name": "_deliver", "desc": "交付物"}},
+        {"check": "dir_required", "args": {"name": "_source", "desc": "源文本，不入库（gitignore）"}},
+        {"check": "dir_alias_banned", "args": {"canonical": "_deliver", "banned": ["交付物"]}},
+        {"check": "dir_alias_banned", "args": {"canonical": "_layers", "banned": ["data", "标注"]}}
+      ],
+      "ok": "_extract/ _src/ _layers/ent/ _build/ _validate/ _deliver/ _source/",
+      "bad": "把层产物放 data/ent/，把交付物放 交付物/",
+      "source": "根 README §6（四段式管线）、§9（层命名未统一）"
+    },
+    {
+      "id": "C2",
+      "title": "ID 命名空间",
+      "statement": "item_id = NN-NNN（卷-序）全书唯一；每层一个 ID 前缀，开工时登记进 prefix_registry，前缀全局唯一、禁止跨层占用。",
+      "why": "schemas.md 的前缀表（ENT- / XGF-R- / XGF-P- / XGF-E- / LGR,TME,DOC,ACT,FRD-）是《新官轨范》专用示例，新书照抄会撞命名空间。",
+      "rules": [
+        {"check": "item_id_pattern", "args": {"pattern": "^\\d{2}-\\d{3}$"}},
+        {"check": "prefix_registered", "args": {"desc": "每层登记一个前缀，如 ent->ENT-"}},
+        {"check": "prefix_unique", "args": {"desc": "同一前缀不得被两层占用"}},
+        {"check": "prefix_reserved", "args": {"reserved": ["_kg_join"], "desc": "_kg_join 是跨层索引保留名"}}
+      ],
+      "ok": "ent 层登记 ENT-，evt 层登记 EVT-，互不相干",
+      "bad": "事件层沿用示例里的 XGF-E-，或直接把实体前缀 ENT- 用在关系层",
+      "source": "Skills/00-…/references/schemas.md §1"
+    },
+    {
+      "id": "C3",
+      "title": "底座 _item_registry.json",
+      "statement": "扁平 dict，{item_id: {original, norm}}；原文唯一源，只入不出；_src/ 里的 AI 源数据绝不手抄原文，original 由打包器注入。",
+      "why": "原文一旦被抄进 _src/ 就出现第二份真源，改了指纹库也对不上——这是四条铁律之一，必须可校验。",
+      "rules": [
+        {"check": "file_required", "args": {"name": "_item_registry.json"}},
+        {"check": "file_shape", "args": {"name": "_item_registry.json", "shape": {"<item_id>": ["original", "norm"]}}},
+        {"check": "file_readonly", "args": {"name": "_item_registry.json", "desc": "执行期只读，任何工具不得写入"}},
+        {"check": "src_no_original", "args": {"desc": "_src/ 源数据不得出现手抄的 original 字段"}}
+      ],
+      "ok": "_src 只写 {item_id, type, normalized, confidence}，original 由打包器从指纹库注入",
+      "bad": "在 _src/_vol_01.py 里手抄原文全文",
+      "source": "Skills/00-…/references/schemas.md §2；根 README 四条铁律"
+    },
+    {
+      "id": "C4",
+      "title": "层定义",
+      "statement": "每层注册一条 {layer_key, dir, prefix, schema_fields, enum_fields}。layer_key 用 snake_case 单数，与目录名严格一致，不给别名。",
+      "why": "同为职官层，有的叫 appt、有的放 data/appt/，工具与人都无法稳定定位。",
+      "rules": [
+        {"check": "layer_key_format", "args": {"pattern": "^[a-z][a-z0-9_]*$", "desc": "snake_case 单数"}},
+        {"check": "layer_key_equals_dirname", "args": {"desc": "_layers/ 下的目录名必须等于 layer_key"}},
+        {"check": "layer_register_fields", "args": {"fields": ["layer_key", "dir", "prefix", "schema_fields", "enum_fields"]}}
+      ],
+      "reference_layer_keys": [
+        "ent", "appt", "evt", "rel", "nam", "cit", "obj", "cus",
+        "opn", "lit", "geo", "ming", "reg", "trl", "chr", "mem"
+      ],
+      "ok": "layer_key=evt，目录=_layers/evt/，前缀=EVT-",
+      "bad": "layer_key=evt 但目录写成 _layers/event/",
+      "source": "根 README §9；Skills/00-…/references/layer-library.md（候选池，非强制清单）"
+    },
+    {
+      "id": "C5",
+      "title": "枚举单点",
+      "statement": "每本书必须建单点 _kg_enums.py；枚举值只从它读，禁止内嵌在打包器里；打包器必须接硬校验，未注册值记 ERR 不静默放行。",
+      "why": "客座赘语、蘧编没有单点，值内嵌在各打包器，执行期被就地吸收——EVT 跑到 111 种、LIT 114 种（pitfalls #27）。这是全部教训里最贵的一条。",
+      "rules": [
+        {"check": "file_required", "args": {"name": "_kg_enums.py", "desc": "枚举单点，全项目唯一"}},
+        {"check": "enum_banned_inline", "args": {"desc": "打包器内不得出现字面量枚举值集合"}},
+        {"check": "enum_backend", "args": {
+          "structure": "BASE_ENUMS{version, tree, canonical, alias}",
+          "routing": "ENUM_FIELD_MAP（层×字段路由）",
+          "desc": "取五杂俎的值结构 + 先进遗风的字段路由硬校验"}},
+        {"check": "enum_closed", "args": {"desc": "封闭集，打包器对未在集内的值记 ERR"}},
+        {"check": "enum_fallback", "args": {
+          "applies_to": ["归类型枚举"],
+          "desc": "归类型枚举必须有兜底值（unknown / 待定）；封闭分类型（任职状态、立场、关系、风格）不强求"}},
+        {"check": "enum_version_bump", "args": {"desc": "改值必须 version+1 并双写 enum-changelog.md"}}
+      ],
+      "ok": "_kg_enums.py 定义 EVENT 27 值，build_event.py 从它读并对未注册值报 ERR",
+      "bad": "build_event.py 里写死 EVENT_TYPES = [...]",
+      "source": "Skills/00-…/references/pitfalls.md #27；enum-library.md v4（种子值来源，按书归纳后落单点，不是照抄）"
+    },
+    {
+      "id": "C6",
+      "title": "产物与交付",
+      "statement": "层 JSON 必填字段按层 schema 定死并校验完整性；跨层索引 _kg_join 必建；交付物统一进 _deliver/。",
+      "why": "字段缺失往往到交付复盘才发现；跨层索引缺了则各层孤立，无法按条聚合。",
+      "rules": [
+        {"check": "layer_required_fields", "args": {"desc": "按 C4 注册的 schema_fields 逐条校验，缺即报"}},
+        {"check": "kg_join_required", "args": {"name": "_kg_join", "desc": "跨层索引必建"}},
+        {"check": "deliver_dir", "args": {"name": "_deliver"}}
+      ],
+      "ok": "_kg_join 覆盖全部 item_id，层 JSON 字段齐备",
+      "bad": "层 JSON 缺 confidence 字段，或根本没生成 _kg_join",
+      "source": "Skills/00-…/references/schemas.md；根 README §6"
+    },
+    {
+      "id": "C7",
+      "title": "元数据",
+      "statement": "实例必须登记进 registry.md；SKILL.md frontmatter 的 name 必须等于目录名。",
+      "why": "客座赘语 frontmatter 写 kezuo-zhuiyu-knowledge，目录是 04-kezuozhuiyu-knowledge，两者不一致会让按名定位的工具落空。",
+      "rules": [
+        {"check": "registry_entry", "args": {"file": "Skills/00-…/references/registry.md", "desc": "新实例交付时登记一行"}},
+        {"check": "frontmatter_name_equals_dirname"},
+        {"check": "instance_dir_pattern", "args": {"pattern": "^\\d{2}-[a-z-]+-knowledge$", "desc": "<NN>-<book-slug>-knowledge"}}
+      ],
+      "ok": "目录 07-xxxx-knowledge，frontmatter name: 07-xxxx-knowledge",
+      "bad": "目录 07-kezuozhuiyu-knowledge，frontmatter 写成 kezuo-zhuiyu-knowledge",
+      "source": "Skills/00-…/references/registry.md（维护说明已记此项遗留）"
+    }
+  ]
+}

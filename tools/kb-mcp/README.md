@@ -9,7 +9,7 @@
 > - ✅ **适用**：`kezuozhuiyu-kb` / `wuzazu-kb` / `shuidongriji-kb` / `xinguanguifan-kb` /
 >   `qubian_kb` / `xianjinyifeng-kb` 这六本**已交付或在执行**的书，做存量漂移与三处同步体检。
 > - ❌ **不适用**：第 7 本及以后的新书。新书要的是「开工前就把格式定死」，
->   走**契约线** —— 见 `docs/mcp-契约规划.md`（规划中的新 MCP，尚未落地）。
+>   走**契约线** —— `tools/book-mcp/`（C0 已落地：`contract.json` + `contract_list` / `contract_get`）。
 >
 > 一句话区分：**kb-mcp 治"已经长歪的"，契约线管"别让它长歪"。**
 > 新书交付之后，才移交到本服务接管体检。

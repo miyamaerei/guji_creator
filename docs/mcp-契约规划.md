@@ -130,9 +130,49 @@ book_check(book)                     # 按契约校验全书，报违反项（C1
 
 ---
 
-## 6. 契约文件形态（草案，待拍板后落地）
+## 6. 已落地：C0（2026-10-11）
 
-建议落 `tools/book-mcp/contract.json`（零第三方依赖，与存量线同风格）：
+用户拍板「**最小的处理**」→ 只落 C0：**契约本体 + 能回答它的服务**。
+
+```
+tools/book-mcp/
+├── contract.json      # 契约本体（格式唯一真源，改格式改这里）
+└── server.py          # 零依赖：contract_list / contract_get，CLI + MCP stdio 两用
+```
+
+条目与 §3 的 C1–C7 一一对应，每条含 `statement`（规定）/ `why`（现状为什么乱）/
+`rules`（可校验点）/ `ok`+`bad`（正反例）/ `source`（条文出处）。
+`rules` 已按 `{check, args}` 结构化——**将来 C1 阶段的 `book_check` 可直接遍历执行**，
+不必重新定义一遍规则。
+
+### 用法
+
+```bash
+cd tools/book-mcp
+python server.py selftest          # 自检（9 项）
+python server.py list              # 列出 C1–C7
+python server.py get --id C5       # 取某条完整规定（人类可读）
+python server.py get --id C5 --format json
+```
+
+挂为 MCP（`~/.workbuddy/mcp.json` 的 `mcpServers`）：
+
+```json
+{
+  "guji-book-contract": {
+    "command": "python",
+    "args": ["E:/git/ToolBox/guji/tools/book-mcp/server.py"]
+  }
+}
+```
+
+> 路径换成你本机的实际路径；注册后需要在连接器管理页点「信任」才会生效。
+> **不要**给它加 `-legacy` 后缀——那是存量线的标记，契约线是给新书用的。
+
+**刻意不做**（别顺手加）：不扫任何一本书的数据（存量线的事）、不生成脚手架、
+不做 `book_check`、不提供 add/update/delete。
+
+### 草案原文（已被上面的落地版取代，保留作设计依据）
 
 ```json
 {
@@ -189,26 +229,27 @@ book_check(book)                     # 按契约校验全书，报违反项（C1
 
 ## 8. 分阶段
 
-| 阶段 | 内容 | 验收 |
-|---|---|---|
-| **C0** | `contract.json`（C1–C7）+ `contract_list` / `contract_get` | 人问"新书目录该长什么样"，工具能答，且与 Markdown 规约一致 |
-| **C1** | `book_check` | 拿《先进遗风》（最小最新）试跑，能报出它违反的契约项 |
-| **C2** | `book_init` | 从第 7 本书起，脚手架由它生成，含 `_kg_enums.py` 单点 |
-| **C3** | 接入管线：打包器前置 `book_check` | 违反契约即拒，不再静默写入 |
+| 阶段 | 内容 | 验收 | 状态 |
+|---|---|---|---|
+| **C0** | `contract.json`（C1–C7）+ `contract_list` / `contract_get` | 人问"新书目录该长什么样"，工具能答，且与 Markdown 规约一致 | ✅ **已落地**（2026-10-11） |
+| **C1** | `book_check`（遍历 `rules` 执行） | 拿《先进遗风》（最小最新）试跑，能报出它违反的契约项 | 待定 |
+| **C2** | `book_init` | 从第 7 本书起，脚手架由它生成，含 `_kg_enums.py` 单点 | 待定 |
+| **C3** | 接入管线：打包器前置 `book_check` | 违反契约即拒，不再静默写入 | 待定 |
 
-**C0+C1 就够回本**——"格式能被机器回答 + 违反能被当场发现"，其余都是加分项。
+**C0 已经回本**——"格式能被机器回答"，且契约以 JSON 形式存在、可被将来的 `book_check`
+直接消费。C1 之后都是加分项，**在第 7 本书开工前不做也完全够用**。
 
 ---
 
-## 9. 待拍板的四个问题
+## 9. 待拍板（原四问，第 4 问已答：做 C0）
 
 1. **存量兼容**：C1（交付目录）与 C4（层位置）定死后，旧书是**保持现状**（契约只管新书），
    还是**顺手统一**？我倾向前者——改旧书风险大于收益，且这正是"为过去买单"。
 2. **枚举后端**：确认取"五杂俎 `BASE_ENUMS` + 先进遗风 `ENUM_FIELD_MAP` 硬校验"的合体吗？
-   还是直接沿用其中一种？
+   （C5 已按合体写入契约，若否需改 `contract.json`）
 3. **与 `book-skill-factory` 的边界**：`book_init` 是**薄封装**它的模板，还是契约线**只管校验**（`book_check`）不管生成？
    只做校验的话，落地成本最低，也最贴合"只要规定一个格式"。
-4. **现在做吗、做到哪**：C0 即可 / C0+C1 / 全做。
+4. ~~现在做吗、做到哪~~ → **已答：最小的处理，做 C0**（2026-10-11）。
 
 ---
 
