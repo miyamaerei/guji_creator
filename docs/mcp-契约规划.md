@@ -286,6 +286,7 @@ python server.py enum --group EVENT    # 某组枚举：顶层值 + 子类值 + 
 
 ## 10. 参考
 
+- `docs/新书开工流程.md`（**开工怎么走**：五阶段 + 四段式 + 契约逐步自检，含命令序列）
 - `docs/mcp-规划.md`（存量线，本文的定位对照）
 - `tools/kb-mcp/README.md`（存量线已落地部分，已标注"新书不接入"）
 - `Skills/00-book-knowledge-factory/references/schemas.md`（C2/C3/C6 条文出处）
