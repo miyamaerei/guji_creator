@@ -10,8 +10,11 @@
 > **铁律不变**：零第三方依赖（仅 `sqlite3`、`json`、`re`、`os`、`argparse`）；
 > 复合主键 `(book_id, …)` 隔离撞号；原文只存指针；Tier1/2 全部可重建、不入 git；联邦只读六书、绝不回写。
 
-> **落地进度（2026-10-11）**：F0-a / F1 / **F2（六书全量装载）均已落地并实证**。
-> - `tools/kb-federation/` 已落地可跑：`kbdb.py` / `collision.py` / `extract.py` / `load.py` / `federation.py` / `schema.sql` / `adapters/{__init__,base,layers_adapter,vol_layer_adapter,data_layer_adapter,norm_layer_adapter,xgf_adapter}.py`，均为零第三方依赖。
+> **落地进度（2026-10-11）**：F0-a / F1 / F2 / **F3（T0–T3 去歧义）均已落地并实证**。
+> - `tools/kb-federation/` 已落地可跑：`kbdb.py` / `collision.py` / `extract.py` / `load.py` / `transform.py` / `name_resolver.py` / `query.py` / `federation.py` / `schema.sql` / `name_rules.json` / `adapters/{__init__,base,layers_adapter,vol_layer_adapter,data_layer_adapter,norm_layer_adapter,xgf_adapter}.py`，均为零第三方依赖。
+> - **F3 实证**（`federation.py transform`）：nodes=18152、edges=1498（悬空 pending=666）、candidates=6589、canonicals=812、members=3746（auto 3478 / conflict 268），重跑幂等。
+>   名字解析为「**配置驱动归一化（`name_rules.json` 装饰词按位置分组，加变体只改配置）+ 两级接入（标准 ent_keys.json / records 抽取兜底）+ 置信度**」；
+>   `person`/`official` 等同名异人/泛称风险类型按 `type_confidence_cap` 封顶，查询端按置信度呈现。详见 §3.1（ELT设计）/ §5.2、§5.6（本文）。
 > - **撞号体检**：总 ID **14302** / 跨书撞号 **2847**（占 19.9%）/ ENT **2448**（详见 §2）。将 8MB 扫描上限提到 64MB 后数字不变（蘧编 `归一_ents.json` 11MB 纳入后，其 ENT-5xx 段早已被他书撞过，不改总计）。
 > - **F1 实证**：先进遗风 `items=100`、`records=19`、复合主键零重复、重跑幂等。
 > - **F2 实证（六书全量）**：`federation.py load-all` 一次装载六书，结果——
@@ -44,23 +47,22 @@ tools/kb-federation/
 │   └── xgf_adapter.py      # 新官（xgf）：多份「归一_汇总」文件（实体/规则/流程/事件/结构×5）
 ├── extract.py              # E 阶段：调 adapter → 标准中间表
 ├── load.py                 # L 阶段：中间表 → Tier1（items/records）+ 写 catalog（含折叠告警）
-├── transform.py            # T 阶段编排：T0→T1→T2→T3
-├── name_resolver.py        # T1：ent_keys 名字 → node uid
-├── align.py                # T2/T3：候选生成 + 集体消歧（并查集/传播/剪枝）
+├── transform.py            # T 阶段编排：T1 建 nodes/edges → T2 候选 → T3 并查集消歧（已实现）
+├── name_resolver.py        # T1/T2：配置驱动名字归一化 + 两级接入 + 解析 + 跨书候选（已实现）
+├── name_rules.json         # 名字归一配置：装饰词按位置分组 + 匹配置信度 + 类型封顶（已实现）
 ├── collision.py            # F0-a：撞号体检（固化 2847 数字，作为装载前置断言）
-└── query.py                # L3 查询层 API
+└── query.py                # L3 查询层 API：FederationQuery.cross_search（带置信度，已实现）
 ```
 
 依赖方向（无环）：
 
 ```
-federation.py → {collision, extract, load, transform, query}
+federation.py → {collision, extract, load, transform, query, name_resolver}
 extract      → adapters.*
 load         → kbdb + schema.sql
-transform    → kbdb + name_resolver + align
-name_resolver→ kbdb
-align        → kbdb
-query        → kbdb
+transform    → kbdb + name_resolver
+name_resolver→ kbdb（只读库与可选源目录）
+query        → kbdb + name_resolver
 ```
 
 ---
@@ -248,7 +250,7 @@ python federation.py load-all            # 按 xyf→kzz→wzz→sdr→qb→xgf 
 
 ---
 
-## 5. F3 去歧义对齐（T 阶段，核心难点）
+## 5. F3 去歧义对齐（T 阶段，核心难点）✅ 已实现并实证
 
 > 前置事实（实测，务必记住）：**REL/APPT 层存的是「名字」不是 ENT id**
 > （`REL{person_a:"李廷珪",person_b:"李超"}` / `APPT{person:"海瑞",...}`）。
@@ -266,20 +268,23 @@ def t0_refine_fields(con, book_id):
 
 **验收**：抽样 `layer_fields` 显示 appt 的 `person`=node_ref、`office`=enum(OFFICE)；rel 的 `person_a/person_b`=node_ref。
 
-### 5.2 T1 名字→ID 解析 `name_resolver.py`
+### 5.2 T1 名字→ID 解析 `name_resolver.py`（配置驱动 + 两级接入）
+
+实际实现（与初版设计不同，按用户细化「不要写死变体类型 / 只有部分书有 ent_keys」重做）：
 
 ```python
-def build_name_index(con, book_id) -> dict[str,str]:
-    # 读本书 nodes(ent) 的 label + payload.normalized + payload.alias_index
-    # 输出：归一名/别名(小写) -> node uid
-def resolve(con, book_id, raw_name) -> str | None:
-    key = raw_name.strip().lower()
-    return INDEX[book_id].get(key)        # 命中返回 uid，否则 None
-def materialize_nodes(con, book_id):
-    # 把 ent 层 records 落 nodes（uid=book_id:local_id, type 取 payload.type, label 取 normalized）
+# name_rules.json —— 装饰词按位置分组，代码不枚举任何具体变体类型
+decoration_groups: {honorific_suffix, title_prefix, place_suffix, posthumous_marker}
+
+def normalize(raw, rules):      # 剥谥号标记→剥官称前缀→剥尊称/地名后缀（单字尊称剩余≥2才剥）
+def collect_surfaces(con, book, rules):
+    # 两级接入：标准 ent_keys.json（若登记且有 alias）→ 否则 records 抽取（所有书都有）
+    # 每 ent 产 (uid, normalized, type, surfaces{normalized,text,派生base})
+def resolve_in_book / BookNameIndex.resolve(raw) -> [(uid, method, confidence)]
 ```
 
-**验收**：先进遗风 ent 全部进 `nodes`；`resolve('xyf','王守仁')` 返回 `xyf:ENT-xxx`。
+**验收**（实证）：查「王忠毅公」命中 sdr 三个变体（`王骥（谥忠毅）`/`王忠毅公（王骥？…待考）`/`王骥（谥忠毅？即王靖远）`），
+全部 `surface_alias=0.9`——带尊称/谥号的写法能查到同一人。
 
 ### 5.3 边解析（在 load 之后、T2 之前）
 
@@ -325,11 +330,26 @@ class Disambiguator:
 - 跨书同名的「李贤」（可能两人）**不**强行合并；冲突簇 `status='conflict'`。
 - `pending_refs` 列出所有解析失败的名字（如某 REL 的「李超」未立实体），不造假实体。
 
+### 5.6 F3 实证结果（2026-10-11，`python federation.py transform`）
+
+| 指标 | 数值 |
+| --- | --- |
+| nodes | 18152（六书全部 ent） |
+| edges | 1498（悬空 `pending_refs` 666） |
+| candidate_links | 6589（exact 4453 / alias 2320 / stripped 590 → 去重后） |
+| canonicals | 812 |
+| members | 3746（auto 3478 / conflict 268） |
+
+重跑幂等（两次 transform 结果一致）。示例 canonical：南京(place,94)、闽(place,66)、北京(place,41)、
+苏轼(person,35)、宋(era,35)、钟山(place,35)——跨书对齐语义正确。
+`person`/`official` 等同名异人/泛称风险类型按 `type_confidence_cap` 封顶（person≤0.85、official≤0.60），
+查询端按置信度呈现，不隐藏不确定性。
+
 ---
 
 ## 6. F4 查询与导出（L3）
 
-### 6.1 `query.py` API
+### 6.1 `query.py` API（`FederationQuery`，已实现核心 cross_search）
 
 ```python
 def cross_search(con, name) -> list[MemberView]:

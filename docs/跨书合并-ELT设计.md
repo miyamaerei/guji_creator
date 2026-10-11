@@ -2,7 +2,8 @@
 
 > 本文是《跨书合并方案》的落地细化（联邦库四层里的 **L1 装载 + L2 装入 + T 变换**）。
 > 聚焦用户两点诉求：**① 所有东西加一层去歧义合并；② 用关系识别同实体**。
-> 状态：**设计待拍板**，未写代码。
+> 状态：**F0-a / F1 / F2 / F3 已落地并实证**（2026-10-11）。本文随实现同步细化，
+> 尤其 §3 的名字解析已升级为「配置驱动归一化 + 两级接入 + 置信度」。
 
 ---
 
@@ -78,6 +79,48 @@ T3  关系消歧      集体消歧（并查集 + 约束 + 迭代）→ entity_li
 
 ---
 
+## 3.1 名字解析的细化（2026-10-11 落地）：配置驱动 + 两级接入 + 置信度
+
+用户细化要求：**「不管是什么称呼（别名/笔名/尊称/蔑称/带官称/带地名称呼/谥号/追谥…只要能识别到身份都要能查到，查询时给个置信度就好）」**，且**不要写死变体类型**。落地为三条铁律：
+
+### ① 配置驱动归一化（`tools/kb-federation/name_rules.json`）
+
+代码**不枚举**任何具体变体类型，只泛化处理一份配置：
+- `decoration_groups`：装饰词按**出现位置**分三组——`honorific_suffix`（公/翁/先生/山人/居士…）、
+  `title_prefix`（太师/尚书/巡抚…）、`place_suffix`、`posthumous_marker`（谥/追谥/赠/追赠）。
+- `normalize(raw)` 依次：删谥号标记 → 剥官称前缀 → 剥尊称/地名后缀（单字尊称仅当剩余≥2字才删，防误伤二字名）。
+- **新增一种称呼/变体，只往配置加 token，不改代码**——这是「不要写死」的落地方式。
+
+实测（真实数据）：`学士宋文宪公濓`→`宋文宪公濓`（内嵌公不误剥）、`王忠毅公`→`王忠毅`、
+`太师张居正`→`张居正`、`老子`→`老子`（单字「子」不误剥）。
+
+### ② 两级接入（只有部分书有 `ent_keys.json`）
+
+实测：仅 `sdr` 有正式 `ent_keys.json`，`wzz` 在 backup，`xyf` 在未提交目录，`kzz/xgf/qb` 没有。
+故名字来源**两级**：
+- **标准接入**：若某书在 `ent_keys_paths` 登记了标准 `ent_keys.json` 且结构标准，读其显式 alias 列表（最高价值）。
+- **特殊接入**：否则从 `records` 的 ent 负载抽取 `normalized`+`text` 作为 surface（**所有书都有**，兜底）。
+
+两路都归一到同一套 `surface → uid` 索引。实测各书的 ent 记录**没有结构化「字/号/别名」字段**——
+`normalized` 是各书自己的规范名（已剥离装饰，如「学士宋文宪公濓」在 xyf 里 normalized 已是「宋濂」），
+`surfaces`（xgf/sdr）实为**出处 item_id 列表**、非别名。所以「一个字尽量多能查到」主要靠
+**把每个 ent 的所有出现形式都索引成 surface + 查询时按配置归一**，而非依赖结构化别名字段。
+
+### ③ 置信度模型（查询端呈现，不隐藏不确定性）
+
+匹配方法 → 基准置信度在 `match_confidence`：
+`exact_normalized=0.98 / surface_alias=0.90 / normalized_stripped=0.65 / relation_propagated=0.55`。
+
+**同名异人 / 泛称角色封顶**（`type_confidence_cap`）：
+- `work/place/era/institution` 等实体跨书同名基本可断定同一 → 维持高置信；
+- `person` 封顶 0.85（同名异人风险）、`official/org/quantity/unknown` 封顶 0.60（泛称角色，合并易失真）。
+
+实测验证：查「王忠毅公」命中 sdr 三个变体形态——`王骥（谥忠毅）`、
+`王忠毅公（王骥？谥忠毅，待考）`、`王骥（谥忠毅？即王靖远）`，全部 surface_alias=0.9。
+这正是「带尊称/谥号的写法也能查到同一人」的目标形态。
+
+---
+
 ## 4. 如何利用现有数据（逐条对应）
 
 | 现有文件 / 层 | 在 ELT 中的用途 |
@@ -132,18 +175,24 @@ T3  关系消歧      集体消歧（并查集 + 约束 + 迭代）→ entity_li
 
 | 产物 | 内容 |
 |---|---|
-| `entity_links` | 跨书同人/同地链接 + 置信 + 方法 + 冲突标记 |
-| 跨书关系图（派生） | A(书1) 的儿子 B 在书2 的身份，需经两次对齐才连通 |
-| `cross_search(name)` | 返回所有 member + 出处 + 关系网 |
+| `canonical` / `members` | 跨书同人/同地/同书链接：method（exact/alias/stripped/relation）+ confidence + status（auto/conflict） |
+| `candidate_links` | T2/T3 候选对（带方法与置信度），低于 floor 的不并入 canonical，留待人工 |
+| `pending_refs` | 名字在 ent 索引查不到、边悬空的原始名字（供人工补实体） |
+| `cross_search(name)` | `query.py` 的 `FederationQuery.cross_search`：返回 canonical 下所有 member、各自出处、匹配方法与置信度 |
+
+## 7. 落地状态（2026-10-11）
+
+F0-a（撞号体检）/ F1（单书试点）/ F2（六书全量）/ **F3（T0–T3 去歧义）均已落地并实证**：
+
+- F3 实证（`python federation.py transform`）：nodes=18152、edges=1498（悬空 pending=666）、
+  candidates=6589、canonicals=812、members=3746（auto 3478 / conflict 268）。重跑幂等（两次结果一致）。
+- 名字解析（§3.1）已按「配置驱动 + 两级接入 + 置信度」落地，代码见
+  `name_resolver.py` / `transform.py` / `query.py`，配置见 `name_rules.json`。
+- CLI：`transform` / `search <名>` / `resolve <名>`。
+
+> 下一步 F4：把 `cross_search` 包成查询接口/MCP，`conflict` 成员供人工校验闭环（锁定/解除误并）。
 
 ---
-
-## 7. 落地第一步（最小，建议）
-
-1. **F0-a 撞号体检脚本**：数字已算（2847 撞号），固化为 `tools/kb-federation/check_collision.py`。
-2. **F0-b schema + books 注册表**：按《跨书合并方案》§5 建表，SQLite 单文件。
-3. **F1 单书 loader 试点（先进遗风）**：验证 L 阶段撞号消解、重跑幂等。
-4. 确认 L 无误后，再做 **T1→T2→T3**（先进遗风最小，关系网也最简单）。
 
 > 不先做 T 的原因：L 一旦有 bug（撞号没消解、幂等失效），T 的所有对账都是空中楼阁。
 > 先让「六本书安全地躺在同一个库里互不踩踏」，再谈「把它们连起来」。

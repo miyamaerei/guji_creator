@@ -6,6 +6,9 @@
   extract    仅抽取中间表（不入库，调试用）
   load       装载单书
   load-all   六书全量装载（F2）
+  transform  T0–T3 去歧义（F3）：nodes/edges/canonical/members，名字归一配置驱动
+  search     跨书搜索一个名字，返回全部成员 + 方法 + 置信度
+  resolve    逐书解析一个名字（T1），看每个书里落到哪个 ent
 
 用法：
   python federation.py create
@@ -13,6 +16,9 @@
   python federation.py extract --book kzz
   python federation.py load --book kzz
   python federation.py load-all
+  python federation.py transform
+  python federation.py search 王忠毅公
+  python federation.py resolve 王忠毅公
 
 零第三方依赖。所有路径相对仓库根解析，搬到任意机器都能跑。
 """
@@ -33,6 +39,9 @@ from collision import check_collision, format_report  # noqa: E402
 from adapters import BOOK_ROOTS, BOOK_REGISTRY, BOOK_NAMES  # noqa: E402
 from load import load_book  # noqa: E402
 from extract import extract_book  # noqa: E402
+from transform import run_transform  # noqa: E402
+from query import FederationQuery  # noqa: E402
+from name_resolver import load_rules  # noqa: E402
 
 # F2 装载顺序：先装最规整的 xyf 探路，再铺其余五本
 LOAD_ORDER = ["xyf", "kzz", "wzz", "sdr", "qb", "xgf"]
@@ -110,6 +119,55 @@ def cmd_load_all(args):
         print("✓ 撞号全部由复合主键 (book_id,layer_key,local_id) 消解，零折叠。")
 
 
+def cmd_transform(args):
+    con = connect(args.db)
+    ensure_schema(con)
+    out = run_transform(con)
+    con.close()
+    print("F3 T0–T3 完成：")
+    print(f"  nodes      ：{out['nodes']}")
+    print(f"  edges      ：{out['edges']}（悬空 pending_refs {out['pending']}）")
+    print(f"  candidates ：{out['candidates']}")
+    t3 = out["t3"]
+    print(f"  canonicals ：{t3['canonicals']}  members：{t3['members']}  "
+          f"关系提升 {t3['relation_boosted']}（{t3['rounds']} 轮）")
+
+
+def cmd_search(args):
+    con = connect(args.db)
+    ensure_schema(con)
+    q = FederationQuery(con)
+    results = q.cross_search(args.name, type=args.type)
+    if not results:
+        print(f"未命中：{args.name}")
+        con.close()
+        return
+    for r in results[: args.limit]:
+        head = f"[{r['canonical_id'] or '独立'}] {r['repr_label']}"
+        if r["repr_type"]:
+            head += f" ({r['repr_type']})"
+        print(f"{head}  best_conf={r['best_confidence']}")
+        for m in r["members"]:
+            print(f"    {m['book']}:{m['uid'].split(':', 1)[1]:<18} "
+                  f"label={m['label']}  {m['method']}={m['confidence']} "
+                  f"({m['status']})")
+        print()
+    con.close()
+
+
+def cmd_resolve(args):
+    con = connect(args.db)
+    ensure_schema(con)
+    q = FederationQuery(con)
+    out = q.resolve_across_books(args.name)
+    if not out:
+        print(f"未解析：{args.name}")
+    for book, lst in out.items():
+        for uid, method, conf in lst:
+            print(f"  {book}:{uid.split(':', 1)[1]:<18} {method}={conf}")
+    con.close()
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="federation", description="古籍联邦库 ELT")
     sub = p.add_subparsers(dest="cmd")
@@ -131,6 +189,19 @@ def build_parser():
     pa = sub.add_parser("load-all", help="六书全量装载（F2）")
     pa.add_argument("--db", default=DEFAULT_DB)
 
+    pt = sub.add_parser("transform", help="T0–T3 去歧义（F3）")
+    pt.add_argument("--db", default=DEFAULT_DB)
+
+    ps = sub.add_parser("search", help="跨书搜索（带置信度）")
+    ps.add_argument("name")
+    ps.add_argument("--db", default=DEFAULT_DB)
+    ps.add_argument("--type", default=None, help="限定类型 person/place/...")
+    ps.add_argument("--limit", type=int, default=3)
+
+    pr = sub.add_parser("resolve", help="逐书解析一个名字（T1）")
+    pr.add_argument("name")
+    pr.add_argument("--db", default=DEFAULT_DB)
+
     return p
 
 
@@ -146,6 +217,12 @@ def main(argv=None):
         cmd_load(args)
     elif args.cmd == "load-all":
         cmd_load_all(args)
+    elif args.cmd == "transform":
+        cmd_transform(args)
+    elif args.cmd == "search":
+        cmd_search(args)
+    elif args.cmd == "resolve":
+        cmd_resolve(args)
     else:
         build_parser().print_help()
 
