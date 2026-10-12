@@ -304,18 +304,34 @@ python server.py enum --group EVENT    # 某组枚举：顶层值 + 子类值 + 
 > **新书怎么起步**：见 `docs/新书开工流程.md`——把「工厂五阶段 → 四段式管线 → 格式契约」
 > 串成一条动线，含命令序列与逐步自检清单。
 
-### 6.6.3 `tools/kb-federation/` —— 联邦线，跨书合并成统一库（F0-a + F1 已完成）
+### 6.6.3 `tools/kb-federation/` —— 联邦线，跨书合并 + 关联查询（F0–F4 已完成）
 
 把六本书的产物合并进一个 SQLite（零依赖）联邦库：复合主键 `(book_id, …)` 隔离撞号、
 所有层统一落 `records` 表、原文只存指针、Tier1/2 全部可重建（库文件 `kb.sqlite` 不入库）。
 
 - **F0-a 撞号体检已实证**：总 ID 14302 / 跨书撞号 2847（ENT 2448 为主）——正是复合主键隔离要解决的硬约束。
-- **F1 先进遗风单书试点已实证**：`items=100`、`records=19`（ent9/appt2/rel1/event2/opn1/trl4）、零主键重复、重跑幂等。
-- 用法：`python tools/kb-federation/federation.py create|collision|extract|load --book xyf`
+- **F1 先进遗风单书试点已实证**：`items=100`、`records=19`、零主键重复、重跑幂等。
+- **F2 六书全量已实证**：`items=3407`、`records=32647`、`load_runs=6` 全 done、申报 55 层、**折叠丢失 0**。
+- **F3 去歧义已实证**：`nodes=18152`、`edges=1498`、`canonicals=824`、`members=3804`
+  （conflict 243待人工复核），重跑幂等。
+- **F4 查询 + 人工裁决已实证**：`record_refs=4605`（引用解析率 86.5%）、
+  十个跨书关联查询、conflict 可人工锁定/解除（裁决独立存表，重跑 transform 不丢）。
+- **MCP 服务**：`tools/federation-mcp/`（`guji-federation`，8 个工具，JSON-RPC over stdio）。
+
+```bash
+cd tools/kb-federation
+python federation.py create && python federation.py load-all && python federation.py transform
+python federation.py search 王忠毅公 # 跨书检索（尊称/谥号/书名号都能命中）
+python federation.py assoc identity_bridge --name 苏轼        # 十个关联查询之一
+python federation.py conflicts --limit 5                    # 待人工复核的误并
+python federation.py lock kzz:01:ENT-0136 --reason 确为同一人   # 人工锁定
+python ../federation-mcp/server.py selftest# 18 项自检
+```
+
 - 设计：详见 `docs/跨书合并方案.md` / `docs/跨书合并-ELT设计.md` / `docs/跨书合并-数据库设计.md` / `docs/跨书合并-ELT实现步骤.md`。
 
 > **三线条关系**：存量线（`kb-mcp`）治已交付书的体检、契约线（`book-mcp`）管新书格式、联邦线（`kb-federation`）
-> 消费六书产物做跨书合并——三条互不修改，联邦线只读六书、绝不回写。
+> 消费六书产物做跨书合并与查询——三条互不修改，联邦线只读六书、绝不回写。
 
 ---
 

@@ -38,10 +38,14 @@ def load_rules():
 def normalize(raw, rules=None):
     """把任意称呼形式归一到 base 形式。
 
-    逻辑只认配置，不认具体变体类型：
-      1. 谥号/追赠标记（谥/追谥/赠/追赠）全文删除；
-      2. 官称前缀（太师/尚书/…）从头删；
-      3. 尊称/地名后缀（公/先生/山人/…）从尾删（单字尊称仅当名≥3字才删，防误伤二字名）。
+    逻辑只认配置，不认具体变体类型——按 `strip_order` 依次处理各装饰组：
+      wrapping_marks    包裹标记（书名号《》/引号『』）—— 成对剥除
+      title_prefix      官称前缀（太师/尚书/…）—— 从头删
+      posthumous_marker 谥号标记（谥/追赠）—— 全文删
+      honorific_suffix  尊称后缀（公/先生/山人/…）—— 从尾删
+      place_suffix      地名后缀 —— 从尾删
+      work_tail_suffix  尾缀（注本标识：正义/集说/注疏）—— 从尾删
+    新增一种称呼只往配置加 token，不动本函数。
     """
     if rules is None:
         rules = load_rules()
@@ -49,29 +53,66 @@ def normalize(raw, rules=None):
         return raw
     s = raw.strip()
     groups = rules.get("decoration_groups", {})
+    order = rules.get("strip_order") or [
+        "title_prefix", "posthumous_marker", "honorific_suffix", "place_suffix"]
 
-    # 1. 谥号/追赠标记：文中删除
-    for m in groups.get("posthumous_marker", []):
-        if m:
-            s = s.replace(m, "")
-
-    # 2. 官称前缀：从头删（长优先）
-    for t in sorted(groups.get("title_prefix", []), key=len, reverse=True):
-        if t and s.startswith(t):
-            s = s[len(t):]
-
-    # 3. 后缀（尊称 / 地名）：从尾删
-    for g in ("honorific_suffix", "place_suffix"):
-        for t in sorted(groups.get(g, []), key=len, reverse=True):
-            if not t:
-                continue
-            if s.endswith(t):
-                remaining = len(s) - len(t)
-                # 单字装饰：仅当剩余≥2字才删（防「林公」→「林」这类误伤）
-                if len(t) == 1 and remaining < 2:
+    # 逐组按配置顺序处理；未在 strip_order 列出的组不生效
+    for g in order:
+        if g == "wrapping_marks":
+            # 成对标记（《…〉）：按配置的「起始符→终止符」配对反复剥除。
+            # 单侧符号（singles）直接删。
+            spec = groups.get("wrapping_marks", {})
+            pairs = spec.get("pairs", []) if isinstance(spec, dict) else spec
+            singles = spec.get("singles", []) if isinstance(spec, dict) else []
+            changed = True
+            while changed and s:
+                changed = False
+                for pair in pairs:
+                    if not (isinstance(pair, (list, tuple)) and len(pair) == 2):
+                        continue
+                    open_m, close_m = pair
+                    # 起止符相同时按单侧处理
+                    if open_m == close_m:
+                        if s.startswith(open_m) or s.endswith(close_m):
+                            s = s.replace(open_m, "", 1)
+                            changed = True
+                            break
+                    elif (len(s) > len(open_m) + len(close_m)
+                          and s.startswith(open_m) and s.endswith(close_m)):
+                        s = s[len(open_m):-len(close_m)].strip()
+                        changed = True
+                        break
+                if changed:
                     continue
-                if remaining >= 1:
-                    s = s[:remaining]
+                for m in singles:
+                    if m and m in s:
+                        s = s.replace(m, "")
+                        changed = True
+                        break
+        elif g == "posthumous_marker":
+            for m in groups.get("posthumous_marker", []):
+                if m:
+                    s = s.replace(m, "")
+        elif g == "title_prefix":
+            # 从头删（长优先）
+            for t in sorted(groups.get("title_prefix", []), key=len, reverse=True):
+                if t and s.startswith(t):
+                    s = s[len(t):]
+        elif g in ("honorific_suffix", "place_suffix", "work_tail_suffix"):
+            # 从尾删；work_tail_suffix 同样带「剩余≥2字」保护。
+            # 注意分组值可能是 list 或 {_comment, tokens:[...]} 两种形态，统一取 token 列表。
+            spec = groups.get(g, [])
+            if isinstance(spec, dict):
+                spec = spec.get("tokens", [])
+            for t in sorted(spec, key=len, reverse=True):
+                if not t:
+                    continue
+                if s.endswith(t):
+                    remaining = len(s) - len(t)
+                    if len(t) == 1 and remaining < 2:
+                        continue
+                    if remaining >= 1:
+                        s = s[:remaining]
 
     return s.strip() or raw.strip()
 

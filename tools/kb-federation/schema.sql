@@ -180,6 +180,70 @@ CREATE TABLE IF NOT EXISTS pending_refs (
 );
 
 -- ============================================================
+-- Tier 2b：物化引用（F4）
+-- 上面 edges 装的是「关系层」（rel/appt/event 等有语义谓词的边）。
+-- 但各层 payload 内部还有大量 *_ent_ids 结构化引用（cit.cited_ent_ids /
+-- lit.author_ent_ids / obj.name_ent_ids / ming.who_ent_ids …），
+-- 若只在查询时现解 JSON 则无法走 SQL 索引。这里把它们物化成边。
+-- ============================================================
+
+-- 记录 → 实体 的引用边（payload 内 *_ent_ids 的展开）
+-- 注意：payload 里的 ent_id 是「裸 ID」（如 ENT-0001），而 records.local_id
+--   因 F2 加卷前缀/去重后可能是 '01:ENT-0001' / '01:ENT-001#2'。
+--   故本表的 target_uid 可能对应多个候选（见 target_ambiguous），
+--   查询端用 CANONICAL 归一后的 nodes 判同。
+CREATE TABLE IF NOT EXISTS record_refs (
+  ref_id         TEXT PRIMARY KEY,       -- book_id:layer_key:local_id:field#n
+  book_id        TEXT NOT NULL,
+  layer_key      TEXT NOT NULL,
+  local_id       TEXT NOT NULL,         -- 引用方记录
+  field          TEXT NOT NULL,         -- 'cited_ent_ids'/'author_ent_ids'/...
+  role           TEXT,                  -- 语义角色：cited/author/agent/subject/...
+  raw_target     TEXT NOT NULL,         -- payload 里的裸 ID
+  target_text    TEXT,                  -- 同一对象里的可读名（若随行）
+  target_uid     TEXT,                  -- 解析到的 nodes.uid（唯一时）
+  target_ambiguous INTEGER DEFAULT 0,   -- 1 = 裸 ID 跨卷重名，未唯一解析
+  item_id        TEXT,
+  volume         TEXT,
+  FOREIGN KEY (book_id, layer_key, local_id) REFERENCES records(book_id, layer_key, local_id)
+);
+CREATE INDEX IF NOT EXISTS idx_refs_target ON record_refs(target_uid);
+CREATE INDEX IF NOT EXISTS idx_refs_field  ON record_refs(field);
+CREATE INDEX IF NOT EXISTS idx_refs_src    ON record_refs(book_id, layer_key, local_id);
+
+-- ============================================================
+-- Tier 2c：人工裁决（F4）
+-- T3 自动消歧会产生同名异人的误并（status='conflict'）。
+-- 人工裁决必须【独立于 transform 可重跑】——否则一重跑就被覆盖。
+-- 故裁决单独存表，transform 之后由 replay_overrides() 重放。
+-- ============================================================
+
+-- 人工裁决：锁定（确认同一人，确认合并）/ 解除（确认不同人，拆出）
+--   action = 'lock'   → 成员强制留在 canonical，status 置 'locked'，T3 不得拆
+--   action = 'reject' → 成员移出 canonical 成为独立节点，status 置 'rejected'
+-- 幂等键 (uid)：一个 uid 至多一条有效裁决，后写覆盖先写。
+CREATE TABLE IF NOT EXISTS member_overrides (
+  uid            TEXT PRIMARY KEY,       -- 被裁决的 nodes.uid
+  action         TEXT NOT NULL,          -- lock | reject
+  canonical_id   TEXT,                  -- lock 时所属 canonical；reject 时记原属
+  reason         TEXT,
+  decided_by     TEXT,
+  decided_at     TEXT,
+  created_at     TEXT
+);
+
+-- 裁决审计日志（只增不改）
+CREATE TABLE IF NOT EXISTS override_log (
+  log_id         INTEGER PRIMARY KEY AUTOINCREMENT,
+  uid            TEXT,
+  action         TEXT,
+  canonical_id   TEXT,
+  reason         TEXT,
+  decided_by     TEXT,
+  decided_at     TEXT
+);
+
+-- ============================================================
 -- 枚举与校验
 -- ============================================================
 

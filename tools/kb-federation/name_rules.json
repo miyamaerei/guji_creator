@@ -1,66 +1,200 @@
 {
   "version": 1,
   "_comment": "名字归一化规则（配置驱动，不写死变体类型）。新增一种称呼/变体，只往对应分组加 token，不用改代码。匹配逻辑只泛化地处理这份配置。",
-
   "decoration_groups": {
-    "_comment": "装饰词按出现位置分三组。匹配器对每个 surface 依次剥离这些 token 得到 base 形式。",
+    "_comment": "装饰词按出现位置按出现位置分组。匹配器对每个 surface 依次剥离这些 token 得到 base 形式。",
     "honorific_suffix": [
-      "公", "翁", "老", "先生", "山人", "居士", "夫子", "君", "郎", "卿",
-      "侯", "伯", "子", "父", "叟", "生", "丈", "阁老", "相公", "道人", "道长"
+      "公",
+      "翁",
+      "老",
+      "先生",
+      "山人",
+      "居士",
+      "夫子",
+      "君",
+      "郎",
+      "卿",
+      "侯",
+      "伯",
+      "子",
+      "父",
+      "叟",
+      "生",
+      "丈",
+      "阁老",
+      "相公",
+      "道人",
+      "道长"
     ],
     "title_prefix": [
-      "太师", "少师", "太傅", "少傅", "太保", "少保", "太子太师", "太子少师",
-      "学士", "尚书", "侍郎", "御史", "巡抚", "总督", "知府", "知县",
-      "刺史", "太守", "京尹", "尹", "丞", "令", "将军", "都督", "都御史",
-      "给事中", "编修", "祭酒", "郎中", "员外郎", "主事", "提学", "提刑",
-      "按察使", "布政使", "参政", "参议", "通判", "推官", "教谕", "训导",
-      "太宰", "司徒", "司空", "大宗伯", "大司马", "大司寇", "大司农"
+      "太师",
+      "少师",
+      "太傅",
+      "少傅",
+      "太保",
+      "少保",
+      "太子太师",
+      "太子少师",
+      "学士",
+      "尚书",
+      "侍郎",
+      "御史",
+      "巡抚",
+      "总督",
+      "知府",
+      "知县",
+      "刺史",
+      "太守",
+      "京尹",
+      "尹",
+      "丞",
+      "令",
+      "将军",
+      "都督",
+      "都御史",
+      "给事中",
+      "编修",
+      "祭酒",
+      "郎中",
+      "员外郎",
+      "主事",
+      "提学",
+      "提刑",
+      "按察使",
+      "布政使",
+      "参政",
+      "参议",
+      "通判",
+      "推官",
+      "教谕",
+      "训导",
+      "太宰",
+      "司徒",
+      "司空",
+      "大宗伯",
+      "大司马",
+      "大司寇",
+      "大司农"
     ],
     "place_suffix": [
-      "先生", "居士", "山人", "翁", "公"
+      "先生",
+      "居士",
+      "山人",
+      "翁",
+      "公"
     ],
+    "wrapping_marks": {
+      "_comment": "包裹式标记：古籍书名/篇名常加书名号（《礼记》），两书同指一部书时一处带一号不带，必须剥掉才能对齐。配置驱动：pairs 是「起始符→终止符」配对；singles 是自闭合/单侧也该剥的符号。新增标记只改这里。",
+      "pairs": [
+        [
+          "《",
+          "》"
+        ],
+        [
+          "〈",
+          "〉"
+        ],
+        [
+          "「",
+          "」"
+        ],
+        [
+          "『",
+          "』"
+        ],
+        [
+          "〖",
+          "〗"
+        ],
+        [
+          "【",
+          "】"
+        ],
+        [
+          "（",
+          "）"
+        ]
+      ],
+      "singles": [
+        "*",
+        "†"
+      ]
+    },
+    "work_tail_suffix": {
+      "_comment": "书名尾缀：'礼记正义'/'礼记集说' 实为《礼记》的注本，尾字为注本标识时可回落到书名本身做对齐（仅当剥离后剩余≥2字，避免把'四书'之类切碎）。",
+      "tokens": [
+        "正义",
+        "集说",
+        "集注",
+        "注疏",
+        "疏",
+        "正义本",
+        "译注",
+        "笺",
+        "疏义"
+      ]
+    },
     "posthumous_marker": [
-      "谥", "追谥", "赠", "追赠"
+      "谥",
+      "追谥",
+      "赠",
+      "追赠"
     ]
   },
-
-  "strip_order": ["title_prefix", "posthumous_marker", "honorific_suffix", "place_suffix"],
-
+  "strip_order": [
+    "wrapping_marks",
+    "title_prefix",
+    "posthumous_marker",
+    "honorific_suffix",
+    "place_suffix",
+    "work_tail_suffix"
+  ],
   "match_confidence": {
     "exact_normalized": 0.98,
-    "surface_alias": 0.90,
+    "surface_alias": 0.9,
     "normalized_stripped": 0.65,
     "relation_propagated": 0.55,
-    "heuristic_token": 0.40
+    "heuristic_token": 0.4
   },
-
   "_type_policy_comment": "同名异人 / 泛称角色的风险控制：work/place/era/institution 等实体跨书同名基本可断定同一，故 exact 置信高；person 存在同名异人、official/quantity 等是泛称角色，exact 置信封顶，避免误并。查询端按此置信度呈现。",
   "type_confidence_cap": {
     "person": 0.85,
-    "official": 0.60,
-    "org": 0.60,
-    "unknown": 0.60,
-    "quantity": 0.60,
-    "document": 0.70,
-    "behavior": 0.70,
-    "time": 0.70,
-    "doc": 0.70
+    "official": 0.6,
+    "org": 0.6,
+    "unknown": 0.6,
+    "quantity": 0.6,
+    "document": 0.7,
+    "behavior": 0.7,
+    "time": 0.7,
+    "doc": 0.7
   },
-
   "confidence_floor": 0.35,
   "relation_boost_per_edge": 0.08,
-  "relation_boost_cap": 0.20,
-
+  "relation_boost_cap": 0.2,
   "ent_keys_paths": {
     "_comment": "两级接入：标准接入路径（若有且结构标准则读 alias 列表）；缺失则走特殊接入（从 records 抽取）。键=book_id。",
     "sdr": "shuidongriji-kb/data/ent/ent_keys.json",
     "xgf": "xinguanguifan-kb/新官轨范_实体_主键表.json",
     "xyf": "xianjinyifeng-kb/05-xianjinyifeng-knowledge/data/_layers/ent_keys.json"
   },
-
   "ent_keys_schema": {
-    "sdr": {"entities": "normalized_inventory", "normalized": "normalized", "aliases": null, "type": "type"},
-    "xgf": {"entities": "entities", "normalized": "normalized", "aliases": null, "type": "type"},
-    "xyf": {"entities": null, "normalized": "normalized", "aliases": null, "type": "type"}
+    "sdr": {
+      "entities": "normalized_inventory",
+      "normalized": "normalized",
+      "aliases": null,
+      "type": "type"
+    },
+    "xgf": {
+      "entities": "entities",
+      "normalized": "normalized",
+      "aliases": null,
+      "type": "type"
+    },
+    "xyf": {
+      "entities": null,
+      "normalized": "normalized",
+      "aliases": null,
+      "type": "type"
+    }
   }
 }

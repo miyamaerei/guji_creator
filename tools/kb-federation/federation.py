@@ -6,9 +6,17 @@
   extract    仅抽取中间表（不入库，调试用）
   load       装载单书
   load-all   六书全量装载（F2）
-  transform  T0–T3 去歧义（F3）：nodes/edges/canonical/members，名字归一配置驱动
+  transform  T0–T3 去歧义（F3）+ 引用物化 + 裁决重放（F4）：nodes/edges/
+             record_refs/canonical/members，名字归一配置驱动
   search     跨书搜索一个名字，返回全部成员 + 方法 + 置信度
   resolve    逐书解析一个名字（T1），看每个书里落到哪个 ent
+  refs       重建 record_refs（物化 payload 内 *_ent_ids 引用边）
+  assoc      关联查询（F4 十个：identity_bridge/person_network/career_chain/
+             citation_network/work_author/place_culture/object_lineage/
+             event_opinion/parallel_reading/dangling_refs）
+  conflicts  待人工复核的 conflict 成员
+  lock       人工裁决（--action lock 确认同人 / reject 解除误并）
+  unlock     撤销人工裁决
 
 用法：
   python federation.py create
@@ -19,6 +27,11 @@
   python federation.py transform
   python federation.py search 王忠毅公
   python federation.py resolve 王忠毅公
+  python federation.py refs
+  python federation.py assoc identity_bridge --name 苏轼
+  python federation.py conflicts --limit 5
+  python federation.py lock kzz:01:ENT-0136 --action lock --reason 确为同一人
+  python federation.py unlock kzz:01:ENT-0136
 
 零第三方依赖。所有路径相对仓库根解析，搬到任意机器都能跑。
 """
@@ -42,6 +55,9 @@ from extract import extract_book  # noqa: E402
 from transform import run_transform  # noqa: E402
 from query import FederationQuery  # noqa: E402
 from name_resolver import load_rules  # noqa: E402
+from assoc import AssocQuery  # noqa: E402
+from curate import decide, list_conflicts, review_stats, undecide  # noqa: E402
+from refs import materialize_refs  # noqa: E402
 
 # F2 装载顺序：先装最规整的 xyf 探路，再铺其余五本
 LOAD_ORDER = ["xyf", "kzz", "wzz", "sdr", "qb", "xgf"]
@@ -168,6 +184,81 @@ def cmd_resolve(args):
     con.close()
 
 
+def cmd_assoc(args):
+    """执行关联查询（F4 的十个查询之一）。"""
+    con = connect(args.db)
+    ensure_schema(con)
+    aq = AssocQuery(con)
+    kw = {"limit": args.limit}
+    for k in ("name", "work", "author", "place", "keyword", "book_id"):
+        v = getattr(args, k, None)
+        if v:
+            kw[k] = v
+    if getattr(args, "predicates", None):
+        kw["predicates"] = [p.strip() for p in args.predicates.split(",") if p.strip()]
+    try:
+        out = getattr(aq, args.query)(**kw)
+    except AttributeError:
+        print(f"✗ 未知查询：{args.query}")
+        print("  可用：" + " / ".join(aq and [c["name"] for c in aq.catalog()]))
+        con.close()
+        return
+    print(json.dumps(out, ensure_ascii=False, indent=2))
+    con.close()
+
+
+def cmd_conflicts(args):
+    """待人工复核的 conflict 成员。"""
+    con = connect(args.db)
+    ensure_schema(con)
+    print(json.dumps(review_stats(con), ensure_ascii=False))
+    for c in list_conflicts(con, limit=args.limit, book_id=args.book):
+        print(f"\n  {c['canonical_id']}  代表={c['canonical_repr']!r}({c['canonical_type']})")
+        print(f"    待判 {c['book']}:{c['uid'].split(':', 1)[1]}  {c['label']!r}  "
+              f"{c['method']}={c['confidence']}")
+        for s in c["siblings"]:
+            print(f"      兄弟 {s['book']}:{s['uid'].split(':', 1)[1]}  {s['label']!r}  "
+                  f"{s['confidence']} [{s['status']}]")
+        print(f"    建议：{c['suggestion']}")
+    con.close()
+
+
+def cmd_lock(args):
+    """人工裁决：--action lock（确认同人）/ reject（解除误并）。"""
+    con = connect(args.db)
+    ensure_schema(con)
+    try:
+        out = decide(con, args.uid, args.action, canonical_id=args.canonical_id,
+                     reason=args.reason, decided_by="cli")
+    except ValueError as e:
+        print("✗ %s" % e)
+        con.close()
+        return
+    print(json.dumps(out, ensure_ascii=False))
+    print("（裁决已记录；重跑 transform 会由 replay_overrides 自动重放）")
+    con.close()
+
+
+def cmd_unlock(args):
+    """撤销人工裁决。"""
+    con = connect(args.db)
+    ensure_schema(con)
+    try:
+        print(json.dumps(undecide(con, args.uid), ensure_ascii=False))
+    except ValueError as e:
+        print("✗ %s" % e)
+    con.close()
+
+
+def cmd_refs(args):
+    """重建 record_refs（物化 payload 内的 *_ent_ids 引用边）。"""
+    con = connect(args.db)
+    ensure_schema(con)
+    stats = materialize_refs(con, book_id=args.book)
+    print(json.dumps(stats, ensure_ascii=False))
+    con.close()
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="federation", description="古籍联邦库 ELT")
     sub = p.add_subparsers(dest="cmd")
@@ -189,7 +280,7 @@ def build_parser():
     pa = sub.add_parser("load-all", help="六书全量装载（F2）")
     pa.add_argument("--db", default=DEFAULT_DB)
 
-    pt = sub.add_parser("transform", help="T0–T3 去歧义（F3）")
+    pt = sub.add_parser("transform", help="T0–T3 去歧义 + 引用物化 + 裁决重放（F3/F4）")
     pt.add_argument("--db", default=DEFAULT_DB)
 
     ps = sub.add_parser("search", help="跨书搜索（带置信度）")
@@ -201,6 +292,35 @@ def build_parser():
     pr = sub.add_parser("resolve", help="逐书解析一个名字（T1）")
     pr.add_argument("name")
     pr.add_argument("--db", default=DEFAULT_DB)
+
+    pref = sub.add_parser("refs", help="重建 record_refs（物化引用边）")
+    pref.add_argument("--db", default=DEFAULT_DB)
+    pref.add_argument("--book", default=None, help="只重建某书（缺省全库）")
+
+    pas = sub.add_parser("assoc", help="关联查询（F4 十个查询之一）")
+    pas.add_argument("query")
+    pas.add_argument("--db", default=DEFAULT_DB)
+    pas.add_argument("--limit", type=int, default=20)
+    for k, h in (("name", "人名/名物名"), ("work", "被引书名"),
+                 ("author", "作者名"), ("place", "地名"),
+                 ("keyword", "关键词"), ("predicates", "关系类型过滤（逗号分隔）")):
+        pas.add_argument("--" + k, default=None, help=h)
+
+    pcf = sub.add_parser("conflicts", help="待人工复核的 conflict 成员")
+    pcf.add_argument("--db", default=DEFAULT_DB)
+    pcf.add_argument("--limit", type=int, default=10)
+    pcf.add_argument("--book", default=None)
+
+    plk = sub.add_parser("lock", help="人工裁决（lock 确认同人 / reject 解除误并）")
+    plk.add_argument("uid")
+    plk.add_argument("--action", default="lock", choices=["lock", "reject"])
+    plk.add_argument("--canonical-id", default=None)
+    plk.add_argument("--reason", default=None)
+    plk.add_argument("--db", default=DEFAULT_DB)
+
+    pul = sub.add_parser("unlock", help="撤销人工裁决")
+    pul.add_argument("uid")
+    pul.add_argument("--db", default=DEFAULT_DB)
 
     return p
 
@@ -223,6 +343,16 @@ def main(argv=None):
         cmd_search(args)
     elif args.cmd == "resolve":
         cmd_resolve(args)
+    elif args.cmd == "refs":
+        cmd_refs(args)
+    elif args.cmd == "assoc":
+        cmd_assoc(args)
+    elif args.cmd == "conflicts":
+        cmd_conflicts(args)
+    elif args.cmd == "lock":
+        cmd_lock(args)
+    elif args.cmd == "unlock":
+        cmd_unlock(args)
     else:
         build_parser().print_help()
 

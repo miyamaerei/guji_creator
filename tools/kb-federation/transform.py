@@ -357,10 +357,21 @@ def _label_of(con, uid):
 # 编排
 # ---------------------------------------------------------------------------
 def run_transform(con, rules=None, commit=True):
+    """T0–T3 全跑 + 物化引用 + 重放人工裁决。
+
+    顺序理由：refs 依赖 nodes（要先有 uid），裁决重放必须在 T3 之后
+    （T3 会重建 canonical/members，把人工裁决冲掉）。
+    """
+    from refs import materialize_refs  # 局部导入避免环
+    from curate import replay_overrides
+
     rules = rules or load_rules()
     out = {}
     out["nodes"] = build_nodes(con, rules)
     out["edges"], out["pending"] = build_edges(con, rules)
+    out["refs"] = materialize_refs(con)
     out["candidates"] = build_candidates(con, rules)
     out["t3"] = disambiguate(con, rules, commit=commit)
+    # 人工裁决重放：让「一切可重跑」与人工介入共存
+    out["overrides"] = replay_overrides(con)
     return out
