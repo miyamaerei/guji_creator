@@ -1,0 +1,43 @@
+=== L1 实体层构建报告 ===
+卷: 01,02,03,04,05
+标注记录: 3261
+归一实体: 2154
+主键范围: ENT-0001 ~ ENT-2154
+ENT 总数 == 产物唯一 ent_id: 是
+
+--- 类型分布 ---
+  institution    657
+  official       579
+  place          285
+  system         232
+  era            224
+  person         83
+  doc            59
+  quantity       26
+  work           7
+  posthumous     2
+
+--- 高频实体 Top20 ---
+  ENT-0001   经历           official   count=22
+  ENT-0002   守备           official   count=21
+  ENT-0003   分守参将         official   count=19
+  ENT-0004   副使           official   count=19
+  ENT-0005   大使           official   count=18
+  ENT-0006   吴元年          era        count=17
+  ENT-0007   卿            official   count=16
+  ENT-0008   游击将军         official   count=16
+  ENT-0009   经历司          institution count=16
+  ENT-0010   司务           official   count=15
+  ENT-0011   吏目           official   count=15
+  ENT-0012   照磨           official   count=15
+  ENT-0013   尚书           official   count=14
+  ENT-0014   主簿           official   count=13
+  ENT-0015   少卿           official   count=13
+  ENT-0016   洪武元年         era        count=12
+  ENT-0017   司狱           official   count=11
+  ENT-0018   把总           official   count=11
+  ENT-0019   知事           official   count=11
+  ENT-0020   郎中           official   count=11
+
+--- ERR (0) ---
+--- GAP text未命中原文 (0，不计为错误但须复核) ---
