@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""卷14 刑名部四·实体（人命上 7 条）。"""
+RECORDS = [
+    {"item_id": "14-001", "text": "七杀", "type": "system", "normalized": "七杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "劫杀", "type": "system", "normalized": "劫杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "谋杀", "type": "system", "normalized": "谋杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "故杀", "type": "system", "normalized": "故杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "鬬殴杀", "type": "system", "normalized": "鬬殴杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "误杀", "type": "system", "normalized": "误杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "戏杀", "type": "system", "normalized": "戏杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "过失杀", "type": "system", "normalized": "过失杀", "confidence": "high"},
+    {"item_id": "14-001", "text": "威逼致死", "type": "system", "normalized": "威逼致死", "confidence": "high"},
+    {"item_id": "14-001", "text": "保辜", "type": "system", "normalized": "保辜", "confidence": "high"},
+    {"item_id": "14-001", "text": "庄头", "type": "person", "normalized": "庄头", "confidence": "high"},
+    {"item_id": "14-001", "text": "乡约", "type": "person", "normalized": "乡约", "confidence": "high"},
+    {"item_id": "14-001", "text": "仵作", "type": "person", "normalized": "仵作", "confidence": "high"},
+    {"item_id": "14-001", "text": "皋陶", "type": "person", "normalized": "皋陶", "confidence": "high"},
+    {"item_id": "14-001", "text": "郯城", "type": "place", "normalized": "郯城", "confidence": "high"},
+    {"item_id": "14-001", "text": "归冒", "type": "place", "normalized": "归冒", "confidence": "high"},
+    {"item_id": "14-001", "text": "王氏", "type": "person", "normalized": "王氏", "confidence": "high"},
+    {"item_id": "14-001", "text": "高某", "type": "person", "normalized": "高某", "confidence": "high"},
+    {"item_id": "14-001", "text": "曹氏", "type": "person", "normalized": "曹氏", "confidence": "high"},
+    {"item_id": "14-001", "text": "谢某", "type": "person", "normalized": "谢某", "confidence": "high"},
+    {"item_id": "14-001", "text": "三官庙", "type": "place", "normalized": "三官庙", "confidence": "high"},
+]

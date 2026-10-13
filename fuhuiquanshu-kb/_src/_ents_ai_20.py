@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""卷20 刑名部十·实体（4 条）。"""
+RECORDS = [
+    {"item_id": "20-001", "text": "访犯", "type": "person", "normalized": "访犯", "confidence": "high"},
+    {"item_id": "20-001", "text": "恶犯", "type": "person", "normalized": "恶犯", "confidence": "high"},
+    {"item_id": "20-001", "text": "衙蠹", "type": "person", "normalized": "衙蠹", "confidence": "high"},
+    {"item_id": "20-001", "text": "造访", "type": "system", "normalized": "造访", "confidence": "high"},
+    {"item_id": "20-001", "text": "窝访", "type": "system", "normalized": "窝访", "confidence": "high"},
+    {"item_id": "20-001", "text": "卖访", "type": "system", "normalized": "卖访", "confidence": "high"},
+    {"item_id": "20-001", "text": "做访", "type": "system", "normalized": "做访", "confidence": "high"},
+    {"item_id": "20-001", "text": "换访", "type": "system", "normalized": "换访", "confidence": "high"},
+    {"item_id": "20-001", "text": "借访", "type": "system", "normalized": "借访", "confidence": "high"},
+    {"item_id": "20-001", "text": "王汤谷", "type": "person", "normalized": "王汤谷", "confidence": "high"},
+    {"item_id": "20-002", "text": "媒妁", "type": "person", "normalized": "媒妁", "confidence": "high"},
+    {"item_id": "20-002", "text": "聘定", "type": "system", "normalized": "聘定", "confidence": "high"},
+    {"item_id": "20-002", "text": "承继", "type": "system", "normalized": "承继", "confidence": "high"},
+    {"item_id": "20-003", "text": "谋反", "type": "system", "normalized": "谋反", "confidence": "high"},
+    {"item_id": "20-003", "text": "大逆", "type": "system", "normalized": "大逆", "confidence": "high"},
+    {"item_id": "20-003", "text": "谋叛", "type": "system", "normalized": "谋叛", "confidence": "high"},
+    {"item_id": "20-003", "text": "反叛", "type": "system", "normalized": "反叛", "confidence": "high"},
+    {"item_id": "20-004", "text": "六赃", "type": "system", "normalized": "六赃", "confidence": "high"},
+    {"item_id": "20-004", "text": "监守盗", "type": "system", "normalized": "监守盗", "confidence": "high"},
+    {"item_id": "20-004", "text": "常人盗", "type": "system", "normalized": "常人盗", "confidence": "high"},
+    {"item_id": "20-004", "text": "枉法赃", "type": "system", "normalized": "枉法赃", "confidence": "high"},
+    {"item_id": "20-004", "text": "不枉法赃", "type": "system", "normalized": "不枉法赃", "confidence": "high"},
+    {"item_id": "20-004", "text": "窃盗赃", "type": "system", "normalized": "窃盗赃", "confidence": "high"},
+    {"item_id": "20-004", "text": "坐赃", "type": "system", "normalized": "坐赃", "confidence": "high"},
+]

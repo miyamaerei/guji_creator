@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""卷04 莅任部三·实体（16 条全）。"""
+RECORDS = [
+    {"item_id": "04-002", "text": "郯城", "type": "place", "normalized": "郯城", "confidence": "high"},
+    {"item_id": "04-002", "text": "东光", "type": "place", "normalized": "东光", "confidence": "high"},
+    {"item_id": "04-002", "text": "施公", "type": "person", "normalized": "方伯施公", "confidence": "high"},
+    {"item_id": "04-002", "text": "方伯", "type": "official", "normalized": "方伯", "confidence": "high"},
+    {"item_id": "04-002", "text": "抚军", "type": "official", "normalized": "抚军", "confidence": "high"},
+    {"item_id": "04-002", "text": "大中丞", "type": "official", "normalized": "大中丞", "confidence": "high"},
+    {"item_id": "04-002", "text": "学使", "type": "official", "normalized": "学使", "confidence": "high"},
+    {"item_id": "04-002", "text": "即墨", "type": "place", "normalized": "即墨", "confidence": "high"},
+    {"item_id": "04-002", "text": "朱君", "type": "person", "normalized": "即墨令朱君", "confidence": "medium"},
+    {"item_id": "04-002", "text": "臬宪", "type": "official", "normalized": "臬宪", "confidence": "medium"},
+    {"item_id": "04-004", "text": "坡公", "type": "person", "normalized": "苏轼", "confidence": "high"},
+    {"item_id": "04-004", "text": "大禹", "type": "person", "normalized": "大禹", "confidence": "high"},
+    {"item_id": "04-007", "text": "营官", "type": "official", "normalized": "营官", "confidence": "high"},
+    {"item_id": "04-007", "text": "守备", "type": "official", "normalized": "守备", "confidence": "high"},
+    {"item_id": "04-007", "text": "千把总", "type": "official", "normalized": "千把总", "confidence": "high"},
+    {"item_id": "04-007", "text": "交河", "type": "place", "normalized": "交河", "confidence": "high"},
+    {"item_id": "04-007", "text": "乐陵", "type": "place", "normalized": "乐陵", "confidence": "high"},
+    {"item_id": "04-009", "text": "马快", "type": "person", "normalized": "马快", "confidence": "high"},
+    {"item_id": "04-010", "text": "柬房", "type": "institution", "normalized": "柬房", "confidence": "high"},
+    {"item_id": "04-010", "text": "阴阳生", "type": "person", "normalized": "阴阳生", "confidence": "high"},
+    {"item_id": "04-012", "text": "贤否册", "type": "doc", "normalized": "贤否册", "confidence": "high"},
+    {"item_id": "04-012", "text": "宪纲册", "type": "doc", "normalized": "宪纲册", "confidence": "high"},
+    {"item_id": "04-012", "text": "揭帖", "type": "doc", "normalized": "揭帖", "confidence": "high"},
+    {"item_id": "04-012", "text": "吏书勤惰册", "type": "doc", "normalized": "吏书勤惰册", "confidence": "high"},
+]
