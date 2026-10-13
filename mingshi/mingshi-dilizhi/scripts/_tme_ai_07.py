@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+"""试点源数据：卷07 TME 时间沿革（云南布政司/纳楼茶甸长官司沿革）。"""
+
+TME_AI = [
+    {
+        "slot": 1,
+        "item_id": "07-001",
+        "reign": "洪武",
+        "year": 15,
+        "era_raw": "洪武十五年二月癸丑",
+        "category": "初置",
+        "event": "平云南，置云南都指挥使司",
+        "place": "云南",
+    },
+    {
+        "slot": 2,
+        "item_id": "07-001",
+        "reign": "洪武",
+        "year": 15,
+        "era_raw": "乙卯",
+        "category": "初置",
+        "event": "置云南等处承宣布政使司",
+        "place": "云南",
+    },
+    {
+        "slot": 3,
+        "item_id": "07-002",
+        "reign": "洪武",
+        "year": 15,
+        "era_raw": "洪武十五年正月",
+        "category": "改称",
+        "event": "改为云南府",
+        "place": "云南府",
+    },
+    {
+        "slot": 4,
+        "item_id": "07-036",
+        "reign": "洪武",
+        "year": 15,
+        "era_raw": "洪武十五年",
+        "category": "初置",
+        "event": "置纳楼千户所，属和泥府",
+        "place": "纳楼茶甸长官司",
+    },
+    {
+        "slot": 5,
+        "item_id": "07-036",
+        "reign": "洪武",
+        "year": 17,
+        "era_raw": "十七年四月",
+        "category": "改置",
+        "event": "改置为长官司",
+        "place": "纳楼茶甸长官司",
+    },
+]
