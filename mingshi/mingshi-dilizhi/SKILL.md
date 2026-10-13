@@ -133,7 +133,7 @@ description: 《明史·地理志》（卷四十～四十六，地理一～七�
   - 山川水体：河/江/湖/淀/泉/池/溪/海/渠/井（白河/桑乾河/滹沱河/淇水/汉水/太湖/洞庭/鄱阳…）。
   - 卫所关隘：都指挥使司/行都司/留守司/卫/守御千户所/千户所/百户所/巡检司/关/堡/驿/递运所/站/镇。
   - 资源：盐场/盐井/盐池/银/金/铜/铁/水银/硃砂/锡/铅/矾。
-  - 年号：洪武/建文/永乐/洪熙/宣德/正统/景泰/天顺/成化/弘治/正德/嘉靖/隆庆/万历/泰昌/天启/崇祯。
+  - 年号（明）：洪武/建文/永乐/洪熙/宣德/正统/景泰/天顺/成化/弘治/正德/嘉靖/隆庆/万历/泰昌/天启/崇祯；（**元，v1.1 补**）：中统/至元/元贞/大德/至大/皇庆/延祐/至治/泰定/致和/至顺/元统/至正 + 通用桶「元」——政区沿革常自元起笔。
   - 引书：《禹贡》《元史志》。
   - 数字：编户X口X/里X/距X里（数量级核对用 `cn2int`，含「有奇/馀」后缀）。
 
@@ -152,7 +152,7 @@ description: 《明史·地理志》（卷四十～四十六，地理一～七�
     "place": "顺天府", "ent_ids": ["ENT-0001"]   # 涉及地名实体
   }
   ```
-- **时间排序键**：`REIGN_ORDER`（吴→崇祯 18 帝 + 建文），时间链排序键 = `(reign_order, year)`（`_kg_enums.time_key`）。
+- **时间排序键**：`REIGN_ORDER`（**v1.1 起含元代**：通用桶「元」→中统→…→至正，皆排在吴/明之前；明纪年 吴→崇祯 18 帝 + 建文，序值不变），时间链排序键 = `(reign_order, year)`（`_kg_enums.time_key`）。
 - **统计对照基准**：全书年号纪年约 **2573 处**（提取量下限；实测后对照）。
 
 ## 5. 结构化层方案（L4，启用——本书定制四维）+ RES
@@ -305,7 +305,7 @@ description: 《明史·地理志》（卷四十～四十六，地理一～七�
 - `references/schemas.md`：本实例启用层的具体 schema、枚举、ID、**问句验收清单**、**示例条目**（写源数据/打包器时读）
 - `scripts/build_base.py`：底座打包器（切分 1958 条 + 章节 + `_extract/` + 指纹库）
 - `scripts/_common.py`：公共基座 = 工厂骨架 `packer_skeleton.py` v13（A/B/G/P 四族护栏）+ 地理志专用段（VOL_MAP / split_entries 短无句号段判据 / norm_text 覆盖增强 / 层读写 / 卷迭代）
-- `scripts/_kg_enums.py`：**枚举单点治理**（当前 `VERSION = "1.0"`；含 ENTITY_TYPES / TME_CATEGORIES / GEO_LEVELS / GEO_NODES / TUSI_TYPES / TUSI_GOVERN / GEOTOBEARINGS / EVO_TYPES / HYD_TYPES / HYD_EVENTS / GAR_TYPES / GAR_TERRITORIAL / GAR_DUSI / RES_TYPES / REIGN_ORDER / GEO_LEVEL_ORDER / ID_PREFIX）
+- `scripts/_kg_enums.py`：**枚举单点治理**（当前 `VERSION = "1.1"`；含 ENTITY_TYPES / TME_CATEGORIES / GEO_LEVELS / GEO_NODES / TUSI_TYPES / TUSI_GOVERN / GEOTOBEARINGS / EVO_TYPES / HYD_TYPES / HYD_EVENTS / GAR_TYPES / GAR_TERRITORIAL / GAR_DUSI / RES_TYPES / REIGN_ORDER（v1.1 补元代年号）/ GEO_LEVEL_ORDER / ID_PREFIX）
 - `scripts/self_test.py`：骨架功能自检（A/B/G/P 四族护栏，PASS 36/36）
 - `_layers/`（带下划线）：各层归一数据——`ents/` `tmes/` `geos/` `evos/` `hyds/` `gars/` `ress/`
 - `_views/`：派生查询视图——`geo_tree.json`（全书政区树）/ `timeline/`（政区时间轴）
