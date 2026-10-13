@@ -1,5 +1,6 @@
 # ---------- 联邦库（可重建派生库，不入仓）----------
 tools/kb-federation/kb.sqlite
+tools/kb-federation/kb_dw.sqlite
 tools/kb-federation/*.sqlite.bak_*
 
 # ============================================================
@@ -52,6 +53,24 @@ _legacy/
 _selftest_last.txt
 _tmp_*.txt
 _tmp_*.json
+_tmp_*
+# 单轮调试残留：_pb.py / _q5.txt / _p39.txt 一类根级散落脚本与探针输出
+/_*.py
+/_*.txt
+/_*.json
+# 冒烟/临时探针脚本（各书工程内的 _scratch_*、_probe* 等）
+_scratch_*
+_probe*
+# sqlite 备份命名变体（bak 用 '-' 分隔时 *.sqlite.bak_* 规则漏网）
+*.sqlite.bak-*
+*.sqlite.bak-*/
+# 根级空 sqlite 占位
+/kb.sqlite
+# 多轮对话临时启动标记
+/billion-context-start.json
+# DSH 内部结构一次性探针（asar 扫描，用完即弃）
+asar-scan*.mjs
+asal-scan*.mjs
 
 # ---------- 机器产物：底座切分（build_base.py 可重建）----------
 _extract/

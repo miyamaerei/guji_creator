@@ -8,9 +8,55 @@
 """
 
 import json
+import os
+import subprocess
 
-from kbdb import upsert, wipe_book, md5, now
-from adapters import make_adapter, LAYER_DECL, BOOK_REGISTRY, BOOK_NAMES
+from kbdb import upsert, wipe_book, md5, now, REPO_ROOT
+from adapters import make_adapter, LAYER_DECL, BOOK_REGISTRY, BOOK_NAMES, book_source_root
+
+
+def source_rev(book_id):
+    """源工程目录的快照 id —— 增量水印（见 docs/联邦库原表增量与稀疏诊断.md §1）。
+
+    优先取「最近一次触及该目录的 git 提交」(git log -1 --format=%H -- <dir>)：
+    仅当该书源被提交改动时 rev 才变，符合 git 工作流。
+    若 git 不可用 / 目录不存在 / 尚未提交，退回「目录内容指纹」(文件名+大小+mtime 的 md5)，
+    连未提交的改动也能感知。
+    """
+    root = book_source_root(book_id)
+    try:
+        out = subprocess.run(
+            ["git", "-C", REPO_ROOT, "log", "-1", "--format=%H", "--", root],
+            capture_output=True, text=True, timeout=15,
+        )
+        h = (out.stdout or "").strip()
+        if h:
+            return h
+    except Exception:
+        pass
+    # 退回目录内容指纹
+    try:
+        h = hashlib_md5()
+        if not os.path.isdir(root):
+            return None
+        for dirpath, _, fnames in os.walk(root):
+            for f in sorted(fnames):
+                fp = os.path.join(dirpath, f)
+                try:
+                    st = os.stat(fp)
+                    h.update(f.encode("utf-8"))
+                    h.update(str(st.st_size).encode())
+                    h.update(str(int(st.st_mtime)).encode())
+                except OSError:
+                    continue
+        return "dir:" + h.hexdigest()
+    except Exception:
+        return None
+
+
+def hashlib_md5():
+    import hashlib
+    return hashlib.md5()
 
 
 def register_catalog(con, book_id, slices):
@@ -27,6 +73,7 @@ def register_catalog(con, book_id, slices):
                 "source_root": reg["root"],
                 "schema_version": 1,
                 "loaded_at": now(),
+                "source_rev": source_rev(book_id),
             }
         ],
         ["book_id"],

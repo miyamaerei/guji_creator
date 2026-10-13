@@ -28,9 +28,17 @@ def connect(path):
 
 
 def ensure_schema(con):
-    """执行 schema.sql（FTS5 段为注释，无害）；若 FTS5 可用则建 fts_nodes。"""
+    """执行 schema.sql（FTS5 段为注释，无害）；若 FTS5 可用则建 fts_nodes。
+
+    幂等 ALTER：schema.sql 用 CREATE TABLE IF NOT EXISTS，对已存在的旧表不会加新列，
+    故这里对新增列做防御性 ALTER（列已存在则静默跳过）。
+    """
     sql = open(SCHEMA_PATH, encoding="utf-8").read()
     con.executescript(sql)
+    try:
+        con.execute("ALTER TABLE books ADD COLUMN source_rev TEXT")
+    except sqlite3.OperationalError:
+        pass  # 列已存在（新版 schema 已含）
     try:
         con.execute(
             "CREATE VIRTUAL TABLE IF NOT EXISTS fts_nodes "

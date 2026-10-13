@@ -30,7 +30,8 @@ CREATE TABLE IF NOT EXISTS books (
   status         TEXT DEFAULT 'active', -- active | deprecated
   schema_version INTEGER,               -- 本书产物版本号
   loaded_at      TEXT,                  -- 最近装载时间（ISO8601）
-  checksum       TEXT                   -- 源快照校验，用于幂等判断
+  checksum       TEXT,                  -- 内容指纹（records 级，books 级未启用）
+  source_rev     TEXT                   -- 源工程目录的 git rev / 快照 id（增量水印；见 §增量）
 );
 
 -- 层目录：声明「某书有哪些层、各层是什么形态」

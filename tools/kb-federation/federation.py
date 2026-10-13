@@ -17,6 +17,8 @@
   conflicts  待人工复核的 conflict 成员
   lock       人工裁决（--action lock 确认同人 / reject 解除误并）
   unlock     撤销人工裁决
+  enum-import 稀疏表填充：枚举库→enum_registry/enum_values + 漂移检测
+  volumes    稀疏表填充：从 records 派生 volumes 目录表
 
 用法：
   python federation.py create
@@ -259,6 +261,65 @@ def cmd_refs(args):
     con.close()
 
 
+def cmd_enum_import(args):
+    """稀疏表填充（一）：枚举基准库 → enum_registry / enum_values + 漂移检测。"""
+    from enum_import import import_enums, compute_drift  # 局部导入避免环
+    con = connect(args.db)
+    ensure_schema(con)
+    imp = import_enums(con)
+    print("枚举导入：groups=%d values=%d (顶层 %d)"
+          % (imp["groups"], imp["values"], imp["tops"]))
+    if not args.no_drift:
+        dr = compute_drift(con)
+        print("漂移检测：distinct=%d rows=%d"
+              % (dr["distinct_values"], dr["drift_rows"]))
+    con.close()
+
+
+def cmd_volumes(args):
+    """稀疏表填充（二）：从 records 派生填充 volumes 目录表。"""
+    from volumes import populate_volumes  # 局部导入避免环
+    con = connect(args.db)
+    ensure_schema(con)
+    out = populate_volumes(con)
+    print("volumes 填充：%d 行" % out["volumes"])
+    con.close()
+
+
+def cmd_source_rev(args):
+    """回填 books.source_rev（源工程目录的 git rev / 目录指纹）—— 增量水印。
+
+    已注册但 source_rev 为 NULL 的书会被补全；已非空的书默认跳过（--force 重算）。
+    下次 load / load-all 也会由 register_catalog 自动写入。
+    """
+    from load import source_rev  # 局部导入避免环
+    con = connect(args.db)
+    ensure_schema(con)
+    n = 0
+    for b in sorted(BOOK_REGISTRY):
+        cur = con.execute(
+            "SELECT source_rev FROM books WHERE book_id=?", (b,)
+        ).fetchone()
+        if cur and cur[0] and not args.force:
+            continue
+        rev = source_rev(b)
+        if rev is None:
+            print(f"  {b}: 无 source_root / 计算失败，跳过")
+            continue
+        con.execute(
+            "INSERT INTO books(book_id,code,name,source_root,status,source_rev) "
+            "VALUES(?,?,?,?,?,?) "
+            "ON CONFLICT(book_id) DO UPDATE SET source_rev=excluded.source_rev",
+            (b, b, BOOK_NAMES.get(b, b), BOOK_REGISTRY[b].get("root"), "active", rev),
+        )
+        n += 1
+        print(f"  {b}: {rev[:12]}…" if rev.startswith(("dir:",)) or len(rev) > 12
+              else f"  {b}: {rev}")
+    con.commit()
+    con.close()
+    print("source_rev 回填：%d 本" % n)
+
+
 def build_parser():
     p = argparse.ArgumentParser(prog="federation", description="古籍联邦库 ELT")
     sub = p.add_subparsers(dest="cmd")
@@ -322,6 +383,18 @@ def build_parser():
     pul.add_argument("uid")
     pul.add_argument("--db", default=DEFAULT_DB)
 
+    pen = sub.add_parser("enum-import",
+                         help="稀疏表填充：枚举库→enum_registry/enum_values + 漂移检测")
+    pen.add_argument("--db", default=DEFAULT_DB)
+    pen.add_argument("--no-drift", action="store_true", help="跳过漂移检测")
+
+    pvol = sub.add_parser("volumes", help="稀疏表填充：从 records 派生 volumes 目录表")
+    pvol.add_argument("--db", default=DEFAULT_DB)
+
+    psr = sub.add_parser("source-rev", help="回填 books.source_rev（增量水印）")
+    psr.add_argument("--db", default=DEFAULT_DB)
+    psr.add_argument("--force", action="store_true", help="重算已非空的书")
+
     return p
 
 
@@ -353,6 +426,12 @@ def main(argv=None):
         cmd_lock(args)
     elif args.cmd == "unlock":
         cmd_unlock(args)
+    elif args.cmd == "enum-import":
+        cmd_enum_import(args)
+    elif args.cmd == "volumes":
+        cmd_volumes(args)
+    elif args.cmd == "source-rev":
+        cmd_source_rev(args)
     else:
         build_parser().print_help()
 

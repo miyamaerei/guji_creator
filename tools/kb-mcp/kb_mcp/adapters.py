@@ -526,7 +526,7 @@ def value_hits(text, value):
 # 之所以列这么长：新官轨范各层字段名不统一（流程层 event_type、结构层 role_type /
 # mechanism_type / doc_type），只认 `type` 会漏掉整层。
 _TYPE_FIELDS = ("type", "event_type", "category", "role_type", "mechanism_type",
-                "doc_type", "subtype", "sub_type", "kind", "class")
+                "doc_type", "subtype", "sub_type", "kind", "class", "dim")
 _SKIP_FILE_TOKENS = ("join", "index", "keys", "inventory", "alias_index",
                      "report", "summary")
 # 顶层里是 list[dict] 但不是「记录」的键（日志/错误清单之类），扫描时排除
@@ -656,6 +656,7 @@ def load_ent_keys(book):
         os.path.join(root, "data", "ent", "ent_keys.json"),
         os.path.join(root, "_layers", "ent_keys.json"),
         os.path.join(root, "data", "_layers", "ent_keys.json"),
+        os.path.join(root, "_global", "ent_keys.json"),
         os.path.join(root, "ent_keys.json"),
     ]
     for p in cands:

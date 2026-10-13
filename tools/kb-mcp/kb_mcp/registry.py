@@ -128,6 +128,66 @@ BOOKS = {
         },
         "schemas": "xianjinyifeng-kb/05-xianjinyifeng-knowledge/references/schemas.md",
     },
+    "shizhenglu-kb": {
+        "title": "《吕公实政录》",
+        "enum_backend": "flat",
+        "enum_path": "_kg_enums.py",
+        "enum_names": None,
+        "layers": {
+            "globs": ["_layers/*/*.json"],
+            "container": ["records"],
+            "nested": None,
+        },
+        "schemas": "shizhenglu-kb/07-lvgong-shizhenglu-knowledge/references/schemas.md",
+    },
+    "xuezhenglu-kb": {
+        "title": "《政学录》",
+        "enum_backend": "flat",
+        "enum_path": "_kg_enums.py",
+        "enum_names": None,
+        "layers": {
+            "globs": ["_layers/*/*.json"],
+            "container": ["records"],
+            "nested": None,
+        },
+        "schemas": "xuezhenglu-kb/08-xuezhenglu-knowledge/references/schemas.md",
+    },
+    "yuanshuzaji-kb": {
+        "title": "《宛署杂记》",
+        "enum_backend": "flat",
+        "enum_path": "_kg_enums.py",
+        "enum_names": None,
+        "layers": {
+            "globs": ["_layers/*/*.json"],
+            "container": ["records"],
+            "nested": None,
+        },
+        "schemas": "yuanshuzaji-kb/09-yuanshuzaji-knowledge/references/schemas.md",
+    },
+    "fuhuiquanshu-kb": {
+        "title": "《福惠全书》",
+        "enum_backend": "flat",
+        "enum_path": "_kg_enums.py",
+        "enum_names": None,
+        "layers": {
+            "globs": ["_layers/*/*.json"],
+            "container": ["records"],
+            "nested": None,
+        },
+        "schemas": "fuhuiquanshu-kb/11-fuhuiquanshu-knowledge/references/schemas.md",
+    },
+    "pingpingyan-kb": {
+        "title": "《平平言》",
+        "enum_backend": "flat",
+        "enum_path": "_kg_enums.py",
+        "enum_names": None,
+        "layers": {
+            "globs": ["_layers/*/*.json"],
+            "container": ["records"],
+            "nested": None,
+        },
+        "schemas": "pingpingyan-kb/12-pingpingyan-knowledge/references/schemas.md",
+    },
 }
 
 # 层名 → 工厂库枚举名的归一映射。
@@ -161,6 +221,13 @@ LAYER_TO_ENUM = {
     "proc": "PROC",
     "struct": "STRUCT",
     "official": "ENTITY",
+    "rules": "RULE",
+    "structs": "STRUCT",
+    "regs": "REG",
+    "opns": "OPN",
+    "procs": "PROC",
+    "docs": "DOC",
+    "doc": "DOC",
 }
 
 # 同一语义在工厂库与实例里可能叫不同名字，做一张别名表（双向归一到左侧主干）

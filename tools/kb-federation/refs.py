@@ -55,6 +55,8 @@ REF_FIELDS = {
     "person_b_ent_ids": "object",
     # 规则（吕公实政录 lgs/rule 等政书规则层主体引用）
     "subject_ent_ids": "subject",
+    # 结构化（福惠全书 fqh/struct 目标对象引用；regs/docs 同款 target/related_item 可复用）
+    "target_ent_ids": "object",
     # 各书通用兜底字段（wzz/nam, sdr/nam, xgf/actor 等大量使用）
     "ent_ids": "subject",
 }
@@ -76,6 +78,8 @@ TEXT_FOR_FIELD = {
     "institution_ent_ids": "institution",
     "person_a_ent_ids": "person_a",
     "person_b_ent_ids": "person_b",
+    "target_ent_ids": "target",
+    "subject_ent_ids": "subject",
 }
 
 
