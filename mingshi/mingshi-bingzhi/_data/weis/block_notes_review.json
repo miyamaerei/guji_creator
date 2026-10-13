@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "vol": "66",
+    "list_ver": "old",
+    "lines": "L52-L120",
+    "scope": "块级节点 notes 复核（pilot-plan 阶段二前置步）：仅候选树中块级节点（在京/都司等）上的括注，不涉及卫/所叶节点 88 条括注（另立卫级复核批次）",
+    "basis": [
+      "references/schemas/bz_schemas.json（REG 层 / C14=TME 沿革层）",
+      "SKILL.md §7 C14 时间沿革层触发源②：卷66 括注（调北京=事件，纪年由张本行领（永乐十八年））",
+      "pilot-plan.md §3 阶段二流程"
+    ],
+    "rule_ai_writes_slots_only": "AI 只填槽位（slot 字段），tme_id/item_id 由打包器 assign_ids 注入（bz_schemas.json schema_meta/rules）",
+    "reviewed_at": "2026-10-14"
+  },
+  "review": [
+    {
+      "bn_id": "BN-01",
+      "src_loc": "卷66-L57",
+      "node_path": "五军都督府所属卫所 > 左军都督府 > 在京",
+      "node_kind": "块级（在京块）",
+      "note_text": "凡本府在京属卫，曾经永乐十八年调守北京者，各注其下曰“调北京”，其年月不重出。后四府同。",
+      "verdict": {
+        "layer": "C14",
+        "category": "移驻",
+        "confidence": 0.9,
+        "summary": "纪年张本行：为全树 6+6 处卫级(调北京)括注提供纪年（永乐十八年）与标注规则，转 C14 事件；编撰体例属性保留于 content，不并入卫名"
+      },
+      "tme_draft": {
+        "slot": "volume66/weis/old/blocknote/Jing",
+        "era": { "text": "永乐十八年", "dynasty": "明", "reign": "永乐", "year": 18 },
+        "target": "五军都督府在京属卫（本府在京属卫，后四府同）",
+        "action": "调守北京",
+        "category": "移驻",
+        "content": "凡本府在京属卫，曾经永乐十八年调守北京者，各注其下曰“调北京”，其年月不重出。后四府同。",
+        "related_evo": null,
+        "related_opn": null,
+        "ref_item": "WEI-*（凡带(调北京)括注的卫叶，由卫级复核批次回填）",
+        "confidence": 0.9
+      },
+      "rationale": [
+        "C14 schema triggers 明列“卷66 括注（调北京=事件，纪年由张本行领（永乐十八年））”——本条正是该纪年张本行，故不是单纯凡例，而是(调北京)事件的纪年源",
+        "category 取 TME_CATEGORIES_13 之「移驻」：调守北京 = 在京卫所移驻北京守备",
+        "本条同步承担编撰体例说明（各注其下曰调北京/其年月不重出/后四府同），属元层信息，随 C14 条目 content 保留原文即可，不得并入卫名"
+      ],
+      "reg_check": "不入 REG：本条为凡例体（标注规则）而非制度实体；REG attrs_13 无体例属性槽位。若需检索“调北京”规则语义，由 C14 content 覆盖",
+      "c9_check": "不入 C9：无论说主体（无“某言”句式）"
+    },
+    {
+      "bn_id": "BN-02",
+      "src_loc": "卷66-L112",
+      "node_path": "五军都督府所属卫所 > 后军都督府 > 在外 > 北平行都司",
+      "node_kind": "块级（都司块）",
+      "note_text": "后为大宁都司",
+      "verdict": {
+        "layer": "C14",
+        "category": "改称",
+        "confidence": 0.85,
+        "summary": "机构沿革事件：北平行都司后改称大宁都司；无纪年（原文仅“后为”），era 未明"
+      },
+      "tme_draft": {
+        "slot": "volume66/weis/old/blocknote/Dusi-beiping-xingdusi",
+        "era": { "text": "未明（原文仅“后为”，无纪年）", "dynasty": "明", "reign": null, "year": null },
+        "target": "北平行都司",
+        "action": "改称大宁都司",
+        "category": "改称",
+        "content": "后为大宁都司",
+        "related_evo": null,
+        "related_opn": null,
+        "ref_item": "WEI-*（北平行都司块节点及其下辖卫）",
+        "confidence": 0.85
+      },
+      "rationale": [
+        "机构改名沿革，命中 TME_CATEGORIES_13「改称」",
+        "原文无年号纪年，era 置未明并如实记录原文仅“后为”；不得补造纪年（坑 #49/#50 纪律）",
+        "块级沿革注保留在 C17 块节点 notes（转写），与 C14 条目互引，不并入块名"
+      ],
+      "reg_check": "不入 REG：单点机构沿革事件由 C14 承载（REG evolution 供制度阶段/改革类使用，本条无制度实体定义）",
+      "c9_check": "不入 C9：无论说主体"
+    }
+  ],
+  "stats": {
+    "block_notes_total": 2,
+    "to_c14": 2,
+    "to_reg": 0,
+    "to_c9": 0
+  },
+  "deferred": {
+    "leaf_bracket_notes_88": "卫/所叶节点 88 条括注（调北京/革/后为xx卫/后改属后府等）属卫级复核批次，不在本复核范围；其中“(调北京)”纪年统一领自 BN-01",
+    "block_note_misattached_on_leaves": "扫描发现 L111 通州卫叶挂「已上俱改为亲军」、居庸关千户所叶挂「已上俱属后府」等条目——按 SKILL.md §256「已上…」为区块级注，应提升至块级节点 notes（当前挂在段尾卫叶，属阶段二卫级复核修正项）",
+    "pending_packaging": "本注解仅落槽位；打包器 assign_ids/护栏（FieldCoverage/assert_no_silent_zero/check_enum）在定稿步统一执行"
+  }
+}

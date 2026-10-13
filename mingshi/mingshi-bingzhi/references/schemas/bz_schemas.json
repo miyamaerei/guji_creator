@@ -1,0 +1,191 @@
+{
+  "schema_meta": {
+    "book": "明史兵志",
+    "volume_span": "卷65-68",
+    "instance": "mingshi-bingzhi-knowledge",
+    "layer_type": "bz",
+    "version": "1.0.0",
+    "sources": [
+      "source_text: assets/sources/兵志.txt",
+      "human_schema: ../mingshi-bingzhi/SKILL.md §5-§11",
+      "layer_def: ../mingshi-bingzhi/references/layer-library-bingzhi.md",
+      "factory_base: ../../00-book-knowledge-factory/references/schemas.md"
+    ],
+    "rules": [
+      "AI 源数据只写卷内顺序槽位 slot，不手写业务 ID；打包器按全局序号分配",
+      "original/norm 由打包器注入，AI 不得手抄原文",
+      "id_prefix 单点声明，见 LAYER_SPECS",
+      "enum 单点治理：scripts/_kg_enums.py + registerVersion 模式"
+    ]
+  },
+
+  "LAYER_SPECS": [
+    {"layer": "ents",   "slot": "ENTS",   "id_prefix": "ENT-",  "key": "ent_id",  "dir": "_layers/ents/",   "example": "ENT-0203"},
+    {"layer": "regs",   "slot": "REGS",   "id_prefix": "REG-",  "key": "reg_id",  "dir": "_layers/regs/",   "example": "REG-014"},
+    {"layer": "weis",   "slot": "WEIS",   "id_prefix": "WEI-",  "key": "wei_id",  "dir": "_layers/weis/",   "example": "WEI-0123"},
+    {"layer": "tmes",   "slot": "TMES",   "id_prefix": "TME-",  "key": "tme_id",  "dir": "_layers/tmes/",   "example": "TME-021"},
+    {"layer": "opns",   "slot": "OPNS",   "id_prefix": "OPN-",  "key": "opn_id",  "dir": "_layers/opns/",   "example": "OPN-021"},
+    {"layer": "rules",  "slot": "RULES",  "id_prefix": "RULE-", "key": "rule_id", "dir": "_layers/rules/",  "example": "RULE-031"},
+    {"layer": "objs",   "slot": "OBJS",   "id_prefix": "OBJ-",  "key": "obj_id",  "dir": "_layers/objs/",   "example": "OBJ-031"},
+    {"layer": "structs","slot": "EVOS",   "id_prefix": "EVO-",  "key": "evo_id",  "dir": "_layers/structs/","example": "EVO-014"},
+    {"layer": "structs","slot": "QUANS",  "id_prefix": "QUAN-", "key": "quan_id", "dir": "_layers/structs/","example": "QUAN-008"},
+    {"layer": "structs","slot": "WEIS",   "id_prefix": "WEI-",  "key": "wei_id",  "dir": "_layers/structs/","example": "WEI-002"},
+    {"layer": "structs","slot": "REWS",   "id_prefix": "REW-",  "key": "rew_id",  "dir": "_layers/structs/","example": "REW-005"}
+  ],
+
+  "base_layer": {
+    "L0": {
+      "volumes": [
+        {"vol": "卷六十五", "title": "兵一", "lines": "L3-39",   "segment_lines": 37,  "form": "京营沿革叙事体",   "subjects": 6},
+        {"vol": "卷六十六", "title": "兵二 卫所班军", "lines": "L44-260", "segment_lines": 217, "form": "双清单树+总账+班军叙事", "subjects": 3},
+        {"vol": "卷六十七", "title": "兵三", "lines": "L265-305", "segment_lines": 41,  "form": "边防海防江防民壮土兵乡兵", "subjects": 5},
+        {"vol": "卷六十八", "title": "兵四", "lines": "L310-367", "segment_lines": 58,  "form": "军伍训练赏功火器车船马政", "subjects": 7}
+      ],
+      "item_registry_key": "NN-NNN",
+      "norm_rules": ["异体字归一并另存", "缺字〈舟宗〉保持原文词形", "标点统一"],
+      "markers": {
+        "volume": "◆【第N章-卷N】",
+        "in_vol_title": "◎",
+        "subtitle": "○",
+        "du_si": "△"
+      }
+    },
+    "L1": {
+      "entity_types_20": ["person", "official", "institution", "place", "era", "work", "object", "animal", "plant", "food", "doc", "system", "behavior", "punishment", "time", "quantity", "posthumous", "star", "event", "unknown"],
+      "high_freq": ["institution", "place", "person", "object", "quantity", "time", "system", "doc"],
+      "rules": ["text 逐字命中原文", "卫名实体取完整原字串", "纪年去朝代前缀"]
+    }
+  },
+
+  "REG": {
+    "id_prefix": "REG-",
+    "attrs_13": ["name", "category", "evolution", "tme_ids", "agencies", "targets", "levied_items", "rates", "scope", "regions", "documents", "agents", "purposes", "abuses", "source", "source_item_id", "evidence"],
+    "extra_tokens_7": ["geo_ref", "num_value", "num_unit", "num_semantic", "src_loc", "cross_ref", "mil_class"],
+    "cross_kb_example": {"kb": "mingshi-zhiguanzhi", "ref": "ORG-505", "note": "兵部"},
+    "enums": {
+      "MIL_CLASS_8": ["京营", "卫所", "班军", "边防", "海防江防", "军伍清理", "马政", "赏功火器"],
+      "NUM_SEMANTIC_8": ["岁额", "原额", "见额", "折半", "定额", "加派", "无定额", "未明"],
+      "INST_TYPES_BZ_13": ["卫所制", "京营", "班军", "勾军", "训练", "赏功", "马政", "边防", "海防", "火器制", "车船制", "民壮土兵", "其他"],
+      "REG_STATUS_8": ["初置", "定制", "遵行", "弊坏", "改革", "复设", "废罢", "未明"],
+      "AGENT_KINDS_6": ["品官", "役", "卫所军", "宗室勋戚", "商人", "未明"],
+      "REG_PURPOSES_8": ["军事", "财政", "户籍管控", "保安", "驿传", "赈济", "祭祀", "未明"]
+    }
+  },
+
+  "C17": {
+    "id_prefix": "WEI-",
+    "two_trees": [
+      {"list_ver": "old", "name": "旧编成树", "lines": "L52-120", "basis": "洪武二十六年定天下都司卫所", "tree_root": "上十二卫+五军都督府属", "level_chain": ["军民类型", "府", "在京/在外", "都司/直隶", "卫/所"]},
+      {"list_ver": "new", "name": "后定编成树", "lines": "L122-251", "basis": "后定天下都司卫所", "tree_root": "亲军二十二卫+五府属+南京卫所+羁縻卫所", "level_chain": ["军民类型", "府", "在京/在外", "都司/直隶/留守司/土官", "卫/所/数量行"]}
+    ],
+    "level_enum_11": ["军民类型", "府", "在京", "在外", "都司", "直隶", "留守司", "土官", "卫", "所", "数量行"],
+    "grammar": {
+      "fu_title": "◎左军都督府 等",
+      "zai_jing": {"markers": ["○在京", "在京("], "note": "○ 不保证必现，锚定行首"},
+      "du_si": {"markers": ["△", "裸行以卫/都司/宣慰/招讨/长官结尾"], "note": "△ 不保证必现，双判据"},
+      "wei_col": "无分隔卫列长行（一行 N 卫名）",
+      "bracket_note": "(调北京)/(革)/(旧《会典》作兀里) 卫所级注 → notes[] + C14",
+      "block_note": "已上… 区块级注 → 区块 notes，不复制",
+      "count_row": "卫三百八十四/所二十四/站七/地面七/寨一 → QUAN + count_marker",
+      "zhangben": "张本行 → REG/总述，不进树"
+    },
+    "suffix_dictionary": ["卫", "所", "司", "站", "寨", "地面"],
+    "cut_algorithm": {
+      "WEI_SUFFIXES": ["卫", "所"],
+      "MIL_UNIT_RE": "[\\u4e00-\\u9fff]+?(?:卫|所|司|站|寨|地面)(?=[(（]|$|[\\u4e00-\\u9fff](?=卫|所|司|站|寨|地面))",
+      "strategy": ["后缀锚点扫描候选", "括注归并前词", "WEI_NAME_INDEX 查重", "AI 复核 100%（超长行抽验 20%）"]
+    },
+    "record_fields": ["slot", "item_id", "wei_id", "list_ver", "name", "name_norm", "level", "parent", "children", "org_binding", "notes", "tme_ids", "quan_id", "count_marker", "evidence", "src_loc", "confidence"],
+    "name_norm_rule": "卫名去左/右/前/后/中方位字（金吾前卫→金吾卫）",
+    "views": {
+      "weis_diff": "_views/weis_diff_<都司>.json 三态：旧有/新有/两树皆有",
+      "subtree_note": "后定编成含 3 子树：北京五府(L124-210)/南京(L211-223)/羁縻(L224-251)，不混挂"
+    },
+    "acceptance": {"segment_coverage_min": 0.95, "bracket_strip_rate": 1.0, "list_ver_no_leak": true}
+  },
+
+  "C14": {
+    "id_prefix": "TME-",
+    "record_fields": ["slot", "item_id", "tme_id", "era", "target", "action", "content", "category", "related_evo", "related_opn", "ref_item", "confidence"],
+    "era_shape": {"text": "景泰三年", "dynasty": "明", "reign": "景泰", "year": 3},
+    "TME_CATEGORIES_13": ["初置", "改置", "增员", "复设", "废置", "改称", "裁并", "移驻", "职掌变更", "升秩降秩", "未明", "定额变更", "法弊"],
+    "triggers": ["卷65/67/68 纪年句", "卷66 括注（调北京=事件）", "数量行不建 TME"],
+    "views": {"timeline": "_views/timeline/<制度或机构>.json 按 time_key 升序"}
+  },
+
+  "C9": {
+    "id_prefix": "OPN-",
+    "expected_count": 41,
+    "record_fields": ["slot", "item_id", "opn_id", "type", "stance", "speaker", "target", "quote", "length", "markers", "era", "evidence", "confidence"],
+    "OPN_TYPES_6": ["奏议", "疏", "建言", "论", "驳议", "引书"],
+    "stance_5": ["褒扬", "批评", "辨析", "陈述", "存疑"],
+    "OPN_CLAIM_MARKERS_19": ["请", "宜", "乞", "恐", "弊", "坏", "苦", "忧", "患", "不可", "非", "当", "议", "驳", "论", "言其", "疏论", "极言", "便"],
+    "admission": "len(quote) >= 40 AND any(m in quote for m in OPN_CLAIM_MARKERS)",
+    "exclude": ["从之/报可/帝是其言（决策结果进 C14）", "记账句", "纯制度说明句"],
+    "high_freq_speakers": ["范景文", "王邦瑞", "于谦", "胡世宁", "徐贞明", "王世贞", "杨一清", "李承勋", "严嵩", "戚继光"]
+  },
+
+  "L2": {
+    "id_prefix": "RULE-",
+    "RULE_TYPES_7": ["禁止型", "义务型", "允许型", "程序型", "时限型", "处罚型", "优先级"],
+    "trigger_words": ["凡", "不得", "不许", "毋得", "禁", "罪之", "罚", "著为令", "定为例", "违者"],
+    "disciplines": ["只收规范性语句", "制度说明/记账/时序句不抽", "一条多模态拆分，penalty 关联"]
+  },
+
+  "OBJ": {
+    "id_prefix": "OBJ-",
+    "OBJ_CLASSES_3": ["火器", "战车", "战船"],
+    "record_fields": ["slot", "item_id", "obj_id", "name", "obj_class", "alias", "specs", "origin", "evidence", "src_loc", "confidence"],
+    "specs_fields": ["material", "length", "weight", "capacity", "range", "use", "mount"],
+    "origin_shape": {"era": {"reign": "嘉靖", "year": 8}, "initiator": "右都御史汪鋐", "note": "来源"},
+    "sources": {
+      "huoqi": "卷68 L336-341（神机枪炮/佛郎机/红夷炮 + L341 名目凡数十种，复合句必整串切分）",
+      "zhancheng": "卷68 L344-349（独辕车/武刚车/偏箱车/全胜车…）",
+      "zhanchuan": "卷68 L350-351（乌槽/福船/海苍/开浪/艟乔/苍山/沙船/鹰船/渔船/网梭船/蜈蚣船/两头船）"
+    }
+  },
+
+  "L4": {
+    "dispatch_order_fixed": ["children(WEI 树边)", "change_type(EVO)", "wei(WEI 编制)", "quan(QUAN)", "rew(REW)"],
+    "EVO": {
+      "id_prefix": "EVO-",
+      "EVO_STAGES_9": ["初置", "定制定型", "增改", "裁革", "复设", "变法", "弊坏", "复原", "未明"],
+      "triggers": {"初置": ["始置", "初设", "立营"], "定制定型": ["著为令", "定为例", "为常", "为例"], "增改": ["增置", "加增", "添设", "增为"], "裁革": ["罢", "革", "裁并", "寻废"], "复设": ["复置", "复之", "仍旧"], "变法": ["改革", "更定", "法变", "亦变"], "弊坏": ["法坏", "弊滋", "积弊", "日益废弛", "虚冒"]},
+      "record_shape": {"stage": "弊坏", "tme_ids": ["TME-021"], "evidence": "驯至末造，尺籍久虚，行伍衰耗。"}
+    },
+    "QUAN": {
+      "id_prefix": "QUAN-",
+      "QUAN_FORMS_6": ["本色", "折色", "银", "钞", "钱", "未明"],
+      "QUAN_ORIGINS_14": ["京营", "卫所", "班军", "边防", "海防", "勾军", "马政", "赏功", "火器", "车船", "民壮", "土兵", "其他", "未明"],
+      "units": {"容量": ["石", "斗", "升", "合", "勺"], "重量": ["两", "斤", "钱", "分", "厘"], "货币": ["贯", "文", "锭", "两"], "计数": ["人", "名", "员", "卫", "所", "匹", "辆", "艘", "座", "门", "级", "束"], "里程": ["里", "步"], "土地": ["顷", "亩"]},
+      "record_shape": {"amount": 160000, "unit": "人", "form": "岁额", "raw": "岁春秋番上，共十六万人", "origin": "班军", "side": "未分", "confidence": 0.95},
+      "parse_discipline": ["约数标记全串剔除", "量纲前缀先合并", "None 当错误"]
+    },
+    "WEI": {
+      "id_prefix": "WEI-",
+      "WEI_UNIT_CLASSES_6": ["卫", "千户所", "百户所", "总旗", "小旗", "护卫"],
+      "standard": {"卫": 5600, "千户所": 1120, "百户所": 112, "总旗": 50, "小旗": 10, "basis": "大率五千六百人为卫，千一百二十人为千户所，百十有二人为百户所。所设总旗二，小旗十，大小联比以成军。"},
+      "huwei_rule": "卫设左中右前后五所，所千户二、百户十（L46）",
+      "record_shape": {"units": [{"unit_class": "卫", "cpu": 5600}], "basis": "…", "reg_id": "REG-001", "confidence": 0.95}
+    },
+    "REW": {
+      "id_prefix": "REW-",
+      "REW_GRADES_8": ["奇功", "首功", "次功", "头功牌", "齐力牌", "实授", "署职", "赏银"],
+      "grading_scope_must": "五套赏格必须带 scope 防区字段：北边/东北边/番寇苗蛮/倭贼/内地反贼",
+      "record_shape": {"grade": "奇功", "grade_class": "三等", "condition": "…", "reward": "升秩", "amount": null, "unit": "秩", "evidence": "…", "reg_id": "REG-005", "confidence": 0.9}
+    }
+  },
+
+  "cross_layer": {
+    "join": ["_kg_join.json", "_kg_join_flat.csv"],
+    "layer_count_audit": "各层条数 vs 索引层计数对齐",
+    "enum_governance": "scripts/_kg_enums.py 单点 + registerVersion 回溯 + drift_ratio>1.5 告警"
+  },
+
+  "guardrails": {
+    "A_family": {"FieldCoverage": "扩展字段登记：ERIC 7 token/OBJ specs/QUAN 子字段；填充率 0 判失败"},
+    "B_family": {"naming": "目录/文件名前缀/索引槽位/schema 键名四处同源 LAYER_SPECS 单点", "assign_child_ids": "派生 <父ID>#<n> 保留已有 id"},
+    "G_family": {"atomic_write": "atomic_write_*()", "merge_layer": "增量语义", "merge_shared_json": "永不从空字典重建"},
+    "P_family": {"cn2int": "量纲前缀/约数剔除/裸万，None 当错误", "SemanticGate": "章节语义锚定行首 startswith，防字形词污染"}
+  }
+}
