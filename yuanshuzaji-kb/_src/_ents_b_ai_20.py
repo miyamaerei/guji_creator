@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+"""卷二十 20-080~20-089：实体层 AI 判定（杂记人物/机构补充）。"""
+RECORDS = [
+    {"item_id": "20-084", "text": "马自强", "type": "person", "confidence": "high"},
+    {"item_id": "20-085", "text": "凌云鹏", "type": "person", "confidence": "high"},
+    {"item_id": "20-086", "text": "谢杰", "type": "person", "confidence": "high"},
+    {"item_id": "20-086", "text": "沈榜", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "申时行", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "许国", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "王锡爵", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "耿定向", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "李荫", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "马攀龙", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "张与龄", "type": "person", "confidence": "high"},
+    {"item_id": "20-087", "text": "胡汝焕", "type": "person", "confidence": "high"},
+    {"item_id": "20-089", "text": "张元芳", "type": "person", "confidence": "high"},
+    {"item_id": "20-089", "text": "刘定之", "type": "person", "confidence": "high"},
+    {"item_id": "20-089", "text": "吴琪", "type": "person", "confidence": "high"},
+    {"item_id": "20-088", "text": "僧法诠", "type": "person", "confidence": "high"},
+    {"item_id": "20-088", "text": "李仁莹", "type": "person", "confidence": "high"},
+    {"item_id": "20-084", "text": "礼部", "type": "institution", "confidence": "high"},
+    {"item_id": "20-085", "text": "酒醋局", "type": "institution", "confidence": "high"},
+    {"item_id": "20-086", "text": "普济庵", "type": "institution", "confidence": "high"},
+    {"item_id": "20-088", "text": "栖隐寺", "type": "institution", "confidence": "high"},
+    {"item_id": "20-089", "text": "显灵宫", "type": "institution", "confidence": "high"},
+]

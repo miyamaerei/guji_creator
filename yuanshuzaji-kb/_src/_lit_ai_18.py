@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+"""卷十八 18-001/18-002/18-014：文献资产层 AI 判定（御制碑文/御墨题额/名臣记文）。"""
+RECORDS = [
+    # ---- 18-001 御制碑文 ----
+    {"item_id": "18-001", "title": "御制朝天宫新建碑", "author": "宣宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（宣德八年九月十五日；南京洪武初建朝天宫于皇城西，北京仿南京之规创建于都城西北隅，竣事闰八月戊午之夕景星见）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制重修朝天宫碑", "author": "宪宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（成化庚子二月始修至辛丑六月讫工；三清殿通明殿及九殿，重檐巨栋三千间）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制大德观碑", "author": "宣宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（宣德五年五月十五日；周思得以赤心忠良王元帅之法显于京师，太宗数遣人试之靡爽毫发，命祀神于宫城之西，上建玉皇阁署榜曰大德观）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制大德显灵宫碑", "author": "世宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（嘉靖三年岁次甲申；宪宗大建弥罗阁，世宗命内官监太监崔文相弥罗阁之后左营殿，各殿范金为像）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制洪恩灵济宫碑", "author": "英宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（正统元年正月十五日；太宗梦二神人迎闽中灵济二真君像于宫城之西，封九天金阙玉阙真君；神出颛顼之后徐偃王之裔，伯仲皆南唐义祖忠武皇帝之子）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制重修洪恩灵济宫碑", "author": "宪宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（成化乙巳秋拓基增置，丙午秋落成；上尊号伯曰九天金阙总督魁神洪恩灵济慈惠高明上帝，仲曰九天玉阙总督罡神洪恩灵济仁惠弘静上帝）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制大隆善护国寺碑", "author": "宪宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（成化八年十一月初二日；禁城西隅佛刹大隆善寺成于宣德己酉，出内币鼎新缔构增额曰大隆善护国寺）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制大觉寺碑", "author": "宣宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（宣德三年四月十七日；北京旸台山灵泉佛寺岁久弊甚，圣母皇太后出内帑撤而新之，遂名曰大觉寺）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制大圆通寺碑", "author": "宪宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（成化十五年十一月初二日；洪熙改元仁宗以西山平坡大觉寺创始唐代屡废屡兴，命工鼎新重建赐额曰大圆通，更其山名翠微）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制大圆通寺重修碑", "author": "宪宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（成化十五年十一月初二日；出内帑金帛就官役工鼎新缔构不逾年告成）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制重建三义庙碑", "author": "宪宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（成化二十二年九月十八日；皇考英宗睿皇帝发赀兴建于禁城西南隅，以祀汉昭烈帝及关羽张飞，命内官监太监黄顺陈贵御用监太监韦兴董工）", "confidence": "high"},
+    {"item_id": "18-001", "title": "御制悯忠义阡之碑", "author": "代宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（景泰二年四月初三日；景泰二年虏贼入寇京师，阜成门外西南伏尸数千，中官上言即西山麓旷地为大圹收瘗战死之骨，赐名曰悯忠义阡）", "confidence": "high"},
+    {"item_id": "18-001", "title": "敕护河间定兴王坟墓祠宇碑", "author": "孝宗", "author_ent_ids": [],
+     "type": "碑记", "content_location": "卷十八·御制（弘治十四年八月二十日；赠荣国公追封河间王谥忠武张玉、太师英国公追封定兴王谥忠烈张辅，赐葬宛平县卢沟桥西南连三冈，赐祠额曰世忠，敕禁约践踏毁坏）", "confidence": "high"},
+    # ---- 18-002 御墨题额 ----
+    {"item_id": "18-002", "title": "万历御墨三题（来青轩/望都亭/荷花池）", "author": "神宗", "author_ent_ids": [],
+     "type": "题跋", "content_location": "卷十八·御墨（万历十四年驾谒陵归游香山寺，命笔书来青轩三字易姜立纲旧匾；香山寺后望京亭改今名望都亭大书赐之；卓锡泉前小池荷花盛开，为书水天一色苍松古柏八大字）", "confidence": "high"},
+    # ---- 18-003 记文 ----
+    {"item_id": "18-003", "title": "朝天宫庄地记", "author": "赵志皋", "author_ent_ids": [],
+     "type": "记", "content_location": "卷十八·田宅（宣德十年太监范弘传奉圣旨钦赏朝天宫通州麦庄田地八十七顷八亩四分五厘；隆庆五年大兴县丈明每亩纳租三分五厘，修撰浙东赵志皋记）", "confidence": "high"},
+    {"item_id": "18-014", "title": "世忠祠记", "author": "焦芳", "author_ent_ids": [],
+     "type": "记", "content_location": "卷十八·祀功（正德四年翰林大学士泌阳焦芳记；弘治丁巳宛平良乡父老上言请立祠，祠额赐名世忠）", "confidence": "high"},
+    {"item_id": "18-014", "title": "壮节祠记", "author": "刘健", "author_ent_ids": [],
+     "type": "记", "content_location": "卷十八·祀功（弘治十四年大学士洛阳刘健记；太傅谭佑上言曾祖都指挥渊靖难战死夹河，特赐额曰壮节）", "confidence": "high"},
+]

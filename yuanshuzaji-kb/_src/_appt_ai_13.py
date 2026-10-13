@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""卷十三 13-001：职官任职层 AI 判定。"""
+RECORDS = [
+    {"item_id": "13-001", "person": "郑秉厚", "person_ent_ids": [], "office": "吏科给事中", "official_ent_ids": [], "institution": "吏科", "institution_ent_ids": [], "when": "万历七年", "status": "现任", "evidence": "条陈铺行未尽事宜六事（节铺行之力/宽买办之价/严卷册之守/密稽察之方/议征收之法/定清审之期），户部覆奉圣旨是", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "张学颜", "person_ent_ids": [], "office": "户部尚书", "official_ent_ids": [], "institution": "户部", "institution_ent_ids": [], "when": "万历七年", "status": "现任", "evidence": "覆准郑秉厚条陈六事依拟，铺行银两仍照前规每年实征银一万六百四十一两三钱一分；万历十年又题议处税契铺行商人三事", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "张国彦", "person_ent_ids": [], "office": "顺天府尹", "official_ent_ids": [], "institution": "顺天府", "institution_ent_ids": [], "when": "万历十年", "status": "现任", "evidence": "祷雨三应题请议宽铺税等银；议处征收铺行银两题准下三则免征上中六则照旧征银，仍令五城兵马司征解", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "宋仕", "person_ent_ids": [], "office": "顺天府府丞", "official_ent_ids": [], "institution": "顺天府", "institution_ent_ids": [], "when": "万历十六年", "status": "现任", "evidence": "题遵例审编铺行并议处税契存留银两以足国用安民生", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "宋纁", "person_ent_ids": [], "office": "户部尚书", "official_ent_ids": [], "institution": "户部", "institution_ent_ids": [], "when": "万历十六年", "status": "现任", "evidence": "题覆审编铺行（下三则免编上中六则编审），京城税契除典当免税外置买田宅每价一两量征银一分五厘；又题覆审编事竣均派改派裁省各费", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "陈烨", "person_ent_ids": [], "office": "礼科给事中", "official_ent_ids": [], "institution": "礼科", "institution_ent_ids": [], "when": "万历十一年", "status": "现任", "evidence": "题酌行银以均差派，部覆以后一应公费计分为率大兴应办六分宛平应办四分", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "胡汝宁", "person_ent_ids": [], "office": "兵科左给事中", "official_ent_ids": [], "institution": "兵科", "institution_ent_ids": [], "when": "万历十六年", "status": "现任", "evidence": "审编事竣题愿摅见闻以裨财用，议均派各府、取各衙门羡余、移外府州县、裁革冗费（户部细腻榜纸、酒席帮价、门神桃符等）", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "13-001", "person": "徐启东", "person_ent_ids": [], "office": "知县", "official_ent_ids": [], "institution": "宛平县", "institution_ent_ids": [], "when": "万历十五年", "status": "现任", "evidence": "申首正借支以清库藏，到任交盘应支银七千二百三十八两有奇实在银止六百八十余两，检举到任以前那移银六千五百五十七两四钱九分零", "evidence_refs": [], "confidence": "high"},
+]

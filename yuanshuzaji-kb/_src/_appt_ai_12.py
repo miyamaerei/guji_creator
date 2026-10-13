@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""卷十二 12-001：职官任职层 AI 判定。"""
+RECORDS = [
+    {"item_id": "12-001", "person": "周希林", "person_ent_ids": [], "office": "都税司大使", "official_ent_ids": [], "institution": "都税司", "institution_ent_ids": [], "when": "万历四年", "status": "贬谪", "evidence": "私擅税契受赂重税发觉，本府查非本官职掌问拟应得罪名；自此都城典买房契税专属两县管理", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "王之垣", "person_ent_ids": [], "office": "顺天府尹", "official_ent_ids": [], "institution": "顺天府", "institution_ent_ids": [], "when": "万历五年", "status": "现任", "evidence": "题清查税契银两以裕财用事，户部覆准每银一两征税三分", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "殷正茂", "person_ent_ids": [], "office": "户部尚书", "official_ent_ids": [], "institution": "户部", "institution_ent_ids": [], "when": "万历五年", "status": "现任", "evidence": "具题覆准税契每银一两照律征税三分贮库", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "孔祖尧", "person_ent_ids": [], "office": "知县", "official_ent_ids": [], "institution": "宛平县", "institution_ent_ids": [], "when": "万历十四年", "status": "现任", "evidence": "共收过税银八百一十四两零四分三厘二毫五丝", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "徐启东", "person_ent_ids": [], "office": "知县", "official_ent_ids": [], "institution": "宛平县", "institution_ent_ids": [], "when": "万历十五~十八年", "status": "现任", "evidence": "经管税契逐年收银（十五年八个月三百九十六两、十六年五百六十二两、十七年五百八十八两、十八年前七月一百五十五两）；万历十五年申恳本府奏下部议支应不敷", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "沈榜", "person_ent_ids": [], "office": "知县", "official_ent_ids": [], "institution": "宛平县", "institution_ent_ids": [], "when": "万历十八年七月", "status": "现任", "evidence": "受事查得交盘税银止五十二两；十八年十二月捕获解镇李守约等伪印假税旬日增税银二千七百余两；十九年收税契银二千一百三十两六钱七分六厘；遭邵以仁参劾后奉旨免究照旧供职", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "邵以仁", "person_ent_ids": [], "office": "巡视北城御史", "official_ent_ids": [], "institution": "都察院", "institution_ent_ids": [], "when": "万历十九年", "status": "现任", "evidence": "题参沈榜查核税契科罚横行乞罢斥，请赦愚民已往之过酌定查税新例", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "荆州士", "person_ent_ids": [], "office": "巡按御史", "official_ent_ids": [], "institution": "都察院", "institution_ent_ids": [], "when": "万历十九年", "status": "现任", "evidence": "题辩沈榜发奸守正断银未染指，当仍令照旧供职", "evidence_refs": [], "confidence": "high"},
+    {"item_id": "12-001", "person": "石星", "person_ent_ids": [], "office": "户部尚书", "official_ent_ids": [], "institution": "户部", "institution_ent_ids": [], "when": "万历十九年", "status": "现任", "evidence": "题准税契新例：自首免罪、告更房号必先赴两县税过、循环二簿每月终送府查对", "evidence_refs": [], "confidence": "high"},
+]
