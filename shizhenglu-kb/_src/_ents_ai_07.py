@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""卷07（乡甲约·卷之一，1 条卷级长文）实体层源数据（AI 逐条判定，2026-10-12）。"""
+RECORDS = [
+    {"slot": 1, "item_id": "07-001", "text": "约正", "type": "official", "normalized": "约正", "confidence": "high"},
+    {"slot": 2, "item_id": "07-001", "text": "约副", "type": "official", "normalized": "约副", "confidence": "high"},
+    {"slot": 3, "item_id": "07-001", "text": "约讲", "type": "official", "normalized": "约讲", "confidence": "high"},
+    {"slot": 4, "item_id": "07-001", "text": "约史", "type": "official", "normalized": "约史", "confidence": "high"},
+    {"slot": 5, "item_id": "07-001", "text": "甲长", "type": "official", "normalized": "甲长", "confidence": "high"},
+    {"slot": 6, "item_id": "07-001", "text": "四邻", "type": "system", "normalized": "四邻", "confidence": "high"},
+    {"slot": 7, "item_id": "07-001", "text": "纪善簿", "type": "doc", "normalized": "纪善簿", "confidence": "high"},
+    {"slot": 8, "item_id": "07-001", "text": "纪恶簿", "type": "doc", "normalized": "纪恶簿", "confidence": "high"},
+    {"slot": 9, "item_id": "07-001", "text": "教民榜文", "type": "work", "normalized": "教民榜文", "confidence": "high"},
+    {"slot": 10, "item_id": "07-001", "text": "高皇帝", "type": "person", "normalized": "朱元璋", "confidence": "high"},
+    {"slot": 11, "item_id": "07-001", "text": "白莲", "type": "system", "normalized": "白莲教", "confidence": "medium"},
+    {"slot": 12, "item_id": "07-001", "text": "圣谕", "type": "doc", "normalized": "圣谕", "confidence": "high"},
+    {"slot": 13, "item_id": "07-001", "text": "乡甲约", "type": "work", "normalized": "乡甲约", "confidence": "high"},
+    {"slot": 14, "item_id": "07-001", "text": "保甲", "type": "system", "normalized": "保甲", "confidence": "high"},
+    {"slot": 15, "item_id": "07-001", "text": "乡约", "type": "system", "normalized": "乡约", "confidence": "high"},
+    {"slot": 16, "item_id": "07-001", "text": "成周", "type": "era", "normalized": "成周", "confidence": "medium"},
+    {"slot": 17, "item_id": "07-001", "text": "庠序", "type": "system", "normalized": "庠序", "confidence": "medium"},
+    {"slot": 18, "item_id": "07-001", "text": "鴈门", "type": "place", "normalized": "雁门", "confidence": "high"},
+    {"slot": 19, "item_id": "07-001", "text": "寄庄", "type": "system", "normalized": "寄庄", "confidence": "high"},
+    {"slot": 20, "item_id": "07-001", "text": "房主", "type": "official", "normalized": "房主", "confidence": "medium"},
+    {"slot": 21, "item_id": "07-001", "text": "地主", "type": "official", "normalized": "地主", "confidence": "medium"},
+]

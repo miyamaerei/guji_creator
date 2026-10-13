@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""卷07（乡甲约·卷之一，1 条卷级长文）规则层源数据（AI 逐条判定，2026-10-12）。"""
+RECORDS = [
+    {"slot": 1, "item_id": "07-001", "type": "procedure", "modals": ["百家为率", "一里为率"],
+     "condition": "乡约保甲总一条编", "subject": "掌印官",
+     "action": "乡约保甲总一条编：除寄住流民各听房主地主约束，容留者查其来厯出入者问其缘由外，其余本县及寄庄人民在城在镇以百家为率、孤庄村落以一里为率，各立约正一人约副一人，选公道正直者充之以统一约之人；约讲一人约史一人，选善书能劝者充之以办一约之事；十家内选九家所推者一人为甲长；每一家又以前后左右所居者为四邻",
+     "object": "乡甲组织", "purpose": "善风俗防奸盗", "punishment": "", "confidence": "high"},
+    {"slot": 2, "item_id": "07-001", "type": "procedure", "modals": ["书之纪恶簿", "书之纪善簿"],
+     "condition": "善恶纪录", "subject": "四邻/甲长/约正",
+     "action": "一人有过四邻劝化不从则告于甲长，转告于约正书之纪恶簿；一人有善四邻查访的实则告于甲长，转告于约正书之纪善簿",
+     "object": "善恶", "purpose": "劝善惩恶", "punishment": "", "confidence": "high"},
+    {"slot": 3, "item_id": "07-001", "type": "procedure", "modals": ["许本约和处", "季终闻官"],
+     "condition": "轻事小事与大善大恶", "subject": "本约",
+     "action": "其轻事小事许本约和处以息讼端；大善大恶仍季终闻官以凭奖□",
+     "object": "乡约", "purpose": "息讼端", "punishment": "", "confidence": "high"},
+    {"slot": 4, "item_id": "07-001", "type": "procedure", "modals": ["罪坐四邻", "罪坐甲长", "罪坐约正副"],
+     "condition": "恶有显迹不报", "subject": "四邻/甲长/约正副",
+     "action": "如恶有显迹四邻知而不报者甲长举之罪坐四邻；四邻举之而甲长不报者罪坐甲长；甲长举之而约正副不书、掌印官别有见闻者罪坐约正副；如此严行则一人罪犯九十九家之责也",
+     "object": "连坐", "purpose": "互相诘责", "punishment": "罪坐四邻/甲长/约正副", "confidence": "high"},
+    {"slot": 5, "item_id": "07-001", "type": "procedure", "modals": ["以教化风俗为首"],
+     "condition": "守令殿最", "subject": "上司",
+     "action": "若殿最之条但以教化风俗为首，则守令之政自以乡约保甲为先；乡约实行自无奸凶，犹有奸凶是乡约之法未行也；保甲实行自无盗贼，犹有盗贼是保甲之法未行也；寓教养于乡约保甲之中则词讼自息差粮自完簿书不期省而自省矣",
+     "object": "守令", "purpose": "教养为先", "punishment": "", "confidence": "high"},
+    {"slot": 6, "item_id": "07-001", "type": "procedure", "modals": ["并将房主地主并治"],
+     "condition": "强盗窃盗生发", "subject": "房主地主",
+     "action": "但有强盗窃盗生发即将房主地主并治；白莲妖术奸宄凶民何所容其身，出境为贼在家窝盗何所遁其迹",
+     "object": "房主地主", "purpose": "容留连坐", "punishment": "房主地主并治", "confidence": "high"},
+]
