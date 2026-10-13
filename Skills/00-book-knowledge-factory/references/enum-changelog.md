@@ -19,8 +19,12 @@
 | v2 | 2026-10-10 | 回写《蘧编》执行期增量 | 事件 +1 顶层、关系 +1、新增 CHR 组 | 蘧编 |
 | v3 | 2026-10-11 | 事件类型子库并入（原独立 `event-type-library.md` 废止）；学习回路改"待评审提案区"门槛制 | 事件（结构迁移，值不变） | 工厂维护 |
 | **v4** | **2026-10-11** | **回写《客座赘语》全卷执行期增量：八组变更** | 实体 18→20、事件 23→27、名物 9→13、风俗 7→12、涉明 8→16、名录改双支、文献改四部树、**新增 GEO 组** | 客座赘语 |
+| **v5** | **2026-10-12** | **回写《吕公实政录》执行期增量：新增 STRUCT 结构化四维组** | 新增 §1.18（4 顶层 + 子类） | 吕公实政录 |
+| **v6** | **2026-10-12** | **回写《政学录》执行期增量：REG 段追加政书分支（英文键 10 值）+ 事件层英文键继承登记** | §1.12 追加政书分支；EVENT 顶层英文键映射登记 | 政学录 |
+| **v7** | **2026-10-12** | **回写《福惠全书》执行期增量：新增 DOC 文书类型段 + REL 角色版分支 + RULE 键位说明** | 新增 §1.19（8 值）；§1.4 追加角色版 4 值；§1.2 补键位说明 | 福惠全书 |
+| **v8** | **2026-10-13** | **回写《明史·职官志》实例：品级/年号排序键 + 职官编制四维 + 员额解读置信度机制** | 新增 §1.20 GRADE_ORDER（19+兜底）、§1.21 REIGN_ORDER（18+兜底）、§1.22 STRUCT_OFFICIAL（4 维）、§1.23 COUNT_FORMS（5 值） | 明史职官志 |
 
-当前版本：**v4**。
+当前版本：**v8**。
 
 ---
 
@@ -125,3 +129,149 @@
 - **客座赘语侧存量未回溯**：其 `references/schemas.md` 与实际数据仍是旧口径（GEO 52 种子类、EVT 111 种值）。v4 只是把**规范值**定下来，存量回溯属实例侧增量，走 `increment-upgrade.md`：按 §1.3.3 归并映射表改写 + registerVersion+1。
 - 《水东日记》的 3 个建议值（军政 / 司法 / 边政）前两项已在库中，但**水东实例侧 registerVersion 仍未回溯**。
 - 疣痣类 4 项（疣子/紫痣等）证据不足，暂归 `unknown` 观察；若后续书再出现则立值。
+
+---
+
+## v5 — 2026-10-12 回写《吕公实政录》执行期增量
+
+> 用户 2026-10-12 确认：将 lgs 执行期归纳的"结构化四维"枚举走评审入库（pending-review 提案 → 正式区）。**归并优先于新增**：与新官轨范 L4 拆分子层（actor/fraud/ledger/time）语义同档，作为其规范统一段登记，不新增独立组。
+
+### 5.1 变更
+
+| 枚举 | 变更 | 证据 | 位置 |
+|---|---|---|---|
+| 新增 STRUCT 组 | 结构化四维 4 顶层 + 子类（ACT 角色职责 official/xiangyue_role/justice_role/clerk_role/other；FRD 防弊风险 abuse/guard/evil_custom/other；LGR 文簿台账 ledger/geye/template_form/board/voucher/other；TME 时间制度 deadline/meeting/assessment/season/age_limit/other） | 《吕公实政录》L4 层 235 条（ACT 56 / FRD 72 / LGR 77 / TME 30）；kb-mcp 体检此前报"struct 无对应枚举定义"（无护栏 235 条） | enum-library §1.18 |
+
+### 5.2 判定依据
+
+- 本书 struct 层 dim 字段实际取值仅 4 种（ACT/FRD/LGR/TME），全部落在顶层定义集，无库外值（kb-mcp drift 复核：漂移 0 / 库外 0）。
+- 四维枚举（ACT_TYPES/FRD_TYPES/LGR_TYPES/TME_TYPES）为本书执行期归纳（实例 `_kg_enums.py` VERSION 1.0 快照），与新官轨范 L4 五子层（ledger/time/doc/actor/fraud）同档语义，跨书复用潜力明确（后续政书/官箴书可继承本段）。
+
+### 5.3 入库快照（lgs 实例侧）
+
+- 实例 `_kg_enums.py` 保持 VERSION 1.0（枚举值未变，仅工厂库新增段），无需回溯。
+- kb-mcp drift 恢复 struct 护栏后，shizhenglu-kb 三层（ent/rule/struct）均漂移 0 / 库外 0。
+
+### 5.4 待办（v5 遗留）
+
+- 《新官轨范》actor/fraud/ledger/time 五子层与其 proc/struct 层仍无工厂段（proc 无对应；actor/fraud/ledger/time 可对照 §1.18 子类归一，属 xgf 侧存量回溯，走 increment-upgrade）。
+
+---
+
+## v6 — 2026-10-12 回写《政学录》执行期增量
+
+> 用户 2026-10-12 确认政学录全量执行完成后的枚举评审入库（pending-review 提案 → 正式区）。**归并优先于新增**：REG 政书分支与既有 §1.12 笔记体 12 值同档语义（六项归并、三项为政书特色值）；事件层零新增（英文键全部继承基准库顶层）。
+
+### 6.1 变更
+
+| 枚举 | 变更 | 证据 | 位置 |
+|---|---|---|---|
+| REG_TYPES | §1.12 追加**政书分支**（英文键 10 值）：official_system/selection_assessment/fiscal/justice_prison/baojia_xiangyue/education_sacrifice/military/post_transport/governance/other | 《政学录》REG 层 103 条（fiscal 31 / justice_prison 27 / official_system 13 / governance 13 / military 8 / post_transport 5 / selection_assessment 4 / education_sacrifice 2）；kb-mcp drift 复核：漂移 0 / 库外 0 | enum-library §1.12 |
+| EVENT_TYPES | 英文键继承登记：政学录事件层以英文键继承基准库顶层全集（27），实际使用 10 种（remonstrance 50 / institution_change 25 / economy 4 / justice 3 / military 2 / calamity 2 / disaster_relief 2 / police 1 / culture 1 / anecdote 1） | EVT 层 91 条，无库外值（kb-mcp drift 漂移 0） | §1.3（映射说明，不新增语义值） |
+
+### 6.2 判定依据
+
+- 政学录 REG 层 dim/type 值全部落在实例 `_kg_enums.py` V1.1 REG_TYPES 10 值内；其中 baojia_xiangyue（保甲乡约）/post_transport（驿传运输）/governance（治理总纲）为官箴政书特色，笔记体 12 值无对应；fiscal/justice_prison/military/official_system/selection_assessment/education_sacrifice 与既有 12 值语义同档，作归并映射。
+- 事件层沿用工厂基准（lgs 实例同法：政书/官箴书事件继承顶层），以英文键标注、不新增值；英文键→中文顶层映射（politics=朝政、coup=政变、military=军事、calamity=灾异、disaster_relief=御灾赈济、justice=司法、remonstrance=建言、institution_change=制度、culture=文事、police=缉捕防盗…）建议后续在 §1.3 顶层表别名列统一登记（本次不落地，避免 27 行改动与既有别名冲突）。
+
+### 6.3 入库快照（政学录实例侧）
+
+- 实例 `_kg_enums.py` V1.1（REG_TYPES 10 / EVENT_TYPES 27 英文键）保持不动，仅工厂库新增分支，无需回溯。
+- kb-mcp drift：xuezhenglu-kb 五层（ent/evt/reg/rule/struct）全部漂移 0 / 库外 0。
+- 已知口径差（非漂移）：kb-mcp 兜底值识别为中文（其他/unknown），政学录 EVENT/REG 用英文键 other → 2 项 warn；sync 中英标签差与 lgs RULE 同型。待后续枚举键位统一时一并解决。
+
+### 6.4 待办（v6 遗留）
+
+- §1.3 顶层表别名列补英文键映射（politics/coup/…27 项），解决 kb-mcp sync"实例有工厂无"标签口径差。
+- kb-mcp `FALLBACK_VALUES` 建议增 "other"（英文兜底标准写法），涉及全局工具口径，留待统一。
+
+---
+
+## v7 — 2026-10-12 回写《福惠全书》执行期增量
+
+> 用户 2026-10-12 确认"评估然后入库"：将福惠 pending-review 6 项提案评审入库（DOC 文书层模板/跨层索引目录坑/联邦目录映射坑/实例撞号坑 4 项进 layer-library+pitfalls，DOC_TYPES/REL 角色版/RULE 键位 3 项枚举进 enum-library）。**归并优先于新增**：REL 角色版与既有 13 值语义不同档（角色-角色 vs 人物-人物）故立分支；DOC_TYPES 为全新段；RULE 仅补键位说明不改值。
+
+### 7.1 变更
+
+| 枚举 | 变更 | 证据 | 位置 |
+|---|---|---|---|
+| 新增 DOC_TYPES 段 | 文书类型 8 值：状词/票单/册簿/牌批/谕告/结状/启禀/其他 | 《福惠全书》DOC 层 206 条全部落定义集（状词/票单/册簿/牌批/谕告/结状/启禀 7 值命中，kb-mcp drift 复核：漂移 0 / 库外 0） | enum-library §1.19 |
+| REL_TYPES | §1.4 追加**角色版分支**（英文键 4 值）：baojia_subordination/clerk_duty/adviser_engagement/litigation_triad | 福惠 REL 层 111 条（clerk_duty 吏役职责/baojia_subordination 保甲隶属为主）；政书 REL 为角色-角色关系，与人物 13 值语义不同档 | enum-library §1.4 |
+| RULE_TYPES | §1.2 补**键位说明**：规范值中英皆可（实例自选、统一即可）；kb-mcp"库外 100%"为中英键位命名口径差非数据漂移 | 福惠 rules 层 534 条用中文键（程序型/义务型/禁止型/允许型/时限型/处罚型/优先级型），kb-mcp 报"库外 100%"系键位差异（lgs/xzl 先例同型） | enum-library §1.2 |
+
+### 7.2 判定依据
+
+- DOC 层为福惠全书特有文书式内容形态（刑名部状词/票单/结状骨架 + 卷33 禀启附 33 篇启禀），层模板与枚举均已试点验证（schemas.md §5 试点 01-001/13-001/22-001/27-002/33-001），政书/幕友书跨书复用明确。
+- REL 角色版：福惠 rel 层 person_a/person_b 多为角色泛称（官/吏/民/胥役），非具体人物——与笔记体人物关系（同僚/师生）不同语义，立英文键分支，direction 复用。
+- RULE 键位：不统一中英键（改动面大：`_kg_enums.py`+产物 534 条+drift 口径），登记为既有分支处理，不强制归并。
+
+### 7.3 入库快照（福惠实例侧）
+
+- 实例 `_kg_enums.py` VERSION 1.0（DOC_TYPES 8 / REL_TYPES 12+角色版 4 / RULE 7 中文键）保持不动，仅工厂库新增段/分支，无需回溯。
+- kb-mcp drift：fuhuiquanshu-kb 八层全部漂移 0（docs DOC 8/8、ent ENTITY 12/20、regs REG 8/10、structs STRUCT 4/21 正常；rules"库外 100%"为中英键位口径差）。
+
+### 7.4 同步入库（非枚举）
+
+- layer-library v12：C13 文书条目层（DOC）+ 方案组合"政书全流程手册 8 层（fqh 型）"。
+- pitfalls v5：#28 跨层索引目录名缺陷、#29 联邦 adapter 目录名映射偏移、#30 实例编号撞号。
+
+### 7.5 待办（v7 遗留）
+
+- v6 待办继续：§1.3 顶层表英文键别名映射、kb-mcp `FALLBACK_VALUES` 增 "other"（全局工具口径，未动）。
+- 福惠 `_backfill_entids.py` 回填（171 处：subject 42/target 24/person_a 45/person_b 60）已在联邦 refs 物化 171 条引用边——属实例侧增量，详见福惠交付说明。
+
+---
+
+## v8 — 2026-10-13 回写《明史·职官志》实例
+
+> 来源实例：`mingshi-zhiguanzhi-knowledge`（《明史》卷四十八～五十二 职官志一～五，5 卷 319 条）。
+> 用户方向（m00192 / m00284）：①编制行用「某某官、多少人、级别顺序」的数组，能树形更好；②机构树形方便查；③时间制度做成数组、时间与事件拼起来；④编制加哪些字段；⑤**发现员额歧义，要求补置信度便于验证**。
+> 用户确认入库：2026-10-13。
+
+### 8.1 变更（四组新增）
+
+| 段 | 内容 | 值数 |
+|---|---|---|
+| **§1.20 GRADE_ORDER** | 品级排序键（正一品1 … 从九品18 / 未入流19 / 未明99） | 19 + 兜底 |
+| **§1.21 REIGN_ORDER** | 年号排序键（吴0 / 洪武1 … 崇祯17 / 未明99） | 18 + 兜底 |
+| **§1.22 STRUCT_OFFICIAL** | 职官编制四维（ORG_LEVELS 18 / RANK_TYPES 8 / LINE_TYPES 7 / EVO_TYPES 11） | 4 维度 |
+| **§1.23 COUNT_FORMS** | 员额解读形态 + 置信度（P1 0.95 / P2 0.90 / P3 0.60 / P4 1.00 / 未明 0.30） | 5 值 |
+
+### 8.2 判定依据（实测）
+
+- **品级标注 1057 处**、**年号纪年 562 处** —— 排序键为数组排序与时间链的必要前提。
+- **§1.22 与 §1.18 语义不同档**：政书四维 ACT/FRD/LGR/TME（角色/防弊/文簿/时限）不适用于职官志（本书无文簿台账、无防弊机制、无时限制度）；本书真实对象为「机构编制」四类。**按书择一，两段并存**。
+- **§1.23 实证（原文自证）**：同书用 `每属部设郎中、员外郎、主事各一人`（**各一人** = 各 1）表述"各1"，而 `各郎中、员外郎一人`（**一人**）表述含糊 —— **原文自身用「各」字的有无区分"各N"与"共N"**。
+  - P1 `左、右X各N人`（带"各"）55 处 → 各 N 人，合计 N×项数
+  - P2 `左、右X N人`（不带"各"）11 处 → 合计 N
+  - P3 `各A、B N人`（合称共享）4 处真歧义 → 待核
+  - 其他并列符号实测：`[东西南北]、[东南西北]…人` = 0 处；`正、副各一人` 类 = 2 处
+
+### 8.3 三型实例（溯源）
+
+- **P1**：`左、右侍郎各一人`（7 处，全带"各"）、`左、右都御史各一人`、`左、右佥都御史各二人`、`左、右宗正各一人`、`左、右少卿各一人`
+- **P2**：`左、右司丞四人`、`左、右给事中二人`、`左、右善世二人`、`左、右阐教二人`、`左、右正一二人`、`左、右断事二人`
+- **P3**：`各设尚书、侍郎一人`、`各郎中、员外郎一人`、`各道置御史或五人或三、四人`、`各设左、右断事二人`
+
+### 8.4 装置实测（`_pilot_report_v3.txt`，抽样 1411 条句式 / ERR 0）
+
+| count_form | 命中 | 占比 |
+|---|---|---|
+| P4 单纯 | 1247 | 88.4% |
+| P3 合称共享 | 107（上界） | 7.6% |
+| P1 并列带各 | 49 | 3.5% |
+| P2 并列不带各 | 8 | 0.6% |
+
+**口径边界**：装置为全文句式批量扫描，含沿革叙述中的非编制句（如 `陕西、贵州、云南三司郎中各二人`），这些正式抽取时归 TME/EVO **不入 RANK**，故 P3=107 为上界，正式 RANK 层预计仅个位数。
+
+### 8.5 同步入库（非枚举）
+
+- **layer-library v14**：C14 时间沿革层（TME）+ 方案组合"正史典志体型 8 层（zgz 型）" + L4 定制四维（ORG·RANK·LINE·EVO）。
+- **pitfalls v6**：#31 树表互校须划树内边/跨树边、#32 多模式分类器判定优先级、#33 无条级标记文本的行=条口径、#34 职掌陈述句不抽规则、#35 沿革三分承载、#36 编制清单归 L4 非 NAM。
+
+### 8.6 待办（v8 遗留）
+
+- v7 待办继续：§1.3 顶层表英文键别名映射、kb-mcp `FALLBACK_VALUES` 增 "other"（全局工具口径，未动）。
+- 跨书验证：REIGN_ORDER 仅覆盖明代年号；用于宋/唐/清典志体时需按同法追加（值顺延或小数段），追加后须 registerVersion +1 并回溯。
+- COUNT_FORMS 的 P3 真歧义在各书的实际占比待积累（本书仅 4 处，样本小）；建议后续职官/典志类书实例化时统计并回写。
+- `grade_note` 与 `era_validity` 等 POST_FIELDS 的跨书通用性待验证（本书为单一实例来源）。
