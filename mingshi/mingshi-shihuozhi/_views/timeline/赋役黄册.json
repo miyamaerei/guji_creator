@@ -1,0 +1,42 @@
+{
+  "office": "赋役黄册",
+  "entry_count": 2,
+  "entries": [
+    {
+      "id": "TME-01002",
+      "item_id": "01-003",
+      "category": "初置",
+      "reign": "洪武",
+      "year": 14,
+      "time_key": "01-0014",
+      "action": "诏天下编赋役黄册",
+      "content": "洪武十四年诏天下编赋役黄册，以一百十户为一里",
+      "target": {
+        "text": "赋役黄册",
+        "ent_ids": [
+          "ENT-01007"
+        ]
+      },
+      "related_evo": "EVO-01001",
+      "ref_item": "01-003"
+    },
+    {
+      "id": "TME-01003",
+      "item_id": "01-003",
+      "category": "法弊",
+      "reign": "未明",
+      "year": null,
+      "time_key": "99-0000",
+      "action": "编徭",
+      "content": "其后黄册只具文，有司征税、编徭，自为一册，曰白册",
+      "target": {
+        "text": "赋役黄册",
+        "ent_ids": [
+          "ENT-01007"
+        ]
+      },
+      "related_evo": "EVO-01002",
+      "ref_item": "01-003"
+    }
+  ]
+}

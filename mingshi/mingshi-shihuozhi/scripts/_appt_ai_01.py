@@ -1,0 +1,130 @@
+# -*- coding: utf-8 -*-
+"""C1 任职层源数据 —— 卷一（食货一）。
+
+纪律（schemas §10.2）：宁缺毋滥——人名 + 官职 + 时间三者齐备才收；
+office 记任职官衔（以原文为准），person 记人名，reign 用 REIGN_ORDER
+（原文无年号但有明确时代者从语境，无据则未明）；status 用 APPT_STATUS。
+"""
+
+AI_RECORDS = [
+    {
+        "item_id": "01-012",
+        "office": "国子生",
+        "person": "武淳",
+        "reign": "洪武",
+        "status": "现任",
+        "evidence": "洪武二十年命国子生武淳等分行州县",
+    },
+    {
+        "item_id": "01-015",
+        "office": "户部尚书",
+        "person": "郁新",
+        "reign": "永乐",
+        "status": "现任",
+        "evidence": "户部尚书郁新言",
+    },
+    {
+        "item_id": "01-015",
+        "office": "太原左卫千户",
+        "person": "陈淮",
+        "reign": "永乐",
+        "status": "现任",
+        "evidence": "太原左卫千户陈淮所种样田",
+    },
+    {
+        "item_id": "01-015",
+        "office": "宁夏总兵",
+        "person": "何福",
+        "reign": "永乐",
+        "status": "现任",
+        "evidence": "宁夏总兵何福积谷尤多，赐敕褒美",
+    },
+    {
+        "item_id": "01-016",
+        "office": "宣府巡抚",
+        "person": "叶盛",
+        "reign": "成化",
+        "status": "现任",
+        "evidence": "成化初，宣府巡抚叶盛买官牛千八百",
+    },
+    {
+        "item_id": "01-017",
+        "office": "户部侍郎",
+        "person": "韩福",
+        "reign": "正德",
+        "status": "现任",
+        "evidence": "户部侍郎韩福尤急刻",
+    },
+    {
+        "item_id": "01-006",
+        "office": "祭酒",
+        "person": "周洪谟",
+        "reign": "成化",
+        "status": "现任",
+        "evidence": "祭酒周洪谟著《流民说》",
+    },
+    {
+        "item_id": "01-006",
+        "office": "都御史",
+        "person": "李宾",
+        "reign": "成化",
+        "status": "现任",
+        "evidence": "都御史李宾上其说",
+    },
+    {
+        "item_id": "01-006",
+        "office": "都御史（出抚）",
+        "person": "原杰",
+        "reign": "成化",
+        "status": "现任",
+        "evidence": "宪宗命原杰出抚，招流民十二万户",
+    },
+    {
+        "item_id": "01-006",
+        "office": "河南巡抚",
+        "person": "张瑄",
+        "reign": "成化",
+        "status": "现任",
+        "evidence": "河南巡抚张瑄亦请辑西北流民",
+    },
+    {
+        "item_id": "01-013",
+        "office": "大学士",
+        "person": "张居正",
+        "reign": "万历",
+        "status": "现任",
+        "evidence": "帝用大学士张居正议，天下田亩通行丈量",
+    },
+    {
+        "item_id": "01-013",
+        "office": "建昌知府",
+        "person": "许孚远",
+        "reign": "万历",
+        "status": "现任",
+        "evidence": "建昌知府许孚远为归户册",
+    },
+    {
+        "item_id": "01-022",
+        "office": "户部尚书",
+        "person": "孙交",
+        "reign": "嘉靖",
+        "status": "现任",
+        "evidence": "户部尚书孙交造皇庄新册，额减於旧",
+    },
+    {
+        "item_id": "01-022",
+        "office": "山东巡抚",
+        "person": "邵锡",
+        "reign": "嘉靖",
+        "status": "现任",
+        "evidence": "山东巡抚邵锡按新令却之",
+    },
+    {
+        "item_id": "01-023",
+        "office": "御史（遣清庄田）",
+        "person": "沈阳",
+        "reign": "嘉靖",
+        "status": "现任",
+        "evidence": "嘉靖三十九年遣御史沈阳清夺隐冒庄田万六千馀顷",
+    },
+]
