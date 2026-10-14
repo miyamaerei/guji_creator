@@ -29,12 +29,45 @@ ORGS = [
      "total_posts": 0, "note": "皆东宫大臣，无定员，无专授；后止为兼官、加官及赠官",
      "children": [], "ent_ids": [], "confidence": 0.85},
 
-    {"slot": 4, "item_id": "01-005", "name": "内阁", "level": "中枢", "org_type": "中枢",
-     "parent": "天子",
+    # v12：内阁改隶翰林院（用户 2026-10-15 指出；原文决定性证据）
+    #   01-005 六殿阁大学士条位于翰林院条目块内；
+    #   01-018「永乐初，选翰林官入直内阁」——内阁由翰林官入直而生；
+    #   01-007「十五年，仿宋制，置华盖殿…诸大学士」皆用翰林官（学士宋讷、检讨吴伯宗）。
+    {"slot": 4, "item_id": "01-005", "name": "内阁", "level": "中枢", "org_type": "中央",
+     "parent": "翰林院",
      "core_officials": ["中极殿大学士", "建极殿大学士", "文华殿大学士", "武英殿大学士",
                          "文渊阁大学士", "东阁大学士"],
-     "total_posts": 0, "note": "以其授餐大内，常侍天子殿阁之下，避宰相之名，又名内阁",
-     "children": [], "ent_ids": [], "confidence": 0.9},
+     "total_posts": 6,
+     "note": "以其授餐大内，常侍天子殿阁之下，避宰相之名，又名内阁；"
+             "由翰林官入直而生，故隶翰林院",
+     "children": [
+         {"name": "中极殿大学士", "level": "中枢", "parent": "内阁",
+          "posts": [{"office": "中极殿大学士", "count": 1, "grade": "正五品"}],
+          "children": []},
+         {"name": "建极殿大学士", "level": "中枢", "parent": "内阁",
+          "posts": [{"office": "建极殿大学士", "count": 1, "grade": "正五品"}],
+          "children": []},
+         {"name": "文华殿大学士", "level": "中枢", "parent": "内阁",
+          "posts": [{"office": "文华殿大学士", "count": 1, "grade": "正五品"}],
+          "children": []},
+         {"name": "武英殿大学士", "level": "中枢", "parent": "内阁",
+          "posts": [{"office": "武英殿大学士", "count": 1, "grade": "正五品"}],
+          "children": []},
+         {"name": "文渊阁大学士", "level": "中枢", "parent": "内阁",
+          "posts": [{"office": "文渊阁大学士", "count": 1, "grade": "正五品"}],
+          "children": []},
+         {"name": "东阁大学士", "level": "中枢", "parent": "内阁",
+          "posts": [{"office": "东阁大学士", "count": 1, "grade": "正五品"}],
+          "children": []},
+         {"name": "诰敕房", "level": "司", "parent": "内阁",
+          "posts": [{"office": "中书舍人", "count": 1, "grade": "从七品"}],
+          "note": "宣德间内阁置诰敕、制敕两房，皆设中书舍人（03-022）",
+          "children": []},
+         {"name": "制敕房", "level": "司", "parent": "内阁",
+          "posts": [{"office": "中书舍人", "count": 1, "grade": "从七品"}],
+          "note": "同上；两房为内阁直属文书机构",
+          "children": []},
+     ], "ent_ids": [], "confidence": 0.9},
 
     {"slot": 5, "item_id": "01-009", "name": "吏部", "level": "部", "org_type": "部",
      "parent": "天子", "core_officials": ["尚书", "左、右侍郎"],
@@ -256,6 +289,32 @@ LINES = [
     # 职掌句中的隶属（验封司属吏部；节点名与 ORG 树保持一致，避免树内边不一致）
     {"slot": 17, "item_id": "01-013", "subordinate": "验封清吏司", "superior": "吏部",
      "line_type": "统辖", "level_gap": 1, "note": "吏部属司（验封）", "ent_ids": [], "confidence": 0.9},
+
+    # ===== v12 缺口2：内阁归翰林院（用户 2026-10-15 指出）=====
+    # 原文证据：01-018「永乐初，选翰林官入直内阁」——内阁由翰林官入直而生；
+    #           01-005 六殿阁大学士条位于翰林院条目块内。
+    # 注：翰林院节点本身是「跨树边」（superior=天子），此处只补内阁子树的树内边。
+    {"slot": 18, "item_id": "01-005", "subordinate": "内阁", "superior": "翰林院",
+     "line_type": "统辖", "level_gap": 1,
+     "note": "内阁由翰林官入直而生，故隶翰林院（01-018「选翰林官入直内阁」）",
+     "ent_ids": [], "confidence": 0.9},
+    {"slot": 19, "item_id": "01-005", "subordinate": "中极殿大学士", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "殿阁大学士，内阁成员", "ent_ids": [], "confidence": 0.9},
+    {"slot": 20, "item_id": "01-005", "subordinate": "建极殿大学士", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "殿阁大学士，内阁成员", "ent_ids": [], "confidence": 0.9},
+    {"slot": 21, "item_id": "01-005", "subordinate": "文华殿大学士", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "殿阁大学士，内阁成员", "ent_ids": [], "confidence": 0.9},
+    {"slot": 22, "item_id": "01-005", "subordinate": "武英殿大学士", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "殿阁大学士，内阁成员", "ent_ids": [], "confidence": 0.9},
+    {"slot": 23, "item_id": "01-005", "subordinate": "文渊阁大学士", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "殿阁大学士，内阁成员", "ent_ids": [], "confidence": 0.9},
+    {"slot": 24, "item_id": "01-005", "subordinate": "东阁大学士", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "殿阁大学士，内阁成员", "ent_ids": [], "confidence": 0.9},
+    {"slot": 25, "item_id": "01-005", "subordinate": "诰敕房", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1,
+     "note": "宣德间内阁置诰敕、制敕两房，皆设中书舍人（03-022）", "ent_ids": [], "confidence": 0.9},
+    {"slot": 26, "item_id": "01-005", "subordinate": "制敕房", "superior": "内阁",
+     "line_type": "统辖", "level_gap": 1, "note": "同诰敕房，内阁直属文书机构", "ent_ids": [], "confidence": 0.9},
 ]
 
 # ============ EVO 沿革阶段 ============

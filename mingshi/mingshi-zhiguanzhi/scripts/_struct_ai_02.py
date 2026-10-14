@@ -277,11 +277,18 @@ ORGS = [
           "posts": [{"office": "主簿", "count": 1, "grade": "从七品"},
                     {"office": "录事", "count": 2, "grade": "正九品"}], "children": []}
      ], "ent_ids": [], "confidence": 0.9},
-    {"slot": 51, "item_id": "02-063", "name": "翰林院", "level": "院", "org_type": "院",
+    # v12：翰林院增 children —— 内阁由翰林官入直而生，故隶此（用户 2026-10-15 指出）
+    #   01-018「永乐初，选翰林官入直内阁」；01-005 六殿阁大学士条在翰林院条目块内。
+    {"slot": 51, "item_id": "02-063", "name": "翰林院", "level": "院", "org_type": "中央",
      "parent": "天子",
      "core_officials": ["学士", "侍读学士", "侍讲学士", "侍读", "侍讲", "史官"],
-     "total_posts": 0, "note": "吴元年初置翰林院，秩正三品；洪武十四年定学士为正五品",
-     "children": [], "ent_ids": [], "confidence": 0.92},
+     "total_posts": 0, "note": "吴元年初置翰林院，秩正三品；洪武十四年定学士为正五品；"
+                              "内阁（殿阁大学士）由翰林官入直而生，隶本院",
+     "children": [
+         {"name": "内阁", "level": "中枢", "parent": "翰林院",
+          "posts": [], "note": "见 01-005；六殿阁大学士 + 诰敕房/制敕房",
+          "children": []},
+     ], "ent_ids": [], "confidence": 0.92},
     {"slot": 52, "item_id": "02-070", "name": "国子监", "level": "监", "org_type": "监",
      "parent": "天子", "core_officials": ["祭酒", "司业"],
      "total_posts": 0, "note": "明初即置国子学；洪武十四年改建国子学于鸡鸣山下",
