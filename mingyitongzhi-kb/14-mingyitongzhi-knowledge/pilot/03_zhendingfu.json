@@ -1,0 +1,85 @@
+{
+  "item_id": "03-001",
+  "volume": "03",
+  "source": "真定府",
+  "region": "北直隶",
+  "original": "真定府【东至直河间府献县界三百一十里…",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "真定府", "type": "geo", "norm": "真定府", "first_source": "03-001"},
+      {"ent_id": "ENT-002", "name": "井陉县", "type": "geo", "norm": "井陉县", "first_source": "03-001"},
+      {"ent_id": "ENT-003", "name": "恒山", "type": "mtn", "norm": "恒山", "first_source": "03-001"},
+      {"ent_id": "ENT-004", "name": "通典", "type": "book", "norm": "通典", "first_source": "03-001"},
+      {"ent_id": "ENT-005", "name": "张乔", "type": "person", "norm": "张乔", "first_source": "03-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-001",
+        "item_id": "03-001",
+        "name": "真定府",
+        "type": "prefecture",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": ["GEO-002", "GEO-003"],
+        "volume_range": "卷3",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "河间府献县界", "distance_li": 310},
+            {"direction": "西", "to_place": "山西平定州界", "distance_li": 180},
+            {"direction": "南", "to_place": "顺德府内丘县界", "distance_li": 210},
+            {"direction": "北", "to_place": "保定府庆都县界", "distance_li": 170}
+          ],
+          "to_capital": [
+            {"capital": "京师", "distance_li": 630},
+            {"capital": "南京", "distance_li": 2100}
+          ],
+          "households": {"count": 14, "unit": "里", "note": "一十四里"},
+          "grain_tax": {"amount": 117000, "unit": "石", "note": "粮一十一万七千石零"},
+          "jun_name": "恒山",
+          "topography": "壮哉一都防【真定壁记】靣临滹水背倚恒山左接瀛海右抵大行【图经】…",
+          "customs": "性缓尚儒仗义任侠【通典】土广俗杂【同上】…",
+          "garrisons": [
+            {"name": "真定卫", "type": "卫", "location_text": "在府治东南洪武三年建"},
+            {"name": "神武右卫", "type": "卫", "location_text": "在真定卫西宣德五年建"}
+          ],
+          "fiefs": []
+        },
+        "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004"]
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "03-001", "geo_id": "GEO-001", "dynasty": "秦", "era": null, "institution_name": "钜鹿郡地", "action": "置郡", "detail": "秦为钜鹿郡地"},
+      {"evo_id": "EVO-002", "item_id": "03-001", "geo_id": "GEO-001", "dynasty": "汉", "era": null, "institution_name": "恒山郡", "action": "置", "detail": "汉初置恒山郡，后避讳改曰常山"},
+      {"evo_id": "EVO-003", "item_id": "03-001", "geo_id": "GEO-001", "dynasty": "隋", "era": null, "institution_name": "恒州", "action": "改", "detail": "隋废郡存州"},
+      {"evo_id": "EVO-004", "item_id": "03-001", "geo_id": "GEO-001", "dynasty": "唐", "era": null, "institution_name": "恒州/镇州", "action": "复置", "detail": "唐复置恒州，后改镇州"},
+      {"evo_id": "EVO-005", "item_id": "03-001", "geo_id": "GEO-001", "dynasty": "元", "era": null, "institution_name": "真定路", "action": "改", "detail": "元改真定路"},
+      {"evo_id": "EVO-006", "item_id": "03-001", "geo_id": "GEO-001", "dynasty": "明", "era": null, "institution_name": "真定府", "action": "因之", "detail": "本朝改为真定府，直隶京师"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "03-001", "geo_id": "GEO-001", "name": "剑山", "type": "山", "location_text": "在井陉县东一十里", "description": "其形似剑", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "03-001", "geo_id": "GEO-001", "name": "城山", "type": "山", "location_text": "在井陉县东南三十里", "description": "形如城垣", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "03-001", "geo_id": "GEO-001", "name": "云凤山", "type": "山", "location_text": "在井陉县东北四十里", "description": "昔有彩云弥覆丹凤来集", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "03-001", "geo_id": "GEO-001", "name": "滹水", "type": "河", "location_text": "府境", "description": "", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "03-001", "geo_id": "GEO-001", "name": "张乔", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "交州刺史", "summary": "顺帝时象林蛮区连入寇，乔单车至州，寇徒自弭"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "03-001", "geo_id": "GEO-001", "name": "龙兴寺", "type": "寺观", "location_text": "在府治东", "history_lore": "宋建后有大悲阁内铸铜佛像高与阁等，本朝洪武初重修"},
+      {"site_id": "SITE-002", "item_id": "03-001", "geo_id": "GEO-001", "name": "真定府学", "type": "学校", "location_text": "在府治东", "history_lore": "宋熙宁间建，本朝洪武四年重修"}
+    ],
+    "prods": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "03-001", "cited_work": "真定壁记", "cited_work_ent_id": null, "context": "立论", "original": "【真定壁记】"},
+      {"cit_id": "CIT-002", "item_id": "03-001", "cited_work": "图经", "cited_work_ent_id": null, "context": "考源", "original": "【图经】"},
+      {"cit_id": "CIT-003", "item_id": "03-001", "cited_work": "通典", "cited_work_ent_id": "ENT-004", "context": "证俗", "original": "【通典】"},
+      {"cit_id": "CIT-004", "item_id": "03-001", "cited_work": "郡志", "cited_work_ent_id": null, "context": "考源", "original": "【郡志】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（真定府物产段未在样本中展开，属正常）"
+  }
+}
