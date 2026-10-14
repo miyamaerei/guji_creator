@@ -40,6 +40,8 @@ stages.js（七段流程语义，手写，改流程才动）                    
 
 卷号从文件名抽：`_NN.py` / `_NN.json` / `NN_`；装填判定 = 文件 >800B 或 JSON 非空；打包判定 = JSON records 非空。遍历深度 6，跳过 `.`/`__`/`vendor`。
 
+**卷数采集**：采集器对每书全目录（含原料区）文件名抽卷号，取最大值作 `GVOLS.est`（估算）；权威卷数以 `GVOLS.total` 登记为准（正史志书如选举志用原书卷号 45–47 命名分片、地理志源文件编号到 36，est 会虚高）。`data.js` 的 `items` **只写底座条数**（纯"N 条"，不带卷/章），卷数一律看 `GVOLS.total`（看板"卷数"列即读此值）；底座按卷段拆分、无条目号库的书（如选举志），条数取 SKILL 口径并写入 notes 说明。
+
 ## 新书接入（checklist）
 
 1. `data.js` 加书条目（照现有 21 书格式；stageStates 是 7 位 0/1/2，与 GTIMES 对得上）。
@@ -54,9 +56,9 @@ stages.js（七段流程语义，手写，改流程才动）                    
 1. **定位动过的书**：`node Skills/progress-dashboard-integration/scripts/check_updates.js`
    —— 与 `last_seen.json` 基线（每书目录文件 mtime）对比，列出上次记录后有新文件的书及最新改动文件。首次使用 `--seed` 按 git 各目录最后提交时间初始化基线。
 2. `node Skills/progress-dashboard-integration/scripts/diff_times.js`
-   —— 跑采集器、与现行 times.js 逐阶段对比，只报变化（`*不同*` = 采集启发 vs 人工登记不一致，多为已知盲区，核对后定夺），并自清中间文件。
+   —— 跑采集器、与现行 times.js 逐阶段对比，只报变化（`*不同*` = 采集启发 vs 人工登记不一致，`*卷数?*` = est 与登记 total 不符，多为已知盲区，核对后定夺），并自清中间文件。
 3. 对上面列出的书**以磁盘实况为准复核装填/打包卷数**（数 `_layers/` 或逐卷文件里 records 非空的卷），不要信体积启发，也不要信执行侧的完成汇报——一切以 JSON 实际内容计。
-4. 改 `times.js`：GTIMES/GVOLS 对应书那一行；改 `data.js`：layers 计数、notes、必要时 stageStates。
+4. 改 `times.js`：GTIMES/GVOLS 对应书那一行（含 `total` 卷数）；改 `data.js`：layers 计数、notes、`items`（只写底座条数，不写卷数）、必要时 stageStates。
 5. 刷新完成后 `check_updates.js --update` 回写基线，与看板数据一起提交（`chore(Summary): 看板进度刷新 <日期>`）。在途未收口的书（如野获编补卷）在 note 里写明"快照 <日期>，卷X 在途"。
 
 ## 已知盲区（登记值优先，勿被采集器覆盖）
@@ -69,8 +71,12 @@ stages.js（七段流程语义，手写，改流程才动）                    
 | bz 兵志 | 全 0 | 仅卷66 卫所树试点 → 人工记 1 |
 | xgg 新官轨范 | pack 采集 0 | 成品在书特化目录 `新官轨范_章节/`（带书名前缀），不匹配打包契约正则 → 人工记 11（按章） |
 | 原料列 | 任何 `.txt/.json` 都算 | 报告/清单类文件会污染原料时间，慎采 |
+| 卷数 est | qb 22 / zxl 8 / xjz 47 / dlz 36 虚高 | 原料或分片文件名带数字编号，est 只作核对线索，登记 total 为准 |
+| myt 明一统志 | 装填/底座时间、fill/pack 全采不到 | 工程在 `mingyitongzhi-kb/14-mingyitongzhi-knowledge/`，布局 `_data/`+`pilot/`（非 `_extract`/`_layers`）；est=18 是 `_06_18` 文件名误抽 → GTIMES/GVOLS(total=90) 人工登记 |
 
-## 看板侧硬约束（改 dashboard.html 时）
+## 看板侧硬约束（改 dashboard 时）
+
+- dashboard 已三分：`dashboard.html`（模板+引用）/ `dashboard.css`（样式）/ `dashboard_app.js`（Vue 应用逻辑）；改视图=改模板在 html、改行为在 app.js，勿把样式/逻辑再写回 html。
 
 - in-DOM 模板里 `el-*` 组件**必须显式闭合**（`<el-input/>` 会吞掉后续兄弟节点，且生产版 Vue 静默失败）；渲染异常时用 vue.dev.js 副本看模板编译报错。
 - JSON 中文注释走 `hlJson` 的 `//` 备注引擎（字段值不替换）。

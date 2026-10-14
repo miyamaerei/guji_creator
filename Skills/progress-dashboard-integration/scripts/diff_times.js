@@ -31,9 +31,13 @@ if (!changed) console.log('(无)');
 console.log('\n== 卷计数对比（采集器值 vs times.js 校准值；装填=体积/非空启发，需人工复核） ==');
 for (const [id, v] of Object.entries(raw.GVOLS)) {
   const g = GV[id] || {};
+  const est = v ? v.est : null;
   const f = v ? v.fill.length : 0, p = v ? v.pack.length : 0;
+  // 卷数：采集器 est=全目录文件名最大数字卷号（估算，含原料）；登记 total=权威值
+  const estMark = (est != null && g.total != null && est !== g.total) ? ' *卷数?' : '';
   const mark = (g.fill != null && f !== g.fill) || (g.pack != null && p !== g.pack) ? ' *不同*' : '';
-  console.log(id.padEnd(4), 'fill 采集' + String(f).padEnd(4) + '登记' + String(g.fill == null ? '-' : g.fill).padEnd(4),
+  console.log(id.padEnd(4), '卷 est' + String(est == null ? '-' : est).padEnd(4) + '登记' + String(g.total == null ? '-' : g.total).padEnd(4) + estMark,
+    '| fill 采集' + String(f).padEnd(4) + '登记' + String(g.fill == null ? '-' : g.fill).padEnd(4),
     'pack 采集' + String(p).padEnd(4) + '登记' + String(g.pack == null ? '-' : g.pack) + mark);
 }
-console.log('\n已知盲区（登记值优先，勿直接覆盖）：mhd 按部门聚合不逐卷打包 / xjz 单文件全卷装填 / yhb 装填直写层文件 / bz 仅卷66试点 / dlz 卷44 真空卷');
+console.log('\n已知盲区（登记值优先，勿直接覆盖）：卷数 est 按文件名最大卷号估，虚高因原料/试点带卷号（如 xjz 45-47=卷70-72 单文件、dlz 到 36 为源文件号、bz 试点卷66）/ mhd 按部门聚合不逐卷打包 / xjz 单文件全卷装填 / yhb 装填直写层文件 / dlz 卷44 真空卷');
