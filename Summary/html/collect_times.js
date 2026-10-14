@@ -10,7 +10,7 @@ const DIRS = {
   xjz:'mingshi/mingshi-xuanju', mhd:'minghuidian', yhb:'wanliyehuopian-kb',
   xjy:'xianjinyifeng-kb', shz:'mingshi/mingshi-shihuozhi', dlz:'mingshi/mingshi-dilizhi',
   bz:'mingshi/mingshi-bingzhi', scm:'songchuangmengyu-kb', zp:'zhipu-kb',
-  xf:'mingshi/mingshi-xingfa',
+  xf:'mingshi/mingshi-xingfa', myt:'mingyitongzhi-kb',
 };
 
 // 阶段优先顺序：交付 > 验证 > 跨层 > 装填 > 底座 > 打包 > 原料（首个命中即归类）
@@ -63,10 +63,13 @@ for (const [id, rel0] of Object.entries(DIRS)) {
   if (!fs.existsSync(dir)) { GTIMES[id] = Array(7).fill(null); GVOLS[id] = null; continue; }
   const stageMax = Array(7).fill(null);
   const files = [];
+  let estMax = 0; // 卷数估算：全目录（含原料区）文件名里出现过的最大数字卷号
   walk(dir, (p, r, st) => {
     for (let i = 0; i < STAGES.length; i++) {
       if (STAGES[i].test(r)) { if (stageMax[i] === null || st.mtimeMs > stageMax[i]) stageMax[i] = st.mtimeMs; break; }
     }
+    const vv = volOf(r.split('/').pop());
+    if (vv !== null && vv > estMax) estMax = vv;
     files.push([p, r, st]);
   });
   GTIMES[id] = stageMax;
@@ -83,7 +86,7 @@ for (const [id, rel0] of Object.entries(DIRS)) {
       if (/\.json$/.test(r) && jsonNonEmpty(p)) packV.add(v);
     }
   }
-  GVOLS[id] = { fill: [...fillV].sort((a, b) => a - b), pack: [...packV].sort((a, b) => a - b) };
+  GVOLS[id] = { est: estMax || null, fill: [...fillV].sort((a, b) => a - b), pack: [...packV].sort((a, b) => a - b) };
 }
 
 // 汇总打印：卷号集合压缩成区间串
@@ -96,7 +99,8 @@ const brief = arr => {
 };
 const fmt = ms => ms == null ? '—' : new Date(ms).toISOString().slice(0, 16).replace('T', ' ');
 for (const id of Object.keys(DIRS)) {
-  console.log(id.padEnd(4), '| fill:', brief(GVOLS[id] && GVOLS[id].fill).padEnd(22),
+  console.log(id.padEnd(4), '| 卷数est:', String(GVOLS[id] ? (GVOLS[id].est ?? '—') : '—').padEnd(5),
+    '| fill:', brief(GVOLS[id] && GVOLS[id].fill).padEnd(22),
     '| pack:', brief(GVOLS[id] && GVOLS[id].pack).padEnd(22),
     '|', GTIMES[id].map(fmt).join(' | '));
 }
