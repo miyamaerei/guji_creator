@@ -30,6 +30,8 @@ BOOK_ROOTS = {
     "ysz": "yuanshuzaji-kb",
     "fqh": "fuhuiquanshu-kb",
     "ppy": "pingpingyan-kb",
+    "shz": "mingshi/mingshi-shihuozhi",
+    "zgz": "mingshi/mingshi-zhiguanzhi",
 }
 BOOK_NAMES = {
     "kzz": "客座赘语",
@@ -43,17 +45,42 @@ BOOK_NAMES = {
     "ysz": "宛署杂记",
     "fqh": "福惠全书",
     "ppy": "平平言",
+    "shz": "明史·食货志",
+    "zgz": "明史·职官志",
 }
 
 # 每书实际要装的层（白名单；同时是 LAYER_DECL 的 key 全集）
 BOOK_LAYERS = {
-    "kzz": ["ent", "event", "cit", "obj", "cus", "ming", "geo", "appt",
-            "nam", "lit", "opn", "rel", "trl"],
-    "wzz": ["ent", "event", "cit", "cus", "appt", "nam", "obj", "opn",
-            "ming", "rel", "trl"],
+    "kzz": [
+        "ent",
+        "event",
+        "cit",
+        "obj",
+        "cus",
+        "ming",
+        "geo",
+        "appt",
+        "nam",
+        "lit",
+        "opn",
+        "rel",
+        "trl",
+    ],
+    "wzz": [
+        "ent",
+        "event",
+        "cit",
+        "cus",
+        "appt",
+        "nam",
+        "obj",
+        "opn",
+        "ming",
+        "rel",
+        "trl",
+    ],
     "sdr": ["ent", "appt", "event", "reg", "lit", "rel", "nam", "trl"],
-    "xgf": ["ent", "rule", "proc", "event", "ledger", "time", "doc",
-            "actor", "fraud"],
+    "xgf": ["ent", "rule", "proc", "event", "ledger", "time", "doc", "actor", "fraud"],
     "qb": ["ent", "appt", "event", "rel", "lit", "mem", "chr", "trl"],
     "xyf": ["ent", "appt", "rel", "event", "opn", "trl"],
     "lgs": ["ent", "rule", "struct"],
@@ -61,6 +88,11 @@ BOOK_LAYERS = {
     "ysz": ["ent", "appt", "evt", "lit", "reg", "nam", "opn", "cus", "geo"],
     "fqh": ["ent", "rule", "struct", "reg", "opn", "proc", "doc", "rel"],
     "ppy": ["ent", "rule", "struct", "reg", "opn"],
+    # 明史·食货志：8 层（目录/文件名复数，卷号在前 NN_ents.json；structs 7 维 dict）
+    "shz": ["ent", "rule", "proc", "appt", "tme", "opn", "reg", "struct"],
+    # 明史·职官志：7 层（目录/文件名复数，卷号在后 ents_NN.json；structs 目录
+    #   officials.json→struct + structs_NN 机构树→org 层 flatten_tree）
+    "zgz": ["ent", "rule", "proc", "appt", "tme", "struct", "org"],
 }
 
 # 层声明：层 key -> (kind, container_kind, id_prefix)
@@ -70,85 +102,146 @@ BOOK_LAYERS = {
 LAYER_DECL = {
     # 客座赘语：13 层
     "kzz": {
-        "ent": ("node", "layers", "ENT-"), "event": ("edge", "layers", "EVENT-"),
-        "cit": ("annotation", "layers", "CIT-"), "obj": ("annotation", "layers", "OBJ-"),
-        "cus": ("annotation", "layers", "CUS-"), "ming": ("annotation", "layers", "MING-"),
-        "geo": ("node", "layers", "GEO-"), "appt": ("edge", "layers", "APPT-"),
-        "nam": ("annotation", "layers", "NAM-"), "lit": ("annotation", "layers", "LIT-"),
-        "opn": ("annotation", "layers", "OPN-"), "rel": ("edge", "layers", "REL-"),
+        "ent": ("node", "layers", "ENT-"),
+        "event": ("edge", "layers", "EVENT-"),
+        "cit": ("annotation", "layers", "CIT-"),
+        "obj": ("annotation", "layers", "OBJ-"),
+        "cus": ("annotation", "layers", "CUS-"),
+        "ming": ("annotation", "layers", "MING-"),
+        "geo": ("node", "layers", "GEO-"),
+        "appt": ("edge", "layers", "APPT-"),
+        "nam": ("annotation", "layers", "NAM-"),
+        "lit": ("annotation", "layers", "LIT-"),
+        "opn": ("annotation", "layers", "OPN-"),
+        "rel": ("edge", "layers", "REL-"),
         "trl": ("annotation", "layers", "TRL-"),
     },
     # 五杂俎：11 层（无 geo）
     "wzz": {
-        "ent": ("node", "layers", "ENT-"), "event": ("edge", "layers", "EVENT-"),
-        "cit": ("annotation", "layers", "CIT-"), "cus": ("annotation", "layers", "CUS-"),
-        "appt": ("edge", "layers", "APPT-"), "nam": ("annotation", "layers", "NAM-"),
-        "obj": ("annotation", "layers", "OBJ-"), "opn": ("annotation", "layers", "OPN-"),
-        "ming": ("annotation", "layers", "MING-"), "rel": ("edge", "layers", "REL-"),
+        "ent": ("node", "layers", "ENT-"),
+        "event": ("edge", "layers", "EVENT-"),
+        "cit": ("annotation", "layers", "CIT-"),
+        "cus": ("annotation", "layers", "CUS-"),
+        "appt": ("edge", "layers", "APPT-"),
+        "nam": ("annotation", "layers", "NAM-"),
+        "obj": ("annotation", "layers", "OBJ-"),
+        "opn": ("annotation", "layers", "OPN-"),
+        "ming": ("annotation", "layers", "MING-"),
+        "rel": ("edge", "layers", "REL-"),
         "trl": ("annotation", "layers", "TRL-"),
     },
     # 水东日记：8 层
     "sdr": {
-        "ent": ("node", "data", "ENT-"), "appt": ("edge", "data", "APPT-"),
-        "event": ("edge", "data", "EVENT-"), "reg": ("annotation", "data", "REG-"),
-        "lit": ("annotation", "data", "LIT-"), "rel": ("edge", "data", "REL-"),
-        "nam": ("annotation", "data", "NAM-"), "trl": ("annotation", "data", "TRL-"),
+        "ent": ("node", "data", "ENT-"),
+        "appt": ("edge", "data", "APPT-"),
+        "event": ("edge", "data", "EVENT-"),
+        "reg": ("annotation", "data", "REG-"),
+        "lit": ("annotation", "data", "LIT-"),
+        "rel": ("edge", "data", "REL-"),
+        "nam": ("annotation", "data", "NAM-"),
+        "trl": ("annotation", "data", "TRL-"),
     },
     # 新官轨范：9 层（结构拆 5 子层）
     "xgf": {
-        "ent": ("node", "summary", "ENT-"), "rule": ("annotation", "summary", "XGF-R-"),
-        "proc": ("annotation", "summary", "XGF-P-"), "event": ("edge", "summary", "XGF-E-"),
-        "ledger": ("annotation", "summary", "LED-"), "time": ("annotation", "summary", "TME-"),
-        "doc": ("annotation", "summary", "DOC-"), "actor": ("annotation", "summary", "ACT-"),
+        "ent": ("node", "summary", "ENT-"),
+        "rule": ("annotation", "summary", "XGF-R-"),
+        "proc": ("annotation", "summary", "XGF-P-"),
+        "event": ("edge", "summary", "XGF-E-"),
+        "ledger": ("annotation", "summary", "LED-"),
+        "time": ("annotation", "summary", "TME-"),
+        "doc": ("annotation", "summary", "DOC-"),
+        "actor": ("annotation", "summary", "ACT-"),
         "fraud": ("annotation", "summary", "FRD-"),
     },
     # 蘧编：8 层
     "qb": {
-        "ent": ("node", "norm", "ENT-"), "appt": ("edge", "norm", "APPT-"),
-        "event": ("edge", "norm", "EVENT-"), "rel": ("edge", "norm", "REL-"),
-        "lit": ("annotation", "norm", "LIT-"), "mem": ("annotation", "norm", "MEM-"),
-        "chr": ("edge", "norm", "CHR-"), "trl": ("annotation", "norm", "TRL-"),
+        "ent": ("node", "norm", "ENT-"),
+        "appt": ("edge", "norm", "APPT-"),
+        "event": ("edge", "norm", "EVENT-"),
+        "rel": ("edge", "norm", "REL-"),
+        "lit": ("annotation", "norm", "LIT-"),
+        "mem": ("annotation", "norm", "MEM-"),
+        "chr": ("edge", "norm", "CHR-"),
+        "trl": ("annotation", "norm", "TRL-"),
     },
     # 先进遗风：6 层
     "xyf": {
-        "ent": ("node", "layers", ""), "appt": ("edge", "layers", ""),
-        "rel": ("edge", "layers", "REL-"), "event": ("edge", "layers", "XJF-E-"),
-        "opn": ("annotation", "layers", ""), "trl": ("annotation", "layers", ""),
+        "ent": ("node", "layers", ""),
+        "appt": ("edge", "layers", ""),
+        "rel": ("edge", "layers", "REL-"),
+        "event": ("edge", "layers", "XJF-E-"),
+        "opn": ("annotation", "layers", ""),
+        "trl": ("annotation", "layers", ""),
     },
     # 吕公实政录：3 层（struct 内 ACT-/FRD-/LGR-/TME- 四维前缀混用，登记 ACT- 为代表）
     "lgs": {
-        "ent": ("node", "layers", "ENT-"), "rule": ("annotation", "layers", "RULE-"),
+        "ent": ("node", "layers", "ENT-"),
+        "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
     },
     # 政学录：5 层（reg REG-/evt EVT-）
     "xzl": {
-        "ent": ("node", "layers", "ENT-"), "rule": ("annotation", "layers", "RULE-"),
+        "ent": ("node", "layers", "ENT-"),
+        "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
-        "reg": ("annotation", "layers", "REG-"), "evt": ("edge", "layers", "EVT-"),
+        "reg": ("annotation", "layers", "REG-"),
+        "evt": ("edge", "layers", "EVT-"),
     },
     # 宛署杂记：9 层（appt APPT-/evt EVT-/lit LIT-/reg REG-/nam NAM-/opn OPN-/cus CUS-/geo GEO-）
     "ysz": {
-        "ent": ("node", "layers", "ENT-"), "appt": ("edge", "layers", "APPT-"),
-        "evt": ("edge", "layers", "EVT-"), "lit": ("annotation", "layers", "LIT-"),
-        "reg": ("annotation", "layers", "REG-"), "nam": ("annotation", "layers", "NAM-"),
-        "opn": ("annotation", "layers", "OPN-"), "cus": ("annotation", "layers", "CUS-"),
+        "ent": ("node", "layers", "ENT-"),
+        "appt": ("edge", "layers", "APPT-"),
+        "evt": ("edge", "layers", "EVT-"),
+        "lit": ("annotation", "layers", "LIT-"),
+        "reg": ("annotation", "layers", "REG-"),
+        "nam": ("annotation", "layers", "NAM-"),
+        "opn": ("annotation", "layers", "OPN-"),
+        "cus": ("annotation", "layers", "CUS-"),
         "geo": ("node", "layers", "GEO-"),
     },
     # 福惠全书：8 层（rule RULE-/struct STRUCT-（四维前缀混用，登记 ACT- 为代表）
     # /reg REG-/opn OPN-/proc PROC-/doc DOC-/rel REL-）
     "fqh": {
-        "ent": ("node", "layers", "ENT-"), "rule": ("annotation", "layers", "RULE-"),
+        "ent": ("node", "layers", "ENT-"),
+        "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
-        "reg": ("annotation", "layers", "REG-"), "opn": ("annotation", "layers", "OPN-"),
-        "proc": ("annotation", "layers", "PROC-"), "doc": ("annotation", "layers", "DOC-"),
+        "reg": ("annotation", "layers", "REG-"),
+        "opn": ("annotation", "layers", "OPN-"),
+        "proc": ("annotation", "layers", "PROC-"),
+        "doc": ("annotation", "layers", "DOC-"),
         "rel": ("edge", "layers", "REL-"),
     },
     # 平平言：5 层（rule RULE-/struct ACT-（四维前缀混用，登记 ACT- 为代表）
     # /reg REG-/opn OPN-）
     "ppy": {
-        "ent": ("node", "layers", "ENT-"), "rule": ("annotation", "layers", "RULE-"),
+        "ent": ("node", "layers", "ENT-"),
+        "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
-        "reg": ("annotation", "layers", "REG-"), "opn": ("annotation", "layers", "OPN-"),
+        "reg": ("annotation", "layers", "REG-"),
+        "opn": ("annotation", "layers", "OPN-"),
+    },
+    # 明史·食货志：8 层（ent ENT-01001.. 六卷含卷号段全局唯一；struct 7 维前缀
+    #   QUAN-/INST-/EVO-/FISC-/HK-/LAND-/TRANS- 混用，登记 QUAN- 为代表）
+    "shz": {
+        "ent": ("node", "layers", "ENT-"),
+        "rule": ("annotation", "layers", "RULE-"),
+        "proc": ("annotation", "layers", "PROC-"),
+        "appt": ("edge", "layers", "APPT-"),
+        "tme": ("annotation", "layers", "TME-"),
+        "opn": ("annotation", "layers", "OPN-"),
+        "reg": ("annotation", "layers", "REG-"),
+        "struct": ("annotation", "layers", "QUAN-"),
+    },
+    # 明史·职官志：7 层（ents local_id 卷前缀 01:ENT-0060；struct=officials.json
+    #   OFF-001..；org=机构树/俸禄表 flatten_tree，id 保留 #n 后缀 ORG-501#1）
+    "zgz": {
+        "ent": ("node", "layers", "ENT-"),
+        "rule": ("annotation", "layers", "ZG-R-"),
+        "proc": ("annotation", "layers", "ZG-P-"),
+        "appt": ("edge", "layers", "ZG-APPT-"),
+        "tme": ("annotation", "layers", "ZG-TME-"),
+        "struct": ("annotation", "layers", "OFF-"),
+        "org": ("annotation", "layers", "ORG-"),
     },
 }
 
@@ -163,27 +256,70 @@ from .xzl_adapter import XzlAdapter  # noqa: E402
 from .ysz_adapter import YszAdapter  # noqa: E402
 from .fqh_adapter import FqhAdapter  # noqa: E402
 from .ppy_adapter import PpyAdapter  # noqa: E402
+from .shz_adapter import ShzAdapter  # noqa: E402
+from .zgz_adapter import ZgzAdapter  # noqa: E402
 
 BOOK_REGISTRY = {
-    "kzz": {"class": VolLayerAdapter, "root": BOOK_ROOTS["kzz"],
-            "layer_keys": BOOK_LAYERS["kzz"]},
-    "wzz": {"class": VolLayerAdapter, "root": BOOK_ROOTS["wzz"],
-            "layer_keys": BOOK_LAYERS["wzz"]},
+    "kzz": {
+        "class": VolLayerAdapter,
+        "root": BOOK_ROOTS["kzz"],
+        "layer_keys": BOOK_LAYERS["kzz"],
+    },
+    "wzz": {
+        "class": VolLayerAdapter,
+        "root": BOOK_ROOTS["wzz"],
+        "layer_keys": BOOK_LAYERS["wzz"],
+    },
     "sdr": {"class": DataLayerAdapter, "root": BOOK_ROOTS["sdr"]},
     "xgf": {"class": XgfAdapter, "root": BOOK_ROOTS["xgf"]},
     "qb": {"class": NormLayerAdapter, "root": BOOK_ROOTS["qb"]},
-    "xyf": {"class": LayersAdapter, "root": BOOK_ROOTS["xyf"],
-            "join": "data/_layers/kg_join.json"},
-    "lgs": {"class": LgsAdapter, "root": BOOK_ROOTS["lgs"],
-            "layer_keys": BOOK_LAYERS["lgs"], "join": "_kg_join.json"},
-    "xzl": {"class": XzlAdapter, "root": BOOK_ROOTS["xzl"],
-            "layer_keys": BOOK_LAYERS["xzl"], "join": "_kg_join.json"},
-    "ysz": {"class": YszAdapter, "root": BOOK_ROOTS["ysz"],
-            "layer_keys": BOOK_LAYERS["ysz"], "join": "_kg_join.json"},
-    "fqh": {"class": FqhAdapter, "root": BOOK_ROOTS["fqh"],
-            "layer_keys": BOOK_LAYERS["fqh"], "join": "_kg_join.json"},
-    "ppy": {"class": PpyAdapter, "root": BOOK_ROOTS["ppy"],
-            "layer_keys": BOOK_LAYERS["ppy"], "join": "_kg_join.json"},
+    "xyf": {
+        "class": LayersAdapter,
+        "root": BOOK_ROOTS["xyf"],
+        "join": "data/_layers/kg_join.json",
+    },
+    "lgs": {
+        "class": LgsAdapter,
+        "root": BOOK_ROOTS["lgs"],
+        "layer_keys": BOOK_LAYERS["lgs"],
+        "join": "_kg_join.json",
+    },
+    "xzl": {
+        "class": XzlAdapter,
+        "root": BOOK_ROOTS["xzl"],
+        "layer_keys": BOOK_LAYERS["xzl"],
+        "join": "_kg_join.json",
+    },
+    "ysz": {
+        "class": YszAdapter,
+        "root": BOOK_ROOTS["ysz"],
+        "layer_keys": BOOK_LAYERS["ysz"],
+        "join": "_kg_join.json",
+    },
+    "fqh": {
+        "class": FqhAdapter,
+        "root": BOOK_ROOTS["fqh"],
+        "layer_keys": BOOK_LAYERS["fqh"],
+        "join": "_kg_join.json",
+    },
+    "ppy": {
+        "class": PpyAdapter,
+        "root": BOOK_ROOTS["ppy"],
+        "layer_keys": BOOK_LAYERS["ppy"],
+        "join": "_kg_join.json",
+    },
+    "shz": {
+        "class": ShzAdapter,
+        "root": BOOK_ROOTS["shz"],
+        "layer_keys": BOOK_LAYERS["shz"],
+        "join": "_kg_join.json",
+    },
+    "zgz": {
+        "class": ZgzAdapter,
+        "root": BOOK_ROOTS["zgz"],
+        "layer_keys": BOOK_LAYERS["zgz"],
+        "join": "_kg_join.json",
+    },
 }
 
 
@@ -199,7 +335,15 @@ def make_adapter(book_id):
         return cls(book_id, root, reg["layer_keys"])
     if cls is LayersAdapter:
         return cls(book_id, root, reg["join"])
-    if cls in (LgsAdapter, XzlAdapter, YszAdapter, FqhAdapter, PpyAdapter):
+    if cls in (
+        LgsAdapter,
+        XzlAdapter,
+        YszAdapter,
+        FqhAdapter,
+        PpyAdapter,
+        ShzAdapter,
+        ZgzAdapter,
+    ):
         return cls(book_id, root, reg["layer_keys"], reg.get("join", "_kg_join.json"))
     return cls(book_id, root)
 
@@ -217,6 +361,8 @@ __all__ = [
     "YszAdapter",
     "FqhAdapter",
     "PpyAdapter",
+    "ShzAdapter",
+    "ZgzAdapter",
     "BOOK_ROOTS",
     "BOOK_NAMES",
     "BOOK_LAYERS",

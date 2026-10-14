@@ -27,9 +27,14 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__)))))
 
 FACTORY_DIR = os.path.join(REPO_ROOT, "Skills", "00-book-knowledge-factory")
+# 工厂四项账本中，只有 enum-library.md 被本工具读取（enum_sync 三处比对用）。
+# 其余三项是纯人读文档，无任何代码读取（保留常量仅为说明其存在，非依赖）：
+#   enum-changelog.md  — 枚举变更历史（只增不改）
+#   pending-review.md  — 待评审提案区
+#   registry.md        — 实例台账（book-mcp 契约仅要求"登记一行"，不解析）
 FACTORY_ENUM_LIB = os.path.join(FACTORY_DIR, "references", "enum-library.md")
-FACTORY_CHANGELOG = os.path.join(FACTORY_DIR, "references", "enum-changelog.md")
-FACTORY_PENDING = os.path.join(FACTORY_DIR, "references", "pending-review.md")
+FACTORY_CHANGELOG = os.path.join(FACTORY_DIR, "references", "enum-changelog.md")  # 未被读取
+FACTORY_PENDING = os.path.join(FACTORY_DIR, "references", "pending-review.md")  # 未被读取
 
 # flat 形态自动发现变量名时的后缀模式
 ENUM_VAR_PATTERNS = (

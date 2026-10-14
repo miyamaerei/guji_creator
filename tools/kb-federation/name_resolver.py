@@ -52,9 +52,18 @@ def normalize(raw, rules=None):
     if not raw:
         return raw
     s = raw.strip()
+    # 等价别称前置检查：史实/官制专称（民部→户部、御史台→都察院）整体命中即返回，
+    # 避免"御史台"被 title_prefix 的"御史"误剥成"台"。只影响匹配键，不改原文 payload。
+    alias_map = rules.get("alias_map") or {}
+    if s in alias_map and alias_map[s] not in (None, ""):
+        return alias_map[s]
     groups = rules.get("decoration_groups", {})
     order = rules.get("strip_order") or [
-        "title_prefix", "posthumous_marker", "honorific_suffix", "place_suffix"]
+        "title_prefix",
+        "posthumous_marker",
+        "honorific_suffix",
+        "place_suffix",
+    ]
 
     # 逐组按配置顺序处理；未在 strip_order 列出的组不生效
     for g in order:
@@ -77,9 +86,12 @@ def normalize(raw, rules=None):
                             s = s.replace(open_m, "", 1)
                             changed = True
                             break
-                    elif (len(s) > len(open_m) + len(close_m)
-                          and s.startswith(open_m) and s.endswith(close_m)):
-                        s = s[len(open_m):-len(close_m)].strip()
+                    elif (
+                        len(s) > len(open_m) + len(close_m)
+                        and s.startswith(open_m)
+                        and s.endswith(close_m)
+                    ):
+                        s = s[len(open_m) : -len(close_m)].strip()
                         changed = True
                         break
                 if changed:
@@ -97,7 +109,7 @@ def normalize(raw, rules=None):
             # 从头删（长优先）
             for t in sorted(groups.get("title_prefix", []), key=len, reverse=True):
                 if t and s.startswith(t):
-                    s = s[len(t):]
+                    s = s[len(t) :]
         elif g in ("honorific_suffix", "place_suffix", "work_tail_suffix"):
             # 从尾删；work_tail_suffix 同样带「剩余≥2字」保护。
             # 注意分组值可能是 list 或 {_comment, tokens:[...]} 两种形态，统一取 token 列表。
@@ -113,6 +125,13 @@ def normalize(raw, rules=None):
                         continue
                     if remaining >= 1:
                         s = s[:remaining]
+
+    # 等价别称映射（史实/官制专称）：剥离装饰词后，若 base 命中 alias_map 的键
+    # （如 民部→户部、御史台→都察院），替换为通行规范名，使跨书 index base 对齐。
+    # 只影响匹配键，不改原文 payload。新增别称只改 name_rules.json 的 alias_map。
+    alias_map = rules.get("alias_map") or {}
+    if s in alias_map:
+        s = alias_map[s]
 
     return s.strip() or raw.strip()
 
@@ -178,7 +197,9 @@ def _collect_from_ent_keys(con, book_id, rules):
     ).fetchone()
     if not row or not row[0]:
         return []
-    abspath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", row[0], rel)
+    abspath = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "..", row[0], rel
+    )
     abspath = os.path.normpath(abspath)
     if not os.path.exists(abspath):
         return []
@@ -387,21 +408,35 @@ class BookNameIndex:
         hits = {}
         # 1) 精确 canonical
         for uid, typ in self.norm_map.get(raw, []):
-            hits[uid] = (uid, "exact_normalized",
-                         capped_confidence(rules, typ, "exact_normalized", 1.0))
+            hits[uid] = (
+                uid,
+                "exact_normalized",
+                capped_confidence(rules, typ, "exact_normalized", 1.0),
+            )
         # 2) 任意 surface（含 text / alias / base）
         for uid, typ in self.surf_map.get(raw, []):
             if uid not in hits:
-                hits[uid] = (uid, "surface_alias",
-                             capped_confidence(rules, typ, "surface_alias",
-                                                conf_map.get("surface_alias", 0.90)))
+                hits[uid] = (
+                    uid,
+                    "surface_alias",
+                    capped_confidence(
+                        rules, typ, "surface_alias", conf_map.get("surface_alias", 0.90)
+                    ),
+                )
         # 3) 归一后 base 相等
         if n_raw != raw:
             for uid, typ in self.surf_map.get(n_raw, []):
                 if uid not in hits:
-                    hits[uid] = (uid, "normalized_stripped",
-                                 capped_confidence(rules, typ, "normalized_stripped",
-                                                    conf_map.get("normalized_stripped", 0.65)))
+                    hits[uid] = (
+                        uid,
+                        "normalized_stripped",
+                        capped_confidence(
+                            rules,
+                            typ,
+                            "normalized_stripped",
+                            conf_map.get("normalized_stripped", 0.65),
+                        ),
+                    )
         out = list(hits.values())
         out.sort(key=lambda x: x[2], reverse=True)
         return out
@@ -409,4 +444,7 @@ class BookNameIndex:
 
 def all_ent_surfaces(con, book_id, rules=None):
     """调试/审计：返回本书 ent 的 (uid, normalized, type, surfaces) 列表。"""
-    return [(uid, norm, typ, surfs) for uid, norm, typ, surfs, _a in collect_surfaces(con, book_id, rules)]
+    return [
+        (uid, norm, typ, surfs)
+        for uid, norm, typ, surfs, _a in collect_surfaces(con, book_id, rules)
+    ]

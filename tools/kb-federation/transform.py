@@ -33,6 +33,12 @@ EDGE_SPEC = {
     "appt": {"subject": "person", "object": "institution", "predicate": "office"},
 }
 
+# per-book 覆盖：个别书某 edge 层的字段形状与默认不同时在此登记
+# （如 shz appts 记录只有 person+office、无 institution，object 落到 office）
+EDGE_SPEC_BOOK = {
+    "shz": {"appt": {"subject": "person", "object": "office", "predicate": "office"}},
+}
+
 
 def _name_text(v):
     """REL/APPT 字段可能是 str 或 {text:..., *_ent_ids:[...]}，取其文本名。"""
@@ -54,7 +60,9 @@ def build_nodes(con, rules=None, commit=True):
     cur = con.cursor()
     cur.execute("DELETE FROM nodes")
     rows = []
-    for book_id in [r[0] for r in cur.execute("SELECT book_id FROM books ORDER BY book_id")]:
+    for book_id in [
+        r[0] for r in cur.execute("SELECT book_id FROM books ORDER BY book_id")
+    ]:
         for uid, norm, typ, surfs, aliases in collect_surfaces(con, book_id, rules):
             payload = {
                 "normalized": norm,
@@ -62,8 +70,17 @@ def build_nodes(con, rules=None, commit=True):
                 "surfaces": sorted(surfs),
                 "aliases": sorted(aliases) if aliases else [],
             }
-            rows.append((uid, book_id, "ent", uid.split(":", 1)[1], norm, typ,
-                         json.dumps(payload, ensure_ascii=False)))
+            rows.append(
+                (
+                    uid,
+                    book_id,
+                    "ent",
+                    uid.split(":", 1)[1],
+                    norm,
+                    typ,
+                    json.dumps(payload, ensure_ascii=False),
+                )
+            )
     cur.executemany(
         "INSERT OR REPLACE INTO nodes(uid,book_id,layer_key,local_id,label,type,payload)"
         " VALUES (?,?,?,?,?,?,?)",
@@ -88,11 +105,16 @@ def build_edges(con, rules=None, commit=True):
     indexes = {}
     edge_rows = []
     pending = []
-    for book_id in [r[0] for r in cur.execute("SELECT book_id FROM books ORDER BY book_id")]:
+    for book_id in [
+        r[0] for r in cur.execute("SELECT book_id FROM books ORDER BY book_id")
+    ]:
         indexes[book_id] = BookNameIndex(con, book_id, rules)
 
     for book_id, idx in indexes.items():
-        for layer, spec in EDGE_SPEC.items():
+        for layer, spec0 in EDGE_SPEC.items():
+            spec = spec0
+            if book_id in EDGE_SPEC_BOOK and layer in EDGE_SPEC_BOOK[book_id]:
+                spec = EDGE_SPEC_BOOK[book_id][layer]
             q = con.execute(
                 "SELECT local_id, item_id, payload FROM records"
                 " WHERE book_id=? AND layer_key=?",
@@ -111,23 +133,48 @@ def build_edges(con, rules=None, commit=True):
                     if hits:
                         subj_uid = hits[0][0]
                     else:
-                        pending.append((book_id, layer, local_id, spec["subject"],
-                                        subj_name, "no_ent_match"))
+                        pending.append(
+                            (
+                                book_id,
+                                layer,
+                                local_id,
+                                spec["subject"],
+                                subj_name,
+                                "no_ent_match",
+                            )
+                        )
                 if obj_name:
                     hits = idx.resolve(obj_name)
                     if hits:
                         obj_uid = hits[0][0]
                     else:
-                        pending.append((book_id, layer, local_id, spec["object"],
-                                        obj_name, "no_ent_match"))
+                        pending.append(
+                            (
+                                book_id,
+                                layer,
+                                local_id,
+                                spec["object"],
+                                obj_name,
+                                "no_ent_match",
+                            )
+                        )
 
                 if subj_uid or obj_uid:
                     edge_uid = f"{book_id}:{layer}:{local_id}"
-                    edge_rows.append((edge_uid, book_id, layer, local_id, pred,
-                                      subj_uid, obj_uid,
-                                      subj_name if not subj_uid else None,
-                                      obj_name if not obj_uid else None,
-                                      json.dumps(rec, ensure_ascii=False)))
+                    edge_rows.append(
+                        (
+                            edge_uid,
+                            book_id,
+                            layer,
+                            local_id,
+                            pred,
+                            subj_uid,
+                            obj_uid,
+                            subj_name if not subj_uid else None,
+                            obj_name if not obj_uid else None,
+                            json.dumps(rec, ensure_ascii=False),
+                        )
+                    )
 
     cur.executemany(
         "INSERT OR REPLACE INTO edges(uid,book_id,layer_key,local_id,predicate,"
@@ -271,7 +318,9 @@ def disambiguate(con, rules=None, commit=True):
                     if p in preds and aligned(na, nb):
                         support += 1
             if support > 0:
-                new_conf = min(conf + per * min(support, cap_boost / per), rel_conf + cap_boost)
+                new_conf = min(
+                    conf + per * min(support, cap_boost / per), rel_conf + cap_boost
+                )
                 new_conf = max(new_conf, rel_conf)
                 if new_conf > conf + 1e-9:
                     cand_conf[(a, b)] = new_conf

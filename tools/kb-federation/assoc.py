@@ -35,16 +35,85 @@
 """
 
 import json
+import re
 from collections import defaultdict
 
 from query import FederationQuery
 from name_resolver import load_rules, normalize
 
+# 明代纪元顺序（joint_timeline 排序、salary_bridge 归档用）
+_REIGN_ORDER = [
+    "吴",
+    "洪武",
+    "建文",
+    "永乐",
+    "洪熙",
+    "宣德",
+    "正统",
+    "景泰",
+    "天顺",
+    "成化",
+    "弘治",
+    "正德",
+    "嘉靖",
+    "隆庆",
+    "万历",
+    "泰昌",
+    "天启",
+    "崇祯",
+]
+
+_CN_DIGITS = {
+    "零": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+}
+
+
+def _cn_int(s):
+    """中文数字 → int（支持 千/百/十/万 位，忽略 馀/有奇/倍之 尾注）。
+
+        例：'四百七十一万七千' → 4717000；'万六千' → 16000；
+            '三十二万五千六百' → 325600；'三十万两有奇' → 300000。
+    解析不出的返回 None（不与 0 混淆）。
+    """
+    if not s:
+        return None
+    total = section = num = 0
+    for ch in str(s):
+        if ch in _CN_DIGITS:
+            num = _CN_DIGITS[ch]
+        elif ch == "十":
+            section += (num or 1) * 10
+            num = 0
+        elif ch == "百":
+            section += (num or 1) * 100
+            num = 0
+        elif ch == "千":
+            section += (num or 1) * 1000
+            num = 0
+        elif ch == "万":
+            seg = section + num
+            total += (seg if seg else 1) * 10000
+            section = num = 0
+        else:
+            break  # 非数字字符（如 馀/两/有奇）到此为止
+    return total + section + num
+
 
 def _label_of(con, uid):
     if not uid:
         return None
-    r = con.execute("SELECT label, type, book_id FROM nodes WHERE uid=?", (uid,)).fetchone()
+    r = con.execute(
+        "SELECT label, type, book_id FROM nodes WHERE uid=?", (uid,)
+    ).fetchone()
     return {"uid": uid, "label": r[0], "type": r[1], "book": r[2]} if r else None
 
 
@@ -63,9 +132,27 @@ def _rec(con, book, layer, local_id):
         d = {}
     # 摘要：取最有信息量的几个标量字段
     brief = {}
-    for k in ("topic", "term", "name", "title", "action", "what", "type", "stance",
-              "category", "office", "relation_type", "cited_work", "region",
-              "era", "when", "where", "summary", "person_a", "person_b"):
+    for k in (
+        "topic",
+        "term",
+        "name",
+        "title",
+        "action",
+        "what",
+        "type",
+        "stance",
+        "category",
+        "office",
+        "relation_type",
+        "cited_work",
+        "region",
+        "era",
+        "when",
+        "where",
+        "summary",
+        "person_a",
+        "person_b",
+    ):
         v = d.get(k)
         if isinstance(v, str) and v.strip():
             brief[k] = v.strip()[:60]
@@ -75,8 +162,12 @@ def _rec(con, book, layer, local_id):
                 brief[k] = t.strip()[:60]
     return {
         "ref": f"{book}/{layer}/{local_id}",
-        "book": book, "layer": layer, "local_id": local_id,
-        "item_id": r[0], "volume": r[1], "brief": brief,
+        "book": book,
+        "layer": layer,
+        "local_id": local_id,
+        "item_id": r[0],
+        "volume": r[1],
+        "brief": brief,
     }
 
 
@@ -109,21 +200,25 @@ class AssocQuery:
                     " WHERE target_uid=? GROUP BY layer_key",
                     (uid,),
                 ).fetchall()
-                rows.append({
-                    **m,
-                    "referenced_by": {l: c for l, c in cited},
-                    "activity": sum(c for _l, c in cited),
-                })
+                rows.append(
+                    {
+                        **m,
+                        "referenced_by": {l: c for l, c in cited},
+                        "activity": sum(c for _l, c in cited),
+                    }
+                )
             rows.sort(key=lambda r: (-r["confidence"], -r["activity"], r["book"]))
-            out.append({
-                "query": name,
-                "canonical_id": cid,
-                "repr_label": g["repr_label"],
-                "repr_type": g["repr_type"],
-                "best_confidence": g["best_confidence"],
-                "books_covered": sorted({r["book"] for r in rows}),
-                "variants": rows,
-            })
+            out.append(
+                {
+                    "query": name,
+                    "canonical_id": cid,
+                    "repr_label": g["repr_label"],
+                    "repr_type": g["repr_type"],
+                    "best_confidence": g["best_confidence"],
+                    "books_covered": sorted({r["book"] for r in rows}),
+                    "variants": rows,
+                }
+            )
         return out
 
     # ------------------------------------------------------------------
@@ -171,12 +266,14 @@ class AssocQuery:
                     continue
                 info = _label_of(self.con, other)
                 anchor = _rec(self.con, b, l, lid)
-                neighbors.append({
-                    "from": _label_of(self.con, uid),
-                    "predicate": pred,
-                    "to": info,
-                    "evidence": anchor,
-                })
+                neighbors.append(
+                    {
+                        "from": _label_of(self.con, uid),
+                        "predicate": pred,
+                        "to": info,
+                        "evidence": anchor,
+                    }
+                )
         # 按关系类型聚合：同一关系类别跨书合并呈现
         by_pred = defaultdict(lambda: {"count": 0, "books": set(), "people": {}})
         for nb in neighbors:
@@ -187,9 +284,15 @@ class AssocQuery:
             if nb["to"]:
                 slot["people"][nb["to"]["uid"]] = nb["to"]["label"]
         summary = sorted(
-            [{"predicate": k, "count": v["count"], "books": sorted(v["books"]),
-              "people": list(v["people"].values())[:8]}
-             for k, v in by_pred.items()],
+            [
+                {
+                    "predicate": k,
+                    "count": v["count"],
+                    "books": sorted(v["books"]),
+                    "people": list(v["people"].values())[:8],
+                }
+                for k, v in by_pred.items()
+            ],
             key=lambda x: -x["count"],
         )
         return {
@@ -220,18 +323,22 @@ class AssocQuery:
                 d = json.loads(payload)
             except (ValueError, TypeError):
                 continue
-            chain.append({
-                "book": book, "person": person_label,
-                "office": _txt(d.get("office")),
-                "institution": _txt(d.get("institution")),
-                "when": d.get("when"),
-                "status": d.get("status"),
-                "evidence": _rec(self.con, book, layer, lid),
-            })
+            chain.append(
+                {
+                    "book": book,
+                    "person": person_label,
+                    "office": _txt(d.get("office")),
+                    "institution": _txt(d.get("institution")),
+                    "when": d.get("when"),
+                    "status": d.get("status"),
+                    "evidence": _rec(self.con, book, layer, lid),
+                }
+            )
         # 无年份的排最后
         chain.sort(key=lambda c: (not bool(c["when"]), str(c["when"] or "")))
         return {
-            "query": name, "canonical_id": cid,
+            "query": name,
+            "canonical_id": cid,
             "identity": (self.fq.canon.get(cid, (None, name, None))[1] or name),
             "books": sorted({c["book"] for c in chain}),
             "appointments": chain,
@@ -277,13 +384,15 @@ class AssocQuery:
             ).fetchall():
                 anchor = _rec(self.con, row[0], row[1], row[2])
                 if anchor:
-                    out.append({
-                        "cited_work": work,
-                        "cited_uid": uid,
-                        "citing_book": row[0],
-                        "citing_ref": anchor,
-                        "cited_as": row[3],
-                    })
+                    out.append(
+                        {
+                            "cited_work": work,
+                            "cited_uid": uid,
+                            "citing_book": row[0],
+                            "citing_ref": anchor,
+                            "cited_as": row[3],
+                        }
+                    )
         return {
             "query": work,
             "citations": out,
@@ -312,21 +421,31 @@ class AssocQuery:
                 seen.add(key)
                 anchor = _rec(self.con, row[0], row[1], row[2])
                 if anchor:
-                    works.append({"book": row[0], "work_ref": anchor,
-                                  "work_title": row[3] or anchor["brief"].get("title")})
+                    works.append(
+                        {
+                            "book": row[0],
+                            "work_ref": anchor,
+                            "work_title": row[3] or anchor["brief"].get("title"),
+                        }
+                    )
         # 同名作品跨书聚合（按标题）
         by_title = defaultdict(list)
         for w in works:
             key = w["work_title"] or w["work_ref"]["local_id"]
             by_title[key].append(w)
-        shared = {t: ws for t, ws in by_title.items() if len({w["book"] for w in ws}) > 1}
+        shared = {
+            t: ws for t, ws in by_title.items() if len({w["book"] for w in ws}) > 1
+        }
         return {
             "query": author,
             "author_uids": target,
             "works": works,
             "shared_works_cross_book": [
-                {"title": t, "books": sorted({w["book"] for w in ws}),
-                 "refs": [w["work_ref"] for w in ws]}
+                {
+                    "title": t,
+                    "books": sorted({w["book"] for w in ws}),
+                    "refs": [w["work_ref"] for w in ws],
+                }
                 for t, ws in shared.items()
             ],
         }
@@ -367,16 +486,24 @@ class AssocQuery:
                     b = "纪事"
                 else:
                     b = f"其他({layer})"
-                buckets[b].append({
-                    "book": book, "role": role, "as": text, **anchor,
-                })
+                buckets[b].append(
+                    {
+                        "book": book,
+                        "role": role,
+                        "as": text,
+                        **anchor,
+                    }
+                )
         return {
             "query": place,
             "place_uids": target,
             "sections": [
-                {"section": k, "count": len(v),
-                 "books": sorted({x["book"] for x in v}),
-                 "entries": v[:limit]}
+                {
+                    "section": k,
+                    "count": len(v),
+                    "books": sorted({x["book"] for x in v}),
+                    "entries": v[:limit],
+                }
                 for k, v in sorted(buckets.items(), key=lambda kv: -len(kv[1]))
             ],
         }
@@ -398,11 +525,15 @@ class AssocQuery:
             ).fetchall():
                 anchor = _rec(self.con, book, layer, lid)
                 if anchor:
-                    entries.append({
-                        "book": book, "as": text, "volume": vol,
-                        "category": anchor["brief"].get("category"),
-                        "evidence": anchor,
-                    })
+                    entries.append(
+                        {
+                            "book": book,
+                            "as": text,
+                            "volume": vol,
+                            "category": anchor["brief"].get("category"),
+                            "evidence": anchor,
+                        }
+                    )
         return {
             "query": name,
             "object_uids": target,
@@ -431,8 +562,7 @@ class AssocQuery:
         for book, layer, lid, item in self.con.execute(
             "SELECT book_id, layer_key, local_id, item_id FROM records"
             " WHERE layer_key IN ('event','opn','ming')"
-            "   AND (payload LIKE ?)"
-            + (" AND book_id=?" if False else ""),
+            "   AND (payload LIKE ?)" + (" AND book_id=?" if False else ""),
             (like,),
         ).fetchall():
             anchor = _rec(self.con, book, layer, lid)
@@ -440,53 +570,88 @@ class AssocQuery:
                 continue
             b = anchor["brief"]
             if layer == "event":
-                events.append({
-                    "book": book, "type": b.get("type"), "action": b.get("action"),
-                    "what": b.get("what"), "when": b.get("when"),
-                    "where": b.get("where"), "via": "keyword",
-                    "evidence": anchor,
-                })
+                events.append(
+                    {
+                        "book": book,
+                        "type": b.get("type"),
+                        "action": b.get("action"),
+                        "what": b.get("what"),
+                        "when": b.get("when"),
+                        "where": b.get("where"),
+                        "via": "keyword",
+                        "evidence": anchor,
+                    }
+                )
             elif layer == "opn":
-                opinions.append({
-                    "book": book, "topic": b.get("topic"), "stance": b.get("stance"),
-                    "argument": b.get("argument"), "via": "keyword",
-                    "evidence": anchor,
-                })
+                opinions.append(
+                    {
+                        "book": book,
+                        "topic": b.get("topic"),
+                        "stance": b.get("stance"),
+                        "argument": b.get("argument"),
+                        "via": "keyword",
+                        "evidence": anchor,
+                    }
+                )
             elif layer == "ming":
-                ming.append({
-                    "book": book, "era": b.get("era"), "what": b.get("what"),
-                    "when": b.get("when"), "via": "keyword", "evidence": anchor,
-                })
+                ming.append(
+                    {
+                        "book": book,
+                        "era": b.get("era"),
+                        "what": b.get("what"),
+                        "when": b.get("when"),
+                        "via": "keyword",
+                        "evidence": anchor,
+                    }
+                )
 
         # A 路径：实体引用
         target = self._resolve(keyword)
         for uid in target:
             for book, layer, lid, item in self.con.execute(
                 "SELECT book_id, layer_key, local_id, item_id"
-                "  FROM record_refs WHERE target_uid=?", (uid,)
+                "  FROM record_refs WHERE target_uid=?",
+                (uid,),
             ).fetchall():
                 anchor = _rec(self.con, book, layer, lid)
                 if not anchor:
                     continue
                 b = anchor["brief"]
                 if layer == "event":
-                    events.append({
-                        "book": book, "type": b.get("type"), "action": b.get("action"),
-                        "what": b.get("what"), "when": b.get("when"),
-                        "where": b.get("where"), "via": "entity",
-                        "evidence": anchor,
-                    })
+                    events.append(
+                        {
+                            "book": book,
+                            "type": b.get("type"),
+                            "action": b.get("action"),
+                            "what": b.get("what"),
+                            "when": b.get("when"),
+                            "where": b.get("where"),
+                            "via": "entity",
+                            "evidence": anchor,
+                        }
+                    )
                 elif layer == "opn":
-                    opinions.append({
-                        "book": book, "topic": b.get("topic"), "stance": b.get("stance"),
-                        "argument": b.get("argument"), "via": "entity",
-                        "evidence": anchor,
-                    })
+                    opinions.append(
+                        {
+                            "book": book,
+                            "topic": b.get("topic"),
+                            "stance": b.get("stance"),
+                            "argument": b.get("argument"),
+                            "via": "entity",
+                            "evidence": anchor,
+                        }
+                    )
                 elif layer == "ming":
-                    ming.append({
-                        "book": book, "era": b.get("era"), "what": b.get("what"),
-                        "when": b.get("when"), "via": "entity", "evidence": anchor,
-                    })
+                    ming.append(
+                        {
+                            "book": book,
+                            "era": b.get("era"),
+                            "what": b.get("what"),
+                            "when": b.get("when"),
+                            "via": "entity",
+                            "evidence": anchor,
+                        }
+                    )
 
         # 去重（同 ref 只保留一次）
         def dedup(lst):
@@ -503,8 +668,11 @@ class AssocQuery:
         return {
             "query": keyword,
             "entity_uids": target,
-            "counts": {"events": len(events), "opinions": len(opinions),
-                       "chronicles": len(ming)},
+            "counts": {
+                "events": len(events),
+                "opinions": len(opinions),
+                "chronicles": len(ming),
+            },
             "events": events[:limit],
             "opinions": opinions[:limit],
             "chronicles": ming[:limit],
@@ -547,32 +715,39 @@ class AssocQuery:
             pos = tr.find(kw)
             src = "translation"
             if pos >= 0:
-                snippet = tr[max(0, pos - 20): pos + 40].strip()
+                snippet = tr[max(0, pos - 20) : pos + 40].strip()
             else:
                 orig = d.get("original") or d.get("norm") or ""
                 pos_o = orig.find(kw)
                 src = "original" if pos_o >= 0 else "translation_head"
-                snippet = (orig[max(0, pos_o - 20): pos_o + 40].strip()
-                           if pos_o >= 0 else tr[:60].strip())
+                snippet = (
+                    orig[max(0, pos_o - 20) : pos_o + 40].strip()
+                    if pos_o >= 0
+                    else tr[:60].strip()
+                )
 
             # 同 item 的其他层记录 → 它们引用的实体 = 本条的题材指纹
             co = set(self._item_entities(book, item))
-            by_book[book].append({
-                "book": book, "volume": vol, "item_id": item,
-                "style": d.get("style"),
-                "matched_in": src,
-                "snippet": snippet,
-                "co_entities": sorted(co)[:8],
-                "_coset": co,
-                "translation": tr[:300],
-                "evidence": _rec(self.con, book, layer, lid),
-            })
+            by_book[book].append(
+                {
+                    "book": book,
+                    "volume": vol,
+                    "item_id": item,
+                    "style": d.get("style"),
+                    "matched_in": src,
+                    "snippet": snippet,
+                    "co_entities": sorted(co)[:8],
+                    "_coset": co,
+                    "translation": tr[:300],
+                    "evidence": _rec(self.con, book, layer, lid),
+                }
+            )
 
         # 2) 以共现实体集跨书配对（Jaccard 相似度 > 0 者视为同题材）
         entries = [e for lst in by_book.values() for e in lst]
         pairs = []
         for i, a in enumerate(entries):
-            for b in entries[i + 1:]:
+            for b in entries[i + 1 :]:
                 if a["book"] == b["book"]:
                     continue
                 inter = a["_coset"] & b["_coset"]
@@ -580,25 +755,30 @@ class AssocQuery:
                     continue
                 union = a["_coset"] | b["_coset"]
                 jac = len(inter) / len(union) if union else 0.0
-                pairs.append({
-                    "similarity": round(jac, 3),
-                    "shared_entities": sorted(inter)[:6],
-                    "books": sorted({a["book"], b["book"]}),
-                    "readings": [
-                        {k: v for k, v in a.items() if k != "_coset"},
-                        {k: v for k, v in b.items() if k != "_coset"},
-                    ],
-                })
+                pairs.append(
+                    {
+                        "similarity": round(jac, 3),
+                        "shared_entities": sorted(inter)[:6],
+                        "books": sorted({a["book"], b["book"]}),
+                        "readings": [
+                            {k: v for k, v in a.items() if k != "_coset"},
+                            {k: v for k, v in b.items() if k != "_coset"},
+                        ],
+                    }
+                )
         pairs.sort(key=lambda p: (-p["similarity"], p["books"]))
         # 各书的题材指纹一览：即使没有天然对读轴，也让人工看出「各书各讲什么」
         per_book = []
         for b, lst in sorted(by_book.items()):
             co = sorted({e for x in lst for e in x["co_entities"]})
-            per_book.append({
-                "book": b, "hits": len(lst),
-                "top_entities": co[:10],
-                "volumes": sorted({str(x["volume"]) for x in lst})[:8],
-            })
+            per_book.append(
+                {
+                    "book": b,
+                    "hits": len(lst),
+                    "top_entities": co[:10],
+                    "volumes": sorted({str(x["volume"]) for x in lst})[:8],
+                }
+            )
         return {
             "query": kw,
             "books_with_hits": sorted(by_book.keys()),
@@ -606,8 +786,9 @@ class AssocQuery:
             "cross_book_topics": len(pairs),
             "natural_alignment": bool(pairs),
             "note": (
-                None if pairs else
-                "无天然对读轴：各书命中条目无共现实体（卷首各讲各的）。"
+                None
+                if pairs
+                else "无天然对读轴：各书命中条目无共现实体（卷首各讲各的）。"
                 "故不硬凑配对，改列各书题材指纹供人工选对读入口。"
             ),
             "per_book": per_book,
@@ -658,22 +839,353 @@ class AssocQuery:
         ).fetchall()
         return {
             "pending_name_refs": [
-                {"ref": f"{b}/{l}/{lid}", "field": f, "name": nm,
-                 "book": b, "evidence": _rec(self.con, b, l, lid)}
+                {
+                    "ref": f"{b}/{l}/{lid}",
+                    "field": f,
+                    "name": nm,
+                    "book": b,
+                    "evidence": _rec(self.con, b, l, lid),
+                }
                 for b, l, lid, f, nm in pend
             ],
             "unresolved_id_refs": [
-                {"ref": f"{b}/{l}/{lid}", "field": f, "raw_id": rid,
-                 "text": txt, "ambiguous": amb, "book": b,
-                 "evidence": _rec(self.con, b, l, lid)}
+                {
+                    "ref": f"{b}/{l}/{lid}",
+                    "field": f,
+                    "raw_id": rid,
+                    "text": txt,
+                    "ambiguous": amb,
+                    "book": b,
+                    "evidence": _rec(self.con, b, l, lid),
+                }
                 for b, l, lid, f, rid, txt, amb in unres
             ],
             "counts": {
                 "pending_names": self.con.execute(
-                    "SELECT COUNT(*) FROM pending_refs").fetchone()[0],
+                    "SELECT COUNT(*) FROM pending_refs"
+                ).fetchone()[0],
                 "unresolved_ids": self.con.execute(
-                    "SELECT COUNT(*) FROM record_refs WHERE target_uid IS NULL").fetchone()[0],
+                    "SELECT COUNT(*) FROM record_refs WHERE target_uid IS NULL"
+                ).fetchone()[0],
             },
+        }
+
+    # ------------------------------------------------------------------
+    # Q11 跨志联合时间线：两部志书的制度沿革按年代并轨
+    # ------------------------------------------------------------------
+    def joint_timeline(self, keyword=None, reign=None, limit=80):
+        """《食货志》+《职官志》的制度沿革联合时间线。
+
+        两志 tme 层各记各的（shz 227 条 / zgz 434 条），此查询把它们按
+        「年号 + 年份」并轨成一条线：同一时期（如 洪武 初年）食货志在
+        置户帖户籍、职官志在置大宗正院——分开看各是一段，并轨才能看出
+        「制度改革与官制改革的同步性」。每一条都带原文出处可回查。
+
+        keyword：主题过滤（如「赋役」「宗人府」）；reign：年号过滤（如「嘉靖」）。
+        """
+        rows = []
+        for book in ("shz", "zgz"):
+            for lid, item, pay in self.con.execute(
+                "SELECT local_id, item_id, payload FROM records"
+                " WHERE book_id=? AND layer_key='tme'",
+                (book,),
+            ).fetchall():
+                try:
+                    d = json.loads(pay)
+                except (ValueError, TypeError):
+                    continue
+                era = d.get("era") or {}
+                rg = era.get("reign")
+                if reign and rg != reign:
+                    continue
+                # 主题过滤：target 名称 / 内容 / 类别
+                target = d.get("target") or {}
+                tgt_text = target.get("text") if isinstance(target, dict) else target
+                blob = " ".join(
+                    str(x)
+                    for x in (
+                        tgt_text,
+                        d.get("content"),
+                        d.get("evidence"),
+                        d.get("category"),
+                        d.get("action"),
+                        d.get("office"),
+                    )
+                    if x
+                )
+                if keyword and keyword not in blob:
+                    continue
+                # 年份：era.year（zgz 有 order）优先，其次从 era.text 提取
+                year = era.get("year")
+                if year is None:
+                    m = re.search(r"([一二三四五六七八九十]+)年", era.get("text") or "")
+                    year = _cn_int(m.group(1)) if m else None
+                rows.append(
+                    {
+                        "book": book,
+                        "reign": rg or "未明",
+                        "year": year,
+                        "era_text": era.get("text"),
+                        "target": tgt_text,
+                        "action": d.get("action"),
+                        "category": d.get("category"),
+                        "content": d.get("content") or d.get("evidence") or "",
+                        "evidence": _rec(self.con, book, "tme", lid),
+                    }
+                )
+
+        # 并轨排序：年号序 → 有确年在前（模糊纪年/无年份排该年号末尾）→ 年份 → 书
+        def sort_key(r):
+            ri = _REIGN_ORDER.index(r["reign"]) if r["reign"] in _REIGN_ORDER else 99
+            y = r["year"]
+            has_y = isinstance(y, int) and y > 0
+            return (
+                ri,
+                0 if has_y else 1,
+                (y if has_y else 0),
+                r["book"],
+                r["evidence"]["local_id"],
+            )
+
+        rows.sort(key=sort_key)
+        # 同一条 item 上的跨志邻接对照：同 (reign, year) 两志都有时标记
+        adjacent = defaultdict(list)
+        for r in rows:
+            adjacent[(r["reign"], r["year"])].append(r["book"])
+        for r in rows:
+            r["cross_book_same_period"] = (
+                len(set(adjacent[(r["reign"], r["year"])])) > 1
+            )
+        return {
+            "query": f"joint_timeline{'/' + keyword if keyword else ''}"
+            f"{'/' + reign if reign else ''}",
+            "books": ["shz", "zgz"],
+            "total": len(rows),
+            "timeline": rows[:limit],
+            "cross_book_same_period": sum(
+                1 for r in rows[:limit] if r["cross_book_same_period"]
+            ),
+            "note": "shz=食货志 zgz=职官志；cross_book_same_period 表示该 (年号,年) "
+            "下两志都有沿革记录，可对读同一时期的制度与官制变动。",
+        }
+
+    # ------------------------------------------------------------------
+    # Q12 俸禄↔税额桥：职官志的品级俸禄 × 食货志的税赋数额对读
+    # ------------------------------------------------------------------
+    def salary_bridge(self, keyword=None, limit=60):
+        """《职官志》俸禄标准 ↔《食货志》税赋数额 的对照桥。
+
+        左侧：zgz struct 层各官职的岁禄（元/石，如 正二品 732 石米）。
+        右侧：shz struct 层 QUAN 计数（天下税粮、盐课银、关税、岁入…）。
+        两边都锚定同一经济现实：朝廷发俸禄的钱粮，来自食货收入。查询把
+        俸禄逐职列出，并把同一单位的税赋总额放一起，便于估算「俸禄占
+        岁入几何」。keyword 可过滤（官职名 / 税目名，如「都御史」「盐课」）。
+
+        注意：原书数字多为概数（四百七十餘万石），bridge 仅做对读展示，
+        不做推算；「俸禄/岁入」比例只在与原文口径一致时才给出量级。
+        """
+        # 左侧：zgz 俸禄
+        left = []
+        for lid, org_name, office, grade, pay in self.con.execute(
+            "SELECT local_id, json_extract(payload,'$.org_name'),"
+            " json_extract(payload,'$.office'), json_extract(payload,'$.grade'),"
+            " payload FROM records"
+            " WHERE book_id='zgz' AND layer_key='struct'",
+        ).fetchall():
+            try:
+                d = json.loads(pay)
+            except (ValueError, TypeError):
+                continue
+            sal = (d.get("salary") or {}).get("grade_based") or {}
+            if not sal.get("amount"):
+                continue
+            if keyword and keyword not in " ".join(
+                str(x) for x in (org_name, office, grade, sal) if x
+            ):
+                continue
+            left.append(
+                {
+                    "org": org_name,
+                    "office": office,
+                    "grade": grade,
+                    "amount": sal.get("amount"),
+                    "unit": sal.get("unit"),
+                    "item": sal.get("item"),
+                    "form": sal.get("form"),
+                    "era_text": sal.get("era_text"),
+                    "evidence": _rec(self.con, "zgz", "struct", lid),
+                }
+            )
+        # 右侧：shz QUAN 税赋计数（食货志里带数额的制度/岁入条目）
+        right = []
+        for lid, pay in self.con.execute(
+            "SELECT local_id, payload FROM records"
+            " WHERE book_id='shz' AND layer_key='struct'",
+        ).fetchall():
+            try:
+                d = json.loads(pay)
+            except (ValueError, TypeError):
+                continue
+            amount = d.get("amount")
+            unit = d.get("unit")
+            if not amount or not unit:
+                continue
+            if keyword and keyword not in " ".join(
+                str(x) for x in (d.get("item"), d.get("form"), unit) if x
+            ):
+                continue
+            right.append(
+                {
+                    "item": d.get("item"),
+                    "amount": str(amount)[:40],
+                    "parsed": _cn_int(re.sub(r"[^一-九零十百千万]", "", str(amount))),
+                    "unit": unit,
+                    "form": d.get("form"),
+                    "side": d.get("side"),
+                    "evidence": _rec(self.con, "shz", "struct", lid),
+                }
+            )
+        # 量级对读：同单位（石/两）俸禄总额较税赋特大项
+        comparison = []
+        for u in ("石", "两"):
+            L = sum(x["amount"] for x in left if x["unit"] == u)
+            R = [
+                {"item": x["item"], "val": x["parsed"], "unit": x["unit"]}
+                for x in right
+                if x["unit"] == u and isinstance(x["parsed"], int)
+            ]
+            R.sort(key=lambda x: -(x["val"] or 0))
+            if R:
+                top = R[:3]
+                comparison.append(
+                    {
+                        "unit": u,
+                        "salary_side_total": L,
+                        "top_tax_entries": top,
+                        "note": (
+                            f"俸禄总和（{L}{u}）对读税赋大项"
+                            f"（{top[0]['item']} {top[0]['val']}{u}）"
+                            if L and top[0]["val"]
+                            else "俸禄侧为抽样，不做总量推算"
+                        ),
+                    }
+                )
+        return {
+            "query": keyword or "（全部俸禄 ↔ 全部税赋计数）",
+            "salary_side": {"book": "zgz", "count": len(left), "entries": left[:limit]},
+            "fiscal_side": {
+                "book": "shz",
+                "count": len(right),
+                "entries": right[:limit],
+            },
+            "comparison": comparison,
+        }
+
+    # ------------------------------------------------------------------
+    # Q13 任职链贯通：食货志流程里的执行角色 ↔ 职官志的官职编制
+    # ------------------------------------------------------------------
+    def org_career_chain(self, keyword=None, limit=80):
+        """食货 PROCS（流程步骤中的执行者）↔ 职官 officials（官职编制）贯通。
+
+        食货志 PROCEDURE 的每一步写「谁去做」（agent，如 里长/百户/户科给事中），
+        但没说这个角色在官制里是什么品级、编几个员、俸几何——那是职官志的事。
+        此查询把 PROC 步骤里的 agent 角色与 zgz struct 层官职名对齐
+        （经 name_rules 归一，如 总兵官→总兵、巡按御史→巡按），输出
+        「角色 → 在哪些流程步骤任职 → 职官志里对应官职的品级/编制/俸禄」。
+
+        keyword：角色名过滤（如「御史」）；空则列出全部可贯通的角色。
+        """
+        # zgz 官职索引：normalize(office) -> 记录
+        posts = defaultdict(list)
+        for lid, pay in self.con.execute(
+            "SELECT local_id, payload FROM records"
+            " WHERE book_id='zgz' AND layer_key='struct'",
+        ).fetchall():
+            try:
+                d = json.loads(pay)
+            except (ValueError, TypeError):
+                continue
+            of = d.get("office")
+            if not of:
+                continue
+            key = normalize(of, self.rules) or of
+            sal = (d.get("salary") or {}).get("grade_based") or {}
+            posts[key].append(
+                {
+                    "office": of,
+                    "org": d.get("org_name"),
+                    "grade": d.get("grade"),
+                    "count": d.get("count"),
+                    "salary": f"{sal.get('amount')}{sal.get('unit')}"
+                    if sal.get("amount")
+                    else None,
+                    "evidence": _rec(self.con, "zgz", "struct", lid),
+                }
+            )
+        # shz PROC 步骤里的 agent 角色
+        chains = []
+        for lid, pay in self.con.execute(
+            "SELECT local_id, payload FROM records"
+            " WHERE book_id='shz' AND layer_key='proc'",
+        ).fetchall():
+            try:
+                d = json.loads(pay)
+            except (ValueError, TypeError):
+                continue
+            proc_name = d.get("name") or d.get("item_id") or lid
+            for st in d.get("steps") or []:
+                agent = (st.get("agent") or {}).get("text")
+                if not agent or agent == "未明":
+                    continue
+                key = normalize(agent, self.rules) or agent
+                if key not in posts:
+                    continue
+                if keyword and keyword not in agent and keyword not in key:
+                    continue
+                chains.append(
+                    {
+                        "role_raw": agent,
+                        "role_norm": key,
+                        "proc": proc_name,
+                        "proc_ref": _rec(self.con, "shz", "proc", lid),
+                        "step": st.get("text") or st.get("step") or "",
+                        "posts": posts[key],
+                    }
+                )
+        # 按角色聚合并按职位数排序
+        by_role = defaultdict(lambda: {"steps": [], "posts": set()})
+        for c in chains:
+            slot = by_role[c["role_norm"]]
+            slot["steps"].append(
+                {
+                    "role_raw": c["role_raw"],
+                    "proc": c["proc"],
+                    "proc_ref": c["proc_ref"],
+                    "step": c["step"],
+                }
+            )
+            for p in c["posts"]:
+                slot["posts"].add(json.dumps(p, ensure_ascii=False))
+        out = []
+        for role, slot in sorted(
+            by_role.items(), key=lambda kv: (-len(kv[1]["steps"]), kv[0])
+        ):
+            posts_list = [json.loads(s) for s in slot["posts"]]
+            out.append(
+                {
+                    "role": role,
+                    "appears_in_steps": len(slot["steps"]),
+                    "proc_steps": slot["steps"][:6],
+                    "zgz_posts": posts_list[:6],
+                    "total_posts": len(posts_list),
+                }
+            )
+        return {
+            "query": keyword or "（全部贯通角色）",
+            "matched_roles": len(out),
+            "chain": out[:limit],
+            "note": "角色名经 name_rules 归一后与官职名对齐（总兵官→总兵、"
+            "巡按御史→巡按）；posts 为职官志 struct 层对应官职编制。",
         }
 
     # ------------------------------------------------------------------
@@ -698,10 +1210,12 @@ class AssocQuery:
     def _sort_by_activity(self, uids):
         """按被引用次数（活跃度）降序。kzz 有 10 个叫「陈沂」的 ent，
         cross_search 前 N 个未必包含真正被 lit 层引用的那个，不重排会漏。"""
+
         def activity(uid):
             return self.con.execute(
                 "SELECT COUNT(*) FROM record_refs WHERE target_uid=?", (uid,)
             ).fetchone()[0]
+
         uids.sort(key=activity, reverse=True)
 
     def _resolve(self, name):
@@ -710,40 +1224,95 @@ class AssocQuery:
         return uids
 
     # ------------------------------------------------------------------
-    def catalog(self):
-        """十个查询的自述：名字 / 说明 / 用到哪些层。供 MCP 的 tools/list。"""
-        return [
-            {"name": "identity_bridge", "cn": "跨书同一人",
-             "desc": "一人的跨书身份对照：各书怎么记、置信度、异文、活跃度",
-             "params": {"name": "人名（支持尊称/谥号等任意称呼）"}},
-            {"name": "person_network", "cn": "人物关系网",
-             "desc": "某人在各书的关系，按关系类聚合，跨书可看出矛盾/互补",
-             "params": {"name": "人名", "predicates": "关系类型过滤（可选，列表）"}},
-            {"name": "career_chain", "cn": "官职升迁链",
-             "desc": "跨书仕宦履历时间线（appt 的 when 字段）",
-             "params": {"name": "人名"}},
-            {"name": "citation_network", "cn": "引文互证",
-             "desc": "某部书/对象被哪些书引用、在什么条目",
-             "params": {"work": "被引书名/对象名"}},
-            {"name": "work_author", "cn": "作品-作者网络",
-             "desc": "某作者的作品，并标出跨书共见的同名作品",
-             "params": {"author": "作者名"}},
-            {"name": "place_culture", "cn": "地名风物",
-             "desc": "某地的地方志式聚合：方言风俗+名物+地理+纪事，跨书拼接",
-             "params": {"place": "地名"}},
-            {"name": "object_lineage", "cn": "名物流传",
-             "desc": "某名物在各书的记载对照（形制/习性/传说）",
-             "params": {"name": "名物名"}},
-            {"name": "event_opinion", "cn": "事件-人物-观点",
-             "desc": "同一实体的事件+观点+纪事跨书对照，显出不同立场",
-             "params": {"keyword": "人名/地名/事件关键词"}},
-            {"name": "parallel_reading", "cn": "跨书对读",
-             "desc": "按关键词找各书同题材条目的译文，并列比对",
-             "params": {"keyword": "关键词"}},
-            {"name": "dangling_refs", "cn": "悬空引用待补",
-             "desc": "未解析的名字/ID 引用清单——数据缺口与下一本书补录清单",
-             "params": {"book_id": "限定某书（可选）"}},
-        ]
+
+
+def catalog(self):
+    """十三个查询的自述：名字 / 说明 / 用到哪些层。供 MCP 的 tools/list。
+
+    原十个（六书跨书）+ 志书接入后新增三个（joint_timeline /
+    salary_bridge / org_career_chain），后者在两个志书之间做
+    制度-官制-俸禄-职掌的跨志联查。
+    """
+    return [
+        {
+            "name": "identity_bridge",
+            "cn": "跨书同一人",
+            "desc": "一人的跨书身份对照：各书怎么记、置信度、异文、活跃度",
+            "params": {"name": "人名（支持尊称/谥号等任意称呼）"},
+        },
+        {
+            "name": "person_network",
+            "cn": "人物关系网",
+            "desc": "某人在各书的关系，按关系类聚合，跨书可看出矛盾/互补",
+            "params": {"name": "人名", "predicates": "关系类型过滤（可选，列表）"},
+        },
+        {
+            "name": "career_chain",
+            "cn": "官职升迁链",
+            "desc": "跨书仕宦履历时间线（appt 的 when 字段）",
+            "params": {"name": "人名"},
+        },
+        {
+            "name": "citation_network",
+            "cn": "引文互证",
+            "desc": "某部书/对象被哪些书引用、在什么条目",
+            "params": {"work": "被引书名/对象名"},
+        },
+        {
+            "name": "work_author",
+            "cn": "作品-作者网络",
+            "desc": "某作者的作品，并标出跨书共见的同名作品",
+            "params": {"author": "作者名"},
+        },
+        {
+            "name": "place_culture",
+            "cn": "地名风物",
+            "desc": "某地的地方志式聚合：方言风俗+名物+地理+纪事，跨书拼接",
+            "params": {"place": "地名"},
+        },
+        {
+            "name": "object_lineage",
+            "cn": "名物流传",
+            "desc": "某名物在各书的记载对照（形制/习性/传说）",
+            "params": {"name": "名物名"},
+        },
+        {
+            "name": "event_opinion",
+            "cn": "事件-人物-观点",
+            "desc": "同一实体的事件+观点+纪事跨书对照，显出不同立场",
+            "params": {"keyword": "人名/地名/事件关键词"},
+        },
+        {
+            "name": "parallel_reading",
+            "cn": "跨书对读",
+            "desc": "按关键词找各书同题材条目的译文，并列比对",
+            "params": {"keyword": "关键词"},
+        },
+        {
+            "name": "dangling_refs",
+            "cn": "悬空引用待补",
+            "desc": "未解析的名字/ID 引用清单——数据缺口与下一本书补录清单",
+            "params": {"book_id": "限定某书（可选）"},
+        },
+        {
+            "name": "joint_timeline",
+            "cn": "跨志联合时间线",
+            "desc": "食货/职官两志时间线并轨排序，同期两志均有记载时打出跨书对照标记",
+            "params": {"keyword": "关键词（可选）", "reign": "限定年号（可选）"},
+        },
+        {
+            "name": "salary_bridge",
+            "cn": "职官俸禄↔食货税额",
+            "desc": "职官志俸禄（禄米石数/官品）与食货志税赋计数同单位对读，显量级关系",
+            "params": {"keyword": "关键词（可选）"},
+        },
+        {
+            "name": "org_career_chain",
+            "cn": "任职链贯通",
+            "desc": "食货志职事（PROCS）与职官志官职（officials）经别称归一后贯通，显任事者所居官职",
+            "params": {"keyword": "关键词（可选）"},
+        },
+    ]
 
 
 def _txt(v):
@@ -760,7 +1329,6 @@ def _topic_norm(label, rules):
     base = normalize(label, rules) or label
     base = base.strip()
     return base[:4] if len(base) > 4 else base
-
 
 
 def _contrast(events, opinions):

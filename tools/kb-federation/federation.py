@@ -11,9 +11,10 @@
   search     跨书搜索一个名字，返回全部成员 + 方法 + 置信度
   resolve    逐书解析一个名字（T1），看每个书里落到哪个 ent
   refs       重建 record_refs（物化 payload 内 *_ent_ids 引用边）
-  assoc      关联查询（F4 十个：identity_bridge/person_network/career_chain/
+  assoc      关联查询（十三个：identity_bridge/person_network/career_chain/
              citation_network/work_author/place_culture/object_lineage/
-             event_opinion/parallel_reading/dangling_refs）
+             event_opinion/parallel_reading/dangling_refs/
+             joint_timeline/salary_bridge/org_career_chain）
   conflicts  待人工复核的 conflict 成员
   lock       人工裁决（--action lock 确认同人 / reject 解除误并）
   unlock     撤销人工裁决
@@ -129,8 +130,10 @@ def cmd_load_all(args):
     con.commit()
     con.close()
     print("-" * 50)
-    print(f"六书全量装载完成：items={total_items}  records={total_rec}  "
-          f"折叠丢失={total_lost}")
+    print(
+        f"六书全量装载完成：items={total_items}  records={total_rec}  "
+        f"折叠丢失={total_lost}"
+    )
     if total_lost:
         print("⚠️ 存在主键折叠，联邦库未完整回本，请先修复 adapter 的 ID 命名空间！")
     else:
@@ -147,8 +150,10 @@ def cmd_transform(args):
     print(f"  edges      ：{out['edges']}（悬空 pending_refs {out['pending']}）")
     print(f"  candidates ：{out['candidates']}")
     t3 = out["t3"]
-    print(f"  canonicals ：{t3['canonicals']}  members：{t3['members']}  "
-          f"关系提升 {t3['relation_boosted']}（{t3['rounds']} 轮）")
+    print(
+        f"  canonicals ：{t3['canonicals']}  members：{t3['members']}  "
+        f"关系提升 {t3['relation_boosted']}（{t3['rounds']} 轮）"
+    )
 
 
 def cmd_search(args):
@@ -166,9 +171,11 @@ def cmd_search(args):
             head += f" ({r['repr_type']})"
         print(f"{head}  best_conf={r['best_confidence']}")
         for m in r["members"]:
-            print(f"    {m['book']}:{m['uid'].split(':', 1)[1]:<18} "
-                  f"label={m['label']}  {m['method']}={m['confidence']} "
-                  f"({m['status']})")
+            print(
+                f"    {m['book']}:{m['uid'].split(':', 1)[1]:<18} "
+                f"label={m['label']}  {m['method']}={m['confidence']} "
+                f"({m['status']})"
+            )
         print()
     con.close()
 
@@ -187,12 +194,12 @@ def cmd_resolve(args):
 
 
 def cmd_assoc(args):
-    """执行关联查询（F4 的十个查询之一）。"""
+    """执行关联查询（F4 的十三个查询之一）。"""
     con = connect(args.db)
     ensure_schema(con)
     aq = AssocQuery(con)
     kw = {"limit": args.limit}
-    for k in ("name", "work", "author", "place", "keyword", "book_id"):
+    for k in ("name", "work", "author", "place", "keyword", "book_id", "reign"):
         v = getattr(args, k, None)
         if v:
             kw[k] = v
@@ -215,12 +222,18 @@ def cmd_conflicts(args):
     ensure_schema(con)
     print(json.dumps(review_stats(con), ensure_ascii=False))
     for c in list_conflicts(con, limit=args.limit, book_id=args.book):
-        print(f"\n  {c['canonical_id']}  代表={c['canonical_repr']!r}({c['canonical_type']})")
-        print(f"    待判 {c['book']}:{c['uid'].split(':', 1)[1]}  {c['label']!r}  "
-              f"{c['method']}={c['confidence']}")
+        print(
+            f"\n  {c['canonical_id']}  代表={c['canonical_repr']!r}({c['canonical_type']})"
+        )
+        print(
+            f"    待判 {c['book']}:{c['uid'].split(':', 1)[1]}  {c['label']!r}  "
+            f"{c['method']}={c['confidence']}"
+        )
         for s in c["siblings"]:
-            print(f"      兄弟 {s['book']}:{s['uid'].split(':', 1)[1]}  {s['label']!r}  "
-                  f"{s['confidence']} [{s['status']}]")
+            print(
+                f"      兄弟 {s['book']}:{s['uid'].split(':', 1)[1]}  {s['label']!r}  "
+                f"{s['confidence']} [{s['status']}]"
+            )
         print(f"    建议：{c['suggestion']}")
     con.close()
 
@@ -230,8 +243,14 @@ def cmd_lock(args):
     con = connect(args.db)
     ensure_schema(con)
     try:
-        out = decide(con, args.uid, args.action, canonical_id=args.canonical_id,
-                     reason=args.reason, decided_by="cli")
+        out = decide(
+            con,
+            args.uid,
+            args.action,
+            canonical_id=args.canonical_id,
+            reason=args.reason,
+            decided_by="cli",
+        )
     except ValueError as e:
         print("✗ %s" % e)
         con.close()
@@ -264,21 +283,26 @@ def cmd_refs(args):
 def cmd_enum_import(args):
     """稀疏表填充（一）：枚举基准库 → enum_registry / enum_values + 漂移检测。"""
     from enum_import import import_enums, compute_drift  # 局部导入避免环
+
     con = connect(args.db)
     ensure_schema(con)
     imp = import_enums(con)
-    print("枚举导入：groups=%d values=%d (顶层 %d)"
-          % (imp["groups"], imp["values"], imp["tops"]))
+    print(
+        "枚举导入：groups=%d values=%d (顶层 %d)"
+        % (imp["groups"], imp["values"], imp["tops"])
+    )
     if not args.no_drift:
         dr = compute_drift(con)
-        print("漂移检测：distinct=%d rows=%d"
-              % (dr["distinct_values"], dr["drift_rows"]))
+        print(
+            "漂移检测：distinct=%d rows=%d" % (dr["distinct_values"], dr["drift_rows"])
+        )
     con.close()
 
 
 def cmd_volumes(args):
     """稀疏表填充（二）：从 records 派生填充 volumes 目录表。"""
     from volumes import populate_volumes  # 局部导入避免环
+
     con = connect(args.db)
     ensure_schema(con)
     out = populate_volumes(con)
@@ -293,6 +317,7 @@ def cmd_source_rev(args):
     下次 load / load-all 也会由 register_catalog 自动写入。
     """
     from load import source_rev  # 局部导入避免环
+
     con = connect(args.db)
     ensure_schema(con)
     n = 0
@@ -313,8 +338,11 @@ def cmd_source_rev(args):
             (b, b, BOOK_NAMES.get(b, b), BOOK_REGISTRY[b].get("root"), "active", rev),
         )
         n += 1
-        print(f"  {b}: {rev[:12]}…" if rev.startswith(("dir:",)) or len(rev) > 12
-              else f"  {b}: {rev}")
+        print(
+            f"  {b}: {rev[:12]}…"
+            if rev.startswith(("dir:",)) or len(rev) > 12
+            else f"  {b}: {rev}"
+        )
     con.commit()
     con.close()
     print("source_rev 回填：%d 本" % n)
@@ -358,13 +386,19 @@ def build_parser():
     pref.add_argument("--db", default=DEFAULT_DB)
     pref.add_argument("--book", default=None, help="只重建某书（缺省全库）")
 
-    pas = sub.add_parser("assoc", help="关联查询（F4 十个查询之一）")
+    pas = sub.add_parser("assoc", help="关联查询（F4 十三个查询之一）")
     pas.add_argument("query")
     pas.add_argument("--db", default=DEFAULT_DB)
     pas.add_argument("--limit", type=int, default=20)
-    for k, h in (("name", "人名/名物名"), ("work", "被引书名"),
-                 ("author", "作者名"), ("place", "地名"),
-                 ("keyword", "关键词"), ("predicates", "关系类型过滤（逗号分隔）")):
+    for k, h in (
+        ("name", "人名/名物名"),
+        ("work", "被引书名"),
+        ("author", "作者名"),
+        ("place", "地名"),
+        ("keyword", "关键词"),
+        ("predicates", "关系类型过滤（逗号分隔）"),
+        ("reign", "年号过滤（joint_timeline，如 嘉靖）"),
+    ):
         pas.add_argument("--" + k, default=None, help=h)
 
     pcf = sub.add_parser("conflicts", help="待人工复核的 conflict 成员")
@@ -383,8 +417,9 @@ def build_parser():
     pul.add_argument("uid")
     pul.add_argument("--db", default=DEFAULT_DB)
 
-    pen = sub.add_parser("enum-import",
-                         help="稀疏表填充：枚举库→enum_registry/enum_values + 漂移检测")
+    pen = sub.add_parser(
+        "enum-import", help="稀疏表填充：枚举库→enum_registry/enum_values + 漂移检测"
+    )
     pen.add_argument("--db", default=DEFAULT_DB)
     pen.add_argument("--no-drift", action="store_true", help="跳过漂移检测")
 
