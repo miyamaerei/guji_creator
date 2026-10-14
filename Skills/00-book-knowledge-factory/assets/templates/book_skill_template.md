@@ -16,6 +16,7 @@ description: 《<书名>》知识工程实例 skill——按已确认方案执�
 | 判定方式 | 〔AI 逐条 + 代码验缺漏 / 规则引擎 + AI 复核〕 |
 | 交付形态 | 〔JSON + CSV / 文档；飞书/在线表格/双库落库仅按用户要求且技能可用时〕 |
 | 启用层 | 〔L1 实体 / L2 规则 / L3 流程 / L4 结构化 / L5 事件 / 跨层索引〕 |
+| 工程侧护栏 | 已接 `scripts/_common.py`（A/B/G/P 四族）；未接护栏与理由：〔无 / 说明〕 |
 
 ## 0.1 引导式反思记录（来源：工厂 Phase ②，本实例的源头）
 
@@ -39,6 +40,15 @@ description: 《<书名>》知识工程实例 skill——按已确认方案执�
 
 **确认结论**：〔用户拍板的启用层 + 未启用层理由 + 调整过程，如"用户提出事件层 → 试点 1 卷验收 → 全量"〕
 
+**目标查询问句清单**（**必填，Phase ② 产出**——error-taxonomy A 族 #50：先有问句清单，才有字段设计）：
+
+| # | 用户会拿这本书查什么 | 承载层 | Phase ② 预判 |
+|---|---|---|---|
+| 1 | 〔如"某机构编制几人几品"〕 | 〔RANK / posts〕 | 〔能答 / 需补字段 / 原文可能无〕 |
+
+> 本清单在 Phase ④ 试点与 Phase ⑤ 交付时**逐问实测作答**，产出「问句验收表」随交付给出。
+> 凡预判"原文可能无"的问句，交付时须写明属「原文确无」而非「结构没做」。
+
 ## 1. 执行流程总览
 
 按序执行，每阶段收尾对照 checklists：
@@ -56,6 +66,20 @@ description: 《<书名>》知识工程实例 skill——按已确认方案执�
 5. 全部条目建 task 清单（阶段可见、完成可核）
 6. **业务 ID 由打包器自动分配**：AI 源数据只写卷内顺序槽位，不手写业务 ID；打包器按「卷号 × 段容量 +1」段位分配，段容量按"卷条数 × 单层最大扩展系数"预留（默认 500）——pitfalls.md #13/#22
 7. **写盘与并行纪律**：写文件一律「临时文件 + rename 落盘」；共享汇总文件统一增量合并语义（`--volumes` 只重算请求卷、合并写回，不覆盖共享文件）——pitfalls.md #12/#14；验证脚本写文件输出，不依赖 stdout——pitfalls.md #6
+
+## 2.5 工程侧护栏（打包器骨架，Phase ③ 必接）
+
+> 依据：工厂 `references/error-taxonomy.md` —— A/B/G/P 四族合计 **30/65 条（约 46%）**，
+> **全部跨 3–5 本书复现，且与书的内容无关**。这 46% 不应留给本实例各自再发现，
+> 应在骨架层面一次性消除。装置见工厂 `assets/skeletons/packer_skeleton.py`（README 有四族对照表）。
+
+1. **复制骨架**：工厂 `assets/skeletons/packer_skeleton.py` → 本实例 `scripts/_common.py`，填写 `LAYER_SPECS`（只列本书实际启用的层，三元组「目录名/索引槽位名/记录键名」同源）。
+2. **不删护栏**：任何护栏函数确实不适用本书时，须在下文写明理由——静默删掉等于把坑重新埋回去。
+3. **A 族（静默失败）**：凡新增扩展字段，必须登记进 `FieldCoverage(fields=[...])`；填充率表与 ERR/GAP **并列交付**；零填充字段必须给出解释（原文没有？还是没接线？）。
+4. **B 族（命名契约）**：目录名 / 文件名前缀 / 索引槽位名 / schema 键名**四处同源**，只用 `LAYER_SPECS` 声明一次；子节点 ID 走 `assign_child_ids()`（派生 `<父ID>#<序号>`，且保留已有 ID，防两个遍历器互相覆盖）。
+5. **G 族（幂等/原子）**：写盘一律 `atomic_write_*()`；各层落盘走 `merge_layer()` 增量语义；共享文件走 `merge_shared_json()`，**永不从空字典重建**。
+6. **P 族（流程语境）**：判语域一律锚定原文开头（`SemanticGate`，防同形词污染——pitfalls.md #47）；数值/单位解析单点函数化（`cn2int()`，防量纲前缀误读——pitfalls.md #48）；枚举校验用「收集-报告-暂存」不中断（pitfalls.md #15），并跑 `drift_ratio()` 漂移告警（>1.5 判漂移——pitfalls.md #27）；探查要有终止条件（`ProbeTracker`——pitfalls.md #1）。
+7. **收尾**：每个 `build_*.py` 结尾调用 `run_guardrails(name, errs, gap)`，它自动追加命名一致性校验并以非零码退出。
 
 ## 3. 实体层方案（确认启用时执行）
 
@@ -110,11 +134,16 @@ description: 《<书名>》知识工程实例 skill——按已确认方案执�
 - 打包器（build_ 前缀、可重跑、幂等）：〔annotate / build_ent_keys / build_rules / build_proc / build_struct / build_event / build_kg_join / 公共基座 + 枚举单点〕
 - **键名约定**：各层产物顶层键统一 `records`；打包器内建源数据键名映射表（SRC_KEY），源数据键名与打包容器键分处声明——pitfalls.md #19/#23；CSV 计数按逻辑行（csv.reader/pandas），不数物理行——pitfalls.md #18
 - 验证：每层"验证缺漏清单.txt"问题数 = 0；验证脚本写文件输出，不依赖 stdout；区分结构性错误 ERR 与执行缺口 GAP
+- **填充率体检（与 ERR/GAP 并列，不可省）**：每层每个扩展字段输出「已填 / 总数 / 填充率」；**填充率 = 0 直接判失败**，必须逐条解释。排查顺序固定：**① 回填器是否真被 build 脚本调用 → ② 解析覆盖面是否漏组（复合句）→ ③ 最后才接受"原文没有"**（error-taxonomy A 族；pitfalls.md #45/#55/#56）
+- **各层条数 vs 索引层计数对账**：索引/适配器改动后必跑（error-taxonomy A 族装置 3）
+- **收尾总校验**：`run_guardrails()` 追加命名一致性校验后统一报 `OK <层> ERR=N GAP=M`
 - 重跑命令：〔PowerShell / bash 示例，含 --volumes 单卷重跑〕
 
 ## 10. 交付清单
 
 - 按层聚合交付（每层一组：归一汇总 + 验证清单 + 卷示例 + 跨层索引），≤6 组
+- **填充率表**：随交付一并给出，零填充字段附原因（**ERR=0 只证明值合法，不证明有值**）
+- **目标查询问句验收表**：〔Phase ② 产出的问句清单〕逐问实测作答，标注"能答 / 半答 / 答不了"；答不了者须分类为「原文确无」（正常，写明）或「结构缺陷」（须回填修复）——error-taxonomy A 族 #50：**先有问句清单，才有字段设计**
 - 《使用报告》：快速查询（跨层 CSV 一行全看 / 实体主键反查 / 各层归一汇总）、全文回查溯源、可重跑管线、扩展指南（模板见本实例 assets/templates/usage_report_template.md）
 - 《项目总结报告》：时间线、反思、根因、方法论沉淀、缺口与建议（模板见本实例 assets/templates/project_summary_template.md）
 - 交付物按环境可用方式交付（本地文件路径或打包视图），说明验证方式、覆盖范围与仍存在的缺口
@@ -131,4 +160,5 @@ description: 《<书名>》知识工程实例 skill——按已确认方案执�
 - `assets/sources/`：本书源文件（唯一权威来源，随实例存放）
 - `assets/templates/usage_report_template.md`：《使用报告》母版（交付阶段用）
 - `assets/templates/project_summary_template.md`：《项目总结报告》母版（交付阶段用）
-- 通用方法论/检查单/坑：见工厂 `../00-book-knowledge-factory/references/`（methodology.md / checklists.md / pitfalls.md）
+- `scripts/_common.py`：**打包器公共基座**（由工厂 `assets/skeletons/packer_skeleton.py` 复制而来；含 A/B/G/P 四族护栏——填充率体检、命名同源校验、原子写盘与增量合并、语域锚定匹配、枚举漂移告警）——详见工厂 `assets/skeletons/README.md`
+- 通用方法论/检查单/坑：见工厂 `../00-book-knowledge-factory/references/`（methodology.md / checklists.md / pitfalls.md / **error-taxonomy.md**）

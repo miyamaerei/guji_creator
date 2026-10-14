@@ -126,3 +126,19 @@
 - **实例化时自检抓出并修入工厂骨架的两个真缺陷**：**#63** `check_naming_consistency()` 对 list 调 `.items()`（#62 修法本身引入回归，且 `self_test.py` 用与生产不一致的 dict 形状喂函数致自检通过——A6 子型教科书样本）；**#64** `cn2int('十三万二千馀')` → `None`（约数后缀 `馀/有奇` 未剥离，且可夹在数字中间如 `四百三十馀万束`；对本实例为 **CRITICAL**，13 镇数额几乎全带 `馀`，不修则 C16 整棵树为空且不报错）。二者促成 pitfalls **v15**（#0–#64）。
 - **落盘文件**：`SKILL.md`（15,901 字符 / 543 行）/ `references/exploration-findings.md`（Phase ① 探查证据存档）/ `references/design-decisions.md`（Phase ② 方案确认记录）/ `references/schemas.md`（各层 schema 与示例）/ `scripts/_common.py`（工厂骨架复制 + `LAYER_SPECS` 填充）/ `scripts/_kg_enums.py`（枚举单点，VERSION 1.0）/ `assets/sources/` + `assets/templates/`；已建工作目录 `_data/ _extract/ chapters/ _layers/{ents,rules,regs,procs,structs,appts,tmes,opns}/ _views/`。
 - **待回写工厂**：`layer-library.md` 新增 shz 型与 C16 自定义层；`enum-library.md` 新枚举（QUAN_FORMS/QUAN_ORIGINS/INST_TYPES/EVO_STAGES/FISC_STAGES/REG_DOCS/REG_AGENT_KINDS 等）；新坑入 `pending-review.md`。
+
+## 13-wanli-yehuo-knowledge（万历野获编）
+
+- **内含式**：实例与 `wanliyehuopian-kb/` 工程同目录（`wanliyehuopian-kb/13-wanli-yehuo-knowledge/`）；编号 13。
+- **状态**：已交付（待执行）——Phase ① 探查取证 / Phase ② 方案确认 / Phase ③ 实例化落盘完成；**尚未开始 Phase ④ 试点与全量执行**。
+- **工厂首个「笔记掌造型」实例**（既往为官箴政书/笔记/年谱/方志/会典/正史典志）。
+- **源文件**：`assets/sources/万历野获编.txt`（随实例存放，UTF-8，8587 行 / 1.8MB；底本=文硕阁 epub 转 txt）。
+- **密度信号**：条目 `【` 1446 / 年号 1280 / 任职词 1120 / 规范词 767 / 引书 `《` 436 / 按语 379。
+- **方案组合 yhb 型（12 层）**：L0 底座 / L1 实体 / L2 规则 / L5 事件 / C1 APPT / C3 REL / C6 CIT / C9 OPN / C10 MING / C14 TME / REG 制度（笔记掌造型 7 属性） + 跨层索引 + V2/V3。
+- **不建层**：L3 流程（点不是线）/ L4 结构化（非台账体）/ C5 TRL（用户未要求）/ C2 LIT（收录文献极少）/ C4 NAM（无表格式名录）/ C7 OBJ / C8 CUS（密度不够独立成层）。
+- **本书特有扩展字段**：L1(faction/exam_info/career_span) / L2(rule_origin/actual_practice/violation_evidence) / L5(event_significance/political_impact/vs_official_history) / C9(commentary_type/target_entities/historical_parallel/tone) / MING(reign_focus/supplements_what) / TME(cause/before_after) / REG(actual_practice/abuses_reform)。
+- **跨层通用字段**：faction（L1/REL/APPT）/ source_type（L5/MING）/ vs_official_history（L5/MING/REG）/ firsthand_witness（MING/OPN）/ reign_period（几乎所有层）。
+- **12 问验收清单**：覆盖制度运作/人物关系/重大事件/作者立场/制度沿革/引书/边政/科举/补正史/风俗/科举背景/派系。
+- **落盘文件**：`SKILL.md` / `references/schemas.md` / `scripts/_common.py`（LAYER_SPECS 10 层 + ID_PREFIX 10 种）/ `scripts/_kg_enums.py`（VERSION 1.0，17 组枚举）/ `assets/sources/万历野获编.txt` + `assets/templates/`。
+- **骨架自检**：PASS 36 / FAIL 0。
+- **待回写工厂**：`layer-library.md` 新增 yhb 型方案组合；`enum-library.md` 新枚举（FACTIONS/COMMENTARY_TYPES/REIGN_FOCUS 等本书归纳）；新坑入 `pending-review.md`。

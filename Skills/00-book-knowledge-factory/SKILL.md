@@ -14,7 +14,8 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 ├─ 组件层（用什么搭）：层库 Layer Library——参考层模板 + 自定义层注册（references/layer-library.md）
 ├─ 流程层（怎么走）：本文件——工厂 5 阶段主流程
 ├─ 模板层（长什么样）：实例 skill 母版 + 报告母版 + 参考样例（assets/templates/, assets/samples/）
-├─ 台账层（管哪些实例）：实例台账 references/registry.md（状态/增量/源文件指针）
+├─ 骨架层（别重踩哪些错）：可复制代码骨架 + 四族护栏（assets/skeletons/）
+├─ 台账层（管哪些实例）：实例台账 references/registry.md（状态/增量/源文件指针）+ references/registry-detail.md（各实例详细备注）
 └─ 学习回路：每次实例化产生的新层/新坑/新模板/新枚举 → 回写对应库（版本行+1）并更新台账，工厂越用越强
 ```
 
@@ -36,8 +37,9 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 4. **结构性探查**：工厂阶段读目录/序跋/凡例 + 抽样 + 密度信号统计，够设计用即可；全文逐条精读留给实例执行，不与执行重复读。
 5. **实例 skill 自包含（执行层）**：实例必须能独立执行——启用层的 schema/枚举/触发词/模板/源文件固化在实例内部；通用方法论/检查单/坑库允许经相对路径引用工厂（仅作深化阅读，不作执行依赖）。反思记录只固化结论，过程存工厂案例档。
 6. **实例化后必校验**：生成实例 skill 后校验 frontmatter 与目录结构（name 与目录名一致、description 含触发词、references/assets 齐全）；并用书内真实条目试点校验 schema 可执行。
-7. **学习回路（记录强制，入库有门槛）**：案例与候选经验强制记录（过程 → case-feedback，候选 → `references/pending-review.md` 待评审区）；进正式库需过评审（跨书复用 + 归并优先 + 用户确认），合并时版本行+1 可回滚；设计级教训同步母版与检查单；实例台账（references/registry.md）同步更新。
+7. **学习回路（记录强制，入库有门槛）**：案例与候选经验强制记录（过程 → case-feedback，候选 → `references/pending-review.md` 待评审区）；进正式库需过评审（跨书复用 + 归并优先 + 用户确认），合并时版本行+1 可回滚；设计级教训同步母版与检查单；实例台账（references/registry.md）同步更新。**新坑入库时须同时在 `references/error-taxonomy.md` 对应族登记，并在 pitfalls 首部「错误分类总表」出现一次**（三处同源，防止分类漂移）。
 8. **执行纪律烙进实例，不逐条复述**：AI 判定与代码分工、原文不手抄、生成器正式化、枚举继承基准库、如实报告缺口等**执行期纪律**由母版与 `references/methodology.md` §2（十条操作原则）承载，工厂只负责保证实例完整继承（检查单 C 逐项核对），自身不复述执行细节。
+9. **工程侧护栏开工即接，不留实例各自再踩**：`references/error-taxonomy.md` 聚出的 A/B/G/P 四族（合计 **30/65 条 = 46%**）**全部跨 3–5 本复现、且与书的内容无关**——无论做哪本书都会重踩。这四族已在 `assets/skeletons/packer_skeleton.py` 固化为可复制骨架（填充率体检、命名同源校验、原子写盘与增量合并、语域锚定匹配、探查终止条件、枚举漂移告警），**Phase ③ 实例化时必须复制进实例 `scripts/`**（检查单 C 有专项核对）。护栏不得静默删除——不适用时须在实例写明理由。**新增四族坑时须同步落到 `assets/skeletons/` 代码，不允许只更新文档**（#45 首记后 #56 复发即因首次只记了坑）。
 
 ## 工作流决策树
 
@@ -69,6 +71,8 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 1. **第 1 轮（AI 汇报 + 收方向，一条消息完成）**：结构性探查发现摘要 + 展示 `references/layer-library.md` 中与本书信号匹配的参考层（引导，非推荐必选）+ 请用户说想法——"这本书你想结构化哪些方面？"（用户方向无条件列为候选并记录来源；自定义层完整开放）。**用户没想法时**：AI 直接给出带证据的推荐方案（建/不建 + 理由）请用户增删，不空转追问。
 2. **AI 补证据**：对每个候选层（用户提出 + 层库参考 + 自定义）给出：**建的理由**（本书哪种内容形态成体系，证据：密度信号/抽样实例）/ **不建的理由**（内容不支持就明确不建）/ **数据支持检验**（该层所需素材在文本中是否真实存在；素材不足判"点不是线"，不强行建模）。
 3. **第 2 轮（确认锁层）**：候选层清单（标注"用户提出 / 层库参考 / 自定义"）交用户拍板，可增删调整；确认后锁层。两轮仍未收敛 → 把分歧点列成清单交用户逐项裁决，不再开放讨论。
+4. **产出「目标查询问句清单」（本阶段必做，不可省）**：锁层同时产出"用户会拿这本书查什么"的问句清单（建议 8~12 问），**逐问标注承载层**，并预判每问属"能答 / 需补字段 / 原文可能无"。写入实例 SKILL.md §0.1。
+   > 依据：error-taxonomy A 族 #50 —— **先有问句清单，才有字段设计**。《明史·职官志》五卷全绿（ERR=0 / GAP=0 / 0 空条目）后，用户一问才实测出「8 类目标查询 2 能答 / 3 半答 / 3 答不了」。**验收指标全绿测的是层内自洽，不是用户要查的东西在不在**——二者可以完全脱节。问句清单是 A 族（最大族，8 条）的唯一根治手段。
 
 > 参照《新官轨范》真实过程：事件层是用户提出"事件五元组 Registry"后做的；结构化五维是用户问"除了流程整理外还可以怎么结构化？"后讨论选定的；规则层"AI 逐条判定"是用户否决代码引擎后确定的。引导式反思就是保留这条"用户提方向 → 参考补全 → 数据检验 → 确认"的通道。
 
@@ -78,12 +82,13 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 
 1. **命名**：`<book-slug>-knowledge`（slug 用书名拼音/英文，如《新官轨范》→ `xinguan-guifan-knowledge`）。
 2. **初始化**：在本技能同级目录生成实例骨架 `<NN>-<book-slug>-knowledge/`（SKILL.md + references/ + assets/ + scripts/），可借助 `skill-creator` 技能或手工创建。
-3. **填充（自包含）**：
-   - `SKILL.md`：frontmatter（name + description 含该书触发词）+ 执行规范主体——口径、引导式反思记录（用户方向/层来源/证据/确认结论）、底座方案、**仅启用层**方案（从层库内联该书定制的 schema）、管线、验证、交付清单。
+3. **接工程侧护栏（本阶段必做，照抄不发挥）**：复制 `assets/skeletons/packer_skeleton.py` → 实例 `scripts/_common.py`，按实例填写 `LAYER_SPECS`（只列实际启用的层）。四族 A/B/G/P 的消除装置一次到位，避免实例执行期重踩那 46%（对照表见 `assets/skeletons/README.md`）。复制后**立即跑 `python assets/skeletons/self_test.py` 确认 `PASS 24 / FAIL 0`**；实例若改动了骨架任何函数，必须重跑自检并补对应用例。
+4. **填充（自包含）**：
+   - `SKILL.md`：frontmatter（name + description 含该书触发词）+ 执行规范主体——口径、引导式反思记录（用户方向/层来源/证据/确认结论/**目标查询问句清单**）、底座方案、**工程侧护栏节**、**仅启用层**方案（从层库内联该书定制的 schema）、管线、验证、交付清单。
    - `references/schemas.md`：启用层的具体 schema/枚举/ID/触发词；枚举从基准库 `references/enum-library.md` 拉取规范值快照（含别名映射/树结构/使用说明），本书归纳增量写入快照；**未启用层不写**。
    - `assets/templates/`：复制使用报告与项目总结报告母版。
-4. **校验**：frontmatter（name 与目录名一致、description 含该书触发词）与目录结构校验，必须通过。
-5. 删除骨架示例文件（example.py / api_reference.md / example_asset.txt / 空目录）。
+5. **校验**：frontmatter（name 与目录名一致、description 含该书触发词）与目录结构校验，必须通过。
+6. 删除骨架示例文件（example.py / api_reference.md / example_asset.txt / 空目录）。
 
 ## ④ 试点校验（验证设计可执行）
 
@@ -96,9 +101,9 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 1. **交付**：书实例 skill 的完整路径、目录结构、SKILL.md 摘要、调用方式（"传《X》→ 实例 skill 被触发 → 按规范执行"）；说明实例执行会产出什么及与工厂的关系。
 2. **学习回路（记录强制，入库有门槛）**：
    - **强制记录**：本次探查/反思过程与用户方向原话 → 存 `references/case-feedback-<book-slug>.md`（实例只固化结论，过程不进实例）；候选新层/新坑/新枚举/模板改进 → 以提案写入 `references/pending-review.md` 待评审区（附证据）。
-   - **评审合并**：满足三条件（跨书复用潜力 / 与既有条目不冲突、归并优先于新增 / 用户确认）才升入对应库正式区（`layer-library.md` / `pitfalls.md` / `enum-library.md` / `assets/templates/`），版本行+1 可回滚；不满足 → 留待评审区观察或驳回留档。
-   - **设计级教训**（影响实例骨架的，如 ID 分配/增量语义/校验模式）：评审通过后同步母版与检查单，不能只进坑库。
-   - 更新 `references/registry.md`（状态/最近增量/案例反馈列）。
+   - **评审合并**：满足三条件（跨书复用潜力 / 与既有条目不冲突、归并优先于新增 / 用户确认）才升入对应库正式区（`layer-library.md` / `pitfalls.md` / `enum-library.md` / `assets/templates/`），版本行+1 可回滚；不满足 → 留待评审区观察或驳回留档。**升级与回填同一次完成**：合并后把该行状态改「已升级（日期）」+ 填实去向，并**移入 `references/pending-review-archive.md`**（主表只留在途提案，行数 = 待办数，见坑 #61）。
+   - **设计级教训**（影响实例骨架的，如 ID 分配/增量语义/校验模式）：评审通过后同步母版与检查单，不能只进坑库。**若教训属 A/B/G/P 四族（工程侧、跨书通用），须同时落到 `assets/skeletons/` 骨架代码里**——只写进文档，下一个实例仍会重踩（#45 与 #56 是同坑第 2 次复发，即因首次只记了坑没落进骨架）。
+   - 更新 `references/registry.md`（状态/最近增量摘要）+ 详细备注写 `references/registry-detail.md`。
 3. **登记台账 + 交付**：`references/registry.md` 登记新实例；交付物按环境可用方式交付（本地文件路径或打包视图），说明调用方式与工厂的关系。
 4. **增量维护**：用户后续要求给已有实例加层/改层/修设计缺陷 → 走 `references/increment-upgrade.md` 七步流程，完成后更新台账与对应库版本。
 
@@ -109,18 +114,24 @@ description: 书籍知识工厂（meta-skill）——输入任意一本书稿，
 - `references/layer-library.md`：**层库（引导参考板）**——底座+5层+索引/治理组件模板 + 自定义层注册指南（Phase ② 必用）。
 - `references/enum-library.md`：**通用枚举基准库（权威源）**——五实例合并全部枚举基准值，只存当前生效的规范值（含别名 + 使用说明 + 归并映射），**不存历史**；**含事件类型子库 §1.3**（原独立 event-type-library.md 已并入，27 顶层 + 43 子类型明细）；实例化时按启用层拉取快照（Phase ③ 枚举快照来源）。
 - `references/enum-changelog.md`：**枚举库变更记录**——v1~v4 版本历史、各书原枚举快照（溯源）、实测证据、归并理由与待办（只增不改）。**入库必须双写**：改 enum-library + 在此追加版本条目，缺一即为野分支。
-- `assets/templates/book_skill_template.md`：**书实例 skill 的 SKILL.md 母版**（Phase ③ 必用，含引导式反思记录节）。
+- `assets/templates/book_skill_template.md`：**书实例 skill 的 SKILL.md 母版**（Phase ③ 必用，含引导式反思记录节、目标查询问句清单、工程侧护栏节、填充率体检要求）。
+- `assets/skeletons/packer_skeleton.py`：**打包器公共骨架**（Phase ③ 必复制进实例 `scripts/_common.py`）——把 error-taxonomy 的 A/B/G/P 四族（30/65 条 = 46%，全跨书复现且与书内容无关）在骨架层面一次性消除：填充率体检 / 命名四处同源校验 / 原子写盘与增量合并 / 语域锚定匹配 / 探查终止条件 / 枚举漂移告警。
+- `assets/skeletons/self_test.py`：**骨架功能自检**（`python self_test.py` → `PASS 24 / FAIL 0`）——验证「护栏遇到坏数据真的会响」，而非「函数能被 import」。**改动骨架后必须重跑**；首轮自检即抓出骨架自身 4 个真缺陷（含 `cn2int("洪武三年")` 返回 0），缺陷留档见 README。
+- `assets/skeletons/README.md`：**骨架使用说明 + 四族×装置对照表**（复制步骤、填写要点、自检、三条最重要纪律）。
 - `references/checklists.md`：工厂阶段（定向/反思/实例化/试点/交付回写）+ 增量升级 + 实例执行阶段检查单。
-- `references/registry.md`：**实例台账**——全部书实例的状态/方案/增量/源文件指针索引（Phase ③⑤ 与增量升级后必更新）。
+- `references/registry.md`：**实例台账（主表）**——全部书实例的状态/方案/增量/源文件指针索引，**只留一屏可扫的摘要**（Phase ③⑤ 与增量升级后必更新）。
+- `references/registry-detail.md`：**实例详情**——各实例的规模数字、联邦库/kb-mcp 落地结果、执行期修正、遗留项（与主表按实例目录名分节对应；写详情到这里，不要撑进主表单元格）。
 - `references/increment-upgrade.md`：**实例增量升级流程**——对已交付实例加层/改层/修错的唯一变更通道（七步，防止直接改实例导致漂移）。
 
 **按需查阅**（深化理解/排障时读，不是启动前提）：
 
 - `references/methodology.md`：方法论——工厂与实例关系、结构性探查方法、引导式反思原则、10 条操作原则（理解"为什么"时读）。
 - `references/schemas.md`：通用 schema 规范——ID 命名空间、枚举治理、original 注入（实例化选择层模板时对照）。
-- `references/pitfalls.md`：坑库——把工厂当执行器/重复读取/覆盖回归/ID 撞号/枚举漂移/增量漂移等真实踩坑；出问题时先查。
+- `references/pitfalls.md`：坑库——把工厂当执行器/重复读取/覆盖回归/ID 撞号/枚举漂移/增量漂移等真实踩坑；出问题时先查。**首部含「错误分类总表」**（**16 族 A–P** 的跨实例聚类视图，每条坑只出现一次，按根因归类，含每族纪律）。
+- `references/error-taxonomy.md`：**错误分类学（分类层）**——把 8 份 case-feedback 与 pitfalls #0–#64（**65 条**）抽象为 **16 族 A–P**、四个最贵复现模式与八条总纪律；用于「新实例设计时预防」与「新坑入库时归族」。**A/B/G/P 四族（30/65 = 46%）已在 `assets/skeletons/` 落地为可复制骨架**（见检查单 K）。三层结构：case-feedback（实例层）→ pitfalls（条目层）→ error-taxonomy（分类层）。
 - `references/enum-induction-guide.md`：**枚举归纳方法论**——基准值+新书归纳 7 步流程、新增/归并判定标准、树状结构设计、操作清单（执行期枚举校准前读）。只讲方法，不含具体值。
-- `references/pending-review.md`：**待评审提案区**——学习回路的候选新层/新坑/新枚举先进这里，评审合并后入各库。
+- `references/pending-review.md`：**待评审提案区（只放在途提案）**——学习回路的候选新层/新坑/新枚举先进这里，评审合并后入各库。**表里的行数 = 真实待办数**。
+- `references/pending-review-archive.md`：**已决提案归档**——已评审并入各库正式区的提案存档（按来源实例分组、保留全部原始字段），供追溯「当时怎么提的、最后去了哪」。**不在此新增**。
 - `references/case-feedback-shuidong-riji.md`：**《水东日记》全量实例反馈**——38 卷 × 8 层执行完成后的设计回顾、11 项问题与根因、可修正项分级（P0/P1/P2）（实例化新书时参考，避免同类坑）。
 - `assets/templates/usage_report_template.md`、`project_summary_template.md`：报告母版（实例化时复制进实例）。
 - `assets/samples/xinguan-guifan/`：**《新官轨范》参考样例**——引导式反思记录与实例 skill 形态的真实示例（Phase ②/③ 参照）。
