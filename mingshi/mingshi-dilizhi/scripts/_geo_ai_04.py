@@ -486,7 +486,7 @@ GEO_AI = [
      ],
      "note": "承宣布政使司。领府十三，州一，县七十七"},
     {"slot": 193, "item_id": "04-193", "name": "南昌府", "level": "府", "node_type": "政区",
-     "parent": {"text": "江西", "rel": "领"}, "bearing_distance": [{"bearing": "西南", "to_anchor": "江西", "distance": 200, "unit": "里", "raw": "西南距布政司二百里"}],
+     "parent": {"text": "江西", "rel": "领"},
      "note": "元龙兴路，太祖壬寅年正月为洪都府，癸卯年八月改南昌府，领州一、县七"},
     {"slot": 194, "item_id": "04-194", "name": "南昌", "level": "县", "node_type": "政区",
      "parent": {"text": "南昌府", "rel": "领"}, "note": "倚。西有赣江，亦曰章江"},

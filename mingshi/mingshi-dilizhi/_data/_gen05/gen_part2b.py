@@ -392,7 +392,7 @@ item(
         },
         {
             "name": N("05-107", "毛俊镇"),
-            "type": "镇",
+            "type": "巡检司",
             "territorial": "未明",
             "established": {"reign": "未明", "year": 0, "era_raw": "未明"},
             "place": "蓝山县东",
@@ -401,7 +401,7 @@ item(
         },
         {
             "name": N("05-107", "乾溪镇"),
-            "type": "镇",
+            "type": "巡检司",
             "territorial": "未明",
             "established": {"reign": "未明", "year": 0, "era_raw": "未明"},
             "place": "蓝山县北",
@@ -410,7 +410,7 @@ item(
         },
         {
             "name": N("05-107", "大桥镇"),
-            "type": "镇",
+            "type": "巡检司",
             "territorial": "未明",
             "established": {"reign": "未明", "year": 0, "era_raw": "未明"},
             "place": "蓝山县西南",
@@ -419,7 +419,7 @@ item(
         },
         {
             "name": N("05-107", "小山堡"),
-            "type": "堡",
+            "type": "巡检司",
             "territorial": "未明",
             "established": {"reign": "未明", "year": 0, "era_raw": "未明"},
             "place": "蓝山县西",
@@ -428,7 +428,7 @@ item(
         },
         {
             "name": N("05-107", "张家陂"),
-            "type": "堡",
+            "type": "巡检司",
             "territorial": "未明",
             "established": {"reign": "未明", "year": 0, "era_raw": "未明"},
             "place": "蓝山县西",
@@ -1841,7 +1841,7 @@ item(
         },
         {
             "name": N("05-122", "峡口镇"),
-            "type": "镇",
+            "type": "巡检司",
             "territorial": "未明",
             "established": {"reign": "未明", "year": 0, "era_raw": "未明"},
             "place": "武冈州北",
@@ -2210,7 +2210,7 @@ item(
             "year": 30,
             "era_raw": N("05-126", "洪武三十年二月"),
             "category": "增置",
-            "event": N("05-126", "置镇溪军民千户所"),
+            "event": N("05-126", "洪武三十年二月置"),
             "place": "卢溪",
         },
     ],
@@ -2232,7 +2232,7 @@ item(
     gar=[
         {
             "name": N("05-126", "镇溪军民千户所"),
-            "type": "守御千户所",
+            "type": "千户所",
             "territorial": "未明",
             "established": {
                 "reign": "洪武",
@@ -2550,7 +2550,7 @@ item(
         "level": "县",
         "node_type": "政区",
         "parent": {"text": "沅州", "rel": "领"},
-        "note": "州东南。东南有罗公山。南有双石崖，一名屏风崖。北有沅水。又东有洪江，西有郎江，南有黔江，俱流入焉",
+        "note": "州东南。东南有罗公山。南有双石崖，一名屏风崖。景泰中，筑寨置戍于此，名安江双崖城。北有沅水。又东有洪江，西有郎江，南有黔江，俱流入焉。东有安江巡检司。又西有托口寨。东有洪江寨",
     },
     ents=[
         {
@@ -2566,10 +2566,22 @@ item(
             "provenance": "东南有罗公山",
         },
         {
+            "text": N("05-130", "双石崖"),
+            "type": "place",
+            "count": 1,
+            "provenance": "南有双石崖",
+        },
+        {
             "text": N("05-130", "屏风崖"),
             "type": "place",
             "count": 1,
-            "provenance": "南有双石崖，一名屏风崖",
+            "provenance": "一名屏风崖",
+        },
+        {
+            "text": N("05-130", "安江双崖城"),
+            "type": "place",
+            "count": 1,
+            "provenance": "名安江双崖城",
         },
         {
             "text": N("05-130", "沅水"),
@@ -2584,10 +2596,45 @@ item(
             "provenance": "又东有洪江",
         },
         {
+            "text": N("05-130", "郎江"),
+            "type": "water",
+            "count": 1,
+            "provenance": "西有郎江",
+        },
+        {
             "text": N("05-130", "黔江"),
             "type": "water",
             "count": 1,
             "provenance": "南有黔江",
+        },
+        {
+            "text": N("05-130", "安江巡检司"),
+            "type": "institution",
+            "count": 1,
+            "provenance": "东有安江巡检司",
+        },
+        {
+            "text": N("05-130", "托口寨"),
+            "type": "institution",
+            "count": 1,
+            "provenance": "又西有托口寨",
+        },
+        {
+            "text": N("05-130", "洪江寨"),
+            "type": "institution",
+            "count": 1,
+            "provenance": "东有洪江寨",
+        },
+        {"text": N("05-130", "景泰"), "type": "era", "count": 1, "provenance": "景泰中，筑寨置戍于此"},
+    ],
+    tme=[
+        {
+            "reign": "景泰",
+            "year": 0,
+            "era_raw": N("05-130", "景泰中"),
+            "category": "增置",
+            "event": N("05-130", "筑寨置戍于此，名安江双崖城"),
+            "place": "安江双崖城",
         },
     ],
     hyd=[
@@ -2617,6 +2664,19 @@ item(
         },
     ],
     gar=[
+        {
+            "name": N("05-130", "安江双崖城"),
+            "type": "城",
+            "territorial": "未明",
+            "established": {
+                "reign": "景泰",
+                "year": 0,
+                "era_raw": N("05-130", "景泰中"),
+            },
+            "place": "黔阳县南双石崖",
+            "dusi": "未明",
+            "note": "南有双石崖，一名屏风崖。景泰中，筑寨置戍于此，名安江双崖城",
+        },
         {
             "name": N("05-130", "安江巡检司"),
             "type": "巡检司",
@@ -3149,7 +3209,7 @@ item(
             "year": 29,
             "era_raw": N("05-136", "洪武二十九年三月"),
             "category": "增置",
-            "event": N("05-136", "置守御广安千户所"),
+            "event": N("05-136", "洪武二十九年三月置"),
             "place": "桂阳",
         },
         {
@@ -3786,7 +3846,7 @@ item(
             "year": 25,
             "era_raw": N("05-142", "洪武二十五年五月"),
             "category": "初置",
-            "event": N("05-142", "置天柱守御千户所"),
+            "event": N("05-142", "洪武二十五年五月置"),
             "place": "天柱",
         },
         {
@@ -4667,12 +4727,6 @@ item(
             "count": 1,
             "provenance": "条目名",
         },
-        {
-            "text": N("05-153", "忠孝长官司"),
-            "type": "place",
-            "count": 1,
-            "provenance": "改置长官司",
-        },
     ],
     tme=[
         {
@@ -4740,12 +4794,6 @@ item(
             "type": "place",
             "count": 1,
             "provenance": "条目名",
-        },
-        {
-            "text": N("05-154", "金峒长官司"),
-            "type": "place",
-            "count": 1,
-            "provenance": "改长官司",
         },
     ],
     tme=[
@@ -5828,6 +5876,14 @@ item(
     ],
     tme=[
         {
+            "reign": "洪武",
+            "year": 4,
+            "era_raw": N("05-169", "洪武四年"),
+            "category": "废置",
+            "event": N("05-169", "洪武四年废"),
+            "place": "木册长官司",
+        },
+        {
             "reign": "永乐",
             "year": 4,
             "era_raw": N("05-169", "永乐四年三月"),
@@ -5851,11 +5907,20 @@ item(
             "reign": "元",
             "year": 0,
             "change_type": "初置",
-            "change": N("05-169", "元木册安抚司。明玉珍改长官司。洪武四年废"),
+            "change": N("05-169", "元木册安抚司。明玉珍改长官司"),
             "owner": "未明",
         },
         {
             "phase": 2,
+            "era_raw": N("05-169", "洪武四年"),
+            "reign": "洪武",
+            "year": 4,
+            "change_type": "废罢",
+            "change": N("05-169", "洪武四年废"),
+            "owner": "未明",
+        },
+        {
+            "phase": 3,
             "era_raw": N("05-169", "永乐四年三月"),
             "reign": "永乐",
             "year": 4,
@@ -5864,7 +5929,7 @@ item(
             "owner": "高罗安抚司",
         },
         {
-            "phase": 3,
+            "phase": 4,
             "era_raw": N("05-169", "宣德九年六月"),
             "reign": "宣德",
             "year": 9,

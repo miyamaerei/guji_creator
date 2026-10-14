@@ -4369,8 +4369,8 @@ PART = {
                 "year": 0,
                 "era_raw": "洪武中",
                 "category": "初置",
-                "event": "置永定卫",
-                "place": "慈利",
+                "event": "置",
+                "place": "永定卫",
             },
             {
                 "reign": "洪武",
@@ -4385,8 +4385,8 @@ PART = {
                 "year": 23,
                 "era_raw": "洪武二十三年六月",
                 "category": "初置",
-                "event": "置九溪卫",
-                "place": "慈利",
+                "event": "置",
+                "place": "九溪卫",
             },
         ],
         "hyd": [

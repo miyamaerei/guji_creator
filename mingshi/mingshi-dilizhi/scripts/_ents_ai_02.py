@@ -625,7 +625,7 @@ ENTITIES = [
     {
         "slot": 78,
         "item_id": "02-030",
-        "text": "永阜盐场",
+        "text": "永阜",
         "type": "resource",
         "count": 1,
         "provenance": "有永阜等盐场",
@@ -649,7 +649,7 @@ ENTITIES = [
     {
         "slot": 81,
         "item_id": "02-031",
-        "text": "富国盐场",
+        "text": "富国",
         "type": "resource",
         "count": 1,
         "provenance": "有富国等盐场",
@@ -1282,7 +1282,7 @@ ENTITIES = [
     {
         "slot": 160,
         "item_id": "02-060",
-        "text": "关阳镇巡检司",
+        "text": "关阳镇",
         "type": "institution",
         "count": 1,
         "provenance": "西南有关阳镇",
@@ -3104,10 +3104,10 @@ ENTITIES = [
     {
         "slot": 387,
         "item_id": "02-143",
-        "text": "编户五十九万五千四百四十五",
+        "text": "编户五十九万五千四百四十四",
         "type": "quantity",
         "count": 1,
-        "provenance": "洪武二十六年编户五十九万五千四百四十五",
+        "provenance": "洪武二十六年编户五十九万五千四百四十四",
     },
     # ---- 太原府 ----
     {
@@ -3273,10 +3273,10 @@ ENTITIES = [
     {
         "slot": 408,
         "item_id": "02-157",
-        "text": "黄河",
+        "text": "大河",
         "type": "water",
         "count": 1,
-        "provenance": "西滨黄河",
+        "provenance": "临大河",
     },
     {
         "slot": 409,
@@ -3610,7 +3610,7 @@ ENTITIES = [
     {
         "slot": 450,
         "item_id": "02-171",
-        "text": "汾水",
+        "text": "汾",
         "type": "water",
         "count": 1,
         "provenance": "东流入于汾",
@@ -4331,7 +4331,7 @@ ENTITIES = [
     {
         "slot": 540,
         "item_id": "02-206",
-        "text": "黄芦岭巡检司",
+        "text": "黄芦岭",
         "type": "institution",
         "count": 1,
         "provenance": "西有金锁关、黄芦岭二巡检司",
@@ -4467,7 +4467,7 @@ ENTITIES = [
     {
         "slot": 557,
         "item_id": "02-212",
-        "text": "黄河",
+        "text": "大河",
         "type": "water",
         "count": 1,
         "provenance": "大河在西",
@@ -4684,7 +4684,7 @@ ENTITIES = [
     {
         "slot": 584,
         "item_id": "02-222",
-        "text": "玉峡关巡检司",
+        "text": "玉峡关",
         "type": "institution",
         "count": 1,
         "provenance": "东南有虹梯关、玉峡关二巡检司",
@@ -4877,7 +4877,7 @@ ENTITIES = [
     {
         "slot": 608,
         "item_id": "02-229",
-        "text": "沙净口巡检司",
+        "text": "沙净口",
         "type": "institution",
         "count": 1,
         "provenance": "北有沙净口、西南有神池口二巡检司",
@@ -5046,7 +5046,7 @@ ENTITIES = [
     {
         "slot": 629,
         "item_id": "02-235",
-        "text": "柳树店巡检司",
+        "text": "柳树店",
         "type": "institution",
         "count": 1,
         "provenance": "东南有柳树店",
@@ -5054,7 +5054,7 @@ ENTITIES = [
     {
         "slot": 630,
         "item_id": "02-235",
-        "text": "横望岭巡检司",
+        "text": "横望岭",
         "type": "institution",
         "count": 1,
         "provenance": "南有横望岭二巡检司",
