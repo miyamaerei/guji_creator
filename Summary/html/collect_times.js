@@ -57,6 +57,7 @@ function jsonNonEmpty(p) {
 }
 
 const GTIMES = {}, GVOLS = {};
+function main() {
 for (const [id, rel0] of Object.entries(DIRS)) {
   const dir = path.join(ROOT, rel0);
   if (!fs.existsSync(dir)) { GTIMES[id] = Array(7).fill(null); GVOLS[id] = null; continue; }
@@ -100,3 +101,6 @@ for (const id of Object.keys(DIRS)) {
     '|', GTIMES[id].map(fmt).join(' | '));
 }
 fs.writeFileSync(path.join(__dirname, '_collect_out.json'), JSON.stringify({ GTIMES, GVOLS }, null, 1));
+}
+if (require.main === module) main();
+module.exports = { DIRS, ROOT, walk, volOf, jsonNonEmpty };
