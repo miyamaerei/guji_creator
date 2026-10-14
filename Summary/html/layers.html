@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>全量层结构总结 · 古籍知识工程</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="brand">古集·进度看板</span>
+  <nav>
+    <a href="index.html">书目总览</a>
+    <a href="layers.html" class="on">全量层结构</a>
+    <a href="compare.html">同层对比</a>
+  </nav>
+</header>
+<main>
+  <h1>全量数据结构总结</h1>
+  <p class="note">「层」= 跨书归一后的语义层（ents/evts 等书名册别已归并为 ent/event）。通用锚点字段各书每条记录均带，不逐层重复列出。</p>
+  <div class="stat-row" id="stats"></div>
+  <div class="card"><b>全量通用范式</b><div class="fields" style="margin-top:6px">
+    <code>item_id</code> 条号 NN-NNN 回链底座　<code>original / norm</code> 原文与归一文（打包器从 _item_registry.json 注入，源数据绝不手抄）　
+    <code>&lt;层&gt;_id</code> 层内主键（ID 段位常为卷号×500+序号）　<code>volume</code> 卷号　<code>confidence</code> 置信度枚举　
+    <code>{text, *_ent_ids}</code> 实体引用统一嵌套（先写字面再回填主键）
+  </div></div>
+  <div id="groups"></div>
+</main>
+<script src="data.js"></script>
+<script>
+const D = window.GDATA;
+// 归一书内层名
+const norm = {ents:"ent",evts:"event",events:"event",rels:"rel",trls:"trl",appts:"appt",lits:"lit",chrs:"chr",mems:"mem",
+  tmes:"tme",structs:"struct",rules:"rule",regs:"reg",opns:"opn",nams:"nam",objs:"obj",geos:"geo",evos:"evo",hyds:"hyd",
+  gars:"gar",ress:"res",frds:"frd",cits:"cit",mings:"ming","标注":"ent",offices:"org_profile",tim_topics:"tim",
+  geo_profiles:"geo_profile",org_profiles:"org_profile",office_profiles:"office_profile",person_profiles:"person_profile",
+  process_profiles:"process_profile",reports:"report",laws:"rule",rituals:"reg",dress:"obj",inspect:"reg",
+  foreign:"reg",materials:"num",org_events:"tme",geo_station:"geo"};
+// 每层出现在哪些书
+const layerBooks = {};
+D.books.forEach(b=>b.layers.forEach(l=>{
+  const k = norm[l[0]]||l[0];
+  (layerBooks[k] = layerBooks[k]||[]).push({id:b.id, title:b.title, count:l[2]});
+}));
+// 补上只在 fieldMatrix 出现的层（如 evo/hyd 等已在 books layers 中，doc 亦在）
+const allKeys = [...new Set([...Object.keys(layerBooks), ...Object.keys(D.fieldMatrix)])];
+const grouped = new Set(D.layerGroups.flatMap(g=>g.keys));
+const rest = allKeys.filter(k=>!grouped.has(k));
+if(rest.length) D.layerGroups.push({name:"其他（归并后散层）", keys:rest});
+
+const totalPairs = Object.values(layerBooks).reduce((s,v)=>s+v.length,0);
+document.getElementById("stats").innerHTML =
+  `<div class="stat"><b>${allKeys.length}</b><span>归一层种类（全量）</span></div>`+
+  `<div class="stat"><b>${totalPairs}</b><span>书×层 产出对</span></div>`+
+  `<div class="stat"><b>${D.books.length}</b><span>书籍</span></div>`;
+
+document.getElementById("groups").innerHTML = D.layerGroups.map(g=>`
+  <h2>${g.name}</h2>
+  <div class="scroll-x"><table>
+  <thead><tr><th style="width:110px">层 key</th><th style="width:120px">名称</th><th style="width:240px">说明</th><th class="center" style="width:60px">书数</th><th>哪些书（条数）</th><th>字段并集（各书共性为主干）</th><th style="width:70px">对比</th></tr></thead>
+  <tbody>${g.keys.filter(k=>layerBooks[k]||D.fieldMatrix[k]).map(k=>{
+    const bs = layerBooks[k]||[];
+    const m = D.fieldMatrix[k]||{};
+    const union = [];
+    Object.values(m).forEach(f=>{ if(f) f.forEach(x=>{ if(!union.some(u=>u===x)) union.push(x); }); });
+    return `<tr>
+      <td><code>${k}</code></td>
+      <td><b>${D.layerNames[k]||k}</b></td>
+      <td class="small">${D.layerDesc[k]||""}</td>
+      <td class="center">${bs.length}</td>
+      <td class="small">${bs.map(x=>`<a href="book.html?id=${x.id}">${x.title}</a>(${x.count.toLocaleString()})`).join("、")||"—"}</td>
+      <td class="fields">${union.length?union.map(f=>`<code>${f}</code>`).join(""):'<span class="note">各书沿工厂契约，未逐字段采集</span>'}</td>
+      <td class="center small">${Object.keys(m).length>1?`<a href="compare.html?layer=${k}">字段差异</a>`:"—"}</td>
+    </tr>`;
+  }).join("")}</tbody></table></div>
+  <p class="badge">层库候选 22 项（tools/book-mcp layers）之外的 doc/evo/hyd/gar/res/officials/ledger/主档五件 等均为「本书自定义层」，是否回写工厂层库待定。</p>`).join("");
+</script>
+</body>
+</html>

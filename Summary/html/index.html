@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>古籍知识工程 · 书目总览</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="brand">古集·进度看板</span>
+  <nav>
+    <a href="index.html" class="on">书目总览</a>
+    <a href="layers.html">全量层结构</a>
+    <a href="compare.html">同层对比</a>
+  </nav>
+  <span class="note" id="gen"></span>
+</header>
+<main>
+  <h1>全部书籍（21 本）</h1>
+  <p class="note">点击书名进入单本进度页；「产出记录」= 各语义层 records 求和。数据为 2026-10-14 实测盘点。</p>
+  <div class="stat-row" id="stats"></div>
+  <div class="scroll-x">
+  <table id="tbl">
+    <thead><tr>
+      <th>#</th><th>书名</th><th>作者·时代</th><th>性质</th><th>状态</th>
+      <th class="center">层数</th><th class="center">底座条目</th><th class="center">产出记录</th><th>管线进度</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+</main>
+<script src="data.js"></script>
+<script>
+const D = window.GDATA;
+document.getElementById("gen").textContent = "盘点日期 " + D.generated;
+const stMap = {done:["done","✅ 完成"], wip:["wip","🚧 在建"], none:["none","⬜ 无产出"]};
+const doneB = D.books.filter(b=>b.status==="done").length;
+const wipB = D.books.filter(b=>b.status==="wip").length;
+const noneB = D.books.filter(b=>b.status==="none").length;
+const totalRec = D.books.reduce((s,b)=>s+b.layers.reduce((x,l)=>x+(l[2]||0),0),0);
+const totalLayer = D.books.reduce((s,b)=>s+b.layers.length,0);
+document.getElementById("stats").innerHTML =
+  `<div class="stat"><b>${D.books.length}</b><span>书籍总数</span></div>`+
+  `<div class="stat"><b>${doneB}</b><span>全卷完成</span></div>`+
+  `<div class="stat"><b>${wipB}</b><span>在建</span></div>`+
+  `<div class="stat"><b>${noneB}</b><span>无结构化产出</span></div>`+
+  `<div class="stat"><b>${totalLayer}</b><span>书×层 产出总数</span></div>`+
+  `<div class="stat"><b>${totalRec.toLocaleString()}</b><span>层记录总量（约）</span></div>`;
+const tb = document.querySelector("#tbl tbody");
+tb.innerHTML = D.books.map((b,i)=>{
+  const rec = b.layers.reduce((x,l)=>x+(l[2]||0),0);
+  const pipe = b.stageStates.map((s,j)=>
+    `<div class="stage pct${s}" title="${D.stages[j]}：${["未做","部分/在建","完成"][s]}">${D.stages[j]}</div>`).join("");
+  return `<tr>
+    <td>${i+1}</td>
+    <td><a href="book.html?id=${b.id}"><b>《${b.title}》</b></a><div class="badge">${b.dir}</div></td>
+    <td>${b.author}</td><td>${b.genre}</td>
+    <td><span class="chip ${stMap[b.status][0]}">${stMap[b.status][1]}</span></td>
+    <td class="center"><b>${b.layers.length||"—"}</b></td>
+    <td class="center">${b.items}</td>
+    <td class="center">${rec?rec.toLocaleString():"—"}</td>
+    <td style="min-width:340px"><div class="stage-pipe">${pipe}</div></td>
+  </tr>`;
+}).join("");
+</script>
+</body>
+</html>

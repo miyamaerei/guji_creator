@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>同层跨书对比 · 古籍知识工程</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="brand">古集·进度看板</span>
+  <nav>
+    <a href="index.html">书目总览</a>
+    <a href="layers.html">全量层结构</a>
+    <a href="compare.html" class="on">同层对比</a>
+  </nav>
+</header>
+<main>
+  <h1>同一层 · 跨书字段差异对比</h1>
+  <p class="legend">图例：<span class="yes" style="padding:2px 8px;border-radius:4px">绿=全该书有(此层共性)</span>
+  <span class="unq" style="padding:2px 8px;border-radius:4px;margin-left:6px">黄=仅此书有的偏移字段</span>
+  <span class="no" style="padding:2px 8px;border-radius:4px;margin-left:6px">红=此层多数书有而此书缺</span>
+  「—」= 沿工厂契约未逐字段采集。通用锚点 item_id/original/层id/volume 各书必带，不列入。</p>
+  <p><label>选择层：</label> <select id="sel"></select> <span class="note" id="hint"></span></p>
+  <div class="scroll-x" id="matrix"></div>
+  <div class="card" id="summary"></div>
+
+  <h1 style="margin-top:36px">执行流程形态 · 跨书对照</h1>
+  <p class="note">同一角色（源数据/基座/枚举/成品/验证/交付）各书落点命名——与标准五件套不一致处即偏移。⚠/❌ 已在表内标注。</p>
+  <div class="scroll-x"><div id="pipe"></div></div>
+</main>
+<script src="data.js"></script>
+<script>
+const D = window.GDATA;
+const q = new URLSearchParams(location.search);
+const layerKeys = Object.keys(D.fieldMatrix).filter(k=>Object.keys(D.fieldMatrix[k]).length>=1);
+const sel = document.getElementById("sel");
+sel.innerHTML = layerKeys.map(k=>`<option value="${k}">${k} · ${D.layerNames[k]||""}</option>`).join("");
+sel.value = q.get("layer") && D.fieldMatrix[q.get("layer")] ? q.get("layer") : "ent";
+sel.onchange = ()=>render(sel.value);
+const only = q.get("only");
+
+function render(key){
+  const m = D.fieldMatrix[key];
+  const books = Object.keys(m).filter(b=>D.books.some(x=>x.id===b));
+  const known = books.filter(b=>m[b]);
+  // 字段并集（按出现顺序）与热度
+  const heat = {};
+  known.forEach(b=>m[b].forEach(f=>heat[f]=(heat[f]||0)+1));
+  const fields = Object.keys(heat);
+  const majority = known.length ? Math.ceil(known.length/2) : 2;
+  document.getElementById("hint").textContent = `${D.layerDesc[key]||""}　收录 ${books.length} 本（其中逐字段实测 ${known.length} 本）`;
+  let html = `<table><thead><tr><th>字段 \\ 书籍</th>${books.map(b=>{
+    const bk = D.books.find(x=>x.id===b);
+    return `<th class="center" ${b===only?'style="background:#f3d27a"':""}>《<a href="book.html?id=${b}">${bk.title}</a>》${m[b]?"":"<div class='badge'>契约制</div>"}</th>`;
+  }).join("")}</tr></thead><tbody>`;
+  html += fields.map(f=>{
+    return `<tr><td><code>${f}</code>${heat[f]===known.length?' <span class="badge">全有</span>':heat[f]<majority?' <span class="badge">少数</span>':""}</td>`+
+    books.map(b=>{
+      if(!m[b]) return `<td class="center note">—</td>`;
+      const has = m[b].some(x=>x===f);
+      const common = heat[f]>=majority;
+      let cls = has ? (common?"yes":"unq") : (common?"no":"");
+      return `<td class="center ${cls}">${has?"✓":""}</td>`;
+    }).join("")+`</tr>`;
+  }).join("");
+  html += "</tbody></table>";
+  document.getElementById("matrix").innerHTML = html;
+  // 差异摘要
+  const lines = known.map(b=>{
+    const bk = D.books.find(x=>x.id===b);
+    const uniq = m[b].filter(f=>heat[f]===1);
+    const miss = fields.filter(f=>heat[f]===known.length && !m[b].some(x=>x===f));
+    return `<li>《${bk.title}》：${uniq.length?`偏移/独有字段 <b>${uniq.length}</b> 个（${uniq.slice(0,8).map(x=>`<code>${x}</code>`).join(" ")}${uniq.length>8?" …":""}）`:"字段与主流一致"}${miss.length?`；缺共性字段 ${miss.map(x=>`<code>${x}</code>`).join(" ")}`:""}</li>`;
+  }).join("");
+  document.getElementById("summary").innerHTML = `<b>差异摘要（${D.layerNames[key]||key} 层）</b><ul class="drift">${lines||"暂无逐字段数据"}</ul>`;
+}
+render(sel.value);
+
+// 流程形态对照
+const shapes = D.pipelineShapes;
+const bs = D.books.filter(b=>shapes.rows[b.id]);
+document.getElementById("pipe").outerHTML = `<div class="scroll-x"><table><thead><tr><th>书籍</th>${shapes.columns.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
+<tbody>${bs.map(b=>`<tr><td><a href="book.html?id=${b.id}">《${b.title}》</a></td>${shapes.rows[b.id].map(c=>`<td><code class="small">${c}</code></td>`).join("")}</tr>`).join("")}
+<tr><td class="note">标准五件套</td><td class="note">_src/</td><td class="note">_kg_pack_base.py</td><td class="note">_kg_enums.py</td><td class="note">_layers/（{records}）</td><td class="note">_validate/</td><td class="note">_deliver/</td></tr>
+</tbody></table></div>`;
+</script>
+</body>
+</html>

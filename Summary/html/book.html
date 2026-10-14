@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>单本进度 · 古籍知识工程</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <span class="brand">古集·进度看板</span>
+  <nav>
+    <a href="index.html">书目总览</a>
+    <a href="layers.html">全量层结构</a>
+    <a href="compare.html">同层对比</a>
+  </nav>
+</header>
+<main id="app"></main>
+<script src="data.js"></script>
+<script>
+const D = window.GDATA;
+const id = new URLSearchParams(location.search).get("id") || D.books[0].id;
+const b = D.books.find(x=>x.id===id) || D.books[0];
+// 书内层名 -> 归一层 key
+const norm = {ents:"ent",evts:"event",events:"event",rels:"rel",trls:"trl",appts:"appt",lits:"lit",chrs:"chr",mems:"mem",
+  tmes:"tme",structs:"struct",rules:"rule",regs:"reg",opns:"opn",nams:"nam",objs:"obj",geos:"geo",evos:"evo",hyds:"hyd",
+  gars:"gar",ress:"res",frds:"frd",cits:"cit",mings:"ming","标注":"ent",offices:"org_profile",tim_topics:"tim",
+  geo_profiles:"geo_profile",org_profiles:"org_profile",office_profiles:"office_profile",person_profiles:"person_profile",
+  process_profiles:"process_profile",reports:"report",num:"num",rank:"rank",njc:"njc",xref:"xref",laws:"rule",
+  rituals:"reg",dress:"obj",inspect:"reg",foreign:"reg",materials:"num",org_events:"tme",geo_station:"geo"};
+const stTxt = ["未做","部分/在建","完成"];
+document.getElementById("app").innerHTML = `
+<h1>《${b.title}》 <span class="chip ${b.status==="done"?"done":b.status==="wip"?"wip":"none"}">${{done:"✅ 全卷完成",wip:"🚧 在建",none:"⬜ 无结构化产出"}[b.status]}</span></h1>
+<p class="note">${b.author} · ${b.genre} · 目录 <code>${b.dir}</code> · 底座 ${b.items}</p>
+<div class="card"><b>管线进度</b>
+  <div class="stage-pipe">${b.stageStates.map((s,j)=>`<div class="stage pct${s}" title="${D.stages[j]}：${stTxt[s]}">${D.stages[j]}<br><b>${stTxt[s]}</b></div>`).join("")}</div>
+  <p class="note">${b.notes}</p>
+</div>
+${D.pipelineShapes[b.id] ? `<div class="card"><b>目录/产物形态</b><table><tr><th></th>${D.pipelineShapes.columns.map(c=>`<th>${c}</th>`).join("")}</tr><tr><td>本书</td>${D.pipelineShapes.rows[b.id].map(c=>`<td><code>${c}</code></td>`).join("")}</tr></table></div>`:""}
+${b.layers.length ? `
+<h2>产出层（${b.layers.length} 层 · ${b.layers.reduce((x,l)=>x+(l[2]||0),0).toLocaleString()} 条）</h2>
+<div class="scroll-x"><table>
+<thead><tr><th>层</th><th>含义</th><th class="center">记录数</th><th>record 字段（通用锚点 item_id/original/层id 从略）</th><th class="center">全量对照</th></tr></thead>
+<tbody>${b.layers.map(l=>{
+  const k = norm[l[0]]||l[0];
+  const mx = (D.fieldMatrix[k]||{})[b.id];
+  const diff = fieldDiff(k, b.id);
+  const inAll = D.fieldMatrix[k] ? "✓ 在全量层库" : "◎ 本书特化层";
+  return `<tr><td><code>${l[0]}</code></td><td>${l[1]}</td><td class="center">${l[2].toLocaleString()}</td>
+  <td class="fields">${mx===undefined||mx===null ? '<span class="note">'+(D.fieldMatrix[k]?"沿工厂契约（本次未逐字段采集）":"见描述")+'</span>' : mx.map(f=>`<code>${f}</code>`).join("")}</td>
+  <td class="center small">${inAll}${diff?`<br><a href="compare.html?layer=${k}&only=${b.id}">差异→</a>`:""}</td></tr>`;
+}).join("")}</tbody></table></div>` : `<h2>产出层</h2><p class="note">尚无 _layers 层产物，待处理事项见下。</p>`}
+${b.drift && b.drift.length ? `<h2>与标准流程/全量契约的偏移点</h2><div class="card"><ul class="drift">${b.drift.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:""}
+<div class="card"><a href="index.html">← 返回书目</a>　<a href="compare.html">同层跨书对比 →</a></div>`;
+
+// 计算某书某层相对同层其他书的字段偏移
+function fieldDiff(layerKey, bookId){
+  const m = D.fieldMatrix[layerKey]; if(!m) return null;
+  const mine = m[bookId]; if(!mine) return null;
+  const others = Object.keys(m).filter(k=>k!==bookId && m[k]);
+  const union = new Set(); const cnt = {};
+  others.forEach(k=>m[k].forEach(f=>{const base=f.replace(/[\[\]{}()].*/g,"").replace(/\u4e24.*$/,"");union.add(f);cnt[f]=(cnt[f]||0)+1;}));
+  const uniq = mine.filter(f=>![...union].some(u=>f.startsWith(u.slice(0,6))||u.startsWith(f.slice(0,6))));
+  return uniq.length?`独有字段 ${uniq.length}`:`与主流一致`;
+}
+document.title = `《${b.title}》· 进度`;
+</script>
+</body>
+</html>
