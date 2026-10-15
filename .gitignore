@@ -117,3 +117,13 @@ wanliyehuopian-kb/*/views/
 
 # ---------- 明一统志：旧分层快照备份（已被 _layers/ 取代，不入仓）----------
 mingyitongzhi-kb/*/_layers_old/
+
+# ---------- 进度看板 Summary/html：第三方 vendor 与本地部署产物（不入仓）----------
+# dist/vendor/ 为 vue / element-plus / echarts 的官方 prod build（约 2.4 MB，从 CDN 可取回）；
+# .*.qoder.site 为 Qoder 站点部署元数据（含 deploymentId / releaseId / base64 内嵌整份 HTML），
+# 均属「可重建 / 本机专属」，与上方「只入仓丢了就再也拿不回来的东西」原则一致。
+Summary/html/dist/vendor/
+Summary/html/.*.qoder.site
+
+# ---------- 测试沙箱（本轮临时目录，不入仓）----------
+kb_test/
