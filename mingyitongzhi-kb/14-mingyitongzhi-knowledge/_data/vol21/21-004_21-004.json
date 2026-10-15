@@ -51,7 +51,10 @@
         "type": "subprefecture",
         "region": "山西",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-21301-c01",
+          "GEO-21301-c02"
+        ],
         "volume_range": "卷21",
         "attributes": {
           "borders": [
@@ -107,6 +110,24 @@
           "CIT-21302",
           "CIT-21303"
         ]
+      },
+      {
+        "geo_id": "GEO-21301-c01",
+        "name": "榆社县",
+        "type": "county",
+        "parent": "GEO-21301",
+        "region": "山西",
+        "item_id": "21-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21301-c02",
+        "name": "和顺县",
+        "type": "county",
+        "parent": "GEO-21301",
+        "region": "山西",
+        "item_id": "21-004",
+        "children": []
       }
     ],
     "evos": [

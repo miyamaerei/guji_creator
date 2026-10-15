@@ -29,7 +29,11 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-11007-c01",
+          "GEO-11007-c02",
+          "GEO-11007-c03"
+        ],
         "volume_range": "11",
         "attributes": {
           "borders": [
@@ -87,6 +91,33 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-11007-c01",
+        "name": "丹徒县",
+        "type": "county",
+        "parent": "GEO-11007",
+        "region": "南直隶",
+        "item_id": "11-007",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-11007-c02",
+        "name": "丹阳县",
+        "type": "county",
+        "parent": "GEO-11007",
+        "region": "南直隶",
+        "item_id": "11-007",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-11007-c03",
+        "name": "金坛县",
+        "type": "county",
+        "parent": "GEO-11007",
+        "region": "南直隶",
+        "item_id": "11-007",
+        "children": []
       }
     ],
     "evos": [

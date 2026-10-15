@@ -36,7 +36,13 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-14009-c01",
+          "GEO-14009-c02",
+          "GEO-14009-c03",
+          "GEO-14009-s01",
+          "GEO-14009-s02"
+        ],
         "volume_range": "14",
         "attributes": {
           "borders": [
@@ -116,6 +122,83 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-14009-c01",
+        "name": "合肥县",
+        "type": "county",
+        "parent": "GEO-14009",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14009-c02",
+        "name": "舒城县",
+        "type": "county",
+        "parent": "GEO-14009",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14009-c03",
+        "name": "庐江县",
+        "type": "county",
+        "parent": "GEO-14009",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14009-s01-c01",
+        "name": "巢县",
+        "type": "county",
+        "parent": "GEO-14009-s01",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14009-s01",
+        "name": "无为州",
+        "type": "department",
+        "parent": "GEO-14009",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": [
+          "GEO-14009-s01-c01"
+        ]
+      },
+      {
+        "geo_id": "GEO-14009-s02-c01",
+        "name": "英山县",
+        "type": "county",
+        "parent": "GEO-14009-s02",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14009-s02-c02",
+        "name": "霍山县",
+        "type": "county",
+        "parent": "GEO-14009-s02",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14009-s02",
+        "name": "六安州",
+        "type": "department",
+        "parent": "GEO-14009",
+        "region": "南直隶",
+        "item_id": "14-009",
+        "children": [
+          "GEO-14009-s02-c01",
+          "GEO-14009-s02-c02"
+        ]
       }
     ],
     "evos": [

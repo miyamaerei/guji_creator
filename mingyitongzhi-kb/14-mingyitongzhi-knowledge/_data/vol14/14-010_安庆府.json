@@ -36,7 +36,14 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-14010-c01",
+          "GEO-14010-c02",
+          "GEO-14010-c03",
+          "GEO-14010-c04",
+          "GEO-14010-c05",
+          "GEO-14010-c06"
+        ],
         "volume_range": "14",
         "attributes": {
           "borders": [
@@ -106,6 +113,60 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-14010-c01",
+        "name": "怀宁县",
+        "type": "county",
+        "parent": "GEO-14010",
+        "region": "南直隶",
+        "item_id": "14-010",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14010-c02",
+        "name": "桐城县",
+        "type": "county",
+        "parent": "GEO-14010",
+        "region": "南直隶",
+        "item_id": "14-010",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14010-c03",
+        "name": "潜山县",
+        "type": "county",
+        "parent": "GEO-14010",
+        "region": "南直隶",
+        "item_id": "14-010",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14010-c04",
+        "name": "太湖县",
+        "type": "county",
+        "parent": "GEO-14010",
+        "region": "南直隶",
+        "item_id": "14-010",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14010-c05",
+        "name": "宿松县",
+        "type": "county",
+        "parent": "GEO-14010",
+        "region": "南直隶",
+        "item_id": "14-010",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-14010-c06",
+        "name": "望江县",
+        "type": "county",
+        "parent": "GEO-14010",
+        "region": "南直隶",
+        "item_id": "14-010",
+        "children": []
       }
     ],
     "evos": [

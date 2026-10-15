@@ -65,7 +65,14 @@
         "type": "prefecture",
         "region": "山西",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-21001-c01",
+          "GEO-21001-c02",
+          "GEO-21001-s01",
+          "GEO-21001-s02",
+          "GEO-21001-s03",
+          "GEO-21001-s04"
+        ],
         "volume_range": "卷21",
         "attributes": {
           "borders": [
@@ -156,6 +163,113 @@
           "CIT-21003",
           "CIT-21004",
           "CIT-21005"
+        ]
+      },
+      {
+        "geo_id": "GEO-21001-c01",
+        "name": "大同县",
+        "type": "county",
+        "parent": "GEO-21001",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-c02",
+        "name": "怀仁县",
+        "type": "county",
+        "parent": "GEO-21001",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s01",
+        "name": "浑源州",
+        "type": "department",
+        "parent": "GEO-21001",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s02-c01",
+        "name": "山阴县",
+        "type": "county",
+        "parent": "GEO-21001-s02",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s02",
+        "name": "应州",
+        "type": "department",
+        "parent": "GEO-21001",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": [
+          "GEO-21001-s02-c01"
+        ]
+      },
+      {
+        "geo_id": "GEO-21001-s03-c01",
+        "name": "马邑县",
+        "type": "county",
+        "parent": "GEO-21001-s03",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s03",
+        "name": "朔州",
+        "type": "department",
+        "parent": "GEO-21001",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": [
+          "GEO-21001-s03-c01"
+        ]
+      },
+      {
+        "geo_id": "GEO-21001-s04-c01",
+        "name": "广灵县",
+        "type": "county",
+        "parent": "GEO-21001-s04",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s04-c02",
+        "name": "广昌县",
+        "type": "county",
+        "parent": "GEO-21001-s04",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s04-c03",
+        "name": "灵丘县",
+        "type": "county",
+        "parent": "GEO-21001-s04",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21001-s04",
+        "name": "蔚州",
+        "type": "department",
+        "parent": "GEO-21001",
+        "region": "山西",
+        "item_id": "21-001",
+        "children": [
+          "GEO-21001-s04-c01",
+          "GEO-21001-s04-c02",
+          "GEO-21001-s04-c03"
         ]
       }
     ],

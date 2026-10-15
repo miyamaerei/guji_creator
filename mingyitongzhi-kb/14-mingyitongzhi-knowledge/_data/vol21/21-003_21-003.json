@@ -58,7 +58,12 @@
         "type": "subprefecture",
         "region": "山西",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-21201-c01",
+          "GEO-21201-c02",
+          "GEO-21201-c03",
+          "GEO-21201-c04"
+        ],
         "volume_range": "卷21",
         "attributes": {
           "borders": [
@@ -129,6 +134,42 @@
           "CIT-21202",
           "CIT-21203"
         ]
+      },
+      {
+        "geo_id": "GEO-21201-c01",
+        "name": "汾阳县",
+        "type": "county",
+        "parent": "GEO-21201",
+        "region": "山西",
+        "item_id": "21-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21201-c02",
+        "name": "孝义县",
+        "type": "county",
+        "parent": "GEO-21201",
+        "region": "山西",
+        "item_id": "21-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21201-c03",
+        "name": "平遥县",
+        "type": "county",
+        "parent": "GEO-21201",
+        "region": "山西",
+        "item_id": "21-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21201-c04",
+        "name": "介休县",
+        "type": "county",
+        "parent": "GEO-21201",
+        "region": "山西",
+        "item_id": "21-003",
+        "children": []
       }
     ],
     "evos": [

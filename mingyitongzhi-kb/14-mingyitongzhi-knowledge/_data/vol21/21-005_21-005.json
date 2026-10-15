@@ -51,7 +51,10 @@
         "type": "subprefecture",
         "region": "山西",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-21401-c01",
+          "GEO-21401-c02"
+        ],
         "volume_range": "卷21",
         "attributes": {
           "borders": [
@@ -113,6 +116,24 @@
           "CIT-21402",
           "CIT-21403"
         ]
+      },
+      {
+        "geo_id": "GEO-21401-c01",
+        "name": "沁源县",
+        "type": "county",
+        "parent": "GEO-21401",
+        "region": "山西",
+        "item_id": "21-005",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21401-c02",
+        "name": "武乡县",
+        "type": "county",
+        "parent": "GEO-21401",
+        "region": "山西",
+        "item_id": "21-005",
+        "children": []
       }
     ],
     "evos": [

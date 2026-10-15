@@ -50,7 +50,15 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-08004-c01",
+          "GEO-08004-c02",
+          "GEO-08004-c03",
+          "GEO-08004-c04",
+          "GEO-08004-c05",
+          "GEO-08004-c06",
+          "GEO-08004-s01"
+        ],
         "volume_range": "8",
         "attributes": {
           "borders": [
@@ -133,6 +141,80 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-08004-c01",
+        "name": "吴县",
+        "type": "county",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-c02",
+        "name": "长洲县",
+        "type": "county",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-c03",
+        "name": "昆山县",
+        "type": "county",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-c04",
+        "name": "常熟县",
+        "type": "county",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-c05",
+        "name": "吴江县",
+        "type": "county",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-c06",
+        "name": "嘉定县",
+        "type": "county",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-s01-c01",
+        "name": "崇明县",
+        "type": "county",
+        "parent": "GEO-08004-s01",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-08004-s01",
+        "name": "太仓州",
+        "type": "department",
+        "parent": "GEO-08004",
+        "region": "南直隶",
+        "item_id": "08-004",
+        "children": [
+          "GEO-08004-s01-c01"
+        ]
       }
     ],
     "evos": [

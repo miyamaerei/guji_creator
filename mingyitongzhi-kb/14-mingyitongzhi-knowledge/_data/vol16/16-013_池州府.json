@@ -29,7 +29,14 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-16013-c01",
+          "GEO-16013-c02",
+          "GEO-16013-c03",
+          "GEO-16013-c04",
+          "GEO-16013-c05",
+          "GEO-16013-c06"
+        ],
         "volume_range": "16",
         "attributes": {
           "borders": [
@@ -99,6 +106,60 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-16013-c01",
+        "name": "贵池县",
+        "type": "county",
+        "parent": "GEO-16013",
+        "region": "南直隶",
+        "item_id": "16-013",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-16013-c02",
+        "name": "青阳县",
+        "type": "county",
+        "parent": "GEO-16013",
+        "region": "南直隶",
+        "item_id": "16-013",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-16013-c03",
+        "name": "铜陵县",
+        "type": "county",
+        "parent": "GEO-16013",
+        "region": "南直隶",
+        "item_id": "16-013",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-16013-c04",
+        "name": "石埭县",
+        "type": "county",
+        "parent": "GEO-16013",
+        "region": "南直隶",
+        "item_id": "16-013",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-16013-c05",
+        "name": "建德县",
+        "type": "county",
+        "parent": "GEO-16013",
+        "region": "南直隶",
+        "item_id": "16-013",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-16013-c06",
+        "name": "东流县",
+        "type": "county",
+        "parent": "GEO-16013",
+        "region": "南直隶",
+        "item_id": "16-013",
+        "children": []
       }
     ],
     "evos": [

@@ -71,7 +71,16 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-13008-c01",
+          "GEO-13008-c02",
+          "GEO-13008-c03",
+          "GEO-13008-c04",
+          "GEO-13008-c05",
+          "GEO-13008-c06",
+          "GEO-13008-s01",
+          "GEO-13008-s02"
+        ],
         "volume_range": "13",
         "attributes": {
           "borders": [
@@ -169,6 +178,110 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-13008-c01",
+        "name": "山阳县",
+        "type": "county",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-c02",
+        "name": "盐城县",
+        "type": "county",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-c03",
+        "name": "清河县",
+        "type": "county",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-c04",
+        "name": "安东县",
+        "type": "county",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-c05",
+        "name": "桃源县",
+        "type": "county",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-c06",
+        "name": "沭阳县",
+        "type": "county",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-s01-c01",
+        "name": "赣榆县",
+        "type": "county",
+        "parent": "GEO-13008-s01",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-s01",
+        "name": "海州",
+        "type": "department",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": [
+          "GEO-13008-s01-c01"
+        ]
+      },
+      {
+        "geo_id": "GEO-13008-s02-c01",
+        "name": "宿迁县",
+        "type": "county",
+        "parent": "GEO-13008-s02",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-s02-c02",
+        "name": "睢宁县",
+        "type": "county",
+        "parent": "GEO-13008-s02",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-13008-s02",
+        "name": "邳州",
+        "type": "department",
+        "parent": "GEO-13008",
+        "region": "南直隶",
+        "item_id": "13-008",
+        "children": [
+          "GEO-13008-s02-c01",
+          "GEO-13008-s02-c02"
+        ]
       }
     ],
     "evos": [

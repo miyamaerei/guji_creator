@@ -64,7 +64,11 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-09005-c01",
+          "GEO-09005-c02",
+          "GEO-09005-c03"
+        ],
         "volume_range": "9",
         "attributes": {
           "borders": [
@@ -119,6 +123,33 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-09005-c01",
+        "name": "华亭县",
+        "type": "county",
+        "parent": "GEO-09005",
+        "region": "南直隶",
+        "item_id": "09-005",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-09005-c02",
+        "name": "上海县",
+        "type": "county",
+        "parent": "GEO-09005",
+        "region": "南直隶",
+        "item_id": "09-005",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-09005-c03",
+        "name": "青浦县",
+        "type": "county",
+        "parent": "GEO-09005",
+        "region": "南直隶",
+        "item_id": "09-005",
+        "children": []
       }
     ],
     "evos": [

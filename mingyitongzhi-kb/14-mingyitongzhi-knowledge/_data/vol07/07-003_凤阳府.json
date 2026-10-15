@@ -57,7 +57,19 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-07003-c01",
+          "GEO-07003-c02",
+          "GEO-07003-c03",
+          "GEO-07003-c04",
+          "GEO-07003-c05",
+          "GEO-07003-c06",
+          "GEO-07003-s01",
+          "GEO-07003-s02",
+          "GEO-07003-s03",
+          "GEO-07003-s04",
+          "GEO-07003-s05"
+        ],
         "volume_range": "7",
         "attributes": {
           "borders": [
@@ -187,6 +199,179 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-07003-c01",
+        "name": "凤阳县",
+        "type": "county",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-c02",
+        "name": "临淮县",
+        "type": "county",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-c03",
+        "name": "怀远县",
+        "type": "county",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-c04",
+        "name": "定远县",
+        "type": "county",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-c05",
+        "name": "五河县",
+        "type": "county",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-c06",
+        "name": "虹县",
+        "type": "county",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s01-c01",
+        "name": "霍丘县",
+        "type": "county",
+        "parent": "GEO-07003-s01",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s01-c02",
+        "name": "蒙城县",
+        "type": "county",
+        "parent": "GEO-07003-s01",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s01",
+        "name": "寿州",
+        "type": "department",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": [
+          "GEO-07003-s01-c01",
+          "GEO-07003-s01-c02"
+        ]
+      },
+      {
+        "geo_id": "GEO-07003-s02-c01",
+        "name": "盱眙县",
+        "type": "county",
+        "parent": "GEO-07003-s02",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s02-c02",
+        "name": "天长县",
+        "type": "county",
+        "parent": "GEO-07003-s02",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s02",
+        "name": "泗州",
+        "type": "department",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": [
+          "GEO-07003-s02-c01",
+          "GEO-07003-s02-c02"
+        ]
+      },
+      {
+        "geo_id": "GEO-07003-s03-c01",
+        "name": "灵璧县",
+        "type": "county",
+        "parent": "GEO-07003-s03",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s03",
+        "name": "宿州",
+        "type": "department",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": [
+          "GEO-07003-s03-c01"
+        ]
+      },
+      {
+        "geo_id": "GEO-07003-s04-c01",
+        "name": "颍上县",
+        "type": "county",
+        "parent": "GEO-07003-s04",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s04-c02",
+        "name": "太和县",
+        "type": "county",
+        "parent": "GEO-07003-s04",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-07003-s04",
+        "name": "颍州",
+        "type": "department",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": [
+          "GEO-07003-s04-c01",
+          "GEO-07003-s04-c02"
+        ]
+      },
+      {
+        "geo_id": "GEO-07003-s05",
+        "name": "亳州",
+        "type": "department",
+        "parent": "GEO-07003",
+        "region": "南直隶",
+        "item_id": "07-003",
+        "children": []
       }
     ],
     "evos": [

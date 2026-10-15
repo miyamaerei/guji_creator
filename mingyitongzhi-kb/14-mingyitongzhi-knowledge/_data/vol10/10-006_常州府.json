@@ -50,7 +50,13 @@
         "type": "prefecture",
         "region": "南直隶",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-10006-c01",
+          "GEO-10006-c02",
+          "GEO-10006-c03",
+          "GEO-10006-c04",
+          "GEO-10006-c05"
+        ],
         "volume_range": "10",
         "attributes": {
           "borders": [
@@ -115,6 +121,51 @@
           "region": "南直隶"
         },
         "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-10006-c01",
+        "name": "武进县",
+        "type": "county",
+        "parent": "GEO-10006",
+        "region": "南直隶",
+        "item_id": "10-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-10006-c02",
+        "name": "无锡县",
+        "type": "county",
+        "parent": "GEO-10006",
+        "region": "南直隶",
+        "item_id": "10-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-10006-c03",
+        "name": "江阴县",
+        "type": "county",
+        "parent": "GEO-10006",
+        "region": "南直隶",
+        "item_id": "10-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-10006-c04",
+        "name": "宜兴县",
+        "type": "county",
+        "parent": "GEO-10006",
+        "region": "南直隶",
+        "item_id": "10-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-10006-c05",
+        "name": "靖江县",
+        "type": "county",
+        "parent": "GEO-10006",
+        "region": "南直隶",
+        "item_id": "10-006",
+        "children": []
       }
     ],
     "evos": [

@@ -58,7 +58,12 @@
         "type": "subprefecture",
         "region": "山西",
         "parent": "GEO-000",
-        "children": [],
+        "children": [
+          "GEO-21501-c01",
+          "GEO-21501-c02",
+          "GEO-21501-c03",
+          "GEO-21501-c04"
+        ],
         "volume_range": "卷21",
         "attributes": {
           "borders": [
@@ -130,6 +135,42 @@
           "CIT-21503",
           "CIT-21504"
         ]
+      },
+      {
+        "geo_id": "GEO-21501-c01",
+        "name": "高平县",
+        "type": "county",
+        "parent": "GEO-21501",
+        "region": "山西",
+        "item_id": "21-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21501-c02",
+        "name": "阳城县",
+        "type": "county",
+        "parent": "GEO-21501",
+        "region": "山西",
+        "item_id": "21-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21501-c03",
+        "name": "陵川县",
+        "type": "county",
+        "parent": "GEO-21501",
+        "region": "山西",
+        "item_id": "21-006",
+        "children": []
+      },
+      {
+        "geo_id": "GEO-21501-c04",
+        "name": "沁水县",
+        "type": "county",
+        "parent": "GEO-21501",
+        "region": "山西",
+        "item_id": "21-006",
+        "children": []
       }
     ],
     "evos": [
