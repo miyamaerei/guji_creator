@@ -1,0 +1,518 @@
+{
+  "item_id": "88-007",
+  "volume": "88",
+  "source": "铜仁府",
+  "region": "贵州",
+  "type": "prefecture",
+  "original": "铜仁府【东至思州府施溪长官司界南至黄道溪长官司界俱七十里西至思南府思印江长官司界二百里北至四川邑楼长官司界二百二十里自府治至南京四千二百七十里至京师七千八百里粮一千一百七十石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "铜仁府",
+        "type": "geo",
+        "norm": "铜仁府",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "铜仁县",
+        "type": "geo",
+        "norm": "铜仁县",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "省溪长官司",
+        "type": "geo",
+        "norm": "省溪长官司",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "提溪长官司",
+        "type": "geo",
+        "norm": "提溪长官司",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "大万山长官司",
+        "type": "geo",
+        "norm": "大万山长官司",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "乌罗长官司",
+        "type": "geo",
+        "norm": "乌罗长官司",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "平头著可长官司",
+        "type": "geo",
+        "norm": "平头著可长官司",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "东山",
+        "type": "mtn",
+        "norm": "东山",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "铜崖山",
+        "type": "mtn",
+        "norm": "铜崖山",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "文笔山",
+        "type": "mtn",
+        "norm": "文笔山",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "狮子山",
+        "type": "mtn",
+        "norm": "狮子山",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "岑嶂山",
+        "type": "mtn",
+        "norm": "岑嶂山",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "大万山",
+        "type": "mtn",
+        "norm": "大万山",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "岑桃岩",
+        "type": "mtn",
+        "norm": "岑桃岩",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "铜仁大江",
+        "type": "mtn",
+        "norm": "铜仁大江",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "铜仁小江",
+        "type": "mtn",
+        "norm": "铜仁小江",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "提溪",
+        "type": "mtn",
+        "norm": "提溪",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "木耳泉",
+        "type": "mtn",
+        "norm": "木耳泉",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-019",
+        "name": "梗泉",
+        "type": "mtn",
+        "norm": "梗泉",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-020",
+        "name": "铜仁府学",
+        "type": "site",
+        "norm": "铜仁府学",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-021",
+        "name": "天生桥",
+        "type": "site",
+        "norm": "天生桥",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-022",
+        "name": "双江渡",
+        "type": "site",
+        "norm": "双江渡",
+        "first_source": "88-007"
+      },
+      {
+        "ent_id": "ENT-023",
+        "name": "郡志",
+        "type": "book",
+        "norm": "郡志",
+        "first_source": "88-007"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88007",
+        "item_id": "88-007",
+        "name": "铜仁府",
+        "type": "prefecture",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88007-c01",
+          "GEO-88007-t01",
+          "GEO-88007-t02",
+          "GEO-88007-t03",
+          "GEO-88007-t04",
+          "GEO-88007-t05"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "思州府施溪长官司界",
+              "distance_li": 70
+            },
+            {
+              "direction": "南",
+              "to_place": "黄道溪长官司界",
+              "distance_li": 70
+            },
+            {
+              "direction": "西",
+              "to_place": "思南府思印江长官司界",
+              "distance_li": 200
+            },
+            {
+              "direction": "北",
+              "to_place": "四川邑楼长官司界",
+              "distance_li": 220
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4270
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7800
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 1170,
+            "unit": "石",
+            "note": "粮一千一百七十石零"
+          },
+          "jun_name": "",
+          "topography": "群山环绕二水合流【郡志】；东连麻阳西接思南北控苗界南抵思州【郡志】；高山峻岭穷谷深溪【府志】",
+          "customs": "犵狫性勇而谲，洞人性狡，苗人刚狠轻生，出入常佩刀；惟土人稍知礼义【郡志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88007-c01",
+        "item_id": "88-007",
+        "name": "铜仁县",
+        "type": "county",
+        "region": "贵州",
+        "parent": "GEO-88007",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "附郭，建置同本府，编户五里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88007-t01",
+        "item_id": "88-007",
+        "name": "省溪长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88007",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府西一百里，元置，本朝改今属，编户一里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88007-t02",
+        "item_id": "88-007",
+        "name": "提溪长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88007",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府西一百四十里，元置，本朝改今属，编户一里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88007-t03",
+        "item_id": "88-007",
+        "name": "大万山长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88007",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府南二百里，元置，本朝改今属，编户一里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88007-t04",
+        "item_id": "88-007",
+        "name": "乌罗长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88007",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府西二百里，永乐十一年改置乌罗府后废府改今属，编户三里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88007-t05",
+        "item_id": "88-007",
+        "name": "平头著可长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88007",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府北一百二十里，永乐十一年改隶乌罗府府废改今属，编户一里"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "铜人大小江等处军民长官司",
+        "action": "置",
+        "detail": "古为溪蛮地，元置铜人大小江等处军民长官司，隶思州军民宣抚司",
+        "evo_id": "EVO-001",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "铜仁长官司",
+        "action": "改",
+        "detail": "本朝洪武初改铜仁长官司",
+        "evo_id": "EVO-002",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "dynasty": "明",
+        "era": "永乐十一年",
+        "institution_name": "铜仁府",
+        "action": "升",
+        "detail": "永乐十一年增置铜仁府，隶贵州布政司，领县一、长官司五",
+        "evo_id": "EVO-003",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "东山",
+        "type": "山",
+        "location_text": "在府治东",
+        "description": "雄壮秀拔，为一方之镇",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "铜崖山",
+        "type": "山",
+        "location_text": "在府治南",
+        "description": "屹立铜仁大小二江之中",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "文笔山",
+        "type": "山",
+        "location_text": "在府东南五里",
+        "description": "高插云汉",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "狮子山",
+        "type": "山",
+        "location_text": "在府南九十五里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "岑嶂山",
+        "type": "山",
+        "location_text": "在府西一百一十里",
+        "description": "层崖叠嶂如壁立",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "大万山",
+        "type": "山",
+        "location_text": "在府南二百里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-006",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "岑桃岩",
+        "type": "岩",
+        "location_text": "在府西一百二十里",
+        "description": "岩中有泉，常有云气，祷雨辄应",
+        "lore": "",
+        "mtn_id": "MTN-007",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "铜仁大江",
+        "type": "江",
+        "location_text": "在府治西南",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-008",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "铜仁小江",
+        "type": "江",
+        "location_text": "在府治西北",
+        "description": "源出瓮济洞，东南合铜仁大江",
+        "lore": "",
+        "mtn_id": "MTN-009",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "提溪",
+        "type": "溪",
+        "location_text": "在府西一百七十里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-010",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "木耳泉",
+        "type": "泉",
+        "location_text": "在乌罗长官司山洞中",
+        "description": "日有盈缩，取水祷雨辄应",
+        "lore": "",
+        "mtn_id": "MTN-011",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "梗泉",
+        "type": "泉",
+        "location_text": "在平头著可长官司石崖中",
+        "description": "一源涌出，清浊分流如泾渭，相传出于万山之底",
+        "lore": "",
+        "mtn_id": "MTN-012",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "铜仁府学",
+        "type": "学校",
+        "location_text": "在府治东",
+        "history_lore": "永乐十三年建",
+        "site_id": "SITE-001",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "天生桥",
+        "type": "关梁",
+        "location_text": "在府城北一百二十里",
+        "history_lore": "石崖横亘溪上如桥",
+        "site_id": "SITE-002",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      },
+      {
+        "name": "双江渡",
+        "type": "关梁",
+        "location_text": "在府城西南",
+        "history_lore": "崖峭水深，渡以小舟",
+        "site_id": "SITE-003",
+        "item_id": "88-007",
+        "geo_id": "GEO-88007"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "郡志",
+        "context": "证形胜",
+        "original": "【郡志：群山环绕二水合流】",
+        "cit_id": "CIT-001",
+        "item_id": "88-007"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "item_id": "88-018",
+  "volume": "88",
+  "source": "威清卫",
+  "region": "贵州",
+  "type": "other",
+  "original": "威清卫【东至贵州宣慰司界一十里西至平坝卫界三十五里南至金筑安抚司界八十里北至水西鸭池河界九十里自卫治至南京四千九百四十里至京师八千三百六十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "威清卫",
+        "type": "geo",
+        "norm": "威清卫",
+        "first_source": "88-018"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "马鞍山",
+        "type": "mtn",
+        "norm": "马鞍山",
+        "first_source": "88-018"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "铜鼓山",
+        "type": "mtn",
+        "norm": "铜鼓山",
+        "first_source": "88-018"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "的澄河",
+        "type": "mtn",
+        "norm": "的澄河",
+        "first_source": "88-018"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "龙井",
+        "type": "mtn",
+        "norm": "龙井",
+        "first_source": "88-018"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "威清卫学",
+        "type": "site",
+        "norm": "威清卫学",
+        "first_source": "88-018"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "新志",
+        "type": "book",
+        "norm": "新志",
+        "first_source": "88-018"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88018",
+        "item_id": "88-018",
+        "name": "威清卫",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "贵州宣慰司界",
+              "distance_li": 10
+            },
+            {
+              "direction": "西",
+              "to_place": "平坝卫界",
+              "distance_li": 35
+            },
+            {
+              "direction": "南",
+              "to_place": "金筑安抚司界",
+              "distance_li": 80
+            },
+            {
+              "direction": "北",
+              "to_place": "水西鸭池河界",
+              "distance_li": 90
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4940
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8360
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "",
+          "topography": "重冈环绕【新志】；诸夷襟喉【新志】",
+          "customs": "白布裹额【新志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "明",
+        "era": "洪武二十一年",
+        "institution_name": "威清站",
+        "action": "置",
+        "detail": "本贵州宣慰司地，洪武二十一年置威清站，属贵州卫",
+        "evo_id": "EVO-001",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武二十三年",
+        "institution_name": "威清卫指挥使司",
+        "action": "升",
+        "detail": "二十三年改置威清卫指挥使司，隶贵州都司",
+        "evo_id": "EVO-002",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "马鞍山",
+        "type": "山",
+        "location_text": "在卫城南",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      },
+      {
+        "name": "铜鼓山",
+        "type": "山",
+        "location_text": "在卫城西四十五里",
+        "description": "相传蜀汉诸葛亮征南于此获铜鼓",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      },
+      {
+        "name": "的澄河",
+        "type": "河",
+        "location_text": "在卫城西八里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      },
+      {
+        "name": "龙井",
+        "type": "井",
+        "location_text": "在卫城北",
+        "description": "深数十仞，俗传有龙潜焉",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "威清卫学",
+        "type": "学校",
+        "location_text": "在卫治东",
+        "history_lore": "宣德八年建",
+        "site_id": "SITE-001",
+        "item_id": "88-018",
+        "geo_id": "GEO-88018"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "新志",
+        "context": "证形胜",
+        "original": "【新志：重冈环绕诸夷襟喉】",
+        "cit_id": "CIT-001",
+        "item_id": "88-018"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

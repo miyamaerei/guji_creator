@@ -1,0 +1,231 @@
+{
+  "item_id": "88-019",
+  "volume": "88",
+  "source": "平坝卫",
+  "region": "贵州",
+  "type": "other",
+  "original": "平坝卫【东至威清衞界四十五里南至金筑安抚司界四十里西至普安卫界北至防楚地界俱三十里自卫治至南京四千六百七十里至京师八千五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "平坝卫",
+        "type": "geo",
+        "norm": "平坝卫",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "鹿角山",
+        "type": "mtn",
+        "norm": "鹿角山",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "马头山",
+        "type": "mtn",
+        "norm": "马头山",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "东溪",
+        "type": "mtn",
+        "norm": "东溪",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "龙井",
+        "type": "mtn",
+        "norm": "龙井",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "圣泉",
+        "type": "mtn",
+        "norm": "圣泉",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "平坝卫学",
+        "type": "site",
+        "norm": "平坝卫学",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "通南桥",
+        "type": "site",
+        "norm": "通南桥",
+        "first_source": "88-019"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "圆通庵",
+        "type": "site",
+        "norm": "圆通庵",
+        "first_source": "88-019"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88019",
+        "item_id": "88-019",
+        "name": "平坝卫",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "威清卫界",
+              "distance_li": 45
+            },
+            {
+              "direction": "南",
+              "to_place": "金筑安抚司界",
+              "distance_li": 40
+            },
+            {
+              "direction": "西",
+              "to_place": "普安卫界",
+              "distance_li": 30
+            },
+            {
+              "direction": "北",
+              "to_place": "安楚地界",
+              "distance_li": 30
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4670
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8050
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "",
+          "topography": "",
+          "customs": "",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "明",
+        "era": "洪武二十三年",
+        "institution_name": "平坝卫指挥使司",
+        "action": "置",
+        "detail": "古西南夷地，本朝洪武二十三年始置平坝卫指挥使司，后改隶贵州都司",
+        "evo_id": "EVO-001",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "鹿角山",
+        "type": "山",
+        "location_text": "在卫城南一十五里",
+        "description": "石峰耸立形如鹿角",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      },
+      {
+        "name": "马头山",
+        "type": "山",
+        "location_text": "在卫城东南二十五里",
+        "description": "群山连络形如马首",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      },
+      {
+        "name": "东溪",
+        "type": "溪",
+        "location_text": "在卫城东",
+        "description": "源出东北石洞，流灌田亩",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      },
+      {
+        "name": "龙井",
+        "type": "井",
+        "location_text": "在卫城东南一十五里",
+        "description": "水极清甘，遇旱屠狗魇之则风雨随至",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      },
+      {
+        "name": "圣泉",
+        "type": "泉",
+        "location_text": "在卫城西",
+        "description": "其水消长不时，故名",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "平坝卫学",
+        "type": "学校",
+        "location_text": "在卫城内西",
+        "history_lore": "宣德八年建",
+        "site_id": "SITE-001",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      },
+      {
+        "name": "通南桥",
+        "type": "关梁",
+        "location_text": "在卫城南三里",
+        "history_lore": "路通云南",
+        "site_id": "SITE-002",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      },
+      {
+        "name": "圆通庵",
+        "type": "寺观",
+        "location_text": "在卫治南",
+        "history_lore": "洪武二十四年建",
+        "site_id": "SITE-003",
+        "item_id": "88-019",
+        "geo_id": "GEO-88019"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

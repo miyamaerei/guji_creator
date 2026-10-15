@@ -1,0 +1,437 @@
+{
+  "item_id": "88-013",
+  "volume": "88",
+  "source": "新添卫军民指挥使司",
+  "region": "贵州",
+  "type": "other",
+  "original": "新添衞军民指挥使司【东至平越衞界八十里西至龙里卫界六十里南至龙里衞太平伐界九十里北至杉木箐界五十里自衞治至南京四千七百三十里至京师八千二百六十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "新添卫军民指挥使司",
+        "type": "geo",
+        "norm": "新添卫军民指挥使司",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "新添长官司",
+        "type": "geo",
+        "norm": "新添长官司",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "小平伐长官司",
+        "type": "geo",
+        "norm": "小平伐长官司",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "把平寨长官司",
+        "type": "geo",
+        "norm": "把平寨长官司",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "丹平长官司",
+        "type": "geo",
+        "norm": "丹平长官司",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "丹行长官司",
+        "type": "geo",
+        "norm": "丹行长官司",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "笔峰山",
+        "type": "mtn",
+        "norm": "笔峰山",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "蔡苗山",
+        "type": "mtn",
+        "norm": "蔡苗山",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "瓮城河",
+        "type": "mtn",
+        "norm": "瓮城河",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "麦新溪",
+        "type": "mtn",
+        "norm": "麦新溪",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "飞泉",
+        "type": "mtn",
+        "norm": "飞泉",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "宋胜",
+        "type": "person",
+        "norm": "宋胜",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "宋朝美",
+        "type": "person",
+        "norm": "宋朝美",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "新添卫学",
+        "type": "site",
+        "norm": "新添卫学",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "瓮城关",
+        "type": "site",
+        "norm": "瓮城关",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "麦新桥",
+        "type": "site",
+        "norm": "麦新桥",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "兴福寺",
+        "type": "site",
+        "norm": "兴福寺",
+        "first_source": "88-013"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "贵州志",
+        "type": "book",
+        "norm": "贵州志",
+        "first_source": "88-013"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88013",
+        "item_id": "88-013",
+        "name": "新添卫军民指挥使司",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88013-t01",
+          "GEO-88013-t02",
+          "GEO-88013-t03",
+          "GEO-88013-t04",
+          "GEO-88013-t05"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "平越卫界",
+              "distance_li": 80
+            },
+            {
+              "direction": "西",
+              "to_place": "龙里卫界",
+              "distance_li": 60
+            },
+            {
+              "direction": "南",
+              "to_place": "龙里卫太平伐界",
+              "distance_li": 90
+            },
+            {
+              "direction": "北",
+              "to_place": "杉木箐界",
+              "distance_li": 50
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4730
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8260
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "",
+          "topography": "四山排闼一水萦纡【贵州志】；东界平越西接龙里【卫志】",
+          "customs": "土瘠民贫俗尚俭朴【卫志】；以寅卯丑日为虎场兔场牛场贸易【卫志】；父母死以割发为孝【卫志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88013-t01",
+        "item_id": "88-013",
+        "name": "新添长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88013",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "附郭"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88013-t02",
+        "item_id": "88-013",
+        "name": "小平伐长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88013",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在卫西南五十里，元为雍真等处蛮夷长官司，洪武十五年改今属"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88013-t03",
+        "item_id": "88-013",
+        "name": "把平寨长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88013",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在卫城南六十里，元置属顺元路，洪武二十九年改今属"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88013-t04",
+        "item_id": "88-013",
+        "name": "丹平长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88013",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在卫城西南一百里，洪武三十年改置，永乐元年复置"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88013-t05",
+        "item_id": "88-013",
+        "name": "丹行长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88013",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在卫城西南一百二十里，洪武三十年改置，永乐元年复置"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "宋",
+        "era": "嘉泰",
+        "institution_name": "麦新/新添",
+        "action": "置",
+        "detail": "宋嘉泰初土官宋永高克服麦新等处，以其子宋胜守之，改麦新为新添",
+        "evo_id": "EVO-001",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "新添葛蛮安抚司",
+        "action": "置",
+        "detail": "元至元间置新添葛蛮安抚司，元末废",
+        "evo_id": "EVO-002",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武四年",
+        "institution_name": "新添长官司",
+        "action": "置",
+        "detail": "本朝洪武四年置新添长官司",
+        "evo_id": "EVO-003",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武二十三年",
+        "institution_name": "新添卫军民指挥使司",
+        "action": "升",
+        "detail": "二十二年增置千户所，二十三年改所为卫，二十九年改为新添卫军民指挥使司，永乐中改属贵州都司，领长官司五",
+        "evo_id": "EVO-004",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "笔峰山",
+        "type": "山",
+        "location_text": "在卫城南",
+        "description": "其峰如笔，高插云汉",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "蔡苗山",
+        "type": "山",
+        "location_text": "在卫城东北一十里",
+        "description": "上有泉悬崖飞下宛如玉虹，名曰飞泉",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "瓮城河",
+        "type": "河",
+        "location_text": "在卫城西南二十里",
+        "description": "元有瓮城、都桑等处长官司以此名",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "麦新溪",
+        "type": "溪",
+        "location_text": "在卫城西南",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "飞泉",
+        "type": "泉",
+        "location_text": "在卫城东北一十里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      }
+    ],
+    "pers": [
+      {
+        "name": "宋胜",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "新添人",
+        "office": "右武大夫沿边溪峒经略使",
+        "summary": "父宋永高克服麦新，以胜守其地；嘉定中授经略使，卒子宋聚袭",
+        "per_id": "PER-001",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "宋朝美",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "宋胜曾孙",
+        "office": "新添葛蛮安抚使",
+        "summary": "累官新添葛蛮安抚使",
+        "per_id": "PER-002",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      }
+    ],
+    "sites": [
+      {
+        "name": "新添卫学",
+        "type": "学校",
+        "location_text": "在卫治西",
+        "history_lore": "正统九年建",
+        "site_id": "SITE-001",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "瓮城关",
+        "type": "关梁",
+        "location_text": "在卫城西南二十五里",
+        "history_lore": "",
+        "site_id": "SITE-002",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "麦新桥",
+        "type": "关梁",
+        "location_text": "跨麦新溪",
+        "history_lore": "洪武二十三年建",
+        "site_id": "SITE-003",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      },
+      {
+        "name": "兴福寺",
+        "type": "寺观",
+        "location_text": "在卫城北",
+        "history_lore": "永乐二年建",
+        "site_id": "SITE-004",
+        "item_id": "88-013",
+        "geo_id": "GEO-88013"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "贵州志",
+        "context": "证形胜",
+        "original": "【贵州志：四山排闼一水萦纡】",
+        "cit_id": "CIT-001",
+        "item_id": "88-013"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

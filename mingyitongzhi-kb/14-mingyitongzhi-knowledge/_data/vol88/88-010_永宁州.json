@@ -1,0 +1,238 @@
+{
+  "item_id": "88-010",
+  "volume": "88",
+  "source": "永宁州",
+  "region": "贵州",
+  "type": "department",
+  "original": "永寜州【东至镇寜州界二十五里西至慕役长官司界四十里南至广西泗城州界一百六十里北至安顺州寜谷长官司界三十里自州治至南京四千八百三十里至京师八千二百里粮二千二百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "永宁州",
+        "type": "geo",
+        "norm": "永宁州",
+        "first_source": "88-010"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "慕役长官司",
+        "type": "geo",
+        "norm": "慕役长官司",
+        "first_source": "88-010"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "顶营长官司",
+        "type": "geo",
+        "norm": "顶营长官司",
+        "first_source": "88-010"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "安笼箐山",
+        "type": "mtn",
+        "norm": "安笼箐山",
+        "first_source": "88-010"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "关索岭",
+        "type": "mtn",
+        "norm": "关索岭",
+        "first_source": "88-010"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "白水河",
+        "type": "mtn",
+        "norm": "白水河",
+        "first_source": "88-010"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "州志",
+        "type": "book",
+        "norm": "州志",
+        "first_source": "88-010"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88010",
+        "item_id": "88-010",
+        "name": "永宁州",
+        "type": "department",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88010-t01",
+          "GEO-88010-t02"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "镇宁州界",
+              "distance_li": 25
+            },
+            {
+              "direction": "西",
+              "to_place": "慕役长官司界",
+              "distance_li": 40
+            },
+            {
+              "direction": "南",
+              "to_place": "广西泗城州界",
+              "distance_li": 160
+            },
+            {
+              "direction": "北",
+              "to_place": "安顺州宁谷长官司界",
+              "distance_li": 30
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4830
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8200
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 2200,
+            "unit": "石",
+            "note": "粮二千二百石零"
+          },
+          "jun_name": "",
+          "topography": "山川险阻林箐蓊郁【州志】；阻以重山环以众寨【州志】",
+          "customs": "夷有五种（仲家、罗鬼、犵狫、苗、龙家），短衣科头男女自婚【州志】；好佩刀弩以背负物【州志】",
+          "garrisons": [
+            {
+              "name": "永宁卫",
+              "type": "卫",
+              "location_text": "在州治东，成化中建"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88010-t01",
+        "item_id": "88-010",
+        "name": "慕役长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88010",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州西一百七十里，元为慕役寨，洪武十九年置长官司，领四寨"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88010-t02",
+        "item_id": "88-010",
+        "name": "顶营长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88010",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州南一百五十里，元为顶营寨，洪武十九年置长官司，领三寨"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "永宁州",
+        "action": "置",
+        "detail": "古为荒服地，元始置永宁州，属云南普定路，大德间改属湖广行省",
+        "evo_id": "EVO-001",
+        "item_id": "88-010",
+        "geo_id": "GEO-88010"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武十四年",
+        "institution_name": "永宁州",
+        "action": "因之",
+        "detail": "本朝洪武十四年属普定军民府，后废府属四川普定卫军民指挥使司",
+        "evo_id": "EVO-002",
+        "item_id": "88-010",
+        "geo_id": "GEO-88010"
+      },
+      {
+        "dynasty": "明",
+        "era": "正统三年",
+        "institution_name": "永宁州",
+        "action": "改",
+        "detail": "正统三年改属贵州布政司，亲领六寨，领长官司二",
+        "evo_id": "EVO-003",
+        "item_id": "88-010",
+        "geo_id": "GEO-88010"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "安笼箐山",
+        "type": "山",
+        "location_text": "在慕役长官司西四十里",
+        "description": "东西横亘十余里，竹木葱翠可爱",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-010",
+        "geo_id": "GEO-88010"
+      },
+      {
+        "name": "关索岭",
+        "type": "岭",
+        "location_text": "在顶营长官司治东",
+        "description": "势极高峻，周回百余里，上有关索庙因名",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-010",
+        "geo_id": "GEO-88010"
+      },
+      {
+        "name": "白水河",
+        "type": "河",
+        "location_text": "在慕役长官司北二十里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-010",
+        "geo_id": "GEO-88010"
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "州志",
+        "context": "证形胜",
+        "original": "【州志：山川险阻林箐蓊郁】",
+        "cit_id": "CIT-001",
+        "item_id": "88-010"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "item_id": "21-003",
+  "volume": "21",
+  "source": "汾州",
+  "region": "山西",
+  "type": "subprefecture",
+  "original": "汾州府【东至太原府祈县界一百四十里西至太原府石州界六十里南至平阳府灵石县界一百里北至太原府文水县界五十里自州治至京师一千三百八十里至南京二千四百三十里】【粮一十五万一千石】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-21201",
+        "name": "汾州",
+        "type": "geo",
+        "norm": "汾州",
+        "first_source": "21-003"
+      },
+      {
+        "ent_id": "ENT-21202",
+        "name": "西河郡",
+        "type": "geo",
+        "norm": "西河郡",
+        "first_source": "21-003"
+      },
+      {
+        "ent_id": "ENT-21203",
+        "name": "介山",
+        "type": "mtn",
+        "norm": "介山",
+        "first_source": "21-003"
+      },
+      {
+        "ent_id": "ENT-21204",
+        "name": "郭泰",
+        "type": "person",
+        "norm": "郭泰",
+        "first_source": "21-003"
+      },
+      {
+        "ent_id": "ENT-21205",
+        "name": "文彦博",
+        "type": "person",
+        "norm": "文彦博",
+        "first_source": "21-003"
+      },
+      {
+        "ent_id": "ENT-21206",
+        "name": "介子推",
+        "type": "person",
+        "norm": "介子推",
+        "first_source": "21-003"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-21201",
+        "item_id": "21-003",
+        "name": "汾州",
+        "type": "subprefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷21",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "太原府祈县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "西",
+              "to_place": "太原府石州界",
+              "distance_li": 60
+            },
+            {
+              "direction": "南",
+              "to_place": "平阳府灵石县界",
+              "distance_li": 100
+            },
+            {
+              "direction": "北",
+              "to_place": "太原府文水县界",
+              "distance_li": 50
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1380
+            },
+            {
+              "capital": "南京",
+              "distance_li": 2430
+            }
+          ],
+          "households": {
+            "count": 95,
+            "unit": "里",
+            "note": "编户九十五里，领县四"
+          },
+          "grain_tax": {
+            "amount": 151000,
+            "unit": "石",
+            "note": "粮一十五万一千石"
+          },
+          "jun_name": "西河/汾阳",
+          "topography": "美哉山河之固【史记】山川峭拔【郡志】",
+          "customs": "其民重厚知义尚信好文【郡志】其人勤俭【文献通考】",
+          "garrisons": [
+            {
+              "name": "汾州卫",
+              "type": "卫",
+              "location_text": "在州城内三贤坊，洪武二十四年建守御千户所，正德中升为卫"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "庆成王府",
+              "location_text": "在州城内同节坊，永乐十一年改旧州治建"
+            },
+            {
+              "name": "永和王府",
+              "location_text": "在州城内安静坊，永乐十二年改旧千户所治建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-21201",
+          "CIT-21202",
+          "CIT-21203"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-21201",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "秦汉",
+        "era": null,
+        "institution_name": "太原郡地",
+        "action": "因之",
+        "detail": "禹贡冀州之域，春秋时属晋，战国时属赵，秦汉皆为太原郡地"
+      },
+      {
+        "evo_id": "EVO-21202",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "三国魏",
+        "era": null,
+        "institution_name": "西河郡",
+        "action": "置郡",
+        "detail": "三国魏置西河郡，治兹氏县"
+      },
+      {
+        "evo_id": "EVO-21203",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "汾州",
+        "action": "置",
+        "detail": "后魏置汾州，治蒲子城，后移治西河；北齐改置南朔州；后周改为介州"
+      },
+      {
+        "evo_id": "EVO-21204",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "西河郡",
+        "action": "改",
+        "detail": "隋初郡废，大业中州废，复为西河郡，治隰城县"
+      },
+      {
+        "evo_id": "EVO-21205",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "浩州/汾州/西河郡",
+        "action": "改",
+        "detail": "唐初改浩州，寻改汾州；天宝初改西河郡；乾元初复为汾州，属河东道"
+      },
+      {
+        "evo_id": "EVO-21206",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "汾阳军节度",
+        "action": "升",
+        "detail": "金置汾阳军节度"
+      },
+      {
+        "evo_id": "EVO-21207",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "汾州",
+        "action": "因之",
+        "detail": "元复为汾州，属太原路"
+      },
+      {
+        "evo_id": "EVO-21208",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "汾州",
+        "action": "因之",
+        "detail": "本朝以西河县省入，直隶山西布政司，编户九十五里，领县四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-21201",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "谒泉山",
+        "type": "山",
+        "location_text": "在州城北四十里",
+        "description": "上有石室，相传为子夏石室",
+        "lore": "今有卜商祠"
+      },
+      {
+        "mtn_id": "MTN-21202",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "介山",
+        "type": "山",
+        "location_text": "在介休县东南二十里",
+        "description": "地名绵上，亦名横岭",
+        "lore": "晋文公赏从亡者，介之推不言禄，禄亦不及，遂与母偕隐此山而死；文公求之不获，以绵上为之田"
+      },
+      {
+        "mtn_id": "MTN-21203",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "狐岐山",
+        "type": "山",
+        "location_text": "在孝义县西八十里",
+        "description": "胜水出焉，一名薛颉山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21204",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "汾河",
+        "type": "河",
+        "location_text": "在州城东二十五里",
+        "description": "流经介休平遥二县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21205",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "雀鼠谷",
+        "type": "其他",
+        "location_text": "在介休县西南二十里",
+        "description": "唐玄宗开元中北巡并州尝经此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21206",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "白彪山",
+        "type": "山",
+        "location_text": "在州城西北三十里",
+        "description": "昔有驺虞见于此，故名",
+        "lore": "山前有永泽庙，祀马跑泉之神"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-21201",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "吴起",
+        "type": "名宦",
+        "dynasty": "周",
+        "native_place": "",
+        "office": "魏西河守",
+        "summary": "战国时魏西河守，筑城拒秦，秦兵不敢东乡"
+      },
+      {
+        "per_id": "PER-21202",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "杜衍",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "知平遥县",
+        "summary": "缜密清整，决讼明允"
+      },
+      {
+        "per_id": "PER-21203",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "郭泰",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "介休",
+        "office": "",
+        "summary": "容貌魁伟，博通坟籍，居家教授弟子至数千人；尝游洛见河南尹李膺，膺奇之遂与为友；及卒，蔡邕为撰墓碑曰：吾为碑铭多矣，惟郭有道铭无愧耳"
+      },
+      {
+        "per_id": "PER-21204",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "文彦博",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "介休",
+        "office": "太师/潞国公",
+        "summary": "及进士第，历事四朝，出将入相五十余年；立朝端重顾盼有威，契丹使望见改容拱手曰天下异人也；官至太师封潞国公，致仕卒年九十二，谥忠烈"
+      },
+      {
+        "per_id": "PER-21205",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "狄青",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "西河",
+        "office": "枢密使/武襄公",
+        "summary": "风骨奇伟善骑射；仁宗时西夏叛，青为延州指使，每战饰以铜面，其敌望之如神；后又讨平侬智高，累立大功拜枢密使，卒谥武襄"
+      },
+      {
+        "per_id": "PER-21206",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "杜丰",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "西河",
+        "office": "河东兵马都元帅/沁州长官",
+        "summary": "倜傥有大志通兵法，仕金为平遥义军谋克，入元授兵马都提控，累功迁河东兵马都元帅；后为沁州长官，有德政，沁人立祠祀焉"
+      },
+      {
+        "per_id": "PER-21207",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "陈氏",
+        "type": "列女",
+        "dynasty": "明",
+        "native_place": "汾州",
+        "office": "郭世玉妻",
+        "summary": "生子一岁郭逝，陈年二十有一，事育尽道；孀居七十余年，两经大兵藏匿岩穴未尝亏节，国初特诏旌之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-21201",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "汾州学",
+        "type": "学校",
+        "location_text": "在州治东南",
+        "history_lore": "洪武八年建"
+      },
+      {
+        "site_id": "SITE-21202",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "净心寺",
+        "type": "寺观",
+        "location_text": "在州城内",
+        "history_lore": "宋建"
+      },
+      {
+        "site_id": "SITE-21203",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "介之推庙",
+        "type": "祠庙",
+        "location_text": "在介休县西门",
+        "history_lore": "之推晋大夫"
+      },
+      {
+        "site_id": "SITE-21204",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "卜商祠",
+        "type": "祠庙",
+        "location_text": "在谒泉山下",
+        "history_lore": "卜商退老于西河，为魏文侯师，后人为立祠"
+      },
+      {
+        "site_id": "SITE-21205",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "郭林宗墓",
+        "type": "陵墓",
+        "location_text": "在介休县东五里",
+        "history_lore": "蔡邕撰碑"
+      },
+      {
+        "site_id": "SITE-21206",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "尹吉甫墓",
+        "type": "陵墓",
+        "location_text": "在平遥县治东",
+        "history_lore": "吉甫周卿士"
+      },
+      {
+        "site_id": "SITE-21207",
+        "item_id": "21-003",
+        "geo_id": "GEO-21201",
+        "name": "金锁关",
+        "type": "关梁",
+        "location_text": "在州城西三十五里",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-21201",
+        "item_id": "21-003",
+        "cited_work": "史记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【史记】"
+      },
+      {
+        "cit_id": "CIT-21202",
+        "item_id": "21-003",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-21203",
+        "item_id": "21-003",
+        "cited_work": "文献通考",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【文献通考】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空；标题行'汾州府'与'汾州'混用，依正文建置沿革从汾州"
+  }
+}

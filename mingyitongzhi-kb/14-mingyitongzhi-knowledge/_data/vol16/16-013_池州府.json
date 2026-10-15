@@ -1,0 +1,2722 @@
+{
+  "item_id": "16-013",
+  "volume": "16",
+  "region": "南直隶",
+  "source": "池州府【…】",
+  "type": "prefecture",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-16013-GEO",
+        "name": "池州府",
+        "type": "geo",
+        "norm": "池州府",
+        "first_source": "16-013"
+      },
+      {
+        "ent_id": "ENT-16013-B01",
+        "name": "元史",
+        "type": "book",
+        "norm": "元史",
+        "first_source": "16-013"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-16013",
+        "item_id": "16-013",
+        "name": "池州府",
+        "type": "prefecture",
+        "region": "南直隶",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "16",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "宁国府南陵县界",
+              "distance_li": "一百四十"
+            },
+            {
+              "direction": "西",
+              "to_place": "江西九江府彭泽县界",
+              "distance_li": "一百四十"
+            },
+            {
+              "direction": "南",
+              "to_place": "徽州府祁门县界",
+              "distance_li": "一百九十"
+            },
+            {
+              "direction": "北",
+              "to_place": "安庆府桐城县界",
+              "distance_li": "三十"
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": "六百"
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "counties": [
+            {
+              "name": "隶京师贵池县",
+              "is_capital_county": true,
+              "households": "三十九"
+            },
+            {
+              "name": "青阳县",
+              "is_capital_county": false,
+              "households": "一十七"
+            },
+            {
+              "name": "铜陵县",
+              "is_capital_county": false,
+              "households": "一十五"
+            },
+            {
+              "name": "石埭县",
+              "is_capital_county": false,
+              "households": "一十一"
+            },
+            {
+              "name": "建徳县",
+              "is_capital_county": false,
+              "households": "九"
+            },
+            {
+              "name": "东流县",
+              "is_capital_county": false,
+              "households": "七"
+            }
+          ],
+          "name": "池州府",
+          "type": "prefecture",
+          "region": "南直隶"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "禹贡",
+        "detail": "扬州之域天文斗分野春秋时吴地后属越越灭属",
+        "action": "分置",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "秦",
+        "detail": "属鄣郡汉改鄣郡为丹阳郡吴为石城侯邑",
+        "action": "属",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "晋",
+        "detail": "属宣城及豫章郡梁属南陵郡陈属北江州隋初属宣州后改州为宣城郡唐初始置池州治秋浦以地有贵池故名贞观初州废永泰初复置南唐陞康化军",
+        "action": "废",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "宋",
+        "detail": "复为池州治贵池县元为池州路属江浙省",
+        "action": "省入",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "本朝",
+        "detail": "改为池州府直隶京师",
+        "action": "改名/改为",
+        "era": null,
+        "institution_name": ""
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-16013-01",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "齐山",
+        "type": "river",
+        "location_text": "在府城南",
+        "description": "在府城南三里山有十余峯其高齐等故名又有妙空武功寄窦云玉桂有待等岩九顶圆顶华盖莲子左史石虎等洞极为竒胜或云山因唐刺史齐映得名唐杜牧九日登山诗江涵秋影鴈初飞与客携壶上翠微尘世难逢开口笑菊花须挿满头归宋吴中复诗当时齐映为州日从此山因姓得名却自牧之赋诗后每逢秋至菊含情",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-02",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "镇山黄龙山",
+        "type": "river",
+        "location_text": "在府城北",
+        "description": "俱在府城北五里濒大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-03",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "江祖山",
+        "type": "river",
+        "location_text": "在府城西南",
+        "description": "在府城西南二十五里有一石突然出水际其高数丈上有仙人迹名曰江祖石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-04",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄老山",
+        "type": "mountain",
+        "location_text": "在府城东南",
+        "description": "在府城东南三十里唐康骈尝隠于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-05",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "郎山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在府城西六十里旧名和龙山其下有潭山半有石刻玉镜潭三字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-06",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "魁山",
+        "type": "mountain",
+        "location_text": "在府城南",
+        "description": "在府城南七十里旧传山有寳光夜见则是乡必有登第者故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-07",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "秀山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在府城西七十里峯峦秀丽屹然干云旧传梁昭明太子薨其神附于秀山之民曰吾昔爱此今帝锡我矣民因立祠于山阿祈祷有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-08",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "大楼山",
+        "type": "mountain",
+        "location_text": "在府城南",
+        "description": "在府城南七十里旧有悟真寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-09",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "七井山",
+        "type": "spring",
+        "location_text": "在府城南",
+        "description": "在府城南八十里上有七峯涌泉七穴其泉险峻四时多寒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-10",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "卢子库山",
+        "type": "lake",
+        "location_text": "在府城南",
+        "description": "在府城南九十里一名伏龙岩山有龙池相传神龙宅焉凡旱祷而龙或微露其形輙应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-11",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "鲤鱼载山",
+        "type": "lake",
+        "location_text": "在府城西南",
+        "description": "在府城西南一百五十里其山峯峦峭拔有飞瀑挂石壁凡三级下各有潭上有巨石附飞流中如鲤鱼状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-12",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "灵山",
+        "type": "spring",
+        "location_text": "在府城西南",
+        "description": "在府城西南二百里山颠有田百亩水泉四时不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-13",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "九华山",
+        "type": "river",
+        "location_text": "在青阳县南",
+        "description": "在青阳县南旧名九子山唐李白陋其名无所据以山九峯如莲华乃更名九华白诗妙有分二气灵山开九华又云天河挂緑水秀出九芙蓉杜牧诗凌空痩骨寒如削照水清光翠且重却忆谪仙才格俊解吟秀出九芙蓉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-14",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "青山",
+        "type": "mountain",
+        "location_text": "在青阳县北",
+        "description": "在青阳县北五里县以此山得名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-15",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "帻山",
+        "type": "mountain",
+        "location_text": "在青阳县南",
+        "description": "在青阳县南与九华山相接六峯嵬峩俨如冠帻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-16",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "五松山",
+        "type": "mountain",
+        "location_text": "在铜陵县南",
+        "description": "在铜陵县南五里唐李白诗我来五松下置酒穷跻攀",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-17",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "鹊头山",
+        "type": "river",
+        "location_text": "在铜陵县北",
+        "description": "在铜陵县北一十里其山高耸宛若鹊头今庐江西岸有鹊尾渚与此为匹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-18",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "枫林山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在铜陵县东一十里山多枫林",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-19",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "铜官山",
+        "type": "spring",
+        "location_text": "在铜陵县南",
+        "description": "在铜陵县南一十里又名利国山有泉源冬夏不竭可以浸鐡烹铜旧尝于此置铜官李白诗我爱铜官乐十年未拟还",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-20",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "石耳山",
+        "type": "mountain",
+        "location_text": "在铜陵县南",
+        "description": "在铜陵县南二十里双峯对峙秀拔亦名真人峯有石高丈余上有巨人迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-21",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "龙泉山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在铜陵县东三十里山颠旧有西峯庵祈祷多验山下出泉冬夏不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-22",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "杏山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在铜陵县东三十里昔传葛仙翁尝留此种杏有溪襟带其下落英飞堰上名花堰宋郭祥正诗传闻花落流堰水每到三月溪泉香",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-23",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "金山",
+        "type": "mountain",
+        "location_text": "在铜陵县西南",
+        "description": "在铜陵县西南三十里山有金牛洞世传尝有金牛出游乡民欲设穽陷之因名其地曰大栏小栏",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-24",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "天门山",
+        "type": "mountain",
+        "location_text": "在铜陵县西南",
+        "description": "在铜陵县西南四十里以其山高耸挿天故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-25",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "叶山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在铜陵县东五十里上有莲花峯叶真人庙在焉祈祷多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-26",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "城山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在铜陵县东五十里四围石壁峭拔惟西南一迳可通如城门然山颠平坦可数十亩名曰寨塘中有一井遇隂晦则云气涌出乡民尝避兵于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-27",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "贵山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在铜陵县东六十五里山南有百丈峯北有马鞍峯上有狮子峯中有西峯皆极高峻有大圣堂",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-28",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "马仁山",
+        "type": "river",
+        "location_text": "在铜陵县东南",
+        "description": "在铜陵县东南七十里旧名马人以山类人马状唐徳宗时尝有石马妖鸣遂断其首因更人为仁上有仙人韬玉等峯又有望江石唐陈商王冲霄尝隠于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-29",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "鳯凰山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在铜陵县东七十里世传尝有鳯集其上石窟有泉寒冽名鳯饮泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-30",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "金城山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在石埭县治西开福寺在焉山列于寺傍宛若城郭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-31",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "陵阳山",
+        "type": "mountain",
+        "location_text": "在石埭县治北",
+        "description": "在石埭县治北山自西北迤逦而来三峯连亘东接宣州其西二峯乃仙人窦子明所居之地",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-32",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "盖山",
+        "type": "mountain",
+        "location_text": "在石埭县南",
+        "description": "在石埭县南三十里逺望之如盖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-33",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "栎山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在石埭县西一百六十里其山四壁峭拔上有池水澄澈如鉴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-34",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "杉山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在石埭县西一百六十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-35",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "白象山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在建徳县治后以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-36",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "博阳山",
+        "type": "stream",
+        "location_text": "在建徳县东北",
+        "description": "在建徳县东北一十里岩石嵳峩溪流湍急旧于絶顶设祠祈祷有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-37",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "五龙山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在建徳县东二十五里五峯森立山半有石井清澈名化龙池深不可测尝有五巨蟹游于水面",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-38",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "歴山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在东流县东三十里西枕歴池故名上有二池其一尝干虽乆雨不停其一常溢虽乆旱不涸",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-39",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "升云峯",
+        "type": "lake",
+        "location_text": "",
+        "description": "在青阳县西上有潭虽旱不竭将雨则四山云气先从此起",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-40",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "中峯",
+        "type": "spring",
+        "location_text": "",
+        "description": "在青阳县西众峯环列而此峯居中上睇日月下覸云雨淸泉迸石翠雾凝空",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-41",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "玉峯",
+        "type": "mountain",
+        "location_text": "在建徳县治南",
+        "description": "在建徳县治南絶顶有石光莹如玉一名峯子山宋严毕得汉武登嵩所刻夀字石本刻于上名夀崖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-42",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "水车岭",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在齐山李元方尝云秋浦千重岭而水车岭最竒郭祥正和李白诗万丈水车岭还如九叠屏北风来不断六月亦生冰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-43",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "呈鳯岭",
+        "type": "landform",
+        "location_text": "",
+        "description": "在青阳县西旧传丹鳯生焉有获之者欲献于朝而羣乌竞来扑人乃舍之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-44",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "仪鳯岭",
+        "type": "landform",
+        "location_text": "在铜陵县东南",
+        "description": "在铜陵县东南一十五里峯峦乔耸形势如鳯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-45",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "普门岭",
+        "type": "landform",
+        "location_text": "在建徳县西南",
+        "description": "在建徳县西南一十五里宋朱文公尝书普门岭三字刻于石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-46",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "半岩",
+        "type": "spring",
+        "location_text": "",
+        "description": "在齐山李元方云齐山大小泉凡十一而半岩为胜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-47",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "夫子岩",
+        "type": "landform",
+        "location_text": "",
+        "description": "在建徳县东七里昔有隠者读书于此岩前有水若帘亦名水帘岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-48",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "古仙洞",
+        "type": "landform",
+        "location_text": "在府城南",
+        "description": "在府城南六十里中有石棊局石锣鼔各一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-49",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "穿山洞",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在府城西七十五里相传宋建隆中有犬登木化为龙风云勃兴穿山而行故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-50",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "蜕龙洞",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在建徳县治山后深广各三丈古木森秀怪石嵳峩尝有获龙骨于此者",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-51",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "石礲矶",
+        "type": "river",
+        "location_text": "在铜陵县北",
+        "description": "在铜陵县北五里濒大江有三石门水涸可出入容数十人亦名五霞洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-52",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "鹿迹石",
+        "type": "landform",
+        "location_text": "",
+        "description": "在东流县东六十里有巨石平如掌俗传葛洪于此炼丹丹成跨白鹿飞升石上有鹿迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-53",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "金鸡石",
+        "type": "landform",
+        "location_text": "",
+        "description": "在建徳县草堂寺北相传唐罗隠过此题诗有金鸡不向五更啼之句石遂迸裂有鸡飞鸣而去",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-54",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "大江",
+        "type": "river",
+        "location_text": "在府城北",
+        "description": "在府城北境上自东流县鴈防入界北流又折而东歴李阳河梅根口下至铜陵县大通河口凡二百余里府境诸水皆入焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-55",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "僊人湖",
+        "type": "lake",
+        "location_text": "在建徳县南",
+        "description": "在建徳县南旧名沥湖世传宋建炎间冇七仙人泛舟湖中衣冠谈论逹旦不已后人遂以名湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-56",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "大青湖",
+        "type": "lake",
+        "location_text": "在东流县北",
+        "description": "在东流县北四十里广十余顷澄澈如鉴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-57",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "池口河",
+        "type": "river",
+        "location_text": "",
+        "description": "亦名杜坞河即贵池也源出栎山流为管公明溪歴龙髦河会于秀山仓埠潭过白面渡汇为秋浦又北流入于大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-58",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "铜陵河",
+        "type": "river",
+        "location_text": "在铜陵县西北",
+        "description": "在铜陵县西北七里其源一出南长山一出县北官庄一出东高村山会于横塘闸入市后湖达于大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-59",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "大通河",
+        "type": "river",
+        "location_text": "在铜陵县南",
+        "description": "在铜陵县南四十里其源一出九华山一出天门山一出梅冲山会于车桥湖至大通镇入大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-60",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "荻港河",
+        "type": "river",
+        "location_text": "在铜陵县北",
+        "description": "在铜陵县北八十里源发朱村耆即坑邵家涧防石洞南洪鳯风钟鸣贵上中下各耆之水合流至北下社入于大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-61",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "五溪水",
+        "type": "river",
+        "location_text": "",
+        "description": "在青阳县西二十里源出九华山五溪龙溪池溪漂溪双溪澜溪合流北入大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-62",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "天门水",
+        "type": "river",
+        "location_text": "在铜陵县南",
+        "description": "在铜陵县南四十里出天门山石窍中委蛇曲折襟带数里灌溉民田流入永城埭至荻港达于大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-63",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "舒溪水",
+        "type": "lake",
+        "location_text": "",
+        "description": "自太平县界流入石埭县舒泉乡与盖山清泉水合流至县南三十里潭洞不一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-64",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "青溪",
+        "type": "river",
+        "location_text": "",
+        "description": "源出洘溪山与石人岭水合北流汇为玉镜潭又东流经府门外复折而北至清溪口入大江唐李白诗夜到清溪宿主人碧岩里檐楹挂星斗枕席响风水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-65",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "尧城溪",
+        "type": "river",
+        "location_text": "在建徳县治南",
+        "description": "在建徳县治南发源自太原乡等处春夏水溢可通舟楫北流达于大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-66",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "秋浦",
+        "type": "river",
+        "location_text": "在府城西南",
+        "description": "在府城西南八十里长八十余里濶三十里四时景物宛如潇湘洞庭唐李白诗愁作秋浦曲强看秋浦花山川如剡县风日似长沙杜牧诗秋浦倚吴江去檝飞青鹘溪山好画图洞壑深闺闼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-67",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "丁家洲口",
+        "type": "river",
+        "location_text": "在铜陵县东北",
+        "description": "在铜陵县东北二十里发源仪鳯岭达于东流防于栖鸾湖过鳯心闸合胡城顺安水一自洲上口一自洲下口达于大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-68",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "链丹井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在九华山卧云庵北相传葛仙尝錬丹于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-69",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "包公井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在府治内西偏相传宋太守包拯所浚",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-70",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "清泉",
+        "type": "spring",
+        "location_text": "",
+        "description": "在青阳县西一十里旧以鲍公赵公名宋林之竒改名清泉真徳秀为记铭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-71",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "双泉",
+        "type": "lake",
+        "location_text": "在青阳县东南",
+        "description": "在青阳县东南七里龙安山西二泉相去咫尺宋曹机尝凿方池建亭其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-72",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "潮泉",
+        "type": "lake",
+        "location_text": "在青阳县东南",
+        "description": "在青阳县东南一十里龙池山岩石耸立下有二窦泉自中出日凡三至故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-73",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "隠真泉",
+        "type": "spring",
+        "location_text": "",
+        "description": "在青阳县东六十里招隠山崇真观后泉从石罅流出味甚清冽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-74",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "灵窦泉",
+        "type": "spring",
+        "location_text": "",
+        "description": "在铜陵县叶山相传尝有龙自穴出溉田百顷水旱自若",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-75",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "上下华池",
+        "type": "lake",
+        "location_text": "",
+        "description": "在青阳县双峯下曰上华池双溪上曰下华池泉甘土沃产异茗宋陈岩诗听钟吃饭东西寺就水烹茶上下池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-76",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "嘉鱼池",
+        "type": "lake",
+        "location_text": "在青阳县南",
+        "description": "在青阳县南三十里百丈潭侧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-77",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄鹤池",
+        "type": "lake",
+        "location_text": "",
+        "description": "在石埭县陵阳山中峯下相传窦子明于此跨鹤升仙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-16013-78",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "苍凖潭",
+        "type": "lake",
+        "location_text": "",
+        "description": "在府城西七十里舞鸾乡行旅徃来济渡于此",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-16013-01",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "窦子明",
+        "type": "名宦",
+        "dynasty": "汉",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "陵阳令无欲而民自化"
+      },
+      {
+        "per_id": "PER-16013-02",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "韦仲堪",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "青阳令恺悌而民从"
+      },
+      {
+        "per_id": "PER-16013-03",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "崔衍",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "池州观察使为政简靖不扰民甚徳之"
+      },
+      {
+        "per_id": "PER-16013-04",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "萧复",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "池州刺史有惠政民追思之为之立楼"
+      },
+      {
+        "per_id": "PER-16013-05",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "窦潏",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "池州守黄巢虐池之二年潏到郡乃检访乡籍完聚疮痍三四月间流亡归复明年大熟"
+      },
+      {
+        "per_id": "PER-16013-06",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李芃",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "池州判官永泰初剧贼方清絶江为乱芃请秋浦置池州扼其襟要诏以芃行州事"
+      },
+      {
+        "per_id": "PER-16013-07",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "孙愿",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "池州刺史",
+        "summary": "愿自贞元以后三代为池州刺史有善政"
+      },
+      {
+        "per_id": "PER-16013-08",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "樊知古",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "冦知",
+        "summary": "开寳中领池州事先是州民保险为冦知古撃之连拔三砦擒其魁以献余皆溃散"
+      },
+      {
+        "per_id": "PER-16013-09",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "包拯",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知池州政绩着闻"
+      },
+      {
+        "per_id": "PER-16013-10",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄子游",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知池州论青阳县苗税多于诸县悉蠲减之"
+      },
+      {
+        "per_id": "PER-16013-11",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李虚己",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知池州大有政声"
+      },
+      {
+        "per_id": "PER-16013-12",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "梅询",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知池州有治声"
+      },
+      {
+        "per_id": "PER-16013-13",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "茅革",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "垂涕説同生当相",
+        "summary": "知贵池县民有兄弟讼田者革为垂涕説同生当相尽以恩义兄弟感泣而去"
+      },
+      {
+        "per_id": "PER-16013-14",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "梅尧臣",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "建徳令既去民思其惠建祠祀之"
+      },
+      {
+        "per_id": "PER-16013-15",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "钱勰",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知池州有政绩其诗有云来逢采石连江雪坐见齐山拂槛梅"
+      },
+      {
+        "per_id": "PER-16013-16",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "杨元秉",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "迁学于县治东人",
+        "office": "",
+        "summary": "知青阳县有政声台省罔敢干以私吏缩手不敢舞文迁学于县治东人材大兴"
+      },
+      {
+        "per_id": "PER-16013-17",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "许介",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知青阳县尝建九华祠及去民思其功请于朝以介配享其中"
+      },
+      {
+        "per_id": "PER-16013-18",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "林桷",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知铜陵县为政循良昼日垂帘于庭民无讼者"
+      },
+      {
+        "per_id": "PER-16013-19",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "赵昴发",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "通判池州摄州事值元兵攻城昴发极力守御度不能支语其妻曰城将破吾不当去汝先出走妻曰君能为忠臣我独不能为忠臣妇乎昴发乃大书几上曰君不可叛城不可降夫妇同死节义成双遂俱缢死"
+      },
+      {
+        "per_id": "PER-16013-20",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "史午",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "青阳尹旌表节义以励风俗"
+      },
+      {
+        "per_id": "PER-16013-21",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "王晋卿",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "建徳尹有政绩民为立生祠"
+      },
+      {
+        "per_id": "PER-16013-22",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "程端礼",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "建徳学教谕研精经术践履笃厚着读书日程"
+      },
+      {
+        "per_id": "PER-16013-23",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "赵安",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "府公正防能郡人",
+        "office": "池州知",
+        "summary": "洪武初为池州知府公正防能郡人称颂"
+      },
+      {
+        "per_id": "PER-16013-24",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "孟常",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "石埭知",
+        "summary": "洪武间为石埭知县抚字有方先时邑民负租累嵗无征常到任设法足之民获安业满考民慕其徳赴京奏留之"
+      },
+      {
+        "per_id": "PER-16013-25",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "吕复",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "洪武间为东流县典史抚字勤劳仁恕及下民甚徳之后陞工部郎中"
+      },
+      {
+        "per_id": "PER-16013-26",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "姜士原",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "洪武初贵池知县清防直干抚民有方"
+      },
+      {
+        "per_id": "PER-16013-27",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "叶恩",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "永乐中知池州府有惠政民争讼有关大防者輙诗于词尾民皆悔悮谢罪作兴士类造就甚多畿志"
+      },
+      {
+        "per_id": "PER-16013-28",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "刘洁",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "贵池知县政暇巡行郊野劝课农桑至今民享其利畿志"
+      },
+      {
+        "per_id": "PER-16013-29",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "洪达",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知青阳县存心仁恕及归休举留者塞道畿志"
+      },
+      {
+        "per_id": "PER-16013-30",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "晏毅",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "以叅政来知池州府平易近民民多徳之后陞云南布政畿志"
+      },
+      {
+        "per_id": "PER-16013-31",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "賔",
+        "type": "名宦",
+        "dynasty": "商",
+        "era": null,
+        "native_place": "",
+        "office": "满民请留进府同知",
+        "summary": "以吏科给事中改知铜陵县疏请听民开垦荒田民无不业者任满民请留进府同知仍知县事畿志"
+      },
+      {
+        "per_id": "PER-16013-32",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "尹安",
+        "type": "名宦",
+        "dynasty": "商",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知石埭县时民因兵燹失业乃兴学理财劳来安集逋民复业焉畿志"
+      },
+      {
+        "per_id": "PER-16013-33",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "良器",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "作兴学校能知人",
+        "office": "",
+        "summary": "池州知府外和内刚涖政明决民懐其惠作兴学校能知人善与进仕至应天府尹其文章政事皆可为后学法至今池人称之畿志云"
+      },
+      {
+        "per_id": "PER-16013-34",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "朱纲",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "同知池州府防介寛厚鞭扑不施民甚慕之畿志"
+      },
+      {
+        "per_id": "PER-16013-35",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "张岐",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "贵池县诚心爱人",
+        "office": "",
+        "summary": "知贵池县诚心爱人有不利于民者极力以处之仕至广东左叅议畿志"
+      },
+      {
+        "per_id": "PER-16013-36",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "钱瓉",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "青阳知县豪右贫细各安其业有古循吏风畿志"
+      },
+      {
+        "per_id": "PER-16013-37",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "镠",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知铜陵县善于抚绥流民归者接踵畿志"
+      },
+      {
+        "per_id": "PER-16013-38",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "原",
+        "type": "名宦",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知石埭县律己防临民恵遇灾而能恤民赖以存畿志"
+      },
+      {
+        "per_id": "PER-16013-39",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "祯",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "建徳知县防明仁恕以徳化民民咸懐之畿志"
+      },
+      {
+        "per_id": "PER-16013-40",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "傅宗",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "池县学训导教人",
+        "office": "",
+        "summary": "贵池县学训导教人以身先之转国子助敎累迁少詹事畿志"
+      },
+      {
+        "per_id": "PER-16013-41",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "罗隠",
+        "type": "流寓",
+        "dynasty": null,
+        "era": null,
+        "native_place": "本余杭人",
+        "office": "",
+        "summary": "本余杭人父仕于池因家焉唐光启初游谒钱镠为从事开平中朱全忠以谏议大夫召不应后罗绍威宻表荐之乃就授给事中有文集三十卷弟邺亦能诗"
+      },
+      {
+        "per_id": "PER-16013-42",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "齐邱",
+        "type": "流寓",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "本豫章人",
+        "office": "左丞相",
+        "summary": "本豫章人少好学即负大志为文有天才仕南唐累官左丞相后罢为浙西节度使表乞归隠赐号九华先生封青阳公"
+      },
+      {
+        "per_id": "PER-16013-43",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "胡楚賔",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "秋浦人",
+        "office": "",
+        "summary": "秋浦人善属文高宗召诸儒论禁中楚賔时为右史预选撰臣轨等书凡千余篇朝廷有疑议表疏皆宻使叅处时号北门学士"
+      },
+      {
+        "per_id": "PER-16013-44",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "卢嗣立",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "秋浦人",
+        "office": "",
+        "summary": "秋浦人登第后吏部侍郎高元裕以诗与知举陈商有中丞为国拔贤才寒畯欣逢藻鉴开之句"
+      },
+      {
+        "per_id": "PER-16013-45",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "顾云",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "池州人",
+        "office": "",
+        "summary": "池州人少与诸贤肄业九华山文名籍甚登第后杜门著书后起修三朝实録知虞部员外郎所着有鳯防聨华编昭亭杂笔共五十卷"
+      },
+      {
+        "per_id": "PER-16013-46",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "杜荀鹤",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "荀鹤生七嵗家人",
+        "office": "友官至翰林学士知",
+        "summary": "本牧之子牧尝镇秋浦妾有孕妻逐之以嫁长林乡工杜筠而荀鹤生七嵗家人令相东作荀鹤怒曰吾岂耕夫邪比长择居得香林之胜与顾云诸贤为友官至翰林学士知制诰其诗律自成一家世号晚唐格"
+      },
+      {
+        "per_id": "PER-16013-47",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "费冠卿",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人既登第闻母病革驰归而母已遂卢墓以终防叹曰干禄养亲耳得禄而亲丧何以禄为再诏不起杜荀鹤诗凡吊先生者多伤荆棘间不知三尺墓高却九华山"
+      },
+      {
+        "per_id": "PER-16013-48",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "韦彖",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "",
+        "summary": "贵池人以能赋名尝抵京师翰林吴融竒其文荐为京兆贞元归隠九华山以终"
+      },
+      {
+        "per_id": "PER-16013-49",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "康骈",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "户部郎",
+        "summary": "贵池人笃于自修善论议田頵守宣州聘骈入幕尝左右頵画防御冦后荐为户部郎迁中书舍人"
+      },
+      {
+        "per_id": "PER-16013-50",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "何澄粹",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人性至孝母殁哭墓哀毁而卒时称孝子"
+      },
+      {
+        "per_id": "PER-16013-51",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "繇",
+        "type": "人物",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "建徳人",
+        "office": "建徳令",
+        "summary": "建徳人调河南尉秩满归隠九华山仆射王徽称其孝弟可以表俗奏为建徳令尝着明皇梦钟馗赋弟繁亦有文声称建徳二周"
+      },
+      {
+        "per_id": "PER-16013-52",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "代伍乔",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "秋浦人",
+        "office": "考功郎",
+        "summary": "秋浦人性嗜学苦节自励南唐时入庐山国学读易探索精微尤长于诗赋举进士第一官至考功郎"
+      },
+      {
+        "per_id": "PER-16013-53",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "汤悦",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "宰相",
+        "summary": "贵池人父殷有才名悦幼颖悟尝见飞星坠水盘中掬吞之自是文思日竒仕南唐为宰相凡书檄教诰皆出于悦后随其主归宋为光禄卿尝奉勅撰江南録十卷"
+      },
+      {
+        "per_id": "PER-16013-54",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "方纲",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人八世同防家属七百口居室六百区每旦鸣鼔会食尝出谷五千□赈贷贫民景徳初诏旌其门"
+      },
+      {
+        "per_id": "PER-16013-55",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "汤允恭",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "营喻之解去州人",
+        "office": "通判",
+        "summary": "悦之后累官通判常州会有叛兵及境亲徃其营喻之解去州人获全迁刑部员外郎能平反寃狱累迁殿中侍御史"
+      },
+      {
+        "per_id": "PER-16013-56",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "汤岩起",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "乐澹如也后起通判",
+        "summary": "允恭族侄知营道县有清名秩满归治小圗为乐澹如也后起通判徽州寻奉祠归择居窦峰有诗五十卷论语义十卷"
+      },
+      {
+        "per_id": "PER-16013-57",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "鸿",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "池州人",
+        "office": "",
+        "summary": "池州人尝与弟鹏撰十三代史畧后以辟为团练推官鹏隠居布衣疏食乡人罕见其面有造门问学者为之讲解不倦江南士多宗师之"
+      },
+      {
+        "per_id": "PER-16013-58",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "干锡",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "鹏之",
+        "office": "",
+        "summary": "鹏之子樊知古尝师事之及守池荐于朝为制冠裳干锡不得已拜命然竟不出自称清溪布衣"
+      },
+      {
+        "per_id": "PER-16013-59",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "中正",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "池阳人",
+        "office": "",
+        "summary": "池阳人歴官所至有能声尝知贵池县以乡党非威刑所宜施每面训之人皆悦服转职方员外郎告归孙灵中才识兼茂科知长洲县以直坐废文彦奏复其官"
+      },
+      {
+        "per_id": "PER-16013-60",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "许规",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "天章阁待制知",
+        "summary": "贵池人尝寓宣州客邸旁舍客有病者乃建康人规为请医终不愈其人因以槖中金百两付规托以后事规为之棺敛并以余金还其家曽孙元官至天章阁待制知扬越二州"
+      },
+      {
+        "per_id": "PER-16013-61",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "胡舜元",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人王安石读书大明寺尝同砚席后知郑县遇行新法以书抵安石言其懐利事君贪利害民竟乞致仕"
+      },
+      {
+        "per_id": "PER-16013-62",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "檀固",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "建徳人",
+        "office": "",
+        "summary": "建徳人登第后尝上书极言朝政缺失且言朝廷罢吕大防苏辙范纯仁而用章惇曽布蔡卞去三贤而进三凶此天下治乱之由也书奏报罢及蔡京用事遂不复用"
+      },
+      {
+        "per_id": "PER-16013-63",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "张琏",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "",
+        "summary": "贵池人笃于孝友歴数邑治剧有声后知鳯州卒其父洵尝为狱吏每阖户黙思为囚平反四十年如一日以琏贵累封朝奉大夫卒年八十六人以为隂徳之报"
+      },
+      {
+        "per_id": "PER-16013-64",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "高允文",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "",
+        "summary": "贵池人为清流主簿会里人张琏尝忤蔡京卒于客邸京欲检视之允文力为保免京召谓曰君高节尚义当加旌赏授定边军教授实黜之也后以汀州守罢归家甚贫静守无营时称长者"
+      },
+      {
+        "per_id": "PER-16013-65",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李植",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "建徳人",
+        "office": "湖北转运判",
+        "summary": "建徳人歴官至湖北转运判官入为尚书度支郎官坐善元祐党摈不尽用"
+      },
+      {
+        "per_id": "PER-16013-66",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "王镃",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "池州人",
+        "office": "",
+        "summary": "池州人为中书舍人兼侍讲未仕时旁郡从肄业者常数百人所着有紫薇集春秋门例通解戚里元易象寳鉴"
+      },
+      {
+        "per_id": "PER-16013-67",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "余起",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人一门义聚千三百余口子侄皆以科第显世以儒业传家"
+      },
+      {
+        "per_id": "PER-16013-68",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "叶楠",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "绩溪令",
+        "summary": "贵池人调鄱阳尉力请蠲租以救荒涝后为绩溪令邑人歌曰前有苏黄门后有叶令君所着有知非集精金训鉴童防记凡八十卷"
+      },
+      {
+        "per_id": "PER-16013-69",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "罗复",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人尝知胙城县值靖康乱率吏民御敌至伤肌体终不去职朝廷以忠义褒之"
+      },
+      {
+        "per_id": "PER-16013-70",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "钟镗",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "汀洲守",
+        "summary": "铜陵人其家十一世同居镗幼开悟如成人后官至汀洲守宦游五十余年卒无赢资"
+      },
+      {
+        "per_id": "PER-16013-71",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "汪与成",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人一家百八十口尽毙于建炎之难独遗与成后三年改葬其父念母骸骨不存刻木削形侍养十年而后附葬哀动邻里邑令林桷以诗美之曰事死如生有至难古来不独数丁兰"
+      },
+      {
+        "per_id": "PER-16013-72",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "阮钟儁",
+        "type": "人物",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "时所称仕终秘书郎",
+        "summary": "铜陵人十一世同居朝廷嘉之钟儁天性纯厚为时所称仕终秘书郎"
+      },
+      {
+        "per_id": "PER-16013-73",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "翥",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人笃志好学杜门读书家人妇子非时不见时号闭门先生"
+      },
+      {
+        "per_id": "PER-16013-74",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "丁黼",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "石埭人",
+        "office": "提点刑狱改除秘阁知",
+        "summary": "石埭人真徳秀尝荐于朝为提点刑狱改除秘阁知夔州路安抚疏当世急务十条奏之后知成都死节諡恭愍所着有涎溪集六经辨证疑问诸史精考"
+      },
+      {
+        "per_id": "PER-16013-75",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "方时发",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "纲之后十一世同居至时发克世其家以孝义旌之后起为潮徽二州教授"
+      },
+      {
+        "per_id": "PER-16013-76",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "清隠",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人累举不中汗漫江湖尝集杜甫诗句为鳯髓集又有九华诗集"
+      },
+      {
+        "per_id": "PER-16013-77",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "杨少愚",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人少好学博通羣书所着有孝经衍孝编秋浦集九华外史"
+      },
+      {
+        "per_id": "PER-16013-78",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "陶起祖",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "同知",
+        "summary": "铜陵人兵兴尝募集义兵扶植良善后官至同知为赵军所执仗义而死"
+      },
+      {
+        "per_id": "PER-16013-79",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "潘伯庸",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人洪武初由国子生任浙江道御史学识宏逺状貌魁梧有风裁戅直不避上每嘉之累陞河南广东山西按察使乡人称为池阳杰者祀乡贤祠刘时敏诗大鼎初新选重臣持风秉自丹宸万方玉帛今洪武一徳赓歌起戊申檀氏曙星劳上问衡州玉树絶才伦云龙风虎真知遇池考看君第一人"
+      },
+      {
+        "per_id": "PER-16013-80",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄观",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "礼部右侍郎",
+        "summary": "贵池人初从舅氏许姓后复黄姓洪武辛未进士防殿试皆第一官至礼部右侍郎嵗壬午靖难师起募兵上游次李阳河闻事定具衣冠号泣北向自沉于罗刹矶妻雍夫人暨二女家属十余人尽死畿志"
+      },
+      {
+        "per_id": "PER-16013-81",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "柯暹",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "建徳人",
+        "office": "",
+        "summary": "建徳人由举人预修永乐大典擢户科给事中尝疏时政缺失忤防繋狱三载屏其食不死出知交阯驩州改知永新吉水政声歘着九载特陞云南浙江按察使畿志"
+      },
+      {
+        "per_id": "PER-16013-82",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "胡本惠",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "户部主事陞南昌知",
+        "summary": "铜陵人由举人任户部主事陞南昌知府多徳政迁河南右布政使陞都察院右副都御史有徳量时称长者享年八十九卒赐祭葬畿志"
+      },
+      {
+        "per_id": "PER-16013-83",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "孙仁",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "户部左侍郎",
+        "summary": "贵池人由进士任户工二部主事累官户部左侍郎平生方正清白嚢箧萧然卒年七十赐祭葬焉畿志"
+      },
+      {
+        "per_id": "PER-16013-84",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "轾",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人由进士任刑部主事陞福建按察司佥事持宪严明讨贼遒卒衬归唯图书数卷耳畿志"
+      },
+      {
+        "per_id": "PER-16013-85",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李廷章",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "石埭人",
+        "office": "云南按察司副使",
+        "summary": "石埭人初授南京刑部主事歴官至云南按察司副使恩威兼至畨夷信服不烦兵刃而擒土官元恶疏边务六事多所施行寻以疾恳乞休致家居杜门自守畿志"
+      },
+      {
+        "per_id": "PER-16013-86",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "张廷瑞",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "龙泉知",
+        "summary": "贵池人举乡贡任龙泉知县有惠政民庙祀之擢御史清理屯田革宦官宿弊屯军称便累上封事有声宪台畿志"
+      },
+      {
+        "per_id": "PER-16013-87",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "许潜",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "",
+        "summary": "贵池人由进士授行人转御史刚正不阿犯顔直諌尝监内币权宦畏避凡朝政人所不敢言者潜独言之于利害无所计畿志"
+      },
+      {
+        "per_id": "PER-16013-88",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李嘉祥",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "贵池人",
+        "office": "法年二十四进士第知",
+        "summary": "贵池人幼读小学书便知以古人为法年二十四进士第知开州首兴学以励俗作保甲之法兴民食之利筑城凿池以防民害开人至今祀之擢南京户部员外郎卒畿志"
+      },
+      {
+        "per_id": "PER-16013-89",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "潘大承",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "给族党亲旧乡人",
+        "office": "",
+        "summary": "伯庸孙嘉靖中以贡授保昌知县性直度伟守官亷慈郤常例千余金民颂其徳政后致仕家居捐禄俸给族党亲旧乡人义之日以诗书自娱训迪诸子年逾八十手不停披累賔乡饮士论称嘉云邑志"
+      },
+      {
+        "per_id": "PER-16013-90",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "孝娥",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "出炉上乃知乡人",
+        "office": "",
+        "summary": "吴大帝时娥父为铁官冶铸不流娥忧父刑遂投炉中鐡乃镕注见履出炉上乃知乡人诧之为立仙姑庙以祀畿志"
+      },
+      {
+        "per_id": "PER-16013-91",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "阮氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "铜陵人",
+        "office": "",
+        "summary": "铜陵人赵仲成妻同邑人姚添麟妻潘氏洪武中俱以守节旌表畿志"
+      },
+      {
+        "per_id": "PER-16013-92",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄夫人雍氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "贵池人",
+        "office": "",
+        "summary": "贵池人侍中观之妻也与二女同死于节畿志"
+      },
+      {
+        "per_id": "PER-16013-93",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "何氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人年十八适陈防防登永乐中进士差湖广公务卒于道何守节终身事闻旌表其门畿志"
+      },
+      {
+        "per_id": "PER-16013-94",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "石埭人",
+        "office": "",
+        "summary": "石埭人桂智妻夫亡子幼舅姑欲嫁之乃断发截耳守节不渝成化九年旌表畿志"
+      },
+      {
+        "per_id": "PER-16013-95",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "建徳人",
+        "office": "",
+        "summary": "建徳人相延芗妻年二十二夫亡无子守节终身治初旌表畿志"
+      },
+      {
+        "per_id": "PER-16013-96",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "苏珣妻曹氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "石埭人",
+        "office": "",
+        "summary": "石埭人年十九归珣甫八月夫亡守节事闻旌表畿志"
+      },
+      {
+        "per_id": "PER-16013-97",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "氏",
+        "type": "列女",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "青阳人",
+        "office": "",
+        "summary": "青阳人陈迳妻夫亡守节终其身正徳中旌表畿志"
+      },
+      {
+        "per_id": "PER-16013-98",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "何文宇妻",
+        "type": "列女",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "江氏青阳人",
+        "office": "",
+        "summary": "江氏青阳人年二十有七无子夫病革谓江曰愿适人乎愿事吾父母乎"
+      },
+      {
+        "per_id": "PER-16013-99",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "张先生",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "池州人",
+        "office": "",
+        "summary": "池州人少遇异人既得道结庐齐山中常黙不语士大夫问之直视不对终日端坐庐下三十年神观超然毛发润肌理如玉雪宋徽宗正和间尸解而去"
+      },
+      {
+        "per_id": "PER-16013-100",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "赵自然",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "居铜陵县陶村耆种杏炼丹宋太平兴国中一夕梦真君授以篆法遂能篆又梦与以柏枝遂不食雍熙中召至阙下赐观于太平州繁昌县之鳯凰山"
+      },
+      {
+        "per_id": "PER-16013-101",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "金地藏",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "白土杂饭食之人",
+        "office": "",
+        "summary": "新罗国僧唐至徳间渡海居青阳九华山尝以岩间白土杂饭食之人以为异年九十九忽召徒众告别但闻山鸣石陨俄分趺坐于函中洎三稔开将入塔顔貌如生舁之动骨节若憾金锁马"
+      },
+      {
+        "per_id": "PER-16013-102",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "懐义",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "本永嘉陈氏子得法于雪窦住景徳禅寺有百问盛行于世丛林谓之池阳百问"
+      },
+      {
+        "per_id": "PER-16013-103",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "妙空",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "名守讷嗣法于雪峰卯一斋住嘉祐禅院江南李氏三诏不起王继勲诗白面山南灵庆院卯斋道者雪峰禅"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-16013-01",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "景徳寺",
+        "type": "temple",
+        "location_text": "在府治北",
+        "history_lore": "在府治北旧名祝圣唐贞观间建宋景徳初赐额"
+      },
+      {
+        "site_id": "SITE-16013-02",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "妙音寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在青阳县治东北唐建"
+      },
+      {
+        "site_id": "SITE-16013-03",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "开福寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在石埭县西二里唐建巳上二寺宋太平兴国间赐额"
+      },
+      {
+        "site_id": "SITE-16013-04",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "永乐寺",
+        "type": "temple",
+        "location_text": "在建徳县东南",
+        "history_lore": "在建徳县东南二里唐建"
+      },
+      {
+        "site_id": "SITE-16013-05",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "崇福寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在铜陵县治西宋淳熙间建"
+      },
+      {
+        "site_id": "SITE-16013-06",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "民化寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在东流县治西宋景定初建巳上六寺俱本朝洪武间重修"
+      },
+      {
+        "site_id": "SITE-16013-07",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "妙观",
+        "type": "temple",
+        "location_text": "在府治北",
+        "history_lore": "在府治北旧名天庆观宋大中祥符初建本朝永乐初重建"
+      },
+      {
+        "site_id": "SITE-16013-08",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "恊济祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在九华山东西凡二所旧传二神姓曽三国时人兄弟避兵于此既殁有御灾捍患功遂立庙宋大观间赐额至今祈祷屡应"
+      },
+      {
+        "site_id": "SITE-16013-09",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "许旌阳祠",
+        "type": "shrine",
+        "location_text": "在建徳县北",
+        "history_lore": "在建徳县北六里石印洞山上相传晋旌阳令许逊尝逐蛟至此后因立庙"
+      },
+      {
+        "site_id": "SITE-16013-10",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "西祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在府城西五里祀梁昭明太子旧祠在秀山唐永泰初始祀于此宋赐额曰文孝又封英济忠显灵佑王今仍曰梁昭明太子之神以中秋日有司致祭"
+      },
+      {
+        "site_id": "SITE-16013-11",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李白祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "旧在铜陵县五松山后移置县学之侧"
+      },
+      {
+        "site_id": "SITE-16013-12",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "许侯祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在青阳县西宋县令许介有善政邑人思之绘像祀焉"
+      },
+      {
+        "site_id": "SITE-16013-13",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "文节祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在贵池县治西祀宋通判赵昴发元兵攻城昴发与妻雍氏死节元将伯顔见而叹息以礼合焉事闻赠待制諡文节雍赠顺义夫人有司嵗以三月望日致祭嘉靖初知府田赋以邑黄观妻女同死忠事亦类乃立双忠六烈祠祀赵黄于正堂祀二家妻女于后寝"
+      },
+      {
+        "site_id": "SITE-16013-14",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "高获庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在府城西七十里获汉人与光武有旧尝举孝防后遁居江南有墓与庙相近"
+      },
+      {
+        "site_id": "SITE-16013-15",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "孝娥庙",
+        "type": "shrine",
+        "location_text": "在府城东北",
+        "history_lore": "在府城东北四十里吴大帝时娥父为铁官冶铁不流娥忧父刑遂投鑪中鐡乃涌溢流注娥所蹑履浮于鑪时人号曰圣姑为立庙"
+      },
+      {
+        "site_id": "SITE-16013-16",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "叶真人庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在叶山下唐方士叶静字法善尝隠此山后人为立庙"
+      },
+      {
+        "site_id": "SITE-16013-17",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "褒忠庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在石埭县祀宋制置使丁黼黼知成都与敌战死之嘉熙间其子镕请立庙于此有墓在北防山下"
+      },
+      {
+        "site_id": "SITE-16013-18",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "昭明太子墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在秀山上太子姓萧名统梁武帝子也"
+      },
+      {
+        "site_id": "SITE-16013-19",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "宋齐邱墓",
+        "type": "tomb",
+        "location_text": "在青阳县东南",
+        "history_lore": "在青阳县东南七里齐邱南唐末退居于此"
+      },
+      {
+        "site_id": "SITE-16013-20",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "滕子京墓",
+        "type": "tomb",
+        "location_text": "在青阳县东北",
+        "history_lore": "在青阳县东北五里金原子京宋人墓有神道碑"
+      },
+      {
+        "site_id": "SITE-16013-21",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "虎林城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在府城东二十五里吴孙权封子休为琅琊王镇虎林城即此"
+      },
+      {
+        "site_id": "SITE-16013-22",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "南太原郡城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在府城西九十里梁大同间置隋废又有太原城在建徳县"
+      },
+      {
+        "site_id": "SITE-16013-23",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "故猷州城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在石埭县延袤数百丈相传猷州总管左难当尝守其地"
+      },
+      {
+        "site_id": "SITE-16013-24",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "胡城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在铜陵县东六十里相传有神号胡王者一夕垒土而成凡八所相去二里许不相聨属遗址尚存"
+      },
+      {
+        "site_id": "SITE-16013-25",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "废临城县",
+        "type": "historic_site",
+        "location_text": "在府城北",
+        "history_lore": "在府城北吴赤乌中置隋废"
+      },
+      {
+        "site_id": "SITE-16013-26",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "黄屯",
+        "type": "historic_site",
+        "location_text": "在府城东南",
+        "history_lore": "在府城东南五十里唐干符中黄巢屯兵于此稍东二里有石冈名鐡券山相传唐赐巢铁劵处"
+      },
+      {
+        "site_id": "SITE-16013-27",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "桃源",
+        "type": "historic_site",
+        "location_text": "在建徳县南",
+        "history_lore": "在建徳县南四十里山源深邃人迹罕至五季之乱衣冠士族避兵于此皆获免焉"
+      },
+      {
+        "site_id": "SITE-16013-28",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "池州府学",
+        "type": "school",
+        "location_text": "在府城东南",
+        "history_lore": "在府城东南隅宋开寳间建于城之西北至和间始移建于此本朝洪武元年重建景泰三年重修"
+      },
+      {
+        "site_id": "SITE-16013-29",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "贵池县学",
+        "type": "school",
+        "location_text": "在县治西南",
+        "history_lore": "在县治西南旧在县治东洪武三年建治间迁于黄状元故宅即今地"
+      },
+      {
+        "site_id": "SITE-16013-30",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "青阳县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治东洪武七年建正统四年修成化间重建"
+      },
+      {
+        "site_id": "SITE-16013-31",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "铜陵县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治西宋淳熙间自县治东移建于北本朝洪武间重建正徳间复迁于旧址"
+      },
+      {
+        "site_id": "SITE-16013-32",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "石埭县学",
+        "type": "school",
+        "location_text": "在县治南",
+        "history_lore": "在县治南洪武初建正统八年重修"
+      },
+      {
+        "site_id": "SITE-16013-33",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "建徳县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治西宋嘉定间自县治东移建于此本朝洪武三年重建十六年重修"
+      },
+      {
+        "site_id": "SITE-16013-34",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "东流县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治东洪武元年建成化间重建"
+      },
+      {
+        "site_id": "SITE-16013-35",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "齐山书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "在府城西六十里元建设山长职教授"
+      },
+      {
+        "site_id": "SITE-16013-36",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李白书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "有四一在贵池县华竹岭一在青阳县九华山化成寺西断碑存焉一在铜陵县五松山一在石埭县杉山"
+      },
+      {
+        "site_id": "SITE-16013-37",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "阳明书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "在化成寺西为新建伯王守仁建邹守益记"
+      },
+      {
+        "site_id": "SITE-16013-38",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "甘泉书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "在成化寺东为礼部尚书湛若水建吕柟记"
+      },
+      {
+        "site_id": "SITE-16013-39",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "萧相楼",
+        "type": "palace",
+        "location_text": "在府城东南",
+        "history_lore": "在府城东南隅唐大歴间刺史萧复建复有惠政民追思之因以名楼宋苏辙诗楼成始觉江山秀人去方知徳业尊"
+      },
+      {
+        "site_id": "SITE-16013-40",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "九华楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城九华门上或云即九峯楼也唐建齐山横陈九华遥耸霜降水涸溪流如带萦回曲折胜槩溢日宋陈舜俞诗只因山色好来上九华楼"
+      },
+      {
+        "site_id": "SITE-16013-41",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "秋浦楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府东城上宋绍定间郡守赵苑因旧址增筑石刻东坡词山谷字于壁"
+      },
+      {
+        "site_id": "SITE-16013-42",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "文选阁",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城西五里以梁昭明太子祠在焉池人因建此阁"
+      },
+      {
+        "site_id": "SITE-16013-43",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "李白书堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在五松山唐李白来游乐其山水之胜建堂读书于此"
+      },
+      {
+        "site_id": "SITE-16013-44",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "荆公书堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在叶山灵窦泉侧荆公宋王安石也微时与汪澥王叔才建堂讲论道艺"
+      },
+      {
+        "site_id": "SITE-16013-45",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "中和堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治小防后宋建盛约有记"
+      },
+      {
+        "site_id": "SITE-16013-46",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "思政堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在中和堂后宋建曽巩有记"
+      },
+      {
+        "site_id": "SITE-16013-47",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "从容堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治内宋通判赵昴发建尝领客至堂中曰古人谓从容就义难此殆其兆也后竟死于此"
+      },
+      {
+        "site_id": "SITE-16013-48",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "弄水亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城通逺门外唐杜牧建取李白饮弄水中月之句为名宋陈舜俞诗未识贵池好尝闻弄水名白鸟鉴中立画船天上行"
+      },
+      {
+        "site_id": "SITE-16013-49",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "翠微亭",
+        "type": "palace",
+        "location_text": "在府城南",
+        "history_lore": "在府城南齐山之颠唐建俯瞰清溪高爽可爱宋郭祥正诗半空翠微亭玩月动经宿更待雨中来林林防银竹岳飞诗经年尘土满征衣特特寻芳上翠微好水好山防未足马蹄催趂月明归"
+      },
+      {
+        "site_id": "SITE-16013-50",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "富览亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在铜陵县治后宋县令张孝章建孝章诗碧瓦朱甍接翠崖周回无地着纎埃山从云脚断边出水向天根尽处来"
+      },
+      {
+        "site_id": "SITE-16013-51",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "朝峯亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在建徳县治后山之顶与玉峯相对宋县令梅尧臣建尧臣诗结茅在云端下连公居静林表明溪湖中俯闾井此趣还自知寜须享三鼎"
+      },
+      {
+        "site_id": "SITE-16013-52",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "望仙亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在陵阳山中峯之半相传汉窦子明升仙之地后有唐天寳间所建仙坛宫"
+      },
+      {
+        "site_id": "SITE-16013-53",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "丹台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在陵阳山中峯之半平夷可容数人相传窦子明尝链丹其上"
+      },
+      {
+        "site_id": "SITE-16013-54",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "昭明钓台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城西六十里和龙山下有玉镜潭梁昭明太子尝垂钓于此又府城北濒江亦有此台"
+      },
+      {
+        "site_id": "SITE-16013-55",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "洁已台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在石埭县泮宫前取澡雪去垢之义"
+      },
+      {
+        "site_id": "SITE-16013-56",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "通逺桥",
+        "type": "bridge_pass",
+        "location_text": "在府治南",
+        "history_lore": "在府治南跨清溪旧名清溪桥"
+      },
+      {
+        "site_id": "SITE-16013-57",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "圣母桥",
+        "type": "bridge_pass",
+        "location_text": "",
+        "history_lore": "在府城西四里通西祠大路"
+      },
+      {
+        "site_id": "SITE-16013-58",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "五溪桥",
+        "type": "bridge_pass",
+        "location_text": "",
+        "history_lore": "在青阳县跨五溪水"
+      },
+      {
+        "site_id": "SITE-16013-59",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "栖鳯桥",
+        "type": "bridge_pass",
+        "location_text": "",
+        "history_lore": "在铜陵县东一十五里达临津驿"
+      },
+      {
+        "site_id": "SITE-16013-60",
+        "item_id": "16-013",
+        "geo_id": "GEO-16013",
+        "name": "惠政桥",
+        "type": "bridge_pass",
+        "location_text": "",
+        "history_lore": "在石埭县治东"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-16013-001",
+        "item_id": "16-013",
+        "cited_work": "元史",
+        "cited_work_ent_id": null,
+        "context": "叛城不可降夫妇同死节义成双遂俱缢死】元史午【青阳尹旌表节义以励风俗】王晋卿【",
+        "original": ""
+      }
+    ]
+  },
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "sections_found": 19,
+  "layer_count": 7
+}

@@ -1,0 +1,442 @@
+{
+  "item_id": "21-002",
+  "volume": "21",
+  "source": "潞安府",
+  "region": "山西",
+  "type": "prefecture",
+  "original": "潞安府【东至河南彰德府林县界一百七十里西至平阳府岳阳县界一百五十里南至泽州髙平县界七十五里北至辽州界二百里自府治至京师一千三百里至南京二千二百六十里】【粮二十万三千八百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-21101",
+        "name": "潞安府",
+        "type": "geo",
+        "norm": "潞安府",
+        "first_source": "21-002"
+      },
+      {
+        "ent_id": "ENT-21102",
+        "name": "上党郡",
+        "type": "geo",
+        "norm": "上党郡",
+        "first_source": "21-002"
+      },
+      {
+        "ent_id": "ENT-21103",
+        "name": "发鸠山",
+        "type": "mtn",
+        "norm": "发鸠山",
+        "first_source": "21-002"
+      },
+      {
+        "ent_id": "ENT-21104",
+        "name": "丹朱",
+        "type": "person",
+        "norm": "丹朱",
+        "first_source": "21-002"
+      },
+      {
+        "ent_id": "ENT-21105",
+        "name": "冯奉世",
+        "type": "person",
+        "norm": "冯奉世",
+        "first_source": "21-002"
+      },
+      {
+        "ent_id": "ENT-21106",
+        "name": "长平关",
+        "type": "site",
+        "norm": "长平关",
+        "first_source": "21-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-21101",
+        "item_id": "21-002",
+        "name": "潞安府",
+        "type": "prefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷21",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "河南彰德府林县界",
+              "distance_li": 170
+            },
+            {
+              "direction": "西",
+              "to_place": "平阳府岳阳县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "南",
+              "to_place": "泽州高平县界",
+              "distance_li": 75
+            },
+            {
+              "direction": "北",
+              "to_place": "辽州界",
+              "distance_li": 200
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1300
+            },
+            {
+              "capital": "南京",
+              "distance_li": 2260
+            }
+          ],
+          "households": {
+            "count": 0,
+            "unit": "里",
+            "note": "领县八，编户散见各州县"
+          },
+          "grain_tax": {
+            "amount": 203800,
+            "unit": "石",
+            "note": "粮二十万三千八百石零"
+          },
+          "jun_name": "上党/昭义/隆德",
+          "topography": "居天下之脊当河朔之喉【唐文粹】肘京洛而履蒲津倚太原而跨河朔【唐杜牧贺平泽潞启】河东雄胜之地【元潞州公廨记】",
+          "customs": "民俗醇古【郡志】民多俭质而力农，士尚气节而务学【同上】",
+          "garrisons": [
+            {
+              "name": "潞州卫",
+              "type": "卫",
+              "location_text": "在府治南洪武元年建"
+            },
+            {
+              "name": "沈阳中护卫",
+              "type": "卫",
+              "location_text": "在府城内永乐七年为沈府置"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "沈王府",
+              "location_text": "在府治东永乐六年建"
+            },
+            {
+              "name": "陵川王府",
+              "location_text": "在府城内"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-21101",
+          "CIT-21102",
+          "CIT-21103"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-21101",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "商",
+        "era": null,
+        "institution_name": "黎国/潞子国",
+        "action": "因之",
+        "detail": "禹贡冀州之域，商时为黎国，后为赤狄潞子国，晋灭之"
+      },
+      {
+        "evo_id": "EVO-21102",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "上党郡",
+        "action": "置郡",
+        "detail": "秦置上党郡，治长子；晋徙治潞县"
+      },
+      {
+        "evo_id": "EVO-21103",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "后周",
+        "era": null,
+        "institution_name": "潞州",
+        "action": "置",
+        "detail": "后周始置潞州，领上党襄垣二郡"
+      },
+      {
+        "evo_id": "EVO-21104",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "上党郡",
+        "action": "改",
+        "detail": "隋初郡废，大业初改州为上党郡，并置上党县"
+      },
+      {
+        "evo_id": "EVO-21105",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "潞州/昭义军",
+        "action": "复",
+        "detail": "唐复为潞州，天宝初改上党郡，乾元初复为潞州，后置昭义军节度"
+      },
+      {
+        "evo_id": "EVO-21106",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "隆德府",
+        "action": "升",
+        "detail": "五代梁改匡义军，唐改安义军，晋复昭义军；宋改昭德军，后升为隆德府"
+      },
+      {
+        "evo_id": "EVO-21107",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "潞州",
+        "action": "改",
+        "detail": "金复为潞州；元初为隆德府，寻复为潞州，属平阳路"
+      },
+      {
+        "evo_id": "EVO-21108",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "dynasty": "明",
+        "era": "嘉靖",
+        "institution_name": "潞安府",
+        "action": "升",
+        "detail": "本朝以上党县省入，洪武九年直隶山西布政司，嘉靖中升为潞安府，领县八"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-21101",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "壶关山",
+        "type": "山",
+        "location_text": "在府城东北一十三里",
+        "description": "山形似壶，汉于此置关",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21102",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "五龙山",
+        "type": "山",
+        "location_text": "在府城东南二十五里",
+        "description": "十六国春秋慕容永时有五色云见于此",
+        "lore": "因置祠以祭五方之神"
+      },
+      {
+        "mtn_id": "MTN-21103",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "发鸠山",
+        "type": "山",
+        "location_text": "在长子县西五十里",
+        "description": "山海经发鸠多怪木，有鸟名精卫",
+        "lore": "相传炎帝小女游于海溺而不返，化为此鸟，尝取西山木石以堙东海"
+      },
+      {
+        "mtn_id": "MTN-21104",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "紫团山",
+        "type": "山",
+        "location_text": "在壶关县东南一百六十里",
+        "description": "昔有紫气见山顶团团如盖",
+        "lore": "山出人参，名紫团参"
+      },
+      {
+        "mtn_id": "MTN-21105",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "浊漳水",
+        "type": "河",
+        "location_text": "在府城西南二十里",
+        "description": "源出长子县西发鸠山，东北流至州境，经襄垣黎城与清漳水合",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-21101",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "冯亭",
+        "type": "名宦",
+        "dynasty": "战国",
+        "native_place": "",
+        "office": "韩上党守",
+        "summary": "秦白起伐韩拔野王，上党路绝；亭与其民谋归赵，卒降赵"
+      },
+      {
+        "per_id": "PER-21102",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "姚崇",
+        "type": "名宦",
+        "dynasty": "唐",
+        "native_place": "",
+        "office": "潞州刺史",
+        "summary": "以德兴民，风俗醇厚"
+      },
+      {
+        "per_id": "PER-21103",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "豫让",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "上党",
+        "office": "",
+        "summary": "初仕晋大夫智伯，智伯为赵襄子所灭，为之报仇；变姓名为刑人，挟匕首欲刺襄子不果；又漆身为癞吞炭为哑，伏于桥下，为襄子所获，请襄子衣拔剑三跃而击之，乃伏剑而死"
+      },
+      {
+        "per_id": "PER-21104",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "冯奉世",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "上党潞",
+        "office": "右将军/关内侯",
+        "summary": "初学春秋涉大义，善兵法；前将军韩增奏举以卫侯使持节进击莎车，威振西域，累迁右将军赐爵关内侯"
+      },
+      {
+        "per_id": "PER-21105",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "苗晋卿",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "壶关",
+        "office": "左相",
+        "summary": "以儒素称，举进士，累官吏部选事；后为魏郡太守，政化大行；肃宗时拜左相，卒谥懿献"
+      },
+      {
+        "per_id": "PER-21106",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "杜斅",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "壶关",
+        "office": "四辅官兼太子宾客",
+        "summary": "勤慎力学，精通易书诗三经；洪武间征起为四辅官兼太子宾客，后以疾卒"
+      },
+      {
+        "per_id": "PER-21107",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "王真",
+        "type": "仙释",
+        "dynasty": "南北朝",
+        "native_place": "上党",
+        "office": "郡史",
+        "summary": "孝武帝时为郡史，年百岁面有光泽；魏王所纪方士传云玉真履冰赴火，出入不由户，深有道术"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-21101",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "潞安府学",
+        "type": "学校",
+        "location_text": "在府治南",
+        "history_lore": "本旧州学，本朝嘉靖中改府学"
+      },
+      {
+        "site_id": "SITE-21102",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "能仁寺",
+        "type": "寺观",
+        "location_text": "在长子县治西",
+        "history_lore": "宋建"
+      },
+      {
+        "site_id": "SITE-21103",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "丹朱城",
+        "type": "古迹",
+        "location_text": "在长子县治西",
+        "history_lore": "唐十道图尧长子丹朱所筑，古长子县治此"
+      },
+      {
+        "site_id": "SITE-21104",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "黎侯城",
+        "type": "古迹",
+        "location_text": "在黎城县东北一十八里",
+        "history_lore": "春秋晋荀林父灭潞立黎侯而还即此"
+      },
+      {
+        "site_id": "SITE-21105",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "长平关",
+        "type": "关梁",
+        "location_text": "在长子县南四十里",
+        "history_lore": "即秦白起坑赵卒四十万处"
+      },
+      {
+        "site_id": "SITE-21106",
+        "item_id": "21-002",
+        "geo_id": "GEO-21101",
+        "name": "沈简王墓",
+        "type": "陵墓",
+        "location_text": "在府城西南三十里凤凰山",
+        "history_lore": "稷山悼靖王墓同地，俱本朝宗室"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-21101",
+        "item_id": "21-002",
+        "cited_work": "唐文粹",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【唐文粹】"
+      },
+      {
+        "cit_id": "CIT-21102",
+        "item_id": "21-002",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-21103",
+        "item_id": "21-002",
+        "cited_work": "省志",
+        "cited_work_ent_id": null,
+        "context": "人物",
+        "original": "【省志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空"
+  }
+}

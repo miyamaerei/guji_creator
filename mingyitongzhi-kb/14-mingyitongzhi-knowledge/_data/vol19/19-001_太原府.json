@@ -1,0 +1,516 @@
+{
+  "item_id": "19-001",
+  "volume": "19",
+  "source": "太原府",
+  "region": "山西",
+  "type": "prefecture",
+  "original": "太原府【东至直隶真定府井陉县界三百七十五里南至沁州武乡县界二百一十里西至陕西延安府吴堡县界五百五里北至大同府马邑县界三百五十五里自府治至京师一千二百里至南京二千四百里】【粮五十七万零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "太原府",
+        "type": "geo",
+        "norm": "太原府",
+        "first_source": "19-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "阳曲县",
+        "type": "geo",
+        "norm": "阳曲县",
+        "first_source": "19-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "悬瓮山",
+        "type": "mtn",
+        "norm": "悬瓮山",
+        "first_source": "19-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "通典",
+        "type": "book",
+        "norm": "通典",
+        "first_source": "19-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "狄仁杰",
+        "type": "person",
+        "norm": "狄仁杰",
+        "first_source": "19-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "晋祠",
+        "type": "site",
+        "norm": "晋祠",
+        "first_source": "19-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-19001",
+        "item_id": "19-001",
+        "name": "太原府",
+        "type": "prefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷19",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "真定府井陉县界",
+              "distance_li": 375
+            },
+            {
+              "direction": "南",
+              "to_place": "沁州武乡县界",
+              "distance_li": 210
+            },
+            {
+              "direction": "西",
+              "to_place": "陕西延安府吴堡县界",
+              "distance_li": 505
+            },
+            {
+              "direction": "北",
+              "to_place": "大同府马邑县界",
+              "distance_li": 355
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1200
+            },
+            {
+              "capital": "南京",
+              "distance_li": 2400
+            }
+          ],
+          "households": {
+            "count": 0,
+            "unit": "里",
+            "note": "领州六县二十二"
+          },
+          "grain_tax": {
+            "amount": 570000,
+            "unit": "石",
+            "note": "粮五十七万零"
+          },
+          "jun_name": "晋阳(古名)/太原(秦名)/冀宁(元名)",
+          "topography": "左有恒山之险右有大河之固【魏牵招说高干】句注险阻【晋句注碑】灵山角立【唐柳宗元送文畅登五台序】襟四塞控五原【唐李白饯王赞序】还绕一郡之内得沾水之胜【平定州志】南有石岭之关北有云内之塞【忻州志】",
+          "customs": "好乐无荒【诗唐风】文字盛兴【通典山西土瘠其人勤俭魏晋以降文字盛兴】忧深思远【诗集注】淳俭好学【太原图册】人物辈出【太原图经】民风清简【元志】民性质朴【忻州志】",
+          "garrisons": [
+            {
+              "name": "太原左卫",
+              "type": "卫",
+              "location_text": "在府城内西南洪武三年建"
+            },
+            {
+              "name": "太原右卫",
+              "type": "卫",
+              "location_text": "在府城内东南洪武三年建"
+            },
+            {
+              "name": "太原前卫",
+              "type": "卫",
+              "location_text": "在府城西南洪武三年建"
+            },
+            {
+              "name": "振武卫",
+              "type": "卫",
+              "location_text": "在代州城内东南洪武二十三年建"
+            },
+            {
+              "name": "镇西卫",
+              "type": "卫",
+              "location_text": "在岢岚州城内之西洪武七年建"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "晋王府",
+              "location_text": "在府城内之东洪武九年建"
+            },
+            {
+              "name": "庆成王府",
+              "location_text": "在府城内东南永乐三年建"
+            },
+            {
+              "name": "宁化王府",
+              "location_text": "在府城内东南永乐七年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "太原郡",
+        "action": "置",
+        "detail": "秦置太原郡治晋阳"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "并州",
+        "action": "置",
+        "detail": "汉兼置并州，东汉末省并入冀"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "太原郡",
+        "action": "改",
+        "detail": "隋初郡废，大业初罢州为太原郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "dynasty": "唐",
+        "era": "开元",
+        "institution_name": "太原府",
+        "action": "升",
+        "detail": "唐为并州，后置大都督府，开元中改并州为太原府，天宝初加号北京"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "dynasty": "元",
+        "era": "大德",
+        "institution_name": "冀宁路",
+        "action": "改",
+        "detail": "元改置太原路，大德中改冀宁路"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "太原府",
+        "action": "因之",
+        "detail": "本朝仍为太原府，领州六县二十二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "悬瓮山",
+        "type": "山",
+        "location_text": "在太原县西一十里",
+        "description": "一名龙山又名结绌山，晋水所出，因山腹有巨石如瓮故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "系舟山",
+        "type": "山",
+        "location_text": "在府城东北九十里",
+        "description": "禹治水系舟此山故名，有石如环轴曰系舟嵬，金元好问父德明读书其下，赵秉文改曰读书山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "五台山",
+        "type": "山",
+        "location_text": "在五台县东北一百四十里",
+        "description": "环五百余里，五峰高出云表，顶皆积土因谓之台，世传文殊师利所居之地曰清凉山即此，寺宇壮丽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "句注山",
+        "type": "山",
+        "location_text": "在代州西二十五里",
+        "description": "上有太和岩，一名西陉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "黄河",
+        "type": "河",
+        "location_text": "西北自大同府界流经保德岢岚州兴县西南入平阳府石楼县界",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "汾河",
+        "type": "河",
+        "location_text": "在府城西二里",
+        "description": "西北出静乐县管涔山，经太原清源交城文水祁县至平遥介休南入平阳府灵石县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "滹沱河",
+        "type": "河",
+        "location_text": "源出繁峙县秦戏山",
+        "description": "历代州崞县忻州定襄五台盂县入真定府平山县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "晋水",
+        "type": "水",
+        "location_text": "出太原县西南一十里悬瓮山",
+        "description": "流分三派，其北一派即智伯渠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "天池",
+        "type": "湖",
+        "location_text": "在静乐县东北一百四十里",
+        "description": "燕京山俗名祁连泊，池潜通桑干水，阳旱不涸，阴霖不滥，傍有天池祠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "雁门关",
+        "type": "关",
+        "location_text": "在代州北三十里",
+        "description": "雁出其门故名，一名雁门塞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "井陉关",
+        "type": "关",
+        "location_text": "在平定州东九十里",
+        "description": "汉韩信击赵东下井陉即此，今有巡检司",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "偏头关",
+        "type": "关",
+        "location_text": "在河曲县北一百一十里",
+        "description": "镇西卫守备",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "狄仁杰",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "太原",
+        "office": "地官侍郎同平章事/梁国公",
+        "summary": "举明经，登太行山见白云孤飞曰吾亲舍其下，后委曲请武后还政中宗，封梁国公"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "元好问",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "秀容",
+        "office": "行尚书省左司员外郎",
+        "summary": "七岁能诗，淹贯经史百家，金亡不仕，为文备众体蔚为一代宗工，著有中州集"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "于谦",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "钱塘",
+        "office": "兵部侍郎巡抚山西",
+        "summary": "正统间以兵部侍郎巡抚山西，抚循有道，民思慕之"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "狐突",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "晋",
+        "office": "晋大夫",
+        "summary": "怀公时其子毛及偃从重耳在秦，公执突使召之，突曰子之能仕父教之忠，遂就死"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "程婴",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "晋",
+        "office": "",
+        "summary": "赵朔客，屠岸贾诛朔，婴与公孙杵臼谋存赵孤，抱真孤匿山中十五年，后攻岸贾灭之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "晋祠",
+        "type": "祠庙",
+        "location_text": "在太原县治西南",
+        "history_lore": "祠周唐叔虞，中有晋源神庙，宋赐额惠远"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "太原府学",
+        "type": "学校",
+        "location_text": "在府城内西北",
+        "history_lore": "元初建，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "崇善寺",
+        "type": "寺观",
+        "location_text": "在府城内东南",
+        "history_lore": "本朝洪武初建"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "显通寺",
+        "type": "寺观",
+        "location_text": "在五台山",
+        "history_lore": "本朝永乐初敕于旧灵鹫华严宝积寺旧基建"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "冠山书院",
+        "type": "书院",
+        "location_text": "在冠山",
+        "history_lore": "元左司郎中吕思诚父祖数世皆读书于此，后以宰相言赐额建于故宅，虞集作记"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "御井",
+        "type": "古迹",
+        "location_text": "在太原县西近晋祠",
+        "history_lore": "世传宋太祖下河东时尝饮马于此"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "赵武灵王庙",
+        "type": "祠庙",
+        "location_text": "在静乐县南三里东山下",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "19-001",
+        "geo_id": "GEO-001",
+        "name": "樊哙墓",
+        "type": "陵墓",
+        "location_text": "在代州东北二里",
+        "history_lore": "樊哙秦将"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "19-001",
+        "cited_work": "通典",
+        "cited_work_ent_id": "ENT-004",
+        "context": "证俗",
+        "original": "【通典山西土瘠其人勤俭魏晋以降文字盛兴】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "19-001",
+        "cited_work": "太原图册",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【太原图册士穷理学兼习辞章敦厚不华淳俭好学】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "19-001",
+        "cited_work": "太原图经",
+        "cited_work_ent_id": null,
+        "context": "考源",
+        "original": "【太原图经人物辈出代不乏人】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "19-001",
+        "cited_work": "平定州志",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【平定州志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级条目不做物产抽取，按 schema 第7节）"
+  }
+}

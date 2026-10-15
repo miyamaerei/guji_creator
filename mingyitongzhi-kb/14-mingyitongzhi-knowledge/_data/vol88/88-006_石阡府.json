@@ -1,0 +1,524 @@
+{
+  "item_id": "88-006",
+  "volume": "88",
+  "source": "石阡府",
+  "region": "贵州",
+  "type": "prefecture",
+  "original": "石阡府【东至铜仁府提溪长官司界一百八十里南至镇逺府镇逺金容金逹蛮夷长官司界一百七十里西至四川播州余庆长官司界一百六十里北至思南府水德江长官司界一百二十里自府治至南京四千里至京师七千七百六十里】【粮八百五十石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "石阡府",
+        "type": "geo",
+        "norm": "石阡府",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "石阡长官司",
+        "type": "geo",
+        "norm": "石阡长官司",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "苗民长官司",
+        "type": "geo",
+        "norm": "苗民长官司",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "葛彰葛商长官司",
+        "type": "geo",
+        "norm": "葛彰葛商长官司",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "龙泉坪长官司",
+        "type": "geo",
+        "norm": "龙泉坪长官司",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "知府山",
+        "type": "mtn",
+        "norm": "知府山",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "排衙山",
+        "type": "mtn",
+        "norm": "排衙山",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "笔架山",
+        "type": "mtn",
+        "norm": "笔架山",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "狮子山",
+        "type": "mtn",
+        "norm": "狮子山",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "金顺山",
+        "type": "mtn",
+        "norm": "金顺山",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "迎仙峰",
+        "type": "mtn",
+        "norm": "迎仙峰",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "鬼岩",
+        "type": "mtn",
+        "norm": "鬼岩",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "乌江",
+        "type": "mtn",
+        "norm": "乌江",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "石阡江",
+        "type": "mtn",
+        "norm": "石阡江",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "深溪",
+        "type": "mtn",
+        "norm": "深溪",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "温泉",
+        "type": "mtn",
+        "norm": "温泉",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "石防泉",
+        "type": "mtn",
+        "norm": "石防泉",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "石阡府学",
+        "type": "site",
+        "norm": "石阡府学",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-019",
+        "name": "达远桥",
+        "type": "site",
+        "norm": "达远桥",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-020",
+        "name": "迎恩桥",
+        "type": "site",
+        "norm": "迎恩桥",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-021",
+        "name": "来宾桥",
+        "type": "site",
+        "norm": "来宾桥",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-022",
+        "name": "观音寺",
+        "type": "site",
+        "norm": "观音寺",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-023",
+        "name": "圆通寺",
+        "type": "site",
+        "norm": "圆通寺",
+        "first_source": "88-006"
+      },
+      {
+        "ent_id": "ENT-024",
+        "name": "郡志",
+        "type": "book",
+        "norm": "郡志",
+        "first_source": "88-006"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88006",
+        "item_id": "88-006",
+        "name": "石阡府",
+        "type": "prefecture",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88006-t01",
+          "GEO-88006-t02",
+          "GEO-88006-t03",
+          "GEO-88006-t04"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "铜仁府提溪长官司界",
+              "distance_li": 180
+            },
+            {
+              "direction": "南",
+              "to_place": "镇远府镇远金容金达蛮夷长官司界",
+              "distance_li": 170
+            },
+            {
+              "direction": "西",
+              "to_place": "四川播州余庆长官司界",
+              "distance_li": 160
+            },
+            {
+              "direction": "北",
+              "to_place": "思南府水德江长官司界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4000
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7760
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 850,
+            "unit": "石",
+            "note": "粮八百五十石零"
+          },
+          "jun_name": "石阡(元名)",
+          "topography": "高山环绕流水萦回【郡志】；南通镇远北距思南【新志】",
+          "customs": "刻木为记不事文墨【郡志】；男女跣足病专祭鬼【新志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88006-t01",
+        "item_id": "88-006",
+        "name": "石阡长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88006",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "附郭，元置石阡军民长官司，洪武初去军民字，编户五里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88006-t02",
+        "item_id": "88-006",
+        "name": "苗民长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88006",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府西北八十里，洪武十年置，编户二里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88006-t03",
+        "item_id": "88-006",
+        "name": "葛彰葛商长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88006",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府西一百里，元为葛彰葛商等处长官司，本朝因之，编户二里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88006-t04",
+        "item_id": "88-006",
+        "name": "龙泉坪长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88006",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府西一百二十里，元置思州宣抚司旧治于此，编户二里"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "禹贡",
+        "era": null,
+        "institution_name": "荆州南裔",
+        "action": "未明",
+        "detail": "禹贡荆州南裔",
+        "evo_id": "EVO-001",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "石阡等处长官司",
+        "action": "置",
+        "detail": "元置石阡等处长官司，隶思州军民宣抚司",
+        "evo_id": "EVO-002",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "dynasty": "明",
+        "era": "永乐十一年",
+        "institution_name": "石阡府",
+        "action": "升",
+        "detail": "本朝永乐十一年改石阡府，隶贵州布政使司，领长官司四",
+        "evo_id": "EVO-003",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "知府山",
+        "type": "山",
+        "location_text": "在府东三里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "排衙山",
+        "type": "山",
+        "location_text": "在府西五里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "笔架山",
+        "type": "山",
+        "location_text": "在府北七十五里",
+        "description": "状如笔架",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "狮子山",
+        "type": "山",
+        "location_text": "在葛彰葛商长官司东五十里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "金顺山",
+        "type": "山",
+        "location_text": "在葛彰葛商长官司东五十里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "迎仙峰",
+        "type": "峰",
+        "location_text": "在府西一百五十里",
+        "description": "下有龙塘泉，俗传尝有龙出其中",
+        "lore": "",
+        "mtn_id": "MTN-006",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "鬼岩",
+        "type": "岩",
+        "location_text": "在苗民长官司治西",
+        "description": "高广方丈如屋",
+        "lore": "",
+        "mtn_id": "MTN-007",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "乌江",
+        "type": "江",
+        "location_text": "在府西一百四十里",
+        "description": "源自四川播州流入思南府界",
+        "lore": "",
+        "mtn_id": "MTN-008",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "石阡江",
+        "type": "江",
+        "location_text": "在府治西",
+        "description": "下流入乌江",
+        "lore": "",
+        "mtn_id": "MTN-009",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "深溪",
+        "type": "溪",
+        "location_text": "在府西一百二十里",
+        "description": "下流入乌江",
+        "lore": "",
+        "mtn_id": "MTN-010",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "温泉",
+        "type": "泉",
+        "location_text": "在府治南",
+        "description": "泉源涌沸，四时清暖",
+        "lore": "",
+        "mtn_id": "MTN-011",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "石防泉",
+        "type": "泉",
+        "location_text": "在金顺山下",
+        "description": "广丈余深三尺许，春夏涨而秋冬消，极为清泠",
+        "lore": "",
+        "mtn_id": "MTN-012",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "石阡府学",
+        "type": "学校",
+        "location_text": "在府治南",
+        "history_lore": "永乐十三年建",
+        "site_id": "SITE-001",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "达远桥",
+        "type": "关梁",
+        "location_text": "在府治南",
+        "history_lore": "",
+        "site_id": "SITE-002",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "迎恩桥",
+        "type": "关梁",
+        "location_text": "在府治东",
+        "history_lore": "",
+        "site_id": "SITE-003",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "来宾桥",
+        "type": "关梁",
+        "location_text": "在府治北",
+        "history_lore": "",
+        "site_id": "SITE-004",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "观音寺",
+        "type": "寺观",
+        "location_text": "在府治南",
+        "history_lore": "",
+        "site_id": "SITE-005",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      },
+      {
+        "name": "圆通寺",
+        "type": "寺观",
+        "location_text": "在葛彰葛商等处长官司南",
+        "history_lore": "",
+        "site_id": "SITE-006",
+        "item_id": "88-006",
+        "geo_id": "GEO-88006"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "郡志",
+        "context": "证形胜",
+        "original": "【郡志：高山环绕流水萦回】",
+        "cit_id": "CIT-001",
+        "item_id": "88-006"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

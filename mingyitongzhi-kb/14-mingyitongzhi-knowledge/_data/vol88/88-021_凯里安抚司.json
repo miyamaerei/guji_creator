@@ -1,0 +1,195 @@
+{
+  "item_id": "88-021",
+  "volume": "88",
+  "source": "凯里安抚司",
+  "region": "贵州",
+  "type": "tusi",
+  "original": "凯里安抚司【东至四川永寜宣抚司界一百里西至永寜宣抚司九姓长官司界一百四十里南至赤水卫摩尼千户所界北至永寜卫界俱五十里自司治至南京四千八百八十里至京师八千二百五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "凯里安抚司",
+        "type": "geo",
+        "norm": "凯里安抚司",
+        "first_source": "88-021"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "木案山",
+        "type": "mtn",
+        "norm": "木案山",
+        "first_source": "88-021"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "龙泉涧",
+        "type": "mtn",
+        "norm": "龙泉涧",
+        "first_source": "88-021"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "普化寺",
+        "type": "site",
+        "norm": "普化寺",
+        "first_source": "88-021"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "普市所志",
+        "type": "book",
+        "norm": "普市所志",
+        "first_source": "88-021"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88021",
+        "item_id": "88-021",
+        "name": "凯里安抚司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "四川永宁宣抚司界",
+              "distance_li": 100
+            },
+            {
+              "direction": "西",
+              "to_place": "永宁宣抚司九姓长官司界",
+              "distance_li": 140
+            },
+            {
+              "direction": "南",
+              "to_place": "赤水卫摩尼千户所界",
+              "distance_li": 50
+            },
+            {
+              "direction": "北",
+              "to_place": "永宁卫界",
+              "distance_li": 50
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4880
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8250
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "兰州(唐名)",
+          "topography": "四山围绕峻险如壁【普市所志】",
+          "customs": "不务耕桑专事贸易【所志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "唐",
+        "era": "元和",
+        "institution_name": "兰州",
+        "action": "置",
+        "detail": "古蛮夷之境，唐元和初置兰州",
+        "evo_id": "EVO-001",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      },
+      {
+        "dynasty": "宋",
+        "era": "乾德",
+        "institution_name": "兰州",
+        "action": "废",
+        "detail": "宋乾德中州罢",
+        "evo_id": "EVO-002",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武四年",
+        "institution_name": "四川永宁宣抚司",
+        "action": "因之",
+        "detail": "元为永宁路地，本朝洪武四年属四川永宁宣抚司",
+        "evo_id": "EVO-003",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武二十二年",
+        "institution_name": "普市守御千户所/凯里安抚司",
+        "action": "升",
+        "detail": "二十二年以地当滇贵之要冲，置普市守御千户所隶贵州都司，后升为凯里安抚司仍旧属",
+        "evo_id": "EVO-004",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "木案山",
+        "type": "山",
+        "location_text": "在城东二里",
+        "description": "山有茂林修竹，横亘青翠如列屏嶂",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      },
+      {
+        "name": "龙泉涧",
+        "type": "溪",
+        "location_text": "在城东南六里",
+        "description": "源出东南山谷，潜入洞中，遇旱祷雨有验",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "普化寺",
+        "type": "寺观",
+        "location_text": "在城西南八十里",
+        "history_lore": "",
+        "site_id": "SITE-001",
+        "item_id": "88-021",
+        "geo_id": "GEO-88021"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "普市所志",
+        "context": "证形胜",
+        "original": "【普市所志：四山围绕峻险如壁】",
+        "cit_id": "CIT-001",
+        "item_id": "88-021"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

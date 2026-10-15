@@ -1,0 +1,409 @@
+{
+  "item_id": "88-012",
+  "volume": "88",
+  "source": "安顺州",
+  "region": "贵州",
+  "type": "department",
+  "original": "安顺州【东至金筑安抚司界七十里西至寜谷寨长官司界三十里南至金筑安抚司刺曹寨五十里北至镇宁州十二营长官司界七十里自州治至南京四千九百一十里至京师八千二百九十里粮五千石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "安顺州",
+        "type": "geo",
+        "norm": "安顺州",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "宁谷寨长官司",
+        "type": "geo",
+        "norm": "宁谷寨长官司",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "西堡长官司",
+        "type": "geo",
+        "norm": "西堡长官司",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "旗山",
+        "type": "mtn",
+        "norm": "旗山",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "马鞍山",
+        "type": "mtn",
+        "norm": "马鞍山",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "岩孔山",
+        "type": "mtn",
+        "norm": "岩孔山",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "九溪河",
+        "type": "mtn",
+        "norm": "九溪河",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "谷龙河",
+        "type": "mtn",
+        "norm": "谷龙河",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "观音井",
+        "type": "mtn",
+        "norm": "观音井",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "容苴",
+        "type": "person",
+        "norm": "容苴",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "赵将仕",
+        "type": "person",
+        "norm": "赵将仕",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "张信",
+        "type": "person",
+        "norm": "张信",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "普定卫学",
+        "type": "site",
+        "norm": "普定卫学",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "南津桥",
+        "type": "site",
+        "norm": "南津桥",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "圆通寺",
+        "type": "site",
+        "norm": "圆通寺",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "崇真观",
+        "type": "site",
+        "norm": "崇真观",
+        "first_source": "88-012"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "贵州志",
+        "type": "book",
+        "norm": "贵州志",
+        "first_source": "88-012"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88012",
+        "item_id": "88-012",
+        "name": "安顺州",
+        "type": "department",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88012-t01",
+          "GEO-88012-t02"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "金筑安抚司界",
+              "distance_li": 70
+            },
+            {
+              "direction": "西",
+              "to_place": "宁谷寨长官司界",
+              "distance_li": 30
+            },
+            {
+              "direction": "南",
+              "to_place": "金筑安抚司剌曹寨",
+              "distance_li": 50
+            },
+            {
+              "direction": "北",
+              "to_place": "镇宁州十二营长官司界",
+              "distance_li": 70
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4910
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8290
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 5000,
+            "unit": "石",
+            "note": "粮五千石零"
+          },
+          "jun_name": "普川(普定卫旧名)",
+          "topography": "崇山峻岭为郛郭，惊涛急流为沟池，实冲要剧地【贵州志】；众山环绕【普定卫志】",
+          "customs": "普定汉夷杂居，汉尚文义，夷习鄙陋【贵州志】；人颇尚义【普定卫志】",
+          "garrisons": [
+            {
+              "name": "普定卫军民指挥使司",
+              "type": "卫",
+              "location_text": "在州城内；洪武十八年府废，二十五年改置普定卫军民指挥使司，正统三年改属贵州都司，成化中移安顺州于卫治，今与同城"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88012-t01",
+        "item_id": "88-012",
+        "name": "宁谷寨长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88012",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州西南三十里，元为寨，洪武十九年置长官司，领二十九寨"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88012-t02",
+        "item_id": "88-012",
+        "name": "西堡长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88012",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州西北九十里，元为寨，洪武十九年置长官司，领四寨"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "习安州",
+        "action": "置",
+        "detail": "古为荒服地，元置习安州，属云南普定路",
+        "evo_id": "EVO-001",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武十六年",
+        "institution_name": "安顺州",
+        "action": "改",
+        "detail": "本朝洪武十六年改安顺州属普定府；十八年改属四川普定卫军民指挥使司",
+        "evo_id": "EVO-002",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "dynasty": "明",
+        "era": "正统三年",
+        "institution_name": "安顺州",
+        "action": "改",
+        "detail": "正统三年始改属贵州布政司，亲领十四寨，领长官司二",
+        "evo_id": "EVO-003",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "旗山",
+        "type": "山",
+        "location_text": "在州城南",
+        "description": "峻拔如卓旗",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "马鞍山",
+        "type": "山",
+        "location_text": "在州城东",
+        "description": "以形似名",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "岩孔山",
+        "type": "山",
+        "location_text": "在州城东四十五里",
+        "description": "山高峻盘亘，傍有岩孔寨",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "九溪河",
+        "type": "河",
+        "location_text": "在州城东南四十里",
+        "description": "溪流九曲",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "谷龙河",
+        "type": "河",
+        "location_text": "在西堡长官司西北五十里",
+        "description": "下流合乌江",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "观音井",
+        "type": "井",
+        "location_text": "在圆通寺西",
+        "description": "水重于他井",
+        "lore": "",
+        "mtn_id": "MTN-006",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      }
+    ],
+    "pers": [
+      {
+        "name": "容苴",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "普定知府",
+        "summary": "大德中蛇节、宋隆济等作乱，容苴率众效顺；没后其妻适姑宣力戎行，遂改府为路，以适姑为总管佩虎符",
+        "per_id": "PER-001",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "赵将仕",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "普定总管府通判",
+        "summary": "立学安边，政平讼理，夷人畏服，树德政碑",
+        "per_id": "PER-002",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "张信",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "普定卫指挥佥事、隆平侯",
+        "summary": "洪武中通战略好礼下士，后以功封隆平侯",
+        "per_id": "PER-003",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      }
+    ],
+    "sites": [
+      {
+        "name": "普定卫学",
+        "type": "学校",
+        "location_text": "在州城内东",
+        "history_lore": "宣德八年建",
+        "site_id": "SITE-001",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "南津桥",
+        "type": "关梁",
+        "location_text": "在州城东南",
+        "history_lore": "",
+        "site_id": "SITE-002",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "圆通寺",
+        "type": "寺观",
+        "location_text": "在州城南",
+        "history_lore": "洪武十八年建",
+        "site_id": "SITE-003",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      },
+      {
+        "name": "崇真观",
+        "type": "寺观",
+        "location_text": "在州城南",
+        "history_lore": "洪武二十九年建",
+        "site_id": "SITE-004",
+        "item_id": "88-012",
+        "geo_id": "GEO-88012"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "贵州志",
+        "context": "证形胜",
+        "original": "【贵州志：冲要剧地】",
+        "cit_id": "CIT-001",
+        "item_id": "88-012"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

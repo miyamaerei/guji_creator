@@ -1,0 +1,344 @@
+{
+  "item_id": "88-011",
+  "volume": "88",
+  "source": "镇宁州",
+  "region": "贵州",
+  "type": "department",
+  "original": "镇寜州【东至康佐长官司界南至永寜州界俱三十里西至永寜州界五十里北至寜谷长官司界二十五里自州治至南京四千八百六十里至京师八千二百二十里】【粮二千六百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "镇宁州",
+        "type": "geo",
+        "norm": "镇宁州",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "十二营长官司",
+        "type": "geo",
+        "norm": "十二营长官司",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "康佐长官司",
+        "type": "geo",
+        "norm": "康佐长官司",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "猫儿山",
+        "type": "mtn",
+        "norm": "猫儿山",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "公具河",
+        "type": "mtn",
+        "norm": "公具河",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "白水河",
+        "type": "mtn",
+        "norm": "白水河",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "龙潭",
+        "type": "mtn",
+        "norm": "龙潭",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "既济泉",
+        "type": "mtn",
+        "norm": "既济泉",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "杨氏",
+        "type": "person",
+        "norm": "杨氏",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "安庄卫学",
+        "type": "site",
+        "norm": "安庄卫学",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "白虹桥",
+        "type": "site",
+        "norm": "白虹桥",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "列峰寺",
+        "type": "site",
+        "norm": "列峰寺",
+        "first_source": "88-011"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "高真观",
+        "type": "site",
+        "norm": "高真观",
+        "first_source": "88-011"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88011",
+        "item_id": "88-011",
+        "name": "镇宁州",
+        "type": "department",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88011-t01",
+          "GEO-88011-t02"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "康佐长官司界",
+              "distance_li": 30
+            },
+            {
+              "direction": "南",
+              "to_place": "永宁州界",
+              "distance_li": 30
+            },
+            {
+              "direction": "西",
+              "to_place": "永宁州界",
+              "distance_li": 50
+            },
+            {
+              "direction": "北",
+              "to_place": "宁谷长官司界",
+              "distance_li": 25
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4860
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8220
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 2600,
+            "unit": "石",
+            "note": "粮二千六百石零"
+          },
+          "jun_name": "",
+          "topography": "重冈峻岭众溪环绕【州志】；山川险阻之墟【新志】",
+          "customs": "夷民杂居风俗各异【州志】；婚姻不分贫富专论牛之多寡为资聘【州志】",
+          "garrisons": [
+            {
+              "name": "安庄卫",
+              "type": "卫",
+              "location_text": "在州治东，洪武二十三年置安庄卫指挥使司，隶贵州都司；成化中移镇宁于卫"
+            },
+            {
+              "name": "关索岭守御千户所",
+              "type": "所",
+              "location_text": "在州南五十里，洪武二十五年置为所"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-88011-t01",
+        "item_id": "88-011",
+        "name": "十二营长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88011",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州北三十里，元为十二营寨，洪武十九年置长官司，领二十九寨"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88011-t02",
+        "item_id": "88-011",
+        "name": "康佐长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88011",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州东四十里，元为康佐寨，洪武十九年置长官司，领四寨"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "镇宁州",
+        "action": "置",
+        "detail": "古为荒服地，元始置镇宁州，属云南普定路",
+        "evo_id": "EVO-001",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武十四年",
+        "institution_name": "镇宁州",
+        "action": "因之",
+        "detail": "本朝洪武十四年属普定军民府，后府废属四川普定卫军民指挥使司",
+        "evo_id": "EVO-002",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "dynasty": "明",
+        "era": "正统三年",
+        "institution_name": "镇宁州",
+        "action": "改",
+        "detail": "正统三年改属贵州布政司，亲领六寨，领长官司二",
+        "evo_id": "EVO-003",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "猫儿山",
+        "type": "山",
+        "location_text": "在十二营长官司西北三里",
+        "description": "以形似名",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "公具河",
+        "type": "河",
+        "location_text": "在十二营长官司东北四十里",
+        "description": "傍有寨因名，灌溉田亩军民赖之",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "白水河",
+        "type": "河",
+        "location_text": "在安庄卫南三十里",
+        "description": "悬崖飞瀑直下数十仞，湍激若雷",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "龙潭",
+        "type": "潭",
+        "location_text": "在十二营长官司治西",
+        "description": "水色常黑，祷雨辄应",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "既济泉",
+        "type": "泉",
+        "location_text": "在州治东北",
+        "description": "其地极热而此水独凉，故名",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      }
+    ],
+    "pers": [
+      {
+        "name": "杨氏",
+        "type": "列女",
+        "dynasty": "明",
+        "native_place": "十二营长官司僰人",
+        "office": "安陆侯吴复妻",
+        "summary": "洪武中安陆侯吴复卒，杨氏哀痛自缢，事闻赠贞烈淑人，于父家旌表其门",
+        "per_id": "PER-001",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      }
+    ],
+    "sites": [
+      {
+        "name": "安庄卫学",
+        "type": "学校",
+        "location_text": "在卫治北",
+        "history_lore": "洪熙元年建",
+        "site_id": "SITE-001",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "白虹桥",
+        "type": "关梁",
+        "location_text": "跨白水河",
+        "history_lore": "洪武二十五年右军都督佥事王成奉敕建",
+        "site_id": "SITE-002",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "列峰寺",
+        "type": "寺观",
+        "location_text": "在安庄卫治西南",
+        "history_lore": "",
+        "site_id": "SITE-003",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      },
+      {
+        "name": "高真观",
+        "type": "寺观",
+        "location_text": "在安庄卫南二十里",
+        "history_lore": "",
+        "site_id": "SITE-004",
+        "item_id": "88-011",
+        "geo_id": "GEO-88011"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

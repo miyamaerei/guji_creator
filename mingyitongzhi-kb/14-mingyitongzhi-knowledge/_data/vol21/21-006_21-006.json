@@ -1,0 +1,532 @@
+{
+  "item_id": "21-006",
+  "volume": "21",
+  "source": "泽州",
+  "region": "山西",
+  "type": "subprefecture",
+  "original": "泽州【东至河南卫辉府辉县界四百一十里西至平阳府翼城县界二百九十里南至河南懐庆府河内县界一百四十里北至潞安府长子县界一百九十里自州治至京师一千八百里至南京一千八百里】【粮四万六千六百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-21501",
+        "name": "泽州",
+        "type": "geo",
+        "norm": "泽州",
+        "first_source": "21-006"
+      },
+      {
+        "ent_id": "ENT-21502",
+        "name": "长平",
+        "type": "geo",
+        "norm": "长平",
+        "first_source": "21-006"
+      },
+      {
+        "ent_id": "ENT-21503",
+        "name": "太行山",
+        "type": "mtn",
+        "norm": "太行山",
+        "first_source": "21-006"
+      },
+      {
+        "ent_id": "ENT-21504",
+        "name": "程颢",
+        "type": "person",
+        "norm": "程颢",
+        "first_source": "21-006"
+      },
+      {
+        "ent_id": "ENT-21505",
+        "name": "郝经",
+        "type": "person",
+        "norm": "郝经",
+        "first_source": "21-006"
+      },
+      {
+        "ent_id": "ENT-21506",
+        "name": "李俊民",
+        "type": "person",
+        "norm": "李俊民",
+        "first_source": "21-006"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-21501",
+        "item_id": "21-006",
+        "name": "泽州",
+        "type": "subprefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷21",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "河南卫辉府辉县界",
+              "distance_li": 410
+            },
+            {
+              "direction": "西",
+              "to_place": "平阳府翼城县界",
+              "distance_li": 290
+            },
+            {
+              "direction": "南",
+              "to_place": "河南怀庆府河内县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "北",
+              "to_place": "潞安府长子县界",
+              "distance_li": 190
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1800
+            },
+            {
+              "capital": "南京",
+              "distance_li": 1800
+            }
+          ],
+          "households": {
+            "count": 167,
+            "unit": "里",
+            "note": "编户一百六十七里，领县四"
+          },
+          "grain_tax": {
+            "amount": 46600,
+            "unit": "石",
+            "note": "粮四万六千六百石零"
+          },
+          "jun_name": "高都/长平",
+          "topography": "太行险固【唐奏议：泽州全有太行之险固，实为东洛之藩垣】山川环抱【旧郡志：泽州在唐为雄镇，山川环抱，有自然之险】山高涧深道路险窄【州志】",
+          "customs": "性质气豪【元志：人性质而好学，其气豪劲】俭朴敦本【同上：其民俭朴而敦本，有唐晋之遗风】力勤耕种【郡志】民淳而好义俭而用礼【同上】",
+          "garrisons": [
+            {
+              "name": "宁山卫",
+              "type": "卫",
+              "location_text": "在州治东北隅，洪武十一年建，直隶"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "宣宁王府",
+              "location_text": "在州城内，天顺五年自大同迁此"
+            },
+            {
+              "name": "隰川王府",
+              "location_text": "在州城内，天顺五年自大同迁此"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-21501",
+          "CIT-21502",
+          "CIT-21503",
+          "CIT-21504"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-21501",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "秦汉",
+        "era": null,
+        "institution_name": "上党郡高都县地",
+        "action": "因之",
+        "detail": "禹贡冀州之域，春秋属晋，战国属韩后属赵；秦为上党郡高都县地，汉为上党河东二郡地"
+      },
+      {
+        "evo_id": "EVO-21502",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "建兴郡/建州",
+        "action": "置郡",
+        "detail": "后魏置建兴郡，治高都城，兼置建州"
+      },
+      {
+        "evo_id": "EVO-21503",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "北齐/后周",
+        "era": null,
+        "institution_name": "长平/高都二郡→高平郡",
+        "action": "并",
+        "detail": "北齐又置长平高都二郡；后周并为高平郡"
+      },
+      {
+        "evo_id": "EVO-21504",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "泽州/长平郡",
+        "action": "改",
+        "detail": "隋废郡，改建州为泽州，治丹川县；大业初废州置长平郡"
+      },
+      {
+        "evo_id": "EVO-21505",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "建州/盖州/泽州/高平郡",
+        "action": "改",
+        "detail": "唐初复改置建州，又于高平县置盖州寻废；建州徙盖州治晋城县，又置泽州治端氏县；贞观初废盖州而以泽州治晋城；天宝初改为高平郡；乾元初复为泽州"
+      },
+      {
+        "evo_id": "EVO-21506",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "金元",
+        "era": null,
+        "institution_name": "泽州",
+        "action": "因之",
+        "detail": "宋属河东道，金属平阳府，元属平阳路"
+      },
+      {
+        "evo_id": "EVO-21507",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "泽州",
+        "action": "因之",
+        "detail": "本朝以晋城县并入，洪武九年改直隶山西布政司，编户一百六十七里，领县四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-21501",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "太行山",
+        "type": "山",
+        "location_text": "在州城南三十里",
+        "description": "自此东西一带诸山虽各因地立名，实皆太行也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21502",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "头颅山",
+        "type": "山",
+        "location_text": "在高平县西五里",
+        "description": "秦白起坑赵降卒四十万，后人收头颅葬于此山，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21503",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "羊头山",
+        "type": "山",
+        "location_text": "在高平县东北三十里",
+        "description": "相传神农尝五谷于此山",
+        "lore": "上有炎帝庙"
+      },
+      {
+        "mtn_id": "MTN-21504",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "王屋山",
+        "type": "山",
+        "location_text": "在阳城县南境",
+        "description": "有仙宫洞天广三十里",
+        "lore": "即禹贡所谓析城至于王屋"
+      },
+      {
+        "mtn_id": "MTN-21505",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "沁河",
+        "type": "河",
+        "location_text": "在沁水县东五十里",
+        "description": "源出沁州沁源县，经岳阳县东流至本县南，流经怀庆府界入黄河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21506",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "丹水",
+        "type": "河",
+        "location_text": "在州城东北三十里",
+        "description": "旧号泫水，源出高平县西北仙公山，南流合白水入沁河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21507",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "天井关",
+        "type": "关",
+        "location_text": "在州城南太行山顶",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-21501",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "鲍昱",
+        "type": "名宦",
+        "dynasty": "汉",
+        "native_place": "",
+        "office": "守高都长",
+        "summary": "建武初郡尝有剧贼，太守闻昱有智略，就谒请署守高都长；昱讨击群贼，道路开通"
+      },
+      {
+        "per_id": "PER-21502",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "李抱真",
+        "type": "名宦",
+        "dynasty": "唐",
+        "native_place": "",
+        "office": "泽州刺史/泽潞节度副使",
+        "summary": "代宗时泽州刺史兼泽潞节度副使；时重赋人困军伍雕刓，抱真乃籍户丁蠲其徭租，令间月习射，岁终大较亲第其能否而赏责之；比三年皆为精兵"
+      },
+      {
+        "per_id": "PER-21503",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "程颢",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "晋城令",
+        "summary": "治平中为晋城令；民以事至县者必告以孝弟忠信，救灾恤患，奸伪无所容，孤茕有所养；立乡校聚教秀子弟，置社榜旌别善恶；在县三载，民爱之如父母"
+      },
+      {
+        "per_id": "PER-21504",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "陈龟",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "上党泫氏",
+        "office": "度辽将军/尚书",
+        "summary": "永安中举孝廉，累迁京兆尹，治三辅豪强；桓帝时拜度辽将军；后为尚书，以梁冀暴日甚请诛之，帝不省，遂不食死"
+      },
+      {
+        "per_id": "PER-21505",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "刘羲叟",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "晋城",
+        "office": "崇文院检讨",
+        "summary": "欧阳修使河东荐其学术，试大理评事，累迁著作佐郎；强记多识，尤长于星历术数；修唐史时专令修律历天文五行志，著十三代史刘氏辑历春秋灾异诸书"
+      },
+      {
+        "per_id": "PER-21506",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "李俊民",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "泽州",
+        "office": "应奉翰林文字/庄靖先生",
+        "summary": "得程子传授之学，承安中进士第一，为应奉翰林文字，寻弃官不仕；教授乡里，隐嵩山，自号鹤鸣；元世祖召至访问，复乞还山，卒赐庄靖先生"
+      },
+      {
+        "per_id": "PER-21507",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "郝经",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "陵川",
+        "office": "翰林侍读学士/文忠公",
+        "summary": "天挺孙，幼颖悟好学博览经籍；元世祖时累官翰林侍读学士，使宋被留十六年；尚气节学务有用，所著有易春秋外传及陵川集凡数百卷"
+      },
+      {
+        "per_id": "PER-21508",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "贾鲁",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "高平",
+        "office": "工部尚书/中书左丞",
+        "summary": "幼负志节，既长谋略过人；至正初河决金堤，命鲁行都水监，循行考察进二策；命鲁以工部尚书总治河役，河复故道，累迁中书左丞"
+      },
+      {
+        "per_id": "PER-21509",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "杨继宗",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "阳城",
+        "office": "佥都御史",
+        "summary": "天顺初举进士，累官佥都御史；成化乙巳以上疏左迁云南按察副使，弘治改元再升佥都御史巡抚云南；居官三十余年，其忠孝大节议论风采虽庸人孺子皆知其名"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-21501",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "泽州学",
+        "type": "学校",
+        "location_text": "在州治东南隅",
+        "history_lore": "宋至和间建，本朝洪武二年重建"
+      },
+      {
+        "site_id": "SITE-21502",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "文忠书院",
+        "type": "书院",
+        "location_text": "在陵川县治南",
+        "history_lore": "文忠元郝经谥"
+      },
+      {
+        "site_id": "SITE-21503",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "青莲寺",
+        "type": "寺观",
+        "location_text": "在硖石山",
+        "history_lore": "北齐时建，宋名福严"
+      },
+      {
+        "site_id": "SITE-21504",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "长平城",
+        "type": "古迹",
+        "location_text": "在高平县西北二十一里",
+        "history_lore": "即秦白起破赵处，北齐置长平郡"
+      },
+      {
+        "site_id": "SITE-21505",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "光狼城",
+        "type": "古迹",
+        "location_text": "在高平县境",
+        "history_lore": "史记白起攻赵拔光狼城即此"
+      },
+      {
+        "site_id": "SITE-21506",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "省冤谷",
+        "type": "古迹",
+        "location_text": "在高平县西北二十里",
+        "history_lore": "即赵括败死余众受坑处，旧呼杀谷；唐玄宗幸潞州过此致祭，改名省冤"
+      },
+      {
+        "site_id": "SITE-21507",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "乡校",
+        "type": "学校",
+        "location_text": "在高平县凡六十余处",
+        "history_lore": "宋程颢尝为晋城令，乡必有校，暇时亲至召父老与之语，儿童所读书亲为正句读"
+      },
+      {
+        "site_id": "SITE-21508",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "炎帝庙",
+        "type": "祠庙",
+        "location_text": "在羊头山",
+        "history_lore": "祀炎帝神农氏"
+      },
+      {
+        "site_id": "SITE-21509",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "成汤庙",
+        "type": "祠庙",
+        "location_text": "在析城山",
+        "history_lore": "祀商汤，上有神池祷雨多应"
+      },
+      {
+        "site_id": "SITE-21510",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "明道祠",
+        "type": "祠庙",
+        "location_text": "在州城内",
+        "history_lore": "祀宋明道先生程颢"
+      },
+      {
+        "site_id": "SITE-21511",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "石勒墓",
+        "type": "陵墓",
+        "location_text": "在陵川县治西北",
+        "history_lore": "元郝经诗：都门长啸气凭陵，瓜割中原霸业兴；夜葬山间谁得见，至今犹有守坟僧"
+      },
+      {
+        "site_id": "SITE-21512",
+        "item_id": "21-006",
+        "geo_id": "GEO-21501",
+        "name": "李俊民墓",
+        "type": "陵墓",
+        "location_text": "在州城西北七里",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-21501",
+        "item_id": "21-006",
+        "cited_work": "唐奏议",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【唐奏议】"
+      },
+      {
+        "cit_id": "CIT-21502",
+        "item_id": "21-006",
+        "cited_work": "旧郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【旧郡志】"
+      },
+      {
+        "cit_id": "CIT-21503",
+        "item_id": "21-006",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元志】"
+      },
+      {
+        "cit_id": "CIT-21504",
+        "item_id": "21-006",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空；标题'泽州'拼在前一条列女邢氏行末，依建置沿革确认为本条"
+  }
+}

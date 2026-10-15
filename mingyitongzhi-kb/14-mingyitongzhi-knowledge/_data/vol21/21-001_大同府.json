@@ -1,0 +1,522 @@
+{
+  "item_id": "21-001",
+  "volume": "21",
+  "source": "大同府",
+  "region": "山西",
+  "type": "prefecture",
+  "original": "大同府【东至直保安州深井界三百六十里南至太原府代州鴈门闗二百九十里西至大同右衞黄土山墩二百三十里北至本府旧宣宁县猫儿庄一百二十里自府治至京师九百里至南京三千五百里】【粮一十二万六千石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-21001",
+        "name": "大同府",
+        "type": "geo",
+        "norm": "大同府",
+        "first_source": "21-001"
+      },
+      {
+        "ent_id": "ENT-21002",
+        "name": "恒山",
+        "type": "mtn",
+        "norm": "恒山",
+        "first_source": "21-001"
+      },
+      {
+        "ent_id": "ENT-21003",
+        "name": "五台山",
+        "type": "mtn",
+        "norm": "五台山",
+        "first_source": "21-001"
+      },
+      {
+        "ent_id": "ENT-21004",
+        "name": "寰宇记",
+        "type": "book",
+        "norm": "寰宇记",
+        "first_source": "21-001"
+      },
+      {
+        "ent_id": "ENT-21005",
+        "name": "杨业",
+        "type": "person",
+        "norm": "杨业",
+        "first_source": "21-001"
+      },
+      {
+        "ent_id": "ENT-21006",
+        "name": "独孤信",
+        "type": "person",
+        "norm": "独孤信",
+        "first_source": "21-001"
+      },
+      {
+        "ent_id": "ENT-21007",
+        "name": "华严寺",
+        "type": "site",
+        "norm": "华严寺",
+        "first_source": "21-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-21001",
+        "item_id": "21-001",
+        "name": "大同府",
+        "type": "prefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷21",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "直隶保安州深井界",
+              "distance_li": 360
+            },
+            {
+              "direction": "南",
+              "to_place": "太原府代州鴈门关界",
+              "distance_li": 290
+            },
+            {
+              "direction": "西",
+              "to_place": "大同右卫黄土山墩界",
+              "distance_li": 230
+            },
+            {
+              "direction": "北",
+              "to_place": "本府旧宣宁县猫儿庄界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 900
+            },
+            {
+              "capital": "南京",
+              "distance_li": 3500
+            }
+          ],
+          "households": {
+            "count": 0,
+            "unit": "里",
+            "note": "领州四县七，编户散见各州县"
+          },
+          "grain_tax": {
+            "amount": 126000,
+            "unit": "石",
+            "note": "粮一十二万六千石零"
+          },
+          "jun_name": "云中/代郡",
+          "topography": "北临广野【寰宇记】绵亘千里【同上】用武之地【通鉴】京师藩屏【郡志】三面临边最号要害",
+          "customs": "质直朴野【汉志】俗尚武艺【郡志】垦田为生【应州图经】淳厚守业【浑源州图经】节用恭谦【元志】去华从俭【同上】",
+          "garrisons": [
+            {
+              "name": "山西行都司",
+              "type": "司",
+              "location_text": "在府城内"
+            },
+            {
+              "name": "大同前卫",
+              "type": "卫",
+              "location_text": "在府城内"
+            },
+            {
+              "name": "大同后卫",
+              "type": "卫",
+              "location_text": "在府城内"
+            },
+            {
+              "name": "朔州卫",
+              "type": "卫",
+              "location_text": "在朔州治东"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "代王府",
+              "location_text": "在府治东洪武二十五年建"
+            },
+            {
+              "name": "广灵王府",
+              "location_text": "在府城内"
+            },
+            {
+              "name": "潞城王府",
+              "location_text": "在府城内"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-21001",
+          "CIT-21002",
+          "CIT-21003",
+          "CIT-21004",
+          "CIT-21005"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-21001",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "赵国地",
+        "action": "因之",
+        "detail": "禹贡冀州之域，虞周属并州，春秋时北狄所居，战国属赵"
+      },
+      {
+        "evo_id": "EVO-21002",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "云中鴈门代郡地",
+        "action": "置郡",
+        "detail": "秦为云中鴈门代郡地"
+      },
+      {
+        "evo_id": "EVO-21003",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "司州/代尹/北恒州",
+        "action": "置",
+        "detail": "后魏徙都平城，置司州牧及置代尹，又置北恒州"
+      },
+      {
+        "evo_id": "EVO-21004",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "代朔云三州地",
+        "action": "废",
+        "detail": "后周并废，隋以其地属代朔云三州"
+      },
+      {
+        "evo_id": "EVO-21005",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "云州/云中郡",
+        "action": "复",
+        "detail": "唐初复置北恒州治云中县，寻废；开元中置云州；天宝初改云中郡；乾元初复为云州"
+      },
+      {
+        "evo_id": "EVO-21006",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "辽",
+        "era": null,
+        "institution_name": "西京大同府",
+        "action": "升",
+        "detail": "五代唐以云州置大同军节度；辽升为西京府，曰大同"
+      },
+      {
+        "evo_id": "EVO-21007",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "大同路",
+        "action": "改",
+        "detail": "金因之；元改置大同路"
+      },
+      {
+        "evo_id": "EVO-21008",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "大同府",
+        "action": "因之",
+        "detail": "本朝改为大同府，领州四县七"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-21001",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "白登山",
+        "type": "山",
+        "location_text": "在府城东七里",
+        "description": "上有白登台，即匈奴冒顿单于围汉高帝处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21002",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "恒山",
+        "type": "山",
+        "location_text": "在浑源州南二十里",
+        "description": "即北岳也，水经谓之元岳，其山高侵云汉",
+        "lore": "舜北巡狩至于恒山即此"
+      },
+      {
+        "mtn_id": "MTN-21003",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "五台山",
+        "type": "山",
+        "location_text": "在蔚州东三十里",
+        "description": "峰峦秀出，上有金河等十余寺",
+        "lore": "详见太原府"
+      },
+      {
+        "mtn_id": "MTN-21004",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "桑干河",
+        "type": "河",
+        "location_text": "在府城南六十里",
+        "description": "源出马邑县北洪涛山下，与金龙池水合流，东南入卢沟河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21005",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "黄河",
+        "type": "河",
+        "location_text": "北自古东胜州界而来",
+        "description": "历废武州西北二百五十里，南流入太原府保德州界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21006",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "雁门山",
+        "type": "山",
+        "location_text": "在应州南山之北",
+        "description": "与龙首山相望，故州以应名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21007",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "金龙池",
+        "type": "泉",
+        "location_text": "在马邑县西北",
+        "description": "后魏以来人传池有二龙，时化为马",
+        "lore": "遇天阴晦辄出，民间牝马过之生驹神骏"
+      },
+      {
+        "mtn_id": "MTN-21008",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "鴈门关",
+        "type": "关",
+        "location_text": "在马邑县东南七十里",
+        "description": "东西山岩峭拔，中有路盘旋崎岖，绝顶置关，南通代州",
+        "lore": "近此关有杨六郎寨"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-21001",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "蒙恬",
+        "type": "名宦",
+        "dynasty": "秦",
+        "native_place": "",
+        "office": "将",
+        "summary": "为将北逐匈奴，关地数千里，累土为山植榆为塞，因地形制险，威振朔漠"
+      },
+      {
+        "per_id": "PER-21002",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "李广",
+        "type": "名宦",
+        "dynasty": "汉",
+        "native_place": "",
+        "office": "云中太守",
+        "summary": "云中太守，材气无双，时号飞将军"
+      },
+      {
+        "per_id": "PER-21003",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "杨业",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "云应军行营副都部署",
+        "summary": "副潘美为云应军行营都部署，拔四州；辽人复取寰州，业力战重伤为辽所获，不食三日而死"
+      },
+      {
+        "per_id": "PER-21004",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "吕布",
+        "type": "人物",
+        "dynasty": "三国",
+        "native_place": "九原",
+        "office": "并州骑都尉",
+        "summary": "以骁武为并州骑都尉，后归董卓，布诛卓以功封温侯；时人语云马中有赤兔，人中有吕布"
+      },
+      {
+        "per_id": "PER-21005",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "独孤信",
+        "type": "人物",
+        "dynasty": "南北朝",
+        "native_place": "云中",
+        "office": "大宗伯/魏国公",
+        "summary": "美容仪善骑射，从西魏孝武入关，累官大宗伯封魏国公；其三女一为周明帝后，一为隋文帝后，一为唐高祖祖母"
+      },
+      {
+        "per_id": "PER-21006",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "尉迟恭",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "朔州鄯阳",
+        "office": "鄂国公",
+        "summary": "隋末归唐，从讨窦建德王世充刘黑闼等战功居多；善避槊，每单骑入贼群刺之不能伤，以功累封鄂国公"
+      },
+      {
+        "per_id": "PER-21007",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "毕士安",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "云中",
+        "office": "同平章事",
+        "summary": "乾德中进士，累官参知政事进同平章事；真宗时与寇准同决策北伐，却契丹于澶渊；平生以名节自励"
+      },
+      {
+        "per_id": "PER-21008",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "李溥光",
+        "type": "仙释",
+        "dynasty": "元",
+        "native_place": "大同",
+        "office": "昭文馆大学士",
+        "summary": "号雪庵，幼为僧，读书工诗善书法，一时宫城殿宇扁额皆出其手；有雪庵长语大字书法行于世"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-21001",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "华严寺",
+        "type": "寺观",
+        "location_text": "在府城内",
+        "history_lore": "辽建，本朝洪武中重修；奉安诸帝石像铜像"
+      },
+      {
+        "site_id": "SITE-21002",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "大同府学",
+        "type": "学校",
+        "location_text": "在府治东南",
+        "history_lore": "御辽金西京国子监，本朝洪武八年改为府学"
+      },
+      {
+        "site_id": "SITE-21003",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "魏永固陵",
+        "type": "陵墓",
+        "location_text": "在方山颠",
+        "history_lore": "魏孝文帝母冯太后与帝游方山，顾川阜有终焉之意；孝文乃营寿陵于方山，又建永固石室"
+      },
+      {
+        "site_id": "SITE-21004",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "赵武灵王墓",
+        "type": "陵墓",
+        "location_text": "在灵邱县东南三十里",
+        "history_lore": "汉志云武灵王葬此，取以名县"
+      },
+      {
+        "site_id": "SITE-21005",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "马邑城",
+        "type": "古迹",
+        "location_text": "在朔州东",
+        "history_lore": "晋地记云秦人筑此城，将成而崩者数矣；忽有马周旋驰走反覆，父老异之，因依以筑城而不崩，故名马邑"
+      },
+      {
+        "site_id": "SITE-21006",
+        "item_id": "21-001",
+        "geo_id": "GEO-21001",
+        "name": "长城",
+        "type": "古迹",
+        "location_text": "在府城北一十里",
+        "history_lore": "秦筑，土色皆紫，故称紫塞"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-21001",
+        "item_id": "21-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": "ENT-21004",
+        "context": "形胜",
+        "original": "【寰宇记】"
+      },
+      {
+        "cit_id": "CIT-21002",
+        "item_id": "21-001",
+        "cited_work": "通鉴",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【通鉴】"
+      },
+      {
+        "cit_id": "CIT-21003",
+        "item_id": "21-001",
+        "cited_work": "汉志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【汉志】"
+      },
+      {
+        "cit_id": "CIT-21004",
+        "item_id": "21-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-21005",
+        "item_id": "21-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级条目不做物产抽取）"
+  }
+}

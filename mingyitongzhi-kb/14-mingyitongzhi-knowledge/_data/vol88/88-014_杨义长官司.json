@@ -1,0 +1,444 @@
+{
+  "item_id": "88-014",
+  "volume": "88",
+  "source": "平越卫军民指挥使司",
+  "region": "贵州",
+  "type": "other",
+  "original": "平越卫军民指挥使司【东至清平衞平定长官司界七十里南至新添衞界六十里西至四川播州草塘安抚司界北至黄平安抚司界俱一百二十里自卫治至南京四千六百七十里至京师八千二百里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "平越卫军民指挥使司",
+        "type": "geo",
+        "norm": "平越卫军民指挥使司",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "湄潭县",
+        "type": "geo",
+        "norm": "湄潭县",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "余庆县",
+        "type": "geo",
+        "norm": "余庆县",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "瓮安县",
+        "type": "geo",
+        "norm": "瓮安县",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "龙泉县",
+        "type": "geo",
+        "norm": "龙泉县",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "黄平州",
+        "type": "geo",
+        "norm": "黄平州",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "杨义长官司",
+        "type": "geo",
+        "norm": "杨义长官司",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "笔峰山",
+        "type": "mtn",
+        "norm": "笔峰山",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "杉木箐山",
+        "type": "mtn",
+        "norm": "杉木箐山",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "七盘坡",
+        "type": "mtn",
+        "norm": "七盘坡",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "马场江",
+        "type": "mtn",
+        "norm": "马场江",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "清水江",
+        "type": "mtn",
+        "norm": "清水江",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "平越府学",
+        "type": "site",
+        "norm": "平越府学",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "武胜关",
+        "type": "site",
+        "norm": "武胜关",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "通远桥",
+        "type": "site",
+        "norm": "通远桥",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "太平桥",
+        "type": "site",
+        "norm": "太平桥",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "月山寺",
+        "type": "site",
+        "norm": "月山寺",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "高真观",
+        "type": "site",
+        "norm": "高真观",
+        "first_source": "88-014"
+      },
+      {
+        "ent_id": "ENT-019",
+        "name": "贵州志",
+        "type": "book",
+        "norm": "贵州志",
+        "first_source": "88-014"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88014",
+        "item_id": "88-014",
+        "name": "平越卫军民指挥使司",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88014-c01",
+          "GEO-88014-c02",
+          "GEO-88014-s01",
+          "GEO-88014-t01"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "清平卫平定长官司界",
+              "distance_li": 70
+            },
+            {
+              "direction": "南",
+              "to_place": "新添卫界",
+              "distance_li": 60
+            },
+            {
+              "direction": "西",
+              "to_place": "四川播州草塘安抚司界",
+              "distance_li": 120
+            },
+            {
+              "direction": "北",
+              "to_place": "黄平安抚司界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4670
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8200
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "",
+          "topography": "边方冲要之地，苗蛮丛薮之墟【贵州志】；山溪之险【太平桥志】",
+          "customs": "俗尚威武渐知礼义【贵州志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88014-c01",
+        "item_id": "88-014",
+        "name": "湄潭县",
+        "type": "county",
+        "region": "贵州",
+        "parent": "GEO-88014",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "附郭，新设"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88014-c02",
+        "item_id": "88-014",
+        "name": "余庆县",
+        "type": "county",
+        "region": "贵州",
+        "parent": "GEO-88014",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府城西，元为余庆州，本朝初为长官司，万历中改为县"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88014-s01-c01",
+        "item_id": "88-014",
+        "name": "瓮安县",
+        "type": "county",
+        "region": "贵州",
+        "parent": "GEO-88014-s01",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "新设"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88014-s01-c02",
+        "item_id": "88-014",
+        "name": "龙泉县",
+        "type": "county",
+        "region": "贵州",
+        "parent": "GEO-88014-s01",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "新设"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88014-s01",
+        "item_id": "88-014",
+        "name": "黄平州",
+        "type": "subprefecture",
+        "region": "贵州",
+        "parent": "GEO-88014",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府城西北，宋为黄平府，本朝改安抚司，万历中改为州，领县二"
+        },
+        "children": [
+          "GEO-88014-s01-c01",
+          "GEO-88014-s01-c02"
+        ]
+      },
+      {
+        "geo_id": "GEO-88014-t01",
+        "item_id": "88-014",
+        "name": "杨义长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88014",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府城东三十里，洪武中置"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "历代",
+        "era": null,
+        "institution_name": "黎峨里寨",
+        "action": "未明",
+        "detail": "古蛮夷地，名黎峨里寨，历代叛服不常",
+        "evo_id": "EVO-001",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武十四年",
+        "institution_name": "平越卫军民指挥使司",
+        "action": "置",
+        "detail": "本朝洪武十四年始置平越卫军民指挥使司，领长官司五，属四川布政司，后改属贵州都司",
+        "evo_id": "EVO-002",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "dynasty": "明",
+        "era": "万历",
+        "institution_name": "平越府",
+        "action": "升",
+        "detail": "三十年分清平、平定长官司后属都匀府；万历中升为平越府，领州一、县四",
+        "evo_id": "EVO-003",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "笔峰山",
+        "type": "山",
+        "location_text": "在府城南三里",
+        "description": "山峰高耸如卓笔",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "杉木箐山",
+        "type": "山",
+        "location_text": "在杨义长官司西五十里",
+        "description": "峰峦险峻",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "七盘坡",
+        "type": "岭",
+        "location_text": "在府城东三里",
+        "description": "盘回七里，坡下有溪",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "马场江",
+        "type": "江",
+        "location_text": "在府城南四里",
+        "description": "羊场河通",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "清水江",
+        "type": "江",
+        "location_text": "在长官司西五十五里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "平越府学",
+        "type": "学校",
+        "location_text": "即卫学",
+        "history_lore": "正统中建",
+        "site_id": "SITE-001",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "武胜关",
+        "type": "关梁",
+        "location_text": "在府城南二里",
+        "history_lore": "左右崖削，一水中贯，实当诸路之冲",
+        "site_id": "SITE-002",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "通远桥",
+        "type": "关梁",
+        "location_text": "在府城南",
+        "history_lore": "永乐五年建",
+        "site_id": "SITE-003",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "太平桥",
+        "type": "关梁",
+        "location_text": "在府南三里",
+        "history_lore": "",
+        "site_id": "SITE-004",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "月山寺",
+        "type": "寺观",
+        "location_text": "在府西",
+        "history_lore": "洪武二十一年建",
+        "site_id": "SITE-005",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      },
+      {
+        "name": "高真观",
+        "type": "寺观",
+        "location_text": "在府城内西",
+        "history_lore": "洪武二十二年建",
+        "site_id": "SITE-006",
+        "item_id": "88-014",
+        "geo_id": "GEO-88014"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "贵州志",
+        "context": "证形胜",
+        "original": "【贵州志：边方冲要之地苗蛮丛薮之墟】",
+        "cit_id": "CIT-001",
+        "item_id": "88-014"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "万历中升平越府；属县距里、编户数源文空缺"
+  }
+}

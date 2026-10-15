@@ -1,0 +1,1862 @@
+{
+  "item_id": "17-015",
+  "volume": "17",
+  "region": "南直隶",
+  "source": "广徳州【…】",
+  "type": "prefecture",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-17015-GEO",
+        "name": "广徳州",
+        "type": "geo",
+        "norm": "广徳州",
+        "first_source": "17-015"
+      },
+      {
+        "ent_id": "ENT-17015-B01",
+        "name": "资治通鉴",
+        "type": "book",
+        "norm": "资治通鉴",
+        "first_source": "17-015"
+      },
+      {
+        "ent_id": "ENT-17015-B02",
+        "name": "郡国志",
+        "type": "book",
+        "norm": "郡国志",
+        "first_source": "17-015"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-17015",
+        "item_id": "17-015",
+        "name": "广徳州",
+        "type": "prefecture",
+        "region": "南直隶",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "17",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "浙江湖州府长兴县界",
+              "distance_li": "三十"
+            },
+            {
+              "direction": "西",
+              "to_place": "寜国府宣城县界",
+              "distance_li": "一百"
+            },
+            {
+              "direction": "南",
+              "to_place": "湖州府安吉县界",
+              "distance_li": "六十"
+            },
+            {
+              "direction": "北",
+              "to_place": "应天府溧阳县界",
+              "distance_li": "七十"
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": "五百"
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "counties": [
+            {
+              "name": "十七里建平县",
+              "is_capital_county": false,
+              "households": "一百二十"
+            }
+          ],
+          "name": "广徳州",
+          "type": "prefecture",
+          "region": "南直隶"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "禹贡",
+        "detail": "扬州之域天文斗分野",
+        "action": "分置",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "春秋",
+        "detail": "属吴地名桐汭后属越属",
+        "action": "属",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "楚",
+        "detail": "秦为鄣郡地汉为丹阳郡故鄣县地鸿嘉初为广徳国",
+        "action": "沿革",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "东汉",
+        "detail": "分置广徳县仍属丹阳郡属吴属宣城郡因之",
+        "action": "分置",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "梁",
+        "detail": "分置石封县梁末増置大梁郡寻改为留郡",
+        "action": "改名/改为",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "隋",
+        "detail": "郡废改石封为绥安县属湖州以广徳县省入帝改属宣城郡",
+        "action": "废",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "唐",
+        "detail": "初以绥安置桃州后又改置宣州至徳初更绥安为广徳县南唐改为广徳制置司属升州宋太平兴国中置广徳军頴江南东路",
+        "action": "改名/改为",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "元",
+        "detail": "至元中陞为广徳路隶江浙行省",
+        "action": "省入",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "本朝",
+        "detail": "改广徳州直隶京师寻以广徳县省入编户一百二十七里",
+        "action": "省入",
+        "era": null,
+        "institution_name": ""
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-17015-01",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "横山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在州城西五里高出羣山之中四面望之皆横故名山之西南有祠山庙山巅有圣井四时不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-02",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "丹井山",
+        "type": "spring",
+        "location_text": "在州城南",
+        "description": "在州城南一十里相传昔徐真人于此錬丹丹井尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-03",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "竹山",
+        "type": "spring",
+        "location_text": "在州城南",
+        "description": "在州城南一十五里叠嶂层峦囘环拱揖有松竹泉石之胜絶顶有二亭曰巢云流玉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-04",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "方山",
+        "type": "mountain",
+        "location_text": "在州城南",
+        "description": "在州城南一十五里山势盘纡实州之胜地下有方侯祠因名山之口两峯对峙若二柱然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-05",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "鸡笼山",
+        "type": "mountain",
+        "location_text": "在州城南",
+        "description": "在州城南二十里俗呼鸡罩山中峯最高旁有两峰端列左右蔚然深秀为一州之竒观",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-06",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "仙石山",
+        "type": "mountain",
+        "location_text": "在州城南",
+        "description": "在州城南二十里山下有石高二丈许平坦可履世传尝有仙人月夜独立于上遗迹存焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-07",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "岩头山",
+        "type": "stream",
+        "location_text": "",
+        "description": "在州城西四十里两山屹立如关隘中夹一溪广徳南山之水皆会于此而入建溪每遇巨潦借此以障湍流奔突之势",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-08",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "金鸡山",
+        "type": "mountain",
+        "location_text": "在州城南",
+        "description": "在州城南五十里山有石洞旧传夜隂晦有火光然出洞中居民多见之又有一金鸡往来飞翔于上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-09",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "石鼓山",
+        "type": "mountain",
+        "location_text": "在州城东南",
+        "description": "在州城东南五十里山巅有巨石如鼔下有石如架旧传毎隂两则石鼔自鸣后坠于山南乱石中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-10",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "石妇山",
+        "type": "mountain",
+        "location_text": "在州城东南",
+        "description": "在州城东南五十里众山环绕中一峯独高峯之巅有石高二丈许如妇人状旧传谢氏女介洁有守登山化为石藤萝薜荔萦绕其上如衣被之状独露其面樵者不敢采",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-11",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "桃花山",
+        "type": "mountain",
+        "location_text": "在州城东南",
+        "description": "在州城东南六十里山上多桃开时如锦绣然山之石上有金牛及牧童足迹又有金鸡窠形皆天成",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-12",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "灵山",
+        "type": "lake",
+        "location_text": "在州城南",
+        "description": "在州城南七十里泉石甲于一郡上有文殊岩普贤台罗汉洞山水合流而出汇为丁公潭演迤数里前后有两巨石平广数十丈流瀑垂其上望之如织机",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-13",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "尖山",
+        "type": "spring",
+        "location_text": "在州城南",
+        "description": "在州城南七十里众峰环绕一峰巍然如书空之笔傍山皆巉岩之石石上有水一初无泉脉旱不涸雨不溢山下多飞泉白石之胜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-14",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "五花岩山",
+        "type": "mountain",
+        "location_text": "在州城北",
+        "description": "在州城北七十里横列五峰高三百丈许最高峰顶有白佛祠石壁上刋天寳年号遇旱祷雨輙应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-15",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "桐源山",
+        "type": "mountain",
+        "location_text": "在州城南",
+        "description": "在州城南八十里一名白石山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-16",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "大首山",
+        "type": "spring",
+        "location_text": "在州城西南",
+        "description": "在州城西南八十里其山最峻上有一井鱼时出没其中相传每遇隂雨隠隠有乐声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-17",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "镇山",
+        "type": "mountain",
+        "location_text": "在建平县南",
+        "description": "在建平县南五里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-18",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "赤山",
+        "type": "stream",
+        "location_text": "在建平县西南",
+        "description": "在建平县西南七里麓枕大溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-19",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "伍牙山",
+        "type": "lake",
+        "location_text": "在建平县东北",
+        "description": "在建平县东北四十里相传伍子胥伐楚还吴经此建牙因名上有子胥祠祠侧有潭遇旱祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-20",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "鸦山",
+        "type": "mountain",
+        "location_text": "在建平县南",
+        "description": "在建平县南九十里上一石高二丈许有弹迹百余俗呼为弹子石又有钓台旧传有仙人钓于此其山产茶宋梅询诗茶煑鸦山雪满瓯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-21",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "金牛岭",
+        "type": "mountain",
+        "location_text": "在州城东北",
+        "description": "在州城东北七十里四面皆重山中有一岭长亘十五里旧传有僧逐一金牛至此牛入洞中不出僧亦化石立于洞门外遇夜隂晦时有天灯见于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-22",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "大洞",
+        "type": "spring",
+        "location_text": "在州城东北",
+        "description": "在州城东北七十里广数丈深不可测游者秉烛而入有石燕羣飞乳泉滴沥神人佛像碁盘钟磬之属皆白石天成其东洞水深不可入昔传神龙所居遇旱祷雨輙应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-23",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "南碕湖",
+        "type": "lake",
+        "location_text": "",
+        "description": "在建平县西一十里流入丹阳湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-24",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "桐川水",
+        "type": "lake",
+        "location_text": "在州城西北",
+        "description": "在州城西北源出白石山西北流入丹阳湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-25",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "大源溪",
+        "type": "river",
+        "location_text": "",
+        "description": "自寜国府大陶山流经州界下流入南碕湖自丹阳湖芜湖达于江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-26",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "鲤洪溪",
+        "type": "stream",
+        "location_text": "在州城东南",
+        "description": "在州城东南一十里其源有二防流于此灌田二万余亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-27",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "清涧",
+        "type": "lake",
+        "location_text": "在建平县北",
+        "description": "在建平县北三里东接浮湖西通北溪四时澄澈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-28",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "洗马涧",
+        "type": "stream",
+        "location_text": "在建平县东南",
+        "description": "在建平县东南四十五里世传唐僖宗时黄巢作乱命李克用征之于此洗马因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-29",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "金井",
+        "type": "spring",
+        "location_text": "在州治南",
+        "description": "在州治南门外泉甚清冽本朝初车驾尝幸其地饮水因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-30",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "范公井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在州治宋大中祥符间范仲淹所凿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-31",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "氷玉井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在建平县西一十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-32",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "不老泉",
+        "type": "spring",
+        "location_text": "在州城南",
+        "description": "在州城南四十里泉脉长流大旱不竭古有石碑刻不老泉三字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-33",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "八角井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在建平县高封周宅旧传井有藏金乡民尝欲取之水輙沸涌隠隠闻笙箫之声乃出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-17015-34",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "浴兵池",
+        "type": "lake",
+        "location_text": "在州东南",
+        "description": "在州东南三十里亦名东亭湖",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-17015-01",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "鲍永",
+        "type": "名宦",
+        "dynasty": "汉",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "扬州牧时光武初定天下南土尚多冦暴永以痍伤之后乃缓其衔辔百姓安之"
+      },
+      {
+        "per_id": "PER-17015-02",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张禹",
+        "type": "名宦",
+        "dynasty": "汉",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "建初中扬州刺史当过江行部中土民皆以江有子胥之神难于济涉禹厉言曰子胥如有灵知吾志在理察枉讼岂危我哉遂鼓楫而过郡邑深幽之处莫不毕到亲録囚徒多所明举"
+      },
+      {
+        "per_id": "PER-17015-03",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "谢尚",
+        "type": "名宦",
+        "dynasty": "晋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "歴阳太守政尚清简"
+      },
+      {
+        "per_id": "PER-17015-04",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "甘卓",
+        "type": "名宦",
+        "dynasty": "晋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "歴阳内史外柔内刚为政简惠善于抚绥"
+      },
+      {
+        "per_id": "PER-17015-05",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "南北朝刘湛",
+        "type": "名宦",
+        "dynasty": "晋",
+        "era": null,
+        "native_place": "守政尚刚严下人",
+        "office": "",
+        "summary": "宋歴阳太守政尚刚严下人震肃"
+      },
+      {
+        "per_id": "PER-17015-06",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张齐",
+        "type": "名宦",
+        "dynasty": "晋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "梁歴阳太守在郡清整吏事修饬"
+      },
+      {
+        "per_id": "PER-17015-07",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张知謇",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州刺史清介有威严武后时降玺书存问"
+      },
+      {
+        "per_id": "PER-17015-08",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张无择",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州刺史水潦害农无择请蠲谷籍之损者什七八时采访使李知柔素不快其直谅密奏以附下贬苏州别驾老幼数百号泣遮道信宿方得去"
+      },
+      {
+        "per_id": "PER-17015-09",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "刘禹锡",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州刺史有文名白居易诗换印虽频命未通歴阳湖上又秋风不教才展休明代为罚诗争造化功"
+      },
+      {
+        "per_id": "PER-17015-10",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张万福",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州刺史徳宗曰江淮草木亦知威名"
+      },
+      {
+        "per_id": "PER-17015-11",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "凌准",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州刺史有政绩栁宗元为作权厝志"
+      },
+      {
+        "per_id": "PER-17015-12",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "傅尧俞",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州有惠政"
+      },
+      {
+        "per_id": "PER-17015-13",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "范纯仁",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州徳政着闻"
+      },
+      {
+        "per_id": "PER-17015-14",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "刘挚",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州有善政"
+      },
+      {
+        "per_id": "PER-17015-15",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "胡宗愈",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州留意民事讼至立决"
+      },
+      {
+        "per_id": "PER-17015-16",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "居厚",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州有仁厚之政奏减苛征罢无名之赋"
+      },
+      {
+        "per_id": "PER-17015-17",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "游酢",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "事之余训诲士人",
+        "office": "",
+        "summary": "知和州视事之余训诲士人以性命之学风俗为之丕变诸生多宗师之"
+      },
+      {
+        "per_id": "PER-17015-18",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "吕希道",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州苏轼送以诗云去年送君守解梁今年送君守歴阳观君崛郁负竒表便合劒佩趋明光"
+      },
+      {
+        "per_id": "PER-17015-19",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "凌冲",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "熙寜间知含山县律己甚严一毫不妄取秩满归装有一砧冲视之曰非吾来时物命还之"
+      },
+      {
+        "per_id": "PER-17015-20",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "昌祚",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州钤辖权领州事建炎中金乌珠犯和州昌祚率众坚守城陷与权倅唐景歴阳令蹇誉司户徐兟县尉邵元通皆死谯楼上"
+      },
+      {
+        "per_id": "PER-17015-21",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "韦永夀",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "以统制官与金人",
+        "office": "",
+        "summary": "绍兴末以统制官与金人战和州子世坚救之同死永夀赠融州观察使世坚赠三官"
+      },
+      {
+        "per_id": "PER-17015-22",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "姚兴",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "绍兴末金主亮犯江兴以统制鏖战于尉子桥援军不至死之赠容州观察使"
+      },
+      {
+        "per_id": "PER-17015-23",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "虎",
+        "type": "名宦",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "士封感义郡夫人",
+        "office": "人母者皆知",
+        "summary": "开禧间守和州破敌全城民为立生祠母何氏倾家赀以犒军士封感义郡夫人告略云有子而才画州以守慈亲白发共誓丹心爰超大郡之封庸正小君之号使天下之为人母者皆知以是教其子使天下之为子者皆知以是显其亲"
+      },
+      {
+        "per_id": "PER-17015-24",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "赵师嵓",
+        "type": "名宦",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "和州观察使有惠政"
+      },
+      {
+        "per_id": "PER-17015-25",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "马泽",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州以儒术饬吏事门无杂賔庭无留讼"
+      },
+      {
+        "per_id": "PER-17015-26",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张纯诚",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "洪武初知和州凡城池学校祠庙衢路俱有起废之功"
+      },
+      {
+        "per_id": "PER-17015-27",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "李相",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "洪武中由京尹出知和州有惠政尝筑郭公坝铜城闸石闸剏州署及和丰仓"
+      },
+      {
+        "per_id": "PER-17015-28",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "善",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "州从之俾知",
+        "summary": "洪武初歴阳知县请复县为州从之俾知和州养民以徳有良吏之风"
+      },
+      {
+        "per_id": "PER-17015-29",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "戴泰一",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "永乐初以隠逸应召知和州以清白称"
+      },
+      {
+        "per_id": "PER-17015-30",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "侯润",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "善讼简盗息州人",
+        "office": "",
+        "summary": "和州知州严明防干抑强扶弱民化为善讼简盗息州人懐之"
+      },
+      {
+        "per_id": "PER-17015-31",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "刘隆",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知和州刚正勤慎兴利除害实仓储平籴粜防年民赖以给且兴学造士多所成就焉畿志"
+      },
+      {
+        "per_id": "PER-17015-32",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "董锡",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "和州莅官严明人",
+        "office": "",
+        "summary": "同知和州莅官严明人不敢私干之吏胥畏服均徭役清军伍修学校兴水利其功尤多畿志"
+      },
+      {
+        "per_id": "PER-17015-33",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "琏",
+        "type": "名宦",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "成化末知含山县防静简易专务徳化训迪诸生全活饥莩民爱之如父母南畿志"
+      },
+      {
+        "per_id": "PER-17015-34",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "吕希哲",
+        "type": "流寓",
+        "dynasty": null,
+        "era": null,
+        "native_place": "河南人",
+        "office": "",
+        "summary": "河南人宋相公着之子尝从程伊川学为崇政殿説书绍圣间坐党谪居和州宴然静坐一室有诗云除却借书沽酒外更无一事扰公私"
+      },
+      {
+        "per_id": "PER-17015-35",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "危素",
+        "type": "流寓",
+        "dynasty": null,
+        "era": null,
+        "native_place": "临川人",
+        "office": "",
+        "summary": "临川人元叅知政事有文名入本朝为学士洪武初谪居和州"
+      },
+      {
+        "per_id": "PER-17015-36",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "王可举",
+        "type": "流寓",
+        "dynasty": null,
+        "era": null,
+        "native_place": "洛阳人",
+        "office": "",
+        "summary": "洛阳人元文馆学士本朝洪武初谪居和州"
+      },
+      {
+        "per_id": "PER-17015-37",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "南北朝刘瑜",
+        "type": "人物",
+        "dynasty": null,
+        "era": null,
+        "native_place": "宋歴阳人",
+        "office": "",
+        "summary": "宋歴阳人事母至孝母丧三年不进盐酪服除二十余年布衣疏食言輙流涕"
+      },
+      {
+        "per_id": "PER-17015-38",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "昌义之",
+        "type": "人物",
+        "dynasty": null,
+        "era": null,
+        "native_place": "梁乌江人",
+        "office": "",
+        "summary": "梁乌江人有武干每战必捷性寛厚为将能得人死力累功至防军将军"
+      },
+      {
+        "per_id": "PER-17015-39",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "勒思齐",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "歴阳人",
+        "office": "",
+        "summary": "歴阳人武后召见竒之授游击将军李白诗太古歴阳郡化为洪川在江山犹郁盘龙虎秘光彩特生勒将军神力百夫倍"
+      },
+      {
+        "per_id": "PER-17015-40",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张籍",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "乌江人",
+        "office": "",
+        "summary": "乌江人善古诗及书翰行草举进士歴水部员外郎官至国子司业籍性狷直不容物是时韩愈以文衡轻重天下士而籍为愈客且荐于朝自是名播人口一时贤士争与之游"
+      },
+      {
+        "per_id": "PER-17015-41",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "何蕃",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人为太学生二十余年学成行尊诸生不敢与齿朱泚反诸生将从乱蕃正色叱之故六馆之士无受污者韩愈为作传"
+      },
+      {
+        "per_id": "PER-17015-42",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "沈立",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "歴阳人",
+        "office": "右谏议大夫",
+        "summary": "歴阳人以进士累官右谏议大夫判都水监尝着河防通议治河者悉守为法歴事三朝白首一节储书至数万卷神宗问所藏立上其目及所著名山水记三百卷后知宣州提举崇禧观"
+      },
+      {
+        "per_id": "PER-17015-43",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "钱藻",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人师胡瑗与同郡邱鄜前后举进士并以词学推重于时藻官至翰林侍读学士"
+      },
+      {
+        "per_id": "PER-17015-44",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "矼",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "歴阳人",
+        "office": "",
+        "summary": "歴阳人少頴悟时方尚王安石新説矼独守所学宣和中上舍反第高宗时为殿中侍御史屡进谠言金人南侵矼请扈从亲征及请罢讲和忤秦桧意出奉祠"
+      },
+      {
+        "per_id": "PER-17015-45",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "蒋子春",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "歴阳人",
+        "office": "",
+        "summary": "歴阳人教授乡里建炎初金师至新塘见子春挟书又人物秀整喜之欲命以官子春怒骂为敌所杀"
+      },
+      {
+        "per_id": "PER-17015-46",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "徐兢",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "歴阳人",
+        "office": "",
+        "summary": "歴阳人作邑有善状篆籀得李斯法"
+      },
+      {
+        "per_id": "PER-17015-47",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张卲",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "乌江人",
+        "office": "",
+        "summary": "乌江人登上舍第建炎中以直龙图阁使金议论不屈留燕中十余年而归陞秘阁修譔后知池州卒赠少师有文集十卷子孝曽后亦以出使没于金"
+      },
+      {
+        "per_id": "PER-17015-48",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张孝祥",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "",
+        "office": "集贤殿修譔歴知",
+        "summary": "卲从子父祁与胡寅厚秦桧憾寅下祁大理狱后得免孝祥读书一过目不忘文章俊逸尤工翰墨绍兴中进士第一累官集贤殿修譔歴知平江静江荆南皆有声绩及卒孝宗惜之有用才不尽之叹"
+      },
+      {
+        "per_id": "PER-17015-49",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张孝伯",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "和州人",
+        "office": "叅知",
+        "summary": "和州人隆兴间进士官至叅知政事时韩侂胄当国孝伯劝弛伪学党禁一时贤人贬斥者得渐还故职子即之以父恩授承务郎累官司农寺丞知嘉兴以直秘阁致仕能书闻天下金人得其翰墨重之如寳"
+      },
+      {
+        "per_id": "PER-17015-50",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "龚楫",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "父原本处州人",
+        "office": "兵部侍郎",
+        "summary": "父原本处州人仕为兵部侍郎崇寜中谪居和州因家焉楫懦如不胜衣闻金人陷郡县辄忿恚不食乌珠据和州楫率家僮等徃袭之得数百人金救兵大至楫麾其众曰今日鬭死亦足为义士遂死之"
+      },
+      {
+        "per_id": "PER-17015-51",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "何宗英",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人绍兴间以布衣上书数万言论敌必渝盟冝先事为备与其坐困一隅不若进幸建康以壮国势"
+      },
+      {
+        "per_id": "PER-17015-52",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "赵时赏",
+        "type": "人物",
+        "dynasty": "魏",
+        "era": null,
+        "native_place": "櫂知邵武军为人",
+        "office": "江西招讨副使",
+        "summary": "宋宗室居和州举咸淳进士知旌徳县櫂知邵武军为人风神明俊议论慷慨文天祥开府南劒知其有谋防奏辟叅议军事为江西招讨副使空坑兵败被执不屈死之"
+      },
+      {
+        "per_id": "PER-17015-53",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张茂之",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "和州人",
+        "office": "淮南转运使",
+        "summary": "和州人累官淮南转运使以寛厚长者见称"
+      },
+      {
+        "per_id": "PER-17015-54",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "华高",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "含山人",
+        "office": "",
+        "summary": "含山人初以舟师从征累官湖广行省平章政事天下已定论功封广徳侯后命徃巡海南诸城卒于琼州讣闻朝廷悯其无子诏纳铁券于墓中追封巢国公諡武壮"
+      },
+      {
+        "per_id": "PER-17015-55",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "亨",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人洪武初以征战功累陞大寜都司都指挥及告归展墓赐以御譔碑文后镇守大寜号令严明下人畏服"
+      },
+      {
+        "per_id": "PER-17015-56",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "杨文",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "含山人",
+        "office": "",
+        "summary": "含山人洪武初从征屡立战功朝廷嘉之累陞右军都督府都督"
+      },
+      {
+        "per_id": "PER-17015-57",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "李彬",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人洪武中袭父职济州卫指挥佥事勇畧过人永乐初以靖难功进封丰城侯赐以铁券子孙世袭后命镇守交趾卒追封茂国公諡刚毅"
+      },
+      {
+        "per_id": "PER-17015-58",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "李濬",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人父旺洪武初以从征有功授副千户濬袭职勇敢自奋累功陞北平都指挥同知永乐初以靖难功进封襄城伯及卒子隆袭爵为将重儒下士御众有方守备南京声誉赫然"
+      },
+      {
+        "per_id": "PER-17015-59",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "纪清",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "含山人",
+        "office": "",
+        "summary": "含山人洪武初以从征功授济阳卫指挥克效勤劳永乐初以靖难功进陞右军都督佥事"
+      },
+      {
+        "per_id": "PER-17015-60",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "耿定",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人歴官刑部郎中以才优举陞叅议转任浙江布政司正统末处州盗起定领兵勦捕率先督战死于兵事闲赠浙江按察司副使遣官谕祭"
+      },
+      {
+        "per_id": "PER-17015-61",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "马谅",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人举宣徳进士才识过人尹应天专务徳化歴官户部侍郎畿志"
+      },
+      {
+        "per_id": "PER-17015-62",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "忠",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "含山人",
+        "office": "",
+        "summary": "含山人由乡举知密云县忠信愿慤以贤着闻民徳之如父母畿志"
+      },
+      {
+        "per_id": "PER-17015-63",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "徐氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "宋和州人",
+        "office": "",
+        "summary": "宋和州人北兵抵维扬官军奔溃多肆掳掠执徐欲污之徐瞠目大骂曰朝廷蓄汝辈以备缓急今敌犯行在既不能赴难又乗时为盗我恨不能断汝头肯为汝辱第速杀我贼惭恚杀之投江中"
+      },
+      {
+        "per_id": "PER-17015-64",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "和州人",
+        "office": "",
+        "summary": "和州人周徳新妻夫早丧张守节终其身事闻洪武间旌表畿志"
+      },
+      {
+        "per_id": "PER-17015-65",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "尹氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "含山人",
+        "office": "",
+        "summary": "含山人张子文妻夫卒育遗腹子可成后为千户洪武间旌表畿志"
+      },
+      {
+        "per_id": "PER-17015-66",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "包氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "高化贤妻和州人",
+        "office": "",
+        "summary": "高化贤妻和州人夫亡守节宣徳中旌表畿志"
+      },
+      {
+        "per_id": "PER-17015-67",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张氏女",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "含山人",
+        "office": "",
+        "summary": "含山人正徳初父诚贫而无子疾将革张痛切且恨以女子不能为父后遂吁天割股和药以进请以身代畿志"
+      },
+      {
+        "per_id": "PER-17015-68",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "栖霞",
+        "type": "仙释",
+        "dynasty": "商",
+        "era": null,
+        "native_place": "歴阳人",
+        "office": "",
+        "summary": "歴阳人唐大歴中居于白石山下彭仙洞善吐纳之术絶粒三十年"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-17015-01",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "百福寺",
+        "type": "temple",
+        "location_text": "在州治西南",
+        "history_lore": "在州治西南"
+      },
+      {
+        "site_id": "SITE-17015-02",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "香严寺",
+        "type": "temple",
+        "location_text": "在州城南",
+        "history_lore": "在州城南七十里"
+      },
+      {
+        "site_id": "SITE-17015-03",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "庄严寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在州城西二十五里旧名苦竹寺寺有海棠洞徐申诗深春苦竹寺细雨海棠花"
+      },
+      {
+        "site_id": "SITE-17015-04",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "安国寺",
+        "type": "temple",
+        "location_text": "在县治西南",
+        "history_lore": "在县治西南隅"
+      },
+      {
+        "site_id": "SITE-17015-05",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "褒山寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在褒禅山有石塔宋张孝祥为书宝塔二字墨迹入石三分至今人异之"
+      },
+      {
+        "site_id": "SITE-17015-06",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "妙观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在州治西旧名天庆元改今名"
+      },
+      {
+        "site_id": "SITE-17015-07",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "淳熙观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在州城西四十里一名夀寜宫相传为许由故宅"
+      },
+      {
+        "site_id": "SITE-17015-08",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "栖云观",
+        "type": "temple",
+        "location_text": "在州城西南",
+        "history_lore": "在州城西南五十里"
+      },
+      {
+        "site_id": "SITE-17015-09",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "寳台观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在县治东"
+      },
+      {
+        "site_id": "SITE-17015-10",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "兴教院",
+        "type": "temple",
+        "location_text": "在县西南",
+        "history_lore": "在县西南七十五里东关之颠有项羽饮马池卓刀泉"
+      },
+      {
+        "site_id": "SITE-17015-11",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "魏武帝祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在东关唐刘禹锡诗曹操祠犹在濡须坞未平"
+      },
+      {
+        "site_id": "SITE-17015-12",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "尊贤祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在州学内旧有张籍何蕃祠在学之东庑宋开禧间建本朝正统二年建此祠以祀张籍何蕃彭思永沈立沈文通钱藻游酢魏矼张邵张孝祥张孝伯龚楫蒋子春何宗英危素凡十五人"
+      },
+      {
+        "site_id": "SITE-17015-13",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "西楚霸王庙",
+        "type": "shrine",
+        "location_text": "在州城东北",
+        "history_lore": "在州城东北四十里西楚霸王项羽也宋绍兴间金主亮欲渡江乞杯珓不从亮怒欲焚庙俄有大蛇绕出屋梁殿后林木中鼓噪发声若数千兵亮大惊左右骇散许表诗千载兴亡莫浪愁汉家功业亦荒邱空余原上虞姬草舞尽春风未肯休"
+      },
+      {
+        "site_id": "SITE-17015-14",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "灌将军庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在州城外宋绍兴间建祀汉頴隂侯灌婴婴尝自歴阳还定江淮"
+      },
+      {
+        "site_id": "SITE-17015-15",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "旌忠庙",
+        "type": "shrine",
+        "location_text": "在县西北",
+        "history_lore": "在县西北尉子桥宋绍兴间金主亮犯江统制姚兴死之事闻为立庙战所赐额精忠亮有诗褒之曰独领孤军将姓姚一心忠孝为南朝元戎若假征兵援未必将军死尉桥"
+      },
+      {
+        "site_id": "SITE-17015-16",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "忠烈侯庙",
+        "type": "shrine",
+        "location_text": "在州治南",
+        "history_lore": "在州治南宋开禧间建祀守臣周虎虎有捍城破敌功时人比之张睢阳淳佑七年赐庙额"
+      },
+      {
+        "site_id": "SITE-17015-17",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "桓荣墓",
+        "type": "tomb",
+        "location_text": "在县南",
+        "history_lore": "在县南二十里按荣传荣卒赐首山之阳此必江左诸桓之墓疑后人以其姓同而傅防之云"
+      },
+      {
+        "site_id": "SITE-17015-18",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "彭思永墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在州城外一十里延庆寺西思永庐陵人仕宋以户部侍郎致仕居和州卒于此"
+      },
+      {
+        "site_id": "SITE-17015-19",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "游酢墓",
+        "type": "tomb",
+        "location_text": "在县界",
+        "history_lore": "在县界内酢宋建州人师二程子累官监察御史尝知和州因家焉卒于此"
+      },
+      {
+        "site_id": "SITE-17015-20",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "龙亢县城",
+        "type": "historic_site",
+        "location_text": "在含山县南",
+        "history_lore": "在含山县南四十里东晋侨置此县周大象初并入歴阳唐分置含山县此地属焉"
+      },
+      {
+        "site_id": "SITE-17015-21",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "亚父城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在州境刘禹锡记城高而坚亚父所营亚父楚范增也"
+      },
+      {
+        "site_id": "SITE-17015-22",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "古罗城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在州境俗传汉灌婴所筑"
+      },
+      {
+        "site_id": "SITE-17015-23",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "遏胡城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在州城西郡国志歴阳西有遏胡城晋王导筑以遏石虎"
+      },
+      {
+        "site_id": "SITE-17015-24",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "晋王城",
+        "type": "historic_site",
+        "location_text": "在县界",
+        "history_lore": "在县界符坚侵晋以姚苌为先锋晋筑城于此以御之"
+      },
+      {
+        "site_id": "SITE-17015-25",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "乌江废县",
+        "type": "historic_site",
+        "location_text": "在州北",
+        "history_lore": "在州北本秦乌江亭汉为东城县地晋始置乌江县梁于县置江都郡北齐改齐江郡陈改临江郡后周又改乌江郡隋改为县宋绍兴中废为镇寻复置本朝省入和州"
+      },
+      {
+        "site_id": "SITE-17015-26",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "歴阳废县",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在州城内本秦县项羽封范増为歴阳侯即此新莽改曰明义东汉以来仍为歴阳县本朝并入和州"
+      },
+      {
+        "site_id": "SITE-17015-27",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "斗米迳",
+        "type": "historic_site",
+        "location_text": "在县南",
+        "history_lore": "在县南八十里隋末杜伏威将李子建欲穿渠入歴湖通运率部下人赍斗米就役米尽迳成故名"
+      },
+      {
+        "site_id": "SITE-17015-28",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "陋室",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在州治唐刘禹锡所辟有陋室铭"
+      },
+      {
+        "site_id": "SITE-17015-29",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "袁天纲宅",
+        "type": "historic_site",
+        "location_text": "在州城南",
+        "history_lore": "在州城南三十里地名南羲天纲唐人精相术"
+      },
+      {
+        "site_id": "SITE-17015-30",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "张籍宅",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在州城通淮门内旧光孝寺籍唐文人又州西桃花坞有籍读书处"
+      },
+      {
+        "site_id": "SITE-17015-31",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "沈阳右卫",
+        "type": "office",
+        "location_text": "",
+        "history_lore": "在州治东洪武三十五年建"
+      },
+      {
+        "site_id": "SITE-17015-32",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "和州学",
+        "type": "school",
+        "location_text": "在州治东南",
+        "history_lore": "在州治东南宋开禧中建元季废本朝洪武六年重建正统六年重修"
+      },
+      {
+        "site_id": "SITE-17015-33",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "含山县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治东宋崇寜初建元季燬本朝洪武十五年重建景泰元年重修"
+      },
+      {
+        "site_id": "SITE-17015-34",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "镇西楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州治前洪武初叅军郭景祥建正统二年重修"
+      },
+      {
+        "site_id": "SITE-17015-35",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "清风楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州城西宋元祐间名连云观郭祥正诗乆持使节别尧天故起朱楼北斗边势压江淮盘地厚影分吴楚与云连"
+      },
+      {
+        "site_id": "SITE-17015-36",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "西山阁",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州圃"
+      },
+      {
+        "site_id": "SITE-17015-37",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "尊经堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州学宋嘉定间建元至治间重修危素有记"
+      },
+      {
+        "site_id": "SITE-17015-38",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "惠政堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州治防事西宋孝宗居青宫时大书此三字赐守臣胡昉"
+      },
+      {
+        "site_id": "SITE-17015-39",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "三老堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州治宋元祐间孙贲建三老谓知州刘挚傅尧俞范纯仁胡彦国诗歴阳賔主昔多贤三老风流二十年獬豸冠中曽补衮鳯凰池上迭擎天"
+      },
+      {
+        "site_id": "SITE-17015-40",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "三觉堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在梁山广教院三觉谓贾易龚原及□智师冲防贾与龚以危言正论谪居和州尝造防所萧然宴坐终日"
+      },
+      {
+        "site_id": "SITE-17015-41",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "梅堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在三老堂之西"
+      },
+      {
+        "site_id": "SITE-17015-42",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "项亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在乌江浦唐李徳裕赋望牛渚之苍然叹乌江之不渡思项氏之入关按秦图而割据恃八千之剽疾弃百二之险固咸阳不留王业已去"
+      },
+      {
+        "site_id": "SITE-17015-43",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "犀照亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在州城东一十里当利口北岸晋温峤闻水底有音乐之声燃犀照之因以名亭"
+      },
+      {
+        "site_id": "SITE-17015-44",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "水心亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在三老堂前唐张籍诗送客特过沙口堰看花多上水心亭"
+      },
+      {
+        "site_id": "SITE-17015-45",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "衣锦亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "宋刘挚诗隂隂佳木与城齐襟防迎风弄晚晖"
+      },
+      {
+        "site_id": "SITE-17015-46",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "凌云亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "刘挚诗轩宇慿虚出半天忽惊身寄白云端"
+      },
+      {
+        "site_id": "SITE-17015-47",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "华阳亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在华阳山下"
+      },
+      {
+        "site_id": "SITE-17015-48",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "老子台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在乌江县东华山"
+      },
+      {
+        "site_id": "SITE-17015-49",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "东关",
+        "type": "bridge_pass",
+        "location_text": "在县西南",
+        "history_lore": "在县西南七十里即魏关宋置东关砦"
+      },
+      {
+        "site_id": "SITE-17015-50",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "石湖关",
+        "type": "bridge_pass",
+        "location_text": "",
+        "history_lore": "在州境宋绍兴间乌珠再犯境张俊以兵五千守此乌珠遁去即此"
+      },
+      {
+        "site_id": "SITE-17015-51",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "清淮桥",
+        "type": "bridge_pass",
+        "location_text": "在州治南",
+        "history_lore": "在州治南跨市河"
+      },
+      {
+        "site_id": "SITE-17015-52",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "菩提桥",
+        "type": "bridge_pass",
+        "location_text": "",
+        "history_lore": "在百福寺东跨市河"
+      },
+      {
+        "site_id": "SITE-17015-53",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "桃花坞桥",
+        "type": "bridge_pass",
+        "location_text": "在州西五里",
+        "history_lore": "在州西五里"
+      },
+      {
+        "site_id": "SITE-17015-54",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "乗驷桥",
+        "type": "bridge_pass",
+        "location_text": "在州城南",
+        "history_lore": "在州城南"
+      },
+      {
+        "site_id": "SITE-17015-55",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "石桥",
+        "type": "bridge_pass",
+        "location_text": "在县治南",
+        "history_lore": "在县治南上有观音阁又名观音桥"
+      },
+      {
+        "site_id": "SITE-17015-56",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "尉子桥",
+        "type": "bridge_pass",
+        "location_text": "在县治西北",
+        "history_lore": "在县治西北宋统制姚兴与金人战死处"
+      },
+      {
+        "site_id": "SITE-17015-57",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "安阳渡",
+        "type": "bridge_pass",
+        "location_text": "在乌江县东北",
+        "history_lore": "在乌江县东北八十里与建康上元县对岸"
+      },
+      {
+        "site_id": "SITE-17015-58",
+        "item_id": "17-015",
+        "geo_id": "GEO-17015",
+        "name": "新河渡",
+        "type": "bridge_pass",
+        "location_text": "在州南",
+        "history_lore": "在州南二□里长寿乡"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-17015-001",
+        "item_id": "17-015",
+        "cited_work": "资治通鉴",
+        "cited_work_ent_id": null,
+        "context": "虚中【广徳人举进士歴官吏部尚书所着有资治通鉴事类十卷左传国语要畧十卷考异三卷国史",
+        "original": ""
+      },
+      {
+        "cit_id": "CIT-17015-002",
+        "item_id": "17-015",
+        "cited_work": "郡国志",
+        "cited_work_ent_id": null,
+        "context": "州境俗传汉灌婴所筑】遏胡城【在州城西郡国志歴阳西有遏胡城晋王导筑以遏石虎】晋王",
+        "original": ""
+      }
+    ]
+  },
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "sections_found": 19,
+  "layer_count": 7
+}

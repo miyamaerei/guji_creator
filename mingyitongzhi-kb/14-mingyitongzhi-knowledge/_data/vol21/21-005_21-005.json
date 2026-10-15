@@ -1,0 +1,389 @@
+{
+  "item_id": "21-005",
+  "volume": "21",
+  "source": "沁州",
+  "region": "山西",
+  "type": "subprefecture",
+  "original": "沁州【东至潞安府界二百一十里西至平阳府霍州界二百五十里南至潞安府界三百五十里北至太原府太谷县界三百三十里自州治至京师一千七百里至南京二千四百里粮四万八千二百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-21401",
+        "name": "沁州",
+        "type": "geo",
+        "norm": "沁州",
+        "first_source": "21-005"
+      },
+      {
+        "ent_id": "ENT-21402",
+        "name": "铜鞮",
+        "type": "geo",
+        "norm": "铜鞮",
+        "first_source": "21-005"
+      },
+      {
+        "ent_id": "ENT-21403",
+        "name": "绵山",
+        "type": "mtn",
+        "norm": "绵山",
+        "first_source": "21-005"
+      },
+      {
+        "ent_id": "ENT-21404",
+        "name": "石勒",
+        "type": "person",
+        "norm": "石勒",
+        "first_source": "21-005"
+      },
+      {
+        "ent_id": "ENT-21405",
+        "name": "王通",
+        "type": "person",
+        "norm": "王通",
+        "first_source": "21-005"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-21401",
+        "item_id": "21-005",
+        "name": "沁州",
+        "type": "subprefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷21",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "潞安府界",
+              "distance_li": 210
+            },
+            {
+              "direction": "西",
+              "to_place": "平阳府霍州界",
+              "distance_li": 250
+            },
+            {
+              "direction": "南",
+              "to_place": "潞安府界",
+              "distance_li": 350
+            },
+            {
+              "direction": "北",
+              "to_place": "太原府太谷县界",
+              "distance_li": 330
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1700
+            },
+            {
+              "capital": "南京",
+              "distance_li": 2400
+            }
+          ],
+          "households": {
+            "count": 66,
+            "unit": "里",
+            "note": "编户六十六里，领县二"
+          },
+          "grain_tax": {
+            "amount": 48200,
+            "unit": "石",
+            "note": "粮四万八千二百石零"
+          },
+          "jun_name": "义宁/阳城",
+          "topography": "铜鞮案其前龟山镇其后【郡志】",
+          "customs": "专力耕农少事商贾【州志：其俗勤俭朴实，专力耕农，少事商贾】",
+          "garrisons": [
+            {
+              "name": "沁州守御千户所",
+              "type": "所",
+              "location_text": "在州治西，本朝洪武十一年建"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-21401",
+          "CIT-21402",
+          "CIT-21403"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-21401",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "秦汉",
+        "era": null,
+        "institution_name": "上党郡地",
+        "action": "因之",
+        "detail": "禹贡冀州之域，春秋晋地，后属韩又属赵；秦汉皆上党郡地"
+      },
+      {
+        "evo_id": "EVO-21402",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "义宁郡",
+        "action": "置郡",
+        "detail": "后魏置义宁郡"
+      },
+      {
+        "evo_id": "EVO-21403",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "沁州/义宁郡",
+        "action": "改",
+        "detail": "隋初郡废，置沁州治沁源县；大业初州罢，义宁初复置义宁郡"
+      },
+      {
+        "evo_id": "EVO-21404",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "沁州/阳城郡",
+        "action": "改",
+        "detail": "唐初复为沁州，属河东路；天宝初改阳城郡；乾元初复曰沁州"
+      },
+      {
+        "evo_id": "EVO-21405",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "威胜军",
+        "action": "降",
+        "detail": "宋于铜鞮县界置威胜军，寻以州省入"
+      },
+      {
+        "evo_id": "EVO-21406",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "沁州",
+        "action": "复",
+        "detail": "金复改沁州，元隶平阳路"
+      },
+      {
+        "evo_id": "EVO-21407",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "沁州",
+        "action": "因之",
+        "detail": "本朝洪武初以附郭铜鞮县省入，直隶山西布政司，编户六十六里，领县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-21401",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "龟山",
+        "type": "山",
+        "location_text": "在州城西北五里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21402",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "铜鞮山",
+        "type": "山",
+        "location_text": "在州城南四十里",
+        "description": "一名紫金山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21403",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "绵山",
+        "type": "山",
+        "location_text": "在沁源县北一百里",
+        "description": "相传介之推自焚之所",
+        "lore": "有庙在焉"
+      },
+      {
+        "mtn_id": "MTN-21404",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "漳河",
+        "type": "河",
+        "location_text": "其水有二",
+        "description": "一自伏牛山西谷发源经州城西南流，一自古甲分水岭下发源经武乡县东南流入潞州界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21405",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "沁河",
+        "type": "河",
+        "location_text": "在沁源县城东",
+        "description": "源出绵山东谷，流入平阳府岳阳县界",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-21401",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "郭饶",
+        "type": "名宦",
+        "dynasty": "五代",
+        "native_place": "",
+        "office": "晋沁州刺史",
+        "summary": "仕晋为沁州刺史，为政有惠爱，民思之不忘"
+      },
+      {
+        "per_id": "PER-21402",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "杜丰",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "沁州长官",
+        "summary": "在沁十余年，宽徭薄赋，劝课农桑，民以富足；及卒，沁人立祠岁时祀焉"
+      },
+      {
+        "per_id": "PER-21403",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "石勒",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "武乡",
+        "office": "后赵赵王",
+        "summary": "武乡县人，生有豪志；后因晋乱起兵割据，都襄国，自称赵王"
+      },
+      {
+        "per_id": "PER-21404",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "李熹",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "铜鞮",
+        "office": "太子太傅/尚书仆射",
+        "summary": "少有高行，累辞征辟；初仕晋拜御史中丞，当官正色百寮震肃；后仕魏为太子太傅迁尚书仆射，卒赠太保"
+      },
+      {
+        "per_id": "PER-21405",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "杜思敬",
+        "type": "流寓",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "中书左丞",
+        "summary": "丰子，随父寓沁州；仕元官至中书左丞，卒谥文定"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-21401",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "沁州学",
+        "type": "学校",
+        "location_text": "在州治西",
+        "history_lore": "本朝洪武二年建"
+      },
+      {
+        "site_id": "SITE-21402",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "天宁寺",
+        "type": "寺观",
+        "location_text": "在州城东",
+        "history_lore": "后周建，本朝洪武十五年重修"
+      },
+      {
+        "site_id": "SITE-21403",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "铜鞮城",
+        "type": "古迹",
+        "location_text": "在州城南",
+        "history_lore": "本晋大夫羊舌赤邑，汉始为县属上党郡；金徙沁州治此，本朝省入州"
+      },
+      {
+        "site_id": "SITE-21404",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "阏与城",
+        "type": "古迹",
+        "location_text": "在州城西北二十里",
+        "history_lore": "史记赵奢大破秦军解阏与之围即此地；汉曰阏与聚，俗呼乌苏村"
+      },
+      {
+        "site_id": "SITE-21405",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "文中子祠",
+        "type": "祠庙",
+        "location_text": "在州城南四十里",
+        "history_lore": "文中子隋王通也，通尝读书于此，后人为立祠祀之"
+      },
+      {
+        "site_id": "SITE-21406",
+        "item_id": "21-005",
+        "geo_id": "GEO-21401",
+        "name": "羊舌大夫墓",
+        "type": "陵墓",
+        "location_text": "在州城南四十五里",
+        "history_lore": "春秋晋大夫羊舌伯华葬此；叔向墓同地"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-21401",
+        "item_id": "21-005",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-21402",
+        "item_id": "21-005",
+        "cited_work": "州志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【州志】"
+      },
+      {
+        "cit_id": "CIT-21403",
+        "item_id": "21-005",
+        "cited_work": "省志",
+        "cited_work_ent_id": null,
+        "context": "人物",
+        "original": "【省志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空"
+  }
+}

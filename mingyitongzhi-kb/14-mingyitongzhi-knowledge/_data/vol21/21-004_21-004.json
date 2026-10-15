@@ -1,0 +1,391 @@
+{
+  "item_id": "21-004",
+  "volume": "21",
+  "source": "辽州",
+  "region": "山西",
+  "type": "subprefecture",
+  "original": "辽州【东至河南彰徳府磁州武安县界一百四十里南至沁州武乡县界四十里西至太原府大谷县界一百九十里北至平定州乐平县界一百三十里自州治至京师一千二百里至南京二千四百二十里】【粮二千六百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-21301",
+        "name": "辽州",
+        "type": "geo",
+        "norm": "辽州",
+        "first_source": "21-004"
+      },
+      {
+        "ent_id": "ENT-21302",
+        "name": "乐平郡",
+        "type": "geo",
+        "norm": "乐平郡",
+        "first_source": "21-004"
+      },
+      {
+        "ent_id": "ENT-21303",
+        "name": "漳水",
+        "type": "mtn",
+        "norm": "漳水",
+        "first_source": "21-004"
+      },
+      {
+        "ent_id": "ENT-21304",
+        "name": "石勒",
+        "type": "person",
+        "norm": "石勒",
+        "first_source": "21-004"
+      },
+      {
+        "ent_id": "ENT-21305",
+        "name": "赵奢",
+        "type": "person",
+        "norm": "赵奢",
+        "first_source": "21-004"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-21301",
+        "item_id": "21-004",
+        "name": "辽州",
+        "type": "subprefecture",
+        "region": "山西",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷21",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "河南彰德府磁州武安县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "南",
+              "to_place": "沁州武乡县界",
+              "distance_li": 40
+            },
+            {
+              "direction": "西",
+              "to_place": "太原府太谷县界",
+              "distance_li": 190
+            },
+            {
+              "direction": "北",
+              "to_place": "平定州乐平县界",
+              "distance_li": 130
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1200
+            },
+            {
+              "capital": "南京",
+              "distance_li": 2420
+            }
+          ],
+          "households": {
+            "count": 27,
+            "unit": "里",
+            "note": "编户二十七里，领县二"
+          },
+          "grain_tax": {
+            "amount": 2600,
+            "unit": "石",
+            "note": "粮二千六百石零"
+          },
+          "jun_name": "乐平",
+          "topography": "山川险峻地少平川【元志】地居太行绝顶【州志】",
+          "customs": "其民信实纯厚【元志】其俗刚悍朴直【郡志】朴实少文【同上】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-21301",
+          "CIT-21302",
+          "CIT-21303"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-21301",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "秦汉",
+        "era": null,
+        "institution_name": "上党郡/涅县地",
+        "action": "因之",
+        "detail": "禹贡冀州之域，春秋时属晋，战国初属韩后属赵；秦为上党郡地，汉为涅县地属上党郡，晋属乐平郡"
+      },
+      {
+        "evo_id": "EVO-21302",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "辽阳县",
+        "action": "置",
+        "detail": "后魏置辽阳县，北齐省"
+      },
+      {
+        "evo_id": "EVO-21303",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "辽山县/辽州",
+        "action": "改",
+        "detail": "隋改置辽山县属辽州；大业初州废，以县属并州"
+      },
+      {
+        "evo_id": "EVO-21304",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "辽州/箕州/仪州/乐平郡",
+        "action": "改",
+        "detail": "唐初复置辽州，治乐平县，寻移治辽山，改为箕州；先天初又改仪州；中和间复曰辽州；天宝初为乐平郡；乾元初复为仪州"
+      },
+      {
+        "evo_id": "EVO-21305",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "辽州",
+        "action": "复",
+        "detail": "五代梁复改辽州；宋熙宁中州废入平定军，元丰中复置辽州，治辽山县"
+      },
+      {
+        "evo_id": "EVO-21306",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "辽州",
+        "action": "因之",
+        "detail": "金仍旧，元属平阳路"
+      },
+      {
+        "evo_id": "EVO-21307",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "辽州",
+        "action": "因之",
+        "detail": "本朝以辽山县并入，直隶山西布政司，编户二十七里，领县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-21301",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "辽阳山",
+        "type": "山",
+        "location_text": "在州城东三里",
+        "description": "后魏以此山名县",
+        "lore": "上有辽阳山神庙遗址"
+      },
+      {
+        "mtn_id": "MTN-21302",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "箕山",
+        "type": "山",
+        "location_text": "在州城东南七十里",
+        "description": "山有石室，壁中文字人莫能识",
+        "lore": "唐以此山名州"
+      },
+      {
+        "mtn_id": "MTN-21303",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "五指山",
+        "type": "山",
+        "location_text": "在州城东北九十五里",
+        "description": "半山石壁有五手指文，因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21304",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "漳水",
+        "type": "河",
+        "location_text": "其源有二",
+        "description": "一自和顺县西仪城流经州南一里而东，一自和顺县石堠岭流经州东七十里而南至交漳村，二水合流入潞州黎城县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-21305",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "沤麻池",
+        "type": "湖",
+        "location_text": "在和顺县东北三十里李阳村",
+        "description": "后赵石勒尝与李阳争此池",
+        "lore": "及勒为王，引阳臂云：孤往日厌卿老拳，卿亦饱孤毒手"
+      },
+      {
+        "mtn_id": "MTN-21306",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "马陵关",
+        "type": "关",
+        "location_text": "在榆社县西北",
+        "description": "相传即庞涓自刎处",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-21301",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "赵奢",
+        "type": "名宦",
+        "dynasty": "周",
+        "native_place": "",
+        "office": "赵将",
+        "summary": "战国时秦伐韩军于阏与，赵奢将兵救之，大破秦军，解阏与之围而归"
+      },
+      {
+        "per_id": "PER-21302",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "许有壬",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "辽州同知",
+        "summary": "延祐中辽州同知；防关中有警，邻州听民出避弃婴孩满道，有壬独率弓箭手闭城以守，卒获无虞"
+      },
+      {
+        "per_id": "PER-21303",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "薛超",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "平城",
+        "office": "澄州团练使",
+        "summary": "少有勇力，乾德初应募为虎贲卒；从崔彦进伐蜀以功补虞候；太宗时累迁至天武指挥使，又从征太原及御契丹，迁神卫军都校"
+      },
+      {
+        "per_id": "PER-21304",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "杜氏",
+        "type": "列女",
+        "dynasty": "明",
+        "native_place": "辽州",
+        "office": "李聚妻",
+        "summary": "年二十四聚卒，杜勤绩纺为衣食费，守志峻洁，洪武中旌表"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-21301",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "辽州学",
+        "type": "学校",
+        "location_text": "在州治西南",
+        "history_lore": "元至元初建，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-21302",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "天宁寺",
+        "type": "寺观",
+        "location_text": "在州治南",
+        "history_lore": "宋建，本朝洪武中重建"
+      },
+      {
+        "site_id": "SITE-21303",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "紫微观",
+        "type": "寺观",
+        "location_text": "在州城东北五十里",
+        "history_lore": "元建，本朝永乐间重修"
+      },
+      {
+        "site_id": "SITE-21304",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "辽阳城",
+        "type": "古迹",
+        "location_text": "在州城北三里",
+        "history_lore": "本汉涅氏县，后魏改辽阳，北齐省；隋置辽山县于此城，唐废"
+      },
+      {
+        "site_id": "SITE-21305",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "石勒墓",
+        "type": "陵墓",
+        "location_text": "在榆社县北二十五里赵王村",
+        "history_lore": "旧有祠在墓南半里；又在泽州陵川县西北亦有遗冢，上有塔"
+      },
+      {
+        "site_id": "SITE-21306",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "庞涓墓",
+        "type": "陵墓",
+        "location_text": "在榆社县西北九十里马陵关半山间",
+        "history_lore": "涓魏将"
+      },
+      {
+        "site_id": "SITE-21307",
+        "item_id": "21-004",
+        "geo_id": "GEO-21301",
+        "name": "祝融庙",
+        "type": "祠庙",
+        "location_text": "在州城西二里",
+        "history_lore": "州城相传祝融氏所筑，故邦人立庙祀焉；本朝锡号祝融氏之神"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-21301",
+        "item_id": "21-004",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元志】"
+      },
+      {
+        "cit_id": "CIT-21302",
+        "item_id": "21-004",
+        "cited_work": "州志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【州志】"
+      },
+      {
+        "cit_id": "CIT-21303",
+        "item_id": "21-004",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空"
+  }
+}

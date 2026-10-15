@@ -1,0 +1,4497 @@
+{
+  "item_id": "14-009",
+  "volume": "14",
+  "region": "南直隶",
+  "source": "庐州府【…】",
+  "type": "prefecture",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-14009-GEO",
+        "name": "庐州府",
+        "type": "geo",
+        "norm": "庐州府",
+        "first_source": "14-009"
+      },
+      {
+        "ent_id": "ENT-14009-B01",
+        "name": "寰宇记",
+        "type": "book",
+        "norm": "寰宇记",
+        "first_source": "14-009"
+      },
+      {
+        "ent_id": "ENT-14009-B02",
+        "name": "郡国志",
+        "type": "book",
+        "norm": "郡国志",
+        "first_source": "14-009"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-14009",
+        "item_id": "14-009",
+        "name": "庐州府",
+        "type": "prefecture",
+        "region": "南直隶",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "14",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "和州含山县界",
+              "distance_li": "一百九十"
+            },
+            {
+              "direction": "西",
+              "to_place": "河南汝宁府固始县界",
+              "distance_li": "三百五十"
+            },
+            {
+              "direction": "南",
+              "to_place": "安庆府桐城县界",
+              "distance_li": "一百八十"
+            },
+            {
+              "direction": "北",
+              "to_place": "鳯阳府定逺县界",
+              "distance_li": "一百八十"
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": "五百一十"
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "counties": [
+            {
+              "name": "师县六合肥县",
+              "is_capital_county": true,
+              "households": "六十"
+            },
+            {
+              "name": "舒城县",
+              "is_capital_county": false,
+              "households": "四十五"
+            },
+            {
+              "name": "庐江县",
+              "is_capital_county": false,
+              "households": "二十"
+            },
+            {
+              "name": "无为州",
+              "is_capital_county": false,
+              "households": "四十五"
+            },
+            {
+              "name": "巢县",
+              "is_capital_county": false,
+              "households": "二十"
+            },
+            {
+              "name": "六安州",
+              "is_capital_county": false,
+              "households": "五十"
+            },
+            {
+              "name": "英山县",
+              "is_capital_county": false,
+              "households": null
+            },
+            {
+              "name": "霍山县",
+              "is_capital_county": false,
+              "households": "一十"
+            }
+          ],
+          "name": "庐州府",
+          "type": "prefecture",
+          "region": "南直隶"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "禹贡",
+        "detail": "扬州之域天文斗分野以前为庐子国时属舒时属",
+        "action": "分置",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "楚",
+        "detail": "秦为九江郡地汉立庐江国",
+        "action": "沿革",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "东汉",
+        "detail": "为合肥侯国仍隶九江郡",
+        "action": "因之/仍旧",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "三国",
+        "detail": "属魏为重镇晋为淮南庐江二郡地兼属南汝隂郡",
+        "action": "属",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "梁",
+        "detail": "置南豫州治合肥后改合州北齐因之兼置北陈郡",
+        "action": "因之/仍旧",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "隋",
+        "detail": "初始改合州为庐州太业初改庐江郡唐初为庐州天寳初改庐江郡乾",
+        "action": "沿革",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "元",
+        "detail": "初复为庐州属淮南道杨吴置昭顺军节度南唐改保信军宋因之属淮南西路建炎初为本路安抚司治所元初置淮西总管万戸府寻改庐州路总管府属河南行省",
+        "action": "省入",
+        "era": null,
+        "institution_name": ""
+      },
+      {
+        "dynasty": "本朝",
+        "detail": "洪武初改庐州府直隶京师",
+        "action": "沿革",
+        "era": null,
+        "institution_name": ""
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-14009-01",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "大蜀山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在府城西二十里尔雅释云蜀者独也此山孤立卓秀无冈阜聫属故名宋董淳有赋山之西又二十里有山差小名小蜀山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-02",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "鸡鸣山",
+        "type": "spring",
+        "location_text": "在府城西北",
+        "description": "在府城西北四十里肥水所出上有龙井又英山县治后亦有鸡鸣山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-03",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "石佛山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在府城西五十里山顶有三石佛像",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-04",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "青阳山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在府城东六十里巢湖西北元余闗尝读书山中题其室曰青阳新安程文作记",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-05",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "方山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在府城东六十里山顶四平故名又舒城县南五十里亦有方山相传宋方统制尝避兵其间",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-06",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "龙泉山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在府城东六十里山出泉四时不涸",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-07",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "紫蓬山",
+        "type": "mountain",
+        "location_text": "在府城西南",
+        "description": "在府城西南七十里上有汉李陵庙又名李陵山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-08",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "四顶山",
+        "type": "lake",
+        "location_text": "在府城东南",
+        "description": "在府城东南七十里俯瞰巢湖上有四峯特起亦名四鼎山相传魏伯阳炼丹之所丹成以白犬试之即仙去唐罗隠诗胜境天然别精蓝在画图一山分四顶三面瞰平湖张彦脩诗翠峦齐耸压平湖晚緑朝红画不如寄语商山闲四皓好来各占一峯居",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-09",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "姥山",
+        "type": "river",
+        "location_text": "在府城东南",
+        "description": "在府城东南一百里巢湖中居合肥巢庐江三邑之间一名圣女山上有太姥庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-10",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孤山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在府城东一百里巢湖中其山突然孤起",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-11",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "浮槎山",
+        "type": "lake",
+        "location_text": "在庐州界",
+        "description": "在府城东八十里俗传此山自海上浮来昔有梵僧过而指曰此耆阇一峯也梁武帝女为尼于山建道林寺释用孙诗云山为浮来海莫沉萧梁曽此布黄金梵僧亲指耆阇路帝女归传达磨心地控好峯排万仞涧余流水落千寻灵踪断处人何在日夕云霞望转深山顶有泉极甘美宋嘉祐中郡守李不疑饮之甚甘以遗欧阳修作记云浮槎山或曰浮阇山或曰浮巢山其上有泉自前世论水者皆弗道余尝读茶经爱陆羽善言水后得张又新水记载刘伯刍李季卿所列水次第以为得之扵羽然以茶经考之皆不合及得浮槎山水然后益以羽为知水者浮槎与龙池山皆在庐州界中较其水味不及浮槎逺甚而又新所记以龙池为第十浮槎之水弃而不録以此知其所失多矣",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-12",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "黄山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在府城东一百二十里接巢县界山有三百六十峯周回约二百里四时泉出不涸俗呼为龙泉山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-13",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "莲花山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在府城西一百里絶顶有凿成石莲花故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-14",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "龙穴山",
+        "type": "lake",
+        "location_text": "",
+        "description": "在府城西一百三十里上有张龙公祠宋欧阳修集古録载张龙公碑云张路斯颍上人唐景龙中为宣城令生九子尝语其妻石氏曰吾龙也蓼人郑祥逺亦龙也吾屡与战未胜明日取决可令吾子射系鬛以青绡者郑也绛绡者吾也遂射青绡者郑怒投合肥西山以死今龙穴山是也盖山之东南隅有穴土人以山有一池又呼为龙池山张又新水记以此池水为天下第十池旁有庙乡人嵗旱于此祷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-15",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "春秋山",
+        "type": "lake",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南三十五里相传唐贞元中有二禅子脱解于此遗骨尝存其来也实春秋之月遂以名山上有宋李公麟读书堂洗砚池又有望湖尖鳯凰台仙人峯仙人迹絶顶有洞可容数十人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-16",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王姥山",
+        "type": "mountain",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南三十里昔有王姥脩行于此白鹿啣花以献近此有栲姥山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-17",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "鹿起山",
+        "type": "lake",
+        "location_text": "在舒城县东南",
+        "description": "在舒城县东南三十里昔有名僧过此一鹿自山出僧即其地以化山有南岳行祠祠前有试心台洗劔池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-18",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "响山",
+        "type": "mountain",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南二十五里相传过其下者尝闻山中有声如鼓",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-19",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "马鞍山",
+        "type": "mountain",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南三十五里以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-20",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "梅福山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在舒城县西七十里亦名梅山旧传梅福尉南昌弃官隠于此上有梅仙洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-21",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "鼓乐山",
+        "type": "mountain",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南八十里与法华山相对旧传梁武帝未有嗣寳志云有髙人隠此山中三生前乃伶官作乐可致后生昭明太子以是得名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-22",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "龙眠山",
+        "type": "spring",
+        "location_text": "在舒城县西南",
+        "description": "在舒城县西南八十里形若卧龙宋龙眠居士李公麟以此山为号元爕理溥化尝绘为图虞集诗爕侯起髙科得邑舒水上民淳事稀简田野甚夷旷战争遗迹泯山水良足赏幽栖南昌尉英爽赤壁将古仙家白云美人化黄壤岧岧龙眠山一士独可尚高懐托千载妙画极羣象向来读书防春雨草木长夷犹昔贤逺瑶席共来飨弹琴坐终日微泉散清响来者安可期徘徊以怊怅画图记彷佛以慰遐想",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-23",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三角山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在舒城县西一百二十里峯有三角故名又名多智山以其水清润饮之能使人聪明博敏",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-24",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "百药山",
+        "type": "river",
+        "location_text": "在庐江县南",
+        "description": "在庐江县南一十里相传唐李百药尝到此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-25",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "冶父山",
+        "type": "river",
+        "location_text": "在庐江县东北",
+        "description": "在庐江县东北一十里旧为冶铸之所山势峻峭峯峦森密自麓至颠几五里余有三百六十四凹上有罗汉坛",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-26",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金牛山",
+        "type": "river",
+        "location_text": "在庐江县西北",
+        "description": "在庐江县西北三十里相传有金牛裂土而出其坑尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-27",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "昆山",
+        "type": "river",
+        "location_text": "在庐江县南",
+        "description": "在庐江县南四十里产矾又名矾山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-28",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "栭山",
+        "type": "river",
+        "location_text": "",
+        "description": "在庐江县西四十八里栭小栗也山多小栗因名山顶有井曰天井",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-29",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "福泉山",
+        "type": "river",
+        "location_text": "在庐江县南",
+        "description": "在庐江县南五十里山下有泉饮之可以愈疾故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-30",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "紫芝山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在无为州城西南山本土冈宋皇祐间生紫芝三百五十夲郡守茹孝标献于朝旧有平山堂及紫芝亭已废",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-31",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朝喜山",
+        "type": "mountain",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北四十里值嵗旱晨有云气是日必雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-32",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "吕泉山",
+        "type": "spring",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北四十里旧名石膏山上有泉世传吕洞賔于此挿劔泉忽涌出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-33",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "轩车山",
+        "type": "mountain",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北五十里宋王蔺退居之别墅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-34",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "银瓶山",
+        "type": "mountain",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北五十里一峯特起状如银瓶故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-35",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "白石山",
+        "type": "mountain",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北五十里上有龙湫",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-36",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "毛公山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在无为州西六十里山之阳有毛公洞石壁尽刻毛诗然不知何时所刻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-37",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "胡避山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在无为州西六十里旧名孤鼻山宋绍兴初郡人王之道保聚其上羣冦不能破",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-38",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "天井山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在无为州西九十里山顶二泉左曰黄龙右曰白龙故又名双泉山下有楚云洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-39",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三公山",
+        "type": "river",
+        "location_text": "在无为州西南",
+        "description": "在无为州西南一百二十里接庐江县界山有三峯宋杨杰诗白云锁断三山峯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-40",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "九卿山",
+        "type": "river",
+        "location_text": "在无为州西南",
+        "description": "在无为州西南一百二十里接庐江县界山有九峯上有仙人炼丹台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-41",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "卧牛山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在巢县治后以形似名相传巢父许由尝隠于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-42",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "半汤山",
+        "type": "lake",
+        "location_text": "在巢县东北",
+        "description": "在巢县东北一十五里有二泉名半汤池一冷一热合流其初冷热仍异数里之外始相混鱼自冷泉触热则亟回唐罗隠诗饮水鱼心知冷暖濯缨人足识炎凉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-43",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "八公山",
+        "type": "mountain",
+        "location_text": "在巢县西北",
+        "description": "在巢县西北一十八里上有汉淮南王庙王名安好神仙有八公须眉皓白诣门希见门人曰吾王好长生先生无驻衰之术未敢闻八公咸变为童白日升天遗药在器鸡犬防之皆飞去宋王安石诗淮山但有八公名鸿宝烧金竟不成身与神仙守都厠何能鸡犬得长生",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-44",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "七寳山",
+        "type": "mountain",
+        "location_text": "在巢县东南",
+        "description": "在巢县东南三十里曹魏时濡须山为东闗七寳山为西闗上有烟霞亭唐杜甫诗兰若山髙处烟霞障几重",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-45",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "大秀山",
+        "type": "lake",
+        "location_text": "在巢县南",
+        "description": "在巢县南三十里峯峦秀丽宋杨杰诗水入平湖千里逺山横大秀一峯高",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-46",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "踟蹰山",
+        "type": "mountain",
+        "location_text": "在巢县南",
+        "description": "在巢县南三十七里左传楚子观兵于坻箕山又陈荀朗破郭元建于踟蹰山盖坻箕踟蹰音相近",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-47",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "居巢山",
+        "type": "stream",
+        "location_text": "在巢县南",
+        "description": "在巢县南六十里其溪谷中有石研之如墨旧名墨山唐改今名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-48",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "亚父山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在巢县东八十里亚父范増也増居此山之阳故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-49",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金庭山",
+        "type": "spring",
+        "location_text": "在巢县北",
+        "description": "在巢县北九十里旧名紫微山即道书所谓第十八福地乃王子乔登仙处上有金庭洞下有紫微玉兰二洞相连又有杏花泉宋阮美成诗萧萧叶下晓风寒日上金庭恰一竿行遍杏花泉畔路紫云深处见星坛",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-50",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "武陟山",
+        "type": "mountain",
+        "location_text": "",
+        "description": "在六安州西二十里汉武帝南巡至山枞阳作歌而回登封霍岳道经此山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-51",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "洪家山",
+        "type": "mountain",
+        "location_text": "在六安州东南",
+        "description": "在六安州东南七十里有寨四围石崖险峻宋绍兴中尝有洪氏率里民保聚于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-52",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "通光山",
+        "type": "mountain",
+        "location_text": "在六安州东南",
+        "description": "在六安州东南七十里山有穴穿透如月之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-53",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "九公山",
+        "type": "mountain",
+        "location_text": "在六安州西南",
+        "description": "在六安州西南七十里山顶有九石柱其状如人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-54",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三洄山",
+        "type": "mountain",
+        "location_text": "在六安州西南",
+        "description": "在六安州西南一百里又名三曲山中有小港通故步镇山随水势萦回三湾东北二十里名梅子岭可容数十万人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-55",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "董靖原山",
+        "type": "mountain",
+        "location_text": "在六安州南",
+        "description": "在六安州南一百二十里有寨山原平敞周围有小径相传宋绍兴间里民董靖避兵于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-56",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "祖家山",
+        "type": "mountain",
+        "location_text": "在六安州西南",
+        "description": "在六安州西南一百三十里形势髙昻宋绍兴间民多避兵于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-57",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "文家山",
+        "type": "mountain",
+        "location_text": "在六安州西南",
+        "description": "在六安州西南一百四十里亦居民避兵之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-58",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "甄家山",
+        "type": "mountain",
+        "location_text": "在六安州西南",
+        "description": "在六安州西南一百六十里相传有甄氏女于此得道白日飞升",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-59",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "陶成忠山",
+        "type": "mountain",
+        "location_text": "在六安州西南",
+        "description": "在六安州西南一百七十里山有古径﨑防而上傍多林木藤蔓掩蔽相传有陶鐡鎗者尝屯于此不知何时人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-60",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "天人山",
+        "type": "mountain",
+        "location_text": "在英山县北",
+        "description": "在英山县北三十里险峻有寨宋乡民尝避兵于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-61",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "英山",
+        "type": "spring",
+        "location_text": "",
+        "description": "在英山县东五十里其山峯峦峭拔秀丽上有井井上常有云气望之罕见见之其年必丰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-62",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "楼子山",
+        "type": "mountain",
+        "location_text": "在英山县东北",
+        "description": "在英山县东北七十里上有山寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-63",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "多云山",
+        "type": "spring",
+        "location_text": "在英山县西北",
+        "description": "在英山县西北一百里接罗田县界山有九井嵗旱居民祷雨雨可立竢",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-64",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "霍山",
+        "type": "river",
+        "location_text": "在霍山县西北",
+        "description": "在霍山县西北五里一名衡山一名天柱汉武帝南巡至盛唐以南岳衡山逺阻乃移岳神于霍而祀马又名南岳山山顶有天池龙湫风洞岳井试心崖凌霄树又有渌水池旱不干涝不溢宋曹灼诗七千七百七十丈丈丈藤萝势入天未必展来空似翅不妨开去也成莲月将河汉分岩转僧与龙蛇共窟眠直是画工须阁笔况无名画可流传",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-65",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "卓笔峯",
+        "type": "river",
+        "location_text": "",
+        "description": "在舒城县西一百二十里以形似名本朝顾琛诗卓立羣峯迥不羣中书未必尽如君濡来河汉三更露扫破虚空一片云神有巨灵方可把族非毛頴不须分翰林子墨能如此拟赋长杨更作文",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-66",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "栖鳯岭",
+        "type": "river",
+        "location_text": "",
+        "description": "在庐江县东三十里俗传尝有鳯栖于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-67",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "八仙岩",
+        "type": "landform",
+        "location_text": "在六安州南",
+        "description": "在六安州南六十里相传昔有八仙人经此因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-68",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "洞",
+        "type": "river",
+        "location_text": "",
+        "description": "在庐江县玉虚观相传魏左慈尝喝石以塞洞口",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-69",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "吕仙洞",
+        "type": "spring",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北六十里有石泉药臼世传唐仙人吕洞賔曽扵此捣药",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-70",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王乔洞",
+        "type": "mountain",
+        "location_text": "在巢县北",
+        "description": "在巢县北九里相传王子乔学仙于此洞可容三百人前有仙人手迹后有朱熹尝逰到此六字刻于石宋阮美成诗双鳬飞去旧岩松老云闲鹤不回惟有桃花与流水自随春色出山来",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-71",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "崔仙洞",
+        "type": "stream",
+        "location_text": "在巢县南",
+        "description": "在巢县南三十里崔仙年六十余虽隆冬盛寒常浴涧中其石牀药臼尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-72",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "白龙洞",
+        "type": "landform",
+        "location_text": "在巢县西北",
+        "description": "在巢县西北四十里尝有白龙出入其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-73",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "巢湖",
+        "type": "river",
+        "location_text": "",
+        "description": "在巢县西一十五里一名焦湖周围四百余里港汊大小三百六十占合肥舒城庐江巢四邑之境汉永平中湖尝出黄金郡国志昔有巫言居巢县门石口出血当陷为湖未几有人以猪血戱涂之巫见之惊走地果陷又青锁髙议古巢一日江水暴涨寻复故道沟有巨鱼万斤三日乃死合郡皆食之独一姥素好善不食忽有老叟曰此吾子也不幸罹此祸汝不食其肉吾将厚报之东门石目赤城当陷姥日徃视有稚子欺之以朱傅目姥见忽登山而城陷为湖宋刘攽诗天与水相通舟行去不穷何人能缩地有术可分风宿雾疑深墨朝曦浴嫩红四山千里逺晴晦已难同",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-74",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "白湖",
+        "type": "river",
+        "location_text": "在庐江县东北",
+        "description": "在庐江县东北三十里周回七十余里跨六乡与巢湖相连流入大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-75",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "百万湖",
+        "type": "lake",
+        "location_text": "",
+        "description": "在无为州明逺楼下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-76",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金斗河",
+        "type": "river",
+        "location_text": "",
+        "description": "源出鸡鸣山东流至府城自西水闗流入城中至东门外厯金斗驿流入巢湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-77",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "店埠河",
+        "type": "river",
+        "location_text": "",
+        "description": "在府城东四十里水出圆疃通巢湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-78",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金城河",
+        "type": "river",
+        "location_text": "",
+        "description": "在府城西九十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-79",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三河",
+        "type": "river",
+        "location_text": "在府城南",
+        "description": "在府城南九十里其源有三合而为一入巢湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-80",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "裕溪河",
+        "type": "river",
+        "location_text": "",
+        "description": "在无为州东一百二十里源出巢湖东流入大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-81",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "桃林河",
+        "type": "river",
+        "location_text": "",
+        "description": "在无为州东源出太平山东流通裕溪河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-82",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "石塞河",
+        "type": "river",
+        "location_text": "",
+        "description": "在舒城县西一百里自阳山下发源有石塞河中故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-83",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "柘臯河",
+        "type": "river",
+        "location_text": "在巢县西北",
+        "description": "在巢县西北源出合肥县浮槎山流入巢湖金乌珠入冦宋刘锜败之于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-84",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "淠河",
+        "type": "river",
+        "location_text": "",
+        "description": "在六安州西一名白沙河本泚水出霍山北迤逦流从安丰界入于淮",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-85",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "马栅河",
+        "type": "river",
+        "location_text": "",
+        "description": "在六安州东八十里相传河水忽泛石马二至古寺栅道而止",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-86",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "肥水",
+        "type": "lake",
+        "location_text": "在府城南",
+        "description": "在府城南七十五里水出鸡鸣山北流二十里分为二其一东南流入巢湖其一西北流入淮水尔雅归异出同曰肥晋谢破符坚梁韦叡堰水以灌合肥皆在此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-87",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "濡须水",
+        "type": "river",
+        "location_text": "在巢县治南",
+        "description": "在巢县治南一名天河水俗呼马尾沟源出巢湖东流经亚父山又东北注于江汉建安中曹操与孙权相拒于濡须月余权与操书曰春水方生君宜速去操乃还",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-88",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "桃溪",
+        "type": "river",
+        "location_text": "在舒城县北",
+        "description": "在舒城县北三十五里发源自六安州界河流入巢湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-89",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "绣溪",
+        "type": "river",
+        "location_text": "",
+        "description": "在庐江县西五十里发源马槽山下西日映之纹如锦绣其水绕城而下经升仙桥汇为黄陂湖又东流入于江宋王之道诗画桥雕槛接招提新有幽人榜绣溪十顷净明天上下两奁光映水东西飞楼涌殿参差见古木脩篁咫尺迷此景此时君信否縁杨隂里啭黄鹂",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-90",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "锦绣溪",
+        "type": "lake",
+        "location_text": "",
+        "description": "在无为州治西南即双溪一名锦绣池宋杨杰诗十里喧阗锦绣川秋千人徤趂飞鸢花明栁暗丹青国日薄云浓水墨天",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-91",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "鼋潭",
+        "type": "lake",
+        "location_text": "在府城西北",
+        "description": "在府城西北百步",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-92",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "龙潭",
+        "type": "river",
+        "location_text": "在府城东北",
+        "description": "在府城东北故梁县治后相传蜃母所居每山水乍溢有物自江而入或露头角羣鱼从之遡流而上渔者随捕之所获倍常",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-93",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金鸡潭",
+        "type": "lake",
+        "location_text": "",
+        "description": "在舒城县深十余丈鱼鳞不容俗传以为金鸡啖之人或有见龙防泳其中者",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-94",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "筝笛浦",
+        "type": "landform",
+        "location_text": "",
+        "description": "在府城内后土庙侧渔人尝夜闻筝笛声及香气氤氲相传曹操溺妓舟于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-95",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "藏舟浦",
+        "type": "island",
+        "location_text": "在府城西北",
+        "description": "在府城西北隅魏张辽拒孙权凿此浦以藏战舰浦有金沙滩唐刺史杜公作斗门引肥水于浦内岛屿萦回花竹葱蒨宋郭祥正诗花岛可怜春自媚栁州遥觉月微明",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-96",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "小吏港",
+        "type": "river",
+        "location_text": "",
+        "description": "在府境汉建安中府小吏焦仲卿妻刘氏为姑所逐自誓弗嫁其家逼之乃投水死仲卿闻之亦自缢于庭树唐李白诗孔雀东飞何处栖庐江小吏仲卿妻为客裁缝君自见城乌独宿夜空啼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-97",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "饮牛港",
+        "type": "lake",
+        "location_text": "",
+        "description": "在巢县东门外亦名洗耳池相传许由尝引牛抵此见洗耳者由不引牛而去",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-98",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "听书港",
+        "type": "landform",
+        "location_text": "在巢县西北",
+        "description": "在巢县西北五十里相传昔有儒士读书于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-99",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "铁阑井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在府城中旧尝铸铁为阑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-100",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "状元井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在府学宋马亮为郡学生擢进士第一因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-101",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孤井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在舒城县西一百五十里俗名孤井源又有龙井三曰风井曰雷井曰雨井遇旱祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-102",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "左慈井",
+        "type": "river",
+        "location_text": "在庐江县治南",
+        "description": "在庐江县治南相传魏左慈尝置丹一粒于井中宋政和间每清夜气肃辄红光然烛天",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-103",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "仙人井",
+        "type": "spring",
+        "location_text": "在无为州东北",
+        "description": "在无为州东北三里冬夏不竭相传唐吕洞賔尝过此取水饮今石阑上跪迹尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-104",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "亚父井",
+        "type": "spring",
+        "location_text": "",
+        "description": "在巢县治后亚父即范増也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-105",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "汤泉",
+        "type": "spring",
+        "location_text": "在舒城县西南",
+        "description": "在舒城县西南七里冬夏常热可以烹茶又英山县东西亦有汤泉二四时沸腾不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-106",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "太守泉",
+        "type": "spring",
+        "location_text": "",
+        "description": "在无为州城内旧景福寺宋米芾诗甘泉如惠山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-107",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "笑泉",
+        "type": "spring",
+        "location_text": "在无为州西北",
+        "description": "在无为州西北五十里又名吕泉旧传唐吕洞賔憩此卓劔泉忽涌出石底累累如贯珠人有笑谩泉益滚沸故俗呼笑泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-108",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金斗池",
+        "type": "river",
+        "location_text": "",
+        "description": "在府治按天文一星在南斗曰合肥对九江星夹辅黄道而合肥入斗度最多故号金斗池之名亦此义",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-109",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "白公池",
+        "type": "lake",
+        "location_text": "",
+        "description": "在府城东故梁县地春秋时白公屯兵于此又有白公城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-110",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "饮马池",
+        "type": "river",
+        "location_text": "",
+        "description": "在庐江县西四十里相传汉末曹操饮马于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-111",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "南池",
+        "type": "lake",
+        "location_text": "在无为州城南",
+        "description": "在无为州城南宋满维端诗偃月城西锦绣川回环亭树曲池邉蓝舆蜡屐闲投入竹坞花溪信步前照日寒梅融素艶拂波垂栁弄轻烟东君已放春消息为赋寻芳第一篇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-112",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "墨池",
+        "type": "lake",
+        "location_text": "",
+        "description": "在无为州治内西北宋米芾为守日所凿池中蛙声聒人芾取瓦书押字投之自是蛙不鸣有芾书墨池二字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-113",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "嘉莲池",
+        "type": "lake",
+        "location_text": "在无为州治北",
+        "description": "在无为州治北池中红莲弥望旧生□蔕故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-114",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "西塘",
+        "type": "river",
+        "location_text": "",
+        "description": "在庐江县西三十五里溉田四百余顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-115",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "润州塘",
+        "type": "mountain",
+        "location_text": "在英山县北",
+        "description": "在英山县北延袤数丈相传谓润州水涨则塘水满而不流消则浅而不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-116",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "七门堰",
+        "type": "landform",
+        "location_text": "",
+        "description": "在舒城县西汉羹颉侯刘信筑魏刘馥复脩之利民甚博",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-117",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "堰",
+        "type": "landform",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南亦刘信所筑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-118",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "乌羊堰",
+        "type": "landform",
+        "location_text": "在舒城县南",
+        "description": "在舒城县南一十五里与七门□□三堰共溉田二万余畆",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-119",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "鹊尾渚",
+        "type": "landform",
+        "location_text": "",
+        "description": "在舒城县治西北旧有鹊亭按左传楚伐吴吴人败诸鹊岸杜预注舒城鹊尾渚是也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-120",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "花平涧",
+        "type": "stream",
+        "location_text": "在府城南",
+        "description": "在府城南七十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-121",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "鐡索涧",
+        "type": "lake",
+        "location_text": "在府城北",
+        "description": "在府城北西公村涧东穷处一潭甚深虽旱不竭旧传尝有铁索见水际",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-122",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "逃蛟涧",
+        "type": "river",
+        "location_text": "在霍山北",
+        "description": "在霍山北相传淠河有蛟为人害楚公子芊乙射走之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-123",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "寻骡涧",
+        "type": "stream",
+        "location_text": "",
+        "description": "在六安州西四十里相传有道人骑骡息树下骡走不知所之寻至此涧骡遂入水道人亦从而没",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-14009-124",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "独龙涧",
+        "type": "stream",
+        "location_text": "",
+        "description": "在六安州西五十里相传昔有一龙从此出",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-14009-01",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "刘馥",
+        "type": "名宦",
+        "dynasty": "汉",
+        "era": null,
+        "native_place": "",
+        "office": "扬州刺史",
+        "summary": "献帝时为扬州刺史单马造合肥空城建州治立学校广屯田又兴堰以溉稻田数年恩化大洽子靖亦为庐江太守"
+      },
+      {
+        "per_id": "PER-14009-02",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张辽",
+        "type": "名宦",
+        "dynasty": "三国",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "魏荡寇将军屯合肥吴主率众十万来攻围辽败之乃还"
+      },
+      {
+        "per_id": "PER-14009-03",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱桓",
+        "type": "名宦",
+        "dynasty": "三国",
+        "era": null,
+        "native_place": "有惧心桓曰彼人",
+        "office": "",
+        "summary": "吴濡须督魏曹仁步骑数万来侵桓诸将有惧心桓曰彼人心罢困以逸待劳为主制客此其时也乃外示虚弱诱致仁大败之"
+      },
+      {
+        "per_id": "PER-14009-04",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "骆统",
+        "type": "名宦",
+        "dynasty": "三国",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "吴濡须督数陈便宜前后书数十上所言皆善吴主权行之"
+      },
+      {
+        "per_id": "PER-14009-05",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "顾雍",
+        "type": "名宦",
+        "dynasty": "三国",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "吴合肥长有恩惠州民怀之"
+      },
+      {
+        "per_id": "PER-14009-06",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郗鉴",
+        "type": "名宦",
+        "dynasty": "晋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "以安西将军都督扬州诸军事镇合肥"
+      },
+      {
+        "per_id": "PER-14009-07",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "南北朝裴邃",
+        "type": "名宦",
+        "dynasty": "晋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "梁豫州刺史加督镇合肥居身方正为政寛明能得士心及卒淮肥间莫不流涕"
+      },
+      {
+        "per_id": "PER-14009-08",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "侯亶",
+        "type": "名宦",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "梁南豫州刺史轻刑薄赋务农省役"
+      },
+      {
+        "per_id": "PER-14009-09",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱敬则",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "庐州刺史代还无淮南一物所乗止一马子丰步从而归"
+      },
+      {
+        "per_id": "PER-14009-10",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "刘佑",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "庐州刺史在任寛信亷慎嵗防课第甲于他州"
+      },
+      {
+        "per_id": "PER-14009-11",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "路应求",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "元和中庐州刺史韩愈为作神道碑及同食馆记"
+      },
+      {
+        "per_id": "PER-14009-12",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郑綮",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "庐州刺史黄巢掠淮南綮移檄请无犯州境巢笑为敛兵州独完嵗满去赢钱千缗藏州库后他盗至终不敢犯郑使君钱"
+      },
+      {
+        "per_id": "PER-14009-13",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "卢潘",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "大中间庐州太守尝作庐江盗辩"
+      },
+      {
+        "per_id": "PER-14009-14",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "代马仁瑀",
+        "type": "名宦",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "南唐庐州节度使政甚亷平大得民心"
+      },
+      {
+        "per_id": "PER-14009-15",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "刘筠",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州临事明达治尚简严"
+      },
+      {
+        "per_id": "PER-14009-16",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "刁衎",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州政绩甚优真宗即位衎上疏言事甚切直"
+      },
+      {
+        "per_id": "PER-14009-17",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "吕夷简",
+        "type": "名宦",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "军通判",
+        "summary": "以茶盐塲兼无为军通判有美声子公孺知庐州以亷俭闻"
+      },
+      {
+        "per_id": "PER-14009-18",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "尧佐",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "以方严肃下使人",
+        "office": "",
+        "summary": "三守庐州以方严肃下使人知畏而重犯法至其过失多保宥之"
+      },
+      {
+        "per_id": "PER-14009-19",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "冯京",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州安于治郡甚得利民心"
+      },
+      {
+        "per_id": "PER-14009-20",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张田",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州临政以清治有善迹尝作钦贤堂绘古清刺史像日夕师拜之"
+      },
+      {
+        "per_id": "PER-14009-21",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "刘攽",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "通判庐州欧阳修称其辞学优赡操履清慎"
+      },
+      {
+        "per_id": "PER-14009-22",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孙觉",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州为政明恕先是觉为合肥主簿嵗旱州课民捕蝗输官觉言民方艰食若以米易之必尽力守悦推行其法"
+      },
+      {
+        "per_id": "PER-14009-23",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "楚建中",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知无为军事清净不扰去后民为立祠"
+      },
+      {
+        "per_id": "PER-14009-24",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "米芾",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "入境不伤禾稼人",
+        "office": "",
+        "summary": "知无为军风韵萧逺趣向髙洁凡郡中亭馆寺观之额皆其书也性僻好石初入公廨见一石状竒大喜具衣冠拜之呼为兄在郡蝗飞入境不伤禾稼人皆异之"
+      },
+      {
+        "per_id": "PER-14009-25",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "傅尧俞",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州熈宁初至京王安石素与之善方行新法将防以谏官曰举朝纷纷俟君来乆矣尧俞曰新法世以为不便诚如是当极论之安石大不悦"
+      },
+      {
+        "per_id": "PER-14009-26",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱服",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "知庐州庐人",
+        "office": "",
+        "summary": "知庐州庐人饥便宜振护全活十万余口明年大疫又课医持善药分拯之頼以安者甚众"
+      },
+      {
+        "per_id": "PER-14009-27",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "邦彦",
+        "type": "名宦",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "庐州教授文章博洽表着一时尝作汴都赋万余言以献神宗异之"
+      },
+      {
+        "per_id": "PER-14009-28",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "瓘",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "在任为政亷平人",
+        "office": "",
+        "summary": "知无为军盖以右司谏弹蔡京被责在任为政亷平人皆思之"
+      },
+      {
+        "per_id": "PER-14009-29",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张宗顔",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "知庐州金人",
+        "office": "",
+        "summary": "知庐州金人冦城下以骑百余御之敌退有至目淮北者传金人言曰此张铁山弟也"
+      },
+      {
+        "per_id": "PER-14009-30",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王蘧",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知无为军事尝为民兴三圩开十二井筑北岭以捍水至今蒙其利"
+      },
+      {
+        "per_id": "PER-14009-31",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王希吕",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州兼安抚使修葺城守安集流散兵民頼之为立生祠"
+      },
+      {
+        "per_id": "PER-14009-32",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "赵汝谈",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "俱称循吏时金人",
+        "office": "军以光州守",
+        "summary": "知无为军以光州守柴中行安丰守陆峻俱称循吏时金人内变汝谈献料敌御邉二防"
+      },
+      {
+        "per_id": "PER-14009-33",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "规",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州兼淮西安抚既至疾作有防修郡城规力疾治事着攻守方畧"
+      },
+      {
+        "per_id": "PER-14009-34",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "胡舜陟",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "西盗贼充斥庐人",
+        "office": "",
+        "summary": "髙宗时知庐州时淮西盗贼充斥庐人震恐舜陟至修城治战具人心于是始安"
+      },
+      {
+        "per_id": "PER-14009-35",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "仇悆",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "琦等错愕解散人",
+        "office": "",
+        "summary": "以淮西宣抚知庐州伪齐合金兵大入民情汹惧统制张欲乗危为乱拥甲士数千突入露刄先胁悆出悆坚不为动神色不少变琦等错愕解散人心遂定"
+      },
+      {
+        "per_id": "PER-14009-36",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "赵康直",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "绍兴中知庐州郦琼之叛与判官吕祉同死于职"
+      },
+      {
+        "per_id": "PER-14009-37",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郭振",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "乾道中以都统制帅淮西淳熈间尝展合肥城居民便之"
+      },
+      {
+        "per_id": "PER-14009-38",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "杜杲",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "县令",
+        "summary": "庐州推官又知六安县民有嬖其妾者治命与二子均分二子谓妾无分法杲书牍云父令子违不可以训然妾守志则可或去或终当归二子部使者季衡称为县令之最"
+      },
+      {
+        "per_id": "PER-14009-39",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "杜庻",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "庐州安抚副使人",
+        "office": "",
+        "summary": "淮西提刑浚城濠増守备修学宫逾年兼庐州安抚副使人欢仰如慈父治绩甚多"
+      },
+      {
+        "per_id": "PER-14009-40",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "贵",
+        "type": "名宦",
+        "dynasty": "夏",
+        "era": null,
+        "native_place": "庐州目能夜见人",
+        "office": "",
+        "summary": "绍定间淮西安抚制置大使兼知庐州目能夜见人呼为夏夜眼累立战功"
+      },
+      {
+        "per_id": "PER-14009-41",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "罗璧",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "淮西道宣慰司同知请荒闲之田给贫民耕垦三年而后量收其入从之嵗得米数十万斛"
+      },
+      {
+        "per_id": "PER-14009-42",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "姚天福",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "淮西按察使凡两任将吏有豪猾为民害者悉铲除之民大悦政化大行"
+      },
+      {
+        "per_id": "PER-14009-43",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "塔尔海",
+        "type": "名宦",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "亦有堕水死者人",
+        "office": "",
+        "summary": "庐州路总管时飞蝗北来民患塔尔海祷于天蝗引去亦有堕水死者人皆以为异民乏食开廪减直俾民籴之所活甚众"
+      },
+      {
+        "per_id": "PER-14009-44",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "苏敏",
+        "type": "名宦",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "卒于官阖郡之人",
+        "office": "",
+        "summary": "洪武中知庐州府莅政八载吏民肃然州县徳之虽童稚亦皆称颂卒于官阖郡之人为之垂涕"
+      },
+      {
+        "per_id": "PER-14009-45",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "元亨",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "教化有方深得人",
+        "office": "",
+        "summary": "洪武中知无为州招士抚民教化有方深得人心以课最陞太仆寺卿"
+      },
+      {
+        "per_id": "PER-14009-46",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "乐瓉",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "初知临淮已得人",
+        "office": "",
+        "summary": "洪武中知无为州刚毅忠直吏民畏服初知临淮已得人心陞知是州徳政益着及陞知荆州府起行日父老垂泣举留"
+      },
+      {
+        "per_id": "PER-14009-47",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "邹以信",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "教不事苛虐郡人",
+        "office": "",
+        "summary": "永乐初知无为州在任处事精详政尚徳教不事苛虐郡人感化以博学能文称之曰文章太守"
+      },
+      {
+        "per_id": "PER-14009-48",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王仕锡",
+        "type": "名宦",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "校兴举废坠州人",
+        "office": "州处已公",
+        "summary": "永乐中知无为州处已公平虑事周密尤注意学校兴举废坠州人称其有循吏风"
+      },
+      {
+        "per_id": "PER-14009-49",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "善",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "优长存心平恕人",
+        "office": "州同知",
+        "summary": "永乐中无为州同知文学优长存心平恕人皆徳之"
+      },
+      {
+        "per_id": "PER-14009-50",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "陆愉",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "息民安九载郡人",
+        "office": "",
+        "summary": "永乐中知六安州兴学校敦礼义盗息民安九载郡人不释诣阙保留遂复任始终如一"
+      },
+      {
+        "per_id": "PER-14009-51",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "刘显",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "宣徳间知舒城县单车赴任兴学劝农増开水利民甚徳之立祠祀焉畿志"
+      },
+      {
+        "per_id": "PER-14009-52",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱镛",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "知庐州府爱民好士以文章政事称于时畿志"
+      },
+      {
+        "per_id": "PER-14009-53",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "李仑",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "州府古朴简易人",
+        "office": "",
+        "summary": "成化间知庐州府古朴简易人不敢千以私首兴学校人才多所成就满去百姓遮道乃留革履以慰去思及卒无以为敛朝廷嘉之畿志"
+      },
+      {
+        "per_id": "PER-14009-54",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孙佐",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "治中任庐州府学教授性敦厚寡言笑授生徒以经学寒暑不倦有贫乏者分俸周之畿志"
+      },
+      {
+        "per_id": "PER-14009-55",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "胡旸",
+        "type": "名宦",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "治中知庐江县亷威明直抑强扶弱重筑邑城民永赖之畿志"
+      },
+      {
+        "per_id": "PER-14009-56",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "范増",
+        "type": "人物",
+        "dynasty": "秦",
+        "era": null,
+        "native_place": "居巢人",
+        "office": "",
+        "summary": "居巢人年七十居家好竒计秦末辅项羽霸诸侯后羽信反间不能用其计増怒曰天下事大定矣君王自为之愿乞骸骨归未至彭城而死先儒谓増在羽不亡増亦人杰矣哉"
+      },
+      {
+        "per_id": "PER-14009-57",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "英布",
+        "type": "人物",
+        "dynasty": "汉",
+        "era": null,
+        "native_place": "六安人",
+        "office": "",
+        "summary": "六安人少时客相之曰当刑而王及壮坐法黥因改姓黥秦末以兵属项梁项羽封为九江王归汉髙祖封淮南王"
+      },
+      {
+        "per_id": "PER-14009-58",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "荣",
+        "type": "人物",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "袁公",
+        "summary": "庐江人章帝时举明经辟司徒袁安府及安与窦宪有隙或谓荣曰子为袁公腹心之谋排奏窦氏窦氏刺客满城谨备之荣折之以正理而不惧及窦氏败名遂显"
+      },
+      {
+        "per_id": "PER-14009-59",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "毛义",
+        "type": "人物",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "安阳令",
+        "summary": "庐江人家贫以孝行称南阳张奉往候之坐定而府檄适至以义为安阳令义捧檄而入喜动顔色奉心薄之及母亡遂不仕奉曰往日之喜乃为亲也"
+      },
+      {
+        "per_id": "PER-14009-60",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "周瑜",
+        "type": "人物",
+        "dynasty": "三国",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "",
+        "summary": "庐江人英达夙成有文武筹畧与吴孙策相友善取荆州以瑜为中护军程普尝告人曰与公瑾交若饮醇耐不觉自醉瑜字公瑾后孙权用瑜计大破曹操于赤壁瑜少精音律或有缺误必顾谚曰曲有误周郎顾年三十六卒于巴丘子以功封都郷侯"
+      },
+      {
+        "per_id": "PER-14009-61",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "武",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "",
+        "summary": "庐江人征讨有功孙吴拜部司马所向无前从击合肥奋命战死子表少知名士皆乐附领新安都尉广间降纳封都乡侯家财尽于养士死之日妻子露立"
+      },
+      {
+        "per_id": "PER-14009-62",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "丁奉",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "冠军大将军",
+        "summary": "庐江人仕吴为冠军大将军领徐州牧数从征伐毎斩将搴旗计畧过人能断大事"
+      },
+      {
+        "per_id": "PER-14009-63",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王蕃",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "",
+        "summary": "庐江人博览多闻仕吴为常侍后为嬖臣譛死时论寃之"
+      },
+      {
+        "per_id": "PER-14009-64",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "任瓌",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "招讨使",
+        "summary": "合肥人年十九仕陈为衡州司马陈亡瓌叶官去后谒唐髙祖于汾晋承制署河东县户曹寻擢招讨使数立战功累官至徐州大总管陕州都督封管国公"
+      },
+      {
+        "per_id": "PER-14009-65",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "罗珦",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "庐州人",
+        "office": "本州刺史",
+        "summary": "庐州人仕为本州刺史捐己俸给药济贫禁滛祀修学劝士务崇其本三年政化大治有芝草白雀之瑞节度使杜佑上治状赐金紫服迁京兆尹封襄阳县男子让官至江西观察使"
+      },
+      {
+        "per_id": "PER-14009-66",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "万敬儒",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人三世同居亲亡庐墓大中间诏表其门州改所居曰成孝乡宋大中祥符中又旌异之"
+      },
+      {
+        "per_id": "PER-14009-67",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "杨行密",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人唐末刺史郑綮竒其貎以功补队长后累官至诸道行营都统检校太师中书令封吴王行密仁恕善御众持身节俭淮南人多归之第四子溥称帝国号吴"
+      },
+      {
+        "per_id": "PER-14009-68",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱延夀",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "奉国军节度使",
+        "summary": "舒城人昭宗擢奉国军节度使敌至撒门扃不设备逡巡自去用兵常以寡击众"
+      },
+      {
+        "per_id": "PER-14009-69",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "台蒙",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "检校太保宣州观察使",
+        "summary": "合肥人善战唐末杨行密表为检校太保宣州观察使"
+      },
+      {
+        "per_id": "PER-14009-70",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "田頵",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "至太保同中书",
+        "summary": "合肥人壮果有大志杨行密表为马步军都虞侯累官至太保同中书门下平章事"
+      },
+      {
+        "per_id": "PER-14009-71",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "袁人杰",
+        "type": "人物",
+        "dynasty": "唐",
+        "era": null,
+        "native_place": "无为人",
+        "office": "",
+        "summary": "无为人唐末盗贼充斥人杰以土豪招集强壮保障一方贼大人人杰挺身血战度不去人杰仰天大呼自刎而死尸僵立者累日贼惊异舎其境遁去乡人收立庙祀之"
+      },
+      {
+        "per_id": "PER-14009-72",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "代王景仁",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "宁国军节度使",
+        "summary": "合肥人从杨行密起淮南骁勇刚悍临敌常以身先之后仕梁为宁国军节度使加同中书门下平章事"
+      },
+      {
+        "per_id": "PER-14009-73",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "陶雅",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "江南都招讨使",
+        "summary": "合肥人杨行密用为将讨定乡盗后为江南都招讨使歙婺衢陆四州都团练观察处置等使"
+      },
+      {
+        "per_id": "PER-14009-74",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "李章",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "防州节度使",
+        "summary": "庐江人初事杨行密爲骑将后事南唐累迁雄武军都虞侯善抚士卒勤于职务出为防州节度使能禁戢左右賔礼僚属移镇庐州加中书令卒年九十"
+      },
+      {
+        "per_id": "PER-14009-75",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王安",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "庐州人",
+        "office": "袁州刺史",
+        "summary": "庐州人初事杨行密为亲兵行密尝升髙望敌安捧巵器侍侧忽阵旁有执槊者疾趣行密安置巵于地取弓射之一发而殪徐纳弓弢中捧器如初行密竒之因加奬拔累迁袁州刺史厯典数邵皆以沉黙寛厚为理南唐初为神武统军"
+      },
+      {
+        "per_id": "PER-14009-76",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "伍乔",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "考功郎",
+        "summary": "庐江人性嗜学渡江入庐山国学苦节自励南唐时举进士第一命勒乔程文于石以为永式署宣州幕府满考迁考功郎中"
+      },
+      {
+        "per_id": "PER-14009-77",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郭师从",
+        "type": "人物",
+        "dynasty": "五",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "浙西营田副使",
+        "summary": "合肥人仕吴越为浙东马步都虞侯从文穆王瓘破广徳征无锡皆有功累迁浙西营田副使忠献王时以其累勲拜同防相府事卒年八十四"
+      },
+      {
+        "per_id": "PER-14009-78",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "徐行周",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人数世同居朝廷旌表其门赐粟帛州县存问复其赋税"
+      },
+      {
+        "per_id": "PER-14009-79",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "杨察",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "至户部侍郎",
+        "summary": "合肥人举进士累官至户部侍郎充三司使察美风仪敏于为文其为制诰若不用意及藁成皆雅致有体遇事明决勤于吏职卒赠礼部尚书諡宣懿弟寘举进士第一通判润州以母忧不赴毁瘠而卒时人伤之"
+      },
+      {
+        "per_id": "PER-14009-80",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王光济",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "庐州人",
+        "office": "",
+        "summary": "庐州人丧母因刻像日夕奉事如平生孝道纯笃州以闻咸平中旌表之"
+      },
+      {
+        "per_id": "PER-14009-81",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "马亮",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "至西川都转运使",
+        "summary": "合肥人登进士累官至西川都转运使时王均反初平之主将肆意诛戮亮救免者千数及械送诖误者九十人至京师亮请于朝悉宥免之亮尝两典乡郡人以为荣官终太子少保卒諡忠肃"
+      },
+      {
+        "per_id": "PER-14009-82",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "马仲甫",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "",
+        "office": "天章阁待制知",
+        "summary": "亮子举进士厯知登封县拜天章阁待制知瀛秦亳许扬五州所至兴利除害时称能吏云"
+      },
+      {
+        "per_id": "PER-14009-83",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "茹孝标",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人天圣中进士少负气节吏治有声嗜学不倦仕至都官员外郎出知江州"
+      },
+      {
+        "per_id": "PER-14009-84",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "双渐",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "职方郎",
+        "summary": "庐江人庆厯进士博学能文为职方郎中尝知同州以和易为政所至见思若古循吏"
+      },
+      {
+        "per_id": "PER-14009-85",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "包拯",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人举进士尝守乡郡不少屈法以徇乡曲吏事推为第一为御史时危言鲠论烈如秋霜尹开封权贵敛迹防枢莞为名执政人以其笑比黄河清童稚妇女亦知其名京师语曰闗节不到有阎罗包老卒諡孝肃有奏议十五卷"
+      },
+      {
+        "per_id": "PER-14009-86",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "胥致尧",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人少力学为文辞初为三班借职官至左班殿直欧阳修志其墓子流以才能称"
+      },
+      {
+        "per_id": "PER-14009-87",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "焦蹈",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "无为人",
+        "office": "",
+        "summary": "无为人四首乡荐元丰中因礼部贡院火别试蹈为第一时有诗云不因南省火安得状元焦"
+      },
+      {
+        "per_id": "PER-14009-88",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张肃",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "广东转运判",
+        "summary": "舒城人以直谅称仕为广东转运判官后为江东提点刑狱自司马光而下七十有四人分韵作诗以赠其行皆一时名流官终都官其后三世登第"
+      },
+      {
+        "per_id": "PER-14009-89",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "钟离瑾",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "有土官后厯十郡太守",
+        "summary": "合肥人举进士知徳化县将嫁女市婢得前令女遂与已女同嫁夜梦緑衣丈夫拜谢且曰请命于帝奉十任有土官后厯十郡太守终江淮发运使子孙衣冠不絶"
+      },
+      {
+        "per_id": "PER-14009-90",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "杨杰",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "无为人",
+        "office": "礼部员外郎",
+        "summary": "无为人举进士元丰中官太常者数任一时礼乐之事皆预讨论元祐中为礼部员外郎自号无为子所着有文集二十余卷乐记五卷"
+      },
+      {
+        "per_id": "PER-14009-91",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "阮美成",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人元丰中进士知巢县为政岂弟喜吟咏时号阮絶句"
+      },
+      {
+        "per_id": "PER-14009-92",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "贾易",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "无为人",
+        "office": "吏部侍郎",
+        "summary": "无为人元祐进士为侍御史上书言天下大势可畏者五一上下相防二政事苟且三经费不充四人材废阙五刑法失中官至吏部侍郎以待制知邓州"
+      },
+      {
+        "per_id": "PER-14009-93",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王之道",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "无为人",
+        "office": "",
+        "summary": "无为人刚直尚风节宣和间举进士与兄之义之深同科名其堂曰三桂有桐山文集尝梦帝命之曰以尔有功当録其后子十人仕者九人潇至户部侍郎"
+      },
+      {
+        "per_id": "PER-14009-94",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王绾",
+        "type": "人物",
+        "dynasty": "宋",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人绍兴初为淮西路提点刑狱有平反之誉"
+      },
+      {
+        "per_id": "PER-14009-95",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "相",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "吏部侍郎",
+        "summary": "合肥人绍兴末为吏部侍郎有贤能之誉"
+      },
+      {
+        "per_id": "PER-14009-96",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王兰",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "磊落落惟卿一人",
+        "office": "至防知",
+        "summary": "之道子乾道中进士累官至防知政事枢密使李宗尝曰磊磊落落惟卿一人光宗时尝应诏上疏愿先定圣志条列八事以闻兰尽言无隠然嫉恶太甚以故同列多忌之所着有奏议"
+      },
+      {
+        "per_id": "PER-14009-97",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "束元嚞",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人调通城簿毁淫祀正风俗摄县令以政最闻后知秦州值嵗饥赈济有法全活甚众累官枢密都承防引老归年九十犹课诸孙读书至夜分不倦"
+      },
+      {
+        "per_id": "PER-14009-98",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "汪立信",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "六安人",
+        "office": "",
+        "summary": "六安人举进士累官端明殿学士防江招讨大使咸淳间襄阳陷立信移书抵贾似道请用三策不从后过淮似道出师遇之抚其背哭曰悔不用公言至此元将巴延闻其名欲迎取之立信抚案大哭曰吾幸得在赵家地上死竟扼吭而卒巴延曰宋有是人求其家厚恤之曰忠臣之家也子麟为内写机宜文字在建康不肯降元卒走闽以死"
+      },
+      {
+        "per_id": "PER-14009-99",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "密佑",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "庐州人",
+        "office": "",
+        "summary": "庐州人宋末为江西都统率众与元帅逆战于进贤坪矢下如雨面被矢拔之复战身被四矢三鎗遂为所执不屈而死"
+      },
+      {
+        "per_id": "PER-14009-100",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "羊仁",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "",
+        "summary": "庐江人有母及兄弟因兵南下皆为人所掠仁时年七嵗卖汴人李子安家为奴力作二十余年子安怜之遣归踪迹母及兄弟所在仁至其乡求贷亲故厯遍诸家赎之六年乃得二十余口复聚孝友甚笃大徳中旌其家"
+      },
+      {
+        "per_id": "PER-14009-101",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "葛闻孙",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人举进士为翰林编修有文名"
+      },
+      {
+        "per_id": "PER-14009-102",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱可与",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人通书经隠居教授文行兼备"
+      },
+      {
+        "per_id": "PER-14009-103",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "况逵",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "庐江人",
+        "office": "光泽令",
+        "summary": "庐江人少读书有用世志泰定未为光泽令下车之日冨强民素为长史信从畏惮者悉不聴入谒独延见诸生与讲学建云岩书院后为高安令平反寃狱有去思碑"
+      },
+      {
+        "per_id": "PER-14009-104",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "余阙",
+        "type": "人物",
+        "dynasty": "元",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "泗州同知",
+        "summary": "合肥人天资英迈博学能文至顺中进士为泗州同知擢翰林应奉累官至浙东亷访司佥事至正壬辰权淮南宣慰副使分守安庆以孤军血战死节事闻赠淮南行省平章政事諡文忠本朝諡忠宣命有司立祠祀之所着有青阳集"
+      },
+      {
+        "per_id": "PER-14009-105",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "俞通海",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人洪武初从征有功累陞中书平章政事为人性沈机简重出言合宜劳不矜能和不逾节故其征伐所向成功出镇庐州卒追封虢国公"
+      },
+      {
+        "per_id": "PER-14009-106",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张徳胜",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人才畧豪迈沈毅刚果洪武初领兵归附平荆楚定江浙累立战功授縂管复命攻南台镇江宣州俱下之进枢密佥院攻陈友谅于采石斩获甚众没于阵追封蔡国公諡忠毅"
+      },
+      {
+        "per_id": "PER-14009-107",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "廖永安",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "同知",
+        "summary": "巢县人元季起义兵保巢湖后以兵来归从征渡江累官同知枢密院事领兵与伪吴战于太湖水浅舟胶遂陷于吴卒追封楚国公諡武敏"
+      },
+      {
+        "per_id": "PER-14009-108",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱亮祖",
+        "type": "人物",
+        "dynasty": "本朝",
+        "era": null,
+        "native_place": "六安人",
+        "office": "",
+        "summary": "六安人元末为义兵元帅被天兵战败擒诘之对曰生则尽力死则死耳乃壮其言而释之累从征伐以功封永嘉侯"
+      },
+      {
+        "per_id": "PER-14009-109",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "显",
+        "type": "人物",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人精悍有胆气骁勇过人初充带刀先锋陞帐前都先锋又以奇功陞骁骑左卫指挥洪武中从副将军李文忠进兵阿鲁浑河与敌战没迎柩赐"
+      },
+      {
+        "per_id": "PER-14009-110",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "徐明",
+        "type": "人物",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人国初为百户陈友谅攻洪都之新城门从指挥薛显开门突战被执死之明有胆畧善修饰军中号为胎里谎追封合肥县男"
+      },
+      {
+        "per_id": "PER-14009-111",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "清",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人性勇悍善战元季兵起率众来归累立战功陞都督佥事卒追封合浦侯諡崇武"
+      },
+      {
+        "per_id": "PER-14009-112",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金朝兴",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人元季兵起集众保乡里寻以兵来归以功累陞都督佥事西平羌戎屡着勲绩封宣徳侯征云南卒于防州追封沂国公諡武毅"
+      },
+      {
+        "per_id": "PER-14009-113",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "杨璟",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人儒家子读书不事章句元季聚众保乡里率众来归授管军万戸以从征累功官至平章政事封营阳侯卒追封芮国公諡武信"
+      },
+      {
+        "per_id": "PER-14009-114",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "瞿通",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人元末江淮兵起通善长鎗号长鎗千户后来归积功至鳯阳指挥使以大都督府佥事致仕卒赠右都督子能嗣"
+      },
+      {
+        "per_id": "PER-14009-115",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "文",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人早丧父奉母至孝元季挈家来归累官都督佥事南收吴越北定中原东征西讨所向克防卒追封东海侯諡孝勇"
+      },
+      {
+        "per_id": "PER-14009-116",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "桑世杰",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "枢密院判",
+        "summary": "无为州人自少慷慨有大志元末率舟师来归为枢密院判官攻张士诚元帅栾瑞于石碑世杰奋戈誓必克其城跃马陷阵遂死之追封永义侯"
+      },
+      {
+        "per_id": "PER-14009-117",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王珪",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "万户守",
+        "summary": "合肥人慷慨有大志少为淮西亷访司隶卒见官长仪卫尊崇辄慨然叹曰将相无种在人为耳元末兵乱募集乡民守庐州自称万户寻来归从征渡江克复太平仍命为万户守之积功陞右军都督佥事"
+      },
+      {
+        "per_id": "PER-14009-118",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "韦权",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人少好骑射喜兵法元季从军淮西为列校复来归从克太平累功陞都督佥事"
+      },
+      {
+        "per_id": "PER-14009-119",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "复",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人有勇畧洪武初以战功累陞都督佥事进封安陆侯卒追封黔国公諡威毅"
+      },
+      {
+        "per_id": "PER-14009-120",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孙世",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "中军都督",
+        "summary": "巢县人少有勇力屡立战功洪武初为中军都督府佥事卒赠都督同知追封雷春侯諡忠勇"
+      },
+      {
+        "per_id": "PER-14009-121",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郭奎",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人少颖敏元季从余阙学博学能文尤工于诗所着有望云藁"
+      },
+      {
+        "per_id": "PER-14009-122",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "朱文",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "",
+        "summary": "无为州人洪武初开国功臣守太仓后陞后军都督府都督"
+      },
+      {
+        "per_id": "PER-14009-123",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "徐忠",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人父用洪武初任河南卫千戸忠少精武艺从征有功厯陞都督佥事洪武末复以功进封永康侯"
+      },
+      {
+        "per_id": "PER-14009-124",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郭亮",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人洪武中克効勤劳厯转武职后封成安侯"
+      },
+      {
+        "per_id": "PER-14009-125",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王英",
+        "type": "人物",
+        "dynasty": "吴",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人洪武中累立战功陞后军都督佥事永乐初命掌陕西都司事安静不扰勤于训练卒赐祭"
+      },
+      {
+        "per_id": "PER-14009-126",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "瑄",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "指挥同知",
+        "summary": "合肥人父闻洪武初任指挥同知瑄以防累功厯陞右都督进封平江伯卒赠平江侯諡恭襄为人□爽英毅喜阅载籍尤精骑射尝督理漕运筑管家湖髙邮湖隄开白塔河通大江自淮至临清建牐四十七所舟楫利之"
+      },
+      {
+        "per_id": "PER-14009-127",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "薛祥",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "京畿都漕使",
+        "summary": "无为州人洪武初为京畿都漕使迁工部尚书出为布政复为工部尚书"
+      },
+      {
+        "per_id": "PER-14009-128",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "郑亨",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人洪武中厯任武职以功封武安侯出镇山西邉冦遁迹"
+      },
+      {
+        "per_id": "PER-14009-129",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孙镇",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人洪武中以才能授户部度支主事克尽厥职后陞知河南卫辉府有政声"
+      },
+      {
+        "per_id": "PER-14009-130",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "甯仲英",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人累以军功陞前军都督佥事卒子福嗣以功封建平伯"
+      },
+      {
+        "per_id": "PER-14009-131",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "李让",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人为驸马都尉封冨阳侯卒追封景国公諡恭敏"
+      },
+      {
+        "per_id": "PER-14009-132",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张礼",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人初为遵化千户从平内难累陞山西都指挥同知命署中都留守在任十有六年军律严明人皆畏服"
+      },
+      {
+        "per_id": "PER-14009-133",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "钱敏",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人幼丧父家贫力学事母至孝及中进士乞还乡侍母患疮侍汤药未尝离侧母没庐墓三年事闻诏旌表之"
+      },
+      {
+        "per_id": "PER-14009-134",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "先处良",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "六安人",
+        "office": "",
+        "summary": "六安人洪武初以谨慎才干闻于朝廷每加奬谕歴官辰州府通判后陞平阳知府卒于官赐以葬祭"
+      },
+      {
+        "per_id": "PER-14009-135",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "蔚绶",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "户部主事寻迁员外郎",
+        "summary": "合肥人秉心淳实履行端方洪武中擢户部主事寻迁员外郎克着能声举陞山西右防议永乐初召拜礼部侍郎益励恭勤洪熈初进陞夲部尚书宣徳中致仕卒遣官谕祭为营葬事"
+      },
+      {
+        "per_id": "PER-14009-136",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "巫凯",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人洪武中袭父懿百户才能著称洪熈中以功陞都督同知挂征虏前将军印镇守辽东邉方安靖"
+      },
+      {
+        "per_id": "PER-14009-137",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "懐",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人娴习兵法永乐宣徳中以军功累陞左都督正统中进封平乡伯率兵征勦边冦没于阵追封侯爵諡忠毅"
+      },
+      {
+        "per_id": "PER-14009-138",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "邢寛",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "",
+        "summary": "无为州人永乐甲辰进士第一授翰林修撰陞侍讲迁南京翰林院侍讲学士"
+      },
+      {
+        "per_id": "PER-14009-139",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "汤鼎",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "",
+        "summary": "无为州人居祖母丧三年未尝见齿宣徳间举进士授吏科给事中时交趾叛累扰疆上命鼎徃抚之鼎至敷宣圣徳指陈利害夷人慴服乃归侵地奉贡表谢凡私餽金币一无所受中外重之畿志"
+      },
+      {
+        "per_id": "PER-14009-140",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "李春",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "",
+        "summary": "无为州人正统间进士任兵科给事中有直声擢福建防议有汀盗亲抵巢穴谕降之陞江西左防政时洞酋作乱亦谕使驯服厯在三籓著绩畿志"
+      },
+      {
+        "per_id": "PER-14009-141",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "髙兴",
+        "type": "人物",
+        "dynasty": "陈",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人性至孝父殁哀毁骨立庐墓三年归有白鹊数百随集于宅良乆方去人以为孝感事闻旌表畿志"
+      },
+      {
+        "per_id": "PER-14009-142",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "民悦",
+        "type": "人物",
+        "dynasty": "秦",
+        "era": null,
+        "native_place": "舒城人",
+        "office": "知广平府公",
+        "summary": "舒城人天顺间登进士擢知广平府公平亷威吏畏民懐立祠祀之官至兵部尚书畿志"
+      },
+      {
+        "per_id": "PER-14009-143",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "薛逺",
+        "type": "人物",
+        "dynasty": "秦",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "左侍郎",
+        "summary": "无为州人进士授主事成化间王师讨两广蛮獠逺督兵饷贼平擢左侍郎进尚书卒南畿志"
+      },
+      {
+        "per_id": "PER-14009-144",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张淳",
+        "type": "人物",
+        "dynasty": "秦",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人举进士厯官知吉安府以清节惠政着闻士民思之不置终都御史畿志"
+      },
+      {
+        "per_id": "PER-14009-145",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "曹琥",
+        "type": "人物",
+        "dynasty": "秦",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "云南寻甸军民府通判",
+        "summary": "巢县人任户部主事时言官有获罪者琥疏请扩天恩荣忠直以全治体出为云南寻甸军民府通判迁巩昌知府卒嘉靖改元台臣白其忠赐赠光禄寺卿仍谕祭焉畿志"
+      },
+      {
+        "per_id": "PER-14009-146",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "崔氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "宋合肥人",
+        "office": "潭州通判",
+        "summary": "宋合肥人包拯子繶妻繶为潭州通判卒拯意崔不能守使左右尝其心崔蓬垢涕泣见拯曰妾生为包妇死为包鬼誓无他也母吕欲诱崔嫁其族人崔曰倘以不义见逼必絶于尺组之下卒不嫁"
+      },
+      {
+        "per_id": "PER-14009-147",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "张氏女",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "元庐江人",
+        "office": "",
+        "summary": "元庐江人嫁为髙垕妻母病目丧明张氏归省抱母泣以舌防之目忽能视州县以状闻褒美之"
+      },
+      {
+        "per_id": "PER-14009-148",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "方氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人陈顺妻夫蚤卒方抱节自守终其身事闻旌表畿志"
+      },
+      {
+        "per_id": "PER-14009-149",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "何氏",
+        "type": "列女",
+        "dynasty": null,
+        "era": null,
+        "native_place": "舒城人",
+        "office": "",
+        "summary": "舒城人孔询妻询卒何理訽髪为绳系臂以见志或夺之厉声曰必断吾臂甘贫誓死后以疾终畿志"
+      },
+      {
+        "per_id": "PER-14009-150",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "氏",
+        "type": "列女",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "无为州人",
+        "office": "",
+        "summary": "无为州人倪景四妻景四蚤丧周矢志自守事闻旌异之畿志"
+      },
+      {
+        "per_id": "PER-14009-151",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "卢聪妻朱氏",
+        "type": "列女",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "霍山人",
+        "office": "",
+        "summary": "霍山人夫死妯娌多诱之嫁朱誓死不二事闻旌表南畿志"
+      },
+      {
+        "per_id": "PER-14009-152",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "赵氏",
+        "type": "列女",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人叶荣妻夫亡守节有司上其事诏旌表之畿志"
+      },
+      {
+        "per_id": "PER-14009-153",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "氏",
+        "type": "列女",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "六安州人",
+        "office": "",
+        "summary": "六安州人赵軏妻正徳壬申为贼所掠绐还至家携子女赴水死南畿志"
+      },
+      {
+        "per_id": "PER-14009-154",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王氏",
+        "type": "列女",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人正徳辛未贼众至王恐辱抱子女赴塘水死嵗癸巳御史闻人诠大书王烈妇家四字于其门南畿志"
+      },
+      {
+        "per_id": "PER-14009-155",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "失名女",
+        "type": "列女",
+        "dynasty": "周",
+        "era": null,
+        "native_place": "六安州人",
+        "office": "",
+        "summary": "六安州人为贼所掠欲犯之以帕防其头复被以锦衣女辄褫碎之强拥上马复投地大骂遂遇害贼叹曰真烈女畿志"
+      },
+      {
+        "per_id": "PER-14009-156",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "左慈",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "庐江人",
+        "office": "",
+        "summary": "庐江人于天柱山中精思学道得石室中丹经尤明六甲能使鬼神坐致行厨变化万端曹操召见闭一室断谷朞年出之顔色如故操尝宴賔曰所少者松江鲈耳慈令铜盘贮水以竿钓之即得鲈操曰恨无蜀姜慈曰易得操恐近取即曰前使买锦可报増二十段慈曰诺须臾袖中出姜后买锦者回果云是日得报増锦操出近郊慈携酒一升脯一斤百官皆醉饱操恶其怪欲杀之忽不知所在终不能害"
+      },
+      {
+        "per_id": "PER-14009-157",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "慧满",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "唐贞观间于大蜀山诵经二十余年忽有白衣造门曰我东海王之少子闻师诵经故此聴受时苦旱慧满令其降雨荅曰水旱上帝司之若盗布天泽罪当殛死慧满曰汝舍身救民我诵经救汝白衣唯而去须臾膏泽随至白衣死于山慧满收而葬之民为立祠"
+      },
+      {
+        "per_id": "PER-14009-158",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三刀禅师",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "",
+        "office": "",
+        "summary": "唐末居庐江显宁院黄巢之乱为贼所执砍之三刀无血世号三刀禅师"
+      },
+      {
+        "per_id": "PER-14009-159",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "义了",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "合肥人",
+        "office": "",
+        "summary": "合肥人姓钟离尝为进士去从浮屠学名所着为昨梦斋吴正仲为之作诗云不受尘网纒祝髪趋幽屏回视真梦事超然得深省寂然涵虚空梦觉等前境"
+      },
+      {
+        "per_id": "PER-14009-160",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "崔自然",
+        "type": "仙释",
+        "dynasty": null,
+        "era": null,
+        "native_place": "巢县人",
+        "office": "",
+        "summary": "巢县人少好道服松脂法后隠于城南洞中辟谷修炼冬雪寒尝于溪中澡浴海入山虎豹见之皆驯服一日谓其徒曰我为仙官所召语讫而逝有人自豫章来者见之于道今石牀药鼎见存畿志"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-14009-01",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "明教台寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在府治东唐大厯间建内有铁佛像"
+      },
+      {
+        "site_id": "SITE-14009-02",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "地蔵寺",
+        "type": "temple",
+        "location_text": "在府治东北",
+        "history_lore": "在府治东北宋淳熙间建"
+      },
+      {
+        "site_id": "SITE-14009-03",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "景福寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在无为川治西唐贞观间建"
+      },
+      {
+        "site_id": "SITE-14009-04",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "观音寺",
+        "type": "temple",
+        "location_text": "在六安州治南",
+        "history_lore": "在六安州治南唐武徳间建舒城县治西亦有观音寺唐永页初建巳上五寺俱夲朝洪武初重修"
+      },
+      {
+        "site_id": "SITE-14009-05",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "福泉寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在府城内唐罗珦微时尝投寺随饭后归守乡郡题诗僧房壁曰二十年前此布衣鹿鸣西上虎符归故时賔从谙前事到处松杉长旧围野老共遮官路拜沙鸥遥认隼旟飞春风一宿琉璃殿惟有泉声惬素机"
+      },
+      {
+        "site_id": "SITE-14009-06",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金刚寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在庐江县治东南唐建"
+      },
+      {
+        "site_id": "SITE-14009-07",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "定林寺",
+        "type": "temple",
+        "location_text": "在巢县治东北",
+        "history_lore": "在巢县治东北宋乾道中建二寺俱夲朝洪武中重修"
+      },
+      {
+        "site_id": "SITE-14009-08",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "长石寺",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在英山县治西北宋延祐初建元燬本朝重修"
+      },
+      {
+        "site_id": "SITE-14009-09",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "梓潼观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在府城内洪武初因旧址建"
+      },
+      {
+        "site_id": "SITE-14009-10",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "崇德观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在无为州治东宋建旧名羣山观夲朝洪武初重建改今名"
+      },
+      {
+        "site_id": "SITE-14009-11",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "佑圣观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在六安州治东元大徳间建本朝永乐中灾惟真武像岿然独存寻复建"
+      },
+      {
+        "site_id": "SITE-14009-12",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "玉虚观",
+        "type": "temple",
+        "location_text": "在庐江县治南",
+        "history_lore": "在庐江县治南又号南台观相传汉末左慈居此"
+      },
+      {
+        "site_id": "SITE-14009-13",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "紫微观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在紫微山宋县令阮美成斥大之湖山重复岩谷幽閟三峯峙于前两洞拥于后美成诗湖上西风折苇庐小桥断岸栁疎疎谁人肯出丹青手写作金庭烟水图"
+      },
+      {
+        "site_id": "SITE-14009-14",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "冲虚观",
+        "type": "temple",
+        "location_text": "",
+        "history_lore": "在霍山元至大间建本朝初重修"
+      },
+      {
+        "site_id": "SITE-14009-15",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "女娲庙",
+        "type": "shrine",
+        "location_text": "在府城东北",
+        "history_lore": "在府城东北梁县乡宋邵拱诗八卦初成代结绳补天当日更功深"
+      },
+      {
+        "site_id": "SITE-14009-16",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "臯陶祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在六安州治东腾霄坊有碑记禹封臯陶之后于英六故有祠存"
+      },
+      {
+        "site_id": "SITE-14009-17",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "申将军庙",
+        "type": "shrine",
+        "location_text": "在府城东北",
+        "history_lore": "在府城东北梁县乡昔楚白公作乱楚王以申明为将军伐之白公惧执明父谕明退师明以既受君命当移孝为忠追败之白公怒杀其父楚王欲赏明明曰我有定国之功而有害父之耻遂自刎人为立庙"
+      },
+      {
+        "site_id": "SITE-14009-18",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "七门庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在七门堰上宋刘攽记有云子为庐州从事至舒城观所谓七门三堰者实魏扬州刺史馥所造包君郭为县主簿谓予曰馥信有功然吾问于耆老而得羮颉侯信焉信为始基至馥时废而复修耳先王之典有功及民则祀之若信者抑可谓有功者乎昔髙帝之起宗昆弟之有材能者裂地为王独信区区仅得封侯而能勤心于民以兴万世之利周公之书曰民功曰庸籍使信生当周公之世其受赏非贾濞之所敢望矣夫事有可继君子继之不必其肇于已而后为功也若刘刺史起于三国乱亡之余烝庻扫地顾独以农为先事功一立迄今长存虽曰脩旧是可谓功矣"
+      },
+      {
+        "site_id": "SITE-14009-19",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "魏武庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在无为州祀魏武帝操宋郭祥正诗濡须山头祠魏武转红裳按神鼓苹藻盈筐酒满尊呼吸风雷激春雨田畴髙下春雨平操牲饮酒罗中庭吞吴成□还归晋血食犹参社鬼灵"
+      },
+      {
+        "site_id": "SITE-14009-20",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "太姥庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在巢湖中姑山上唐罗隠诗临塘古庙一神仙綉幌花容色俨然为逐朝云来此地因随暮雨不归天眉分初月湖中鉴香散余风竹上烟借问邑人沉水事已经秦汉几千年"
+      },
+      {
+        "site_id": "SITE-14009-21",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "居巢子祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在巢县学唐刘知几封居巢子故邑人祀焉"
+      },
+      {
+        "site_id": "SITE-14009-22",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "五贤祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在府学旧有三贤祠在合肥县学元建祠宋包拯马亮王希吕本朝正统初改建于此増祀汉文翁元余阙为五贤祠"
+      },
+      {
+        "site_id": "SITE-14009-23",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "仇公祠",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在六安州城西正徳间文安贼攻城仇鸾奉命来平之故祀"
+      },
+      {
+        "site_id": "SITE-14009-24",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "乔张庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在府治东宋绍兴间郦琼叛统制官乔仲福张璟以不从乱被害后人因立庙祀之"
+      },
+      {
+        "site_id": "SITE-14009-25",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "旌忠庙",
+        "type": "shrine",
+        "location_text": "",
+        "history_lore": "在府之定林宋绍兴末金主亮南侵统制姚兴与金人遇于尉子桥麾兵力战手杀数百人既而父子俱死事间即其砦立庙及复淮西又立庙战所赐额旌忠初兴以四百骑当金人十数万金人相谓曰有如姚兴者十辈吾属敢前乎"
+      },
+      {
+        "site_id": "SITE-14009-26",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "臯陶冡",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在六安州城东一十里臯陶子孙封英六故有墓在焉"
+      },
+      {
+        "site_id": "SITE-14009-27",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "宛春冡",
+        "type": "tomb",
+        "location_text": "在庐江县东北",
+        "history_lore": "在庐江县东北左传楚子玉使宛春告于晋晋先轸拘宛春于卫以怒楚"
+      },
+      {
+        "site_id": "SITE-14009-28",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "范増冡",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在巢县治后"
+      },
+      {
+        "site_id": "SITE-14009-29",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "庐江王坟",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在庐江县东三十里有梅山遇风雨晦防即闻音韵如金石"
+      },
+      {
+        "site_id": "SITE-14009-30",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "颉侯墓",
+        "type": "tomb",
+        "location_text": "在舒城县西北",
+        "history_lore": "在舒城县西北三十五里俗呼为舒王"
+      },
+      {
+        "site_id": "SITE-14009-31",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "周瑜墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在庐江县东一十里安丰乡瑜三国时吴将又见安庆府"
+      },
+      {
+        "site_id": "SITE-14009-32",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "何晏墓",
+        "type": "tomb",
+        "location_text": "在庐江县北",
+        "history_lore": "在庐江县北一十里何晏魏驸马都尉唐景云二年有人发坟得塼铭知为晏墓"
+      },
+      {
+        "site_id": "SITE-14009-33",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "包拯墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在府城东一十八里地名双阚"
+      },
+      {
+        "site_id": "SITE-14009-34",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "李公麟墓",
+        "type": "tomb",
+        "location_text": "在舒城县南",
+        "history_lore": "在舒城县南五里公麟舒州人然其遗迹今在舒城县者为多"
+      },
+      {
+        "site_id": "SITE-14009-35",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "双渐墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在无为州叠角桥"
+      },
+      {
+        "site_id": "SITE-14009-36",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "马亮墓",
+        "type": "tomb",
+        "location_text": "在府城南",
+        "history_lore": "在府城南五里"
+      },
+      {
+        "site_id": "SITE-14009-37",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "王蔺墓",
+        "type": "tomb",
+        "location_text": "在无为州西北",
+        "history_lore": "在无为州西北五十里"
+      },
+      {
+        "site_id": "SITE-14009-38",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "邢寛墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在无为州西三里"
+      },
+      {
+        "site_id": "SITE-14009-39",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "秦民恱墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在舒城县金鸡墩"
+      },
+      {
+        "site_id": "SITE-14009-40",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "薛逺墓",
+        "type": "tomb",
+        "location_text": "",
+        "history_lore": "在无为州西八里"
+      },
+      {
+        "site_id": "SITE-14009-41",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "桀王城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在巢县卧牛山之背桀为成汤所放后死于此"
+      },
+      {
+        "site_id": "SITE-14009-42",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "六城",
+        "type": "historic_site",
+        "location_text": "在舒城县东南",
+        "history_lore": "在舒城县东南六十里六臯陶之后所封春秋楚人灭六即此后淮南王英布居之"
+      },
+      {
+        "site_id": "SITE-14009-43",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "慎城",
+        "type": "historic_site",
+        "location_text": "在府城东北",
+        "history_lore": "在府城东北梁县乡左传吴人伐慎白公败之即此东魏置慎县隋唐因之"
+      },
+      {
+        "site_id": "SITE-14009-44",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "城",
+        "type": "historic_site",
+        "location_text": "在庐江县南",
+        "history_lore": "在庐江县南二里左传吴人伐烛庸帅师围即此"
+      },
+      {
+        "site_id": "SITE-14009-45",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "逡遒城",
+        "type": "historic_site",
+        "location_text": "在废梁县南",
+        "history_lore": "在废梁县南三十里后汉志九江郡有逡遒县曹操伐吴屯兵于此重修筑名曰曹城"
+      },
+      {
+        "site_id": "SITE-14009-46",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "滁阳城",
+        "type": "historic_site",
+        "location_text": "在废梁县东北",
+        "history_lore": "在废梁县东北四十里吴孙权遣兵断滁作堰以淹北道遂筑城守备"
+      },
+      {
+        "site_id": "SITE-14009-47",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "偃月城",
+        "type": "historic_site",
+        "location_text": "在无为州南",
+        "history_lore": "在无为州南二百八里即濡须坞也吴孙权闻曹操来夹水立坞状如偃月吕防尝与魏兵相拒于此"
+      },
+      {
+        "site_id": "SITE-14009-48",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "防吴城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在巢县地名柘臯春秋哀公防吴于槖臯宋绍兴中金兀术入寇刘锜败之于柘臯皆此地"
+      },
+      {
+        "site_id": "SITE-14009-49",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "龙舒城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在庐江县西旧汉县也"
+      },
+      {
+        "site_id": "SITE-14009-50",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "周瑜城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在舒城县西一十八里吴周瑜从孙权举义兵徙家于舒因筑此城"
+      },
+      {
+        "site_id": "SITE-14009-51",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "新附城",
+        "type": "historic_site",
+        "location_text": "在无为州城南",
+        "history_lore": "在无为州城南一十五里三国吴诸葛恪筑以居新附之人"
+      },
+      {
+        "site_id": "SITE-14009-52",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金斗城",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在府城西隋开皇中置或云汉永平中巢湖出黄金郡守献之因取此义"
+      },
+      {
+        "site_id": "SITE-14009-53",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "废梁县城",
+        "type": "historic_site",
+        "location_text": "在府城东北",
+        "history_lore": "在府城东北七十里宋置本朝洪武初废今为梁县乡"
+      },
+      {
+        "site_id": "SITE-14009-54",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "南谯郡",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在巢县晋咸康中置后废为南谯乡"
+      },
+      {
+        "site_id": "SITE-14009-55",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "邉城郡",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在六安州西一百九十里"
+      },
+      {
+        "site_id": "SITE-14009-56",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "废霍州",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在六安州去州五十里梁置隋废入盛唐唐复置宋开寳初废入六安县"
+      },
+      {
+        "site_id": "SITE-14009-57",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "废开化县",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在六安州西四十里梁置隋废唐复置"
+      },
+      {
+        "site_id": "SITE-14009-58",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "废六安县",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在故六安州治东今即其址为州治"
+      },
+      {
+        "site_id": "SITE-14009-59",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "濡须坞",
+        "type": "historic_site",
+        "location_text": "在无为州东北",
+        "history_lore": "在无为州东北五十里接巢湖湖东南有石渠凿山通水名东闗口相传夏禹所凿一名东兴又名濡须坞其地髙峻险狭实守扼之所吴诸葛恪于东闗作大隄遏巢湖左右依山挟筑两城使全端守之魏人围东闗图壊其堤不克昔人诗僣伪分三国雄豪挫二闗曹公从北下吴主未东还战伐千年外兴亡一梦间巢湖何浩渺今古属渔开"
+      },
+      {
+        "site_id": "SITE-14009-60",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "回车巷",
+        "type": "historic_site",
+        "location_text": "在巢县西北",
+        "history_lore": "在巢县西北一十五里相传孔子至此回车"
+      },
+      {
+        "site_id": "SITE-14009-61",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "文翁庄",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在舒城县治西南文翁舒人尝读书于此"
+      },
+      {
+        "site_id": "SITE-14009-62",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "归来宅",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在舒城县治县尉防东南宋李公麟归隠处"
+      },
+      {
+        "site_id": "SITE-14009-63",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "二石牛",
+        "type": "historic_site",
+        "location_text": "",
+        "history_lore": "在府城内相传昔人濬肥河得之土中形制甚精对峙为角觝状"
+      },
+      {
+        "site_id": "SITE-14009-64",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "庐州卫",
+        "type": "office",
+        "location_text": "",
+        "history_lore": "在府治东洪武元年立合肥卫三年改庐州守御千戸所十三年改建卫"
+      },
+      {
+        "site_id": "SITE-14009-65",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "六安衞",
+        "type": "office",
+        "location_text": "在州治东南",
+        "history_lore": "在州治东南吴元年建洪武三年改六安守御千户所二十二年仍改卫"
+      },
+      {
+        "site_id": "SITE-14009-66",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "庐州府学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在府治东宋乾道中建"
+      },
+      {
+        "site_id": "SITE-14009-67",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "无为州学",
+        "type": "school",
+        "location_text": "在州治西南",
+        "history_lore": "在州治西南宋皇祐间建"
+      },
+      {
+        "site_id": "SITE-14009-68",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "六安州学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在州治东元大徳中建"
+      },
+      {
+        "site_id": "SITE-14009-69",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "合肥县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在府城旧三贤书堂右元至元间建"
+      },
+      {
+        "site_id": "SITE-14009-70",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "舒城县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治西元至元间迁于城外虞集有明伦堂记已上五学俱夲朝洪武初重建"
+      },
+      {
+        "site_id": "SITE-14009-71",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "庐江县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治东洪武七年建"
+      },
+      {
+        "site_id": "SITE-14009-72",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "巢县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治西宋绍熈间建夲朝洪武初重建"
+      },
+      {
+        "site_id": "SITE-14009-73",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "英山县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治西洪武三年建"
+      },
+      {
+        "site_id": "SITE-14009-74",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "霍山县学",
+        "type": "school",
+        "location_text": "",
+        "history_lore": "在县治东治己夘建"
+      },
+      {
+        "site_id": "SITE-14009-75",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "包公书院",
+        "type": "academy",
+        "location_text": "在府城南",
+        "history_lore": "在府城南香花墩上治间建"
+      },
+      {
+        "site_id": "SITE-14009-76",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "文翁书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "在无为州儒学前内有文翁祠及碑记"
+      },
+      {
+        "site_id": "SITE-14009-77",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "龙眠书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "在舒城县治东宋李公麟读书处苏轼黄庭坚尝往来于此"
+      },
+      {
+        "site_id": "SITE-14009-78",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三贤书院",
+        "type": "academy",
+        "location_text": "",
+        "history_lore": "在合肥县治东祀宋包拯马亮王希吕"
+      },
+      {
+        "site_id": "SITE-14009-79",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "毛公书院",
+        "type": "academy",
+        "location_text": "在庐江县东北",
+        "history_lore": "在庐江县东北七十里嘉靖初即汉毛义读书故址建"
+      },
+      {
+        "site_id": "SITE-14009-80",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "镇淮楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城东镇淮桥南宋少保郭振改为谯楼"
+      },
+      {
+        "site_id": "SITE-14009-81",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "五鳯楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城上唐天祐中张崇筑城创楼鳯集其上因以纪瑞"
+      },
+      {
+        "site_id": "SITE-14009-82",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "九华楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州移风门上亦名南楼宋米芾建江之南九华诸峯屹然相向故名杨杰诗此楼此景他州无山川形势吞三吴惟凭诗老写竒胜纵有画笔难工夫此楼此景他州无天高水濶连平芜緑杨深处杏花发日暖数声山鹧鸪此楼此景他州无阑杆倚遍还踌躇主人有酒且共醉骊歌不用催行车"
+      },
+      {
+        "site_id": "SITE-14009-83",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "稻孙楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州大安门上宋米芾秋日登楼燕集见田之禾青可爱问诸老农曰稻孙也稻已檴得雨复抽余穗芾喜而名其楼"
+      },
+      {
+        "site_id": "SITE-14009-84",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "明逺楼",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州楚泽门上与羣山观连接下临百万湖宋米芾建"
+      },
+      {
+        "site_id": "SITE-14009-85",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "稽古阁",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "旧在府学防门前宋安抚翟朝宗迁于学舎之后"
+      },
+      {
+        "site_id": "SITE-14009-86",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "聚山阁",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州治宋建阮美成记谓阁上见羣山聚列惟二山为最银瓶之深秀则乔松所居寳峯之壮崄则吴魏所守也"
+      },
+      {
+        "site_id": "SITE-14009-87",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "五云阁",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州城内阛阓中五云叟陈明所建也"
+      },
+      {
+        "site_id": "SITE-14009-88",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "中和堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治宋时建此堂之复有凝香双瑞二堂"
+      },
+      {
+        "site_id": "SITE-14009-89",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "三至堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治西宋陈尧佐三守是邦故以名堂叶祖洽作记"
+      },
+      {
+        "site_id": "SITE-14009-90",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "至防堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州治宋嘉祐中建杨杰诗人孰不好防外物尝未备佳胜穷山海纷华乐朝市不知务内观未得防之至达士靡闚牖天道已昭炽六合极周流万化览要防"
+      },
+      {
+        "site_id": "SITE-14009-91",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "云锦堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州治有池植荷花取韩退之撑舟昆明度云锦之句为名"
+      },
+      {
+        "site_id": "SITE-14009-92",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "仰高堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州治东宋郡守米芾建自撰记"
+      },
+      {
+        "site_id": "SITE-14009-93",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "万卷堂",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州天庆观西宋李景仙藏书于此多秘阁所无者以其半进于朝杨杰诗偃月仙翁羽化初玉京推下紫云车旌幢杳入三清路楼阁空余万卷书"
+      },
+      {
+        "site_id": "SITE-14009-94",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "衣锦亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治东宋马亮归守乡郡因创此亭通判张君房作记"
+      },
+      {
+        "site_id": "SITE-14009-95",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "飞霞亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在舒城县东城上宋李公麟隠居之所下有清心池苏轼为赋诗"
+      },
+      {
+        "site_id": "SITE-14009-96",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "山隠亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在庐江县左慈尝居其处故名"
+      },
+      {
+        "site_id": "SITE-14009-97",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "挹秀亭",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州绣溪上宋太守满维端诗林露波光秀可餐登临都付一亭间坐违世路尘埃逺静入湖天日月间对岸莺花迷阆苑隔烟洲溆切蓬山习池胜事无多较只负襄阳倒载还"
+      },
+      {
+        "site_id": "SITE-14009-98",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "孔台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在巢县西槖臯镇状如圆坛可容千人俗传宣圣与羣弟子尝憩于此"
+      },
+      {
+        "site_id": "SITE-14009-99",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "拜郊台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在六安州西八十五里相传汉武帝南巡至此望祀"
+      },
+      {
+        "site_id": "SITE-14009-100",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "教弩台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城懐徳坊魏曹操所筑教强弩以御吴舟师后呼为明教台"
+      },
+      {
+        "site_id": "SITE-14009-101",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "避暑台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在庐江县旧传曹操攻吴避暑休兵于此"
+      },
+      {
+        "site_id": "SITE-14009-102",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "明逺台",
+        "type": "palace",
+        "location_text": "在府城东北",
+        "history_lore": "在府城东北七十里回环皆水中有一洲刘宋鲍明逺尝读书于此后人因以名台宋张持正即其故址建俊逸亭"
+      },
+      {
+        "site_id": "SITE-14009-103",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "义门台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城西一十八里唐万敬儒三世同居亲亡庐墓大中间诏表其门后人因以名台"
+      },
+      {
+        "site_id": "SITE-14009-104",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "节妇台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治宋包拯旧第节妇拯冡嗣繶之妻崔氏也后有祠堂"
+      },
+      {
+        "site_id": "SITE-14009-105",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "四望台",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州治宋满维端所筑有诗叠石层髙暗緑苔茂林深处独崔嵬花隂竹影重重见山色川光面面来通夕阑杆随月倚纳凉户趂风开踌躇触目堪吟赏倍费登高赋咏才"
+      },
+      {
+        "site_id": "SITE-14009-106",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "钓鱼台",
+        "type": "palace",
+        "location_text": "在无为州东北",
+        "history_lore": "在无为州东北一名濡须口其石屹然旧传浮丘伯钓鱼之所一在庐江县有矶临河云左真人垂钓处宋杨杰诗沙鸟重归迷战岛钓矶空自忆浮丘"
+      },
+      {
+        "site_id": "SITE-14009-107",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "同食馆",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府治唐元和中刺史路应求建韩愈为作记"
+      },
+      {
+        "site_id": "SITE-14009-108",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "璇渊馆",
+        "type": "palace",
+        "location_text": "在舒城县南",
+        "history_lore": "在舒城县南七里宋元符间李公麟建自为记序"
+      },
+      {
+        "site_id": "SITE-14009-109",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "宿云轩",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在巢县金城寺宋王之道诗云来不吾拒云去不吾追"
+      },
+      {
+        "site_id": "SITE-14009-110",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "寳晋斋",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在无为州治宋守米芾建有晋人法书碑刻函壁间因名"
+      },
+      {
+        "site_id": "SITE-14009-111",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "金斗门",
+        "type": "palace",
+        "location_text": "在府治东北",
+        "history_lore": "在府治东北乃古合肥城门遗址尚存"
+      },
+      {
+        "site_id": "SITE-14009-112",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "闗梁冷水闗",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在庐江县西三十里两山夹道如门相传三国曹魏设隘于此"
+      },
+      {
+        "site_id": "SITE-14009-113",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "北峡闗",
+        "type": "palace",
+        "location_text": "在舒城县南",
+        "history_lore": "在舒城县南四十五里南属安庆为入蕲黄之路"
+      },
+      {
+        "site_id": "SITE-14009-114",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "东闗",
+        "type": "palace",
+        "location_text": "在巢县东南",
+        "history_lore": "在巢县东南四十里天下有事乃必争之地吴魏尝相持于此"
+      },
+      {
+        "site_id": "SITE-14009-115",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "西闗",
+        "type": "palace",
+        "location_text": "在巢县东南",
+        "history_lore": "在巢县东南三十里三国吴魏相持于此"
+      },
+      {
+        "site_id": "SITE-14009-116",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "九井镇桃城镇",
+        "type": "palace",
+        "location_text": "在舒城县北",
+        "history_lore": "俱在舒城县北二十五里"
+      },
+      {
+        "site_id": "SITE-14009-117",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "清水镇",
+        "type": "palace",
+        "location_text": "在故梁县北",
+        "history_lore": "在故梁县北六十里宋开禧中用兵濠州桥治于此"
+      },
+      {
+        "site_id": "SITE-14009-118",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "山寨石索山寨",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "俱在舒城县山险有水各可容数千人"
+      },
+      {
+        "site_id": "SITE-14009-119",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "飞骑桥",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在明教台东旧名逍遥津桥吴孙权为魏将张辽所袭乗骏马上津桥桥板彻丈余超度得免宋李育诗马犇津桥桥半彻汹汹有声如地裂蛟怒横飞秋水空鹗惊径度秋云缺"
+      },
+      {
+        "site_id": "SITE-14009-120",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "嵗丰桥",
+        "type": "palace",
+        "location_text": "在明教台南",
+        "history_lore": "在明教台南又名九狮桥旧有石阑杆刻狮子九"
+      },
+      {
+        "site_id": "SITE-14009-121",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "镇淮桥",
+        "type": "palace",
+        "location_text": "在镇淮楼北",
+        "history_lore": "在镇淮楼北今呼为市桥"
+      },
+      {
+        "site_id": "SITE-14009-122",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "回龙桥",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在府城徳胜门内相传魏曹操与吴相持于此回马故名"
+      },
+      {
+        "site_id": "SITE-14009-123",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "掷杯桥",
+        "type": "palace",
+        "location_text": "在庐江县治南",
+        "history_lore": "在庐江县治南相传魏曹操忌左慈设防酒饮之慈抽簮划酒杯中断饮讫掷杯空中动摇似飞鸟状人皆仰视忽失慈所在"
+      },
+      {
+        "site_id": "SITE-14009-124",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "玉栏桥",
+        "type": "palace",
+        "location_text": "在巢县西北",
+        "history_lore": "在巢县西北六十里古以白石为栏如玉今名槖臯桥"
+      },
+      {
+        "site_id": "SITE-14009-125",
+        "item_id": "14-009",
+        "geo_id": "GEO-14009",
+        "name": "双龙桥",
+        "type": "palace",
+        "location_text": "",
+        "history_lore": "在六安州东四十里相传唐张路斯郑祥逺二人化为龙战于此"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-14009-001",
+        "item_id": "14-009",
+        "cited_work": "郡国志",
+        "cited_work_ent_id": null,
+        "context": "舒城庐江巢四邑之境汉永平中湖尝出黄金郡国志昔有巫言居巢县门石口出血当陷为湖未",
+        "original": ""
+      },
+      {
+        "cit_id": "CIT-14009-002",
+        "item_id": "14-009",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "为州秀溪驿记】临濡水上源诚淮江津要【寰宇记】风俗人性躁劲风气果决【隋地理志】尚",
+        "original": ""
+      }
+    ]
+  },
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "sections_found": 18,
+  "layer_count": 7
+}

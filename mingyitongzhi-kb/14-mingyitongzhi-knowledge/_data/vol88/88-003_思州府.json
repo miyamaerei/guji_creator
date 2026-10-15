@@ -1,0 +1,512 @@
+{
+  "item_id": "88-003",
+  "volume": "88",
+  "source": "思州府",
+  "region": "贵州",
+  "type": "prefecture",
+  "original": "思州府【东至湖广辰州府沅州界九十里西至镇逺府界一百里南至黎平府界北至铜仁府界俱二百二十里自府治至南京四千二百里至京师七千七百二十里】【粮八百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "思州府",
+        "type": "geo",
+        "norm": "思州府",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "都坪峨异溪蛮夷长官司",
+        "type": "geo",
+        "norm": "都坪峨异溪蛮夷长官司",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "都素蛮夷长官司",
+        "type": "geo",
+        "norm": "都素蛮夷长官司",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "施溪长官司",
+        "type": "geo",
+        "norm": "施溪长官司",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "黄道溪长官司",
+        "type": "geo",
+        "norm": "黄道溪长官司",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "峨山",
+        "type": "mtn",
+        "norm": "峨山",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "岩前山",
+        "type": "mtn",
+        "norm": "岩前山",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "江头山",
+        "type": "mtn",
+        "norm": "江头山",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "天应山",
+        "type": "mtn",
+        "norm": "天应山",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "住溪河",
+        "type": "mtn",
+        "norm": "住溪河",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "架溪",
+        "type": "mtn",
+        "norm": "架溪",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "龙溪",
+        "type": "mtn",
+        "norm": "龙溪",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "养苗溪",
+        "type": "mtn",
+        "norm": "养苗溪",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "异溪",
+        "type": "mtn",
+        "norm": "异溪",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "思州府学",
+        "type": "site",
+        "norm": "思州府学",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "平溪关",
+        "type": "site",
+        "norm": "平溪关",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "黄土关",
+        "type": "site",
+        "norm": "黄土关",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "鲇鱼关",
+        "type": "site",
+        "norm": "鲇鱼关",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-019",
+        "name": "迎恩桥",
+        "type": "site",
+        "norm": "迎恩桥",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-020",
+        "name": "郡志",
+        "type": "book",
+        "norm": "郡志",
+        "first_source": "88-003"
+      },
+      {
+        "ent_id": "ENT-021",
+        "name": "文献通考",
+        "type": "book",
+        "norm": "文献通考",
+        "first_source": "88-003"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88003",
+        "item_id": "88-003",
+        "name": "思州府",
+        "type": "prefecture",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88003-t01",
+          "GEO-88003-t02",
+          "GEO-88003-t03",
+          "GEO-88003-t04"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "湖广辰州府沅州界",
+              "distance_li": 90
+            },
+            {
+              "direction": "西",
+              "to_place": "镇远府界",
+              "distance_li": 100
+            },
+            {
+              "direction": "南",
+              "to_place": "黎平府界",
+              "distance_li": 220
+            },
+            {
+              "direction": "北",
+              "to_place": "铜仁府界",
+              "distance_li": 220
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4200
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7720
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 800,
+            "unit": "石",
+            "note": "粮八百石零"
+          },
+          "jun_name": "宁夷(唐名)",
+          "topography": "东连沅靖西抵涪渝，作湖广之唇齿，扼槃瓠之喉襟，实西南雄胜之地【郡志】；地连溪洞【文献通考】；重山环抱溪流萦带【府志】",
+          "customs": "民性刚悍，外痴内防【郡志】；刻木为契；病事鸡卜瓦卦；椎髻跣足，本朝声教渐染夷风丕变【郡志】；祭鬼弭灾【府志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002"
+        ]
+      },
+      {
+        "geo_id": "GEO-88003-t01",
+        "item_id": "88-003",
+        "name": "都坪峨异溪蛮夷长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88003",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "附郭，永乐十一年置，编户四里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88003-t02",
+        "item_id": "88-003",
+        "name": "都素蛮夷长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88003",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府城西六十里，永乐十一年置，编户二里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88003-t03",
+        "item_id": "88-003",
+        "name": "施溪长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88003",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府城南一百四十里，元置施溪样头长官司，洪武五年改今名，编户一里"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88003-t04",
+        "item_id": "88-003",
+        "name": "黄道溪长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88003",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在府城南一百二十里，元置本朝因之，编户二里"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "黔中地",
+        "action": "未明",
+        "detail": "楚为黔中地",
+        "evo_id": "EVO-001",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "黔中郡",
+        "action": "置",
+        "detail": "秦属黔中郡",
+        "evo_id": "EVO-002",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "武陵郡",
+        "action": "因之",
+        "detail": "汉以后属武陵郡",
+        "evo_id": "EVO-003",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "思州/宁夷郡",
+        "action": "改",
+        "detail": "唐为思州地，后改州为宁夷郡",
+        "evo_id": "EVO-004",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "思州军民安抚司",
+        "action": "置",
+        "detail": "元为思州军民安抚司地",
+        "evo_id": "EVO-005",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "思州宣慰司",
+        "action": "改",
+        "detail": "本朝洪武初分置思州宣慰司",
+        "evo_id": "EVO-006",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "dynasty": "明",
+        "era": "永乐",
+        "institution_name": "思州府",
+        "action": "改",
+        "detail": "永乐中改为思州府，领长官司四",
+        "evo_id": "EVO-007",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "峨山",
+        "type": "山",
+        "location_text": "在府治南",
+        "description": "崒嵂难登",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "岩前山",
+        "type": "山",
+        "location_text": "在府城东五十里",
+        "description": "",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "江头山",
+        "type": "山",
+        "location_text": "在府城西北八十里",
+        "description": "傍有歇客坪，土人节序相聚笙歌于此",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "天应山",
+        "type": "山",
+        "location_text": "在府城西一百里",
+        "description": "相传祷雨于此呼雷则雷声应",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "住溪河",
+        "type": "河",
+        "location_text": "在府城西二十里",
+        "description": "诸溪潴此而复流",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "架溪",
+        "type": "溪",
+        "location_text": "在府城南",
+        "description": "架木溪上以济往来",
+        "lore": "",
+        "mtn_id": "MTN-006",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "龙溪",
+        "type": "溪",
+        "location_text": "在府城西五十里",
+        "description": "相传土人击铜鼓于此而龙出",
+        "lore": "",
+        "mtn_id": "MTN-007",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "养苗溪",
+        "type": "溪",
+        "location_text": "在府城西北八十里",
+        "description": "有巨石障流，土人架木引以灌苗",
+        "lore": "",
+        "mtn_id": "MTN-008",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "异溪",
+        "type": "溪",
+        "location_text": "在府城东八里",
+        "description": "小水各分派入于平溪大河，故名异溪",
+        "lore": "",
+        "mtn_id": "MTN-009",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "思州府学",
+        "type": "学校",
+        "location_text": "在府城内北",
+        "history_lore": "永乐六年建",
+        "site_id": "SITE-001",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "平溪关",
+        "type": "关梁",
+        "location_text": "在府城东北三十里",
+        "history_lore": "",
+        "site_id": "SITE-002",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "黄土关",
+        "type": "关梁",
+        "location_text": "在府城南二十五里",
+        "history_lore": "",
+        "site_id": "SITE-003",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "鲇鱼关",
+        "type": "关梁",
+        "location_text": "在府城东北六十里",
+        "history_lore": "",
+        "site_id": "SITE-004",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      },
+      {
+        "name": "迎恩桥",
+        "type": "关梁",
+        "location_text": "在府治南",
+        "history_lore": "",
+        "site_id": "SITE-005",
+        "item_id": "88-003",
+        "geo_id": "GEO-88003"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "郡志",
+        "context": "证形胜",
+        "original": "【郡志：西南雄胜之地】",
+        "cit_id": "CIT-001",
+        "item_id": "88-003"
+      },
+      {
+        "cited_work": "文献通考",
+        "context": "考源",
+        "original": "【文献通考：地连溪洞】",
+        "cit_id": "CIT-002",
+        "item_id": "88-003"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

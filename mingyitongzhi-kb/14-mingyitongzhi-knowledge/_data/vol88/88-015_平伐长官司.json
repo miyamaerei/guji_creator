@@ -1,0 +1,294 @@
+{
+  "item_id": "88-015",
+  "volume": "88",
+  "source": "龙里卫军民指挥使司",
+  "region": "贵州",
+  "type": "other",
+  "original": "龙里衞军民指挥使司【东至新添卫界三十里西至贵州卫界二十五里南至大平伐长官司界六十里北至贵州宣慰司界二十里自府治至南京四千八百五十里至京师八千三百八十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "龙里卫军民指挥使司",
+        "type": "geo",
+        "norm": "龙里卫军民指挥使司",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "平伐长官司",
+        "type": "geo",
+        "norm": "平伐长官司",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "大平伐长官司",
+        "type": "geo",
+        "norm": "大平伐长官司",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "冗刀山",
+        "type": "mtn",
+        "norm": "冗刀山",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "岟山",
+        "type": "mtn",
+        "norm": "岟山",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "加牙河",
+        "type": "mtn",
+        "norm": "加牙河",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "瓮首河",
+        "type": "mtn",
+        "norm": "瓮首河",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "龙里卫学",
+        "type": "site",
+        "norm": "龙里卫学",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "长冲关",
+        "type": "site",
+        "norm": "长冲关",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "观音寺",
+        "type": "site",
+        "norm": "观音寺",
+        "first_source": "88-015"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "卫志",
+        "type": "book",
+        "norm": "卫志",
+        "first_source": "88-015"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88015",
+        "item_id": "88-015",
+        "name": "龙里卫军民指挥使司",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88015-t01",
+          "GEO-88015-t02"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "新添卫界",
+              "distance_li": 30
+            },
+            {
+              "direction": "西",
+              "to_place": "贵州卫界",
+              "distance_li": 25
+            },
+            {
+              "direction": "南",
+              "to_place": "大平伐长官司界",
+              "distance_li": 60
+            },
+            {
+              "direction": "北",
+              "to_place": "贵州宣慰司界",
+              "distance_li": 20
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 4850
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8385
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "",
+          "topography": "襟山带水为夷地之胜【卫志】；山环水绕【新志】",
+          "customs": "俗杂醇疵【卫志】；土瘠人贫俗尚俭朴【新志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88015-t01",
+        "item_id": "88-015",
+        "name": "平伐长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88015",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在卫城东南六十里，元为平伐等处长官司，洪武十五年改置，二十八年改属本卫"
+        },
+        "children": []
+      },
+      {
+        "geo_id": "GEO-88015-t02",
+        "item_id": "88-015",
+        "name": "大平伐长官司",
+        "type": "tusi",
+        "region": "贵州",
+        "parent": "GEO-88015",
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在卫城南八十里，洪武十九年置，二十八年改属本卫"
+        },
+        "children": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "平伐等处长官司",
+        "action": "置",
+        "detail": "古西南边徼，元始置平伐等处长官司，属新添葛蛮安抚司",
+        "evo_id": "EVO-001",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武四年",
+        "institution_name": "龙里驿",
+        "action": "置",
+        "detail": "本朝洪武四年于安抚司地置龙里驿，十九年改龙里站属贵州卫",
+        "evo_id": "EVO-002",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武二十三年",
+        "institution_name": "龙里卫军民指挥使司",
+        "action": "升",
+        "detail": "二十三年置龙里卫军民指挥使司，改属贵州都司，领长官司二",
+        "evo_id": "EVO-003",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "冗刀山",
+        "type": "山",
+        "location_text": "在平伐长官司治西",
+        "description": "峰峦高耸状如列屏；元时蛮酋保郎立寨此山",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "name": "岟山",
+        "type": "山",
+        "location_text": "在大平伐长官司治东北",
+        "description": "连峰峭壁中一迳可通，为两司界限",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "name": "加牙河",
+        "type": "河",
+        "location_text": "在平伐长官司治北",
+        "description": "源出谷者寨，流入瓮首河",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "name": "瓮首河",
+        "type": "河",
+        "location_text": "在大平伐长官司东南二十里",
+        "description": "下合清水江",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "龙里卫学",
+        "type": "学校",
+        "location_text": "在卫治东",
+        "history_lore": "正统元年建",
+        "site_id": "SITE-001",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "name": "长冲关",
+        "type": "关梁",
+        "location_text": "在卫城西一十七里",
+        "history_lore": "",
+        "site_id": "SITE-002",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      },
+      {
+        "name": "观音寺",
+        "type": "寺观",
+        "location_text": "在卫治东",
+        "history_lore": "",
+        "site_id": "SITE-003",
+        "item_id": "88-015",
+        "geo_id": "GEO-88015"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "卫志",
+        "context": "证形胜",
+        "original": "【卫志：襟山带水为夷地之胜】",
+        "cit_id": "CIT-001",
+        "item_id": "88-015"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}

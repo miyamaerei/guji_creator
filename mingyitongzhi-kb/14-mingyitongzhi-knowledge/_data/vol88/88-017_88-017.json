@@ -1,0 +1,290 @@
+{
+  "item_id": "88-017",
+  "volume": "88",
+  "source": "毕节卫",
+  "region": "贵州",
+  "type": "other",
+  "original": "毕节衞【东至赤水衞界六十里西至四川乌撒军民府界一百一十里南至水西奢香驿界二百二十里北至四川芒部军民府界八十里自衞治至南京六千三百九十里至京师九千五百六十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "毕节卫",
+        "type": "geo",
+        "norm": "毕节卫",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "木稀山",
+        "type": "mtn",
+        "norm": "木稀山",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "翠屏山",
+        "type": "mtn",
+        "norm": "翠屏山",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "响水河",
+        "type": "mtn",
+        "norm": "响水河",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "七星关河",
+        "type": "mtn",
+        "norm": "七星关河",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "福泉",
+        "type": "mtn",
+        "norm": "福泉",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "毕节卫学",
+        "type": "site",
+        "norm": "毕节卫学",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "善欲关",
+        "type": "site",
+        "norm": "善欲关",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "七星关",
+        "type": "site",
+        "norm": "七星关",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "普慧寺",
+        "type": "site",
+        "norm": "普慧寺",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "寿亭侯庙",
+        "type": "site",
+        "norm": "寿亭侯庙",
+        "first_source": "88-017"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "贵州志",
+        "type": "book",
+        "norm": "贵州志",
+        "first_source": "88-017"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88017",
+        "item_id": "88-017",
+        "name": "毕节卫",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "赤水卫界",
+              "distance_li": 60
+            },
+            {
+              "direction": "西",
+              "to_place": "四川乌撒军民府界",
+              "distance_li": 110
+            },
+            {
+              "direction": "南",
+              "to_place": "水西奢香驿界",
+              "distance_li": 220
+            },
+            {
+              "direction": "北",
+              "to_place": "四川芒部军民府界",
+              "distance_li": 80
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6390
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9560
+            }
+          ],
+          "households": null,
+          "grain_tax": null,
+          "jun_name": "",
+          "topography": "东阻木稀关西带七星河，当华夏之要冲为云南之道途【贵州志】；东抵赤水西连乌撒【新志】",
+          "customs": "戍此者皆中州人，冠婚丧祭不混于流俗【贵州志】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "顺元等路宣慰司地",
+        "action": "未明",
+        "detail": "本荒服西南夷地，元为顺元等路宣慰司地",
+        "evo_id": "EVO-001",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武十五年",
+        "institution_name": "毕节卫",
+        "action": "置",
+        "detail": "本朝初为贵州宣慰司地，洪武十五年于乌撒军民府地置乌撒卫，十六年徙此改置毕节卫，隶贵州都司",
+        "evo_id": "EVO-002",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "木稀山",
+        "type": "山",
+        "location_text": "在卫城东四十里",
+        "description": "巉崖陡峻石磴崎岖仅容一马，设关以守其险",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "翠屏山",
+        "type": "山",
+        "location_text": "在卫城西九十里",
+        "description": "四时苍翠，望之如屏",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "响水河",
+        "type": "河",
+        "location_text": "在卫城东",
+        "description": "悬崖飞瀑数十仞，有声如雷，下注城河",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "七星关河",
+        "type": "河",
+        "location_text": "在卫城西九十里",
+        "description": "两岸壁立，立铁柱铁索系浮梁以渡人",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "福泉",
+        "type": "泉",
+        "location_text": "在卫城内东",
+        "description": "其泉清泠味甘，人咸汲焉",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "name": "毕节卫学",
+        "type": "学校",
+        "location_text": "在卫治东",
+        "history_lore": "正统三年建",
+        "site_id": "SITE-001",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "善欲关",
+        "type": "关梁",
+        "location_text": "在卫城南五里",
+        "history_lore": "洪武十七年创置",
+        "site_id": "SITE-002",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "七星关",
+        "type": "关梁",
+        "location_text": "在卫城西九十里",
+        "history_lore": "洪武十五年置",
+        "site_id": "SITE-003",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "普慧寺",
+        "type": "寺观",
+        "location_text": "在卫城东",
+        "history_lore": "旧名福泉寺，正统十四年赐今名",
+        "site_id": "SITE-004",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      },
+      {
+        "name": "寿亭侯庙",
+        "type": "祠庙",
+        "location_text": "在卫城内东",
+        "history_lore": "祀蜀汉关羽，洪武二十三年指挥同知柳楫建",
+        "site_id": "SITE-005",
+        "item_id": "88-017",
+        "geo_id": "GEO-88017"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "贵州志",
+        "context": "证形胜",
+        "original": "【贵州志：当华夏之要冲】",
+        "cit_id": "CIT-001",
+        "item_id": "88-017"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "prods 为空（府级不抽物产）"
+  }
+}
