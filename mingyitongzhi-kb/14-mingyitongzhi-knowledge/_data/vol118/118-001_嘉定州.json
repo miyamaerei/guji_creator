@@ -1,0 +1,1108 @@
+{
+  "item_id": "118-001",
+  "volume": "118",
+  "source": "嘉定州",
+  "region": "四川",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "嘉定州",
+        "type": "geo",
+        "norm": "嘉定州",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "峨眉县",
+        "type": "geo",
+        "norm": "峨眉县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "夹江县",
+        "type": "geo",
+        "norm": "夹江县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "洪雅县",
+        "type": "geo",
+        "norm": "洪雅县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "犍为县",
+        "type": "geo",
+        "norm": "犍为县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "荣县",
+        "type": "geo",
+        "norm": "荣县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "威远县",
+        "type": "geo",
+        "norm": "威远县",
+        "first_source": null
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-118001",
+        "item_id": "118-001",
+        "name": "嘉定州",
+        "type": "department",
+        "region": "四川",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-118001-c01",
+          "GEO-118001-c02",
+          "GEO-118001-c03",
+          "GEO-118001-c04",
+          "GEO-118001-c05",
+          "GEO-118001-c06"
+        ],
+        "volume_range": "卷118",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "成都府内江县界",
+              "distance_li": 260
+            },
+            {
+              "direction": "西",
+              "to_place": "雅州界",
+              "distance_li": 200
+            },
+            {
+              "direction": "南",
+              "to_place": "叙州府宜宾县界",
+              "distance_li": 220
+            },
+            {
+              "direction": "北",
+              "to_place": "眉州青神县界",
+              "distance_li": 50
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6770
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9845
+            }
+          ],
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户一十里"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮四万石零"
+          },
+          "jun_name": "犍为【汉名】眉山【隋名】",
+          "topography": "西有熊耳南有峨眉【华阳国志】孤清秀絶【鲜于之武谷神亭记】山水为蜀冠冕【刘伯熊干办公事题名记】山水之胜蜀曰嘉州【宋邵𫖳清音亭记】背负三峨襟带二江【宋鲜于绘议道堂记】东接江阳南接朱提北接蜀郡西接广汉【华阳国志】水陆要冲【州志】",
+          "customs": "地灵人秀【议道堂记】人士俊乂【华阳国志】有礼义防耻之风【任熈明教授题名记】民良俗朴【元志犍为王津之间地旷而人稀民良而俗朴】民勤稼穑不好争讼【州志】"
+        }
+      },
+      {
+        "geo_id": "GEO-118001-c01",
+        "item_id": "118-001",
+        "name": "峨眉县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-118001",
+        "children": [],
+        "volume_range": "卷118"
+      },
+      {
+        "geo_id": "GEO-118001-c02",
+        "item_id": "118-001",
+        "name": "夹江县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-118001",
+        "children": [],
+        "volume_range": "卷118"
+      },
+      {
+        "geo_id": "GEO-118001-c03",
+        "item_id": "118-001",
+        "name": "洪雅县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-118001",
+        "children": [],
+        "volume_range": "卷118"
+      },
+      {
+        "geo_id": "GEO-118001-c04",
+        "item_id": "118-001",
+        "name": "犍为县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-118001",
+        "children": [],
+        "volume_range": "卷118"
+      },
+      {
+        "geo_id": "GEO-118001-c05",
+        "item_id": "118-001",
+        "name": "荣县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-118001",
+        "children": [],
+        "volume_range": "卷118"
+      },
+      {
+        "geo_id": "GEO-118001-c06",
+        "item_id": "118-001",
+        "name": "威远县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-118001",
+        "children": [],
+        "volume_range": "卷118"
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之域",
+        "action": "因之",
+        "detail": "禹贡梁州之域，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "蜀郡地",
+        "action": "因之",
+        "detail": "秦为蜀郡地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "蜀犍为二郡地",
+        "action": "因之",
+        "detail": "汉为蜀犍为二郡地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "因之/夷獠所侵",
+        "action": "因之",
+        "detail": "晋初因之，后为夷獠所侵"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "梁",
+        "era": null,
+        "institution_name": "青州",
+        "action": "置",
+        "detail": "梁于此置青州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "西魏",
+        "era": null,
+        "institution_name": "眉州",
+        "action": "改",
+        "detail": "西魏改眉州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "后周",
+        "era": null,
+        "institution_name": "青州/嘉州/平羌郡",
+        "action": "改",
+        "detail": "后周复为青州，寻改嘉州及置平羌郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "眉山郡/龙游县",
+        "action": "改",
+        "detail": "隋初郡废州存，大业初改眉山郡，治龙游县"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "唐",
+        "era": "天宝/乾元",
+        "institution_name": "嘉州/犍为郡",
+        "action": "改",
+        "detail": "唐初复改嘉州，又别置眉州而嘉州如故，天宝初改犍为郡，乾元初复为嘉州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "宋",
+        "era": "庆元/开禧",
+        "institution_name": "嘉定府/嘉庆军",
+        "action": "升",
+        "detail": "宋初因之，庆元初陞嘉定府，开禧初又置嘉庆军"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "嘉定路",
+        "action": "改",
+        "detail": "元为嘉定路"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "dynasty": "明",
+        "era": "洪武九年",
+        "institution_name": "嘉定州/直隶四川布政司",
+        "action": "改",
+        "detail": "本朝洪武四年复改为府，九年改为州，以龙游县并入，直隶四川布政司，编户一十里，领县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "高幖山",
+        "type": "山",
+        "location_text": "在州西一名高望山巍然高峙万象在前旧有层楼境内风月之胜一目可尽宋范成大诗若为唤得涪翁起题作西南第一楼",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "三龟山",
+        "type": "山",
+        "location_text": "在州治东其形似龟而首亦具因名当中一龟循其趾而上弯环有九洞",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "九顶山",
+        "type": "山",
+        "location_text": "在州治东隔江山有九峯曰凤集栖鸾灵寳就日丹霞祝融拥翠望云兊説宋苏辙诗巉巉九顶峯可爱不可住",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "乌尤山",
+        "type": "山",
+        "location_text": "在九顶山左旧名乌牛突然于水中如犀牛状宋黄庭坚题涪翁亭始易今名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "扬雄山",
+        "type": "山",
+        "location_text": "在州治西有洞深防汉杨子云居之旧有西蜀子云亭又犍为县南十八里有子云山下有扬雄滩",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "海棠山",
+        "type": "山",
+        "location_text": "在州治西山多海棠为郡守宴赏之地名贤多有题咏",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "九龙山",
+        "type": "山",
+        "location_text": "在州治东北临大江之左右崖上旧刻九龙形",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "古像山",
+        "type": "山",
+        "location_text": "在州西门外有石镌弥勒佛如凌云像而小或谓初作此以为大像之式",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "马鞍山",
+        "type": "山",
+        "location_text": "在州南五里乌尤山之左望之若马鞍然",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "梨花山",
+        "type": "山",
+        "location_text": "在州西七里山旧植梨花数百株昔有人寒疾药不能疗取梨食之即愈",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "金灯山",
+        "type": "山",
+        "location_text": "在州南一十里一名至乐山昔清闲处士王朴居此山趾有渊每嵗人日太守于此修油卜故事谓以油洒水靣观其纹验一嵗丰歉",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "锦江山",
+        "type": "山",
+        "location_text": "在州北四十里江自成都流经此山下瞰如带因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "白崖山",
+        "type": "山",
+        "location_text": "在州北八十里山有清风白云朝露三洞昔徐庸先生尝于此著书又峩眉县亦有白崖山下有龙池",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "龙门山",
+        "type": "山",
+        "location_text": "在峩眉县西一十里两崖峭峙其形如削仰观青天仅露一罅相传孙思邈栖真之所有种玉溪真人岩药灶药臼朝真台飬龙潭线水崖虎跳石荼洞瀑布崖",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "中峩山",
+        "type": "山",
+        "location_text": "在峩眉县南二十里又名覆逢山刘向列僊传周成王时葛由尝骑木羊上此山有葛僊洞谚云得绥山一桃虽不得僊亦足以豪故亦名绥山元和志云有古穴初才容一人行数里渐寛穴有蝙蝠大如箕",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "小峩山",
+        "type": "山",
+        "location_text": "在峩眉县南三十里一名铧刄山与中峩大峩山相连是为三峩宋赵抃诗蜀山天下竒三峩压岷右谁谓孤劒外名出嵩华后",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "大峩山",
+        "type": "山",
+        "location_text": "在峩眉县西一百里两山相对如蛾眉故又名峩眉山周廻千里有石龛一百十二大小洞四十南北有台重岩复涧莫测逺近唐陈子昻诗浩然坐何慕吾蜀有峩眉念与楚狂子悠悠白云期李白诗峩眉山月半轮秋影入平羗江水流谓此",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "平羗山",
+        "type": "山",
+        "location_text": "在夹江县西一十五里后周置郡县以此山名道士常正一得道此山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "万松山",
+        "type": "山",
+        "location_text": "在夹江县东北三十里山有三峯一峯居中两峯左右如拱侍",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "化山",
+        "type": "山",
+        "location_text": "在夹江县西三十里峯峦秀丽俯临雅江寰宇记天下二十四化此其一也晋李阿真人炼丹于此",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "修文山",
+        "type": "山",
+        "location_text": "在夹江县西六十里宋田锡读书山中后登第因名山之南麓雅江所注名曰龙潭",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "隐防山",
+        "type": "山",
+        "location_text": "在夹江县西六十里晋处士厐居正字隐蒙者隐于此",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "洞溪山",
+        "type": "山",
+        "location_text": "在夹江县西六十二里一名月珠峯盖前一峯如珠后一峯如月",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "阿咤山",
+        "type": "山",
+        "location_text": "在夹江县西一百里山崖有一巨石周廻镌罗汉一百八躯东岩瀑布千仞响撼山谷",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "犍为山",
+        "type": "山",
+        "location_text": "在犍为县南一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "沈犀山",
+        "type": "山",
+        "location_text": "在犍为县南二十里昔有犀牛于此山下渡江而沈",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "四望山",
+        "type": "山",
+        "location_text": "在犍为县东一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "金粟山",
+        "type": "山",
+        "location_text": "在犍为县北一百里山多桂树花如金粟",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c05",
+        "name": "凤鸣山",
+        "type": "山",
+        "location_text": "在荣县北山有此君轩故老相传其竹实茂盛凤鸣于上因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c05",
+        "name": "荣梨山",
+        "type": "山",
+        "location_text": "在荣县东一十五里山有龙池祷雨輙应",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c05",
+        "name": "荣隐山",
+        "type": "山",
+        "location_text": "在荣县北三十里相传古有荣隐先生修道于此",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c05",
+        "name": "荣徳山",
+        "type": "山",
+        "location_text": "在荣县东北四十二里其高挿天一名老君山山有僊人脩道石室二十四所其半有唐刺史薛高磨崖碑",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "葛仙山",
+        "type": "山",
+        "location_text": "在威逺县东昔葛僊尝游于此",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "圣冈",
+        "type": "冈",
+        "location_text": "在州治前唐杜甫诗逺林通后径一郡接前冈",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "郭璞巗",
+        "type": "山",
+        "location_text": "在乌尤山苏轼诗岩有古郭生此地苦笺注区区辨防鱼尔雅分细缕",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "伏羲洞",
+        "type": "洞",
+        "location_text": "在峩眉山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "女娲洞",
+        "type": "洞",
+        "location_text": "在峩眉山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "鬼谷洞",
+        "type": "洞",
+        "location_text": "在峩眉山相传鬼谷子隐此得道上升著书号珞琭子",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "雷洞",
+        "type": "洞",
+        "location_text": "在峩眉山有七十二穴雷神居之时出云雨",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "治易洞",
+        "type": "洞",
+        "location_text": "在九顶山宋郡守吴秘名上有磨崖大字云圣作易晦其数刘传吴识易祖苏轼诗自昔遥闻太守高明爻象彖日忘劳",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "方响洞",
+        "type": "洞",
+        "location_text": "在州学前洞中有水泠然如环佩声旧名丁东水宋黄庭坚改今名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "阳江",
+        "type": "江",
+        "location_text": "在州治西蜀南方之水交委于此一名洙水又名涐水",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "岷江",
+        "type": "江",
+        "location_text": "在州东俗名通江自岷江发源经平羗县界流绕乌尤山下",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "渎江",
+        "type": "江",
+        "location_text": "",
+        "description": "发源温江县经双流县界东流至州东合岷江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "罗目江",
+        "type": "江",
+        "location_text": "",
+        "description": "出峩眉山麓右溪自小天池以东左溪自黄茅平以北至罗目废县之上合二溪之委为江水石甚竒恠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c03",
+        "name": "洪雅川",
+        "type": "川",
+        "location_text": "在洪雅县西七十里东西曲流一百三十里经洪雅大川流绕本县因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "硫黄川",
+        "type": "川",
+        "location_text": "在威逺县北四十里川傍一泉有硫黄气因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "大渡河",
+        "type": "河",
+        "location_text": "",
+        "description": "源出巂州界流经旧罗目县南东入龙游县界水出麸金",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "秦水",
+        "type": "水",
+        "location_text": "在峩眉县西南二十里秦恵王克蜀移秦人万家以实之秦人思秦之泾水遂于此水侧置戍谓之泾口唐天寳间改今名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "符文水",
+        "type": "水",
+        "location_text": "",
+        "description": "出峩眉山有二水北则白水南则黒水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "夷惜水",
+        "type": "水",
+        "location_text": "在峩眉县东南五十里源发巂州界巾有嘉鱼长三尺每年二月随水而下八月逆水而上入穴",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "天津水",
+        "type": "水",
+        "location_text": "在峩眉县西南出徼外入洙水",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "青衣水",
+        "type": "水",
+        "location_text": "在夹江县西九十里发源自卢山徼外东南流经严道洪雅夹江至龙游与岷江合",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "汉水",
+        "type": "水",
+        "location_text": "在犍为县东北一百八十里汉成帝时得古磬十六枚于水濵故亦名宝磬川",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "花溪",
+        "type": "溪",
+        "location_text": "在夹江县西六十里发源雅州瓦屋山下注嘉阳大江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c04",
+        "name": "四望溪",
+        "type": "溪",
+        "location_text": "在犍为县东北一百里发源三江镇下与岷江合",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "种玉溪",
+        "type": "溪",
+        "location_text": "在峩眉县西十余里一曰龙门水显露乱石如玉状因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "鹤洲",
+        "type": "洲",
+        "location_text": "在夹江县近江濵张方开新河以杀水势正由此洲虞允文子方简卜居于此有花竹之胜魏了翁书扁题咏甚多",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "八卦井",
+        "type": "井",
+        "location_text": "在州东相传晋郭璞所凿",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "东岩泉",
+        "type": "泉",
+        "location_text": "在州治东泉宜酿酒宋苏轼诗一时付与东岩酒",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "虎擘泉",
+        "type": "泉",
+        "location_text": "在凤凰山唐契觉道人结庵于此有虎为之擘地出泉",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "马龙池",
+        "type": "池",
+        "location_text": "在峩眉县西六七里昔有一马驰走如飞村民攫捕适伤其足投之池中一夕雷雨大作擘山而去",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "龙池",
+        "type": "池",
+        "location_text": "在峩眉县西南四十里汉李膺记峩眉山下有池广长十里号龙池",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001-c02",
+        "name": "向君堤",
+        "type": "堤",
+        "location_text": "在夹江县治西南延袤数里蒙江齧岸县令向君捍之锸沙泞中得白金一箧资以就堤故亦名白金堤",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "118-001",
+        "geo_id": "GEO-118001",
+        "name": "吕公堤",
+        "type": "堤",
+        "location_text": "",
+        "description": "自三江门二水之防连延不防岸被齧宋守吕由诚筑此堤郡人徳之因名焉",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "118-001",
+        "name": "麸金",
+        "note": "本州出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "118-001",
+        "name": "麝香",
+        "note": "本州出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "118-001",
+        "name": "茶",
+        "note": "峩眉山出味初苦而终甘"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "118-001",
+        "name": "邛竹",
+        "note": "堪为杖"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "118-001",
+        "name": "盐",
+        "note": "犍为县东山出"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "118-001",
+        "name": "荔支",
+        "note": "本州并犍为峩眉夹江三县俱出"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "118-001",
+        "name": "黑头鱼",
+        "note": "本州出形若鯶长者及尺惟郭璞台前有之"
+      },
+      {
+        "prod_id": "PROD-008",
+        "item_id": "118-001",
+        "name": "海棠",
+        "note": "花谱云海棠有色无香惟蜀中嘉州者有香其木合抱"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "118-001",
+        "cited_work": "华阳国志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【华阳国志西有熊耳南有峩眉】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "118-001",
+        "cited_work": "鲜于之武谷神亭记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【鲜于之武谷神亭记孤清秀絶】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "118-001",
+        "cited_work": "刘伯熊干办公事题名记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【刘伯熊干办公事题名记山水为蜀冠冕】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "118-001",
+        "cited_work": "宋邵𫖳清音亭记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋邵𫖳清音亭记山水之胜蜀曰嘉州】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "118-001",
+        "cited_work": "宋鲜于绘议道堂记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋鲜于绘议道堂记背负三峩襟带二江】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "118-001",
+        "cited_work": "州志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【州志水陆要冲】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "118-001",
+        "cited_work": "议道堂记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【议道堂记地灵人秀】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "118-001",
+        "cited_work": "华阳国志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【华阳国志人士俊乂】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "118-001",
+        "cited_work": "任熙明教授题名记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【任熈明教授题名记有礼义廉耻之风】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "118-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元志犍为王津之间地旷而人稀民良而俗朴】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "118-001",
+        "cited_work": "州志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【州志民勤稼穑不好争讼】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "嘉定州"
+}

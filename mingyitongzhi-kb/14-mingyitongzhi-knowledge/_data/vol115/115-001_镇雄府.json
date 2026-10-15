@@ -1,0 +1,498 @@
+{
+  "item_id": "115-001",
+  "volume": "115",
+  "source": "镇雄府",
+  "region": "四川",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "镇雄府",
+        "type": "geo",
+        "norm": "镇雄府",
+        "first_source": "115-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "归化长官司",
+        "type": "geo",
+        "norm": "归化长官司",
+        "first_source": "115-001"
+      },
+      {
+        "ent_id": "ENT-T02",
+        "name": "怀德长官司",
+        "type": "geo",
+        "norm": "怀德长官司",
+        "first_source": "115-001"
+      },
+      {
+        "ent_id": "ENT-T03",
+        "name": "威信长官司",
+        "type": "geo",
+        "norm": "威信长官司",
+        "first_source": "115-001"
+      },
+      {
+        "ent_id": "ENT-T04",
+        "name": "安静长官司",
+        "type": "geo",
+        "norm": "安静长官司",
+        "first_source": "115-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-115001",
+        "item_id": "115-001",
+        "name": "镇雄府",
+        "type": "prefecture",
+        "region": "四川",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-115001-t01",
+          "GEO-115001-t02",
+          "GEO-115001-t03",
+          "GEO-115001-t04"
+        ],
+        "volume_range": "卷115",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "乌撒军民府界",
+              "distance_li": 30
+            },
+            {
+              "direction": "西",
+              "to_place": "乌蒙军民府界",
+              "distance_li": 240
+            },
+            {
+              "direction": "南",
+              "to_place": "乌撒军民府界",
+              "distance_li": 25
+            },
+            {
+              "direction": "北",
+              "to_place": "叙州府珙县界",
+              "distance_li": 220
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6070
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9230
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领长官司四"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": ""
+          },
+          "jun_name": "芒布【以酋名】",
+          "topography": "山川险阨地势崎岖【云南志】；苴斗河横于南勿食料溪环于北左峙绰忸山右绕硌砌雄【郡志】；地在遐荒【新志】",
+          "customs": "性劲而愚俗朴而野；男业耕稼妇绝粉黛；子日贸易；崇信巫鬼【新志】",
+          "garrisons": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005"
+        ]
+      },
+      {
+        "geo_id": "GEO-115001-t01",
+        "item_id": "115-001",
+        "name": "归化长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-115001",
+        "children": [],
+        "volume_range": "卷115",
+        "attributes": {
+          "location_text": "",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-115001-t02",
+        "item_id": "115-001",
+        "name": "怀德长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-115001",
+        "children": [],
+        "volume_range": "卷115",
+        "attributes": {
+          "location_text": "",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-115001-t03",
+        "item_id": "115-001",
+        "name": "威信长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-115001",
+        "children": [],
+        "volume_range": "卷115",
+        "attributes": {
+          "location_text": "",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-115001-t04",
+        "item_id": "115-001",
+        "name": "安静长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-115001",
+        "children": [],
+        "volume_range": "卷115",
+        "attributes": {
+          "location_text": "",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "dynasty": "上古",
+        "era": null,
+        "institution_name": "屈流大雄甸",
+        "action": "因之",
+        "detail": "古为屈流大雄甸"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "芒布部",
+        "action": "因之",
+        "detail": "昔乌蛮之裔阿统与其子芒布居此地其后昌盛因祖名号芒布部"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "西南番部都大巡检使",
+        "action": "置",
+        "detail": "宋置西南番部都大巡检使"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "芒布路",
+        "action": "置",
+        "detail": "元至元中置芒布路隶乌撒乌蒙宣慰司"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "dynasty": "明",
+        "era": "洪武/嘉靖",
+        "institution_name": "芒部府/镇雄府",
+        "action": "改",
+        "detail": "本朝改为芒部府初隶云南洪武十六年升为芒部军民府隶四川布政司嘉靖中讨平土酋改为镇雄府领长官司四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "乌通山",
+        "type": "山",
+        "location_text": "在府北五里",
+        "description": "夷语首曰乌立曰通谓山巍然独峙如人翘首而独立也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "绰忸山",
+        "type": "山",
+        "location_text": "在府东二十里",
+        "description": "夷语清气曰绰忸谓此山清气郁然可爱",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "硌砌雄山",
+        "type": "山",
+        "location_text": "在府西一百八十里",
+        "description": "夷语石曰硌鹿曰砌凉曰雄谓此山之石类鹿而又高耸清凉也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "乐安山",
+        "type": "山",
+        "location_text": "在府北二百二十里",
+        "description": "山有数峰路径曲折乃芒部叙州之界山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "白水江",
+        "type": "江",
+        "location_text": "在府西北二百八十里",
+        "description": "即八匡河却佐溪黄水溪勿食料溪之防流转流入叙州",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "纳冲河",
+        "type": "河",
+        "location_text": "在府东一十里",
+        "description": "源出乌通山麓过府治东南流入苴斗河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "白鸟河",
+        "type": "河",
+        "location_text": "在府东北二十里",
+        "description": "源出白鸟地界南流入七星关河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "苴斗河",
+        "type": "河",
+        "location_text": "在府南二十四里",
+        "description": "源出六丈山箐经阿赫关合纳冲河入七星关河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "八匡河",
+        "type": "河",
+        "location_text": "在府西八十里",
+        "description": "源出乌撒下流入乌蒙界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "托诺河",
+        "type": "河",
+        "location_text": "在府西南二百五十里",
+        "description": "流入乌蒙界夷语松曰托沙石曰诺以此河畔有松树及沙石故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "沱泊溪",
+        "type": "溪",
+        "location_text": "在府治西",
+        "description": "源出山涧下流入纳冲河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "却佐溪",
+        "type": "溪",
+        "location_text": "在府西一百五十里",
+        "description": "下流入白水江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "勿食料溪",
+        "type": "溪",
+        "location_text": "在府北一百八十里",
+        "description": "源出乐安山西流入白水江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "黄水溪",
+        "type": "溪",
+        "location_text": "在府东北二百四十里",
+        "description": "下流入勿食料溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "八匡泉",
+        "type": "泉",
+        "location_text": "在府西一百五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "115-001",
+        "geo_id": "GEO-115001",
+        "name": "咸泉",
+        "type": "泉",
+        "location_text": "有二俱在府北一百八十里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "115-001",
+        "name": "石瓜",
+        "context": "土产",
+        "note": "树生坚如石故名善治心痛"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "115-001",
+        "name": "麝香",
+        "context": "土产",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "115-001",
+        "name": "马",
+        "context": "土产",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "115-001",
+        "name": "茶",
+        "context": "土产",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "115-001",
+        "name": "毡",
+        "context": "土产",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "115-001",
+        "name": "山鸡",
+        "context": "土产",
+        "note": ""
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "115-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志山川险阨地势崎岖】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "115-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志苴斗河横于南勿食料溪环于北左峙绰忸山右绕硌砌雄】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "115-001",
+        "cited_work": "新志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【新志地在遐荒】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "115-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志性劲而愚俗朴而野男业耕稼妇绝粉黛子日贸易】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "115-001",
+        "cited_work": "新志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【新志崇信巫鬼】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "土司四长官司；无pers/sites1内容"
+  },
+  "title": "镇雄府"
+}

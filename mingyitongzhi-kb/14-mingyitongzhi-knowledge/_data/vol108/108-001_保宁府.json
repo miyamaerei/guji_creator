@@ -1,0 +1,1798 @@
+{
+  "item_id": "108-001",
+  "volume": "108",
+  "source": "保宁府",
+  "region": "四川",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "保宁府",
+        "type": "geo",
+        "norm": "保宁府",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "阆中县",
+        "type": "geo",
+        "norm": "阆中县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "苍溪县",
+        "type": "geo",
+        "norm": "苍溪县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "南部县",
+        "type": "geo",
+        "norm": "南部县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "广元县",
+        "type": "geo",
+        "norm": "广元县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "昭化县",
+        "type": "geo",
+        "norm": "昭化县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "巴州",
+        "type": "geo",
+        "norm": "巴州",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "剑州",
+        "type": "geo",
+        "norm": "剑州",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-S01-C01",
+        "name": "通江县",
+        "type": "geo",
+        "norm": "通江县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-S01-C02",
+        "name": "南江县",
+        "type": "geo",
+        "norm": "南江县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-S02-C01",
+        "name": "梓潼县",
+        "type": "geo",
+        "norm": "梓潼县",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "利州卫",
+        "type": "geo",
+        "norm": "利州卫",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "保宁守御千户所",
+        "type": "geo",
+        "norm": "保宁守御千户所",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K锦屏山",
+        "name": "锦屏山",
+        "type": "mtn",
+        "norm": "锦屏山",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K蟠龙山",
+        "name": "蟠龙山",
+        "type": "mtn",
+        "norm": "蟠龙山",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K大剑山",
+        "name": "大剑山",
+        "type": "mtn",
+        "norm": "大剑山",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K剑门关",
+        "name": "剑门关",
+        "type": "site",
+        "norm": "剑门关",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K张道陵",
+        "name": "张道陵",
+        "type": "person",
+        "norm": "张道陵",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K张飞",
+        "name": "张飞",
+        "type": "person",
+        "norm": "张飞",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K李白",
+        "name": "李白",
+        "type": "person",
+        "norm": "李白",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K杜甫",
+        "name": "杜甫",
+        "type": "person",
+        "norm": "杜甫",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K唐玄宗",
+        "name": "唐玄宗",
+        "type": "person",
+        "norm": "唐玄宗",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K虞允文",
+        "name": "虞允文",
+        "type": "person",
+        "norm": "虞允文",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K七曲山",
+        "name": "七曲山",
+        "type": "mtn",
+        "norm": "七曲山",
+        "first_source": "108-001"
+      },
+      {
+        "ent_id": "ENT-K文昌",
+        "name": "文昌",
+        "type": "person",
+        "norm": "文昌",
+        "first_source": "108-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-108001",
+        "item_id": "108-001",
+        "name": "保宁府",
+        "type": "prefecture",
+        "region": "四川",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-108001-c01",
+          "GEO-108001-c02",
+          "GEO-108001-c03",
+          "GEO-108001-c04",
+          "GEO-108001-c05",
+          "GEO-108001-s01",
+          "GEO-108001-s02",
+          "GEO-108001-w01",
+          "GEO-108001-w02"
+        ],
+        "volume_range": "卷108",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "夔州府达县界",
+              "distance_li": 730
+            },
+            {
+              "direction": "西",
+              "to_place": "龙安府界",
+              "distance_li": 700
+            },
+            {
+              "direction": "南",
+              "to_place": "顺庆府蓬州界",
+              "distance_li": 170
+            },
+            {
+              "direction": "北",
+              "to_place": "陕西汉中府沔县界",
+              "distance_li": 590
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 5900
+            },
+            {
+              "capital": "京师",
+              "distance_li": 10300
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州二县八；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮二万石零"
+          },
+          "jun_name": "巴西【晋名】阆中【唐名】",
+          "topography": "栈道千里通于蜀汉【史记】；井络坤垠界山为门【唐柳宗元剑阁铭】；保宁在剑南巴峡群山中【宋董丕思政堂记】；郡在梁洋梓益之冲【宋冯忠恕正防记】；前界关表后处剑北【宁武志】；益昌于蜀最为都会【宋陈恢题名记】；控蜀之吭四集之国【绵谷驿记】；梁山之险蜀所恃以为外户【刘仪凤剑阁记】",
+          "customs": "质直好义土风淳厚【巴志其民质直好义土风淳厚有先民之流风】；地险民豪【蜀梼杌】；民淳事简【宋李献卿南楼记】；地大俗阜【振文堂记】",
+          "garrisons": [
+            {
+              "name": "利州卫",
+              "type": "卫",
+              "location_text": "在广元县治东洪武三十一年建"
+            },
+            {
+              "name": "保宁守御千户所",
+              "type": "千户所",
+              "location_text": "在府治南洪武四年建直隶都司"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011",
+          "CIT-012"
+        ]
+      },
+      {
+        "geo_id": "GEO-108001-c01",
+        "item_id": "108-001",
+        "name": "阆中县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户一十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-c02",
+        "item_id": "108-001",
+        "name": "苍溪县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府城北四十里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-c03",
+        "item_id": "108-001",
+        "name": "南部县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府城南七十里",
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-c04",
+        "item_id": "108-001",
+        "name": "广元县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府城北三百五十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-c05",
+        "item_id": "108-001",
+        "name": "昭化县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府城北四百里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-s01",
+        "item_id": "108-001",
+        "name": "巴州",
+        "type": "department",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [
+          "GEO-108001-s01-c01",
+          "GEO-108001-s01-c02"
+        ],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府城东三百五十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-s01-c01",
+        "item_id": "108-001",
+        "name": "通江县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001-s01",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在州城东北一百一十里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-s01-c02",
+        "item_id": "108-001",
+        "name": "南江县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001-s01",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在州城南六十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "本朝新建编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-s02",
+        "item_id": "108-001",
+        "name": "剑州",
+        "type": "department",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [
+          "GEO-108001-s02-c01"
+        ],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府城北三百二十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里领县一"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-s02-c01",
+        "item_id": "108-001",
+        "name": "梓潼县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-108001-s02",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在州南二百五十里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-108001-w01",
+        "item_id": "108-001",
+        "name": "利州卫",
+        "type": "weisuo",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在广元县治东洪武三十一年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-108001-w02",
+        "item_id": "108-001",
+        "name": "保宁守御千户所",
+        "type": "weisuo",
+        "region": "四川",
+        "parent": "GEO-108001",
+        "children": [],
+        "volume_range": "卷108",
+        "attributes": {
+          "location_text": "在府治南洪武四年建直隶都司",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之域",
+        "action": "因之",
+        "detail": "禹贡梁州之域，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "春秋战国",
+        "era": null,
+        "institution_name": "巴国地",
+        "action": "因之",
+        "detail": "春秋战国时为巴国地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "巴郡",
+        "action": "置",
+        "detail": "秦惠王灭巴置巴郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "巴郡",
+        "action": "治",
+        "detail": "汉巴郡治江州县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "东汉末",
+        "era": null,
+        "institution_name": "巴西郡",
+        "action": "改",
+        "detail": "刘璋改为巴西郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "巴西郡",
+        "action": "徙",
+        "detail": "晋巴西郡徙治阆中县"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "梁",
+        "era": null,
+        "institution_name": "北巴郡/南梁州",
+        "action": "兼置",
+        "detail": "梁为北巴郡兼置南梁州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "西魏",
+        "era": null,
+        "institution_name": "隆州/盘龙郡",
+        "action": "改",
+        "detail": "西魏改南梁曰隆州又改北巴郡曰盘龙郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "巴西郡",
+        "action": "改",
+        "detail": "隋初郡废州存，大业初复改州为巴西郡"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "唐",
+        "era": "先天/天宝/乾元",
+        "institution_name": "隆州/阆州/阆中郡",
+        "action": "改",
+        "detail": "唐复为隆州，先天中改阆州，天宝初改阆中郡，乾元初复为阆州"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "保宁军",
+        "action": "置",
+        "detail": "五代时唐置保宁军"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "安德军",
+        "action": "改",
+        "detail": "宋初改安德军"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "保宁府/保宁路",
+        "action": "升/改",
+        "detail": "元至元间升保宁府，寻改为保宁路，后复为府"
+      },
+      {
+        "evo_id": "EVO-014",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "保宁府",
+        "action": "因之",
+        "detail": "本朝因之，领州二县八"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "锦屏山",
+        "type": "山",
+        "location_text": "在府城南三里江南岸上",
+        "description": "峙两峰花木闲杂故名，一名阆中山，一名宝鞍山",
+        "lore": "宋陆游诗城中飞阁连危亭处处轩窗对锦屏"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "蟠龙山",
+        "type": "山",
+        "location_text": "在府城东三里",
+        "description": "望如龙蟠之状，后魏以此山名郡；唐贞观中凿破山脉水流如血今号锯山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "繖盖山",
+        "type": "山",
+        "location_text": "在府城北五里",
+        "description": "府之镇山也，中高而四下若繖然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "玉台山",
+        "type": "山",
+        "location_text": "在府城北七里",
+        "description": "",
+        "lore": "唐杜甫诗阆州城北玉台碧"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "灵山",
+        "type": "山",
+        "location_text": "在府城东一十里",
+        "description": "唐天宝中赐名仙穴，其山一峰峭拔界嘉陵宋江之两间",
+        "lore": "杜甫诗阆州城东灵山白"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "青崖山",
+        "type": "山",
+        "location_text": "在府城东南一十里",
+        "description": "宋淳熙间有僧凿佛像于青石间，一名千佛崖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "文城山",
+        "type": "山",
+        "location_text": "在府城东三十里",
+        "description": "峰峦耸列林木葱蒨中一峰特出，名玄都坛",
+        "lore": "相传汉张道陵授其徒符箓之所"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "马头山",
+        "type": "山",
+        "location_text": "在府城东南六十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "重锦山",
+        "type": "山",
+        "location_text": "在府城东一百三十里",
+        "description": "两峰相对秀丽如锦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "天目山",
+        "type": "山",
+        "location_text": "在府城东一百五十里",
+        "description": "山有二洞一曰天目一曰天溪",
+        "lore": "相传葛洪修炼之所；唐杜光庭诗"
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "东龛山",
+        "type": "山",
+        "location_text": "在巴州东",
+        "description": "又有南龛山在州南，西龛山在州西，北龛山在州北，俱去州五里",
+        "lore": "山上俱有寺"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "王望山",
+        "type": "山",
+        "location_text": "在巴州治北",
+        "description": "唐玄宗至此望宫阙故名，又名王望山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "米仓山",
+        "type": "山",
+        "location_text": "在巴州北五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "平梁山",
+        "type": "山",
+        "location_text": "在巴州西二十五里",
+        "description": "上平四围石壁如城，宋末尝徙巴州治于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "登科山",
+        "type": "山",
+        "location_text": "在巴州西五十里",
+        "description": "昔有人读书于此而登科者因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "小巴山",
+        "type": "山",
+        "location_text": "在巴州东北二百九十里",
+        "description": "",
+        "lore": "唐人诗最恨巴山里清猿恼梦思"
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "卧龙山",
+        "type": "山",
+        "location_text": "在剑州东二里",
+        "description": "山形蟠绕有如卧龙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "汉阳山",
+        "type": "山",
+        "location_text": "在剑州北二里",
+        "description": "峰峦高峻上插霄汉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "普翠山",
+        "type": "山",
+        "location_text": "在剑州治西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "鹤鸣山",
+        "type": "山",
+        "location_text": "在剑州东二里",
+        "description": "后人磨崖刻唐元结中兴颂于其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "大剑山",
+        "type": "山",
+        "location_text": "在剑州北二十五里",
+        "description": "一名梁山，其山峭壁中断两崖相嵚如门之辟如剑之植，故又名剑门山",
+        "lore": "刘仪凤剑阁记云梁山之险蜀所恃以为外户"
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "小剑山",
+        "type": "山",
+        "location_text": "与大剑山相属",
+        "description": "小剑则凿石架阁有不容越者",
+        "lore": "秦欲伐蜀五丁开道"
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "五子山",
+        "type": "山",
+        "location_text": "在剑州西北五十里",
+        "description": "五峰奇秀如拱立然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "南山",
+        "type": "山",
+        "location_text": "即南部县之主山",
+        "description": "蜿蜒郁苍环绕县治，一名跨鳌山，宋端平以来县治移此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "隆灵山",
+        "type": "山",
+        "location_text": "在南部县南二十里",
+        "description": "其山面嘉陵背西江绝顶有七曲祠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "禹迹山",
+        "type": "山",
+        "location_text": "在南部县东三十里",
+        "description": "旧传禹治水经此故名，山有寺因崖斫石为重佛像",
+        "lore": "泉出其趾清泠可爱"
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "龙楼山",
+        "type": "山",
+        "location_text": "在南部县西南五十里",
+        "description": "峰顶峭拔众山拱揖洴溪环绕其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "离堆山",
+        "type": "山",
+        "location_text": "在南部县东南五十里",
+        "description": "蜀有三离堆此其一也，唐颜真卿磨崖记谓此山斗入嘉陵江直上数百尺",
+        "lore": "东面有石堂鲜于仲通所凿"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "兰登山",
+        "type": "山",
+        "location_text": "在南部县西八十里",
+        "description": "三面峻绝俯临西江，汉严君平尝隐此，山有君洞洞有君平像",
+        "lore": "又有崇福观"
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "思依山",
+        "type": "山",
+        "location_text": "在南部县西北一百四十里",
+        "description": "中有东西二观，东观有峻仙洞捣药台浴丹井炼丹炉，西观有平仙洞",
+        "lore": "相传汉罗冲霄张道陵依此山修道"
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "小锦屏山",
+        "type": "山",
+        "location_text": "在苍溪县南",
+        "description": "与府城南锦屏山颇相似故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "大获山",
+        "type": "山",
+        "location_text": "在苍溪县东南三十五里",
+        "description": "高四百丈，宋淳祐中阆州尝徙治于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "云台山",
+        "type": "山",
+        "location_text": "在苍溪县东南三十五里",
+        "description": "高峰峻峭插天一名天柱，即汉张道陵升仙处，宋建永宁观",
+        "lore": "有洞曰麻姑芙蓉平仙峻仙，池曰浴丹"
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "紫阳山",
+        "type": "山",
+        "location_text": "在苍溪县东三十五里",
+        "description": "一峰屹峙高入青云",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "方山",
+        "type": "山",
+        "location_text": "在苍溪县东八十五里",
+        "description": "远望如几案之状，古方州城也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "马鞍山",
+        "type": "山",
+        "location_text": "在苍溪县东一百五十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "壁山",
+        "type": "山",
+        "location_text": "在通江县治西",
+        "description": "古壁州以此为名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "秋锦山",
+        "type": "山",
+        "location_text": "在通江县治南",
+        "description": "隔江望之如锦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "歌籁山",
+        "type": "山",
+        "location_text": "在通江县治东",
+        "description": "山上旧有石鼓击之声闻数里",
+        "lore": "连击即雨"
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "得汉山",
+        "type": "山",
+        "location_text": "在通江县东一百二十里",
+        "description": "其上石壁如城中平可容数百人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "牛头山",
+        "type": "山",
+        "location_text": "在昭化县西二十五里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "长山",
+        "type": "山",
+        "location_text": "在昭化县西南九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "九曲山",
+        "type": "山",
+        "location_text": "在昭化县西九十里",
+        "description": "山势盘回九曲",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "龙门山",
+        "type": "山",
+        "location_text": "在昭化县西一百四十里",
+        "description": "一名葱岭，石穴高数十丈如门故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "乌奴山",
+        "type": "山",
+        "location_text": "在广元县治西",
+        "description": "嘉陵江峭壁如削，昔有李乌奴于此修寺因名其山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "石燕山",
+        "type": "山",
+        "location_text": "在广元县西北八十里",
+        "description": "山极高峻梯格乃能登之，獠人恃此为阻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "潭毒山",
+        "type": "山",
+        "location_text": "在广元县北九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在梓潼县治东",
+        "description": "峰峦起伏状若凤凰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "长卿山",
+        "type": "山",
+        "location_text": "在梓潼县治西南",
+        "description": "旧名神山，唐玄宗幸蜀见山有司马相如读书之窟因改名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "五妇山",
+        "type": "山",
+        "location_text": "在梓潼县北一十二里",
+        "description": "相传秦惠王遗蜀王美女五人蜀王遣五丁力士迎之至此五丁蹋地大呼五女并化为石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "七曲山",
+        "type": "山",
+        "location_text": "在梓潼县北一十五里",
+        "description": "山腹有路盘转七曲",
+        "lore": "即灵应庙梓潼神张亚子所居"
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "兜鍪山",
+        "type": "山",
+        "location_text": "在梓潼县东南二十里",
+        "description": "群峰列势有如兜鍪之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "葛山",
+        "type": "山",
+        "location_text": "在梓潼县北二十里",
+        "description": "汉诸葛亮尝屯营此山因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "雁门山",
+        "type": "山",
+        "location_text": "在梓潼县南三十里",
+        "description": "东西起两峰雁从中过",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "马阁山",
+        "type": "山",
+        "location_text": "在梓潼县北一百二十里",
+        "description": "峻峭崚嶒极为艰险，魏邓艾伐蜀悬车束马由此出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "大巴岭",
+        "type": "岭",
+        "location_text": "在通江县东北五百里",
+        "description": "与小巴岭相接，世传九十里巴山是也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "白卫岭",
+        "type": "岭",
+        "location_text": "在昭化县西南五十里",
+        "description": "与剑门相接，唐玄宗幸蜀登此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "漫天岭",
+        "type": "岭",
+        "location_text": "在广元县东北三十五里",
+        "description": "山极高耸有大漫天小漫天二山，一名藁本山",
+        "lore": "唐罗隐诗"
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "朝天岭",
+        "type": "岭",
+        "location_text": "在广元县北六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "七盘岭",
+        "type": "岭",
+        "location_text": "在广元县北一百七十里",
+        "description": "一名五盘岭",
+        "lore": "唐杜甫诗五盘虽云险山色佳有余"
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "雪峰",
+        "type": "峰",
+        "location_text": "在巴州东二十五里",
+        "description": "众山之中此峰特出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "十二峰",
+        "type": "峰",
+        "location_text": "在巴州北四百里马盘湾",
+        "description": "巉岩耸秀大小十二峰最为奇观",
+        "lore": "有题云插立翠峰屏十二为君唤作小巫山"
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "南岩",
+        "type": "岩",
+        "location_text": "在府城南锦屏山后",
+        "description": "一名台星岩，宋陈尧叟兄弟肄业之所",
+        "lore": "城东有东岩城北有北岩俱去城五里"
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "灵城岩",
+        "type": "岩",
+        "location_text": "在府城东六十里",
+        "description": "比他岩最深，岩上有滴乳为水珠，石上有双竹痕长尺许",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "停云岩",
+        "type": "岩",
+        "location_text": "在南部县北二里",
+        "description": "",
+        "lore": "宋李焘诗路转层冈二里余"
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "秀岩",
+        "type": "岩",
+        "location_text": "在剑州城西",
+        "description": "有泉清洁可爱",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "龙岩",
+        "type": "岩",
+        "location_text": "在剑州北七十里",
+        "description": "洞穴可坐百人蜿蜒如龙盘之状",
+        "lore": "州治西亦有龙岩可坐百人"
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "书岩",
+        "type": "岩",
+        "location_text": "在苍溪县云台东",
+        "description": "乃葛稚川读书之所有稚川像在焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "灵云洞",
+        "type": "洞",
+        "location_text": "在南部县东北外防中",
+        "description": "广冬暖夏凉入三丈许踏之有声如钟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "龙洞",
+        "type": "洞",
+        "location_text": "在王望山之岩腹间",
+        "description": "世传太守景箎以旱祷雨有应，作灵甘洞记尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "西游洞",
+        "type": "洞",
+        "location_text": "在巴州北一百八十里",
+        "description": "嵌嵚奇怪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "嘉陵江",
+        "type": "江",
+        "location_text": "源出陕西凤县嘉陵谷经广元昭化过剑州至保宁府",
+        "description": "其曰阆水巴水渝水汉水皆此江之异名",
+        "lore": "唐杜甫诗嘉陵江色何所似"
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "宋江",
+        "type": "江",
+        "location_text": "源出陕西汉中府旧廉水县经苍溪县东流入嘉陵江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "巴江",
+        "type": "江",
+        "location_text": "源出大巴山至巴县东南分为三流而中央横贯势若巴字",
+        "description": "又名字江；唐李远诗巴江学字流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "清江",
+        "type": "江",
+        "location_text": "源出广元县前通平镇历旧思阳县至巴县与巴江合",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "白水江",
+        "type": "江",
+        "location_text": "源出陕西阶州乱山中至昭化县北合嘉陵江",
+        "description": "",
+        "lore": "唐温庭筠诗"
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c05",
+        "name": "清水江",
+        "type": "江",
+        "location_text": "源出清川县至安昌合白水入嘉陵江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "涪江",
+        "type": "江",
+        "location_text": "源出西羌从渔溪寨南经江油至剑州南入绵州界",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "清漪江",
+        "type": "江",
+        "location_text": "源出落丛山至龙鼻山防六溪水至彰明县会于涪江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "潼江水",
+        "type": "水",
+        "location_text": "源出莒溪经梓潼县西南入涪水",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "小潼水",
+        "type": "水",
+        "location_text": "源出剑州武连废县北七十里经梓潼县流入嘉陵江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "堰水",
+        "type": "水",
+        "location_text": "在剑州阴平废县西四十里",
+        "description": "与潼水合流泛涨奔注望之有如堰防之势",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "龙滩",
+        "type": "滩",
+        "location_text": "在通江县东二十里",
+        "description": "俗传尝有龙出水为马跃今石上有迹存焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "龙爪滩",
+        "type": "滩",
+        "location_text": "在阆中嘉陵江",
+        "description": "宋雍熙中忽生此滩二陈相继为状元，元丰间复生一滩马涓亦为状元",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "海棠溪",
+        "type": "溪",
+        "location_text": "在府治南",
+        "description": "因上多海棠故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "黑龙潭",
+        "type": "潭",
+        "location_text": "在广元县南三十里",
+        "description": "三山屹立林木郁秀，宋时利州久旱郡守于潭酌水祷之大雨三日",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "虎井",
+        "type": "井",
+        "location_text": "在巴州学前",
+        "description": "凡遇有声如雷必有登科者",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "观音井",
+        "type": "井",
+        "location_text": "在巴州南龛山",
+        "description": "一穴清洌可饮一穴浑浊止可澣濯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c04",
+        "name": "宝峰井",
+        "type": "井",
+        "location_text": "在广元县治东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "剑泉",
+        "type": "泉",
+        "location_text": "在梓潼县北一十里",
+        "description": "相传昔蜀五丁力士遗剑隐于路隅化为此泉",
+        "lore": "有碑；杜若晦诗"
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "卓锡泉",
+        "type": "泉",
+        "location_text": "在繖盖山",
+        "description": "唐僧仙什尝居是山其徒以无水难之，仙什以杖叩岩泉为涌出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "龙泉",
+        "type": "泉",
+        "location_text": "在府东一百三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c03",
+        "name": "醴泉",
+        "type": "泉",
+        "location_text": "在南部县治西",
+        "description": "水香甘如醴因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01",
+        "name": "君子泉",
+        "type": "泉",
+        "location_text": "在巴州北一百六十里",
+        "description": "",
+        "lore": "宋黄彝则铭曰有洌者泉达于南东"
+      },
+      {
+        "mtn_id": "MTN-095",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "马跑泉",
+        "type": "泉",
+        "location_text": "在梓潼县东二十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-096",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "灵泉",
+        "type": "泉",
+        "location_text": "在梓潼县东一百一十里",
+        "description": "唐僖宗幸蜀赐名",
+        "lore": "陆游诗滴沥珠玑翠碧间"
+      },
+      {
+        "mtn_id": "MTN-097",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02-c01",
+        "name": "香泉",
+        "type": "泉",
+        "location_text": "在梓潼县北一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-098",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c02",
+        "name": "天池",
+        "type": "池",
+        "location_text": "在苍溪县大获山上",
+        "description": "周围二丈水常不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-099",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-c01",
+        "name": "南池",
+        "type": "池",
+        "location_text": "在府城南汉高祖庙东",
+        "description": "自汉以来堰大斗小斗之水灌田里人赖之，唐时堰坏遂成陆田",
+        "lore": "杜甫诗安知有苍池万顷浸坤轴"
+      },
+      {
+        "mtn_id": "MTN-100",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s01-c01",
+        "name": "玉鞭池",
+        "type": "池",
+        "location_text": "在通江县壁山西",
+        "description": "昔居人得玉鞭于内故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-101",
+        "item_id": "108-001",
+        "geo_id": "GEO-108001-s02",
+        "name": "浴丹池",
+        "type": "池",
+        "location_text": "在剑州普安废县",
+        "description": "唐杜光庭浴丹之所，池中有鱼赤鬣色如金飞跃其中",
+        "lore": "人或采取必触风雷之变"
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "108-001",
+        "name": "麸金",
+        "note": "巴州剑州广元出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "108-001",
+        "name": "盐",
+        "note": "南部县有井"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "108-001",
+        "name": "茶",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "108-001",
+        "name": "橙",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "108-001",
+        "name": "蜜",
+        "note": "巴州出"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "108-001",
+        "name": "麝香",
+        "note": "广元县出"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "108-001",
+        "name": "巴菽",
+        "note": "剑州出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "108-001",
+        "cited_work": "史记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【史记栈道千里通于蜀汉】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "108-001",
+        "cited_work": "柳宗元剑阁铭",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【唐柳宗元剑阁铭井络坤垠界山为门】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "108-001",
+        "cited_work": "董丕思政堂记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋董丕思政堂记保宁在剑南巴峡群山中】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "108-001",
+        "cited_work": "冯忠恕正防记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋冯忠恕正防记郡在梁洋梓益之冲】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "108-001",
+        "cited_work": "宁武志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宁武志前界关表后处剑北】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "108-001",
+        "cited_work": "陈恢题名记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋陈恢题名记益昌于蜀最为都会】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "108-001",
+        "cited_work": "绵谷驿记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【绵谷驿记控蜀之吭四集之国】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "108-001",
+        "cited_work": "刘仪凤剑阁记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【刘仪凤剑阁记梁山之险蜀所恃以为外户】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "108-001",
+        "cited_work": "巴志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【巴志其民质直好义土风淳厚有先民之流风】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "108-001",
+        "cited_work": "蜀梼杌",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【蜀梼杌地险民豪】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "108-001",
+        "cited_work": "李献卿南楼记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋李献卿南楼记民淳事简】"
+      },
+      {
+        "cit_id": "CIT-012",
+        "item_id": "108-001",
+        "cited_work": "振文堂记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【振文堂记地大俗阜】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "保宁府"
+}

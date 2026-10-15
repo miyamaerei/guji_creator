@@ -1,0 +1,649 @@
+{
+  "item_id": "113-001",
+  "volume": "113",
+  "source": "马湖府",
+  "region": "四川",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "马湖府",
+        "type": "geo",
+        "norm": "马湖府",
+        "first_source": "113-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "屏山县",
+        "type": "geo",
+        "norm": "屏山县",
+        "first_source": "113-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "泥溪长官司",
+        "type": "geo",
+        "norm": "泥溪长官司",
+        "first_source": "113-001"
+      },
+      {
+        "ent_id": "ENT-T02",
+        "name": "平夷长官司",
+        "type": "geo",
+        "norm": "平夷长官司",
+        "first_source": "113-001"
+      },
+      {
+        "ent_id": "ENT-T03",
+        "name": "蛮夷长官司",
+        "type": "geo",
+        "norm": "蛮夷长官司",
+        "first_source": "113-001"
+      },
+      {
+        "ent_id": "ENT-T04",
+        "name": "沐川长官司",
+        "type": "geo",
+        "norm": "沐川长官司",
+        "first_source": "113-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-113001",
+        "item_id": "113-001",
+        "name": "马湖府",
+        "type": "prefecture",
+        "region": "四川",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-113001-c01",
+          "GEO-113001-t01",
+          "GEO-113001-t02",
+          "GEO-113001-t03",
+          "GEO-113001-t04"
+        ],
+        "volume_range": "卷113",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "叙州府宜宾县界",
+              "distance_li": 45
+            },
+            {
+              "direction": "西",
+              "to_place": "建昌旧邛部州界",
+              "distance_li": 610
+            },
+            {
+              "direction": "南",
+              "to_place": "乌蒙府蛮夷长官司界",
+              "distance_li": 110
+            },
+            {
+              "direction": "北",
+              "to_place": "宜宾县界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6160
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9330
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领长官司四"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮二千石零"
+          },
+          "jun_name": "龙湖【郡志昔龙马潜于马湖江因名】",
+          "topography": "南距戎泸北走普资【方舆胜览】；地狭民稀山高水急【郡志】",
+          "customs": "俗慤而愿仍有夷风【方舆胜览】；夷夏杂居粗知礼义颇识文字信鬼不药【郡志】；散居山箐无县邑乡镇【元史地理志】",
+          "garrisons": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006"
+        ]
+      },
+      {
+        "geo_id": "GEO-113001-c01",
+        "item_id": "113-001",
+        "name": "屏山县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-113001",
+        "children": [],
+        "volume_range": "卷113",
+        "attributes": {
+          "location_text": "万历中新设",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-113001-t01",
+        "item_id": "113-001",
+        "name": "泥溪长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-113001",
+        "children": [],
+        "volume_range": "卷113",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "以上四长官司宋俱为马湖部落元至正间俱置长官司本朝因之"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-113001-t02",
+        "item_id": "113-001",
+        "name": "平夷长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-113001",
+        "children": [],
+        "volume_range": "卷113",
+        "attributes": {
+          "location_text": "在府城东南四十五里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "以上四长官司宋俱为马湖部落元至正间俱置长官司本朝因之"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-113001-t03",
+        "item_id": "113-001",
+        "name": "蛮夷长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-113001",
+        "children": [],
+        "volume_range": "卷113",
+        "attributes": {
+          "location_text": "在府城西一百八十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "以上四长官司宋俱为马湖部落元至正间俱置长官司本朝因之"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-113001-t04",
+        "item_id": "113-001",
+        "name": "沐川长官司",
+        "type": "tusi",
+        "region": "四川",
+        "parent": "GEO-113001",
+        "children": [],
+        "volume_range": "卷113",
+        "attributes": {
+          "location_text": "在府城西五百二十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "以上四长官司宋俱为马湖部落元至正间俱置长官司本朝因之"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001",
+        "dynasty": "上古",
+        "era": null,
+        "institution_name": "僰侯国",
+        "action": "因之",
+        "detail": "古僰侯国之境夷獠所居"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001",
+        "dynasty": "汉",
+        "era": "武帝",
+        "institution_name": "犍为牂牁二郡地",
+        "action": "置",
+        "detail": "汉武通西南夷始置郡县为犍为牂牁二郡地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "羁縻驯骋浪滈四州/马湖部",
+        "action": "因之",
+        "detail": "唐为羁縻驯骋浪滈四州地总名马湖部属戎州都督府"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "蛮主屯湖内",
+        "action": "因之",
+        "detail": "宋时蛮主屯湖内"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "马湖路",
+        "action": "置",
+        "detail": "元至元间内附置马湖路治于马湖江之南岸属叙南等处蛮夷宣抚司"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "马湖府",
+        "action": "改",
+        "detail": "本朝洪武四年改为马湖府领长官司四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "赤崖山",
+        "type": "山",
+        "location_text": "在府城东北三里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "宝屏山",
+        "type": "山",
+        "location_text": "在府城东一十里",
+        "description": "山如屏障因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "镜山",
+        "type": "山",
+        "location_text": "在府城西三十五里",
+        "description": "山下有水澄清如镜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "雷番山",
+        "type": "山",
+        "location_text": "在府城西三百八十里",
+        "description": "隋史万岁征西南夷过此尝日书雷番山三字镌于山之石壁字迹犹存山中草有毒经过头畜必笼其口行人亦必缄默若或高声虽冬月必有雷霆之应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t02",
+        "name": "隆马山",
+        "type": "山",
+        "location_text": "在平夷长官司北",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t02",
+        "name": "书楼山",
+        "type": "山",
+        "location_text": "在平夷长官司东一百二十里",
+        "description": "岭上有石方叠如书因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t03",
+        "name": "大鹿山",
+        "type": "山",
+        "location_text": "在蛮夷长官司东南二十里",
+        "description": "山谷深远多麋鹿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t03",
+        "name": "小悍山",
+        "type": "山",
+        "location_text": "在蛮夷长官司西北一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "青孤山",
+        "type": "山",
+        "location_text": "在沐川长官司东一十里",
+        "description": "其山秀出众山之表望之郁然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "神木山",
+        "type": "山",
+        "location_text": "在沐川长官司西二十里",
+        "description": "旧名黄种溪山本朝永乐四年伐楠木于此山一夕楠木不假人力移数里遂封为神木山岁时祭之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "南现山",
+        "type": "山",
+        "location_text": "在沐川长官司北",
+        "description": "永乐五年建神木山祠于上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "夷都山",
+        "type": "山",
+        "location_text": "在沐川长官司北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "龙源山",
+        "type": "山",
+        "location_text": "在沐川长官司西北六十里",
+        "description": "山顶有潭尝有龙潜于内",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t03",
+        "name": "马湖江",
+        "type": "江",
+        "location_text": "在蛮夷长官司前",
+        "description": "源出沉黎相传昔有龙马潜湖内",
+        "lore": "华阳国志江之崖有五色赤白映水玄黄鱼从楚来至此而止畏崖映其水故也"
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "泥溪",
+        "type": "溪",
+        "location_text": "在府城西二里",
+        "description": "源出叙州府宜宾县流入马湖江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "悔泥溪",
+        "type": "溪",
+        "location_text": "在府城东十五里",
+        "description": "源出宝屏山流入马湖江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t02",
+        "name": "大汶溪",
+        "type": "溪",
+        "location_text": "在平夷长官司南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t02",
+        "name": "小汶溪",
+        "type": "溪",
+        "location_text": "在平夷长官司东一十里",
+        "description": "二溪俱源出乌蒙府钟滩流入马湖江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t03",
+        "name": "什葛溪",
+        "type": "溪",
+        "location_text": "在蛮夷长官司西二里",
+        "description": "源出小悍山流入马湖江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t03",
+        "name": "大鹿溪",
+        "type": "溪",
+        "location_text": "在蛮夷长官司东二十里",
+        "description": "源出大鹿山流入马湖江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "芭蕉溪",
+        "type": "溪",
+        "location_text": "在沐川长官司东四十里",
+        "description": "源出龙马山流入马湖江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "马湖",
+        "type": "湖",
+        "location_text": "在府城西一百七十里",
+        "description": "湖在山顶长二十里广七里余中有土山可居四百余人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t04",
+        "name": "沐川",
+        "type": "水",
+        "location_text": "在沐川长官司北一百里",
+        "description": "源出夷都山流入蜀江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "结发滩",
+        "type": "滩",
+        "location_text": "在府城西十五里",
+        "description": "滩水萦回状如结发",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "铁锁滩",
+        "type": "滩",
+        "location_text": "在府城西四十五里",
+        "description": "即马湖江下流两岸石壁峭立每夏秋水涨舟楫不通用锁悬于江之北岸舟行至此数人攀缘崖上拽舟而过故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "鸡肝石滩",
+        "type": "滩",
+        "location_text": "在府城西四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t01",
+        "name": "峻滩",
+        "type": "滩",
+        "location_text": "在府城西四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "113-001",
+        "geo_id": "GEO-113001-t02",
+        "name": "新滩",
+        "type": "滩",
+        "location_text": "在平夷长官司东一百里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "113-001",
+        "name": "余甘子",
+        "context": "土产",
+        "note": "状如川练子初食味苦涩少顷甚甘"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "113-001",
+        "name": "楠木",
+        "context": "土产",
+        "note": "年深向阳者结成花纹俗呼为斗柏楠"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "113-001",
+        "name": "杉木",
+        "context": "土产",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "113-001",
+        "name": "独本桶",
+        "context": "土产",
+        "note": "元初马湖蛮岁以独本桶来献郡县疲于递送元贞初罢之"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "113-001",
+        "cited_work": "方舆胜览",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【方舆胜览南距戎泸北走普资】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "113-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志地狭民稀山高水急】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "113-001",
+        "cited_work": "方舆胜览",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【方舆胜览俗慤而愿仍有夷风】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "113-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志夷夏杂居粗知礼义颇识文字信鬼不药】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "113-001",
+        "cited_work": "元史地理志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元史地理志其民散居山箐无县邑乡镇】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "113-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "郡名",
+        "original": "【郡志昔龙马潜于马湖江因名】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1人物；sites拆至sites1寺观祠庙/sites2关梁学校"
+  },
+  "title": "马湖府"
+}

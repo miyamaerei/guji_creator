@@ -1,0 +1,1611 @@
+{
+  "item_id": "110-001",
+  "volume": "110",
+  "source": "叙州府",
+  "region": "四川",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "叙州府",
+        "type": "geo",
+        "norm": "叙州府",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "宜宾县",
+        "type": "geo",
+        "norm": "宜宾县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "庆符县",
+        "type": "geo",
+        "norm": "庆符县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "富顺县",
+        "type": "geo",
+        "norm": "富顺县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "南溪县",
+        "type": "geo",
+        "norm": "南溪县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "长宁县",
+        "type": "geo",
+        "norm": "长宁县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "高县",
+        "type": "geo",
+        "norm": "高县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C07",
+        "name": "筠连县",
+        "type": "geo",
+        "norm": "筠连县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C08",
+        "name": "珙县",
+        "type": "geo",
+        "norm": "珙县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C09",
+        "name": "兴文县",
+        "type": "geo",
+        "norm": "兴文县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-C10",
+        "name": "隆昌县",
+        "type": "geo",
+        "norm": "隆昌县",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "叙州卫",
+        "type": "geo",
+        "norm": "叙州卫",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-K黄庭坚",
+        "name": "黄庭坚",
+        "type": "person",
+        "norm": "黄庭坚",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-K诸葛亮",
+        "name": "诸葛亮",
+        "type": "person",
+        "norm": "诸葛亮",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-K杜甫",
+        "name": "杜甫",
+        "type": "person",
+        "norm": "杜甫",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-K马湖江",
+        "name": "马湖江",
+        "type": "mtn",
+        "norm": "马湖江",
+        "first_source": "110-001"
+      },
+      {
+        "ent_id": "ENT-K锁江",
+        "name": "锁江",
+        "type": "mtn",
+        "norm": "锁江",
+        "first_source": "110-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-110001",
+        "item_id": "110-001",
+        "name": "叙州府",
+        "type": "prefecture",
+        "region": "四川",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-110001-c01",
+          "GEO-110001-c02",
+          "GEO-110001-c03",
+          "GEO-110001-c04",
+          "GEO-110001-c05",
+          "GEO-110001-c06",
+          "GEO-110001-c07",
+          "GEO-110001-c08",
+          "GEO-110001-c09",
+          "GEO-110001-c10",
+          "GEO-110001-w01"
+        ],
+        "volume_range": "卷110",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "泸州江安县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "西",
+              "to_place": "马湖府平夷长官司界",
+              "distance_li": 60
+            },
+            {
+              "direction": "南",
+              "to_place": "镇雄府界",
+              "distance_li": 470
+            },
+            {
+              "direction": "北",
+              "to_place": "嘉定州荣县界",
+              "distance_li": 250
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6035
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9250
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县十；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮十万石零"
+          },
+          "jun_name": "犍为【汉名】南溪【唐名】叙南【元名】",
+          "topography": "东距泸水西连大峨南通六诏北接三荣【图经】；地枕大江当舟车之冲【谯楼记】；负山濒江地势险阻【张鼎修忠利庙记】；钩连三江【宋黄庭坚重修戎州舍利塔记】；地当冲要【元史宋以长宁州地最当冲要用升为军立安宁县】",
+          "customs": "夷夏杂居风俗各异【寰宇记】；其士静而有文其民朴而易治【宋李宗丞园记】；民力于穑士竞于文【富顺志】；州以涪翁重诗礼之泽渐渍至今【宋黄庭坚祠堂记】；俗慤而愿且知礼逊【钱士开富顺泮水巷记】；俗不知医【宋史周湛传】",
+          "garrisons": [
+            {
+              "name": "叙州卫",
+              "type": "卫",
+              "location_text": "在府治东旧为守御千户所洪武十年改为卫"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011"
+        ]
+      },
+      {
+        "geo_id": "GEO-110001-c01",
+        "item_id": "110-001",
+        "name": "宜宾县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 28,
+            "unit": "里",
+            "note": "编户28里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c02",
+        "item_id": "110-001",
+        "name": "庆符县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城南一百二十里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户6里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c03",
+        "item_id": "110-001",
+        "name": "富顺县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城东北一百八十里",
+          "households": {
+            "count": 92,
+            "unit": "里",
+            "note": "编户92里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c04",
+        "item_id": "110-001",
+        "name": "南溪县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {
+            "count": 19,
+            "unit": "里",
+            "note": "编户19里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c05",
+        "item_id": "110-001",
+        "name": "长宁县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城东南二百七十里",
+          "households": {
+            "count": 17,
+            "unit": "里",
+            "note": "编户17里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c06",
+        "item_id": "110-001",
+        "name": "高县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城西南一百五十里",
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "编户13里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c07",
+        "item_id": "110-001",
+        "name": "筠连县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城西南二百五十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户4里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c08",
+        "item_id": "110-001",
+        "name": "珙县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城南三百三十里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户6里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c09",
+        "item_id": "110-001",
+        "name": "兴文县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城东南三百四十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户12里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-c10",
+        "item_id": "110-001",
+        "name": "隆昌县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府城西一百五十里新置",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户10里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-110001-w01",
+        "item_id": "110-001",
+        "name": "叙州卫",
+        "type": "weisuo",
+        "region": "四川",
+        "parent": "GEO-110001",
+        "children": [],
+        "volume_range": "卷110",
+        "attributes": {
+          "location_text": "在府治东旧为守御千户所洪武十年改为卫",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之域",
+        "action": "因之",
+        "detail": "禹贡梁州之域，天文井鬼分野，古为僰国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "犍为郡",
+        "action": "置",
+        "detail": "汉为犍为郡治此，东汉徙犍为治武阳"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "南齐",
+        "era": null,
+        "institution_name": "犍为郡",
+        "action": "复置",
+        "detail": "南齐复为犍为郡治"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "梁武帝",
+        "era": null,
+        "institution_name": "戎州/六同郡",
+        "action": "置",
+        "detail": "梁武帝立戎州又置六同郡于南广县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "犍为郡",
+        "action": "改",
+        "detail": "隋初废六同郡而存戎州，大业初改州为犍为郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "唐",
+        "era": "武德/贞观/天宝/乾元",
+        "institution_name": "戎州/南溪郡",
+        "action": "改",
+        "detail": "唐武德初复为戎州移治南溪，贞观初复移治僰道，天宝初改州为南溪郡，乾元初复为戎州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "宋",
+        "era": "政和",
+        "institution_name": "叙州",
+        "action": "改",
+        "detail": "宋初州治宜宾，政和间改为叙州，取西戎即叙之义"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "叙州路",
+        "action": "升",
+        "detail": "元升叙州路以叙南等处宣抚司治此"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "叙州府",
+        "action": "改",
+        "detail": "本朝洪武初改为叙州府，领县十"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "仙侣山",
+        "type": "山",
+        "location_text": "在府治西北",
+        "description": "产仙茅，上有真武宫竹木森翠，山腰有清泉一石洞四，其一曰杨仙洞",
+        "lore": "相传宋杨道人升仙之地"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "翠屏山",
+        "type": "山",
+        "location_text": "在仙侣山后",
+        "description": "四时常青因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "七星山",
+        "type": "山",
+        "location_text": "在府治东",
+        "description": "七峰圆秀状若连珠故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "小梁山",
+        "type": "山",
+        "location_text": "在府治东",
+        "description": "舆地胜览云四时常霖霪不止俗呼为大漏天小漏天",
+        "lore": "寰宇记谓之大梨山小梨山"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "东山",
+        "type": "山",
+        "location_text": "在府治东北",
+        "description": "上有报恩寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "桂丛山",
+        "type": "山",
+        "location_text": "在府治北",
+        "description": "其上多桂因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "赤崖山",
+        "type": "山",
+        "location_text": "在府治西北",
+        "description": "崖岸壁立瞰大江色若绮霞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "师来山",
+        "type": "山",
+        "location_text": "在府治西",
+        "description": "相传昔有人浮舟于此忽见一道人飘然自空而下止于峰顶",
+        "lore": "土人呼道士为师故名一名书楼山"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "朱提山",
+        "type": "山",
+        "location_text": "在府城西五十里",
+        "description": "山出银",
+        "lore": "汉诸葛亮书汉嘉金朱提银采之不足以自食；唐韩愈诗我有双饮盏其银得朱提"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "乳洞山",
+        "type": "山",
+        "location_text": "在府城西南六十里",
+        "description": "有泉如乳一名浮洞山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "可峰山",
+        "type": "山",
+        "location_text": "在府城北七十里",
+        "description": "一名梯云岭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "夷牟山",
+        "type": "山",
+        "location_text": "在府城南一百里",
+        "description": "",
+        "lore": "宋苏辙诗岸阔山尽平连峰远飞汉"
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "定夸山",
+        "type": "山",
+        "location_text": "在府城西一百里",
+        "description": "山坡荔枝连袤多属廖氏",
+        "lore": "宋黄庭坚诗廖致平家绿荔枝即此山所出"
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "洞山",
+        "type": "山",
+        "location_text": "在定夸山后",
+        "description": "下有洞容数十人上有一览亭登眺为胜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "石城山",
+        "type": "山",
+        "location_text": "在府城西南一百里",
+        "description": "高峻环列如城",
+        "lore": "隋史万岁诗石城门峻谁开辟"
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "石门山",
+        "type": "山",
+        "location_text": "在庆符县治下",
+        "description": "瞰石门江其林薄间多兰有春兰秋兰凤尾兰素兰石兰竹兰",
+        "lore": "黄庭坚幽芳亭记"
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "兴庆山",
+        "type": "山",
+        "location_text": "在庆符县南一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "迎祥山",
+        "type": "山",
+        "location_text": "在庆符县东二十里",
+        "description": "宋置祥州以此山名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "汉阳山",
+        "type": "山",
+        "location_text": "在庆符县北八十里",
+        "description": "诸葛亮平西南夷驻军此山山腰有洞神龙居焉祷旱辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "同心山",
+        "type": "山",
+        "location_text": "在富顺县治东",
+        "description": "一名东山",
+        "lore": "宋邦人吕震吕造读书其上俱以文显故名"
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "凌云山",
+        "type": "山",
+        "location_text": "在富顺县治西",
+        "description": "大江前横一峰突兀邦人以为登眺之地",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "龙山",
+        "type": "山",
+        "location_text": "在富顺县治北",
+        "description": "下有西湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "马脑山",
+        "type": "山",
+        "location_text": "在富顺县与凌云山相接",
+        "description": "西北诸山唯此最高有二岩一曰中岩一曰北岩",
+        "lore": "唐咸通间依岩镌大佛像；宋僧自悟架屋三百楹"
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "禄来山",
+        "type": "山",
+        "location_text": "在富顺县治东",
+        "description": "与学宫相对",
+        "lore": "宋蒲侯津以此山秀异因辟学宫向之"
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "养秀山",
+        "type": "山",
+        "location_text": "在富顺县治西",
+        "description": "一峰耸秀一名积草山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "劝农山",
+        "type": "山",
+        "location_text": "在富顺县治南",
+        "description": "宋太守黄商卿尝劝农于此上有洗马池清泉洞啸台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "圣灯山",
+        "type": "山",
+        "location_text": "在劝农山南",
+        "description": "上有圣灯院尝有灯出烟雾中初为一炬忽三忽五俗谓之圣灯",
+        "lore": "见则封域宁谧年岁丰稔"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "神龟山",
+        "type": "山",
+        "location_text": "在富顺县治北",
+        "description": "下有湖当湖之西尝有巨龟出小龟从之不可胜数故名",
+        "lore": "山后有洞宋里人李见读易于此今名读易洞"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "兜子山",
+        "type": "山",
+        "location_text": "在富顺县南三十五里",
+        "description": "耸拔高峻有巨石若兜轮之形故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "虎头山",
+        "type": "山",
+        "location_text": "在富顺县西南六十里",
+        "description": "高六十余丈形如虎踞故名",
+        "lore": "宋咸淳初尝徙县治此山"
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "龙腾山",
+        "type": "山",
+        "location_text": "在南溪县东二里",
+        "description": "下瞰大江其北有石横空长四丈俗呼为龙桥",
+        "lore": "旧有黄庭坚大书凉暑亭三字"
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "平盖山",
+        "type": "山",
+        "location_text": "在南溪县西一十五里",
+        "description": "有三山九陇惟此山一峰特出顶圆而平故名",
+        "lore": "汉真人刘景鹤隐此炼丹有石洞深邃"
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "龙透山",
+        "type": "山",
+        "location_text": "在南溪县东北二十里",
+        "description": "山腹有洞穴深广十余丈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "可卢山",
+        "type": "山",
+        "location_text": "在南溪县南五十里",
+        "description": "山多筇竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "龙磨角山",
+        "type": "山",
+        "location_text": "在南溪县西六十里",
+        "description": "其山巉岩有划破迹",
+        "lore": "相传龙尝于此磨角"
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "桂轮山",
+        "type": "山",
+        "location_text": "在南溪县西七十里",
+        "description": "石壁上有黄庭坚所书大桂轮山四字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "云台山",
+        "type": "山",
+        "location_text": "在南溪县北八十里",
+        "description": "",
+        "lore": "元廖蜀望诗云台突出众山低"
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "牛心山",
+        "type": "山",
+        "location_text": "在长宁县治东",
+        "description": "山形崒嵂如牛心然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "笔架山",
+        "type": "山",
+        "location_text": "在长宁县治西",
+        "description": "峰分数峰状如笔架故名",
+        "lore": "宋王象之云能兴云雨观此山之显晦以验天阴晴"
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "金龟山",
+        "type": "山",
+        "location_text": "在长宁县治南",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "宝屏山",
+        "type": "山",
+        "location_text": "在长宁县治北",
+        "description": "其山如屏旧有登云亭为游赏之地",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "越王山",
+        "type": "山",
+        "location_text": "在长宁县南二十里",
+        "description": "相传因有越王墓而名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "佛来山",
+        "type": "山",
+        "location_text": "在长宁县北一百五十里",
+        "description": "相传时有佛现于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c06",
+        "name": "阁梯连珠山",
+        "type": "山",
+        "location_text": "在高县治南",
+        "description": "其山峭壁如阁其路盘旋如梯故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c07",
+        "name": "亭台山",
+        "type": "山",
+        "location_text": "在筠连县南二十五里",
+        "description": "高耸如亭台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c08",
+        "name": "芙蓉山",
+        "type": "山",
+        "location_text": "在珙县北三十里",
+        "description": "众峰联秀形如芙蓉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c09",
+        "name": "摩旗山",
+        "type": "山",
+        "location_text": "在兴文县治东",
+        "description": "形如旗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c09",
+        "name": "南寿山",
+        "type": "山",
+        "location_text": "在兴文县治西南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "万松岭",
+        "type": "岭",
+        "location_text": "在长宁县治西",
+        "description": "",
+        "lore": "宋赵史君诗清溪狭径小桥东春入桃花处处同"
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "凤岭",
+        "type": "岭",
+        "location_text": "在长宁县治西",
+        "description": "其形如凤",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "虞公峡",
+        "type": "峡",
+        "location_text": "在长宁县治东",
+        "description": "昔有石闭塞水道不通舟楫",
+        "lore": "宋嘉定间故相虞允文子伋孙来为郡守开凿大石舟楫始通"
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "水帘洞",
+        "type": "洞",
+        "location_text": "在府城北一十五里",
+        "description": "瀑布如帘下垂数尺",
+        "lore": "宋黄庭坚尝置奇观亭于傍"
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "楒子洞",
+        "type": "洞",
+        "location_text": "在长宁县北三十里",
+        "description": "内乳结遍洞如楒故名",
+        "lore": "又有朝真洞在绝顶楼真洞在山谷之奥宁真洞尤亢爽"
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "海棠洞",
+        "type": "洞",
+        "location_text": "在长宁县治西",
+        "description": "昔郡人王氏环植海棠春时花开郡守宴僚属于其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "乞子石",
+        "type": "石",
+        "location_text": "在府城南",
+        "description": "有石夹青衣江对立如夫妇相向",
+        "lore": "俗云人无子祷之有应"
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "大江",
+        "type": "江",
+        "location_text": "在府城东",
+        "description": "一名蜀江又名都江，水出茂州岷山下",
+        "lore": "图经云岷江亦名汶川盖岷汶声讹也流与马湖江合"
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "马湖江",
+        "type": "江",
+        "location_text": "在府城南",
+        "description": "源出沈黎实大渡之支流亦名泸水一名金沙江",
+        "lore": "诸葛亮五月渡泸即此江之上流也"
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "锁江",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "两岸大石屹立昔人因置铁絙横截其处控扼夷羌故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "石门江",
+        "type": "江",
+        "location_text": "在府城西南一百三十里",
+        "description": "俗呼横江又名小江源出乌蛮部经本府境与马湖江合",
+        "lore": "中有滩其水常若钟鸣名曰钟滩"
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "青衣江",
+        "type": "江",
+        "location_text": "在南溪县南一十五里",
+        "description": "古有青衣国与叙州相邻其人因贾至蜀见汉衣冠遂求内属江因以名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "金川",
+        "type": "江",
+        "location_text": "在富顺县治东",
+        "description": "一名中江又名中水线水珠江源自汉州流过县西至泸州入大江",
+        "lore": "其在富顺中流有石堆高出水面分布两层前三后七世传为三台七曜石"
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "西湖",
+        "type": "湖",
+        "location_text": "在富顺县治西",
+        "description": "方广二顷水洁鱼美菱芡蒲荷充满其中",
+        "lore": "宋程骧诗饱听西湖似辋川"
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "介湖",
+        "type": "湖",
+        "location_text": "在长宁县治西",
+        "description": "植荷其中傍旧有郁蓝楼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "苏溪",
+        "type": "溪",
+        "location_text": "在府城西北",
+        "description": "有前后潭瀑布千尺悬崖而下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "涪溪",
+        "type": "溪",
+        "location_text": "在府城北一十里",
+        "description": "宋黄庭坚迁涪州别驾号涪翁后安置戎州乃游是溪而乐之故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "马鸣溪",
+        "type": "溪",
+        "location_text": "发源庆符县西",
+        "description": "达于马湖江达于蜀江",
+        "lore": "昔士人郑氏牧溪上马产龙驹四蹄利爪朱鬐尾高可七尺将以为贡至溪口忽振鬣长鸣跃于水故名"
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "鳌溪",
+        "type": "溪",
+        "location_text": "在富顺县治东",
+        "description": "合金川",
+        "lore": "宋李文渊筑室临溪后登进士人谓之占鳌头故名"
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "荣溪",
+        "type": "溪",
+        "location_text": "在富顺县西二十里",
+        "description": "发源成都府仁水县过荣县合金川流入于蜀江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "福溪",
+        "type": "溪",
+        "location_text": "在南溪县治西北",
+        "description": "旧名覆溪",
+        "lore": "唐刘崖为郡都督改今名"
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "九盘溪",
+        "type": "溪",
+        "location_text": "在南溪县治南",
+        "description": "相传昔有童子遇龙翁于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "冷水溪",
+        "type": "溪",
+        "location_text": "在长宁县治西北",
+        "description": "发源笔架山下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "东溪",
+        "type": "溪",
+        "location_text": "在长宁县治东",
+        "description": "发源白崖山下流与嘉鱼泉合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "西溪",
+        "type": "溪",
+        "location_text": "在长宁县治西",
+        "description": "发源越王山流与桃源合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "砚石溪",
+        "type": "溪",
+        "location_text": "在长宁县牛心山后",
+        "description": "峰石如磬可以为砚",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c06",
+        "name": "复宁溪",
+        "type": "溪",
+        "location_text": "在高县治东",
+        "description": "自珙县发源下抵庆符县可通舟楫",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c07",
+        "name": "定川溪",
+        "type": "溪",
+        "location_text": "在筠连县治西",
+        "description": "乱流自山而下成溪",
+        "lore": "唐定川州以此为名"
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "荔枝滩",
+        "type": "滩",
+        "location_text": "在庆符县北二十里",
+        "description": "古崖傍多荔枝树故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "石笋滩",
+        "type": "滩",
+        "location_text": "在南溪县西三十里",
+        "description": "江滩险甚穷冬水落岸有石长数丈如笋",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "铜鼓滩",
+        "type": "滩",
+        "location_text": "在南溪县学东",
+        "description": "学旧未利近世滩之上流有石碛生高十数丈壅水自巽方而去自是文物稍振",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "小桃源",
+        "type": "地",
+        "location_text": "在长宁县冷水溪侧",
+        "description": "发源笔架山下宋嘉定间张太守市民田植桃李创置亭榭轩堂之类",
+        "lore": "又掘地得铜牌曰小桃源"
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "黑水",
+        "type": "水",
+        "location_text": "在府城东南一十五里",
+        "description": "即南广溪舆地志谓此水即禹贡之黑水",
+        "lore": "按禹贡黑水至于三危南流入于南海今此水则自西南夷界流至南广洞入于江名同处异也"
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "五龟潭",
+        "type": "潭",
+        "location_text": "在富顺县治西",
+        "description": "其崖上有突出如龟形者五每阴雨则水面涌沸若有物焉祷旱有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "泾滩瀑布",
+        "type": "瀑",
+        "location_text": "在长宁县东七十里",
+        "description": "自山顶飞流而下数十丈其下有潭怖心骇目俗呼为一匹绢",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "金鱼井",
+        "type": "井",
+        "location_text": "在府城南",
+        "description": "黄庭坚寓居时酷喜茶令人遍汲井泉试之惟此水品为第一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "月岩井",
+        "type": "井",
+        "location_text": "在凌云山下",
+        "description": "清泠芳冽煮茗尤佳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "龙女井",
+        "type": "井",
+        "location_text": "在长宁县治东",
+        "description": "昔人见小女出入井间坐石上以理发故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "淯井",
+        "type": "井",
+        "location_text": "在长宁县治北",
+        "description": "泉有二脉一咸一淡取以煎盐塞其一则皆不流",
+        "lore": "又谓之雌雄井"
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "葫芦井",
+        "type": "井",
+        "location_text": "在南溪县西北五十里",
+        "description": "刘景鹤尝取此水炼丹凿井口如葫芦故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "天池",
+        "type": "池",
+        "location_text": "在府城西二十里",
+        "description": "一名滇池又名波凌池",
+        "lore": "唐韦皋诗春暖鱼抛水面梭晚晴鹭立波心玉"
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "复鱼池",
+        "type": "池",
+        "location_text": "在府城东",
+        "description": "",
+        "lore": "宋张俞有记"
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c02",
+        "name": "铜鼓池",
+        "type": "池",
+        "location_text": "在庆符县西三十里",
+        "description": "周回四十余丈四时不涸中有一石如鼓故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c03",
+        "name": "百支池",
+        "type": "池",
+        "location_text": "在富顺县西北四十里",
+        "description": "灌溉田亩支派不一故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "仙源池",
+        "type": "池",
+        "location_text": "在南溪县治北",
+        "description": "刘景鹤炼丹初用此水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c04",
+        "name": "芙蓉池",
+        "type": "池",
+        "location_text": "在南溪县北六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-095",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c01",
+        "name": "安乐泉",
+        "type": "泉",
+        "location_text": "在涪溪侧",
+        "description": "味甘美盛夏冰冽冬月则温",
+        "lore": "黄庭坚号为安乐泉谓饮之令人安乐也"
+      },
+      {
+        "mtn_id": "MTN-096",
+        "item_id": "110-001",
+        "geo_id": "GEO-110001-c05",
+        "name": "嘉鱼泉",
+        "type": "泉",
+        "location_text": "在长宁县治东",
+        "description": "内有小鱼经年不长土人酿酒必用山后糯米嘉鱼泉水则味极甘",
+        "lore": "临流有阁曰临赋有亭曰信乐"
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "110-001",
+        "name": "仙茅",
+        "note": "仙侣山出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "110-001",
+        "name": "荔枝",
+        "note": "本府出，土人善为荔枝煎可以致远"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "110-001",
+        "name": "苦笋",
+        "note": "宜宾长宁二县出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "110-001",
+        "name": "盐",
+        "note": "富顺长宁二县有井"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "110-001",
+        "name": "秦吉了",
+        "note": "长宁军有鸟能人言，今不复产"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "110-001",
+        "name": "筇竹",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "110-001",
+        "name": "兰",
+        "note": "石门山出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "110-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【图经东距泸水西连大峨南通六诏北接三荣】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "110-001",
+        "cited_work": "谯楼记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【谯楼记地枕大江当舟车之冲】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "110-001",
+        "cited_work": "张鼎修忠利庙记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【张鼎修忠利庙记负山濒江地势险阻】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "110-001",
+        "cited_work": "黄庭坚重修戎州舍利塔记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋黄庭坚重修戎州舍利塔记钩连三江】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "110-001",
+        "cited_work": "元史",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元史宋以长宁州地最当冲要用升为军立安宁县】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "110-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记夷夏杂居风俗各异】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "110-001",
+        "cited_work": "李宗丞园记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋李宗丞园记其士静而有文其民朴而易治】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "110-001",
+        "cited_work": "富顺志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【富顺志民力于穑士竞于文】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "110-001",
+        "cited_work": "黄庭坚祠堂记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋黄庭坚祠堂记州以涪翁重诗礼之泽渐渍至今】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "110-001",
+        "cited_work": "钱士开富顺泮水巷记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【钱士开富顺泮水巷记俗慤而愿且知礼逊】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "110-001",
+        "cited_work": "宋史周湛传",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋史周湛传俗不知医】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "叙州府"
+}

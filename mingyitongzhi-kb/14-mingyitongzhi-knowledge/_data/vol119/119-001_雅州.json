@@ -1,0 +1,785 @@
+{
+  "item_id": "119-001",
+  "volume": "119",
+  "source": "雅州",
+  "region": "四川",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "雅州",
+        "type": "geo",
+        "norm": "雅州",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "名山县",
+        "type": "geo",
+        "norm": "名山县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "荣经县",
+        "type": "geo",
+        "norm": "荣经县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "芦山县",
+        "type": "geo",
+        "norm": "芦山县",
+        "first_source": null
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "雅州守御千户所",
+        "type": "geo",
+        "norm": "雅州守御千户所",
+        "first_source": null
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-119001",
+        "item_id": "119-001",
+        "name": "雅州",
+        "type": "department",
+        "region": "四川",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-119001-c01",
+          "GEO-119001-c02",
+          "GEO-119001-c03",
+          "GEO-119001-w01"
+        ],
+        "volume_range": "卷119",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "嘉定州夹江县界",
+              "distance_li": 80
+            },
+            {
+              "direction": "西",
+              "to_place": "六番招讨使司界",
+              "distance_li": 50
+            },
+            {
+              "direction": "南",
+              "to_place": "嘉定州峨眉县界",
+              "distance_li": 180
+            },
+            {
+              "direction": "北",
+              "to_place": "龙安府蒲江县界",
+              "distance_li": 110
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7700
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11200
+            }
+          ],
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮八千石零"
+          },
+          "jun_name": "蒙山【西魏名】临邛【隋名】雅安【隋因山而名】卢山【唐名】",
+          "topography": "抵接沉黎控带夷落【雅安志序】左防蔡山右依蒙顶【卭崃关记】西通碉门东出蒲江【道路序】西蜀之襟带南诏之咽喉【新迁衙城记】羗水环于前濆江绕于后【州志】",
+          "customs": "俗朴讼少【郡志地瘠而耕者多俗朴而讼者少】颇慕文学【寰宇记】",
+          "garrisons": [
+            {
+              "name": "雅州守御千户所",
+              "type": "千户所",
+              "location_text": "在州治南洪武四年建"
+            }
+          ]
+        }
+      },
+      {
+        "geo_id": "GEO-119001-c01",
+        "item_id": "119-001",
+        "name": "名山县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-119001",
+        "children": [],
+        "volume_range": "卷119"
+      },
+      {
+        "geo_id": "GEO-119001-c02",
+        "item_id": "119-001",
+        "name": "荣经县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-119001",
+        "children": [],
+        "volume_range": "卷119"
+      },
+      {
+        "geo_id": "GEO-119001-c03",
+        "item_id": "119-001",
+        "name": "芦山县",
+        "type": "county",
+        "region": "四川",
+        "parent": "GEO-119001",
+        "children": [],
+        "volume_range": "卷119"
+      },
+      {
+        "geo_id": "GEO-119001-w01",
+        "item_id": "119-001",
+        "name": "雅州守御千户所",
+        "type": "weisuo",
+        "region": "四川",
+        "parent": "GEO-119001",
+        "children": [],
+        "volume_range": "卷119",
+        "attributes": {
+          "location_text": "",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之域",
+        "action": "因之",
+        "detail": "禹贡梁州之域，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "雍州",
+        "action": "因之",
+        "detail": "周属雍州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "严道县地/蜀郡",
+        "action": "因之",
+        "detail": "秦为严道县地，属蜀郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "因之",
+        "action": "因之",
+        "detail": "汉因之"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "汉嘉郡",
+        "action": "因之",
+        "detail": "晋属汉嘉郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "西魏",
+        "era": null,
+        "institution_name": "蒙山郡/雅州",
+        "action": "置",
+        "detail": "西魏于此置蒙山郡及雅州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "临邛郡/严道县",
+        "action": "改",
+        "detail": "隋初郡废州存，大业初改州为临邛郡，治严道县"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "唐",
+        "era": "天宝/乾元",
+        "institution_name": "雅州/卢山郡",
+        "action": "改",
+        "detail": "唐初复为雅州，天宝初改卢山郡，乾元初复为雅州，属剑南道"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "永平军",
+        "action": "置",
+        "detail": "五代时孟知祥置永平军"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "雅州/严道/成都路",
+        "action": "因之",
+        "detail": "宋复为雅州，仍治严道，属成都路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "嘉定路/吐蕃宣慰司",
+        "action": "改",
+        "detail": "元至元中改属嘉定路，寻割属吐蕃宣慰司"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "dynasty": "明",
+        "era": "洪武四年",
+        "institution_name": "雅州/直隶四川布政司",
+        "action": "省",
+        "detail": "本朝洪武四年省严道县入州，直隶四川布政司，编户四里，领县三"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "雅安山",
+        "type": "山",
+        "location_text": "在州治西其山由黎雅而来因山以名州",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "蔡山",
+        "type": "山",
+        "location_text": "在州城东五里旧传蜀汉相诸葛亮于此夣见周公故又名周公山因立文宪王庙李焘诗岩峦最高顶云气时蔚荟彷佛羣仙宅宫阙辉珠贝",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "悬空山",
+        "type": "山",
+        "location_text": "在州城南二十里层峦耸翠上有二石竒峭可爱",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "金鸡山",
+        "type": "山",
+        "location_text": "在州城北二十里相传昔有金鸡鸣于此因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "翠屏山",
+        "type": "山",
+        "location_text": "在州城西二十里山色拥翠环列如屏",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在州城北三十里峯峦起伏如凤凰状",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c01",
+        "name": "蒙山",
+        "type": "山",
+        "location_text": "在名山县西一十五里山有五峯前一峯最高曰上清峯产甘露峯常有瑞云及瑞相影见禹贡蔡蒙旅平即州东蔡山及此山也",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c01",
+        "name": "莲花山",
+        "type": "山",
+        "location_text": "在名山县北一十五里山有五峯耸列如莲花",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c01",
+        "name": "百丈山",
+        "type": "山",
+        "location_text": "在名山县东北六十里上有穴圆百尺深百丈因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "晒经山",
+        "type": "山",
+        "location_text": "在荣经县北二十里相传唐僧三藏尝于此晒经",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "孟山",
+        "type": "山",
+        "location_text": "在荣经县东二十里诸葛亮擒孟获处",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "自由山",
+        "type": "山",
+        "location_text": "在荣经县东二十里山亘黎州上出羣山之表",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "铜山",
+        "type": "山",
+        "location_text": "在荣经县东北三十里即汉文帝赐邓通铸钱处",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "石狗山",
+        "type": "山",
+        "location_text": "在荣经县南六十里以顶石形似之故名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "邛崃山",
+        "type": "山",
+        "location_text": "在荣经县东四十里本名邛筰故邛人筰人界也山岩阻峻凝氷夏结冬则剧寒产竹高节中实堪为杖",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "大关山",
+        "type": "山",
+        "location_text": "在荣经县西八十里山势极险隘当西南夷要路",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "瓦屋山",
+        "type": "山",
+        "location_text": "在荣经县北一百二十里峯顶常现辟支普贤光相夜有神灯号辟支道塲或问禅恵大师瓦屋何以木皮盖师曰锦府岂従机上织劔门宁自匣中开",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "卢山",
+        "type": "山",
+        "location_text": "在卢山县东九里接黎州安抚司界隋以此山名县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "始阳山",
+        "type": "山",
+        "location_text": "在芦山县东一十里俗呼为罗防山西魏置始阳县以此山名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "百步山",
+        "type": "山",
+        "location_text": "在芦山县北四十里路接蛮界仅百步险隘难行",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "崖鉢山",
+        "type": "山",
+        "location_text": "在芦山县西一百里其山上耸云汉莫测其高崖上有石鉢因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "大相公岭",
+        "type": "岭",
+        "location_text": "在荣经县西一百里相传诸葛亮征西南夷经此上有诸葛庙",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "万胜冈",
+        "type": "冈",
+        "location_text": "在州治西山势起伏环绕州治",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "雷洞",
+        "type": "洞",
+        "location_text": "在瓦屋山罗汉阁下深不可测投以瓦石应手雷震",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "鸡止崖",
+        "type": "崖",
+        "location_text": "在荣经县西二十五里本名栖止其崖临大关山之险至此路方平坦肩担背负者皆栖止于此故名寰宇记人名鸡心山盖传冩之误",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "九折坂",
+        "type": "坂",
+        "location_text": "在邛崃山路阻峻囘曲九折乃至山上汉王阳为益州刺史行部至此叹曰奉先人遗体柰何数乘此险后以病去及王尊为刺史至此问吏曰此非王阳所畏道耶叱其驭曰驱之王阳为孝子王尊为忠臣",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "平羗江",
+        "type": "江",
+        "location_text": "在州城北旧传羗夷入冦诸葛亮于此平之因名唐李白诗影入平羗江水流",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "青衣江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出卢山东南流至州合洙水经名山县下至嘉定州入大江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "长濆江",
+        "type": "江",
+        "location_text": "在州城东南二里一名邛水其源自邛崃山濆涌流出绕城东北入平羗江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "周公水",
+        "type": "水",
+        "location_text": "在州城东四里其源自瓦屋山流经周公山因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "洙水",
+        "type": "水",
+        "location_text": "在州城西五十里源发芦山与沈黎阳山江合流出岷江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "荣经水",
+        "type": "水",
+        "location_text": "在荣经县北曰荣水南曰经水经出瓦屋山荣出相公岭",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "圣水",
+        "type": "水",
+        "location_text": "在芦山县东一十里连筒引之行一里许伏流二三里复涌出分为五因以圣名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "大渡水",
+        "type": "水",
+        "location_text": "在芦山县北四十里卭县芦山往来必渡此水故名大渡东南流入南安县界",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c02",
+        "name": "菩萨溪",
+        "type": "溪",
+        "location_text": "在荣经县南六十里源自瓦屋山来东注平羗江傍有石佛像因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "老君溪",
+        "type": "溪",
+        "location_text": "在芦山县南六十里相传周老聃曽经此今溪傍崖壁上老君像尚存",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001",
+        "name": "白马泉",
+        "type": "泉",
+        "location_text": "在州城北一百里俗传有白马龙君显化于此因名",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "涌泉",
+        "type": "泉",
+        "location_text": "在芦山县东北五里泉水涌出为居民灌溉之利",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "119-001",
+        "geo_id": "GEO-119001-c03",
+        "name": "石波堰",
+        "type": "堰",
+        "location_text": "在芦山县东三里源出始阳山用木槽接水溉田",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "119-001",
+        "name": "麸金",
+        "note": "本州出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "119-001",
+        "name": "石菖蒲",
+        "note": "本州出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "119-001",
+        "name": "蒙顶茶",
+        "note": "图经载蒙顶茶受阳气全故芳香"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "119-001",
+        "name": "魶鱼",
+        "note": "荣经水及西山溪谷出似鲵有足能缘木声如儿啼蜀人食之"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "119-001",
+        "name": "丙穴鱼",
+        "note": "州城南有丙穴产嘉鱼味醎而羙"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "119-001",
+        "name": "紫竹",
+        "note": "宋梅圣俞蒙山紫竹鞭诗"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "119-001",
+        "name": "娑罗花",
+        "note": "瓦屋山出移之他处则槁有五色之异如烂锦照映山谷"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "119-001",
+        "cited_work": "雅安志序",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【雅安志序抵接沉黎控带夷落】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "119-001",
+        "cited_work": "邛崃关记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【卭崃关记左防蔡山右依蒙顶】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "119-001",
+        "cited_work": "道路序",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【道路序西通碉门东出蒲江】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "119-001",
+        "cited_work": "新迁衙城记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【新迁衙城记西蜀之襟带南诏之咽喉】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "119-001",
+        "cited_work": "州志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【州志羗水环于前濆江绕于后】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "119-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志地瘠而耕者多俗朴而讼者少】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "119-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记颇慕文学】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "雅州"
+}
