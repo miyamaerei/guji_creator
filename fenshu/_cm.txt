@@ -1,0 +1,47 @@
+feat(tools): 跨书联邦身份判定工程 + 白话文→TRL 转换器 + 匹配链路修复
+
+一、kb-federation 跨书身份判定（新增 30 文件）
+匹配链路（四步 → 分层）
+- harvest.py            跨书候选采集
+- layered_matching.py   分层匹配 v3.0（返回 (a,b,method,score,merge,reason)，
+                        集成 CBDB 富化），match_all_with_layers()
+- four_step_matching.py 四步匹配 match_all_entities()（layered 不可用时的降级路径）
+- place_office_matching.py / place_office_enrichment.py
+                        地名与官职匹配/富化 match_all_places_offices()
+- cbdb_enrichment.py    CBDB 富化 enrich_all_persons()，在匹配前补全 ent_slots
+方法论与报告（约 15 篇 .md/.txt）
+- federation_identity_complete_report.md      身份判定总报告
+- complete_merge_workflow.md / full_workflow_validation.md
+- merge_experiment_report.md + merge/four_step/before/after 各阶段 stats.txt
+- association_and_merge.md / attribute_conflict_resolution.md
+- incremental_matching_workflow.md / rollback_mechanism.md
+- ai_judgment_training_set.md + ai_judgment_sample(s).txt / ai_vs_code_analysis.md
+- cbdb_enrichment_report.md / cbdb_enrichment_v2_report.md
+
+二、transform.py / refs.py / name_rules.json 修改
+- transform.py：T2 build_candidates() 从「cross_candidates 单路」改为
+  「分层匹配 + 地名官职匹配」双路合并（v3.0/v3.1），新增 try/except ImportError
+  降级到四步匹配；run_transform() 在 build_edges 与 build_candidates 之间插入
+  CBDB 富化阶段（enrich_all_persons）
+- refs.py：修复引用采集截断 bug —— _collect_refs 对 list 原为 obj[:5]，
+  静默丢失第 6 个及之后元素的引用，改为 obj 全量遍历
+- name_rules.json：confidence 表补 "institution": 0.6 与 "doc": 0.7
+  两个类型键
+
+三、tools/baihua_to_trl.py（新增，497 行）
+《福惠全书》《政学录》白话文 → TRL 古今翻译层转换器，依据
+00-book-knowledge-factory/references/layer-library.md §5 规范：
+- schema: trl_id / item_id / translation / style / note / confidence / original / norm
+- trl_id 前缀 TRL-（全局唯一）；风格枚举 直译/意译/注释性翻译（默认注释性翻译）
+- 不改 original / norm（来自 _item_registry.json 指纹库）
+- 覆盖校验：翻译数 ≥ 条目数（xzl 的「六部」「科道」等纯结构条目无独立译文属正常）
+- 切分规则：fqh 直接按 ● 切分；xzl 按 registry 匹配 section header，
+  区分 mixed 型（卷01，含共享【译文】块按段落地切分）与 circle 型（卷2~05）
+- 用法：python baihua_to_trl.py --project fuhuiquanshu | xuezhenglu
+
+四、入库范围说明
+- tools/kb-federation/*.sqlite 已在 .gitignore 覆盖（本次同时补上
+  kb_test.sqlite 98.4 MB 的忽略规则），联邦库为可重建派生库不入仓
+- 上述 .py 全部通过 py_compile 语法检查；transform.py 所依赖的
+  layered_matching / four_step_matching / place_office_matching /
+  cbdb_enrichment 四模块均随本次一并入库
