@@ -1,0 +1,849 @@
+{
+  "item_id": "64-001",
+  "volume": "64",
+  "source": "承天府",
+  "region": "湖广",
+  "layers": {
+    "ents": [],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "兴都城",
+        "type": "城池",
+        "location_text": "南一门",
+        "history_lore": "榜曰显亲达孝",
+        "original": "城池兴都城【南一门榜曰显亲达孝】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "兴都留守司",
+        "type": "公署",
+        "location_text": "在承天府城内",
+        "history_lore": "嘉靖十八年建，领显陵、承天、沔阳三卫，德安守御千户所，随州守御百户所",
+        "original": "公署兴都留守司【在承天府城内嘉靖十八年建领显陵承天沔阳三卫德安守御千户所随州守御百户所】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "承天卫",
+        "type": "公署",
+        "location_text": "在府治北",
+        "history_lore": "旧在州治西北，本朝丙午年建；永乐六年改为郢王府，乃移建于此；嘉靖中改今卫",
+        "original": "公署承天卫【在府治北旧在州治西北本朝丙午年建永乐六年改为郢王府乃移建于此嘉靖中改今卫】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "沔阳卫",
+        "type": "公署",
+        "location_text": "在州治东北",
+        "history_lore": "洪武六年改旧沔阳府治建",
+        "original": "公署沔阳卫【在州治东北洪武六年改旧沔阳府治建】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "承天府学",
+        "type": "学校",
+        "location_text": "在府治东南",
+        "history_lore": "宋初建于州北，淳熙五年移于此；元末毁，本朝洪武十五年重建，嘉靖十年改府学；钟祥县学附",
+        "original": "学校承天府学【在府治东南宋初建于州北淳熙五年移于此元末毁本朝洪武十五年重建嘉靖十年改府学钟祥县学附】"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "沔阳州学",
+        "type": "学校",
+        "location_text": "在州治东北",
+        "history_lore": "洪武初自州治西南徙于此",
+        "original": "沔阳州学【在州治东北洪武初自州治西南徙于此】"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02",
+        "name": "荆门州学",
+        "type": "学校",
+        "location_text": "在州治南",
+        "history_lore": "宋建，本朝洪武二年重建",
+        "original": "荆门州学【在州治南宋建本朝洪武二年重建】"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c02",
+        "name": "京山县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "宋崇宁间建于县南河畔，元毁，本朝移建于此",
+        "original": "京山县学【在县治西宋崇宁间建于县南河畔元毁本朝移建于此】"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c03",
+        "name": "潜江县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武九年建",
+        "original": "潜江县学【在县治东洪武九年建】"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "景陵县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "宋建，本朝洪武间重修",
+        "original": "景陵县学【在县治西南宋建本朝洪武间重修】"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02-c01",
+        "name": "当阳县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "元至元间建后废，本朝洪武十三年重建",
+        "original": "当阳县学【在县治西元至元间建后废本朝洪武十三年重建】"
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "郢门书院",
+        "type": "书院",
+        "location_text": "在阳春台左",
+        "history_lore": "洪武中曹国公李文忠镇郢时建",
+        "original": "书院郢门书院【阳春台左洪武中曹国公李文忠镇郢时建】"
+      },
+      {
+        "site_id": "SITE-013",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "南湖书院",
+        "type": "书院",
+        "location_text": "在沔阳州学",
+        "history_lore": "宋建，以奉武成王及狄梁公、张太冲",
+        "original": "南湖书院【在沔阳州学宋建以奉武成王及狄梁公张太冲】"
+      },
+      {
+        "site_id": "SITE-014",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02",
+        "name": "东山书院",
+        "type": "书院",
+        "location_text": "在荆门州东",
+        "history_lore": "宋知军孙镛二子何、仅读书于此，后皆为状元；学者称二孙先生，为立东山书院祠之",
+        "original": "东山书院【在荆门州东宋知军孙镛二子何仅读书于此后皆为状元学者称二孙先生为立东山书院祠之】"
+      },
+      {
+        "site_id": "SITE-015",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c03",
+        "name": "同仁书院",
+        "type": "书院",
+        "location_text": "在潜江县西",
+        "history_lore": "本朝提学刘垓建此讲学",
+        "original": "同仁书院【在潜江县西本朝提学刘垓建此讲学】"
+      },
+      {
+        "site_id": "SITE-016",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "白雪楼",
+        "type": "宫室",
+        "location_text": "在府治石城西边，下临汉江",
+        "history_lore": "取宋玉对楚襄王问客有歌于郢中为阳春白雪之辞为名；唐刘賔诗",
+        "original": "宫室白雪楼【在府治石城西边下临汉江取宋玉对楚襄王问客有歌于郢中为阳春白雪之辞为名唐刘賔诗江上楼高十二梯梯梯登尽与云齐人从别浦经年去天向平芜尽眼低寒色不堪长黯黯秋光无奈更凄凄防曲尽愁无尽水正东流月正西】"
+      },
+      {
+        "site_id": "SITE-017",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "楚望楼",
+        "type": "宫室",
+        "location_text": "在府城内",
+        "history_lore": "旧与广盈仓相对",
+        "original": "楚望楼【在府城内旧与广盈仓相对】"
+      },
+      {
+        "site_id": "SITE-018",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c03",
+        "name": "白鹤楼",
+        "type": "宫室",
+        "location_text": "在潜江县旧县北",
+        "history_lore": "元湖北提刑副使姚燧藏书之所；后有鹤巢其上因名",
+        "original": "白鹤楼【在潜江县旧县北元湖北提刑副使姚燧藏书之所后有鹤巢其上因名】"
+      },
+      {
+        "site_id": "SITE-019",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "烟雨楼",
+        "type": "宫室",
+        "location_text": "在沔阳州治",
+        "history_lore": "宋郡守王知新有诗",
+        "original": "烟雨楼【在沔阳州治宋郡守王知新有诗】"
+      },
+      {
+        "site_id": "SITE-020",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "望仙楼",
+        "type": "宫室",
+        "location_text": "在沔阳州城上",
+        "history_lore": "宋晏殊类要云刺史郑肇建",
+        "original": "望仙楼【在沔阳州城上宋晏殊类要云刺史郑肇建】"
+      },
+      {
+        "site_id": "SITE-021",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "仁风楼",
+        "type": "宫室",
+        "location_text": "在沔阳州子城上",
+        "history_lore": "旧名汉江楼",
+        "original": "仁风楼【在沔阳州子城上旧名汉江楼】"
+      },
+      {
+        "site_id": "SITE-022",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "宝香阁",
+        "type": "宫室",
+        "location_text": "在沔阳州治",
+        "history_lore": "宋韩遹建，后为湖山堂",
+        "original": "宝香阁【在沔阳州治宋韩遹建后为湖山堂】"
+      },
+      {
+        "site_id": "SITE-023",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "云章阁",
+        "type": "宫室",
+        "location_text": "在沔阳州学",
+        "history_lore": "",
+        "original": "云章阁【在沔阳州学】"
+      },
+      {
+        "site_id": "SITE-024",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "仰北楼",
+        "type": "宫室",
+        "location_text": "在沔阳州治北",
+        "history_lore": "景泰中建",
+        "original": "仰北楼【在沔阳州治北景泰中建】"
+      },
+      {
+        "site_id": "SITE-025",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02",
+        "name": "仲宣楼",
+        "type": "宫室",
+        "location_text": "在荆门州，即当阳县城楼",
+        "history_lore": "汉王粲仲宣登楼作赋有曰倚曲沮挟清漳，今当阳正在沮漳之间；唐杜甫诗春风回首仲宣楼指此；今府城东南隅亦有仲宣楼，乃五代时高氏所建望沙楼，宋陈尧咨更此名",
+        "original": "仲宣楼【在荆门州即当阳县城楼汉王仲宣登楼作赋有曰倚曲沮挟清漳今当阳正在沮漳之间唐杜甫诗春风回首仲宣楼指此今府城东南隅亦有仲宣楼乃五代时高氏所建望沙楼宋陈尧咨更此名】"
+      },
+      {
+        "site_id": "SITE-026",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "五客堂",
+        "type": "宫室",
+        "location_text": "在白雪楼后",
+        "history_lore": "宋李昉守郡时画五禽于壁间：鹤曰仙客、孔雀曰南客、鹦鹉曰西客、鹭鸶曰雪客、白鹇曰闲客",
+        "original": "五客堂【在白雪楼后宋李昉守郡时画五禽于壁间鹤曰仙客孔雀曰南客鹦鹉曰西客鹭鸶曰雪客白鹇曰闲客】"
+      },
+      {
+        "site_id": "SITE-027",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "读书堂",
+        "type": "宫室",
+        "location_text": "在沔阳州城北紫极观",
+        "history_lore": "唐皮日休、陆龟蒙读书于此；日休诗",
+        "original": "读书堂【在沔阳州城北紫极观唐皮日休陆龟蒙读书于此日休诗既见陆夫子驽心却伏厩结彼世外交遇之于邂逅】"
+      },
+      {
+        "site_id": "SITE-028",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "宣化堂",
+        "type": "宫室",
+        "location_text": "在沔阳州学",
+        "history_lore": "宋建",
+        "original": "宣化堂【在沔阳州学宋建】"
+      },
+      {
+        "site_id": "SITE-029",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02",
+        "name": "读书堂",
+        "type": "宫室",
+        "location_text": "在荆门州东山下",
+        "history_lore": "宋孙何与弟仅读书之所，后相继擢大魁；政和间朱震与弟巽亦读书于此",
+        "original": "读书堂【在荆门州东山下宋孙何与弟仅读书之所后相继擢大魁政和间朱震与弟巽亦读书于此】"
+      },
+      {
+        "site_id": "SITE-030",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "浩然亭",
+        "type": "宫室",
+        "location_text": "在白雪楼侧",
+        "history_lore": "唐王维过郢，画孟浩然像于刺史厅后因以名亭；咸通中改孟亭，皮日休记",
+        "original": "浩然亭【在白雪楼侧唐王维过郢画孟浩然像于刺史厅后因以名亭咸通中改孟亭皮日休记】"
+      },
+      {
+        "site_id": "SITE-031",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "宝香亭",
+        "type": "宫室",
+        "location_text": "在府城龙兴寺北兰台之西",
+        "history_lore": "",
+        "original": "宝香亭【在府城龙兴寺北兰台之西】"
+      },
+      {
+        "site_id": "SITE-032",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "阳春亭",
+        "type": "宫室",
+        "location_text": "在府治通判厅",
+        "history_lore": "与白雪楼相望",
+        "original": "阳春亭【在府治通判厅与白雪楼相望】"
+      },
+      {
+        "site_id": "SITE-033",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "解佩亭",
+        "type": "宫室",
+        "location_text": "在府城北一十里汉江边",
+        "history_lore": "即郑交甫遇仙女解佩处，旁有汉皋亭；宋孔夷诗",
+        "original": "解佩亭【在府城北一十里汉江边即郑交甫遇仙女解佩处旁有汉皋亭宋孔夷诗苍茫遗佩怜交甫零落清歌莫送愁】"
+      },
+      {
+        "site_id": "SITE-034",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "迎恩亭",
+        "type": "宫室",
+        "location_text": "在沔阳州城东门外红花堤上",
+        "history_lore": "宣德三年建",
+        "original": "迎恩亭【在沔阳州城东门外红花堤上宣德三年建】"
+      },
+      {
+        "site_id": "SITE-035",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "延宾亭",
+        "type": "宫室",
+        "location_text": "在沔阳州东",
+        "history_lore": "宋建",
+        "original": "延宾亭【在沔阳州东】"
+      },
+      {
+        "site_id": "SITE-036",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "绿波亭",
+        "type": "宫室",
+        "location_text": "在沔阳州城内",
+        "history_lore": "宋建",
+        "original": "绿波亭【在沔阳州城内俱宋建】"
+      },
+      {
+        "site_id": "SITE-037",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "南亭",
+        "type": "宫室",
+        "location_text": "在沔阳州南门外",
+        "history_lore": "又有北亭在州之北，西亭在罗城外",
+        "original": "南亭【在沔阳州南门外又有北亭在州之北西亭在罗城外】"
+      },
+      {
+        "site_id": "SITE-038",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "梦野亭",
+        "type": "宫室",
+        "location_text": "在景陵县治西南隅",
+        "history_lore": "一目而尽云梦之野，最为郡中胜处；宋景祐中州守王琪建有记，晏殊、宋祁、吴育、苏仲、石延年皆有诗",
+        "original": "梦野亭【在景陵县治西南隅一目而尽云梦之野最为郡中胜处宋景祐中州守王琪建有记晏殊宋祁吴育苏仲石延年皆有诗张耒诗云高甍巨桷压城闉平视如将七泽吞几度春光招宋玉碧阑干外独消魂】"
+      },
+      {
+        "site_id": "SITE-039",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "兰台",
+        "type": "宫室",
+        "location_text": "在府治东",
+        "history_lore": "昔楚王与宋玉游于台上，清风飒然而至，王披襟当之即此；一名南台，今醮楼建其上",
+        "original": "兰台【在府治东昔楚王与宋玉游于台上清风飒然而至王披襟当之即此一名南台今醮楼建其上】"
+      },
+      {
+        "site_id": "SITE-040",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "梅台",
+        "type": "宫室",
+        "location_text": "在府城东南十余里",
+        "history_lore": "相传汉梅福所筑",
+        "original": "梅台【在府城东南十余里相传汉梅福所筑】"
+      },
+      {
+        "site_id": "SITE-041",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "放鹰台",
+        "type": "宫室",
+        "location_text": "有二，一在府城南五十里薮泽间，一在荆门州北一百二十里",
+        "history_lore": "四壁空阔极目千里而台居其中；相传皆楚昭王放鹰之所",
+        "original": "放鹰台【有二一在府城南五十里薮泽间四壁空阔极目千里而台居其中一在荆门州北一百二十里相传皆楚昭王放鹰之所】"
+      },
+      {
+        "site_id": "SITE-042",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c02",
+        "name": "读书台",
+        "type": "宫室",
+        "location_text": "在子陵洞侧",
+        "history_lore": "相传汉严子陵读书处",
+        "original": "读书台【在子陵洞侧相传汉严子陵读书处】"
+      },
+      {
+        "site_id": "SITE-043",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "五乐台",
+        "type": "宫室",
+        "location_text": "在古沔阳州城东北",
+        "history_lore": "相传楚王出猎之所",
+        "original": "五乐台【在古沔阳州城东北相传楚王出猎之所】"
+      },
+      {
+        "site_id": "SITE-044",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "撒花台",
+        "type": "宫室",
+        "location_text": "在景陵县治东南六里",
+        "history_lore": "广百余丈，尝有异花撒焉",
+        "original": "撒花台【在景陵县治东南六里广百余丈尝有异花撒焉】"
+      },
+      {
+        "site_id": "SITE-045",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "鸿轩",
+        "type": "宫室",
+        "location_text": "在景陵县治北",
+        "history_lore": "宋张耒谪居日建，其侧植蔷薇；临别题诗云单车又向黄州去风月相望一叹嗟",
+        "original": "鸿轩【在景陵县治北宋张耒谪居日建其侧植蔷薇临别题诗云单车又向黄州去风月相望一叹嗟又云他人若问鸿轩人堂下蔷薇应解语】"
+      },
+      {
+        "site_id": "SITE-046",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "塘港关",
+        "type": "关梁",
+        "location_text": "在府南三十里",
+        "history_lore": "",
+        "original": "关梁塘港关【在府南三十里】"
+      },
+      {
+        "site_id": "SITE-047",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "池河关",
+        "type": "关梁",
+        "location_text": "在府西北一十五里",
+        "history_lore": "",
+        "original": "池河关【在府西北一十五里】"
+      },
+      {
+        "site_id": "SITE-048",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "候埠关",
+        "type": "关梁",
+        "location_text": "在沔阳州城东六十九里",
+        "history_lore": "",
+        "original": "候埠关【在沔阳州城东六十九里】"
+      },
+      {
+        "site_id": "SITE-049",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "范溉关",
+        "type": "关梁",
+        "location_text": "在沔阳州城北百二十里",
+        "history_lore": "",
+        "original": "范溉关【在沔阳州城北百二十里】"
+      },
+      {
+        "site_id": "SITE-050",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02",
+        "name": "虎牙关",
+        "type": "关梁",
+        "location_text": "在荆门州西三里",
+        "history_lore": "",
+        "original": "虎牙关【在荆门州西三里】"
+      },
+      {
+        "site_id": "SITE-051",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "升仙桥",
+        "type": "关梁",
+        "location_text": "与府城相对",
+        "history_lore": "汉梅福飞升处",
+        "original": "升仙桥【与府城相对汉梅福飞升处】"
+      },
+      {
+        "site_id": "SITE-052",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "利市桥",
+        "type": "关梁",
+        "location_text": "在府治东",
+        "history_lore": "商贾交易之所",
+        "original": "利市桥【在府治东商贾交易之所】"
+      },
+      {
+        "site_id": "SITE-053",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c02",
+        "name": "仙桥",
+        "type": "关梁",
+        "location_text": "在京山县治前",
+        "history_lore": "汉张楷跨驴游此",
+        "original": "仙桥【在京山县治前汉张楷跨驴游此】"
+      },
+      {
+        "site_id": "SITE-054",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "城西桥",
+        "type": "关梁",
+        "location_text": "在府之江北",
+        "history_lore": "",
+        "original": "城西桥【在府之江北】"
+      },
+      {
+        "site_id": "SITE-055",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "清河桥",
+        "type": "关梁",
+        "location_text": "在景陵县治北上",
+        "history_lore": "旧有亭",
+        "original": "清河桥【在景陵县治北上旧有亭】"
+      },
+      {
+        "site_id": "SITE-056",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "雁桥",
+        "type": "关梁",
+        "location_text": "在景陵县西堤",
+        "history_lore": "旧传得陆羽处",
+        "original": "雁桥【在景陵县西湖堤旧传得陆羽处初人见鸿雁集西坡覆小儿于下僧智积师得之育三蓰以易筮之得蹇之渐爻辞云鸿渐于陆其羽可用为仪乃氏以陆名以羽字以鸿渐因以雁名其桥】"
+      },
+      {
+        "site_id": "SITE-057",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "竟陵故城",
+        "type": "古迹",
+        "location_text": "在府城南",
+        "history_lore": "汉为县属江夏郡，后废",
+        "original": "古迹竟陵故城【在府城南汉为县属江夏郡后废】"
+      },
+      {
+        "site_id": "SITE-058",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "石城",
+        "type": "古迹",
+        "location_text": "在府城西北",
+        "history_lore": "晋羊祜镇荆州立石城以为固；本朝筑城浚池以为城垣；唐郑谷诗",
+        "original": "石城【在府城西北晋羊祜镇荆州立石城以为固本朝筑城浚池以为城垣唐郑谷诗石城昔为莫愁乡莫愁魂散石城荒江人依旧棹舴艋江岸还飞双鸳鸯】"
+      },
+      {
+        "site_id": "SITE-059",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c02",
+        "name": "新市城",
+        "type": "古迹",
+        "location_text": "在京山县南三十里",
+        "history_lore": "汉光武起兵讨王莽尝聚于此，后置县曰南新市，西魏改曰富水",
+        "original": "新市城【在京山县南三十里汉光武起兵讨王莽尝聚于此后置县曰南新市西魏改曰富水】"
+      },
+      {
+        "site_id": "SITE-060",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "汉城",
+        "type": "古迹",
+        "location_text": "在府城南七十里，滨大江",
+        "history_lore": "旧传蜀汉将关羽尝屯兵于此",
+        "original": "汉城【在府城南七十里滨大江旧传蜀汉将关羽尝屯兵于此】"
+      },
+      {
+        "site_id": "SITE-061",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "凤城",
+        "type": "古迹",
+        "location_text": "在五华山",
+        "history_lore": "古风国之故城，相传伏羲氏之后封于此",
+        "original": "凤城【在五华山古风国之故城相传伏羲氏之后封于此】"
+      },
+      {
+        "site_id": "SITE-062",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "云杜城",
+        "type": "古迹",
+        "location_text": "在景陵县西北",
+        "history_lore": "本汉县属江夏郡，梁于此置沔阳郡；城东南有郧城故国",
+        "original": "云杜城【在景陵县西北本汉县属江夏郡梁于此置沔阳郡城东南有郧城故国】"
+      },
+      {
+        "site_id": "SITE-063",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "却月城",
+        "type": "古迹",
+        "location_text": "在江口",
+        "history_lore": "即汉末黄祖所守者",
+        "original": "却月城【在江口即汉末黄祖所守者】"
+      },
+      {
+        "site_id": "SITE-064",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "复州城",
+        "type": "古迹",
+        "location_text": "在沔阳州城北二里",
+        "history_lore": "唐置，宋端平初徙于沔阳镇",
+        "original": "复州城【在沔阳州城北二里唐置宋端平初徙于沔阳镇】"
+      },
+      {
+        "site_id": "SITE-065",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "鱼复城",
+        "type": "古迹",
+        "location_text": "在故沔阳县东五十里",
+        "history_lore": "",
+        "original": "鱼复城【在故沔阳县东五十里】"
+      },
+      {
+        "site_id": "SITE-066",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "云梦城",
+        "type": "古迹",
+        "location_text": "在景陵县西",
+        "history_lore": "即古云梦泽地",
+        "original": "云梦城【在景陵县西即古云梦泽地】"
+      },
+      {
+        "site_id": "SITE-067",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "笑城",
+        "type": "古迹",
+        "location_text": "在景陵县东六十里",
+        "history_lore": "相传宋将毕再遇与金兵对垒夜遁，惟系羊击鼓，金兵觉欲追再遇不及，为之大笑故名",
+        "original": "笑城【在景陵县东六十里相传宋将毕再遇与金兵对垒夜遁惟系羊击鼓金兵觉欲追再遇不及矣为之大笑故名】"
+      },
+      {
+        "site_id": "SITE-068",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "石楼城",
+        "type": "古迹",
+        "location_text": "在沔阳旧州城西一十五里",
+        "history_lore": "",
+        "original": "石楼城【在沔阳旧州城西一十五里】"
+      },
+      {
+        "site_id": "SITE-069",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "青林城",
+        "type": "古迹",
+        "location_text": "在沔阳州城东一十里",
+        "history_lore": "",
+        "original": "青林城【在沔阳州城东一十里】"
+      },
+      {
+        "site_id": "SITE-070",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02",
+        "name": "荆台城",
+        "type": "古迹",
+        "location_text": "在荆门州东六十里",
+        "history_lore": "梁时置安居县，隋改曰昭丘，又改曰荆台，后省入当阳县",
+        "original": "荆台城【在荆门州东六十里梁时置安居县隋改曰昭丘又改曰荆台后省入当阳县】"
+      },
+      {
+        "site_id": "SITE-071",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02-c01",
+        "name": "麦城",
+        "type": "古迹",
+        "location_text": "在当阳县东六十里",
+        "history_lore": "相传楚昭王所筑；关羽为吕蒙所袭，自知孤穷乃走麦城即此",
+        "original": "麦城【在当阳县东六十里相传楚昭王所筑关羽为吕蒙所袭自知孤穷乃走麦城即此】"
+      },
+      {
+        "site_id": "SITE-072",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02-c01",
+        "name": "磨城",
+        "type": "古迹",
+        "location_text": "在当阳县东四十里",
+        "history_lore": "荆州记麦城东有驴城，沮水西有磨城，伍子胥造此二城以攻麦城，谚云东驴西磨麦自破",
+        "original": "磨城【在当阳县东四十里荆州记麦城东有驴城沮水西有磨城伍子胥造此二城以攻麦城谚云东驴西磨麦自破】"
+      },
+      {
+        "site_id": "SITE-073",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s02-c01",
+        "name": "糜城",
+        "type": "古迹",
+        "location_text": "在当阳县东南五十里",
+        "history_lore": "地名八渠，或云三国时糜芳所筑",
+        "original": "糜城【在当阳县东南五十里地名八渠或云三国时糜芳所筑】"
+      },
+      {
+        "site_id": "SITE-074",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "长寿废县",
+        "type": "古迹",
+        "location_text": "在府城内",
+        "history_lore": "刘宋置长寿县，西魏改长寿，唐于县置郢州，今省",
+        "original": "长寿废县【在府城内刘宋置长寿县西魏改长寿唐于县置郢州今省】"
+      },
+      {
+        "site_id": "SITE-075",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c02",
+        "name": "富水废县",
+        "type": "古迹",
+        "location_text": "在京山县北七十里",
+        "history_lore": "其地坦平可容千余家，唐置县，宋并入京山县",
+        "original": "富水废县【在京山县北七十里其地坦平可容千余家唐置县宋并入京山县】"
+      },
+      {
+        "site_id": "SITE-076",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "沔阳废县",
+        "type": "古迹",
+        "location_text": "",
+        "history_lore": "郡图志楚王城；元和志云杜县；图经宋至道三年省沔阳县为镇，并其地入",
+        "original": "沔阳废县【郡图志楚王城元和志云杜县地图经宋至道三年省沔阳县为镇并其地入】"
+      },
+      {
+        "site_id": "SITE-077",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c02",
+        "name": "曹武市",
+        "type": "古迹",
+        "location_text": "在京山县东四十五里",
+        "history_lore": "魏武帝曹操征孙吴过此因名",
+        "original": "曹武市【在京山县东四十五里魏武帝曹操征孙吴过此因名】"
+      },
+      {
+        "site_id": "SITE-078",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01",
+        "name": "范溉市",
+        "type": "古迹",
+        "location_text": "在沔阳州城西四十里，滨汉江",
+        "history_lore": "晋郑交甫南游过汉皋遇二女，佩两珠，交甫与之言曰愿请子之佩，二女解佩与交甫，怀去十步探之亡矣，回视二女亦失所在",
+        "original": "范溉市【在沔阳州城西四十里滨汉江晋郑交甫南游过汉皋遇二女佩两珠交甫与之言曰愿请子之佩二女解佩与交甫怀去十步探之亡矣回视二女亦失所在】"
+      },
+      {
+        "site_id": "SITE-079",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "大隐林",
+        "type": "古迹",
+        "location_text": "在府城南",
+        "history_lore": "盖楚渔父钓处；与小隐林相近",
+        "original": "大隐林【在府城南盖楚渔父钓处】"
+      },
+      {
+        "site_id": "SITE-080",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "小隐林",
+        "type": "古迹",
+        "location_text": "在府城南",
+        "history_lore": "与大隐林相近",
+        "original": "小隐林【俱在府城南盖楚渔父钓处】"
+      },
+      {
+        "site_id": "SITE-081",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-c01",
+        "name": "莫愁村",
+        "type": "古迹",
+        "location_text": "在溪江西石城",
+        "history_lore": "卢家有女子名莫愁，善歌唱，尝进入楚宫，后人以其名名村；宋项安世诗",
+        "original": "莫愁村【在溪江西石城卢家有女子名莫愁善歌唱尝进入楚宫后人以其名名村宋项安世诗冉冉水上云曾听屈宋鸣娟娟水中月曾照莫愁行王璜诗村近莫愁连竹坞人歌楚些下苹洲】"
+      },
+      {
+        "site_id": "SITE-082",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "真珠坡",
+        "type": "古迹",
+        "location_text": "在景陵县西一十里",
+        "history_lore": "土中有珠，俗传昔有贾人贩珠覆舟于此，颇著灵异，乡人立祠祀之；坡侧一名覆船冈",
+        "original": "真珠坡【在景陵县西一十里土中有珠俗传昔有贾人贩珠覆舟于此颇着灵异乡人立祠祀之坡侧一名覆船冈】"
+      },
+      {
+        "site_id": "SITE-083",
+        "item_id": "64-001",
+        "geo_id": "GEO-64001-s01-c01",
+        "name": "金鸡冢",
+        "type": "古迹",
+        "location_text": "在景陵县西一十里",
+        "history_lore": "高十余丈，相传尝有金鸡斗其上；黄巢残破郢复二郡欲发之，蛇蝎蜂虿群起伤人不可近，遂获免",
+        "original": "金鸡冢【在景陵县西一十里高十余丈相传尝有金鸡斗其上黄巢残破郢复二郡欲发之蛇蝎蜂虿群起伤人不可近遂获免】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "title": "承天府"
+}
