@@ -1,0 +1,362 @@
+{
+  "item_id": "123-001",
+  "volume": "123",
+  "source": "蒙化府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "蒙化府",
+        "type": "geo",
+        "norm": "蒙化府",
+        "first_source": "123-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "蒙化卫",
+        "type": "geo",
+        "norm": "蒙化卫",
+        "first_source": "123-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-123001",
+        "item_id": "123-001",
+        "name": "蒙化府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-123001-w01"
+        ],
+        "volume_range": "卷123",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "大理府赵州界",
+              "distance_li": 38
+            },
+            {
+              "direction": "西",
+              "to_place": "顺宁府界",
+              "distance_li": 150
+            },
+            {
+              "direction": "南",
+              "to_place": "楚雄府定远县界",
+              "distance_li": 6
+            },
+            {
+              "direction": "北",
+              "to_place": "大理府太和县界",
+              "distance_li": 90
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7970
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11410
+            }
+          ],
+          "households": {
+            "count": 30,
+            "unit": "里",
+            "note": "亲领编户三十里"
+          },
+          "grain_tax": {
+            "amount": 4800,
+            "unit": "石",
+            "note": "粮四千八百石零"
+          },
+          "jun_name": "阳瓜【唐名】",
+          "topography": "四山环堵【郡志诸山拱于前后左右连峰接岫若环堵然】；北距蒙苍襟带西洱【云南志】；南接楚雄北距蹀榆【郡志】",
+          "customs": "民善射猎【郡志境内有曰摩察者乃黑爨之别种相传昔从蒙氏细奴逻徙此常执弓药矢遇禽兽则射之鲜不获者然其性犷心很遇强则拒遇弱则劫】；俗变故习【近城居者多僰人男女勤于耕织会饮序齿婚姻必察性行自开设学校以来渐染礼义俗变故习非前代之比】",
+          "garrisons": [
+            {
+              "name": "蒙化卫",
+              "type": "卫",
+              "location_text": "在府治东洪武三十三年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005"
+        ]
+      },
+      {
+        "geo_id": "GEO-123001-w01",
+        "item_id": "123-001",
+        "name": "蒙化卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-123001",
+        "children": [],
+        "volume_range": "卷123",
+        "attributes": {
+          "location_text": "在府治东洪武三十三年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "益州郡地",
+        "action": "因之",
+        "detail": "汉为益州郡地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "永昌郡",
+        "action": "因之",
+        "detail": "东汉属永昌郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "姚州都督府/蒙舍诏",
+        "action": "因之",
+        "detail": "唐属姚州都督府；初罗罗摩及僰蛮居此，后蒙氏细逻奴筑城居之，号蒙舍诏，改称南诏"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "唐",
+        "era": "永泰",
+        "institution_name": "阳瓜州",
+        "action": "改",
+        "detail": "永泰初改蒙舍城为阳瓜州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "宋大理",
+        "era": null,
+        "institution_name": "开南县",
+        "action": "改",
+        "detail": "宋时段氏改开南县"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "蒙舍千户所/蒙化府/路/州",
+        "action": "改",
+        "detail": "元初置蒙舍千户所，至元中改蒙化府寻升为路，后复降为州属大理路"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "dynasty": "明",
+        "era": "正统",
+        "institution_name": "蒙化府",
+        "action": "升",
+        "detail": "本朝仍为州属大理府，正统间复升为府，亲领编户三十里"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "甸尾山",
+        "type": "山",
+        "location_text": "在府城东",
+        "description": "下有温泉，相传蒙细奴逻母病浴此泉遂愈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "伏虎山",
+        "type": "山",
+        "location_text": "在府城东北一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "巍山",
+        "type": "山",
+        "location_text": "在府城东南二十里",
+        "description": "峰峦高耸冠于群山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "龙宇图山",
+        "type": "山",
+        "location_text": "在府城西北三十五里",
+        "description": "蒙氏龙伽独自哀牢将其子细奴逻居其上，筑龙宇图城，自立为奇王，号蒙舍诏；今上有浮图及云隐寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "石母山",
+        "type": "山",
+        "location_text": "在府城北七十里",
+        "description": "产石黄，下有泉为睒中溪，南入罗盘江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "阳江",
+        "type": "江",
+        "location_text": "在府城西",
+        "description": "源出甸头涧，过定远县入澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "样备江",
+        "type": "江",
+        "location_text": "在府城西一百五十里",
+        "description": "源自剑川州，过大理西洱河入境，南合于澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "澜沧江",
+        "type": "江",
+        "location_text": "在府城西南一百五十里",
+        "description": "其南岸有马耳坡",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "铁",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "石黄",
+        "note": "石母山出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "麝",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "椒",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "斑竹",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "123-001",
+        "geo_id": "GEO-123001",
+        "name": "箭竹",
+        "note": "府境出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "123-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志诸山拱于前后左右连峰接岫若环堵然】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "123-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志北距蒙苍襟带西洱】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "123-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志南接楚雄北距蹀榆】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "123-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志境内有曰摩察者乃黑爨之别种相传昔从蒙氏细奴逻徙此常执弓药矢遇禽兽则射之鲜不获者然其性犷心很遇强则拒遇弱则劫】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "123-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【近城居者多僰人男女勤于耕织会饮序齿婚姻必察性行自开设学校以来渐染礼义俗变故习非前代之比】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "亲领无属县；pers拆至pers2；sites拆至sites1/2"
+  },
+  "title": "蒙化府"
+}

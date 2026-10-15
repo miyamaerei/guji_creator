@@ -1,0 +1,323 @@
+{
+  "item_id": "125-001",
+  "volume": "125",
+  "source": "广南府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "广南府",
+        "type": "geo",
+        "norm": "广南府",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "富州",
+        "type": "geo",
+        "norm": "富州",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K牌头山",
+        "name": "牌头山",
+        "type": "mtn",
+        "norm": "牌头山",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K莲花山",
+        "name": "莲花山",
+        "type": "mtn",
+        "norm": "莲花山",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K祛丕山",
+        "name": "祛丕山",
+        "type": "mtn",
+        "norm": "祛丕山",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K玉泉山",
+        "name": "玉泉山",
+        "type": "mtn",
+        "norm": "玉泉山",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K者鹞山",
+        "name": "者鹞山",
+        "type": "mtn",
+        "norm": "者鹞山",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K西宁山",
+        "name": "西宁山",
+        "type": "mtn",
+        "norm": "西宁山",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K西洋江",
+        "name": "西洋江",
+        "type": "mtn",
+        "norm": "西洋江",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K南水溪",
+        "name": "南水溪",
+        "type": "mtn",
+        "norm": "南水溪",
+        "first_source": "125-001"
+      },
+      {
+        "ent_id": "ENT-K南汪溪",
+        "name": "南汪溪",
+        "type": "mtn",
+        "norm": "南汪溪",
+        "first_source": "125-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-125001",
+        "item_id": "125-001",
+        "name": "广南府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-125001-s01"
+        ],
+        "volume_range": "卷125",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "广西泗城州界",
+              "distance_li": 120
+            },
+            {
+              "direction": "西",
+              "to_place": "广西府维摩州界",
+              "distance_li": 150
+            },
+            {
+              "direction": "南",
+              "to_place": "古器野界",
+              "distance_li": 60
+            },
+            {
+              "direction": "北",
+              "to_place": "泗城州界",
+              "distance_li": 240
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7990
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11430
+            }
+          ],
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "亲领编户六里；领州一"
+          },
+          "grain_tax": {
+            "amount": 1000,
+            "unit": "石",
+            "note": "粮一千石零"
+          },
+          "jun_name": "广南【元名】",
+          "topography": "山崖高峻【郡志山崖险峻道途崎岖一夫当隘百夫莫入其地险固若金城汤池】",
+          "customs": "习俗俭约【郡志其地多侬人沙人习俗俭约男女皆事犁锄服短衣长袴构楼而居好食百虫大防病不服药惟务祭鬼而已】；嚚讼好斗【安宁州旧志州有盐井之利嚚讼好斗蛮俗之常】",
+          "garrisons": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002"
+        ]
+      },
+      {
+        "geo_id": "GEO-125001-s01",
+        "item_id": "125-001",
+        "name": "富州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-125001",
+        "children": [],
+        "volume_range": "卷125",
+        "attributes": {
+          "location_text": "在府城东二百里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "特磨道",
+        "action": "因之",
+        "detail": "宋时名特磨道，侬智高之裔居之"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "广南西道宣抚司",
+        "action": "置",
+        "detail": "元至元间立广南西道宣抚司，领路城等五州；后来安路夺其路城、上林、罗佐三州，惟领安宁及富二州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "广南府",
+        "action": "改",
+        "detail": "本朝洪武中置广南府，亲领编户六里，领州一"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001",
+        "name": "牌头山",
+        "type": "山",
+        "location_text": "在府城西北五里",
+        "description": "峰峦起伏，其右小山连峙如盾，土民筑寨其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001",
+        "name": "莲花山",
+        "type": "山",
+        "location_text": "在府城东北二十里",
+        "description": "五峰连耸，诸小峰参差傍峙，形如莲花",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001-s01",
+        "name": "祛丕山",
+        "type": "山",
+        "location_text": "在冨州治西",
+        "description": "形如石狮，昔土人结屋以避兵，名狮头寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001-s01",
+        "name": "玉泉山",
+        "type": "山",
+        "location_text": "在冨州西北七十里",
+        "description": "山顶有泉飞流如素练，下有石池清碧，回旋溢流于西洋江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001-s01",
+        "name": "者鹞山",
+        "type": "山",
+        "location_text": "在冨州东南九十里",
+        "description": "高可一百仞，怪石槎枒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001-s01",
+        "name": "西宁山",
+        "type": "山",
+        "location_text": "在冨州东北一百一十里",
+        "description": "下有岩洞深邃，土人隐遁其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001",
+        "name": "西洋江",
+        "type": "江",
+        "location_text": "在府城南八十里",
+        "description": "源出本府板郎山、速部山、木玉山三流相合，东南入于田州府右江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001-s01",
+        "name": "南水溪",
+        "type": "溪",
+        "location_text": "在冨州东三十里",
+        "description": "源出花梁山，其水尚温",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "125-001",
+        "geo_id": "GEO-125001-s01",
+        "name": "南汪溪",
+        "type": "溪",
+        "location_text": "在富州治西",
+        "description": "源出麻卯山暨僻令山，流至州南合南水溪，东行至石洞伏流十五里复出，入于右江",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "125-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜/风俗",
+        "original": "【郡志山崖险峻道途崎岖一夫当隘百夫莫入其地险固若金城汤池】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "125-001",
+        "cited_work": "安宁州旧志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【安宁州旧志州有盐井之利嚚讼好斗蛮俗之常】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "领州一富州s01占位"
+  },
+  "title": "广南府"
+}

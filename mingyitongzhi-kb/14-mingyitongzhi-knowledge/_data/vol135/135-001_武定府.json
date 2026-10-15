@@ -1,0 +1,578 @@
+{
+  "item_id": "135-001",
+  "volume": "135",
+  "source": "武定军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "武定军民府",
+        "type": "geo",
+        "norm": "武定军民府",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "和曲州",
+        "type": "geo",
+        "norm": "和曲州",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "禄劝州",
+        "type": "geo",
+        "norm": "禄劝州",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "元谋县",
+        "type": "geo",
+        "norm": "元谋县",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K001",
+        "name": "狮子山",
+        "type": "mtn",
+        "norm": "狮子山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K002",
+        "name": "三台山",
+        "type": "mtn",
+        "norm": "三台山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K003",
+        "name": "雄轴龙山",
+        "type": "mtn",
+        "norm": "雄轴龙山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K004",
+        "name": "猗朵山",
+        "type": "mtn",
+        "norm": "猗朵山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K005",
+        "name": "佐丘山",
+        "type": "mtn",
+        "norm": "佐丘山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K006",
+        "name": "铺哇山",
+        "type": "mtn",
+        "norm": "铺哇山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K007",
+        "name": "住雄山",
+        "type": "mtn",
+        "norm": "住雄山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K008",
+        "name": "竹沙雄山",
+        "type": "mtn",
+        "norm": "竹沙雄山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K009",
+        "name": "乌蒙山",
+        "type": "mtn",
+        "norm": "乌蒙山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K010",
+        "name": "幸丘山",
+        "type": "mtn",
+        "norm": "幸丘山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K011",
+        "name": "法块山",
+        "type": "mtn",
+        "norm": "法块山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K012",
+        "name": "哇匿歪山",
+        "type": "mtn",
+        "norm": "哇匿歪山",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K013",
+        "name": "金沙江",
+        "type": "mtn",
+        "norm": "金沙江",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K014",
+        "name": "西溪河",
+        "type": "mtn",
+        "norm": "西溪河",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K015",
+        "name": "惠嫋湖",
+        "type": "mtn",
+        "norm": "惠嫋湖",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K016",
+        "name": "香水泉",
+        "type": "mtn",
+        "norm": "香水泉",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K017",
+        "name": "掌鸠水",
+        "type": "mtn",
+        "norm": "掌鸠水",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-K018",
+        "name": "勒夷水",
+        "type": "mtn",
+        "norm": "勒夷水",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-SK001",
+        "name": "法明寺",
+        "type": "site",
+        "norm": "法明寺",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-SK002",
+        "name": "正续寺",
+        "type": "site",
+        "norm": "正续寺",
+        "first_source": "135-001"
+      },
+      {
+        "ent_id": "ENT-SK003",
+        "name": "报恩寺",
+        "type": "site",
+        "norm": "报恩寺",
+        "first_source": "135-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-135001",
+        "item_id": "135-001",
+        "name": "武定军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-135001-s01",
+          "GEO-135001-s02"
+        ],
+        "volume_range": "卷135",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "云南府富民县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "西",
+              "to_place": "楚雄府定远县界",
+              "distance_li": 300
+            },
+            {
+              "direction": "南",
+              "to_place": "云南府罗次县界",
+              "distance_li": 60
+            },
+            {
+              "direction": "北",
+              "to_place": "丽江军民府通安州界",
+              "distance_li": 250
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7390
+            },
+            {
+              "capital": "京师",
+              "distance_li": 10830
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州二县一"
+          },
+          "grain_tax": {
+            "amount": 2500,
+            "unit": "石",
+            "note": "粮二千五百石零"
+          },
+          "topography": "四维削壁【元志四维千里削壁悬岩水甘草茂最宜畜牧】；东赪綎西姚裒【郡志】",
+          "customs": "男女混杂【郡志男女好浴混杂不为耻】；号为难治【元志叛服不常号难治】"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-135001-s01",
+        "item_id": "135-001",
+        "name": "和曲州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-135001",
+        "children": [
+          "GEO-135001-c01"
+        ],
+        "volume_range": "卷135",
+        "attributes": {
+          "location_text": "在府城西南三十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户七里领县一"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-135001-s02",
+        "item_id": "135-001",
+        "name": "禄劝州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-135001",
+        "children": [],
+        "volume_range": "卷135",
+        "attributes": {
+          "location_text": "在府城东北二十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-135001-c01",
+        "item_id": "135-001",
+        "name": "元谋县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-135001-s01",
+        "children": [],
+        "volume_range": "卷135",
+        "attributes": {
+          "location_text": "在州西北一百七十里",
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "编户五里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "夏",
+        "era": "禹贡梁州之界",
+        "institution_name": "因之",
+        "action": "因之",
+        "detail": "禹贡梁州之界，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "益州郡",
+        "action": "置",
+        "detail": "汉属益州郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "蜀汉",
+        "era": null,
+        "institution_name": "建宁郡",
+        "action": "置",
+        "detail": "蜀汉属建宁郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "昆州地",
+        "action": "置",
+        "detail": "隋为昆州地"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "戎州都督府",
+        "action": "置",
+        "detail": "唐属戎州都督府后为蒙氏所据"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "宋",
+        "era": "大理",
+        "institution_name": "罗婺部",
+        "action": "置",
+        "detail": "宋时大理段氏使乌蛮阿葵治此，其后裔孙法瓦浸盛，以其远祖罗婺为部名"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "罗婺万户府/北路总管府/武定路",
+        "action": "改",
+        "detail": "元初内附置罗婺万户府，至元中并仁德于矢二部入罗婺更置北路总管府，寻改武定路治南甸县"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "武定军民府",
+        "action": "改",
+        "detail": "本朝改为武定军民府领州二县一"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "狮子山",
+        "type": "山",
+        "location_text": "在府城西八里",
+        "description": "高千余仞顶有石岩状如狮子",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "三台山",
+        "type": "山",
+        "location_text": "在府城西北八里",
+        "description": "高可十仞叠起如台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "雄轴龙山",
+        "type": "山",
+        "location_text": "在府城西北八十里",
+        "description": "形势峭峻林麓茂密",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s01",
+        "name": "猗朵山",
+        "type": "山",
+        "location_text": "在和曲州治西北",
+        "description": "有泉下流为南甸河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s01",
+        "name": "佐丘山",
+        "type": "山",
+        "location_text": "在和曲州北一十里",
+        "description": "山之中平坦花木长春有泽广五亩水清无盈涸名洗马池一流为勒洟溪一流为东波洟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s01",
+        "name": "铺哇山",
+        "type": "山",
+        "location_text": "在和曲州西南二十五里",
+        "description": "山势险隘有悬瀑千余丈下注成池夷名铺哇洟每岁暮春夷民沐浴于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-c01",
+        "name": "住雄山",
+        "type": "山",
+        "location_text": "在元谋县西一十里",
+        "description": "一名法灵山俗呼环州山顶摩苍空壁立万仞西枕陋甸东连诸山环于州境",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-c01",
+        "name": "竹沙雄山",
+        "type": "山",
+        "location_text": "在元谋西北二百",
+        "description": "高出群山四面壁立上富竹木人迹罕到",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s02",
+        "name": "乌蒙山",
+        "type": "山",
+        "location_text": "在禄劝州东北三百里",
+        "description": "一名绛云露山北临金沙江山有十二峰耸秀为一州诸山之冠八九月间常有雪其顶有乌龙泉下流为乌龙河蒙氏封此山为东岳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s02",
+        "name": "幸丘山",
+        "type": "山",
+        "location_text": "在禄劝州故易笼县之东北",
+        "description": "四面徒绝顶有三峰可容数万家昔为罗婺寨天生之城牢不可破",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s02",
+        "name": "法块山",
+        "type": "山",
+        "location_text": "在故石旧县西北三十里",
+        "description": "四面峭立东南有一径可容单骑其傍有裒阿龙山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001-s02",
+        "name": "哇匿歪山",
+        "type": "山",
+        "location_text": "在法块山西",
+        "description": "山颠凹而平可居万家",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "金沙江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出吐蕃共龙川犁牛石下流经丽江鹤庆二府至本府北界又东入黎溪州蒙氏封为四渎之一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "西溪河",
+        "type": "水",
+        "location_text": "",
+        "description": "源出镇南州经楚雄至元谋县之西境下入金沙江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "惠嫋湖",
+        "type": "湖",
+        "location_text": "在府城西北八十里",
+        "description": "湖方五里茂林佳木掩映其傍水色清碧深不可测叶落其中有青鸟辄衔去土人以为有神",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "香水泉",
+        "type": "泉",
+        "location_text": "在府城南二里",
+        "description": "其泉春时则香土人于二三月具酒肴祭之然后汲焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "掌鸠水",
+        "type": "水",
+        "location_text": "在故石旧县",
+        "description": "其水绕县三面凡数十渡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "135-001",
+        "geo_id": "GEO-135001",
+        "name": "勒夷水",
+        "type": "水",
+        "location_text": "",
+        "description": "自故南甸县境北流入金沙江",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "sites拆至sites1"
+  },
+  "title": "武定军民府"
+}

@@ -1,0 +1,95 @@
+{
+  "item_id": "167-001",
+  "volume": "167",
+  "source": "芒市长官司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "芒市长官司",
+        "type": "geo",
+        "norm": "芒市长官司",
+        "first_source": "167-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-167001",
+        "item_id": "167-001",
+        "name": "芒市长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷167",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "167-001",
+        "geo_id": "GEO-167001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "芒市长官司",
+        "action": "置",
+        "detail": "其地旧曰怒谋曰大枯赕曰小枯赕即唐史所谓茫施蛮也元中统初内附至元十三年立茫施路军民总管府领二甸本朝洪武十五年置茫施府正统九年改置芒市长官司"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "167-001",
+        "geo_id": "GEO-167001",
+        "name": "青石山",
+        "type": "山",
+        "location_text": "在司西南",
+        "description": "峭防千仞竒怪万端又司境有永贡榦孟契二山皆髙大夷酋立寨居之以为险要下有芒市河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "167-001",
+        "geo_id": "GEO-167001",
+        "name": "麓川江",
+        "type": "江",
+        "location_text": "在司西",
+        "description": "源出昌峨蛮境流至司境又至缅地合大盈江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "167-001",
+        "geo_id": "GEO-167001",
+        "name": "金沙江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出青石山流入大盈江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "167-001",
+        "geo_id": "GEO-167001",
+        "name": "大车江",
+        "type": "江",
+        "location_text": "",
+        "description": "源自腾冲流经青石山下流至江头城名大盈江入缅地蒲甘城界",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "芒市长官司"
+}

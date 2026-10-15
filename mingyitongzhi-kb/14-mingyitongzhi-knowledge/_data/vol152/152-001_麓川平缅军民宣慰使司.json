@@ -1,0 +1,64 @@
+{
+  "item_id": "152-001",
+  "volume": "152",
+  "source": "麓川平缅军民宣慰使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "麓川平缅军民宣慰使司",
+        "type": "geo",
+        "norm": "麓川平缅军民宣慰使司",
+        "first_source": "152-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-152001",
+        "item_id": "152-001",
+        "name": "麓川平缅军民宣慰使司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷152",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "152-001",
+        "geo_id": "GEO-152001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "麓川路",
+        "action": "置",
+        "detail": "元置麓川路"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "152-001",
+        "geo_id": "GEO-152001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "麓川平缅宣慰司",
+        "action": "置",
+        "detail": "本朝洪武中置麓川平缅宣慰司，寻革，今复置军民焉"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "麓川平缅军民宣慰使司"
+}

@@ -1,0 +1,3231 @@
+{
+  "item_id": "120-001",
+  "volume": "120",
+  "source": "云南府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "云南府",
+        "type": "geo",
+        "norm": "云南府",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "昆明县",
+        "type": "geo",
+        "norm": "昆明县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "富民县",
+        "type": "geo",
+        "norm": "富民县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "宜良县",
+        "type": "geo",
+        "norm": "宜良县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "归化县",
+        "type": "geo",
+        "norm": "归化县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "呈贡县",
+        "type": "geo",
+        "norm": "呈贡县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "罗次县",
+        "type": "geo",
+        "norm": "罗次县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C07",
+        "name": "禄丰县",
+        "type": "geo",
+        "norm": "禄丰县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C08",
+        "name": "三泊县",
+        "type": "geo",
+        "norm": "三泊县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-C09",
+        "name": "易门县",
+        "type": "geo",
+        "norm": "易门县",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "嵩盟州",
+        "type": "geo",
+        "norm": "嵩盟州",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "晋宁州",
+        "type": "geo",
+        "norm": "晋宁州",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S03",
+        "name": "安宁州",
+        "type": "geo",
+        "norm": "安宁州",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S04",
+        "name": "昆阳州",
+        "type": "geo",
+        "norm": "昆阳州",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "云南左卫",
+        "type": "geo",
+        "norm": "云南左卫",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "云南右卫",
+        "type": "geo",
+        "norm": "云南右卫",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "云南中卫",
+        "type": "geo",
+        "norm": "云南中卫",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W04",
+        "name": "云南前卫",
+        "type": "geo",
+        "norm": "云南前卫",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W05",
+        "name": "云南后卫",
+        "type": "geo",
+        "norm": "云南后卫",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W06",
+        "name": "广南卫",
+        "type": "geo",
+        "norm": "广南卫",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W07",
+        "name": "宜良守御千户所",
+        "type": "geo",
+        "norm": "宜良守御千户所",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W08",
+        "name": "安宁守御千户所",
+        "type": "geo",
+        "norm": "安宁守御千户所",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W09",
+        "name": "易门守御千户所",
+        "type": "geo",
+        "norm": "易门守御千户所",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W10",
+        "name": "杨林堡守御千户所",
+        "type": "geo",
+        "norm": "杨林堡守御千户所",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-W11",
+        "name": "十八寨守御千户所",
+        "type": "geo",
+        "norm": "十八寨守御千户所",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K五华山",
+        "name": "五华山",
+        "type": "mtn",
+        "norm": "五华山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K螺山",
+        "name": "螺山",
+        "type": "mtn",
+        "norm": "螺山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K商山",
+        "name": "商山",
+        "type": "mtn",
+        "norm": "商山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K石鼻山",
+        "name": "石鼻山",
+        "type": "mtn",
+        "norm": "石鼻山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K进耳山",
+        "name": "进耳山",
+        "type": "mtn",
+        "norm": "进耳山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K聚仙山",
+        "name": "聚仙山",
+        "type": "mtn",
+        "norm": "聚仙山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K抹葱山",
+        "name": "抹葱山",
+        "type": "mtn",
+        "norm": "抹葱山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K乐错半山",
+        "name": "乐错半山",
+        "type": "mtn",
+        "norm": "乐错半山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K玉案山",
+        "name": "玉案山",
+        "type": "mtn",
+        "norm": "玉案山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K文殊山",
+        "name": "文殊山",
+        "type": "mtn",
+        "norm": "文殊山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K金马山",
+        "name": "金马山",
+        "type": "mtn",
+        "norm": "金马山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K碧鸡山",
+        "name": "碧鸡山",
+        "type": "mtn",
+        "norm": "碧鸡山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K太华山",
+        "name": "太华山",
+        "type": "mtn",
+        "norm": "太华山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K灵芝山",
+        "name": "灵芝山",
+        "type": "mtn",
+        "norm": "灵芝山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K洞口山",
+        "name": "洞口山",
+        "type": "mtn",
+        "norm": "洞口山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K颠卧山",
+        "name": "颠卧山",
+        "type": "mtn",
+        "norm": "颠卧山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K噜卧山",
+        "name": "噜卧山",
+        "type": "mtn",
+        "norm": "噜卧山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K蒙课卧山",
+        "name": "蒙课卧山",
+        "type": "mtn",
+        "norm": "蒙课卧山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K黄弄山",
+        "name": "黄弄山",
+        "type": "mtn",
+        "norm": "黄弄山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K响石",
+        "name": "响石",
+        "type": "mtn",
+        "norm": "响石",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K客争容山",
+        "name": "客争容山",
+        "type": "mtn",
+        "norm": "客争容山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K观音山",
+        "name": "观音山",
+        "type": "mtn",
+        "norm": "观音山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K北乐山",
+        "name": "北乐山",
+        "type": "mtn",
+        "norm": "北乐山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K笮箐山",
+        "name": "笮箐山",
+        "type": "mtn",
+        "norm": "笮箐山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K蛇山",
+        "name": "蛇山",
+        "type": "mtn",
+        "norm": "蛇山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K罗锦山",
+        "name": "罗锦山",
+        "type": "mtn",
+        "norm": "罗锦山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K秀嵩山",
+        "name": "秀嵩山",
+        "type": "mtn",
+        "norm": "秀嵩山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K弥雄山",
+        "name": "弥雄山",
+        "type": "mtn",
+        "norm": "弥雄山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K欶雺山",
+        "name": "欶雺山",
+        "type": "mtn",
+        "norm": "欶雺山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K抹摐山",
+        "name": "抹摐山",
+        "type": "mtn",
+        "norm": "抹摐山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K东葛勒山",
+        "name": "东葛勒山",
+        "type": "mtn",
+        "norm": "东葛勒山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K竹雄山",
+        "name": "竹雄山",
+        "type": "mtn",
+        "norm": "竹雄山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K杨林山",
+        "name": "杨林山",
+        "type": "mtn",
+        "norm": "杨林山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K乌纳山",
+        "name": "乌纳山",
+        "type": "mtn",
+        "norm": "乌纳山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K万松山",
+        "name": "万松山",
+        "type": "mtn",
+        "norm": "万松山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K金砂山",
+        "name": "金砂山",
+        "type": "mtn",
+        "norm": "金砂山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K五龙山",
+        "name": "五龙山",
+        "type": "mtn",
+        "norm": "五龙山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K光长山",
+        "name": "光长山",
+        "type": "mtn",
+        "norm": "光长山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K三台山",
+        "name": "三台山",
+        "type": "mtn",
+        "norm": "三台山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K象兔山",
+        "name": "象兔山",
+        "type": "mtn",
+        "norm": "象兔山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K罗青山",
+        "name": "罗青山",
+        "type": "mtn",
+        "norm": "罗青山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K呀岝山",
+        "name": "呀岝山",
+        "type": "mtn",
+        "norm": "呀岝山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K洛阳山",
+        "name": "洛阳山",
+        "type": "mtn",
+        "norm": "洛阳山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K岱晟山",
+        "name": "岱晟山",
+        "type": "mtn",
+        "norm": "岱晟山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K葱山",
+        "name": "葱山",
+        "type": "mtn",
+        "norm": "葱山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K玉龙山",
+        "name": "玉龙山",
+        "type": "mtn",
+        "norm": "玉龙山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K九戍山",
+        "name": "九戍山",
+        "type": "mtn",
+        "norm": "九戍山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K穹荡山",
+        "name": "穹荡山",
+        "type": "mtn",
+        "norm": "穹荡山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K苴麽崱裒山",
+        "name": "苴麽崱裒山",
+        "type": "mtn",
+        "norm": "苴麽崱裒山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K蒙答些山",
+        "name": "蒙答些山",
+        "type": "mtn",
+        "norm": "蒙答些山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K南平山",
+        "name": "南平山",
+        "type": "mtn",
+        "norm": "南平山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K姚陵山",
+        "name": "姚陵山",
+        "type": "mtn",
+        "norm": "姚陵山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K长松山",
+        "name": "长松山",
+        "type": "mtn",
+        "norm": "长松山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K仙卧山",
+        "name": "仙卧山",
+        "type": "mtn",
+        "norm": "仙卧山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K望州山",
+        "name": "望州山",
+        "type": "mtn",
+        "norm": "望州山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K蒙果山",
+        "name": "蒙果山",
+        "type": "mtn",
+        "norm": "蒙果山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K宝应山",
+        "name": "宝应山",
+        "type": "mtn",
+        "norm": "宝应山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K云龙山",
+        "name": "云龙山",
+        "type": "mtn",
+        "norm": "云龙山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K葱蒙卧山",
+        "name": "葱蒙卧山",
+        "type": "mtn",
+        "norm": "葱蒙卧山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K白鹤山",
+        "name": "白鹤山",
+        "type": "mtn",
+        "norm": "白鹤山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K滑光嶍山",
+        "name": "滑光嶍山",
+        "type": "mtn",
+        "norm": "滑光嶍山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K娘当山",
+        "name": "娘当山",
+        "type": "mtn",
+        "norm": "娘当山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K蒙低梨岩山",
+        "name": "蒙低梨岩山",
+        "type": "mtn",
+        "norm": "蒙低梨岩山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K禄益恶危山",
+        "name": "禄益恶危山",
+        "type": "mtn",
+        "norm": "禄益恶危山",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K滇池",
+        "name": "滇池",
+        "type": "mtn",
+        "norm": "滇池",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K螳螂川",
+        "name": "螳螂川",
+        "type": "mtn",
+        "norm": "螳螂川",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K渠滥川",
+        "name": "渠滥川",
+        "type": "mtn",
+        "norm": "渠滥川",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K大池江",
+        "name": "大池江",
+        "type": "mtn",
+        "norm": "大池江",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K大城江",
+        "name": "大城江",
+        "type": "mtn",
+        "norm": "大城江",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K盘龙江",
+        "name": "盘龙江",
+        "type": "mtn",
+        "norm": "盘龙江",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K龙巨江",
+        "name": "龙巨江",
+        "type": "mtn",
+        "norm": "龙巨江",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K西湖",
+        "name": "西湖",
+        "type": "mtn",
+        "norm": "西湖",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K安宁河",
+        "name": "安宁河",
+        "type": "mtn",
+        "norm": "安宁河",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K大堡河",
+        "name": "大堡河",
+        "type": "mtn",
+        "norm": "大堡河",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K星宿河",
+        "name": "星宿河",
+        "type": "mtn",
+        "norm": "星宿河",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K洟札郎水",
+        "name": "洟札郎水",
+        "type": "mtn",
+        "norm": "洟札郎水",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K农纳水",
+        "name": "农纳水",
+        "type": "mtn",
+        "norm": "农纳水",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K龙泉水",
+        "name": "龙泉水",
+        "type": "mtn",
+        "norm": "龙泉水",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K弥雄水",
+        "name": "弥雄水",
+        "type": "mtn",
+        "norm": "弥雄水",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K牧様水",
+        "name": "牧様水",
+        "type": "mtn",
+        "norm": "牧様水",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K嘉利泽",
+        "name": "嘉利泽",
+        "type": "mtn",
+        "norm": "嘉利泽",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K交七浦",
+        "name": "交七浦",
+        "type": "mtn",
+        "norm": "交七浦",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K荷花池",
+        "name": "荷花池",
+        "type": "mtn",
+        "norm": "荷花池",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K黑龙池",
+        "name": "黑龙池",
+        "type": "mtn",
+        "norm": "黑龙池",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K汤池",
+        "name": "汤池",
+        "type": "mtn",
+        "norm": "汤池",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K红莲沼",
+        "name": "红莲沼",
+        "type": "mtn",
+        "norm": "红莲沼",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K清侯井",
+        "name": "清侯井",
+        "type": "mtn",
+        "norm": "清侯井",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K石井",
+        "name": "石井",
+        "type": "mtn",
+        "norm": "石井",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K里仁井",
+        "name": "里仁井",
+        "type": "mtn",
+        "norm": "里仁井",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K龙泉",
+        "name": "龙泉",
+        "type": "mtn",
+        "norm": "龙泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K瀑布泉",
+        "name": "瀑布泉",
+        "type": "mtn",
+        "norm": "瀑布泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K对龙泉",
+        "name": "对龙泉",
+        "type": "mtn",
+        "norm": "对龙泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K石洞泉",
+        "name": "石洞泉",
+        "type": "mtn",
+        "norm": "石洞泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K罗锦泉",
+        "name": "罗锦泉",
+        "type": "mtn",
+        "norm": "罗锦泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K海眼泉",
+        "name": "海眼泉",
+        "type": "mtn",
+        "norm": "海眼泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-K文殊泉",
+        "name": "文殊泉",
+        "type": "mtn",
+        "norm": "文殊泉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P001",
+        "name": "周庄蹻",
+        "type": "person",
+        "norm": "周庄蹻",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P002",
+        "name": "然于",
+        "type": "person",
+        "norm": "然于",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P003",
+        "name": "郭昌",
+        "type": "person",
+        "norm": "郭昌",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P004",
+        "name": "卫广",
+        "type": "person",
+        "norm": "卫广",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P005",
+        "name": "文齐",
+        "type": "person",
+        "norm": "文齐",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P006",
+        "name": "刘向",
+        "type": "person",
+        "norm": "刘向",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P007",
+        "name": "张翕",
+        "type": "person",
+        "norm": "张翕",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P008",
+        "name": "张乔",
+        "type": "person",
+        "norm": "张乔",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P009",
+        "name": "王阜",
+        "type": "person",
+        "norm": "王阜",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P010",
+        "name": "诸葛亮",
+        "type": "person",
+        "norm": "诸葛亮",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P011",
+        "name": "张嶷",
+        "type": "person",
+        "norm": "张嶷",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P012",
+        "name": "王逊",
+        "type": "person",
+        "norm": "王逊",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P013",
+        "name": "姚岳",
+        "type": "person",
+        "norm": "姚岳",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P014",
+        "name": "李毅",
+        "type": "person",
+        "norm": "李毅",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P015",
+        "name": "王纪",
+        "type": "person",
+        "norm": "王纪",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P016",
+        "name": "史万岁",
+        "type": "person",
+        "norm": "史万岁",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P017",
+        "name": "杨佑",
+        "type": "person",
+        "norm": "杨佑",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P018",
+        "name": "赛音迪延齐",
+        "type": "person",
+        "norm": "赛音迪延齐",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P019",
+        "name": "阿鲁",
+        "type": "person",
+        "norm": "阿鲁",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P020",
+        "name": "张立道",
+        "type": "person",
+        "norm": "张立道",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P021",
+        "name": "赵世延",
+        "type": "person",
+        "norm": "赵世延",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P022",
+        "name": "程思廉",
+        "type": "person",
+        "norm": "程思廉",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P023",
+        "name": "刘正",
+        "type": "person",
+        "norm": "刘正",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P024",
+        "name": "阿尔噶实哩",
+        "type": "person",
+        "norm": "阿尔噶实哩",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P025",
+        "name": "沐英",
+        "type": "person",
+        "norm": "沐英",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P026",
+        "name": "沭晟",
+        "type": "person",
+        "norm": "沭晟",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P027",
+        "name": "沭昂",
+        "type": "person",
+        "norm": "沭昂",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P028",
+        "name": "梅思祖",
+        "type": "person",
+        "norm": "梅思祖",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P029",
+        "name": "张紞",
+        "type": "person",
+        "norm": "张紞",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P030",
+        "name": "倪正",
+        "type": "person",
+        "norm": "倪正",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P031",
+        "name": "陈逊",
+        "type": "person",
+        "norm": "陈逊",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P032",
+        "name": "周乐",
+        "type": "person",
+        "norm": "周乐",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P033",
+        "name": "赖巽",
+        "type": "person",
+        "norm": "赖巽",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P034",
+        "name": "沐璘",
+        "type": "person",
+        "norm": "沐璘",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P035",
+        "name": "戴新",
+        "type": "person",
+        "norm": "戴新",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P036",
+        "name": "徐观",
+        "type": "person",
+        "norm": "徐观",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P037",
+        "name": "卢翊",
+        "type": "person",
+        "norm": "卢翊",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P038",
+        "name": "李希颜",
+        "type": "person",
+        "norm": "李希颜",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P039",
+        "name": "朱应登",
+        "type": "person",
+        "norm": "朱应登",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P040",
+        "name": "许叔",
+        "type": "person",
+        "norm": "许叔",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P041",
+        "name": "张志诚",
+        "type": "person",
+        "norm": "张志诚",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P042",
+        "name": "王求仁",
+        "type": "person",
+        "norm": "王求仁",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P043",
+        "name": "杨立义",
+        "type": "person",
+        "norm": "杨立义",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P044",
+        "name": "王升",
+        "type": "person",
+        "norm": "王升",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P045",
+        "name": "托克托怀氏",
+        "type": "person",
+        "norm": "托克托怀氏",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P046",
+        "name": "道清",
+        "type": "person",
+        "norm": "道清",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P047",
+        "name": "脱空",
+        "type": "person",
+        "norm": "脱空",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P048",
+        "name": "无言和尚",
+        "type": "person",
+        "norm": "无言和尚",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-P049",
+        "name": "赵迦罗",
+        "type": "person",
+        "norm": "赵迦罗",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S001",
+        "name": "五华寺",
+        "type": "site",
+        "norm": "五华寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S002",
+        "name": "大华寺",
+        "type": "site",
+        "norm": "大华寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S003",
+        "name": "圆通寺",
+        "type": "site",
+        "norm": "圆通寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S004",
+        "name": "常乐寺",
+        "type": "site",
+        "norm": "常乐寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S005",
+        "name": "觉照寺",
+        "type": "site",
+        "norm": "觉照寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S006",
+        "name": "筇竹寺",
+        "type": "site",
+        "norm": "筇竹寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S007",
+        "name": "灵芝寺",
+        "type": "site",
+        "norm": "灵芝寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S008",
+        "name": "宗镜寺",
+        "type": "site",
+        "norm": "宗镜寺",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S009",
+        "name": "长春观",
+        "type": "site",
+        "norm": "长春观",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S010",
+        "name": "大灵庙",
+        "type": "site",
+        "norm": "大灵庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S011",
+        "name": "碧鸡神庙",
+        "type": "site",
+        "norm": "碧鸡神庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S012",
+        "name": "金马神庙",
+        "type": "site",
+        "norm": "金马神庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S013",
+        "name": "姚岳庙",
+        "type": "site",
+        "norm": "姚岳庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S014",
+        "name": "忠烈庙",
+        "type": "site",
+        "norm": "忠烈庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S015",
+        "name": "咸阳王庙",
+        "type": "site",
+        "norm": "咸阳王庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S016",
+        "name": "黔宁王庙",
+        "type": "site",
+        "norm": "黔宁王庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S017",
+        "name": "定远王庙",
+        "type": "site",
+        "norm": "定远王庙",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S018",
+        "name": "梁王墓",
+        "type": "site",
+        "norm": "梁王墓",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S019",
+        "name": "赛音迪延齐墓",
+        "type": "site",
+        "norm": "赛音迪延齐墓",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S020",
+        "name": "王祎墓",
+        "type": "site",
+        "norm": "王祎墓",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S021",
+        "name": "聚远楼",
+        "type": "site",
+        "norm": "聚远楼",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S022",
+        "name": "尊经阁",
+        "type": "site",
+        "norm": "尊经阁",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S023",
+        "name": "敬思堂",
+        "type": "site",
+        "norm": "敬思堂",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S024",
+        "name": "思召堂",
+        "type": "site",
+        "norm": "思召堂",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S025",
+        "name": "泰然堂",
+        "type": "site",
+        "norm": "泰然堂",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S026",
+        "name": "真意亭",
+        "type": "site",
+        "norm": "真意亭",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S027",
+        "name": "盟蛮台",
+        "type": "site",
+        "norm": "盟蛮台",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S028",
+        "name": "金马关",
+        "type": "site",
+        "norm": "金马关",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S029",
+        "name": "碧鸡关",
+        "type": "site",
+        "norm": "碧鸡关",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S030",
+        "name": "溥润桥",
+        "type": "site",
+        "norm": "溥润桥",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S031",
+        "name": "龙济桥",
+        "type": "site",
+        "norm": "龙济桥",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S032",
+        "name": "四通桥",
+        "type": "site",
+        "norm": "四通桥",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S033",
+        "name": "永济桥",
+        "type": "site",
+        "norm": "永济桥",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S034",
+        "name": "济远桥",
+        "type": "site",
+        "norm": "济远桥",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S035",
+        "name": "永丰桥",
+        "type": "site",
+        "norm": "永丰桥",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S036",
+        "name": "安宁盐井盐课提举司",
+        "type": "site",
+        "norm": "安宁盐井盐课提举司",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S037",
+        "name": "云南府学",
+        "type": "site",
+        "norm": "云南府学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S038",
+        "name": "嵩盟州学",
+        "type": "site",
+        "norm": "嵩盟州学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S039",
+        "name": "晋宁州学",
+        "type": "site",
+        "norm": "晋宁州学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S040",
+        "name": "安宁州学",
+        "type": "site",
+        "norm": "安宁州学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S041",
+        "name": "昆阳州学",
+        "type": "site",
+        "norm": "昆阳州学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S042",
+        "name": "昆明县学",
+        "type": "site",
+        "norm": "昆明县学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S043",
+        "name": "宜良县学",
+        "type": "site",
+        "norm": "宜良县学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S044",
+        "name": "呈贡县学",
+        "type": "site",
+        "norm": "呈贡县学",
+        "first_source": "120-001"
+      },
+      {
+        "ent_id": "ENT-S045",
+        "name": "禄丰县学",
+        "type": "site",
+        "norm": "禄丰县学",
+        "first_source": "120-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-120-001",
+        "item_id": "120-001",
+        "name": "云南府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-120-001-c01",
+          "GEO-120-001-c02",
+          "GEO-120-001-c03",
+          "GEO-120-001-c04",
+          "GEO-120-001-c05",
+          "GEO-120-001-c06",
+          "GEO-120-001-c07",
+          "GEO-120-001-c08",
+          "GEO-120-001-c09",
+          "GEO-120-001-s01",
+          "GEO-120-001-s02",
+          "GEO-120-001-s03",
+          "GEO-120-001-s04",
+          "GEO-120-001-w01",
+          "GEO-120-001-w02",
+          "GEO-120-001-w03",
+          "GEO-120-001-w04",
+          "GEO-120-001-w05",
+          "GEO-120-001-w06",
+          "GEO-120-001-w07",
+          "GEO-120-001-w08",
+          "GEO-120-001-w09",
+          "GEO-120-001-w10",
+          "GEO-120-001-w11"
+        ],
+        "volume_range": "卷120",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "澂江府邑市县界",
+              "distance_li": 180
+            },
+            {
+              "direction": "南",
+              "to_place": "澂江府河阳县界",
+              "distance_li": 120
+            },
+            {
+              "direction": "西",
+              "to_place": "临安府广通县界",
+              "distance_li": 350
+            },
+            {
+              "direction": "北",
+              "to_place": "寻甸军民府界",
+              "distance_li": 210
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7200
+            },
+            {
+              "capital": "京师",
+              "distance_li": 10645
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州四县九；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮三万四千二百石零"
+          },
+          "jun_name": "滇国【春秋时名】益州【汉名】建宁【蜀汉名】晋陵【晋名】",
+          "topography": "接吐蕃际黔巫【唐书东距爨东南属交阯西摩伽陀北接吐蕃东北际黔巫】；西南重镇【元儒学提举何弘佐礼乐记】；会要之地【蹇郁修学记】；山川明秀【大德桥记】",
+          "customs": "种类非一习俗不同【云南志】；男女勇健不鞍而骑善用矛剑【唐书】；勤耕务实敬释诵经嚚讼好斗【俱郡志】；俗无礼仪死不葬祭【元史赛典赤传】；腊月祀祖【岁以腊月二十四日祀祖如中州上塚之礼】；食贵生【猪牛鸡鱼皆生醢之和以蒜食】；交易用贝【贝俗呼作� 以一为庄四庄为手四手为苗五苗为索虽租税亦用之】；椎髻编发【男子披毡椎髻妇人不涂泽发以青纱分编绕首盘系处子孀妇出入无间情通私耦然后成婚】；首戴次工【制如渔笠覆以黑毡亲故虽久别无拜跪唯取次工以为礼以上俱方舆胜览】",
+          "garrisons": [
+            {
+              "name": "云南左卫",
+              "type": "卫",
+              "location_text": "在府治东洪武十五年建"
+            },
+            {
+              "name": "云南右卫",
+              "type": "卫",
+              "location_text": "在府治南洪武十五年建"
+            },
+            {
+              "name": "云南中卫",
+              "type": "卫",
+              "location_text": "在府治东南洪武十五年建"
+            },
+            {
+              "name": "云南前卫",
+              "type": "卫",
+              "location_text": "在府治西南洪武十五年建"
+            },
+            {
+              "name": "云南后卫",
+              "type": "卫",
+              "location_text": "在府治东南洪武十五年建"
+            },
+            {
+              "name": "广南卫",
+              "type": "卫",
+              "location_text": "在府治东南俱洪武十五年建"
+            },
+            {
+              "name": "宜良守御千户所",
+              "type": "千户所",
+              "location_text": "在宜良县治西"
+            },
+            {
+              "name": "安宁守御千户所",
+              "type": "千户所",
+              "location_text": "在安宁州治西南"
+            },
+            {
+              "name": "易门守御千户所",
+              "type": "千户所",
+              "location_text": "在易门县南三十里旧县治俱洪武二十四年建"
+            },
+            {
+              "name": "杨林堡守御千户所",
+              "type": "千户所",
+              "location_text": "在杨林县东五里洪武三十五年建"
+            },
+            {
+              "name": "十八寨守御千户所",
+              "type": "千户所",
+              "location_text": ""
+            }
+          ]
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c01",
+        "item_id": "120-001",
+        "name": "昆明县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 27,
+            "unit": "里",
+            "note": "编户二十七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c02",
+        "item_id": "120-001",
+        "name": "富民县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府城西北九十里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c03",
+        "item_id": "120-001",
+        "name": "宜良县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府城东南一百五十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-s01",
+        "item_id": "120-001",
+        "name": "嵩盟州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府城东北一百二十里",
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里；旧领杨林邵甸二县，洪武中省邵甸入州，成化间杨林亦并入"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-s02",
+        "item_id": "120-001",
+        "name": "晋宁州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [
+          "GEO-120-001-c04",
+          "GEO-120-001-c05"
+        ],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府城东南一百里",
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "编户五里领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c04",
+        "item_id": "120-001",
+        "name": "归化县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001-s02",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在州北二十里安江城",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c05",
+        "item_id": "120-001",
+        "name": "呈贡县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001-s02",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在州北六十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-s03",
+        "item_id": "120-001",
+        "name": "安宁州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [
+          "GEO-120-001-c06",
+          "GEO-120-001-c07"
+        ],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府城西南八十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户一十里领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c06",
+        "item_id": "120-001",
+        "name": "罗次县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001-s03",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在州八九十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c07",
+        "item_id": "120-001",
+        "name": "禄丰县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001-s03",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在州西一百八十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-s04",
+        "item_id": "120-001",
+        "name": "昆阳州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [
+          "GEO-120-001-c08",
+          "GEO-120-001-c09"
+        ],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府城南一百五十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c08",
+        "item_id": "120-001",
+        "name": "三泊县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001-s04",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在州西北七十里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-c09",
+        "item_id": "120-001",
+        "name": "易门县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-120-001-s04",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在州西一百五十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w01",
+        "item_id": "120-001",
+        "name": "云南左卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府治东",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w02",
+        "item_id": "120-001",
+        "name": "云南右卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府治南",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w03",
+        "item_id": "120-001",
+        "name": "云南中卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府治东南",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w04",
+        "item_id": "120-001",
+        "name": "云南前卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府治西南",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w05",
+        "item_id": "120-001",
+        "name": "云南后卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府治东南",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w06",
+        "item_id": "120-001",
+        "name": "广南卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在府治东南俱洪武十五年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w07",
+        "item_id": "120-001",
+        "name": "宜良守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在宜良县治西",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w08",
+        "item_id": "120-001",
+        "name": "安宁守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在安宁州治西南",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w09",
+        "item_id": "120-001",
+        "name": "易门守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在易门县南三十里旧县治俱洪武二十四年建",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w10",
+        "item_id": "120-001",
+        "name": "杨林堡守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "在杨林县东五里洪武三十五年建",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-120-001-w11",
+        "item_id": "120-001",
+        "name": "十八寨守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-120-001",
+        "children": [],
+        "volume_range": "卷120",
+        "attributes": {
+          "location_text": "",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之界",
+        "action": "因之",
+        "detail": "禹贡梁州之界，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "周以前",
+        "era": null,
+        "institution_name": "西南夷地",
+        "action": "因之",
+        "detail": "周以前为徼外西南夷僰鸠獠慓躶毒獹咢乌蛮所居地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "战国楚",
+        "era": "威王",
+        "institution_name": "滇国",
+        "action": "王",
+        "detail": "楚庄蹻略地西至滇池，因王其地，号滇国"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "五尺道",
+        "action": "通",
+        "detail": "秦常頞通五尺道，颇置吏焉"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "汉",
+        "era": "武帝",
+        "institution_name": "益州郡",
+        "action": "置",
+        "detail": "汉武帝遣将临滇，滇王举国降，遂置益州郡，治滇池"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "蜀汉",
+        "era": null,
+        "institution_name": "建宁郡/云南郡",
+        "action": "改置",
+        "detail": "蜀汉改益州郡为建宁郡，又分建宁置云南郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "宁州",
+        "action": "置",
+        "detail": "晋因之，兼置宁州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "南朝",
+        "era": null,
+        "institution_name": "建宁郡",
+        "action": "因之",
+        "detail": "宋齐并为建宁郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "昆州",
+        "action": "置后废",
+        "detail": "隋置昆州，后废"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "昆州/善阐府",
+        "action": "置后陷",
+        "detail": "唐初复置昆州，后为南诏蒙氏所据，改为善阐府"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "五代宋",
+        "era": null,
+        "institution_name": "善阐牧",
+        "action": "世有",
+        "detail": "历郑赵杨三氏，至大理段氏以高智深领善阐牧，遂世有其地"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "善阐万户府/中庆路",
+        "action": "改置",
+        "detail": "元初置善阐万户府，至元中改置中庆路"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "云南府",
+        "action": "改",
+        "detail": "本朝洪武中改云南府，领州四县九"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "五华山",
+        "type": "山",
+        "location_text": "在府城内",
+        "description": "上有佛寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "螺山",
+        "type": "山",
+        "location_text": "在府城北",
+        "description": "旧名盘坤山，有巨石色皆深碧如螺髻，下有潮音洞，洞门有盘瓠庙基",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "商山",
+        "type": "山",
+        "location_text": "在螺山北",
+        "description": "连峰叠巘丹崖翠壁若鸾停鹄立，下有冷泉，土人云浴之可去风疾",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "石鼻山",
+        "type": "山",
+        "location_text": "在府城西一十里",
+        "description": "山有白石状如人鼻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "进耳山",
+        "type": "山",
+        "location_text": "在府城西二十里许",
+        "description": "上有庙，俗传有汉使卒于此，土人祠之，春秋祭祀则丰稔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "聚仙山",
+        "type": "山",
+        "location_text": "在府城西二十里",
+        "description": "一名笔架山，北有神魔洞，下有泉流入鸳鸯池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "抹葱山",
+        "type": "山",
+        "location_text": "在府城东二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "乐错半山",
+        "type": "山",
+        "location_text": "在府城北二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "玉案山",
+        "type": "山",
+        "location_text": "在府城西二十五里",
+        "description": "一名列和蒙山，秀丽多泉石，石有碁盘山，北平坡中有三泉如盆池，郡人春日游赏于此，山中有玉案兰若",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "文殊山",
+        "type": "山",
+        "location_text": "在府城北二十五里",
+        "description": "一名蒙滞雄山，上有文殊堂及文殊泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "金马山",
+        "type": "山",
+        "location_text": "在府城东二十里",
+        "description": "西对碧鸡山，中隔滇池，山不甚高而绵亘西南数十里，上有长亭，下有金马关",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "碧鸡山",
+        "type": "山",
+        "location_text": "在府城西南三十里",
+        "description": "东瞰滇泽，苍崖万丈，绿水千寻，月印澄波，云横绝顶，云南一佳景也",
+        "lore": "汉宣帝时方士言益州有金马碧鸡可祭祀而致，遣王褒往祀，至蜀而卒；元张雄飞诗北阙辞丹凤南云看碧鸡"
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "太华山",
+        "type": "山",
+        "location_text": "在碧鸡山西北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "灵芝山",
+        "type": "山",
+        "location_text": "在富民县西南二里",
+        "description": "旧名赤晟化山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "洞口山",
+        "type": "山",
+        "location_text": "在富民县东南三里",
+        "description": "下有洞水从中流出，经县南西北入安宁河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "颠卧山",
+        "type": "山",
+        "location_text": "在富民县西十余里",
+        "description": "今名滇和山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "噜卧山",
+        "type": "山",
+        "location_text": "在富民县西十余里",
+        "description": "今名鲁和山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "蒙课卧山",
+        "type": "山",
+        "location_text": "在富民县西十余里",
+        "description": "今名无怯和山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "黄弄山",
+        "type": "山",
+        "location_text": "在富民县北十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "响石",
+        "type": "石",
+        "location_text": "在富民县东八里",
+        "description": "石色青白状如马鞍，击之有声如磬",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c03",
+        "name": "客争容山",
+        "type": "山",
+        "location_text": "在宜良县东一十里",
+        "description": "为县镇山，今名犁摩□山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c03",
+        "name": "观音山",
+        "type": "山",
+        "location_text": "在宜良县西一十里",
+        "description": "山顶有泉，今名水井山，其南有岩泉山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c03",
+        "name": "北乐山",
+        "type": "山",
+        "location_text": "在宜良县北三十里",
+        "description": "一名播雄山，今名保红山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c03",
+        "name": "笮箐山",
+        "type": "山",
+        "location_text": "在宜良县西五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "蛇山",
+        "type": "山",
+        "location_text": "在嵩盟州治北",
+        "description": "山小而奇，形如盘蛇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "罗锦山",
+        "type": "山",
+        "location_text": "在嵩盟州东北一十五里",
+        "description": "岩石峭立纹彩若罗锦，下有泉亦名罗锦，有灌溉之利",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "秀嵩山",
+        "type": "山",
+        "location_text": "在嵩盟州东二十里",
+        "description": "耸秀插霄汉，环州之山此为最",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "弥雄山",
+        "type": "山",
+        "location_text": "在嵩盟州北三十里",
+        "description": "苍崖叠出望之蔚然，土壤肥饶蔬果繁伙，今名弥秀山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "欶雺山",
+        "type": "山",
+        "location_text": "在嵩盟州东四十里",
+        "description": "世传蒙世隆征乌蒙得四女归至此山，四女遥望故乡俯仰叹息，忽山颠雾结三峰，蛮谓三为欶注为雺，其山崒嵂独峻，登眺则云南悉在目中，又名峻葱山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "抹摐山",
+        "type": "山",
+        "location_text": "在嵩盟州西五十里",
+        "description": "春月开三色聚八仙花，布满山涧，土人谓之登花",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "东葛勒山",
+        "type": "山",
+        "location_text": "在嵩盟州故邵甸县西北",
+        "description": "高三十里，为南中之名山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "竹雄山",
+        "type": "山",
+        "location_text": "在嵩盟州故杨林县旧治南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "杨林山",
+        "type": "山",
+        "location_text": "在嵩盟州故杨林县治东",
+        "description": "群峰屏列如画，山麓有石状如羊立",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "乌纳山",
+        "type": "山",
+        "location_text": "在嵩盟州故杨林县西南一十里",
+        "description": "有石如马头，土人以乌纳名之，山周百余里，西距呈贡，东接宜良，水草宜牧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s02",
+        "name": "万松山",
+        "type": "山",
+        "location_text": "在晋宁州东五里",
+        "description": "中有万松盘龙罗汉三寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s02",
+        "name": "金砂山",
+        "type": "山",
+        "location_text": "在晋宁州西五里",
+        "description": "产砂石其色如金",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s02",
+        "name": "五龙山",
+        "type": "山",
+        "location_text": "在晋宁州南五里",
+        "description": "山多云气，上有五龙泉，一名小石屏山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s02",
+        "name": "光长山",
+        "type": "山",
+        "location_text": "在晋宁州西南一十里",
+        "description": "北瞰滇池，上有二奇石，腹中空洞，叩之如钟鼓声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c05",
+        "name": "三台山",
+        "type": "山",
+        "location_text": "在呈贡县治北",
+        "description": "三山相属如台星，一名万福山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c05",
+        "name": "象兔山",
+        "type": "山",
+        "location_text": "在呈贡县西南一十五里",
+        "description": "旧有蛮寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "罗青山",
+        "type": "山",
+        "location_text": "在安宁州治西",
+        "description": "上有罗青庙，庙前泉极甘美",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "呀岝山",
+        "type": "山",
+        "location_text": "在安宁州西北五里",
+        "description": "州之主山，山有煎盐水及产仙茅花木",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "洛阳山",
+        "type": "山",
+        "location_text": "在安宁州东一十里",
+        "description": "昔段氏于上凿十六罗汉建法华寺，下有泉流经东桥，灌田三千余亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "岱晟山",
+        "type": "山",
+        "location_text": "在安宁州北一十五里",
+        "description": "昔尝产仙女稻，今名笔架山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "葱山",
+        "type": "山",
+        "location_text": "在安宁州西北二十里",
+        "description": "高耸冠诸山，其北复起为凤城山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c06",
+        "name": "玉龙山",
+        "type": "山",
+        "location_text": "在罗次县东三里",
+        "description": "中有碧石窦，涌泉如玉龙吐水之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c06",
+        "name": "九戍山",
+        "type": "山",
+        "location_text": "在罗次县旧治南五里",
+        "description": "又名九峰，今名九涌",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c06",
+        "name": "穹荡山",
+        "type": "山",
+        "location_text": "在罗次县南一十五里",
+        "description": "乌蛮谓之崛岝峰，上有穹荡庵",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c06",
+        "name": "苴麽崱裒山",
+        "type": "山",
+        "location_text": "在罗次县",
+        "description": "蛮语译云子望母之山，有二：一在罗次县旧治东北四十里，一在县西三十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c07",
+        "name": "蒙答些山",
+        "type": "山",
+        "location_text": "在禄丰县西五里",
+        "description": "势如翠屏，今名三次和山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c07",
+        "name": "南平山",
+        "type": "山",
+        "location_text": "在禄丰县西一十五里",
+        "description": "三面陡峻，惟南稍平，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c07",
+        "name": "姚陵山",
+        "type": "山",
+        "location_text": "在禄丰县东北三十里",
+        "description": "旧名骥琮笼山，群山中一峰耸拔，山顶有泉及古寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "长松山",
+        "type": "山",
+        "location_text": "在昆阳州西五里",
+        "description": "上多松石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "仙卧山",
+        "type": "山",
+        "location_text": "在昆阳州滇池之侧",
+        "description": "一名白鸟山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "望州山",
+        "type": "山",
+        "location_text": "在昆阳州北一十里",
+        "description": "其势昂耸，回顾州治",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "蒙果山",
+        "type": "山",
+        "location_text": "在昆阳州西一十里",
+        "description": "山如翠屏，顶秀三峰，奇分八面",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "宝应山",
+        "type": "山",
+        "location_text": "在昆阳州东南一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c08",
+        "name": "云龙山",
+        "type": "山",
+        "location_text": "在三泊县西北一十五里",
+        "description": "冈峦秀耸四时苍翠，将雨则云凝其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c08",
+        "name": "葱蒙卧山",
+        "type": "山",
+        "location_text": "在三泊县旧治北一十五里",
+        "description": "上有汉人旧城及王仁求碑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c08",
+        "name": "白鹤山",
+        "type": "山",
+        "location_text": "在三泊县西南一十四里",
+        "description": "相传有鹤巢其上，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c08",
+        "name": "滑光嶍山",
+        "type": "山",
+        "location_text": "在三泊县旧治西南三十里",
+        "description": "岩上有一小城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c09",
+        "name": "娘当山",
+        "type": "山",
+        "location_text": "在易门县北",
+        "description": "旧名戈晟智桶山，三峰耸秀可爱",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c09",
+        "name": "蒙低梨岩山",
+        "type": "山",
+        "location_text": "在易门县旧治南五十里",
+        "description": "高插云汉，下有坪谷宜牧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c09",
+        "name": "禄益恶危山",
+        "type": "山",
+        "location_text": "在易门县旧治西一百里",
+        "description": "上有依依主城，昔善关边戍之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "滇池",
+        "type": "湖",
+        "location_text": "在府城南",
+        "description": "一名昆明池，一名滇南泽，周广五百余里，合盘龙江黄龙溪诸水汇为此池，中产衣钵莲花、盘千叶、蕊分三色，下流为螳螂川，中有大小卧纳二山",
+        "lore": "史记滇水源广末狭有似倒流故曰滇；汉武帝欲伐滇国于长安西南穿昆明池象之以习水战"
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "螳螂川",
+        "type": "江",
+        "location_text": "源自滇池",
+        "description": "萦回安宁州治，过昆阳州、富民县，下入金沙江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "渠滥川",
+        "type": "川",
+        "location_text": "在昆阳州东南五里",
+        "description": "东北流入滇池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c03",
+        "name": "大池江",
+        "type": "江",
+        "location_text": "一名盘江一名大河",
+        "description": "从澂江府邑市县北入宜良县境八十里，出县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c03",
+        "name": "大城江",
+        "type": "江",
+        "location_text": "源自阳宗县明河",
+        "description": "流经宜良县东，下入盘江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "盘龙江",
+        "type": "江",
+        "location_text": "一名滇池河",
+        "description": "源自嵩盟州故邵甸县之东山、西山凡九十九泉，合流经府城东，又南入滇池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "龙巨江",
+        "type": "江",
+        "location_text": "一名龙济溪",
+        "description": "源出寻甸果马山，流经嵩盟州东南入嘉利泽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "西湖",
+        "type": "湖",
+        "location_text": "在府城西",
+        "description": "周五里，蒲藻长青，人多泛舟游赏",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "安宁河",
+        "type": "水",
+        "location_text": "源出安宁州",
+        "description": "东经富民县南，又东至罗次县为沙摩溪，至禄丰县为大溪，至易门县为九渡河，流入元江府界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s02",
+        "name": "大堡河",
+        "type": "水",
+        "location_text": "源出新兴州界",
+        "description": "经晋宁州永兴乡分沅入滇池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c07",
+        "name": "星宿河",
+        "type": "水",
+        "location_text": "在禄丰县西",
+        "description": "源出武定府，过易门县流入元江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "洟札郎水",
+        "type": "水",
+        "location_text": "在富民县东北一十里",
+        "description": "西入大溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "农纳水",
+        "type": "水",
+        "location_text": "在富民县北五十里",
+        "description": "源出武定府界，北入大溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "龙泉水",
+        "type": "水",
+        "location_text": "在富民县西五里",
+        "description": "俗传中有龙怪，立祠镇之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "弥雄水",
+        "type": "水",
+        "location_text": "出弥雄山南",
+        "description": "入罗婆泽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "牧様水",
+        "type": "水",
+        "location_text": "源出嵩盟州牧様涧",
+        "description": "西南入滇池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "嘉利泽",
+        "type": "泽",
+        "location_text": "在嵩盟州东南一十五里",
+        "description": "周百余里，水溉民田，鱼供民食，又名杨林泽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c04",
+        "name": "交七浦",
+        "type": "浦",
+        "location_text": "在归化县东北二十里",
+        "description": "广二百余亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "荷花池",
+        "type": "池",
+        "location_text": "在府学后",
+        "description": "一名九龙池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "黑龙池",
+        "type": "池",
+        "location_text": "在府城北二十五里",
+        "description": "一名黑鱼池，深不可测，人莫敢取其鱼，傍有龙祠及文殊阁，祷雨辄应，其西有白龙池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "汤池",
+        "type": "泉",
+        "location_text": "在安宁州北一十里",
+        "description": "云南温泉非一，惟此为最，色如碧玉，可鉴毛发",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c02",
+        "name": "红莲沼",
+        "type": "沼",
+        "location_text": "在富民县治东南",
+        "description": "泉常涌出，荷花烂熳，上有龙神祠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "清侯井",
+        "type": "井",
+        "location_text": "在布政司内",
+        "description": "大理高智升为善□演习，号清侯，凿井得□，因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "石井",
+        "type": "井",
+        "location_text": "在昆明县黑林堡",
+        "description": "周回五尺，泉出石窍中，甚清洁",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s04",
+        "name": "里仁井",
+        "type": "井",
+        "location_text": "在昆阳州官道傍",
+        "description": "其水满井，汲之即涸，渗久乃复旧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "龙泉",
+        "type": "泉",
+        "location_text": "有四",
+        "description": "一出商山下，湫傍有祠，祠西有亭，扁曰第一泉，东有龙泉观；一出城西勒甸村山中，水分青白色，上有祠；一出碧鸡山下洞内，有金线鱼，故又名金鱼泉；一出杨林县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "瀑布泉",
+        "type": "泉",
+        "location_text": "在府城西二十里宝珠寺后",
+        "description": "崖高十余丈，泉自上下，喷珠溅沫，清澈可爱",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "对龙泉",
+        "type": "泉",
+        "location_text": "在嵩盟州西资善里",
+        "description": "两泉对流百余步始合，流入嘉利泽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "石洞泉",
+        "type": "泉",
+        "location_text": "有二",
+        "description": "一在嵩盟州资善里，洞高丈许，泉出其中；一在昆阳州平定乡小山下，有三洞，泉出会而为潭，中有青白大鱼，俗呼随龙鱼，人不敢捕",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s01",
+        "name": "罗锦泉",
+        "type": "泉",
+        "location_text": "在嵩盟州月丰里",
+        "description": "流灌田亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-095",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-s03",
+        "name": "海眼泉",
+        "type": "泉",
+        "location_text": "在安宁州治北",
+        "description": "一日三潮，随涌随涸，俗传僧戒照卓锡之泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-096",
+        "item_id": "120-001",
+        "geo_id": "GEO-120-001-c01",
+        "name": "文殊泉",
+        "type": "泉",
+        "location_text": "出文殊山下",
+        "description": "流过松花堰，入西湖",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "120-001",
+        "cited_work": "唐书",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【唐书东距爨东南属交阯西摩伽陀北接吐蕃东北际黔巫】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "120-001",
+        "cited_work": "何弘佐礼乐记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元儒学提举何弘佐礼乐记西南重镇】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "120-001",
+        "cited_work": "蹇郁修学记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【蹇郁修学记会要之地】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "120-001",
+        "cited_work": "大德桥记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【大德桥记山川明秀】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "120-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志诸蛮之夷种类非一曰僰人曰爨人即罗罗有黑白二种曰麽些曰秃老曰蛮门曰蒲人曰和泥蛮曰白夷又有小百夷曰土獠曰罗舞曰撒摩都曰摩察曰浓人曰山后人曰哀牢人曰峨昌蛮曰□蛮曰魁罗蛮曰传寻蛮大抵滇南之夷皆此数种其所习俗各不相同】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "120-001",
+        "cited_work": "唐书",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【唐书男女勇健不鞍而骑善用矛剑】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "120-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志勤耕务实敬释诵经嚚讼好斗】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "120-001",
+        "cited_work": "元史赛典赤传",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元史赛典赤传俗无礼仪男女自相配偶死则火之不为葬祭】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "120-001",
+        "cited_work": "方舆胜览",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【方舆胜览腊月祀祖岁以腊月二十四日祀祖如中州上塚之礼；食贵生猪牛鸡鱼皆生醢之和以蒜食；交易用贝以一为庄四庄为手四手为苗五苗为索虽租税亦用之；椎髻编发男子披毡椎髻妇人不涂泽发以青纱分编绕首盘系处子孀妇出入无间情通私耦然后成婚；首戴次工制如渔笠覆以黑毡亲故虽久别无拜跪唯取次工以为礼】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "title": "云南府",
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  }
+}

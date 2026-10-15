@@ -1,0 +1,344 @@
+{
+  "item_id": "134-001",
+  "volume": "134",
+  "source": "鹤庆军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "鹤庆军民府",
+        "type": "geo",
+        "norm": "鹤庆军民府",
+        "first_source": "134-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "剑川州",
+        "type": "geo",
+        "norm": "剑川州",
+        "first_source": "134-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "顺州",
+        "type": "geo",
+        "norm": "顺州",
+        "first_source": "134-001"
+      },
+      {
+        "ent_id": "ENT-K漾共江",
+        "name": "漾共江",
+        "type": "mtn",
+        "norm": "漾共江",
+        "first_source": "134-001"
+      },
+      {
+        "ent_id": "ENT-K金沙江",
+        "name": "金沙江",
+        "type": "mtn",
+        "norm": "金沙江",
+        "first_source": "134-001"
+      },
+      {
+        "ent_id": "ENT-K石宝山",
+        "name": "石宝山",
+        "type": "mtn",
+        "norm": "石宝山",
+        "first_source": "134-001"
+      },
+      {
+        "ent_id": "ENT-K玄化寺",
+        "name": "玄化寺",
+        "type": "site",
+        "norm": "玄化寺",
+        "first_source": "134-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-134001",
+        "item_id": "134-001",
+        "name": "鹤庆军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-134001-s01",
+          "GEO-134001-s02"
+        ],
+        "volume_range": "卷134",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "北胜州界",
+              "distance_li": 50
+            },
+            {
+              "direction": "西",
+              "to_place": "丽江军民府界",
+              "distance_li": 200
+            },
+            {
+              "direction": "南",
+              "to_place": "大理府邓川州界",
+              "distance_li": 130
+            },
+            {
+              "direction": "北",
+              "to_place": "丽江军民府界",
+              "distance_li": 70
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8240
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11690
+            }
+          ],
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "亲领编户一十三里，领州二"
+          },
+          "grain_tax": {
+            "amount": 4000,
+            "unit": "石",
+            "note": "粮四千石零"
+          },
+          "jun_name": "鹤川【唐时名】",
+          "topography": "左丽江右剑湖【元志】；峦嶂明秀【郡志】；山川险扼【顺州志】",
+          "customs": "其民蠢朴而好嚚讼【元志】；人性稍刚好带弓矢【郡志】",
+          "garrisons": []
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-134001-s01",
+        "item_id": "134-001",
+        "name": "剑川州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-134001",
+        "children": [],
+        "volume_range": "卷134",
+        "attributes": {
+          "location_text": "在府城西九十里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户一十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-134001-s02",
+        "item_id": "134-001",
+        "name": "顺州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-134001",
+        "children": [],
+        "volume_range": "卷134",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "永昌郡西北境",
+        "action": "因之",
+        "detail": "东汉为永昌郡西北之境"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "越析诏地/鹤川样共川",
+        "action": "因之",
+        "detail": "唐时为越析诏之地，名鹤川及样共川"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001",
+        "dynasty": "南诏",
+        "era": null,
+        "institution_name": "谋统郡",
+        "action": "置",
+        "detail": "南诏于样共置谋统郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "鹤庆路",
+        "action": "升",
+        "detail": "元初内附置鹤州，寻置二千户仍称谋统，属大理上万户；至元中复为鹤州，后升鹤庆府，寻改为鹤庆路"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "鹤庆军民府",
+        "action": "改",
+        "detail": "本朝洪武中改为府，后改鹤庆军民府，亲领编户一十三里，领州二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "峰顶山",
+        "type": "山",
+        "location_text": "在府城东七里",
+        "description": "峰峦起伏，南接龙珠山，北抵丽江界，下有五泉可以溉田",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "龙珠山",
+        "type": "山",
+        "location_text": "在府城南二十里",
+        "description": "前耸后平，下有石穴，漾共江过焉；每岁四月郡人祀之以禳水灾",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "方丈山",
+        "type": "山",
+        "location_text": "在府城南一百里",
+        "description": "巍然峻峩，山半有洞，中有池深不可测，水滴岩下如方响音；昔蒙氏罗阁凤琢观音像于壁，故又名观音山；南诏名山凡十七，此其一也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "金华山",
+        "type": "山",
+        "location_text": "在剑川州治西",
+        "description": "山脉自西番界罗均山盘曲而来，延亘二十余里，山顶常紫色如金",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "剑和山",
+        "type": "山",
+        "location_text": "在剑川州西四里",
+        "description": "形状如剑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "石宝山",
+        "type": "山",
+        "location_text": "在剑川州西南五十里",
+        "description": "层崖峭壁，上有石坪方数十亩，昔为高僧养道之所，中有罗汉迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s02",
+        "name": "公山",
+        "type": "山",
+        "location_text": "在顺州治北",
+        "description": "州人有病则祷焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s02",
+        "name": "乌铺山",
+        "type": "山",
+        "location_text": "在顺州西南一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "漾共江",
+        "type": "江",
+        "location_text": "源出丽江",
+        "description": "经州东南至龙珠山入石穴，复出注金沙江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "剑川湖",
+        "type": "湖",
+        "location_text": "在剑川州西北七十里",
+        "description": "山顶有泉广可半亩，流注州东为此湖，周数十里，绕流罗鲁城，出赵州境",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s02",
+        "name": "牛甸湖",
+        "type": "湖",
+        "location_text": "在顺州东二里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "134-001",
+        "geo_id": "GEO-134001-s01",
+        "name": "温泉",
+        "type": "泉",
+        "location_text": "在府城东南三十里",
+        "description": "每岁三月，郡人有痞疾者浴其中",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "sites拆至sites1寺观/sites2关梁学校；无直辖县与卫所"
+  },
+  "title": "鹤庆军民府"
+}

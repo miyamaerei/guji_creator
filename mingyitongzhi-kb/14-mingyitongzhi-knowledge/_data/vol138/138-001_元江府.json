@@ -1,0 +1,350 @@
+{
+  "item_id": "138-001",
+  "volume": "138",
+  "source": "元江军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "元江军民府",
+        "type": "geo",
+        "norm": "元江军民府",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "因远罗必甸长官司",
+        "type": "geo",
+        "norm": "因远罗必甸长官司",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K玉台山",
+        "name": "玉台山",
+        "type": "mtn",
+        "norm": "玉台山",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K路通山",
+        "name": "路通山",
+        "type": "mtn",
+        "norm": "路通山",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K目乐山",
+        "name": "目乐山",
+        "type": "mtn",
+        "norm": "目乐山",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K嵯峨山",
+        "name": "嵯峨山",
+        "type": "mtn",
+        "norm": "嵯峨山",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K因远山",
+        "name": "因远山",
+        "type": "mtn",
+        "norm": "因远山",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K礼社江",
+        "name": "礼社江",
+        "type": "mtn",
+        "norm": "礼社江",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K温玉泉",
+        "name": "温玉泉",
+        "type": "mtn",
+        "norm": "温玉泉",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K兴福寺",
+        "name": "兴福寺",
+        "type": "site",
+        "norm": "兴福寺",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K万德寺",
+        "name": "万德寺",
+        "type": "site",
+        "norm": "万德寺",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K妙莲寺",
+        "name": "妙莲寺",
+        "type": "site",
+        "norm": "妙莲寺",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K混龙桥",
+        "name": "混龙桥",
+        "type": "site",
+        "norm": "混龙桥",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K龙马迹",
+        "name": "龙马迹",
+        "type": "site",
+        "norm": "龙马迹",
+        "first_source": "138-001"
+      },
+      {
+        "ent_id": "ENT-K风伯雨师坛",
+        "name": "风伯雨师坛",
+        "type": "site",
+        "norm": "风伯雨师坛",
+        "first_source": "138-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-138001",
+        "item_id": "138-001",
+        "name": "元江军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-138001-t01"
+        ],
+        "volume_range": "卷138",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "临安府石屏州界",
+              "distance_li": 110
+            },
+            {
+              "direction": "西",
+              "to_place": "思伦发者癸寨界",
+              "distance_li": 300
+            },
+            {
+              "direction": "南",
+              "to_place": "临安府思陀甸长官司界",
+              "distance_li": 210
+            },
+            {
+              "direction": "北",
+              "to_place": "新化州界",
+              "distance_li": 200
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7840
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11285
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领长官司一"
+          },
+          "grain_tax": {
+            "amount": 1930,
+            "unit": "石",
+            "note": "粮一千九百三十石零"
+          },
+          "jun_name": "元江【明名】罗槃【旧名】",
+          "topography": "东有礼社江西瞰澜沧水北负目乐山南距交趾界【元志】",
+          "customs": "男女溷淆；槟榔致礼；家藏积贝【俱郡志】"
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003"
+        ]
+      },
+      {
+        "geo_id": "GEO-138001-t01",
+        "item_id": "138-001",
+        "name": "因远罗必甸长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-138001",
+        "children": [],
+        "volume_range": "卷138",
+        "attributes": {
+          "location_text": "附郭，旧名罗槃甸，元属元江路，本朝置长官司",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          },
+          "tusi_type": "长官司"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "南诏银生节度",
+        "action": "因之",
+        "detail": "古西南夷极边之境，唐氏南诏蒙氏以属银生节度，徙白蛮苏张周段等十姓戍之，又开威远等处置威远睒，后和泥侵据其地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "罗槃甸",
+        "action": "因之",
+        "detail": "宋时侬智高之党窜于此，和泥开罗槃甸居之，后为些麽徒蛮阿僰诸部所有"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "dynasty": "元",
+        "era": "宪宗/至元",
+        "institution_name": "元江万户府/元江路",
+        "action": "置",
+        "detail": "元宪宗时内附，至元中置元江万户府，后于威远更置元江路，领步日马笼等部，属临安广西元江等处宣慰司"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "dynasty": "明",
+        "era": "洪武/永乐",
+        "institution_name": "元江府/元江军民府",
+        "action": "改",
+        "detail": "本朝洪武中改元江府，永乐初改元江军民府，领长官司一"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "玉台山",
+        "type": "山",
+        "location_text": "在府城东",
+        "description": "旧名罗槃山，凡二十五峰，悬崖绝壁，险阨难登，苍翠如玉，望之若台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "路通山",
+        "type": "山",
+        "location_text": "在府城东二十五里",
+        "description": "旧名马笼山，北瞰礼社江，高耸千仞，蔽亏日月",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "目乐山",
+        "type": "山",
+        "location_text": "在府城东北一十里",
+        "description": "状若中原之崆峒，蒙氏封为南岳，今名栖霞山",
+        "lore": "蒙氏封为南岳"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "嵯峨山",
+        "type": "山",
+        "location_text": "在府城西南二十里",
+        "description": "中峰嵯峨，状如卓旗，飞舞翔动",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "因远山",
+        "type": "山",
+        "location_text": "在府城西四十里",
+        "description": "下有泉为仲夷溪，分溉田亩，东流入礼社江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "礼社江",
+        "type": "江",
+        "location_text": null,
+        "description": "一名元江，源自白崖江，合澜沧江，流绕府城东南，入南安州",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "138-001",
+        "geo_id": "GEO-138001",
+        "name": "温玉泉",
+        "type": "泉",
+        "location_text": "在府城西北一十五里",
+        "description": "石间迸出如汤",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "138-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元志东有礼社江西瞰澜沧水北负目乐山南距交趾界】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "138-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【俱郡志男女溷淆槟榔致礼家藏积贝】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "138-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": ""
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "sites拆至sites1/2"
+  },
+  "title": "元江军民府"
+}

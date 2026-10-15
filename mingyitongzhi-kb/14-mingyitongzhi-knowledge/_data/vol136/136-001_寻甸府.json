@@ -1,0 +1,401 @@
+{
+  "item_id": "136-001",
+  "volume": "136",
+  "source": "寻甸军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "寻甸军民府",
+        "type": "geo",
+        "norm": "寻甸军民府",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "大罗卫",
+        "type": "geo",
+        "norm": "大罗卫",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "木密关守御千户所",
+        "type": "geo",
+        "norm": "木密关守御千户所",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K001",
+        "name": "月狐山",
+        "type": "mtn",
+        "norm": "月狐山",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K002",
+        "name": "勇克山",
+        "type": "mtn",
+        "norm": "勇克山",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K003",
+        "name": "隐毒山",
+        "type": "mtn",
+        "norm": "隐毒山",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K004",
+        "name": "果马山",
+        "type": "mtn",
+        "norm": "果马山",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K005",
+        "name": "落陇雄山",
+        "type": "mtn",
+        "norm": "落陇雄山",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K006",
+        "name": "阿交合溪",
+        "type": "mtn",
+        "norm": "阿交合溪",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K007",
+        "name": "车湖",
+        "type": "mtn",
+        "norm": "车湖",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K008",
+        "name": "温泉",
+        "type": "mtn",
+        "norm": "温泉",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K009",
+        "name": "磨浪水",
+        "type": "mtn",
+        "norm": "磨浪水",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-K010",
+        "name": "龙吸水",
+        "type": "mtn",
+        "norm": "龙吸水",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-SK001",
+        "name": "报恩寺",
+        "type": "site",
+        "norm": "报恩寺",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-SK002",
+        "name": "圣严寺",
+        "type": "site",
+        "norm": "圣严寺",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-SK003",
+        "name": "迎恩桥",
+        "type": "site",
+        "norm": "迎恩桥",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-SK004",
+        "name": "通靖桥",
+        "type": "site",
+        "norm": "通靖桥",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-SK005",
+        "name": "温泉桥",
+        "type": "site",
+        "norm": "温泉桥",
+        "first_source": "136-001"
+      },
+      {
+        "ent_id": "ENT-SK006",
+        "name": "寻甸军民府学",
+        "type": "site",
+        "norm": "寻甸军民府学",
+        "first_source": "136-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-136001",
+        "item_id": "136-001",
+        "name": "寻甸军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-136001-w01",
+          "GEO-136001-w02"
+        ],
+        "volume_range": "卷136",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "曲靖军民府霑益州界",
+              "distance_li": 90
+            },
+            {
+              "direction": "南",
+              "to_place": "曲靖军民府马龙州界",
+              "distance_li": 60
+            },
+            {
+              "direction": "西",
+              "to_place": "武定军民府界",
+              "distance_li": 150
+            },
+            {
+              "direction": "北",
+              "to_place": "四川东川军民府界",
+              "distance_li": 110
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7080
+            },
+            {
+              "capital": "京师",
+              "distance_li": 10520
+            }
+          ],
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "亲领编户七里"
+          },
+          "grain_tax": {
+            "amount": 3790,
+            "unit": "石",
+            "note": "粮三千七百九十石零"
+          },
+          "jun_name": "仁德【元名】",
+          "topography": "川原平衍【元志府境西接中庆东连曲靖川原平衍皆可耕稼】；山顾水萦【云南志月狐北顾果马西随交合诸水萦于前隐毒诸山列于后】",
+          "customs": "露顶为礼【云南志民类有四皆束髻于顶戴黑毡笠见尊长以笠挂背露顶为礼多居山林力耕火种以畜牧为生】；妇袭夫职【凡土官应袭者夫死妻袭其职民事一听其理】；俗狠而鄙变诈无忌【仁德府旧志】",
+          "garrisons": [
+            {
+              "name": "大罗卫",
+              "type": "卫",
+              "location_text": "在府城内嘉靖中建"
+            },
+            {
+              "name": "木密关守御千户所",
+              "type": "千户所",
+              "location_text": "在府城东南七十里洪武二十三年建"
+            }
+          ]
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-136001-w01",
+        "item_id": "136-001",
+        "name": "大罗卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-136001",
+        "children": [],
+        "volume_range": "卷136",
+        "attributes": {
+          "location_text": "在府城内嘉靖中建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-136001-w02",
+        "item_id": "136-001",
+        "name": "木密关守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-136001",
+        "children": [],
+        "volume_range": "卷136",
+        "attributes": {
+          "location_text": "在府城东南七十里洪武二十三年建",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "dynasty": "古滇国",
+        "era": null,
+        "institution_name": "棘刺蛮",
+        "action": "因之",
+        "detail": "昔棘刺蛮居此别仲札溢源部"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "dynasty": "唐宋",
+        "era": null,
+        "institution_name": "新丁部/仁地部",
+        "action": "置",
+        "detail": "后乌蛮名新丁者夺之其后遂号新丁部后语讹又为仁地部或云蒙氏为寻甸段氏改仁德部"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "仁地万户府/仁德府",
+        "action": "改",
+        "detail": "元至元初置仁地万户府后改仁德府领为美归厚二县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "寻甸军民府",
+        "action": "改",
+        "detail": "本朝洪武中改寻甸军民府省二县入焉亲领编户七里"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "月狐山",
+        "type": "山",
+        "location_text": "在府城东北八里",
+        "description": "环亘五十余里山顶有云气必雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "勇克山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "峰峦峭峻林壑高深积雪至春不消下有泉为倘奉溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "隐毒山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "相传此山独无岚瘴土人每岁夏月避居其上其麓有泉亦名隐毒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "果马山",
+        "type": "山",
+        "location_text": "在府治西南六十里",
+        "description": "下有泉为溪亦名果马",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "落陇雄山",
+        "type": "山",
+        "location_text": "在故归厚县治西南",
+        "description": "绵亘五十余里其东有哇山耸秀如剑锋土人筑寨其上险不可攻名曰安乐城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "阿交合溪",
+        "type": "水",
+        "location_text": "",
+        "description": "旧名蒙丘溢江其源有二一出嵩盟州一出马龙州至府东南十五里合流入霑益州界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "车湖",
+        "type": "湖",
+        "location_text": "在府城西三十里",
+        "description": "一名清水海子周广四里四围皆山有灌溉之利",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "温泉",
+        "type": "温泉",
+        "location_text": "在府城南五十里",
+        "description": "俗呼热水塘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "磨浪水",
+        "type": "水",
+        "location_text": "在废为美县西三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "136-001",
+        "geo_id": "GEO-136001",
+        "name": "龙吸水",
+        "type": "水",
+        "location_text": "在废归厚县东一百里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "sites拆至sites1/sites2"
+  },
+  "title": "寻甸军民府"
+}

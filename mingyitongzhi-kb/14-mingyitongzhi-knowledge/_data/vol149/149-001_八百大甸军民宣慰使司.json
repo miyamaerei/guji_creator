@@ -1,0 +1,75 @@
+{
+  "item_id": "149-001",
+  "volume": "149",
+  "source": "八百大甸军民宣慰使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "八百大甸军民宣慰使司",
+        "type": "geo",
+        "norm": "八百大甸军民宣慰使司",
+        "first_source": "149-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-149001",
+        "item_id": "149-001",
+        "name": "八百大甸军民宣慰使司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷149",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "149-001",
+        "geo_id": "GEO-149001",
+        "dynasty": "元",
+        "era": "元统初",
+        "institution_name": "八百等处宣慰司",
+        "action": "置",
+        "detail": "世传其土酋有妻八百，各领一寨，因名八百媳妇。元初征之，道路不通而还。后遣使招附，元统初置八百等处宣慰司"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "149-001",
+        "geo_id": "GEO-149001",
+        "dynasty": "明",
+        "era": "洪武二十四年",
+        "institution_name": "八百大甸军民宣慰使司",
+        "action": "立",
+        "detail": "本朝洪武二十四年其酋来贡，乃立八百大甸军民宣慰使司"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "149-001",
+        "geo_id": "GEO-149001",
+        "name": "南格刺山",
+        "type": "山",
+        "location_text": "在车里八百之界",
+        "description": "山上有河，其南属八百，其北属车里",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "八百大甸军民宣慰使司"
+}

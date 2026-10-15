@@ -1,0 +1,203 @@
+{
+  "item_id": "142-001",
+  "volume": "142",
+  "source": "者乐甸长官司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "者乐甸长官司",
+        "type": "geo",
+        "norm": "者乐甸长官司",
+        "first_source": "142-001"
+      },
+      {
+        "ent_id": "ENT-K者岛山",
+        "name": "者岛山",
+        "type": "mtn",
+        "norm": "者岛山",
+        "first_source": "142-001"
+      },
+      {
+        "ent_id": "ENT-K防乐山",
+        "name": "防乐山",
+        "type": "mtn",
+        "norm": "防乐山",
+        "first_source": "142-001"
+      },
+      {
+        "ent_id": "ENT-K景来河",
+        "name": "景来河",
+        "type": "mtn",
+        "norm": "景来河",
+        "first_source": "142-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-142001",
+        "item_id": "142-001",
+        "name": "者乐甸长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷142",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "新化州界",
+              "distance_li": 340
+            },
+            {
+              "direction": "西",
+              "to_place": "镇沅府界",
+              "distance_li": 80
+            },
+            {
+              "direction": "南",
+              "to_place": "钮兀长官司界",
+              "distance_li": 320
+            },
+            {
+              "direction": "北",
+              "to_place": "景东府界",
+              "distance_li": 100
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8215
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11645
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": ""
+          },
+          "jun_name": "",
+          "topography": "防山附水【云南志民皆防山附水亦险僻之处】",
+          "customs": "更代为市【云南志境内百蛮交易用金银或五日十日一集旦则妇日中则男更代为市】",
+          "garrisons": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "142-001",
+        "geo_id": "GEO-142001",
+        "dynasty": "昔",
+        "era": null,
+        "institution_name": "者岛",
+        "action": "据",
+        "detail": "本马龙他郎甸猛摩之地，夷名者岛"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "142-001",
+        "geo_id": "GEO-142001",
+        "dynasty": "明",
+        "era": "洪武末",
+        "institution_name": "者乐甸长官司",
+        "action": "置",
+        "detail": "本朝洪武末分置长官司，隶云南布政司"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "142-001",
+        "geo_id": "GEO-142001",
+        "name": "者岛山",
+        "type": "山",
+        "location_text": "在司治北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "142-001",
+        "geo_id": "GEO-142001",
+        "name": "防乐山",
+        "type": "山",
+        "location_text": "在司东二百里",
+        "description": "巍然髙峻，行一日方至其顶，中有毒泉，人畜饮之即死，详见景东府",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "142-001",
+        "geo_id": "GEO-142001",
+        "name": "景来河",
+        "type": "河",
+        "location_text": "源自景东府流经本甸",
+        "description": "下入马龙江",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "142-001",
+        "name": "藤果",
+        "type": "土产",
+        "location_text": "本司出",
+        "note": "状如荔枝味酸",
+        "original": "藤果【状如荔枝味酸】"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "142-001",
+        "name": "羊桃",
+        "type": "土产",
+        "location_text": "本司出",
+        "note": "夷称抹猛而长，其味酸甜",
+        "original": "羊桃【夷称抹猛而长其味酸甜】"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "142-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志民皆防山附水亦险僻之处】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "142-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志境内百蛮交易用金银或五日十日一集旦则妇日中则男更代为市】"
+      }
+    ]
+  },
+  "layer_count": 8,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "薄长官司单主文件"
+  },
+  "title": "者乐甸长官司"
+}

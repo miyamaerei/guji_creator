@@ -1,0 +1,445 @@
+{
+  "item_id": "133-001",
+  "volume": "133",
+  "source": "姚安军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "姚安军民府",
+        "type": "geo",
+        "norm": "姚安军民府",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "姚州",
+        "type": "geo",
+        "norm": "姚州",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "大姚县",
+        "type": "geo",
+        "norm": "大姚县",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "守御姚安千户所",
+        "type": "geo",
+        "norm": "守御姚安千户所",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "姚安中屯千户所",
+        "type": "geo",
+        "norm": "姚安中屯千户所",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-K青蛉河",
+        "name": "青蛉河",
+        "type": "mtn",
+        "norm": "青蛉河",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-K金沙江",
+        "name": "金沙江",
+        "type": "mtn",
+        "norm": "金沙江",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-K小卜灵岳祠",
+        "name": "小卜灵岳祠",
+        "type": "site",
+        "norm": "小卜灵岳祠",
+        "first_source": "133-001"
+      },
+      {
+        "ent_id": "ENT-K高明",
+        "name": "高明",
+        "type": "person",
+        "norm": "高明",
+        "first_source": "133-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-133001",
+        "item_id": "133-001",
+        "name": "姚安军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-133001-s01",
+          "GEO-133001-w01",
+          "GEO-133001-w02"
+        ],
+        "volume_range": "卷133",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "武定军民府元谋县界",
+              "distance_li": 320
+            },
+            {
+              "direction": "南",
+              "to_place": "楚雄府镇南州界",
+              "distance_li": 120
+            },
+            {
+              "direction": "西",
+              "to_place": "大理府云南县界",
+              "distance_li": 180
+            },
+            {
+              "direction": "北",
+              "to_place": "北胜州界",
+              "distance_li": 450
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7765
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11210
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县一"
+          },
+          "grain_tax": {
+            "amount": 3800,
+            "unit": "石",
+            "note": "粮三千八百石零"
+          },
+          "jun_name": "梇栋【汉名】",
+          "topography": "崇山修谷平畴广川【元欧阳玄升州为路记】；要防之所【云南志东有金沙江之利西接云南州之胜南距楚雄北瞰大理为要防之所】",
+          "customs": "习俗愚野勇悍好斗【元志】；乐善事【升州为路记】；勤耕作【郡志】",
+          "garrisons": [
+            {
+              "name": "白盐井盐课提举司",
+              "type": "提举司",
+              "location_text": "在府城北一百二十里"
+            },
+            {
+              "name": "守御姚安千户所",
+              "type": "千户所",
+              "location_text": "在府城北"
+            },
+            {
+              "name": "姚安中屯千户所",
+              "type": "千户所",
+              "location_text": "在大姚县城东二所俱洪武中建属楚府卫"
+            }
+          ]
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-133001-s01",
+        "item_id": "133-001",
+        "name": "姚州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-133001",
+        "children": [
+          "GEO-133001-c01"
+        ],
+        "volume_range": "卷133",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户四里半"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-133001-c01",
+        "item_id": "133-001",
+        "name": "大姚县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-133001-s01",
+        "children": [],
+        "volume_range": "卷133",
+        "attributes": {
+          "location_text": "在府城北三十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户四里半"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-133001-w01",
+        "item_id": "133-001",
+        "name": "守御姚安千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-133001",
+        "children": [],
+        "volume_range": "卷133",
+        "attributes": {
+          "location_text": "在府城北",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-133001-w02",
+        "item_id": "133-001",
+        "name": "姚安中屯千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-133001",
+        "children": [],
+        "volume_range": "卷133",
+        "attributes": {
+          "location_text": "在大姚县城东，二所俱洪武中建属楚府卫",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "益州郡梇栋县",
+        "action": "因之",
+        "detail": "本滇国地，汉为梇栋县属益州郡，东汉改梇栋县"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "蜀汉",
+        "era": null,
+        "institution_name": "云南郡",
+        "action": "属",
+        "detail": "蜀汉属云南郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "唐",
+        "era": "麟德",
+        "institution_name": "姚州都督府",
+        "action": "置",
+        "detail": "唐麟德初置姚州都督府，以其民多姓姚故名"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "梇栋府",
+        "action": "改",
+        "detail": "天宝间南诏蒙氏改为梇栋府"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "姚州",
+        "action": "改",
+        "detail": "宋时段氏改姚州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "元",
+        "era": "至元/天历",
+        "institution_name": "姚安路",
+        "action": "升",
+        "detail": "元立统矢千户所，至元间改置姚州属大理路，天历间升为姚安路"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "姚安军民府",
+        "action": "改",
+        "detail": "本朝改路为府，后又改姚安军民府，领州一县一"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "龟祥山",
+        "type": "山",
+        "location_text": "在府治西",
+        "description": "一名赤石山，山石皆赤，其形如龟，其顶有泉，亦名龟祥",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "金秀山",
+        "type": "山",
+        "location_text": "在龟祥山西五里",
+        "description": "下有泉，为阳派河，东流汇为杨片湖，入西汹溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "东山",
+        "type": "山",
+        "location_text": "在府城东一十里",
+        "description": "一名饱烟萝山，其西有武侯塔，相传汉诸葛亮征南驻兵之所，后人建塔于上；其南有唐张虔陀所筑古城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "仙景山",
+        "type": "山",
+        "location_text": "在府城西北一十五里",
+        "description": "一名西山，一名石云山，其麓有赤甲西岭二泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "九鼎钟山",
+        "type": "山",
+        "location_text": "在府城东北二十里",
+        "description": "峰峦有九，状若悬钟，每仲春花木极盛，又名华山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "绿萝山",
+        "type": "山",
+        "location_text": "在府治北一百二十里",
+        "description": "中有□罗兰若",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-c01",
+        "name": "四奇山",
+        "type": "山",
+        "location_text": "在大姚县南七里",
+        "description": "四峰高耸",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-c01",
+        "name": "马家山",
+        "type": "山",
+        "location_text": "在大姚县北一十里",
+        "description": "高出群山林木深郁",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-c01",
+        "name": "书案山",
+        "type": "山",
+        "location_text": "在大姚县东北一百五十里",
+        "description": "形如几案",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "青蛉河",
+        "type": "河",
+        "location_text": "旧名三窠戍江",
+        "description": "源出三窠山，流至府南四十里，潴为石地湖，周广二百余亩，分为东汹溪西汹溪，灌溉田亩；至府城北复合流，至大姚县南复东入金沙江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-c01",
+        "name": "大姚河",
+        "type": "河",
+        "location_text": "源出书案山",
+        "description": "西流至大姚县西北，合铁索箐之水；又南流至县西南，合姚州小桥村之水；又东流绕县南，复东北入于青蛉河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-c01",
+        "name": "龙蛟江",
+        "type": "江",
+        "location_text": "在大姚县北一百二十里",
+        "description": "今名苴泡江，源出铁索箐，合姚州之连场香水二河，入金沙江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "七淜",
+        "type": "淜",
+        "location_text": "在府城西南",
+        "description": "土人称陂堰为淜，凡七，皆前代所筑，潴水以灌田，民甚赖之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "133-001",
+        "geo_id": "GEO-133001-s01",
+        "name": "金龟井",
+        "type": "井",
+        "location_text": "在府城西一十里",
+        "description": "其水清冽，土人皆汲之",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1名宦；sites拆至sites1寺观祠庙/sites2关梁学校；大姚县parent=姚州s01"
+  },
+  "title": "姚安军民府"
+}

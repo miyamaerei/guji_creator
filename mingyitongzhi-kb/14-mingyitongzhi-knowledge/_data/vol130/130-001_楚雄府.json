@@ -1,0 +1,865 @@
+{
+  "item_id": "130-001",
+  "volume": "130",
+  "source": "楚雄府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "楚雄府",
+        "type": "geo",
+        "norm": "楚雄府",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "楚雄县",
+        "type": "geo",
+        "norm": "楚雄县",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "广通县",
+        "type": "geo",
+        "norm": "广通县",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "定远县",
+        "type": "geo",
+        "norm": "定远县",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "定边县",
+        "type": "geo",
+        "norm": "定边县",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "嘉县",
+        "type": "geo",
+        "norm": "嘉县",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "南安州",
+        "type": "geo",
+        "norm": "南安州",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "镇南州",
+        "type": "geo",
+        "norm": "镇南州",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "楚雄卫",
+        "type": "geo",
+        "norm": "楚雄卫",
+        "first_source": "130-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "定远千户所",
+        "type": "geo",
+        "norm": "定远千户所",
+        "first_source": "130-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-130-001",
+        "item_id": "130-001",
+        "name": "楚雄府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-130-001-c01",
+          "GEO-130-001-c02",
+          "GEO-130-001-c03",
+          "GEO-130-001-c04",
+          "GEO-130-001-c05",
+          "GEO-130-001-s01",
+          "GEO-130-001-s02",
+          "GEO-130-001-w01",
+          "GEO-130-001-w02"
+        ],
+        "volume_range": "卷130",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "云南府禄丰县界",
+              "distance_li": 200
+            },
+            {
+              "direction": "西",
+              "to_place": "景东府界",
+              "distance_li": 380
+            },
+            {
+              "direction": "南",
+              "to_place": "元江军民府界",
+              "distance_li": 280
+            },
+            {
+              "direction": "北",
+              "to_place": "镇南军民府界",
+              "distance_li": 190
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7575
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11020
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州二县五；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮八千九百石零"
+          },
+          "jun_name": "威楚【段氏名】",
+          "topography": "山川清秀【元志】；山岭稠叠【元史】",
+          "customs": "好讼崇释【元志】；汉僰同风【郡志】",
+          "garrisons": [
+            {
+              "name": "楚雄卫",
+              "type": "卫",
+              "location_text": "在府治东洪武十五年废征缅招讨司置卫"
+            },
+            {
+              "name": "定远千户所",
+              "type": "千户所",
+              "location_text": "在定远县治东洪武二十一年置"
+            }
+          ],
+          "salt_offices": [
+            {
+              "name": "黑盐井盐课提举司",
+              "location_text": "在定远县东七十里"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004"
+        ]
+      },
+      {
+        "geo_id": "GEO-130-001-c01",
+        "item_id": "130-001",
+        "name": "楚雄县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户一十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-c02",
+        "item_id": "130-001",
+        "name": "广通县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府城东七里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-c03",
+        "item_id": "130-001",
+        "name": "定远县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府城北一百二十里",
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "编户五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-c04",
+        "item_id": "130-001",
+        "name": "定边县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府城西三百一十里",
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "编户五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-c05",
+        "item_id": "130-001",
+        "name": "嘉县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府城南四百五十里",
+          "households": {
+            "count": 1,
+            "unit": "里",
+            "note": "编户一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-s01",
+        "item_id": "130-001",
+        "name": "南安州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府城东南五十里",
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "编户五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-s02",
+        "item_id": "130-001",
+        "name": "镇南州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府城北七十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-w01",
+        "item_id": "130-001",
+        "name": "楚雄卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在府治东洪武十五年废征缅招讨司置卫",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-130-001-w02",
+        "item_id": "130-001",
+        "name": "定远千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-130-001",
+        "children": [],
+        "volume_range": "卷130",
+        "attributes": {
+          "location_text": "在定远县治东洪武二十一年置",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "益州郡地",
+        "action": "属",
+        "detail": "禹贡梁州之界，天文井鬼分野；汉为益州郡地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "晋",
+        "era": "咸康",
+        "institution_name": "安州",
+        "action": "寻罢",
+        "detail": "晋咸康中于此置安州，寻罢入宁州，后为杂蛮耕牧之地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "唐",
+        "era": "贞观",
+        "institution_name": "傍望丘览等州",
+        "action": "内附置",
+        "detail": "唐贞观末诸蛮内附，置傍望丘览等州；天宝末南诏蒙氏以此地属银生节度"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "当筯睑/白鹿部/威楚郡",
+        "action": "改",
+        "detail": "宋时大理段氏以银生属姚州，号此为当筯睑，又改白鹿部，后改威楚郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "元",
+        "era": "初",
+        "institution_name": "威楚万户府",
+        "action": "内附",
+        "detail": "元初内附，置威楚万户府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "威楚路/威楚开南等路宣抚司",
+        "action": "改",
+        "detail": "至元中改为威楚路，后置威楚开南等路宣抚司于此"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001",
+        "dynasty": "明",
+        "era": "洪武十五年",
+        "institution_name": "楚雄府",
+        "action": "改",
+        "detail": "本朝洪武十五年改置楚雄府，领州二县五"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "凤山",
+        "type": "山",
+        "location_text": "在府治西",
+        "description": "山下有石，石有巨人迹长二尺余，土人以为神异",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "薇溪山",
+        "type": "山",
+        "location_text": "在府城西三十里",
+        "description": "高可千仞，峰峦百余，溪菁如之；每溪皆有泉分流三十里，合流入于卧龙江；其溪菁有兴云雨之灵",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "赤石山",
+        "type": "山",
+        "location_text": "在定远县西二十里",
+        "description": "山多赤石，林木阴翳延亘二百余里；其东有泉下流为零川",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "会基山",
+        "type": "山",
+        "location_text": "在定远县南四十里",
+        "description": "高可三千仞，连亘数百里，有五十余峰，群山之脉皆起于此；上有会溪关",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "玉璧山",
+        "type": "山",
+        "location_text": "在定远县东六十里",
+        "description": "高可千仞，望之色如玉璧；其东有凤羽山，南有易者山，北有绝顶峰，皆丹崖壁立高出群山之表",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "和茶山",
+        "type": "山",
+        "location_text": "在广通县南一十五里",
+        "description": "清水河源焉；其东有阿纳香山，乙溪河源焉；二山相连高耸秀拔，延亘二百余里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "阿陋雄山",
+        "type": "山",
+        "location_text": "在广通县东北一十五里",
+        "description": "高逾千仞，有泉出山西为罗申河，出山南为阿陋河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "九盘山",
+        "type": "山",
+        "location_text": "在广通县东",
+        "description": "回旋险峻，道路九盘，立关其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "回蹬山",
+        "type": "山",
+        "location_text": "在广通县东一十八里",
+        "description": "相传蒙氏阁罗凤征云南拓东城至此，天昏大雷雨，其佐劝之回，因名山；麓有关，有泉出山之东为观山河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c04",
+        "name": "螺盘山",
+        "type": "山",
+        "location_text": "在定边县治北",
+        "description": "山顶盘旋形如螺髻，山之西产青碌矿，上有自普关",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c04",
+        "name": "陶罗山",
+        "type": "山",
+        "location_text": "在定边县治西",
+        "description": "高可千仞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c05",
+        "name": "黑初山",
+        "type": "山",
+        "location_text": "在嘉县治西",
+        "description": "高千余仞，五峰耸列连亘百里；下有一石状若冬瓜，其色如铁，土人呼为黑初，今移石置县治之前",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c05",
+        "name": "卜门山",
+        "type": "山",
+        "location_text": "在嘉县东北三十里",
+        "description": "高可千仞，最为险峻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s02",
+        "name": "鹦鹉山",
+        "type": "山",
+        "location_text": "在镇南州治西北",
+        "description": "平地突然而耸，上鹦鹉栖焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s02",
+        "name": "石鼓山",
+        "type": "山",
+        "location_text": "在镇南州东三十里",
+        "description": "上有石鼓列如鼓，旧石鼓县以此山为名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s02",
+        "name": "会蓬山",
+        "type": "山",
+        "location_text": "在镇南州东一十里",
+        "description": "峭拔耸空，草木丛茂",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s01",
+        "name": "健林苍山",
+        "type": "山",
+        "location_text": "在南安州东五里",
+        "description": "山半有泉，相传泉池有乖龙可祈年丰；今讹为阿姑娘山；昔黑爨蛮祖瓦晟吴立栅居其间，子孙渐盛不隶他部，至高氏封威楚方隶焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s01",
+        "name": "表罗山",
+        "type": "山",
+        "location_text": "在南安州西南四十里",
+        "description": "中产银矿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "青峰坡",
+        "type": "坡",
+        "location_text": "在府城北",
+        "description": "上有一石高八尺广半之，名曰俄碌石，数人摇之则动，百人拽之不倒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "卧龙冈",
+        "type": "冈",
+        "location_text": "在府城西北",
+        "description": "上有盘石高五尺余广称之，其裂隙有物如小蛇隐现不测，人以为龙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "龙街洞",
+        "type": "洞",
+        "location_text": "在广通县北七十里",
+        "description": "入其洞则闻音乐之声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "龙川江",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "源自镇南州平夷川，东南流经府城西，合诸水至青峰下为俄碌川，又东合诸水经定边下流入金沙江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s02",
+        "name": "马龙江",
+        "type": "江",
+        "location_text": "在镇南州西南一百八十里",
+        "description": "源自蒙化入境，西南流经嘉县东，又东南入于元江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s01",
+        "name": "黑龙潭",
+        "type": "潭",
+        "location_text": "在南安州东七里",
+        "description": "其深莫测，相传有龙潜焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "石羊井",
+        "type": "井",
+        "location_text": "在定远县北五里",
+        "description": "上有石似羊，人不敢动，动则井水泛溢",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s02",
+        "name": "龙泉",
+        "type": "泉",
+        "location_text": "在镇南州南三十里",
+        "description": "渊深莫测，岁旱祷之辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "城南堰",
+        "type": "堰",
+        "location_text": "在府城南三里",
+        "description": "可灌田千余亩；又镇南州有南堰西堰，可灌田二千余亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "黄莲池",
+        "type": "池",
+        "location_text": "在定远县东南五里",
+        "description": "广二里许，相传有黄莲开其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "龙马池",
+        "type": "池",
+        "location_text": "在定远县西南五里",
+        "description": "方广四里，相传有龙现于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "捣练溪",
+        "type": "溪",
+        "location_text": "在府城西",
+        "description": "宜酿酒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-s02",
+        "name": "子甸溪",
+        "type": "溪",
+        "location_text": "在镇南州东北",
+        "description": "溉田甚多",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "凤羽山",
+        "type": "山",
+        "location_text": "在定远县东玉璧山东南",
+        "description": "玉璧山之东有凤羽山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "易者山",
+        "type": "山",
+        "location_text": "在定远县东玉璧山南",
+        "description": "玉璧山之南有易者山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "绝顶峰",
+        "type": "峰",
+        "location_text": "在定远县东玉璧山北",
+        "description": "玉璧山之北有绝顶峰，丹崖壁立",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "阿纳香山",
+        "type": "山",
+        "location_text": "在广通县南和茶山东",
+        "description": "乙溪河源焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "罗申河",
+        "type": "河",
+        "location_text": "在广通县东北阿陋雄山西",
+        "description": "有泉出山西为罗申河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "阿陋河",
+        "type": "河",
+        "location_text": "在广通县东北阿陋雄山南",
+        "description": "出山南为阿陋河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "卧龙江",
+        "type": "江",
+        "location_text": "在府城西薇溪山诸溪合流",
+        "description": "薇溪山百余溪泉分流三十里合流入此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c03",
+        "name": "零川",
+        "type": "川",
+        "location_text": "在定远县西赤石山东",
+        "description": "赤石山东有泉下流为零川",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c01",
+        "name": "俄碌川",
+        "type": "川",
+        "location_text": "在府城北青峰下",
+        "description": "龙川江至青峰下为俄碌川",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "清水河",
+        "type": "河",
+        "location_text": "在广通县南和茶山",
+        "description": "和茶山清水河源焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "130-001",
+        "geo_id": "GEO-130-001-c02",
+        "name": "乙溪河",
+        "type": "河",
+        "location_text": "在广通县南阿纳香山",
+        "description": "阿纳香山乙溪河源焉",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "130-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元志威楚为当阳之地山川清秀壤土肥饶地利盐井南瞰金齿北距罗婺东接昆澂诸郡西连大理威楚最为大部】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "130-001",
+        "cited_work": "元史",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元史南安州在路东南山岭稠叠林麓四周】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "130-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元志民好嚚讼争鬬然崇重释教亦喜为善】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "130-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志楚雄旧多汉人与僰人杂处然服食器用婚姻丧祭之俗大抵同风】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1名宦/pers2仙释；sites拆至sites1寺观/sites2关梁学校"
+  },
+  "title": "楚雄府"
+}

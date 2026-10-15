@@ -1,0 +1,912 @@
+{
+  "item_id": "139-001",
+  "volume": "139",
+  "source": "永昌军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "永昌军民府",
+        "type": "geo",
+        "norm": "永昌军民府",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "保山县",
+        "type": "geo",
+        "norm": "保山县",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "永平县",
+        "type": "geo",
+        "norm": "永平县",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "腾越州",
+        "type": "geo",
+        "norm": "腾越州",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "腾冲州",
+        "type": "geo",
+        "norm": "腾冲州",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "潞江安抚司",
+        "type": "geo",
+        "norm": "潞江安抚司",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-T02",
+        "name": "凤溪长官司",
+        "type": "geo",
+        "norm": "凤溪长官司",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-T03",
+        "name": "施甸长官司",
+        "type": "geo",
+        "norm": "施甸长官司",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "永昌卫",
+        "type": "geo",
+        "norm": "永昌卫",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K大保山",
+        "name": "大保山",
+        "type": "mtn",
+        "norm": "大保山",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K九隆山",
+        "name": "九隆山",
+        "type": "mtn",
+        "norm": "九隆山",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K哀牢山",
+        "name": "哀牢山",
+        "type": "mtn",
+        "norm": "哀牢山",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K博南山",
+        "name": "博南山",
+        "type": "mtn",
+        "norm": "博南山",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K澜沧江",
+        "name": "澜沧江",
+        "type": "mtn",
+        "norm": "澜沧江",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K潞江",
+        "name": "潞江",
+        "type": "mtn",
+        "norm": "潞江",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K易罗池",
+        "name": "易罗池",
+        "type": "mtn",
+        "norm": "易罗池",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K法明寺",
+        "name": "法明寺",
+        "type": "site",
+        "norm": "法明寺",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K武侯庙",
+        "name": "武侯庙",
+        "type": "site",
+        "norm": "武侯庙",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K安边定远楼",
+        "name": "安边定远楼",
+        "type": "site",
+        "norm": "安边定远楼",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K郑纯",
+        "name": "郑纯",
+        "type": "person",
+        "norm": "郑纯",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K王伉",
+        "name": "王伉",
+        "type": "person",
+        "norm": "王伉",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K吕凯",
+        "name": "吕凯",
+        "type": "person",
+        "norm": "吕凯",
+        "first_source": "139-001"
+      },
+      {
+        "ent_id": "ENT-K张志淳",
+        "name": "张志淳",
+        "type": "person",
+        "norm": "张志淳",
+        "first_source": "139-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-139001",
+        "item_id": "139-001",
+        "name": "永昌军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-139001-c01",
+          "GEO-139001-c02",
+          "GEO-139001-s01",
+          "GEO-139001-s02",
+          "GEO-139001-t01",
+          "GEO-139001-t02",
+          "GEO-139001-t03",
+          "GEO-139001-w01"
+        ],
+        "volume_range": "卷139",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "镇康府界",
+              "distance_li": 360
+            },
+            {
+              "direction": "南",
+              "to_place": "湾甸州界",
+              "distance_li": 270
+            },
+            {
+              "direction": "西",
+              "to_place": "腾冲卫界",
+              "distance_li": 230
+            },
+            {
+              "direction": "北",
+              "to_place": "大理府云龙州界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8365
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11810
+            }
+          ],
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里；领州二县二安抚司一长官司二"
+          },
+          "grain_tax": {
+            "amount": 8300,
+            "unit": "石",
+            "note": "粮八千三百石零"
+          },
+          "jun_name": "哀牢【古名】永昌【汉名】",
+          "topography": "北接大理东界澜沧【元志】；近郭诸山环拱左右【云南志】",
+          "customs": "金齿绣面【云南志百夷之俗以金裹两齿曰金齿蛮漆其齿曰漆齿蛮文其面曰绣面蛮刺其足曰花脚蛮以缯布撮髻曰花角蛮】；衣冠礼仪悉效中土【同上居诸葛营者皆旧汉人衣冠礼仪悉效中土】；兵不离身采猎为务【同上蒲蛮兵不离身骑不用鞍以采猎为务】"
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003"
+        ]
+      },
+      {
+        "geo_id": "GEO-139001-c01",
+        "item_id": "139-001",
+        "name": "保山县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户一十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-139001-c02",
+        "item_id": "139-001",
+        "name": "永平县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城东北一百七十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-139001-s01",
+        "item_id": "139-001",
+        "name": "腾越州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城西南三百一十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-139001-s02",
+        "item_id": "139-001",
+        "name": "腾冲州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-139001-t01",
+        "item_id": "139-001",
+        "name": "潞江安抚司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城西一百三十五里，旧名怒江甸",
+          "tusi_type": "安抚司"
+        }
+      },
+      {
+        "geo_id": "GEO-139001-t02",
+        "item_id": "139-001",
+        "name": "凤溪长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城东二十五里",
+          "tusi_type": "长官司"
+        }
+      },
+      {
+        "geo_id": "GEO-139001-t03",
+        "item_id": "139-001",
+        "name": "施甸长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城南一百里，元至元间置石甸长官司后讹为施甸",
+          "tusi_type": "长官司"
+        }
+      },
+      {
+        "geo_id": "GEO-139001-w01",
+        "item_id": "139-001",
+        "name": "永昌卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-139001",
+        "children": [],
+        "volume_range": "卷139",
+        "attributes": {
+          "location_text": "在府城内，嘉靖中建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001",
+        "dynasty": "汉",
+        "era": "武帝",
+        "institution_name": "不韦县",
+        "action": "置",
+        "detail": "禹贡梁州西南徼外之地，古哀牢国，汉武帝于此置不韦县，属益州郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001",
+        "dynasty": "东汉",
+        "era": "永平",
+        "institution_name": "永昌郡",
+        "action": "置",
+        "detail": "东汉永平初置澜沧郡，寻改永昌郡，治不韦，统不韦哀牢博南等八县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "永昌郡",
+        "action": "因之",
+        "detail": "蜀汉及晋仍为永昌郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "姚州都督府/南诏",
+        "action": "因之",
+        "detail": "唐属姚州都督府，后为南诏蒙氏所据，历段氏高氏皆为永昌府"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "永昌州/永昌府",
+        "action": "升",
+        "detail": "元初于永昌立三千户所，隶大理万户府，至元间置永昌州，寻升为府，隶大理路，及置金齿等处宣抚司治于此"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001",
+        "dynasty": "明",
+        "era": "洪武/嘉靖",
+        "institution_name": "永昌军民府",
+        "action": "改",
+        "detail": "本朝洪武十五年仍置府，又立金齿卫，至二十三年省府，以金齿卫为军民指挥使司，嘉靖中改为永昌军民府，编户九里，领州二县二安抚司一长官司二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "大保山",
+        "type": "山",
+        "location_text": "在府城内",
+        "description": "竹木阴森四时不改",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "栖贤山",
+        "type": "山",
+        "location_text": "在府城北四里",
+        "description": "旧有栖贤寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "灵鹫山",
+        "type": "山",
+        "location_text": "在府城北五里",
+        "description": "旧有光宗兰若寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "九隆山",
+        "type": "山",
+        "location_text": "在府城南七里",
+        "description": "山有九岭，又名九坡岭，沙河源出于此",
+        "lore": "相传昔有一妇名沙壸浣絮水中触沉木有感，因妊产九男，后沉木化为龙，众子惊走，惟季子背龙而坐，龙因舐其背，蛮语谓背为九谓坐为隆，故名九隆，长而黠，遂推为酋长，山下又有一夫妇生九女，九隆兄弟娶之，种类遂蕃，皆刻画其身象龙文，于衣背着尾，世居此山之下；诸葛亮南征时凿断山脉以泄其气，有迹存马"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "卧狮山",
+        "type": "山",
+        "location_text": "在府城南一十五里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "官市山",
+        "type": "山",
+        "location_text": "在府城南二十里",
+        "description": "下有芭蕉洞，洞内石色如覆盖之状，其北有官市堰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "哀牢山",
+        "type": "山",
+        "location_text": "在府城东二十里",
+        "description": "本名安乐，夷语讹为哀牢，绝顶有一石如人坐，怀中有二穴名天井，土人于春首视水之盈涸以卜岁之丰凶，至者见水溢以为吉兆，穴下相通，取左穴水则右穴水涸，取右亦然；又山下有一石状如鼻，二泉出焉，一温一凉，号为王泉，故又名王泉山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "虎障山",
+        "type": "山",
+        "location_text": "在府城西二十里",
+        "description": "下出温泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "卧佛山",
+        "type": "山",
+        "location_text": "在府城西北二十里",
+        "description": "昔人因岩石凿为卧佛，其洞与池皆号卧佛",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "石涧山",
+        "type": "山",
+        "location_text": "在府城东北三十里",
+        "description": "林峦层叠状如屏列",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "峡口山",
+        "type": "山",
+        "location_text": "在府城东南四十里",
+        "description": "下一洞广二丈，金齿川流俱入此洞，行地中达澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "罗岷山",
+        "type": "山",
+        "location_text": "在府城东北八十里",
+        "description": "澜沧江西岸，高千余仞，延袤四十余里，顶常有石飞下，过者必趋",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "髑髅山",
+        "type": "山",
+        "location_text": "在永平县西南五里",
+        "description": "相传昔有妖食人，止存髑髅，有僧于此山上立神祠，下建佛刹以镇之，妖害遂息",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "罗木山",
+        "type": "山",
+        "location_text": "在永平县北八里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "花桥山",
+        "type": "山",
+        "location_text": "在永平县西南二十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "和丘山",
+        "type": "山",
+        "location_text": "在永平县西三十里",
+        "description": "高可千余仞，云合即雨，东麓一潭四时澄澈，流为木里河；西麓有泉，流为曲洞河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "博南山",
+        "type": "山",
+        "location_text": "在永平县西南四十里",
+        "description": "一名金浪颠山，一名丁当丁山，极为险隘，乃蒲蛮出没之所；昔南诏遣将军征缅回师，多赍金宝经此山，遇盗将军死之，后立祠曰金浪颠山神祠；北麓有泉，流为花桥河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "羊街山",
+        "type": "山",
+        "location_text": "在永平县北四十里",
+        "description": "山半涌泉，周围五尺，名曰一椀水，行者或掬饮之，亦称便",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "地宝藏山",
+        "type": "山",
+        "location_text": "在永平县东七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "罗武山",
+        "type": "山",
+        "location_text": "在永平县东北一百一十里",
+        "description": "山半有泉，胜备江发源于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "横岭山",
+        "type": "山",
+        "location_text": "在永平县东北一百三十五里",
+        "description": "山极陡峻，驿路经其上，其西有泉下流为九渡河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t01",
+        "name": "和场山",
+        "type": "山",
+        "location_text": "在潞江安抚司东三十余里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t01",
+        "name": "掌亢山",
+        "type": "山",
+        "location_text": "在安抚司南六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t01",
+        "name": "雷西山",
+        "type": "山",
+        "location_text": "在安抚司东八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t02",
+        "name": "凤溪山",
+        "type": "山",
+        "location_text": "在凤溪长官司治东",
+        "description": "东西有二泉合流为凤溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "秀巗山",
+        "type": "山",
+        "location_text": "在施甸长官司东南二里",
+        "description": "小罗窑河源出于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "摩苍山",
+        "type": "山",
+        "location_text": "在施甸长官司东三里",
+        "description": "一名施甸山，孤峰耸翠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "石栅山",
+        "type": "山",
+        "location_text": "在施甸长官司西一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "当归山",
+        "type": "山",
+        "location_text": "在施甸长官司西北二十五里",
+        "description": "上产当归",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "甸头山",
+        "type": "山",
+        "location_text": "在施甸长官司西南三十里",
+        "description": "其南有碧霞山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "新栅山",
+        "type": "山",
+        "location_text": "在施甸长官司西北四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "龙王巗",
+        "type": "巗",
+        "location_text": "在府城西一十五里",
+        "description": "一山中断，两崖壁立如斧劈之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "澜沧江",
+        "type": "江",
+        "location_text": "经府城东北八十五里罗岷山下",
+        "description": "旧以竹索为桥，后废，本朝洪武末镇抚华岳铸二铁柱于两岸以维舟",
+        "lore": "汉明帝兵开博南，行者愁怨作歌曰汉德广开不宾度博南越澜津渡澜沧为他人"
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "银龙江",
+        "type": "江",
+        "location_text": "在永平县东守御城跨其上",
+        "description": "源自上甸里，合木里河，又南合曲洞河，又东南过萨佑河、花桥河，又东南入澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c02",
+        "name": "胜备江",
+        "type": "江",
+        "location_text": null,
+        "description": "源出罗武山，南流经永平县东南境，合九渡、双桥二河，至镇康府合溪备江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t01",
+        "name": "潞江",
+        "type": "江",
+        "location_text": null,
+        "description": "旧名怒江，源出雍望，经安抚司之北，两岸陡绝，瘴疠甚毒，夏秋不可行；蒙氏封为四渎之一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "清水河",
+        "type": "河",
+        "location_text": null,
+        "description": "一出本府阿萨村，一出甘松坡下，合流至安抚司城东北，合凤溪郎义河，又至府城东南合沙河诸水，入于峡口洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "沙木河",
+        "type": "河",
+        "location_text": null,
+        "description": "源自顺宁府，经府城东北百余里，西北入澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-t03",
+        "name": "坪市河",
+        "type": "河",
+        "location_text": null,
+        "description": "一出甸头山，一出石甸寨，合流经施甸西，又南合蒲缥寨涧水，经新栅山口从陡崖飞下，下流入于潞江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "光明井",
+        "type": "井",
+        "location_text": "在府城东五里",
+        "description": "",
+        "lore": "唐大历间井傍见三角牛四角羊鼎足鸡，井中有火烛天，南诏遂塞之"
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "龙泉",
+        "type": "泉",
+        "location_text": "有二，一在府城北郎义村，析为三派；一在上丛村",
+        "description": "皆有灌溉之利",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "易罗池",
+        "type": "池",
+        "location_text": "在府城南",
+        "description": "周三百余步，源自池底涌出",
+        "lore": "相传昔有妇沙壸触沉木而感孕生九子即此池也"
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "大诸葛堰",
+        "type": "堰",
+        "location_text": "在府城南一十五里",
+        "description": "其东有东岳堰及小诸葛堰，皆有灌溉之利",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "139-001",
+        "geo_id": "GEO-139001-c01",
+        "name": "甸尾堰",
+        "type": "堰",
+        "location_text": "在府城南三十里",
+        "description": "周广二里",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "139-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元志北接大理东界澜沧】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "139-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志近郭诸山环拱左右】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "139-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志金齿绣面衣冠礼仪悉效中土兵不离身采猎为务】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2；sites拆至sites1/2；c01/c02占位；w01独立"
+  },
+  "title": "永昌军民府"
+}

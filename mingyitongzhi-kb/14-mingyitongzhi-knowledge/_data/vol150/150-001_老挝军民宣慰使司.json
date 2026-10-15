@@ -1,0 +1,54 @@
+{
+  "item_id": "150-001",
+  "volume": "150",
+  "source": "老挝军民宣慰使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "老挝军民宣慰使司",
+        "type": "geo",
+        "norm": "老挝军民宣慰使司",
+        "first_source": "150-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-150001",
+        "item_id": "150-001",
+        "name": "老挝军民宣慰使司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷150",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "150-001",
+        "geo_id": "GEO-150001",
+        "dynasty": "明",
+        "era": "永乐三年",
+        "institution_name": "老挝军民宣慰使司",
+        "action": "置",
+        "detail": "俗呼曰挝家，自古不通中国。本朝永乐三年其酋备方物入贡，始置老挝军民宣慰使司"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "老挝军民宣慰使司"
+}

@@ -1,0 +1,556 @@
+{
+  "item_id": "144-001",
+  "volume": "144",
+  "source": "腾冲军民指挥使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "腾冲军民指挥使司",
+        "type": "geo",
+        "norm": "腾冲军民指挥使司",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K来凤山",
+        "name": "来凤山",
+        "type": "mtn",
+        "norm": "来凤山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K球□山",
+        "name": "球□山",
+        "type": "mtn",
+        "norm": "球□山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K寳峯山",
+        "name": "寳峯山",
+        "type": "mtn",
+        "norm": "寳峯山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K水尾山",
+        "name": "水尾山",
+        "type": "mtn",
+        "norm": "水尾山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K下干峩山",
+        "name": "下干峩山",
+        "type": "mtn",
+        "norm": "下干峩山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K土山",
+        "name": "土山",
+        "type": "mtn",
+        "norm": "土山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K颠峻山",
+        "name": "颠峻山",
+        "type": "mtn",
+        "norm": "颠峻山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K罗生山",
+        "name": "罗生山",
+        "type": "mtn",
+        "norm": "罗生山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K上干峩山",
+        "name": "上干峩山",
+        "type": "mtn",
+        "norm": "上干峩山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K嵸巃山",
+        "name": "嵸巃山",
+        "type": "mtn",
+        "norm": "嵸巃山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K罗左冲山",
+        "name": "罗左冲山",
+        "type": "mtn",
+        "norm": "罗左冲山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K赤土山",
+        "name": "赤土山",
+        "type": "mtn",
+        "norm": "赤土山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K缅箐山",
+        "name": "缅箐山",
+        "type": "mtn",
+        "norm": "缅箐山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K髙黎共山",
+        "name": "髙黎共山",
+        "type": "mtn",
+        "norm": "髙黎共山",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K大盈江",
+        "name": "大盈江",
+        "type": "mtn",
+        "norm": "大盈江",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K龙川江",
+        "name": "龙川江",
+        "type": "mtn",
+        "norm": "龙川江",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K温泉",
+        "name": "温泉",
+        "type": "mtn",
+        "norm": "温泉",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K半月池",
+        "name": "半月池",
+        "type": "mtn",
+        "norm": "半月池",
+        "first_source": "144-001"
+      },
+      {
+        "ent_id": "ENT-K大车湖",
+        "name": "大车湖",
+        "type": "mtn",
+        "norm": "大车湖",
+        "first_source": "144-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-144001",
+        "item_id": "144-001",
+        "name": "腾冲军民指挥使司",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷144",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "永昌府潞江安抚司界",
+              "distance_li": 120
+            },
+            {
+              "direction": "西",
+              "to_place": "麻里长官司界",
+              "distance_li": 300
+            },
+            {
+              "direction": "南",
+              "to_place": "南□州界",
+              "distance_li": 20
+            },
+            {
+              "direction": "北",
+              "to_place": "茶山长官司界",
+              "distance_li": 240
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8640
+            },
+            {
+              "capital": "京师",
+              "distance_li": 12085
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": ""
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": ""
+          },
+          "jun_name": "",
+          "topography": "诸夷接境诚要害之地【云南志孟养缅甸诸夷皆接境诚要害之地今筑城置司以控扼诸夷】；南有凤山西有寳峰【旧腾冲府志】",
+          "customs": "蛮性懦弱善孳畜田种；构木巢居刀耕火耨【俱云南志】",
+          "garrisons": [
+            {
+              "name": "腾冲军民指挥使司",
+              "type": "司",
+              "location_text": "本朝筑城置司以控扼诸夷"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004"
+        ]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "永昌郡西境/越赕",
+        "action": "因之",
+        "detail": "汉为永昌郡西境，即越赕地，僰□峨昌三种蛮居之"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "覊縻州/软化府/腾冲府",
+        "action": "置改",
+        "detail": "唐置覊縻州，南诏防氏九世孙异牟寻取越赕，置软化府，其后白蛮徙居之，改腾冲府"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "大理叚氏地",
+        "action": "属",
+        "detail": "宋时地属大理叚氏"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "dynasty": "元",
+        "era": "宪宗",
+        "institution_name": "内附",
+        "action": "内附",
+        "detail": "元宪宗时蛮酋髙救内附"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "腾越州/腾越县/腾冲府",
+        "action": "改置",
+        "detail": "至元中改腾越州及置腾越县，寻复腾冲府，仍治腾越县，后以顺江州及腾越越甸古涌三县省入，隶大理路"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "来凤山",
+        "type": "山",
+        "location_text": "在司城南四里",
+        "description": "一名龙凤山",
+        "lore": "上有神祠"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "球□山",
+        "type": "山",
+        "location_text": "在司城东五顶",
+        "description": "顶平可居以避寇，上有水池，傍二穴距十余丈，上穴周三尺，下穴周一尺，水从下穴流经下穴池为伽和池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "寳峯山",
+        "type": "山",
+        "location_text": "在司城南一十里",
+        "description": "一名长洞山",
+        "lore": "上有王寳寺，乃高僧摩伽陀修道之所"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "水尾山",
+        "type": "山",
+        "location_text": "在司城南一十五里",
+        "description": "",
+        "lore": "上有水尾寺"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "下干峩山",
+        "type": "山",
+        "location_text": "在司城北一十五里",
+        "description": "下有池，亦名下干峨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "土山",
+        "type": "山",
+        "location_text": "在司城北一十五里",
+        "description": "上有龙池周五十余丈，下亦有龙池，池傍金轮寺",
+        "lore": "有圎石一尺余，相传昔髙僧摩伽陀所遗，天旱祈雨以石浸此池则雷雨，他池则无验，名济旱池，一境赖之无旱"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "颠峻山",
+        "type": "山",
+        "location_text": "在司城南南一十八里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "罗生山",
+        "type": "山",
+        "location_text": "在司城东南二十里",
+        "description": "峰峦千丈，条冈百里，林木森茂，腾冲之名山也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "上干峩山",
+        "type": "山",
+        "location_text": "在司城西北二十五里",
+        "description": "下有池名清河，亦名上干峨，周五百余丈，花木围绕",
+        "lore": "池落池内则乌鹊防去，山北有金塔坡，相传昔有异人修道于此，至今无蚊蚋霜雪"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "嵸巃山",
+        "type": "山",
+        "location_text": "在司城北三十里",
+        "description": "山极高峻，云合则雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "罗左冲山",
+        "type": "山",
+        "location_text": "在司城南三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "赤土山",
+        "type": "山",
+        "location_text": "在司城东三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "缅箐山",
+        "type": "山",
+        "location_text": "在司城西三十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "髙黎共山",
+        "type": "山",
+        "location_text": "在司城东北一百二十里",
+        "description": "一名昆仑冈，夷语讹为髙良公山，山极高峻，介腾冲潞江之间，冬月潞江无霜，其山顶霜雪极为严沍",
+        "lore": "氏封为西岳，其顶有分水泉极清冽，行者或掬饮之"
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "大盈江",
+        "type": "江",
+        "location_text": "绕司城自东而北而西",
+        "description": "有三源，一出赤土山流为马邑河，一出嵸巃山滀为小湖流为高河，一出罗生山流为罗生塲河，三水合为大盈江，又名大车江，南入南匋州为小梁河，至十厓为安乐河，西流为梹榔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "龙川江",
+        "type": "江",
+        "location_text": "源出峨昌蛮地七蔵甸经越甸傍高黎共山北渡口",
+        "description": "下流至太公城合大盈江",
+        "lore": "古有藤索桥"
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "温泉",
+        "type": "温泉",
+        "location_text": "有四",
+        "description": "一在城北马邑村，一在城东南大洞村，一在城南城左冲村，一在城西缅箐村",
+        "lore": "水沸如汤，人多浴之"
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "半月池",
+        "type": "池",
+        "location_text": "在司城北七里",
+        "description": "周五十丈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "144-001",
+        "geo_id": "GEO-144001",
+        "name": "大车湖",
+        "type": "湖",
+        "location_text": "在司南",
+        "description": "湖甚广濶，中有山，逺观之真琼浪中一防青也",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "144-001",
+        "name": "黄藤",
+        "type": "土产",
+        "location_text": "司境出",
+        "note": "",
+        "original": "黄藤【俱司境出】"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "144-001",
+        "name": "濮竹",
+        "type": "土产",
+        "location_text": "黎共山出",
+        "note": "节甚长",
+        "original": "濮竹【黎共山出节甚长】"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "144-001",
+        "name": "硫黄",
+        "type": "土产",
+        "location_text": "罗左冲山出",
+        "note": "",
+        "original": "硫黄【罗左冲山出】"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "144-001",
+        "name": "漆",
+        "type": "土产",
+        "location_text": "司境出",
+        "note": "",
+        "original": "漆【俱司境出】"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "144-001",
+        "name": "椶",
+        "type": "土产",
+        "location_text": "司境出",
+        "note": "",
+        "original": "椶【俱司境出】"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "144-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志孟养缅甸诸夷皆接境诚要害之地今筑城置司以控扼诸夷】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "144-001",
+        "cited_work": "旧腾冲府志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【旧腾冲府志南有凤山西有寳峰】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "144-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志蛮性懦弱善孳畜田种】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "144-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志构木巢居刀耕火耨】"
+      }
+    ]
+  },
+  "layer_count": 8,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "卫司主文件；sites拆至sites1寺观/sites2关梁"
+  },
+  "title": "腾冲军民指挥使司"
+}

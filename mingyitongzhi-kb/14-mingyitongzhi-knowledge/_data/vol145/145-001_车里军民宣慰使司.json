@@ -1,0 +1,85 @@
+{
+  "item_id": "145-001",
+  "volume": "145",
+  "source": "车里军民宣慰使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "车里军民宣慰使司",
+        "type": "geo",
+        "norm": "车里军民宣慰使司",
+        "first_source": "145-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-145001",
+        "item_id": "145-001",
+        "name": "车里军民宣慰使司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷145",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "145-001",
+        "geo_id": "GEO-145001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "萨里路军民总官府/耿冻路",
+        "action": "置",
+        "detail": "蛮名车里倭泥貉□蒲刺黑角诸蛮杂居，自古不通中国。元世祖命将乌兰济达伐交阯，经其所部悉降之。至元中置萨里路军民总官府领六甸，后又请置耿冻路耿当孟弄二州"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "145-001",
+        "geo_id": "GEO-145001",
+        "dynasty": "明",
+        "era": "洪武十七年/十九年",
+        "institution_name": "车里军民府/车里军民宣慰使司",
+        "action": "改",
+        "detail": "本朝洪武十七年改置车里军民府，十九年改宣慰使司"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "145-001",
+        "geo_id": "GEO-145001",
+        "name": "猛永山",
+        "type": "山",
+        "location_text": "在司境",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "145-001",
+        "geo_id": "GEO-145001",
+        "name": "沙木江",
+        "type": "江",
+        "location_text": "在司境",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "车里军民宣慰使司"
+}

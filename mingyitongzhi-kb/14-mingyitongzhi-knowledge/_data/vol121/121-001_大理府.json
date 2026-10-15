@@ -1,0 +1,1029 @@
+{
+  "item_id": "121-001",
+  "volume": "121",
+  "source": "大理府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "大理府",
+        "type": "geo",
+        "norm": "大理府",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "太和县",
+        "type": "geo",
+        "norm": "太和县",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "云南县",
+        "type": "geo",
+        "norm": "云南县",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "浪穹县",
+        "type": "geo",
+        "norm": "浪穹县",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "赵州",
+        "type": "geo",
+        "norm": "赵州",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "邓川州",
+        "type": "geo",
+        "norm": "邓川州",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-S03",
+        "name": "宾川州",
+        "type": "geo",
+        "norm": "宾川州",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-S04",
+        "name": "云龙州",
+        "type": "geo",
+        "norm": "云龙州",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "十二关长官司",
+        "type": "geo",
+        "norm": "十二关长官司",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "大理卫",
+        "type": "geo",
+        "norm": "大理卫",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "洱海卫",
+        "type": "geo",
+        "norm": "洱海卫",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K点苍山",
+        "name": "点苍山",
+        "type": "mtn",
+        "norm": "点苍山",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K西洱海",
+        "name": "西洱海",
+        "type": "mtn",
+        "norm": "西洱海",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K样备江",
+        "name": "样备江",
+        "type": "mtn",
+        "norm": "样备江",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K张仁果",
+        "name": "张仁果",
+        "type": "person",
+        "norm": "张仁果",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K韦仁寿",
+        "name": "韦仁寿",
+        "type": "person",
+        "norm": "韦仁寿",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K郑回",
+        "name": "郑回",
+        "type": "person",
+        "norm": "郑回",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K段思平",
+        "name": "段思平",
+        "type": "person",
+        "norm": "段思平",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K张立道",
+        "name": "张立道",
+        "type": "person",
+        "norm": "张立道",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K蒙归氏",
+        "name": "蒙归氏",
+        "type": "person",
+        "norm": "蒙归氏",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K异牟寻",
+        "name": "异牟寻",
+        "type": "person",
+        "norm": "异牟寻",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K五花楼",
+        "name": "五花楼",
+        "type": "site",
+        "norm": "五花楼",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K崇圣寺",
+        "name": "崇圣寺",
+        "type": "site",
+        "norm": "崇圣寺",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K龙首关",
+        "name": "龙首关",
+        "type": "site",
+        "norm": "龙首关",
+        "first_source": "121-001"
+      },
+      {
+        "ent_id": "ENT-K龙尾关",
+        "name": "龙尾关",
+        "type": "site",
+        "norm": "龙尾关",
+        "first_source": "121-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-121001",
+        "item_id": "121-001",
+        "name": "大理府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-121001-c01",
+          "GEO-121001-s01",
+          "GEO-121001-s02",
+          "GEO-121001-s03",
+          "GEO-121001-s04",
+          "GEO-121001-t01",
+          "GEO-121001-w01",
+          "GEO-121001-w02"
+        ],
+        "volume_range": "卷121",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "姚安府姚州界",
+              "distance_li": 240
+            },
+            {
+              "direction": "西",
+              "to_place": "永昌府永平县界",
+              "distance_li": 180
+            },
+            {
+              "direction": "南",
+              "to_place": "顺宁府界",
+              "distance_li": 310
+            },
+            {
+              "direction": "北",
+              "to_place": "鹤庆府界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8000
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11450
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州四县三长官司一；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮二万二千八百石零"
+          },
+          "jun_name": "叶榆【汉县名】南诏【唐时国号】大理【段氏国号】",
+          "topography": "峭山深堑【唐书邓川宁北峭山深堑号为险要之地】；襟山带河【云南志东连叶榆西倚点苍南北百里有二关襟山带河地虽广而险隘】；南诏都会【大理府学记】",
+          "customs": "俗本于汉【元郭松年大理府学记】；民多士类；地杂百夷【俱郡志】",
+          "garrisons": [
+            {
+              "name": "大理卫",
+              "type": "卫",
+              "location_text": "在府治南洪武十七年建"
+            },
+            {
+              "name": "洱海卫",
+              "type": "卫",
+              "location_text": "在云南县治西洪武二十二年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006"
+        ]
+      },
+      {
+        "geo_id": "GEO-121001-c01",
+        "item_id": "121-001",
+        "name": "太和县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 66,
+            "unit": "里",
+            "note": "编户六十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-s01",
+        "item_id": "121-001",
+        "name": "赵州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [
+          "GEO-121001-c02"
+        ],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在府城南三十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里领县一"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-c02",
+        "item_id": "121-001",
+        "name": "云南县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-121001-s01",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在州南一百里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-s02",
+        "item_id": "121-001",
+        "name": "邓川州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [
+          "GEO-121001-c03"
+        ],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在府城北七十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里领县一"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-c03",
+        "item_id": "121-001",
+        "name": "浪穹县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-121001-s02",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在州西一十五里",
+          "households": {
+            "count": 25,
+            "unit": "里",
+            "note": "编户二十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-s03",
+        "item_id": "121-001",
+        "name": "宾川州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在府城西九十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "本朝改建编户一十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-s04",
+        "item_id": "121-001",
+        "name": "云龙州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在府城西六十里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "旧云龙甸元至元末立云龙甸军民总管所本朝改云龙州编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-121001-t01",
+        "item_id": "121-001",
+        "name": "十二关长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在府城东三百里",
+          "note": "本云南县楚场地元至正间因僻险始置十二关防送千户所本朝改置长官司"
+        }
+      },
+      {
+        "geo_id": "GEO-121001-w01",
+        "item_id": "121-001",
+        "name": "大理卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在府治南洪武十七年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-121001-w02",
+        "item_id": "121-001",
+        "name": "洱海卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-121001",
+        "children": [],
+        "volume_range": "卷121",
+        "attributes": {
+          "location_text": "在云南县治西洪武二十二年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之界",
+        "action": "因之",
+        "detail": "禹贡梁州之界，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "汉",
+        "era": "武帝",
+        "institution_name": "益州郡",
+        "action": "置",
+        "detail": "汉武帝开西南夷，此为益州郡嶲唐叶榆县境"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "永昌郡",
+        "action": "分属",
+        "detail": "东汉分属永昌郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "蜀汉",
+        "era": null,
+        "institution_name": "云南郡",
+        "action": "分置",
+        "detail": "蜀汉又分叶榆属云南郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "宁州",
+        "action": "属",
+        "detail": "晋诸郡皆属宁州，李特据蜀分置汉州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "南朝",
+        "era": null,
+        "institution_name": "云南永昌郡",
+        "action": "因之",
+        "detail": "宋齐梁陈仍置云南永昌郡属宁州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "唐",
+        "era": "麟德",
+        "institution_name": "姚州都督府",
+        "action": "置",
+        "detail": "唐麟德初于昆明之□栋州置姚州都督府治叶榆洱河蛮"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "唐",
+        "era": "开元末",
+        "institution_name": "南诏",
+        "action": "合并",
+        "detail": "开元末蒙舍诏皮罗阁并蒙嶲诏越析诏浪穹诏邆睒诏浪施诏五诏合为一号南诏治太和城"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "大蒙国",
+        "action": "改号",
+        "detail": "至阁罗凤号大蒙国"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "唐",
+        "era": "贞元",
+        "institution_name": "大理国",
+        "action": "改号",
+        "detail": "至异牟寻再徙羊苴咩城即今府治改号大理国"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "大长和/兴源/义宁",
+        "action": "篡夺",
+        "detail": "其后郑买嗣赵善政杨干贞互相篡夺"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "五代晋",
+        "era": "天福",
+        "institution_name": "大理国",
+        "action": "自立",
+        "detail": "至五代晋时段思平得之更号大理国"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "元",
+        "era": "宪宗",
+        "institution_name": "上下二千户府",
+        "action": "收附",
+        "detail": "元宪宗时收附立上下二千户府"
+      },
+      {
+        "evo_id": "EVO-014",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "大理路",
+        "action": "改",
+        "detail": "至元间改置大理路"
+      },
+      {
+        "evo_id": "EVO-015",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "大理府",
+        "action": "改",
+        "detail": "本朝洪武十五年改路为府领州四县三长官司一"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "点苍山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "高千余仞，有峰十九，苍翠如玉盘亘三百余里，山顶有高河泉深不可测，又有瀑布诸泉流注为锦浪等十□川，蒙氏封为中岳；本朝洪武中沐英征大理出点苍后立旗帜以乱之遂克其城即此山也",
+        "lore": "元高昌雅诗云水绕青山山绕城由来人杰地应灵水光万顷开天镜山色四时环翠屏；本朝张羽歌三山标海裔五岳名中州安知金马碧鸡外乃有点苍千仞之神丘"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "三耳山",
+        "type": "山",
+        "location_text": "在赵州治西",
+        "description": "三峰高耸如耳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "俗龙山",
+        "type": "山",
+        "location_text": "在赵州北一十五里",
+        "description": "唐镇南将军建浮屠其颠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "九龙顶山",
+        "type": "山",
+        "location_text": "在赵州南五十里",
+        "description": "其山九峰相聚",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "龙兴和山",
+        "type": "山",
+        "location_text": "在云南县治西北",
+        "description": "其山高大如扶风太乙之状郁然高峻与云气连结，固阴沍寒虽盛暑不热，广志曰五月雪霜浩然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "宝泉山",
+        "type": "山",
+        "location_text": "在云南县西北一十五里",
+        "description": "又名九鼎山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "水目山",
+        "type": "山",
+        "location_text": "在云南县南三十里",
+        "description": "高顶有泉深不可测",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "梁王山",
+        "type": "山",
+        "location_text": "在云南县北三十里",
+        "description": "蒙氏时酋长王氏居焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s02",
+        "name": "卧牛山",
+        "type": "山",
+        "location_text": "在邓川州东北",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s02",
+        "name": "东山",
+        "type": "山",
+        "location_text": "在邓川州南一十里",
+        "description": "下有鱼潭，祈雨有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s02",
+        "name": "钟山",
+        "type": "山",
+        "location_text": "在邓川州北一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c03",
+        "name": "宁山",
+        "type": "山",
+        "location_text": "在浪穹县西北",
+        "description": "如凤翼，又名凤凰山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c03",
+        "name": "灵应山",
+        "type": "山",
+        "location_text": "在浪穹县东二十里",
+        "description": "峻拔高耸，上有石岩，岩中有石观音像",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c03",
+        "name": "凤羽山",
+        "type": "山",
+        "location_text": "在浪穹县西南三十里",
+        "description": "旧名浮罗山，相传蒙氏细奴逻兴时有凤翔于此故名凤羽；后凤死每岁冬众鸟哀吊其上故又名凤吊，至今土人于鸟来时举火取之，鸟见火辄赴火自死",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s04",
+        "name": "三峰山",
+        "type": "山",
+        "location_text": "在云龙州治西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "九曲山",
+        "type": "山",
+        "location_text": "在洱河东百余里",
+        "description": "峰岳攒簇状若莲花，九盘而上又名九重岩，上有石洞人莫能通",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "定西岭",
+        "type": "岭",
+        "location_text": "在赵州南四十里",
+        "description": "高千余仞，设关其上，大江之源出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "西洱海",
+        "type": "湖",
+        "location_text": "在府城东",
+        "description": "古叶榆河也，一名渳海又名西洱河，源自邓川合点苍山之十八川而汇于此，形如人耳周三百余里，中有罗筌浓禾赤崖三岛及泗洲九曲之胜，下流合于样备江；浓禾岛形如几案故又名玉案山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "叶镜湖",
+        "type": "湖",
+        "location_text": "在云南县北三十里",
+        "description": "中有石如镜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c03",
+        "name": "明河宁湖",
+        "type": "湖",
+        "location_text": "在浪穹县西北五里",
+        "description": "周回五十里，水色如镜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "青海子",
+        "type": "湖",
+        "location_text": "在云南县东南一十里",
+        "description": "又名青龙海子",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c02",
+        "name": "周官蒙海子",
+        "type": "湖",
+        "location_text": "在云南县东北一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "样备江",
+        "type": "江",
+        "location_text": "",
+        "description": "源自剑川州经浪穹县过点苍山西洱海至赵州西南境下流入澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "大江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出定西岭北流经赵州治东南下入西洱河尾，名波罗江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "白崖睑江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出定西岭东南流经赵州白崖睑至定边县入礼社江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c03",
+        "name": "葡萄江",
+        "type": "江",
+        "location_text": "",
+        "description": "源自浪穹县宁河经邓川州北至州南入西洱河，今名弥宜佉江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s04",
+        "name": "澜沧江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出吐蕃鹿石下，本名鹿沧江后讹为澜沧，今又讹为浪沧，自丽江经云龙州西南入蒙化府",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "礼社江",
+        "type": "江",
+        "location_text": "",
+        "description": "源自赵州白崖睑至楚雄合澜沧江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "药师井",
+        "type": "井",
+        "location_text": "在府城西",
+        "description": "此水造纸极蒙白",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "救疫井",
+        "type": "井",
+        "location_text": "在点苍山下",
+        "description": "相传有疫厉者饮之即愈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s01",
+        "name": "玉泉井",
+        "type": "井",
+        "location_text": "在赵州北一十里",
+        "description": "元杨庭撰碑：世祖征南驻兵于此时久旱军士咸渴，世祖恳祷以剑插地清泉涌出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "高河泉",
+        "type": "泉",
+        "location_text": "在点苍山山顶",
+        "description": "深不可测，高河菜出焉，五六月采之若高声则云雾骤起风雨卒至，盖高河乃龙湫也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-s02",
+        "name": "鱼潭",
+        "type": "潭",
+        "location_text": "在邓川州东山下",
+        "description": "祈雨有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "罗筌岛",
+        "type": "岛",
+        "location_text": "在西洱海中",
+        "description": "西洱海三岛之一，岛上有罗汉寺，寺左岩下有礼拜石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "浓禾岛",
+        "type": "岛",
+        "location_text": "在西洱海中",
+        "description": "形如几案故又名玉案山，岛上有崇福寺其南有高兴寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "赤崖岛",
+        "type": "岛",
+        "location_text": "在西洱海中",
+        "description": "西洱海三岛之一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "121-001",
+        "geo_id": "GEO-121001-c01",
+        "name": "波罗江",
+        "type": "江",
+        "location_text": "在赵州治东南",
+        "description": "即大江下入西洱河之尾名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "121-001",
+        "cited_work": "唐书",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【唐书邓川宁北峭山深堑号为险要之地】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "121-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志东连叶榆西倚点苍南北百里有二关襟山带河地虽广而险隘】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "121-001",
+        "cited_work": "大理府学记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【大理府学记南诏都会】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "121-001",
+        "cited_work": "郭松年大理府学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元郭松年大理府学记俗本于汉】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "121-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志民多士类地杂百夷】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "121-001",
+        "cited_work": "广志",
+        "cited_work_ent_id": null,
+        "context": "山川",
+        "original": "【广志曰龙兴和山五月雪霜浩然】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "大理府"
+}

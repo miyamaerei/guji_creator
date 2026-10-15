@@ -1,0 +1,54 @@
+{
+  "item_id": "160-001",
+  "volume": "160",
+  "source": "湾甸州",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "湾甸州",
+        "type": "geo",
+        "norm": "湾甸州",
+        "first_source": "160-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-160001",
+        "item_id": "160-001",
+        "name": "湾甸州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷160",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "160-001",
+        "geo_id": "GEO-160001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "湾甸州",
+        "action": "置",
+        "detail": "蛮名细赕元中统初内附属镇康路本朝洪武十七年置湾州编户五里"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "湾甸州"
+}

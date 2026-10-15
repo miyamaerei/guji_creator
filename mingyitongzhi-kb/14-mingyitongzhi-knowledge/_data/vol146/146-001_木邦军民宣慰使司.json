@@ -1,0 +1,64 @@
+{
+  "item_id": "146-001",
+  "volume": "146",
+  "source": "木邦军民宣慰使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "木邦军民宣慰使司",
+        "type": "geo",
+        "norm": "木邦军民宣慰使司",
+        "first_source": "146-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-146001",
+        "item_id": "146-001",
+        "name": "木邦军民宣慰使司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷146",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "146-001",
+        "geo_id": "GEO-146001",
+        "dynasty": "元",
+        "era": "至元二十六年",
+        "institution_name": "木邦路军民总管府",
+        "action": "立",
+        "detail": "旧名孟都，一名孟邦。元至元二十六年立木邦路军民总管府领三甸"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "146-001",
+        "geo_id": "GEO-146001",
+        "dynasty": "明",
+        "era": "洪武十五年",
+        "institution_name": "木邦府/木邦军民宣慰使司",
+        "action": "改",
+        "detail": "本朝洪武十五年改木邦府，后改木邦军民宣慰使司"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "木邦军民宣慰使司"
+}

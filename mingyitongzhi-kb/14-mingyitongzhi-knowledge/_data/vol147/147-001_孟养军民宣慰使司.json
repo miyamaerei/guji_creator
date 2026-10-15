@@ -1,0 +1,75 @@
+{
+  "item_id": "147-001",
+  "volume": "147",
+  "source": "孟养军民宣慰使司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "孟养军民宣慰使司",
+        "type": "geo",
+        "norm": "孟养军民宣慰使司",
+        "first_source": "147-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-147001",
+        "item_id": "147-001",
+        "name": "孟养军民宣慰使司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷147",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "147-001",
+        "geo_id": "GEO-147001",
+        "dynasty": "元",
+        "era": "至元二十六年",
+        "institution_name": "云逺路军民总管府",
+        "action": "置",
+        "detail": "地名香柏城。元至元二十六年置云逺路军民总管府"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "147-001",
+        "geo_id": "GEO-147001",
+        "dynasty": "明",
+        "era": "洪武十五年/十七年",
+        "institution_name": "云逺府/孟养军民宣慰使司",
+        "action": "改",
+        "detail": "本朝洪武十五年改为云逺府，十七年改孟养军民宣慰使司"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "147-001",
+        "geo_id": "GEO-147001",
+        "name": "鬼窟山",
+        "type": "山",
+        "location_text": "在司境",
+        "description": "极为险隘，夷人据为硬寨",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "孟养军民宣慰使司"
+}

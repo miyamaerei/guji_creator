@@ -1,0 +1,868 @@
+{
+  "item_id": "132-001",
+  "volume": "132",
+  "source": "曲靖军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "曲靖军民府",
+        "type": "geo",
+        "norm": "曲靖军民府",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "南宁县",
+        "type": "geo",
+        "norm": "南宁县",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "亦佐县",
+        "type": "geo",
+        "norm": "亦佐县",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "霑益州",
+        "type": "geo",
+        "norm": "霑益州",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "陆凉州",
+        "type": "geo",
+        "norm": "陆凉州",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-S03",
+        "name": "马龙州",
+        "type": "geo",
+        "norm": "马龙州",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-S04",
+        "name": "罗雄州",
+        "type": "geo",
+        "norm": "罗雄州",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "曲靖卫",
+        "type": "geo",
+        "norm": "曲靖卫",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "平夷卫",
+        "type": "geo",
+        "norm": "平夷卫",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "越州卫",
+        "type": "geo",
+        "norm": "越州卫",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-W04",
+        "name": "陆凉卫",
+        "type": "geo",
+        "norm": "陆凉卫",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K白石江",
+        "name": "白石江",
+        "type": "mtn",
+        "norm": "白石江",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K盘江",
+        "name": "盘江",
+        "type": "mtn",
+        "norm": "盘江",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K石城",
+        "name": "石城",
+        "type": "site",
+        "norm": "石城",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K爨龙颜",
+        "name": "爨龙颜",
+        "type": "person",
+        "norm": "爨龙颜",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K爨归王",
+        "name": "爨归王",
+        "type": "person",
+        "norm": "爨归王",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K马忠",
+        "name": "马忠",
+        "type": "person",
+        "norm": "马忠",
+        "first_source": "132-001"
+      },
+      {
+        "ent_id": "ENT-K沐英",
+        "name": "沐英",
+        "type": "person",
+        "norm": "沐英",
+        "first_source": "132-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-132001",
+        "item_id": "132-001",
+        "name": "曲靖军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-132001-c01",
+          "GEO-132001-c02",
+          "GEO-132001-s01",
+          "GEO-132001-s02",
+          "GEO-132001-s03",
+          "GEO-132001-s04",
+          "GEO-132001-w01",
+          "GEO-132001-w02",
+          "GEO-132001-w03",
+          "GEO-132001-w04",
+          "GEO-132001-w05",
+          "GEO-132001-w06"
+        ],
+        "volume_range": "卷132",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "普安州界",
+              "distance_li": 170
+            },
+            {
+              "direction": "西",
+              "to_place": "寻甸军民府界",
+              "distance_li": 140
+            },
+            {
+              "direction": "南",
+              "to_place": "广西府界",
+              "distance_li": 160
+            },
+            {
+              "direction": "北",
+              "to_place": "四川乌撒军民府界",
+              "distance_li": 290
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6860
+            },
+            {
+              "capital": "京师",
+              "distance_li": 10305
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州四县二"
+          },
+          "grain_tax": {
+            "amount": 3300,
+            "unit": "石",
+            "note": "粮三千三百石零"
+          },
+          "jun_name": "兴古【蜀汉名】南宁【唐名】石城【蒙氏名】",
+          "topography": "四通要冲【云南志东通两广西接四川北连贵竹南上滇籓要冲地】；盘水之固【郡志】",
+          "customs": "椎髻皮服【唐志】；力耕好讼【元志野无荒闲人皆力耕地富饶好嚚讼怀战争少廉耻】",
+          "garrisons": [
+            {
+              "name": "曲靖卫",
+              "type": "卫",
+              "location_text": "在府治西洪武二十年建"
+            },
+            {
+              "name": "平夷卫",
+              "type": "卫",
+              "location_text": "在霑益州南一百二十里洪武二十三年建"
+            },
+            {
+              "name": "越州卫",
+              "type": "卫",
+              "location_text": "在霑益州东南六十里洪武二十七年建"
+            },
+            {
+              "name": "陆凉卫",
+              "type": "卫",
+              "location_text": "在陆凉州西南二十五里洪武三十一年建"
+            },
+            {
+              "name": "马龙守御千户所",
+              "type": "千户所",
+              "location_text": "在州治北永乐二年建"
+            },
+            {
+              "name": "乌撒卫后千户所",
+              "type": "千户所",
+              "location_text": "在霑益州治西北隶贵州乌撒卫"
+            }
+          ]
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-132001-c01",
+        "item_id": "132-001",
+        "name": "南宁县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-132001-c02",
+        "item_id": "132-001",
+        "name": "亦佐县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在府城东二百五十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-132001-s01",
+        "item_id": "132-001",
+        "name": "霑益州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在府城东北二百一十三里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-132001-s02",
+        "item_id": "132-001",
+        "name": "陆凉州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在府城南一百二十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-132001-s03",
+        "item_id": "132-001",
+        "name": "马龙州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在府城西北七十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-132001-s04",
+        "item_id": "132-001",
+        "name": "罗雄州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在府城东南二百七十里",
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-132001-w01",
+        "item_id": "132-001",
+        "name": "曲靖卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在府治西洪武二十年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-132001-w02",
+        "item_id": "132-001",
+        "name": "平夷卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在霑益州南一百二十里洪武二十三年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-132001-w03",
+        "item_id": "132-001",
+        "name": "越州卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在霑益州东南六十里洪武二十七年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-132001-w04",
+        "item_id": "132-001",
+        "name": "陆凉卫",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在陆凉州西南二十五里洪武三十一年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-132001-w05",
+        "item_id": "132-001",
+        "name": "马龙守御千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在州治北永乐二年建",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-132001-w06",
+        "item_id": "132-001",
+        "name": "乌撒卫后千户所",
+        "type": "weisuo",
+        "region": "云南",
+        "parent": "GEO-132001",
+        "children": [],
+        "volume_range": "卷132",
+        "attributes": {
+          "location_text": "在霑益州治西北隶贵州乌撒卫",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "益州郡味县",
+        "action": "因之",
+        "detail": "汉为益州郡味县地，禹贡梁州之界，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "蜀汉",
+        "era": null,
+        "institution_name": "建宁郡/兴古郡",
+        "action": "置",
+        "detail": "蜀汉改置建宁郡治味，后分置兴古郡治律高"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "宁州",
+        "action": "属",
+        "detail": "晋二郡俱属宁州，梁时有爨瓒者据其地，后分东西二爨而曲靖为西爨地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "恭协等州",
+        "action": "置",
+        "detail": "隋置恭协等州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "唐",
+        "era": "贞观",
+        "institution_name": "南宁州/曲州/靖州",
+        "action": "改",
+        "detail": "唐置南宁州治味县，及改恭州为曲州，分协州置靖州，贞观中俱属戎州都督府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "石城郡",
+        "action": "没",
+        "detail": "天宝末没于蛮，南诏蒙氏置石城郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "磨弥部",
+        "action": "因之",
+        "detail": "宋时大理段氏因之，后为磨弥部所据"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "曲靖路宣慰司",
+        "action": "升",
+        "detail": "元初置磨弥部万户，至元间改中路，后改为曲靖路，升宣慰司"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "曲靖军民府",
+        "action": "改",
+        "detail": "本朝洪武中改为曲靖军民府，领州四县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "青龙山",
+        "type": "山",
+        "location_text": "在府城东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "妙峰山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "负金山",
+        "type": "山",
+        "location_text": "在府城西南一十五里",
+        "description": "山皆青黑石，有石生一穴状若马蹄，水深尺余，郡中童子初学书必投其中然后汲以研墨，因号为王羲之砚池；其东北有山高百余仞，上有望夫石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "真峰山",
+        "type": "山",
+        "location_text": "在府城西南二十里",
+        "description": "峰峦秀丽多产花木",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "石堡山",
+        "type": "山",
+        "location_text": "在府城东南二十余里",
+        "description": "相传蜀汉诸葛亮征蛮时与诸酋会盟之所，其下温泉出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "石龙山",
+        "type": "山",
+        "location_text": "在霑益州东七里",
+        "description": "其西麓有一石蜿蜒如龙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "龙华山",
+        "type": "山",
+        "location_text": "在霑益州南五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "罗山",
+        "type": "山",
+        "location_text": "在霑益州东北九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "伯蒙山",
+        "type": "山",
+        "location_text": "在霑益州东南二百里",
+        "description": "高在诸山之上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "堆涌山",
+        "type": "山",
+        "location_text": "在霑益州东南二百里",
+        "description": "延袤二百一十里，峰峦堆突如涌出然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "曲靖东山",
+        "type": "山",
+        "location_text": "在霑益州南二百里",
+        "description": "山色苍翠宛然如画",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s02",
+        "name": "丘雄山",
+        "type": "山",
+        "location_text": "在陆梁州东七里",
+        "description": "上有方池水无盈缩，下有泉十八，一曰黑龙泉，岁旱祷雨辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s02",
+        "name": "木容山",
+        "type": "山",
+        "location_text": "在陆凉州西北二十五里",
+        "description": "峰峦林木苍翠可观",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s02",
+        "name": "满戍山",
+        "type": "山",
+        "location_text": "在陆梁州北二十里",
+        "description": "高出群山林木郁茂",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s02",
+        "name": "部封山",
+        "type": "山",
+        "location_text": "在陆凉州西四十里",
+        "description": "故芳华县近此山，高耸多花木",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s03",
+        "name": "伯刻山",
+        "type": "山",
+        "location_text": "在马龙州南六十里",
+        "description": "其东北有多罗山，皆峰峦峻峭怪石巉岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s03",
+        "name": "木容箐山",
+        "type": "山",
+        "location_text": "在马龙州东南六十里",
+        "description": "下有木容箐溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s03",
+        "name": "杨磨山",
+        "type": "山",
+        "location_text": "在马龙州西七十五里",
+        "description": "一名关索岭，上有关",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s04",
+        "name": "白蜡山",
+        "type": "山",
+        "location_text": "在罗雄州西南一十三里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s04",
+        "name": "罗庄山",
+        "type": "山",
+        "location_text": "在罗雄州东南六十里",
+        "description": "山多材木",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s04",
+        "name": "八部山",
+        "type": "山",
+        "location_text": "在罗雄州西南一十三里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s04",
+        "name": "禄布山",
+        "type": "山",
+        "location_text": "在罗雄州北八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c02",
+        "name": "旱改山",
+        "type": "山",
+        "location_text": "在亦佐县治东",
+        "description": "岁旱祷之即雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c02",
+        "name": "矣层山",
+        "type": "山",
+        "location_text": "在亦佐县治西",
+        "description": "山有清泉，居人皆汲饮之，夷语水为矣因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "潇湘江",
+        "type": "江",
+        "location_text": "在府城南",
+        "description": "源出马龙州木容箐溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-c01",
+        "name": "白石江",
+        "type": "江",
+        "location_text": "在府城北八里",
+        "description": "本朝洪武十四年西平侯沐英征云南，闻元司徒平章达里麻拥兵十余万屯曲靖，遂进师至白石江与之大战，擒达里麻，俘甲士二万于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "盘江",
+        "type": "江",
+        "location_text": "在霑益州",
+        "description": "有二源，北流曰北盘江，南流曰南盘江，环绕诸郡各流千余里，至平伐横山寨合焉，州据二江之间",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s01",
+        "name": "交河",
+        "type": "河",
+        "location_text": "在霑益州南一百八十里",
+        "description": "合盘江蜡溪二水故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s03",
+        "name": "东河",
+        "type": "河",
+        "location_text": "在马龙州治东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s03",
+        "name": "西河",
+        "type": "河",
+        "location_text": "在马龙州治西",
+        "description": "东流合东河入寻甸军民府界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s02",
+        "name": "中涎泽",
+        "type": "泽",
+        "location_text": "在丘雄山下",
+        "description": "源自南盘江，经府东南合潇湘江，至是汇焉；十八泉与南涧皆注其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s04",
+        "name": "喜旧溪",
+        "type": "溪",
+        "location_text": "在罗雄州",
+        "description": "源出龙甸村，流环州境，西至普安州入盘江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "132-001",
+        "geo_id": "GEO-132001-s03",
+        "name": "灵泉",
+        "type": "泉",
+        "location_text": "在马龙州西南三里",
+        "description": "水色清碧，民赖灌溉之利",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1名宦/pers2人物；sites拆至sites1寺观/sites2关梁学校"
+  },
+  "title": "曲靖军民府"
+}

@@ -1,0 +1,135 @@
+{
+  "item_id": "162-001",
+  "volume": "162",
+  "source": "大侯州",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "大侯州",
+        "type": "geo",
+        "norm": "大侯州",
+        "first_source": "162-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-162001",
+        "item_id": "162-001",
+        "name": "大侯州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷162",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "大侯州",
+        "action": "置",
+        "detail": "蛮名孟祐白夷所居元中统初内附属麓川路本朝洪武二十四年置大长官司后改为州编户四里"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "昔弥山",
+        "type": "山",
+        "location_text": "在州东六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "蛮赖山",
+        "type": "山",
+        "location_text": "在州西六十里",
+        "description": "其山多竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "八刺山",
+        "type": "山",
+        "location_text": "在州北八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "蛮弥山",
+        "type": "山",
+        "location_text": "在州南二百五十里",
+        "description": "林木隂森崖石壁立",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "阿轮山",
+        "type": "山",
+        "location_text": "在州西南三百里",
+        "description": "连峰叠巘四时苍翠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "澜沧江",
+        "type": "江",
+        "location_text": "在蛮弥山东南之麓",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "孟祐河",
+        "type": "河",
+        "location_text": "在州治东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "162-001",
+        "geo_id": "GEO-162001",
+        "name": "孟赖河",
+        "type": "河",
+        "location_text": "在州南八十里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "大侯州"
+}

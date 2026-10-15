@@ -1,0 +1,54 @@
+{
+  "item_id": "166-001",
+  "volume": "166",
+  "source": "麻里长官司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "麻里长官司",
+        "type": "geo",
+        "norm": "麻里长官司",
+        "first_source": "166-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-166001",
+        "item_id": "166-001",
+        "name": "麻里长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷166",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "166-001",
+        "geo_id": "GEO-166001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "麻里长官司",
+        "action": "置",
+        "detail": "本朝【阙】　　　　年置"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "麻里长官司"
+}

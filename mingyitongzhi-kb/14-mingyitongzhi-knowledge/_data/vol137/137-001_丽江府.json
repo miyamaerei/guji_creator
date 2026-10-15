@@ -1,0 +1,564 @@
+{
+  "item_id": "137-001",
+  "volume": "137",
+  "source": "丽江军民府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "丽江军民府",
+        "type": "geo",
+        "norm": "丽江军民府",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "通安州",
+        "type": "geo",
+        "norm": "通安州",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "宝山州",
+        "type": "geo",
+        "norm": "宝山州",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-S03",
+        "name": "兰州",
+        "type": "geo",
+        "norm": "兰州",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-S04",
+        "name": "巨津州",
+        "type": "geo",
+        "norm": "巨津州",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K001",
+        "name": "东山",
+        "type": "mtn",
+        "norm": "东山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K002",
+        "name": "雪山",
+        "type": "mtn",
+        "norm": "雪山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K003",
+        "name": "珊碧外龙山",
+        "type": "mtn",
+        "norm": "珊碧外龙山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K004",
+        "name": "阿那山",
+        "type": "mtn",
+        "norm": "阿那山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K005",
+        "name": "珊兰阁山",
+        "type": "mtn",
+        "norm": "珊兰阁山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K006",
+        "name": "雪盘山",
+        "type": "mtn",
+        "norm": "雪盘山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K007",
+        "name": "福源山",
+        "type": "mtn",
+        "norm": "福源山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K008",
+        "name": "金马山",
+        "type": "mtn",
+        "norm": "金马山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K009",
+        "name": "华马山",
+        "type": "mtn",
+        "norm": "华马山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K010",
+        "name": "汉薮山",
+        "type": "mtn",
+        "norm": "汉薮山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K011",
+        "name": "果铺山",
+        "type": "mtn",
+        "norm": "果铺山",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K012",
+        "name": "金沙江",
+        "type": "mtn",
+        "norm": "金沙江",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K013",
+        "name": "澜沧江",
+        "type": "mtn",
+        "norm": "澜沧江",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K014",
+        "name": "清溪",
+        "type": "mtn",
+        "norm": "清溪",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-K015",
+        "name": "白石溪",
+        "type": "mtn",
+        "norm": "白石溪",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-P001",
+        "name": "麦宗",
+        "type": "person",
+        "norm": "麦宗",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-P002",
+        "name": "麦良",
+        "type": "person",
+        "norm": "麦良",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-SK001",
+        "name": "雪山门",
+        "type": "site",
+        "norm": "雪山门",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-SK002",
+        "name": "铁桥",
+        "type": "site",
+        "norm": "铁桥",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-SK003",
+        "name": "大匮寨",
+        "type": "site",
+        "norm": "大匮寨",
+        "first_source": "137-001"
+      },
+      {
+        "ent_id": "ENT-SK004",
+        "name": "白马寨",
+        "type": "site",
+        "norm": "白马寨",
+        "first_source": "137-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-137001",
+        "item_id": "137-001",
+        "name": "丽江军民府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-137001-s01",
+          "GEO-137001-s02",
+          "GEO-137001-s03",
+          "GEO-137001-s04"
+        ],
+        "volume_range": "卷137",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "澜沧卫浪蕖州界",
+              "distance_li": 180
+            },
+            {
+              "direction": "西",
+              "to_place": "西番浪沧江",
+              "distance_li": 200
+            },
+            {
+              "direction": "南",
+              "to_place": "鹤庆军民府界",
+              "distance_li": 70
+            },
+            {
+              "direction": "北",
+              "to_place": "永宁府革甸长官司界",
+              "distance_li": 320
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8300
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11760
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州四"
+          },
+          "grain_tax": {
+            "amount": 2100,
+            "unit": "石",
+            "note": "粮二千一百石零"
+          },
+          "jun_name": "丽江【元名】",
+          "topography": "东有丽水西有澜沧南接大理北距吐蕃【元志】；丽江环带三面【元史宝山州在雪山之东丽江西来环带三面】；大理要害地【巨津州北接三川铁桥西邻吐蕃实大理西北陬要害地】；横连千里雄据九赕【旧志】",
+          "customs": "衣同汉制【元志汉裳蛮本汉人部种在铁桥惟以朝霞缠头余同汉服】；俗不颒泽【麽些蛮与施蛮皆乌蛮种俗不颒泽好饮酒歌舞】；善骑射最勇厉【旧志】"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-137001-s01",
+        "item_id": "137-001",
+        "name": "通安州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-137001",
+        "children": [],
+        "volume_range": "卷137",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "编户一十三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-137001-s02",
+        "item_id": "137-001",
+        "name": "宝山州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-137001",
+        "children": [],
+        "volume_range": "卷137",
+        "attributes": {
+          "location_text": "在府城东二百四十五里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-137001-s03",
+        "item_id": "137-001",
+        "name": "兰州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-137001",
+        "children": [],
+        "volume_range": "卷137",
+        "attributes": {
+          "location_text": "在府西三百六十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-137001-s04",
+        "item_id": "137-001",
+        "name": "巨津州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-137001",
+        "children": [],
+        "volume_range": "卷137",
+        "attributes": {
+          "location_text": "在府西北三百里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "禹贡梁州之界",
+        "action": "因之",
+        "detail": "禹贡梁州之界，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": null,
+        "action": "越嶲益州二郡",
+        "detail": "汉为越嶲益州二郡地东汉兼属永昌"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": null,
+        "action": "嶲州",
+        "detail": "隋属嶲州唐因之"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": null,
+        "action": "丽水节度",
+        "detail": "太和以后没于蛮为越析诏后地属南诏于此置丽水节度"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": null,
+        "action": "麽些蛮",
+        "detail": "宋时为麽些蛮酋蒙醋醋所据大理莫能有"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": null,
+        "action": "茶罕章宣慰司/丽江路",
+        "detail": "元初讨平之置茶罕章宣慰司至元中改置丽江路军民总管府后罢府置宣抚司"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": null,
+        "action": "丽江军民府",
+        "detail": "本朝洪武十五年改丽江府后改军民府领州四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "东山",
+        "type": "山",
+        "location_text": "在府东二十里",
+        "description": "一名吴烈山峰峦起伏环拱府城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "雪山",
+        "type": "山",
+        "location_text": "在府西北二十余里",
+        "description": "一名玉龙山条冈百里岿巍千峰上插霄汉下临丽水山颠积雪经春不消岩崖涧谷清泉飞流蒙氏异牟寻封为北岳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "珊碧外龙山",
+        "type": "山",
+        "location_text": "在府西南二十里",
+        "description": "孤峰巉崒多产箭竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s02",
+        "name": "阿那山",
+        "type": "山",
+        "location_text": "在宝山州西南一十五里",
+        "description": "上有阿那和寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s02",
+        "name": "珊兰阁山",
+        "type": "山",
+        "location_text": "在宝山州北八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s03",
+        "name": "雪盘山",
+        "type": "山",
+        "location_text": "在兰州南二十里",
+        "description": "四时常积雪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s03",
+        "name": "福源山",
+        "type": "山",
+        "location_text": "在兰州治北",
+        "description": "延亘东南五十余里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s04",
+        "name": "金马山",
+        "type": "山",
+        "location_text": "在巨津州东北二十里",
+        "description": "有石五色状如马",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s04",
+        "name": "华马山",
+        "type": "山",
+        "location_text": "在巨津州东南一百五十里",
+        "description": "石壁有石色斑斓类花马麽些诏名其国曰花马国者本此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s04",
+        "name": "汉薮山",
+        "type": "山",
+        "location_text": "在巨津州西北二百八十里",
+        "description": "高可万仞上有三湖各宽五亩深不可测",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "果铺山",
+        "type": "山",
+        "location_text": "在故临西县治西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "金沙江",
+        "type": "江",
+        "location_text": "",
+        "description": "古名丽水水源出吐蕃界犁石下名犁水讹犁为丽流经巨津宝山二州江出沙金故名元宪宗三年征大理从金沙济江即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "澜沧江",
+        "type": "江",
+        "location_text": "",
+        "description": "源出吐蕃嵯和歌甸流经兰州西北三十里东汉永平中始通博南山道渡澜沧水即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001",
+        "name": "清溪",
+        "type": "水",
+        "location_text": "",
+        "description": "其源有二一出东山一出雪山至东圆里合流绕府城前灌溉之利甚溥",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "137-001",
+        "geo_id": "GEO-137001-s03",
+        "name": "白石溪",
+        "type": "水",
+        "location_text": "在兰州治南",
+        "description": "中多白石",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers2；sites拆至sites2"
+  },
+  "title": "丽江军民府"
+}

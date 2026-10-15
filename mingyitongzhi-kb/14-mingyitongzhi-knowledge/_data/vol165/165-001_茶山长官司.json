@@ -1,0 +1,54 @@
+{
+  "item_id": "165-001",
+  "volume": "165",
+  "source": "茶山长官司",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "茶山长官司",
+        "type": "geo",
+        "norm": "茶山长官司",
+        "first_source": "165-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-165001",
+        "item_id": "165-001",
+        "name": "茶山长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷165",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "165-001",
+        "geo_id": "GEO-165001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "茶山长官司",
+        "action": "置",
+        "detail": "本朝【阙】　　　　年置"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "茶山长官司"
+}

@@ -1,0 +1,809 @@
+{
+  "item_id": "122-001",
+  "volume": "122",
+  "source": "澂江府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "澂江府",
+        "type": "geo",
+        "norm": "澂江府",
+        "first_source": "122-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "河阳县",
+        "type": "geo",
+        "norm": "河阳县",
+        "first_source": "122-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "江川县",
+        "type": "geo",
+        "norm": "江川县",
+        "first_source": "122-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "阳宗县",
+        "type": "geo",
+        "norm": "阳宗县",
+        "first_source": "122-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "新兴州",
+        "type": "geo",
+        "norm": "新兴州",
+        "first_source": "122-001"
+      },
+      {
+        "ent_id": "ENT-S02",
+        "name": "路南州",
+        "type": "geo",
+        "norm": "路南州",
+        "first_source": "122-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-122001",
+        "item_id": "122-001",
+        "name": "澂江府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-122001-c01",
+          "GEO-122001-c02",
+          "GEO-122001-c03",
+          "GEO-122001-s01",
+          "GEO-122001-s02"
+        ],
+        "volume_range": "卷122",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "广西府弥勒州界",
+              "distance_li": 200
+            },
+            {
+              "direction": "南",
+              "to_place": "临安府宁州界",
+              "distance_li": 90
+            },
+            {
+              "direction": "西",
+              "to_place": "云南府晋宁州界",
+              "distance_li": 25
+            },
+            {
+              "direction": "北",
+              "to_place": "云南府宜良县界",
+              "distance_li": 55
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7300
+            },
+            {
+              "capital": "京师",
+              "distance_li": 10745
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州二县三；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 9080,
+            "unit": "石",
+            "note": "粮九千八十石零"
+          },
+          "jun_name": "河阳【蒙氏名】",
+          "topography": "山水明秀【澂江志东跨旸溥西倚涌拔回抚仙而背罗藏山水明秀之地】；崎岖崖石地鲜平夷【云南志】；有湖山之胜【旧志南北有湖山之胜东西分云南广西之间】",
+          "customs": "蚕衣耕食民安于富【云南志】；其性质野其俗豪强【元志】；嚚讼难理【蒙麽徒白子二种赋性顽愚常怀嫉恶嚚讼难理】"
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006"
+        ]
+      },
+      {
+        "geo_id": "GEO-122001-c01",
+        "item_id": "122-001",
+        "name": "河阳县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-122001",
+        "children": [],
+        "volume_range": "卷122",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-122001-c02",
+        "item_id": "122-001",
+        "name": "江川县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-122001",
+        "children": [],
+        "volume_range": "卷122",
+        "attributes": {
+          "location_text": "在府东南六十里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-122001-c03",
+        "item_id": "122-001",
+        "name": "阳宗县",
+        "type": "county",
+        "region": "云南",
+        "parent": "GEO-122001",
+        "children": [],
+        "volume_range": "卷122",
+        "attributes": {
+          "location_text": "在府城北四十里",
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "编户五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-122001-s01",
+        "item_id": "122-001",
+        "name": "新兴州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-122001",
+        "children": [],
+        "volume_range": "卷122",
+        "attributes": {
+          "location_text": "在府西一百二十里",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-122001-s02",
+        "item_id": "122-001",
+        "name": "路南州",
+        "type": "department",
+        "region": "云南",
+        "parent": "GEO-122001",
+        "children": [],
+        "volume_range": "卷122",
+        "attributes": {
+          "location_text": "在府东一百三十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "梁州之界",
+        "action": "因之",
+        "detail": "禹贡梁州之界，天文井鬼分野，古西南夷"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "战国楚",
+        "era": null,
+        "institution_name": "滇国地",
+        "action": "因之",
+        "detail": "战国楚时为滇国地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "汉",
+        "era": "元封",
+        "institution_name": "俞元县/益州郡",
+        "action": "置",
+        "detail": "汉元封初置俞元县属益州郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "蜀汉",
+        "era": null,
+        "institution_name": "建宁郡",
+        "action": "因之",
+        "detail": "蜀汉属建宁郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "梁",
+        "era": null,
+        "institution_name": "南宁州",
+        "action": "因之",
+        "detail": "梁属南宁州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "昆州",
+        "action": "因之",
+        "detail": "隋置昆州此地属焉"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "南宁/昆二州/罗伽甸",
+        "action": "没",
+        "detail": "唐为南宁昆二州地，天宝末没于蛮号罗伽甸；初麽些蛮居之后为僰蛮所夺"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "南诏",
+        "era": null,
+        "institution_name": "河阳郡",
+        "action": "置",
+        "detail": "南诏蒙氏于此置河阳郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "宋大理",
+        "era": null,
+        "institution_name": "三部/罗伽部",
+        "action": "析",
+        "detail": "宋时大理段氏析蛮为三部曰强宗曰休制曰步雄；其步雄部后居罗伽甸者号罗伽部"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "罗伽万户府/中路/澂江路",
+        "action": "改",
+        "detail": "元置罗伽万户府后改为中路，至元中改置澂江路属云南行省"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "澂江府",
+        "action": "改",
+        "detail": "本朝洪武十五年改为澂江府，领州二县三"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "金莲山",
+        "type": "山",
+        "location_text": "在府治",
+        "description": "一名龟山，高圆平正如莲花然，府治学校皆建其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "罗藏山",
+        "type": "山",
+        "location_text": "在府治西北",
+        "description": "东汉志曰装山出铜，后讹曰藏；又蛮语虎棚为罗藏，谓造棚以射虎也。其上宽平有龙湫，时兴云雾，元梁王结寨其上，又名梁王山。南有泉流为罗藏溪南入抚仙湖，北有泉流为锦溪经阳宗县西，西有泉流为弥勒石溪经阳宗县东，俱入于明湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "玗扎山",
+        "type": "山",
+        "location_text": "在府治北",
+        "description": "一名无诈，今名乌劄；其麓有泉流为玗扎溪，南入抚仙湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "旸溥山",
+        "type": "山",
+        "location_text": "在府治东南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "涌拔山",
+        "type": "山",
+        "location_text": "在府西南三十里",
+        "description": "屹立抚仙湖不与群山接，高耸独秀状如玉笋，又名玉笋山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "西山",
+        "type": "山",
+        "location_text": "在江川县西四里",
+        "description": "峰峦起伏，山麓多泉合流入星云湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "蟠坤山",
+        "type": "山",
+        "location_text": "在江川县南一十五里",
+        "description": "东临抚仙湖，西际星云湖，山顶皆石赭无草木",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "屈颡颠山",
+        "type": "山",
+        "location_text": "在江川县北一十五里",
+        "description": "昔有猎于是山终日而不获一，土人谓屈为犬、颡为惜、颠为劳而无获，因名屈颡颠山；势如寨，其半涌泉三派，西入滇池，东入抚仙湖，南为阿件溪入星云湖，溉田极为民利",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "绿笼山",
+        "type": "山",
+        "location_text": "在江川县西北一十五里",
+        "description": "林木苍翠，下有泉为六部溪，东南入星云湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c03",
+        "name": "夹浦山",
+        "type": "山",
+        "location_text": "在阳宗县治西",
+        "description": "弥勒石溪及冷水塘三水夹之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c03",
+        "name": "碁和山",
+        "type": "山",
+        "location_text": "在阳宗县南东二里",
+        "description": "顶若碁坪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c03",
+        "name": "化石祖山",
+        "type": "山",
+        "location_text": "在阳宗县西北七里",
+        "description": "其南有泉流为曰角溪，东北入明湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "奇梨山",
+        "type": "山",
+        "location_text": "在新兴州治西",
+        "description": "林木茂蔚，下有泉流为奇梨溪，入大溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "灵照山",
+        "type": "山",
+        "location_text": "在新兴州东一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "大棋山",
+        "type": "山",
+        "location_text": "在新兴州西北一十五里",
+        "description": "上有石，俗传有仙弈碁于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "罗麽山",
+        "type": "山",
+        "location_text": "在新兴州东北二十里",
+        "description": "今名石崖山，下有白龙泉流为罗麽溪，九曲入于大溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "蒙习山",
+        "type": "山",
+        "location_text": "在新兴州西北七十里",
+        "description": "一名适饥山，山顶与晋宁州分界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "照镜山",
+        "type": "山",
+        "location_text": "在路南州西北二里",
+        "description": "前有池如镜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "休柔山",
+        "type": "山",
+        "location_text": "在路南州北一十五里",
+        "description": "今名九盘山，下有泉流为休柔溪，南入盘江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "遮日山",
+        "type": "山",
+        "location_text": "在路南州东南一十五里",
+        "description": "今名些亦山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "劄龙山",
+        "type": "山",
+        "location_text": "在路南州东八十里",
+        "description": "峰峦高耸，下有小石可以链铜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "羊鼻山",
+        "type": "山",
+        "location_text": "在旧邑市县东北一十五里",
+        "description": "山顶有泉流灌田亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "木龙山",
+        "type": "山",
+        "location_text": "在旧邑市县东南一十五里",
+        "description": "高可五百余仞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "铁赤河",
+        "type": "河",
+        "location_text": "在路南州西四十里",
+        "description": "源自陆凉州，经邑市县过瓦渡龙溪普双龙溪，至州境西南又过兴宁溪，下流入盘溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "巴盘江",
+        "type": "江",
+        "location_text": "源自陆凉州",
+        "description": "流经路南州邑市宜良，入广西府界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "抚仙湖",
+        "type": "湖",
+        "location_text": "在府治南",
+        "description": "周二百余里，一名罗伽湖，一名青鱼戏月湖；渟蓄清澈其中多石，东流入盘江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "星云湖",
+        "type": "湖",
+        "location_text": "在江川县治南",
+        "description": "周八十余里，东流五里入抚仙湖，两湖相通鱼不往来",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c03",
+        "name": "明湖",
+        "type": "湖",
+        "location_text": "在阳宗县北",
+        "description": "一名曰夷休，一名阳宗湖；湖源出罗蔵山下流入元江，周七十余里，两崖陡绝，山水黑色鱼味甚美",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "龙泉溪",
+        "type": "溪",
+        "location_text": "在府西一十五里",
+        "description": "乱石中流入抚仙湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "大溪",
+        "type": "溪",
+        "location_text": "源出夹雄山",
+        "description": "自新兴州东北流绕西南，过罗麽奇梨二溪，出嶍峨县入曲江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "空谷泉",
+        "type": "泉",
+        "location_text": "在府治东北",
+        "description": "汇而为池，春时颇温，浴之可去痒疴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "双井温泉",
+        "type": "泉",
+        "location_text": "在江川县海西村",
+        "description": "两井皆温泉，流入星云湖；邑市县治北亦有温泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c02",
+        "name": "冷水泉",
+        "type": "泉",
+        "location_text": "在江川县西北七里",
+        "description": "源出西山，流入星云湖；旧邑市县东亦有冷泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "北坡泉",
+        "type": "泉",
+        "location_text": "在府治北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "西浦泉",
+        "type": "泉",
+        "location_text": "在府西十一里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "黑龙泉",
+        "type": "泉",
+        "location_text": "在路南州东八里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "莲花池",
+        "type": "池",
+        "location_text": "在新兴州北一十里",
+        "description": "下流入于大溪",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s02",
+        "name": "铜",
+        "note": "路南州出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "铁",
+        "note": "新兴州出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "鲌鮮鱼",
+        "note": "河阳县出，一名康郎鱼，云南诸府买为瘴药"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c03",
+        "name": "青鱼胆",
+        "note": "明湖出，可疗恶疮化痰"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c03",
+        "name": "毛褐毡茶",
+        "note": "阳宗县出"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-c01",
+        "name": "仙茅",
+        "note": "河阳县出"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "122-001",
+        "geo_id": "GEO-122001-s01",
+        "name": "麝",
+        "note": "新兴州出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "122-001",
+        "cited_work": "澂江志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【澂江志东跨旸溥西倚涌拔回抚仙而背罗藏山水明秀之地】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "122-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志崎岖崖石地鲜平夷】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "122-001",
+        "cited_work": "旧志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【旧志南北有湖山之胜东西分云南广西之间】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "122-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志蚕衣耕食民安于富】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "122-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元志其性质野其俗豪强】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "122-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【蒙麽徒白子二种赋性顽愚常怀嫉恶嚚讼难理】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers2；sites拆至sites1/2"
+  },
+  "title": "澂江府"
+}

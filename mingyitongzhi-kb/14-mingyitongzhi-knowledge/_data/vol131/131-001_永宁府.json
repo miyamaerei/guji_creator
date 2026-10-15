@@ -1,0 +1,461 @@
+{
+  "item_id": "131-001",
+  "volume": "131",
+  "source": "永宁府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "永宁府",
+        "type": "geo",
+        "norm": "永宁府",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "刺次和长官司",
+        "type": "geo",
+        "norm": "刺次和长官司",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-T02",
+        "name": "革甸长官司",
+        "type": "geo",
+        "norm": "革甸长官司",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-T03",
+        "name": "香罗长官司",
+        "type": "geo",
+        "norm": "香罗长官司",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-T04",
+        "name": "瓦鲁之长官司",
+        "type": "geo",
+        "norm": "瓦鲁之长官司",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K干木山",
+        "name": "干木山",
+        "type": "mtn",
+        "norm": "干木山",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K六揑山",
+        "name": "六揑山",
+        "type": "mtn",
+        "norm": "六揑山",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K干如山",
+        "name": "干如山",
+        "type": "mtn",
+        "norm": "干如山",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K卜兀山",
+        "name": "卜兀山",
+        "type": "mtn",
+        "norm": "卜兀山",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K刺不山",
+        "name": "刺不山",
+        "type": "mtn",
+        "norm": "刺不山",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K勒汲河",
+        "name": "勒汲河",
+        "type": "mtn",
+        "norm": "勒汲河",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K泸沽湖",
+        "name": "泸沽湖",
+        "type": "mtn",
+        "norm": "泸沽湖",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K鲁窟海子",
+        "name": "鲁窟海子",
+        "type": "mtn",
+        "norm": "鲁窟海子",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K罗易江",
+        "name": "罗易江",
+        "type": "mtn",
+        "norm": "罗易江",
+        "first_source": "131-001"
+      },
+      {
+        "ent_id": "ENT-K永宁寺",
+        "name": "永宁寺",
+        "type": "site",
+        "norm": "永宁寺",
+        "first_source": "131-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-131001",
+        "item_id": "131-001",
+        "name": "永宁府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-131001-t01",
+          "GEO-131001-t02",
+          "GEO-131001-t03",
+          "GEO-131001-t04"
+        ],
+        "volume_range": "卷131",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "四川行都司盐井卫界",
+              "distance_li": 15
+            },
+            {
+              "direction": "西",
+              "to_place": "丽江军民府宝山州界",
+              "distance_li": 100
+            },
+            {
+              "direction": "南",
+              "to_place": "澜沧卫浪蕖州界",
+              "distance_li": 150
+            },
+            {
+              "direction": "北",
+              "to_place": "西番界",
+              "distance_li": 330
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8660
+            },
+            {
+              "capital": "京师",
+              "distance_li": 12100
+            }
+          ],
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "亲领编户四里；领长官司四"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": ""
+          },
+          "jun_name": "",
+          "topography": "山川险阻【云南志襟丽江带三湖地广人稀山川险阻】",
+          "customs": "人物勇厉【云南志人物勇厉气习朴野衣重毡以备战斗】",
+          "garrisons": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002"
+        ]
+      },
+      {
+        "geo_id": "GEO-131001-t01",
+        "item_id": "131-001",
+        "name": "刺次和长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-131001",
+        "children": [],
+        "volume_range": "卷131",
+        "attributes": {
+          "location_text": "在府东北二百四十里",
+          "established": "本朝永乐四年置"
+        }
+      },
+      {
+        "geo_id": "GEO-131001-t02",
+        "item_id": "131-001",
+        "name": "革甸长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-131001",
+        "children": [],
+        "volume_range": "卷131",
+        "attributes": {
+          "location_text": "在府西北一百二十里",
+          "established": "本朝永乐四年置"
+        }
+      },
+      {
+        "geo_id": "GEO-131001-t03",
+        "item_id": "131-001",
+        "name": "香罗长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-131001",
+        "children": [],
+        "volume_range": "卷131",
+        "attributes": {
+          "location_text": "在府北一百五十里",
+          "established": "本朝永乐四年置"
+        }
+      },
+      {
+        "geo_id": "GEO-131001-t04",
+        "item_id": "131-001",
+        "name": "瓦鲁之长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-131001",
+        "children": [],
+        "volume_range": "卷131",
+        "attributes": {
+          "location_text": "在府北三百八十里",
+          "established": "本朝永乐四年置"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "上古",
+        "era": null,
+        "institution_name": "楼头赕/答蓝",
+        "action": "因之",
+        "detail": "昔名楼头赕，地接吐蕃，又名答蓝"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "南诏蒙氏地",
+        "action": "属",
+        "detail": "唐时属南诏蒙氏"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "麽些蛮地",
+        "action": "据",
+        "detail": "后为麽些蛮所据"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "大理段氏地",
+        "action": "属",
+        "detail": "宋时属大理段氏"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "元",
+        "era": "宪宗",
+        "institution_name": "内附",
+        "action": "内附",
+        "detail": "元宪宗时内附"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "答蓝管民官/永宁州",
+        "action": "改置",
+        "detail": "至元间置答蓝管民官，寻改置永宁州，属北胜府"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "明",
+        "era": "洪武中",
+        "institution_name": "鹤庆府",
+        "action": "改属",
+        "detail": "本朝洪武中属鹤庆府"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "明",
+        "era": "洪武二十九年",
+        "institution_name": "澜沧卫",
+        "action": "改属",
+        "detail": "二十九年改属澜沧卫"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "dynasty": "明",
+        "era": "永乐四年",
+        "institution_name": "永宁府",
+        "action": "升",
+        "detail": "永乐四年升为府，亲领编户四里，领长官司四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "name": "干木山",
+        "type": "山",
+        "location_text": "在府东南一十五里",
+        "description": "一名孤山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001-t01",
+        "name": "六揑山",
+        "type": "山",
+        "location_text": "在刺次和长官司治西北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001-t02",
+        "name": "干如山",
+        "type": "山",
+        "location_text": "在革甸长官司治北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001-t03",
+        "name": "卜兀山",
+        "type": "山",
+        "location_text": "在香罗长官司治西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001-t04",
+        "name": "刺不山",
+        "type": "山",
+        "location_text": "在瓦鲁之长官司东北三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "name": "勒汲河",
+        "type": "河",
+        "location_text": "源出西番流经府治北东入盐井卫界",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "name": "泸沽湖",
+        "type": "湖",
+        "location_text": "在府东三十里",
+        "description": "周三百里中有三岛",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "name": "鲁窟海子",
+        "type": "湖",
+        "location_text": "在干木山下",
+        "description": "周回一百里中有小山名水寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "name": "罗易江",
+        "type": "江",
+        "location_text": "源自浪蕖州北流过府境",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "131-001",
+        "geo_id": "GEO-131001",
+        "name": "永宁寺",
+        "location_text": "在府治北三里",
+        "description": ""
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "131-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【云南志襟丽江带三湖地广人稀山川险阻】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "131-001",
+        "cited_work": "云南志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【云南志人物勇厉气习朴野衣重毡以备战斗】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "薄府单主文件；sites1 永宁寺"
+  },
+  "title": "永宁府"
+}

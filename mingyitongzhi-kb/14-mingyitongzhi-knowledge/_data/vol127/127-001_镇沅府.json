@@ -1,0 +1,412 @@
+{
+  "item_id": "127-001",
+  "volume": "127",
+  "source": "镇沅府",
+  "region": "云南",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "镇沅府",
+        "type": "geo",
+        "norm": "镇沅府",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "禄谷寨长官司",
+        "type": "geo",
+        "norm": "禄谷寨长官司",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K案板山",
+        "name": "案板山",
+        "type": "mtn",
+        "norm": "案板山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K石山",
+        "name": "石山",
+        "type": "mtn",
+        "norm": "石山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K波弄山",
+        "name": "波弄山",
+        "type": "mtn",
+        "norm": "波弄山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K鸟连山",
+        "name": "鸟连山",
+        "type": "mtn",
+        "norm": "鸟连山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K马容山",
+        "name": "马容山",
+        "type": "mtn",
+        "norm": "马容山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K小不旧山",
+        "name": "小不旧山",
+        "type": "mtn",
+        "norm": "小不旧山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K石罗山",
+        "name": "石罗山",
+        "type": "mtn",
+        "norm": "石罗山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K纳罗山",
+        "name": "纳罗山",
+        "type": "mtn",
+        "norm": "纳罗山",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K杉木江",
+        "name": "杉木江",
+        "type": "mtn",
+        "norm": "杉木江",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K马涌江",
+        "name": "马涌江",
+        "type": "mtn",
+        "norm": "马涌江",
+        "first_source": "127-001"
+      },
+      {
+        "ent_id": "ENT-K南浪江",
+        "name": "南浪江",
+        "type": "mtn",
+        "norm": "南浪江",
+        "first_source": "127-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-127001",
+        "item_id": "127-001",
+        "name": "镇沅府",
+        "type": "prefecture",
+        "region": "云南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-127001-t01"
+        ],
+        "volume_range": "卷127",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "者乐甸长官司界",
+              "distance_li": 200
+            },
+            {
+              "direction": "西",
+              "to_place": "景东府界",
+              "distance_li": 30
+            },
+            {
+              "direction": "南",
+              "to_place": "威远州界",
+              "distance_li": 30
+            },
+            {
+              "direction": "北",
+              "to_place": "楚雄府南安州界",
+              "distance_li": 200
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 8600
+            },
+            {
+              "capital": "京师",
+              "distance_li": 12450
+            }
+          ],
+          "households": {
+            "count": 5,
+            "unit": "里",
+            "note": "亲领编户五里；领长官司一"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮一百石零"
+          },
+          "jun_name": "",
+          "topography": "依山为郡【郡志】",
+          "customs": "妇勤耕蚕【郡志妇人勤蚕绩务耕作而略无少暇产子即浴于江归付其夫】；信巫祀鬼【郡志土人有病不事医药惟信巫祀鬼而已】",
+          "garrisons": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003"
+        ]
+      },
+      {
+        "geo_id": "GEO-127001-t01",
+        "item_id": "127-001",
+        "name": "禄谷寨长官司",
+        "type": "tusi",
+        "region": "云南",
+        "parent": "GEO-127001",
+        "children": [],
+        "volume_range": "卷127",
+        "attributes": {
+          "location_text": "在府城东北二百五十里",
+          "established": "本朝永乐十年建"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "上古",
+        "era": null,
+        "institution_name": "西南极边地",
+        "action": "因之",
+        "detail": "古西南极边地，濮落杂蛮所居"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "银生府",
+        "action": "属",
+        "detail": "唐时南诏蒙氏为银生府之地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "金齿白夷地",
+        "action": "侵夺",
+        "detail": "其后金齿白夷侵夺其地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "大理段氏地",
+        "action": "莫能复",
+        "detail": "宋时大理段氏莫能复"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "威远州",
+        "action": "内附",
+        "detail": "元初内附，属威远州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "案板寨/元江路",
+        "action": "置",
+        "detail": "后置案板寨，属元江路"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "明",
+        "era": "洪武末",
+        "institution_name": "镇沅州",
+        "action": "改置",
+        "detail": "本朝洪武末改置镇沅州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "dynasty": "明",
+        "era": "永乐初",
+        "institution_name": "镇沅府",
+        "action": "升",
+        "detail": "永乐初升为府，亲领编户五里，领长官司一"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "name": "案板山",
+        "type": "山",
+        "location_text": "在府治北",
+        "description": "形如几案旧寨以此名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "name": "石山",
+        "type": "山",
+        "location_text": "在府治东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "name": "波弄山",
+        "type": "山",
+        "location_text": "在府治西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "name": "鸟连山",
+        "type": "山",
+        "location_text": "在府治东北",
+        "description": "鸟常集焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001-t01",
+        "name": "马容山",
+        "type": "山",
+        "location_text": "在禄谷寨长官司北八十里",
+        "description": "高千余丈根盘数百里石路狭隘仅容一马",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001-t01",
+        "name": "小不旧山",
+        "type": "山",
+        "location_text": "在禄谷寨东一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001-t01",
+        "name": "石罗山",
+        "type": "山",
+        "location_text": "在禄谷寨南一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001-t01",
+        "name": "纳罗山",
+        "type": "山",
+        "location_text": "在禄谷寨西二百里",
+        "description": "山多虎豹土人呼藏为纳虎为罗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001",
+        "name": "杉木江",
+        "type": "江",
+        "location_text": "源出者乐甸流经府治南下流入威远州界",
+        "description": "江岸多产杉木",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001-t01",
+        "name": "马涌江",
+        "type": "江",
+        "location_text": "源自纳楼茶甸经禄谷寨东下流合南浪江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "127-001",
+        "geo_id": "GEO-127001-t01",
+        "name": "南浪江",
+        "type": "江",
+        "location_text": "源出纳罗山经禄谷寨南下流入宁远州界",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "127-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【郡志依山为郡】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "127-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志妇人勤蚕绩务耕作而略无少暇产子即浴于江归付其夫】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "127-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志土人有病不事医药惟信巫祀鬼而已】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "薄府单主文件"
+  },
+  "title": "镇沅府"
+}
