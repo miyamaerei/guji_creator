@@ -79,7 +79,21 @@ zero_layer = [iid for iid in registry if not covered[iid]]
 if zero_layer:
     gaps.append(f"{len(zero_layer)} 条 0 层记录: {zero_layer}")
 
-# 5. 报告
+# 5. 源文件完整性检查（防止 registry 有条目但 _data/volNN/ 无源文件）
+import glob
+missing_source = []
+for iid, r in registry.items():
+    vol = r.get("volume")
+    if vol is None: continue
+    vol_dir = os.path.join(ROOT, "_data", f"vol{int(vol):02d}")
+    # 找文件名以 {iid}_ 开头的文件
+    found = glob.glob(os.path.join(vol_dir, f"{iid}_*.json"))
+    if not found:
+        missing_source.append(iid)
+if missing_source:
+    errors.append(f"[source] {len(missing_source)} 条 registry 条目无对应 _data/volNN/ 源文件: {missing_source}")
+
+# 6. 报告
 print(f"\n=== 各层条数 ===")
 for n, rs in [("ent",ents),("geo",geos),("evo",evos),("mtn",mtns),("per",pers),("site",sites),("cit",cits)]:
     print(f"  {n}: {len(rs)}")

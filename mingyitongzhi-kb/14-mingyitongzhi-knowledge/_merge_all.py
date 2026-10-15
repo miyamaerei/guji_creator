@@ -52,3 +52,16 @@ for out,recs in layers_now.items():
 print(f"+registry {added_reg}, total {len(registry)}")
 print(f"+layers: {added_layer}")
 print(f"total: { {k:len(v) for k,v in layers_now.items()} }")
+
+# 源文件完整性警告：registry 有条目但 _data/volNN/ 下无源文件
+scanned_iids = set()
+for vol_dir in sorted(glob.glob(os.path.join(DATA,"vol*/"))):
+    for f in sorted(glob.glob(os.path.join(vol_dir,"*.json"))):
+        base = os.path.basename(f)
+        parts = base.split("_")
+        if len(parts) >= 2:
+            scanned_iids.add(parts[0])
+missing = [iid for iid in registry if iid not in scanned_iids]
+if missing:
+    print(f"⚠️  WARNING: {len(missing)} 条 registry 条目无 _data/volNN/ 源文件: {missing}")
+    print(f"   这些条目重建后会变成 0 层占位，必须拆分源文件入 volNN/ 目录")
