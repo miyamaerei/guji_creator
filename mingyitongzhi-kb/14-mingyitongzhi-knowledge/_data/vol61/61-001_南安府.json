@@ -1,0 +1,1169 @@
+{
+  "item_id": "61-001",
+  "volume": "61",
+  "source": "南安府",
+  "region": "江西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "南安府",
+        "type": "geo",
+        "norm": "南安府",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "大庾县",
+        "type": "geo",
+        "norm": "大庾县",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "南康县",
+        "type": "geo",
+        "norm": "南康县",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "上犹县",
+        "type": "geo",
+        "norm": "上犹县",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "崇义县",
+        "type": "geo",
+        "norm": "崇义县",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "南安守御千户所",
+        "type": "geo",
+        "norm": "南安守御千户所",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K大庾岭",
+        "name": "大庾岭",
+        "type": "mtn",
+        "norm": "大庾岭",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K章江",
+        "name": "章江",
+        "type": "mtn",
+        "norm": "章江",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K梅关",
+        "name": "梅关",
+        "type": "site",
+        "norm": "梅关",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K张九龄",
+        "name": "张九龄",
+        "type": "person",
+        "norm": "张九龄",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K苏轼",
+        "name": "苏轼",
+        "type": "person",
+        "norm": "苏轼",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K周敦颐",
+        "name": "周敦颐",
+        "type": "person",
+        "norm": "周敦颐",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K张九成",
+        "name": "张九成",
+        "type": "person",
+        "norm": "张九成",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K刘安世",
+        "name": "刘安世",
+        "type": "person",
+        "norm": "刘安世",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K王守仁",
+        "name": "王守仁",
+        "type": "person",
+        "norm": "王守仁",
+        "first_source": "61-001"
+      },
+      {
+        "ent_id": "ENT-K卢光稠",
+        "name": "卢光稠",
+        "type": "person",
+        "norm": "卢光稠",
+        "first_source": "61-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-61001",
+        "item_id": "61-001",
+        "name": "南安府",
+        "type": "prefecture",
+        "region": "江西",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-61001-c01",
+          "GEO-61001-c02",
+          "GEO-61001-c03",
+          "GEO-61001-c04",
+          "GEO-61001-w01"
+        ],
+        "volume_range": "卷61",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "赣州府赣县界",
+              "distance_li": 210
+            },
+            {
+              "direction": "西",
+              "to_place": "广东韶州府仁化县界",
+              "distance_li": 180
+            },
+            {
+              "direction": "南",
+              "to_place": "广东南雄府保昌县界",
+              "distance_li": 20
+            },
+            {
+              "direction": "北",
+              "to_place": "吉安府龙泉县界",
+              "distance_li": 280
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3210
+            },
+            {
+              "capital": "京师",
+              "distance_li": 6665
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县四；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮二万石零"
+          },
+          "jun_name": "横浦【以郡城大江自西流东横绕南岸故名】",
+          "topography": "交广襟喉【南安志横浦有闗大庾有岭通道交广此其襟喉】；南扼交广西距湖湘【宋范大用生祠记】；防江西上流接南荒之境【宋苏轼军学记】；当五岭最东【舆地广记军有大庾岭当五岭之最东者】；南迫东广西带郴桂【元刘尚友上犹学记】；控广引闽【元总管府治记南安为江西要郡南控广引闽西接郴桂深山长谷邻亘溪洞】",
+          "customs": "文物之盛与闽蜀等【宋苏轼军学记】；民气淳古士果而义民直而刚【俱元刘尚友上犹县学记】；民贫多讼【南安军学记】",
+          "garrisons": [
+            {
+              "name": "南安守御千户所",
+              "type": "千户所",
+              "location_text": "在府治西洪武二十四年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009"
+        ]
+      },
+      {
+        "geo_id": "GEO-61001-c01",
+        "item_id": "61-001",
+        "name": "大庾县",
+        "type": "county",
+        "region": "江西",
+        "parent": "GEO-61001",
+        "children": [],
+        "volume_range": "卷61",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 16,
+            "unit": "里",
+            "note": "编户十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-61001-c02",
+        "item_id": "61-001",
+        "name": "南康县",
+        "type": "county",
+        "region": "江西",
+        "parent": "GEO-61001",
+        "children": [],
+        "volume_range": "卷61",
+        "attributes": {
+          "location_text": "在府城东北一百六十里",
+          "households": {
+            "count": 31,
+            "unit": "里",
+            "note": "编户三十一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-61001-c03",
+        "item_id": "61-001",
+        "name": "上犹县",
+        "type": "county",
+        "region": "江西",
+        "parent": "GEO-61001",
+        "children": [],
+        "volume_range": "卷61",
+        "attributes": {
+          "location_text": "在府城东北二百里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-61001-c04",
+        "item_id": "61-001",
+        "name": "崇义县",
+        "type": "county",
+        "region": "江西",
+        "parent": "GEO-61001",
+        "children": [],
+        "volume_range": "卷61",
+        "attributes": {
+          "location_text": "在府城东北一百里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-61001-w01",
+        "item_id": "61-001",
+        "name": "南安守御千户所",
+        "type": "weisuo",
+        "region": "江西",
+        "parent": "GEO-61001",
+        "children": [],
+        "volume_range": "卷61",
+        "attributes": {
+          "location_text": "在府治西洪武二十四年建",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "扬州之域",
+        "action": "因之",
+        "detail": "禹贡扬州之域，天文斗分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "吴",
+        "action": "属",
+        "detail": "春秋属吴"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "楚",
+        "action": "属",
+        "detail": "战国属楚"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "九江郡",
+        "action": "属",
+        "detail": "秦属九江郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "豫章郡",
+        "action": "置",
+        "detail": "汉为豫章郡赣南壄二县地"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "南康县地",
+        "action": "因之",
+        "detail": "晋为南康县地"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "虔州",
+        "action": "属",
+        "detail": "隋属虔州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "虔州",
+        "action": "因之",
+        "detail": "唐因之"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "南安军",
+        "action": "置",
+        "detail": "宋初置南安军治大庾县，割虔州之南康上犹二县来属，隶江南西路"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "南安路",
+        "action": "改",
+        "detail": "元改置南安路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "南安府",
+        "action": "改",
+        "detail": "本朝改为南安府，领县四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "东山",
+        "type": "山",
+        "location_text": "在府城东南隔江一里",
+        "description": "山势特起",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "谷山",
+        "type": "山",
+        "location_text": "在府城东",
+        "description": "高千丈上有石顶圆盖如人形及有池产五色鱼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "金莲山",
+        "type": "山",
+        "location_text": "在府城北三里",
+        "description": "诸峰连接状若莲花",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "宝珠山",
+        "type": "山",
+        "location_text": "在府城西三里",
+        "description": "形圆如珠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "西华山",
+        "type": "山",
+        "location_text": "在府城西五里",
+        "description": "高耸连亘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "玉枕山",
+        "type": "山",
+        "location_text": "在府城北七里",
+        "description": "以形似名乃郡之主山也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "峒山",
+        "type": "山",
+        "location_text": "在府城北一十八里",
+        "description": "上有泉出石隙瀑流数寻下汇为澄潭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "南源山",
+        "type": "山",
+        "location_text": "在府城西北七十五里",
+        "description": "岩崖高峻飞瀑百丈其下湫潭深不可测",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "聂都山",
+        "type": "山",
+        "location_text": "在府城西南一百二十里",
+        "description": "相传昔有聂姓者开都以居民故名其山出矾",
+        "lore": "山海经云聂都之山诸水出焉"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "旭山",
+        "type": "山",
+        "location_text": "在南康县治北",
+        "description": "盖县之主山也山形高峙日出则先照之故名一名九日岭",
+        "lore": "宋宰相陈升之父魏公来主县簿梦山神来谒已而生升之初名旭后避神宗讳改名升之"
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "南台山",
+        "type": "山",
+        "location_text": "在南康县南五里",
+        "description": "上有三岩可坐十余人俗呼南岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "昼锦山",
+        "type": "山",
+        "location_text": "在南康县西北一百里",
+        "description": "高百余丈周盘三十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "石君山",
+        "type": "山",
+        "location_text": "在南康县泥水口",
+        "description": "三石形甚似人居中者为君左曰夫人右曰女郎",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "云主山",
+        "type": "山",
+        "location_text": "在南康县南一百六十里",
+        "description": "高可数百丈形如飞骥故又名马山上有仙岩岩前有仙池四时澄澈旱涝不增减",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "羊岭山",
+        "type": "山",
+        "location_text": "在南康县北三百里",
+        "description": "绵亘百余里山顶有浮屠相传唐有郭禅师者居之下山或骑虎豹后以祷雨弗应积薪自焚火然而雨随至人见其烈焰中冉冉而去因祠祀之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "莲花山",
+        "type": "山",
+        "location_text": "在羊岭山之西",
+        "description": "三峰状如莲花上有仙岩岩前有仙桥桥下瀑布千尺泻于石窦不知所往",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "巽山",
+        "type": "山",
+        "location_text": "在上犹县治东",
+        "description": "相传邑人有登科者则山下石嶂必生光彩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "龙凤山",
+        "type": "山",
+        "location_text": "在上犹县西北二里",
+        "description": "县之主山也有龙飞凤舞之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在上犹县南三里",
+        "description": "俗有山生角之防故建塔其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "方山",
+        "type": "山",
+        "location_text": "在上犹县南三里",
+        "description": "形如覆斗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "书山",
+        "type": "山",
+        "location_text": "在上犹县西八十里",
+        "description": "形如书柜一名太傅山出巨木美材",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "天柱峰",
+        "type": "峰",
+        "location_text": "在府城东北四里",
+        "description": "峰峦高耸参天如柱俗云此峰上应紫防星寇至不能为患",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "五指峰",
+        "type": "峰",
+        "location_text": "在府城东五里",
+        "description": "五峰联属清秀可爱又名五马峰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "双秀峰",
+        "type": "峰",
+        "location_text": "在府城北二十里",
+        "description": "两峰尖耸如马耳然旧名丫山山上有石石有巨人迹",
+        "lore": "宋李宋臣诗秀峰双拱背庾岭独当眸"
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "独秀峰",
+        "type": "峰",
+        "location_text": "在南康县东南二十五里",
+        "description": "旧名鸡笼山一峰插云高百余丈宋苏轼南迁更是名",
+        "lore": "苏轼诗倚天巉绝玉浮图肯与彭郎作小姑独秀江南知有意要三二别四方壶"
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "笔架峰",
+        "type": "峰",
+        "location_text": "在上犹县西一百二十里",
+        "description": "三峰并列状如笔架",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "齐云峰",
+        "type": "峰",
+        "location_text": "在上犹县西一百五十里",
+        "description": "势干云霄",
+        "lore": "宋谢允昌尝读书于此"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "大庾岭",
+        "type": "岭",
+        "location_text": "在府城西南二十五里",
+        "description": "磅礴高耸南接南雄初岭路峻阻唐张九龄开凿新路两壁峭立中途坦夷其上多梅又名梅岭岭表有关曰梅关置官兵守之",
+        "lore": "或传梅福尝隐于此岭上有寺有妇人题云妾忝侍父任英州司寇既代还以大庾有梅岭之名而反无梅遂植三十本于道因题诗云英江今日掌刑回上得梅山不见梅辍俸买将三十本清香留与雪中开"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "小梅岭",
+        "type": "岭",
+        "location_text": "在上犹县北三十里",
+        "description": "相传汉梅福炼丹于此今井灶祠址尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "五龟冈",
+        "type": "冈",
+        "location_text": "在府城北五里",
+        "description": "五阜相并偃伏如龟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "月子冈",
+        "type": "冈",
+        "location_text": "在府城东五里",
+        "description": "状如半月",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "青龙冈",
+        "type": "冈",
+        "location_text": "在府城东北四十里",
+        "description": "昔有青龙见其上",
+        "lore": "寰宇记云有陈蕃子孙墓"
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "仙鹤岩",
+        "type": "岩",
+        "location_text": "在府城西南八十里",
+        "description": "旧名石室有井深不可测神龙所居相传昔有人溷此井龙化双鹤飞去后里中有至人鹤复来归因改今名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "蜈蚣峡",
+        "type": "峡",
+        "location_text": "在上犹县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "嫦娥嶂",
+        "type": "嶂",
+        "location_text": "在府城南一十五里",
+        "description": "盖郡之朝山杰出群山之表相传葛仙翁尝炼丹于此有石臼存焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "犹石嶂",
+        "type": "嶂",
+        "location_text": "在上犹县北二十里",
+        "description": "耸拔中峙群山拱揖其颠有池深不可测旱辄祷马又有月岩穴圆如月经数十尺表里不隔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "浮石",
+        "type": "石",
+        "location_text": "在南康县西三十五里",
+        "description": "形如覆钟水环其外",
+        "lore": "宋苏轼诗浮石已干霜后水"
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "巾子石",
+        "type": "石",
+        "location_text": "在南康县北三百里",
+        "description": "有岩可容五十余人泉出岩畔四时不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "香炉石",
+        "type": "石",
+        "location_text": "在上犹县西三里",
+        "description": "屹立水中形如香炉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "笋石",
+        "type": "石",
+        "location_text": "在上犹县西三百里",
+        "description": "有大笋小笋二石峙立若笋",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "章江",
+        "type": "江",
+        "location_text": "源出大庾县之聂都山经南康县治东流防贡水而为赣江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "南江",
+        "type": "江",
+        "location_text": "在府城南门外",
+        "description": "源出聂都山流经城南迤逦入章水一名横江又名横浦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "大沙河",
+        "type": "水",
+        "location_text": "在府城南一十里",
+        "description": "东流经东山麓入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "南源水",
+        "type": "水",
+        "location_text": "在府城西北七十余里",
+        "description": "源出南源山下流入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "凉热水",
+        "type": "水",
+        "location_text": "在府城西一百五十里",
+        "description": "水源一温一冷热水池围二丈余深尺余流四步合凉水东流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "南壄水",
+        "type": "水",
+        "location_text": "在南康县治西",
+        "description": "一名桃水下流合莲塘水入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "封侯水",
+        "type": "水",
+        "location_text": "在南康县封侯里",
+        "description": "浅不通舟西南入凉热水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "禽水",
+        "type": "水",
+        "location_text": "在南康县治西北",
+        "description": "源出禽山东流至南壄口入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "巽水",
+        "type": "水",
+        "location_text": "源发南康县西南",
+        "description": "经县学巽维下防于章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "西符水",
+        "type": "水",
+        "location_text": "在南康县北二百里",
+        "description": "东流至南壄口入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "犹水",
+        "type": "水",
+        "location_text": "在上犹县治东",
+        "description": "源出湖广郴州桂阳县流经县南又东流至南康县界入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "县前水",
+        "type": "水",
+        "location_text": "在上犹县治南",
+        "description": "源发自县西防北胜水横水礼信水料水稍水流经县前下入南壄水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "九十九曲水",
+        "type": "水",
+        "location_text": "源发上犹县东北四十里",
+        "description": "西南流合县水入章江其湾曲九十九故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "和溪",
+        "type": "水",
+        "location_text": "源发府城东北三十里",
+        "description": "东流经和溪村入章江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "蕉溪",
+        "type": "水",
+        "location_text": "源发南康县西三十五里",
+        "description": "流至浮石入章江",
+        "lore": "宋苏轼诗蕉溪间试雨前茶"
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "鱼目井",
+        "type": "井",
+        "location_text": "有二一在府城内西一在府城外西虽旱不竭",
+        "description": "旧云南安城乃鱼城此二井即鱼目",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "龟泉井",
+        "type": "井",
+        "location_text": "在府城西宝界寺",
+        "description": "旧传掘井及泉下有石龟泉从龟双目出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "丹井",
+        "type": "井",
+        "location_text": "在南康县治西",
+        "description": "相传昔吕洞宾曾弃丹于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "苏步井",
+        "type": "井",
+        "location_text": "在南康县治东",
+        "description": "大旱不涸宋苏轼尝经此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "大阴井",
+        "type": "井",
+        "location_text": "在上犹县治东南",
+        "description": "其水甘冽饮之可愈瘴疠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "湛泉",
+        "type": "泉",
+        "location_text": "在府治东",
+        "description": "其泉有二左圆右方皆以石甃圆者径尺余方者径一寻四时湛然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "卓锡泉",
+        "type": "泉",
+        "location_text": "在大庾岭",
+        "description": "相传唐僧卢能自黄梅县传衣钵之曹溪五百僧追夺之至大庾岭渴甚能以锡卓石泉涌清冷甘美众骇而退泉之右有放钵石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "霹雳泉",
+        "type": "泉",
+        "location_text": "在大庾县",
+        "description": "相传宋时大旱有僧致祷一夕大雷雨泉出于窦故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "涌水泉",
+        "type": "泉",
+        "location_text": "在府城西南四十里",
+        "description": "永乐间居民忽见四山润泽云雾防胧因往视之则清泉涌出可溉田数十亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "温冷泉",
+        "type": "泉",
+        "location_text": "在上犹县西八十里",
+        "description": "泉自山溢达于江滨潴而为二一温一冷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c02",
+        "name": "寿龟池",
+        "type": "池",
+        "location_text": "在南康县治南",
+        "description": "中有石似龟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c03",
+        "name": "天池",
+        "type": "池",
+        "location_text": "在小梅岭之颠",
+        "description": "相传汉梅福炼丹之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "61-001",
+        "geo_id": "GEO-61001-c01",
+        "name": "通陂",
+        "type": "陂",
+        "location_text": "在大庾县",
+        "description": "又各县皆有陂溉田甚溥",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "61-001",
+        "cited_work": "南安志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【南安志横浦有闗大庾有岭通道交广此其襟喉】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "61-001",
+        "cited_work": "范大用生祠记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋范大用生祠记南扼交广西距湖湘】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "61-001",
+        "cited_work": "苏轼军学记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋苏轼军学记防江西上流接南荒之境】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "61-001",
+        "cited_work": "舆地广记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【舆地广记军有大庾岭当五岭之最东者】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "61-001",
+        "cited_work": "刘尚友上犹学记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元刘尚友上犹学记南迫东广西带郴桂】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "61-001",
+        "cited_work": "总管府治记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元总管府治记南安为江西要郡南控广引闽西接郴桂深山长谷邻亘溪洞】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "61-001",
+        "cited_work": "苏轼军学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋苏轼军学记文物之盛与闽蜀等】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "61-001",
+        "cited_work": "刘尚友上犹县学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元刘尚友上犹县学记民气淳古士果而义民直而刚】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "61-001",
+        "cited_work": "南安军学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【南安军学记民贫多讼】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "南安府"
+}
