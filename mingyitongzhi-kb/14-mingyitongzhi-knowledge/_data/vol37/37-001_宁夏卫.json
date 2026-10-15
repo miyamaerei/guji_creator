@@ -1,260 +1,1604 @@
 {
- "item_id": "37-001",
- "volume": "37",
- "source": "宁夏卫",
- "region": "陕西行都司",
- "layers": {
-  "ents": [
-   {"ent_id": "ENT-001", "name": "宁夏卫", "type": "geo", "norm": "宁夏卫", "first_source": "37-001"},
-   {"ent_id": "ENT-002", "name": "灵州千户所", "type": "geo", "norm": "灵州千户所", "first_source": "37-001"},
-   {"ent_id": "ENT-003", "name": "兴武营守御千户所", "type": "geo", "norm": "兴武营守御千户所", "first_source": "37-001"},
-   {"ent_id": "ENT-004", "name": "贺兰山", "type": "mtn", "norm": "贺兰山", "first_source": "37-001"},
-   {"ent_id": "ENT-005", "name": "黄河", "type": "mtn", "norm": "黄河", "first_source": "37-001"},
-   {"ent_id": "ENT-006", "name": "朔方郡", "type": "geo", "norm": "朔方郡", "first_source": "37-001"},
-   {"ent_id": "ENT-007", "name": "庆王府", "type": "fief", "norm": "庆王府", "first_source": "37-001"},
-   {"ent_id": "ENT-008", "name": "张仁愿", "type": "person", "norm": "张仁愿", "first_source": "37-001"},
-   {"ent_id": "ENT-009", "name": "傅燮", "type": "person", "norm": "傅燮", "first_source": "37-001"},
-   {"ent_id": "ENT-010", "name": "韩游环", "type": "person", "norm": "韩游环", "first_source": "37-001"},
-   {"ent_id": "ENT-011", "name": "李桢", "type": "person", "norm": "李桢", "first_source": "37-001"},
-   {"ent_id": "ENT-012", "name": "高智耀", "type": "person", "norm": "高智耀", "first_source": "37-001"},
-   {"ent_id": "ENT-013", "name": "郭守敬", "type": "person", "norm": "郭守敬", "first_source": "37-001"},
-   {"ent_id": "ENT-014", "name": "徐琦", "type": "person", "norm": "徐琦", "first_source": "37-001"}
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-37001",
-    "item_id": "37-001",
-    "name": "宁夏卫",
-    "type": "weisuo",
-    "region": "陕西行都司",
-    "parent": "GEO-000",
-    "children": ["GEO-37001-w01", "GEO-37001-w02"],
-    "volume_range": "卷37",
-    "attributes": {
-     "borders": [
-      {"direction": "东", "to_place": "省嵬墩", "distance_li": 200},
-      {"direction": "西", "to_place": "贺兰山", "distance_li": 100},
-      {"direction": "南", "to_place": "庆阳府界", "distance_li": 360},
-      {"direction": "北", "to_place": "西碛山", "distance_li": 290}
-     ],
-     "to_capital": [
-      {"capital": "京师", "distance_li": 3640},
-      {"capital": "南京", "distance_li": 3840}
-     ],
-     "garrison_type": "卫",
-     "jun_name": "朔方【汉名】怀远【后周名】",
-     "topography": "背名山而面洪流左河津而右重塞【赫连夏京都颂】；黄河绕其东贺兰耸其西【新志】；西陲巨屏【宋刘综议灵州民淳土沃为西陲巨屏所宜固守以为扞蔽】；西北以山为固东南以河为险【卫志】",
-     "customs": "笃信禨鬼尚诅祝【宋史夏国传】；强梗尚气敢战斗【金史夏国赞】；尚释重巫风俗不纯【宁夏志土人性勇锐善畜牧尚释重巫本朝徙其民于陕西而居此土者皆五方之人是以风俗不纯】；人以技艺趋利畜牧为资【卫志】",
-     "fiefs": [
-      {"name": "庆王府", "type": "王府", "note": "在卫城内本朝洪武三十四年建"},
-      {"name": "安化王府", "type": "王府", "note": "在卫城内澄清坊俱正统八年建"},
-      {"name": "安塞王府", "type": "王府", "note": "在卫城内东景泰四年建"},
-      {"name": "真宁王府", "type": "王府", "note": "在卫城内东镇安坊"},
-      {"name": "平凉王府", "type": "王府", "note": "在卫城内天顺初建"},
-      {"name": "弘农王府", "type": "王府", "note": "同城以后建"},
-      {"name": "丰林王府", "type": "王府", "note": "同城以后建"},
-      {"name": "寿阳王府", "type": "王府", "note": "同城以后建"},
-      {"name": "延川王府", "type": "王府", "note": "同城以后建"}
-     ],
-     "garrisons": [
-      {"name": "宁夏中防卫", "type": "卫", "location_text": "洪武中为庆府置"},
-      {"name": "灵州千户所", "type": "千户所", "location_text": "在卫南九十里洪武中建"},
-      {"name": "兴武营守御千户所", "type": "千户所", "location_text": "在卫城西南二百里"}
-     ]
-    },
-    "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004", "CIT-005", "CIT-006", "CIT-007", "CIT-008", "CIT-009"]
-   },
-   {
-    "geo_id": "GEO-37001-w01",
-    "item_id": "37-001",
-    "name": "灵州千户所",
-    "type": "weisuo",
-    "region": "陕西行都司",
-    "parent": "GEO-37001",
-    "children": [],
-    "volume_range": "卷37",
-    "attributes": {
-     "location_text": "在卫南九十里洪武中建；本汉灵州县后魏为灵州隋置灵武郡唐肃宗即位于灵武即此宋改翔庆军元仍为灵州本朝州废置守御千户所",
-     "garrison_type": "守御千户所"
-    }
-   },
-   {
-    "geo_id": "GEO-37001-w02",
-    "item_id": "37-001",
-    "name": "兴武营守御千户所",
-    "type": "weisuo",
-    "region": "陕西行都司",
-    "parent": "GEO-37001",
-    "children": [],
-    "volume_range": "卷37",
-    "attributes": {
-     "location_text": "在卫城西南二百里；卫城东南三百二十里黄河东南正统九年建兴武营",
-     "garrison_type": "守御千户所"
-    }
-   }
-  ],
-  "evos": [
-   {"evo_id": "EVO-001", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "虞夏", "era": null, "institution_name": "雍州之域", "action": "属", "detail": "禹贡雍州之域，天文井鬼分野"},
-   {"evo_id": "EVO-002", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "春秋战国", "era": null, "institution_name": "羌戎所居", "action": "因之", "detail": "春秋时羌戎所居"},
-   {"evo_id": "EVO-003", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "秦", "era": null, "institution_name": "上郡地", "action": "置郡", "detail": "秦为上郡地"},
-   {"evo_id": "EVO-004", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "汉", "era": null, "institution_name": "朔方郡", "action": "置", "detail": "汉置朔方郡"},
-   {"evo_id": "EVO-005", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "晋", "era": null, "institution_name": "赫连夏都城", "action": "建都", "detail": "晋乱，赫连夏建都于此"},
-   {"evo_id": "EVO-006", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "南北朝", "era": "后魏", "institution_name": "夏州", "action": "置", "detail": "后魏始置夏州"},
-   {"evo_id": "EVO-007", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "南北朝", "era": "西魏", "institution_name": "弘化郡", "action": "置", "detail": "西魏置弘化郡"},
-   {"evo_id": "EVO-008", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "南北朝", "era": "后周", "institution_name": "怀远郡", "action": "改", "detail": "后周改怀远郡"},
-   {"evo_id": "EVO-009", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "隋", "era": null, "institution_name": "朔方郡", "action": "改", "detail": "隋为朔方郡"},
-   {"evo_id": "EVO-010", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "唐", "era": null, "institution_name": "夏州/朔方郡", "action": "置", "detail": "唐置夏州，或为朔方郡；唐末拓跋思恭镇夏州，遂世据其地"},
-   {"evo_id": "EVO-011", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "宋", "era": "天禧", "institution_name": "兴州/兴庆府/中兴府", "action": "升", "detail": "宋天禧间其孙德明城怀远镇为兴州以居，后升兴庆府，又改中兴府"},
-   {"evo_id": "EVO-012", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "元", "era": null, "institution_name": "宁夏路", "action": "置", "detail": "元置宁夏路"},
-   {"evo_id": "EVO-013", "item_id": "37-001", "geo_id": "GEO-37001", "dynasty": "明", "era": "洪武", "institution_name": "宁夏卫", "action": "改置", "detail": "本朝初改宁夏府，后府废；洪武九年改置宁夏卫，隶陕西都司；后又增置宁夏前、宁夏后及宁夏左屯、宁夏右屯、宁夏中屯凡六卫"}
-  ],
-  "mtns": [
-   {"mtn_id": "MTN-001", "item_id": "37-001", "geo_id": "GEO-37001", "name": "贺兰山", "type": "山", "location_text": "在卫城西六十里", "description": "丹崖翠峰巍然峻大，盘踞数百里，宁夏倚以为固", "lore": "唐韦蟾诗：贺兰山下果园成，塞北江南旧有名"},
-   {"mtn_id": "MTN-002", "item_id": "37-001", "geo_id": "GEO-37001", "name": "莎罗模山", "type": "山", "location_text": "在卫城南一百里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-003", "item_id": "37-001", "geo_id": "GEO-37001", "name": "峡口山", "type": "山", "location_text": "在卫城西南一百四十里", "description": "两山相夹，黄河经其中，一名青铜峡", "lore": "上有古塔一百八座"},
-   {"mtn_id": "MTN-004", "item_id": "37-001", "geo_id": "GEO-37001", "name": "省嵬山", "type": "山", "location_text": "在卫城东北一百四十里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-005", "item_id": "37-001", "geo_id": "GEO-37001", "name": "金积山", "type": "山", "location_text": "在卫城南二百里", "description": "山多赭土，日照其色如金；山北崖石板下有水乱滴如雨天", "lore": "旱祷雨有应"},
-   {"mtn_id": "MTN-006", "item_id": "37-001", "geo_id": "GEO-37001", "name": "黄草山", "type": "山", "location_text": "在卫城北二百二十里", "description": "其上草色多黄", "lore": ""},
-   {"mtn_id": "MTN-007", "item_id": "37-001", "geo_id": "GEO-37001", "name": "石觜山", "type": "山", "location_text": "在卫城东北二百里", "description": "山石突出如觜", "lore": ""},
-   {"mtn_id": "MTN-008", "item_id": "37-001", "geo_id": "GEO-37001", "name": "黑鹰山", "type": "山", "location_text": "在卫城南二百五十里", "description": "昔人尝于此获黑鹰", "lore": ""},
-   {"mtn_id": "MTN-009", "item_id": "37-001", "geo_id": "GEO-37001", "name": "居中山", "type": "山", "location_text": "在卫城东南二百六十里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-010", "item_id": "37-001", "geo_id": "GEO-37001", "name": "蠡山", "type": "山", "location_text": "在卫城南二百六十里", "description": "层峦苍翠，其峰如蠡；又东北有小蠡山", "lore": ""},
-   {"mtn_id": "MTN-011", "item_id": "37-001", "geo_id": "GEO-37001", "name": "西碛山", "type": "山", "location_text": "在卫城东北二百八十里", "description": "以形似名", "lore": ""},
-   {"mtn_id": "MTN-012", "item_id": "37-001", "geo_id": "GEO-37001", "name": "狼山", "type": "山", "location_text": "在卫城东南二百九十里", "description": "其山多狼", "lore": ""},
-   {"mtn_id": "MTN-013", "item_id": "37-001", "geo_id": "GEO-37001", "name": "麦垜山", "type": "山", "location_text": "在卫城东三百里", "description": "山势高耸如麦垜", "lore": ""},
-   {"mtn_id": "MTN-014", "item_id": "37-001", "geo_id": "GEO-37001", "name": "琥八山", "type": "山", "location_text": "在卫城西南三百四十里", "description": "夷名琥八，犹华言色驳杂也", "lore": ""},
-   {"mtn_id": "MTN-015", "item_id": "37-001", "geo_id": "GEO-37001", "name": "鹿山", "type": "山", "location_text": "在卫城西南与琥八山相近", "description": "其山多鹿", "lore": ""},
-   {"mtn_id": "MTN-016", "item_id": "37-001", "geo_id": "GEO-37001", "name": "三山", "type": "山", "location_text": "在卫城东南三百六十里", "description": "三峰列峙", "lore": ""},
-   {"mtn_id": "MTN-017", "item_id": "37-001", "geo_id": "GEO-37001", "name": "平山", "type": "山", "location_text": "在灵州城东北八十里", "description": "以山顶平而名", "lore": ""},
-   {"mtn_id": "MTN-018", "item_id": "37-001", "geo_id": "GEO-37001", "name": "黄河", "type": "河", "location_text": "在卫城东南四十里", "description": "流至西南临洮府兰县，经宁夏中卫南过峡口至本卫境；居人疏渠溉田数万顷；又经卫境东北过东胜州，复由绥德州境南流", "lore": ""},
-   {"mtn_id": "MTN-019", "item_id": "37-001", "geo_id": "GEO-37001", "name": "黑水河", "type": "河", "location_text": "在卫城东", "description": "番名哈喇乌苏，河西流注于黄河", "lore": ""},
-   {"mtn_id": "MTN-020", "item_id": "37-001", "geo_id": "GEO-37001", "name": "清水河", "type": "河", "location_text": "在卫城南三百五十里", "description": "故鸣沙州城南，即古葫芦河也；河流甚狭，自平凉界来注于黄河", "lore": ""},
-   {"mtn_id": "MTN-021", "item_id": "37-001", "geo_id": "GEO-37001", "name": "金波湖", "type": "湖", "location_text": "在卫城北", "description": "", "lore": ""},
-   {"mtn_id": "MTN-022", "item_id": "37-001", "geo_id": "GEO-37001", "name": "三塔湖", "type": "湖", "location_text": "在卫城东北三十里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-023", "item_id": "37-001", "geo_id": "GEO-37001", "name": "巽湖", "type": "湖", "location_text": "在卫城东南三十五里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-024", "item_id": "37-001", "geo_id": "GEO-37001", "name": "观音湖", "type": "湖", "location_text": "在卫城西九十五里贺兰山大水口", "description": "", "lore": ""},
-   {"mtn_id": "MTN-025", "item_id": "37-001", "geo_id": "GEO-37001", "name": "月湖", "type": "湖", "location_text": "在卫城北七十五里", "description": "以形似名", "lore": ""},
-   {"mtn_id": "MTN-026", "item_id": "37-001", "geo_id": "GEO-37001", "name": "长湖", "type": "湖", "location_text": "在卫城西北一百二十里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-027", "item_id": "37-001", "geo_id": "GEO-37001", "name": "汉延渠", "type": "渠", "location_text": "在卫城东南", "description": "支引黄河水绕城溉田可万顷，岁无旱涝之虞", "lore": ""},
-   {"mtn_id": "MTN-028", "item_id": "37-001", "geo_id": "GEO-37001", "name": "唐来渠", "type": "渠", "location_text": "在卫城西南", "description": "亦引黄河水绕城西溉田万余顷", "lore": ""},
-   {"mtn_id": "MTN-029", "item_id": "37-001", "geo_id": "GEO-37001", "name": "新渠", "type": "渠", "location_text": "在卫城南", "description": "分唐来渠水溉田数百顷", "lore": ""},
-   {"mtn_id": "MTN-030", "item_id": "37-001", "geo_id": "GEO-37001", "name": "红花渠", "type": "渠", "location_text": "在卫城南五里", "description": "分唐来渠水东流溉田七百余顷；又引入城中，民汲甚便", "lore": ""},
-   {"mtn_id": "MTN-031", "item_id": "37-001", "geo_id": "GEO-37001", "name": "秦家渠", "type": "渠", "location_text": "在黄河东南", "description": "分河水溉田数百顷", "lore": ""},
-   {"mtn_id": "MTN-032", "item_id": "37-001", "geo_id": "GEO-37001", "name": "汉伯渠", "type": "渠", "location_text": "在黄河西南", "description": "分河水溉田二百余顷", "lore": ""},
-   {"mtn_id": "MTN-033", "item_id": "37-001", "geo_id": "GEO-37001", "name": "滚泉", "type": "泉", "location_text": "在金积山东麓", "description": "水自池涌出高一二尺如沸汤之状，清洁可饮", "lore": ""},
-   {"mtn_id": "MTN-034", "item_id": "37-001", "geo_id": "GEO-37001", "name": "富泉", "type": "泉", "location_text": "在蠡山", "description": "水甚甘冽", "lore": ""},
-   {"mtn_id": "MTN-035", "item_id": "37-001", "geo_id": "GEO-37001", "name": "盐池", "type": "池", "location_text": "大盐池在卫城北四百里，小盐池在卫城东南二百七十里", "description": "其盐皆不假人力，自然凝结", "lore": ""}
-  ],
-  "pers": [
-   {"pers_id": "PER-001", "item_id": "37-001", "geo_id": "GEO-37001", "name": "张仁愿", "dynasty": "唐", "source_section": "名宦", "note": "朔方军总管，于河北筑三受降城，绝虏南防路，自是朔方无寇，岁损费亿计减镇兵数万"},
-   {"pers_id": "PER-002", "item_id": "37-001", "geo_id": "GEO-37001", "name": "崔知温", "dynasty": "唐", "source_section": "名宦", "note": "灵州司马，境有浑斛萨万帐数扰齐民，知温表徙河北，人得就耕"},
-   {"pers_id": "PER-003", "item_id": "37-001", "geo_id": "GEO-37001", "name": "王方翼", "dynasty": "唐", "source_section": "名宦", "note": "夏州都督，牛疫民废田作，方翼为耦耕法张机键，力省而见功多"},
-   {"pers_id": "PER-004", "item_id": "37-001", "geo_id": "GEO-37001", "name": "魏元忠", "dynasty": "唐", "source_section": "名宦", "note": "灵武道行军大总管以御突厥，驭军持重"},
-   {"pers_id": "PER-005", "item_id": "37-001", "geo_id": "GEO-37001", "name": "裴识", "dynasty": "唐", "source_section": "名宦", "note": "灵武节度使，地斥卤无井，识誓神而凿之果得泉"},
-   {"pers_id": "PER-006", "item_id": "37-001", "geo_id": "GEO-37001", "name": "杜希全", "dynasty": "唐", "source_section": "名宦", "note": "朔方节度使，军令严整；奉天之狩引兵赴难，贼平迁灵盐丰夏节度使"},
-   {"pers_id": "PER-007", "item_id": "37-001", "geo_id": "GEO-37001", "name": "张希崇", "dynasty": "五代", "source_section": "名宦", "note": "唐明宗时为灵武节度使，开屯田教耕种，军食足而转馈省"},
-   {"pers_id": "PER-008", "item_id": "37-001", "geo_id": "GEO-37001", "name": "冯晖", "dynasty": "五代", "source_section": "名宦", "note": "晋天福中以义成节度使镇灵武，推恩信，广屯田，民不加赋管内大治"},
-   {"pers_id": "PER-009", "item_id": "37-001", "geo_id": "GEO-37001", "name": "董遵诲", "dynasty": "宋", "source_section": "名宦", "note": "灵州路巡检，豁达多方略武艺绝人，夏人畏之"},
-   {"pers_id": "PER-010", "item_id": "37-001", "geo_id": "GEO-37001", "name": "段思恭", "dynasty": "宋", "source_section": "名宦", "note": "知灵州，绥抚夷落，访求民病有勤绩"},
-   {"pers_id": "PER-011", "item_id": "37-001", "geo_id": "GEO-37001", "name": "侯赟", "dynasty": "宋", "source_section": "名宦", "note": "太宗时知灵州，按视藩落宴犒以时，在朔方十余年"},
-   {"pers_id": "PER-012", "item_id": "37-001", "geo_id": "GEO-37001", "name": "安守忠", "dynasty": "宋", "source_section": "名宦", "note": "太平兴国初知灵州，后移夏州，每西戎犯边战无不防"},
-   {"pers_id": "PER-013", "item_id": "37-001", "geo_id": "GEO-37001", "name": "王昭远", "dynasty": "宋", "source_section": "名宦", "note": "至道中李继迁扰西鄙，命昭远为灵州路都部署，防二十五州刍粟竟达灵武"},
-   {"pers_id": "PER-014", "item_id": "37-001", "geo_id": "GEO-37001", "name": "尹宪", "dynasty": "宋", "source_section": "名宦", "note": "雍熙初知夏州，攻破李继迁之众于地斤泽"},
-   {"pers_id": "PER-015", "item_id": "37-001", "geo_id": "GEO-37001", "name": "田绍斌", "dynasty": "宋", "source_section": "名宦", "note": "灵州马步军都部署，领众入蕃讨贼斩首二千级"},
-   {"pers_id": "PER-016", "item_id": "37-001", "geo_id": "GEO-37001", "name": "郭密", "dynasty": "宋", "source_section": "名宦", "note": "吴州兵马都部署，训练士卒号令严肃，夏人畏服"},
-   {"pers_id": "PER-017", "item_id": "37-001", "geo_id": "GEO-37001", "name": "杨琼", "dynasty": "宋", "source_section": "名宦", "note": "灵庆路副都部署，捍防有功，导黄河溉民田数千顷"},
-   {"pers_id": "PER-018", "item_id": "37-001", "geo_id": "GEO-37001", "name": "袁裕", "dynasty": "元", "source_section": "名宦", "note": "中统间为中兴等路劝农使，计丁给地立三屯使耕，官民便之"},
-   {"pers_id": "PER-019", "item_id": "37-001", "geo_id": "GEO-37001", "name": "张文谦", "dynasty": "元", "source_section": "名宦", "note": "以中书左丞行省西夏中兴等路，变其鄙野之俗，浚渠溉田"},
-   {"pers_id": "PER-020", "item_id": "37-001", "geo_id": "GEO-37001", "name": "郭守敬", "dynasty": "元", "source_section": "名宦", "note": "以河渠副使从张文谦至西夏，浚汉延、唐徕等渠溉田万余顷"},
-   {"pers_id": "PER-021", "item_id": "37-001", "geo_id": "GEO-37001", "name": "董文用", "dynasty": "元", "source_section": "名宦", "note": "中兴等路行省郎中，开唐来、汉延等渠，民归者四五万悉授田种颁农具"},
-   {"pers_id": "PER-022", "item_id": "37-001", "geo_id": "GEO-37001", "name": "张麟", "dynasty": "明", "source_section": "名宦", "note": "永乐中以陕西都指挥使镇守宁夏，固守封疆控制外夷"},
-   {"pers_id": "PER-023", "item_id": "37-001", "geo_id": "GEO-37001", "name": "金濂", "dynasty": "明", "source_section": "名宦", "note": "正统中以右副都御史镇守宁夏，劝民出粟置预备仓以赈荒"},
-   {"pers_id": "PER-024", "item_id": "37-001", "geo_id": "GEO-37001", "name": "傅燮", "dynasty": "汉", "source_section": "人物", "note": "灵州人，仕为议郎，谅直不避权贵"},
-   {"pers_id": "PER-025", "item_id": "37-001", "geo_id": "GEO-37001", "name": "傅亮", "dynasty": "晋", "source_section": "人物", "note": "灵州人，博涉经史尤善文辞，义熙中累官中书黄门侍郎，宋武帝受禅封建城县公"},
-   {"pers_id": "PER-026", "item_id": "37-001", "geo_id": "GEO-37001", "name": "傅昭", "dynasty": "南北朝", "source_section": "人物", "note": "灵州人，博极古今世称为学府，莅官以清净为政"},
-   {"pers_id": "PER-027", "item_id": "37-001", "geo_id": "GEO-37001", "name": "傅琰", "dynasty": "南北朝", "source_section": "人物", "note": "灵州人，历武康、山阴二县令并着能名，二县皆谓之傅圣"},
-   {"pers_id": "PER-028", "item_id": "37-001", "geo_id": "GEO-37001", "name": "傅縡", "dynasty": "南北朝", "source_section": "人物", "note": "灵州人，七岁诵古诗赋至十余万言，仕陈为秘书监右卫将军兼中书通事舍人"},
-   {"pers_id": "PER-029", "item_id": "37-001", "geo_id": "GEO-37001", "name": "韩游环", "dynasty": "唐", "source_section": "人物", "note": "灵州灵武人，始为郭子仪裨将，平安禄山功第一，累官邠宁节度使，谥曰襄"},
-   {"pers_id": "PER-030", "item_id": "37-001", "geo_id": "GEO-37001", "name": "康日知", "dynasty": "唐", "source_section": "人物", "note": "灵州人，为赵州刺史拒李惟岳叛，封会稽郡王"},
-   {"pers_id": "PER-031", "item_id": "37-001", "geo_id": "GEO-37001", "name": "杨怀宾", "dynasty": "唐", "source_section": "人物", "note": "夏州朔方人，为韩游瓌将，李怀光反，怀宾斩贼党张昕告行在，授御史中丞"},
-   {"pers_id": "PER-032", "item_id": "37-001", "geo_id": "GEO-37001", "name": "戴休颜", "dynasty": "唐", "source_section": "人物", "note": "夏州人，以功封咸宁郡王兼朔方节度副使；朱泚反率兵驰奔行在，加检校尚书右仆射"},
-   {"pers_id": "PER-033", "item_id": "37-001", "geo_id": "GEO-37001", "name": "史敬奉", "dynasty": "唐", "source_section": "人物", "note": "灵州人，朔方军牙将，元和中请兵三千深入吐蕃大破之，以雄边名"},
-   {"pers_id": "PER-034", "item_id": "37-001", "geo_id": "GEO-37001", "name": "周美", "dynasty": "宋", "source_section": "人物", "note": "灵州回乐人，少隶朔方军，在边前后十余战平簇帐二百复城堡甚多"},
-   {"pers_id": "PER-035", "item_id": "37-001", "geo_id": "GEO-37001", "name": "斡道冲", "dynasty": "宋", "source_section": "人物", "note": "灵武人，世掌夏国史，通五经为蕃汉教授，译论语注别作解义二十卷，官至其国中书宰相"},
-   {"pers_id": "PER-036", "item_id": "37-001", "geo_id": "GEO-37001", "name": "李桢", "dynasty": "元", "source_section": "人物", "note": "西夏国族子，金末以经童中选，累官广阳军马万户"},
-   {"pers_id": "PER-037", "item_id": "37-001", "geo_id": "GEO-37001", "name": "高智耀", "dynasty": "元", "source_section": "人物", "note": "河西人，登本国进士，夏亡隐贺兰山；世祖时拜翰林学士，迁西夏中兴等路提刑按察使，追封宁国公谥文忠"},
-   {"pers_id": "PER-038", "item_id": "37-001", "geo_id": "GEO-37001", "name": "高睿", "dynasty": "元", "source_section": "人物", "note": "智耀子，年十六授符宝郎，历嘉兴路总管、浙西淮东廉访使，两为南台御史中丞，赠太傅谥贞简"},
-   {"pers_id": "PER-039", "item_id": "37-001", "geo_id": "GEO-37001", "name": "李恒", "dynasty": "元", "source_section": "人物", "note": "西夏人，从取宋襄阳江西及平崖山，累官中书左丞；后讨交趾中毒矢卒，谥武敏追封滕国公"},
-   {"pers_id": "PER-040", "item_id": "37-001", "geo_id": "GEO-37001", "name": "桑节", "dynasty": "元", "source_section": "人物", "note": "河西人，累官江南行台御史大夫、湖广江西行省平章；守江州时中流矢死"},
-   {"pers_id": "PER-041", "item_id": "37-001", "geo_id": "GEO-37001", "name": "徐琦", "dynasty": "明", "source_section": "人物", "note": "宁夏人，登永乐乙未进士，累官南京兵部尚书参赞守备机务"},
-   {"pers_id": "PER-042", "item_id": "37-001", "geo_id": "GEO-37001", "name": "殷氏", "dynasty": "明", "source_section": "列女", "note": "宁夏卫军余胡勖妻，年十六适勖，夫殁自缢柩前，事闻旌表"}
-  ],
-  "sites": [
-   {"site_id": "SIT-001", "item_id": "37-001", "geo_id": "GEO-37001", "name": "宁夏卫学", "type": "学校", "location_text": "在卫城西北", "description": "洪武二十九年建，为宁夏中屯等卫学；永乐三年改为宁夏等卫学"},
-   {"site_id": "SIT-002", "item_id": "37-001", "geo_id": "GEO-37001", "name": "元昊宫", "type": "宫室", "location_text": "在贺兰山之东", "description": "昔赵元昊据有夏地居兴州，阻河依山为固建宫于此，宫墙尚存"},
-   {"site_id": "SIT-003", "item_id": "37-001", "geo_id": "GEO-37001", "name": "高台", "type": "宫室", "location_text": "在卫城东一十五里", "description": "地势崇高，登眺极山河之伟观；赵元昊于此建寺，久废"},
-   {"site_id": "SIT-004", "item_id": "37-001", "geo_id": "GEO-37001", "name": "灵武营", "type": "关梁/营", "location_text": "在卫城北一百里", "description": "正统十一年建"},
-   {"site_id": "SIT-005", "item_id": "37-001", "geo_id": "GEO-37001", "name": "黑山营", "type": "关梁/营", "location_text": "在卫城北二百四十里", "description": "永乐元年建"},
-   {"site_id": "SIT-006", "item_id": "37-001", "geo_id": "GEO-37001", "name": "清水营", "type": "关梁/营", "location_text": "在卫城东南一百二十里黄河东南", "description": "正统七年建"},
-   {"site_id": "SIT-007", "item_id": "37-001", "geo_id": "GEO-37001", "name": "兴武营", "type": "关梁/营", "location_text": "在卫城东南三百二十里黄河东南", "description": "正统九年建"},
-   {"site_id": "SIT-008", "item_id": "37-001", "geo_id": "GEO-37001", "name": "花马池营", "type": "关梁/营", "location_text": "在卫城东南三百五十里", "description": "正统九年建，守备防将分居于此"},
-   {"site_id": "SIT-009", "item_id": "37-001", "geo_id": "GEO-37001", "name": "河西寨", "type": "关梁/寨", "location_text": "在黄河西岸", "description": ""},
-   {"site_id": "SIT-010", "item_id": "37-001", "geo_id": "GEO-37001", "name": "河东寨", "type": "关梁/寨", "location_text": "在黄河东岸", "description": ""},
-   {"site_id": "SIT-011", "item_id": "37-001", "geo_id": "GEO-37001", "name": "潘昶堡", "type": "关梁/堡", "location_text": "在卫城东二十五里", "description": "自是而东南又有金贵、李祥、张济、魏敬、王信、王贵、任春、叶诚凡八堡，俱属宁夏卫"},
-   {"site_id": "SIT-012", "item_id": "37-001", "geo_id": "GEO-37001", "name": "王景堡", "type": "关梁/堡", "location_text": "在卫城西南四十里", "description": "自是而西南又有李俊、邵刚、瞿靖、林皋、蒋鼎、陈刚凡六堡，俱属宁夏左屯卫"},
-   {"site_id": "SIT-013", "item_id": "37-001", "geo_id": "GEO-37001", "name": "王澄堡", "type": "关梁/堡", "location_text": "在卫城东北三十五里", "description": "自是而东南又有张政、魏政二堡，俱属宁夏左屯卫"},
-   {"site_id": "SIT-014", "item_id": "37-001", "geo_id": "GEO-37001", "name": "杨显堡", "type": "关梁/堡", "location_text": "在卫城西南三十五里", "description": "自是而西北又有陶容、雷福、桂文、常信、洪广、高荣、姚福凡七堡，俱属宁夏右屯卫"},
-   {"site_id": "SIT-015", "item_id": "37-001", "geo_id": "GEO-37001", "name": "谢保堡", "type": "关梁/堡", "location_text": "在卫城北十五里", "description": "自是而北又有张亮、李信、丁义、周澄凡四堡，俱属宁夏前卫"},
-   {"site_id": "SIT-016", "item_id": "37-001", "geo_id": "GEO-37001", "name": "官桥", "type": "关梁/桥", "location_text": "在卫城南二十八里", "description": "跨汉延渠"},
-   {"site_id": "SIT-017", "item_id": "37-001", "geo_id": "GEO-37001", "name": "永通桥", "type": "关梁/桥", "location_text": "在卫城南", "description": "跨红花渠"},
-   {"site_id": "SIT-018", "item_id": "37-001", "geo_id": "GEO-37001", "name": "昌宁桥", "type": "关梁/桥", "location_text": "在卫城南八里", "description": "跨新渠"},
-   {"site_id": "SIT-019", "item_id": "37-001", "geo_id": "GEO-37001", "name": "贺兰桥", "type": "关梁/桥", "location_text": "在卫城西", "description": "跨唐来渠"},
-   {"site_id": "SIT-020", "item_id": "37-001", "geo_id": "GEO-37001", "name": "承天寺", "type": "寺观", "location_text": "在卫城西", "description": "宋时夏人建，后废独存一塔；本朝庆府重建"},
-   {"site_id": "SIT-021", "item_id": "37-001", "geo_id": "GEO-37001", "name": "报恩寺", "type": "寺观", "location_text": "在卫城内之西", "description": "元建"},
-   {"site_id": "SIT-022", "item_id": "37-001", "geo_id": "GEO-37001", "name": "宁静寺", "type": "寺观", "location_text": "在卫城东南", "description": "正统十年建"},
-   {"site_id": "SIT-023", "item_id": "37-001", "geo_id": "GEO-37001", "name": "三清观", "type": "寺观", "location_text": "在卫城东南", "description": "永乐四年建"},
-   {"site_id": "SIT-024", "item_id": "37-001", "geo_id": "GEO-37001", "name": "庆靖王墓", "type": "陵墓", "location_text": "在卫城南二百二十里", "description": "本朝宗室"},
-   {"site_id": "SIT-025", "item_id": "37-001", "geo_id": "GEO-37001", "name": "悼庄王墓", "type": "陵墓", "location_text": "在卫城南三百一十里", "description": "本朝宗室"},
-   {"site_id": "SIT-026", "item_id": "37-001", "geo_id": "GEO-37001", "name": "李王墓", "type": "陵墓", "location_text": "在贺兰山下", "description": "数冢巍然，皆夏国主李继迁等墓"},
-   {"site_id": "SIT-027", "item_id": "37-001", "geo_id": "GEO-37001", "name": "灵州城", "type": "古迹", "location_text": "在卫城南", "description": "本汉灵州县，后魏为灵州，隋置灵武郡，唐肃宗即位于灵武即此；宋改翔庆军，元仍为灵州，本朝州废置守御千户所"},
-   {"site_id": "SIT-028", "item_id": "37-001", "geo_id": "GEO-37001", "name": "保静城", "type": "古迹", "location_text": "在卫城西南八十里", "description": "汉筑，后魏置弘静镇，隋为弘静县，唐改名保静属灵州，夏为静州，元废，本朝屯军居焉"},
-   {"site_id": "SIT-029", "item_id": "37-001", "geo_id": "GEO-37001", "name": "夏州城", "type": "古迹", "location_text": "在卫城东黄河岸侧", "description": "晋时赫连据此称大夏，后魏置夏州"},
-   {"site_id": "SIT-030", "item_id": "37-001", "geo_id": "GEO-37001", "name": "省嵬城", "type": "古迹", "location_text": "在黄河东", "description": ""},
-   {"site_id": "SIT-031", "item_id": "37-001", "geo_id": "GEO-37001", "name": "定州城", "type": "古迹", "location_text": "在卫城北六十里", "description": "本唐定远城，赵元昊改为定州"},
-   {"site_id": "SIT-032", "item_id": "37-001", "geo_id": "GEO-37001", "name": "雄州城", "type": "古迹", "location_text": "在灵州城西南一百八十里", "description": "本承天堡，唐中和间徙雄州治此"},
-   {"site_id": "SIT-033", "item_id": "37-001", "geo_id": "GEO-37001", "name": "韦州城", "type": "古迹", "location_text": "在卫城东南三百六十里", "description": "夏为韦州静塞军"},
-   {"site_id": "SIT-034", "item_id": "37-001", "geo_id": "GEO-37001", "name": "田州城", "type": "古迹", "location_text": "在卫城北六十里", "description": ""},
-   {"site_id": "SIT-035", "item_id": "37-001", "geo_id": "GEO-37001", "name": "忻都城", "type": "古迹", "location_text": "在卫城东北五百里", "description": ""}
-  ],
-  "prods": [
-   {"prod_id": "PROD-001", "item_id": "37-001", "geo_id": "GEO-37001", "name": "铁", "note": "麦垜山出"},
-   {"prod_id": "PROD-002", "item_id": "37-001", "geo_id": "GEO-37001", "name": "铅", "note": "俱贺兰山出"},
-   {"prod_id": "PROD-003", "item_id": "37-001", "geo_id": "GEO-37001", "name": "盐", "note": "有池"},
-   {"prod_id": "PROD-004", "item_id": "37-001", "geo_id": "GEO-37001", "name": "胡麻", "note": ""},
-   {"prod_id": "PROD-005", "item_id": "37-001", "geo_id": "GEO-37001", "name": "青稞", "note": ""},
-   {"prod_id": "PROD-006", "item_id": "37-001", "geo_id": "GEO-37001", "name": "苁蓉枸杞", "note": ""},
-   {"prod_id": "PROD-007", "item_id": "37-001", "geo_id": "GEO-37001", "name": "青木香", "note": ""},
-   {"prod_id": "PROD-008", "item_id": "37-001", "geo_id": "GEO-37001", "name": "楸子", "note": ""},
-   {"prod_id": "PROD-009", "item_id": "37-001", "geo_id": "GEO-37001", "name": "羱羊", "note": ""},
-   {"prod_id": "PROD-010", "item_id": "37-001", "geo_id": "GEO-37001", "name": "绒褐", "note": ""},
-   {"prod_id": "PROD-011", "item_id": "37-001", "geo_id": "GEO-37001", "name": "红花", "note": ""}
-  ],
-  "cits": [
-   {"cit_id": "CIT-001", "item_id": "37-001", "cited_work": "赫连夏京都颂", "cited_work_ent_id": null, "context": "形胜", "original": "【赫连夏京都颂】"},
-   {"cit_id": "CIT-002", "item_id": "37-001", "cited_work": "新志", "cited_work_ent_id": null, "context": "形胜", "original": "【新志】"},
-   {"cit_id": "CIT-003", "item_id": "37-001", "cited_work": "宋史夏国传", "cited_work_ent_id": null, "context": "风俗", "original": "【宋史夏国传】"},
-   {"cit_id": "CIT-004", "item_id": "37-001", "cited_work": "金史夏国赞", "cited_work_ent_id": null, "context": "风俗", "original": "【金史夏国赞】"},
-   {"cit_id": "CIT-005", "item_id": "37-001", "cited_work": "宁夏志", "cited_work_ent_id": null, "context": "风俗", "original": "【宁夏志】"},
-   {"cit_id": "CIT-006", "item_id": "37-001", "cited_work": "卫志", "cited_work_ent_id": null, "context": "形胜/风俗", "original": "【卫志】"},
-   {"cit_id": "CIT-007", "item_id": "37-001", "cited_work": "韦蟾诗", "cited_work_ent_id": null, "context": "山川", "original": "【唐韦蟾诗贺兰山下果园成塞北江南旧有名】"},
-   {"cit_id": "CIT-008", "item_id": "37-001", "cited_work": "刘综议", "cited_work_ent_id": null, "context": "形胜", "original": "【宋刘综议灵州民淳土沃为西陲巨屏】"},
-   {"cit_id": "CIT-009", "item_id": "37-001", "cited_work": "汉书地理志", "cited_work_ent_id": null, "context": "建置", "original": "【禹贡雍州之域】"}
-  ]
- },
- "layer_count": 7,
- "validation": {
-  "errs": [],
-  "gap": 0,
-  "notes": "宁夏卫主文件；pers 42人未超50、sites 35处未超30阈值外但仍单列；下属灵州、兴武营二千户所列children"
- }
+  "item_id": "37-001",
+  "volume": "37",
+  "source": "宁夏卫",
+  "region": "陕西行都司",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "宁夏卫",
+        "type": "geo",
+        "norm": "宁夏卫",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "灵州千户所",
+        "type": "geo",
+        "norm": "灵州千户所",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "兴武营守御千户所",
+        "type": "geo",
+        "norm": "兴武营守御千户所",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "贺兰山",
+        "type": "mtn",
+        "norm": "贺兰山",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "黄河",
+        "type": "mtn",
+        "norm": "黄河",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "朔方郡",
+        "type": "geo",
+        "norm": "朔方郡",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "庆王府",
+        "type": "geo",
+        "norm": "庆王府",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "张仁愿",
+        "type": "person",
+        "norm": "张仁愿",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "傅燮",
+        "type": "person",
+        "norm": "傅燮",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "韩游环",
+        "type": "person",
+        "norm": "韩游环",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "李桢",
+        "type": "person",
+        "norm": "李桢",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "高智耀",
+        "type": "person",
+        "norm": "高智耀",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "郭守敬",
+        "type": "person",
+        "norm": "郭守敬",
+        "first_source": "37-001"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "徐琦",
+        "type": "person",
+        "norm": "徐琦",
+        "first_source": "37-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-37001",
+        "item_id": "37-001",
+        "name": "宁夏卫",
+        "type": "weisuo",
+        "region": "陕西行都司",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-37001-w01",
+          "GEO-37001-w02"
+        ],
+        "volume_range": "卷37",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "省嵬墩",
+              "distance_li": 200
+            },
+            {
+              "direction": "西",
+              "to_place": "贺兰山",
+              "distance_li": 100
+            },
+            {
+              "direction": "南",
+              "to_place": "庆阳府界",
+              "distance_li": 360
+            },
+            {
+              "direction": "北",
+              "to_place": "西碛山",
+              "distance_li": 290
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 3640
+            },
+            {
+              "capital": "南京",
+              "distance_li": 3840
+            }
+          ],
+          "garrison_type": "卫",
+          "jun_name": "朔方【汉名】怀远【后周名】",
+          "topography": "背名山而面洪流左河津而右重塞【赫连夏京都颂】；黄河绕其东贺兰耸其西【新志】；西陲巨屏【宋刘综议灵州民淳土沃为西陲巨屏所宜固守以为扞蔽】；西北以山为固东南以河为险【卫志】",
+          "customs": "笃信禨鬼尚诅祝【宋史夏国传】；强梗尚气敢战斗【金史夏国赞】；尚释重巫风俗不纯【宁夏志土人性勇锐善畜牧尚释重巫本朝徙其民于陕西而居此土者皆五方之人是以风俗不纯】；人以技艺趋利畜牧为资【卫志】",
+          "fiefs": [
+            {
+              "name": "庆王府",
+              "type": "王府",
+              "note": "在卫城内本朝洪武三十四年建"
+            },
+            {
+              "name": "安化王府",
+              "type": "王府",
+              "note": "在卫城内澄清坊俱正统八年建"
+            },
+            {
+              "name": "安塞王府",
+              "type": "王府",
+              "note": "在卫城内东景泰四年建"
+            },
+            {
+              "name": "真宁王府",
+              "type": "王府",
+              "note": "在卫城内东镇安坊"
+            },
+            {
+              "name": "平凉王府",
+              "type": "王府",
+              "note": "在卫城内天顺初建"
+            },
+            {
+              "name": "弘农王府",
+              "type": "王府",
+              "note": "同城以后建"
+            },
+            {
+              "name": "丰林王府",
+              "type": "王府",
+              "note": "同城以后建"
+            },
+            {
+              "name": "寿阳王府",
+              "type": "王府",
+              "note": "同城以后建"
+            },
+            {
+              "name": "延川王府",
+              "type": "王府",
+              "note": "同城以后建"
+            }
+          ],
+          "garrisons": [
+            {
+              "name": "宁夏中防卫",
+              "type": "卫",
+              "location_text": "洪武中为庆府置"
+            },
+            {
+              "name": "灵州千户所",
+              "type": "千户所",
+              "location_text": "在卫南九十里洪武中建"
+            },
+            {
+              "name": "兴武营守御千户所",
+              "type": "千户所",
+              "location_text": "在卫城西南二百里"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009"
+        ]
+      },
+      {
+        "geo_id": "GEO-37001-w01",
+        "item_id": "37-001",
+        "name": "灵州千户所",
+        "type": "weisuo",
+        "region": "陕西行都司",
+        "parent": "GEO-37001",
+        "children": [],
+        "volume_range": "卷37",
+        "attributes": {
+          "location_text": "在卫南九十里洪武中建；本汉灵州县后魏为灵州隋置灵武郡唐肃宗即位于灵武即此宋改翔庆军元仍为灵州本朝州废置守御千户所",
+          "garrison_type": "守御千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-37001-w02",
+        "item_id": "37-001",
+        "name": "兴武营守御千户所",
+        "type": "weisuo",
+        "region": "陕西行都司",
+        "parent": "GEO-37001",
+        "children": [],
+        "volume_range": "卷37",
+        "attributes": {
+          "location_text": "在卫城西南二百里；卫城东南三百二十里黄河东南正统九年建兴武营",
+          "garrison_type": "守御千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "虞夏",
+        "era": null,
+        "institution_name": "雍州之域",
+        "action": "属",
+        "detail": "禹贡雍州之域，天文井鬼分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "春秋战国",
+        "era": null,
+        "institution_name": "羌戎所居",
+        "action": "因之",
+        "detail": "春秋时羌戎所居"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "上郡地",
+        "action": "置郡",
+        "detail": "秦为上郡地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "朔方郡",
+        "action": "置",
+        "detail": "汉置朔方郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "赫连夏都城",
+        "action": "建都",
+        "detail": "晋乱，赫连夏建都于此"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "夏州",
+        "action": "置",
+        "detail": "后魏始置夏州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "南北朝",
+        "era": "西魏",
+        "institution_name": "弘化郡",
+        "action": "置",
+        "detail": "西魏置弘化郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "南北朝",
+        "era": "后周",
+        "institution_name": "怀远郡",
+        "action": "改",
+        "detail": "后周改怀远郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "朔方郡",
+        "action": "改",
+        "detail": "隋为朔方郡"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "夏州/朔方郡",
+        "action": "置",
+        "detail": "唐置夏州，或为朔方郡；唐末拓跋思恭镇夏州，遂世据其地"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "宋",
+        "era": "天禧",
+        "institution_name": "兴州/兴庆府/中兴府",
+        "action": "升",
+        "detail": "宋天禧间其孙德明城怀远镇为兴州以居，后升兴庆府，又改中兴府"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "宁夏路",
+        "action": "置",
+        "detail": "元置宁夏路"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "宁夏卫",
+        "action": "改置",
+        "detail": "本朝初改宁夏府，后府废；洪武九年改置宁夏卫，隶陕西都司；后又增置宁夏前、宁夏后及宁夏左屯、宁夏右屯、宁夏中屯凡六卫"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "贺兰山",
+        "type": "山",
+        "location_text": "在卫城西六十里",
+        "description": "丹崖翠峰巍然峻大，盘踞数百里，宁夏倚以为固",
+        "lore": "唐韦蟾诗：贺兰山下果园成，塞北江南旧有名"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "莎罗模山",
+        "type": "山",
+        "location_text": "在卫城南一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "峡口山",
+        "type": "山",
+        "location_text": "在卫城西南一百四十里",
+        "description": "两山相夹，黄河经其中，一名青铜峡",
+        "lore": "上有古塔一百八座"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "省嵬山",
+        "type": "山",
+        "location_text": "在卫城东北一百四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "金积山",
+        "type": "山",
+        "location_text": "在卫城南二百里",
+        "description": "山多赭土，日照其色如金；山北崖石板下有水乱滴如雨天",
+        "lore": "旱祷雨有应"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "黄草山",
+        "type": "山",
+        "location_text": "在卫城北二百二十里",
+        "description": "其上草色多黄",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "石觜山",
+        "type": "山",
+        "location_text": "在卫城东北二百里",
+        "description": "山石突出如觜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "黑鹰山",
+        "type": "山",
+        "location_text": "在卫城南二百五十里",
+        "description": "昔人尝于此获黑鹰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "居中山",
+        "type": "山",
+        "location_text": "在卫城东南二百六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "蠡山",
+        "type": "山",
+        "location_text": "在卫城南二百六十里",
+        "description": "层峦苍翠，其峰如蠡；又东北有小蠡山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "西碛山",
+        "type": "山",
+        "location_text": "在卫城东北二百八十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "狼山",
+        "type": "山",
+        "location_text": "在卫城东南二百九十里",
+        "description": "其山多狼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "麦垜山",
+        "type": "山",
+        "location_text": "在卫城东三百里",
+        "description": "山势高耸如麦垜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "琥八山",
+        "type": "山",
+        "location_text": "在卫城西南三百四十里",
+        "description": "夷名琥八，犹华言色驳杂也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "鹿山",
+        "type": "山",
+        "location_text": "在卫城西南与琥八山相近",
+        "description": "其山多鹿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "三山",
+        "type": "山",
+        "location_text": "在卫城东南三百六十里",
+        "description": "三峰列峙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "平山",
+        "type": "山",
+        "location_text": "在灵州城东北八十里",
+        "description": "以山顶平而名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "黄河",
+        "type": "河",
+        "location_text": "在卫城东南四十里",
+        "description": "流至西南临洮府兰县，经宁夏中卫南过峡口至本卫境；居人疏渠溉田数万顷；又经卫境东北过东胜州，复由绥德州境南流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "黑水河",
+        "type": "河",
+        "location_text": "在卫城东",
+        "description": "番名哈喇乌苏，河西流注于黄河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "清水河",
+        "type": "河",
+        "location_text": "在卫城南三百五十里",
+        "description": "故鸣沙州城南，即古葫芦河也；河流甚狭，自平凉界来注于黄河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "金波湖",
+        "type": "湖",
+        "location_text": "在卫城北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "三塔湖",
+        "type": "湖",
+        "location_text": "在卫城东北三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "巽湖",
+        "type": "湖",
+        "location_text": "在卫城东南三十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "观音湖",
+        "type": "湖",
+        "location_text": "在卫城西九十五里贺兰山大水口",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "月湖",
+        "type": "湖",
+        "location_text": "在卫城北七十五里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "长湖",
+        "type": "湖",
+        "location_text": "在卫城西北一百二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "汉延渠",
+        "type": "渠",
+        "location_text": "在卫城东南",
+        "description": "支引黄河水绕城溉田可万顷，岁无旱涝之虞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "唐来渠",
+        "type": "渠",
+        "location_text": "在卫城西南",
+        "description": "亦引黄河水绕城西溉田万余顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "新渠",
+        "type": "渠",
+        "location_text": "在卫城南",
+        "description": "分唐来渠水溉田数百顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "红花渠",
+        "type": "渠",
+        "location_text": "在卫城南五里",
+        "description": "分唐来渠水东流溉田七百余顷；又引入城中，民汲甚便",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "秦家渠",
+        "type": "渠",
+        "location_text": "在黄河东南",
+        "description": "分河水溉田数百顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "汉伯渠",
+        "type": "渠",
+        "location_text": "在黄河西南",
+        "description": "分河水溉田二百余顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "滚泉",
+        "type": "泉",
+        "location_text": "在金积山东麓",
+        "description": "水自池涌出高一二尺如沸汤之状，清洁可饮",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "富泉",
+        "type": "泉",
+        "location_text": "在蠡山",
+        "description": "水甚甘冽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "盐池",
+        "type": "池",
+        "location_text": "大盐池在卫城北四百里，小盐池在卫城东南二百七十里",
+        "description": "其盐皆不假人力，自然凝结",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "pers_id": "PER-001",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "张仁愿",
+        "dynasty": "唐",
+        "source_section": "名宦",
+        "note": "朔方军总管，于河北筑三受降城，绝虏南防路，自是朔方无寇，岁损费亿计减镇兵数万"
+      },
+      {
+        "pers_id": "PER-002",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "崔知温",
+        "dynasty": "唐",
+        "source_section": "名宦",
+        "note": "灵州司马，境有浑斛萨万帐数扰齐民，知温表徙河北，人得就耕"
+      },
+      {
+        "pers_id": "PER-003",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "王方翼",
+        "dynasty": "唐",
+        "source_section": "名宦",
+        "note": "夏州都督，牛疫民废田作，方翼为耦耕法张机键，力省而见功多"
+      },
+      {
+        "pers_id": "PER-004",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "魏元忠",
+        "dynasty": "唐",
+        "source_section": "名宦",
+        "note": "灵武道行军大总管以御突厥，驭军持重"
+      },
+      {
+        "pers_id": "PER-005",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "裴识",
+        "dynasty": "唐",
+        "source_section": "名宦",
+        "note": "灵武节度使，地斥卤无井，识誓神而凿之果得泉"
+      },
+      {
+        "pers_id": "PER-006",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "杜希全",
+        "dynasty": "唐",
+        "source_section": "名宦",
+        "note": "朔方节度使，军令严整；奉天之狩引兵赴难，贼平迁灵盐丰夏节度使"
+      },
+      {
+        "pers_id": "PER-007",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "张希崇",
+        "dynasty": "五代",
+        "source_section": "名宦",
+        "note": "唐明宗时为灵武节度使，开屯田教耕种，军食足而转馈省"
+      },
+      {
+        "pers_id": "PER-008",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "冯晖",
+        "dynasty": "五代",
+        "source_section": "名宦",
+        "note": "晋天福中以义成节度使镇灵武，推恩信，广屯田，民不加赋管内大治"
+      },
+      {
+        "pers_id": "PER-009",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "董遵诲",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "灵州路巡检，豁达多方略武艺绝人，夏人畏之"
+      },
+      {
+        "pers_id": "PER-010",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "段思恭",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "知灵州，绥抚夷落，访求民病有勤绩"
+      },
+      {
+        "pers_id": "PER-011",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "侯赟",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "太宗时知灵州，按视藩落宴犒以时，在朔方十余年"
+      },
+      {
+        "pers_id": "PER-012",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "安守忠",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "太平兴国初知灵州，后移夏州，每西戎犯边战无不防"
+      },
+      {
+        "pers_id": "PER-013",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "王昭远",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "至道中李继迁扰西鄙，命昭远为灵州路都部署，防二十五州刍粟竟达灵武"
+      },
+      {
+        "pers_id": "PER-014",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "尹宪",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "雍熙初知夏州，攻破李继迁之众于地斤泽"
+      },
+      {
+        "pers_id": "PER-015",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "田绍斌",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "灵州马步军都部署，领众入蕃讨贼斩首二千级"
+      },
+      {
+        "pers_id": "PER-016",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "郭密",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "吴州兵马都部署，训练士卒号令严肃，夏人畏服"
+      },
+      {
+        "pers_id": "PER-017",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "杨琼",
+        "dynasty": "宋",
+        "source_section": "名宦",
+        "note": "灵庆路副都部署，捍防有功，导黄河溉民田数千顷"
+      },
+      {
+        "pers_id": "PER-018",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "袁裕",
+        "dynasty": "元",
+        "source_section": "名宦",
+        "note": "中统间为中兴等路劝农使，计丁给地立三屯使耕，官民便之"
+      },
+      {
+        "pers_id": "PER-019",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "张文谦",
+        "dynasty": "元",
+        "source_section": "名宦",
+        "note": "以中书左丞行省西夏中兴等路，变其鄙野之俗，浚渠溉田"
+      },
+      {
+        "pers_id": "PER-020",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "郭守敬",
+        "dynasty": "元",
+        "source_section": "名宦",
+        "note": "以河渠副使从张文谦至西夏，浚汉延、唐徕等渠溉田万余顷"
+      },
+      {
+        "pers_id": "PER-021",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "董文用",
+        "dynasty": "元",
+        "source_section": "名宦",
+        "note": "中兴等路行省郎中，开唐来、汉延等渠，民归者四五万悉授田种颁农具"
+      },
+      {
+        "pers_id": "PER-022",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "张麟",
+        "dynasty": "明",
+        "source_section": "名宦",
+        "note": "永乐中以陕西都指挥使镇守宁夏，固守封疆控制外夷"
+      },
+      {
+        "pers_id": "PER-023",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "金濂",
+        "dynasty": "明",
+        "source_section": "名宦",
+        "note": "正统中以右副都御史镇守宁夏，劝民出粟置预备仓以赈荒"
+      },
+      {
+        "pers_id": "PER-024",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "傅燮",
+        "dynasty": "汉",
+        "source_section": "人物",
+        "note": "灵州人，仕为议郎，谅直不避权贵"
+      },
+      {
+        "pers_id": "PER-025",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "傅亮",
+        "dynasty": "晋",
+        "source_section": "人物",
+        "note": "灵州人，博涉经史尤善文辞，义熙中累官中书黄门侍郎，宋武帝受禅封建城县公"
+      },
+      {
+        "pers_id": "PER-026",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "傅昭",
+        "dynasty": "南北朝",
+        "source_section": "人物",
+        "note": "灵州人，博极古今世称为学府，莅官以清净为政"
+      },
+      {
+        "pers_id": "PER-027",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "傅琰",
+        "dynasty": "南北朝",
+        "source_section": "人物",
+        "note": "灵州人，历武康、山阴二县令并着能名，二县皆谓之傅圣"
+      },
+      {
+        "pers_id": "PER-028",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "傅縡",
+        "dynasty": "南北朝",
+        "source_section": "人物",
+        "note": "灵州人，七岁诵古诗赋至十余万言，仕陈为秘书监右卫将军兼中书通事舍人"
+      },
+      {
+        "pers_id": "PER-029",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "韩游环",
+        "dynasty": "唐",
+        "source_section": "人物",
+        "note": "灵州灵武人，始为郭子仪裨将，平安禄山功第一，累官邠宁节度使，谥曰襄"
+      },
+      {
+        "pers_id": "PER-030",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "康日知",
+        "dynasty": "唐",
+        "source_section": "人物",
+        "note": "灵州人，为赵州刺史拒李惟岳叛，封会稽郡王"
+      },
+      {
+        "pers_id": "PER-031",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "杨怀宾",
+        "dynasty": "唐",
+        "source_section": "人物",
+        "note": "夏州朔方人，为韩游瓌将，李怀光反，怀宾斩贼党张昕告行在，授御史中丞"
+      },
+      {
+        "pers_id": "PER-032",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "戴休颜",
+        "dynasty": "唐",
+        "source_section": "人物",
+        "note": "夏州人，以功封咸宁郡王兼朔方节度副使；朱泚反率兵驰奔行在，加检校尚书右仆射"
+      },
+      {
+        "pers_id": "PER-033",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "史敬奉",
+        "dynasty": "唐",
+        "source_section": "人物",
+        "note": "灵州人，朔方军牙将，元和中请兵三千深入吐蕃大破之，以雄边名"
+      },
+      {
+        "pers_id": "PER-034",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "周美",
+        "dynasty": "宋",
+        "source_section": "人物",
+        "note": "灵州回乐人，少隶朔方军，在边前后十余战平簇帐二百复城堡甚多"
+      },
+      {
+        "pers_id": "PER-035",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "斡道冲",
+        "dynasty": "宋",
+        "source_section": "人物",
+        "note": "灵武人，世掌夏国史，通五经为蕃汉教授，译论语注别作解义二十卷，官至其国中书宰相"
+      },
+      {
+        "pers_id": "PER-036",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "李桢",
+        "dynasty": "元",
+        "source_section": "人物",
+        "note": "西夏国族子，金末以经童中选，累官广阳军马万户"
+      },
+      {
+        "pers_id": "PER-037",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "高智耀",
+        "dynasty": "元",
+        "source_section": "人物",
+        "note": "河西人，登本国进士，夏亡隐贺兰山；世祖时拜翰林学士，迁西夏中兴等路提刑按察使，追封宁国公谥文忠"
+      },
+      {
+        "pers_id": "PER-038",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "高睿",
+        "dynasty": "元",
+        "source_section": "人物",
+        "note": "智耀子，年十六授符宝郎，历嘉兴路总管、浙西淮东廉访使，两为南台御史中丞，赠太傅谥贞简"
+      },
+      {
+        "pers_id": "PER-039",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "李恒",
+        "dynasty": "元",
+        "source_section": "人物",
+        "note": "西夏人，从取宋襄阳江西及平崖山，累官中书左丞；后讨交趾中毒矢卒，谥武敏追封滕国公"
+      },
+      {
+        "pers_id": "PER-040",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "桑节",
+        "dynasty": "元",
+        "source_section": "人物",
+        "note": "河西人，累官江南行台御史大夫、湖广江西行省平章；守江州时中流矢死"
+      },
+      {
+        "pers_id": "PER-041",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "徐琦",
+        "dynasty": "明",
+        "source_section": "人物",
+        "note": "宁夏人，登永乐乙未进士，累官南京兵部尚书参赞守备机务"
+      },
+      {
+        "pers_id": "PER-042",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "殷氏",
+        "dynasty": "明",
+        "source_section": "列女",
+        "note": "宁夏卫军余胡勖妻，年十六适勖，夫殁自缢柩前，事闻旌表"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SIT-001",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "宁夏卫学",
+        "type": "学校",
+        "location_text": "在卫城西北",
+        "description": "洪武二十九年建，为宁夏中屯等卫学；永乐三年改为宁夏等卫学"
+      },
+      {
+        "site_id": "SIT-002",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "元昊宫",
+        "type": "宫室",
+        "location_text": "在贺兰山之东",
+        "description": "昔赵元昊据有夏地居兴州，阻河依山为固建宫于此，宫墙尚存"
+      },
+      {
+        "site_id": "SIT-003",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "高台",
+        "type": "宫室",
+        "location_text": "在卫城东一十五里",
+        "description": "地势崇高，登眺极山河之伟观；赵元昊于此建寺，久废"
+      },
+      {
+        "site_id": "SIT-004",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "灵武营",
+        "type": "关梁/营",
+        "location_text": "在卫城北一百里",
+        "description": "正统十一年建"
+      },
+      {
+        "site_id": "SIT-005",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "黑山营",
+        "type": "关梁/营",
+        "location_text": "在卫城北二百四十里",
+        "description": "永乐元年建"
+      },
+      {
+        "site_id": "SIT-006",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "清水营",
+        "type": "关梁/营",
+        "location_text": "在卫城东南一百二十里黄河东南",
+        "description": "正统七年建"
+      },
+      {
+        "site_id": "SIT-007",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "兴武营",
+        "type": "关梁/营",
+        "location_text": "在卫城东南三百二十里黄河东南",
+        "description": "正统九年建"
+      },
+      {
+        "site_id": "SIT-008",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "花马池营",
+        "type": "关梁/营",
+        "location_text": "在卫城东南三百五十里",
+        "description": "正统九年建，守备防将分居于此"
+      },
+      {
+        "site_id": "SIT-009",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "河西寨",
+        "type": "关梁/寨",
+        "location_text": "在黄河西岸",
+        "description": ""
+      },
+      {
+        "site_id": "SIT-010",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "河东寨",
+        "type": "关梁/寨",
+        "location_text": "在黄河东岸",
+        "description": ""
+      },
+      {
+        "site_id": "SIT-011",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "潘昶堡",
+        "type": "关梁/堡",
+        "location_text": "在卫城东二十五里",
+        "description": "自是而东南又有金贵、李祥、张济、魏敬、王信、王贵、任春、叶诚凡八堡，俱属宁夏卫"
+      },
+      {
+        "site_id": "SIT-012",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "王景堡",
+        "type": "关梁/堡",
+        "location_text": "在卫城西南四十里",
+        "description": "自是而西南又有李俊、邵刚、瞿靖、林皋、蒋鼎、陈刚凡六堡，俱属宁夏左屯卫"
+      },
+      {
+        "site_id": "SIT-013",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "王澄堡",
+        "type": "关梁/堡",
+        "location_text": "在卫城东北三十五里",
+        "description": "自是而东南又有张政、魏政二堡，俱属宁夏左屯卫"
+      },
+      {
+        "site_id": "SIT-014",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "杨显堡",
+        "type": "关梁/堡",
+        "location_text": "在卫城西南三十五里",
+        "description": "自是而西北又有陶容、雷福、桂文、常信、洪广、高荣、姚福凡七堡，俱属宁夏右屯卫"
+      },
+      {
+        "site_id": "SIT-015",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "谢保堡",
+        "type": "关梁/堡",
+        "location_text": "在卫城北十五里",
+        "description": "自是而北又有张亮、李信、丁义、周澄凡四堡，俱属宁夏前卫"
+      },
+      {
+        "site_id": "SIT-016",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "官桥",
+        "type": "关梁/桥",
+        "location_text": "在卫城南二十八里",
+        "description": "跨汉延渠"
+      },
+      {
+        "site_id": "SIT-017",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "永通桥",
+        "type": "关梁/桥",
+        "location_text": "在卫城南",
+        "description": "跨红花渠"
+      },
+      {
+        "site_id": "SIT-018",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "昌宁桥",
+        "type": "关梁/桥",
+        "location_text": "在卫城南八里",
+        "description": "跨新渠"
+      },
+      {
+        "site_id": "SIT-019",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "贺兰桥",
+        "type": "关梁/桥",
+        "location_text": "在卫城西",
+        "description": "跨唐来渠"
+      },
+      {
+        "site_id": "SIT-020",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "承天寺",
+        "type": "寺观",
+        "location_text": "在卫城西",
+        "description": "宋时夏人建，后废独存一塔；本朝庆府重建"
+      },
+      {
+        "site_id": "SIT-021",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "报恩寺",
+        "type": "寺观",
+        "location_text": "在卫城内之西",
+        "description": "元建"
+      },
+      {
+        "site_id": "SIT-022",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "宁静寺",
+        "type": "寺观",
+        "location_text": "在卫城东南",
+        "description": "正统十年建"
+      },
+      {
+        "site_id": "SIT-023",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "三清观",
+        "type": "寺观",
+        "location_text": "在卫城东南",
+        "description": "永乐四年建"
+      },
+      {
+        "site_id": "SIT-024",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "庆靖王墓",
+        "type": "陵墓",
+        "location_text": "在卫城南二百二十里",
+        "description": "本朝宗室"
+      },
+      {
+        "site_id": "SIT-025",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "悼庄王墓",
+        "type": "陵墓",
+        "location_text": "在卫城南三百一十里",
+        "description": "本朝宗室"
+      },
+      {
+        "site_id": "SIT-026",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "李王墓",
+        "type": "陵墓",
+        "location_text": "在贺兰山下",
+        "description": "数冢巍然，皆夏国主李继迁等墓"
+      },
+      {
+        "site_id": "SIT-027",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "灵州城",
+        "type": "古迹",
+        "location_text": "在卫城南",
+        "description": "本汉灵州县，后魏为灵州，隋置灵武郡，唐肃宗即位于灵武即此；宋改翔庆军，元仍为灵州，本朝州废置守御千户所"
+      },
+      {
+        "site_id": "SIT-028",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "保静城",
+        "type": "古迹",
+        "location_text": "在卫城西南八十里",
+        "description": "汉筑，后魏置弘静镇，隋为弘静县，唐改名保静属灵州，夏为静州，元废，本朝屯军居焉"
+      },
+      {
+        "site_id": "SIT-029",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "夏州城",
+        "type": "古迹",
+        "location_text": "在卫城东黄河岸侧",
+        "description": "晋时赫连据此称大夏，后魏置夏州"
+      },
+      {
+        "site_id": "SIT-030",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "省嵬城",
+        "type": "古迹",
+        "location_text": "在黄河东",
+        "description": ""
+      },
+      {
+        "site_id": "SIT-031",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "定州城",
+        "type": "古迹",
+        "location_text": "在卫城北六十里",
+        "description": "本唐定远城，赵元昊改为定州"
+      },
+      {
+        "site_id": "SIT-032",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "雄州城",
+        "type": "古迹",
+        "location_text": "在灵州城西南一百八十里",
+        "description": "本承天堡，唐中和间徙雄州治此"
+      },
+      {
+        "site_id": "SIT-033",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "韦州城",
+        "type": "古迹",
+        "location_text": "在卫城东南三百六十里",
+        "description": "夏为韦州静塞军"
+      },
+      {
+        "site_id": "SIT-034",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "田州城",
+        "type": "古迹",
+        "location_text": "在卫城北六十里",
+        "description": ""
+      },
+      {
+        "site_id": "SIT-035",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "忻都城",
+        "type": "古迹",
+        "location_text": "在卫城东北五百里",
+        "description": ""
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "铁",
+        "note": "麦垜山出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "铅",
+        "note": "俱贺兰山出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "盐",
+        "note": "有池"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "胡麻",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "青稞",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "苁蓉枸杞",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "青木香",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-008",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "楸子",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-009",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "羱羊",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-010",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "绒褐",
+        "note": ""
+      },
+      {
+        "prod_id": "PROD-011",
+        "item_id": "37-001",
+        "geo_id": "GEO-37001",
+        "name": "红花",
+        "note": ""
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "37-001",
+        "cited_work": "赫连夏京都颂",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【赫连夏京都颂】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "37-001",
+        "cited_work": "新志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【新志】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "37-001",
+        "cited_work": "宋史夏国传",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋史夏国传】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "37-001",
+        "cited_work": "金史夏国赞",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【金史夏国赞】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "37-001",
+        "cited_work": "宁夏志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宁夏志】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "37-001",
+        "cited_work": "卫志",
+        "cited_work_ent_id": null,
+        "context": "形胜/风俗",
+        "original": "【卫志】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "37-001",
+        "cited_work": "韦蟾诗",
+        "cited_work_ent_id": null,
+        "context": "山川",
+        "original": "【唐韦蟾诗贺兰山下果园成塞北江南旧有名】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "37-001",
+        "cited_work": "刘综议",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋刘综议灵州民淳土沃为西陲巨屏】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "37-001",
+        "cited_work": "汉书地理志",
+        "cited_work_ent_id": null,
+        "context": "建置",
+        "original": "【禹贡雍州之域】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "宁夏卫主文件；pers 42人未超50、sites 35处未超30阈值外但仍单列；下属灵州、兴武营二千户所列children"
+  }
 }

@@ -1,44 +1,25 @@
 {
- "item_id": "35-002",
- "volume": "35",
- "source": "秦州",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-s01",
-    "name": "秦州",
-    "type": "geo",
-    "norm": "秦州",
-    "first_source": "35-002"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-35002-s01",
-    "item_id": "35-002",
-    "name": "秦州",
-    "type": "subprefecture",
-    "region": "陕西",
-    "parent": "GEO-35002",
-    "children": [],
-    "volume_range": "卷35",
-    "attributes": {
-     "location_text": "在府城东三百里",
-     "households": {
-      "count": 32,
-      "unit": "里",
-      "note": "编户32里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+  "item_id": "35-002",
+  "volume": "35",
+  "source": "秦州",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-s01",
+        "name": "秦州",
+        "type": "geo",
+        "norm": "秦州",
+        "first_source": "35-002"
+      }
+    ],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

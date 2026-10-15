@@ -1,44 +1,25 @@
 {
- "item_id": "32-001",
- "volume": "32",
- "source": "白水县",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-c20",
-    "name": "白水县",
-    "type": "geo",
-    "norm": "白水县",
-    "first_source": "32-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-32001-c20",
-    "item_id": "32-001",
-    "name": "白水县",
-    "type": "county",
-    "region": "陕西",
-    "parent": "GEO-32001-s03",
-    "children": [],
-    "volume_range": "卷32-33",
-    "attributes": {
-     "location_text": "在州城西北一百二十里",
-     "households": {
-      "count": 29,
-      "unit": "里",
-      "note": "编户二十九里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+  "item_id": "32-001",
+  "volume": "32",
+  "source": "白水县",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-c20",
+        "name": "白水县",
+        "type": "geo",
+        "norm": "白水县",
+        "first_source": "32-001"
+      }
+    ],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

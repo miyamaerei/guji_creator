@@ -1,44 +1,25 @@
 {
- "item_id": "32-001",
- "volume": "32",
- "source": "华阴县",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-c22",
-    "name": "华阴县",
-    "type": "geo",
-    "norm": "华阴县",
-    "first_source": "32-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-32001-c22",
-    "item_id": "32-001",
-    "name": "华阴县",
-    "type": "county",
-    "region": "陕西",
-    "parent": "GEO-32001-s01",
-    "children": [],
-    "volume_range": "卷32-33",
-    "attributes": {
-     "location_text": "在州城东七十里",
-     "households": {
-      "count": 30,
-      "unit": "里",
-      "note": "编户三十里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+  "item_id": "32-001",
+  "volume": "32",
+  "source": "华阴县",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-c22",
+        "name": "华阴县",
+        "type": "geo",
+        "norm": "华阴县",
+        "first_source": "32-001"
+      }
+    ],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

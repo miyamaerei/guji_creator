@@ -1,44 +1,25 @@
 {
- "item_id": "32-001",
- "volume": "32",
- "source": "韩城县",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-c21",
-    "name": "韩城县",
-    "type": "geo",
-    "norm": "韩城县",
-    "first_source": "32-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-32001-c21",
-    "item_id": "32-001",
-    "name": "韩城县",
-    "type": "county",
-    "region": "陕西",
-    "parent": "GEO-32001-s03",
-    "children": [],
-    "volume_range": "卷32-33",
-    "attributes": {
-     "location_text": "在州城东北二百二十里",
-     "households": {
-      "count": 36,
-      "unit": "里",
-      "note": "编户三十六里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+  "item_id": "32-001",
+  "volume": "32",
+  "source": "韩城县",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-c21",
+        "name": "韩城县",
+        "type": "geo",
+        "norm": "韩城县",
+        "first_source": "32-001"
+      }
+    ],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

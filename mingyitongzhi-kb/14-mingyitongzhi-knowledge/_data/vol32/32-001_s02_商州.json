@@ -1,49 +1,25 @@
 {
- "item_id": "32-001",
- "volume": "32",
- "source": "商州",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-s02",
-    "name": "商州",
-    "type": "geo",
-    "norm": "商州",
-    "first_source": "32-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-32001-s02",
-    "item_id": "32-001",
-    "name": "商州",
-    "type": "subprefecture",
-    "region": "陕西",
-    "parent": "GEO-32001",
-    "children": [
-     "GEO-32001-c13",
-     "GEO-32001-c14",
-     "GEO-32001-c15",
-     "GEO-32001-c16"
+  "item_id": "32-001",
+  "volume": "32",
+  "source": "商州",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-s02",
+        "name": "商州",
+        "type": "geo",
+        "norm": "商州",
+        "first_source": "32-001"
+      }
     ],
-    "volume_range": "卷32-33",
-    "attributes": {
-     "location_text": "在府城东南二百六十里",
-     "households": {
-      "count": 28,
-      "unit": "里",
-      "note": "编户二十八里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

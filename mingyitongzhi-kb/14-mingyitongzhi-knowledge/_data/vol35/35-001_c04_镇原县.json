@@ -1,44 +1,25 @@
 {
- "item_id": "35-001",
- "volume": "35",
- "source": "镇原县",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-c04",
-    "name": "镇原县",
-    "type": "geo",
-    "norm": "镇原县",
-    "first_source": "35-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-35001-c04",
-    "item_id": "35-001",
-    "name": "镇原县",
-    "type": "county",
-    "region": "陕西",
-    "parent": "GEO-35001",
-    "children": [],
-    "volume_range": "卷35",
-    "attributes": {
-     "location_text": "在府城北一百三十里",
-     "households": {
-      "count": 20,
-      "unit": "里",
-      "note": "编户20里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+  "item_id": "35-001",
+  "volume": "35",
+  "source": "镇原县",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-c04",
+        "name": "镇原县",
+        "type": "geo",
+        "norm": "镇原县",
+        "first_source": "35-001"
+      }
+    ],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

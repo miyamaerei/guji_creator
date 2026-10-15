@@ -1,50 +1,25 @@
 {
- "item_id": "32-001",
- "volume": "32",
- "source": "同州",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-s03",
-    "name": "同州",
-    "type": "geo",
-    "norm": "同州",
-    "first_source": "32-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-32001-s03",
-    "item_id": "32-001",
-    "name": "同州",
-    "type": "subprefecture",
-    "region": "陕西",
-    "parent": "GEO-32001",
-    "children": [
-     "GEO-32001-c17",
-     "GEO-32001-c18",
-     "GEO-32001-c19",
-     "GEO-32001-c20",
-     "GEO-32001-c21"
+  "item_id": "32-001",
+  "volume": "32",
+  "source": "同州",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-s03",
+        "name": "同州",
+        "type": "geo",
+        "norm": "同州",
+        "first_source": "32-001"
+      }
     ],
-    "volume_range": "卷32-33",
-    "attributes": {
-     "location_text": "在府城东北二百八十里",
-     "households": {
-      "count": 35,
-      "unit": "里",
-      "note": "编户三十五里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

@@ -1,0 +1,1044 @@
+{
+ "item_id": "33-001",
+ "volume": "33",
+ "source": "汉中府",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-001",
+    "name": "汉中府",
+    "type": "geo",
+    "norm": "汉中府",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "汉江",
+    "type": "river",
+    "norm": "汉江",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "嶓冢山",
+    "type": "mtn",
+    "norm": "嶓冢山",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "大巴山",
+    "type": "mtn",
+    "norm": "大巴山",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "米仓山",
+    "type": "mtn",
+    "norm": "米仓山",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-006",
+    "name": "定军山",
+    "type": "mtn",
+    "norm": "定军山",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-007",
+    "name": "褒谷",
+    "type": "geofeat",
+    "norm": "褒谷",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-008",
+    "name": "张良",
+    "type": "person",
+    "norm": "张良",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-009",
+    "name": "诸葛亮",
+    "type": "person",
+    "norm": "诸葛亮",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-010",
+    "name": "张骞",
+    "type": "person",
+    "norm": "张骞",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-011",
+    "name": "李固",
+    "type": "person",
+    "norm": "李固",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-012",
+    "name": "杜甫",
+    "type": "person",
+    "norm": "杜甫",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-013",
+    "name": "吴玠",
+    "type": "person",
+    "norm": "吴玠",
+    "first_source": "33-001"
+   },
+   {
+    "ent_id": "ENT-014",
+    "name": "吴璘",
+    "type": "person",
+    "norm": "吴璘",
+    "first_source": "33-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-33001",
+    "item_id": "33-001",
+    "name": "汉中府",
+    "type": "prefecture",
+    "region": "陕西",
+    "parent": "GEO-000",
+    "children": [
+     "GEO-33001-c01",
+     "GEO-33001-c02",
+     "GEO-33001-c03",
+     "GEO-33001-c04",
+     "GEO-33001-c05",
+     "GEO-33001-c06",
+     "GEO-33001-s01",
+     "GEO-33001-s02",
+     "GEO-33001-w01",
+     "GEO-33001-w02",
+     "GEO-33001-w03",
+     "GEO-33001-w04"
+    ],
+    "volume_range": "卷33",
+    "attributes": {
+     "borders": [
+      {
+       "direction": "东",
+       "to_place": "湖广襄阳府上津县界",
+       "distance_li": 1040
+      },
+      {
+       "direction": "西",
+       "to_place": "四川保宁府广元县界",
+       "distance_li": 370
+      },
+      {
+       "direction": "南",
+       "to_place": "保宁府巴县界",
+       "distance_li": 140
+      },
+      {
+       "direction": "北",
+       "to_place": "凤翔府宝鸡县界",
+       "distance_li": 640
+      }
+     ],
+     "to_capital": [
+      {
+       "capital": "京师",
+       "distance_li": 2530
+      },
+      {
+       "capital": "南京",
+       "distance_li": 3540
+      }
+     ],
+     "households": {
+      "count": null,
+      "unit": "里",
+      "note": "领州二县十四；各属州县编户见下"
+     },
+     "grain_tax": {
+      "amount": 30000,
+      "unit": "石",
+      "note": "粮三万石零"
+     },
+     "jun_name": "汉川【后周名】兴元【唐名】",
+     "topography": "成都喉嗌【隋书南郑要险成都之喉嗌】；巴蜀捍蔽【唐元和志汉中为巴蜀捍蔽】；崖谷峻绝十里百折【唐柳宗元兴州江运记】；东接南郡西接阴平南接广汉北接秦川【华阳国志】；九州之险【唐欧阳詹云秦之坤蜀之艮连高夹深九州之险也】；前瞰三秦后蔽四川【宋孙道夫奏】；形势之地【宋张浚奏议汉中形势之地前控六路之师后据两蜀之粟左通荆襄之财右出秦陇之马】；秦头楚尾一大都会【舆地纪胜】；要地有三【洋州志曰褒谷曰斜谷曰子午谷】；东接襄沔南通巴达西连梁洋北控商虢【安康志】",
+     "customs": "风气强梁【汉志西方之气强梁故称梁州】；朴质无文【隋志汉中之人朴质无文不甚趋利性嗜口腹多事畋猎虽蓬室柴门食必兼肉】；人尤劲悍务农习射【隋志武都顺政连杂氐羌人尤劲悍性多质直皆务于农事工习射猎】；俗随五方【宋图经金居襄沔上流其人半楚风俗自宋南渡后舟车辐辏五方之民杂焉故风俗各随其方】；语带蜀音【隋志顺政语带蜀音人居山上种植甚微惟以负贩为业】；土风朴厚【华阳国志】；踏石解缴【洋川志孟春四日居人游江上遇葛缠草木者解之取解殃缴咎之意五月五日太守率僚属观竞渡谓之踏石】；务农力穑质直好义【南岐志】",
+     "garrisons": [
+      {
+       "name": "汉中卫",
+       "type": "卫",
+       "location_text": "在府治西洪武四年建"
+      },
+      {
+       "name": "宁羌卫",
+       "type": "卫",
+       "location_text": "在州城内"
+      },
+      {
+       "name": "守御沔县右千户所",
+       "type": "千户所",
+       "location_text": "在县治东洪武中建隶汉中卫"
+      },
+      {
+       "name": "兴安州守御千户所",
+       "type": "千户所",
+       "location_text": "在州治西洪武间建"
+      }
+     ]
+    },
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003",
+     "CIT-004",
+     "CIT-005",
+     "CIT-006",
+     "CIT-007",
+     "CIT-008",
+     "CIT-009",
+     "CIT-010",
+     "CIT-011",
+     "CIT-012",
+     "CIT-013",
+     "CIT-014",
+     "CIT-015",
+     "CIT-016"
+    ]
+   },
+   {
+    "geo_id": "GEO-33001-c01",
+    "item_id": "33-001",
+    "name": "南郑县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "附郭",
+     "households": {
+      "count": 20,
+      "unit": "里",
+      "note": "编户二十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c02",
+    "item_id": "33-001",
+    "name": "褒城县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城西北四十五里",
+     "households": {
+      "count": 7,
+      "unit": "里",
+      "note": "编户七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c03",
+    "item_id": "33-001",
+    "name": "城固县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城东七十里",
+     "households": {
+      "count": 23,
+      "unit": "里",
+      "note": "编户二十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c04",
+    "item_id": "33-001",
+    "name": "洋县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城东南一百二十里",
+     "households": {
+      "count": 36,
+      "unit": "里",
+      "note": "编户三十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c05",
+    "item_id": "33-001",
+    "name": "西乡县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城东南二百二十里",
+     "households": {
+      "count": 16,
+      "unit": "里",
+      "note": "编户一十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c06",
+    "item_id": "33-001",
+    "name": "凤县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城西北三百八十里",
+     "households": {
+      "count": 9,
+      "unit": "里",
+      "note": "编户九里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-s01",
+    "item_id": "33-001",
+    "name": "宁羌州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [
+     "GEO-33001-c07",
+     "GEO-33001-c08"
+    ],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城西三百里",
+     "households": {
+      "count": 4,
+      "unit": "里",
+      "note": "本朝析置编户四里领县二"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c07",
+    "item_id": "33-001",
+    "name": "沔县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s01",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城西北一百一十里",
+     "households": {
+      "count": 5,
+      "unit": "里",
+      "note": "编户五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c08",
+    "item_id": "33-001",
+    "name": "略阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s01",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城西北三百一十里",
+     "households": {
+      "count": 4,
+      "unit": "里",
+      "note": "编户四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-s02",
+    "item_id": "33-001",
+    "name": "兴安州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [
+     "GEO-33001-c09",
+     "GEO-33001-c10",
+     "GEO-33001-c11",
+     "GEO-33001-c12",
+     "GEO-33001-c13",
+     "GEO-33001-c14"
+    ],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府城东南六百四十里",
+     "households": {
+      "count": 22,
+      "unit": "里",
+      "note": "编户二十二里领县四"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c09",
+    "item_id": "33-001",
+    "name": "平利县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s02",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州南九十里",
+     "households": {
+      "count": 8,
+      "unit": "里",
+      "note": "编户八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c10",
+    "item_id": "33-001",
+    "name": "石泉县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s02",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州西八十里",
+     "households": {
+      "count": 8,
+      "unit": "里",
+      "note": "编户八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c11",
+    "item_id": "33-001",
+    "name": "洵阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s02",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州东一百二十里",
+     "households": {
+      "count": 17,
+      "unit": "里",
+      "note": "编户一十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c12",
+    "item_id": "33-001",
+    "name": "紫阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s02",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州城西二百二十五里",
+     "households": {
+      "count": 5,
+      "unit": "里",
+      "note": "本朝析置编户五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c13",
+    "item_id": "33-001",
+    "name": "汉阴县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s02",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州西一百五十里",
+     "households": {
+      "count": 7,
+      "unit": "里",
+      "note": "编户七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-c14",
+    "item_id": "33-001",
+    "name": "白河县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-33001-s02",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州南二百一十里",
+     "households": {
+      "count": 8,
+      "unit": "里",
+      "note": "本朝析置为县编户八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-33001-w01",
+    "item_id": "33-001",
+    "name": "汉中卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在府治西洪武四年建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-33001-w02",
+    "item_id": "33-001",
+    "name": "宁羌卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州城内",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-33001-w03",
+    "item_id": "33-001",
+    "name": "守御沔县右千户所",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在县治东洪武中建隶汉中卫",
+     "garrison_type": "千户所"
+    }
+   },
+   {
+    "geo_id": "GEO-33001-w04",
+    "item_id": "33-001",
+    "name": "兴安州守御千户所",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-33001",
+    "children": [],
+    "volume_range": "卷33",
+    "attributes": {
+     "location_text": "在州治西洪武间建",
+     "garrison_type": "千户所"
+    }
+   }
+  ],
+  "evos": [
+   {
+    "evo_id": "EVO-001",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "禹贡",
+    "era": null,
+    "institution_name": "梁雍二州之域",
+    "action": "因之",
+    "detail": "禹贡梁雍二州之域，天文井鬼翼轸分野"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "春秋战国",
+    "era": null,
+    "institution_name": "秦与楚地",
+    "action": "属",
+    "detail": "春秋战国时属秦与楚"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "秦",
+    "era": null,
+    "institution_name": "汉中郡",
+    "action": "置",
+    "detail": "秦置汉中郡"
+   },
+   {
+    "evo_id": "EVO-004",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "汉",
+    "era": null,
+    "institution_name": "汉中郡/汉王国",
+    "action": "都",
+    "detail": "汉高祖初为汉王都南郑即此，武帝分隶益州部"
+   },
+   {
+    "evo_id": "EVO-005",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "东汉末",
+    "era": null,
+    "institution_name": "汉宁郡",
+    "action": "改",
+    "detail": "东汉末为张鲁所据，改汉中曰汉宁"
+   },
+   {
+    "evo_id": "EVO-006",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "曹魏",
+    "era": null,
+    "institution_name": "汉中郡",
+    "action": "复",
+    "detail": "曹魏复为汉中郡，寻入蜀汉"
+   },
+   {
+    "evo_id": "EVO-007",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "晋",
+    "era": null,
+    "institution_name": "梁州",
+    "action": "置",
+    "detail": "后又属魏置梁州，晋没于蜀，桓温平蜀复置梁州，未几又没于苻秦"
+   },
+   {
+    "evo_id": "EVO-008",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "宋齐梁后魏",
+    "era": null,
+    "institution_name": "梁州/汉中郡",
+    "action": "治",
+    "detail": "宋齐梁及后魏皆以梁州治汉中郡"
+   },
+   {
+    "evo_id": "EVO-009",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "后周",
+    "era": null,
+    "institution_name": "汉川郡",
+    "action": "改",
+    "detail": "后周改为汉川郡"
+   },
+   {
+    "evo_id": "EVO-010",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "隋",
+    "era": null,
+    "institution_name": "汉中郡",
+    "action": "改",
+    "detail": "隋初郡废州存，大业初州废为汉中郡"
+   },
+   {
+    "evo_id": "EVO-011",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "唐",
+    "era": null,
+    "institution_name": "梁州/褒州/兴元府",
+    "action": "改",
+    "detail": "唐初复为梁州，开元中改曰褒州寻复旧名，天宝初又改为汉中郡，乾元初复为梁州，德宗升为兴元府"
+   },
+   {
+    "evo_id": "EVO-012",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "五代",
+    "era": null,
+    "institution_name": "蜀",
+    "action": "据",
+    "detail": "唐末蜀王氏孟氏继有其地"
+   },
+   {
+    "evo_id": "EVO-013",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "宋",
+    "era": null,
+    "institution_name": "兴元府",
+    "action": "因",
+    "detail": "宋平蜀仍为兴元府"
+   },
+   {
+    "evo_id": "EVO-014",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "兴元路",
+    "action": "改",
+    "detail": "元为兴元路"
+   },
+   {
+    "evo_id": "EVO-015",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "dynasty": "明",
+    "era": null,
+    "institution_name": "汉中府",
+    "action": "改",
+    "detail": "本朝洪武三年改为汉中府，领州二县十四"
+   }
+  ],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [
+   {
+    "prod_id": "PROD-001",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "铁",
+    "note": "城固县出有冶"
+   },
+   {
+    "prod_id": "PROD-002",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "金",
+    "note": "西乡县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-003",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "茶",
+    "note": "西乡城固石泉三县出"
+   },
+   {
+    "prod_id": "PROD-004",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "漆",
+    "note": "西乡沔褒城略阳四县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-005",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "蜜蜡",
+    "note": "西乡沔褒城略阳四县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-006",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "降香",
+    "note": "西乡沔褒城略阳四县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-007",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "乳香",
+    "note": "西乡沔褒城略阳四县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-008",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "麝香",
+    "note": "凤县出"
+   },
+   {
+    "prod_id": "PROD-009",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "紫河车",
+    "note": "凤县出"
+   },
+   {
+    "prod_id": "PROD-010",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "笋",
+    "note": "沔县出"
+   },
+   {
+    "prod_id": "PROD-011",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "羚羊角",
+    "note": "沔县出"
+   },
+   {
+    "prod_id": "PROD-012",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "鹿茸",
+    "note": "南郑城固县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-013",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "石青",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-014",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "石碌",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-015",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "熊胆",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-016",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "石斛",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-017",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "天麻",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-018",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "海金沙",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-019",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "仙灵脾",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-020",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "白胶香",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-021",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "自然铜",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-022",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "青葙子",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-023",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "枳实",
+    "note": "兴安州出"
+   },
+   {
+    "prod_id": "PROD-024",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "石菖蒲",
+    "note": "洋沔二县及兴安州出"
+   },
+   {
+    "prod_id": "PROD-025",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "金丝柳",
+    "note": "凤县出，宋元丰间有旨下凤州取金丝柳一百根"
+   },
+   {
+    "prod_id": "PROD-026",
+    "item_id": "33-001",
+    "geo_id": "GEO-33001",
+    "name": "水银朱砂",
+    "note": "洵阳县出"
+   }
+  ],
+  "cits": [
+   {
+    "cit_id": "CIT-001",
+    "item_id": "33-001",
+    "cited_work": "隋书",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【隋书南郑要险成都之喉嗌】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "33-001",
+    "cited_work": "唐元和志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【唐元和志汉中为巴蜀捍蔽故先主据汉中曰曹公虽来无能为也】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "33-001",
+    "cited_work": "唐柳宗元兴州江运记",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【唐柳宗元兴州江运记崖谷峻绝十里百折】"
+   },
+   {
+    "cit_id": "CIT-004",
+    "item_id": "33-001",
+    "cited_work": "华阳国志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【华阳国志东接南郡西接阴平南接广汉北接秦川】"
+   },
+   {
+    "cit_id": "CIT-005",
+    "item_id": "33-001",
+    "cited_work": "唐欧阳詹云",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【唐欧阳詹云秦之坤蜀之艮连高夹深九州之险也】"
+   },
+   {
+    "cit_id": "CIT-006",
+    "item_id": "33-001",
+    "cited_work": "宋孙道夫奏",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【宋孙道夫前奏前瞰三秦后蔽四川】"
+   },
+   {
+    "cit_id": "CIT-007",
+    "item_id": "33-001",
+    "cited_work": "宋张浚奏议",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【宋张浚奏议汉中形势之地前控六路之师后据两蜀之粟左通荆襄之财右出秦陇之马】"
+   },
+   {
+    "cit_id": "CIT-008",
+    "item_id": "33-001",
+    "cited_work": "舆地纪胜",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【舆地纪胜秦头楚尾一大都会】"
+   },
+   {
+    "cit_id": "CIT-009",
+    "item_id": "33-001",
+    "cited_work": "洋州志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【洋州志曰褒谷曰斜谷曰子午谷宋时于骆谷口置石佛堡子午谷置阳岭寨西城置渭门寨分水寨皆备御之要地】"
+   },
+   {
+    "cit_id": "CIT-010",
+    "item_id": "33-001",
+    "cited_work": "安康志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【安康志东接襄沔南通巴达西连梁洋北控商虢】"
+   },
+   {
+    "cit_id": "CIT-011",
+    "item_id": "33-001",
+    "cited_work": "汉志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【汉志西方之气强梁故称梁州】"
+   },
+   {
+    "cit_id": "CIT-012",
+    "item_id": "33-001",
+    "cited_work": "隋志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【隋志汉中之人朴质无文不甚趋利性嗜口腹多事畋猎虽蓬室柴门食必兼肉】"
+   },
+   {
+    "cit_id": "CIT-013",
+    "item_id": "33-001",
+    "cited_work": "隋志武都顺政",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【隋志武都顺政连杂氐羌人尤劲悍性多质直皆务于农事工习射猎】"
+   },
+   {
+    "cit_id": "CIT-014",
+    "item_id": "33-001",
+    "cited_work": "宋图经",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【宋图经金居襄沔上流其人半楚风俗自宋南渡后舟车辐辏五方之民杂焉故风俗各随其方】"
+   },
+   {
+    "cit_id": "CIT-015",
+    "item_id": "33-001",
+    "cited_work": "洋川志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【洋川志孟春四日居人游江上遇葛缠草木者解之取解殃缴咎之意五月五日太守率僚属观竞渡谓之踏石】"
+   },
+   {
+    "cit_id": "CIT-016",
+    "item_id": "33-001",
+    "cited_work": "南岐志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【南岐志务农力穑质直好义】"
+   }
+  ]
+ },
+ "layer_count": 7
+}

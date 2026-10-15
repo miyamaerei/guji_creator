@@ -1,44 +1,25 @@
 {
- "item_id": "35-001",
- "volume": "35",
- "source": "平凉县",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-c01",
-    "name": "平凉县",
-    "type": "geo",
-    "norm": "平凉县",
-    "first_source": "35-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-35001-c01",
-    "item_id": "35-001",
-    "name": "平凉县",
-    "type": "county",
-    "region": "陕西",
-    "parent": "GEO-35001",
-    "children": [],
-    "volume_range": "卷35",
-    "attributes": {
-     "location_text": "附郭",
-     "households": {
-      "count": 23,
-      "unit": "里",
-      "note": "编户23里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+  "item_id": "35-001",
+  "volume": "35",
+  "source": "平凉县",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-c01",
+        "name": "平凉县",
+        "type": "geo",
+        "norm": "平凉县",
+        "first_source": "35-001"
+      }
+    ],
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }

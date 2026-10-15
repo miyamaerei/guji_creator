@@ -1,49 +1,25 @@
 {
- "item_id": "32-001",
- "volume": "32",
- "source": "乾州",
- "region": "陕西",
- "layers": {
-  "ents": [
-   {
-    "ent_id": "ENT-s05",
-    "name": "乾州",
-    "type": "geo",
-    "norm": "乾州",
-    "first_source": "32-001"
-   }
-  ],
-  "geos": [
-   {
-    "geo_id": "GEO-32001-s05",
-    "item_id": "32-001",
-    "name": "乾州",
-    "type": "subprefecture",
-    "region": "陕西",
-    "parent": "GEO-32001",
-    "children": [
-     "GEO-32001-c26",
-     "GEO-32001-c27",
-     "GEO-32001-c28",
-     "GEO-32001-c29"
+  "item_id": "32-001",
+  "volume": "32",
+  "source": "乾州",
+  "region": "陕西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-s05",
+        "name": "乾州",
+        "type": "geo",
+        "norm": "乾州",
+        "first_source": "32-001"
+      }
     ],
-    "volume_range": "卷32-33",
-    "attributes": {
-     "location_text": "在府城西北一百八十里",
-     "households": {
-      "count": 27,
-      "unit": "里",
-      "note": "编户二十七里"
-     }
-    }
-   }
-  ],
-  "evos": [],
-  "mtns": [],
-  "pers": [],
-  "sites": [],
-  "prods": [],
-  "cits": []
- },
- "layer_count": 7
+    "geos": [],
+    "evos": [],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7
 }
