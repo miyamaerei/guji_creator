@@ -62,8 +62,20 @@ from assoc import AssocQuery  # noqa: E402
 from curate import decide, list_conflicts, review_stats, undecide  # noqa: E402
 from refs import materialize_refs  # noqa: E402
 
-# F2 装载顺序：先装最规整的 xyf 探路，再铺其余五本
+# F2 装载顺序：先装最规整的 xyf 探路，再铺其余五本。
+# 注意：load-all 不再依赖此表——它遍历 BOOK_REGISTRY，新书登记后自动纳入。
+# 此表仅用于给出「推荐装载次序」（探路书排前，便于早发现 adapter 问题）。
 LOAD_ORDER = ["xyf", "kzz", "wzz", "sdr", "qb", "xgf"]
+
+
+def load_order():
+    """全量装载次序：LOAD_ORDER 里登记的排前面，其余按 BOOK_REGISTRY 登记顺序补齐。
+
+    新增书只需在 adapters/__init__.py 登记 BOOK_REGISTRY，即自动纳入 load-all。
+    """
+    seen = [b for b in LOAD_ORDER if b in BOOK_REGISTRY]
+    rest = [b for b in BOOK_REGISTRY if b not in seen]
+    return seen + rest
 
 
 def cmd_create(args):
@@ -115,7 +127,7 @@ def cmd_load_all(args):
     total_rec = 0
     total_items = 0
     total_lost = 0
-    for b in LOAD_ORDER:
+    for b in load_order():
         if b not in BOOK_REGISTRY:
             continue
         rep = load_book(con, b, wipe_first=True, commit=False)
@@ -131,7 +143,7 @@ def cmd_load_all(args):
     con.close()
     print("-" * 50)
     print(
-        f"六书全量装载完成：items={total_items}  records={total_rec}  "
+        f"全量装载完成（{len(load_order())} 本）：items={total_items}  records={total_rec}  "
         f"折叠丢失={total_lost}"
     )
     if total_lost:
