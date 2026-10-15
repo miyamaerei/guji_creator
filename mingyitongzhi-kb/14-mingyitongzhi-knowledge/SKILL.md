@@ -217,11 +217,43 @@ description: 《大明一统志》（明一统志）90卷 地理总志知识工�
 
 ## 13. 管线与验证
 
-- 源数据：按 region 分文件 `_geo_ai_RR.py` / `_evo_ai_RR.py` / `_mtn_ai_RR.py` …（RR = region 编号 01–16 + 外夷）
-- 打包器：`build_` 前缀，可重跑幂等，支持 `--regions RR` 单 region 重跑
-- 验证：每层"验证缺漏清单.txt"问题数=0；区分结构性错误 ERR 与执行缺口 GAP
-- 填充率体检（与 ERR/GAP 并列）：每层每个扩展字段输出「已填 / 总数 / 填充率」；**填充率 = 0 直接判失败**，必须逐条解释
-- 收尾总校验：`run_guardrails()` 追加命名一致性校验后统一报 `OK <层> ERR=N GAP=M`
+### 13.1 源数据组织（分片，不攒大文件）
+
+地理书数据量大，**禁止把多府/多县塞进一个大 JSON**。采用「每卷一文件夹、每条目一文件」：
+
+```
+_data/
+  vol19/
+    19-001_太原府.json       # 府级条目（含 geos/evos/mtns/pers/sites/cits/ents）
+    19-001_c01_阳曲县.json   # 县条目（独立文件，含该县山川/古迹/人物）
+    19-001_c02_榆次县.json
+  vol20/
+    20-001_平阳府.json
+    20-001_c01_临汾县.json
+  vol21/
+    21-001_大同府.json
+    ...
+```
+
+- **府/州/土司条目** = `NN-NNN_<名称>.json`，内含该府全部 7 层记录
+- **县条目** = `NN-NNN_cXX_<县名>.json`，c01/c02 顺序编号，内含该县自己的 mtn/site/per/cit
+- 每个文件 ≤ 50KB，改单条不动全局
+- 贵州（o_000EmRulUba）正在按老格式跑，交付后手动转成新分片格式
+
+### 13.2 合并打包器
+
+`build_merge.py`：扫 `_data/volNN/*.json`，按层聚合产 `_layers/`，可重跑幂等，支持 `--vol NN` 单卷重跑。
+`build_pack_pilot.py` 是当前临时合并脚本，后续由 build_merge.py 取代。
+
+### 13.3 验证
+
+- `validate_pilot.py`：ERR（结构性错误，必须 0）+ GAP（执行缺口，登记）
+- **GEO 树校验强制**：
+  - geo_id 全局唯一
+  - children/parent 指向的 geo_id 必须在 geos 表存在（悬空引用 = ERR）
+  - 国内 prefecture/department 必须至少有一个 county/subprefecture/tusi 子节点（否则 GAP）
+  - parent 必须是 geo_id 字符串，禁止填中文 region 名
+- 填充率体检：每层扩展字段「已填/总数/填充率」，填充率=0 判失败
 
 ## 14. 交付清单
 

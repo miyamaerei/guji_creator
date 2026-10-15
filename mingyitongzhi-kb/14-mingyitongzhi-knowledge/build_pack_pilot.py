@@ -53,6 +53,18 @@ for e in sx:
                 rec["item_id"] = iid
             layer_buckets[k].append(rec)
 
+# ---- 2.6 贵州 21 条（GEO 树 118 节点已内建）----
+gz = json.load(open(os.path.join(ROOT, "_data/guizhou_vol88.json"), encoding="utf-8"))
+for e in gz:
+    iid = e["item_id"]
+    name = e["layers"]["geos"][0]["name"] if e.get("layers",{}).get("geos") else "?"
+    registry[iid] = {"title":name,"original":e.get("source",""),"volume":88,"region":"贵州","type":e["type"]}
+    for k in ["ents","geos","evos","mtns","pers","sites","cits"]:
+        for rec in e["layers"].get(k, []):
+            if not rec.get("item_id"):
+                rec["item_id"] = iid
+            layer_buckets[k].append(rec)
+
 # ---- 3. 北直隶 4 条（只进 registry）----
 bz = json.load(open(os.path.join(ROOT, "pilot/beizhili_vols1-5.json"), encoding="utf-8"))
 for e in bz["entries"]:

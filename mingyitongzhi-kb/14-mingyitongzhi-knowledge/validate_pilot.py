@@ -20,7 +20,7 @@ mtns = load("mtn"); pers = load("per"); sites = load("site"); cits = load("cit")
 
 # 枚举
 ENT_TYPES = {"geo","person","mtn","site","prod","book","era","dynasty","待定"}
-GEO_TYPES = {"metro","prefecture","department","subprefecture","county","foreign","other"}
+GEO_TYPES = {"metro","prefecture","department","subprefecture","county","tusi","foreign","other"}
 
 print(f"=== registry: {len(registry)} 条 ===")
 # 1. registry 完整性
@@ -46,6 +46,27 @@ for r in ents:
 for r in geos:
     if r.get("type") not in GEO_TYPES:
         errors.append(f"[geo] {r.get('geo_id')} type={r.get('type')!r} 不在枚举")
+
+# 3.5 GEO 树完整性校验
+geo_ids = {g["geo_id"] for g in geos}
+# a. geo_id 唯一性
+dup_ids = [gid for gid in geo_ids if sum(1 for g in geos if g["geo_id"]==gid) > 1]
+if dup_ids:
+    errors.append(f"[geo] geo_id 重复: {set(dup_ids)}")
+# b. children/parent 悬空引用
+for g in geos:
+    for ch in g.get("children",[]):
+        if ch not in geo_ids:
+            errors.append(f"[geo] {g['geo_id']}({g['name']}) children 悬空: {ch} 不在 geos 表")
+    parent = g.get("parent")
+    if parent and parent != "GEO-000" and parent not in geo_ids:
+        errors.append(f"[geo] {g['geo_id']}({g['name']}) parent 悬空: {parent} 不在 geos 表")
+# c. 国内 prefecture/department 必须有子节点（树深度至少到县/州/土司）
+for g in geos:
+    if g["type"] in ("prefecture","department") and g.get("region") not in ("外夷",):
+        children = g.get("children",[])
+        if not children:
+            gaps.append(f"[geo] {g['geo_id']}({g['name']}) 国内府/州无子节点（应至少到县/属州/土司）")
 
 # 4. 覆盖：每条 registry 在各层出现情况
 covered = defaultdict(set)
