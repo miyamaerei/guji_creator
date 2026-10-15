@@ -1,0 +1,124 @@
+{
+  "item_id": "04-003",
+  "volume": "04",
+  "source": "大名府",
+  "region": "北直隶",
+  "type": "prefecture",
+  "original": "大名府【东至山东东昌府冠县界九十里西至河南彰徳府临漳县界一百一十里南至河南开封府封丘县界四百里北至山东东昌府馆陶县界一百里自府治至京师一千一百六十里至南京一千一百四十里】【粮一十四万八千石零】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "大名府", "type": "geo", "norm": "大名府", "first_source": "04-003"},
+      {"ent_id": "ENT-002", "name": "元城县", "type": "geo", "norm": "元城县", "first_source": "04-003"},
+      {"ent_id": "ENT-003", "name": "大名县", "type": "geo", "norm": "大名县", "first_source": "04-003"},
+      {"ent_id": "ENT-004", "name": "南乐县", "type": "geo", "norm": "南乐县", "first_source": "04-003"},
+      {"ent_id": "ENT-005", "name": "魏县", "type": "geo", "norm": "魏县", "first_source": "04-003"},
+      {"ent_id": "ENT-006", "name": "清丰县", "type": "geo", "norm": "清丰县", "first_source": "04-003"},
+      {"ent_id": "ENT-007", "name": "内黄县", "type": "geo", "norm": "内黄县", "first_source": "04-003"},
+      {"ent_id": "ENT-008", "name": "濬县", "type": "geo", "norm": "濬县", "first_source": "04-003"},
+      {"ent_id": "ENT-009", "name": "滑县", "type": "geo", "norm": "滑县", "first_source": "04-003"},
+      {"ent_id": "ENT-010", "name": "东明县", "type": "geo", "norm": "东明县", "first_source": "04-003"},
+      {"ent_id": "ENT-011", "name": "长垣县", "type": "geo", "norm": "长垣县", "first_source": "04-003"},
+      {"ent_id": "ENT-012", "name": "开州", "type": "geo", "norm": "开州", "first_source": "04-003"},
+      {"ent_id": "ENT-013", "name": "魏郡", "type": "geo", "norm": "魏郡", "first_source": "04-003"},
+      {"ent_id": "ENT-014", "name": "阳平郡", "type": "geo", "norm": "阳平郡", "first_source": "04-003"},
+      {"ent_id": "ENT-015", "name": "武阳郡", "type": "geo", "norm": "武阳郡", "first_source": "04-003"},
+      {"ent_id": "ENT-016", "name": "贵乡郡", "type": "geo", "norm": "贵乡郡", "first_source": "04-003"},
+      {"ent_id": "ENT-017", "name": "沙麓山", "type": "mtn", "norm": "沙麓山", "first_source": "04-003"},
+      {"ent_id": "ENT-018", "name": "大名府学", "type": "site", "norm": "大名府学", "first_source": "04-003"},
+      {"ent_id": "ENT-019", "name": "史记", "type": "book", "norm": "史记", "first_source": "04-003"},
+      {"ent_id": "ENT-020", "name": "汉书", "type": "book", "norm": "汉书", "first_source": "04-003"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-04003",
+        "item_id": "04-003",
+        "name": "大名府",
+        "type": "prefecture",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-04003-c01",
+          "GEO-04003-c02",
+          "GEO-04003-c03",
+          "GEO-04003-c04",
+          "GEO-04003-c05",
+          "GEO-04003-c06",
+          "GEO-04003-c07",
+          "GEO-04003-c08",
+          "GEO-04003-c09",
+          "GEO-04003-c10"
+        ],
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "山东东昌府冠县界", "distance_li": 90},
+            {"direction": "西", "to_place": "河南彰徳府临漳县界", "distance_li": 110},
+            {"direction": "南", "to_place": "河南开封府封丘县界", "distance_li": 400},
+            {"direction": "北", "to_place": "山东东昌府馆陶县界", "distance_li": 100}
+          ],
+          "to_capital": [
+            {"capital": "京师", "distance_li": 1160},
+            {"capital": "南京", "distance_li": 1140}
+          ],
+          "grain_tax": {"amount": 148000, "unit": "石", "note": "粮一十四万八千石零"},
+          "jun_name": "魏郡(汉名)/阳平(魏名)",
+          "topography": "南有鸿沟东有淮颍西有长城北有河外【史记苏秦説魏襄王】；守白马之津示诸侯形制之势【汉书郦生説沛公】；屹屹魏土山河之固【宋刘攽魏京诗】；矗如巨防扼为要津【江休复县壁记】；九河绵络之奥区【宋黄庭坚上梁文】；地当两河之驿路【澶渊地域志】；襟山带河【滑州沿革】；介东西山水之间【濬州志】",
+          "customs": "俗近梁鲁微重而矜节【史记】；刚武尚气力【汉书】；人人知本农桑劝学校【晁旡咎澶渊登科记】；俗尚义槩有古推逊之风【澶渊旧志】；先人后已务崇礼让【元志】；好学而乐善【澶渊志】；右朴无文而无浇薄之风【滑州旧经】",
+          "garrisons": [],
+          "fiefs": []
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007","CIT-008","CIT-009","CIT-010","CIT-011","CIT-012","CIT-013","CIT-014","CIT-015"]
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "禹贡", "era": null, "institution_name": "冀兖二州之域", "action": "因之", "detail": "禹贡冀兖二州之域，天文室壁分野，本商旧都"},
+      {"evo_id": "EVO-002", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "周", "era": null, "institution_name": "武庚封地", "action": "封", "detail": "周封武庚于此"},
+      {"evo_id": "EVO-003", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "春秋", "era": null, "institution_name": "晋地", "action": "因之", "detail": "春秋为晋地"},
+      {"evo_id": "EVO-004", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "战国", "era": null, "institution_name": "魏卫二国之境", "action": "因之", "detail": "战国为魏卫二国之境"},
+      {"evo_id": "EVO-005", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "秦", "era": null, "institution_name": "东郡", "action": "属", "detail": "秦属东郡"},
+      {"evo_id": "EVO-006", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "汉", "era": null, "institution_name": "魏郡", "action": "置", "detail": "汉置魏郡治元城，东汉分魏郡为东西部置都尉"},
+      {"evo_id": "EVO-007", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "三国", "era": null, "institution_name": "阳平郡", "action": "置", "detail": "魏置阳平郡，晋因之"},
+      {"evo_id": "EVO-008", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "南北朝", "era": null, "institution_name": "东阳平郡/贵乡郡", "action": "置", "detail": "刘宋尝置东阳平郡，前燕于此置贵乡郡寻省"},
+      {"evo_id": "EVO-009", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "北周", "era": null, "institution_name": "魏州", "action": "置", "detail": "后周置魏州"},
+      {"evo_id": "EVO-010", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "隋", "era": null, "institution_name": "武阳郡", "action": "改", "detail": "隋改州为武阳郡"},
+      {"evo_id": "EVO-011", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "唐", "era": "天宝", "institution_name": "魏州/魏郡/天雄军", "action": "改", "detail": "武德中复为魏州治贵乡，贞观初置都督府，龙朔初改为冀州，咸亨中复为魏州，天宝初改为魏郡属河北道魏博节度治此，乾元初复为魏州号曰天雄军"},
+      {"evo_id": "EVO-012", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "五代", "era": null, "institution_name": "兴唐府/广晋府/大名府", "action": "改", "detail": "五代唐升为东京兴唐府寻改邺都，晋改广晋府，汉改大名府，周复改天雄军"},
+      {"evo_id": "EVO-013", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "宋", "era": "庆历", "institution_name": "北京大名府", "action": "升", "detail": "宋初因之，庆历初升为北京大名府治元城"},
+      {"evo_id": "EVO-014", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "金", "era": null, "institution_name": "大名府路/安武军", "action": "改", "detail": "金为大名府路又改安武军"},
+      {"evo_id": "EVO-015", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "元", "era": null, "institution_name": "大名路", "action": "改", "detail": "元为大名路"},
+      {"evo_id": "EVO-016", "item_id": "04-003", "geo_id": "GEO-04003", "dynasty": "明", "era": "洪武", "institution_name": "大名府", "action": "改", "detail": "本朝洪武初改为大名府属北平布政司，永乐初直隶京师，领州一县十"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "04-003", "geo_id": "GEO-04003", "name": "沙麓山", "type": "山", "location_text": "在府城东四十五里，亦名女姓丘", "description": "春秋沙麓崩即此，汉书载王翁孺徙元城，元后政君当兴之兆", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "04-003", "geo_id": "GEO-04003", "name": "漳河", "type": "河", "location_text": "有旧漳新漳二河，俱在魏县西北，流至府城西", "description": "宋时常引注雕马河入府城灌御河，又从西北陡门出灌流沙河复入漳河漕运", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "04-003", "geo_id": "GEO-04003", "name": "御河", "type": "河", "location_text": "自魏县界流经元城县泉源乡东北流，下接馆陶县界", "description": "御河旧名白沟水", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "04-003", "geo_id": "GEO-04003", "name": "沙河", "type": "河", "location_text": "旧自府城西南引漳河入城灌御河，复西北出城灌流沙河", "description": "河南北约长二十里，东西阔二里，其河常不定，形势如山相近沙麓", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "04-003", "geo_id": "GEO-04003", "name": "卫河", "type": "河", "location_text": "源自卫辉府辉县，经本府濬内黄二县", "description": "下流与淇漳滹沱等河合至直沽入海", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "04-003", "geo_id": "GEO-04003", "name": "高鸡泊", "type": "湖", "location_text": "在府界", "description": "唐中和中宰相王铎出为义昌节度过大名，乐彦祯子从训伏兵于高鸡泊劫铎及家属", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "04-003", "cited_work": "史记", "cited_work_ent_id": "ENT-019", "context": "形胜", "original": "【史记苏秦説魏襄王】"},
+      {"cit_id": "CIT-002", "item_id": "04-003", "cited_work": "汉书", "cited_work_ent_id": "ENT-020", "context": "形胜", "original": "【汉书郦生説沛公】"},
+      {"cit_id": "CIT-003", "item_id": "04-003", "cited_work": "宋刘攽魏京诗", "cited_work_ent_id": null, "context": "形胜", "original": "【宋刘攽魏京诗】"},
+      {"cit_id": "CIT-004", "item_id": "04-003", "cited_work": "江休复县壁记", "cited_work_ent_id": null, "context": "形胜", "original": "【江休复县壁记】"},
+      {"cit_id": "CIT-005", "item_id": "04-003", "cited_work": "宋黄庭坚上梁文", "cited_work_ent_id": null, "context": "形胜", "original": "【宋黄庭坚上梁文】"},
+      {"cit_id": "CIT-006", "item_id": "04-003", "cited_work": "澶渊地域志", "cited_work_ent_id": null, "context": "形胜", "original": "【澶渊地域志】"},
+      {"cit_id": "CIT-007", "item_id": "04-003", "cited_work": "滑州沿革", "cited_work_ent_id": null, "context": "形胜", "original": "【滑州沿革】"},
+      {"cit_id": "CIT-008", "item_id": "04-003", "cited_work": "濬州志", "cited_work_ent_id": null, "context": "形胜", "original": "【濬州志】"},
+      {"cit_id": "CIT-009", "item_id": "04-003", "cited_work": "史记", "cited_work_ent_id": "ENT-019", "context": "证俗", "original": "【史记】"},
+      {"cit_id": "CIT-010", "item_id": "04-003", "cited_work": "汉书", "cited_work_ent_id": "ENT-020", "context": "证俗", "original": "【汉书】"},
+      {"cit_id": "CIT-011", "item_id": "04-003", "cited_work": "晁旡咎澶渊登科记", "cited_work_ent_id": null, "context": "证俗", "original": "【晁旡咎澶渊登科记】"},
+      {"cit_id": "CIT-012", "item_id": "04-003", "cited_work": "澶渊旧志", "cited_work_ent_id": null, "context": "证俗", "original": "【澶渊旧志】"},
+      {"cit_id": "CIT-013", "item_id": "04-003", "cited_work": "元志", "cited_work_ent_id": null, "context": "证俗", "original": "【元志】"},
+      {"cit_id": "CIT-014", "item_id": "04-003", "cited_work": "澶渊志", "cited_work_ent_id": null, "context": "证俗", "original": "【澶渊志】"},
+      {"cit_id": "CIT-015", "item_id": "04-003", "cited_work": "滑州旧经", "cited_work_ent_id": null, "context": "证俗", "original": "【滑州旧经】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "府级分片；本府无公署专段，garrisons/fiefs为空；散州开州不在children定义；pers拆分至 _data/vol04/04-003_大名府_pers1_名宦.json、pers2_人物.json、pers3_列女仙释.json；sites拆分至 04-003_大名府_sites1_建筑古迹.json。注意to_capital南京距离照原文作一千一百四十里。"
+  }
+}
