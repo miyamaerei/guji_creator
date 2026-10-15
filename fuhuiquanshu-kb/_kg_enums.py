@@ -36,6 +36,12 @@ OPN_STANCES = [
     "肯定", "否定", "怀疑", "讽刺", "中立",
 ]
 
+# ============ TRL_STYLES 翻译风格（继承基准库 §1.13，TRL 层用） ============
+TRL_STYLES = [
+    "直译", "意译", "注释性翻译",
+]
+TRL_CONFIDENCES = ["high", "medium", "low"]
+
 # ============ STRUCT 结构化四维（继承 lgs/xzl 归纳快照，本书不新增值） ============
 STRUCT_DIMS = ["ACT", "FRD", "LGR", "TME"]
 ACT_TYPES = ["official", "xiangyue_role", "justice_role", "clerk_role", "other"]
@@ -67,6 +73,8 @@ ENUM_GROUPS = {
     "TME": TME_TYPES,
     "DOC": DOC_TYPES,
     "REL": REL_TYPES,
+    "TRL_STYLE": TRL_STYLES,
+    "TRL_CONFIDENCE": TRL_CONFIDENCES,
 }
 
 # 兼容别名（历史文件用旧键）
