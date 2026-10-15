@@ -1,0 +1,189 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "昌乐县",
+  "region": "山东",
+  "original": "昌乐县【在府城东七十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "昌乐县",
+        "type": "geo",
+        "norm": "昌乐县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c07",
+        "item_id": "24-002",
+        "name": "昌乐县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东七十里",
+          "households": {
+            "count": 98,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "营陵县地",
+        "action": "因之",
+        "detail": "本古营丘地；汉为营陵县地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "营丘县",
+        "action": "置",
+        "detail": "隋置营丘县属潍州，后废"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "营丘县",
+        "action": "复置",
+        "detail": "唐复置又废"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "安仁县/昌乐县",
+        "action": "改",
+        "detail": "宋于此置安仁县，寻改为昌乐县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "昌乐县",
+        "action": "因之",
+        "detail": "金属潍州；元初并入北海县，后复置仍属潍州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "昌乐县",
+        "action": "因之",
+        "detail": "本朝改元属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "方山",
+        "type": "山",
+        "location_text": "在昌乐县东南二十里",
+        "description": "东丹河出此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "孤山",
+        "type": "山",
+        "location_text": "在昌乐县东一十里",
+        "description": "伯夷避纣居北海之滨即此山之侧",
+        "lore": "上有伯夷叔齐庙"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "于子仁",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "昌乐县丞/知县",
+        "summary": "洪武中为昌乐县丞，为政廉能，吏胥畏服；后坐诬累民，复赴京诉理，升知登州府"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "昌乐县学",
+        "type": "学校",
+        "location_text": "在县治东北",
+        "history_lore": "洪武三年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "营丘城",
+        "type": "古迹",
+        "location_text": "在昌乐县东南五十里",
+        "history_lore": "营丘社即太公受封之地，隋于此置营丘县"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "东丹河桥",
+        "type": "关梁",
+        "location_text": "在昌乐县西三里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "卧佛寺",
+        "type": "寺观",
+        "location_text": "在昌乐县城南",
+        "history_lore": "永乐中建"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c07",
+        "name": "玉霄宫",
+        "type": "寺观",
+        "location_text": "在昌乐县治西北",
+        "history_lore": "宋庆历间建后毁，本朝洪武九年改建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

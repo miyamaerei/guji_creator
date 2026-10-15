@@ -1,0 +1,41 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "郓城县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "郓城县【在州城西北一百六十里本鲁地汉为寿良县地东汉属廪丘后周置清泽县及高平郡隋废郡改县为万安后改为县以廪丘省入大业初置郓城县属东平郡唐置郓州以县属焉五代周废州以县属济州宋因之金以水患徙盘沟村元属济宁路本朝因之编户二十四里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "郓城县", "type": "geo", "norm": "郓城县", "first_source": "23-001"}],
+    "geos": [{"geo_id": "GEO-23001-c16", "item_id": "23-001", "name": "郓城县", "type": "county", "region": "山东", "parent": "GEO-23001-s02", "children": [], "volume_range": "卷23",
+      "attributes": {"location_text": "在济宁州西北一百六十里", "households": {"count": 24, "unit": "里", "note": "编户二十四里"}}}],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "周", "era": null, "institution_name": "鲁地", "action": "因之", "detail": "本鲁地"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "汉", "era": null, "institution_name": "寿良县地", "action": "因之", "detail": "汉为寿良县地，东汉属廪丘"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "南北朝", "era": "后周", "institution_name": "清泽县/高平郡", "action": "置", "detail": "后周置清泽县及高平郡"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "隋", "era": "大业", "institution_name": "郓城县", "action": "改", "detail": "隋废郡改县为万安，后改为县以廪丘省入，大业初置郓城县，属东平郡"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "唐", "era": null, "institution_name": "郓州", "action": "置", "detail": "唐置郓州以县属焉"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "五代", "era": "周", "institution_name": "济州", "action": "改", "detail": "五代周废州以县属济州，宋因之"},
+      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "金", "era": null, "institution_name": "盘沟村", "action": "迁", "detail": "金以水患徙盘沟村"},
+      {"evo_id": "EVO-008", "item_id": "23-001", "geo_id": "GEO-23001-c16", "dynasty": "元", "era": null, "institution_name": "济宁路", "action": "因之", "detail": "元属济宁路，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "独孤山", "type": "山", "location_text": "在郓城县东北五十里", "description": "孤峰独立，宋吕本中诗：凄凉单马经行处，况是此山名独孤", "lore": "", "original": "独孤山【在郓城县东北五十里孤峯独立宋吕本中诗凄凉单马经行处况是此山名独孤】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "樊执敬", "type": "人物", "dynasty": "元", "native_place": "济宁郓城", "office": "江浙行省参知政事", "summary": "至正中为江浙行省参知政事，剧贼攻城，率众出战，中枪而死，追封鲁国公", "original": "樊执敬【济寜郓城人擢授经郎…至正中为江浙行省叅知政事时剧贼攻城执敬率众出战奋力斫贼因中鎗而死事闻追封鲁国公】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "王晟", "type": "人物", "dynasty": "明", "native_place": "郓城", "office": "浙江按察司佥事", "summary": "以进士任刑部主事，升浙江按察司佥事，温处盗起，预征伐死事", "original": "王晟【郓城人以进士任刑部主事陞浙江按察司佥事时温处盗起晟预征伐死之事闻遣官谕祭赠江西布政司左叅议官其一子】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "侣钟", "type": "人物", "dynasty": "明", "native_place": "郓城", "office": "户部尚书", "summary": "成化间进士，仕至户部尚书，为一时名臣", "original": "侣钟【郓城人成化间进士仕至戸部尚书为一时名臣省志】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "郓城县学", "type": "学校", "location_text": "在县治东南", "history_lore": "宋旧学，本朝洪武元年重修", "original": "郓城县学【在县治东南宋旧学本朝洪武元年重修】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "大明寺", "type": "寺观", "location_text": "在郓城县治东", "history_lore": "元建", "original": "大明寺【在郓城县治东元建】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "观音寺", "type": "寺观", "location_text": "在郓城县治东", "history_lore": "", "original": "观音寺【在沂州治西南又郓城县治东亦有观音寺】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c16", "name": "侣钟墓", "type": "陵墓", "location_text": "在郓县", "history_lore": "", "original": "侣钟墓【在郓县】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "源文本有'在郓县'疑脱'城'字。"}
+}

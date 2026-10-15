@@ -1,0 +1,258 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "郯城县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "郯城县【在州城东南一百二十里古郯子国地汉置郯县属东海郡东汉徐州刺史治此北齐省后周复置隋省后复置属下邳唐宋金因之元末复置郯城县仍属沂州本朝因之编户六十二里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "郯城县",
+        "type": "geo",
+        "norm": "郯城县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c22",
+        "item_id": "23-001",
+        "name": "郯城县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s04",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在沂州东南一百二十里",
+          "households": {
+            "count": 62,
+            "unit": "里",
+            "note": "编户六十二里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "郯子国地",
+        "action": "因之",
+        "detail": "古郯子国地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "郯县",
+        "action": "置",
+        "detail": "汉置郯县，属东海郡，东汉徐州刺史治此"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "dynasty": "南北朝",
+        "era": "北齐/后周",
+        "institution_name": "郯县",
+        "action": "复",
+        "detail": "北齐省，后周复置"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "郯县",
+        "action": "复",
+        "detail": "隋省后复置，属下邳"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "郯县",
+        "action": "因之",
+        "detail": "唐宋金因之"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "dynasty": "元",
+        "era": "末",
+        "institution_name": "郯城县",
+        "action": "复",
+        "detail": "元末复置郯城县，仍属沂州，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "马陵山",
+        "type": "山",
+        "location_text": "在郯城县东二十里",
+        "description": "旧传即古之琅琊山",
+        "lore": "齐魏马陵之战传说地",
+        "original": "马陵山【在郯城县东二十里旧传即古之琅琊山】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "芙蓉山",
+        "type": "山",
+        "location_text": "在郯城县西北七十里",
+        "description": "",
+        "lore": "",
+        "original": "芙蓉山【在郯城县西北七十里】"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "涑水",
+        "type": "河",
+        "location_text": "源发费县天青江",
+        "description": "下流经沂州及郯城县界，入邳州诸湖泽",
+        "lore": "",
+        "original": "涑水【源发费县天青江下流经沂州及郯城县界入邳州诸湖泽】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "郯子",
+        "type": "名宦",
+        "dynasty": "周",
+        "native_place": "郯",
+        "office": "郯子",
+        "summary": "孔子尝学官名于郯子",
+        "original": "郯子庙【在郯城县南一十五里祀古郯子孔子尝学官名于郯子】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "彭庭坚",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "沂州同知",
+        "summary": "至正初争毁牛皇神祠，驱邻郡贼，免民横急征敛",
+        "original": "彭庭坚【至正初沂州同知争毁牛皇神祠驱隣郡贼免民横急征敛民甚便之】"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "张伯玉",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "郯城尹",
+        "summary": "廉公有为，抑强扶弱，民甚德之",
+        "original": "张伯玉【郯城尹亷公有为抑强扶弱民甚徳之】"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "康友惠",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "郯城县典史",
+        "summary": "正德间值流贼攻城，友惠以死捍御，民赖以安，立祠祀之",
+        "original": "康友惠【正徳间为郯城县典史值流贼攻城友惠以死捍御民赖以安立祠祀之省志】"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "孝妇",
+        "type": "列女",
+        "dynasty": "汉",
+        "native_place": "郯城",
+        "office": "",
+        "summary": "即汉宣帝时误杀致旱者，墓在郯城县东一十里",
+        "original": "孝妇墓【在郯城县东一十里孝妇即汉宣帝时误杀致旱者】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "郯城县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "洪武二年建",
+        "original": "郯城县学【在县治西洪武二年建】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "曾子书院",
+        "type": "书院",
+        "location_text": "在郯城县西北六十里",
+        "history_lore": "又嘉祥县南四十里亦有曾子书院",
+        "original": "曾子书院【在郯城县西北六十里又嘉祥县南四十里亦有曾子书院】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "郯子庙",
+        "type": "祠庙",
+        "location_text": "在郯城县南一十五里",
+        "history_lore": "祀古郯子，孔子尝学官名于郯子",
+        "original": "郯子庙【在郯城县南一十五里祀古郯子孔子尝学官名于郯子】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "望海楼",
+        "type": "宫室",
+        "location_text": "在郯城县东南三十五里",
+        "history_lore": "世传孔子尝登此以望海",
+        "original": "望海楼【在郯城县东南三十五里世传孔子尝登此以望海】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c22",
+        "name": "孝妇墓",
+        "type": "陵墓",
+        "location_text": "在郯城县东一十里",
+        "history_lore": "孝妇即汉宣帝时误杀致旱者",
+        "original": "孝妇墓【在郯城县东一十里孝妇即汉宣帝时误杀致旱者】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

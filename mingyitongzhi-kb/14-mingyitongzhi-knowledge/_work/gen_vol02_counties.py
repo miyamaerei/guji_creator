@@ -122,6 +122,7 @@ def extract_for_prefecture(pref_text, counties, item_id):
         ("流寓", "流寓", "人物"),
         ("人物", "人物", "列女"),
         ("列女", "列女", "仙释"),
+        ("仙释", "仙释", None),
     ]
 
     result = {}

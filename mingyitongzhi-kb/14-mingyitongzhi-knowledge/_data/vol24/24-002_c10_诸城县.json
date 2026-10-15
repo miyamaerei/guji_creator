@@ -1,0 +1,324 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "诸城县",
+  "region": "山东",
+  "original": "诸城县【在府城东三百里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "诸城县",
+        "type": "geo",
+        "norm": "诸城县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c10",
+        "item_id": "24-002",
+        "name": "诸城县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东三百里",
+          "households": {
+            "count": 181,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "诸县",
+        "action": "置",
+        "detail": "本鲁诸邑；汉置诸县属琅琊郡；晋属东莞郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "高密郡/东武县",
+        "action": "改",
+        "detail": "后魏于此置高密郡；北齐省入东武县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "诸城县",
+        "action": "改",
+        "detail": "隋改为诸城"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "密州",
+        "action": "置",
+        "detail": "唐置密州治此；宋初置安化军"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "密州/诸城",
+        "action": "因之",
+        "detail": "金元仍为密州治"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "诸城县",
+        "action": "因之",
+        "detail": "本朝省州改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "常山",
+        "type": "山",
+        "location_text": "在诸城县西南三十里",
+        "description": "宋苏轼雩泉记云岁旱祷雨兹山未尝不应",
+        "lore": "上有常山庙"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "卢山",
+        "type": "山",
+        "location_text": "在诸城县东南四十五里",
+        "description": "苏轼超然台记东则卢山，秦人卢敖之所从遁",
+        "lore": "上有卢敖洞、饮酒台、圣灯岩"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "马耳山",
+        "type": "山",
+        "location_text": "在诸城县西南六十里",
+        "description": "形如马耳",
+        "lore": "苏轼诗试扫北台看马耳"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "九仙山",
+        "type": "山",
+        "location_text": "在诸城县西南七十里",
+        "description": "苏轼云九仙在东武，奇秀不减雁荡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "琅琊山",
+        "type": "山",
+        "location_text": "在诸城县东南一百五十里",
+        "description": "东枕大海",
+        "lore": "齐景公欲遵海而南放于琅琊即此"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "卢水",
+        "type": "河",
+        "location_text": "源出卢山",
+        "description": "亦名久台水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "雩泉",
+        "type": "泉",
+        "location_text": "在常山上",
+        "description": "宋苏轼知密州祷雨于此有应，因名之",
+        "lore": "古谓吁嗟而求雨曰雩"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "苏轼",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "知密州",
+        "summary": "司农行手实法，轼谓提举官曰令出于司农是擅造律也；法果害民罢之，密人深以为幸"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "梁丘贺",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "诸城",
+        "office": "少府",
+        "summary": "从京房受易，宣帝求房门人得贺，入说易善之，官至少府，图形麒麟阁"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "朱寿隆",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "诸城",
+        "office": "少府监/知扬州",
+        "summary": "累官盐铁判官京东转运使，甚有政绩；为人和厚，不屈于权贵"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "诸城县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "金贞元间建，本朝洪武初重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "盖公堂",
+        "type": "宫室",
+        "location_text": "在诸城县境内",
+        "history_lore": "宋苏轼守胶西建此堂为作记，慕盖公治道贵清静之风"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "超然台",
+        "type": "宫室",
+        "location_text": "在诸城县北城上",
+        "history_lore": "宋苏轼守胶西因旧台而新之，其弟辙名之曰超然，轼作记"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "琅琊台",
+        "type": "古迹",
+        "location_text": "在琅琊山",
+        "history_lore": "《越绝书》句践徙琅琊起观台，台周七里以望东海；秦始皇登斯台大乐之"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "齐长城",
+        "type": "古迹",
+        "location_text": "在诸城县南四十里",
+        "history_lore": "《史记》齐有长城足以为塞"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "琅琊城",
+        "type": "古迹",
+        "location_text": "在诸城县东南一百五十里琅琊山下",
+        "history_lore": "汉琅琊郡治此，隋于此置丰泉县"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "东武城",
+        "type": "古迹",
+        "location_text": "在诸城县境",
+        "history_lore": "汉县属琅琊国，隋改曰诸城"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "公冶长墓",
+        "type": "陵墓",
+        "location_text": "在诸城县西四十里",
+        "history_lore": "《汉书》云在姑幕城东南五里"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "常山庙",
+        "type": "祠庙",
+        "location_text": "在常山麓",
+        "history_lore": "祀山神，宋宣和间祷雨有应，封灵泽昭应王"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "潍河桥",
+        "type": "关梁",
+        "location_text": "在诸城县北五里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "卢河桥",
+        "type": "关梁",
+        "location_text": "在诸城县东北三十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c10",
+        "name": "华严寺",
+        "type": "寺观",
+        "location_text": "在诸城县治东南隅",
+        "history_lore": "元至大间建，本朝洪武重修"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

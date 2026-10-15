@@ -1,0 +1,180 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "阳谷县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "阳谷县【在州西北一百四十里春秋时齐地僖公时齐宋江黄会于阳谷即此隋置阳谷县属济北郡唐属济州天宝后属郓州宋徙治孟店镇金元仍旧本朝因之编户三十九里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "阳谷县",
+        "type": "geo",
+        "norm": "阳谷县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c20",
+        "item_id": "23-001",
+        "name": "阳谷县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s03",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在东平州西北一百四十里",
+          "households": {
+            "count": 39,
+            "unit": "里",
+            "note": "编户三十九里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "齐地",
+        "action": "因之",
+        "detail": "春秋时齐地，僖公时齐宋江黄会于阳谷即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "阳谷县",
+        "action": "置",
+        "detail": "隋置阳谷县，属济北郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "郓州",
+        "action": "改",
+        "detail": "唐属济州，天宝后属郓州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "孟店镇",
+        "action": "迁",
+        "detail": "宋徙治孟店镇，金元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "阿胶井",
+        "type": "井",
+        "location_text": "在阳谷县东北六十里",
+        "description": "水清冽而甘，煮革为胶可以愈疾，旧属东阿，故名阿胶井",
+        "lore": "阿胶为名贵药材",
+        "original": "阿胶井【在阳谷县东北六十里水清冽而甘煮革为胶可以愈疾旧属东阿故名阿胶井】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "张公艺",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "寿张",
+        "office": "",
+        "summary": "九世同居，高宗封泰山还幸其宅，问曰何为九世不分，公艺书忍字百余以对",
+        "original": "张公艺【夀张人九世同居髙宗封泰山还幸其宅问曰何为九世不分公艺书忍字百余以对】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "于睿",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "阳谷",
+        "office": "湖广布政司左参政",
+        "summary": "由太学生历官克慎，累迁湖广布政司左参政",
+        "original": "于睿【阳谷人由太学生歴官克慎累迁湖广布政司左叅政】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "阳谷县学",
+        "type": "学校",
+        "location_text": "在县治东北",
+        "history_lore": "宋崇宁间建，本朝洪武三年重修",
+        "original": "阳谷县学【在县治东北宋崇寜间建本朝洪武三年重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "慈氏寺",
+        "type": "寺观",
+        "location_text": "在阳谷县治东北",
+        "history_lore": "洪武间因旧重建",
+        "original": "慈氏寺【在阳谷县治东北俱洪武间因旧重建】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "盟台",
+        "type": "古迹",
+        "location_text": "在阳谷县治南",
+        "history_lore": "世传齐桓公会江黄于此",
+        "original": "盟台【在阳谷县治南世传齐桓公防江黄于此】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "孟母庙",
+        "type": "祠庙",
+        "location_text": "",
+        "history_lore": "",
+        "original": "孟母庙【在阳谷县东北四十里世传孟母祈蚕之所】"
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c20",
+        "name": "阿胶",
+        "category": "药材",
+        "note": "阳谷县出",
+        "original": "阿胶【阳谷县出】"
+      }
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

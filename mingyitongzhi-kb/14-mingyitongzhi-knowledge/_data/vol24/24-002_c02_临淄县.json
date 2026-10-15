@@ -1,0 +1,421 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "临淄县",
+  "region": "山东",
+  "original": "临淄县【在府城西三十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "临淄县",
+        "type": "geo",
+        "norm": "临淄县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c02",
+        "item_id": "24-002",
+        "name": "临淄县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西三十里",
+          "households": {
+            "count": 61,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "营丘地",
+        "action": "因之",
+        "detail": "本齐国营丘地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "营陵县/临淄县",
+        "action": "置",
+        "detail": "汉置营陵县为北海郡治；东汉又置临淄县为齐国治"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "临淄县",
+        "action": "废",
+        "detail": "北齐省临淄入益都县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "临淄县",
+        "action": "复置",
+        "detail": "隋复置临淄县属北海郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "临淄县",
+        "action": "因之",
+        "detail": "唐属青州；宋属镇海军；金属益都府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "临淄县",
+        "action": "复置",
+        "detail": "元并入益都县，后复置"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "临淄县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "牛山",
+        "type": "山",
+        "location_text": "在临淄县南一十里",
+        "description": "齐景公登牛山顾其国而流涕",
+        "lore": "晏子谏景公，景公大惭举觞自罚"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "菟头山",
+        "type": "山",
+        "location_text": "在临淄县南一十里",
+        "description": "一名驼头山，又名鼎足山，女水出此",
+        "lore": "上有齐桓公冢，唐贞观中诏致祭禁樵采"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "稷山",
+        "type": "山",
+        "location_text": "在临淄县西南一十三里",
+        "description": "上有后稷祠，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "南郊山",
+        "type": "山",
+        "location_text": "在临淄县东南一十五里",
+        "description": "山下有天齐渊，五泉并出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "峱山",
+        "type": "山",
+        "location_text": "在临淄县南一十五里",
+        "description": "《诗》遭我乎峱之间兮即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "愚公山",
+        "type": "山",
+        "location_text": "在临淄县西二十里",
+        "description": "东有愚公冢，北有愚公谷",
+        "lore": "《韩非子》齐桓公逐鹿入谷，问一老父此何以名愚公谷"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "渑水",
+        "type": "河",
+        "location_text": "源出临淄县西申门之申池",
+        "description": "申池水一支西流为系水，一支北流为渑水",
+        "lore": "《左传》有酒如渑，鲁仲连谓田单骋乎淄渑之间"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "康浪水",
+        "type": "河",
+        "location_text": "源出临淄县西一十里平地",
+        "description": "北流与系水合",
+        "lore": "宁戚歌曰康浪之水白石粲"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "女水",
+        "type": "河",
+        "location_text": "源出临淄县南鼎足山",
+        "description": "上有齐桓公与其女之冢，水出女冢侧，故名",
+        "lore": "东北流入乐安县界"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "时水",
+        "type": "河",
+        "location_text": "在临淄县西南二十五里",
+        "description": "一名耏，《左传》齐晋盟于耏是也；其源浅旱则涸，故又名干时",
+        "lore": "其色黑，故俗名乌河"
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "天齐渊",
+        "type": "泉",
+        "location_text": "在临淄县东十五里",
+        "description": "平地出泉，广可半亩，土人名曰龙池",
+        "lore": "《汉志》齐所以为齐，以天齐也"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "房玄龄",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "临淄",
+        "office": "尚书左仆射",
+        "summary": "警敏贯综坟籍，善属文；从太宗征伐，独收人物置幕府；居相位十五年，任公竭节，卒赠太尉，谥文昭"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "左思",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "临淄",
+        "office": "秘书郎",
+        "summary": "造齐都赋一年乃成，复赋三都，构思十年；及赋成，洛阳为之纸贵"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "淳于意",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "临淄",
+        "office": "太仓长",
+        "summary": "喜医术，事同郡元里公乘阳庆，得扁鹊术；治病多验"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "主父偃",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "临淄",
+        "office": "齐相",
+        "summary": "初学纵横术，晚乃学易春秋百家；上书朝奏暮召，一岁四迁；后拜齐相"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "临淄县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "洪武二年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "古齐城",
+        "type": "古迹",
+        "location_text": "在临淄县城北",
+        "history_lore": "《史记》齐世家太公都营邱，其后献公徙都临淄即此"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "画邑城",
+        "type": "古迹",
+        "location_text": "在临淄县西北二十里",
+        "history_lore": "燕乐毅伐齐，闻昼邑人王蠋贤；孟子去齐宿于画即此"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "安平城",
+        "type": "古迹",
+        "location_text": "在临淄县东一十里",
+        "history_lore": "齐封田单号安平君即此；汉为东安平县属淄川国"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "西安城",
+        "type": "古迹",
+        "location_text": "在临淄县西三十里",
+        "history_lore": "汉县属齐郡，耿弇讨张步谓西安小而坚即此"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "葵丘",
+        "type": "古迹",
+        "location_text": "在临淄县西二十里",
+        "history_lore": "《左传》齐侯使连称管至父戍葵丘即此"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "太公冢",
+        "type": "陵墓",
+        "location_text": "在临淄县南一十里",
+        "history_lore": "太公望葬于周，齐人思其德，葬衣冠于此"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "桓公冢",
+        "type": "陵墓",
+        "location_text": "在临淄县淄水南，太公冢之北",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "管仲墓",
+        "type": "陵墓",
+        "location_text": "在牛山之阿",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "三士墓",
+        "type": "陵墓",
+        "location_text": "在临淄县治南",
+        "history_lore": "公孙接、田开疆、古冶子事景公，晏子计二桃杀三士；诸葛亮梁甫吟咏之"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "晏婴墓",
+        "type": "陵墓",
+        "location_text": "在临淄县东北三里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "四王墓",
+        "type": "陵墓",
+        "location_text": "在鼎足山",
+        "history_lore": "齐记补遗方基圆冢东西直列，乃齐威宣闵襄四王墓也"
+      },
+      {
+        "site_id": "SITE-013",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "齐太公桓公庙",
+        "type": "祠庙",
+        "location_text": "在临淄县学北",
+        "history_lore": "本朝成化三年徙建于此，以鲁仲连等七贤配享春秋祀之"
+      },
+      {
+        "site_id": "SITE-014",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "西天寺",
+        "type": "寺观",
+        "location_text": "在临淄县西门外",
+        "history_lore": "元至正间建，本朝洪武初重修"
+      },
+      {
+        "site_id": "SITE-015",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "修真观",
+        "type": "寺观",
+        "location_text": "在临淄县北八里",
+        "history_lore": "元延祐二年建，本朝洪武初重修"
+      },
+      {
+        "site_id": "SITE-016",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c02",
+        "name": "时水桥",
+        "type": "关梁",
+        "location_text": "在临淄县西北四十里",
+        "history_lore": "元至元中建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

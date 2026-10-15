@@ -1,0 +1,172 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "高苑县",
+  "region": "山东",
+  "original": "高苑县【在府城西北一百五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "高苑县",
+        "type": "geo",
+        "norm": "高苑县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c04",
+        "item_id": "24-002",
+        "name": "高苑县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西北一百五十里",
+          "households": {
+            "count": 31,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "高苑县",
+        "action": "置",
+        "detail": "古苑墙地；汉置高苑县属千乘郡；东汉属乐安国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "长乐县/会城",
+        "action": "改",
+        "detail": "刘宋析置长乐县；隋改高苑曰会城，寻复改为高苑属齐郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "高苑县",
+        "action": "因之",
+        "detail": "唐属邹州，州罢以县属淄州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "高苑县",
+        "action": "因之",
+        "detail": "元属益都路"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "高苑县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "商山",
+        "type": "山",
+        "location_text": "在高苑县东南九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "小清河",
+        "type": "河",
+        "location_text": "在高苑县南上里",
+        "description": "源出济南府趵突泉，自新城县界流经本县，东入博兴乐安县界合于时水",
+        "lore": "宋乐史谓淄川北海界中有水流入海谓之清河，盖济水也"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "刘敬和",
+        "type": "名宦",
+        "dynasty": "唐",
+        "native_place": "",
+        "office": "高苑县令",
+        "summary": "尝令淄川、长山、邹平皆有声；至高苑适岁饥，即擅开仓赈民，民歌之"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "王公懋",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "高苑县丞",
+        "summary": "洪武初高苑县丞，率民兵捕盗贼，贼砍其左耳不为动，击杀二人余皆擒，事闻赏绮帛旌之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "高苑县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "宋嘉定间建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "通济桥",
+        "type": "关梁",
+        "location_text": "在高苑县南五里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c04",
+        "name": "普济寺",
+        "type": "寺观",
+        "location_text": "在高苑县城内",
+        "history_lore": "洪武末建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

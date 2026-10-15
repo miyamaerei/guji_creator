@@ -1,0 +1,46 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "平阴县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "平阴县【在州北一百二十里本齐地春秋鲁襄公会诸侯伐齐齐侯御诸平阴即此汉为卢县地晋因之隋置榆山县后改平阴县属济北郡唐属郓州宋属东平府金元仍旧本朝因之编户一十九里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "平阴县", "type": "geo", "norm": "平阴县", "first_source": "23-001"}],
+    "geos": [{"geo_id": "GEO-23001-c19", "item_id": "23-001", "name": "平阴县", "type": "county", "region": "山东", "parent": "GEO-23001-s03", "children": [], "volume_range": "卷23",
+      "attributes": {"location_text": "在东平州北一百二十里", "households": {"count": 19, "unit": "里", "note": "编户一十九里"}}}],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c19", "dynasty": "周", "era": "春秋", "institution_name": "齐地", "action": "因之", "detail": "本齐地，春秋鲁襄公会诸侯伐齐，齐侯御诸平阴即此"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c19", "dynasty": "汉", "era": null, "institution_name": "卢县地", "action": "因之", "detail": "汉为卢县地，晋因之"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c19", "dynasty": "隋", "era": null, "institution_name": "榆山县/平阴县", "action": "改", "detail": "隋置榆山县，后改平阴县，属济北郡"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c19", "dynasty": "唐", "era": null, "institution_name": "郓州", "action": "因之", "detail": "唐属郓州"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c19", "dynasty": "宋", "era": null, "institution_name": "东平府", "action": "因之", "detail": "宋属东平府，金元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "会仙山", "type": "山", "location_text": "在平阴县治东", "description": "一名聚仙山", "lore": "", "original": "会仙山【在平隂县治东一名聚仙山】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "石门山", "type": "山", "location_text": "在平阴县西二十五里", "description": "山上有石门，东西相向，可通人行", "lore": "", "original": "石门山【在平隂县西二十五里山上有石门东西相向可通人行】"},
+      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "龙山", "type": "山", "location_text": "在平阴县西南三十里", "description": "世传昔有龙见于其下，又名龙化山", "lore": "", "original": "龙山【在平隂县西南三十里世传昔有龙见于其下又名龙化山】"},
+      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "孔子山", "type": "山", "location_text": "在平阴县南三十里", "description": "上有孔子教书堂遗址", "lore": "", "original": "孔子山【在平隂县南三十里上有孔子教书堂遗址】"},
+      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "新开河", "type": "河", "location_text": "在平阴县西一十里", "description": "即济河之下流，宋张方平凿新河引水北行以避之", "lore": "", "original": "新开河【在平隂县西一十里即济河之下流其南崖有盘石行舟者患之宋张方平乃凿新河引水北行以避之因名】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "王去非", "type": "人物", "dynasty": "金", "native_place": "平阴", "office": "处士", "summary": "尝就举不得意，即屏去督妻孥耕织，家居教授，束修有余辄分惠人，号醇德先生", "original": "王去非【平隂人尝就举不得意即屏去督妻孥耕织以给伏腊家居教授束修有余輙分惠人弟子班忱贫不能朝夕一女及笄去非为办资装嫁之…】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "王广道", "type": "人物", "dynasty": "金", "native_place": "平阴", "office": "翰林医学", "summary": "有文学不求仕进，乡里化服，号醇德先生；从弟明道文学与兄齐名，大定间以医试第一入翰林", "original": "王广道【平隂人有文学不求仕进乡里化服号为醇徳先生党懐英尤亟称之从弟明道文学与兄齐名大定间以医试第一入翰林】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "李之绍", "type": "人物", "dynasty": "元", "native_place": "东平路平阴", "office": "翰林侍讲学士", "summary": "家贫教授，学者咸集，至元末以荐授国史编修，自号果斋", "original": "李之绍【东平平隂人家贫教授学者咸集至元末以荐授国史编修姚燧欲试其才…延祐中迁国子祭酒后迁翰林侍讲学士自号果斋有文集藏于家】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "刘文", "type": "人物", "dynasty": "明", "native_place": "平阴", "office": "浙江按察司副使", "summary": "洪武中由举人擢监察御史，激扬有声，寻升浙江按察司副使", "original": "刘文【平隂人洪武中由举人擢监察御史激扬有声寻陞浙江按察司副使】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "平阴县学", "type": "学校", "location_text": "在县治东南", "history_lore": "宋元符间自县治西北徙建于此，本朝洪武三年重修", "original": "平隂县学【在县治东南宋元符间自县治西北徙建于此本朝洪武三年重修】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "福胜寺", "type": "寺观", "location_text": "在平阴县东门内", "history_lore": "洪武间因旧重建", "original": "福胜寺【在平隂县东门内】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "古长城", "type": "古迹", "location_text": "在平阴县北", "history_lore": "竹书纪年：梁惠王二十年齐筑防以为长城即此", "original": "古长城【在平隂县北竹书纪年梁惠王二十年齐筑防以为长城即此】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "义浆亭", "type": "宫室", "location_text": "在平阴县南二十里黑山口", "history_lore": "金大定间邑人任翁作亭贮水以济渴者", "original": "义浆亭【在平隂县南二十里黑山口金大定间邑人任翁作亭贮水以济渇者】"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "全蝎", "category": "药材", "note": "平阴县出", "original": "全蝎　包金土【俱平隂县出】"},
+      {"prod_id": "PROD-002", "item_id": "23-001", "geo_id": "GEO-23001-c19", "name": "包金土", "category": "矿物", "note": "平阴县出", "original": "包金土【俱平隂县出】"}
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

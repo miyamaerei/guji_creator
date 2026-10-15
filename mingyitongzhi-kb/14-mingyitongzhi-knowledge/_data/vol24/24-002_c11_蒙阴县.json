@@ -1,0 +1,179 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "蒙阴县",
+  "region": "山东",
+  "original": "蒙阴县【在府城西南三百五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "蒙阴县",
+        "type": "geo",
+        "norm": "蒙阴县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c11",
+        "item_id": "24-002",
+        "name": "蒙阴县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西南三百五十里",
+          "households": {
+            "count": 50,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "颛臾国地",
+        "action": "因之",
+        "detail": "本鲁颛臾国地；秦属泗水郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "蒙阴县",
+        "action": "置",
+        "detail": "汉置蒙阴县属泰山郡；晋属琅琊郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "新泰县",
+        "action": "废",
+        "detail": "北齐省入新泰县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "蒙阴县",
+        "action": "复置",
+        "detail": "唐宋金仍旧；元复置蒙阴县属莒州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "蒙阴县",
+        "action": "因之",
+        "detail": "本朝改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "蒙阴山",
+        "type": "山",
+        "location_text": "在蒙阴县南八里",
+        "description": "今名仙洞山",
+        "lore": "汉承宫避乱于此"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "艾山",
+        "type": "山",
+        "location_text": "在蒙阴县西北一百三十里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "张时",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "蒙阴",
+        "office": "山西布政司左参政",
+        "summary": "好学博文，洪武中由乡举历教官，擢给事中，官至山西布政司左参政"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "蒙阴县学",
+        "type": "学校",
+        "location_text": "在县城西门外",
+        "history_lore": "元延祐间建，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "紫金关",
+        "type": "关梁",
+        "location_text": "在蒙阴县东南五十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "名义桥",
+        "type": "关梁",
+        "location_text": "在蒙阴县东一十八里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "寿圣寺",
+        "type": "寺观",
+        "location_text": "在蒙阴县南三里",
+        "history_lore": "元至大间建，本朝永乐六年重修"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c11",
+        "name": "龙泉观",
+        "type": "寺观",
+        "location_text": "在蒙阴县西四十里",
+        "history_lore": "元至元间建，本朝洪武二十七年重修"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "临朐县",
+  "region": "山东",
+  "original": "临朐县【在府城东南四十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "临朐县",
+        "type": "geo",
+        "norm": "临朐县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c08",
+        "item_id": "24-002",
+        "name": "临朐县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东南四十五里",
+          "households": {
+            "count": 110,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "伯氏骈邑",
+        "action": "因之",
+        "detail": "本齐伯氏骈邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "临朐县",
+        "action": "置",
+        "detail": "汉置临朐县属齐郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "临朐县",
+        "action": "废",
+        "detail": "晋省入东莞县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "逢山县/临朐县",
+        "action": "改",
+        "detail": "隋改为逢山县，后复旧属北海郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "临朐县",
+        "action": "因之",
+        "detail": "唐宋并属青州；金属益都府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "临朐县",
+        "action": "复置",
+        "detail": "元省入益都县，后复置"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "临朐县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "朐山",
+        "type": "山",
+        "location_text": "在临朐县东南二里",
+        "description": "又名覆釜山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "委粟山",
+        "type": "山",
+        "location_text": "在临朐县东北三里",
+        "description": "弥水之西，孤阜秀立，形若委粟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "逢山",
+        "type": "山",
+        "location_text": "在临朐县西二十五里",
+        "description": "山麓有殷诸侯逢伯陵祠，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "灵山",
+        "type": "山",
+        "location_text": "在临朐县东北四十里",
+        "description": "齐大旱，景公欲祀灵山即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "丸山",
+        "type": "山",
+        "location_text": "在临朐县东北四十里",
+        "description": "一名丹山",
+        "lore": "《大纪》云轩辕征不道，东至于海，登丸山即此"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "仰天山",
+        "type": "山",
+        "location_text": "在临朐县西南七十里",
+        "description": "上有黑龙洞，祈雨有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "大岘山",
+        "type": "山",
+        "location_text": "在临朐县东南一百五里",
+        "description": "刘宋武帝伐南燕度大岘即此",
+        "lore": "上有穆陵关"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "沂山",
+        "type": "山",
+        "location_text": "在临朐县南一百一十五里",
+        "description": "《周礼》职方氏青州其山镇曰沂山即此，亦名东泰山",
+        "lore": "金为东镇，载诸祀典"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "弥水",
+        "type": "河",
+        "location_text": "源出沂山西麓",
+        "description": "一名巨洋水",
+        "lore": "流经益都、寿光县界入海"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "汶水",
+        "type": "河",
+        "location_text": "源出沂山东麓",
+        "description": "流经本县东南六十里入安丘县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "熏冶泉",
+        "type": "泉",
+        "location_text": "在临朐县西南二十五里",
+        "description": "冶原昔欧冶子铸剑之地",
+        "lore": "宋刘孟节隐居其上"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "罗汉洞",
+        "type": "洞",
+        "location_text": "在仰天山内",
+        "description": "有石罗汉、石佛千余、铁佛二",
+        "lore": "俗传宋太祖时尝游息于此"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "马愉",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "临朐",
+        "office": "礼部右侍郎",
+        "summary": "宣德丁未进士第一，授翰林院修撰；预闻机务，侍经筵，性资淳笃；卒赠翰林院学士礼部尚书"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "临朐县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "宋绍圣间建，本朝正统十四年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "遄亭",
+        "type": "宫室",
+        "location_text": "在临朐县西五里",
+        "history_lore": "《春秋传》齐侯至自田，晏子侍于遄台即此"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "东镇庙",
+        "type": "祠庙",
+        "location_text": "在沂山麓",
+        "history_lore": "祀东镇沂山之神，本朝载祀典"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "逢伯陵祠",
+        "type": "祠庙",
+        "location_text": "在逢山麓",
+        "history_lore": "伯陵，殷诸侯"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "灵泽庙",
+        "type": "祠庙",
+        "location_text": "在仰天山黑龙洞侧",
+        "history_lore": "祀龙神，宋赐庙额曰灵泽，后加封丰济侯"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "马愉墓",
+        "type": "陵墓",
+        "location_text": "在临朐县南十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "万寿寺",
+        "type": "寺观",
+        "location_text": "在临朐县治西北",
+        "history_lore": "洪武二十三年建"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "紫微观",
+        "type": "寺观",
+        "location_text": "在临朐县治之南街东",
+        "history_lore": "元中统间建，本朝永乐中重修"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c08",
+        "name": "修真宫",
+        "type": "寺观",
+        "location_text": "在临朐县北一十里",
+        "history_lore": "元建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

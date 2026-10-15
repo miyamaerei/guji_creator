@@ -1,0 +1,234 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "寿光县",
+  "region": "山东",
+  "original": "寿光县【在府城东北七十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "寿光县",
+        "type": "geo",
+        "norm": "寿光县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c06",
+        "item_id": "24-002",
+        "name": "寿光县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东北七十里",
+          "households": {
+            "count": 122,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "寿光县",
+        "action": "置",
+        "detail": "古斟灌氏地；汉置寿光县属北海郡；东汉属乐安国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "寿光县",
+        "action": "因之",
+        "detail": "隋以闾邱县省入属青州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "寿光县",
+        "action": "因之",
+        "detail": "唐属乘州，后复属青州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "寿光县",
+        "action": "因之",
+        "detail": "宋金元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "二岳龙水",
+        "type": "河",
+        "location_text": "东岳龙水出寿光县西一十二里，西岳龙水出本县西一十六里",
+        "description": "俗名北夹河、南夹河，分流至罗桥乃合而入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "清水泊",
+        "type": "湖",
+        "location_text": "在寿光县西北五十里",
+        "description": "合淄、女、北阳三水入于海",
+        "lore": "《汉志》所谓钜定即此"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "任颛",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "寿光",
+        "office": "龙图阁直学士",
+        "summary": "举进士擢盐铁判官，累官龙图阁直学士；刚毅不回，临政累有显绩"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "刘珝",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "寿光",
+        "office": "谨身殿大学士",
+        "summary": "正统中进士，累官太子太保户部尚书谨身殿大学士；在讲筵甚久，当时讲官称第一；居家孝，所居号仁孝里"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "寿光县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "元建，本朝洪武二年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "斟灌城",
+        "type": "古迹",
+        "location_text": "在寿光县东四十里",
+        "history_lore": "《左传》浇用师灭斟灌；应劭云古斟灌禹后，今灌亭是"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "纪城",
+        "type": "古迹",
+        "location_text": "在寿光县西南三十里",
+        "history_lore": "春秋纪国城，内有台俗曰纪台"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "益城",
+        "type": "古迹",
+        "location_text": "在寿光县南一十里",
+        "history_lore": "汉县属北海郡"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "丰城",
+        "type": "古迹",
+        "location_text": "在寿光县西二十里",
+        "history_lore": "魏司马懿伐公孙渊，徙丰人住此，故名"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "仓颉墓",
+        "type": "陵墓",
+        "location_text": "在寿光县治西",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "刘珝墓",
+        "type": "陵墓",
+        "location_text": "在寿光县西四十里",
+        "history_lore": "知府李昂题其墓曰仁孝"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "仓颉庙",
+        "type": "祠庙",
+        "location_text": "在寿光县西",
+        "history_lore": "本朝宏治十六年建"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "大王桥",
+        "type": "关梁",
+        "location_text": "在寿光县西四十五里",
+        "history_lore": "唐建，石刻尚存"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "宁义寺",
+        "type": "寺观",
+        "location_text": "在寿光县治西北",
+        "history_lore": "洪武四年建"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c06",
+        "name": "熙熙台",
+        "type": "宫室",
+        "location_text": "在寿光县后北城上",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

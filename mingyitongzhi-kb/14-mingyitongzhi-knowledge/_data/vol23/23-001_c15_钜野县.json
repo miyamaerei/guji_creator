@@ -1,0 +1,252 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "钜野县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "钜野县【在州城西北一百里禹贡大野既潴即此地周属鲁汉置钜野县属山阳郡晋属高平国后罢隋复置属东平郡唐置麟州治此寻废州以县属郓州五代周于此置济州宋因之金徙州治任城县省钜野入郓州元初为济宁路治后徙治任城而此县仍属焉本朝因之编户三十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "钜野县",
+        "type": "geo",
+        "norm": "钜野县",
+        "first_source": "23-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "彭越",
+        "type": "person",
+        "norm": "彭越",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c15",
+        "item_id": "23-001",
+        "name": "钜野县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s02",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在济宁州西北一百里",
+          "households": {
+            "count": 35,
+            "unit": "里",
+            "note": "编户三十五里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "大野泽地",
+        "action": "因之",
+        "detail": "禹贡大野既潴即此地，周属鲁"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "钜野县",
+        "action": "置",
+        "detail": "汉置钜野县，属山阳郡，晋属高平国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "钜野县",
+        "action": "复",
+        "detail": "后罢，隋复置，属东平郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "麟州/郓州",
+        "action": "置",
+        "detail": "唐置麟州治此，寻废州以县属郓州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "五代",
+        "era": "周",
+        "institution_name": "济州",
+        "action": "置",
+        "detail": "五代周于此置济州，宋因之"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "郓州",
+        "action": "并",
+        "detail": "金徙州治任城县，省钜野入郓州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "济宁路",
+        "action": "因之",
+        "detail": "元初为济宁路治，后徙治任城而此县仍属焉，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "金乡山",
+        "type": "山",
+        "location_text": "在钜野县南五十里",
+        "description": "山北有石洞曰清凉，深十余丈，内凿石作四小阁，世传秦始皇避暑宫也",
+        "lore": "",
+        "original": "金乡山【在钜野县南五十里山北有石洞曰清凉深十余丈内凿石作四小阁阁外一堂陛髙三尺堂外两门门外两大阁石道长三十丈濶十有六尺世传秦始皇避署宫也西征记汉司校尉鲁恭凿山为墓得白兎乃不葬更葬山南而得金故曰金山其冡尚存】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "钜野泽",
+        "type": "湖",
+        "location_text": "在钜野县东五里",
+        "description": "一名大野泽，南北三百里，东西一百余里，元末为黄河所决遂涸",
+        "lore": "禹贡大野既潴，周礼薮曰大野",
+        "original": "钜野泽【在钜野县东五里一名大野泽南北三百里东西一百余里禹贡大野既潴周礼薮曰大野皆此元末为黄河所决遂涸】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "彭越",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "昌邑",
+        "office": "梁王",
+        "summary": "常渔钜野泽中，陈胜项梁起，少年相聚请越为长，以功封梁王，都定陶",
+        "original": "彭越【昌邑人常渔钜野泽中陈胜项梁起少年相聚请越为长收诸侯散卒得千余人沛公击昌邑越以兵助之自是为汉逰兵击楚卒败项羽于垓下以功封梁王】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "王禹偁",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "钜野",
+        "office": "翰林学士",
+        "summary": "九岁能文，文章独步当时，累迁翰林学士，所著有文集五十余卷",
+        "original": "王禹偁【钜野人九嵗能文太宗朝举进士为右拾遗尝献端拱箴及御戎十防文章独步当时累迁翰林学士出知滁州移蕲州所着有文集五十余卷子嘉祐为馆职…】"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "晁补之",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "济州钜野",
+        "office": "礼部郎中、知泗州",
+        "summary": "才气飘逸，嗜学不倦，苏轼称其博辨隽伟，自号归来子",
+        "original": "晁补之【济州钜野人宗慤曽孙才气飘逸嗜学不倦蘓轼称其博辨隽伟必显于世举进士以礼部郎中知泗州自号归来子弟咏之蘓轼见其诗文称为竒才…有文集五十卷】"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "王氏",
+        "type": "列女",
+        "dynasty": "明",
+        "native_place": "钜野",
+        "office": "",
+        "summary": "马善轻妻，夫殁守节终身，洪武十七年旌表贞节",
+        "original": "王氏【钜野人马善轻妻夫殁守节终身洪武十七年旌表贞节省志】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "钜野县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武七年自县治东北徙置于此",
+        "original": "钜野县学【在县治东洪武七年自县治东北徙置于此】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "获麟台",
+        "type": "古迹",
+        "location_text": "在钜野县东南五十里",
+        "history_lore": "即西狩获麟之所，后人于此筑台",
+        "original": "获麟台【在钜野县东南五十里即西狩获麟之所后人于此筑防】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "落凤台",
+        "type": "古迹",
+        "location_text": "在钜野县东南五十里",
+        "history_lore": "",
+        "original": "落鳯台【在钜野县东南五十里】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "蚩尤墓",
+        "type": "陵墓",
+        "location_text": "在钜野县东北九里",
+        "history_lore": "世传黄帝杀蚩尤于涿鹿之野，身体异处，故别葬焉",
+        "original": "蚩尤墓【在夀张县治东北又钜野县东北九里亦有蚩尤肩髀冡世传黄帝杀蚩尤于鹿之野身体异处故别葬焉】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c15",
+        "name": "乘氏城",
+        "type": "古迹",
+        "location_text": "一在钜野县西南五十里",
+        "history_lore": "汉置县",
+        "original": "乗氏城【有二一在钜野县西南五十里汉置县一在曹县界内后魏以后县治也金济隂县徙治此】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

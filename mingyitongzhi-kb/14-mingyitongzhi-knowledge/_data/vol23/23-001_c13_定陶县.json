@@ -6,44 +6,298 @@
   "volume_range": "卷23",
   "original": "定陶县【在州东南五十里本尧所居秦置定陶县汉初封彭越为梁王都此后以县属济阴国宣帝时为定陶国后魏为西兖州治隋属济阴郡唐属曹州寻降为镇宋置广济军兼置定陶县熙宁中军废以县属曹州后复置军金废军仍以县属曹州本朝初省入州洪武四年复置属济宁府正统十一年改今属编户一十九里】",
   "layers": {
-    "ents": [{"ent_id": "ENT-001", "name": "定陶县", "type": "geo", "norm": "定陶县", "first_source": "23-001"}],
-    "geos": [{"geo_id": "GEO-23001-c13", "item_id": "23-001", "name": "定陶县", "type": "county", "region": "山东", "parent": "GEO-23001-s01", "children": [], "volume_range": "卷23",
-      "attributes": {"location_text": "在曹州东南五十里", "households": {"count": 19, "unit": "里", "note": "编户一十九里"}}}],
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "定陶县",
+        "type": "geo",
+        "norm": "定陶县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c13",
+        "item_id": "23-001",
+        "name": "定陶县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s01",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在曹州东南五十里",
+          "households": {
+            "count": 19,
+            "unit": "里",
+            "note": "编户一十九里"
+          }
+        }
+      }
+    ],
     "evos": [
-      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "周", "era": null, "institution_name": "尧所居", "action": "因之", "detail": "本尧所居"},
-      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "秦", "era": null, "institution_name": "定陶县", "action": "置", "detail": "秦置定陶县"},
-      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "汉", "era": null, "institution_name": "梁国都/济阴国/定陶国", "action": "改", "detail": "汉初封彭越为梁王都此，后以县属济阴国，宣帝时为定陶国"},
-      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "南北朝", "era": "后魏", "institution_name": "西兖州治", "action": "因之", "detail": "后魏为西兖州治"},
-      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "隋", "era": null, "institution_name": "济阴郡", "action": "因之", "detail": "隋属济阴郡"},
-      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "唐", "era": null, "institution_name": "曹州/镇", "action": "降", "detail": "唐属曹州，寻降为镇"},
-      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "宋", "era": "熙宁", "institution_name": "广济军/定陶县", "action": "置", "detail": "宋置广济军兼置定陶县，熙宁中军废以县属曹州，后复置军"},
-      {"evo_id": "EVO-008", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "金", "era": null, "institution_name": "曹州", "action": "因之", "detail": "金废军仍以县属曹州"},
-      {"evo_id": "EVO-009", "item_id": "23-001", "geo_id": "GEO-23001-c13", "dynasty": "明", "era": "洪武/正统", "institution_name": "定陶县", "action": "复置", "detail": "本朝初省入州，洪武四年复置属济宁府，正统十一年改今属"}
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "尧所居",
+        "action": "因之",
+        "detail": "本尧所居"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "定陶县",
+        "action": "置",
+        "detail": "秦置定陶县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "梁国都/济阴国/定陶国",
+        "action": "改",
+        "detail": "汉初封彭越为梁王都此，后以县属济阴国，宣帝时为定陶国"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "西兖州治",
+        "action": "因之",
+        "detail": "后魏为西兖州治"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "济阴郡",
+        "action": "因之",
+        "detail": "隋属济阴郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "曹州/镇",
+        "action": "降",
+        "detail": "唐属曹州，寻降为镇"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "宋",
+        "era": "熙宁",
+        "institution_name": "广济军/定陶县",
+        "action": "置",
+        "detail": "宋置广济军兼置定陶县，熙宁中军废以县属曹州，后复置军"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "曹州",
+        "action": "因之",
+        "detail": "金废军仍以县属曹州"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "dynasty": "明",
+        "era": "洪武/正统",
+        "institution_name": "定陶县",
+        "action": "复",
+        "detail": "本朝初省入州，洪武四年复置属济宁府，正统十一年改今属"
+      }
     ],
     "mtns": [
-      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "髣山", "type": "山", "location_text": "在定陶县北一十五里", "description": "乃曹国十五世葬地，积壤之高髣髴如山，故名", "lore": "", "original": "髣山【在定陶县北一十五里乃曹国十五世葬地积壤之髙髣髴如山故名】"},
-      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "范蠡湖", "type": "湖", "location_text": "在定陶县城内西南隅", "description": "其地洼下多水，俗传为范蠡养鱼之所，今涸", "lore": "", "original": "范蠡湖【在定陶县城内西南隅其地洼下多水俗传为范蠡养鱼之所今涸】"}
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "髣山",
+        "type": "山",
+        "location_text": "在定陶县北一十五里",
+        "description": "乃曹国十五世葬地，积壤之高髣髴如山，故名",
+        "lore": "",
+        "original": "髣山【在定陶县北一十五里乃曹国十五世葬地积壤之髙髣髴如山故名】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "范蠡湖",
+        "type": "湖",
+        "location_text": "在定陶县城内西南隅",
+        "description": "其地洼下多水，俗传为范蠡养鱼之所，今涸",
+        "lore": "",
+        "original": "范蠡湖【在定陶县城内西南隅其地洼下多水俗传为范蠡养鱼之所今涸】"
+      }
     ],
     "pers": [
-      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "魏相", "type": "人物", "dynasty": "汉", "native_place": "济阴定陶", "office": "丞相、高平侯", "summary": "地节中拜相，总领众职，甚称上意，蔚为一代贤相", "original": "魏相【济隂定陶人地节中拜相尝白去副封以防壅蔽时宣帝厉精为治练羣臣核名实而相总领众职甚称上意蔚为一代贤相封髙平侯】"},
-      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "刘潜", "type": "人物", "dynasty": "宋", "native_place": "曹州定陶", "office": "蓬莱知县", "summary": "少卓逸有大志，好为古文，举进士知蓬莱县，母死一恸遂绝，其妻哭潜亦死", "original": "刘潜【曹州定陶人少卓逸有大志好为古文举进士知蓬莱县代还过郓州母疾亟归母死一恸遂絶其妻哭潜亦死时人伤之曰子死于孝妻死于义】"},
-      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "孙宾", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知定陶县", "summary": "成化间兴学举废，惠政及民，迁员外郎，民立石颂之", "original": "孙宾【成化间知定陶县兴学举废惠政及民迁员外郎民立石颂之省志】"}
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "魏相",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "济阴定陶",
+        "office": "丞相、高平侯",
+        "summary": "地节中拜相，总领众职，甚称上意，蔚为一代贤相",
+        "original": "魏相【济隂定陶人地节中拜相尝白去副封以防壅蔽时宣帝厉精为治练羣臣核名实而相总领众职甚称上意蔚为一代贤相封髙平侯】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "刘潜",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "曹州定陶",
+        "office": "蓬莱知县",
+        "summary": "少卓逸有大志，好为古文，举进士知蓬莱县，母死一恸遂绝，其妻哭潜亦死",
+        "original": "刘潜【曹州定陶人少卓逸有大志好为古文举进士知蓬莱县代还过郓州母疾亟归母死一恸遂絶其妻哭潜亦死时人伤之曰子死于孝妻死于义】"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "孙宾",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "知定陶县",
+        "summary": "成化间兴学举废，惠政及民，迁员外郎，民立石颂之",
+        "original": "孙宾【成化间知定陶县兴学举废惠政及民迁员外郎民立石颂之省志】"
+      }
     ],
     "sites": [
-      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "定陶县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武四年建，宣德七年重修", "original": "定陶县学【在县治东洪武四年建宣徳七年重修】"},
-      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "髣山庙", "type": "祠庙", "location_text": "在定陶县北髣山上", "history_lore": "祀曹叔振铎，宋翰林学士王禹偁有碑", "original": "髣山庙【在定陶县北髣山上祀曹叔振铎宋翰林学士王禹偁有碑】"},
-      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "陶朱公墓", "type": "陵墓", "location_text": "在定陶县治东北", "history_lore": "即越范蠡", "original": "陶朱公墓【在定陶县治东北即越范蠡】"},
-      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "梁王台", "type": "古迹", "location_text": "在定陶县治东", "history_lore": "近城有高阜，世传汉梁王彭越之台", "original": "梁王台【在定陶县治东近城有髙阜世传汉梁王彭越之防】"},
-      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "三朡亭", "type": "古迹", "location_text": "在定陶县界", "history_lore": "三朡古国名，书遂伐三朡即此", "original": "三朡亭【在定陶县界三朡古国名书遂伐三朡即此】"},
-      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "戚姬村", "type": "古迹", "location_text": "在定陶县北", "history_lore": "汉戚夫人生于此", "original": "戚姬村【在定陶县北汉戚夫人生于此】"},
-      {"site_id": "SITE-007", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "孝子村", "type": "古迹", "location_text": "在定陶县北", "history_lore": "里人孟昌宗母有疾，割股以进而愈，故名", "original": "孝子村【在定陶县北里人孟昌宗母有疾割股以进而愈故名】"},
-      {"site_id": "SITE-008", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "鲁太史墓", "type": "陵墓", "location_text": "在定陶县陶丘之巅", "history_lore": "葬鲁太史左丘明之三父，有宋盛琳所撰碑刻", "original": "鲁太史墓【在定陶县陶丘之巅葬鲁太史左丘明之三父有宋盛琳所撰碑刻】"},
-      {"site_id": "SITE-009", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "刚城", "type": "古迹", "location_text": "在定陶县东北", "history_lore": "即鲁之阐邑，汉置刚县属太山郡，晋改刚平县，后魏省", "original": "刚城【在定陶县东北即鲁之阐邑汉置刚县属太山郡晋改刚平县后魏省】"},
-      {"site_id": "SITE-010", "item_id": "23-001", "geo_id": "GEO-23001-c13", "name": "蛇丘城", "type": "古迹", "location_text": "在定陶县界", "history_lore": "即鲁之蛇渊囿，汉置蛇丘县属太山郡，后魏省", "original": "蛇丘城【有定陶县界即鲁之蛇渊囿汉置蛇丘县属太山郡后魏省】"}
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "定陶县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武四年建，宣德七年重修",
+        "original": "定陶县学【在县治东洪武四年建宣徳七年重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "髣山庙",
+        "type": "祠庙",
+        "location_text": "在定陶县北髣山上",
+        "history_lore": "祀曹叔振铎，宋翰林学士王禹偁有碑",
+        "original": "髣山庙【在定陶县北髣山上祀曹叔振铎宋翰林学士王禹偁有碑】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "陶朱公墓",
+        "type": "陵墓",
+        "location_text": "在定陶县治东北",
+        "history_lore": "即越范蠡",
+        "original": "陶朱公墓【在定陶县治东北即越范蠡】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "梁王台",
+        "type": "古迹",
+        "location_text": "在定陶县治东",
+        "history_lore": "近城有高阜，世传汉梁王彭越之台",
+        "original": "梁王台【在定陶县治东近城有髙阜世传汉梁王彭越之防】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "三朡亭",
+        "type": "古迹",
+        "location_text": "在定陶县界",
+        "history_lore": "三朡古国名，书遂伐三朡即此",
+        "original": "三朡亭【在定陶县界三朡古国名书遂伐三朡即此】"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "戚姬村",
+        "type": "古迹",
+        "location_text": "在定陶县北",
+        "history_lore": "汉戚夫人生于此",
+        "original": "戚姬村【在定陶县北汉戚夫人生于此】"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "孝子村",
+        "type": "古迹",
+        "location_text": "在定陶县北",
+        "history_lore": "里人孟昌宗母有疾，割股以进而愈，故名",
+        "original": "孝子村【在定陶县北里人孟昌宗母有疾割股以进而愈故名】"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "鲁太史墓",
+        "type": "陵墓",
+        "location_text": "在定陶县陶丘之巅",
+        "history_lore": "葬鲁太史左丘明之三父，有宋盛琳所撰碑刻",
+        "original": "鲁太史墓【在定陶县陶丘之巅葬鲁太史左丘明之三父有宋盛琳所撰碑刻】"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "刚城",
+        "type": "古迹",
+        "location_text": "在定陶县东北",
+        "history_lore": "即鲁之阐邑，汉置刚县属太山郡，晋改刚平县，后魏省",
+        "original": "刚城【在定陶县东北即鲁之阐邑汉置刚县属太山郡晋改刚平县后魏省】"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c13",
+        "name": "蛇丘城",
+        "type": "古迹",
+        "location_text": "在定陶县界",
+        "history_lore": "即鲁之蛇渊囿，汉置蛇丘县属太山郡，后魏省",
+        "original": "蛇丘城【有定陶县界即鲁之蛇渊囿汉置蛇丘县属太山郡后魏省】"
+      }
     ],
     "prods": [],
     "cits": []
   },
   "layer_count": 7,
-  "validation": {"errs": [], "gap": 0, "notes": ""}
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
 }

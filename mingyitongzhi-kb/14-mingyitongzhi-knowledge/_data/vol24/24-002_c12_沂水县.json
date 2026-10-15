@@ -1,0 +1,267 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "沂水县",
+  "region": "山东",
+  "original": "沂水县【在州城西北七十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "沂水县",
+        "type": "geo",
+        "norm": "沂水县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c12",
+        "item_id": "24-002",
+        "name": "沂水县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002-s01",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州城西北七十里",
+          "households": {
+            "count": 143,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "郓邑",
+        "action": "因之",
+        "detail": "周为郓邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东莞县",
+        "action": "置",
+        "detail": "汉为东莞县属琅琊郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "东莞郡",
+        "action": "置",
+        "detail": "晋于此置东莞郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "新泰县/东安县",
+        "action": "改",
+        "detail": "后魏改为新泰县；隋初改曰东安县，后于古盖城别置东安县而此县改名沂水"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "沂水县",
+        "action": "因之",
+        "detail": "唐宋属沂州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "沂水县",
+        "action": "因之",
+        "detail": "金元属莒州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "沂水县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "雹山",
+        "type": "山",
+        "location_text": "在沂水县西北五十里",
+        "description": "出紫石英，好者映彻如雹，故名",
+        "lore": "今曰大固山"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "望仙山",
+        "type": "山",
+        "location_text": "在沂水县西南五十里",
+        "description": "中有望仙桥",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "文峰山",
+        "type": "山",
+        "location_text": "在沂水县西北六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "雕厓山",
+        "type": "山",
+        "location_text": "在沂水县西北",
+        "description": "沂水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "大弁山",
+        "type": "山",
+        "location_text": "在沂水县西北一百九十里",
+        "description": "与雕厓山连麓，俗讹作太平，因其顶平八九十里也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "沂水",
+        "type": "河",
+        "location_text": "源出雕厓山",
+        "description": "流经本县南二里入沂州",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "沐水",
+        "type": "河",
+        "location_text": "源出沂山",
+        "description": "流经沂水县东北，达莒州界入沂州",
+        "lore": "《周礼》职方氏青州其浸沂沐即此"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "叶元凯",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "沂水知县",
+        "summary": "正统间知沂水县，存心仁恕，勤政爱民，卒于官，民立祠祀之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "沂水县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "元天历间建，本朝洪武中重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "盖城",
+        "type": "古迹",
+        "location_text": "在沂水县西北七十里",
+        "history_lore": "齐盖邑，孟子谓盖大夫王驩指此；汉置县属泰山郡"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "东安城",
+        "type": "古迹",
+        "location_text": "在沂水县南五十里",
+        "history_lore": "汉县属城阳国，东汉属琅琊郡，北齐废，隋复置"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "东郓城",
+        "type": "古迹",
+        "location_text": "在沂水县境内",
+        "history_lore": "古有东西二郓，莒鲁所争者为东郓即此县"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "东莞城",
+        "type": "古迹",
+        "location_text": "在沂水县",
+        "history_lore": "本汉东莞县属琅琊国，晋置东莞郡，隋属密州"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "望仙桥",
+        "type": "关梁",
+        "location_text": "在沂水县治南",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c12",
+        "name": "梵众寺",
+        "type": "寺观",
+        "location_text": "在沂水县南二里",
+        "history_lore": "洪武中建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

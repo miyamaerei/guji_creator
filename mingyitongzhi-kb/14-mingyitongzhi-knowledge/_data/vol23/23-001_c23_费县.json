@@ -1,0 +1,396 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "费县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "费县【在州城西南九十里古费国地春秋时为鲁季孙氏之邑汉置费县属东海郡东汉属泰山郡晋属琅琊国后魏徙治祊城属沂州后废唐复置宋金元俱仍旧本朝因之编户七十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "费县",
+        "type": "geo",
+        "norm": "费县",
+        "first_source": "23-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "蒙山",
+        "type": "mtn",
+        "norm": "蒙山",
+        "first_source": "23-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "颜真卿",
+        "type": "person",
+        "norm": "颜真卿",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c23",
+        "item_id": "23-001",
+        "name": "费县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s04",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在沂州西南九十里",
+          "households": {
+            "count": 75,
+            "unit": "里",
+            "note": "编户七十五里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "费国/鲁季孙氏邑",
+        "action": "因之",
+        "detail": "古费国地，春秋时为鲁季孙氏之邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "费县",
+        "action": "置",
+        "detail": "汉置费县，属东海郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "泰山郡",
+        "action": "因之",
+        "detail": "东汉属泰山郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "琅琊国",
+        "action": "因之",
+        "detail": "晋属琅琊国"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "祊城",
+        "action": "迁",
+        "detail": "后魏徙治祊城，属沂州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "费县",
+        "action": "复",
+        "detail": "后废，唐复置，宋金元俱仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "蒙山",
+        "type": "山",
+        "location_text": "在费县西北七十里",
+        "description": "书：蒙羽其艺。诗：奄有龟蒙。又以其居鲁地之东，一名东山，孟子所谓孔子登东山而小鲁是也",
+        "lore": "孔子登东山处",
+        "original": "山【在费县西北七十里书防羽其艺诗奄有防即此又以其居鲁地之东一名东山孟子所谓孔子登东山而小鲁是也】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "聪山",
+        "type": "山",
+        "location_text": "在费县西北一百三十里",
+        "description": "浚河源出此",
+        "lore": "",
+        "original": "聦山【在费县西北一百三十里浚河源出此】"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "大沬固",
+        "type": "山",
+        "location_text": "在费县西南六十里",
+        "description": "根盘三十里，壁立云霄，若巨柱之撑天。本县山号为固者若太平、不老、佛耳、云头之类甚众",
+        "lore": "",
+        "original": "大沬固【在费县西南六十里根盘三十里壁立云霄若巨柱之撑天本县山号为固者若太平不老佛耳云头之类甚众】"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "大□阜",
+        "type": "山",
+        "location_text": "在费县西南一百里",
+        "description": "一名货郎阜，祊水源发于此",
+        "lore": "",
+        "original": "大□阜【在费县西南一百里一名货郎阜祊水源发于此】"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "浚河",
+        "type": "河",
+        "location_text": "源发聪山",
+        "description": "东流合于祊水",
+        "lore": "",
+        "original": "浚河【源发聦山东流合于祊水】"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "祊水",
+        "type": "河",
+        "location_text": "源发大□阜",
+        "description": "东南流经沂州、郯城县，入邳州界",
+        "lore": "",
+        "original": "祊水【源发大□阜东南流经沂州郯城县入邳州界】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "季文子",
+        "type": "名宦",
+        "dynasty": "周",
+        "native_place": "鲁",
+        "office": "鲁卿",
+        "summary": "鲁卿季文子，庙在鲁卿山（峄县东北七十里）",
+        "original": "鲁卿山【在峄县东北七十里旧有鲁卿季文子庙一名季山俗名神峯山】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "颜真卿",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "临沂",
+        "office": "平原太守、尚书右丞",
+        "summary": "博学工书，事亲以孝闻。安禄山反，河朔尽陷，惟平原城守具备。李希烈反，遣真卿往谕，不屈被害",
+        "original": "顔真卿【杲卿从弟博学工书事亲以孝闻举进士累官平原太守安禄山反河朔尽防惟平原城守具备事闻…累迁尚书右丞李希烈防汝州朝廷遣真卿往谕之不屈被害】"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "颜杲卿",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "临沂",
+        "office": "常山太守",
+        "summary": "为常山太守，安禄山反，杲卿起兵讨贼，河北诸郡响应，城陷被执至洛阳杀之，骂不绝口",
+        "original": "顔杲卿【师古五世孙为常山太守安禄山反杲卿起兵讨贼河北诸郡响应已而贼将引兵至城下杲卿举兵才八日以城守未备而防贼将执至洛阳杀之杲卿骂不絶口顔氏死者三十余人】"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "王导",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "临沂",
+        "office": "太傅、始兴公",
+        "summary": "元帝为琅琊王，与导素相亲善，及镇下邳，以为安东司马，后东迁，累官太傅，封始兴公，晋之中兴，导力为多",
+        "original": "王【覧孙元帝为琅邪王与素相亲善及镇下邳以为安东司马军谋宻防知无不为后东迁累官太傅封始兴公兄敦反以大义灭之出入将相戮力王室晋之中兴力为多】"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "王羲之",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "临沂",
+        "office": "右军将军、会稽内史",
+        "summary": "以骨鲠称，善书为古今之冠，论者称其笔势飘若浮云，矫若惊龙",
+        "original": "王羲之【从子以骨鲠称善书为古今之冠论者称其笔势飘若防云矫若惊龙仕至右军将军会稽内史子凝之徽之献之遂居会稽并有盛名】"
+      },
+      {
+        "per_id": "PER-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "诸葛亮",
+        "type": "人物",
+        "dynasty": "三国",
+        "native_place": "琅琊阳都",
+        "office": "丞相、武乡侯",
+        "summary": "汉末避难居南阳，先主凡三往问计，拜丞相，封武乡侯，任贤养民，通吴平蛮，作八阵图，上出师二表，卒于军，谥忠武",
+        "original": "诸葛亮【琅邪阳都人丰之后汉末避难居南阳徐庶谓刘先主曰诸葛孔明卧龙也先主凡三往问计延为军师先主即位拜丞相后主时封武乡侯任贤养民通呉平蛮尝作八阵图上出师二表北伐曹魏卒于军谥忠武】"
+      },
+      {
+        "per_id": "PER-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "荀子",
+        "type": "人物",
+        "dynasty": "战国",
+        "native_place": "赵",
+        "office": "楚兰陵令",
+        "summary": "著书数十篇",
+        "original": "荀卿【战国时为楚兰陵令著书数十篇】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "费县学",
+        "type": "学校",
+        "location_text": "在县城南门外",
+        "history_lore": "金皇统间建，本朝洪武元年重修",
+        "original": "费县学【在县城南门外金皇统间建本朝洪武元年重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "思圣书院",
+        "type": "书院",
+        "location_text": "在费县西九十里",
+        "history_lore": "元至正间建",
+        "original": "思圣书院【在费县西九十里元至正间建】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "开福寺",
+        "type": "寺观",
+        "location_text": "在费县治西",
+        "history_lore": "元延祐间重建",
+        "original": "开福寺【在费县治西元延祐间重建】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "颜鲁公祠",
+        "type": "祠庙",
+        "location_text": "在费县治东",
+        "history_lore": "祀唐忠臣颜真卿",
+        "original": "顔鲁公祠【在费县治东祀唐忠臣顔真卿】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "颛臾城",
+        "type": "古迹",
+        "location_text": "在费县西北九十里",
+        "history_lore": "鲁附庸国，季氏将伐颛臾即此。隋置颛臾县，属沂州",
+        "original": "颛臾城【在费县西北九十里鲁附庸国季氏将伐颛臾即此隋置颛臾县属沂州】"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "费城",
+        "type": "古迹",
+        "location_text": "在费县西北二十里",
+        "history_lore": "春秋鲁季氏私邑",
+        "original": "费城【在费县西北二十里春秋鲁季氏私邑】"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "武城城",
+        "type": "古迹",
+        "location_text": "在费县西北七十里",
+        "history_lore": "即子游所治之邑",
+        "original": "武城城【在费县西北七十里即子防所治之邑】"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "高柴墓",
+        "type": "陵墓",
+        "location_text": "在沂州西南一百三十里",
+        "history_lore": "",
+        "original": "髙柴墓【在沂州西南一百三十里】"
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "蒙顶茶",
+        "category": "饮食",
+        "note": "蒙山石上出",
+        "original": "顶茶【山石上出】"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "紫石英",
+        "category": "矿物",
+        "note": "沂州出",
+        "original": "仙灵脾　紫石英　钟乳石【沂州出】"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "钟乳石",
+        "category": "矿物",
+        "note": "沂州出",
+        "original": "钟乳石【沂州出】"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c23",
+        "name": "仙灵脾",
+        "category": "药材",
+        "note": "沂州出",
+        "original": "仙灵脾【沂州出】"
+      }
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "颜氏家族（颜真卿/颜杲卿/颜师古等）系临沂人，明代沂州辖费县，故附此。"
+  }
+}

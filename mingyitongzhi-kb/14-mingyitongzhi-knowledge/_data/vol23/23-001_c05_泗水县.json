@@ -7,39 +7,216 @@
   "original": "泗水县【在府城东九十里古下明国春秋时为鲁卞邑汉置卞县属鲁国晋属鲁郡隋改为泗水县属兖州唐宋金因之元省入曲阜寻复置属兖州本朝因之编户一十七里】",
   "layers": {
     "ents": [
-      {"ent_id": "ENT-001", "name": "泗水县", "type": "geo", "norm": "泗水县", "first_source": "23-001"},
-      {"ent_id": "ENT-002", "name": "陪尾山", "type": "mtn", "norm": "陪尾山", "first_source": "23-001"}
+      {
+        "ent_id": "ENT-001",
+        "name": "泗水县",
+        "type": "geo",
+        "norm": "泗水县",
+        "first_source": "23-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "陪尾山",
+        "type": "mtn",
+        "norm": "陪尾山",
+        "first_source": "23-001"
+      }
     ],
     "geos": [
-      {"geo_id": "GEO-23001-c05", "item_id": "23-001", "name": "泗水县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
-       "attributes": {"location_text": "在府城东九十里", "households": {"count": 17, "unit": "里", "note": "编户一十七里"}}}
+      {
+        "geo_id": "GEO-23001-c05",
+        "item_id": "23-001",
+        "name": "泗水县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在府城东九十里",
+          "households": {
+            "count": 17,
+            "unit": "里",
+            "note": "编户一十七里"
+          }
+        }
+      }
     ],
     "evos": [
-      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c05", "dynasty": "周", "era": "春秋", "institution_name": "鲁卞邑", "action": "因之", "detail": "古下明国，春秋时为鲁卞邑"},
-      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c05", "dynasty": "汉", "era": null, "institution_name": "卞县", "action": "置", "detail": "汉置卞县，属鲁国，晋属鲁郡"},
-      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c05", "dynasty": "隋", "era": null, "institution_name": "泗水县", "action": "改", "detail": "隋改为泗水县，属兖州，唐宋金因之"},
-      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c05", "dynasty": "元", "era": null, "institution_name": "泗水县", "action": "复置", "detail": "元省入曲阜，寻复置属兖州，本朝因之"}
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "鲁卞邑",
+        "action": "因之",
+        "detail": "古下明国，春秋时为鲁卞邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "卞县",
+        "action": "置",
+        "detail": "汉置卞县，属鲁国，晋属鲁郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "泗水县",
+        "action": "改",
+        "detail": "隋改为泗水县，属兖州，唐宋金因之"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "泗水县",
+        "action": "复",
+        "detail": "元省入曲阜，寻复置属兖州，本朝因之"
+      }
     ],
     "mtns": [
-      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "凤凰山", "type": "山", "location_text": "在泗水县东南五里", "description": "下有珍珠泉", "lore": "", "original": "鳯凰山【在泗水县东南五里下有珎珠泉】"},
-      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "昌山", "type": "山", "location_text": "在泗水县东南二十里", "description": "下有泉曰鲍村、曰东岩、曰黄阴，皆流入泗水", "lore": "", "original": "昌山【在泗水县东南二十里下有泉曰鲍村曰东严曰黄隂皆流入泗水】"},
-      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "陪尾山", "type": "山", "location_text": "在泗水县东五十里", "description": "泗水源发于此，上有仁济侯庙", "lore": "禹贡导淮自桐柏，导泗自陪尾", "original": "陪尾山【在泗水县东五十里泗水源发于此上有仁济侯庙】"},
-      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "龟山", "type": "山", "location_text": "在泗水县东北五十里", "description": "诗：奄有龟蒙。春秋龟阴之田在其北，今属泰安州", "lore": "", "original": "山【在泗水县东北五十里诗奄有防即此春秋隂之田在其北今属泰安州】"},
-      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "玉沟泉", "type": "泉", "location_text": "在泗水县西南一十二里", "description": "西北流入泗水", "lore": "", "original": "玉沟泉【在泗水县西南一十二里西北流入泗水】"},
-      {"mtn_id": "MTN-006", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "盗泉", "type": "泉", "location_text": "在泗水县东北高陉山之阴", "description": "淮南子云：孔子不饮盗泉之水", "lore": "", "original": "盗泉【在泗水县东北髙陉山之隂淮南子云孔子不饮盗泉之水即此】"}
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在泗水县东南五里",
+        "description": "下有珍珠泉",
+        "lore": "",
+        "original": "鳯凰山【在泗水县东南五里下有珎珠泉】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "昌山",
+        "type": "山",
+        "location_text": "在泗水县东南二十里",
+        "description": "下有泉曰鲍村、曰东岩、曰黄阴，皆流入泗水",
+        "lore": "",
+        "original": "昌山【在泗水县东南二十里下有泉曰鲍村曰东严曰黄隂皆流入泗水】"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "陪尾山",
+        "type": "山",
+        "location_text": "在泗水县东五十里",
+        "description": "泗水源发于此，上有仁济侯庙",
+        "lore": "禹贡导淮自桐柏，导泗自陪尾",
+        "original": "陪尾山【在泗水县东五十里泗水源发于此上有仁济侯庙】"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "龟山",
+        "type": "山",
+        "location_text": "在泗水县东北五十里",
+        "description": "诗：奄有龟蒙。春秋龟阴之田在其北，今属泰安州",
+        "lore": "",
+        "original": "山【在泗水县东北五十里诗奄有防即此春秋隂之田在其北今属泰安州】"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "玉沟泉",
+        "type": "泉",
+        "location_text": "在泗水县西南一十二里",
+        "description": "西北流入泗水",
+        "lore": "",
+        "original": "玉沟泉【在泗水县西南一十二里西北流入泗水】"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "盗泉",
+        "type": "泉",
+        "location_text": "在泗水县东北高陉山之阴",
+        "description": "淮南子云：孔子不饮盗泉之水",
+        "lore": "",
+        "original": "盗泉【在泗水县东北髙陉山之隂淮南子云孔子不饮盗泉之水即此】"
+      }
     ],
     "pers": [
-      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "仲由（子路）", "type": "人物", "dynasty": "周", "native_place": "卞（今泗水）", "office": "孔门弟子", "summary": "卞人，孔门政事科，闻过则喜，勇于为义，片言可以折狱，仕卫死难，后世追封卫公", "original": "仲由【卞人孔门弟子有政事才闻过则喜勇于为义片言可以折狱仕卫死难后世追封卫公】"},
-      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "李自良", "type": "人物", "dynasty": "唐", "native_place": "兖州泗水", "office": "检校工部尚书、河东节度使", "summary": "天宝乱，从兖郓节度使，以战多累授右卫率，从马燧讨田悦，贞元中充河东节度使，居治九年", "original": "李自良【兖州泗水人天寳乱往从兖郓节度使以战多累授右卫率为人勤且有谋从马燧讨田悦攻李懐光数履锋防阵功在诸将右贞元中以检校工部尚书充河东节度使居治九年民不知有军上下谐附卒赠左仆射】"}
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "仲由（子路）",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "卞（今泗水）",
+        "office": "孔门弟子",
+        "summary": "卞人，孔门政事科，闻过则喜，勇于为义，片言可以折狱，仕卫死难，后世追封卫公",
+        "original": "仲由【卞人孔门弟子有政事才闻过则喜勇于为义片言可以折狱仕卫死难后世追封卫公】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "李自良",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "兖州泗水",
+        "office": "检校工部尚书、河东节度使",
+        "summary": "天宝乱，从兖郓节度使，以战多累授右卫率，从马燧讨田悦，贞元中充河东节度使，居治九年",
+        "original": "李自良【兖州泗水人天寳乱往从兖郓节度使以战多累授右卫率为人勤且有谋从马燧讨田悦攻李懐光数履锋防阵功在诸将右贞元中以检校工部尚书充河东节度使居治九年民不知有军上下谐附卒赠左仆射】"
+      }
     ],
     "sites": [
-      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "泗水县学", "type": "学校", "location_text": "在县治东南", "history_lore": "宋元丰间建，本朝洪武初重修", "original": "泗水县学【在县治东南宋元丰间建本朝洪武初重修】"},
-      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "泗水神庙", "type": "祠庙", "location_text": "在泗水县东五十里", "history_lore": "有司岁以二月二日致祭", "original": "泗水神庙【在泗水县东五十里今有司嵗以二月二日致祭】"},
-      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c05", "name": "梁父城", "type": "古迹", "location_text": "在泗水县北境", "history_lore": "汉置县，寻省", "original": "梁父城【在泗水县北境汉置县寻省】"}
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "泗水县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "宋元丰间建，本朝洪武初重修",
+        "original": "泗水县学【在县治东南宋元丰间建本朝洪武初重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "泗水神庙",
+        "type": "祠庙",
+        "location_text": "在泗水县东五十里",
+        "history_lore": "有司岁以二月二日致祭",
+        "original": "泗水神庙【在泗水县东五十里今有司嵗以二月二日致祭】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c05",
+        "name": "梁父城",
+        "type": "古迹",
+        "location_text": "在泗水县北境",
+        "history_lore": "汉置县，寻省",
+        "original": "梁父城【在泗水县北境汉置县寻省】"
+      }
     ],
     "prods": [],
     "cits": []
   },
   "layer_count": 7,
-  "validation": {"errs": [], "gap": 0, "notes": ""}
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
 }

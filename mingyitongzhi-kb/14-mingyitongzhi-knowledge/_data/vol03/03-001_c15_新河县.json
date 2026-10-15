@@ -1,0 +1,94 @@
+{
+ "item_id": "03-001",
+ "volume": "03",
+ "source": "新河县",
+ "region": "北直隶",
+ "original": "在州城西六十里本汉堂阳县属钜鹿郡东汉属安平国北齐省隋复置属冀州唐因之宋省入南宫县元复置新河县冀州本朝因之编户一十四里",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-03-001-c15",
+    "name": "新河县",
+    "type": "geo",
+    "norm": "新河县",
+    "first_source": "03-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-03001-c15",
+    "item_id": "03-001",
+    "name": "新河县",
+    "type": "county",
+    "region": "北直隶",
+    "parent": "GEO-03001-s02",
+    "children": [],
+    "volume_range": "卷3",
+    "attributes": {
+     "evo_summary": "在州城西六十里本汉堂阳县属钜鹿郡东汉属安平国北齐省隋复置属冀州唐因之宋省入南宫县元复置新河县冀州本朝因之编户一十四里"
+    },
+    "original": "在州城西六十里本汉堂阳县属钜鹿郡东汉属安平国北齐省隋复置属冀州唐因之宋省入南宫县元复置新河县冀州本朝因之编户一十四里"
+   }
+  ],
+  "evos": [
+   {
+    "evo_id": "EVO-03-001-c15",
+    "item_id": "03-001",
+    "geo_id": "GEO-03001-c15",
+    "dynasty": "未明",
+    "era": null,
+    "institution_name": "新河县",
+    "action": "因之",
+    "detail": "在州城西六十里本汉堂阳县属钜鹿郡东汉属安平国北齐省隋复置属冀州唐因之宋省入南宫县元复置新河县冀州本朝因之编户一十四里",
+    "original": "在州城西六十里本汉堂阳县属钜鹿郡东汉属安平国北齐省隋复置属冀州唐因之宋省入南宫县元复置新河县冀州本朝因之编户一十四里"
+   }
+  ],
+  "mtns": [],
+  "pers": [
+   {
+    "per_id": "PER-03-001-c15-01",
+    "item_id": "03-001",
+    "geo_id": "GEO-03001-c15",
+    "name": "顔良",
+    "type": "人物",
+    "dynasty": "未明",
+    "native_place": "",
+    "office": "",
+    "summary": "新河人少聪敏才气宏逹比壮骁勇善谋为乡老所推汉末为袁绍将屡有战功后为闗公所刺",
+    "original": "顔良【新河人少聪敏才气宏逹比壮骁勇善谋为乡老所推汉末为袁绍将屡有战功后为闗公所刺】"
+   },
+   {
+    "per_id": "PER-03-001-c15-02",
+    "item_id": "03-001",
+    "geo_id": "GEO-03001-c15",
+    "name": "孔元",
+    "type": "人物",
+    "dynasty": "未明",
+    "native_place": "",
+    "office": "",
+    "summary": "新河人少有志操稍长胆力絶人屡从征讨有绩授忠武校尉加宣武将军右卫亲军总管卒子鹰杨孙成祖皆世袭佩金符",
+    "original": "孔元【新河人少有志操稍长胆力絶人屡从征讨有绩授忠武校尉加宣武将军右卫亲军总管卒子鹰杨孙成祖皆世袭佩金符】"
+   }
+  ],
+  "sites": [
+   {
+    "site_id": "SITE-03-001-c15-01",
+    "item_id": "03-001",
+    "geo_id": "GEO-03001-c15",
+    "name": "新河县学",
+    "type": "学校",
+    "location_text": "在县治东元至正间建",
+    "history_lore": "在县治东元至正间建",
+    "original": "新河县学【在县治东元至正间建】"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7,
+ "validation": {
+  "errs": [],
+  "gap": 0,
+  "notes": "parent=冀州; auto-extracted, pending manual review"
+ }
+}

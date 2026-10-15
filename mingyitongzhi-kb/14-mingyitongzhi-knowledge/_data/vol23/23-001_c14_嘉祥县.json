@@ -1,0 +1,245 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "嘉祥县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "嘉祥县【在州城西五十里本钜野泽地世传鲁哀公西狩获麟于此唐宋以来皆为任城县地金大定中始置嘉祥县属济州皆取获麟之义元属东平路至元初还属济州后属单州本朝改今属编户一十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "嘉祥县",
+        "type": "geo",
+        "norm": "嘉祥县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c14",
+        "item_id": "23-001",
+        "name": "嘉祥县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s02",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在济宁州西五十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "钜野泽地",
+        "action": "因之",
+        "detail": "本钜野泽地，世传鲁哀公西狩获麟于此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "dynasty": "金",
+        "era": "大定",
+        "institution_name": "嘉祥县",
+        "action": "置",
+        "detail": "唐宋以来皆为任城县地，金大定中始置嘉祥县，属济州，取获麟之义"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "济州/单州",
+        "action": "改",
+        "detail": "元属东平路，至元初还属济州，后属单州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "嘉祥县",
+        "action": "因之",
+        "detail": "本朝改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "郗山",
+        "type": "山",
+        "location_text": "在嘉祥县东南五里",
+        "description": "上有郗鉴祠址",
+        "lore": "",
+        "original": "郗山【在嘉祥县东南五里上有郗鍳祠址】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "青山",
+        "type": "山",
+        "location_text": "在嘉祥县有二",
+        "description": "大青山在县南二十里，上有青山神庙；小青山在县西六里",
+        "lore": "",
+        "original": "青山【在嘉祥县有二大青山在县南二十里上有青山神庙小青山在县西六里】"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "平山",
+        "type": "山",
+        "location_text": "在嘉祥县南五十里",
+        "description": "上有秋胡子妻庙遗址",
+        "lore": "",
+        "original": "平山【在嘉祥县南五十里上有秋胡子妻庙遗址】"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "崱山",
+        "type": "山",
+        "location_text": "在嘉祥县南三十里",
+        "description": "",
+        "lore": "",
+        "original": "崱山【在嘉祥县南三十里】"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "感应泉",
+        "type": "泉",
+        "location_text": "在嘉祥县南二十里青山侧",
+        "description": "泉自山腰石穴流出，遇旱取水祷雨辄应",
+        "lore": "",
+        "original": "感应泉【在嘉祥县南二十里青山侧泉目山腰石穴流出遇旱取水祷雨輙应】"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "圣水井",
+        "type": "井",
+        "location_text": "在嘉祥县南二十里",
+        "description": "俗传有疾者取水煎药服之多效",
+        "lore": "",
+        "original": "圣水井【在府城北二里遇旱祷雨輙应又嘉祥县南二十里亦有圣水井俗传有疾者取水煎药服之多効】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "曾参",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "南武城",
+        "office": "孔门弟子",
+        "summary": "字子舆，尝对孔子言志：暮春者春服既成，冠者五六人，童子六七人，浴乎沂，风乎舞雩，咏而归。后世追封郕国宗圣公",
+        "original": "曾防【南武城人孔门弟子天资髙明尝对孔子言志曰暮春者春服既成冠者五六人童子六七人浴乎沂风乎舞雩咏而归孔子喟然叹曰吾与防也后世追封莱芜侯】"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "龙俊",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "知嘉祥县",
+        "summary": "天顺间重农桑务教化，流民复业者三百余家",
+        "original": "张庆【天顺间知嘉祥县重农桑务教化流民复业者三百余家后改章丘民泣留者以干计既去立徳政碑省志】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "嘉祥县学",
+        "type": "学校",
+        "location_text": "在县治南",
+        "history_lore": "洪武三年建，永乐十八年重修",
+        "original": "嘉祥县学【在县治南洪武三年建永乐十八年重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "青山庙",
+        "type": "祠庙",
+        "location_text": "在嘉祥县南青山下",
+        "history_lore": "其山能兴云雨，每祷辄应，宋加封惠济公，本朝止称为青山之神",
+        "original": "青山庙【在嘉祥县南青山下其山能兴云雨每祷輙应故祀之宋加封惠济公本朝止称为青山之神】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "曾子书院",
+        "type": "书院",
+        "location_text": "在嘉祥县南四十里",
+        "history_lore": "又郯城县西北六十里亦有曾子书院",
+        "original": "曾子书院【在郯城县西北六十里又嘉祥县南四十里亦有曾子书院】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "曾参墓",
+        "type": "陵墓",
+        "location_text": "在嘉祥县南四十里",
+        "history_lore": "本朝正统十一年建祠墓前",
+        "original": "曽子墓【在嘉祥县南四十里本朝正统十一年建祠墓前】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "范式墓",
+        "type": "陵墓",
+        "location_text": "在嘉祥县南二十五里",
+        "history_lore": "有魏时碑刻，今移置济宁州学中",
+        "original": "范式墓【在嘉祥县南二十五里有魏时碑刻今移置济寜州学中】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c14",
+        "name": "曾参墓",
+        "type": "陵墓",
+        "location_text": "",
+        "history_lore": "本朝正统十一年建祠墓前",
+        "original": "曽子墓【在嘉祥县南四十里本朝正统十一年建祠墓前】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "曾参按地理属南武城，明代嘉祥说。"
+  }
+}

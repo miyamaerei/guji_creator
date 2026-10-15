@@ -1,0 +1,92 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "即墨县",
+  "region": "山东",
+  "type": "county",
+  "original": "即墨县【在州东一百二十里本齐国地以其地临墨水故曰即墨汉置县为胶东国治东汉属北海国晋属济北国北齐省隋复于不夜县城东北二十七里复置即墨县即今治元属胶州本朝改属莱州府后复属胶州编户八十五里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "即墨县", "type": "geo", "norm": "即墨县", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "天井山", "type": "mtn", "norm": "天井山", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "石城山", "type": "mtn", "norm": "石城山", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "女姑山", "type": "mtn", "norm": "女姑山", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "不其山", "type": "mtn", "norm": "不其山", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "劳山", "type": "mtn", "norm": "劳山", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "阴山", "type": "mtn", "norm": "阴山", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "田横岛", "type": "mtn", "norm": "田横岛", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "淮涉水", "type": "mtn", "norm": "淮涉水", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "温泉", "type": "mtn", "norm": "温泉", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "渴撅泉", "type": "mtn", "norm": "渴撅泉", "first_source": "25-002"},
+      {"ent_id": "ENT-012", "name": "龙泉", "type": "mtn", "norm": "龙泉", "first_source": "25-002"},
+      {"ent_id": "ENT-013", "name": "田单", "type": "person", "norm": "田单", "first_source": "25-002"},
+      {"ent_id": "ENT-014", "name": "王吉", "type": "person", "norm": "王吉", "first_source": "25-002"},
+      {"ent_id": "ENT-015", "name": "童恢", "type": "person", "norm": "童恢", "first_source": "25-002"},
+      {"ent_id": "ENT-016", "name": "逢萌", "type": "person", "norm": "逢萌", "first_source": "25-002"},
+      {"ent_id": "ENT-017", "name": "房凤", "type": "person", "norm": "房凤", "first_source": "25-002"},
+      {"ent_id": "ENT-018", "name": "蓝章", "type": "person", "norm": "蓝章", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002c05",
+        "item_id": "25-002",
+        "name": "即墨县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25002s02",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在胶州东一百二十里",
+          "households": {"count": 85, "unit": "里", "note": "编户八十五里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002c05", "dynasty": "周", "era": null, "institution_name": "即墨邑", "action": "因之", "detail": "本齐国地，以其地临墨水故曰即墨"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002c05", "dynasty": "汉", "era": null, "institution_name": "即墨县", "action": "置", "detail": "汉置县为胶东国治"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002c05", "dynasty": "晋", "era": null, "institution_name": "即墨县", "action": "因之", "detail": "东汉属北海国，晋属济北国"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002c05", "dynasty": "南北朝", "era": "北齐", "institution_name": "即墨县", "action": "省", "detail": "北齐省"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002c05", "dynasty": "隋", "era": null, "institution_name": "即墨县", "action": "复置", "detail": "隋复于不夜县城东北二十七里复置即墨县即今治"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002c05", "dynasty": "明", "era": null, "institution_name": "即墨县", "action": "改", "detail": "元属胶州，本朝改属莱州府后复属胶州"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "天井山", "type": "山", "location_text": "在即墨县东十余里", "description": "上有井极甘号天井井，北二十余里平地三穴汤泉出焉", "lore": "若有风从西北来则汤极热"},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "石城山", "type": "山", "location_text": "在即墨县东南三十里", "description": "淮涉水发源于此", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "女姑山", "type": "山", "location_text": "在即墨县西南三十里", "description": "上有明堂及女姑祠遗址，世传汉武帝所建不其太一仙人祠九此其一也", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "不其山", "type": "山", "location_text": "在即墨县东南四十里", "description": "三齐记汉郑玄尝教授此山，下有草大如薤叶长尺余坚韧号康成书带草", "lore": "又名驯虎山，因童恢咒虎之事而名"},
+      {"mtn_id": "MTN-005", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "劳山", "type": "山", "location_text": "在即墨县东南六十里海滨", "description": "山有二，其一高大曰大劳，其一差小曰小劳", "lore": "齐记云泰山虽云大不如东海劳，逢萌归自辽东养志修道于此"},
+      {"mtn_id": "MTN-006", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "阴山", "type": "山", "location_text": "在即墨县东南八十里", "description": "上有小池水旱不增减，傍有石人及马迹", "lore": "秦始皇幸琅琊尝驻马于此"},
+      {"mtn_id": "MTN-007", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "田横岛", "type": "其他", "location_text": "在即墨县东北一百里", "description": "四面环海去岸二十五里", "lore": "横众五百人死于此"},
+      {"mtn_id": "MTN-008", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "淮涉水", "type": "河", "location_text": "源发即墨县石城山", "description": "西南流经县治西一里许北流三里复西南流入海", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "温泉", "type": "泉", "location_text": "在即墨县东四十里", "description": "傍有凉泉，土人甃池引二泉同注于中以便澡浴", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "渴撅泉", "type": "泉", "location_text": "在即墨县东南三十里", "description": "世传宋太祖过此渴甚，用杖凿地得泉故名", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "龙泉", "type": "泉", "location_text": "在即墨县北二十里", "description": "泉凡二穴相去五十余步，世传尝有龙上升二泉随而涌出", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "田单", "type": "名宦", "dynasty": "周", "native_place": "临淄", "office": "齐将", "summary": "燕乐毅破齐下七十余城，惟莒即墨未下，单以火牛破敌复定齐地"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "童恢", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "不其令", "summary": "教民耕织，牢狱空虚流民归者二万余，尝有咒虎之异人作歌以颂之"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "王吉", "type": "人物", "dynasty": "汉", "native_place": "琅琊皋虞", "office": "谏议大夫", "summary": "与贡禹为友，世称王阳在位贡禹弹冠"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "逢萌", "type": "人物", "dynasty": "汉", "native_place": "北海都昌", "office": "", "summary": "王莽杀其子宇，萌即挂冠都城门浮海客辽东，光武即位始还劳山累征不起"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "房凤", "type": "人物", "dynasty": "汉", "native_place": "不其", "office": "青州牧", "summary": "以射策乙科为太史掌故，明谷梁春秋世传其学"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "蓝章", "type": "人物", "dynasty": "明", "native_place": "即墨", "office": "南京刑部侍郎", "summary": "成化间进士，按两浙山西弹劾不避，忤刘瑾左迁，瑾败复起巡抚陕西平汉中盗"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "即墨县学", "type": "学校", "location_text": "在县治东", "history_lore": "元至元间建，本朝洪武元年重修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "郑玄书院", "type": "书院", "location_text": "在即墨县东南二十五里", "history_lore": ""},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "庆成寺", "type": "寺观", "location_text": "在即墨县治东", "history_lore": "正统间因旧重修"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "迎真观", "type": "寺观", "location_text": "在即墨县治南", "history_lore": "元元统间建"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "先贤祠", "type": "祠庙", "location_text": "在即墨县学", "history_lore": "元高密县尹秦裕伯记，祀即墨大夫三、安平君田单、齐王田横、王吉、王骏、王成、童恢九人"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "王吉墓", "type": "陵墓", "location_text": "在即墨县东五十里", "history_lore": "吉汉臣"},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "蓝章墓", "type": "陵墓", "location_text": "在即墨县东北五里", "history_lore": ""},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "皋虞城", "type": "古迹", "location_text": "在即墨县东五十里", "history_lore": "汉置县，武帝封胶东康王子建为皋虞侯，王莽改曰盈庐"},
+      {"site_id": "SITE-009", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "不其城", "type": "古迹", "location_text": "在即墨县西南二十七里", "history_lore": "汉置县北齐省"},
+      {"site_id": "SITE-010", "item_id": "25-002", "geo_id": "GEO-25002c05", "name": "淮涉桥", "type": "关梁", "location_text": "在即墨县治南", "history_lore": "跨淮涉水"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

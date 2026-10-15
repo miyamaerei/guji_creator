@@ -1,0 +1,233 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "寿张县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "寿张县【在州西一百二十里春秋时为良邑汉为寿良县属东郡其治在今县南九十里东汉改为寿张县隋属济州后属郓州唐于此置寿州并增置寿良县寻俱省宋属东平府金元仍旧本朝洪武三年省入须城阳谷二县十四年复置属东平州编户一十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "寿张县",
+        "type": "geo",
+        "norm": "寿张县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c21",
+        "item_id": "23-001",
+        "name": "寿张县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s03",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在东平州西一百二十里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户一十五里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "良邑",
+        "action": "因之",
+        "detail": "春秋时为良邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "寿良县",
+        "action": "置",
+        "detail": "汉为寿良县，属东郡，其治在今县南九十里"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "寿张县",
+        "action": "改",
+        "detail": "东汉改为寿张县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "济州/郓州",
+        "action": "因之",
+        "detail": "隋属济州，后属郓州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "寿州",
+        "action": "置",
+        "detail": "唐于此置寿州并增置寿良县，寻俱省"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "东平府",
+        "action": "因之",
+        "detail": "宋属东平府，金元仍旧"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "寿张县",
+        "action": "复",
+        "detail": "本朝洪武三年省入须城、阳谷二县，十四年复置，属东平州"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "梁山",
+        "type": "山",
+        "location_text": "在寿张县南九十里",
+        "description": "汉梁武王葬此，又名刀梁山",
+        "lore": "水浒传故事发祥地",
+        "original": "梁山【在夀张县南九十里汉梁武王葬此又名刀梁山】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "梁山泺",
+        "type": "湖",
+        "location_text": "在东平州西",
+        "description": "宋宋江为盗尝保此，中有黑风洞",
+        "lore": "水浒故事原型",
+        "original": "梁山泺【在东平州西宋宋江为防尝保此中有黒风洞】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "王彦章",
+        "type": "人物",
+        "dynasty": "五代",
+        "native_place": "寿张",
+        "office": "招讨使",
+        "summary": "善用枪，人谓之王铁枪，后为唐庄宗所执不屈而死",
+        "original": "王彦章【夀张人善用鎗人谓之王鉄鎗仕梁为招讨使出竒取胜名闻敌国后为唐庄宗所执不屈而死】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "吕方",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "郓州",
+        "office": "",
+        "summary": "（注：水浒人物，本卷未载）",
+        "original": ""
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "范氏（彭氏）",
+        "type": "列女",
+        "dynasty": "元",
+        "native_place": "东平",
+        "office": "",
+        "summary": "徐顺妻与曹州郑腊儿妻康氏并以早寡不忍独生以死从夫，事闻悉旌表",
+        "original": "彭氏【东平人徐顺妻与曹州郑腊儿妻康氏并以早寡不忍独生以死从夫事闻悉旌表之】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "寿张县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武十四年建",
+        "original": "夀张县学【在县治东洪武十四年建】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "显庆寺",
+        "type": "寺观",
+        "location_text": "在寿张县",
+        "history_lore": "",
+        "original": "显庆寺【在滕县南城外又夀张县亦有显庆寺】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "蚩尤墓",
+        "type": "陵墓",
+        "location_text": "在寿张县治东北",
+        "history_lore": "世传黄帝杀蚩尤于涿鹿之野，身体异处故别葬焉",
+        "original": "蚩尤墓【在夀张县治东北又钜野县东北九里亦有蚩尤肩髀冡世传黄帝杀蚩尤于鹿之野身体异处故别葬焉】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "梁孝王墓",
+        "type": "陵墓",
+        "location_text": "在梁山北",
+        "history_lore": "孝王汉文帝第二子，因田猎至此而薨遂葬焉",
+        "original": "梁孝王墓【在梁山北孝王汉文帝第二子因田猎至此而薨遂葬焉】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c21",
+        "name": "冉伯牛墓",
+        "type": "陵墓",
+        "location_text": "在东平州西一十五里",
+        "history_lore": "旧有碑刻，本朝于墓前建祠塑像；又滕县治南三里亦有冉子墓，未知孰是",
+        "original": "冉伯牛墓【在东平州西一十五里旧有碑刻本朝于墓前建祠塑像又滕县治南三里亦有冉子墓未知孰是】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "梁山泺在东平州西，因梁山在寿张县境，附此。"
+  }
+}

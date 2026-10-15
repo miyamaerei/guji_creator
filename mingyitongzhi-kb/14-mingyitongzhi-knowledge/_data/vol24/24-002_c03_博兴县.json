@@ -1,0 +1,208 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "博兴县",
+  "region": "山东",
+  "original": "博兴县【在府城北一百二十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "博兴县",
+        "type": "geo",
+        "norm": "博兴县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c03",
+        "item_id": "24-002",
+        "name": "博兴县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城北一百二十里",
+          "households": {
+            "count": 76,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "薄姑地",
+        "action": "因之",
+        "detail": "周薄姑地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "博昌县",
+        "action": "置",
+        "detail": "汉为博昌县属千乘郡；东汉属乐安国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "乐安县",
+        "action": "改",
+        "detail": "北齐改为乐安县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "博昌县",
+        "action": "复",
+        "detail": "隋复改曰博昌"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "博昌县",
+        "action": "因之",
+        "detail": "唐省乐安、安平二县入焉"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "博兴县",
+        "action": "改",
+        "detail": "五代唐始改曰博兴"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "博兴州",
+        "action": "升",
+        "detail": "宋属青州；金属益都府；元升为州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "博兴县",
+        "action": "降",
+        "detail": "本朝复为县"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "锦秋亭",
+        "type": "其他",
+        "location_text": "在博兴县东南城上",
+        "description": "元邑人建，取宋苏轼诗命名",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "马继祖",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "博兴知县",
+        "summary": "宏治间知博兴，宽厚仁爱，莅事明敏，岁饥悉力赈给，民赖全活，百姓歌之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "博兴县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "洪武二年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "薄姑城",
+        "type": "古迹",
+        "location_text": "在博兴县东一十五里",
+        "history_lore": "《史记》殷末薄姑氏为诸侯，至周作乱，成王灭之以封太公"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "博昌城",
+        "type": "古迹",
+        "location_text": "在博兴县东南二十五里",
+        "history_lore": "汉县属千乘郡，东汉属乐安国"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "利城",
+        "type": "古迹",
+        "location_text": "在博兴县东南四十里",
+        "history_lore": "汉齐郡利县，东汉属乐安国"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "柳桥",
+        "type": "关梁",
+        "location_text": "在博兴县西",
+        "history_lore": "跨小清河"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c03",
+        "name": "景德寺",
+        "type": "寺观",
+        "location_text": "在博兴县治东",
+        "history_lore": "洪武二十七年因旧重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

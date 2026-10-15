@@ -1,0 +1,173 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "日照县",
+  "region": "山东",
+  "original": "日照县【在州城东一百五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "日照县",
+        "type": "geo",
+        "norm": "日照县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c13",
+        "item_id": "24-002",
+        "name": "日照县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002-s01",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州城东一百五十里",
+          "households": {
+            "count": 83,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "海曲县地",
+        "action": "因之",
+        "detail": "本汉琅琊郡海曲县地，旧设盐官，名日照镇"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "日照镇",
+        "action": "因之",
+        "detail": "魏晋以来俱属莒县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "日照县",
+        "action": "置",
+        "detail": "金始置日照县属莒州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "日照县",
+        "action": "因之",
+        "detail": "元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "孤奎山",
+        "type": "山",
+        "location_text": "在日照县东南二十里",
+        "description": "奎一作圭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "海",
+        "type": "其他",
+        "location_text": "去日照县东五里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "赵一贯",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "日照知县",
+        "summary": "成化间知日照县，平易近民，宽猛适宜，蝗旱有祷辄应，屡变歉为丰焉"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "张行简",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "日照",
+        "office": "礼部尚书",
+        "summary": "淹贯经史，大定中进士第一；累官礼部尚书翰林学士，终太子太傅，谥文正；所著文章及礼例纂共百余卷"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "张行信",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "日照",
+        "office": "谏议大夫",
+        "summary": "张行简弟，大定中进士；为人纯正真率，遇事辄发无所畏避，两登相位"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "日照县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "元至正间建，本朝洪武初重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "太平桥",
+        "type": "关梁",
+        "location_text": "在日照县西门外",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c13",
+        "name": "普照寺",
+        "type": "寺观",
+        "location_text": "在日照县治北",
+        "history_lore": "洪武二十四年建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

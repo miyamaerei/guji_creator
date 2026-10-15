@@ -1,0 +1,182 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "乐安县",
+  "region": "山东",
+  "original": "乐安县【在府城北九十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "乐安县",
+        "type": "geo",
+        "norm": "乐安县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c05",
+        "item_id": "24-002",
+        "name": "乐安县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城北九十里",
+          "households": {
+            "count": 95,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "乐安县",
+        "action": "置",
+        "detail": "古广饶地；汉始置乐安县属千乘郡；东汉属乐安国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "乐安县",
+        "action": "废",
+        "detail": "晋废"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "乐安县",
+        "action": "复置",
+        "detail": "刘宋复置"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "千乘县",
+        "action": "改",
+        "detail": "隋省入千乘县，后移千乘于广饶地"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "乐安县",
+        "action": "因之",
+        "detail": "唐置乘州，寻罢州以县属青州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "乐安县",
+        "action": "因之",
+        "detail": "金属益都府，元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "海",
+        "type": "其他",
+        "location_text": "在乐安县东北一百五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "青丘",
+        "type": "其他",
+        "location_text": "在乐安县境内",
+        "description": "齐景公有马千驷，畋于青丘即此",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "萧琅",
+        "type": "名宦",
+        "dynasty": "隋",
+        "native_place": "",
+        "office": "千乘县尹",
+        "summary": "明习宪章，硕德著绩，有惠爱笃信在民，民立祠祀之，谥曰信公"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "奚铭",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "乐安知县",
+        "summary": "成化间知乐安县，兴学劝农，赏罚明信，百废修举，民俗大化，寻擢监察御史"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "乐安县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "宋熙宁间建，本朝洪武初重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "萧信公庙",
+        "type": "祠庙",
+        "location_text": "在乐安县治西",
+        "history_lore": "信公隋千乘尹萧琅，后人以元乐安尹綦志、张德新配之，故又名三尹庙"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c05",
+        "name": "吉祥寺",
+        "type": "寺观",
+        "location_text": "在乐安县治西",
+        "history_lore": "金建，本朝洪武二十四年重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

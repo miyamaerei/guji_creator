@@ -6,34 +6,207 @@
   "volume_range": "卷23",
   "original": "鱼台县【在府城南一百七十里春秋时鲁棠邑隐公观鱼于棠即此汉置方与县属山阳郡晋属高平国后魏属高平郡北齐省唐置鱼台县属山阳五代唐属单州宋金因之元属济州至元初省入金乡后复置本朝初属徐州寻属济南府洪武十八年改今属编户二十七里】",
   "layers": {
-    "ents": [{"ent_id": "ENT-001", "name": "鱼台县", "type": "geo", "norm": "鱼台县", "first_source": "23-001"}],
-    "geos": [{"geo_id": "GEO-23001-c09", "item_id": "23-001", "name": "鱼台县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
-      "attributes": {"location_text": "在府城南一百七十里", "households": {"count": 27, "unit": "里", "note": "编户二十七里"}}}],
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "鱼台县",
+        "type": "geo",
+        "norm": "鱼台县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c09",
+        "item_id": "23-001",
+        "name": "鱼台县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在府城南一百七十里",
+          "households": {
+            "count": 27,
+            "unit": "里",
+            "note": "编户二十七里"
+          }
+        }
+      }
+    ],
     "evos": [
-      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c09", "dynasty": "周", "era": "春秋", "institution_name": "鲁棠邑", "action": "因之", "detail": "春秋时鲁棠邑，隐公观鱼于棠即此"},
-      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c09", "dynasty": "汉", "era": null, "institution_name": "方与县", "action": "置", "detail": "汉置方与县，属山阳郡，晋属高平国"},
-      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c09", "dynasty": "唐", "era": null, "institution_name": "鱼台县", "action": "改", "detail": "北齐省，唐置鱼台县，属山阳"},
-      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c09", "dynasty": "五代", "era": "唐", "institution_name": "单州", "action": "改", "detail": "五代唐属单州，宋金因之"},
-      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c09", "dynasty": "元", "era": "至元", "institution_name": "鱼台县", "action": "复置", "detail": "元属济州，至元初省入金乡，后复置"},
-      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c09", "dynasty": "明", "era": "洪武", "institution_name": "鱼台县", "action": "改", "detail": "本朝初属徐州，寻属济南府，洪武十八年改今属"}
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "鲁棠邑",
+        "action": "因之",
+        "detail": "春秋时鲁棠邑，隐公观鱼于棠即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "方与县",
+        "action": "置",
+        "detail": "汉置方与县，属山阳郡，晋属高平国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "鱼台县",
+        "action": "改",
+        "detail": "北齐省，唐置鱼台县，属山阳"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "dynasty": "五代",
+        "era": "唐",
+        "institution_name": "单州",
+        "action": "改",
+        "detail": "五代唐属单州，宋金因之"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "鱼台县",
+        "action": "复",
+        "detail": "元属济州，至元初省入金乡，后复置"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "鱼台县",
+        "action": "改",
+        "detail": "本朝初属徐州，寻属济南府，洪武十八年改今属"
+      }
     ],
     "mtns": [],
     "pers": [
-      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "樊须", "type": "人物", "dynasty": "周", "native_place": "鲁", "office": "孔门弟子", "summary": "字子迟，尝问仁问知，又问崇德修慝辨惑，后世追封益都侯", "original": "樊须【鲁人孔门弟子尝两问仁知又尝问崇徳修慝辨惑孔子屡因其失而告之后世追封益都侯】"},
-      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "王麟", "type": "人物", "dynasty": "明", "native_place": "鱼台", "office": "湖广布政司左参政", "summary": "由太学生历官刑部郎中，荐升湖广布政司左参政", "original": "王麟【鱼防人由太学生歴官刑部郎中勤能著称荐陞湖广布政司左叅政】"},
-      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "宋亮", "type": "人物", "dynasty": "明", "native_place": "鱼台", "office": "福建布政司左参政", "summary": "洪武中以通经举荐，历官有能声，仕至福建布政司左参政", "original": "宋亮【鱼防人洪武中以通经举荐歴官有能声仕至福建布政司左叅政】"},
-      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "宫志", "type": "名宦", "dynasty": "明", "native_place": "", "office": "鱼台知县", "summary": "永乐间廉能善抚字，秩满邑人再四奏留", "original": "宫志【永乐间鱼防知县为人亷能善于抚字后以秩满邑人再四奏留之】"}
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "樊须",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "鲁",
+        "office": "孔门弟子",
+        "summary": "字子迟，尝问仁问知，又问崇德修慝辨惑，后世追封益都侯",
+        "original": "樊须【鲁人孔门弟子尝两问仁知又尝问崇徳修慝辨惑孔子屡因其失而告之后世追封益都侯】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "王麟",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "鱼台",
+        "office": "湖广布政司左参政",
+        "summary": "由太学生历官刑部郎中，荐升湖广布政司左参政",
+        "original": "王麟【鱼防人由太学生歴官刑部郎中勤能著称荐陞湖广布政司左叅政】"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "宋亮",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "鱼台",
+        "office": "福建布政司左参政",
+        "summary": "洪武中以通经举荐，历官有能声，仕至福建布政司左参政",
+        "original": "宋亮【鱼防人洪武中以通经举荐歴官有能声仕至福建布政司左叅政】"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "宫志",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "鱼台知县",
+        "summary": "永乐间廉能善抚字，秩满邑人再四奏留",
+        "original": "宫志【永乐间鱼防知县为人亷能善于抚字后以秩满邑人再四奏留之】"
+      }
     ],
     "sites": [
-      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "鱼台县学", "type": "学校", "location_text": "在县治西北", "history_lore": "元泰定间建，本朝洪武二年重修", "original": "鱼台县学【在县治西北元泰定间建本朝洪武二年重修】"},
-      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "明觉寺", "type": "寺观", "location_text": "在鱼台县治东", "history_lore": "洪武间因旧重建", "original": "明觉寺【在鱼防县治东洪武间因旧重建】"},
-      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "观鱼台", "type": "古迹", "location_text": "在鱼台县北一十三里", "history_lore": "鲁隐公观鱼于棠即此。又北有武唐亭，杜预以为即隐公与戎会盟之地", "original": "观鱼台【在鱼防县北一十三里鲁隠公观鱼于棠即此又北有武唐亭杜预以为即隠公与戎防盟之地】"},
-      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "鸡鸣台", "type": "古迹", "location_text": "在鱼台县东六十里", "history_lore": "", "original": "鸡鸣台【在鱼台县东六十里】"},
-      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c09", "name": "湖陵城", "type": "古迹", "location_text": "在鱼台县东六十里", "history_lore": "汉沛公攻湖陵即此，后为侯国", "original": "湖陵城【在鱼防县东六十里汉沛公攻湖陵即此后为侯国】"}
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "鱼台县学",
+        "type": "学校",
+        "location_text": "在县治西北",
+        "history_lore": "元泰定间建，本朝洪武二年重修",
+        "original": "鱼台县学【在县治西北元泰定间建本朝洪武二年重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "明觉寺",
+        "type": "寺观",
+        "location_text": "在鱼台县治东",
+        "history_lore": "洪武间因旧重建",
+        "original": "明觉寺【在鱼防县治东洪武间因旧重建】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "观鱼台",
+        "type": "古迹",
+        "location_text": "在鱼台县北一十三里",
+        "history_lore": "鲁隐公观鱼于棠即此。又北有武唐亭，杜预以为即隐公与戎会盟之地",
+        "original": "观鱼台【在鱼防县北一十三里鲁隠公观鱼于棠即此又北有武唐亭杜预以为即隠公与戎防盟之地】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "鸡鸣台",
+        "type": "古迹",
+        "location_text": "在鱼台县东六十里",
+        "history_lore": "",
+        "original": "鸡鸣台【在鱼台县东六十里】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c09",
+        "name": "湖陵城",
+        "type": "古迹",
+        "location_text": "在鱼台县东六十里",
+        "history_lore": "汉沛公攻湖陵即此，后为侯国",
+        "original": "湖陵城【在鱼防县东六十里汉沛公攻湖陵即此后为侯国】"
+      }
     ],
     "prods": [],
     "cits": []
   },
   "layer_count": 7,
-  "validation": {"errs": [], "gap": 0, "notes": ""}
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
 }

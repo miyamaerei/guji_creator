@@ -1,0 +1,369 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "汶上县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "汶上县【在州东南六十里古厥国春秋时为鲁中都地汉置东平陆县属东平东汉省入须昌县北齐置乐平县隋后改平陆属鲁郡唐初属兖州后改为中都县金改为汶阳县又改曰汶上元属东平本朝因之编户四十八里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "汶上县",
+        "type": "geo",
+        "norm": "汶上县",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c17",
+        "item_id": "23-001",
+        "name": "汶上县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s03",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在东平州东南六十里",
+          "households": {
+            "count": 48,
+            "unit": "里",
+            "note": "编户四十八里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "厥国/鲁中都地",
+        "action": "因之",
+        "detail": "古厥国，春秋时为鲁中都地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东平陆县",
+        "action": "置",
+        "detail": "汉置东平陆县，属东平"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "南北朝",
+        "era": "北齐",
+        "institution_name": "乐平县",
+        "action": "改",
+        "detail": "东汉省入须昌县，北齐置乐平县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "平陆县",
+        "action": "改",
+        "detail": "隋后改平陆，属鲁郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "中都县",
+        "action": "改",
+        "detail": "唐初属兖州，后改为中都县"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "汶阳县/汶上县",
+        "action": "改",
+        "detail": "金改为汶阳县，又改曰汶上"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "汶上县",
+        "action": "因之",
+        "detail": "元属东平，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "蜀山",
+        "type": "山",
+        "location_text": "在汶上县西南三十五里",
+        "description": "上有神祠遗址，碑记云山形水势有类西蜀",
+        "lore": "",
+        "original": "蜀山【在汶上县西南三十五里上有神祠遗址碑记云山形水势有类西蜀】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "采山",
+        "type": "山",
+        "location_text": "在汶上县东北二十五里",
+        "description": "俗传其山旧有花木，望之若五采",
+        "lore": "",
+        "original": "采山【在汶上县东北二十五里俗传其山旧有花木望之若五采】"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "济河",
+        "type": "河",
+        "location_text": "在汶上县北",
+        "description": "一名大清河，禹贡济水东出于陶丘北，今济水伏流不见，惟汶水由济河以入海",
+        "lore": "",
+        "original": "济河【在汶上县北一名大清河禹贡济水东出于陶丘北又东至于菏又东北防于汶又北东入于海…今济水伏流不见惟汶水由济河以入海】"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "南旺湖",
+        "type": "湖",
+        "location_text": "在汶上县西南三十里",
+        "description": "湖阔数十里，每岁引湖水入会通河以济其浅",
+        "lore": "会通河水源枢纽",
+        "original": "南旺湖【在汶上县西南三十里湖濶数十里每嵗引湖水入防通河以济其浅】"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "新开河",
+        "type": "河",
+        "location_text": "在汶上县西南",
+        "description": "本朝正统八年凿之，以泄山谷诸水，西流入会通河",
+        "lore": "",
+        "original": "又汶上县西南亦有新开河本朝正统八年凿之以泄山谷诸水西流入防通河"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "洸河桥",
+        "type": "桥",
+        "location_text": "在汶上县东四十里，跨洸水",
+        "description": "金李守纯作记，碑刻尚存",
+        "lore": "",
+        "original": "洸河桥【在汶上县东四十里跨洸水金李守纯作记碑刻尚存】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "孔子",
+        "type": "名宦",
+        "dynasty": "周",
+        "native_place": "鲁",
+        "office": "中都宰",
+        "summary": "鲁定公以孔子为中都宰，一年四方皆则之",
+        "original": "鲁定公以孔子为中都宰一年四方皆则之"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "孙奭",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "博平，徙郓州须城",
+        "office": "龙图阁待制、太子少傅",
+        "summary": "真宗尝问天书，奭曰：天何言哉，岂有书也",
+        "original": "孙奭【本博平人徙居郓之须城仕宋为龙图阁待制真宗尝问天书奭曰天何言哉岂有书也仕终太子少傅】"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "王彦章",
+        "type": "人物",
+        "dynasty": "五代",
+        "native_place": "寿张",
+        "office": "招讨使",
+        "summary": "善用枪，人谓之王铁枪，后为唐庄宗所执不屈而死",
+        "original": "王彦章【夀张人善用鎗人谓之王鉄鎗仕梁为招讨使出竒取胜名闻敌国后为唐庄宗所执不屈而死】"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "史诚祖",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "汶上知县",
+        "summary": "洪武间守己廉公，勤于抚字，兴学校励风俗，在任二十九年，永乐中赐敕褒之",
+        "original": "史诚祖【洪武间汶上知县守已亷公勤于抚字兴学校励风俗由是政清讼简民繁土辟累以秩满民輙奏留永乐中赐勑褒之…在任二十九年政声益着】"
+      },
+      {
+        "per_id": "PER-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "张昉",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "汶上",
+        "office": "兵部尚书",
+        "summary": "金进士张汝明子，仕元为中书省左司郎中，损益古今，裁定典宪，累官兵部尚书，追封东平郡公",
+        "original": "张昉【汶上人父汝明金进士官至治书侍御史昉仕元为中书省左司郎中甄别能否公其黜陟人无怨言损益古今裁定典宪累官至兵部尚书卒追封东平郡公谥荘宪】"
+      },
+      {
+        "per_id": "PER-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "曹元用",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "汶上",
+        "office": "翰林直学士",
+        "summary": "书过目辄成诵，裁定郊祀仪注及卤簿舆服之制，封东平郡公，谥文献",
+        "original": "曹元用【汶上人资禀俊爽书过目輙成诵…陞翰林直学士卒封东平郡公谥文献有超然集十卷】"
+      },
+      {
+        "per_id": "PER-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "辛有常",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "汶上",
+        "office": "河南山西道宣慰使",
+        "summary": "以儒道鸣山东",
+        "original": "辛有常【汶上人以儒道鸣山东仕至河南山西道宣慰使】"
+      },
+      {
+        "per_id": "PER-009",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "赵临",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "汶上",
+        "office": "浙江布政司左参政",
+        "summary": "由太学生久历仕途，官至浙江布政司左参政",
+        "original": "赵临【汶上县人由太学生久歴仕途官至浙江布政司左叅政】"
+      },
+      {
+        "per_id": "PER-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "赵氏（张凤翥妻）",
+        "type": "列女",
+        "dynasty": "",
+        "native_place": "",
+        "office": "",
+        "summary": "嘉靖五年夫疾，赵即缢死，顷之夫复苏，家人语之，夫遂瞑目合葬",
+        "original": "赵氏【汶上人张鳯翥妻嘉靖五年夫疾语赵曰汝年少虽有女不可恃以终身慎图之赵为徉荅夫曰迷乱将絶赵即缢死顷之夫复蘓家人语之夫遂瞑目使合葬焉旌表省志】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "汶上县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "元至元间建，本朝洪武三年重修",
+        "original": "汶上县学【在县治东元至元间建本朝洪武三年重修】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "圣泽书院",
+        "type": "书院",
+        "location_text": "在汶上县西南三十里",
+        "history_lore": "一名孔堂，世传孔子宰中都，政余讲学于此",
+        "original": "圣泽书院【在汶上县西南三十里一名孔堂世传孔子宰中都政余讲学于此】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "思圣堂",
+        "type": "宫室",
+        "location_text": "在汶上县",
+        "history_lore": "元杨奂东游记：汶上，古之中都也，先圣之旧治，鲁定公九年宰于此，县署之思圣堂是也",
+        "original": "思圣堂【在汶上县元杨奂东逰记汶上古之中都也先圣之旧治鲁定公九年宰于此县署之思圣堂是也】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "宝相寺",
+        "type": "寺观",
+        "location_text": "在汶上县治东",
+        "history_lore": "",
+        "original": "寳相寺【在寜阳县治东又汶上县治东亦有寳相寺】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "郕国城",
+        "type": "古迹",
+        "location_text": "在汶上县北三十里",
+        "history_lore": "春秋时郕子国",
+        "original": "郕国城【在汶上县北三十里春秋时郕子国】"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "王彦章墓",
+        "type": "陵墓",
+        "location_text": "在汶上县西郊",
+        "history_lore": "本朝命有司岁时致祭",
+        "original": "王彦章墓【在汶上县西郊本朝命有司嵗时致祭】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c17",
+        "name": "孙奭墓",
+        "type": "陵墓",
+        "location_text": "",
+        "history_lore": "在东平州东一十五里",
+        "original": "孙奭墓【在东平州东一十五里】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

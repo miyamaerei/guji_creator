@@ -1,0 +1,154 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "益都县",
+  "region": "山东",
+  "original": "益都县【附郭】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "益都县",
+        "type": "geo",
+        "norm": "益都县",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002-c01",
+        "item_id": "24-002",
+        "name": "益都县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 177,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "广县地",
+        "action": "因之",
+        "detail": "本汉广县地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "益都侯国",
+        "action": "置",
+        "detail": "东汉为益都侯国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "dynasty": "三国",
+        "era": null,
+        "institution_name": "益都县",
+        "action": "置",
+        "detail": "三国魏于寿光县南置益都县属齐国"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "益都县",
+        "action": "因之",
+        "detail": "晋时前赵筑广固城；宋复置益都县；后魏属齐郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "益都县",
+        "action": "迁",
+        "detail": "北齐移县治郡城北；隋北海郡、唐宋青州、金益都府、元益都路皆治此"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "益都县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "name": "王曾",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "益都",
+        "office": "平章事",
+        "summary": "咸平中乡贡礼部廷对皆第一；当国时正色危言，尝曰执政者恩欲归己怨使谁归；封沂国公，谥文正"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "name": "陈规",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "安丘",
+        "office": "知顺昌府",
+        "summary": "中明法科，为人端毅以忠义自许；知德安府累破群贼；改知顺昌府与刘锜合谋大败兀术兵"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "name": "曹凯",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "益都",
+        "office": "给事中",
+        "summary": "正统间进士授给事中，弹劾不避权势；闻英庙北狩，捽言官于阙门，格杀嬖幸坏事者"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002-c01",
+        "name": "益都县学",
+        "type": "学校",
+        "location_text": "在府治东",
+        "history_lore": "洪武十年建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}
