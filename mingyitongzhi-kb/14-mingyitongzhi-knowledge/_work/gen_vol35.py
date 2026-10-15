@@ -28,7 +28,7 @@ geos_pj = [
     "borders":[
       {"direction":"东","to_place":"西安府邠州界","distance_li":220},
       {"direction":"南","to_place":"凤翔府陇州界","distance_li":240},
-      {"direction":"西","to_place":"巩昌府镇宁县界","distance_li":410},
+      {"direction":"西","to_place":"巩昌府会宁县界","distance_li":410},
       {"direction":"北","to_place":"庆阳府环县界","distance_li":290}],
     "to_capital":[
       {"capital":"京师","distance_li":3400},

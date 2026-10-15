@@ -1,0 +1,139 @@
+{
+ "item_id": "37-005",
+ "volume": "37",
+ "source": "河州卫军民指挥使司",
+ "region": "陕西行都司",
+ "layers": {
+  "ents": [
+   {"ent_id": "ENT-001", "name": "河州卫军民指挥使司", "type": "geo", "norm": "河州卫", "first_source": "37-005"},
+   {"ent_id": "ENT-002", "name": "归德守御千户所", "type": "geo", "norm": "归德守御千户所", "first_source": "37-005"},
+   {"ent_id": "ENT-003", "name": "积石山", "type": "mtn", "norm": "积石山", "first_source": "37-005"},
+   {"ent_id": "ENT-004", "name": "黄河", "type": "mtn", "norm": "黄河", "first_source": "37-005"},
+   {"ent_id": "ENT-005", "name": "大夏河", "type": "mtn", "norm": "大夏河", "first_source": "37-005"},
+   {"ent_id": "ENT-006", "name": "河州", "type": "geo", "norm": "河州", "first_source": "37-005"},
+   {"ent_id": "ENT-007", "name": "韦正", "type": "person", "norm": "韦正", "first_source": "37-005"},
+   {"ent_id": "ENT-008", "name": "念贤", "type": "person", "norm": "念贤", "first_source": "37-005"}
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-37005",
+    "item_id": "37-005",
+    "name": "河州卫军民指挥使司",
+    "type": "weisuo",
+    "region": "陕西行都司",
+    "parent": "GEO-000",
+    "children": ["GEO-37005-w01"],
+    "volume_range": "卷37",
+    "attributes": {
+     "borders": [
+      {"direction": "东", "to_place": "临洮府界", "distance_li": 160},
+      {"direction": "西", "to_place": "生蕃界", "distance_li": 700},
+      {"direction": "南", "to_place": "洮州卫界", "distance_li": 200},
+      {"direction": "北", "to_place": "西宁卫界", "distance_li": 170}
+     ],
+     "to_capital": [
+      {"capital": "京师", "distance_li": 4200},
+      {"capital": "南京", "distance_li": 4000}
+     ],
+     "garrison_type": "军民指挥使司",
+     "jun_name": "枹罕【隋名】安乡【唐名】",
+     "topography": "东绕洮河西峙积石南盘雪岭北距黄河【新志】",
+     "customs": "蕃汉杂居以射猎为生【新志】；俗尚浮屠【同上】；好习弓马【卫志】",
+     "garrisons": [
+      {"name": "河州茶马司", "type": "司", "location_text": "在卫治东南洪武七年建"}
+     ]
+    },
+    "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004"]
+   },
+   {
+    "geo_id": "GEO-37005-w01",
+    "item_id": "37-005",
+    "name": "归德守御千户所",
+    "type": "weisuo",
+    "region": "陕西行都司",
+    "parent": "GEO-37005",
+    "children": [],
+    "volume_range": "卷37",
+    "attributes": {
+     "location_text": "在卫城西七百里，永乐四年建，隶河州卫",
+     "garrison_type": "守御千户所"
+    }
+   }
+  ],
+  "evos": [
+   {"evo_id": "EVO-001", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "虞夏", "era": null, "institution_name": "雍州之域", "action": "属", "detail": "禹贡雍州之域，古西羌地"},
+   {"evo_id": "EVO-002", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "秦", "era": null, "institution_name": "陇西郡", "action": "置郡", "detail": "秦属陇西郡"},
+   {"evo_id": "EVO-003", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "汉", "era": null, "institution_name": "金城/陇西二郡", "action": "因之", "detail": "汉属金城、陇西二郡；东汉属陇西郡"},
+   {"evo_id": "EVO-004", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "晋", "era": null, "institution_name": "晋兴郡", "action": "置", "detail": "晋属晋兴郡"},
+   {"evo_id": "EVO-005", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "十六国", "era": "苻秦", "institution_name": "河州", "action": "置", "detail": "苻秦始置河州"},
+   {"evo_id": "EVO-006", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "隋", "era": null, "institution_name": "枹罕郡", "action": "改", "detail": "隋废，改为枹罕郡"},
+   {"evo_id": "EVO-007", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "唐", "era": "天宝", "institution_name": "河州/安乡郡", "action": "改", "detail": "唐复为河州，天宝初改为安乡郡；后陷于吐蕃"},
+   {"evo_id": "EVO-008", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "宋", "era": null, "institution_name": "枹罕县/宁河寨/宁河县", "action": "改", "detail": "宋收复置枹罕县，寻省为宁河寨，后升为县，属秦凤路"},
+   {"evo_id": "EVO-009", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "金", "era": null, "institution_name": "河州", "action": "复置", "detail": "金复置河州，属熙河路"},
+   {"evo_id": "EVO-010", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "元", "era": null, "institution_name": "河州路", "action": "改", "detail": "元为河州路，属吐蕃宣慰司都元帅府"},
+   {"evo_id": "EVO-011", "item_id": "37-005", "geo_id": "GEO-37005", "dynasty": "明", "era": "洪武", "institution_name": "河州卫军民指挥使司", "action": "置", "detail": "本朝洪武初置河州卫；五年设河州府辖宁河一县；七年建陕西行都司；十年立河州左右二卫；十二年省行都司及河州府县，以左卫调洮州，改右卫为河州卫军民指挥使司，隶陕西都司，领千户所六、守御千户所一"}
+  ],
+  "mtns": [
+   {"mtn_id": "MTN-001", "item_id": "37-005", "geo_id": "GEO-37005", "name": "牛脊山", "type": "山", "location_text": "在卫城南二十里", "description": "以形似名", "lore": ""},
+   {"mtn_id": "MTN-002", "item_id": "37-005", "geo_id": "GEO-37005", "name": "积石山", "type": "山", "location_text": "在卫城西北七十里", "description": "禹贡导河积石至于龙门即此", "lore": ""},
+   {"mtn_id": "MTN-003", "item_id": "37-005", "geo_id": "GEO-37005", "name": "雪山", "type": "山", "location_text": "在卫城西南一百五十里", "description": "接洮州番境，四时有雪，又名雪岭", "lore": "本朝僧宗泐诗：华夷分壤处，雪岭白嵯峨；万古消不尽，三秋积又多；寒光欺夏日，素彩烁天河；自笑经过客，相看鬓易皤"},
+   {"mtn_id": "MTN-004", "item_id": "37-005", "geo_id": "GEO-37005", "name": "定远坡", "type": "坡", "location_text": "在卫城东南四十里", "description": "", "lore": ""},
+   {"mtn_id": "MTN-005", "item_id": "37-005", "geo_id": "GEO-37005", "name": "万顷山", "type": "山", "location_text": "在卫城北二里", "description": "", "lore": ""},
+   {"mtn_id": "MTN-006", "item_id": "37-005", "geo_id": "GEO-37005", "name": "洪河", "type": "河", "location_text": "在卫城南二里", "description": "", "lore": ""},
+   {"mtn_id": "MTN-007", "item_id": "37-005", "geo_id": "GEO-37005", "name": "大夏河", "type": "河", "location_text": "在卫城南三里", "description": "一名白水", "lore": ""},
+   {"mtn_id": "MTN-008", "item_id": "37-005", "geo_id": "GEO-37005", "name": "牛脊河", "type": "河", "location_text": "在卫城南二十里", "description": "", "lore": ""},
+   {"mtn_id": "MTN-009", "item_id": "37-005", "geo_id": "GEO-37005", "name": "广通河", "type": "河", "location_text": "在卫城东六十里", "description": "", "lore": ""},
+   {"mtn_id": "MTN-010", "item_id": "37-005", "geo_id": "GEO-37005", "name": "黄河", "type": "河", "location_text": "在卫城北八十里", "description": "", "lore": ""},
+   {"mtn_id": "MTN-011", "item_id": "37-005", "geo_id": "GEO-37005", "name": "龙湫", "type": "湫", "location_text": "在卫城西北六十里", "description": "湫上有盖国大王庙，遇旱祈祷有应", "lore": ""}
+  ],
+  "pers": [
+   {"pers_id": "PER-001", "item_id": "37-005", "geo_id": "GEO-37005", "name": "李浩", "dynasty": "宋", "source_section": "名宦", "note": "熙河路副总管知河州，安抚洮西五路大举，浩将前军复兰州，遂知兰州事"},
+   {"pers_id": "PER-002", "item_id": "37-005", "geo_id": "GEO-37005", "name": "刘仲武", "dynasty": "宋", "source_section": "名宦", "note": "知河州，吐蕃赵怀德等众数万叛，仲武相持数日潜遣二将还羌，遇伏大败，斩首二千级，复西宁州"},
+   {"pers_id": "PER-003", "item_id": "37-005", "geo_id": "GEO-37005", "name": "种朴", "dynasty": "宋", "source_section": "名宦", "note": "知河州安抚洮西沿边公事，河南蕃部叛，属羌阿章率他族拒官军，朴出战遇伏力战而死"},
+   {"pers_id": "PER-004", "item_id": "37-005", "geo_id": "GEO-37005", "name": "姚雄", "dynasty": "宋", "source_section": "名宦", "note": "知河州，时种朴战没王赡军陷敌中，雄自鄯至湟四战皆胜拔出之；遂筑安乡关夹河立堡以护浮梁"},
+   {"pers_id": "PER-005", "item_id": "37-005", "geo_id": "GEO-37005", "name": "苗授", "dynasty": "宋", "source_section": "名宦", "note": "时鬼章寇河州，诏授往一战克撒宗论功第一，遂知州事；后又讨生羌获其大酋，威震洮西"},
+   {"pers_id": "PER-006", "item_id": "37-005", "geo_id": "GEO-37005", "name": "韦正", "dynasty": "明", "source_section": "名宦", "note": "洪武三年为河州卫指挥使，以茶布给军士令自相贸易省西民转输之劳；初至卫城邑空虚，日夜抚循其民，河州遂为乐土"},
+   {"pers_id": "PER-007", "item_id": "37-005", "geo_id": "GEO-37005", "name": "刘昭", "dynasty": "明", "source_section": "名宦", "note": "洪武末以陕西都指挥同知镇河州；永乐中领兵往乌思藏赏诸国还，遇番贼劫掠，率众败之"},
+   {"pers_id": "PER-008", "item_id": "37-005", "geo_id": "GEO-37005", "name": "念贤", "dynasty": "南北朝", "source_section": "人物", "note": "枹罕人，魏永熙间官至都督秦河二州刺史，进爵安定郡公"}
+  ],
+  "sites": [
+   {"site_id": "SIT-001", "item_id": "37-005", "geo_id": "GEO-37005", "name": "河州卫学", "type": "学校", "location_text": "在卫治西北", "description": "元建为州学，本朝洪武七年改为卫学"},
+   {"site_id": "SIT-002", "item_id": "37-005", "geo_id": "GEO-37005", "name": "老鸦关", "type": "关梁/关", "location_text": "在卫城西北九十里", "description": ""},
+   {"site_id": "SIT-003", "item_id": "37-005", "geo_id": "GEO-37005", "name": "土门关", "type": "关梁/关", "location_text": "在卫城西九十里", "description": ""},
+   {"site_id": "SIT-004", "item_id": "37-005", "geo_id": "GEO-37005", "name": "积石关", "type": "关梁/关", "location_text": "在卫城西北一百二十里", "description": "以上三关俱有官军防守"},
+   {"site_id": "SIT-005", "item_id": "37-005", "geo_id": "GEO-37005", "name": "杀马关", "type": "关梁/关", "location_text": "在卫城西一百二十里", "description": ""},
+   {"site_id": "SIT-006", "item_id": "37-005", "geo_id": "GEO-37005", "name": "大夏桥", "type": "关梁/桥", "location_text": "在卫城西三里", "description": ""},
+   {"site_id": "SIT-007", "item_id": "37-005", "geo_id": "GEO-37005", "name": "积石渡", "type": "关梁/渡", "location_text": "在卫城西北一百二十里", "description": ""},
+   {"site_id": "SIT-008", "item_id": "37-005", "geo_id": "GEO-37005", "name": "刺麻川渡", "type": "关梁/渡", "location_text": "在卫城北六十里", "description": ""},
+   {"site_id": "SIT-009", "item_id": "37-005", "geo_id": "GEO-37005", "name": "万寿寺", "type": "寺观", "location_text": "在卫城东北二里", "description": "洪武二十三年建"},
+   {"site_id": "SIT-010", "item_id": "37-005", "geo_id": "GEO-37005", "name": "报恩寺", "type": "寺观", "location_text": "在卫治东南", "description": "洪武二十五年建"},
+   {"site_id": "SIT-011", "item_id": "37-005", "geo_id": "GEO-37005", "name": "飞阳观", "type": "寺观", "location_text": "在卫城西北一百里", "description": "元中统二年建"},
+   {"site_id": "SIT-012", "item_id": "37-005", "geo_id": "GEO-37005", "name": "文昌观", "type": "寺观", "location_text": "在卫治东南", "description": "洪武二十三年建"},
+   {"site_id": "SIT-013", "item_id": "37-005", "geo_id": "GEO-37005", "name": "大夏废县", "type": "古迹", "location_text": "在卫境", "description": "唐置，贞观初省入枹罕，寻复置后废"},
+   {"site_id": "SIT-014", "item_id": "37-005", "geo_id": "GEO-37005", "name": "凤林废县", "type": "古迹", "location_text": "在卫境", "description": "本乌州，唐贞观中置此县，后州废更置安昌县，天宝初复名凤林"},
+   {"site_id": "SIT-015", "item_id": "37-005", "geo_id": "GEO-37005", "name": "定羌废县", "type": "古迹", "location_text": "在卫境", "description": "本河诺城，宋改曰定羌，元置县，河州路尝治此"},
+   {"site_id": "SIT-016", "item_id": "37-005", "geo_id": "GEO-37005", "name": "枹罕废县", "type": "古迹", "location_text": "在卫治西", "description": "本汉旧县，隋置郡于此，唐因之，宋省"},
+   {"site_id": "SIT-017", "item_id": "37-005", "geo_id": "GEO-37005", "name": "宁河废县", "type": "古迹", "location_text": "在卫城南六十里", "description": "本宁河寨，宋崇宁中升为县，金、元因之，后废为镇"}
+  ],
+  "prods": [
+   {"prod_id": "PROD-001", "item_id": "37-005", "geo_id": "GEO-37005", "name": "土檀香", "note": ""},
+   {"prod_id": "PROD-002", "item_id": "37-005", "geo_id": "GEO-37005", "name": "麝香", "note": ""},
+   {"prod_id": "PROD-003", "item_id": "37-005", "geo_id": "GEO-37005", "name": "青稞", "note": ""},
+   {"prod_id": "PROD-004", "item_id": "37-005", "geo_id": "GEO-37005", "name": "青防", "note": ""},
+   {"prod_id": "PROD-005", "item_id": "37-005", "geo_id": "GEO-37005", "name": "桦木", "note": ""},
+   {"prod_id": "PROD-006", "item_id": "37-005", "geo_id": "GEO-37005", "name": "胡麻", "note": ""}
+  ],
+  "cits": [
+   {"cit_id": "CIT-001", "item_id": "37-005", "cited_work": "新志", "cited_work_ent_id": null, "context": "形胜/风俗", "original": "【新志】"},
+   {"cit_id": "CIT-002", "item_id": "37-005", "cited_work": "卫志", "cited_work_ent_id": null, "context": "风俗", "original": "【卫志】"},
+   {"cit_id": "CIT-003", "item_id": "37-005", "cited_work": "禹贡", "cited_work_ent_id": null, "context": "山川", "original": "【禹贡导河积石至于龙门即此】"},
+   {"cit_id": "CIT-004", "item_id": "37-005", "cited_work": "僧宗泐诗", "cited_work_ent_id": null, "context": "山川", "original": "【本朝僧宗泐诗】"}
+  ]
+ },
+ "layer_count": 7,
+ "validation": {
+  "errs": [],
+  "gap": 0,
+  "notes": "河州卫主文件；下属归德守御千户所列w01"
+ }
+}

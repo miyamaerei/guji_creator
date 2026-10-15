@@ -19,21 +19,24 @@
 | 河南 | 26-31 | 9（8府+汝州） | ✅ |
 | 贵州 | 88 | 21（8府+4州+7卫+2土司） | ✅ |
 
-## 下一个任务：陕西卷 32-37
+## 进行中：陕西卷 32-37（子 Agent 已在跑）
 
-**还没派子 Agent**——本会话两次 create_agent 都被打断。
+子 Agent 已产出 108 个分片文件：
+- vol32: 西安府（31县+6州+5卫）
+- vol34: 凤翔府（7县+陇州）
+- vol35: 平凉府（7县+3州+3卫）+ 巩昌府（14县+3州+4卫）
+- vol36: 临洮府
+- vol37: 宁夏卫/宁夏中卫/洮州卫
 
-### 派单提示词（直接复制给新会话）
+**缺**: vol33 汉中府/延安府/庆阳府（待确认是否还在跑或已漏）
+
+### 新会话接手步骤
 ```
-请派子 Agent 处理明一统志陕西卷32-37。
-工程根：E:\git\ToolBox\guji\mingyitongzhi-kb\14-mingyitongzhi-knowledge\
-先读 SKILL.md / references/schemas.md / references/volume-map.md / _data/vol22/22-001_济南府.json 样板。
-陕西：西安/凤翔/汉中/延安/庆阳/平凉/巩昌/临洮府 + 秦邠泾固原州 + 陕西行都司卫所。
-分片架构 _data/vol32-37/，府级 NN-001_名称.json，县 NN-001_cXX_名.json，州 -sXX，卫 -wXX。
-pers>50 拆 _pers1_名宦/_pers2_人物/_pers3_列女仙释，sites>30 拆 sites1/2。
-GEO 树 children 填真实 geo_id，parent 用 geo_id 或 GEO-000，禁止填中文。
-卫所用 weisuo，土司用 tusi。
-完成后跑 python validate_pilot.py，陕西相关 ERR=0。
+cd E:\git\ToolBox\guji\mingyitongzhi-kb\14-mingyitongzhi-knowledge
+python _merge_all.py
+python validate_pilot.py
+# 看 ERR/GAP，修脏 item_id
+git add . && git commit
 ```
 
 ## 关键脚本（在工程根）
