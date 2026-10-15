@@ -5,15 +5,69 @@
  "region": "陕西行都司",
  "layers": {
   "ents": [
-   {"ent_id": "ENT-001", "name": "岷州卫军民指挥使司", "type": "geo", "norm": "岷州卫", "first_source": "37-004"},
-   {"ent_id": "ENT-002", "name": "西固城军民千户所", "type": "geo", "norm": "西固城军民千户所", "first_source": "37-004"},
-   {"ent_id": "ENT-003", "name": "岷山", "type": "mtn", "norm": "岷山", "first_source": "37-004"},
-   {"ent_id": "ENT-004", "name": "洮河", "type": "mtn", "norm": "洮河", "first_source": "37-004"},
-   {"ent_id": "ENT-005", "name": "岷州", "type": "geo", "norm": "岷州", "first_source": "37-004"},
-   {"ent_id": "ENT-006", "name": "辛公义", "type": "person", "norm": "辛公义", "first_source": "37-004"},
-   {"ent_id": "ENT-007", "name": "刘锜", "type": "person", "norm": "刘锜", "first_source": "37-004"},
-   {"ent_id": "ENT-008", "name": "马堃", "type": "person", "norm": "马堃", "first_source": "37-004"},
-   {"ent_id": "ENT-009", "name": "马塈", "type": "person", "norm": "马塈", "first_source": "37-004"}
+   {
+    "ent_id": "ENT-001",
+    "name": "岷州卫军民指挥使司",
+    "type": "geo",
+    "norm": "岷州卫",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "西固城军民千户所",
+    "type": "geo",
+    "norm": "西固城军民千户所",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "岷山",
+    "type": "mtn",
+    "norm": "岷山",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "洮河",
+    "type": "mtn",
+    "norm": "洮河",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "岷州",
+    "type": "geo",
+    "norm": "岷州",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-006",
+    "name": "辛公义",
+    "type": "person",
+    "norm": "辛公义",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-007",
+    "name": "刘锜",
+    "type": "person",
+    "norm": "刘锜",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-008",
+    "name": "马堃",
+    "type": "person",
+    "norm": "马堃",
+    "first_source": "37-004"
+   },
+   {
+    "ent_id": "ENT-009",
+    "name": "马塈",
+    "type": "person",
+    "norm": "马塈",
+    "first_source": "37-004"
+   }
   ],
   "geos": [
    {
@@ -23,18 +77,42 @@
     "type": "weisuo",
     "region": "陕西行都司",
     "parent": "GEO-000",
-    "children": ["GEO-37004-w01"],
+    "children": [
+     "GEO-37004-w01"
+    ],
     "volume_range": "卷37",
     "attributes": {
      "borders": [
-      {"direction": "东", "to_place": "巩昌府界", "distance_li": 140},
-      {"direction": "西", "to_place": "洮州卫界", "distance_li": 70},
-      {"direction": "南", "to_place": "阶州界", "distance_li": 600},
-      {"direction": "北", "to_place": "临洮府界", "distance_li": 400}
+      {
+       "direction": "东",
+       "to_place": "巩昌府界",
+       "distance_li": 140
+      },
+      {
+       "direction": "西",
+       "to_place": "洮州卫界",
+       "distance_li": 70
+      },
+      {
+       "direction": "南",
+       "to_place": "阶州界",
+       "distance_li": 600
+      },
+      {
+       "direction": "北",
+       "to_place": "临洮府界",
+       "distance_li": 400
+      }
      ],
      "to_capital": [
-      {"capital": "京师", "distance_li": 4100},
-      {"capital": "南京", "distance_li": 4000}
+      {
+       "capital": "京师",
+       "distance_li": 4100
+      },
+      {
+       "capital": "南京",
+       "distance_li": 4000
+      }
      ],
      "garrison_type": "军民指挥使司",
      "jun_name": "和政【唐名】西和【宋名】",
@@ -42,7 +120,13 @@
      "customs": "其人劲悍而质木【宋史地志】；好习弓马以佃猎为生【新志】",
      "garrisons": []
     },
-    "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004", "CIT-005"]
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003",
+     "CIT-004",
+     "CIT-005"
+    ]
    },
    {
     "geo_id": "GEO-37004-w01",
@@ -60,95 +144,738 @@
    }
   ],
   "evos": [
-   {"evo_id": "EVO-001", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "虞夏", "era": null, "institution_name": "雍州之域", "action": "属", "detail": "禹贡雍州之域，天文井鬼分野"},
-   {"evo_id": "EVO-002", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "上古", "era": null, "institution_name": "古西羌地", "action": "因之", "detail": "本古西羌地"},
-   {"evo_id": "EVO-003", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "秦", "era": null, "institution_name": "临洮县地", "action": "置", "detail": "秦为临洮县地，属陇西郡"},
-   {"evo_id": "EVO-004", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "汉晋", "era": null, "institution_name": "陇西郡地", "action": "因之", "detail": "汉晋因之"},
-   {"evo_id": "EVO-005", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "南北朝", "era": "西魏", "institution_name": "岷州及同和郡", "action": "置", "detail": "西魏始置岷州及同和郡"},
-   {"evo_id": "EVO-006", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "隋", "era": null, "institution_name": "临洮郡", "action": "废", "detail": "隋州郡俱废，以其地入临洮郡，后复置岷州"},
-   {"evo_id": "EVO-007", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "唐", "era": "天宝", "institution_name": "和政郡/岷州", "action": "改", "detail": "唐因之，天宝初改和政郡，乾元初复为岷州，治溢乐县；后陷于吐蕃"},
-   {"evo_id": "EVO-008", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "宋", "era": "绍兴", "institution_name": "祐川县/西和州", "action": "改", "detail": "宋收复祐川县置岷州；绍兴初徙治长道县之白石镇，改曰西和州，属利州路"},
-   {"evo_id": "EVO-009", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "元", "era": null, "institution_name": "岷州", "action": "复置", "detail": "元于祐川县境复置岷州，属吐蕃等处宣慰都元帅府"},
-   {"evo_id": "EVO-010", "item_id": "37-004", "geo_id": "GEO-37004", "dynasty": "明", "era": "洪武", "institution_name": "岷州卫军民指挥使司", "action": "置", "detail": "本朝洪武十一年置岷州卫军民指挥使司，隶陕西都司，领千户所四、军民千户所一"}
+   {
+    "evo_id": "EVO-001",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "虞夏",
+    "era": null,
+    "institution_name": "雍州之域",
+    "action": "属",
+    "detail": "禹贡雍州之域，天文井鬼分野"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "上古",
+    "era": null,
+    "institution_name": "古西羌地",
+    "action": "因之",
+    "detail": "本古西羌地"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "秦",
+    "era": null,
+    "institution_name": "临洮县地",
+    "action": "置",
+    "detail": "秦为临洮县地，属陇西郡"
+   },
+   {
+    "evo_id": "EVO-004",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "汉晋",
+    "era": null,
+    "institution_name": "陇西郡地",
+    "action": "因之",
+    "detail": "汉晋因之"
+   },
+   {
+    "evo_id": "EVO-005",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "南北朝",
+    "era": "西魏",
+    "institution_name": "岷州及同和郡",
+    "action": "置",
+    "detail": "西魏始置岷州及同和郡"
+   },
+   {
+    "evo_id": "EVO-006",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "隋",
+    "era": null,
+    "institution_name": "临洮郡",
+    "action": "废",
+    "detail": "隋州郡俱废，以其地入临洮郡，后复置岷州"
+   },
+   {
+    "evo_id": "EVO-007",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "唐",
+    "era": "天宝",
+    "institution_name": "和政郡/岷州",
+    "action": "改",
+    "detail": "唐因之，天宝初改和政郡，乾元初复为岷州，治溢乐县；后陷于吐蕃"
+   },
+   {
+    "evo_id": "EVO-008",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "宋",
+    "era": "绍兴",
+    "institution_name": "祐川县/西和州",
+    "action": "改",
+    "detail": "宋收复祐川县置岷州；绍兴初徙治长道县之白石镇，改曰西和州，属利州路"
+   },
+   {
+    "evo_id": "EVO-009",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "岷州",
+    "action": "复置",
+    "detail": "元于祐川县境复置岷州，属吐蕃等处宣慰都元帅府"
+   },
+   {
+    "evo_id": "EVO-010",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "dynasty": "明",
+    "era": "洪武",
+    "institution_name": "岷州卫军民指挥使司",
+    "action": "置",
+    "detail": "本朝洪武十一年置岷州卫军民指挥使司，隶陕西都司，领千户所四、军民千户所一"
+   }
   ],
   "mtns": [
-   {"mtn_id": "MTN-001", "item_id": "37-004", "geo_id": "GEO-37004", "name": "岷山", "type": "山", "location_text": "在卫城北", "description": "山黑无树木，洮水经其下", "lore": "相传夏禹见长人受黑玉书于此"},
-   {"mtn_id": "MTN-002", "item_id": "37-004", "geo_id": "GEO-37004", "name": "金通山", "type": "山", "location_text": "在卫城南", "description": "", "lore": ""},
-   {"mtn_id": "MTN-003", "item_id": "37-004", "geo_id": "GEO-37004", "name": "阔博山", "type": "山", "location_text": "在卫境", "description": "唐志云在故和政县", "lore": ""},
-   {"mtn_id": "MTN-004", "item_id": "37-004", "geo_id": "GEO-37004", "name": "冷落山", "type": "山", "location_text": "在卫城东五十里", "description": "盛夏阴晦即雨雪因名", "lore": ""},
-   {"mtn_id": "MTN-005", "item_id": "37-004", "geo_id": "GEO-37004", "name": "贵清山", "type": "山", "location_text": "在卫城东一百五十里", "description": "顶平衍可耕种", "lore": ""},
-   {"mtn_id": "MTN-006", "item_id": "37-004", "geo_id": "GEO-37004", "name": "贤隐山", "type": "山", "location_text": "在宕昌寨西南", "description": "上旧有三阁", "lore": "相传姚太师少时移疾结庵于其间，有题诗"},
-   {"mtn_id": "MTN-007", "item_id": "37-004", "geo_id": "GEO-37004", "name": "分水岭", "type": "岭", "location_text": "在卫城南四十五里", "description": "其下有分水岭河", "lore": ""},
-   {"mtn_id": "MTN-008", "item_id": "37-004", "geo_id": "GEO-37004", "name": "普鲁岭", "type": "岭", "location_text": "在卫城东七十五里", "description": "岷巩冲要之地", "lore": ""},
-   {"mtn_id": "MTN-009", "item_id": "37-004", "geo_id": "GEO-37004", "name": "摩云岭", "type": "岭", "location_text": "在卫城西南去宕昌寨三十里", "description": "山下即临江", "lore": ""},
-   {"mtn_id": "MTN-010", "item_id": "37-004", "geo_id": "GEO-37004", "name": "石洞", "type": "洞", "location_text": "在卫城东一百三十五里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-011", "item_id": "37-004", "geo_id": "GEO-37004", "name": "叠藏河", "type": "河", "location_text": "在卫城东门外", "description": "源出分水岭", "lore": ""},
-   {"mtn_id": "MTN-012", "item_id": "37-004", "geo_id": "GEO-37004", "name": "洮河", "type": "河", "location_text": "在卫城北", "description": "自洮州来至卫城北流入临洮府界", "lore": ""},
-   {"mtn_id": "MTN-013", "item_id": "37-004", "geo_id": "GEO-37004", "name": "荔川河", "type": "河", "location_text": "在卫城东南九十里", "description": "旧有荔川寨以此为名", "lore": ""},
-   {"mtn_id": "MTN-014", "item_id": "37-004", "geo_id": "GEO-37004", "name": "闾井河", "type": "河", "location_text": "在卫城东一百四十里", "description": "源出没遮栏山，流入马淳河", "lore": ""},
-   {"mtn_id": "MTN-015", "item_id": "37-004", "geo_id": "GEO-37004", "name": "马淳河", "type": "河", "location_text": "在卫城东一百八十里", "description": "东流入鄣水", "lore": ""},
-   {"mtn_id": "MTN-016", "item_id": "37-004", "geo_id": "GEO-37004", "name": "良恭河", "type": "河", "location_text": "在卫城东南二百八十里", "description": "宋有良恭镇以此河名", "lore": ""},
-   {"mtn_id": "MTN-017", "item_id": "37-004", "geo_id": "GEO-37004", "name": "步和川", "type": "川", "location_text": "在卫城西门外", "description": "羌人谓之天泉", "lore": ""},
-   {"mtn_id": "MTN-018", "item_id": "37-004", "geo_id": "GEO-37004", "name": "珍珠池", "type": "池", "location_text": "在卫城东一百二十里", "description": "祈雨有应", "lore": ""},
-   {"mtn_id": "MTN-019", "item_id": "37-004", "geo_id": "GEO-37004", "name": "金紫池", "type": "池", "location_text": "在卫城东一百二十里", "description": "祈雨有应", "lore": ""},
-   {"mtn_id": "MTN-020", "item_id": "37-004", "geo_id": "GEO-37004-w01", "name": "三眼泉", "type": "泉", "location_text": "在西固城北", "description": "流注白水江", "lore": ""}
+   {
+    "mtn_id": "MTN-001",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "岷山",
+    "type": "山",
+    "location_text": "在卫城北",
+    "description": "山黑无树木，洮水经其下",
+    "lore": "相传夏禹见长人受黑玉书于此"
+   },
+   {
+    "mtn_id": "MTN-002",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "金通山",
+    "type": "山",
+    "location_text": "在卫城南",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-003",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "阔博山",
+    "type": "山",
+    "location_text": "在卫境",
+    "description": "唐志云在故和政县",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-004",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "冷落山",
+    "type": "山",
+    "location_text": "在卫城东五十里",
+    "description": "盛夏阴晦即雨雪因名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-005",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "贵清山",
+    "type": "山",
+    "location_text": "在卫城东一百五十里",
+    "description": "顶平衍可耕种",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-006",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "贤隐山",
+    "type": "山",
+    "location_text": "在宕昌寨西南",
+    "description": "上旧有三阁",
+    "lore": "相传姚太师少时移疾结庵于其间，有题诗"
+   },
+   {
+    "mtn_id": "MTN-007",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "分水岭",
+    "type": "岭",
+    "location_text": "在卫城南四十五里",
+    "description": "其下有分水岭河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-008",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "普鲁岭",
+    "type": "岭",
+    "location_text": "在卫城东七十五里",
+    "description": "岷巩冲要之地",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-009",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "摩云岭",
+    "type": "岭",
+    "location_text": "在卫城西南去宕昌寨三十里",
+    "description": "山下即临江",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-010",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "石洞",
+    "type": "洞",
+    "location_text": "在卫城东一百三十五里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-011",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "叠藏河",
+    "type": "河",
+    "location_text": "在卫城东门外",
+    "description": "源出分水岭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-012",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "洮河",
+    "type": "河",
+    "location_text": "在卫城北",
+    "description": "自洮州来至卫城北流入临洮府界",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-013",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "荔川河",
+    "type": "河",
+    "location_text": "在卫城东南九十里",
+    "description": "旧有荔川寨以此为名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-014",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "闾井河",
+    "type": "河",
+    "location_text": "在卫城东一百四十里",
+    "description": "源出没遮栏山，流入马淳河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-015",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "马淳河",
+    "type": "河",
+    "location_text": "在卫城东一百八十里",
+    "description": "东流入鄣水",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-016",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "良恭河",
+    "type": "河",
+    "location_text": "在卫城东南二百八十里",
+    "description": "宋有良恭镇以此河名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-017",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "步和川",
+    "type": "川",
+    "location_text": "在卫城西门外",
+    "description": "羌人谓之天泉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-018",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "珍珠池",
+    "type": "池",
+    "location_text": "在卫城东一百二十里",
+    "description": "祈雨有应",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-019",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "金紫池",
+    "type": "池",
+    "location_text": "在卫城东一百二十里",
+    "description": "祈雨有应",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-020",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004-w01",
+    "name": "三眼泉",
+    "type": "泉",
+    "location_text": "在西固城北",
+    "description": "流注白水江",
+    "lore": ""
+   }
   ],
   "pers": [
-   {"pers_id": "PER-001", "item_id": "37-004", "geo_id": "GEO-37004", "name": "辛公义", "dynasty": "隋", "source_section": "名宦", "note": "岷州刺史，岷俗畏疫一人病疫阖家避之；公义变其俗，病者皆舆至厅事，昼夜处其间具医药，病者多愈，合境呼为慈母"},
-   {"pers_id": "PER-002", "item_id": "37-004", "geo_id": "GEO-37004", "name": "张守约", "dynasty": "宋", "source_section": "名宦", "note": "神宗时鬼章围岷州，守约以熙河钤辖提敢死士鸣鼓张帜高山上，贼惊顾而遁；遂知岷州，降其首领千七百人"},
-   {"pers_id": "PER-003", "item_id": "37-004", "geo_id": "GEO-37004", "name": "种谔", "dynasty": "宋", "source_section": "名宦", "note": "知岷州，毡将鬼章聚兵洮岷，谔击败之，又出寨收洮州"},
-   {"pers_id": "PER-004", "item_id": "37-004", "geo_id": "GEO-37004", "name": "种谊", "dynasty": "宋", "source_section": "名宦", "note": "知岷州，鬼章诱杀景思立久为边患，谊击破之，俘鬼章等以献"},
-   {"pers_id": "PER-005", "item_id": "37-004", "geo_id": "GEO-37004", "name": "何灌", "dynasty": "宋", "source_section": "名宦", "note": "知岷州，引邈川水溉闲田千顷，湟人号广利渠；后葺渠溉田至二万六千顷，募射士七千余人为他路最"},
-   {"pers_id": "PER-006", "item_id": "37-004", "geo_id": "GEO-37004", "name": "姚雄", "dynasty": "宋", "source_section": "名宦", "note": "知岷州，绍圣中渭帅城平夏，雄部熙河兵策援，夏人倾国来，雄大破之"},
-   {"pers_id": "PER-007", "item_id": "37-004", "geo_id": "GEO-37004", "name": "刘锜", "dynasty": "宋", "source_section": "名宦", "note": "高宗初知岷州，为陇右都护，与夏人战屡胜，夏人儿啼辄怖之曰刘都护来"},
-   {"pers_id": "PER-008", "item_id": "37-004", "geo_id": "GEO-37004", "name": "马堃", "dynasty": "宋", "source_section": "人物", "note": "宕昌人，以六郡镇抚使守咸淳府；元将杨文安与堃同里谕降，堃不从，城破巷战力屈而死"},
-   {"pers_id": "PER-009", "item_id": "37-004", "geo_id": "GEO-37004", "name": "马塈", "dynasty": "宋", "source_section": "人物", "note": "堃弟，咸淳中知钦州徙邕州；宋亡留静江总屯戍，元将阿尔哈雅攻城，前后百余战讫无降意，城破被执杀之，断其首犹握拳奋起立逾时始仆"}
+   {
+    "pers_id": "PER-001",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "辛公义",
+    "dynasty": "隋",
+    "source_section": "名宦",
+    "note": "岷州刺史，岷俗畏疫一人病疫阖家避之；公义变其俗，病者皆舆至厅事，昼夜处其间具医药，病者多愈，合境呼为慈母"
+   },
+   {
+    "pers_id": "PER-002",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "张守约",
+    "dynasty": "宋",
+    "source_section": "名宦",
+    "note": "神宗时鬼章围岷州，守约以熙河钤辖提敢死士鸣鼓张帜高山上，贼惊顾而遁；遂知岷州，降其首领千七百人"
+   },
+   {
+    "pers_id": "PER-003",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "种谔",
+    "dynasty": "宋",
+    "source_section": "名宦",
+    "note": "知岷州，毡将鬼章聚兵洮岷，谔击败之，又出寨收洮州"
+   },
+   {
+    "pers_id": "PER-004",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "种谊",
+    "dynasty": "宋",
+    "source_section": "名宦",
+    "note": "知岷州，鬼章诱杀景思立久为边患，谊击破之，俘鬼章等以献"
+   },
+   {
+    "pers_id": "PER-005",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "何灌",
+    "dynasty": "宋",
+    "source_section": "名宦",
+    "note": "知岷州，引邈川水溉闲田千顷，湟人号广利渠；后葺渠溉田至二万六千顷，募射士七千余人为他路最"
+   },
+   {
+    "pers_id": "PER-006",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "姚雄",
+    "dynasty": "宋",
+    "source_section": "名宦",
+    "note": "知岷州，绍圣中渭帅城平夏，雄部熙河兵策援，夏人倾国来，雄大破之"
+   },
+   {
+    "pers_id": "PER-007",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "刘锜",
+    "dynasty": "宋",
+    "source_section": "名宦",
+    "note": "高宗初知岷州，为陇右都护，与夏人战屡胜，夏人儿啼辄怖之曰刘都护来"
+   },
+   {
+    "pers_id": "PER-008",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "马堃",
+    "dynasty": "宋",
+    "source_section": "人物",
+    "note": "宕昌人，以六郡镇抚使守咸淳府；元将杨文安与堃同里谕降，堃不从，城破巷战力屈而死"
+   },
+   {
+    "pers_id": "PER-009",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "马塈",
+    "dynasty": "宋",
+    "source_section": "人物",
+    "note": "堃弟，咸淳中知钦州徙邕州；宋亡留静江总屯戍，元将阿尔哈雅攻城，前后百余战讫无降意，城破被执杀之，断其首犹握拳奋起立逾时始仆"
+   }
   ],
   "sites": [
-   {"site_id": "SIT-001", "item_id": "37-004", "geo_id": "GEO-37004", "name": "岷州卫学", "type": "学校", "location_text": "在卫治西", "description": "洪武十七年建"},
-   {"site_id": "SIT-002", "item_id": "37-004", "geo_id": "GEO-37004", "name": "茶埠峪寨", "type": "关梁/寨", "location_text": "在卫城东一十五里", "description": "自是而东又有冷落山、永宁堡、弄松堡三寨"},
-   {"site_id": "SIT-003", "item_id": "37-004", "geo_id": "GEO-37004", "name": "梅川寨", "type": "关梁/寨", "location_text": "在卫城东北三十里", "description": "自是而东北又有普鲁岭、酒店子二寨"},
-   {"site_id": "SIT-004", "item_id": "37-004", "geo_id": "GEO-37004", "name": "鸦山寨", "type": "关梁/寨", "location_text": "在卫城东南三十五里", "description": ""},
-   {"site_id": "SIT-005", "item_id": "37-004", "geo_id": "GEO-37004", "name": "曹家寨", "type": "关梁/寨", "location_text": "在卫城西一十五里", "description": "自是而西又有中寨、野狐桥、冷地峪三寨"},
-   {"site_id": "SIT-006", "item_id": "37-004", "geo_id": "GEO-37004", "name": "木昔寨", "type": "关梁/寨", "location_text": "在卫城西南一十五里", "description": "自是而西南又有吴麻沟、鹿儿坝、柏木植、镇羌、三岔五寨"},
-   {"site_id": "SIT-007", "item_id": "37-004", "geo_id": "GEO-37004", "name": "栗林寨", "type": "关梁/寨", "location_text": "在卫城南一十五里", "description": "自是而南又有凌兀赤、分水岭、哈答川、赏家族、脚力、高楼铺、何家铺、颠角、宕昌、老鼠川十寨"},
-   {"site_id": "SIT-008", "item_id": "37-004", "geo_id": "GEO-37004", "name": "水磨沟寨", "type": "关梁/寨", "location_text": "在卫城北五十里", "description": "又北二十里有马崖子寨；以上诸寨俱有官军防守"},
-   {"site_id": "SIT-009", "item_id": "37-004", "geo_id": "GEO-37004", "name": "梅川桥", "type": "关梁/桥", "location_text": "在卫城东三十里", "description": ""},
-   {"site_id": "SIT-010", "item_id": "37-004", "geo_id": "GEO-37004", "name": "野狐桥", "type": "关梁/桥", "location_text": "在卫城西四十五里", "description": ""},
-   {"site_id": "SIT-011", "item_id": "37-004", "geo_id": "GEO-37004-w01", "name": "沙川桥", "type": "关梁/桥", "location_text": "在西固城西一十里", "description": ""},
-   {"site_id": "SIT-012", "item_id": "37-004", "geo_id": "GEO-37004-w01", "name": "永宁桥", "type": "关梁/桥", "location_text": "在西固城南门外", "description": ""},
-   {"site_id": "SIT-013", "item_id": "37-004", "geo_id": "GEO-37004", "name": "崇教寺", "type": "寺观", "location_text": "在卫城东四十里", "description": "宣德初建"},
-   {"site_id": "SIT-014", "item_id": "37-004", "geo_id": "GEO-37004", "name": "真如寺", "type": "寺观", "location_text": "在卫城东南二里", "description": ""},
-   {"site_id": "SIT-015", "item_id": "37-004", "geo_id": "GEO-37004", "name": "般若寺", "type": "寺观", "location_text": "在卫城东南五里", "description": "俱洪武十六年建"},
-   {"site_id": "SIT-016", "item_id": "37-004", "geo_id": "GEO-37004", "name": "玄妙观", "type": "寺观", "location_text": "在卫治南", "description": "元建，本朝洪武四年重修"},
-   {"site_id": "SIT-017", "item_id": "37-004", "geo_id": "GEO-37004", "name": "秦长城", "type": "古迹", "location_text": "在卫城西二十里", "description": "秦蒙恬筑长城起于此"},
-   {"site_id": "SIT-018", "item_id": "37-004", "geo_id": "GEO-37004", "name": "岷州古城", "type": "古迹", "location_text": "本秦临洮城", "description": "东汉时陇西羌反于临洮，车骑将军马防、长水校尉耿恭击平之；其城久废，本朝洪武中建卫因于旧基筑城二东西相连"},
-   {"site_id": "SIT-019", "item_id": "37-004", "geo_id": "GEO-37004", "name": "索西城", "type": "古迹", "location_text": "在卫城东南九十里", "description": "东汉明帝时马防所筑，一名临洮东城，又名赤城"},
-   {"site_id": "SIT-020", "item_id": "37-004", "geo_id": "GEO-37004", "name": "宕州城", "type": "古迹", "location_text": "在卫城南一百二十里", "description": "本宕州宕昌郡，唐天宝初更名怀道郡，后陷于吐蕃；宋熙宁收复置宕昌堡属岷州，时运蜀茶市马于岷"},
-   {"site_id": "SIT-021", "item_id": "37-004", "geo_id": "GEO-37004", "name": "梅川城", "type": "古迹", "location_text": "在卫城东北三十里", "description": ""},
-   {"site_id": "SIT-022", "item_id": "37-004", "geo_id": "GEO-37004", "name": "颠角城", "type": "古迹", "location_text": "在卫城南一百三十五里", "description": ""},
-   {"site_id": "SIT-023", "item_id": "37-004", "geo_id": "GEO-37004", "name": "酒店城", "type": "古迹", "location_text": "在卫城东北四十里", "description": "以上三城俱古城，本朝有官军守御"},
-   {"site_id": "SIT-024", "item_id": "37-004", "geo_id": "GEO-37004", "name": "祐川废县", "type": "古迹", "location_text": "在卫境", "description": "本西魏溢乐县地，后周置基城县，唐改曰祐川，后没于吐蕃；宋崇宁中复置岷州治此，元省"},
-   {"site_id": "SIT-025", "item_id": "37-004", "geo_id": "GEO-37004", "name": "溢乐废县", "type": "古迹", "location_text": "在卫境", "description": "本秦临洮县地，西魏属同和郡，隋属岷州，唐置溢乐县，宋省入祐川"},
-   {"site_id": "SIT-026", "item_id": "37-004", "geo_id": "GEO-37004", "name": "和政废县", "type": "古迹", "location_text": "在卫境", "description": "本后周洮城郡，保定初郡省置同和县改曰和政，隋唐属岷州，宋废"},
-   {"site_id": "SIT-027", "item_id": "37-004", "geo_id": "GEO-37004", "name": "宕昌驿", "type": "古迹", "location_text": "在卫城南一百一十五里", "description": "宋纲马憩息之所"},
-   {"site_id": "SIT-028", "item_id": "37-004", "geo_id": "GEO-37004", "name": "酂公营", "type": "古迹", "location_text": "在卫境", "description": "唐酂公宝轨讨薛举营此"}
+   {
+    "site_id": "SIT-001",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "岷州卫学",
+    "type": "学校",
+    "location_text": "在卫治西",
+    "description": "洪武十七年建"
+   },
+   {
+    "site_id": "SIT-002",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "茶埠峪寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城东一十五里",
+    "description": "自是而东又有冷落山、永宁堡、弄松堡三寨"
+   },
+   {
+    "site_id": "SIT-003",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "梅川寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城东北三十里",
+    "description": "自是而东北又有普鲁岭、酒店子二寨"
+   },
+   {
+    "site_id": "SIT-004",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "鸦山寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城东南三十五里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-005",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "曹家寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城西一十五里",
+    "description": "自是而西又有中寨、野狐桥、冷地峪三寨"
+   },
+   {
+    "site_id": "SIT-006",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "木昔寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城西南一十五里",
+    "description": "自是而西南又有吴麻沟、鹿儿坝、柏木植、镇羌、三岔五寨"
+   },
+   {
+    "site_id": "SIT-007",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "栗林寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城南一十五里",
+    "description": "自是而南又有凌兀赤、分水岭、哈答川、赏家族、脚力、高楼铺、何家铺、颠角、宕昌、老鼠川十寨"
+   },
+   {
+    "site_id": "SIT-008",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "水磨沟寨",
+    "type": "关梁/寨",
+    "location_text": "在卫城北五十里",
+    "description": "又北二十里有马崖子寨；以上诸寨俱有官军防守"
+   },
+   {
+    "site_id": "SIT-009",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "梅川桥",
+    "type": "关梁/桥",
+    "location_text": "在卫城东三十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-010",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "野狐桥",
+    "type": "关梁/桥",
+    "location_text": "在卫城西四十五里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-011",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004-w01",
+    "name": "沙川桥",
+    "type": "关梁/桥",
+    "location_text": "在西固城西一十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-012",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004-w01",
+    "name": "永宁桥",
+    "type": "关梁/桥",
+    "location_text": "在西固城南门外",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-013",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "崇教寺",
+    "type": "寺观",
+    "location_text": "在卫城东四十里",
+    "description": "宣德初建"
+   },
+   {
+    "site_id": "SIT-014",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "真如寺",
+    "type": "寺观",
+    "location_text": "在卫城东南二里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-015",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "般若寺",
+    "type": "寺观",
+    "location_text": "在卫城东南五里",
+    "description": "俱洪武十六年建"
+   },
+   {
+    "site_id": "SIT-016",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "玄妙观",
+    "type": "寺观",
+    "location_text": "在卫治南",
+    "description": "元建，本朝洪武四年重修"
+   },
+   {
+    "site_id": "SIT-017",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "秦长城",
+    "type": "古迹",
+    "location_text": "在卫城西二十里",
+    "description": "秦蒙恬筑长城起于此"
+   },
+   {
+    "site_id": "SIT-018",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "岷州古城",
+    "type": "古迹",
+    "location_text": "本秦临洮城",
+    "description": "东汉时陇西羌反于临洮，车骑将军马防、长水校尉耿恭击平之；其城久废，本朝洪武中建卫因于旧基筑城二东西相连"
+   },
+   {
+    "site_id": "SIT-019",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "索西城",
+    "type": "古迹",
+    "location_text": "在卫城东南九十里",
+    "description": "东汉明帝时马防所筑，一名临洮东城，又名赤城"
+   },
+   {
+    "site_id": "SIT-020",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "宕州城",
+    "type": "古迹",
+    "location_text": "在卫城南一百二十里",
+    "description": "本宕州宕昌郡，唐天宝初更名怀道郡，后陷于吐蕃；宋熙宁收复置宕昌堡属岷州，时运蜀茶市马于岷"
+   },
+   {
+    "site_id": "SIT-021",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "梅川城",
+    "type": "古迹",
+    "location_text": "在卫城东北三十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-022",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "颠角城",
+    "type": "古迹",
+    "location_text": "在卫城南一百三十五里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-023",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "酒店城",
+    "type": "古迹",
+    "location_text": "在卫城东北四十里",
+    "description": "以上三城俱古城，本朝有官军守御"
+   },
+   {
+    "site_id": "SIT-024",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "祐川废县",
+    "type": "古迹",
+    "location_text": "在卫境",
+    "description": "本西魏溢乐县地，后周置基城县，唐改曰祐川，后没于吐蕃；宋崇宁中复置岷州治此，元省"
+   },
+   {
+    "site_id": "SIT-025",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "溢乐废县",
+    "type": "古迹",
+    "location_text": "在卫境",
+    "description": "本秦临洮县地，西魏属同和郡，隋属岷州，唐置溢乐县，宋省入祐川"
+   },
+   {
+    "site_id": "SIT-026",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "和政废县",
+    "type": "古迹",
+    "location_text": "在卫境",
+    "description": "本后周洮城郡，保定初郡省置同和县改曰和政，隋唐属岷州，宋废"
+   },
+   {
+    "site_id": "SIT-027",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "宕昌驿",
+    "type": "古迹",
+    "location_text": "在卫城南一百一十五里",
+    "description": "宋纲马憩息之所"
+   },
+   {
+    "site_id": "SIT-028",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "酂公营",
+    "type": "古迹",
+    "location_text": "在卫境",
+    "description": "唐酂公宝轨讨薛举营此"
+   }
   ],
   "prods": [
-   {"prod_id": "PROD-001", "item_id": "37-004", "geo_id": "GEO-37004", "name": "锦鸡", "note": ""},
-   {"prod_id": "PROD-002", "item_id": "37-004", "geo_id": "GEO-37004", "name": "甘草", "note": ""},
-   {"prod_id": "PROD-003", "item_id": "37-004", "geo_id": "GEO-37004", "name": "马鸡", "note": ""},
-   {"prod_id": "PROD-004", "item_id": "37-004", "geo_id": "GEO-37004", "name": "犏牛", "note": ""},
-   {"prod_id": "PROD-005", "item_id": "37-004", "geo_id": "GEO-37004", "name": "豹", "note": ""},
-   {"prod_id": "PROD-006", "item_id": "37-004", "geo_id": "GEO-37004", "name": "麂", "note": ""},
-   {"prod_id": "PROD-007", "item_id": "37-004", "geo_id": "GEO-37004", "name": "楸子", "note": ""}
+   {
+    "prod_id": "PROD-001",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "锦鸡",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-002",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "甘草",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-003",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "马鸡",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-004",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "犏牛",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-005",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "豹",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-006",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "麂",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-007",
+    "item_id": "37-004",
+    "geo_id": "GEO-37004",
+    "name": "楸子",
+    "note": ""
+   }
   ],
   "cits": [
-   {"cit_id": "CIT-001", "item_id": "37-004", "cited_work": "郡志", "cited_work_ent_id": null, "context": "形胜", "original": "【郡志】"},
-   {"cit_id": "CIT-002", "item_id": "37-004", "cited_work": "图经", "cited_work_ent_id": null, "context": "形胜", "original": "【图经】"},
-   {"cit_id": "CIT-003", "item_id": "37-004", "cited_work": "宋史地志", "cited_work_ent_id": null, "context": "风俗", "original": "【宋史地志】"},
-   {"cit_id": "CIT-004", "item_id": "37-004", "cited_work": "新志", "cited_work_ent_id": null, "context": "风俗", "original": "【新志】"},
-   {"cit_id": "CIT-005", "item_id": "37-004", "cited_work": "唐志", "cited_work_ent_id": null, "context": "山川", "original": "【唐志云在故和政县】"}
+   {
+    "cit_id": "CIT-001",
+    "item_id": "37-004",
+    "cited_work": "郡志",
+    "cited_work_ent_id": null,
+    "context": "形胜",
+    "original": "【郡志】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "37-004",
+    "cited_work": "图经",
+    "cited_work_ent_id": null,
+    "context": "形胜",
+    "original": "【图经】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "37-004",
+    "cited_work": "宋史地志",
+    "cited_work_ent_id": null,
+    "context": "风俗",
+    "original": "【宋史地志】"
+   },
+   {
+    "cit_id": "CIT-004",
+    "item_id": "37-004",
+    "cited_work": "新志",
+    "cited_work_ent_id": null,
+    "context": "风俗",
+    "original": "【新志】"
+   },
+   {
+    "cit_id": "CIT-005",
+    "item_id": "37-004",
+    "cited_work": "唐志",
+    "cited_work_ent_id": null,
+    "context": "山川",
+    "original": "【唐志云在故和政县】"
+   }
   ]
  },
  "layer_count": 7,
@@ -156,5 +883,6 @@
   "errs": [],
   "gap": 0,
   "notes": "岷州卫主文件；下属西固城军民千户所列为w01"
- }
+ },
+ "title": "岷州卫军民指挥使司"
 }

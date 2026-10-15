@@ -1,0 +1,79 @@
+﻿=== registry: 42 条 ===
+
+=== 各层条数 ===
+  ent: 2083
+  geo: 610
+  evo: 1615
+  mtn: 2478
+  per: 4333
+  site: 4081
+  cit: 249
+
+=== ERR: 69 ===
+  ✗ [evo] EVO-002 item_id=EVO-002 不在 registry
+  ✗ [evo] EVO-003 item_id=EVO-003 不在 registry
+  ✗ [ent] ENT-002 type='river' 不在枚举
+  ✗ [ent] ENT-007 type='geofeat' 不在枚举
+  ✗ [geo] geo_id 重复: {'GEO-22001-c18', 'GEO-22001-c25', 'GEO-22001-c04', 'GEO-22001-c06', 'GEO-22001-c17', 'GEO-22001-c01', 'GEO-22001-c03', 'GEO-22001-c09', 'GEO-22001-c20', 'GEO-22001-c26', 'GEO-22001-c12', 'GEO-22001-c16', 'GEO-22001-c22', 'GEO-22001-c14', 'GEO-22001-c13', 'GEO-22001-c10', 'GEO-22001-c02', 'GEO-22001-c11', 'GEO-22001-c23', 'GEO-22001-c08', 'GEO-22001-c15', 'GEO-22001-c21', 'GEO-22001-c05', 'GEO-22001-c07', 'GEO-22001-c24', 'GEO-22001-c19'}
+  ✗ [geo] GEO-02002-s01-c11(吴桥县) parent 悬空: GEO-02002-s01 不在 geos 表
+  ✗ [geo] GEO-02002-s01-c12(东光县) parent 悬空: GEO-02002-s01 不在 geos 表
+  ✗ [geo] GEO-02002-s01-c13(故城县) parent 悬空: GEO-02002-s01 不在 geos 表
+  ✗ [geo] GEO-02002-s02-c14(南皮县) parent 悬空: GEO-02002-s02 不在 geos 表
+  ✗ [geo] GEO-02002-s02-c15(盐山县) parent 悬空: GEO-02002-s02 不在 geos 表
+  ✗ [geo] GEO-02002-s02-c16(庆云县) parent 悬空: GEO-02002-s02 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c11 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c12 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c13 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c14 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c15 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c16 不在 geos 表
+  ✗ [geo] GEO-03001-c01(真定县) parent 悬空: GEO-03001 不在 geos 表
+  ✗ [geo] GEO-03001-c02(井陉县) parent 悬空: GEO-03001 不在 geos 表
+  ✗ [geo] GEO-03001-c03(获鹿县) parent 悬空: GEO-03001 不在 geos 表
+  ... 还有 49 条
+
+=== GAP: 0 ===
+
+=== 每条目层覆盖 ===
+  01-001 京师            [5层] ent,evo,geo,mtn,site
+  01-002 顺天府           [7层] cit,ent,evo,geo,mtn,per,site
+  02-001 保定府           [7层] cit,ent,evo,geo,mtn,per,site
+  02-002 河间府           [7层] cit,ent,evo,geo,mtn,per,site
+  03-001 衡水县           [6层] ent,evo,geo,mtn,per,site
+  04-001 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  04-002 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  04-003 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  05-001 永平府           [7层] cit,ent,evo,geo,mtn,per,site
+  05-002 永宁县           [5层] ent,evo,geo,mtn,site
+  22-001 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  23-001 兖州府           [7层] cit,ent,evo,geo,mtn,per,site
+  24-001 东昌府           [7层] cit,ent,evo,geo,mtn,per,site
+  24-002 青州府           [7层] cit,ent,evo,geo,mtn,per,site
+  25-001 登州府           [7层] cit,ent,evo,geo,mtn,per,site
+  25-002 莱州府           [7层] cit,ent,evo,geo,mtn,per,site
+  25-003 辽东都指挥使司       [7层] cit,ent,evo,geo,mtn,per,site
+  26-001 开封府           [7层] cit,ent,evo,geo,mtn,per,site
+  27-001 归德府           [7层] cit,ent,evo,geo,mtn,per,site
+  27-002 彰德府           [7层] cit,ent,evo,geo,mtn,per,site
+  28-001 卫辉府           [7层] cit,ent,evo,geo,mtn,per,site
+  28-002 怀庆府           [7层] cit,ent,evo,geo,mtn,per,site
+  29-001 河南府           [7层] cit,ent,evo,geo,mtn,per,site
+  30-001 南阳府           [7层] cit,ent,evo,geo,mtn,per,site
+  31-001 汝宁府           [7层] cit,ent,evo,geo,mtn,per,site
+  31-002 汝州            [6层] ent,evo,geo,mtn,per,site
+  32-001 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  34-001 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  34-002 汉中府           [7层] cit,ent,evo,geo,mtn,per,site
+  35-001 平凉府           [7层] cit,ent,evo,geo,mtn,per,site
+  35-002 巩昌府           [7层] cit,ent,evo,geo,mtn,per,site
+  36-001 临洮府           [7层] cit,ent,evo,geo,mtn,per,site
+  36-002 庆阳府           [7层] cit,ent,evo,geo,mtn,per,site
+  36-003 延安府           [7层] cit,ent,evo,geo,mtn,per,site
+  37-001 宁夏卫           [7层] cit,ent,evo,geo,mtn,per,site
+  37-002 宁夏中卫          [6层] cit,ent,evo,geo,mtn,site
+  37-003 洮州卫军民指挥使司     [7层] cit,ent,evo,geo,mtn,per,site
+  37-004 岷州卫军民指挥使司     [7层] cit,ent,evo,geo,mtn,per,site
+  37-005 河州卫军民指挥使司     [7层] cit,ent,evo,geo,mtn,per,site
+  37-006 靖虏卫           [7层] cit,ent,evo,geo,mtn,per,site
+  37-007 ?             [7层] cit,ent,evo,geo,mtn,per,site
+  88-009 普安州           [7层] cit,ent,evo,geo,mtn,per,site

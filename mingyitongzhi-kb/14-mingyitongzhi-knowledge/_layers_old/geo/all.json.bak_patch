@@ -1,0 +1,5018 @@
+{
+  "records": [
+    {
+      "geo_id": "GEO-001",
+      "item_id": "03-001",
+      "name": "真定府",
+      "type": "prefecture",
+      "region": "北直隶",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-03001-c01",
+        "GEO-03001-c02",
+        "GEO-03001-c03",
+        "GEO-03001-c04",
+        "GEO-03001-c05",
+        "GEO-03001-c06",
+        "GEO-03001-c07",
+        "GEO-03001-c08",
+        "GEO-03001-c09",
+        "GEO-03001-c10",
+        "GEO-03001-s01",
+        "GEO-03001-s02",
+        "GEO-03001-s03",
+        "GEO-03001-s04",
+        "GEO-03001-s05"
+      ],
+      "volume_range": "卷3",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河间府献县界",
+            "distance_li": 310
+          },
+          {
+            "direction": "西",
+            "to_place": "山西平定州界",
+            "distance_li": 180
+          },
+          {
+            "direction": "南",
+            "to_place": "顺德府内丘县界",
+            "distance_li": 210
+          },
+          {
+            "direction": "北",
+            "to_place": "保定府庆都县界",
+            "distance_li": 170
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 630
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2100
+          }
+        ],
+        "households": {
+          "count": 14,
+          "unit": "里",
+          "note": "一十四里"
+        },
+        "grain_tax": {
+          "amount": 117000,
+          "unit": "石",
+          "note": "粮一十一万七千石零"
+        },
+        "jun_name": "恒山",
+        "topography": "壮哉一都防【真定壁记】靣临滹水背倚恒山左接瀛海右抵大行【图经】…",
+        "customs": "性缓尚儒仗义任侠【通典】土广俗杂【同上】…",
+        "garrisons": [
+          {
+            "name": "真定卫",
+            "type": "卫",
+            "location_text": "在府治东南洪武三年建"
+          },
+          {
+            "name": "神武右卫",
+            "type": "卫",
+            "location_text": "在真定卫西宣德五年建"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-06001",
+      "item_id": "06-001",
+      "name": "京城",
+      "type": "metro",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "6",
+      "attributes": {
+        "name": "京城",
+        "type": "metro",
+        "region": "南直隶",
+        "city_walls": [
+          {
+            "name": "城池",
+            "desc": "旧志六朝旧城近覆舟山去秦淮五里至杨呉时改筑跨秦淮南北周廻二十五里本朝益拓而东尽钟山之麓周廻九十六里立门十三南曰正阳南之西曰通济又西曰聚寳西南曰三山曰石城北曰太平北之西曰神防曰金川曰钟阜东曰朝阳西曰清凉西之北曰定淮曰仪凤后塞钟阜仪凤二门其外城则因山控江周廻一百八十里别为十六门曰麒麟曰仙曰姚坊曰高桥曰沧波曰防桥曰夹江曰上方曰凤台曰大驯象曰大安徳曰小安徳曰江东曰佛宁曰上元曰观音"
+          }
+        ],
+        "gates": [
+          "十六门曰"
+        ]
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-06002",
+      "item_id": "06-002",
+      "name": "应天府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "6",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "镇江府丹徒县界",
+            "distance_li": "一百三十"
+          },
+          {
+            "direction": "西",
+            "to_place": "和州界",
+            "distance_li": "八十"
+          },
+          {
+            "direction": "南",
+            "to_place": "太平府当涂县界",
+            "distance_li": "八十五"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬州府仪真县界",
+            "distance_li": "一百五十五"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": "三千四百四十五"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "二十万五千六百",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "应天府上元县",
+            "is_capital_county": true,
+            "households": "一百九十四"
+          },
+          {
+            "name": "江宁县",
+            "is_capital_county": true,
+            "households": "一百三十四"
+          },
+          {
+            "name": "句容县",
+            "is_capital_county": false,
+            "households": "二百一十三"
+          },
+          {
+            "name": "溧阳县",
+            "is_capital_county": false,
+            "households": "二百七"
+          },
+          {
+            "name": "溧水县",
+            "is_capital_county": false,
+            "households": "一百十"
+          },
+          {
+            "name": "江浦县",
+            "is_capital_county": false,
+            "households": "三十七"
+          },
+          {
+            "name": "六合县",
+            "is_capital_county": false,
+            "households": "一十九"
+          },
+          {
+            "name": "高淳县",
+            "is_capital_county": false,
+            "households": "四十"
+          }
+        ],
+        "name": "应天府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-07003",
+      "item_id": "07-003",
+      "name": "凤阳府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "7",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "扬州府寳应县界",
+            "distance_li": "四百"
+          },
+          {
+            "direction": "西",
+            "to_place": "河南开封府项城县界",
+            "distance_li": "五百九十"
+          },
+          {
+            "direction": "南",
+            "to_place": "庐州府合肥县界",
+            "distance_li": "一百五十"
+          },
+          {
+            "direction": "北",
+            "to_place": "徐州萧县界",
+            "distance_li": "三百三十三"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "三百三十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "县十三凤阳县",
+            "is_capital_county": true,
+            "households": "三十四"
+          },
+          {
+            "name": "临淮县",
+            "is_capital_county": false,
+            "households": "四十九"
+          },
+          {
+            "name": "懐逺县",
+            "is_capital_county": false,
+            "households": "四十七"
+          },
+          {
+            "name": "定逺县",
+            "is_capital_county": false,
+            "households": "三十三"
+          },
+          {
+            "name": "五河县",
+            "is_capital_county": false,
+            "households": "一十五"
+          },
+          {
+            "name": "虹县",
+            "is_capital_county": false,
+            "households": "一十七"
+          },
+          {
+            "name": "夀州",
+            "is_capital_county": false,
+            "households": "五十四"
+          },
+          {
+            "name": "霍丘县",
+            "is_capital_county": false,
+            "households": "三十七"
+          },
+          {
+            "name": "蒙城县",
+            "is_capital_county": false,
+            "households": "二十五"
+          },
+          {
+            "name": "泗州",
+            "is_capital_county": true,
+            "households": "五十"
+          },
+          {
+            "name": "盱眙县",
+            "is_capital_county": false,
+            "households": "三十七"
+          },
+          {
+            "name": "天长县",
+            "is_capital_county": false,
+            "households": "一十二"
+          },
+          {
+            "name": "宿州",
+            "is_capital_county": false,
+            "households": "七十"
+          },
+          {
+            "name": "灵璧县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "颍州",
+            "is_capital_county": false,
+            "households": "八十"
+          },
+          {
+            "name": "颍上县",
+            "is_capital_county": false,
+            "households": "一十九"
+          },
+          {
+            "name": "太和县",
+            "is_capital_county": false,
+            "households": "三十五"
+          },
+          {
+            "name": "亳州",
+            "is_capital_county": false,
+            "households": "四十九"
+          }
+        ],
+        "name": "凤阳府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-08004",
+      "item_id": "08-004",
+      "name": "苏州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "8",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "东沙海岸",
+            "distance_li": "三百一十四"
+          },
+          {
+            "direction": "西",
+            "to_place": "常州府宜兴县界",
+            "distance_li": "一百"
+          },
+          {
+            "direction": "南",
+            "to_place": "浙江嘉兴府秀水县界",
+            "distance_li": "九十四"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬州府通州界",
+            "distance_li": "一百五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百八十八"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "二百五十万二千九百",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "京师县七吴县",
+            "is_capital_county": true,
+            "households": "五百十一"
+          },
+          {
+            "name": "长洲县",
+            "is_capital_county": true,
+            "households": "七百四十一"
+          },
+          {
+            "name": "昆山县",
+            "is_capital_county": false,
+            "households": "三百四十四"
+          },
+          {
+            "name": "常熟县",
+            "is_capital_county": false,
+            "households": "四百八十"
+          },
+          {
+            "name": "吴江县",
+            "is_capital_county": false,
+            "households": "五百六十七"
+          },
+          {
+            "name": "嘉定县",
+            "is_capital_county": false,
+            "households": "六百六十八"
+          },
+          {
+            "name": "太仓州",
+            "is_capital_county": false,
+            "households": "二百七十五"
+          },
+          {
+            "name": "崇明县",
+            "is_capital_county": false,
+            "households": "一百一十"
+          }
+        ],
+        "name": "苏州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-09005",
+      "item_id": "09-005",
+      "name": "松江府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "9",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "海岸",
+            "distance_li": "一百"
+          },
+          {
+            "direction": "西",
+            "to_place": "苏州府长洲县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "南",
+            "to_place": "海岸",
+            "distance_li": "七十"
+          },
+          {
+            "direction": "北",
+            "to_place": "苏州府昆山县界",
+            "distance_li": "八十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "八百"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师华亭县",
+            "is_capital_county": true,
+            "households": "八百一十一"
+          },
+          {
+            "name": "上海县",
+            "is_capital_county": false,
+            "households": "六百四十九"
+          },
+          {
+            "name": "青浦县",
+            "is_capital_county": false,
+            "households": "一百九十五"
+          }
+        ],
+        "name": "松江府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-10006",
+      "item_id": "10-006",
+      "name": "常州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "10",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "浙江湖州府长兴县界",
+            "distance_li": "二百"
+          },
+          {
+            "direction": "西",
+            "to_place": "镇江府丹阳县界",
+            "distance_li": "五十五"
+          },
+          {
+            "direction": "南",
+            "to_place": "应天府溧阳县界",
+            "distance_li": "一百八十"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬州府防兴县界",
+            "distance_li": "六十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "三百六十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师武进县",
+            "is_capital_county": true,
+            "households": "四百五十七"
+          },
+          {
+            "name": "无锡县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "江隂县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "宜兴县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "靖江县",
+            "is_capital_county": false,
+            "households": null
+          }
+        ],
+        "name": "常州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-11007",
+      "item_id": "11-007",
+      "name": "镇江府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "11",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "常州府宜兴县界",
+            "distance_li": "七十五"
+          },
+          {
+            "direction": "西",
+            "to_place": "应天府句容县界",
+            "distance_li": "四十五"
+          },
+          {
+            "direction": "南",
+            "to_place": "常州府武进县界",
+            "distance_li": "一百一十七"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬子江",
+            "distance_li": "二"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "一百八十"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "三十一万五千",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "隶京师丹徒县",
+            "is_capital_county": true,
+            "households": "二百四十"
+          },
+          {
+            "name": "丹阳县",
+            "is_capital_county": false,
+            "households": "一百四十四"
+          },
+          {
+            "name": "金坛县",
+            "is_capital_county": false,
+            "households": "一百四十"
+          }
+        ],
+        "name": "镇江府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-13008",
+      "item_id": "13-008",
+      "name": "淮安府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "13",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "海岸",
+            "distance_li": "二百三十"
+          },
+          {
+            "direction": "西",
+            "to_place": "鳯阳府虹县界",
+            "distance_li": "三百一十"
+          },
+          {
+            "direction": "南",
+            "to_place": "扬州府寳应县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "北",
+            "to_place": "山东青州府营州界",
+            "distance_li": "四百五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "四十万二千八百",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "师县九山阳县",
+            "is_capital_county": true,
+            "households": null
+          },
+          {
+            "name": "盐城县",
+            "is_capital_county": false,
+            "households": "八十九"
+          },
+          {
+            "name": "清河县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "安东县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "桃源县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "沭阳县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "海州",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "贑榆县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "邳州",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "宿迁县",
+            "is_capital_county": false,
+            "households": "五十九"
+          },
+          {
+            "name": "睢宁县",
+            "is_capital_county": false,
+            "households": "三十四"
+          }
+        ],
+        "name": "淮安府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-14009",
+      "item_id": "14-009",
+      "name": "庐州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "14",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "和州含山县界",
+            "distance_li": "一百九十"
+          },
+          {
+            "direction": "西",
+            "to_place": "河南汝宁府固始县界",
+            "distance_li": "三百五十"
+          },
+          {
+            "direction": "南",
+            "to_place": "安庆府桐城县界",
+            "distance_li": "一百八十"
+          },
+          {
+            "direction": "北",
+            "to_place": "鳯阳府定逺县界",
+            "distance_li": "一百八十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百一十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "师县六合肥县",
+            "is_capital_county": true,
+            "households": "六十"
+          },
+          {
+            "name": "舒城县",
+            "is_capital_county": false,
+            "households": "四十五"
+          },
+          {
+            "name": "庐江县",
+            "is_capital_county": false,
+            "households": "二十"
+          },
+          {
+            "name": "无为州",
+            "is_capital_county": false,
+            "households": "四十五"
+          },
+          {
+            "name": "巢县",
+            "is_capital_county": false,
+            "households": "二十"
+          },
+          {
+            "name": "六安州",
+            "is_capital_county": false,
+            "households": "五十"
+          },
+          {
+            "name": "英山县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "霍山县",
+            "is_capital_county": false,
+            "households": "一十"
+          }
+        ],
+        "name": "庐州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-14010",
+      "item_id": "14-010",
+      "name": "安庆府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "14",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "庐州府无为州界",
+            "distance_li": "三百七十"
+          },
+          {
+            "direction": "西",
+            "to_place": "湖广黄州府黄梅县界",
+            "distance_li": "二百一十"
+          },
+          {
+            "direction": "南",
+            "to_place": "池州府东流县界",
+            "distance_li": "五"
+          },
+          {
+            "direction": "北",
+            "to_place": "庐州府舒城县界",
+            "distance_li": "二百一十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "七百四十五"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师懐宁县",
+            "is_capital_county": true,
+            "households": "四十二"
+          },
+          {
+            "name": "桐城县",
+            "is_capital_county": false,
+            "households": "四十九"
+          },
+          {
+            "name": "潜山县",
+            "is_capital_county": false,
+            "households": "四十四"
+          },
+          {
+            "name": "太湖县",
+            "is_capital_county": false,
+            "households": "五十七"
+          },
+          {
+            "name": "宿松县",
+            "is_capital_county": false,
+            "households": "三十八"
+          },
+          {
+            "name": "望江县",
+            "is_capital_county": false,
+            "households": "十五"
+          }
+        ],
+        "name": "安庆府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-15011",
+      "item_id": "15-011",
+      "name": "太平府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "15",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "应天府溧水县界",
+            "distance_li": "一百一十"
+          },
+          {
+            "direction": "西",
+            "to_place": "和州界",
+            "distance_li": "三十"
+          },
+          {
+            "direction": "南",
+            "to_place": "宁国府宣城县界",
+            "distance_li": "七十"
+          },
+          {
+            "direction": "北",
+            "to_place": "应天府江宁县界",
+            "distance_li": "五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "一百五十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师当涂县",
+            "is_capital_county": true,
+            "households": "一百三十九"
+          },
+          {
+            "name": "芜湖县",
+            "is_capital_county": false,
+            "households": "三十三"
+          },
+          {
+            "name": "繁昌县",
+            "is_capital_county": false,
+            "households": "一十二"
+          }
+        ],
+        "name": "太平府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-15012",
+      "item_id": "15-012",
+      "name": "宁国府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "15",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "广徳州建平县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "西",
+            "to_place": "池州府青阳县界",
+            "distance_li": "一百六十"
+          },
+          {
+            "direction": "南",
+            "to_place": "徽州府绩溪县界",
+            "distance_li": "二百二十"
+          },
+          {
+            "direction": "北",
+            "to_place": "太平府当涂县界",
+            "distance_li": "一百五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "四百二十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师宣城县",
+            "is_capital_county": true,
+            "households": "二百一十七"
+          },
+          {
+            "name": "宁国县",
+            "is_capital_county": false,
+            "households": "五十六"
+          },
+          {
+            "name": "泾县",
+            "is_capital_county": false,
+            "households": "六十四"
+          },
+          {
+            "name": "太平县",
+            "is_capital_county": false,
+            "households": "一十九"
+          },
+          {
+            "name": "旌徳县",
+            "is_capital_county": false,
+            "households": "四十"
+          },
+          {
+            "name": "南陵县",
+            "is_capital_county": false,
+            "households": "八十五"
+          }
+        ],
+        "name": "宁国府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-16013",
+      "item_id": "16-013",
+      "name": "池州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "16",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "宁国府南陵县界",
+            "distance_li": "一百四十"
+          },
+          {
+            "direction": "西",
+            "to_place": "江西九江府彭泽县界",
+            "distance_li": "一百四十"
+          },
+          {
+            "direction": "南",
+            "to_place": "徽州府祁门县界",
+            "distance_li": "一百九十"
+          },
+          {
+            "direction": "北",
+            "to_place": "安庆府桐城县界",
+            "distance_li": "三十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "六百"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师贵池县",
+            "is_capital_county": true,
+            "households": "三十九"
+          },
+          {
+            "name": "青阳县",
+            "is_capital_county": false,
+            "households": "一十七"
+          },
+          {
+            "name": "铜陵县",
+            "is_capital_county": false,
+            "households": "一十五"
+          },
+          {
+            "name": "石埭县",
+            "is_capital_county": false,
+            "households": "一十一"
+          },
+          {
+            "name": "建徳县",
+            "is_capital_county": false,
+            "households": "九"
+          },
+          {
+            "name": "东流县",
+            "is_capital_county": false,
+            "households": "七"
+          }
+        ],
+        "name": "池州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-16014",
+      "item_id": "16-014",
+      "name": "徽州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "16",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "浙江杭州府昌化县界",
+            "distance_li": "一百二十"
+          },
+          {
+            "direction": "西",
+            "to_place": "江西饶州府浮梁县界",
+            "distance_li": "二百七十"
+          },
+          {
+            "direction": "南",
+            "to_place": "浙江衢州府开化县界",
+            "distance_li": "一百八十"
+          },
+          {
+            "direction": "北",
+            "to_place": "宁国府太平县界",
+            "distance_li": "一百七十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "七百二十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "直隶京师歙县",
+            "is_capital_county": true,
+            "households": "二百六十五"
+          },
+          {
+            "name": "休寜县",
+            "is_capital_county": false,
+            "households": "二百八"
+          },
+          {
+            "name": "婺源县",
+            "is_capital_county": false,
+            "households": "一百二十三"
+          },
+          {
+            "name": "祁门县",
+            "is_capital_county": false,
+            "households": "四十六"
+          },
+          {
+            "name": "黟县",
+            "is_capital_county": false,
+            "households": "二十四"
+          },
+          {
+            "name": "绩溪县",
+            "is_capital_county": false,
+            "households": "二十五"
+          }
+        ],
+        "name": "徽州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-17015",
+      "item_id": "17-015",
+      "name": "广徳州",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "17",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "浙江湖州府长兴县界",
+            "distance_li": "三十"
+          },
+          {
+            "direction": "西",
+            "to_place": "寜国府宣城县界",
+            "distance_li": "一百"
+          },
+          {
+            "direction": "南",
+            "to_place": "湖州府安吉县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "北",
+            "to_place": "应天府溧阳县界",
+            "distance_li": "七十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "十七里建平县",
+            "is_capital_county": false,
+            "households": "一百二十"
+          }
+        ],
+        "name": "广徳州",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-001",
+      "item_id": "19-001",
+      "name": "太原府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-002",
+        "GEO-003"
+      ],
+      "volume_range": "卷19",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "真定府井陉县界",
+            "distance_li": 375
+          },
+          {
+            "direction": "南",
+            "to_place": "沁州武乡县界",
+            "distance_li": 210
+          },
+          {
+            "direction": "西",
+            "to_place": "陕西延安府吴堡县界",
+            "distance_li": 505
+          },
+          {
+            "direction": "北",
+            "to_place": "大同府马邑县界",
+            "distance_li": 355
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1200
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2400
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领州六县二十二"
+        },
+        "grain_tax": {
+          "amount": 570000,
+          "unit": "石",
+          "note": "粮五十七万零"
+        },
+        "jun_name": "晋阳(古名)/太原(秦名)/冀宁(元名)",
+        "topography": "左有恒山之险右有大河之固【魏牵招说高干】句注险阻【晋句注碑】灵山角立【唐柳宗元送文畅登五台序】襟四塞控五原【唐李白饯王赞序】还绕一郡之内得沾水之胜【平定州志】南有石岭之关北有云内之塞【忻州志】",
+        "customs": "好乐无荒【诗唐风】文字盛兴【通典山西土瘠其人勤俭魏晋以降文字盛兴】忧深思远【诗集注】淳俭好学【太原图册】人物辈出【太原图经】民风清简【元志】民性质朴【忻州志】",
+        "garrisons": [
+          {
+            "name": "太原左卫",
+            "type": "卫",
+            "location_text": "在府城内西南洪武三年建"
+          },
+          {
+            "name": "太原右卫",
+            "type": "卫",
+            "location_text": "在府城内东南洪武三年建"
+          },
+          {
+            "name": "太原前卫",
+            "type": "卫",
+            "location_text": "在府城西南洪武三年建"
+          },
+          {
+            "name": "振武卫",
+            "type": "卫",
+            "location_text": "在代州城内东南洪武二十三年建"
+          },
+          {
+            "name": "镇西卫",
+            "type": "卫",
+            "location_text": "在岢岚州城内之西洪武七年建"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "晋王府",
+            "location_text": "在府城内之东洪武九年建"
+          },
+          {
+            "name": "庆成王府",
+            "location_text": "在府城内东南永乐三年建"
+          },
+          {
+            "name": "宁化王府",
+            "location_text": "在府城内东南永乐七年建"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-001",
+      "item_id": "20-001",
+      "name": "平阳府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-002",
+        "GEO-003"
+      ],
+      "volume_range": "卷20",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "泽州沁水县界",
+            "distance_li": 155
+          },
+          {
+            "direction": "南",
+            "to_place": "黄河岸",
+            "distance_li": 365
+          },
+          {
+            "direction": "西",
+            "to_place": "黄河岸",
+            "distance_li": 310
+          },
+          {
+            "direction": "北",
+            "to_place": "汾州孝义县界",
+            "distance_li": 320
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1800
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2400
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领州六县二十九"
+        },
+        "grain_tax": {
+          "amount": 1109000,
+          "unit": "石",
+          "note": "粮一百一十万九千石零"
+        },
+        "jun_name": "河东(秦名)/平河(隋名)/晋宁(元名)",
+        "topography": "被山带河天下要地【三国志杜畿传】晋之故封【唐柳宗元晋问】水陆形势【唐元载中都议】表里河山【平阳志】面岭背冈【解州志】介两河间【绛州志】据山川之胜【霍州志】皆崎岖之地【郡志】",
+        "customs": "尧之遗风【唐柳宗元晋问】忧深思远【平阳志】虞夏治迹【河中志】俗崇礼让【解梁志】人多勇敢【绛州志】其民勤俭【霍州志】其性朴实【郡志】民淳事简【元赵孟頫送田衍知河中府序】",
+        "garrisons": [
+          {
+            "name": "平阳卫",
+            "type": "卫",
+            "location_text": "在府治东永乐元年建"
+          },
+          {
+            "name": "蒲州守御千户所",
+            "type": "所",
+            "location_text": "在府城东洪武二年建"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "交城王府",
+            "location_text": "在府城西北隅"
+          },
+          {
+            "name": "阳曲王府",
+            "location_text": "在府城西北隅"
+          },
+          {
+            "name": "西河王府",
+            "location_text": "在府城西北隅"
+          },
+          {
+            "name": "山阴王府",
+            "location_text": "在蒲州"
+          },
+          {
+            "name": "襄垣王府",
+            "location_text": "在蒲州"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-21001",
+      "item_id": "21-001",
+      "name": "大同府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21002",
+        "GEO-21003",
+        "GEO-21004",
+        "GEO-21005"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "直隶保安州深井界",
+            "distance_li": 360
+          },
+          {
+            "direction": "南",
+            "to_place": "太原府代州鴈门关界",
+            "distance_li": 290
+          },
+          {
+            "direction": "西",
+            "to_place": "大同右卫黄土山墩界",
+            "distance_li": 230
+          },
+          {
+            "direction": "北",
+            "to_place": "本府旧宣宁县猫儿庄界",
+            "distance_li": 120
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 900
+          },
+          {
+            "capital": "南京",
+            "distance_li": 3500
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领州四县七，编户散见各州县"
+        },
+        "grain_tax": {
+          "amount": 126000,
+          "unit": "石",
+          "note": "粮一十二万六千石零"
+        },
+        "jun_name": "云中/代郡",
+        "topography": "北临广野【寰宇记】绵亘千里【同上】用武之地【通鉴】京师藩屏【郡志】三面临边最号要害",
+        "customs": "质直朴野【汉志】俗尚武艺【郡志】垦田为生【应州图经】淳厚守业【浑源州图经】节用恭谦【元志】去华从俭【同上】",
+        "garrisons": [
+          {
+            "name": "山西行都司",
+            "type": "司",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "大同前卫",
+            "type": "卫",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "大同后卫",
+            "type": "卫",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "朔州卫",
+            "type": "卫",
+            "location_text": "在朔州治东"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "代王府",
+            "location_text": "在府治东洪武二十五年建"
+          },
+          {
+            "name": "广灵王府",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "潞城王府",
+            "location_text": "在府城内"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21001",
+        "CIT-21002",
+        "CIT-21003",
+        "CIT-21004",
+        "CIT-21005"
+      ]
+    },
+    {
+      "geo_id": "GEO-21101",
+      "item_id": "21-002",
+      "name": "潞安府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21102"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河南彰德府林县界",
+            "distance_li": 170
+          },
+          {
+            "direction": "西",
+            "to_place": "平阳府岳阳县界",
+            "distance_li": 150
+          },
+          {
+            "direction": "南",
+            "to_place": "泽州高平县界",
+            "distance_li": 75
+          },
+          {
+            "direction": "北",
+            "to_place": "辽州界",
+            "distance_li": 200
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1300
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2260
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领县八，编户散见各州县"
+        },
+        "grain_tax": {
+          "amount": 203800,
+          "unit": "石",
+          "note": "粮二十万三千八百石零"
+        },
+        "jun_name": "上党/昭义/隆德",
+        "topography": "居天下之脊当河朔之喉【唐文粹】肘京洛而履蒲津倚太原而跨河朔【唐杜牧贺平泽潞启】河东雄胜之地【元潞州公廨记】",
+        "customs": "民俗醇古【郡志】民多俭质而力农，士尚气节而务学【同上】",
+        "garrisons": [
+          {
+            "name": "潞州卫",
+            "type": "卫",
+            "location_text": "在府治南洪武元年建"
+          },
+          {
+            "name": "沈阳中护卫",
+            "type": "卫",
+            "location_text": "在府城内永乐七年为沈府置"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "沈王府",
+            "location_text": "在府治东永乐六年建"
+          },
+          {
+            "name": "陵川王府",
+            "location_text": "在府城内"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21101",
+        "CIT-21102",
+        "CIT-21103"
+      ]
+    },
+    {
+      "geo_id": "GEO-21201",
+      "item_id": "21-003",
+      "name": "汾州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21202"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "太原府祈县界",
+            "distance_li": 140
+          },
+          {
+            "direction": "西",
+            "to_place": "太原府石州界",
+            "distance_li": 60
+          },
+          {
+            "direction": "南",
+            "to_place": "平阳府灵石县界",
+            "distance_li": 100
+          },
+          {
+            "direction": "北",
+            "to_place": "太原府文水县界",
+            "distance_li": 50
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1380
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2430
+          }
+        ],
+        "households": {
+          "count": 95,
+          "unit": "里",
+          "note": "编户九十五里，领县四"
+        },
+        "grain_tax": {
+          "amount": 151000,
+          "unit": "石",
+          "note": "粮一十五万一千石"
+        },
+        "jun_name": "西河/汾阳",
+        "topography": "美哉山河之固【史记】山川峭拔【郡志】",
+        "customs": "其民重厚知义尚信好文【郡志】其人勤俭【文献通考】",
+        "garrisons": [
+          {
+            "name": "汾州卫",
+            "type": "卫",
+            "location_text": "在州城内三贤坊，洪武二十四年建守御千户所，正德中升为卫"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "庆成王府",
+            "location_text": "在州城内同节坊，永乐十一年改旧州治建"
+          },
+          {
+            "name": "永和王府",
+            "location_text": "在州城内安静坊，永乐十二年改旧千户所治建"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21201",
+        "CIT-21202",
+        "CIT-21203"
+      ]
+    },
+    {
+      "geo_id": "GEO-21301",
+      "item_id": "21-004",
+      "name": "辽州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21302"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河南彰德府磁州武安县界",
+            "distance_li": 140
+          },
+          {
+            "direction": "南",
+            "to_place": "沁州武乡县界",
+            "distance_li": 40
+          },
+          {
+            "direction": "西",
+            "to_place": "太原府太谷县界",
+            "distance_li": 190
+          },
+          {
+            "direction": "北",
+            "to_place": "平定州乐平县界",
+            "distance_li": 130
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1200
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2420
+          }
+        ],
+        "households": {
+          "count": 27,
+          "unit": "里",
+          "note": "编户二十七里，领县二"
+        },
+        "grain_tax": {
+          "amount": 2600,
+          "unit": "石",
+          "note": "粮二千六百石零"
+        },
+        "jun_name": "乐平",
+        "topography": "山川险峻地少平川【元志】地居太行绝顶【州志】",
+        "customs": "其民信实纯厚【元志】其俗刚悍朴直【郡志】朴实少文【同上】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-21301",
+        "CIT-21302",
+        "CIT-21303"
+      ]
+    },
+    {
+      "geo_id": "GEO-21401",
+      "item_id": "21-005",
+      "name": "沁州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21402"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "潞安府界",
+            "distance_li": 210
+          },
+          {
+            "direction": "西",
+            "to_place": "平阳府霍州界",
+            "distance_li": 250
+          },
+          {
+            "direction": "南",
+            "to_place": "潞安府界",
+            "distance_li": 350
+          },
+          {
+            "direction": "北",
+            "to_place": "太原府太谷县界",
+            "distance_li": 330
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1700
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2400
+          }
+        ],
+        "households": {
+          "count": 66,
+          "unit": "里",
+          "note": "编户六十六里，领县二"
+        },
+        "grain_tax": {
+          "amount": 48200,
+          "unit": "石",
+          "note": "粮四万八千二百石零"
+        },
+        "jun_name": "义宁/阳城",
+        "topography": "铜鞮案其前龟山镇其后【郡志】",
+        "customs": "专力耕农少事商贾【州志：其俗勤俭朴实，专力耕农，少事商贾】",
+        "garrisons": [
+          {
+            "name": "沁州守御千户所",
+            "type": "所",
+            "location_text": "在州治西，本朝洪武十一年建"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-21401",
+        "CIT-21402",
+        "CIT-21403"
+      ]
+    },
+    {
+      "geo_id": "GEO-21501",
+      "item_id": "21-006",
+      "name": "泽州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21502"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河南卫辉府辉县界",
+            "distance_li": 410
+          },
+          {
+            "direction": "西",
+            "to_place": "平阳府翼城县界",
+            "distance_li": 290
+          },
+          {
+            "direction": "南",
+            "to_place": "河南怀庆府河内县界",
+            "distance_li": 140
+          },
+          {
+            "direction": "北",
+            "to_place": "潞安府长子县界",
+            "distance_li": 190
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1800
+          },
+          {
+            "capital": "南京",
+            "distance_li": 1800
+          }
+        ],
+        "households": {
+          "count": 167,
+          "unit": "里",
+          "note": "编户一百六十七里，领县四"
+        },
+        "grain_tax": {
+          "amount": 46600,
+          "unit": "石",
+          "note": "粮四万六千六百石零"
+        },
+        "jun_name": "高都/长平",
+        "topography": "太行险固【唐奏议：泽州全有太行之险固，实为东洛之藩垣】山川环抱【旧郡志：泽州在唐为雄镇，山川环抱，有自然之险】山高涧深道路险窄【州志】",
+        "customs": "性质气豪【元志：人性质而好学，其气豪劲】俭朴敦本【同上：其民俭朴而敦本，有唐晋之遗风】力勤耕种【郡志】民淳而好义俭而用礼【同上】",
+        "garrisons": [
+          {
+            "name": "宁山卫",
+            "type": "卫",
+            "location_text": "在州治东北隅，洪武十一年建，直隶"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "宣宁王府",
+            "location_text": "在州城内，天顺五年自大同迁此"
+          },
+          {
+            "name": "隰川王府",
+            "location_text": "在州城内，天顺五年自大同迁此"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21501",
+        "CIT-21502",
+        "CIT-21503",
+        "CIT-21504"
+      ]
+    },
+    {
+      "geo_id": "GEO-88001",
+      "item_id": "88-001",
+      "name": "贵阳府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88001-c01",
+        "GEO-88001-t01",
+        "GEO-88001-t02",
+        "GEO-88001-t03",
+        "GEO-88001-t04",
+        "GEO-88001-t05",
+        "GEO-88001-t06",
+        "GEO-88001-t07",
+        "GEO-88001-t08",
+        "GEO-88001-t09",
+        "GEO-88001-t10",
+        "GEO-88001-t11",
+        "GEO-88001-t12",
+        "GEO-88001-t13",
+        "GEO-88001-t14",
+        "GEO-88001-t15"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "龙里卫界",
+            "distance_li": 90
+          },
+          {
+            "direction": "西",
+            "to_place": "安顺州界",
+            "distance_li": 70
+          },
+          {
+            "direction": "南",
+            "to_place": "广西泗城州界",
+            "distance_li": 90
+          },
+          {
+            "direction": "北",
+            "to_place": "旧程番府界",
+            "distance_li": 40
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4390
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7730
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 6500,
+          "unit": "石",
+          "note": "粮六千五百石零"
+        },
+        "jun_name": "",
+        "topography": "东阻五溪，西距盘江【贵州志】",
+        "customs": "夷人种类非一（罗罗、宋家、蔡家、仲家、龙家、犵狫、苗等），习俗各异【旧志】；本朝儒教渐兴，冠婚丧祭渐效中国，间有登科出仕者",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002"
+      ]
+    },
+    {
+      "geo_id": "GEO-88001-c01",
+      "item_id": "88-001",
+      "name": "新贵县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭，万厯中新设"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t01",
+      "item_id": "88-001",
+      "name": "贵竹长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t02",
+      "item_id": "88-001",
+      "name": "水东长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北三里，元为水东寨长官司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t03",
+      "item_id": "88-001",
+      "name": "中曹蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北十五里，元置中曹百纳等处长官司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t04",
+      "item_id": "88-001",
+      "name": "上马桥长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南七十里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t05",
+      "item_id": "88-001",
+      "name": "小程番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南七十里，元置本朝因之"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t06",
+      "item_id": "88-001",
+      "name": "卢番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南八十五里，元至元中置卢番静海军安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t07",
+      "item_id": "88-001",
+      "name": "程番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南八十五里，元至元十六年置程番武胜军安抚司，本朝改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t08",
+      "item_id": "88-001",
+      "name": "韦番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南九十五里，元置本朝因之"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t09",
+      "item_id": "88-001",
+      "name": "方番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南九十里，元至元中置方番河中府安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t10",
+      "item_id": "88-001",
+      "name": "洪番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西南九十里，元至元中置洪番永盛军安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t11",
+      "item_id": "88-001",
+      "name": "卧龙番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百里，元至元中置卧龙番南宁州安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t12",
+      "item_id": "88-001",
+      "name": "金石番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西南一百里，元至元中置金石番太平军安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t13",
+      "item_id": "88-001",
+      "name": "小龙番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百三里，元至元中置小龙番应天府安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t14",
+      "item_id": "88-001",
+      "name": "大龙番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百一十里，元至元中置大龙番应天府安抚司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88001-t15",
+      "item_id": "88-001",
+      "name": "罗番长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88001",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百一十五里，元至元中置罗番遏蛮军安抚司，本朝改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002",
+      "item_id": "88-002",
+      "name": "贵州宣慰使司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88002-t01",
+        "GEO-88002-t02",
+        "GEO-88002-t03",
+        "GEO-88002-t04",
+        "GEO-88002-t05",
+        "GEO-88002-t06",
+        "GEO-88002-t07",
+        "GEO-88002-t08"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "龙里卫界",
+            "distance_li": 50
+          },
+          {
+            "direction": "西",
+            "to_place": "四川乌撒军民府界",
+            "distance_li": 905
+          },
+          {
+            "direction": "南",
+            "to_place": "广西泗城州界",
+            "distance_li": 250
+          },
+          {
+            "direction": "北",
+            "to_place": "四川播州宣慰司界",
+            "distance_li": 250
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4250
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7660
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 1800,
+          "unit": "石",
+          "note": "粮一千八百石零"
+        },
+        "jun_name": "",
+        "topography": "滇南之门户【贵州志】；山广箐深，重冈叠寨【贵州志】；据诸夷丛聚之地【新志】",
+        "customs": "疾病不识医药，被毡衫以为礼【宣慰司志】；冠婚丧祭颇效中华【贵州志】；男子以白布裹额【安抚司志】",
+        "garrisons": [
+          {
+            "name": "贵州卫",
+            "type": "卫",
+            "location_text": "在城内西，本朝洪武四年建"
+          },
+          {
+            "name": "贵州前卫",
+            "type": "卫",
+            "location_text": "在城西北隅，洪武二十六年建；俱隶贵州都指挥使司"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002"
+      ]
+    },
+    {
+      "geo_id": "GEO-88002-t01",
+      "item_id": "88-002",
+      "name": "青山长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城东北四十里，元为青山远地等处蛮夷长官司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t02",
+      "item_id": "88-002",
+      "name": "札佐长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城北五十里，元置落邦札佐等处长官司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t03",
+      "item_id": "88-002",
+      "name": "龙里长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城东五十里，元为龙里等寨长官司，本朝改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t04",
+      "item_id": "88-002",
+      "name": "白纳长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城东北七十里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t05",
+      "item_id": "88-002",
+      "name": "底寨长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城北一百里，元置本朝因之"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t06",
+      "item_id": "88-002",
+      "name": "乖西蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城东北一百五十里，元皇庆中置乖西军民府"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t07",
+      "item_id": "88-002",
+      "name": "养龙坑长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司城北二百二十五里，元为养龙坑宿征等处长官司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t08-t01",
+      "item_id": "88-002",
+      "name": "木瓜长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002-t08",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在金筑安抚司东一百里，元为罗赖州军民长官司，本朝改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t08-t02",
+      "item_id": "88-002",
+      "name": "卢山长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002-t08",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在金筑安抚司东一百二十里，元置，正统中改属宣慰司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t08-t03",
+      "item_id": "88-002",
+      "name": "麻向长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002-t08",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在金筑安抚司东一百一十里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t08-t04",
+      "item_id": "88-002",
+      "name": "大华长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002-t08",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在金筑安抚司东一百二十里，洪武中置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88002-t08",
+      "item_id": "88-002",
+      "name": "金筑安抚司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88002",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在宣慰司南二十里，元始置金筑府，洪武十年改金筑安抚司，正统四年改属贵州布政司，隆庆三年改今属，领长官司四"
+      },
+      "children": [
+        "GEO-88002-t08-t01",
+        "GEO-88002-t08-t02",
+        "GEO-88002-t08-t03",
+        "GEO-88002-t08-t04"
+      ]
+    },
+    {
+      "geo_id": "GEO-88003",
+      "item_id": "88-003",
+      "name": "思州府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88003-t01",
+        "GEO-88003-t02",
+        "GEO-88003-t03",
+        "GEO-88003-t04"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "湖广辰州府沅州界",
+            "distance_li": 90
+          },
+          {
+            "direction": "西",
+            "to_place": "镇远府界",
+            "distance_li": 100
+          },
+          {
+            "direction": "南",
+            "to_place": "黎平府界",
+            "distance_li": 220
+          },
+          {
+            "direction": "北",
+            "to_place": "铜仁府界",
+            "distance_li": 220
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4200
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7720
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 800,
+          "unit": "石",
+          "note": "粮八百石零"
+        },
+        "jun_name": "宁夷(唐名)",
+        "topography": "东连沅靖西抵涪渝，作湖广之唇齿，扼槃瓠之喉襟，实西南雄胜之地【郡志】；地连溪洞【文献通考】；重山环抱溪流萦带【府志】",
+        "customs": "民性刚悍，外痴内防【郡志】；刻木为契；病事鸡卜瓦卦；椎髻跣足，本朝声教渐染夷风丕变【郡志】；祭鬼弭灾【府志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002"
+      ]
+    },
+    {
+      "geo_id": "GEO-88003-t01",
+      "item_id": "88-003",
+      "name": "都坪峨异溪蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88003",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭，永乐十一年置，编户四里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88003-t02",
+      "item_id": "88-003",
+      "name": "都素蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88003",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西六十里，永乐十一年置，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88003-t03",
+      "item_id": "88-003",
+      "name": "施溪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88003",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百四十里，元置施溪样头长官司，洪武五年改今名，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88003-t04",
+      "item_id": "88-003",
+      "name": "黄道溪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88003",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百二十里，元置本朝因之，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88004",
+      "item_id": "88-004",
+      "name": "思南府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88004-c01",
+        "GEO-88004-c02",
+        "GEO-88004-t01",
+        "GEO-88004-t02",
+        "GEO-88004-t03",
+        "GEO-88004-t04"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "铜仁府界",
+            "distance_li": 390
+          },
+          {
+            "direction": "西",
+            "to_place": "四川播州宣慰使司界",
+            "distance_li": 400
+          },
+          {
+            "direction": "南",
+            "to_place": "石阡府界",
+            "distance_li": 140
+          },
+          {
+            "direction": "北",
+            "to_place": "四川涪州彭水县界",
+            "distance_li": 650
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4405
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7395
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 1800,
+          "unit": "石",
+          "note": "粮一千八百石零"
+        },
+        "jun_name": "宁夷(唐名)",
+        "topography": "务川当牂牁要路【唐书】；东接酉江西连锦播，诚控夷咽喉之墟【郡志】；山川险阻狸獠所居【文献通考】；群峰叠翠一水萦流【府志】",
+        "customs": "蛮獠杂居言语各异【寰宇记】；汉民尚朴【元志】；信巫屏医击鼓迎客刀耕火种【寰宇记】；夷獠渐被德化务本力穑【郡志】；唱歌耕种【府志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-88004-c01",
+      "item_id": "88-004",
+      "name": "婺川县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88004",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北二百四十里，本隋务川县，本朝改婺川县，编户五里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88004-c02",
+      "item_id": "88-004",
+      "name": "印江县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88004",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东三十里，元为思印江等处地，本朝寻改为县，编户四里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88004-t01",
+      "item_id": "88-004",
+      "name": "水德江长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88004",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府治北，元为水特姜长官司，本朝改今名，编户四里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88004-t02",
+      "item_id": "88-004",
+      "name": "蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88004",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府治南，洪武十年置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88004-t03",
+      "item_id": "88-004",
+      "name": "沿河祐溪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88004",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北二百一十里，元为沿河祐溪等处长官司，本朝改今属，编户三里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88004-t04",
+      "item_id": "88-004",
+      "name": "朗溪蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88004",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东四十五里，洪武十年置，正统四年废乌罗府仍属思南府，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88005",
+      "item_id": "88-005",
+      "name": "镇远府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88005-c01",
+        "GEO-88005-c02",
+        "GEO-88005-t01",
+        "GEO-88005-t02",
+        "GEO-88005-t03"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "思州府界",
+            "distance_li": 120
+          },
+          {
+            "direction": "西",
+            "to_place": "兴隆卫界",
+            "distance_li": 120
+          },
+          {
+            "direction": "北",
+            "to_place": "石阡府界",
+            "distance_li": 180
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4400
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7930
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 800,
+          "unit": "石",
+          "note": "粮八百石零"
+        },
+        "jun_name": "",
+        "topography": "溪河旋绕山岩森列【郡志】；东通沅水西接贵州【府志】",
+        "customs": "习俗质野服用俭约【郡志】；饮食用蕨灰为盐【府志】",
+        "garrisons": [
+          {
+            "name": "镇远卫",
+            "type": "卫",
+            "location_text": "在府治西，洪武二十二年建"
+          },
+          {
+            "name": "偏桥卫",
+            "type": "卫",
+            "location_text": "在府城西六十里"
+          },
+          {
+            "name": "清浪卫",
+            "type": "卫",
+            "location_text": "在府城东七十五里，洪武二十三年建；俱隶湖广都司"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88005-c01",
+      "item_id": "88-005",
+      "name": "镇远县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88005",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭，元置镇安县寻改安夷县，本朝寻改为县，编户三里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88005-c02",
+      "item_id": "88-005",
+      "name": "施秉县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88005",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西南四十五里，洪武五年改施秉蛮夷长官司，正统十年改为县，编户二里半"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88005-t01",
+      "item_id": "88-005",
+      "name": "偏桥长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88005",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西六十里，元置偏桥中寨蛮夷军民长官司，本朝改置，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88005-t02",
+      "item_id": "88-005",
+      "name": "邛水十五洞蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88005",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东八十里，元置邛水县，洪武五年改置，编户五里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88005-t03",
+      "item_id": "88-005",
+      "name": "臻剖六洞横坡等处长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88005",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "隶镇远卫"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88006",
+      "item_id": "88-006",
+      "name": "石阡府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88006-t01",
+        "GEO-88006-t02",
+        "GEO-88006-t03",
+        "GEO-88006-t04"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "铜仁府提溪长官司界",
+            "distance_li": 180
+          },
+          {
+            "direction": "南",
+            "to_place": "镇远府镇远金容金达蛮夷长官司界",
+            "distance_li": 170
+          },
+          {
+            "direction": "西",
+            "to_place": "四川播州余庆长官司界",
+            "distance_li": 160
+          },
+          {
+            "direction": "北",
+            "to_place": "思南府水德江长官司界",
+            "distance_li": 120
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4000
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7760
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 850,
+          "unit": "石",
+          "note": "粮八百五十石零"
+        },
+        "jun_name": "石阡(元名)",
+        "topography": "高山环绕流水萦回【郡志】；南通镇远北距思南【新志】",
+        "customs": "刻木为记不事文墨【郡志】；男女跣足病专祭鬼【新志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88006-t01",
+      "item_id": "88-006",
+      "name": "石阡长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88006",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭，元置石阡军民长官司，洪武初去军民字，编户五里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88006-t02",
+      "item_id": "88-006",
+      "name": "苗民长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88006",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府西北八十里，洪武十年置，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88006-t03",
+      "item_id": "88-006",
+      "name": "葛彰葛商长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88006",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府西一百里，元为葛彰葛商等处长官司，本朝因之，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88006-t04",
+      "item_id": "88-006",
+      "name": "龙泉坪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88006",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府西一百二十里，元置思州宣抚司旧治于此，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88007",
+      "item_id": "88-007",
+      "name": "铜仁府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88007-c01",
+        "GEO-88007-t01",
+        "GEO-88007-t02",
+        "GEO-88007-t03",
+        "GEO-88007-t04",
+        "GEO-88007-t05"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "思州府施溪长官司界",
+            "distance_li": 70
+          },
+          {
+            "direction": "南",
+            "to_place": "黄道溪长官司界",
+            "distance_li": 70
+          },
+          {
+            "direction": "西",
+            "to_place": "思南府思印江长官司界",
+            "distance_li": 200
+          },
+          {
+            "direction": "北",
+            "to_place": "四川邑楼长官司界",
+            "distance_li": 220
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4270
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7800
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 1170,
+          "unit": "石",
+          "note": "粮一千一百七十石零"
+        },
+        "jun_name": "",
+        "topography": "群山环绕二水合流【郡志】；东连麻阳西接思南北控苗界南抵思州【郡志】；高山峻岭穷谷深溪【府志】",
+        "customs": "犵狫性勇而谲，洞人性狡，苗人刚狠轻生，出入常佩刀；惟土人稍知礼义【郡志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88007-c01",
+      "item_id": "88-007",
+      "name": "铜仁县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88007",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭，建置同本府，编户五里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88007-t01",
+      "item_id": "88-007",
+      "name": "省溪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88007",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府西一百里，元置，本朝改今属，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88007-t02",
+      "item_id": "88-007",
+      "name": "提溪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88007",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府西一百四十里，元置，本朝改今属，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88007-t03",
+      "item_id": "88-007",
+      "name": "大万山长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88007",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府南二百里，元置，本朝改今属，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88007-t04",
+      "item_id": "88-007",
+      "name": "乌罗长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88007",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府西二百里，永乐十一年改置乌罗府后废府改今属，编户三里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88007-t05",
+      "item_id": "88-007",
+      "name": "平头著可长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88007",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府北一百二十里，永乐十一年改隶乌罗府府废改今属，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008",
+      "item_id": "88-008",
+      "name": "黎平府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88008-c01",
+        "GEO-88008-t01",
+        "GEO-88008-t02",
+        "GEO-88008-t03",
+        "GEO-88008-t04",
+        "GEO-88008-t05",
+        "GEO-88008-t06",
+        "GEO-88008-t07",
+        "GEO-88008-t08",
+        "GEO-88008-t09",
+        "GEO-88008-t10",
+        "GEO-88008-t11",
+        "GEO-88008-t12",
+        "GEO-88008-t13"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "湖广靖州界",
+            "distance_li": 340
+          },
+          {
+            "direction": "西",
+            "to_place": "镇远府邛水长官司界",
+            "distance_li": 360
+          },
+          {
+            "direction": "南",
+            "to_place": "广西柳州府罗城县界",
+            "distance_li": 500
+          },
+          {
+            "direction": "北",
+            "to_place": "湖广辰州府沅州界",
+            "distance_li": 400
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 2750
+          },
+          {
+            "capital": "京师",
+            "distance_li": 6200
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 2600,
+          "unit": "石",
+          "note": "粮二千六百石零"
+        },
+        "jun_name": "",
+        "topography": "东连靖州西控生苗南通交广北达辰沅，山势森绕脉络相属【郡志】",
+        "customs": "其言鴂舌其性顽【郡志】；病惟祭鬼占用鸡骨【新志】",
+        "garrisons": [
+          {
+            "name": "五开卫",
+            "type": "卫",
+            "location_text": "在府治东北，洪武十八年建"
+          },
+          {
+            "name": "铜鼓卫",
+            "type": "卫",
+            "location_text": "在湖耳长官司西，洪武三十年建，永乐三年复建；俱隶湖广都指挥使司"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88008-c01",
+      "item_id": "88-008",
+      "name": "永从县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南六十里，唐为溪洞福禄州，正统七年改永从县，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t01",
+      "item_id": "88-008",
+      "name": "潭溪蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西南三十里，编户三里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t02",
+      "item_id": "88-008",
+      "name": "八舟蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北二十里，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t03",
+      "item_id": "88-008",
+      "name": "洪州泊里蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东一百五十里，编户四里；以上三长官司俱宋置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t04",
+      "item_id": "88-008",
+      "name": "曹滴洞蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南三十里，元置，本朝以容江巴黄并入，编户六里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t05",
+      "item_id": "88-008",
+      "name": "古州蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西六十里，元置古州八万洞军民长官司，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t06",
+      "item_id": "88-008",
+      "name": "西山阳洞蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东南一百里，古生苗地，永乐五年置，编户二里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t07",
+      "item_id": "88-008",
+      "name": "湖耳蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北一百三十里，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t08",
+      "item_id": "88-008",
+      "name": "亮寨蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北一百里，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t09",
+      "item_id": "88-008",
+      "name": "欧阳蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城北九十里，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t10",
+      "item_id": "88-008",
+      "name": "新化蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西北六十里，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t11",
+      "item_id": "88-008",
+      "name": "中林验洞蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西北一百里，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t12",
+      "item_id": "88-008",
+      "name": "赤溪湳洞蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东北二百里，编户一里"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88008-t13",
+      "item_id": "88-008",
+      "name": "龙里蛮夷长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88008",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西北九十里，编户一里；以上七长官司元俱为军民长官司"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88009",
+      "item_id": "88-009",
+      "name": "普安州",
+      "type": "department",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88009w01",
+        "GEO-88009w02",
+        "GEO-88009w03",
+        "GEO-88009w04"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "普定卫界",
+            "distance_li": 190
+          },
+          {
+            "direction": "西",
+            "to_place": "云南平夷卫界",
+            "distance_li": 120
+          },
+          {
+            "direction": "南",
+            "to_place": "云南广南卫界",
+            "distance_li": 450
+          },
+          {
+            "direction": "北",
+            "to_place": "贵州宣慰使司界",
+            "distance_li": 550
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 5300
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 2800,
+          "unit": "石",
+          "note": "粮二千八百石零"
+        },
+        "jun_name": "牂牁(汉名)/兴古(蜀汉名)",
+        "topography": "据险立城，控蛮夷之襟喉【郡志】；云贵川广之交【郡志】",
+        "customs": "白蛮巧佞专事商贾，阿抇蛮喜诵老佛经【郡志】",
+        "garrisons": [
+          {
+            "name": "晋安卫",
+            "type": "卫",
+            "location_text": "在州治南，洪武二十二年建，隶贵州都司"
+          },
+          {
+            "name": "乐民守御千户所",
+            "type": "所",
+            "location_text": "在州城西南九十里"
+          },
+          {
+            "name": "平夷守御千户所",
+            "type": "所",
+            "location_text": "在州城西一百里"
+          },
+          {
+            "name": "安笼守御千户所",
+            "type": "所",
+            "location_text": "在州城东南三百二十里；各所俱隶普安卫"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88009w01",
+      "item_id": "88-009",
+      "name": "晋安卫",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-88009",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州治南，洪武二十二年建，隶贵州都司"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-88009w02",
+      "item_id": "88-009",
+      "name": "乐民守御千户所",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-88009",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城西南九十里"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-88009w03",
+      "item_id": "88-009",
+      "name": "平夷守御千户所",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-88009",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城西一百里"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-88009w04",
+      "item_id": "88-009",
+      "name": "安笼守御千户所",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-88009",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城东南三百二十里；各所俱隶普安卫"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-88010",
+      "item_id": "88-010",
+      "name": "永宁州",
+      "type": "department",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88010-t01",
+        "GEO-88010-t02"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "镇宁州界",
+            "distance_li": 25
+          },
+          {
+            "direction": "西",
+            "to_place": "慕役长官司界",
+            "distance_li": 40
+          },
+          {
+            "direction": "南",
+            "to_place": "广西泗城州界",
+            "distance_li": 160
+          },
+          {
+            "direction": "北",
+            "to_place": "安顺州宁谷长官司界",
+            "distance_li": 30
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4830
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8200
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 2200,
+          "unit": "石",
+          "note": "粮二千二百石零"
+        },
+        "jun_name": "",
+        "topography": "山川险阻林箐蓊郁【州志】；阻以重山环以众寨【州志】",
+        "customs": "夷有五种（仲家、罗鬼、犵狫、苗、龙家），短衣科头男女自婚【州志】；好佩刀弩以背负物【州志】",
+        "garrisons": [
+          {
+            "name": "永宁卫",
+            "type": "卫",
+            "location_text": "在州治东，成化中建"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88010-t01",
+      "item_id": "88-010",
+      "name": "慕役长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88010",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州西一百七十里，元为慕役寨，洪武十九年置长官司，领四寨"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88010-t02",
+      "item_id": "88-010",
+      "name": "顶营长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88010",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州南一百五十里，元为顶营寨，洪武十九年置长官司，领三寨"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88011",
+      "item_id": "88-011",
+      "name": "镇宁州",
+      "type": "department",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88011-t01",
+        "GEO-88011-t02"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "康佐长官司界",
+            "distance_li": 30
+          },
+          {
+            "direction": "南",
+            "to_place": "永宁州界",
+            "distance_li": 30
+          },
+          {
+            "direction": "西",
+            "to_place": "永宁州界",
+            "distance_li": 50
+          },
+          {
+            "direction": "北",
+            "to_place": "宁谷长官司界",
+            "distance_li": 25
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4860
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8220
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 2600,
+          "unit": "石",
+          "note": "粮二千六百石零"
+        },
+        "jun_name": "",
+        "topography": "重冈峻岭众溪环绕【州志】；山川险阻之墟【新志】",
+        "customs": "夷民杂居风俗各异【州志】；婚姻不分贫富专论牛之多寡为资聘【州志】",
+        "garrisons": [
+          {
+            "name": "安庄卫",
+            "type": "卫",
+            "location_text": "在州治东，洪武二十三年置安庄卫指挥使司，隶贵州都司；成化中移镇宁于卫"
+          },
+          {
+            "name": "关索岭守御千户所",
+            "type": "所",
+            "location_text": "在州南五十里，洪武二十五年置为所"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-88011-t01",
+      "item_id": "88-011",
+      "name": "十二营长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88011",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州北三十里，元为十二营寨，洪武十九年置长官司，领二十九寨"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88011-t02",
+      "item_id": "88-011",
+      "name": "康佐长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88011",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州东四十里，元为康佐寨，洪武十九年置长官司，领四寨"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88012",
+      "item_id": "88-012",
+      "name": "安顺州",
+      "type": "department",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88012-t01",
+        "GEO-88012-t02"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "金筑安抚司界",
+            "distance_li": 70
+          },
+          {
+            "direction": "西",
+            "to_place": "宁谷寨长官司界",
+            "distance_li": 30
+          },
+          {
+            "direction": "南",
+            "to_place": "金筑安抚司剌曹寨",
+            "distance_li": 50
+          },
+          {
+            "direction": "北",
+            "to_place": "镇宁州十二营长官司界",
+            "distance_li": 70
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4910
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8290
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 5000,
+          "unit": "石",
+          "note": "粮五千石零"
+        },
+        "jun_name": "普川(普定卫旧名)",
+        "topography": "崇山峻岭为郛郭，惊涛急流为沟池，实冲要剧地【贵州志】；众山环绕【普定卫志】",
+        "customs": "普定汉夷杂居，汉尚文义，夷习鄙陋【贵州志】；人颇尚义【普定卫志】",
+        "garrisons": [
+          {
+            "name": "普定卫军民指挥使司",
+            "type": "卫",
+            "location_text": "在州城内；洪武十八年府废，二十五年改置普定卫军民指挥使司，正统三年改属贵州都司，成化中移安顺州于卫治，今与同城"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88012-t01",
+      "item_id": "88-012",
+      "name": "宁谷寨长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88012",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州西南三十里，元为寨，洪武十九年置长官司，领二十九寨"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88012-t02",
+      "item_id": "88-012",
+      "name": "西堡长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88012",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州西北九十里，元为寨，洪武十九年置长官司，领四寨"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88013",
+      "item_id": "88-013",
+      "name": "新添卫军民指挥使司",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88013-t01",
+        "GEO-88013-t02",
+        "GEO-88013-t03",
+        "GEO-88013-t04",
+        "GEO-88013-t05"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "平越卫界",
+            "distance_li": 80
+          },
+          {
+            "direction": "西",
+            "to_place": "龙里卫界",
+            "distance_li": 60
+          },
+          {
+            "direction": "南",
+            "to_place": "龙里卫太平伐界",
+            "distance_li": 90
+          },
+          {
+            "direction": "北",
+            "to_place": "杉木箐界",
+            "distance_li": 50
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4730
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8260
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "",
+        "topography": "四山排闼一水萦纡【贵州志】；东界平越西接龙里【卫志】",
+        "customs": "土瘠民贫俗尚俭朴【卫志】；以寅卯丑日为虎场兔场牛场贸易【卫志】；父母死以割发为孝【卫志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88013-t01",
+      "item_id": "88-013",
+      "name": "新添长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88013",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88013-t02",
+      "item_id": "88-013",
+      "name": "小平伐长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88013",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫西南五十里，元为雍真等处蛮夷长官司，洪武十五年改今属"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88013-t03",
+      "item_id": "88-013",
+      "name": "把平寨长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88013",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城南六十里，元置属顺元路，洪武二十九年改今属"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88013-t04",
+      "item_id": "88-013",
+      "name": "丹平长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88013",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城西南一百里，洪武三十年改置，永乐元年复置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88013-t05",
+      "item_id": "88-013",
+      "name": "丹行长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88013",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城西南一百二十里，洪武三十年改置，永乐元年复置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88014",
+      "item_id": "88-014",
+      "name": "平越卫军民指挥使司",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88014-c01",
+        "GEO-88014-c02",
+        "GEO-88014-s01",
+        "GEO-88014-t01"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "清平卫平定长官司界",
+            "distance_li": 70
+          },
+          {
+            "direction": "南",
+            "to_place": "新添卫界",
+            "distance_li": 60
+          },
+          {
+            "direction": "西",
+            "to_place": "四川播州草塘安抚司界",
+            "distance_li": 120
+          },
+          {
+            "direction": "北",
+            "to_place": "黄平安抚司界",
+            "distance_li": 120
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4670
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8200
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "",
+        "topography": "边方冲要之地，苗蛮丛薮之墟【贵州志】；山溪之险【太平桥志】",
+        "customs": "俗尚威武渐知礼义【贵州志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88014-c01",
+      "item_id": "88-014",
+      "name": "湄潭县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88014",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "附郭，新设"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88014-c02",
+      "item_id": "88-014",
+      "name": "余庆县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88014",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西，元为余庆州，本朝初为长官司，万历中改为县"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88014-s01-c01",
+      "item_id": "88-014",
+      "name": "瓮安县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88014-s01",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "新设"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88014-s01-c02",
+      "item_id": "88-014",
+      "name": "龙泉县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88014-s01",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "新设"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88014-s01",
+      "item_id": "88-014",
+      "name": "黄平州",
+      "type": "subprefecture",
+      "region": "贵州",
+      "parent": "GEO-88014",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城西北，宋为黄平府，本朝改安抚司，万历中改为州，领县二"
+      },
+      "children": [
+        "GEO-88014-s01-c01",
+        "GEO-88014-s01-c02"
+      ]
+    },
+    {
+      "geo_id": "GEO-88014-t01",
+      "item_id": "88-014",
+      "name": "杨义长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88014",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城东三十里，洪武中置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88015",
+      "item_id": "88-015",
+      "name": "龙里卫军民指挥使司",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88015-t01",
+        "GEO-88015-t02"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "新添卫界",
+            "distance_li": 30
+          },
+          {
+            "direction": "西",
+            "to_place": "贵州卫界",
+            "distance_li": 25
+          },
+          {
+            "direction": "南",
+            "to_place": "大平伐长官司界",
+            "distance_li": 60
+          },
+          {
+            "direction": "北",
+            "to_place": "贵州宣慰司界",
+            "distance_li": 20
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4850
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8385
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "",
+        "topography": "襟山带水为夷地之胜【卫志】；山环水绕【新志】",
+        "customs": "俗杂醇疵【卫志】；土瘠人贫俗尚俭朴【新志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88015-t01",
+      "item_id": "88-015",
+      "name": "平伐长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88015",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城东南六十里，元为平伐等处长官司，洪武十五年改置，二十八年改属本卫"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88015-t02",
+      "item_id": "88-015",
+      "name": "大平伐长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88015",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城南八十里，洪武十九年置，二十八年改属本卫"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016",
+      "item_id": "88-016",
+      "name": "都匀府",
+      "type": "prefecture",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-88016-t01",
+        "GEO-88016-t02",
+        "GEO-88016-t03",
+        "GEO-88016-t04",
+        "GEO-88016-s01",
+        "GEO-88016-s02"
+      ],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "四川播州宣慰司界",
+            "distance_li": 220
+          },
+          {
+            "direction": "西",
+            "to_place": "龙里卫平伐长官司界",
+            "distance_li": 120
+          },
+          {
+            "direction": "南",
+            "to_place": "广西庆远府南丹州界",
+            "distance_li": 310
+          },
+          {
+            "direction": "北",
+            "to_place": "平越卫平伐长官司界",
+            "distance_li": 100
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4715
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8245
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount": 4900,
+          "unit": "石",
+          "note": "粮四千九百石零"
+        },
+        "jun_name": "",
+        "topography": "控扼要荒，孤城独守，为广西之唇齿、贵州之藩篱【贵州志】；界瓯贵之间壤僻而险【元王训城隍庙碑】；众山环绕一水萦流【都匀卫志】",
+        "customs": "勇于战斗【贵州志】；习俗鄙陋；出入戴笠【都匀卫志】；居无床席手抟饭食【清平长官司志】",
+        "garrisons": [
+          {
+            "name": "都匀卫",
+            "type": "卫",
+            "location_text": "在府城内，成化十年置"
+          },
+          {
+            "name": "清平卫",
+            "type": "卫",
+            "location_text": "在清平县城内，洪武二十二年改置清平卫指挥使司，隶贵州都司；卫与县同城"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002"
+      ]
+    },
+    {
+      "geo_id": "GEO-88016-t01",
+      "item_id": "88-016",
+      "name": "都匀长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城南七里，元为上都云等处军民长官司，洪武十六年改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-t02",
+      "item_id": "88-016",
+      "name": "邦水长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城西二十里，元为中都云板水等处军民长官司地，洪武十六年置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-t03",
+      "item_id": "88-016",
+      "name": "平浪长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城西五十里，元为都匀安抚司地，洪武十六年置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-t04",
+      "item_id": "88-016",
+      "name": "平洲六洞长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在卫城西南一百五十里，元为都匀安抚司地，洪武十六年置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-s01-t01",
+      "item_id": "88-016",
+      "name": "乐平长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016-s01",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城西北五十里，洪武中置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-s01-t02",
+      "item_id": "88-016",
+      "name": "平定长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016-s01",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州西北六十五里，洪武中置，成化中改今属"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-s01",
+      "item_id": "88-016",
+      "name": "麻哈州",
+      "type": "subprefecture",
+      "region": "贵州",
+      "parent": "GEO-88016",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府北一百里，元为犵狫寨，本朝初为麻哈长官司，寻升为州，领长官司二"
+      },
+      "children": [
+        "GEO-88016-s01-t01",
+        "GEO-88016-s01-t02"
+      ]
+    },
+    {
+      "geo_id": "GEO-88016-s02-t01",
+      "item_id": "88-016",
+      "name": "合江洲陈蒙烂土长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016-s02",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城东二百里，元置，洪武十六年改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-s02-t02",
+      "item_id": "88-016",
+      "name": "丰宁长官司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-88016-s02",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城二百一十里，洪武二十三年改置"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-s02-c01",
+      "item_id": "88-016",
+      "name": "清平县",
+      "type": "county",
+      "region": "贵州",
+      "parent": "GEO-88016-s02",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在州城北三十里，即清平卫地，成化中置县"
+      },
+      "children": []
+    },
+    {
+      "geo_id": "GEO-88016-s02",
+      "item_id": "88-016",
+      "name": "独山州",
+      "type": "subprefecture",
+      "region": "贵州",
+      "parent": "GEO-88016",
+      "volume_range": "卷88",
+      "attributes": {
+        "location_text": "在府城南一百五十里，洪武十六年改九名九姓独山州长官司，成化中升为州，领县一长官司二"
+      },
+      "children": [
+        "GEO-88016-s02-t01",
+        "GEO-88016-s02-t02",
+        "GEO-88016-s02-c01"
+      ]
+    },
+    {
+      "geo_id": "GEO-88017",
+      "item_id": "88-017",
+      "name": "毕节卫",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "赤水卫界",
+            "distance_li": 60
+          },
+          {
+            "direction": "西",
+            "to_place": "四川乌撒军民府界",
+            "distance_li": 110
+          },
+          {
+            "direction": "南",
+            "to_place": "水西奢香驿界",
+            "distance_li": 220
+          },
+          {
+            "direction": "北",
+            "to_place": "四川芒部军民府界",
+            "distance_li": 80
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 6390
+          },
+          {
+            "capital": "京师",
+            "distance_li": 9560
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "",
+        "topography": "东阻木稀关西带七星河，当华夏之要冲为云南之道途【贵州志】；东抵赤水西连乌撒【新志】",
+        "customs": "戍此者皆中州人，冠婚丧祭不混于流俗【贵州志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88018",
+      "item_id": "88-018",
+      "name": "威清卫",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "贵州宣慰司界",
+            "distance_li": 10
+          },
+          {
+            "direction": "西",
+            "to_place": "平坝卫界",
+            "distance_li": 35
+          },
+          {
+            "direction": "南",
+            "to_place": "金筑安抚司界",
+            "distance_li": 80
+          },
+          {
+            "direction": "北",
+            "to_place": "水西鸭池河界",
+            "distance_li": 90
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4940
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8360
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "",
+        "topography": "重冈环绕【新志】；诸夷襟喉【新志】",
+        "customs": "白布裹额【新志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88019",
+      "item_id": "88-019",
+      "name": "平坝卫",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "威清卫界",
+            "distance_li": 45
+          },
+          {
+            "direction": "南",
+            "to_place": "金筑安抚司界",
+            "distance_li": 40
+          },
+          {
+            "direction": "西",
+            "to_place": "普安卫界",
+            "distance_li": 30
+          },
+          {
+            "direction": "北",
+            "to_place": "安楚地界",
+            "distance_li": 30
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4670
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8050
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "",
+        "topography": "",
+        "customs": "",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-88020",
+      "item_id": "88-020",
+      "name": "安南卫",
+      "type": "weisuo",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "安庄卫",
+            "distance_li": 160
+          },
+          {
+            "direction": "西",
+            "to_place": "普安州",
+            "distance_li": 160
+          },
+          {
+            "direction": "南",
+            "to_place": "广西安降长官司",
+            "distance_li": 520
+          },
+          {
+            "direction": "北",
+            "to_place": "普安州",
+            "distance_li": 250
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4650
+          },
+          {
+            "capital": "京师",
+            "distance_li": 7014
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "尾洒(夷名)",
+        "topography": "盘江界其东，乌鸣阨其南【卫志】；群峰环矗【卫志】",
+        "customs": "男女跣足以背负重【旧卫志】；善畜牧贸易【旧卫志】；性尚刚勇出入带刀，勤于耕稼【旧卫志/新卫志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-88021",
+      "item_id": "88-021",
+      "name": "凯里安抚司",
+      "type": "tusi",
+      "region": "贵州",
+      "parent": "GEO-000",
+      "children": [],
+      "volume_range": "卷88",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "四川永宁宣抚司界",
+            "distance_li": 100
+          },
+          {
+            "direction": "西",
+            "to_place": "永宁宣抚司九姓长官司界",
+            "distance_li": 140
+          },
+          {
+            "direction": "南",
+            "to_place": "赤水卫摩尼千户所界",
+            "distance_li": 50
+          },
+          {
+            "direction": "北",
+            "to_place": "永宁卫界",
+            "distance_li": 50
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": 4880
+          },
+          {
+            "capital": "京师",
+            "distance_li": 8250
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "jun_name": "兰州(唐名)",
+        "topography": "四山围绕峻险如壁【普市所志】",
+        "customs": "不务耕桑专事贸易【所志】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001"
+      ]
+    },
+    {
+      "geo_id": "GEO-03001-c01",
+      "name": "真定县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c02",
+      "name": "井陉县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c03",
+      "name": "获鹿县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c04",
+      "name": "元氏县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c05",
+      "name": "灵寿县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c06",
+      "name": "藁城县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c07",
+      "name": "栾城县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c08",
+      "name": "无极县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c09",
+      "name": "平山县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-c10",
+      "name": "阜平县",
+      "type": "county",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s01",
+      "name": "定州",
+      "type": "subprefecture",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [
+        "GEO-03001-s01-c01",
+        "GEO-03001-s01-c02",
+        "GEO-03001-s01-c03"
+      ],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s01-c01",
+      "name": "新乐县",
+      "type": "county",
+      "parent": "GEO-03001-s01",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s01-c02",
+      "name": "曲阳县",
+      "type": "county",
+      "parent": "GEO-03001-s01",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s01-c03",
+      "name": "行唐县",
+      "type": "county",
+      "parent": "GEO-03001-s01",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s02",
+      "name": "冀州",
+      "type": "subprefecture",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [
+        "GEO-03001-s02-c01",
+        "GEO-03001-s02-c02",
+        "GEO-03001-s02-c03",
+        "GEO-03001-s02-c04"
+      ],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s02-c01",
+      "name": "南宫县",
+      "type": "county",
+      "parent": "GEO-03001-s02",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s02-c02",
+      "name": "新河县",
+      "type": "county",
+      "parent": "GEO-03001-s02",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s02-c03",
+      "name": "枣强县",
+      "type": "county",
+      "parent": "GEO-03001-s02",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s02-c04",
+      "name": "武邑县",
+      "type": "county",
+      "parent": "GEO-03001-s02",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s03",
+      "name": "晋州",
+      "type": "subprefecture",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [
+        "GEO-03001-s03-c01",
+        "GEO-03001-s03-c02",
+        "GEO-03001-s03-c03"
+      ],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s03-c01",
+      "name": "安平县",
+      "type": "county",
+      "parent": "GEO-03001-s03",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s03-c02",
+      "name": "饶阳县",
+      "type": "county",
+      "parent": "GEO-03001-s03",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s03-c03",
+      "name": "武强县",
+      "type": "county",
+      "parent": "GEO-03001-s03",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04",
+      "name": "赵州",
+      "type": "subprefecture",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [
+        "GEO-03001-s04-c01",
+        "GEO-03001-s04-c02",
+        "GEO-03001-s04-c03",
+        "GEO-03001-s04-c04",
+        "GEO-03001-s04-c05",
+        "GEO-03001-s04-c06"
+      ],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04-c01",
+      "name": "柏乡县",
+      "type": "county",
+      "parent": "GEO-03001-s04",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04-c02",
+      "name": "隆平县",
+      "type": "county",
+      "parent": "GEO-03001-s04",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04-c03",
+      "name": "高邑县",
+      "type": "county",
+      "parent": "GEO-03001-s04",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04-c04",
+      "name": "临城县",
+      "type": "county",
+      "parent": "GEO-03001-s04",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04-c05",
+      "name": "赞皇县",
+      "type": "county",
+      "parent": "GEO-03001-s04",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s04-c06",
+      "name": "宁晋县",
+      "type": "county",
+      "parent": "GEO-03001-s04",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s05",
+      "name": "深州",
+      "type": "subprefecture",
+      "parent": "GEO-001",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [
+        "GEO-03001-s05-c01"
+      ],
+      "attributes": {}
+    },
+    {
+      "geo_id": "GEO-03001-s05-c01",
+      "name": "衡水县",
+      "type": "county",
+      "parent": "GEO-03001-s05",
+      "region": "北直隶",
+      "item_id": "03-001",
+      "children": [],
+      "attributes": {}
+    }
+  ],
+  "count": 178
+}

@@ -5,11 +5,41 @@
  "region": "陕西行都司",
  "layers": {
   "ents": [
-   {"ent_id": "ENT-001", "name": "宁夏中卫", "type": "geo", "norm": "宁夏中卫", "first_source": "37-002"},
-   {"ent_id": "ENT-002", "name": "沙山", "type": "mtn", "norm": "沙山", "first_source": "37-002"},
-   {"ent_id": "ENT-003", "name": "黄河", "type": "mtn", "norm": "黄河", "first_source": "37-002"},
-   {"ent_id": "ENT-004", "name": "应理州", "type": "geo", "norm": "应理州", "first_source": "37-002"},
-   {"ent_id": "ENT-005", "name": "鸣沙城", "type": "geo", "norm": "鸣沙城", "first_source": "37-002"}
+   {
+    "ent_id": "ENT-001",
+    "name": "宁夏中卫",
+    "type": "geo",
+    "norm": "宁夏中卫",
+    "first_source": "37-002"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "沙山",
+    "type": "mtn",
+    "norm": "沙山",
+    "first_source": "37-002"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "黄河",
+    "type": "mtn",
+    "norm": "黄河",
+    "first_source": "37-002"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "应理州",
+    "type": "geo",
+    "norm": "应理州",
+    "first_source": "37-002"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "鸣沙城",
+    "type": "geo",
+    "norm": "鸣沙城",
+    "first_source": "37-002"
+   }
   ],
   "geos": [
    {
@@ -23,82 +53,505 @@
     "volume_range": "卷37",
     "attributes": {
      "borders": [
-      {"direction": "东", "to_place": "宁夏大坝", "distance_li": 210},
-      {"direction": "南", "to_place": "平凉府开城县界", "distance_li": 300},
-      {"direction": "西", "to_place": "庄浪卫界", "distance_li": 70},
-      {"direction": "北", "to_place": "观音山", "distance_li": 70}
+      {
+       "direction": "东",
+       "to_place": "宁夏大坝",
+       "distance_li": 210
+      },
+      {
+       "direction": "南",
+       "to_place": "平凉府开城县界",
+       "distance_li": 300
+      },
+      {
+       "direction": "西",
+       "to_place": "庄浪卫界",
+       "distance_li": 70
+      },
+      {
+       "direction": "北",
+       "to_place": "观音山",
+       "distance_li": 70
+      }
      ],
      "to_capital": [
-      {"capital": "京师", "distance_li": 3900},
-      {"capital": "南京", "distance_li": 3830}
+      {
+       "capital": "京师",
+       "distance_li": 3900
+      },
+      {
+       "capital": "南京",
+       "distance_li": 3830
+      }
      ],
      "garrison_type": "卫",
      "topography": "据要防为塞保障【唐杜希全议灵州云】；边陲要路【新志后接贺兰之固前有大河之险左联宁夏右通庄浪边陲之要路也】；东阻大河西据沙山【元史本州地志云】",
      "customs": "人性勇悍以耕猎为事孳畜为生【新志】",
      "garrisons": []
     },
-    "cit_ids": ["CIT-001", "CIT-002", "CIT-003"]
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003"
+    ]
    }
   ],
   "evos": [
-   {"evo_id": "EVO-001", "item_id": "37-002", "geo_id": "GEO-37002", "dynasty": "唐", "era": null, "institution_name": "灵州地", "action": "属", "detail": "本唐灵州地"},
-   {"evo_id": "EVO-002", "item_id": "37-002", "geo_id": "GEO-37002", "dynasty": "元", "era": null, "institution_name": "应理州", "action": "置", "detail": "元置应理州，属宁夏路"},
-   {"evo_id": "EVO-003", "item_id": "37-002", "geo_id": "GEO-37002", "dynasty": "明", "era": "洪武", "institution_name": "宁夏中卫", "action": "改置", "detail": "本朝洪武初州废，三十二年移建宁夏中卫于此，隶陕西都司，领千户所五"}
+   {
+    "evo_id": "EVO-001",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "dynasty": "唐",
+    "era": null,
+    "institution_name": "灵州地",
+    "action": "属",
+    "detail": "本唐灵州地"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "应理州",
+    "action": "置",
+    "detail": "元置应理州，属宁夏路"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "dynasty": "明",
+    "era": "洪武",
+    "institution_name": "宁夏中卫",
+    "action": "改置",
+    "detail": "本朝洪武初州废，三十二年移建宁夏中卫于此，隶陕西都司，领千户所五"
+   }
   ],
   "mtns": [
-   {"mtn_id": "MTN-001", "item_id": "37-002", "geo_id": "GEO-37002", "name": "沙山", "type": "山", "location_text": "在卫城西五十里", "description": "因沙所积故名", "lore": ""},
-   {"mtn_id": "MTN-002", "item_id": "37-002", "geo_id": "GEO-37002", "name": "观音山", "type": "山", "location_text": "在卫城北五十里", "description": "山有观音洞", "lore": ""},
-   {"mtn_id": "MTN-003", "item_id": "37-002", "geo_id": "GEO-37002", "name": "米钵山", "type": "山", "location_text": "在卫城南七十里", "description": "因山有米钵寺故名", "lore": ""},
-   {"mtn_id": "MTN-004", "item_id": "37-002", "geo_id": "GEO-37002", "name": "石空寺山", "type": "山", "location_text": "在卫城东七十里", "description": "山有石空寺", "lore": ""},
-   {"mtn_id": "MTN-005", "item_id": "37-002", "geo_id": "GEO-37002", "name": "石空洞", "type": "洞", "location_text": "在卫城东八十里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-006", "item_id": "37-002", "geo_id": "GEO-37002", "name": "羚羊洞", "type": "洞", "location_text": "在卫城东南一百里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-007", "item_id": "37-002", "geo_id": "GEO-37002", "name": "黄河", "type": "河", "location_text": "西南自靖虏卫来", "description": "分流入城，正河在城南，东北流注宁夏", "lore": ""},
-   {"mtn_id": "MTN-008", "item_id": "37-002", "geo_id": "GEO-37002", "name": "马槽湖", "type": "湖", "location_text": "在卫城东北二十五里", "description": "以形似名", "lore": ""},
-   {"mtn_id": "MTN-009", "item_id": "37-002", "geo_id": "GEO-37002", "name": "蒲塘", "type": "塘", "location_text": "在卫城北四十里", "description": "塘中多产蒲草", "lore": ""},
-   {"mtn_id": "MTN-010", "item_id": "37-002", "geo_id": "GEO-37002", "name": "中渠", "type": "渠", "location_text": "在卫城南五里", "description": "溉田百余顷", "lore": ""},
-   {"mtn_id": "MTN-011", "item_id": "37-002", "geo_id": "GEO-37002", "name": "蜘蛛渠", "type": "渠", "location_text": "在卫城西二十里", "description": "东北流溉田几二百顷", "lore": ""},
-   {"mtn_id": "MTN-012", "item_id": "37-002", "geo_id": "GEO-37002", "name": "白渠", "type": "渠", "location_text": "在卫城东二十里", "description": "溉田九十顷", "lore": ""},
-   {"mtn_id": "MTN-013", "item_id": "37-002", "geo_id": "GEO-37002", "name": "羚羊渠", "type": "渠", "location_text": "在卫城南四十里", "description": "溉田三百八十余顷", "lore": ""},
-   {"mtn_id": "MTN-014", "item_id": "37-002", "geo_id": "GEO-37002", "name": "石空渠", "type": "渠", "location_text": "在卫城东二十里", "description": "溉田六十顷", "lore": ""},
-   {"mtn_id": "MTN-015", "item_id": "37-002", "geo_id": "GEO-37002", "name": "枣园渠", "type": "渠", "location_text": "在卫城东九十里", "description": "溉田九十五顷；元于此置屯田", "lore": ""},
-   {"mtn_id": "MTN-016", "item_id": "37-002", "geo_id": "GEO-37002", "name": "七星渠", "type": "渠", "location_text": "在卫城东南一百二十里", "description": "溉田二百二十余顷", "lore": ""},
-   {"mtn_id": "MTN-017", "item_id": "37-002", "geo_id": "GEO-37002", "name": "野马泉", "type": "泉", "location_text": "在卫城北二十里", "description": "", "lore": ""},
-   {"mtn_id": "MTN-018", "item_id": "37-002", "geo_id": "GEO-37002", "name": "龙潭泉", "type": "泉", "location_text": "在卫城西二十里", "description": "其水夏则潴蓄冬不凝冰，祷雨有应", "lore": "一名暖泉"},
-   {"mtn_id": "MTN-019", "item_id": "37-002", "geo_id": "GEO-37002", "name": "洛阳川", "type": "川", "location_text": "在卫城西二十五里", "description": "", "lore": ""}
+   {
+    "mtn_id": "MTN-001",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "沙山",
+    "type": "山",
+    "location_text": "在卫城西五十里",
+    "description": "因沙所积故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-002",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "观音山",
+    "type": "山",
+    "location_text": "在卫城北五十里",
+    "description": "山有观音洞",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-003",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "米钵山",
+    "type": "山",
+    "location_text": "在卫城南七十里",
+    "description": "因山有米钵寺故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-004",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "石空寺山",
+    "type": "山",
+    "location_text": "在卫城东七十里",
+    "description": "山有石空寺",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-005",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "石空洞",
+    "type": "洞",
+    "location_text": "在卫城东八十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-006",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "羚羊洞",
+    "type": "洞",
+    "location_text": "在卫城东南一百里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-007",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "黄河",
+    "type": "河",
+    "location_text": "西南自靖虏卫来",
+    "description": "分流入城，正河在城南，东北流注宁夏",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-008",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "马槽湖",
+    "type": "湖",
+    "location_text": "在卫城东北二十五里",
+    "description": "以形似名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-009",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "蒲塘",
+    "type": "塘",
+    "location_text": "在卫城北四十里",
+    "description": "塘中多产蒲草",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-010",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "中渠",
+    "type": "渠",
+    "location_text": "在卫城南五里",
+    "description": "溉田百余顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-011",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "蜘蛛渠",
+    "type": "渠",
+    "location_text": "在卫城西二十里",
+    "description": "东北流溉田几二百顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-012",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "白渠",
+    "type": "渠",
+    "location_text": "在卫城东二十里",
+    "description": "溉田九十顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-013",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "羚羊渠",
+    "type": "渠",
+    "location_text": "在卫城南四十里",
+    "description": "溉田三百八十余顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-014",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "石空渠",
+    "type": "渠",
+    "location_text": "在卫城东二十里",
+    "description": "溉田六十顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-015",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "枣园渠",
+    "type": "渠",
+    "location_text": "在卫城东九十里",
+    "description": "溉田九十五顷；元于此置屯田",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-016",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "七星渠",
+    "type": "渠",
+    "location_text": "在卫城东南一百二十里",
+    "description": "溉田二百二十余顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-017",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "野马泉",
+    "type": "泉",
+    "location_text": "在卫城北二十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-018",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "龙潭泉",
+    "type": "泉",
+    "location_text": "在卫城西二十里",
+    "description": "其水夏则潴蓄冬不凝冰，祷雨有应",
+    "lore": "一名暖泉"
+   },
+   {
+    "mtn_id": "MTN-019",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "洛阳川",
+    "type": "川",
+    "location_text": "在卫城西二十五里",
+    "description": "",
+    "lore": ""
+   }
   ],
   "pers": [],
   "sites": [
-   {"site_id": "SIT-001", "item_id": "37-002", "geo_id": "GEO-37002", "name": "宁夏中卫学", "type": "学校", "location_text": "在卫城内东北", "description": "正统四年建"},
-   {"site_id": "SIT-002", "item_id": "37-002", "geo_id": "GEO-37002", "name": "黑山觜", "type": "关梁/口", "location_text": "在卫城北二十五里", "description": ""},
-   {"site_id": "SIT-003", "item_id": "37-002", "geo_id": "GEO-37002", "name": "黄沙口", "type": "关梁/口", "location_text": "在卫城东北一百二十里", "description": ""},
-   {"site_id": "SIT-004", "item_id": "37-002", "geo_id": "GEO-37002", "name": "观音口", "type": "关梁/口", "location_text": "在卫城东北一百四十里", "description": ""},
-   {"site_id": "SIT-005", "item_id": "37-002", "geo_id": "GEO-37002", "name": "大佛寺口", "type": "关梁/口", "location_text": "有二：大佛寺北里口在卫城东北一百九十里，大佛寺北外口在卫城东北二百一十里", "description": ""},
-   {"site_id": "SIT-006", "item_id": "37-002", "geo_id": "GEO-37002", "name": "镇虏营", "type": "关梁/营", "location_text": "在卫城东四十里", "description": "正统二年建"},
-   {"site_id": "SIT-007", "item_id": "37-002", "geo_id": "GEO-37002", "name": "石空寺营", "type": "关梁/营", "location_text": "在卫城东八十里", "description": "永乐二十二年建"},
-   {"site_id": "SIT-008", "item_id": "37-002", "geo_id": "GEO-37002", "name": "枣园营", "type": "关梁/营", "location_text": "在卫城东一百二十里", "description": "正统四年建"},
-   {"site_id": "SIT-009", "item_id": "37-002", "geo_id": "GEO-37002", "name": "广武营", "type": "关梁/营", "location_text": "在卫城东一百九十里", "description": "正统九年建"},
-   {"site_id": "SIT-010", "item_id": "37-002", "geo_id": "GEO-37002", "name": "五百户堡", "type": "关梁/堡", "location_text": "在卫城南三十里", "description": "永乐二十二年建"},
-   {"site_id": "SIT-011", "item_id": "37-002", "geo_id": "GEO-37002", "name": "羚羊店堡", "type": "关梁/堡", "location_text": "在卫城南六十里", "description": "正统元年建"},
-   {"site_id": "SIT-012", "item_id": "37-002", "geo_id": "GEO-37002", "name": "回回墓堡", "type": "关梁/堡", "location_text": "在卫城南一百二十里", "description": "宣德六年建"},
-   {"site_id": "SIT-013", "item_id": "37-002", "geo_id": "GEO-37002", "name": "石空寺", "type": "寺观", "location_text": "在卫城东八十里", "description": "元建"},
-   {"site_id": "SIT-014", "item_id": "37-002", "geo_id": "GEO-37002", "name": "米钵寺", "type": "寺观", "location_text": "在米钵山下", "description": ""},
-   {"site_id": "SIT-015", "item_id": "37-002", "geo_id": "GEO-37002", "name": "羚羊角寺", "type": "寺观", "location_text": "在黄河南", "description": ""},
-   {"site_id": "SIT-016", "item_id": "37-002", "geo_id": "GEO-37002", "name": "鸣沙城", "type": "古迹", "location_text": "在卫城东南一百五十里", "description": "本旧鸣沙镇，此地人马行沙有声故名；后周移置会州于此寻废；隋置环州及鸣沙县；唐贞观中复置环州寻废以县属灵州；神龙初为默啜所据，咸亨中收复仍于鸣沙县置安乐州以处吐谷浑部；后没于吐蕃，大中间收复改置威州；元初于此立鸣沙州，今废"},
-   {"site_id": "SIT-017", "item_id": "37-002", "geo_id": "GEO-37002", "name": "温池城", "type": "古迹", "location_text": "在卫境", "description": "唐置温池县属灵州，后改属威州"}
+   {
+    "site_id": "SIT-001",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "宁夏中卫学",
+    "type": "学校",
+    "location_text": "在卫城内东北",
+    "description": "正统四年建"
+   },
+   {
+    "site_id": "SIT-002",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "黑山觜",
+    "type": "关梁/口",
+    "location_text": "在卫城北二十五里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-003",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "黄沙口",
+    "type": "关梁/口",
+    "location_text": "在卫城东北一百二十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-004",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "观音口",
+    "type": "关梁/口",
+    "location_text": "在卫城东北一百四十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-005",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "大佛寺口",
+    "type": "关梁/口",
+    "location_text": "有二：大佛寺北里口在卫城东北一百九十里，大佛寺北外口在卫城东北二百一十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-006",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "镇虏营",
+    "type": "关梁/营",
+    "location_text": "在卫城东四十里",
+    "description": "正统二年建"
+   },
+   {
+    "site_id": "SIT-007",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "石空寺营",
+    "type": "关梁/营",
+    "location_text": "在卫城东八十里",
+    "description": "永乐二十二年建"
+   },
+   {
+    "site_id": "SIT-008",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "枣园营",
+    "type": "关梁/营",
+    "location_text": "在卫城东一百二十里",
+    "description": "正统四年建"
+   },
+   {
+    "site_id": "SIT-009",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "广武营",
+    "type": "关梁/营",
+    "location_text": "在卫城东一百九十里",
+    "description": "正统九年建"
+   },
+   {
+    "site_id": "SIT-010",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "五百户堡",
+    "type": "关梁/堡",
+    "location_text": "在卫城南三十里",
+    "description": "永乐二十二年建"
+   },
+   {
+    "site_id": "SIT-011",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "羚羊店堡",
+    "type": "关梁/堡",
+    "location_text": "在卫城南六十里",
+    "description": "正统元年建"
+   },
+   {
+    "site_id": "SIT-012",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "回回墓堡",
+    "type": "关梁/堡",
+    "location_text": "在卫城南一百二十里",
+    "description": "宣德六年建"
+   },
+   {
+    "site_id": "SIT-013",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "石空寺",
+    "type": "寺观",
+    "location_text": "在卫城东八十里",
+    "description": "元建"
+   },
+   {
+    "site_id": "SIT-014",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "米钵寺",
+    "type": "寺观",
+    "location_text": "在米钵山下",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-015",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "羚羊角寺",
+    "type": "寺观",
+    "location_text": "在黄河南",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-016",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "鸣沙城",
+    "type": "古迹",
+    "location_text": "在卫城东南一百五十里",
+    "description": "本旧鸣沙镇，此地人马行沙有声故名；后周移置会州于此寻废；隋置环州及鸣沙县；唐贞观中复置环州寻废以县属灵州；神龙初为默啜所据，咸亨中收复仍于鸣沙县置安乐州以处吐谷浑部；后没于吐蕃，大中间收复改置威州；元初于此立鸣沙州，今废"
+   },
+   {
+    "site_id": "SIT-017",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "温池城",
+    "type": "古迹",
+    "location_text": "在卫境",
+    "description": "唐置温池县属灵州，后改属威州"
+   }
   ],
   "prods": [
-   {"prod_id": "PROD-001", "item_id": "37-002", "geo_id": "GEO-37002", "name": "黄羊", "note": ""},
-   {"prod_id": "PROD-002", "item_id": "37-002", "geo_id": "GEO-37002", "name": "羱羊", "note": ""},
-   {"prod_id": "PROD-003", "item_id": "37-002", "geo_id": "GEO-37002", "name": "土豹", "note": ""},
-   {"prod_id": "PROD-004", "item_id": "37-002", "geo_id": "GEO-37002", "name": "野马", "note": ""},
-   {"prod_id": "PROD-005", "item_id": "37-002", "geo_id": "GEO-37002", "name": "皂雕", "note": ""},
-   {"prod_id": "PROD-006", "item_id": "37-002", "geo_id": "GEO-37002", "name": "苁蓉", "note": ""},
-   {"prod_id": "PROD-007", "item_id": "37-002", "geo_id": "GEO-37002", "name": "红花", "note": ""}
+   {
+    "prod_id": "PROD-001",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "黄羊",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-002",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "羱羊",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-003",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "土豹",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-004",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "野马",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-005",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "皂雕",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-006",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "苁蓉",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-007",
+    "item_id": "37-002",
+    "geo_id": "GEO-37002",
+    "name": "红花",
+    "note": ""
+   }
   ],
   "cits": [
-   {"cit_id": "CIT-001", "item_id": "37-002", "cited_work": "唐杜希全议", "cited_work_ent_id": null, "context": "形胜", "original": "【唐杜希全议灵州云】"},
-   {"cit_id": "CIT-002", "item_id": "37-002", "cited_work": "新志", "cited_work_ent_id": null, "context": "形胜/风俗", "original": "【新志】"},
-   {"cit_id": "CIT-003", "item_id": "37-002", "cited_work": "元史本州地志", "cited_work_ent_id": null, "context": "形胜", "original": "【元史本州地志云】"}
+   {
+    "cit_id": "CIT-001",
+    "item_id": "37-002",
+    "cited_work": "唐杜希全议",
+    "cited_work_ent_id": null,
+    "context": "形胜",
+    "original": "【唐杜希全议灵州云】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "37-002",
+    "cited_work": "新志",
+    "cited_work_ent_id": null,
+    "context": "形胜/风俗",
+    "original": "【新志】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "37-002",
+    "cited_work": "元史本州地志",
+    "cited_work_ent_id": null,
+    "context": "形胜",
+    "original": "【元史本州地志云】"
+   }
   ]
  },
  "layer_count": 7,
@@ -106,5 +559,6 @@
   "errs": [],
   "gap": 0,
   "notes": "宁夏中卫主文件；领千户所五但原文未具名，children空"
- }
+ },
+ "title": "宁夏中卫"
 }

@@ -1,0 +1,124 @@
+﻿=== registry: 86 条 ===
+
+=== 各层条数 ===
+  ent: 2125
+  geo: 631
+  evo: 1629
+  mtn: 2854
+  per: 4601
+  site: 4359
+  cit: 259
+
+=== ERR: 49 ===
+  ✗ [evo] EVO-002 item_id=EVO-002 不在 registry
+  ✗ [evo] EVO-003 item_id=EVO-003 不在 registry
+  ✗ [ent] ENT-002 type='river' 不在枚举
+  ✗ [ent] ENT-007 type='geofeat' 不在枚举
+  ✗ [geo] geo_id 重复: {'GEO-22001-c07', 'GEO-22001-c20', 'GEO-22001-c17', 'GEO-22001-c23', 'GEO-22001-c11', 'GEO-22001-c02', 'GEO-22001-c25', 'GEO-22001-c26', 'GEO-22001-c21', 'GEO-22001-c22', 'GEO-22001-c13', 'GEO-22001-c06', 'GEO-22001-c05', 'GEO-22001-c19', 'GEO-22001-c18', 'GEO-22001-c24', 'GEO-22001-c14', 'GEO-22001-c08', 'GEO-22001-c16', 'GEO-22001-c01', 'GEO-22001-c12', 'GEO-22001-c03', 'GEO-22001-c09', 'GEO-22001-c15', 'GEO-22001-c04', 'GEO-22001-c10'}
+  ✗ [geo] GEO-02002-s01-c11(吴桥县) parent 悬空: GEO-02002-s01 不在 geos 表
+  ✗ [geo] GEO-02002-s01-c12(东光县) parent 悬空: GEO-02002-s01 不在 geos 表
+  ✗ [geo] GEO-02002-s01-c13(故城县) parent 悬空: GEO-02002-s01 不在 geos 表
+  ✗ [geo] GEO-02002-s02-c14(南皮县) parent 悬空: GEO-02002-s02 不在 geos 表
+  ✗ [geo] GEO-02002-s02-c15(盐山县) parent 悬空: GEO-02002-s02 不在 geos 表
+  ✗ [geo] GEO-02002-s02-c16(庆云县) parent 悬空: GEO-02002-s02 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c11 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c12 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c13 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c14 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c15 不在 geos 表
+  ✗ [geo] GEO-02002(河间府) children 悬空: GEO-02002-c16 不在 geos 表
+  ✗ [geo] GEO-03001-c01(真定县) parent 悬空: GEO-03001 不在 geos 表
+  ✗ [geo] GEO-03001-c02(井陉县) parent 悬空: GEO-03001 不在 geos 表
+  ✗ [geo] GEO-03001-c03(获鹿县) parent 悬空: GEO-03001 不在 geos 表
+  ... 还有 29 条
+
+=== GAP: 1 ===
+  ! 43 条 0 层记录: ['06-001', '06-002', '07-003', '08-004', '09-005', '10-006', '11-007', '13-008', '14-009', '14-010', '15-011', '15-012', '16-013', '16-014', '17-015', '19-001', '20-001', '21-001', '21-002', '21-003', '21-004', '21-005', '21-006', '88-001', '88-002', '88-003', '88-004', '88-005', '88-006', '88-007', '88-008', '88-010', '88-011', '88-012', '88-013', '88-014', '88-015', '88-016', '88-017', '88-018', '88-019', '88-020', '88-021']
+
+=== 每条目层覆盖 ===
+  01-001 北直隶           [5层] ent,evo,geo,mtn,site
+  01-002 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  02-001 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  02-002 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  03-001 北直隶           [6层] ent,evo,geo,mtn,per,site
+  04-001 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  04-002 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  04-003 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  05-001 北直隶           [7层] cit,ent,evo,geo,mtn,per,site
+  05-002 北直隶           [5层] ent,evo,geo,mtn,site
+  06-001 南直隶           [0层] 
+  06-002 南直隶           [0层] 
+  07-003 南直隶           [0层] 
+  08-004 南直隶           [0层] 
+  09-005 南直隶           [0层] 
+  10-006 南直隶           [0层] 
+  11-007 南直隶           [0层] 
+  13-008 南直隶           [0层] 
+  14-009 南直隶           [0层] 
+  14-010 南直隶           [0层] 
+  15-011 南直隶           [0层] 
+  15-012 南直隶           [0层] 
+  16-013 南直隶           [0层] 
+  16-014 南直隶           [0层] 
+  17-015 南直隶           [0层] 
+  19-001 山西            [0层] 
+  20-001 山西            [0层] 
+  21-001 山西            [0层] 
+  21-002 山西            [0层] 
+  21-003 山西            [0层] 
+  21-004 山西            [0层] 
+  21-005 山西            [0层] 
+  21-006 山西            [0层] 
+  22-001 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  23-001 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  24-001 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  24-002 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  25-001 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  25-002 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  25-003 山东            [7层] cit,ent,evo,geo,mtn,per,site
+  26-001 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  27-001 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  27-002 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  28-001 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  28-002 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  29-001 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  30-001 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  31-001 河南            [7层] cit,ent,evo,geo,mtn,per,site
+  31-002 河南            [6层] ent,evo,geo,mtn,per,site
+  32-001 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  33-001 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  34-001 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  34-002 汉中府           [7层] cit,ent,evo,geo,mtn,per,site
+  35-001 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  35-002 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  36-001 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  36-002 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  36-003 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  37-001 陕西行都司         [7层] cit,ent,evo,geo,mtn,per,site
+  37-002 陕西行都司         [6层] cit,ent,evo,geo,mtn,site
+  37-003 陕西行都司         [7层] cit,ent,evo,geo,mtn,per,site
+  37-004 陕西行都司         [7层] cit,ent,evo,geo,mtn,per,site
+  37-005 陕西行都司         [7层] cit,ent,evo,geo,mtn,per,site
+  37-006 陕西            [7层] cit,ent,evo,geo,mtn,per,site
+  37-007 陕西行都司         [7层] cit,ent,evo,geo,mtn,per,site
+  88-001 贵州            [0层] 
+  88-002 贵州            [0层] 
+  88-003 贵州            [0层] 
+  88-004 贵州            [0层] 
+  88-005 贵州            [0层] 
+  88-006 贵州            [0层] 
+  88-007 贵州            [0层] 
+  88-008 贵州            [0层] 
+  88-009 贵州            [7层] cit,ent,evo,geo,mtn,per,site
+  88-010 贵州            [0层] 
+  88-011 贵州            [0层] 
+  88-012 贵州            [0层] 
+  88-013 贵州            [0层] 
+  88-014 贵州            [0层] 
+  88-015 贵州            [0层] 
+  88-016 贵州            [0层] 
+  88-017 贵州            [0层] 
+  88-018 贵州            [0层] 
+  88-019 贵州            [0层] 
+  88-020 贵州            [0层] 
+  88-021 贵州            [0层] 

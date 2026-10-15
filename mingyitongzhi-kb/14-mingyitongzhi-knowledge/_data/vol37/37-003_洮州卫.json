@@ -5,13 +5,55 @@
  "region": "陕西行都司",
  "layers": {
   "ents": [
-   {"ent_id": "ENT-001", "name": "洮州卫军民指挥使司", "type": "geo", "norm": "洮州卫", "first_source": "37-003"},
-   {"ent_id": "ENT-002", "name": "西倾山", "type": "mtn", "norm": "西倾山", "first_source": "37-003"},
-   {"ent_id": "ENT-003", "name": "洮河", "type": "mtn", "norm": "洮河", "first_source": "37-003"},
-   {"ent_id": "ENT-004", "name": "洮州", "type": "geo", "norm": "洮州", "first_source": "37-003"},
-   {"ent_id": "ENT-005", "name": "柴绍", "type": "person", "norm": "柴绍", "first_source": "37-003"},
-   {"ent_id": "ENT-006", "name": "李晟", "type": "person", "norm": "李晟", "first_source": "37-003"},
-   {"ent_id": "ENT-007", "name": "李愬", "type": "person", "norm": "李愬", "first_source": "37-003"}
+   {
+    "ent_id": "ENT-001",
+    "name": "洮州卫军民指挥使司",
+    "type": "geo",
+    "norm": "洮州卫",
+    "first_source": "37-003"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "西倾山",
+    "type": "mtn",
+    "norm": "西倾山",
+    "first_source": "37-003"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "洮河",
+    "type": "mtn",
+    "norm": "洮河",
+    "first_source": "37-003"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "洮州",
+    "type": "geo",
+    "norm": "洮州",
+    "first_source": "37-003"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "柴绍",
+    "type": "person",
+    "norm": "柴绍",
+    "first_source": "37-003"
+   },
+   {
+    "ent_id": "ENT-006",
+    "name": "李晟",
+    "type": "person",
+    "norm": "李晟",
+    "first_source": "37-003"
+   },
+   {
+    "ent_id": "ENT-007",
+    "name": "李愬",
+    "type": "person",
+    "norm": "李愬",
+    "first_source": "37-003"
+   }
   ],
   "geos": [
    {
@@ -25,91 +67,549 @@
     "volume_range": "卷37",
     "attributes": {
      "borders": [
-      {"direction": "东", "to_place": "岷州卫冷地峪界", "distance_li": 50},
-      {"direction": "西", "to_place": "生番界", "distance_li": 900},
-      {"direction": "南", "to_place": "叠州生番界", "distance_li": 120},
-      {"direction": "北", "to_place": "临洮府界", "distance_li": 140}
+      {
+       "direction": "东",
+       "to_place": "岷州卫冷地峪界",
+       "distance_li": 50
+      },
+      {
+       "direction": "西",
+       "to_place": "生番界",
+       "distance_li": 900
+      },
+      {
+       "direction": "南",
+       "to_place": "叠州生番界",
+       "distance_li": 120
+      },
+      {
+       "direction": "北",
+       "to_place": "临洮府界",
+       "distance_li": 140
+      }
      ],
      "to_capital": [
-      {"capital": "京师", "distance_li": 4220},
-      {"capital": "南京", "distance_li": 4000}
+      {
+       "capital": "京师",
+       "distance_li": 4220
+      },
+      {
+       "capital": "南京",
+       "distance_li": 4000
+      }
      ],
      "garrison_type": "军民指挥使司",
      "jun_name": "洮阳【后周名】临洮【隋名】",
      "topography": "西控番戎东蔽湟陇【本朝洪武中敕曹国公文】；险阻之地【新志黑石关距于东白石山峙其西南接生番北抵石岭险阻之地】",
      "customs": "好习弓马衣褐食乳以射猎为生【新志】；人性劲悍",
      "garrisons": [
-      {"name": "洮州茶马司", "type": "司", "location_text": "在卫治西永乐九年建"}
+      {
+       "name": "洮州茶马司",
+       "type": "司",
+       "location_text": "在卫治西永乐九年建"
+      }
      ]
     },
-    "cit_ids": ["CIT-001", "CIT-002", "CIT-003"]
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003"
+    ]
    }
   ],
   "evos": [
-   {"evo_id": "EVO-001", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "虞夏", "era": null, "institution_name": "雍州之域", "action": "属", "detail": "禹贡雍州之域，天文井鬼分野"},
-   {"evo_id": "EVO-002", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "秦汉", "era": null, "institution_name": "诸戎之地/吐谷浑所据", "action": "因之", "detail": "秦汉以来为诸戎之地，后为吐谷浑所据"},
-   {"evo_id": "EVO-003", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "南北朝", "era": "后周", "institution_name": "洮阳郡/洮州", "action": "置", "detail": "后周始置洮阳郡，寻立洮州"},
-   {"evo_id": "EVO-004", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "隋", "era": "大业", "institution_name": "临洮郡", "action": "改", "detail": "隋初郡废，大业初州废，置临洮郡"},
-   {"evo_id": "EVO-005", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "唐", "era": "贞观", "institution_name": "洮州/临州/临洮郡", "action": "改", "detail": "唐复为洮州治美相；贞观中徙置临潭；开元中改临州，后复旧又改临洮郡；唐末陷于吐蕃，号临洮城"},
-   {"evo_id": "EVO-006", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "宋", "era": null, "institution_name": "洮州", "action": "因之", "detail": "宋收复仍置洮州"},
-   {"evo_id": "EVO-007", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "金", "era": null, "institution_name": "洮州", "action": "因之", "detail": "金仍旧"},
-   {"evo_id": "EVO-008", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "元", "era": null, "institution_name": "吐蕃等处宣慰司都元帅府", "action": "属", "detail": "元隶吐蕃等处宣慰司都元帅府"},
-   {"evo_id": "EVO-009", "item_id": "37-003", "geo_id": "GEO-37003", "dynasty": "明", "era": "洪武", "institution_name": "洮州卫军民指挥使司", "action": "置", "detail": "本朝洪武四年置洮州卫军民指挥使司，隶陕西都司，领千户所五"}
+   {
+    "evo_id": "EVO-001",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "虞夏",
+    "era": null,
+    "institution_name": "雍州之域",
+    "action": "属",
+    "detail": "禹贡雍州之域，天文井鬼分野"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "秦汉",
+    "era": null,
+    "institution_name": "诸戎之地/吐谷浑所据",
+    "action": "因之",
+    "detail": "秦汉以来为诸戎之地，后为吐谷浑所据"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "南北朝",
+    "era": "后周",
+    "institution_name": "洮阳郡/洮州",
+    "action": "置",
+    "detail": "后周始置洮阳郡，寻立洮州"
+   },
+   {
+    "evo_id": "EVO-004",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "隋",
+    "era": "大业",
+    "institution_name": "临洮郡",
+    "action": "改",
+    "detail": "隋初郡废，大业初州废，置临洮郡"
+   },
+   {
+    "evo_id": "EVO-005",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "唐",
+    "era": "贞观",
+    "institution_name": "洮州/临州/临洮郡",
+    "action": "改",
+    "detail": "唐复为洮州治美相；贞观中徙置临潭；开元中改临州，后复旧又改临洮郡；唐末陷于吐蕃，号临洮城"
+   },
+   {
+    "evo_id": "EVO-006",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "宋",
+    "era": null,
+    "institution_name": "洮州",
+    "action": "因之",
+    "detail": "宋收复仍置洮州"
+   },
+   {
+    "evo_id": "EVO-007",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "金",
+    "era": null,
+    "institution_name": "洮州",
+    "action": "因之",
+    "detail": "金仍旧"
+   },
+   {
+    "evo_id": "EVO-008",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "吐蕃等处宣慰司都元帅府",
+    "action": "属",
+    "detail": "元隶吐蕃等处宣慰司都元帅府"
+   },
+   {
+    "evo_id": "EVO-009",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "dynasty": "明",
+    "era": "洪武",
+    "institution_name": "洮州卫军民指挥使司",
+    "action": "置",
+    "detail": "本朝洪武四年置洮州卫军民指挥使司，隶陕西都司，领千户所五"
+   }
   ],
   "mtns": [
-   {"mtn_id": "MTN-001", "item_id": "37-003", "geo_id": "GEO-37003", "name": "东陇山", "type": "山", "location_text": "在卫城东", "description": "蕃人于此耕种", "lore": ""},
-   {"mtn_id": "MTN-002", "item_id": "37-003", "geo_id": "GEO-37003", "name": "石岭山", "type": "山", "location_text": "在卫城北一十五里", "description": "山势峭拔草木不生", "lore": ""},
-   {"mtn_id": "MTN-003", "item_id": "37-003", "geo_id": "GEO-37003", "name": "白石山", "type": "山", "location_text": "在卫城西九十里", "description": "山多白石", "lore": ""},
-   {"mtn_id": "MTN-004", "item_id": "37-003", "geo_id": "GEO-37003", "name": "西倾山", "type": "山", "location_text": "在卫城西南二百五十里", "description": "禹贡西倾因桓是来即此；水经曰西倾之南桓水出焉", "lore": ""},
-   {"mtn_id": "MTN-005", "item_id": "37-003", "geo_id": "GEO-37003", "name": "黑松岭", "type": "岭", "location_text": "在卫城东三十里", "description": "上多松树", "lore": ""},
-   {"mtn_id": "MTN-006", "item_id": "37-003", "geo_id": "GEO-37003", "name": "南河", "type": "河", "location_text": "在卫城南", "description": "南流入洮河", "lore": ""},
-   {"mtn_id": "MTN-007", "item_id": "37-003", "geo_id": "GEO-37003", "name": "洮河", "type": "河", "location_text": "在卫城南三十五里", "description": "源出西倾山东流入岷州卫界；每初冬冰凝冻圆如弹子蔽水而下，俗呼为珠子凌", "lore": ""},
-   {"mtn_id": "MTN-008", "item_id": "37-003", "geo_id": "GEO-37003", "name": "朵的河", "type": "河", "location_text": "在卫城西三百里", "description": "源出于川撒儿朵的族，南流入洮河", "lore": ""},
-   {"mtn_id": "MTN-009", "item_id": "37-003", "geo_id": "GEO-37003", "name": "纳怜河", "type": "河", "location_text": "在卫城西七百里", "description": "源出哈藏族，西北流入黄河", "lore": ""},
-   {"mtn_id": "MTN-010", "item_id": "37-003", "geo_id": "GEO-37003", "name": "白水江", "type": "江", "location_text": "在卫城西南五百里", "description": "源出香藏族，东流入叠州", "lore": ""}
+   {
+    "mtn_id": "MTN-001",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "东陇山",
+    "type": "山",
+    "location_text": "在卫城东",
+    "description": "蕃人于此耕种",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-002",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "石岭山",
+    "type": "山",
+    "location_text": "在卫城北一十五里",
+    "description": "山势峭拔草木不生",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-003",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "白石山",
+    "type": "山",
+    "location_text": "在卫城西九十里",
+    "description": "山多白石",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-004",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "西倾山",
+    "type": "山",
+    "location_text": "在卫城西南二百五十里",
+    "description": "禹贡西倾因桓是来即此；水经曰西倾之南桓水出焉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-005",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "黑松岭",
+    "type": "岭",
+    "location_text": "在卫城东三十里",
+    "description": "上多松树",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-006",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "南河",
+    "type": "河",
+    "location_text": "在卫城南",
+    "description": "南流入洮河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-007",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "洮河",
+    "type": "河",
+    "location_text": "在卫城南三十五里",
+    "description": "源出西倾山东流入岷州卫界；每初冬冰凝冻圆如弹子蔽水而下，俗呼为珠子凌",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-008",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "朵的河",
+    "type": "河",
+    "location_text": "在卫城西三百里",
+    "description": "源出于川撒儿朵的族，南流入洮河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-009",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "纳怜河",
+    "type": "河",
+    "location_text": "在卫城西七百里",
+    "description": "源出哈藏族，西北流入黄河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-010",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "白水江",
+    "type": "江",
+    "location_text": "在卫城西南五百里",
+    "description": "源出香藏族，东流入叠州",
+    "lore": ""
+   }
   ],
   "pers": [
-   {"pers_id": "PER-001", "item_id": "37-003", "geo_id": "GEO-37003", "name": "柴绍", "dynasty": "唐", "source_section": "名宦", "note": "武德中为将，吐谷浑寇洮州，绍为虏所围，遣人弹胡琵琶二女对舞，虏聚观，绍潜遣精骑击其后虏众大溃"},
-   {"pers_id": "PER-002", "item_id": "37-003", "geo_id": "GEO-37003", "name": "赵阿克展", "dynasty": "金", "source_section": "名宦", "note": "叠州安抚使，时兵兴城无居人，至则招逃亡立城垒课耕桑以安辑之"},
-   {"pers_id": "PER-003", "item_id": "37-003", "geo_id": "GEO-37003", "name": "李晟", "dynasty": "唐", "source_section": "人物", "note": "洮州临潭人，年十八从王忠嗣征吐蕃称万人敌；克平朱泚收复京城，号令严明；累官司徒兼中书令，封西平郡王"},
-   {"pers_id": "PER-004", "item_id": "37-003", "geo_id": "GEO-37003", "name": "李愬", "dynasty": "唐", "source_section": "人物", "note": "晟子，吴元济逆命，愬率兵乘雪夜入蔡城擒吴元济；以功进检校尚书左仆射，封凉国公、凤翔节度使"}
+   {
+    "pers_id": "PER-001",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "柴绍",
+    "dynasty": "唐",
+    "source_section": "名宦",
+    "note": "武德中为将，吐谷浑寇洮州，绍为虏所围，遣人弹胡琵琶二女对舞，虏聚观，绍潜遣精骑击其后虏众大溃"
+   },
+   {
+    "pers_id": "PER-002",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "赵阿克展",
+    "dynasty": "金",
+    "source_section": "名宦",
+    "note": "叠州安抚使，时兵兴城无居人，至则招逃亡立城垒课耕桑以安辑之"
+   },
+   {
+    "pers_id": "PER-003",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "李晟",
+    "dynasty": "唐",
+    "source_section": "人物",
+    "note": "洮州临潭人，年十八从王忠嗣征吐蕃称万人敌；克平朱泚收复京城，号令严明；累官司徒兼中书令，封西平郡王"
+   },
+   {
+    "pers_id": "PER-004",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "李愬",
+    "dynasty": "唐",
+    "source_section": "人物",
+    "note": "晟子，吴元济逆命，愬率兵乘雪夜入蔡城擒吴元济；以功进检校尚书左仆射，封凉国公、凤翔节度使"
+   }
   ],
   "sites": [
-   {"site_id": "SIT-001", "item_id": "37-003", "geo_id": "GEO-37003", "name": "洮州卫学", "type": "学校", "location_text": "在卫治西", "description": "永乐十七年建"},
-   {"site_id": "SIT-002", "item_id": "37-003", "geo_id": "GEO-37003", "name": "石岭关", "type": "关梁/关", "location_text": "在卫城北一十五里", "description": ""},
-   {"site_id": "SIT-003", "item_id": "37-003", "geo_id": "GEO-37003", "name": "松岭关", "type": "关梁/关", "location_text": "在卫城东三十里", "description": ""},
-   {"site_id": "SIT-004", "item_id": "37-003", "geo_id": "GEO-37003", "name": "洮州关", "type": "关梁/关", "location_text": "在卫城西南三十里", "description": ""},
-   {"site_id": "SIT-005", "item_id": "37-003", "geo_id": "GEO-37003", "name": "旧桥关", "type": "关梁/关", "location_text": "在卫城东南四十里", "description": ""},
-   {"site_id": "SIT-006", "item_id": "37-003", "geo_id": "GEO-37003", "name": "新桥关", "type": "关梁/关", "location_text": "在卫城西南四十里", "description": ""},
-   {"site_id": "SIT-007", "item_id": "37-003", "geo_id": "GEO-37003", "name": "黑石关", "type": "关梁/关", "location_text": "在卫城东四十里", "description": ""},
-   {"site_id": "SIT-008", "item_id": "37-003", "geo_id": "GEO-37003", "name": "三坌关", "type": "关梁/关", "location_text": "在卫城东四十五里", "description": ""},
-   {"site_id": "SIT-009", "item_id": "37-003", "geo_id": "GEO-37003", "name": "高楼关", "type": "关梁/关", "location_text": "在卫城东五十里", "description": ""},
-   {"site_id": "SIT-010", "item_id": "37-003", "geo_id": "GEO-37003", "name": "羊撒关", "type": "关梁/关", "location_text": "在卫城北六十里", "description": "以上九关俱有官军防守"},
-   {"site_id": "SIT-011", "item_id": "37-003", "geo_id": "GEO-37003", "name": "重兴寺", "type": "寺观", "location_text": "在卫城西四里", "description": "洪武十六年建"},
-   {"site_id": "SIT-012", "item_id": "37-003", "geo_id": "GEO-37003", "name": "慈济寺", "type": "寺观", "location_text": "在卫城西南六里", "description": "永乐中番僧建"},
-   {"site_id": "SIT-013", "item_id": "37-003", "geo_id": "GEO-37003", "name": "洮州古城", "type": "古迹", "location_text": "在卫城西南七十里", "description": "晋时吐谷浑所筑，后周武帝逐吐谷浑而得其地"},
-   {"site_id": "SIT-014", "item_id": "37-003", "geo_id": "GEO-37003", "name": "叠州古城", "type": "古迹", "location_text": "在卫城南界", "description": "唐武德初析洮州之合川、叠川、乐川置，后废"},
-   {"site_id": "SIT-015", "item_id": "37-003", "geo_id": "GEO-37003", "name": "美相城", "type": "古迹", "location_text": "在卫境", "description": "唐置县，天宝中省入临潭"},
-   {"site_id": "SIT-016", "item_id": "37-003", "geo_id": "GEO-37003", "name": "临潭城", "type": "古迹", "location_text": "在卫城西南七十里", "description": "唐贞观五年置县，后废"},
-   {"site_id": "SIT-017", "item_id": "37-003", "geo_id": "GEO-37003", "name": "鹤城镇", "type": "古迹", "location_text": "在卫城东六里", "description": "吐谷浑所筑"},
-   {"site_id": "SIT-018", "item_id": "37-003", "geo_id": "GEO-37003", "name": "广恩镇", "type": "古迹", "location_text": "在卫城西一百六十里", "description": "唐置"}
+   {
+    "site_id": "SIT-001",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "洮州卫学",
+    "type": "学校",
+    "location_text": "在卫治西",
+    "description": "永乐十七年建"
+   },
+   {
+    "site_id": "SIT-002",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "石岭关",
+    "type": "关梁/关",
+    "location_text": "在卫城北一十五里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-003",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "松岭关",
+    "type": "关梁/关",
+    "location_text": "在卫城东三十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-004",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "洮州关",
+    "type": "关梁/关",
+    "location_text": "在卫城西南三十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-005",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "旧桥关",
+    "type": "关梁/关",
+    "location_text": "在卫城东南四十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-006",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "新桥关",
+    "type": "关梁/关",
+    "location_text": "在卫城西南四十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-007",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "黑石关",
+    "type": "关梁/关",
+    "location_text": "在卫城东四十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-008",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "三坌关",
+    "type": "关梁/关",
+    "location_text": "在卫城东四十五里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-009",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "高楼关",
+    "type": "关梁/关",
+    "location_text": "在卫城东五十里",
+    "description": ""
+   },
+   {
+    "site_id": "SIT-010",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "羊撒关",
+    "type": "关梁/关",
+    "location_text": "在卫城北六十里",
+    "description": "以上九关俱有官军防守"
+   },
+   {
+    "site_id": "SIT-011",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "重兴寺",
+    "type": "寺观",
+    "location_text": "在卫城西四里",
+    "description": "洪武十六年建"
+   },
+   {
+    "site_id": "SIT-012",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "慈济寺",
+    "type": "寺观",
+    "location_text": "在卫城西南六里",
+    "description": "永乐中番僧建"
+   },
+   {
+    "site_id": "SIT-013",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "洮州古城",
+    "type": "古迹",
+    "location_text": "在卫城西南七十里",
+    "description": "晋时吐谷浑所筑，后周武帝逐吐谷浑而得其地"
+   },
+   {
+    "site_id": "SIT-014",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "叠州古城",
+    "type": "古迹",
+    "location_text": "在卫城南界",
+    "description": "唐武德初析洮州之合川、叠川、乐川置，后废"
+   },
+   {
+    "site_id": "SIT-015",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "美相城",
+    "type": "古迹",
+    "location_text": "在卫境",
+    "description": "唐置县，天宝中省入临潭"
+   },
+   {
+    "site_id": "SIT-016",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "临潭城",
+    "type": "古迹",
+    "location_text": "在卫城西南七十里",
+    "description": "唐贞观五年置县，后废"
+   },
+   {
+    "site_id": "SIT-017",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "鹤城镇",
+    "type": "古迹",
+    "location_text": "在卫城东六里",
+    "description": "吐谷浑所筑"
+   },
+   {
+    "site_id": "SIT-018",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "广恩镇",
+    "type": "古迹",
+    "location_text": "在卫城西一百六十里",
+    "description": "唐置"
+   }
   ],
   "prods": [
-   {"prod_id": "PROD-001", "item_id": "37-003", "geo_id": "GEO-37003", "name": "寒水石", "note": ""},
-   {"prod_id": "PROD-002", "item_id": "37-003", "geo_id": "GEO-37003", "name": "甘草", "note": ""},
-   {"prod_id": "PROD-003", "item_id": "37-003", "geo_id": "GEO-37003", "name": "麝香", "note": ""},
-   {"prod_id": "PROD-004", "item_id": "37-003", "geo_id": "GEO-37003", "name": "洮石砚", "note": "宋张耒诗：赠君洮河绿石含风漪，能淬笔端利如锥"},
-   {"prod_id": "PROD-005", "item_id": "37-003", "geo_id": "GEO-37003", "name": "犏牛", "note": ""},
-   {"prod_id": "PROD-006", "item_id": "37-003", "geo_id": "GEO-37003", "name": "牦牛", "note": ""},
-   {"prod_id": "PROD-007", "item_id": "37-003", "geo_id": "GEO-37003", "name": "马鸡", "note": ""},
-   {"prod_id": "PROD-008", "item_id": "37-003", "geo_id": "GEO-37003", "name": "豹", "note": ""},
-   {"prod_id": "PROD-009", "item_id": "37-003", "geo_id": "GEO-37003", "name": "兔鹘鸦鹘", "note": ""},
-   {"prod_id": "PROD-010", "item_id": "37-003", "geo_id": "GEO-37003", "name": "堐羊", "note": ""}
+   {
+    "prod_id": "PROD-001",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "寒水石",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-002",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "甘草",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-003",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "麝香",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-004",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "洮石砚",
+    "note": "宋张耒诗：赠君洮河绿石含风漪，能淬笔端利如锥"
+   },
+   {
+    "prod_id": "PROD-005",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "犏牛",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-006",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "牦牛",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-007",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "马鸡",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-008",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "豹",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-009",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "兔鹘鸦鹘",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-010",
+    "item_id": "37-003",
+    "geo_id": "GEO-37003",
+    "name": "堐羊",
+    "note": ""
+   }
   ],
   "cits": [
-   {"cit_id": "CIT-001", "item_id": "37-003", "cited_work": "本朝洪武中敕曹国公文", "cited_work_ent_id": null, "context": "形胜", "original": "【本朝洪武中敕曹国公文】"},
-   {"cit_id": "CIT-002", "item_id": "37-003", "cited_work": "新志", "cited_work_ent_id": null, "context": "形胜/风俗", "original": "【新志】"},
-   {"cit_id": "CIT-003", "item_id": "37-003", "cited_work": "禹贡/水经", "cited_work_ent_id": null, "context": "山川", "original": "【禹贡西倾因桓是来】【水经曰西倾之南桓水出焉】"}
+   {
+    "cit_id": "CIT-001",
+    "item_id": "37-003",
+    "cited_work": "本朝洪武中敕曹国公文",
+    "cited_work_ent_id": null,
+    "context": "形胜",
+    "original": "【本朝洪武中敕曹国公文】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "37-003",
+    "cited_work": "新志",
+    "cited_work_ent_id": null,
+    "context": "形胜/风俗",
+    "original": "【新志】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "37-003",
+    "cited_work": "禹贡/水经",
+    "cited_work_ent_id": null,
+    "context": "山川",
+    "original": "【禹贡西倾因桓是来】【水经曰西倾之南桓水出焉】"
+   }
   ]
  },
  "layer_count": 7,
@@ -117,5 +617,6 @@
   "errs": [],
   "gap": 0,
   "notes": "洮州卫主文件；领千户所五但原文未具名，children空"
- }
+ },
+ "title": "洮州卫军民指挥使司"
 }
