@@ -1,0 +1,84 @@
+{
+  "_readme": "工厂单一真相源（Single Source of Truth）。所有跨文件复述的『条数/族数/版本号/占比/规则号』一律以本文件为准。改动本文件后必须跑 python scripts_check_factory_consistency.py --fix-hint，它会列出全库所有需要同步的位置。禁止在任何 .md 里手写这些数字——正文只写『见 facts.json』或引用键名。",
+  "_generated_by": "scripts_check_factory_consistency.py",
+
+  "pitfalls": {
+    "version": "v15",
+    "first_no": 0,
+    "last_no": 64,
+    "total": 65,
+    "note": "坑号 #0–#64 连续无跳号；#0 与 #0.1 为定位类，计入 65。"
+  },
+
+  "taxonomy": {
+    "version": "v1.3",
+    "families_total": 16,
+    "family_letters": "A–P",
+    "families": {
+      "A": { "count": 10, "title": "「校验通过」≠「数据可用」", "side": "engineering", "books": 4 },
+      "B": { "count": 8,  "title": "键名/ID/编号：命名是隐形契约", "side": "engineering", "books": 3 },
+      "C": { "count": 6,  "title": "语义判据方向判反 / 粒度选错", "side": "semantic", "books": 2 },
+      "D": { "count": 7,  "title": "枚举/字段与库不一致", "side": "semantic", "books": 3 },
+      "E": { "count": 5,  "title": "「条目→目标」映射被默认一对一", "side": "semantic", "books": 1 },
+      "F": { "count": 5,  "title": "字段值语义不足（空值不携带信息）", "side": "semantic", "books": 3 },
+      "G": { "count": 5,  "title": "写盘幂等性/原子性缺失", "side": "engineering", "books": 4 },
+      "H": { "count": 4,  "title": "切分口径按书而异、首次估算常错", "side": "semantic", "books": 3 },
+      "I": { "count": 3,  "title": "源文本污染（编码/OCR）", "side": "semantic", "books": 2 },
+      "J": { "count": 3,  "title": "规模与上下文", "side": "semantic", "books": 2 },
+      "K": { "count": 3,  "title": "层级结构设计", "side": "semantic", "books": 2 },
+      "L": { "count": 3,  "title": "核查器自身缺陷", "side": "engineering", "books": 2 },
+      "M": { "count": 3,  "title": "AI 流程与上下文卫生", "side": "semantic", "books": 0 },
+      "N": { "count": 2,  "title": "操作事故", "side": "semantic", "books": 1 },
+      "O": { "count": 2,  "title": "粒度/交付形态", "side": "semantic", "books": 2 },
+      "P": { "count": 9,  "title": "流程与语境失配", "side": "engineering", "books": 4 }
+    }
+  },
+
+  "guardrail_families": {
+    "letters": ["A", "B", "G", "P"],
+    "count": 30,
+    "of_total": 65,
+    "ratio_pct": 46,
+    "note": "四族 = A/B/G/P，全为工程侧、与书内容无关、跨 3–5 本复现。已在 assets/skeletons/packer_skeleton.py 落地为可复制骨架。"
+  },
+
+  "skeletons": {
+    "version": "v1",
+    "self_test_expected": "PASS 24 / FAIL 0",
+    "self_test_count": 24
+  },
+
+  "enum_library": {
+    "version": "v9"
+  },
+
+  "layer_library": {
+    "version": "v15"
+  },
+
+  "instances": {
+    "total": 17
+  },
+
+  "reading_budget": {
+    "_note": "走读预算（字符数），由 scripts_check_factory_consistency.py --budget 现算。硬上限：常驻必读 ≤ 30,000 字符。超出即视为「知识过载」，须下沉到 errors/ 或 archive/。",
+    "always_max_chars": 30000,
+    "always_files": [
+      "SKILL.md",
+      "references/methodology.md",
+      "references/checklists.md",
+      "references/schemas.md"
+    ]
+  },
+
+  "paths": {
+    "errors_card": "references/errors/README.md",
+    "error_families": "references/errors/families.md",
+    "criteria_card": "references/errors/criteria.md",
+    "archive_dir": "references/archive/",
+    "pitfalls": "references/archive/pitfalls.md",
+    "taxonomy": "references/archive/error-taxonomy.md",
+    "case_feedback_glob": "references/archive/case-feedback-*.md",
+    "pending_review_archive": "references/archive/pending-review-archive.md"
+  }
+}
