@@ -1,7 +1,7 @@
 /* 古籍知识工程进度看板数据 —— 2026-10-14 实测盘点（来源：Summary/01–04 文件，字段实测自各层成品 JSON） */
 window.GDATA = {
   generated: "2026-10-14",
-  stages: ["原料/原文", "底座切条", "装填解读", "层成品打包", "跨层索引", "验证", "交付"],
+  stages: ["原料/原文", "底座切条", "装填解读", "层成品打包", "跨层索引", "验证", "交付", "联邦入库"],
   // stageStates: 0=未做 1=部分/在建 2=完成
   books: [
     { id:"kzz", dir:"kezuozhuiyu-kb", title:"客座赘语", author:"明·顾起元", genre:"笔记（南都金陵掌故）", status:"done",
@@ -222,6 +222,62 @@ window.GDATA = {
       yhb: ["（13-…/scripts 装填）", "scripts/_common.py", "_kg_enums.py", "_layers/<layer>/", "（未做）", "（未做）"],
       xjy: ["_src/（试点）", "05-…/scripts/annotate.py", "references/schemas.md", "data/_layers/*_all.json", "验证清单", "（未做）"]
     }
+  },
+
+  // ============================================================
+  // 联邦库（tools/kb-federation/kb.sqlite）—— 实测 2026-10-17
+  // 交付后的第 8 步：把本书层产物作为「一本新书」接入跨书联邦库。
+  // 一句话：交付 ≠ 终点，入库后这本书才和他书发生关系。
+  // 物理不合并：各书层产物留在原处，联邦库只建逻辑链接（canonical/members）。
+  // ============================================================
+  federation: {
+    dbPath: "tools/kb-federation/kb.sqlite",
+    loadedAt: "2026-10-17",
+    // 库级汇总
+    totals: {
+      books: 13, canonical: 1580, members: 6772, candidateLinks: 6690,
+      pendingRefs: 1149, recordRefs: 5969, overrides: 204
+    },
+    // 联邦 book_id → { 看板 id、records、nodes、edges、items、层数、装载日、源目录 }
+    books: {
+      kzz:  { name:"客座赘语",   records:13779, nodes:8481, edges:704, items:476,  layers:13, loaded:"2026-10-11", root:"kezuozhuiyu-kb" },
+      wzz:  { name:"五杂俎",     records:10582, nodes:5821, edges:89,  items:1288, layers:11, loaded:"2026-10-11", root:"wuzazu-kb" },
+      sdr:  { name:"水东日记",   records:4348,  nodes:2253, edges:306, items:1197, layers:8,  loaded:"2026-10-11", root:"shuidongriji-kb" },
+      xgf:  { name:"新官轨范",   records:1975,  nodes:591,  edges:0,   items:275,  layers:9,  loaded:"2026-10-11", root:"xinguanguifan-kb" },
+      qb:   { name:"蘧编",       records:1944,  nodes:997,  edges:396, items:71,   layers:8,  loaded:"2026-10-11", root:"qubian_kb" },
+      xyf:  { name:"先进遗风",   records:19,    nodes:9,    edges:3,   items:100,  layers:6,  loaded:"2026-10-11", root:"xianjinyifeng-kb/05-xianjinyifeng-knowledge" },
+      lgs:  { name:"吕公实政录", records:1472,  nodes:573,  edges:0,   items:119,  layers:3,  loaded:"2026-10-12", root:"shizhenglu-kb" },
+      xzl:  { name:"政学录",     records:1831,  nodes:1100, edges:0,   items:183,  layers:5,  loaded:"2026-10-12", root:"xuezhenglu-kb" },
+      ysz:  { name:"宛署杂记",   records:1150,  nodes:333,  edges:201, items:155,  layers:9,  loaded:"2026-10-12", root:"yuanshuzaji-kb" },
+      fqh:  { name:"福惠全书",   records:2104,  nodes:646,  edges:80,  items:274,  layers:8,  loaded:"2026-10-12", root:"fuhuiquanshu-kb" },
+      ppy:  { name:"平平言",     records:1115,  nodes:337,  edges:0,   items:284,  layers:5,  loaded:"2026-10-13", root:"pingpingyan-kb" },
+      shz:  { name:"明史·食货志",records:2422,  nodes:803,  edges:234, items:254,  layers:8,  loaded:"2026-10-13", root:"mingshi/mingshi-shihuozhi" },
+      zgz:  { name:"明史·职官志",records:7144,  nodes:3261, edges:82,  items:317,  layers:7,  loaded:"2026-10-13", root:"mingshi/mingshi-zhiguanzhi" }
+    },
+    // 看板 id → 联邦 book_id（两套 id 体系不同名，必须显式映射）
+    idMap: { kzz:"kzz", wzz:"wzz", sdr:"sdr", xgg:"xgf", qb:"qb", fhs:"fqh", ppy:"ppy",
+             lgsz:"lgs", zxl:"xzl", wz:"ysz", zgz:"zgz", shz:"shz", xjy:"xyf" },
+    // 已交付/在建但尚未入库的书：写明原因，避免看着像漏做
+    pending: {
+      xjz: "层产物就绪（8 层），未写 adapter",
+      dlz: "层产物就绪（49 个文件），未写 adapter",
+      mhd: "已交付，39 个层文件，未写 adapter",
+      zp:  "层产物就绪，层形态特殊（all/pilot 双份），未写 adapter",
+      myt: "已交付 7 层 49429 条，未写 adapter",
+      yhb: "交付未收口（_deliver 缺失），先补交付再入库",
+      bz:  "未开工（空目录），无层产物可入库",
+      xf:  "未开工（原料在 mingshi/合并/刑法志.txt），无层产物可入库",
+      scm: "未开工（空目录），无层产物可入库"
+    },
+    // 入库操作的三步命令（看板直接展示，避免每次去翻文档）
+    steps: [
+      { t:"登记",   d:"adapters/__init__.py 加 5 处：BOOK_ROOTS / BOOK_NAMES / BOOK_LAYERS / LAYER_DECL / BOOK_REGISTRY" },
+      { t:"写 adapter", d:"adapters/<book>_adapter.py，多数书可仿 ppy_adapter.py（只读 _kg_join.json）" },
+      { t:"干跑",   d:"python federation.py extract --book <id> —— 核对层数与记录数，不入库" },
+      { t:"装载",   d:"python federation.py load --book <id> —— 必须确认「折叠丢失=0」" },
+      { t:"对齐",   d:"python federation.py transform —— T0–T3 去歧义 + 引用物化；冲突进 curate.py 人工核验" },
+      { t:"验证",   d:"python federation.py search <实体名> —— 能命中该书即入库成功" }
+    ]
   },
 
   // 全量层目录分组（用于 layers 页）

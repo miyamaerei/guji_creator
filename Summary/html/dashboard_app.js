@@ -270,6 +270,42 @@ createApp({
     const pipeCols = computed(()=>D.pipelineShapes?D.pipelineShapes.columns:[]);
     const pipeRow = computed(()=>D.pipelineShapes&&D.pipelineShapes.rows?D.pipelineShapes.rows[cur.value.id]:null);
     function stepStatus(i){ const s=cur.value.stageStates&&cur.value.stageStates[i]; return s===2?"success":s===1?"process":"wait"; }
+
+    // ---------- 联邦入库（data.js federation）----------
+    // 联邦 book_id → 看板 id 的反查（两套 id 不同名，如 xgf↔xgg、fqh↔fhs、ysz↔wz）
+    const fedDashOf = computed(()=>{
+      const out={}; const m=(D.federation&&D.federation.idMap)||{};
+      Object.keys(m).forEach(dashId=>{ out[m[dashId]]=dashId; });
+      return out;
+    });
+    const fedRows = computed(()=>{
+      const F=D.federation; if(!F) return [];
+      return Object.keys(F.books).map(fid=>Object.assign({fid, dashId:fedDashOf.value[fid]||null}, F.books[fid]))
+                   .sort((a,b)=>b.records-a.records);
+    });
+    const fedTotalRecords = computed(()=>fedRows.value.reduce((s,r)=>s+r.records,0));
+    const fedTotalNodes  = computed(()=>fedRows.value.reduce((s,r)=>s+r.nodes,0));
+    // 未入库：看板里有这本书（说明在建或已交付），但联邦 books 表没有。
+    // 判定要用 idMap 的 **键**（看板 id）：已入库的 13 本里有 6 本看板 id ≠ 联邦 id
+    // （xgg↔xgf、fhs↔fqh、lgsz↔lgs、zxl↔xzl、wz↔ysz、xjy↔xyf），
+    // 只看 books 表会把这 6 本误判成「未入库」。
+    const fedPendingRows = computed(()=>{
+      const F=D.federation; if(!F) return [];
+      const doneDash=new Set(Object.keys(F.idMap));      // 有映射 = 已入库
+      return D.books.filter(b=>!doneDash.has(b.id))
+                    .map(b=>({dashId:b.id, dir:b.dir, title:b.title, why:(F.pending&&F.pending[b.id])||"—"}));
+    });
+    const fedPendingCount = computed(()=>fedPendingRows.value.length);
+
+    // 书目总览的「联邦入库」列：2=已入库（idMap 有映射）1=有层产物待入库 0=无层产物
+    // 不用 data.js 每本的字段，直接从 idMap + books[].layers.length 推导，避免两处数据打架
+    function fedState(dashId){
+      const F=D.federation; if(!F) return 0;
+      if(F.idMap && F.idMap[dashId]) return 2;
+      const b=D.books.find(x=>x.id===dashId);
+      return (b && b.layers && b.layers.length) ? 1 : 0;
+    }
+
     function bookOf(id){ return D.books.find(x=>x.id===id)||{}; }
     function pickLayer(L){ selLayerKey.value=L.key; openAllJson.value=false; }
     function cmpCellCls(bid,row){
@@ -298,6 +334,7 @@ createApp({
       cmpLayer,cmpOnly,cmpAnnot,cmpOpen,cmpSwitch,cmpKeys,cmpBooks,cmpKnownIds,cmpKnown,cmpMajority,
       cmpRows,cmpSummary,cmpBookJson,cmpCellCls,cmpMark,uniqOf,missOf,bookOf,fDesc,
       tlQ,tlStages,tlDays,tlPos,STAGEC,tlMode,tlBook,tlChart,tlChartBooks,
+      fedRows,fedPendingRows,fedPendingCount,fedTotalRecords,fedTotalNodes,fedState,
       pipeCols,pipeRow};
   }
 }).use(ElementPlus).mount("#app");

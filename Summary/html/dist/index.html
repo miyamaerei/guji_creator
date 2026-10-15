@@ -20,6 +20,7 @@
       <el-tab-pane label="全量数据结构" name="layers"></el-tab-pane>
       <el-tab-pane label="同层对比" name="compare"></el-tab-pane>
       <el-tab-pane label="时间线" name="timeline"></el-tab-pane>
+      <el-tab-pane label="联邦入库" name="federation"></el-tab-pane>
     </el-tabs>
     <span class="note">盘点 {{D.generated}} · 静态版在 index.html</span>
   </div>
@@ -64,6 +65,13 @@
       </el-table-column>
       <el-table-column label="流程最后执行" width="140" :sort-by="b=>b.lastRun" sortable>
         <template #default="{row}"><span class="muted">{{row.lastRun}}</span></template>
+      </el-table-column>
+      <el-table-column label="联邦入库" width="106" align="center">
+        <template #default="{row}">
+          <el-tag v-if="fedState(row.id)===2" size="small" type="success" effect="plain" title="已接入跨书联邦库">已入库</el-tag>
+          <el-tag v-else-if="fedState(row.id)===1" size="small" type="warning" effect="plain" title="有层产物，尚未接入联邦库">待入库</el-tag>
+          <span v-else class="muted" title="尚无层产物，无可入库内容">—</span>
+        </template>
       </el-table-column>
       <el-table-column label="总进度" width="150">
         <template #default="{row}"><el-progress :percentage="row.pct" :stroke-width="12" text-inside></el-progress></template>
@@ -326,6 +334,81 @@
       </div>
       <p v-if="!tlDays.length" class="muted">无匹配的阶段执行记录</p>
     </template>
+  </template>
+
+  <!-- ================= 6. 联邦入库 ================= -->
+  <template v-if="tab==='federation'">
+    <div class="legendbox">
+      <b>交付不是终点——第 8 步「联邦入库」：</b>
+      完成交付后，把该书的层产物作为<b>一本新书</b>接入跨书联邦库
+      <code>{{D.federation.dbPath}}</code>，参与跨书实体对齐与关联查询。入库后这本书才和他书发生关系。
+      各书层产物仍留在原处，联邦库<b>只建逻辑链接</b>（canonical / members），<b>物理不合并</b>，也不回写书工程。
+      实测 {{D.federation.loadedAt}}。
+    </div>
+
+    <div class="statgrid">
+      <div class="stat"><div class="n">{{D.federation.totals.books}}<span class="u"> / {{D.books.length}}</span></div><div class="l">已入库书 / 看板总数</div></div>
+      <div class="stat"><div class="n">{{fedPendingCount}}</div><div class="l">已交付未入库</div></div>
+      <div class="stat"><div class="n">{{fedTotalRecords.toLocaleString()}}</div><div class="l">联邦库记录总条数</div></div>
+      <div class="stat"><div class="n">{{fedTotalNodes.toLocaleString()}}</div><div class="l">图谱节点数</div></div>
+      <div class="stat"><div class="n">{{D.federation.totals.canonical.toLocaleString()}}</div><div class="l">canonical 同实体归并组</div></div>
+      <div class="stat"><div class="n">{{D.federation.totals.members.toLocaleString()}}</div><div class="l">跨书成员引用</div></div>
+      <div class="stat"><div class="n">{{D.federation.totals.candidateLinks.toLocaleString()}}</div><div class="l">待定候选链接</div></div>
+      <div class="stat"><div class="n">{{D.federation.totals.overrides}}</div><div class="l">人工裁决覆盖</div></div>
+    </div>
+
+    <h4 class="sech">已入库 13 本</h4>
+    <el-table :data="fedRows" border stripe size="small" row-key="fid">
+      <el-table-column label="书名" min-width="170">
+        <template #default="{row}">
+          <a v-if="row.dashId" class="booklink" @click="openBook(bookOf(row.dashId))"><b>《{{row.name}}》</b></a>
+          <b v-else>《{{row.name}}》</b>
+          <div class="muted">book_id <code>{{row.fid}}</code><span v-if="row.dashId && row.dashId!==row.fid"> · 看板 id <code>{{row.dashId}}</code></span></div>
+        </template>
+      </el-table-column>
+      <el-table-column prop="root" label="源目录" min-width="200"><template #default="{row}"><code class="muted">{{row.root}}</code></template></el-table-column>
+      <el-table-column prop="layers" label="层数" width="70" sortable align="right"></el-table-column>
+      <el-table-column prop="records" label="records" width="95" sortable align="right"><template #default="{row}">{{row.records.toLocaleString()}}</template></el-table-column>
+      <el-table-column prop="nodes" label="nodes" width="95" sortable align="right"><template #default="{row}">{{row.nodes.toLocaleString()}}</template></el-table-column>
+      <el-table-column prop="edges" label="edges" width="85" sortable align="right"><template #default="{row}"><span :class="{muted:!row.edges}">{{row.edges.toLocaleString()}}</span></template></el-table-column>
+      <el-table-column prop="items" label="items" width="80" sortable align="right"></el-table-column>
+      <el-table-column prop="loaded" label="装载日" width="100"></el-table-column>
+    </el-table>
+    <p class="muted" style="margin-top:4px">按 records 降序。records = 该书房层产物全部条目；nodes/edges = T 阶段派生的跨层图谱；edges 为 0 表示该书层产物当前无「关系类型」层可抽边（非装载失败）。</p>
+
+    <h4 class="sech">已交付但未入库（{{fedPendingCount}} 本）</h4>
+    <el-table :data="fedPendingRows" border stripe size="small">
+      <el-table-column label="书名" min-width="170">
+        <template #default="{row}">
+          <a class="booklink" @click="openBook(bookOf(row.dashId))"><b>《{{row.title}}》</b></a>
+          <div class="muted"><code>{{row.dir}}</code></div>
+        </template>
+      </el-table-column>
+      <el-table-column prop="why" label="未入库原因" min-width="320"></el-table-column>
+    </el-table>
+
+    <h4 class="sech">入库操作（6 步）</h4>
+    <el-table :data="D.federation.steps" border size="small">
+      <el-table-column type="index" label="#" width="42"></el-table-column>
+      <el-table-column prop="t" label="步骤" width="110"></el-table-column>
+      <el-table-column prop="d" label="做什么"></el-table-column>
+    </el-table>
+
+    <div class="flowcard" style="margin-top:10px">
+      <b>⚠ 四条铁律</b>
+      <div style="margin-top:4px"><b>① 原文不重抄：</b>adapter 只读 <code>_layers/</code> 与 <code>_kg_join.json</code>，正文仍只在各书指纹库；联邦库 <code>items</code> 只存指针。</div>
+      <div style="margin-top:4px"><b>② ID 命名空间：</b>同一 <code>local_id</code> 在 (book, layer) 内必须唯一。按卷重排 ID 的书（客座赘语 / 五杂俎 / 明史·职官志）必须加卷前缀，否则同 ID 互相覆盖，<b>静默丢记录</b>。</div>
+      <div style="margin-top:4px"><b>③ 物理不合并：</b>两书说同一人，只建 canonical 链接，不改各自层产物。</div>
+      <div style="margin-top:4px"><b>④ 单向只读：</b>联邦库是消费方，不回写书工程。</div>
+    </div>
+
+    <div class="flowcard" style="margin-top:8px">
+      <b>可核验命令（在 <code>tools/kb-federation/</code> 下执行）</b>
+      <div style="margin-top:4px"><code>python federation.py search &lt;实体名&gt;</code> —— 跨书搜实体，看命中哪些书</div>
+      <div style="margin-top:4px"><code>python federation.py assoc &lt;查询&gt;</code> —— 关联查询（--name --work --author --place --keyword --predicates --reign）</div>
+      <div style="margin-top:4px"><code>python federation.py conflicts</code> —— 列出待人工裁决的冲突</div>
+      <div style="margin-top:4px"><code>python federation.py volumes</code> / <code>source-rev</code> —— 卷登记 / 增量水印</div>
+    </div>
   </template>
 </div>
 

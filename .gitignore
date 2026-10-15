@@ -115,6 +115,13 @@ _shots/
 # 输入仅 _layers/ + _global/ + _item_registry.json，属纯派生产物。
 wanliyehuopian-kb/*/views/
 
+# ---------- 交付包内的自包含副本：万历野获编 _deliver 整包入库 ----------
+# 与明会典同理：上方未锚定的 _layers/ / _kg_join.json / views/ 规则会连带排除
+# 交付包内的数据副本；此处显式取反，保证交付包开箱即用。
+# 注意取反必须写在对应忽略规则之后（gitignore 后匹配者胜）。
+!/wanliyehuopian-kb/13-wanli-yehuo-knowledge/_deliver/
+!/wanliyehuopian-kb/13-wanli-yehuo-knowledge/_deliver/**
+
 # ---------- 明一统志：旧分层快照备份（已被 _layers/ 取代，不入仓）----------
 mingyitongzhi-kb/*/_layers_old/
 
@@ -127,3 +134,12 @@ Summary/html/.*.qoder.site
 
 # ---------- 测试沙箱（本轮临时目录，不入仓）----------
 kb_test/
+
+# ---------- 采集器中间产物（每次运行重生成，不入仓）----------
+Summary/html/_meta_out.json
+Skills/progress-dashboard-integration/scripts/_collect_out.json
+
+# ---------- 万历野获编：修复前快照（单文件备份，非目录，故 L49/L50 不覆盖）----------
+# _backup*/ 与 _backup_*/ 带尾斜杠只匹配目录；此文件是 2.05MB 的单文件快照，
+# 内容是 registry 修复前的完整副本，可由 git 历史 + 重新切分重建。
+wanliyehuopian-kb/*/_backup_*.json

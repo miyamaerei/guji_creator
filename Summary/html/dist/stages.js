@@ -1,4 +1,4 @@
-﻿// 七段流程的统一数据结构：书目总览 / 书籍详情 / 时间线 共用
+// 七段流程的统一数据结构：书目总览 / 书籍详情 / 时间线 共用
 // 每步字段：
 //   name 阶段名（与 data.js 的 stages 一一对应）
 //   goal 这一步在做什么（一句话）
@@ -72,5 +72,14 @@ window.GSTAGES = [
     do:"① 产出交付物：层聚合 JSON+CSV、跨层索引 CSV、实体主键表、记译合册、复盘报告；② 按 `Skills/00-…/assets/templates/usage_report_template.md` 写使用报告；③ **回写看板**：改 `Summary/html/data.js`（layers 计数/notes/drift/stageStates）并跑 `node Summary/html/collect_times.js` 刷新 times.js。",
     out:"`_deliver/` 在盘；看板「书目总览」该书状态变为 ✅；`Summary/01–04` 盘点同步。",
     ref:"报告模板 `Skills/00-book-knowledge-factory/assets/templates/`；看板刷新规范 `Skills/progress-dashboard-integration/SKILL.md`。",
-    pit:"在途未收口的书在看板 note 写明「快照 日期，卷X 在途」；交付后写案例反馈 `references/case-feedback-<slug>.md` 回写工厂台账。" }
+    pit:"在途未收口的书在看板 note 写明「快照 日期，卷X 在途」；交付后写案例反馈 `references/case-feedback-<slug>.md` 回写工厂台账。" },
+  { key:"federation", name:"联邦入库",
+    goal:"把该书的层产物作为「一本新书」接入跨书联邦库，参与跨书实体对齐与关联查询——交付不等于终点，入库后这本书才和他书发生关系。",
+    mark:"`books` 表有该书登记行、`records` 条数与本书层产物之和一致、T 阶段跑过（`nodes` 非空）。",
+    next:"入库完成后本书可被跨书查询命中（`search`/`assoc`）；后续增量装载按 `source_rev` 水印判断是否需要重装。",
+    where:"仓库根 `tools/kb-federation/`。三步：① 在本目录 `adapters/__init__.py` 登记（BOOK_ROOTS / BOOK_NAMES / BOOK_LAYERS / LAYER_DECL / BOOK_REGISTRY）；② 写 `adapters/<book>_adapter.py`（多数书可仿 `ppy_adapter.py`，只读 `_kg_join.json`）；③ 跑 `python federation.py load --book <id>` → `python federation.py transform`。",
+    do:"① 先 `python federation.py extract --book <id>` 干跑，核对层数与记录数（不入库）；② `load` 装载，**必须看「折叠丢失=0」**——有折叠说明 local_id 命名空间撞了，要回 adapter 加卷前缀或 `#n` 去重；③ 跑 `transform` 做 T0–T3 去歧义；④ 冲突进 `curate.py` 人工核验，别名裁决写入 `member_overrides`。",
+    out:"`kb.sqlite` 的 `books` / `layer_catalog` / `records` / `nodes` 有该书数据；`load_runs` 增一条 `done`。可核验命令：`python federation.py search <本书任意实体名>` 能命中该书。",
+    ref:"流程文档 `docs/跨书合并-ELT实现步骤.md`（F0–F4）；志书接入样例 `docs/志书接入联邦库方案.md`；最近两本样例 `adapters/ppy_adapter.py`、`adapters/shz_adapter.py`。",
+    pit:"① **原文不重抄**：adapter 只读 `_layers`/`_kg_join`，正文仍只在各书指纹库（联邦库 `items` 只存指针）；② **ID 命名空间**：同一 `local_id` 在 (book,layer) 内必须唯一，按卷重排 ID 的书（客座/五杂俎/职官志）必须加卷前缀，否则静默折叠丢记录；③ **物理不合并**：两书实体只建 canonical 链接，不改各自层产物；④ 联邦库是**只读消费方**，不回写书工程。" }
 ];
