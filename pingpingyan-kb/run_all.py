@@ -21,6 +21,7 @@ cmds = [
     [sys.executable, os.path.join(ROOT, "build_reg.py")] + vol_flag,
     [sys.executable, os.path.join(ROOT, "build_opn.py")] + vol_flag,
     [sys.executable, os.path.join(ROOT, "build_kg_join.py")] + vol_flag,
+    [sys.executable, os.path.join(ROOT, "build_trl.py")] + vol_flag,
 ]
 if "--skip-baseline" in args:
     cmds.append([sys.executable, os.path.join(ROOT, "validate_layers.py"), "--skip-baseline"])

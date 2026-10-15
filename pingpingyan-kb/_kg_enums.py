@@ -48,6 +48,9 @@ FRD_TYPES = ["abuse", "guard", "evil_custom", "other"]
 LGR_TYPES = ["ledger", "geye", "template_form", "board", "voucher", "other"]
 TME_TYPES = ["deadline", "meeting", "assessment", "season", "age_limit", "other"]
 
+# ---- 古今翻译层 TRL（工厂层库 C5：封闭 + 兜底）----
+TRL_STYLES = ["直译", "意译", "注释性翻译"]
+
 # ---- 枚举组登记表（打包器/校验器用）----
 ENUM_GROUPS = {
     "ENTITY": ENTITY_TYPES,
@@ -59,4 +62,5 @@ ENUM_GROUPS = {
     "FRD": FRD_TYPES,
     "LGR": LGR_TYPES,
     "TME": TME_TYPES,
+    "TRL": TRL_STYLES,
 }

@@ -69,7 +69,7 @@
 ```
 - norm 归一规则：繁体/异体→规范简体（廵→巡、飬→养、枽→桑、貯→贮）；缺字 `□`/`■〈…〉` 保留原形；标点按现代句读。
 - `_src/` AI 源数据**绝不手抄原文**（C3），original 由打包器从指纹库注入。
-- 白话文对照：`_baihua_map.json` 维护 `item_id → 白话文段落`（从 `assets/sources/吕公实政录_白话文_全卷合并.txt` 按 ◆/○/△ 标题对应截取；卷级条目按卷截取）。
+- 白话文对照：已升级为 TRL 翻译层（见 §11）——`build_trl.py` 从工程根 `白话文/<册名>_白话.txt` 整段截取入层，`_baihua_map.json` 计划废止。
 
 ---
 
@@ -313,10 +313,13 @@ TME_TYPES_ZH = {"deadline": "期限", "meeting": "会期", "assessment": "考绩
 - 乡甲约卷之三/四/五/六为格叶体（"一…事"开头 + 计开条件），整卷一条卷级条目，计开条件不单独编号；规则/结构化在条目内逐句/逐款产出。
 - 明职序/引、风宪约重刊序为卷级条目，内容为说理/记事，规则抽取极低；实体与结构化照常。
 
-## 11. 白话文对照引用（非层，交付辅助）
+## 11. TRL 古今翻译层（2026-10-14 增量启用；原"白话文对照引用（非层）"一节由本层取代）
 
-- 文件：`assets/sources/吕公实政录_白话文_全卷合并.txt`（15 卷 ◆ 标题 + 111 个 ○/△ 标题与原文一一对应）。
-- 产出：`_baihua_map.json`（item_id → 白话文段落）。**禁止**把白话文当原文抽取；仅交付/查询时引用。
+- 命令：`python build_trl.py`（全量幂等，`--volumes` 可指定册）；读工程根 `白话文/<册名>_白话.txt` 分册对照源（与 `assets/sources/吕公实政录_白话文_全卷合并.txt` 同源）。
+- 对齐：条目标题按 `_extract/NN_*.txt` 同源切分与白话 ○/△ 标题逐一比对（零差异）；卷级册整册一条；硬校验条目数=翻译数=119。
+- 记录 schema：`trl_id / item_id / translation / style / note / confidence / original / norm`（original/norm 由指纹库注入）；trl_id = `TRL-<册NN><条NNN>`；style 枚举见 `_kg_enums.py` `TRL_STYLES`，本书取"注释性翻译"。
+- 产出：`_layers/trl/trl_NN.json` + `trl_summary.json` + `全书白话译本/*.md`；校验并入 `validate_layers.py`（TRL 未打包/翻译未覆盖报 GAP）。
+- 仍**禁止**把白话文当原文抽取（ENT/RULE/STRUCT 各层只认指纹库 original）。
 
 ---
 

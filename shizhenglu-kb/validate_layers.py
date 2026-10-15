@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""校验器（验收闸门）：C5 枚举 / C6 字段完整 / C3 original 注入 / 引用槽位 / item_id 全回填。
+"""校验器（验收闸门）：C5 枚举 / C6 字段完整 / C3 original 注入 / 引用槽位 / item_id 全回填 / TRL 翻译覆盖。
 用法：python validate_layers.py [--skip-baseline]（部分装填阶段用 --skip-baseline 跳过全量回填检查）
 退出码：0=通过；1=有 ERR 或 GAP。输出 _validate/验证缺漏清单.txt"""
 import io
@@ -20,11 +20,13 @@ PRESENT_OK = {
     "ent": {"original"},
     "rule": {"modals", "condition", "subject_ent_ids", "object", "purpose", "punishment", "original"},
     "struct": {"target", "evidence", "original"},
+    "trl": {"original", "norm", "note"},
 }
 NOT_EMPTY = {
     "ent": {"ent_id", "item_id", "text", "type", "start", "end", "normalized", "confidence", "source"},
     "rule": {"rule_id", "item_id", "type", "subject", "action", "confidence"},
     "struct": {"struct_id", "item_id", "dim", "confidence"},
+    "trl": {"trl_id", "item_id", "translation", "style", "confidence"},
 }
 
 
@@ -116,6 +118,43 @@ def main():
         for item_id, t in all_ids:
             if t not in known:
                 GAP.append("[struct] 悬空 target %s (item=%s)" % (t, item_id))
+
+    # trl（古今翻译层：字段/风格枚举/trl_id 规则/original·norm 注入/翻译覆盖）
+    seen_trl, trl_covered = set(), set()
+    for f in layer_files("trl", "trl_"):
+        vol = f[4:-5]
+        data = read_json(os.path.join(LAYER_DIR, "trl", f), {"records": []})
+        for r in data["records"]:
+            check_fields("trl", r)
+            if r.get("style") not in ENUMS["TRL_STYLES"]:
+                ERR.append("[trl] 未注册翻译风格 %r (%s)" % (r.get("style"), r.get("trl_id")))
+            tid, iid = r.get("trl_id"), r.get("item_id")
+            if tid and iid and tid != "TRL-" + iid.replace("-", ""):
+                ERR.append("[trl] trl_id 与 item_id 不符: %s (item=%s)" % (tid, iid))
+            if tid in seen_trl:
+                ERR.append("[trl] trl_id 重复: %s" % tid)
+            if tid:
+                seen_trl.add(tid)
+            if iid not in registry:
+                GAP.append("[trl] item_id 不在指纹库: %s" % tid)
+            else:
+                if r.get("original") != registry[iid]["original"]:
+                    ERR.append("[trl] original 与指纹库不一致: %s" % tid)
+                if r.get("norm") != registry[iid]["norm"]:
+                    ERR.append("[trl] norm 与指纹库不一致: %s" % tid)
+            if iid:
+                trl_covered.add(iid)
+        print("trl 卷%s：%d 条" % (vol, len(data["records"])))
+
+    # TRL 翻译覆盖（C5 硬规则：条目数=翻译数；不受 --skip-baseline 豁免）
+    if not layer_files("trl", "trl_"):
+        GAP.append("[trl] TRL 层未打包：_layers/trl/ 无 trl_NN.json（先运行 python build_trl.py）")
+    else:
+        missing_trl = sorted(set(registry) - trl_covered)
+        if missing_trl:
+            GAP.append("[trl] 翻译未覆盖指纹库 %d 条: %s%s"
+                       % (len(missing_trl), ",".join(missing_trl[:20]),
+                          "…" if len(missing_trl) > 20 else ""))
 
     # item_id 全回填（缺省全量检查；--skip-baseline 时只查已打包卷）
     if not skip_baseline:

@@ -41,3 +41,6 @@ TME_TYPES_ZH = {"deadline": "期限", "meeting": "会期", "assessment": "考绩
 
 # ---- 结构化维度枚举（C4 登记）----
 STRUCT_DIMS = ["ACT", "FRD", "LGR", "TME"]
+
+# ---- 古今翻译层 TRL（工厂层库 C5：封闭 + 兜底）----
+TRL_STYLES = ["直译", "意译", "注释性翻译"]

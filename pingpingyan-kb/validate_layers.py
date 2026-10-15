@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""校验器（验收闸门）：C5 枚举 / C6 字段完整 / C3 original 注入 / 引用槽位 / item_id 全回填。
+"""校验器（验收闸门）：C5 枚举 / C6 字段完整 / C3 original 注入 / 引用槽位 / item_id 全回填 / TRL 翻译覆盖。
 用法：python validate_layers.py [--skip-baseline]（部分装填阶段用 --skip-baseline 跳过全量回填检查）
 退出码：0=通过；1=有 ERR 或 GAP。输出 _validate/验证缺漏清单.txt"""
 import io
@@ -20,6 +20,7 @@ PRESENT_OK = {
     "struct": {"target", "evidence", "original"},
     "reg": {"content", "evolution", "target", "original"},
     "opn": {"argument", "evidence_refs", "original"},
+    "trl": {"original", "norm", "note"},
 }
 NOT_EMPTY = {
     "ent": {"ent_id", "item_id", "text", "type", "start", "end", "normalized", "confidence", "source"},
@@ -27,12 +28,14 @@ NOT_EMPTY = {
     "struct": {"struct_id", "item_id", "dim", "confidence"},
     "reg": {"reg_id", "item_id", "name", "type", "confidence"},
     "opn": {"opn_id", "item_id", "topic", "stance", "confidence"},
+    "trl": {"trl_id", "item_id", "translation", "style", "confidence"},
 }
 ENUM_FIELD = {
     "ent": ("ENTITY_TYPES", "type"),
     "rule": ("RULE_TYPES", "type"),
     "reg": ("REG_TYPES", "type"),
     "opn": ("OPN_STANCES", "stance"),
+    "trl": ("TRL_STYLES", "style"),
 }
 
 
@@ -75,7 +78,8 @@ def main():
     registry = load_registry()
     skip_baseline = "--skip-baseline" in sys.argv
 
-    for layer in ["ent", "rule", "struct", "reg", "opn"]:
+    seen_trl, trl_covered = set(), set()
+    for layer in ["ent", "rule", "struct", "reg", "opn", "trl"]:
         for f in layer_files(layer, layer + "_"):
             vol = f[len(layer) + 1:-5]
             data = read_json(os.path.join(LAYER_DIR, layer, f), {"records": []})
@@ -93,7 +97,30 @@ def main():
                     t = r.get("target", "")
                     if t and not (t.startswith(tuple(DIM_PREFIX.values())) or t.startswith("ENT-")):
                         ERR.append("[struct] target 引用格式非法: %s -> %s" % (r["struct_id"], t))
+                # trl 额外：trl_id 规则/全局唯一 + norm 注入 + 覆盖收集
+                if layer == "trl":
+                    tid, iid = r.get("trl_id"), r.get("item_id")
+                    if tid and iid and tid != "TRL-" + iid.replace("-", ""):
+                        ERR.append("[trl] trl_id 与 item_id 不符: %s (item=%s)" % (tid, iid))
+                    if tid in seen_trl:
+                        ERR.append("[trl] trl_id 重复: %s" % tid)
+                    if tid:
+                        seen_trl.add(tid)
+                    if iid in registry and r.get("norm") != registry[iid]["norm"]:
+                        ERR.append("[trl] norm 与指纹库不一致: %s" % tid)
+                    if iid:
+                        trl_covered.add(iid)
             print("%s 卷%s：%d 条" % (layer, vol, len(data["records"])))
+
+    # TRL 翻译覆盖（C5 硬规则：条目数=翻译数；不受 --skip-baseline 豁免）
+    if not layer_files("trl", "trl_"):
+        GAP.append("[trl] TRL 层未打包：_layers/trl/ 无 trl_NN.json（先运行 python build_trl.py）")
+    else:
+        missing_trl = sorted(set(registry) - trl_covered)
+        if missing_trl:
+            GAP.append("[trl] 翻译未覆盖指纹库 %d 条: %s%s"
+                       % (len(missing_trl), ",".join(missing_trl[:20]),
+                          "…" if len(missing_trl) > 20 else ""))
 
     # struct 悬空引用（target 必须存在于已打包记录或实体主键）
     ent_keys = read_json(os.path.join(ROOT, "_global", "ent_keys.json"), {})

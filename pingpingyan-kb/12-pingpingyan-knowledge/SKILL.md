@@ -15,8 +15,8 @@ description: 《平平言》知识工程实例 skill——按已确认方案执�
 | 粒度 | 条目级：**284 条**（卷一 84 / 卷二 87 / 卷三 43 / 卷四 70，正文 `○` 标题条目）；正文"一曰/一曰……"条款不单独编号（保留在条目原文内） |
 | 判定方式 | AI 逐条判定 + 代码验缺漏（触发词引擎只作候选，不作结论） |
 | 交付形态 | JSON + 汇总报告 + 跨层 CSV（Excel 直接打开） |
-| 启用层 | L0 底座 / L1 实体 / L2 规则 / L4 结构化（ACT·FRD·LGR·TME 四维）/ REG 制度 / OPN 论说 / 跨层索引 / V2+V3 治理组件 |
-| 翻译 | **不建 TRL 层**（沿用 lgs/xzl/fqh 口径：已有白话文译本）。`assets/sources/平平言_白话文_全卷合并.txt` 作**对照引用源**，不参与抽取 |
+| 启用层 | L0 底座 / L1 实体 / L2 规则 / L4 结构化（ACT·FRD·LGR·TME 四维）/ REG 制度 / OPN 论说 / TRL 古今翻译（2026-10-14 增量）/ 跨层索引 / V2+V3 治理组件 |
+| 翻译 | **TRL 已建**（2026-10-14 增量，推翻原"不建"口径）：`build_trl.py` 读 `白话文/卷一~卷四_白话.txt` 对照引用源整段入层 → `_layers/trl/`，284 条全覆盖，注释性翻译 |
 
 ## 0.1 引导式反思记录（来源：工厂 Phase ②，本实例的源头）
 
@@ -46,6 +46,8 @@ description: 《平平言》知识工程实例 skill——按已确认方案执�
 | 跨层索引 | 公共 | 建 | 启用 ≥2 层必做 |
 
 **确认结论**：用户拍板——规则型 7 层（L0+L1+L2+L4 四维+REG+OPN+跨层索引）、条目粒度（284 条）、JSON+CSV、不建翻译层（白话文对照源）、沿用契约线（未来可并入联邦库）。锁层即按此执行，无需再设计。
+
+**2026-10-14 增量（TRL 翻译层，推翻原"不建"口径）**：用户要求"把白话文写入 trl 层"。新增 `build_trl.py`：读分卷白话对照源（`白话文/卷一~卷四_白话.txt`），按 ○ 标题顺序与指纹库硬校验对齐（条目数=翻译数=284，标题零差异），产出 `_layers/trl/trl_NN.json` + `trl_summary.json` + `全书白话译本/*.md`；trl_id = `TRL-<卷NN><条NNN>`（可由 item_id 还原）；`_kg_enums.py` 增 `TRL_STYLES`；`validate_layers.py` 纳入 trl 校验（字段/风格枚举/id 规则/original+norm 注入/翻译覆盖，TRL 未打包报 GAP，不受 `--skip-baseline` 豁免）。§9"白话文对照映射未建"缺口由本层关闭，`_baihua_map.json` 计划废止（译文即 TRL 记录）。
 
 ## 0.2 本书契约台账（来源：docs/新书开工流程.md Step 0，tools/book-mcp 实查）
 
@@ -152,16 +154,17 @@ description: 《平平言》知识工程实例 skill——按已确认方案执�
   - `python build_reg.py --volumes NN` —— 制度层
   - `python build_opn.py --volumes NN` —— 论说层
   - `python build_kg_join.py --volumes NN` —— 跨层整合
+  - `python build_trl.py [--volumes NN]` —— 翻译层（白话文对照源整段入层，幂等）
   - `python validate_layers.py` —— 校验（`_validate/` 缺漏清单 ERR=0/GAP=0 才算过）
   - `python run_all.py [--volumes NN]` —— 全量 / 单卷幂等重跑
 - **键名约定**：各层产物顶层键统一 `records`；打包器内建源数据键名映射表（SRC_KEY），源数据键名与打包容器键分处声明；`_src/` 只写条号 + 解读字段（C3）。
-- 验证：每层"验证缺漏清单.txt"问题数 = 0（实体未归一 / 规则缺 item_id / struct target 悬空 / item_id 未全回填等）；区分结构性错误 ERR 与执行缺口 GAP；验证脚本写文件输出，不依赖 stdout；未注册枚举值记 ERR 不静默放行（C5）。
+- 验证：每层"验证缺漏清单.txt"问题数 = 0（实体未归一 / 规则缺 item_id / struct target 悬空 / item_id 未全回填 / trl 翻译未覆盖或未打包等）；区分结构性错误 ERR 与执行缺口 GAP；验证脚本写文件输出，不依赖 stdout；未注册枚举值记 ERR 不静默放行（C5）。
 
 ## 8. 交付清单
 
 - 交付物统一进 `_deliver/`（C1）。
 - 按层聚合交付（每层一组：归一汇总 + 验证清单 + 卷示例 + 跨层索引），≤6 组。
-- 《使用报告》：快速查询（跨层 CSV 一行全看 / 实体主键反查 / 各层归一汇总）、全文回查溯源（指纹库）、白话文对照引用（`_baihua_map.json`）、可重跑管线、扩展指南（模板见 `assets/templates/usage_report_template.md`）。
+- 《使用报告》：快速查询（跨层 CSV 一行全看 / 实体主键反查 / 各层归一汇总）、全文回查溯源（指纹库）、白话文对照引用（TRL 层 `_layers/trl/`，可读版 `全书白话译本/`）、可重跑管线、扩展指南（模板见 `assets/templates/usage_report_template.md`）。
 - 《项目总结报告》：时间线、反思、根因、方法论沉淀、缺口与建议（模板见 `assets/templates/project_summary_template.md`）。
 - 交付物按环境可用方式交付（本地文件路径或打包视图），说明验证方式、覆盖范围与仍存在的缺口。
 
@@ -172,7 +175,7 @@ description: 《平平言》知识工程实例 skill——按已确认方案执�
 | 序/凡例/跋 | 版本说明卷（00），不进入条目库（用户口径 284 条） | 如需将凡例"体例自述"纳入抽取，增量加 00 卷条目 |
 | 工程根 GBK 合并文件 | 底本参照；实例内统一 UTF-8（scripts/prepare_sources.py 已重合并） | 执行期一律读 `assets/sources/` 下 UTF-8 文件 |
 | 前代故事/亲历案例（约 40+ 处） | 未建 L5 事件层（用户口径），由 OPN/FRD/实体承载 | 若后续需事件检索，走工厂增量升级流程加 L5 |
-| 白话文对照映射 | 合并版与原文结构对应，条目级映射未建 | 按需建 `_baihua_map.json` |
+| 白话文对照映射 | ✅ 2026-10-14 已由 TRL 层关闭（`build_trl.py` 全量入层，284 条） | 译文查询走 `_layers/trl/`；`_baihua_map.json` 计划废止 |
 | 原文缺字/异体/夹注括注 | 保留原形入 norm，标注待核 | 人工校验闭环回填 |
 | 卷三内容形态 | 刑名听讼为主，执行时核对听讼类规则的条目边界 | 底座切分时核定 |
 
