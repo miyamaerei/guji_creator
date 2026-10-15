@@ -1,0 +1,234 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "馆陶县",
+  "region": "山东",
+  "original": "馆陶县【在州城西一百三十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "馆陶县",
+        "type": "geo",
+        "norm": "馆陶县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c08",
+        "item_id": "24-001",
+        "name": "馆陶县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s01",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州城西一百三十里",
+          "households": {
+            "count": 30,
+            "unit": "里",
+            "note": "编户二十三里今增为三十里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "冠氏邑地",
+        "action": "因之",
+        "detail": "本春秋晋冠氏邑地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "馆陶县",
+        "action": "置",
+        "detail": "汉置馆陶县属魏郡；三国魏属阳平郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "毛州",
+        "action": "置",
+        "detail": "晋石赵徙阳平郡治此；后周置毛州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "馆陶县",
+        "action": "废",
+        "detail": "隋废毛州以县属武阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "馆陶县",
+        "action": "因之",
+        "detail": "唐属魏州；宋金属大名府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "馆陶县",
+        "action": "因之",
+        "detail": "元属濮州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "馆陶县",
+        "action": "改",
+        "detail": "本朝初隶东昌府，宏治二年割属临清州"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "卫河",
+        "type": "河",
+        "location_text": "在馆陶县西二里",
+        "description": "汉名屯氏河，隋改为永济渠，亦曰御河",
+        "lore": "源自河南卫辉府辉县，东北流至临清与会通河合流入海"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "陶山",
+        "type": "山",
+        "location_text": "在馆陶县南馆陶镇西北七里",
+        "description": "微有土阜",
+        "lore": "《禹贡》导沇水东流为济，入于河溢为荣，东出于陶丘北即此山也"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "黄河故道",
+        "type": "河",
+        "location_text": "在馆陶县西南五十里",
+        "description": "汉时河决于定陶即此",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "魏德深",
+        "type": "名宦",
+        "dynasty": "隋",
+        "native_place": "",
+        "office": "贵乡长/馆陶长",
+        "summary": "为贵乡长为政清静，转馆陶长，贵乡民请留，馆陶民讼，部使者断从贵乡，馆陶民徙居贵乡者数百家"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "王沿",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "馆陶",
+        "office": "龙图阁直学士",
+        "summary": "举进士，历知数州；好建明当世事，兴河北水利；有文集二十卷"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "王鼎",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "馆陶",
+        "office": "河北都转运使",
+        "summary": "王沿子，第进士，当官明敏强直不可挠；奉使高丽得千缣尽散之族人"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "张琼",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "馆陶",
+        "office": "殿前都虞候",
+        "summary": "有勇力善射，太祖在周时乘皮船入城濠，张琼亟以身蔽太祖，矢中琼股；太祖即位累官殿前都虞候"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "馆陶县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "元建，本朝永乐十三年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "陶丘",
+        "type": "古迹",
+        "location_text": "在馆陶县南镇西北七里",
+        "history_lore": "《尔雅》云丘再成为陶；《禹贡》导沇水东出于陶丘北即此"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "歇马城",
+        "type": "古迹",
+        "location_text": "在馆陶县东南七里",
+        "history_lore": "相传辽萧太后尝歇马于此"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c08",
+        "name": "宝应寺",
+        "type": "寺观",
+        "location_text": "在馆陶县治西南",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

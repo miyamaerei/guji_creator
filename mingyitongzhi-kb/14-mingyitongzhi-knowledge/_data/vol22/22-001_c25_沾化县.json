@@ -1,0 +1,63 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "沾化县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c25",
+    "name": "沾化县",
+    "type": "geo",
+    "norm": "沾化县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c25",
+    "item_id": "22-001",
+    "name": "沾化县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s04",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城西北六十里",
+     "households": {
+      "count": 24,
+      "unit": "里",
+      "note": "编户二十四里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-030",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c25",
+    "name": "沾化县学",
+    "type": "学校",
+    "location_text": "在县治东南",
+    "history_lore": "洪武三年建"
+   },
+   {
+    "site_id": "SITE-086",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c25",
+    "name": "妙相寺",
+    "type": "寺观",
+    "location_text": "在沾化县治东",
+    "history_lore": "洪武间修"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

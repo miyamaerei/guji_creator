@@ -1,0 +1,42 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "宁阳县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "宁阳县【在府城北五十里本鲁阐邑汉置宁阳县属泰山郡东汉属东平国晋省后魏置平原县隋改为龚丘县宋改为龚县金复为宁阳县属兖州元省入滋阳后复置本朝因之编户三十五里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "宁阳县", "type": "geo", "norm": "宁阳县", "first_source": "23-001"}
+    ],
+    "geos": [
+      {"geo_id": "GEO-23001-c03", "item_id": "23-001", "name": "宁阳县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+       "attributes": {"location_text": "在府城北五十里", "households": {"count": 35, "unit": "里", "note": "编户三十五里"}}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "周", "era": null, "institution_name": "鲁阐邑", "action": "因之", "detail": "本鲁阐邑"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "汉", "era": null, "institution_name": "宁阳县", "action": "置", "detail": "汉置宁阳县属泰山郡，东汉属东平国"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "晋", "era": null, "institution_name": "省", "action": "并", "detail": "晋省"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "南北朝", "era": "后魏", "institution_name": "平原县", "action": "复置", "detail": "后魏置平原县"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "隋", "era": null, "institution_name": "龚丘县", "action": "改", "detail": "隋改为龚丘县"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "宋", "era": null, "institution_name": "龚县", "action": "改", "detail": "宋改为龚县"},
+      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c03", "dynasty": "金", "era": null, "institution_name": "宁阳县", "action": "复", "detail": "金复为宁阳县，属兖州；元省入滋阳后复置，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c03", "name": "云山", "type": "山", "location_text": "在宁阳县西一十五里", "description": "上有穴出云", "lore": "", "original": "云山【在寜阳县西一十五里上有穴出云】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c03", "name": "伏山", "type": "山", "location_text": "在宁阳县北二十里", "description": "上有洞，洞内镌石成佛像，故又名佛山", "lore": "", "original": "伏山【在寜阳县北二十里上有洞洞内镌石成佛像故又名佛山】"},
+      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c03", "name": "杏山", "type": "山", "location_text": "在宁阳县东北三十里", "description": "上多杏木", "lore": "", "original": "杏山【在寜阳县东北三十里上多杏木】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c03", "name": "齐氏（名淑贤）", "type": "列女", "dynasty": "明", "native_place": "山西代州，适宁阳许超", "office": "", "summary": "许超举乡试及卒无子，齐守节终身，景泰间事闻旌表", "original": "齐氏【名淑贤山西代州人适寜阳许超超举乡试及卒无子齐守节终身景泰间事闻旌表省志】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c03", "name": "宁阳县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武初建", "original": "宁阳县学【在县治东洪武初建】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c03", "name": "宝相寺", "type": "寺观", "location_text": "在宁阳县治东", "history_lore": "", "original": "寳相寺【在寜阳县治东又汶上县治东亦有寳相寺】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

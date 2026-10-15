@@ -1,0 +1,208 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "范县",
+  "region": "山东",
+  "original": "范县【在州东北六十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "范县",
+        "type": "geo",
+        "norm": "范县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c13",
+        "item_id": "24-001",
+        "name": "范县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s03",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州东北六十里",
+          "households": {
+            "count": 12,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "士会之邑",
+        "action": "因之",
+        "detail": "本春秋晋大夫士会之邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "范县",
+        "action": "置",
+        "detail": "汉置范县属东郡；晋属东平国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "范县",
+        "action": "废",
+        "detail": "北齐废"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "范县",
+        "action": "复置",
+        "detail": "隋复置属济北郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "范县",
+        "action": "改",
+        "detail": "唐初于县置范州，寻废以县属济州；贞观中改属濮州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "范县",
+        "action": "因之",
+        "detail": "宋金元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "黑龙潭",
+        "type": "潭",
+        "location_text": "在范县南一十五里",
+        "description": "相传潭有龙能兴云雨",
+        "lore": "宋熙宁间祷雨有应，封其神为妙应，立庙于潭之北"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "薛景文",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "范县丞",
+        "summary": "洪武中范县丞，抚民以仁，处事以公，所食惟粝饭菜屑而已；后去任百姓涕泣不忍舍"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "任风子",
+        "type": "仙释",
+        "dynasty": "明",
+        "native_place": "范县",
+        "office": "",
+        "summary": "状貌奇异，遇异人授以仙术，修炼于安平镇真武庙，经旬不食；宏治甲子冬端坐而逝"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "范县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武十五年建，宣德八年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "顾城",
+        "type": "古迹",
+        "location_text": "在范县东南五十三里",
+        "history_lore": "《诗》韦顾既伐即此"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "廪邱城",
+        "type": "古迹",
+        "location_text": "在范县义东保",
+        "history_lore": "春秋齐乌余以廪邱奔晋；又曹魏移兖州于廪邱即此"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "羊角城",
+        "type": "古迹",
+        "location_text": "在范县义东保",
+        "history_lore": "《晋地理志》廪邱春秋时有羊角城，又号义城"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "闵子骞墓",
+        "type": "陵墓",
+        "location_text": "在范县南四十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "士会墓",
+        "type": "陵墓",
+        "location_text": "在范县东三十里",
+        "history_lore": "士会，春秋时晋大夫，谥武子"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c13",
+        "name": "秦岳观",
+        "type": "寺观",
+        "location_text": "在范县治东",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

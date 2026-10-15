@@ -1,0 +1,241 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "莘县",
+  "region": "山东",
+  "original": "莘县【在府城西南九十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "莘县",
+        "type": "geo",
+        "norm": "莘县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c05",
+        "item_id": "24-001",
+        "name": "莘县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西南九十里",
+          "households": {
+            "count": 18,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "魏地",
+        "action": "因之",
+        "detail": "本春秋魏地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "阳平县地",
+        "action": "因之",
+        "detail": "汉为东郡阳平县地；晋属阳平郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "乐平县/武阳郡",
+        "action": "改",
+        "detail": "北齐改乐平县；后周于此置武阳郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "莘县",
+        "action": "置",
+        "detail": "隋初郡罢复为阳平县，寻改清邑县，又置莘州；大业初罢州改莘县属武阳郡，因县北古莘亭为名"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "莘县",
+        "action": "因之",
+        "detail": "唐武德间复置莘州，贞观初州废，复以县属魏州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "莘县",
+        "action": "因之",
+        "detail": "宋金属大名府，元属东昌，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "弇山",
+        "type": "山",
+        "location_text": "在莘县北四十五里",
+        "description": "旧有泉涌出底有碎石号曰弇山泉，上有显仁庙",
+        "lore": "宋赵防治莘祷旱而雨，请于朝赐额；《左传》齐闾丘婴出奔于弇中即此"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "王祜",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "莘县",
+        "office": "兵部侍郎",
+        "summary": "仕为殿中侍御史，以百口明符彦卿无罪；手植三槐于庭曰吾后世必有为三公者"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "王旦",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "莘县",
+        "office": "同平章事",
+        "summary": "景德中为相，当国最久，帝益信之；荐贤不市恩，救罪不费辞；卒赠魏国公，谥文正"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "王伦",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "莘",
+        "office": "签书枢密院",
+        "summary": "高宗时选使金国，卒归梓宫太后；后为金人所留，不屈而死"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "刘克敬",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "莘县尹",
+        "summary": "为政以正风俗为急务，取仙居令陈襄之条约以教民，民感其德，后为之立去思碑"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "敖山",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "莘县",
+        "office": "翰林编修",
+        "summary": "成化间进士，拜翰林编修，出提督江西学校，再任山西，两有声，卒祀乡贤祠"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "莘县学",
+        "type": "学校",
+        "location_text": "在县治东北",
+        "history_lore": "应海寺故基，洪武三年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "斗城",
+        "type": "古迹",
+        "location_text": "在莘县西南七里",
+        "history_lore": "形势如斗故名"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "顿城",
+        "type": "古迹",
+        "location_text": "在莘县故武阳城东南一十里",
+        "history_lore": "汉臧洪为东郡守治此"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "武阳城",
+        "type": "古迹",
+        "location_text": "在莘县东乡",
+        "history_lore": "后周置郡于此，隋初废"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "莘亭县城",
+        "type": "古迹",
+        "location_text": "在莘县北",
+        "history_lore": "旧有莘亭，隋于此置莘亭县，后省入莘县"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "韩克中墓",
+        "type": "陵墓",
+        "location_text": "在莘县西南二十五里",
+        "history_lore": "碑碣尚存，克中唐魏博节度使"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c05",
+        "name": "王旦墓",
+        "type": "陵墓",
+        "location_text": "在莘县北二里",
+        "history_lore": "王旦，宋相，谥文正"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

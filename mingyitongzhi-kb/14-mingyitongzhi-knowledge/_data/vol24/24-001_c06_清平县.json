@@ -1,0 +1,183 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "清平县",
+  "region": "山东",
+  "original": "清平县【在府城北九十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "清平县",
+        "type": "geo",
+        "norm": "清平县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c06",
+        "item_id": "24-001",
+        "name": "清平县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城北九十里",
+          "households": {
+            "count": 12,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "清阳县地",
+        "action": "因之",
+        "detail": "本汉清阳县地属清河郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "清平县",
+        "action": "置",
+        "detail": "隋初徙贝邱县治此属贝州，后改为清平县属清河郡；大业中废"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "清平县",
+        "action": "复置",
+        "detail": "唐武德间复置属澶州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "清平县",
+        "action": "迁",
+        "detail": "五代时属大名府；宋徙治澶平县明灵寨"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "清平县",
+        "action": "改",
+        "detail": "金属大名府；元属德州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "清平县",
+        "action": "因之",
+        "detail": "本朝改今属"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "王岩叟",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "清平",
+        "office": "端明殿学士",
+        "summary": "为监察御史，上书极陈时弊；论李定不持所生母服；累迁至端明殿学士"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "任芳",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "清平知县",
+        "summary": "永乐初为清平知县，为政廉勤，以人户分三等九甲，量力均徭，民感其惠"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "王廷器",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "清平知县",
+        "summary": "天顺间知清平县，刚明仁爱，莅政公勤，抚流亡赈饥乏，民悦其惠，立石颂之"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "张勋",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "清平知县",
+        "summary": "成化中知清平县，廉明仁恕，奏减租税之半；水患既息存恤周至，官至都御史"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "清平县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "元至正二年建，本朝景泰间重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "牟家桥",
+        "type": "关梁",
+        "location_text": "在清平县西漯河上",
+        "history_lore": "正统三年里人牟士成修"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c06",
+        "name": "后唐明宗庙",
+        "type": "祠庙",
+        "location_text": "在清平县治西南",
+        "history_lore": "明宗尝将兵屯于此，民赖其保障，因庙祀之"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

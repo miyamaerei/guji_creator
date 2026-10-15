@@ -1,0 +1,815 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "东昌府",
+  "region": "山东",
+  "original": "东昌府【东至济南府长清县界一百里西至直隶广平府广平县界一百五十里南至兖州府阳谷县界二十五里北至直隶河间府景州故城县界二百五十里自府治至京师九百四十里至南京一千五百四十五里】【粮三十一万八千五百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "东昌府",
+        "type": "geo",
+        "norm": "东昌府",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "临清州",
+        "type": "geo",
+        "norm": "临清州",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "高唐州",
+        "type": "geo",
+        "norm": "高唐州",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "濮州",
+        "type": "geo",
+        "norm": "濮州",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "茌山",
+        "type": "mtn",
+        "norm": "茌山",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "会通河",
+        "type": "mtn",
+        "norm": "会通河",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "郡志",
+        "type": "book",
+        "norm": "郡志",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "隋志",
+        "type": "book",
+        "norm": "隋志",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "禹贡",
+        "type": "book",
+        "norm": "禹贡",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "高阳氏",
+        "type": "person",
+        "norm": "颛顼",
+        "first_source": "24-001"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "巢父",
+        "type": "person",
+        "norm": "巢父",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001",
+        "item_id": "24-001",
+        "name": "东昌府",
+        "type": "prefecture",
+        "region": "山东",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-24001-s01",
+          "GEO-24001-s02",
+          "GEO-24001-s03",
+          "GEO-24001-c01",
+          "GEO-24001-c02",
+          "GEO-24001-c03",
+          "GEO-24001-c04",
+          "GEO-24001-c05",
+          "GEO-24001-c06",
+          "GEO-24001-c07",
+          "GEO-24001-w01",
+          "GEO-24001-w02",
+          "GEO-24001-w03",
+          "GEO-24001-w04"
+        ],
+        "volume_range": "卷24",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "济南府长清县界",
+              "distance_li": 100
+            },
+            {
+              "direction": "西",
+              "to_place": "直隶广平府广平县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "南",
+              "to_place": "兖州府阳谷县界",
+              "distance_li": 25
+            },
+            {
+              "direction": "北",
+              "to_place": "直隶河间府景州故城县界",
+              "distance_li": 250
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 940
+            },
+            {
+              "capital": "南京",
+              "distance_li": 1545
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 318500,
+            "unit": "石",
+            "note": "三十一万八千五百石零"
+          },
+          "jun_name": "博平",
+          "topography": "南接济兖北连德景【郡志】漕河所经实要冲之地【同上】宋魏齐鲁之冲【濮州地理志】地平土沃【元志】",
+          "customs": "质直怀义有古风烈【隋志】士风彬彬贤良宏博【博平旧志】其民朴厚好稼穑务蚕织【元濮州志】俗近敦厚家知礼逊【元志】习俗节俭人多读书【同上】",
+          "garrisons": [
+            {
+              "name": "平山卫",
+              "type": "卫",
+              "location_text": "在府治东洪武五年建"
+            },
+            {
+              "name": "东昌卫",
+              "type": "卫",
+              "location_text": "在府城南门西街北宣德五年建"
+            },
+            {
+              "name": "临清卫",
+              "type": "卫",
+              "location_text": "在临清州城内东北景泰元年建"
+            },
+            {
+              "name": "濮州备御千户所",
+              "type": "千户所",
+              "location_text": "在州治西原属东昌卫正统六年建今徙建新城内"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006"
+        ]
+      },
+      {
+        "geo_id": "GEO-24001-s01",
+        "item_id": "24-001",
+        "name": "临清州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [
+          "GEO-24001-c08",
+          "GEO-24001-c09"
+        ],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西北一百二十里",
+          "households": {
+            "count": 41,
+            "unit": "里",
+            "note": "编户四十一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-24001-s02",
+        "item_id": "24-001",
+        "name": "高唐州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [
+          "GEO-24001-c10",
+          "GEO-24001-c11",
+          "GEO-24001-c12"
+        ],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东北一百二十里",
+          "households": {
+            "count": 40,
+            "unit": "里",
+            "note": "编户四十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-24001-s03",
+        "item_id": "24-001",
+        "name": "濮州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [
+          "GEO-24001-c13",
+          "GEO-24001-c14",
+          "GEO-24001-c15"
+        ],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西南二百里",
+          "households": {
+            "count": 36,
+            "unit": "里",
+            "note": "编户三十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-24001-w01",
+        "item_id": "24-001",
+        "name": "平山卫",
+        "type": "weisuo",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {}
+      },
+      {
+        "geo_id": "GEO-24001-w02",
+        "item_id": "24-001",
+        "name": "东昌卫",
+        "type": "weisuo",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {}
+      },
+      {
+        "geo_id": "GEO-24001-w03",
+        "item_id": "24-001",
+        "name": "临清卫",
+        "type": "weisuo",
+        "region": "山东",
+        "parent": "GEO-24001-s01",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {}
+      },
+      {
+        "geo_id": "GEO-24001-w04",
+        "item_id": "24-001",
+        "name": "濮州备御千户所",
+        "type": "weisuo",
+        "region": "山东",
+        "parent": "GEO-24001-s03",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "兖州之域",
+        "action": "置",
+        "detail": "禹贡兖州之域，天文危室分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "齐西鄙聊摄地",
+        "action": "因之",
+        "detail": "春秋时为齐西鄙聊摄地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "魏齐赵三国之境",
+        "action": "因之",
+        "detail": "战国为魏齐赵三国之境"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "东郡地",
+        "action": "置",
+        "detail": "秦置东郡地"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东郡",
+        "action": "因之",
+        "detail": "汉为东郡地"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "三国",
+        "era": null,
+        "institution_name": "平原郡",
+        "action": "改",
+        "detail": "曹魏隶平原郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "平原郡",
+        "action": "因之",
+        "detail": "晋因之"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "魏郡/南冀州",
+        "action": "置",
+        "detail": "刘宋尝置魏郡；后魏置南冀州及平原郡，治聊城"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "博州",
+        "action": "置",
+        "detail": "隋初郡废后置博州；大业初州废"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "博州/博平郡",
+        "action": "改",
+        "detail": "唐初复置博州；天宝初改为博平郡；乾元初复为博州"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "博州",
+        "action": "迁",
+        "detail": "五代晋徙治荆陵"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "博州",
+        "action": "迁",
+        "detail": "宋属河北东路；淳化间移今治"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "博州",
+        "action": "因之",
+        "detail": "金属大名府路"
+      },
+      {
+        "evo_id": "EVO-014",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "东昌路",
+        "action": "改",
+        "detail": "元初隶东平路；至元初析为博州路，寻改为东昌路"
+      },
+      {
+        "evo_id": "EVO-015",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "东昌府",
+        "action": "因之",
+        "detail": "本朝改为东昌府，领州三县十五"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "茌山",
+        "type": "山",
+        "location_text": "在府城东五十三里",
+        "description": "汉茌平县治此，山之平地曰茌，故以名县",
+        "lore": "茌平县得名于此山"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "会通河",
+        "type": "河",
+        "location_text": "在府城东南",
+        "description": "自兖州府阳谷县入境，北至临清县入卫河",
+        "lore": "本朝永乐九年疏凿以通漕运，为南北漕运要道"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "玉环井",
+        "type": "井",
+        "location_text": "在府治西南",
+        "description": "一名玉井",
+        "lore": "相传井中有白石如玉，凿其中混然为井甃"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "荆丘",
+        "type": "其他",
+        "location_text": "在府城东南二十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "葛丘",
+        "type": "其他",
+        "location_text": "在府城东南五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "牡丘",
+        "type": "其他",
+        "location_text": "在府城东北七十里",
+        "description": "",
+        "lore": "《左传》楚人伐徐，公会齐侯郑伯许男曹伯盟于牡丘即此"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "重丘",
+        "type": "其他",
+        "location_text": "在府城东南跨茌平县界",
+        "description": "",
+        "lore": "春秋诸侯同盟于重丘即此"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "湄河故道",
+        "type": "河",
+        "location_text": "在府城东七里",
+        "description": "旧源出濮南黄河北抵博平西会马颊河东入于海",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "蔡钊",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "堂邑主簿",
+        "summary": "河决张秋，率丁夫往塞，自矢求成，乘小舟往来调度，遭舟覆溺死，河亦遂塞，郡人立祠祀之"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "金福",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "东昌府知府",
+        "summary": "宏治中知东昌府，宽厚简重，为政持大体，吏民畏服，尤以廉静称"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "夏鼎",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "临清州知州",
+        "summary": "宏治间知临清州，节冗费，中贵胁取民货者立簿籍考之，患遂寝；民为立遗爱祠"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "东昌府学",
+        "type": "学校",
+        "location_text": "在府治东",
+        "history_lore": "宋在博州旧城，金徙于都监故治内，本朝洪武三年移建于此"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "望岳楼",
+        "type": "宫室",
+        "location_text": "在府城东北隅",
+        "history_lore": "可登以望岱岳，故名"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "公惠堂",
+        "type": "宫室",
+        "location_text": "在府治内",
+        "history_lore": "宋熙宁初建"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "绿云亭",
+        "type": "宫室",
+        "location_text": "在府城西北角楼",
+        "history_lore": "旧名自公亭，元至元间改今名"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "灵芝亭",
+        "type": "宫室",
+        "location_text": "在聊城县西南四十五里",
+        "history_lore": "本宋武水镇都巡检司讲武亭，大观间有芝生于梁因名"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "通济桥",
+        "type": "关梁",
+        "location_text": "在府城东门外会通河上",
+        "history_lore": "永乐九年改为闸"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "隆兴寺",
+        "type": "寺观",
+        "location_text": "在府城东门外",
+        "history_lore": "洪武间建"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "万寿寺",
+        "type": "寺观",
+        "location_text": "在府城西南",
+        "history_lore": "旧为三皇庙，洪武末改为观"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "羊使君庙",
+        "type": "祠庙",
+        "location_text": "在聊城县东北二十里",
+        "history_lore": "使君忘其名，五代晋开运初博州郡守，河溢城欲没，使君投水而死，民思其仁立庙以祀"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "遗爱祠",
+        "type": "祠庙",
+        "location_text": "在临清州",
+        "history_lore": "本朝嘉靖十三年建，祀前知州夏鼎"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "高阳氏陵",
+        "type": "陵墓",
+        "location_text": "在府城西北二十里",
+        "history_lore": "葬颛顼高阳氏，陵前有圣水井，旱祷辄应，旧有坛庙久废，惟祈雨祷雪感应碑尚存"
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "巢父墓",
+        "type": "陵墓",
+        "location_text": "在府治东南",
+        "history_lore": "巢父，尧时隐者"
+      },
+      {
+        "site_id": "SITE-013",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "刘寔墓",
+        "type": "陵墓",
+        "location_text": "在府城东二十五里",
+        "history_lore": "刘寔，晋人"
+      },
+      {
+        "site_id": "SITE-014",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "五女墓",
+        "type": "陵墓",
+        "location_text": "在聊城县治西",
+        "history_lore": "相传郡人无子惟女五人，誓不适人，孝养父母，后卒同穴而葬"
+      },
+      {
+        "site_id": "SITE-015",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "微子城",
+        "type": "古迹",
+        "location_text": "在府城东北一十八里",
+        "history_lore": "相传商微子尝封于此"
+      },
+      {
+        "site_id": "SITE-016",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "古聊城",
+        "type": "古迹",
+        "location_text": "在府城西北一十五里",
+        "history_lore": "本齐西界聊摄地，燕将既拔聊城，田单攻之不下，鲁仲连射书谕之，乃自杀即此"
+      },
+      {
+        "site_id": "SITE-017",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "博固城",
+        "type": "古迹",
+        "location_text": "在河之曲",
+        "history_lore": "石勒时筑，隋图经云或谓之布鼓城"
+      },
+      {
+        "site_id": "SITE-018",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "故博州城",
+        "type": "古迹",
+        "location_text": "在府城东北二十五里",
+        "history_lore": "隋州治此，石晋开运初河涨城湮"
+      },
+      {
+        "site_id": "SITE-019",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "荆陵",
+        "type": "古迹",
+        "location_text": "在府城西南一十五里",
+        "history_lore": "五代晋开运初于此立州，宋淳化初州又为水所圮，遂移治"
+      },
+      {
+        "site_id": "SITE-020",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "麒麟碣",
+        "type": "古迹",
+        "location_text": "在府学内",
+        "history_lore": "载乡贤淳于髠等三十人赞，取汉麒麟阁义而名"
+      },
+      {
+        "site_id": "SITE-021",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001",
+        "name": "三绝碑",
+        "type": "古迹",
+        "location_text": "在府学内",
+        "history_lore": "金大定间重修庙，王去非撰记，唐怀英篆盖，王庭筠书丹，时称三绝"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "24-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": "ENT-007",
+        "context": "立论",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "24-001",
+        "cited_work": "濮州地理志",
+        "cited_work_ent_id": null,
+        "context": "考源",
+        "original": "【濮州地理志】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "24-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【元志】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "24-001",
+        "cited_work": "隋志",
+        "cited_work_ent_id": "ENT-008",
+        "context": "证俗",
+        "original": "【隋志】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "24-001",
+        "cited_work": "博平旧志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【博平旧志】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "24-001",
+        "cited_work": "元濮州志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【元濮州志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "东昌府主文件，含府治/属州/卫所节点；县节点在独立文件"
+  }
+}

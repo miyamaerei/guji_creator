@@ -1,0 +1,60 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "邹县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "邹县【在府城东六十里周时为邾国鲁缪公改为驺因山为名汉置驺县属鲁国隋属鲁郡唐改为邹县属兖州宋属袭庆府金属滕州元因之本朝改今属编户三十九里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "邹县", "type": "geo", "norm": "邹县", "first_source": "23-001"},
+      {"ent_id": "ENT-002", "name": "峄山", "type": "mtn", "norm": "峄山", "first_source": "23-001"},
+      {"ent_id": "ENT-003", "name": "孟子", "type": "person", "norm": "孟轲", "first_source": "23-001"}
+    ],
+    "geos": [
+      {"geo_id": "GEO-23001-c04", "item_id": "23-001", "name": "邹县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+       "attributes": {"location_text": "在府城东六十里", "households": {"count": 39, "unit": "里", "note": "编户三十九里"}}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c04", "dynasty": "周", "era": null, "institution_name": "邾国/驺", "action": "改", "detail": "周时为邾国，鲁缪公改为驺，因山为名"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c04", "dynasty": "汉", "era": null, "institution_name": "驺县", "action": "置", "detail": "汉置驺县，属鲁国，隋属鲁郡"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c04", "dynasty": "唐", "era": null, "institution_name": "邹县", "action": "改", "detail": "唐改为邹县，属兖州，宋属袭庆府"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c04", "dynasty": "金", "era": null, "institution_name": "邹县", "action": "因之", "detail": "金属滕州，元因之，本朝改今属"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "冈山", "type": "山", "location_text": "在邹县北五里", "description": "上有冈山寺", "lore": "", "original": "冈山【在邹县北五里上有冈山寺】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "马鞍山", "type": "山", "location_text": "在邹县北二十里", "description": "上有孟母墓", "lore": "", "original": "马鞍山【在邹县北二十里上有孟母墓】"},
+      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "九龙山", "type": "山", "location_text": "在邹县东北二十里", "description": "山形起伏凡九，上有灵泉，故又名灵山", "lore": "", "original": "九龙山【在邹县东北二十里山形起伏凡九上有灵泉故又名灵山】"},
+      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "四基山", "type": "山", "location_text": "在邹县东北二十里", "description": "上有孟子墓", "lore": "", "original": "四基山【在邹县东北二十里上有孟子墓】"},
+      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "峄山", "type": "山", "location_text": "在邹县东南二十五里", "description": "一名邹峄山。禹贡峄阳孤桐，春秋邾文公卜迁于峄，史记秦始皇上邹峄山刻石颂德皆此", "lore": "秦始皇刻石处", "original": "峄山【在邹县东南二十五里一名邹峄山禹贡峄阳孤桐春秋邾文公卜迁于峄史记秦始皇上邹峄山刻石颂徳皆此…】"},
+      {"mtn_id": "MTN-006", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "凫山", "type": "山", "location_text": "在邹县西南五十里，连鱼台县界", "description": "诗：保有凫绎，遂荒徐宅。其阳有伏羲庙遗址，世传伏羲画卦于此，故土人呼其处为八卦山", "lore": "", "original": "鳬山【在邹县西南五十里连鱼防县界诗保有鳬峄遂荒徐宅即此其阳有伏羲庙遗址世传伏羲画卦于此故土人呼其处为八卦山…】"},
+      {"mtn_id": "MTN-007", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "昌平山", "type": "山", "location_text": "在邹县东北五十里", "description": "史记：孔子生鲁昌平乡，谓此", "lore": "", "original": "昌平山【在邹县东北五十里史记孔子生鲁昌平乡谓此】"},
+      {"mtn_id": "MTN-008", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "蓼河", "type": "河", "location_text": "在邹县北三十里", "description": "源发九龙山东南蓼沟，西北流入白马河", "lore": "", "original": "蓼河【在邹县北三十里源发九龙山东南蓼沟西北流入白马河】"},
+      {"mtn_id": "MTN-009", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "白马河", "type": "河", "location_text": "源出九龙山", "description": "西流入于泗水", "lore": "", "original": "白马河【源出九龙山西流入于泗水】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "孟子", "type": "人物", "dynasty": "战国", "native_place": "邹", "office": "", "summary": "受业子思之门人，道既通，游梁、齐，以仁义说其君。退与万章之徒作孟子七篇。后世封邹国亚圣公", "original": "孟子【战国时驺人受业子思之门人…作孟子七篇后世累封邹国亚圣公配享孔子庙庭本朝官其后为翰林院五经博士】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "韦贤", "type": "人物", "dynasty": "汉", "native_place": "鲁国邹", "office": "丞相、扶阳侯", "summary": "号称邹鲁大儒，累官大鸿胪，宣帝立赐爵关内侯，位至丞相。子玄成亦以明经位至丞相。谚曰：遗子黄金满籯，不如教子一经", "original": "韦贤【鲁国邹人质材笃学号称邹鲁大儒累官大鸿胪宣帝立以与谋议赐爵闗内侯位至丞相封扶阳侯子玄成亦以明经位至丞相故谚曰遗子黄金满籯不如教子一经】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "仲长统", "type": "人物", "dynasty": "汉", "native_place": "高平", "office": "尚书郎", "summary": "少好学，博涉书记，赡于文辞，每论及时事发愤叹息，著论名曰昌言", "original": "仲长统【髙平人少好学博涉书记赡于文辞为尚书郎每论及时事恒发愤叹息因著论名曰昌言】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "张禹", "type": "人物", "dynasty": "汉", "native_place": "邹", "office": "丞相", "summary": "墓在邹县西三十五里", "original": "张禹墓【在邹县西三十五里】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "孟子庙", "type": "祠庙", "location_text": "在邹县南门外", "history_lore": "宋知兖州事孔道辅建，本朝永乐十三年及宣德三年修，弘治十年重建", "original": "孟子庙【在邹县南门外宋知兖州事孔道辅建本朝永乐十三年及宣徳三年修治十年重建】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "子思祠", "type": "祠庙", "location_text": "在邹县南城外", "history_lore": "永乐七年重建", "original": "子思祠【在邹县南城外永乐七年重建】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "孟母庙", "type": "祠庙", "location_text": "在马鞍山之左麓", "history_lore": "世传孟母三迁故事", "original": "孟母墓【在马鞍山之左麓】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "孟子墓", "type": "陵墓", "location_text": "在四基山之右", "history_lore": "墓前有庙", "original": "孟子墓【在四基山之右墓前有庙】"},
+      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "孟母墓", "type": "陵墓", "location_text": "在马鞍山", "history_lore": "", "original": "孟母墓【在马鞍山之左麓】"},
+      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "邹县学", "type": "学校", "location_text": "在县治西", "history_lore": "洪武三年建，正统二年重修", "original": "邹县学【在县治西洪武三年建正统二年重修】"},
+      {"site_id": "SITE-007", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "中庸精舍", "type": "书院", "location_text": "在邹县治东南", "history_lore": "世传子思孟子传道于此，元建为书舍", "original": "中庸精舍【在邹县治东南世传子思孟子传道于此元建为书舍导江张防记云…】"},
+      {"site_id": "SITE-008", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "断机堂", "type": "宫室", "location_text": "在邹县治东", "history_lore": "以孟母断机为名", "original": "断机堂【在邹县治东以孟母断机为名】"},
+      {"site_id": "SITE-009", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "邹堂", "type": "宫室", "location_text": "在邹县治内", "history_lore": "宋黄庭坚尝作邹操，元祐中县令建邹堂书其操于屏", "original": "邹堂【在邹县治内宋黄庭坚尝作邹操元祐中县令建邹堂书其操于屏后庭坚得罪来为此县令撤毁之】"},
+      {"site_id": "SITE-010", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "重兴寺", "type": "寺观", "location_text": "在邹县治西北", "history_lore": "内有古塔", "original": "重兴寺【在邹县治西北内有古塔】"},
+      {"site_id": "SITE-011", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "仙人宫", "type": "寺观", "location_text": "在邹县治北", "history_lore": "正统间因旧重建", "original": "仙人宫【在邹县治北正统间因旧重建】"},
+      {"site_id": "SITE-012", "item_id": "23-001", "geo_id": "GEO-23001-c04", "name": "峄山碑", "type": "古迹", "location_text": "在峄山上", "history_lore": "刻秦始皇东巡狩群臣颂德之词，丞相李斯篆，宋元祐间摹于县廨中", "original": "峄山碑【在峄山上刻秦始皇东巡狩羣臣颂徳之词丞相李斯篆宋元祐间摹于县廨中】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "邹县为孟子故里。公孙丑墓/万章墓/澹台灭明墓等孔门弟子墓在县境，未全列。"}
+}

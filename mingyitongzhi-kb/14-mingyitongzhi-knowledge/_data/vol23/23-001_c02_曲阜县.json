@@ -1,0 +1,80 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "曲阜县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "曲阜县【在府城东四十里神农少昊徙都之地周武王以封周公旦是为鲁国秦为薛郡汉复为县兼置鲁国晋改国为郡隋初废郡改县曰汶阳后人改曰曲阜因城中有阜委曲长数里故名唐贞观初省寻复置属兖州宋改为仙源县金复为曲阜元仍旧本朝因之编户一十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "曲阜县", "type": "geo", "norm": "曲阜县", "first_source": "23-001"},
+      {"ent_id": "ENT-002", "name": "尼山", "type": "mtn", "norm": "尼山", "first_source": "23-001"},
+      {"ent_id": "ENT-003", "name": "宣圣庙", "type": "site", "norm": "孔庙", "first_source": "23-001"},
+      {"ent_id": "ENT-004", "name": "孔林", "type": "site", "norm": "孔林", "first_source": "23-001"},
+      {"ent_id": "ENT-005", "name": "颜回", "type": "person", "norm": "颜子", "first_source": "23-001"},
+      {"ent_id": "ENT-006", "name": "孔道辅", "type": "person", "norm": "孔道辅", "first_source": "23-001"}
+    ],
+    "geos": [
+      {"geo_id": "GEO-23001-c02", "item_id": "23-001", "name": "曲阜县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+       "attributes": {"location_text": "在府城东四十里", "households": {"count": 16, "unit": "里", "note": "编户一十六里"}}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "周", "era": null, "institution_name": "鲁国", "action": "封", "detail": "神农少昊徙都之地，周武王以封周公旦，是为鲁国"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "秦", "era": null, "institution_name": "薛郡地", "action": "因之", "detail": "秦为薛郡"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "汉", "era": null, "institution_name": "鲁县/鲁国", "action": "置", "detail": "汉复为县，兼置鲁国"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "晋", "era": null, "institution_name": "鲁郡", "action": "改", "detail": "晋改国为郡"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "隋", "era": null, "institution_name": "汶阳县/曲阜", "action": "改", "detail": "隋初废郡改县曰汶阳，后人改曰曲阜，因城中有阜委曲长数里故名"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "唐", "era": "贞观", "institution_name": "曲阜县", "action": "复置", "detail": "唐贞观初省，寻复置，属兖州"},
+      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "宋", "era": null, "institution_name": "仙源县", "action": "改", "detail": "宋改为仙源县"},
+      {"evo_id": "EVO-008", "item_id": "23-001", "geo_id": "GEO-23001-c02", "dynasty": "金", "era": null, "institution_name": "曲阜县", "action": "复", "detail": "金复为曲阜，元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "防山", "type": "山", "location_text": "在曲阜县东二十里", "description": "礼记：孔子父母合葬于防，今其墓在山北二十里", "lore": "", "original": "防山【在曲阜县东二十里礼记孔子父母合葬于防今其墓在山北二十里】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "尼山", "type": "山", "location_text": "在曲阜县东南五十里，连泗水、邹县界", "description": "一名尼丘山。昔叔梁纥与颜氏祷于此山而生孔子。今其麓有宣圣庙，西南有观川亭遗址，亭东有坤灵洞", "lore": "孔子生地", "original": "尼山【在曲阜县东南五十里连泗水邹县界一名尼丘山昔叔梁纥与顔氏祈于此山而生孔子今其麓有宣圣庙西南有观川亭遗址亭东有坤灵洞…】"},
+      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "颜母山", "type": "山", "location_text": "与尼山相对", "description": "上有圣井及颜母庙遗址", "lore": "", "original": "顔母山【与尼山相对上有圣井及顔母庙遗址】"},
+      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "沂水", "type": "河", "location_text": "源发尼山之麓", "description": "西流入泗水，论语浴乎沂即此", "lore": "", "original": "沂水【源发尼山之麓西流入泗水论语浴乎沂即此】"},
+      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "泮水", "type": "河", "location_text": "一名雩水，源发曲阜县治西南马跑泉", "description": "西流至府城东入泗水。诗：思乐泮水，薄采其芹", "lore": "", "original": "泮水【一名雩水源发曲阜县治西南马跑泉西流至府城东入泗水诗思乐泮水薄采其芹即此】"},
+      {"mtn_id": "MTN-006", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "崄水", "type": "河", "location_text": "源发曲阜县北五十里九峰山", "description": "南流入泗水，其溪涧崄隘故名", "lore": "", "original": "崄水【源发曲阜县北五十里九峯山南流入泗水其溪涧崄隘故名】"},
+      {"mtn_id": "MTN-007", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "逵泉", "type": "泉", "location_text": "在曲阜县鲁城南", "description": "左传：僖叔饮鸩及逵泉而卒。上有龙祠", "lore": "", "original": "逵泉【在曲阜县鲁城南左传僖叔饮酖及逵泉而卒即此上有龙祠】"},
+      {"mtn_id": "MTN-008", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "温泉", "type": "泉", "location_text": "在曲阜县南七里", "description": "流入沂水，土人甃石为池引以澡浴", "lore": "", "original": "温泉【在曲阜县南七里以上二泉俱流入沂水又沂州东北郯城县西北俱有温泉土人皆甃石为池引以澡浴】"},
+      {"mtn_id": "MTN-009", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "伯禽井", "type": "井", "location_text": "在曲阜县宣圣庙东北三里鲁公故基内", "description": "亦名车辋井，水清白而甘，俗呼为浆水井", "lore": "", "original": "伯禽井【在曲阜县宣圣庙东北三里鲁公故基内亦名车辋井水清白而甘俗呼为浆水井】"},
+      {"mtn_id": "MTN-010", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "颜子井", "type": "井", "location_text": "在曲阜县鲁城内周公庙西南", "description": "", "lore": "", "original": "顔子井【在曲阜县鲁城内周公庙西南】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "颜回", "type": "人物", "dynasty": "周", "native_place": "鲁", "office": "孔门弟子", "summary": "字子渊，孔门德行科之首，闻一知十，箪食瓢饮不改其乐。后世封兖国复圣公", "original": "顔回【无繇子孔门弟子天资明睿闻一知十居十哲之首年二十九髪尽白三十二而卒孔子哭之恸曰天丧予歴代累封兖国复圣公首配孔子庙庭本朝官其后为翰林院五经博士】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "孔伋", "type": "人物", "dynasty": "周", "native_place": "鲁", "office": "鲁穆公师", "summary": "孔子孙，作中庸述道统之传，后世封沂国述圣公", "original": "孔伋【鲤子为鲁穆公师…作中庸以述道统之传后世追封沂国述圣公配享孔子庙庭】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "孔道辅", "type": "人物", "dynasty": "宋", "native_place": "曲阜", "office": "御史中丞", "summary": "孔子四十九世孙，举进士，为宁州推官，累迁御史中丞，遇事弹劾不避权贵", "original": "孔道辅【孔子四十九世孙父朂举进士…道辅亦举进士为寜州推官累迁御史中丞仁宗时防阁争废后事出知秦州徙兖州未几复为中丞遇事弹劾不避权贵出知郓州】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "孔公恂", "type": "人物", "dynasty": "明", "native_place": "曲阜", "office": "礼科给事中、左春坊左谕德", "summary": "孔子五十八代孙，举景泰中进士，授礼科给事中，历迁左春坊左谕德", "original": "孔公恂【孔子五十八代孙举景泰中进士授礼科给事中赏先邉戍革侵渔歴迁左春坊左谕徳省志】"},
+      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "魏绅", "type": "人物", "dynasty": "明", "native_place": "曲阜", "office": "刑部郎中、右佥都御史", "summary": "母卒庐墓称孝，举成化中进士，多所平反，迁都御史，奏减民税，筑边墙增墩堡", "original": "魏绅【曲阜人母卒庐墓称孝后举成化中进士拜刑部主事转郎中多所平反迁都御史嵗旱奏减民税筑邉墙増墩堡上赐玺书文绮官至侍郎省志云】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "宣圣庙", "type": "祠庙", "location_text": "在曲阜县西八里鲁城内，即阙里故宅", "history_lore": "唐开元初加封孔子为文宣王始宏庙制，宋加修理，元初重建，本朝洪武九年重加修饰，永乐十四年撤而新之。中为大成殿，有司春秋致祭，朝廷三年一遣使致祭", "original": "宣圣庙【在曲阜县西八里鲁城内即阙里故宅唐开元初加封孔子为文宣王始宏庙制宋加修理元初重建本朝洪武九年重加修饰永乐十四年又撒而新之…有司春秋致祭朝廷三年一遣使致祭】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "孔颜孟三氏学", "type": "学校", "location_text": "在曲阜县袭封府南", "history_lore": "魏黄初间袭封崇圣侯孔羡建，本朝洪武元年重建", "original": "孔顔孟三氏学【在曲阜县袭封府南魏黄初间袭封崇圣侯孔羡建本朝洪武元年重建】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "尼山书院", "type": "书院", "location_text": "在尼山上", "history_lore": "宋庆历间建，后毁，本朝永乐十五年重建", "original": "尼山书院【在尼山上宋庆厯间建后燬本朝永乐十五年重建】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "洙泗书院", "type": "书院", "location_text": "在曲阜县西北八里", "history_lore": "即孔子讲道之所，元设山长，本朝肖孔子像于内", "original": "洙泗书院【在曲阜县西北八里即孔子讲道之所元设山长本朝肖孔子像于内】"},
+      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "周公庙", "type": "祠庙", "location_text": "在曲阜县鲁城内", "history_lore": "有宋真宗御赞碑存", "original": "周公庙【在曲阜县鲁城内有宋真宗御讃碑存】"},
+      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "颜子庙", "type": "祠庙", "location_text": "在宣圣庙东", "history_lore": "世传其处即陋巷，前有杞国公殿及颜乐亭", "original": "顔子庙【在宣圣庙东世传其处即陋巷也前有杞国公殿及顔乐亭】"},
+      {"site_id": "SITE-007", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "少昊陵", "type": "陵墓", "location_text": "在轩辕陵东", "history_lore": "前有石坛石像，又有八卦石", "original": "少昊陵【在轩辕陵东前有石坛石像又有八卦石每祭祀则设祭器于上】"},
+      {"site_id": "SITE-008", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "轩辕寿陵", "type": "陵墓", "location_text": "在曲阜县东北二里", "history_lore": "相传黄帝轩辕氏葬此，本名寿丘，宋时以石砌之，金始改寿丘为寿陵", "original": "轩辕夀陵【在曲阜县东北二里相传黄帝轩辕氏葬此本名夀丘宋时以石砌之其石栏极工巧…金始改夀丘为夀陵】"},
+      {"site_id": "SITE-009", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "启圣王墓", "type": "陵墓", "location_text": "在曲阜县东二十里", "history_lore": "葬孔子父叔梁纥", "original": "启圣王墓【在曲阜县东二十里葬孔子父叔梁纥】"},
+      {"site_id": "SITE-010", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "宣圣墓（孔林）", "type": "陵墓", "location_text": "在曲阜县西北八里", "history_lore": "史记孔子葬于鲁城北泗上，弟子心丧三年，惟子贡庐于冢上凡六年。冢至百余亩，茔中树以千数皆异种", "original": "宣圣墓【在曲阜县西北八里世呼为孔林史记孔子葬于鲁城北泗上弟子心丧三年毕相诀而去惟子贡庐于冡上凡六年…其冡至百余畆茔中树以千数皆异种…】"},
+      {"site_id": "SITE-011", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "鲁城", "type": "古迹", "location_text": "在曲阜县西二里", "history_lore": "神农氏自陈徙居鲁，至春秋时鲁国都，其城十有二门，今宣圣庙及袭封府俱在焉", "original": "鲁城【在曲阜县西二里神农氏自陈徙居鲁帝王世纪曰黄帝生于夀丘在鲁东门之北至春秋时鲁国都其城十有二门今宣圣庙及袭封府俱在焉】"},
+      {"site_id": "SITE-012", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "阙里", "type": "古迹", "location_text": "在鲁城内", "history_lore": "即孔子所居之里。汉景帝时鲁共王坏孔子旧宅，于壁中得古文经传", "original": "阙里【在鲁城内即孔子所居之里…至汉景帝时鲁共王好治宫室壊孔子旧宅以广其居…于壁中得古文经传…今为宣圣庙】"},
+      {"site_id": "SITE-013", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "陋巷", "type": "古迹", "location_text": "在曲阜县颜子庙前", "history_lore": "论语：贤哉回也，在陋巷不改其乐", "original": "陋巷【在曲阜县顔子庙前论语孔子曰贤哉囬也在陋巷不改其乐即此】"},
+      {"site_id": "SITE-014", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "鲁壁", "type": "古迹", "location_text": "在孔子宅内", "history_lore": "宋王禹偁铭：此壁兮藏家书，匪秦乱兮犹不倾", "original": "鲁壁【在孔子宅内宋王禹偁铭据山髙兮为秦城凿池深兮为秦坑…壊之者共王诵之者伏生发典谟训诰之义…】"},
+      {"site_id": "SITE-015", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "手植桧", "type": "古迹", "location_text": "在孔庙大成门北", "history_lore": "高五丈余围一丈三尺，宣圣手植。晋永嘉三年枯，隋义宁元年复荣，唐乾封二年枯，宋康定元年复荣，金时毁，元至元三年复荣", "original": "手植桧【在孔庙大成门北髙五丈余围一丈三尺宣圣手植者也晋永嘉三年枯隋义寜元年复荣唐干封二年枯宋康定元年复荣金时燬其根…元至元三年复荣】"},
+      {"site_id": "SITE-016", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "杏坛", "type": "古迹", "location_text": "在鲁城内宣圣庙前", "history_lore": "即孔子讲道之所，北有子路睹赪石，南有宋真宗御宝殿", "original": "杏坛【在鲁城内宣圣庙前即孔子讲道之所北有子路捻丁石南有宋真宗御宝殿】"},
+      {"site_id": "SITE-017", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "舞雩台", "type": "古迹", "location_text": "在曲阜县鲁城内", "history_lore": "一名雩坛，曾风乎舞雩即此", "original": "舞雩台【在曲阜县鲁城内一名雩坛曽防风乎舞雩即此】"},
+      {"site_id": "SITE-018", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "两观台", "type": "古迹", "location_text": "在曲阜县鲁城内", "history_lore": "本鲁阙，孔子诛少正卯于两观之下即此", "original": "两观台【在曲阜县鲁城内本鲁阙孔子诛少正夘于两观之下即此】"},
+      {"site_id": "SITE-019", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "奎文阁", "type": "宫室", "location_text": "在曲阜县西宣圣庙前", "history_lore": "金明昌二年建，本朝设典籍一员掌之", "original": "奎文阁【在曲阜县西宣圣庙前金明昌二年建开州刺史髙徳裔修本朝设典籍一员掌之】"},
+      {"site_id": "SITE-020", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "杏坛楼", "type": "宫室", "location_text": "在曲阜县西宣圣庙前", "history_lore": "又有孔子讲堂在庙北五里", "original": "杏坛楼【在曲阜县西宣圣庙前又有孔子讲堂在庙北五里】"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "楷木", "category": "植物", "note": "曲阜县孔林出，其木似槐，文理纵横，缙绅多取之为简", "original": "楷木【曲阜县孔林出其木似槐文理纵横缙绅多取之为简】"},
+      {"prod_id": "PROD-002", "item_id": "23-001", "geo_id": "GEO-23001-c02", "name": "蕨菜", "category": "植物", "note": "曲阜县出", "original": "蕨菜【曲阜县出】"}
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "曲阜县为阙里所在，收录宣圣庙/孔林/少昊陵/鲁城/阙里等核心古迹及孔门人物。县内尚有颜子墓/伯鱼墓/子思墓/宰我墓/鲁公墓/鲁诸王墓/公孙丑墓等众多孔门墓葬，因篇幅仅列最要者。"}
+}

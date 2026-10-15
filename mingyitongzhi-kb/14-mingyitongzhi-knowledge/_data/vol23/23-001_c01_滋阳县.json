@@ -1,0 +1,37 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "滋阳县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "滋阳县【附郭本鲁之负瑕汉置瑕丘县属山阳郡武帝时为瑕丘侯国东汉复为县晋省入南平阳属髙平国隋复置瑕丘县为鲁郡治唐为兖州治宋避宣圣讳改为瑕县又改曰滋阳县取山为名金元因之本朝初省入兖州洪武十八年复置编户二十四里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "滋阳县", "type": "geo", "norm": "滋阳县", "first_source": "23-001"},
+      {"ent_id": "ENT-002", "name": "瑕丘", "type": "geo", "norm": "瑕丘", "first_source": "23-001"}
+    ],
+    "geos": [
+      {"geo_id": "GEO-23001-c01", "item_id": "23-001", "name": "滋阳县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+       "attributes": {"location_text": "附郭", "households": {"count": 24, "unit": "里", "note": "编户二十四里"}}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c01", "dynasty": "周", "era": null, "institution_name": "负瑕", "action": "因之", "detail": "本鲁之负瑕"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c01", "dynasty": "汉", "era": null, "institution_name": "瑕丘县", "action": "置", "detail": "汉置瑕丘县属山阳郡，武帝时为瑕丘侯国，东汉复为县"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c01", "dynasty": "晋", "era": null, "institution_name": "省入南平阳", "action": "并", "detail": "晋省入南平阳，属高平国"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c01", "dynasty": "隋", "era": null, "institution_name": "瑕丘县", "action": "复置", "detail": "隋复置瑕丘县，为鲁郡治"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c01", "dynasty": "宋", "era": null, "institution_name": "滋阳县", "action": "改", "detail": "宋避宣圣讳改为瑕县，又改曰滋阳县，取山为名，金元因之"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c01", "dynasty": "明", "era": "洪武", "institution_name": "滋阳县", "action": "复置", "detail": "本朝初省入兖州，洪武十八年复置"}
+    ],
+    "mtns": [],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c01", "name": "王思诚", "type": "人物", "dynasty": "元", "native_place": "滋阳", "office": "礼部尚书、集贤学士、国子祭酒", "summary": "天资过人，力学弗懈，至治初举进士，累官礼部尚书，卒谥献肃", "original": "王思诚【滋阳人徙汶阳天资过人力学弗懈至治初举进士歴监察御史…累迁礼部尚书集贤学士国子祭酒卒谥献肃】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c01", "name": "滋阳县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武十八年建", "original": "滋阳县学【在县治东洪武十八年建】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "滋阳为附郭县，府城附近山川宫室已入府级文件，本县仅记县学及县人"}
+}

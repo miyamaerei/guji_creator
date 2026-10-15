@@ -1,0 +1,80 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "蓬莱县",
+  "region": "山东",
+  "type": "county",
+  "original": "蓬莱县【附郭本汉东莱郡黄县地武帝于此望海中蓬莱山因筑城以为名唐贞观间置蓬莱镇神龙初始置蓬莱县宋金元俱为登州治所本朝因之编户六十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "蓬莱县", "type": "geo", "norm": "蓬莱县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "丹崖山", "type": "mtn", "norm": "丹崖山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "田横山", "type": "mtn", "norm": "田横山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "密神山", "type": "mtn", "norm": "密神山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "漏天山", "type": "mtn", "norm": "漏天山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "羽山", "type": "mtn", "norm": "羽山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "龙山", "type": "mtn", "norm": "龙山", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "沙门岛", "type": "mtn", "norm": "沙门岛", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "之罘水", "type": "mtn", "norm": "之罘水", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "泠然泉", "type": "mtn", "norm": "泠然泉", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "花山泉", "type": "mtn", "norm": "花山泉", "first_source": "25-001"},
+      {"ent_id": "ENT-012", "name": "温泉", "type": "mtn", "norm": "温泉", "first_source": "25-001"},
+      {"ent_id": "ENT-013", "name": "珠玑岩", "type": "mtn", "norm": "珠玑岩", "first_source": "25-001"},
+      {"ent_id": "ENT-014", "name": "烟霞洞", "type": "mtn", "norm": "烟霞洞", "first_source": "25-001"},
+      {"ent_id": "ENT-015", "name": "刘涣", "type": "person", "norm": "刘涣", "first_source": "25-001"},
+      {"ent_id": "ENT-016", "name": "刘潜", "type": "person", "norm": "刘潜", "first_source": "25-001"},
+      {"ent_id": "ENT-017", "name": "蒋贤", "type": "person", "norm": "蒋贤", "first_source": "25-001"},
+      {"ent_id": "ENT-018", "name": "叶氏", "type": "person", "norm": "叶氏", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c01",
+        "item_id": "25-001",
+        "name": "蓬莱县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 66, "unit": "里", "note": "编户六十六里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c01", "dynasty": "汉", "era": null, "institution_name": "黄县地", "action": "置", "detail": "本汉东莱郡黄县地，武帝于此望海中蓬莱山因筑城以为名"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c01", "dynasty": "唐", "era": "贞观", "institution_name": "蓬莱镇", "action": "置", "detail": "唐贞观间置蓬莱镇"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c01", "dynasty": "唐", "era": "神龙", "institution_name": "蓬莱县", "action": "置", "detail": "神龙初始置蓬莱县"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001c01", "dynasty": "明", "era": null, "institution_name": "蓬莱县", "action": "因之", "detail": "宋金元俱为登州治所，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "丹崖山", "type": "山", "location_text": "在府城北三里", "description": "东西二面石壁巉岩，上有蓬莱阁，又有三洞曰半仙曰狮子曰南土，秀丽奇绝为一郡伟观", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "田横山", "type": "山", "location_text": "在府城西北三里", "description": "俗传汉韩信破齐，田横与其徒五百人栖此", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "密神山", "type": "山", "location_text": "在府城南一十里", "description": "山东麓有贵溪", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "漏天山", "type": "山", "location_text": "在府城东二十里", "description": "山下有洞冬夏水滴如漏故名", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "羽山", "type": "山", "location_text": "在府城东南三十里", "description": "书殛鲧于羽山，孔安国注云山在东齐海中即此", "lore": "蔡传则以为徐州羽山"},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "龙山", "type": "山", "location_text": "在府城南四十里", "description": "上有龙洞，山产铁旧有场", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "珠玑岩", "type": "岩", "location_text": "在丹崖山下", "description": "石壁千丈水中有小石状如珠玑或如弹丸，岁久为海浪所磨荡圆洁光莹可爱，俗呼弹子涡", "lore": "宋苏轼尝取数百枚养石菖蒲且作诗"},
+      {"mtn_id": "MTN-008", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "沙门岛", "type": "其他", "location_text": "在府城西北六十里海中", "description": "凡海舟渡辽者必泊此以避风，宋时尝流放罪人于此；其相联属则有鼍矶牵牛大竹小竹凡四岛皆紫翠巉绝出没涛中", "lore": "苏轼有北海十二石记；海市现灭常在五岛之上"},
+      {"mtn_id": "MTN-009", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "之罘水", "type": "河", "location_text": "在蓬莱县南一十五里", "description": "源出羽山与石门水合流入海", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "泠然泉", "type": "泉", "location_text": "在丹崖山之阴去海数步", "description": "味甘而冽", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "花山泉", "type": "泉", "location_text": "在府城南五十里", "description": "隆冬不冰夏时莲花生焉", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "温泉", "type": "泉", "location_text": "一在府城南七十里", "description": "甃石为池引以澡浴", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "鲧城", "type": "古迹", "location_text": "在羽山上", "description": "相传魏将田豫领兵御吴将周贺于此筑城以居，以其地近古殛鲧地故名", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "刘潜", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知蓬莱县", "summary": "能为古文有孝行，代还道闻母丧，一恸而绝"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "蒋贤", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知蓬莱县", "summary": "永乐间知蓬莱县，公廉勤慎赋役均平，历九载吏民怀服"},
+      {"per_id": "PER-003", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "叶氏", "type": "列女", "dynasty": "明", "native_place": "蓬莱", "office": "卫琮妻", "summary": "夫丧叶以节自守，嘉靖初有司具事上闻"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c01", "name": "蓬莱县学", "type": "学校", "location_text": "在县治西南", "history_lore": "洪武九年迁县北，正德五年徙置于此"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

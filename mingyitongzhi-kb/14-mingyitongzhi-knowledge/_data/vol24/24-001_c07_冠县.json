@@ -1,0 +1,196 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "冠县",
+  "region": "山东",
+  "original": "冠县【在府城西南一百五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "冠县",
+        "type": "geo",
+        "norm": "冠县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c07",
+        "item_id": "24-001",
+        "name": "冠县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城西南一百五十里",
+          "households": {
+            "count": 27,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "冠氏邑",
+        "action": "因之",
+        "detail": "本春秋晋冠氏邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "馆陶县地",
+        "action": "因之",
+        "detail": "汉为魏郡馆陶县地；魏晋皆属阳平郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "冠氏县",
+        "action": "置",
+        "detail": "隋析置冠氏县属魏州；大业初属武阳郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "冠氏县",
+        "action": "因之",
+        "detail": "唐初属毛州，后属魏州；五代宋金并属大名府"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "冠州",
+        "action": "升",
+        "detail": "元初属东平路，后升为冠州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "冠县",
+        "action": "降",
+        "detail": "本朝降为县，改今属"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "李栖筠",
+        "type": "名宦",
+        "dynasty": "唐",
+        "native_place": "",
+        "office": "冠氏主簿",
+        "summary": "李岘以三司按群臣胁贼者，表栖筠为详理判官，推原其所以胁污者轻重以情"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "李载",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "冠氏县令",
+        "summary": "以宽厚称，府守吕夷简贤之，及入相遂荐其才"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "郑仅",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "冠氏县令",
+        "summary": "河决大名，夜调夫急，仅阅保甲尽籍即行，先他邑至，决遂塞；河朔饥盗起，独不入冠氏境"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "路岩",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "魏州冠氏",
+        "office": "同平章事",
+        "summary": "累官户部侍郎同平章事，出为剑南西川节度，置定边军于邛州，以功封魏国公"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "赵天锡",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "冠氏",
+        "office": "左副元帅",
+        "summary": "仕金归元，官至左副元帅同知大名路兵马都总管事；子贲亨从元兵平江南有功"
+      },
+      {
+        "per_id": "PER-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "樊楫",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "冠州",
+        "office": "参知政事",
+        "summary": "初为军吏，数从征伐有功；进攻交阯班师，为贼邀遮力战被创，竟为所杀，赠上党郡公，谥忠定"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "冠县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "金贞元初建，本朝景泰四年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c07",
+        "name": "冉仲弓墓",
+        "type": "陵墓",
+        "location_text": "在冠县北二十五里",
+        "history_lore": "墓前旧有祠久毁，景泰二年重修立石表之；闵子、仲弓俱孔门高弟"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

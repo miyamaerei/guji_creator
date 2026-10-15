@@ -1,0 +1,159 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "夏津县",
+  "region": "山东",
+  "original": "夏津县【在州西五十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "夏津县",
+        "type": "geo",
+        "norm": "夏津县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c11",
+        "item_id": "24-001",
+        "name": "夏津县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s02",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州西五十里",
+          "households": {
+            "count": 31,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "鄃县",
+        "action": "置",
+        "detail": "本汉鄃县属清河郡，晋因之"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "鄃县",
+        "action": "废",
+        "detail": "北齐省入平原县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "鄃县",
+        "action": "复置",
+        "detail": "隋复置属贝州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "夏津县",
+        "action": "改",
+        "detail": "唐改为夏津县；宋属魏州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "夏津县",
+        "action": "因之",
+        "detail": "金属大名府；元属高唐州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "夏津县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "name": "宋九嘉",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "夏津",
+        "office": "翰林应奉",
+        "summary": "为人刚直豪迈，为文有奇气；至宁初进士，历四县令咸以能称，入为翰林应奉"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "name": "夏津县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "金大定间建，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "name": "马颊桥",
+        "type": "关梁",
+        "location_text": "在夏津县东三十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "name": "鄃城",
+        "type": "古迹",
+        "location_text": "在夏津县界",
+        "history_lore": "汉封吕陀、栾布为鄃侯皆此地；隋置县属清河郡"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c11",
+        "name": "龙祥观",
+        "type": "寺观",
+        "location_text": "在夏津县治东",
+        "history_lore": "景泰中因旧重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

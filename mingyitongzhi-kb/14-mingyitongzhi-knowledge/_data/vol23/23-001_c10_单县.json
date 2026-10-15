@@ -1,0 +1,49 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "单县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "单县【在府城南二百九十里本鲁单父邑汉为县属山阳郡东汉为侯国晋属济阳郡后魏置北济阳郡隋初废郡以县属戴州大业初州罢以县属曹州唐属宋州后自砀山县徙辉州治此五代唐改为单州宋因之金属归德府元初以单父县附郭属济宁路本朝洪武元年省县入州二年改州为单县属济宁府十八年改今属编户四十二里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "单县", "type": "geo", "norm": "单县", "first_source": "23-001"}],
+    "geos": [{"geo_id": "GEO-23001-c10", "item_id": "23-001", "name": "单县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+      "attributes": {"location_text": "在府城南二百九十里", "households": {"count": 42, "unit": "里", "note": "编户四十二里"}}}],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c10", "dynasty": "周", "era": null, "institution_name": "鲁单父邑", "action": "因之", "detail": "本鲁单父邑"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c10", "dynasty": "汉", "era": null, "institution_name": "单父县", "action": "置", "detail": "汉为县，属山阳郡，东汉为侯国"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c10", "dynasty": "隋", "era": "大业", "institution_name": "戴州/曹州", "action": "改", "detail": "晋属济阳郡，后魏置北济阳郡，隋初废郡以县属戴州，大业初州罢以县属曹州"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c10", "dynasty": "五代", "era": "唐", "institution_name": "单州", "action": "改", "detail": "唐属宋州，后自砀山县徙辉州治此，五代唐改为单州"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c10", "dynasty": "元", "era": null, "institution_name": "单父县", "action": "因之", "detail": "宋因之，金属归德府，元初以单父县附郭属济宁路"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c10", "dynasty": "明", "era": "洪武", "institution_name": "单县", "action": "降", "detail": "本朝洪武元年省县入州，二年改州为单县属济宁府，十八年改今属"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "栖霞山", "type": "山", "location_text": "在单县东四里", "description": "世传梁孝王尝游此", "lore": "", "original": "栖霞山【在单县东四里世传梁孝王尝逰此】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "吕井", "type": "井", "location_text": "在单县治东北隅", "description": "俗传吕仙翁与单父人夏游，苦其水咸，掷瓦井中水遂甘美", "lore": "", "original": "吕井【在单县治东北隅俗传吕仙翁与单父人惠翁逰苦其水咸掷瓦井中水遂甘美故人呼之为吕井】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "宓不齐", "type": "人物", "dynasty": "周", "native_place": "鲁", "office": "单父宰", "summary": "尝宰单父，所父事者三人，兄事者五人，友十一人，鸣琴不下堂而邑治，后世追封单父侯", "original": "宓不齐【鲁人尝宰单父所父事者三人兄事者五人友十一人鸣琴不下堂而邑治孔子称之曰君子哉若人…后世追封单父侯】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "巫马期", "type": "名宦", "dynasty": "周", "native_place": "", "office": "单父宰", "summary": "鲁单父宰，戴星而出戴星而入，身亲其劳而治", "original": "巫马期【鲁单父宰戴星而出戴星而入身亲其劳而治】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "郗诜", "type": "人物", "dynasty": "晋", "native_place": "济阴单父", "office": "尚书左丞", "summary": "博学多才，举贤良对策第一，尝对武帝曰臣犹桂林一枝昆山片玉", "original": "郗诜【济隂单父人博学多才不拘细行举贤良对策第一尝对武帝曰臣犹桂林一枝昆山片玉帝笑官至尚书左丞】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "秦纮", "type": "人物", "dynasty": "明", "native_place": "单县", "office": "户部尚书", "summary": "景祐中举进士，以劾中官忤时贵，历官都御史，升户部侍郎进尚书，正直刚方", "original": "秦纮【单人景防中举进士以劾中官忤时贵屡谪屡危而屡获免歴官都御史陞户部侍郎进尚书纮正直刚方节摡凛凛为时名臣祀乡贤祠省志】"},
+      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "马贯", "type": "人物", "dynasty": "明", "native_place": "单县", "office": "江西布政司参政", "summary": "以才学超卓举任监察御史，有直声，官至江西布政司参政", "original": "马贯【单县人以才学超卓举任监察御史冇直声官至江西布政司叅政】"},
+      {"per_id": "PER-006", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "陈葵", "type": "名宦", "dynasty": "明", "native_place": "", "office": "单县知县", "summary": "洪武末持身廉谨，好士爱民", "original": "陈葵【洪武末任单县知县持身亷谨好士爱民逺近称之】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "单县学", "type": "学校", "location_text": "在县治东南", "history_lore": "洪武三年建", "original": "单县学【在县治东南洪武三年建】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "二贤祠", "type": "祠庙", "location_text": "在单县琴台", "history_lore": "祀单父宰宓子贱、巫马期", "original": "二贤祠【在单县琴防上祀单父宰宓子贱巫马期又济寜州太白楼傍亦有二贤祠祀唐李太白贺知章】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "普照寺", "type": "寺观", "location_text": "在单县治西", "history_lore": "", "original": "普照寺【在济寜州治西北又单县治西亦有普照寺】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "全道观", "type": "寺观", "location_text": "在单县治西南", "history_lore": "洪武间修", "original": "全道观【在单县治西南洪武间修】"},
+      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "琴台", "type": "古迹", "location_text": "在单县治北", "history_lore": "宓子贱为单父宰，弹琴不下堂而理，后人即其地建台", "original": "琴台【在单县治北宓子贱为单父宰弹琴不下堂而理后人即其地建防唐髙适诗宓子昔为政鸣琴登此防…】"},
+      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "半月台", "type": "古迹", "location_text": "在单县治东北隅", "history_lore": "唐李白诗：陶公有逸兴，筑台像半月", "original": "半月台【在单县治东北隅唐李白诗陶公有逸兴不与常人俱筑防像半月回向髙城隅…】"},
+      {"site_id": "SITE-007", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "单父废县", "type": "古迹", "location_text": "在单县", "history_lore": "古鲁邑，即宓子贱为宰处，元属单州，本朝省入单县", "original": "单父废县【在单县古鲁邑即宓子贱为宰处元属单州本朝省入单县】"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "菟丝子", "category": "药材", "note": "", "original": "兎丝子　蛇床【单县出】"},
+      {"prod_id": "PROD-002", "item_id": "23-001", "geo_id": "GEO-23001-c10", "name": "蛇床", "category": "药材", "note": "单县出", "original": "蛇床【单县出】"}
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

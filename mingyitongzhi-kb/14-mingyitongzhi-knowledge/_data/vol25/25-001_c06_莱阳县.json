@@ -1,0 +1,84 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "莱阳县",
+  "region": "山东",
+  "type": "county",
+  "original": "莱阳县【在府城南二百五十里本汉东莱郡之昌阳县地晋初县废元康中于故城西七十里复置昌阳县属长广郡北齐属东莱郡隋初属莱州唐以卢乡县省入五代唐改为莱阳县宋金元因之本朝改今属编户一百四十一里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "莱阳县", "type": "geo", "norm": "莱阳县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "五龙山", "type": "mtn", "norm": "五龙山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "火山", "type": "mtn", "norm": "火山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "仓山", "type": "mtn", "norm": "仓山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "林寺山", "type": "mtn", "norm": "林寺山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "福阜山", "type": "mtn", "norm": "福阜山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "七子山", "type": "mtn", "norm": "七子山", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "昌水", "type": "mtn", "norm": "昌水", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "貕养泽", "type": "mtn", "norm": "貕养泽", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "姜彧", "type": "person", "norm": "姜彧", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "于玠", "type": "person", "norm": "于玠", "first_source": "25-001"},
+      {"ent_id": "ENT-012", "name": "于守礼", "type": "person", "norm": "于守礼", "first_source": "25-001"},
+      {"ent_id": "ENT-013", "name": "李铎", "type": "person", "norm": "李铎", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c06",
+        "item_id": "25-001",
+        "name": "莱阳县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城南二百五十里",
+          "households": {"count": 141, "unit": "里", "note": "编户一百四十一里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c06", "dynasty": "汉", "era": null, "institution_name": "昌阳县地", "action": "因之", "detail": "本汉东莱郡之昌阳县地"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c06", "dynasty": "晋", "era": "元康", "institution_name": "昌阳县", "action": "复置", "detail": "晋初县废，元康中于故城西七十里复置昌阳县属长广郡"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c06", "dynasty": "唐", "era": null, "institution_name": "昌阳县", "action": "并", "detail": "隋初属莱州，唐以卢乡县省入"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001c06", "dynasty": "五代", "era": "唐", "institution_name": "莱阳县", "action": "改", "detail": "五代唐改为莱阳县"},
+      {"evo_id": "EVO-005", "item_id": "25-001", "geo_id": "GEO-25001c06", "dynasty": "明", "era": null, "institution_name": "莱阳县", "action": "改", "detail": "宋金元因之，本朝改今属登州府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "五龙山", "type": "山", "location_text": "在莱阳县南二十里", "description": "山下有五水相合流入海，俗称五龙", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "火山", "type": "山", "location_text": "在莱阳县北三十三里", "description": "山多赤石如火故名", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "仓山", "type": "山", "location_text": "在莱阳县东五十里", "description": "山旧产铁", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "林寺山", "type": "山", "location_text": "在莱阳县东八十里", "description": "山多林木上有古寺因名，元时尝置金场于此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "福阜山", "type": "山", "location_text": "在莱阳县七十里", "description": "宋元时尝于此置买金场", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "七子山", "type": "山", "location_text": "在莱阳县东南九十里", "description": "山有八峰，大峰居中七峰傍列若其子然故名", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "昌水", "type": "河", "location_text": "一名昌阳水", "description": "源发文登县西南四十里昌山西南流经莱阳县东流入海", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "貕养泽", "type": "湖", "location_text": "在莱阳县东", "description": "周礼职方氏幽州之泽薮曰貕养，盖此地周属幽州故也", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "姜彧", "type": "人物", "dynasty": "元", "native_place": "莱阳", "office": "行御史中丞", "summary": "从诸将取李璮，劝主将下令勿妄杀，迁知滨州课民种桑"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "赵格", "type": "人物", "dynasty": "金", "native_place": "莱阳", "office": "汾州观察判官", "summary": "明昌间与弟直同登进士第"},
+      {"per_id": "PER-003", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "于玠", "type": "人物", "dynasty": "元", "native_place": "莱阳", "office": "骑都尉", "summary": "至元中授同知济南路总管府事，卒赠河南伯"},
+      {"per_id": "PER-004", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "于守礼", "type": "人物", "dynasty": "明", "native_place": "莱阳", "office": "陕西按察司佥事", "summary": "洪武中以通经举用，才识过人历任有声"},
+      {"per_id": "PER-005", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "李铎", "type": "人物", "dynasty": "明", "native_place": "莱阳", "office": "都御史", "summary": "弘治中进士，值大同之变特命抚之，卒遣官谕祭营葬"},
+      {"per_id": "PER-006", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "刘氏", "type": "列女", "dynasty": "明", "native_place": "莱阳", "office": "董让妻", "summary": "夫卒守节，洪武二十一年旌表贞节"},
+      {"per_id": "PER-007", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "孙氏", "type": "列女", "dynasty": "明", "native_place": "莱阳", "office": "杨芳妻", "summary": "方举乡试卒，孙为守节，成化十年旌表"},
+      {"per_id": "PER-008", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "阎氏", "type": "列女", "dynasty": "明", "native_place": "莱阳", "office": "曲溥妻", "summary": "正德六年贼入城执阎欲污之，不屈，闻夫被杀遂自缢，旌表"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "莱阳县学", "type": "学校", "location_text": "在县治东南", "history_lore": "永乐十年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "兴国寺", "type": "寺观", "location_text": "在莱阳县治东南", "history_lore": "永乐三年重修"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "游仙宫", "type": "寺观", "location_text": "在莱阳县治西南", "history_lore": "洪武二十四年因旧重修"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "李铎墓", "type": "陵墓", "location_text": "在莱阳县城东北隅", "history_lore": ""},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "莱阳城", "type": "古迹", "location_text": "在莱阳县东南二十三里", "history_lore": "隋大业中筑属东莱郡，唐永徽初为水淹圮遂废"},
+      {"site_id": "SITE-006", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "挺城", "type": "古迹", "location_text": "在莱阳县南七里", "history_lore": "汉书地理志云挺城属胶东国后属东莱郡"},
+      {"site_id": "SITE-007", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "昌阳城", "type": "古迹", "location_text": "在莱阳县东七十里", "history_lore": "汉置县晋省，城东百四十里有黄银坑，唐贞观初得之"},
+      {"site_id": "SITE-008", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "长广城", "type": "古迹", "location_text": "在莱阳县东五十里", "history_lore": "汉置县属琅琊郡，北齐省"},
+      {"site_id": "SITE-009", "item_id": "25-001", "geo_id": "GEO-25001c06", "name": "高丽戍", "type": "古迹", "location_text": "在莱阳县西南九十里", "history_lore": "司马懿讨辽东于此置戍故名，土人讹为高丽山"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

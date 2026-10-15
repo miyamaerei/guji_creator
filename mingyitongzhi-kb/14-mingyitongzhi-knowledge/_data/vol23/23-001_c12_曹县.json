@@ -1,0 +1,60 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "曹县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "曹县【在州南一百二十里本汉济阴郡之定陶县地隋置济阴县唐宋皆因之金徙曹州治旧乘氏县仍置济阴为附郭本朝初以济阴省入州洪武二年徙州治磐石镇四年改州为县属济宁府正统十一年复置曹州以县属焉编户四十八里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "曹县", "type": "geo", "norm": "曹县", "first_source": "23-001"}],
+    "geos": [{"geo_id": "GEO-23001-c12", "item_id": "23-001", "name": "曹县", "type": "county", "region": "山东", "parent": "GEO-23001-s01", "children": [], "volume_range": "卷23",
+      "attributes": {"location_text": "在曹州南一百二十里", "households": {"count": 48, "unit": "里", "note": "编户四十八里"}}}],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c12", "dynasty": "汉", "era": null, "institution_name": "济阴郡定陶县地", "action": "因之", "detail": "本汉济阴郡之定陶县地"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c12", "dynasty": "隋", "era": null, "institution_name": "济阴县", "action": "置", "detail": "隋置济阴县，唐宋皆因之"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c12", "dynasty": "金", "era": null, "institution_name": "曹州治/附郭济阴", "action": "迁", "detail": "金徙曹州治旧乘氏县，仍置济阴为附郭"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c12", "dynasty": "明", "era": "洪武/正统", "institution_name": "曹县", "action": "改", "detail": "本朝初以济阴省入州，洪武二年徙州治磐石镇，四年改州为县属济宁府，正统十一年复置曹州以县属焉"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "曹南山", "type": "山", "location_text": "在曹州南一百里", "description": "诗：荟兮蔚兮，南山朝跻。春秋盟于曹南皆此", "lore": "", "original": "曹南山【在曹州南一百里诗荟兮蔚弓南山朝隮春秋盟于曹南皆此】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "景山", "type": "山", "location_text": "在曹县东四十里，废楚丘城北", "description": "卫文公徙居楚丘，测日影于此。诗：望楚与堂，景山与京", "lore": "", "original": "景山【在曹县东四十里废楚丘城北卫文公徙居楚丘测日影于此诗望楚与堂景山与京是也】"},
+      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "汜水", "type": "河", "location_text": "在曹州西南三十里", "description": "汉高祖即位泛水之阳即此", "lore": "", "original": "汜水【在曹州西南三十里汉髙帝即位泛水之阳即此】"},
+      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "菏泽", "type": "湖", "location_text": "在曹州境内", "description": "禹贡导菏泽被孟潴，今涸", "lore": "", "original": "菏泽【在曹州境内禹贡导菏泽被孟潴又济水东至于菏皆此今涸】"},
+      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "大祢沟", "type": "河", "location_text": "在曹州界内", "description": "诗：出宿于泲，饮饯于祢。今淤塞", "lore": "", "original": "大祢沟【在曹州界内诗出宿于泲饮饯于祢即此今淤塞】"},
+      {"mtn_id": "MTN-006", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "济堤", "type": "堰", "location_text": "在曹、定陶二县", "description": "即故济水堤也", "lore": "", "original": "济隄【在曹定陶二县即故济水隄也】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "李勣", "type": "人物", "dynasty": "唐", "native_place": "曹州离狐", "office": "太子太师、英国公", "summary": "从高祖太宗征伐，拜同中书门下，最后伐高丽破其国，封英国公", "original": "李勣【曹州离孤人客卫南从髙祖太宗征战所至有功拜同中书门下最后伐髙丽破其国裂其地进太子太师封英国公】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "刘晏", "type": "人物", "dynasty": "唐", "native_place": "曹州", "office": "相、常平使", "summary": "八岁献颂，玄宗奇之，总大体不苛，拜相领常平使理财甚有绩", "original": "刘晏【曹州人宗封泰山晏八嵗献颂帝竒其防即授太子正字累迁京兆尹总大体不苛代宗立拜相领常平使理财甚有绩效后为杨炎所诬赐死天下以为寃】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "张齐贤", "type": "人物", "dynasty": "宋", "native_place": "曹州冤句", "office": "同平章事", "summary": "以布衣献策，太宗朝举进士，慷慨有文略，累官吏部侍郎同平章事", "original": "张齐贤【曹州寃句人兵乱徙家洛阳太祖幸西都齐贤以布衣献策…太宗朝举进士慷慨有文畧累官吏部侍郎同平章事进右仆射以司空致仕卒谥文定】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "李秉", "type": "人物", "dynasty": "明", "native_place": "曹州", "office": "左都御史、太子少保兼吏部尚书", "summary": "正统中登进士，为监察御史，整饬边征，剿建州三卫夷寇，升太子少保兼吏部尚书", "original": "李秉【曹州人正统中登进士为监察御史累官左都御史整饬邉征勦建州三卫夷防克揵回京陞太子少保兼吏部尚书省志】"},
+      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "王肃", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知曹县", "summary": "弘治初爱民重士，修城郭堤防", "original": "王肃【治初知曹县爱民重士修城郭隄防民赖其利省志】"},
+      {"per_id": "PER-006", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "张浩", "type": "名宦", "dynasty": "明", "native_place": "", "office": "同知曹州", "summary": "天顺间廉明刚毅，抑豪强，毁淫祠，修举废坠，兴学养士", "original": "张浩【天顺间同知曹州亷明刚毅抑豪强毁祠修举废坠兴学养士州佐之贤称为第一省志】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "曹县学", "type": "学校", "location_text": "在县治西北", "history_lore": "洪武四年建", "original": "曹县学【在县治西北洪武四年建】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "汤王庙", "type": "祠庙", "location_text": "在曹县南二十里", "history_lore": "", "original": "汤王庙【在曹县南二十里】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "伊尹庙", "type": "祠庙", "location_text": "在曹县东南二十五里", "history_lore": "", "original": "伊尹庙【在曹县东南二十五里】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "范蠡庙", "type": "祠庙", "location_text": "在曹县西南济阳故城内", "history_lore": "宋吕本中诗：悠悠千载五湖心，古庙无人锁绿阴", "original": "范蠡庙【在曹县西南济阳故城内宋吕本中诗悠悠千载五湖心古庙无人锁緑隂…】"},
+      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "澹台灭明祠", "type": "祠庙", "location_text": "在曹县东三十里龙须冈", "history_lore": "", "original": "澹防灭明祠【在曹县东三十里龙须冈】"},
+      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "隆兴寺", "type": "寺观", "location_text": "在曹县治东", "history_lore": "洪武间因旧重建", "original": "隆兴寺【在曹县治东洪武间因旧重建】"},
+      {"site_id": "SITE-007", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "莘仲城", "type": "古迹", "location_text": "在曹县东南三十里", "history_lore": "古莘国", "original": "莘仲城【在曹县东南三十里古莘国】"},
+      {"site_id": "SITE-008", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "楚丘城", "type": "古迹", "location_text": "在曹县东南五十里", "history_lore": "春秋时戎州己氏之邑，汉改为己氏县，隋改曰楚丘", "original": "楚丘城【在曹县东南五十里春秋时戎州已氏之邑汉改为已氏县隋改曰楚丘唐属宋州金属单州元属曹州本朝省入曹州】"},
+      {"site_id": "SITE-009", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "漆园城", "type": "古迹", "location_text": "在曹县西北五十里", "history_lore": "庄周为漆园吏即此", "original": "漆园城【在曹县西北五十里荘周为漆园吏即此】"},
+      {"site_id": "SITE-010", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "葭密城", "type": "古迹", "location_text": "在曹县西北三十里", "history_lore": "史记齐威王以田忌为将大破魏师于葭密即此", "original": "葭宻城【在曹县西北三十里史记齐威王以田忌为将大破魏师于葭宻即此】"},
+      {"site_id": "SITE-011", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "盘庚村", "type": "古迹", "location_text": "在曹县东南八十里", "history_lore": "旧有殷王盘庚祠", "original": "盘庚村【在曹县东南八十里旧有殷后盘庚祠】"},
+      {"site_id": "SITE-012", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "受命坛", "type": "古迹", "location_text": "在曹县东北二十里", "history_lore": "汉高祖即位于定陶汜水之阳，建此", "original": "受命坛【在曹县东北二十里汉髙帝即位于定陶汜水之阳建此】"},
+      {"site_id": "SITE-013", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "仲弓墓", "type": "陵墓", "location_text": "在曹县东南五十里", "history_lore": "俗呼为冉堌", "original": "仲弓墓【在曹县东南五十里俗呼为冉堌】"},
+      {"site_id": "SITE-014", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "李秉墓", "type": "陵墓", "location_text": "在曹县东北三十里", "history_lore": "", "original": "李秉墓【在曹县东北三十里】"},
+      {"site_id": "SITE-015", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "披云楼", "type": "宫室", "location_text": "在曹县治北旧州城上", "history_lore": "宋知州郭概建，陈师道作记", "original": "披云楼【在曹县治北旧州城上宋知州郭槩建陈师道作记】"},
+      {"site_id": "SITE-016", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "三贤堂", "type": "宫室", "location_text": "在曹县北旧城内", "history_lore": "中塑越范蠡、秦魏冉、汉魏像，宋范致明有赞", "original": "三贤堂【在曹县北旧城内中塑越范蠡秦魏冉汉魏相像宋范致明有赞】"},
+      {"site_id": "SITE-017", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "展敬堂", "type": "宫室", "location_text": "在曹县旧城北", "history_lore": "元时为宦游迎送之院", "original": "展敬堂【在曹县旧城北元时为宦逰迎送之院】"},
+      {"site_id": "SITE-018", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "想山亭", "type": "宫室", "location_text": "在曹县治北旧城内", "history_lore": "宋郡守卢襄诗：客来如见小扉，便见山翁想山处", "original": "想山亭【在曹县治北旧城内宋郡守卢襄诗客来如见小扉便见山翁想山处】"},
+      {"site_id": "SITE-019", "item_id": "23-001", "geo_id": "GEO-23001-c12", "name": "赵氏（巧云）", "type": "列女", "location_text": "曹县郭宪妻", "history_lore": "正德六年流贼入其家欲污之，赵按剑厉声诱之终不从，死", "original": "赵氏【名巧云曹县人郭宪妻夫卒守节正徳六年流贼入其家欲汚之赵曰吾孀居十八年矣今岂受汚辱按剑厉声诱之终不从死于旌表省志】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "曹县属曹州parent=GEO-23001-s01。"}
+}

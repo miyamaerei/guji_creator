@@ -1,0 +1,86 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "宁海州",
+  "region": "山东",
+  "type": "subprefecture",
+  "original": "宁海州【在府城东二百二十里本汉东牟县属东莱郡北齐移县治于黄县东北七十五里属长广郡隋改郡为牟州仍以牟平为属县唐初州县俱废后析文登县复置牟平县又于县置登州神龙中徙州治于蓬莱县金时刘豫于牟平县置宁海军金改军为州元直隶省本朝初以牟平省入宁海属莱州府洪武九年改今属编户八十里领县一】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "宁海州", "type": "geo", "norm": "宁海州", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "牟山", "type": "mtn", "norm": "牟山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "侯至山", "type": "mtn", "norm": "侯至山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "大昆仑山", "type": "mtn", "norm": "大昆仑山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "系马山", "type": "mtn", "norm": "系马山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "五丈河", "type": "mtn", "norm": "五丈河", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "金水河", "type": "mtn", "norm": "金水河", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "九龙池", "type": "mtn", "norm": "九龙池", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "赵仁", "type": "person", "norm": "赵仁", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "张氏", "type": "person", "norm": "张氏", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "林氏", "type": "person", "norm": "林氏", "first_source": "25-001"},
+      {"ent_id": "ENT-012", "name": "方氏", "type": "person", "norm": "方氏", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001s01",
+        "item_id": "25-001",
+        "name": "宁海州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": ["GEO-25001c07"],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城东二百二十里",
+          "households": {"count": 80, "unit": "里", "note": "编户八十里领县一"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "汉", "era": null, "institution_name": "东牟县", "action": "置", "detail": "本汉东牟县属东莱郡"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "南北朝", "era": "北齐", "institution_name": "东牟县", "action": "迁", "detail": "北齐移县治于黄县东北七十五里属长广郡"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "隋", "era": null, "institution_name": "牟州", "action": "改", "detail": "隋改郡为牟州，仍以牟平为属县"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "唐", "era": null, "institution_name": "牟平县", "action": "复置", "detail": "唐初州县俱废，后析文登县复置牟平县，又于县置登州"},
+      {"evo_id": "EVO-005", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "金", "era": null, "institution_name": "宁海军/宁海州", "action": "置", "detail": "金时刘豫于牟平县置宁海军，金改军为州"},
+      {"evo_id": "EVO-006", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "元", "era": null, "institution_name": "宁海州", "action": "因之", "detail": "元直隶省部"},
+      {"evo_id": "EVO-007", "item_id": "25-001", "geo_id": "GEO-25001s01", "dynasty": "明", "era": "洪武", "institution_name": "宁海州", "action": "改", "detail": "本朝初以牟平省入宁海属莱州府，洪武九年改今属登州府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "牟山", "type": "山", "location_text": "在宁海州北七里", "description": "山之阳地势平广，旧牟平县盖取此义", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "侯至山", "type": "山", "location_text": "在宁海州东北二十里", "description": "旧传汉东牟侯刘兴居尝至此故名", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "大昆仑山", "type": "山", "location_text": "在宁海州东南四十里", "description": "与小昆仑连秀，实为群山之冠，上有太白顶，中有烟霞洞", "lore": "本名姑苏山，仙经云麻姑尝于此修道上升，故名姑余；元史云邱处机与马钰谭处端刘处玄王处一郝大通孙不二同师重阳王真人于此"},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "烟霞洞", "type": "洞", "location_text": "在大昆仑山", "description": "金大定间有重阳王真人自关西抵昆仑求之果有洞，洞口有烟霞二字", "lore": "为全真教发祥地"},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "系马山", "type": "山", "location_text": "在宁海州东四十里", "description": "世传秦始皇游此山揽草系马，至今草生若系结之状", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "五丈河", "type": "河", "location_text": "源发宁海州西南六十里", "description": "防山合涧谷诸水东北流入海", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "金水河", "type": "河", "location_text": "一名沁水", "description": "源发宁海州南八十五里黄堆诸山溪涧会流，东北经州治东五里许又东北流入海", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "寒温泉", "type": "泉", "location_text": "在宁海州东四十里", "description": "有龙泉，寒温二泉并发", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "九龙池", "type": "池", "location_text": "在宁海州东南四十里", "description": "池有九或如瓮缶或如盆盎，上有神祠，岁旱祷雨辄应", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "温泉", "type": "泉", "location_text": "在宁海州防山之麓", "description": "甃石为池引以澡浴", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "张元礼", "type": "名宦", "dynasty": "元", "native_place": "", "office": "指挥使守宁海州", "summary": "有山贼寇文登，元礼一夕驰至保其城，贼党就擒民赖以安"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "赵仁", "type": "人物", "dynasty": "明", "native_place": "宁海州", "office": "兵部尚书", "summary": "洪武初以荐起家，以审狱平允擢都御史调兵部尚书卒"},
+      {"per_id": "PER-003", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "刘佺", "type": "流寓", "dynasty": "元", "native_place": "乐安", "office": "骠骑上将军", "summary": "行元帅府事后改治登州因家焉"},
+      {"per_id": "PER-004", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "宁秀", "type": "流寓", "dynasty": "元", "native_place": "河间", "office": "昭列大夫", "summary": "同知般阳路总管府事致仕因居焉"},
+      {"per_id": "PER-005", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "麻姑", "type": "仙释", "dynasty": "宋", "native_place": "或云建昌", "office": "真人", "summary": "修道于牟州东南姑余山，宋政和中封真人"},
+      {"per_id": "PER-006", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "林氏", "type": "列女", "dynasty": "明", "native_place": "宁海州", "office": "任仲文妻", "summary": "年二十八而寡，姑患风疾扶侍惟勤，卒年一百三岁"},
+      {"per_id": "PER-007", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "方氏", "type": "列女", "dynasty": "明", "native_place": "宁海", "office": "林贞妻", "summary": "名友弟，年二十八夫卒守节，学士宋濂撰墓志铭"},
+      {"per_id": "PER-008", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "张氏", "type": "列女", "dynasty": "明", "native_place": "宁海州", "office": "王麒妻", "summary": "麒令靖海及卒子轩甫三岁，张守节教子轩后举进士，成化十四年旌表"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "宁海州学", "type": "学校", "location_text": "在州治东南", "history_lore": "永乐十三年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "鲤堂", "type": "宫室", "location_text": "在宁海州石落村", "history_lore": "有氏于海滨得百丈鱼取其骨构此堂"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "沁水桥", "type": "关梁", "location_text": "在宁海州东五里", "history_lore": "跨金水河"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "弥勒寺", "type": "寺观", "location_text": "在宁海州治东", "history_lore": "宋熙宁间建"},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "神清观", "type": "寺观", "location_text": "在宁海州东南五十里昆仑乡", "history_lore": "金大定间建，即王重阳开烟霞洞处"},
+      {"site_id": "SITE-006", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "朝元观", "type": "寺观", "location_text": "在宁海州治西", "history_lore": ""},
+      {"site_id": "SITE-007", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "东牟侯庙", "type": "祠庙", "location_text": "在宁海州东三里", "history_lore": "祀汉东牟侯刘兴居"},
+      {"site_id": "SITE-008", "item_id": "25-001", "geo_id": "GEO-25001s01", "name": "育犁城", "type": "古迹", "location_text": "在宁海州东南一百二十里", "history_lore": "汉置县属东莱郡，东汉省"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

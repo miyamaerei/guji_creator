@@ -1,0 +1,63 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "峄县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "峄县【在府城东南二百六十里春秋时鄫国汉为兰陵承二县地属东海郡晋置兰陵郡治承城隋罢郡置鄫州大业中州县并废而徙兰陵县于承城属徐州唐初复置鄫州又改兰陵为承县贞观中废州以县属沂州宋因之金属邳州后改承县为兰陵兴定中以县置峄州元初以州属益都路至元初以县省入本朝洪武二年改州为县属济宁府后改今属编户三十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "峄县", "type": "geo", "norm": "峄县", "first_source": "23-001"},
+      {"ent_id": "ENT-002", "name": "匡衡", "type": "person", "norm": "匡衡", "first_source": "23-001"}
+    ],
+    "geos": [
+      {"geo_id": "GEO-23001-c07", "item_id": "23-001", "name": "峄县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+       "attributes": {"location_text": "在府城东南二百六十里", "households": {"count": 36, "unit": "里", "note": "编户三十六里"}}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "周", "era": "春秋", "institution_name": "鄫国", "action": "因之", "detail": "春秋时鄫国"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "汉", "era": null, "institution_name": "兰陵/承二县", "action": "置", "detail": "汉为兰陵、承二县地，属东海郡"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "晋", "era": null, "institution_name": "兰陵郡", "action": "置", "detail": "晋置兰陵郡，治承城"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "隋", "era": "大业", "institution_name": "鄫州/兰陵县", "action": "改", "detail": "隋罢郡置鄫州，大业中州县并废，徙兰陵县于承城，属徐州"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "唐", "era": "贞观", "institution_name": "承县", "action": "改", "detail": "唐初复置鄫州，又改兰陵为承县，贞观中废州以县属沂州"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "金", "era": "兴定", "institution_name": "峄州", "action": "升", "detail": "金属邳州，后改承县为兰陵，兴定中以县置峄州"},
+      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "元", "era": "至元", "institution_name": "峄州", "action": "因之", "detail": "元初以州属益都路，至元初以县省入"},
+      {"evo_id": "EVO-008", "item_id": "23-001", "geo_id": "GEO-23001-c07", "dynasty": "明", "era": "洪武", "institution_name": "峄县", "action": "降", "detail": "本朝洪武二年改州为县，属济宁府，后改今属"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "车稍山", "type": "山", "location_text": "在峄县北六十里", "description": "一名三峰山，沧浪渊出此", "lore": "", "original": "车稍山【在峄县北六十里一名三峯山沧浪渊出此】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "君山", "type": "山", "location_text": "在峄县北六十里", "description": "上有池深数尺，水旱不增减。昔有隐者王老抱犊耕其上，后遇异人仙去，故又名抱犊山", "lore": "", "original": "君山【在峄县北六十里上有池深数尺水旱不増减平田数顷昔有隠者王老抱犊耕其上后遇异人仙去故又名抱犊山】"},
+      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "鲁卿山", "type": "山", "location_text": "在峄县东北七十里", "description": "旧有鲁卿季文子庙，一名季山，俗名神峰山", "lore": "", "original": "鲁卿山【在峄县东北七十里旧有鲁卿季文子庙一名季山俗名神峯山】"},
+      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "夹山", "type": "山", "location_text": "在峄县北七十里", "description": "即夹谷也，春秋鲁公会齐侯于祝其，实夹谷即此", "lore": "孔子相鲁会齐侯处", "original": "夹山【在峄县北七十里即夹谷也春秋鲁公防齐侯于祝其实夹谷即此】"},
+      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "夹儿山", "type": "山", "location_text": "在峄县北七十里", "description": "旧有锡场", "lore": "", "original": "夹儿山【在峄县北七十里旧有锡塲】"},
+      {"mtn_id": "MTN-006", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "马山", "type": "山", "location_text": "在峄县南九十里", "description": "其形若奔马之势", "lore": "", "original": "马山【在峄县南九十里其形若奔马之势】"},
+      {"mtn_id": "MTN-007", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "承治河", "type": "河", "location_text": "源发峄县西许家泉", "description": "南流入邳州界", "lore": "", "original": "承治河【源发峄县西许家泉南流入邳州界】"},
+      {"mtn_id": "MTN-008", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "沧浪渊", "type": "潭", "location_text": "在峄县北车稍山下", "description": "孟子沧浪之水清兮可以濯我缨即此，有龙神祠，岁旱祷雨多应", "lore": "", "original": "沧浪渊【在峄县北车稍山下孟子沧浪之水清兮可以濯我缨即此有龙神祠嵗旱祷雨多应】"},
+      {"mtn_id": "MTN-009", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "许池泉", "type": "泉", "location_text": "在峄县西北一十二里", "description": "三泉并发，味甘而冽，上有龙祠", "lore": "", "original": "许池泉【在峄县西北一十二里三泉并发味甘而冽上有龙祠】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "荀卿", "type": "名宦", "dynasty": "战国", "native_place": "", "office": "楚兰陵令", "summary": "战国时为楚兰陵令，著书数十篇", "original": "荀卿【战国时为楚兰陵令著书数十篇】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "匡衡", "type": "人物", "dynasty": "汉", "native_place": "东海承", "office": "丞相、乐乡侯", "summary": "累官至太子少傅，朝廷有政议辄引经以对，后拜相封乐乡侯", "original": "匡衡【东海承人累官至太子少傅朝廷有政议輙引经以对言多法义数上书陈便宜后拜相封乐乡侯子咸亦明经歴位九卿家世多为博士】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "萧望之", "type": "人物", "dynasty": "汉", "native_place": "东海兰陵", "office": "太子太傅", "summary": "徙杜陵，素有重望，宣帝疾笃受遗诏辅政，后为弘恭石显所害", "original": "萧望之【东海兰陵人徙杜陵素有重望仕至太子太宣帝疾笃受遗诏辅政领尚书事元帝即位望之以师傅见重多所匡正后为恭石显所害】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "孟喜", "type": "人物", "dynasty": "汉", "native_place": "东海兰陵", "office": "郎、曲台署长", "summary": "从田王孙受易，由是易有施孟梁丘之学", "original": "孟喜【东海兰陵人父孟卿善为礼春秋以授后苍疏广喜从田王孙受易由是易有施孟梁丘之学举孝亷为郎曲防署长】"},
+      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "疏广", "type": "人物", "dynasty": "汉", "native_place": "东海兰陵", "office": "太子太傅", "summary": "兄子受官至太子少傅，在位五年乃上疏乞骸骨，公卿大夫设祖道东都门外，送者车数百两", "original": "疏广【东海兰陵人仕至太子太兄子受官至太子少傅在位五年广谓受曰知足不辱知止不殆宦成名立如此不去惧有后悔乃上疏乞骸骨上许之公卿大夫设祖道供张东都门外送者车数百两道路观者皆曰贤哉二大夫】"},
+      {"per_id": "PER-006", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "王黼", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知峄县", "summary": "正统间廉明仁惠，兴学劝农，招抚流亡复业者万余口，秩满民奏留复任九年", "original": "王黼【正统间知峄县亷明仁惠兴学劝农招抚流亡复业者万余口教民种植多获其利秩满民奏留复任九年及去民立石颂徳省志】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "峄县学", "type": "学校", "location_text": "在县东门外", "history_lore": "元至治间建，本朝洪武二年重建，正统八年重修", "original": "峄县学【在县东门外元至治间建本朝洪武二年重建正统八年重修】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "匡丞相祠", "type": "祠庙", "location_text": "在峄县治东", "history_lore": "祀汉相匡衡，本朝正统七年重建", "original": "匡丞相祠【在峄县治东祀汉相匡衡本朝正统七年重建】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "清真观", "type": "寺观", "location_text": "在峄县治东南", "history_lore": "洪武初因旧重建", "original": "清真观【在峄县治东南洪武初因旧重建】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "偪阳城", "type": "古迹", "location_text": "在峄县西南五十里", "history_lore": "春秋时晋灭偪阳是也", "original": "偪阳城【在峄县西南五十里春秋时晋灭偪阳是也】"},
+      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "匡衡墓", "type": "陵墓", "location_text": "在峄县南一十五里", "history_lore": "", "original": "匡衡墓【在峄县南一十五里】"},
+      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "疏广墓", "type": "陵墓", "location_text": "在峄县三山堌", "history_lore": "", "original": "疏广墓【在峄县三山堌】"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "铁", "category": "矿物", "note": "峄县出，旧有场今废", "original": "铁　锡【俱峄县出旧有塲今废】"},
+      {"prod_id": "PROD-002", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "锡", "category": "矿物", "note": "峄县出，旧有场今废", "original": "铁　锡【俱峄县出旧有塲今废】"},
+      {"prod_id": "PROD-003", "item_id": "23-001", "geo_id": "GEO-23001-c07", "name": "黑瓷器", "category": "工艺", "note": "峄县出", "original": "黑瓷噐【峄县出】"}
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

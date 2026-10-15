@@ -1,0 +1,111 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "邹平县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c03",
+    "name": "邹平县",
+    "type": "geo",
+    "norm": "邹平县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c03",
+    "item_id": "22-001",
+    "name": "邹平县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北一百八十里",
+     "households": {
+      "count": 57,
+      "unit": "里",
+      "note": "编户五十七里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-046",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "大峪山",
+    "type": "山",
+    "location_text": "在邹平县西南一十五里",
+    "description": "中广而幽深",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-047",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "虎头崖",
+    "type": "岩",
+    "location_text": "在邹平县东南黄山之巅",
+    "description": "",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-008",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "邹平县学",
+    "type": "学校",
+    "location_text": "在县治东南",
+    "history_lore": "洪武初建"
+   },
+   {
+    "site_id": "SITE-033",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "伏生书院",
+    "type": "书院",
+    "location_text": "在邹平县东北一十八里",
+    "history_lore": "元主簿扬温建，伏生名胜"
+   },
+   {
+    "site_id": "SITE-074",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "醴泉寺",
+    "type": "寺观",
+    "location_text": "在邹平县黉堂山下",
+    "history_lore": "宋范仲淹读书时尝见窖银覆之不取，后僧求修寺资公使发之适周于用"
+   },
+   {
+    "site_id": "SITE-102",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "伏生祠",
+    "type": "祠庙",
+    "location_text": "在邹平县东北一十八里伏生乡",
+    "history_lore": "祀秦博士伏胜"
+   },
+   {
+    "site_id": "SITE-120",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c03",
+    "name": "伏生墓",
+    "type": "陵墓",
+    "location_text": "在邹平县东北一十里",
+    "history_lore": ""
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

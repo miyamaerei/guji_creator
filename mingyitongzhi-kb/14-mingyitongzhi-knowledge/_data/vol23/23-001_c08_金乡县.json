@@ -1,0 +1,42 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "金乡县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "金乡县【在府城西南一百八十里古为缗国春秋时为宋邑汉置东缗县属山阳郡后汉析置金乡县以山为名晋以东缗省入属高平国后魏以昌邑县省入唐于县置金州寻改戴州州废以县属兖州五代周属济州宋金仍旧元属济宁路本朝洪武十八年改今属编户三十三里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "金乡县", "type": "geo", "norm": "金乡县", "first_source": "23-001"}],
+    "geos": [{"geo_id": "GEO-23001-c08", "item_id": "23-001", "name": "金乡县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+      "attributes": {"location_text": "在府城西南一百八十里", "households": {"count": 33, "unit": "里", "note": "编户三十三里"}}}],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c08", "dynasty": "周", "era": "春秋", "institution_name": "缗国/宋邑", "action": "因之", "detail": "古为缗国，春秋时为宋邑"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c08", "dynasty": "汉", "era": null, "institution_name": "东缗县/金乡县", "action": "置", "detail": "汉置东缗县属山阳郡，后汉析置金乡县以山为名"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c08", "dynasty": "晋", "era": null, "institution_name": "金乡县", "action": "并", "detail": "晋以东缗省入，属高平国"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c08", "dynasty": "唐", "era": null, "institution_name": "金州/戴州", "action": "置", "detail": "唐于县置金州，寻改戴州，州废以县属兖州"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c08", "dynasty": "五代", "era": "周", "institution_name": "济州", "action": "改", "detail": "五代周属济州，宋金仍旧"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c08", "dynasty": "元", "era": null, "institution_name": "济宁路", "action": "因之", "detail": "元属济宁路，本朝洪武十八年改今属"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "阳山", "type": "山", "location_text": "在金乡县西北三十里", "description": "山多美石，可作碑碣", "lore": "", "original": "阳山【在金乡县西北三十里山多美石可作碑碣】"},
+      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "黄良泉", "type": "泉", "location_text": "在鱼台县东北六十里黄山下", "description": "从石窦涌出，周五十余步，下流注于泗水", "lore": "", "original": "黄良泉【在鱼防县东北六十里黄山下从石窦涌出周五十余步下流注于泗水】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "范式", "type": "人物", "dynasty": "汉", "native_place": "山阳金乡", "office": "荆州刺史", "summary": "少太学与张劭为友，张劭死，式为营葬，累官荆州刺史", "original": "范式【山阳金乡人防太学与张劭为友并告归式约曰后二年当过拜尊亲…陈子平亦同在学病临终谓妻曰范巨卿可托既死式为营丧防至临湘累官荆州刺史】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "王粲", "type": "人物", "dynasty": "三国", "native_place": "高平", "office": "侍中", "summary": "王龚孙，博物多识，蔡邕闻粲在门倒屣迎之，后仕魏累官侍中，建安七子之一", "original": "王粲【龚子畅之孙博物多识问无不知蔡邕竒其才畧闻粲在门则倒屣迎之后仕魏累官至侍中所着有诗赋】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "檀敷", "type": "人物", "dynasty": "汉", "native_place": "瑕丘", "office": "议郎", "summary": "家贫而行清，立精舍教授，远方至者数百人，后举方正迁议郎", "original": "檀敷【瑕丘人家贫而行清立精舍教授逺方至者数百人仕至防令家无产业子孙易衣而出后举方正迁议郎】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "马绍", "type": "人物", "dynasty": "元", "native_place": "金乡", "office": "中书右丞", "summary": "尝知单州，民刻石颂德，累官中书右丞", "original": "马绍【金乡人从上党张播学尝知单州民刻石颂徳累官中书右丞…执政数年时称其贤仕终河南行省右丞】"},
+      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "龙俊", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知金乡县", "summary": "天顺间廉明仁恕，吏不敢欺，蝗不入境，去后民为立碑", "original": "龙俊【天顺间知金乡县亷明仁恕吏不敢欺蝗不入境去后民为立碑省志】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "金乡县学", "type": "学校", "location_text": "在县治东", "history_lore": "金大定间建，本朝洪武元年重建，正统十一年重修", "original": "金乡县学【在县治东金大定间建本朝洪武元年重建正统十一年重修】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "山阳城", "type": "古迹", "location_text": "在金乡县界内", "history_lore": "汉置郡，又改为国", "original": "山阳城【在金乡县界内汉置郡又改为国】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "范式墓", "type": "陵墓", "location_text": "在嘉祥县南二十五里", "history_lore": "有魏时碑刻，今移置济宁州学中", "original": "范式墓【在嘉祥县南二十五里有魏时碑刻今移置济寜州学中】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c08", "name": "讲文亭", "type": "宫室", "location_text": "在金乡县学", "history_lore": "元至正四年建", "original": "讲文亭【在金乡县学元至正四年建】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

@@ -1,0 +1,1577 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "济南府",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-001",
+    "name": "济南府",
+    "type": "geo",
+    "norm": "济南府",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "泰安州",
+    "type": "geo",
+    "norm": "泰安州",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "德州",
+    "type": "geo",
+    "norm": "德州",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "武定州",
+    "type": "geo",
+    "norm": "武定州",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "滨州",
+    "type": "geo",
+    "norm": "滨州",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-006",
+    "name": "泰山",
+    "type": "mtn",
+    "norm": "泰山",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-007",
+    "name": "大明湖",
+    "type": "mtn",
+    "norm": "大明湖",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-008",
+    "name": "趵突泉",
+    "type": "mtn",
+    "norm": "趵突泉",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-009",
+    "name": "通典",
+    "type": "book",
+    "norm": "通典",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-010",
+    "name": "杜甫",
+    "type": "person",
+    "norm": "杜甫",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-011",
+    "name": "曾巩",
+    "type": "person",
+    "norm": "曾巩",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-012",
+    "name": "李白",
+    "type": "person",
+    "norm": "李白",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-013",
+    "name": "辛弃疾",
+    "type": "person",
+    "norm": "辛弃疾",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-014",
+    "name": "张养浩",
+    "type": "person",
+    "norm": "张养浩",
+    "first_source": "22-001"
+   },
+   {
+    "ent_id": "ENT-015",
+    "name": "铁铉",
+    "type": "person",
+    "norm": "铁铉",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001",
+    "item_id": "22-001",
+    "name": "济南府",
+    "type": "prefecture",
+    "region": "山东",
+    "parent": "GEO-000",
+    "children": [
+     "GEO-22001-c01",
+     "GEO-22001-c02",
+     "GEO-22001-c03",
+     "GEO-22001-c04",
+     "GEO-22001-c05",
+     "GEO-22001-c06",
+     "GEO-22001-c07",
+     "GEO-22001-c08",
+     "GEO-22001-c09",
+     "GEO-22001-c10",
+     "GEO-22001-c11",
+     "GEO-22001-c12",
+     "GEO-22001-c13",
+     "GEO-22001-c14",
+     "GEO-22001-c15",
+     "GEO-22001-s01",
+     "GEO-22001-s02",
+     "GEO-22001-s03",
+     "GEO-22001-s04",
+     "GEO-22001-w01",
+     "GEO-22001-w02",
+     "GEO-22001-w03",
+     "GEO-22001-w04",
+     "GEO-22001-w05"
+    ],
+    "volume_range": "卷22",
+    "attributes": {
+     "borders": [
+      {
+       "direction": "东",
+       "to_place": "青州府临淄县界",
+       "distance_li": 250
+      },
+      {
+       "direction": "西",
+       "to_place": "东昌府茌平县界",
+       "distance_li": 140
+      },
+      {
+       "direction": "南",
+       "to_place": "兖州府宁阳县界",
+       "distance_li": 300
+      },
+      {
+       "direction": "北",
+       "to_place": "直隶河间府景州吴桥县界",
+       "distance_li": 317
+      }
+     ],
+     "to_capital": [
+      {
+       "capital": "京师",
+       "distance_li": 900
+      },
+      {
+       "capital": "南京",
+       "distance_li": 1850
+      }
+     ],
+     "households": {
+      "count": null,
+      "unit": "里",
+      "note": "领州四县二十六；各属州县编户见下"
+     },
+     "grain_tax": {
+      "amount": 851600,
+      "unit": "石",
+      "note": "粮八十五万一千六百石零"
+     },
+     "jun_name": "济南【汉名】",
+     "topography": "南有泰山之固【田肯说汉高祖】；凭负山海【杜氏通典】；北枕鬲津西临漳水【德州志】；介山东两路之间最为冲要【金史蒙古纲传】；地险于海【郡国志】；有崇山巨浸【元程文遂闲堂记】",
+     "customs": "俗多织作【汉书地理志】；士务功名【同上】；习尚淳厚民皆务本【棣州志】；敦厚阔大多大节【元程文遂闲堂记】",
+     "garrisons": [
+      {
+       "name": "都转运盐使司",
+       "type": "司",
+       "location_text": "在府治东洪武元年建"
+      },
+      {
+       "name": "济南卫",
+       "type": "卫",
+       "location_text": "在府城内西南隅洪武十九年建"
+      },
+      {
+       "name": "直隶德州卫",
+       "type": "卫",
+       "location_text": "在府治西洪武九年以千户所改建"
+      },
+      {
+       "name": "直隶德州左卫",
+       "type": "卫",
+       "location_text": "在州治西北永乐五年建"
+      },
+      {
+       "name": "直隶武定州守御千户所",
+       "type": "千户所",
+       "location_text": "在州治南洪武元年建"
+      },
+      {
+       "name": "肥城守御千户所",
+       "type": "千户所",
+       "location_text": "在县治西洪武二十一年建"
+      }
+     ],
+     "fiefs": [
+      {
+       "name": "德王府",
+       "type": "王府",
+       "note": "府城内成化三年建"
+      },
+      {
+       "name": "临朐王府",
+       "type": "王府",
+       "note": "同城"
+      },
+      {
+       "name": "宁海王府",
+       "type": "王府",
+       "note": "同城"
+      },
+      {
+       "name": "临清王府",
+       "type": "王府",
+       "note": "同城"
+      }
+     ]
+    },
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003",
+     "CIT-004",
+     "CIT-005",
+     "CIT-006",
+     "CIT-007",
+     "CIT-008"
+    ]
+   },
+   {
+    "geo_id": "GEO-22001-s01",
+    "item_id": "22-001",
+    "name": "泰安州",
+    "type": "subprefecture",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [
+     "GEO-22001-c16",
+     "GEO-22001-c17"
+    ],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城南一百八十里",
+     "households": {
+      "count": 97,
+      "unit": "里",
+      "note": "编户九十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-s02",
+    "item_id": "22-001",
+    "name": "德州",
+    "type": "subprefecture",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [
+     "GEO-22001-c18",
+     "GEO-22001-c19"
+    ],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北二百八十里",
+     "households": {
+      "count": 34,
+      "unit": "里",
+      "note": "编户三十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-s03",
+    "item_id": "22-001",
+    "name": "武定州",
+    "type": "subprefecture",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [
+     "GEO-22001-c20",
+     "GEO-22001-c21",
+     "GEO-22001-c22",
+     "GEO-22001-c23"
+    ],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北七十里",
+     "households": {
+      "count": 98,
+      "unit": "里",
+      "note": "编户九十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-s04",
+    "item_id": "22-001",
+    "name": "滨州",
+    "type": "subprefecture",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [
+     "GEO-22001-c24",
+     "GEO-22001-c25",
+     "GEO-22001-c26"
+    ],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北三百五十里",
+     "households": {
+      "count": 78,
+      "unit": "里",
+      "note": "编户七十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c01",
+    "item_id": "22-001",
+    "name": "历城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "附郭",
+     "households": {
+      "count": 98,
+      "unit": "里",
+      "note": "编户九十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c02",
+    "item_id": "22-001",
+    "name": "章丘县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东一百一十里",
+     "households": {
+      "count": 103,
+      "unit": "里",
+      "note": "编户一百三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c03",
+    "item_id": "22-001",
+    "name": "邹平县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北一百八十里",
+     "households": {
+      "count": 57,
+      "unit": "里",
+      "note": "编户五十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c04",
+    "item_id": "22-001",
+    "name": "淄川县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东二百三十里",
+     "households": {
+      "count": 60,
+      "unit": "里",
+      "note": "编户六十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c05",
+    "item_id": "22-001",
+    "name": "长山县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北二百里",
+     "households": {
+      "count": 63,
+      "unit": "里",
+      "note": "编户六十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c06",
+    "item_id": "22-001",
+    "name": "新城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北三百二十里",
+     "households": {
+      "count": 45,
+      "unit": "里",
+      "note": "编户四十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c07",
+    "item_id": "22-001",
+    "name": "齐河县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西五十里",
+     "households": {
+      "count": 27,
+      "unit": "里",
+      "note": "编户二十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c08",
+    "item_id": "22-001",
+    "name": "齐东县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北一百八十里",
+     "households": {
+      "count": 55,
+      "unit": "里",
+      "note": "编户五十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c09",
+    "item_id": "22-001",
+    "name": "济阳县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城北九十里",
+     "households": {
+      "count": 58,
+      "unit": "里",
+      "note": "编户五十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c10",
+    "item_id": "22-001",
+    "name": "禹城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北一百里",
+     "households": {
+      "count": 56,
+      "unit": "里",
+      "note": "编户五十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c11",
+    "item_id": "22-001",
+    "name": "临邑县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城北一百五十里",
+     "households": {
+      "count": 32,
+      "unit": "里",
+      "note": "编户三十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c12",
+    "item_id": "22-001",
+    "name": "长清县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西南七十里",
+     "households": {
+      "count": 44,
+      "unit": "里",
+      "note": "编户四十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c13",
+    "item_id": "22-001",
+    "name": "肥城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西南一百六十里",
+     "households": {
+      "count": 30,
+      "unit": "里",
+      "note": "编户三十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c14",
+    "item_id": "22-001",
+    "name": "青城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北二百二十里",
+     "households": {
+      "count": 33,
+      "unit": "里",
+      "note": "编户三十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c15",
+    "item_id": "22-001",
+    "name": "陵县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北二百四十里",
+     "households": {
+      "count": 32,
+      "unit": "里",
+      "note": "编户三十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c16",
+    "item_id": "22-001",
+    "name": "新泰县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s01",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东南一百八十里",
+     "households": {
+      "count": 21,
+      "unit": "里",
+      "note": "编户二十一里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c17",
+    "item_id": "22-001",
+    "name": "莱芜县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s01",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东一百二十里",
+     "households": {
+      "count": 42,
+      "unit": "里",
+      "note": "编户四十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c18",
+    "item_id": "22-001",
+    "name": "德平县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s02",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东一百六十里",
+     "households": {
+      "count": 41,
+      "unit": "里",
+      "note": "编户四十一里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c19",
+    "item_id": "22-001",
+    "name": "平原县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s02",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东南一百二十里",
+     "households": {
+      "count": 46,
+      "unit": "里",
+      "note": "编户四十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c20",
+    "item_id": "22-001",
+    "name": "阳信县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城北四十里",
+     "households": {
+      "count": 70,
+      "unit": "里",
+      "note": "编户七十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c21",
+    "item_id": "22-001",
+    "name": "海丰县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东北六十里",
+     "households": {
+      "count": 43,
+      "unit": "里",
+      "note": "编户四十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c22",
+    "item_id": "22-001",
+    "name": "乐陵县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北九十里",
+     "households": {
+      "count": 56,
+      "unit": "里",
+      "note": "编户五十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c23",
+    "item_id": "22-001",
+    "name": "商河县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城南一百二十里",
+     "households": {
+      "count": 68,
+      "unit": "里",
+      "note": "编户六十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c24",
+    "item_id": "22-001",
+    "name": "利津县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s04",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东六十里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c25",
+    "item_id": "22-001",
+    "name": "沾化县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s04",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城西北六十里",
+     "households": {
+      "count": 24,
+      "unit": "里",
+      "note": "编户二十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-c26",
+    "item_id": "22-001",
+    "name": "蒲台县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s04",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城南三十里",
+     "households": {
+      "count": 59,
+      "unit": "里",
+      "note": "编户五十九里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-22001-w01",
+    "item_id": "22-001",
+    "name": "济南卫",
+    "type": "weisuo",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城内西南隅洪武十九年建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-22001-w02",
+    "item_id": "22-001",
+    "name": "德州卫",
+    "type": "weisuo",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府治西洪武九年以千户所改建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-22001-w03",
+    "item_id": "22-001",
+    "name": "德州左卫",
+    "type": "weisuo",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州治西北永乐五年建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-22001-w04",
+    "item_id": "22-001",
+    "name": "武定州守御千户所",
+    "type": "weisuo",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州治南洪武元年建为乐安千户所宣德元年改为武定",
+     "garrison_type": "千户所"
+    }
+   },
+   {
+    "geo_id": "GEO-22001-w05",
+    "item_id": "22-001",
+    "name": "肥城守御千户所",
+    "type": "weisuo",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在县治西洪武二十一年建",
+     "garrison_type": "千户所"
+    }
+   }
+  ],
+  "evos": [
+   {
+    "evo_id": "EVO-001",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "周",
+    "era": null,
+    "institution_name": "青州之域",
+    "action": "因之",
+    "detail": "禹贡青州之域，天文危分野"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "春秋战国",
+    "era": null,
+    "institution_name": "齐地",
+    "action": "因之",
+    "detail": "春秋战国并为齐地"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "秦",
+    "era": null,
+    "institution_name": "齐郡地",
+    "action": "置郡",
+    "detail": "秦属齐郡"
+   },
+   {
+    "evo_id": "EVO-004",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "汉",
+    "era": "文帝",
+    "institution_name": "济南国",
+    "action": "置",
+    "detail": "汉初属齐国，文帝分置济南国"
+   },
+   {
+    "evo_id": "EVO-005",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "汉",
+    "era": "景帝",
+    "institution_name": "济南郡",
+    "action": "改",
+    "detail": "景帝改为济南郡，东汉仍为国，俱治东平陵"
+   },
+   {
+    "evo_id": "EVO-006",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "晋",
+    "era": null,
+    "institution_name": "历城",
+    "action": "迁",
+    "detail": "晋移治历城"
+   },
+   {
+    "evo_id": "EVO-007",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "南北朝",
+    "era": "刘宋",
+    "institution_name": "侨立冀州",
+    "action": "置",
+    "detail": "刘宋割青州西部于此侨立冀州"
+   },
+   {
+    "evo_id": "EVO-008",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "南北朝",
+    "era": "后魏",
+    "institution_name": "齐州兼济南郡",
+    "action": "改",
+    "detail": "后魏改为齐州，兼置济南郡"
+   },
+   {
+    "evo_id": "EVO-009",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "隋",
+    "era": null,
+    "institution_name": "齐郡",
+    "action": "改",
+    "detail": "隋初置郡存州，后改为齐郡"
+   },
+   {
+    "evo_id": "EVO-010",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "唐",
+    "era": "天宝",
+    "institution_name": "临淄郡/济南郡",
+    "action": "改",
+    "detail": "唐复为齐州，天宝初改为临淄郡，寻改为济南郡，乾元初复为齐州"
+   },
+   {
+    "evo_id": "EVO-011",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "宋",
+    "era": null,
+    "institution_name": "济南府",
+    "action": "升",
+    "detail": "宋升为兴德军，又升为济南府"
+   },
+   {
+    "evo_id": "EVO-012",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "金",
+    "era": null,
+    "institution_name": "济南府",
+    "action": "因之",
+    "detail": "金因之"
+   },
+   {
+    "evo_id": "EVO-013",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "济南路",
+    "action": "改",
+    "detail": "元改为济南路"
+   },
+   {
+    "evo_id": "EVO-014",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "dynasty": "明",
+    "era": null,
+    "institution_name": "济南府",
+    "action": "因之",
+    "detail": "本朝复改为济南府，领州四县二十六"
+   }
+  ],
+  "mtns": [
+   {
+    "mtn_id": "MTN-001",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "历山",
+    "type": "山",
+    "location_text": "在府城南五里",
+    "description": "即舜耕处",
+    "lore": "汉郑玄谓历山在河东，宋曾巩尝辩其非，作齐州二堂记"
+   },
+   {
+    "mtn_id": "MTN-002",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "庙山",
+    "type": "山",
+    "location_text": "在府城东一十里",
+    "description": "上有舜庙故名",
+    "lore": "或作妙山非是"
+   },
+   {
+    "mtn_id": "MTN-003",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "华不注山",
+    "type": "山",
+    "location_text": "在府城东北一十五里",
+    "description": "一名金舆山，虎牙杰立孤峰特起，下有华泉",
+    "lore": "左传齐晋战于鞌，齐师败绩，晋逐齐侯三周华不注即此；唐李白有诗"
+   },
+   {
+    "mtn_id": "MTN-004",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "奎山",
+    "type": "山",
+    "location_text": "在府城西南一十五里",
+    "description": "上有神祠祷雨辄应",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-005",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "药山",
+    "type": "山",
+    "location_text": "在府城西北一十五里",
+    "description": "产阳起石故名",
+    "lore": "上有蜘蛛石，下有虾蟆石"
+   },
+   {
+    "mtn_id": "MTN-006",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "鹊山",
+    "type": "山",
+    "location_text": "在府城北二十里",
+    "description": "俗云每岁七八月间乌鹊翔集于此",
+    "lore": "又云扁鹊尝于此炼丹；宋曾巩有诗"
+   },
+   {
+    "mtn_id": "MTN-007",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "函山",
+    "type": "山",
+    "location_text": "在府城南二十里",
+    "description": "泰山之北麓，又名卧佛山",
+    "lore": "酉阳杂俎载齐郡函山有鸟名王母使者，汉武登此得玉函寻化为白鸟飞去"
+   },
+   {
+    "mtn_id": "MTN-008",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "鲍山",
+    "type": "山",
+    "location_text": "在府城东二十里",
+    "description": "世传鲍叔牙管仲分金于此",
+    "lore": "山下有鲍城，盖叔牙食邑；宋曾巩有诗"
+   },
+   {
+    "mtn_id": "MTN-009",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "龙洞山",
+    "type": "山",
+    "location_text": "在府城东南三十里",
+    "description": "一名禹登山，上有东西二洞、翠屏崖、三秀峰、独秀峰、龙神洞",
+    "lore": "下有黑龙潭、悬珠泉"
+   },
+   {
+    "mtn_id": "MTN-010",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "石固寨山",
+    "type": "山",
+    "location_text": "在府城南五十里",
+    "description": "下有渴马崖，南有瓢峰凤凰山，西有丁公岭，东有虎山",
+    "lore": "上有修真观"
+   },
+   {
+    "mtn_id": "MTN-011",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "黄山",
+    "type": "山",
+    "location_text": "在府城西南六十里",
+    "description": "山周如城，岱阴诸水奔流至山西汇为池",
+    "lore": "伏流至城西而出为趵突泉"
+   },
+   {
+    "mtn_id": "MTN-012",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "仙台岭",
+    "type": "岭",
+    "location_text": "在府城南七十里",
+    "description": "世传汉武帝于此望祀蓬莱岛",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-013",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "大明湖",
+    "type": "湖",
+    "location_text": "在府城内西北隅",
+    "description": "源出舜泉，其大占府城三之一，由北水门出与济水合",
+    "lore": "又名西湖，宋曾巩有诗；盖历下城绝胜处"
+   },
+   {
+    "mtn_id": "MTN-014",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "濯缨湖",
+    "type": "湖",
+    "location_text": "在府城内都司西北",
+    "description": "本名灰泉，合北珍珠散水濯缨朱砂诸泉皆汇于此，周广数亩",
+    "lore": "元宪使竹希仁改今名"
+   },
+   {
+    "mtn_id": "MTN-015",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "鹊山湖",
+    "type": "湖",
+    "location_text": "在华不注山下",
+    "description": "郡志泺水自大明湖东北流注华不注山下汇为鹊山湖",
+    "lore": "伪齐刘豫自城北导之东为小清河而水不及鹊山湖矣；唐李白有泛湖诗"
+   },
+   {
+    "mtn_id": "MTN-016",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "巨合水",
+    "type": "河",
+    "location_text": "在府城东七十里",
+    "description": "东源曰榆科泉，西源曰江水泉，北流各五里许合流入小清河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-017",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "郎公井",
+    "type": "井",
+    "location_text": "在府城西南三里西龙洞山上",
+    "description": "有郎公寺及郎公井",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-018",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "华泉",
+    "type": "泉",
+    "location_text": "在华不注山内",
+    "description": "齐乘云济南名泉碑论七十二泉而华不注之华泉失不取",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-019",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "趵突泉",
+    "type": "泉",
+    "location_text": "在府城西",
+    "description": "一名爆流，源出王屋山伏流至城西出，会诸泉入城汇为大明湖",
+    "lore": "济南名泉七十二爆流为上；元赵孟頫张养浩皆有诗"
+   },
+   {
+    "mtn_id": "MTN-020",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "金线泉",
+    "type": "泉",
+    "location_text": "在府城西",
+    "description": "石甃方池，泉乱发其下东注城壕，澄澈见底，波心南北有金线一道隐起水面",
+    "lore": "宋曾巩有诗"
+   },
+   {
+    "mtn_id": "MTN-021",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "珍珠泉",
+    "type": "泉",
+    "location_text": "有二",
+    "description": "南珍珠泉在府城内铁佛巷街东今淤塞；北珍珠泉在都司西北白云楼前，泉右有刘氏泉左有溪亭泉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-022",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "舜泉",
+    "type": "泉",
+    "location_text": "在府城内舜祠下",
+    "description": "又名舜井，曾巩有诗",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-023",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "杜康泉",
+    "type": "泉",
+    "location_text": "在舜祠西庑下",
+    "description": "世传杜康于斯泉酿酒，或以扬子江并惠山泉称之",
+    "lore": "一升重二十四铢，是泉二十三铢"
+   },
+   {
+    "mtn_id": "MTN-024",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "饮马池",
+    "type": "池",
+    "location_text": "在都司后",
+    "description": "前有白云楼今废，楼后有白云泉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-025",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "芙蓉堤",
+    "type": "其他",
+    "location_text": "在文庙东",
+    "description": "俗呼为叠道",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-026",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "海",
+    "type": "其他",
+    "location_text": "滨州及利津沾化海丰三县之地皆滨海",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-027",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "大清河",
+    "type": "河",
+    "location_text": "即济水之故道",
+    "description": "自兖州府东北流经本府长清齐河历城济阳齐东武定青城蒲台利津等州县界入海",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-028",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "小清河",
+    "type": "河",
+    "location_text": "一名泺水",
+    "description": "即济之南源，源发府城西趵突泉，东北经章丘邹平新城县界入海",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-029",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001",
+    "name": "五龙潭",
+    "type": "潭",
+    "location_text": "在大明湖西",
+    "description": "北渚亭上",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-065",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "泰山",
+    "type": "山",
+    "location_text": "在泰安州北五里",
+    "description": "即东岳岱宗也，舜东巡狩至此，其山屈曲盘道至绝顶高四十余里",
+    "lore": "有石表、东岳庙、封禅坛；东曰日观鸡鸣可见日，西曰秦观可望长安，又西曰越观可望会稽；历代帝王封禅之所，唐杜甫望岳诗"
+   },
+   {
+    "mtn_id": "MTN-066",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "亭禅山",
+    "type": "山",
+    "location_text": "在泰安州西南五里",
+    "description": "一名蒿里山，上有蒿里祠",
+    "lore": "宋真宗封泰山禅此，上有社首坛"
+   },
+   {
+    "mtn_id": "MTN-067",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "徂徕山",
+    "type": "山",
+    "location_text": "在泰安州东南四十里",
+    "description": "上有紫波池、玲珑山、独秀峰、天平东西三寨",
+    "lore": "下有化鹤湾；唐天宝间李白等竹溪六逸隐居于此"
+   },
+   {
+    "mtn_id": "MTN-068",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "石闾山",
+    "type": "山",
+    "location_text": "在泰安州南四十里",
+    "description": "汉武帝封泰山禅此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-069",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "介丘山",
+    "type": "山",
+    "location_text": "在泰安州南五十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-070",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "亭亭山",
+    "type": "山",
+    "location_text": "在泰安州南五十里",
+    "description": "汉书钜平县下有此山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-071",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "梁父山",
+    "type": "山",
+    "location_text": "在泰安州东南一百一十里",
+    "description": "汉尝以此山名县",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-072",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "云云山",
+    "type": "山",
+    "location_text": "在梁父山之东",
+    "description": "已上三山皆古帝王所禅之山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-073",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "泮水",
+    "type": "河",
+    "location_text": "源发泰山分水岭",
+    "description": "合三溪水东北流入于汶",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-074",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "漕河",
+    "type": "河",
+    "location_text": "在泰安州南五十里",
+    "description": "源发淳于野，西南合本州济河入汶",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-075",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "汶河",
+    "type": "河",
+    "location_text": "其源有三",
+    "description": "一发泰山之旁仙防岭，一发莱芜县原山之阳，一发莱芜县寨子村，至泰安州静封镇合焉名曰堑汶，西南流与徂徕山之阳小汶河合，又西南流注洸河入济",
+    "lore": "水经有五汶：北汶嬴汶紫汶浯汶牟汶，名虽有五而其流则同"
+   },
+   {
+    "mtn_id": "MTN-076",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "白鹤泉",
+    "type": "泉",
+    "location_text": "在泰山悬崖下",
+    "description": "泻出宛如垂练",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-077",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "水帘泉",
+    "type": "泉",
+    "location_text": "在泰山悬崖",
+    "description": "飞泻缕缕如帘",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-078",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "瑶池",
+    "type": "池",
+    "location_text": "在泰山下",
+    "description": "水极清味甘美，俗号王母瑶池",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-079",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "白龙池",
+    "type": "池",
+    "location_text": "在泰山下",
+    "description": "宽广数寻深不可测，上有龙祠祷雨辄应",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-080",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s01",
+    "name": "玉女池",
+    "type": "池",
+    "location_text": "在泰山巅",
+    "description": "一名圣水池",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-095",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s02",
+    "name": "卫河",
+    "type": "河",
+    "location_text": "在德州城西",
+    "description": "本卫漳黄河诸水合流，自东昌府武城县界入境北经河间府界入海",
+    "lore": "东南漕运商贾宾旅与凡外吏朝贡皆由于此"
+   },
+   {
+    "mtn_id": "MTN-096",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-s02",
+    "name": "陈公堤",
+    "type": "其他",
+    "location_text": "在德州东五里",
+    "description": "西南接东昌府界，宋陈尧佐守滑时筑之以障黄河",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": [
+   {
+    "cit_id": "CIT-001",
+    "item_id": "22-001",
+    "cited_work": "田肯",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【田肯说汉高祖】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "22-001",
+    "cited_work": "杜氏通典",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【杜氏通典】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "22-001",
+    "cited_work": "德州志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【德州志】"
+   },
+   {
+    "cit_id": "CIT-004",
+    "item_id": "22-001",
+    "cited_work": "金史",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【金史蒙古纲传】"
+   },
+   {
+    "cit_id": "CIT-005",
+    "item_id": "22-001",
+    "cited_work": "郡国志",
+    "cited_work_ent_id": null,
+    "context": "考源",
+    "original": "【郡国志】"
+   },
+   {
+    "cit_id": "CIT-006",
+    "item_id": "22-001",
+    "cited_work": "程文遂闲堂记",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【元程文遂闲堂记】"
+   },
+   {
+    "cit_id": "CIT-007",
+    "item_id": "22-001",
+    "cited_work": "汉书地理志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【汉书地理志】"
+   },
+   {
+    "cit_id": "CIT-008",
+    "item_id": "22-001",
+    "cited_work": "棣州志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【棣州志】"
+   }
+  ]
+ },
+ "layer_count": 7,
+ "validation": {
+  "errs": [],
+  "gap": 0,
+  "notes": "sites 层拆至 22-001_济南府_sites.json；pers 层拆至 22-001_济南府_pers1_名宦.json 与 22-001_济南府_pers2_人物列女仙释.json；prods 空数组"
+ }
+}

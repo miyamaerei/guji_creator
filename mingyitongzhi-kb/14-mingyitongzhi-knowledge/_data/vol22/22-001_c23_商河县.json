@@ -1,0 +1,72 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "商河县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c23",
+    "name": "商河县",
+    "type": "geo",
+    "norm": "商河县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c23",
+    "item_id": "22-001",
+    "name": "商河县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城南一百二十里",
+     "households": {
+      "count": 68,
+      "unit": "里",
+      "note": "编户六十八里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-028",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c23",
+    "name": "商河县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "洪武三年建"
+   },
+   {
+    "site_id": "SITE-085",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c23",
+    "name": "福胜寺",
+    "type": "寺观",
+    "location_text": "在商河县治西南",
+    "history_lore": "洪武间建"
+   },
+   {
+    "site_id": "SITE-152",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c23",
+    "name": "商河故道",
+    "type": "古迹",
+    "location_text": "在商河县南三里",
+    "history_lore": "东北经乐陵县达于海，汉时河水为患许商凿之以杀其势故名"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

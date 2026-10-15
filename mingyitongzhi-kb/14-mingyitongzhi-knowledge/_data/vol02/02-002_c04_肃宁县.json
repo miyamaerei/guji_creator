@@ -1,0 +1,125 @@
+{
+  "item_id": "02-002",
+  "volume": "02",
+  "source": "肃宁县",
+  "region": "北直隶",
+  "original": "在府城西五十里本河间县地宋置平虏寨又改肃宁城金陞为县属河间府元废为镇寻复为县本朝因之编户二十四里",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-02002-c04",
+        "name": "肃宁县",
+        "type": "geo",
+        "norm": "肃宁县",
+        "first_source": "02-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-02002-c04",
+        "item_id": "02-002",
+        "name": "肃宁县",
+        "type": "county",
+        "region": "北直隶",
+        "parent": "GEO-02002",
+        "children": [],
+        "volume_range": "卷2",
+        "attributes": {
+          "evo_summary": "在府城西五十里本河间县地宋置平虏寨又改肃宁城金陞为县属河间府元废为镇寻复为县本朝因之编户二十四里"
+        },
+        "original": "在府城西五十里本河间县地宋置平虏寨又改肃宁城金陞为县属河间府元废为镇寻复为县本朝因之编户二十四里"
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-02002-c04",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "dynasty": "未明",
+        "era": null,
+        "institution_name": "肃宁县",
+        "action": "因之",
+        "detail": "在府城西五十里本河间县地宋置平虏寨又改肃宁城金陞为县属河间府元废为镇寻复为县本朝因之编户二十四里",
+        "original": "在府城西五十里本河间县地宋置平虏寨又改肃宁城金陞为县属河间府元废为镇寻复为县本朝因之编户二十四里"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-02002-c04-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "name": "中堡河",
+        "type": "河",
+        "location_text": "在肃宁县东二十里东北合直沽流入海",
+        "description": "在肃宁县东二十里东北合直沽流入海",
+        "lore": "",
+        "original": "中堡河【在肃宁县东二十里东北合直沽流入海】"
+      },
+      {
+        "mtn_id": "MTN-02002-c04-02",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "name": "洋东淀　五千淀",
+        "type": "淀",
+        "location_text": "俱在肃宁县东南二十里下流入中堡河合直沽入海",
+        "description": "俱在肃宁县东南二十里下流入中堡河合直沽入海",
+        "lore": "",
+        "original": "洋东淀　五千淀【俱在肃寜县东南二十里下流入中堡河合直沽入海】"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-02002-c04-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "name": "魏礼",
+        "type": "人物",
+        "dynasty": "未明",
+        "native_place": "",
+        "office": "",
+        "summary": "肃宁人笃信好学庚子廷试第一授翰林修譔陞礼部侍郎",
+        "original": "魏礼【肃宁人笃信好学庚子廷试第一授翰林修譔陞礼部侍郎】"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-02002-c04-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "name": "肃宁县学",
+        "type": "学校",
+        "location_text": "洪武初建永乐四年重修在县治东北",
+        "history_lore": "洪武初建永乐四年重修在县治东北",
+        "original": "肃宁县学【洪武初建永乐四年重修在县治东北】"
+      },
+      {
+        "site_id": "SITE-02002-c04-02",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "name": "能仁寺",
+        "type": "宫室",
+        "location_text": "在肃宁县治东永乐闲建",
+        "history_lore": "在肃宁县治东永乐闲建",
+        "original": "能仁寺【在肃宁县治东永乐闲建】"
+      },
+      {
+        "site_id": "SITE-02002-c04-03",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c04",
+        "name": "能仁寺",
+        "type": "寺观",
+        "location_text": "在肃宁县治东永乐闲建",
+        "history_lore": "在肃宁县治东永乐闲建",
+        "original": "能仁寺【在肃宁县治东永乐闲建】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "parent=河间府; auto-extracted, pending manual review"
+  }
+}

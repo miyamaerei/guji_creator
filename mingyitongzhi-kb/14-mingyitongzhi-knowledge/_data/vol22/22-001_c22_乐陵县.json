@@ -1,0 +1,63 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "乐陵县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c22",
+    "name": "乐陵县",
+    "type": "geo",
+    "norm": "乐陵县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c22",
+    "item_id": "22-001",
+    "name": "乐陵县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北九十里",
+     "households": {
+      "count": 56,
+      "unit": "里",
+      "note": "编户五十六里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-027",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c22",
+    "name": "乐陵县学",
+    "type": "学校",
+    "location_text": "在县治西",
+    "history_lore": "洪武十年建"
+   },
+   {
+    "site_id": "SITE-083",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c22",
+    "name": "观音寺",
+    "type": "寺观",
+    "location_text": "在乐陵县治西",
+    "history_lore": "洪武间因旧重建"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

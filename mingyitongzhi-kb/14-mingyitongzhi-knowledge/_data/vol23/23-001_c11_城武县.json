@@ -1,0 +1,43 @@
+{
+  "item_id": "23-001",
+  "volume": "23",
+  "source": "城武县",
+  "region": "山东",
+  "volume_range": "卷23",
+  "original": "城武县【在府城西南二百九十里汉旧县属山阳郡东汉属济阴郡晋属济阳郡北齐于此置永昌郡隋初罢郡置戴州大业初废州以县属济阴郡唐贞观中属曹州五代唐属单州宋金元因之本朝洪武四年改属济宁府十八年改今属编户二十三里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "城武县", "type": "geo", "norm": "城武县", "first_source": "23-001"}],
+    "geos": [{"geo_id": "GEO-23001-c11", "item_id": "23-001", "name": "城武县", "type": "county", "region": "山东", "parent": "GEO-23001", "children": [], "volume_range": "卷23",
+      "attributes": {"location_text": "在府城西南二百九十里", "households": {"count": 23, "unit": "里", "note": "编户二十三里"}}}],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "汉", "era": null, "institution_name": "城武县", "action": "置", "detail": "汉旧县，属山阳郡，东汉属济阴郡"},
+      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "晋", "era": null, "institution_name": "济阳郡", "action": "因之", "detail": "晋属济阳郡"},
+      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "南北朝", "era": "北齐", "institution_name": "永昌郡", "action": "置", "detail": "北齐于此置永昌郡"},
+      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "隋", "era": "大业", "institution_name": "戴州/济阴郡", "action": "废", "detail": "隋初罢郡置戴州，大业初废州以县属济阴郡"},
+      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "唐", "era": "贞观", "institution_name": "曹州", "action": "改", "detail": "唐贞观中属曹州"},
+      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "五代", "era": "唐", "institution_name": "单州", "action": "改", "detail": "五代唐属单州，宋金元因之"},
+      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c11", "dynasty": "明", "era": "洪武", "institution_name": "城武县", "action": "改", "detail": "本朝洪武四年改属济宁府，十八年改今属"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "文亭山", "type": "山", "location_text": "在城武县西北二里", "description": "上有文士亭遗址", "lore": "", "original": "文亭山【在城武县西北二里上有文士亭遗址】"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "王禹偁", "type": "名宦", "dynasty": "宋", "native_place": "钜野", "office": "城武县簿", "summary": "为县簿既去，人怀其德，名其堂曰怀贤", "original": "懐贤堂【在城武县治北宋王禹偁为县簿既去人懐其徳故名】"},
+      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "马默", "type": "人物", "dynasty": "宋", "native_place": "城武", "office": "户部侍郎", "summary": "举进士为监察御史，出知登州，累迁户部侍郎，长于治民", "original": "马黙【城武人举进士为监察御史行数上书谏争出知登州累迁戸部侍郎以宝文阁待制再知徐州黙长于治民所至有治最】"},
+      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "苗好谦", "type": "人物", "dynasty": "元", "native_place": "城武", "office": "河南江北行中书省参知政事", "summary": "为农丞，勤于职务，著农桑辑要行于世", "original": "苖好谦【城武人为司农丞勤于职务着农桑辑要行于世官至河南江北行中书省叅知政事】"},
+      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "韩克忠", "type": "人物", "dynasty": "明", "native_place": "城武", "office": "河南按察司佥事", "summary": "洪武中登进士第，擢翰林院修撰，学行淳实", "original": "韩克忠【城武人洪武中登进士第擢翰林院修撰学行淳实累官至河南按察司佥事】"},
+      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "欧阳恭", "type": "人物", "dynasty": "明", "native_place": "城武", "office": "陕西布政司参政", "summary": "以耆老有才德，洪武中擢陕西布政司参政", "original": "欧阳恭【城武人以耆老有才徳洪武中擢陜西布政司叅政子规由太学生歴官河南按察司佥事】"},
+      {"per_id": "PER-006", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "高氏（王俊妻）", "type": "列女", "dynasty": "明", "native_place": "城武", "office": "", "summary": "天顺三年夫卒，与其妾蒋氏同缢于柩侧，三人同穴而葬，旌曰双烈", "original": "髙氏【城武人王俊妻天顺三年夫卒与其妾蒋氏同缢于柩侧三人同穴而葬旌曰双烈省志】"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "城武县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武五年因旧重建", "original": "城武县学【在县治东洪武五年因旧重建】"},
+      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "严福寺", "type": "寺观", "location_text": "在城武县治东", "history_lore": "正统间建", "original": "严福寺【在城武县治东正统间建】"},
+      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "怀贤堂", "type": "宫室", "location_text": "在城武县治北", "history_lore": "宋王禹偁为县簿既去，人怀其德故名", "original": "懐贤堂【在城武县治北宋王禹偁为县簿既去人懐其徳故名】"},
+      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c11", "name": "郜国城", "type": "古迹", "location_text": "有南北二城，俱在城武县东南", "history_lore": "北郜即周文王庶子所封，春秋所谓取郜大鼎于宋；南郜春秋时宋邑，汉置南郜县", "original": "郜国城【有南北二城俱在城武县东南北郜即周文王庶子所封春秋所谓取郜大鼎于宋是也南郜春秋时宋邑汉置南郜县】"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

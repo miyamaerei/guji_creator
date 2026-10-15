@@ -1,0 +1,63 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "临邑县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c11",
+    "name": "临邑县",
+    "type": "geo",
+    "norm": "临邑县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c11",
+    "item_id": "22-001",
+    "name": "临邑县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城北一百五十里",
+     "households": {
+      "count": 32,
+      "unit": "里",
+      "note": "编户三十二里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-016",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c11",
+    "name": "临邑县学",
+    "type": "学校",
+    "location_text": "在县治东南",
+    "history_lore": "洪武三年建"
+   },
+   {
+    "site_id": "SITE-059",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c11",
+    "name": "鹿角关",
+    "type": "关梁",
+    "location_text": "在临邑县北",
+    "history_lore": "唐置"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

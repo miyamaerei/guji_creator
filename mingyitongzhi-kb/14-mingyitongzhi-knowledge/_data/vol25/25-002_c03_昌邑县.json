@@ -1,0 +1,80 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "昌邑县",
+  "region": "山东",
+  "type": "county",
+  "original": "昌邑县【在州西一百二十里本汉都昌县属北海郡后魏省隋复置属青州唐废宋始置昌邑县属潍州金元因之本朝初属莱州府后改隶平度州编户九十四里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "昌邑县", "type": "geo", "norm": "昌邑县", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "陆山", "type": "mtn", "norm": "陆山", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "潍水", "type": "mtn", "norm": "潍水", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "潍水堤", "type": "mtn", "norm": "潍水堤", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "芙蓉池", "type": "mtn", "norm": "芙蓉池", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "黄福", "type": "person", "norm": "黄福", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "王真", "type": "person", "norm": "王真", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "马伯行", "type": "person", "norm": "马伯行", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "王玑", "type": "person", "norm": "王玑", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "谭溥", "type": "person", "norm": "谭溥", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "孙洪", "type": "person", "norm": "孙洪", "first_source": "25-002"},
+      {"ent_id": "ENT-012", "name": "冯续", "type": "person", "norm": "冯续", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002c03",
+        "item_id": "25-002",
+        "name": "昌邑县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25002s01",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在平度州西一百二十里",
+          "households": {"count": 94, "unit": "里", "note": "编户九十四里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002c03", "dynasty": "汉", "era": null, "institution_name": "都昌县", "action": "置", "detail": "本汉都昌县属北海郡"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002c03", "dynasty": "南北朝", "era": "后魏", "institution_name": "都昌县", "action": "省", "detail": "后魏省"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002c03", "dynasty": "隋", "era": null, "institution_name": "都昌县", "action": "复置", "detail": "隋复置属青州"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002c03", "dynasty": "唐", "era": null, "institution_name": "都昌县", "action": "废", "detail": "唐废"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002c03", "dynasty": "宋", "era": null, "institution_name": "昌邑县", "action": "置", "detail": "宋始置昌邑县属潍州"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002c03", "dynasty": "明", "era": null, "institution_name": "昌邑县", "action": "改", "detail": "金元因之，本朝初属莱州府后改隶平度州"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "陆山", "type": "山", "location_text": "在昌邑县南四十里", "description": "汉封霍光为陆侯食邑于此故山以陆名", "lore": "唐天宝六年赐名霍侯山"},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "潍水", "type": "河", "location_text": "自密州诸城县界流入高密县境经昌邑潍县界东北入海", "description": "汉韩信伐齐囊沙壅潍水以破楚将龙且即此", "lore": "俗呼为淮河"},
+      {"mtn_id": "MTN-003", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "潍水堤", "type": "其他", "location_text": "在昌邑县东五里", "description": "宋时筑之以防潍水", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "芙蓉池", "type": "池", "location_text": "在昌邑县西北二十里", "description": "旧有台已毁", "lore": "郡志云都昌地名芙蓉，齐七十二城之一"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "马伯行", "type": "名宦", "dynasty": "明", "native_place": "", "office": "昌邑县丞", "summary": "为政廉平人不敢干以私，粗衣粝食澹如也"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "黄福", "type": "人物", "dynasty": "明", "native_place": "昌邑", "office": "少保兼南京户部尚书", "summary": "永乐间镇交阯交人戴之如父，前后上章论事皆切时务，卒之日家无百缗"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "王玑", "type": "人物", "dynasty": "明", "native_place": "昌邑", "office": "宁波知府", "summary": "杜私谒清吏弊，毁郡中淫祠以葺公宇，去之日行李萧然"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "谭溥", "type": "人物", "dynasty": "明", "native_place": "昌邑", "office": "南京户部侍郎", "summary": "宣德中进士，累官辽东苑马寺少卿，刬除马政之弊"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "孙洪", "type": "人物", "dynasty": "明", "native_place": "昌邑", "office": "副都御史", "summary": "景泰间进士，中宫崩丧礼一从拟议，赈抚流民咸得其宜"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "冯续", "type": "人物", "dynasty": "明", "native_place": "昌邑", "office": "甘肃巡抚都御史", "summary": "天顺进士，由兵部主事历官，所至辄有政声"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "昌邑县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武三年建，永乐十四年重修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "崇圣寺", "type": "寺观", "location_text": "在昌邑县治东", "history_lore": "洪武初因旧重修"},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "玉真宫", "type": "寺观", "location_text": "在昌邑县治西北", "history_lore": "洪武间因旧重修"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "孙子庙", "type": "祠庙", "location_text": "在昌邑县西北三十里", "history_lore": "孙膑仕齐食邑于此故祀之"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "四知庙", "type": "祠庙", "location_text": "在昌邑县治东北", "history_lore": "后汉杨震为东莱太守道经昌邑，王密怀金遗震，震曰天知地知我知子知"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "黄忠宣公祠", "type": "祠庙", "location_text": "在昌邑县治南", "history_lore": "成化四年建祀本朝尚书黄福"},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "谭溥墓", "type": "陵墓", "location_text": "在昌邑县西五里", "history_lore": ""},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "孙洪墓", "type": "陵墓", "location_text": "在昌邑县西五里", "history_lore": ""},
+      {"site_id": "SITE-009", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "密城", "type": "古迹", "location_text": "在昌邑县东南二十五里", "history_lore": "春秋纪子帛莒子盟于密即此"},
+      {"site_id": "SITE-010", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "都昌城", "type": "古迹", "location_text": "在昌邑县界内", "history_lore": "齐景公封晏子以都昌辞而不受即此，汉为县属北海郡，唐省"},
+      {"site_id": "SITE-011", "item_id": "25-002", "geo_id": "GEO-25002c03", "name": "石湾桥", "type": "关梁", "location_text": "在昌邑县东北一十五里", "history_lore": ""}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

@@ -1,0 +1,161 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "丘县",
+  "region": "山东",
+  "original": "丘县【在州城西二百里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "丘县",
+        "type": "geo",
+        "norm": "丘县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c09",
+        "item_id": "24-001",
+        "name": "丘县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s01",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州城西二百里",
+          "households": {
+            "count": 27,
+            "unit": "里",
+            "note": "编户二十五里今增二十七里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "丘县",
+        "action": "置",
+        "detail": "本馆陶之别乡，汉析置丘县属魏郡；三国魏省，寻复置"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "丘县",
+        "action": "因之",
+        "detail": "晋属广平郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "斥漳城/平恩县",
+        "action": "迁",
+        "detail": "北齐移治斥漳城；隋又徙治平恩州为平恩县属武安郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "平恩县",
+        "action": "因之",
+        "detail": "唐属洺州，宋因之"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "丘县",
+        "action": "废",
+        "detail": "金废为镇隶曲周县"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "丘县",
+        "action": "复置",
+        "detail": "元初省入堂邑，后复置属东昌"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "丘县",
+        "action": "改",
+        "detail": "本朝初因之，宏治二年割属临清州"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "name": "史翥",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "丘县",
+        "office": "河南按察司副使",
+        "summary": "勤学慎行，早以才能历任仕途，官至河南按察司副使，以廉明著称"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "name": "丘县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "元大德间建，本朝正统十三年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "name": "洪济寺",
+        "type": "寺观",
+        "location_text": "在丘县治东",
+        "history_lore": "永乐初重建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c09",
+        "name": "玄真观",
+        "type": "寺观",
+        "location_text": "在丘县北门外",
+        "history_lore": "正统间建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

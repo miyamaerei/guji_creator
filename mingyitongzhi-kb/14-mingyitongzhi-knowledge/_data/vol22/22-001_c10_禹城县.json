@@ -1,0 +1,44 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "禹城县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c10",
+    "name": "禹城县",
+    "type": "geo",
+    "norm": "禹城县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c10",
+    "item_id": "22-001",
+    "name": "禹城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北一百里",
+     "households": {
+      "count": 56,
+      "unit": "里",
+      "note": "编户五十六里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

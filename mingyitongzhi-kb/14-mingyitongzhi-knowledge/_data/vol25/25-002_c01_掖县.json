@@ -1,0 +1,63 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "掖县",
+  "region": "山东",
+  "type": "county",
+  "original": "掖县【附郭本汉旧县为东莱郡治晋属东莱国北齐以曲城当利二县省入隋至元并为莱州治本朝因之编户三十八里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "掖县", "type": "geo", "norm": "掖县", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "刘宠", "type": "person", "norm": "刘宠", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "刘毅", "type": "person", "norm": "刘毅", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "侯史光", "type": "person", "norm": "侯史光", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "刘暾", "type": "person", "norm": "刘暾", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "刘胤", "type": "person", "norm": "刘胤", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "王扶", "type": "person", "norm": "王扶", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "徐承珪", "type": "person", "norm": "徐承珪", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "栾氏", "type": "person", "norm": "栾氏", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "张信", "type": "person", "norm": "张信", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002c01",
+        "item_id": "25-002",
+        "name": "掖县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25002",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 38, "unit": "里", "note": "编户三十八里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002c01", "dynasty": "汉", "era": null, "institution_name": "掖县", "action": "置", "detail": "本汉旧县为东莱郡治"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002c01", "dynasty": "晋", "era": null, "institution_name": "掖县", "action": "因之", "detail": "晋属东莱国"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002c01", "dynasty": "南北朝", "era": "北齐", "institution_name": "掖县", "action": "并", "detail": "北齐以曲城当利二县省入"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002c01", "dynasty": "明", "era": null, "institution_name": "掖县", "action": "因之", "detail": "隋至元并为莱州治，本朝因之"}
+    ],
+    "mtns": [],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "刘毅", "type": "人物", "dynasty": "晋", "native_place": "掖县", "office": "尚书左仆射", "summary": "太康初为司隶校尉纠正豪右，武帝问朕可方汉何帝，毅对曰桓灵"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "侯史光", "type": "人物", "dynasty": "晋", "native_place": "掖县", "office": "少府", "summary": "举孝廉为散骑常侍兼侍中，持节循省风俗，家素贫俭赐钱五十万"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "刘暾", "type": "人物", "dynasty": "晋", "native_place": "掖县", "office": "左丞", "summary": "刘毅子，武库火郭彰率人自卫不救火，暾诘之"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "刘胤", "type": "人物", "dynasty": "晋", "native_place": "掖县", "office": "江州刺史", "summary": "美姿容善交，避乱依冀州刺史邵续，后归晋元帝"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "王扶", "type": "人物", "dynasty": "汉", "native_place": "掖县", "office": "议郎", "summary": "少修节行客居不其，所在人化其德，刘复兴汉德颂盛称扶为名臣"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "徐承珪", "type": "人物", "dynasty": "宋", "native_place": "掖县", "office": "赞皇令", "summary": "失父母与兄弟三人及其族三十口同居，诏名其乡曰孝感里"},
+      {"per_id": "PER-007", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "栾氏", "type": "列女", "dynasty": "金", "native_place": "掖县", "office": "相琪妻", "summary": "红袄贼寇掖，贼杀琪及其子而诱之，栾奋起以头触贼骂而死，追封西河君"},
+      {"per_id": "PER-008", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "张信", "type": "人物", "dynasty": "明", "native_place": "掖县", "office": "尚宝司少卿", "summary": "性至孝，母病求医弗效，引刀于胁下取肝和面汤以食母，事闻旌表"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002c01", "name": "掖县学", "type": "学校", "location_text": "在府治西南", "history_lore": "旧在城南门外，成化三年徙置于此"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "掖县附郭山川已入府文件"}
+}

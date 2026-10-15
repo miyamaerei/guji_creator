@@ -1,0 +1,161 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "淄川县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c04",
+    "name": "淄川县",
+    "type": "geo",
+    "norm": "淄川县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c04",
+    "item_id": "22-001",
+    "name": "淄川县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东二百三十里",
+     "households": {
+      "count": 60,
+      "unit": "里",
+      "note": "编户六十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-048",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "梓橦山",
+    "type": "山",
+    "location_text": "在淄川县东一十里",
+    "description": "上有鬼谷洞",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-049",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "夹谷山",
+    "type": "山",
+    "location_text": "在淄川县西南三十里",
+    "description": "旧名祝其山，其阳即齐鲁会盟之处",
+    "lore": "萌水源发于此"
+   },
+   {
+    "mtn_id": "MTN-050",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "云高山",
+    "type": "山",
+    "location_text": "在淄川县东南二十五里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-051",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "苍龙峡",
+    "type": "其他",
+    "location_text": "在淄川县西南八里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-052",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "孝妇河",
+    "type": "河",
+    "location_text": "在淄川县西门外",
+    "description": "源出益都县笼溪水，合泷萌二水北流经长山新城县界入小清河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-053",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "般水",
+    "type": "河",
+    "location_text": "一名头河",
+    "description": "源发淄川县南一十五里，北流分为二，俱入孝妇河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-054",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "萌水",
+    "type": "河",
+    "location_text": "一曰明水",
+    "description": "源发淄川县甲山，东流入泷水",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-009",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "淄川县学",
+    "type": "学校",
+    "location_text": "在县治西南",
+    "history_lore": "本元般阳路，本朝洪武三年改为县学"
+   },
+   {
+    "site_id": "SITE-066",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "济川桥",
+    "type": "关梁",
+    "location_text": "在淄川县北门外",
+    "history_lore": "洪武初建"
+   },
+   {
+    "site_id": "SITE-088",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "玉清宫",
+    "type": "寺观",
+    "location_text": "在淄川县治东南",
+    "history_lore": "元至顺间因旧重修"
+   },
+   {
+    "site_id": "SITE-095",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "会仙观",
+    "type": "寺观",
+    "location_text": "在淄川县西南",
+    "history_lore": "金贞祐间建"
+   },
+   {
+    "site_id": "SITE-105",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c04",
+    "name": "郑玄祠",
+    "type": "祠庙",
+    "location_text": "在淄川县东一十里",
+    "history_lore": "郑玄高密人，汉征为大司农，齐鲁间生徒立祠祀之"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

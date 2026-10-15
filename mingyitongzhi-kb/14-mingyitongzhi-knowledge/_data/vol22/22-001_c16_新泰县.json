@@ -1,0 +1,144 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "新泰县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c16",
+    "name": "新泰县",
+    "type": "geo",
+    "norm": "新泰县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c16",
+    "item_id": "22-001",
+    "name": "新泰县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s01",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东南一百八十里",
+     "households": {
+      "count": 21,
+      "unit": "里",
+      "note": "编户二十一里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-081",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "曝书山",
+    "type": "山",
+    "location_text": "在新泰县北五里",
+    "description": "俗传昔有道士曝书于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-082",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "五峰山",
+    "type": "山",
+    "location_text": "在新泰县东北一十里",
+    "description": "下有宝泉寺",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-083",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "鳌山",
+    "type": "山",
+    "location_text": "在新泰县东一十里",
+    "description": "西有孚泽庙，庙左右有齐鲁二王祠",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-084",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "龙亭山",
+    "type": "山",
+    "location_text": "在新泰县东三十里",
+    "description": "下有龙池，池上有庙",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-085",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "宫山",
+    "type": "山",
+    "location_text": "在新泰县西北四十里",
+    "description": "连莱芜县界，泰山之左翼也，旧名小泰山",
+    "lore": "宋尝记云汉武帝易小泰山为宫山，封三峰为义山；下有洞深远不可测"
+   },
+   {
+    "mtn_id": "MTN-086",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "法云山",
+    "type": "山",
+    "location_text": "在新泰县西四十五里",
+    "description": "南有正觉院，西有刘杜泉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-087",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "玉泉",
+    "type": "泉",
+    "location_text": "在新泰县北一十五里",
+    "description": "水色如玉故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-088",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "宝泉",
+    "type": "泉",
+    "location_text": "在新泰县东北二十里",
+    "description": "其水澄清若镜故名",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-021",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "新泰县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "元至元间建，本朝洪武三年重建"
+   },
+   {
+    "site_id": "SITE-096",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c16",
+    "name": "上清观",
+    "type": "寺观",
+    "location_text": "在新泰县东八里",
+    "history_lore": "元至治间因旧重修"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

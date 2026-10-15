@@ -1,0 +1,71 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "招远县",
+  "region": "山东",
+  "type": "county",
+  "original": "招远县【在府城西南一百五十里本汉东莱郡之掖县地唐宋以来为罗峰镇金始置招远县属莱州元因之本朝改今属编户四十八里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "招远县", "type": "geo", "norm": "招远县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "张画山", "type": "mtn", "norm": "张画山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "罗山", "type": "mtn", "norm": "罗山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "云屯山", "type": "mtn", "norm": "云屯山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "凤喙山", "type": "mtn", "norm": "凤喙山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "齐山", "type": "mtn", "norm": "齐山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "原疃河", "type": "mtn", "norm": "原疃河", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "寒温泉", "type": "mtn", "norm": "寒温泉", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "史继民", "type": "person", "norm": "史继民", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "陈子恒", "type": "person", "norm": "陈子恒", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "陈韬", "type": "person", "norm": "陈韬", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c05",
+        "item_id": "25-001",
+        "name": "招远县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城西南一百五十里",
+          "households": {"count": 48, "unit": "里", "note": "编户四十八里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c05", "dynasty": "汉", "era": null, "institution_name": "掖县地", "action": "因之", "detail": "本汉东莱郡之掖县地"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c05", "dynasty": "唐宋", "era": null, "institution_name": "罗峰镇", "action": "置镇", "detail": "唐宋以来为罗峰镇"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c05", "dynasty": "金", "era": null, "institution_name": "招远县", "action": "置", "detail": "金始置招远县属莱州"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001c05", "dynasty": "明", "era": null, "institution_name": "招远县", "action": "改", "detail": "元因之，本朝改今属登州府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "张画山", "type": "山", "location_text": "在招远县北一十五里", "description": "山高林茂如张画然", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "罗山", "type": "山", "location_text": "在招远县东二十五里", "description": "", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "云屯山", "type": "山", "location_text": "在招远县东北二十五里", "description": "上有六翁涧祥光观", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "凤喙山", "type": "山", "location_text": "在招远县北三十里", "description": "本名牛心，元陈节斋过此以其名俚故易之", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "齐山", "type": "山", "location_text": "去招远县三十五里", "description": "宋元时尝置买金场于此", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "原疃河", "type": "河", "location_text": "源发莱州府蚕山", "description": "北流经招远县东北合东良平南二河入海", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "寒温泉", "type": "泉", "location_text": "在招远县治东", "description": "二泉并发一寒一温，好事者甃石为池引二泉注焉以便澡浴，又构堂于上名曰德新", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "史继民", "type": "名宦", "dynasty": "元", "native_place": "", "office": "招远县尹", "summary": "先是民鲜知礼，继民兴学以教之，由是翕然从化"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "陈子恒", "type": "名宦", "dynasty": "元", "native_place": "", "office": "招远县尹", "summary": "明而能宽，毁誉不动，有争讼者以大义晓之"},
+      {"per_id": "PER-003", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "陈韬", "type": "名宦", "dynasty": "明", "native_place": "", "office": "招远县丞", "summary": "正德间值流贼攻掠，韬率众死守城防被执不屈死，赠登州府通判"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "招远县学", "type": "学校", "location_text": "在县治西南", "history_lore": "洪武三年建"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "普照寺", "type": "寺观", "location_text": "在招远县治西南", "history_lore": "洪武末因旧重修"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "炼阳观", "type": "寺观", "location_text": "在招远县北三十里", "history_lore": "世传马丹阳炼丹于此，金人即其地建观"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "曲成城", "type": "古迹", "location_text": "在招远县西五十里", "history_lore": "汉置县属东莱郡又为侯国，晋改曰曲城，隋省"},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001c05", "name": "东良桥", "type": "关梁", "location_text": "在招远县西北五十里", "history_lore": ""}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

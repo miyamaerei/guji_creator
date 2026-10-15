@@ -1,0 +1,212 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "博平县",
+  "region": "山东",
+  "original": "博平县【在府城东四十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "博平县",
+        "type": "geo",
+        "norm": "博平县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c03",
+        "item_id": "24-001",
+        "name": "博平县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东四十五里",
+          "households": {
+            "count": 18,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "博陵邑",
+        "action": "因之",
+        "detail": "本齐博陵邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "博平县",
+        "action": "置",
+        "detail": "汉为博平县属东郡；晋属平原国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "博平县",
+        "action": "改",
+        "detail": "隋初属毛州，改属博州，大业初属清河郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "博平县",
+        "action": "复置",
+        "detail": "唐属博州，贞观中省入聊城，天授初复置"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "博平县",
+        "action": "迁",
+        "detail": "宋景祐间徙治东南三十里宽河镇即今治"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "博平县",
+        "action": "因之",
+        "detail": "金元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "孙奭",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "博州博平",
+        "office": "翰林侍读学士",
+        "summary": "幼师里中王彻，以九经及第；守道自处，未尝阿附；对真宗曰天何言哉岂有书也；以太子太傅致仕，谥宣"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "贾铉",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "博平",
+        "office": "参知政事",
+        "summary": "性纯厚好学问，大定中进士，为谏议大夫，上书论决杖不如法及拣茶害民，累官礼部尚书参知政事"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "耿端义",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "博平",
+        "office": "参知政事",
+        "summary": "大定中进士，累官翰林侍讲学士；中都被围时奏请迁都，宣宗从之"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "王友直",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "博州博平",
+        "office": "殿前指挥使",
+        "summary": "绍兴末金人渝盟，友直结豪杰勤王，进克大名；南归后累立战功，卒赠检校少保"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "刘氏女",
+        "type": "列女",
+        "dynasty": "明",
+        "native_place": "博平",
+        "office": "",
+        "summary": "名美玉，正德六年同父遇贼，贼杀俊，女以身翼之，骂贼而死，诏表曰刘氏双节"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "博平县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武三年因旧重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "兴国寺",
+        "type": "寺观",
+        "location_text": "在博平县东北二十里",
+        "history_lore": "洪武初建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "摄城",
+        "type": "古迹",
+        "location_text": "在博平县西南二十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "灵县城",
+        "type": "古迹",
+        "location_text": "在博平县西北三十里",
+        "history_lore": "汉县属清河郡，晋废，隋复置，大业初省入博平"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c03",
+        "name": "燕子冢",
+        "type": "陵墓",
+        "location_text": "在博平县东三十里",
+        "history_lore": "汉吴王濞构七国反，齐王不同谋而被杀，既葬有燕子衔泥置冢上，后人因名"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

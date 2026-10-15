@@ -1,0 +1,81 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "平原县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c19",
+    "name": "平原县",
+    "type": "geo",
+    "norm": "平原县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c19",
+    "item_id": "22-001",
+    "name": "平原县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s02",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东南一百二十里",
+     "households": {
+      "count": 46,
+      "unit": "里",
+      "note": "编户四十六里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-024",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c19",
+    "name": "平原县学",
+    "type": "学校",
+    "location_text": "在县治东南",
+    "history_lore": "元至元建，本朝洪武三年重建"
+   },
+   {
+    "site_id": "SITE-056",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c19",
+    "name": "望远台",
+    "type": "宫室",
+    "location_text": "在平原县平原岭",
+    "history_lore": "可望百余里"
+   },
+   {
+    "site_id": "SITE-081",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c19",
+    "name": "淳熙寺",
+    "type": "寺观",
+    "location_text": "在平原县治西",
+    "history_lore": "金大定间建"
+   },
+   {
+    "site_id": "SITE-147",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c19",
+    "name": "绎幕城",
+    "type": "古迹",
+    "location_text": "在平原县西北二十里",
+    "history_lore": "汉县属清河郡，北齐省入平原"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

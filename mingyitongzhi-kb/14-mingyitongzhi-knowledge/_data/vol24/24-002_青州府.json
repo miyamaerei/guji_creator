@@ -1,0 +1,782 @@
+{
+  "item_id": "24-002",
+  "volume": "24",
+  "source": "青州府",
+  "region": "山东",
+  "original": "青州府【东至莱州府潍县界一百里南至兖州府沂州界三百八十五里西至济南府淄川县界一百二十里北至济南府利津县界一百九十里自府治至京师一千里至南京一千五百里】【粮六十七万零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "青州府",
+        "type": "geo",
+        "norm": "青州府",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "莒州",
+        "type": "geo",
+        "norm": "莒州",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "云门山",
+        "type": "mtn",
+        "norm": "云门山",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "淄水",
+        "type": "mtn",
+        "norm": "淄水",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "禹贡",
+        "type": "book",
+        "norm": "禹贡",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "汉书",
+        "type": "book",
+        "norm": "汉书",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "衡王",
+        "type": "person",
+        "norm": "衡王",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "范仲淹",
+        "type": "person",
+        "norm": "范仲淹",
+        "first_source": "24-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "富弼",
+        "type": "person",
+        "norm": "富弼",
+        "first_source": "24-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24002",
+        "item_id": "24-002",
+        "name": "青州府",
+        "type": "prefecture",
+        "region": "山东",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-24002-s01",
+          "GEO-24002-c01",
+          "GEO-24002-c02",
+          "GEO-24002-c03",
+          "GEO-24002-c04",
+          "GEO-24002-c05",
+          "GEO-24002-c06",
+          "GEO-24002-c07",
+          "GEO-24002-c08",
+          "GEO-24002-c09",
+          "GEO-24002-c10",
+          "GEO-24002-c11",
+          "GEO-24002-w01",
+          "GEO-24002-w02"
+        ],
+        "volume_range": "卷24",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "莱州府潍县界",
+              "distance_li": 100
+            },
+            {
+              "direction": "南",
+              "to_place": "兖州府沂州界",
+              "distance_li": 385
+            },
+            {
+              "direction": "西",
+              "to_place": "济南府淄川县界",
+              "distance_li": 120
+            },
+            {
+              "direction": "北",
+              "to_place": "济南府利津县界",
+              "distance_li": 190
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1000
+            },
+            {
+              "capital": "南京",
+              "distance_li": 1500
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 670000,
+            "unit": "石",
+            "note": "粮六十七万零"
+          },
+          "jun_name": "齐郡/北海",
+          "topography": "东北阻海西南距岱【禹贡】东有琅琊西有浊河【汉书】海岱间一都会【西汉书】四塞之固【南燕潘聪】东道之雄【宋地志】凭负山海【郡志】",
+          "customs": "好经术矜功名【汉志】务农桑崇学业【隋志】文物彬彬【舆地记】",
+          "garrisons": [
+            {
+              "name": "青州左卫",
+              "type": "卫",
+              "location_text": "在府城东门内，洪武初建益都卫于府城西北，寻改青州左卫，永乐十四年移建此"
+            },
+            {
+              "name": "诸城守御千户所",
+              "type": "千户所",
+              "location_text": "在诸城县西南隅，洪武四年建"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "衡王府",
+              "type": "王府",
+              "note": "在府城内，成化二十三年建"
+            },
+            {
+              "name": "汉阳王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "商河王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "新乐王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "玉田王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "高唐王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "齐东王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "邵陵王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "东昌王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "武定王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "平度王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "宁阳王府",
+              "type": "王府",
+              "note": "同城"
+            },
+            {
+              "name": "昌乐王府",
+              "type": "王府",
+              "note": "同城"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009"
+        ]
+      },
+      {
+        "geo_id": "GEO-24002-s01",
+        "item_id": "24-002",
+        "name": "莒州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [
+          "GEO-24002-c12",
+          "GEO-24002-c13"
+        ],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城南三百里",
+          "households": {
+            "count": 170,
+            "unit": "里",
+            "note": "编户一百七十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-24002-w01",
+        "item_id": "24-002",
+        "name": "青州左卫",
+        "type": "weisuo",
+        "region": "山东",
+        "parent": "GEO-24002",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {}
+      },
+      {
+        "geo_id": "GEO-24002-w02",
+        "item_id": "24-002",
+        "name": "诸城守御千户所",
+        "type": "weisuo",
+        "region": "山东",
+        "parent": "GEO-24002-c10",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {}
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "青州之域",
+        "action": "置",
+        "detail": "禹贡青州之域，天文虚危分野；周礼正东曰青州，盖以土居少阳其色青，故以名州"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "齐国",
+        "action": "封",
+        "detail": "武王封太公望于此为齐国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "齐郡",
+        "action": "置",
+        "detail": "秦置齐郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "北海郡",
+        "action": "置",
+        "detail": "汉分置北海郡属青州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "青州",
+        "action": "因之",
+        "detail": "东汉为齐北海乐安三国地，以青州治临淄"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "三国",
+        "era": null,
+        "institution_name": "益都城",
+        "action": "因之",
+        "detail": "魏为益都城"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "青州",
+        "action": "因之",
+        "detail": "晋为齐乐安二国地"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "南青州/北青州",
+        "action": "改",
+        "detail": "安帝时广陵侨立南青州，故于青州加北字；刘宋省南青州，乃去北字仍曰青州；后魏治东阳，又改益都郡；后周改为齐郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "青州/北海郡",
+        "action": "改",
+        "detail": "隋复为青州，寻改北海郡"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "青州/平卢军",
+        "action": "改",
+        "detail": "唐初为青州，后改北海郡，乾元初复为青州，又升平卢军节度"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "镇海军",
+        "action": "改",
+        "detail": "宋改镇海军"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "益都府",
+        "action": "改",
+        "detail": "金为益都府"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "益都路",
+        "action": "改",
+        "detail": "元改益都路"
+      },
+      {
+        "evo_id": "EVO-014",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "青州府",
+        "action": "因之",
+        "detail": "本朝改青州府，领州一县十三"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "云门山",
+        "type": "山",
+        "location_text": "在府城南五里",
+        "description": "其上号大云顶，中有通穴如门，可容百余人，远望如悬镜，旁有黑龙洞及石井",
+        "lore": "唐北海守赵居贞登此山投龙赋诗；宋知青州富弼等题名刻石"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "劈山",
+        "type": "山",
+        "location_text": "与云门山相连",
+        "description": "石壁自顶中若刀开劈之状，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "尧山",
+        "type": "山",
+        "location_text": "在府城西北八里",
+        "description": "三齐记谓尧巡狩所登，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "驼山",
+        "type": "山",
+        "location_text": "在府城西南八里",
+        "description": "以形名山，阴有龙湫，上有龙祠，祷雨辄应",
+        "lore": "日照县亦有驼山"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "石膏山",
+        "type": "山",
+        "location_text": "在府城西南二十五里",
+        "description": "石色润泽如膏，故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "九回山",
+        "type": "山",
+        "location_text": "在府城西二十五里",
+        "description": "俗名九扈山，北洋水出此",
+        "lore": "回一作会"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "朗公山",
+        "type": "山",
+        "location_text": "在府城西南四十里",
+        "description": "俗传昔有朗公和尚居此，故名",
+        "lore": "上有朗公洞"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "淄水",
+        "type": "河",
+        "location_text": "在府城西五十里",
+        "description": "源出保安州莱芜县原山，流达临淄，至寿光县入济水",
+        "lore": "《禹贡》潍淄其道即此"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "范公泉",
+        "type": "泉",
+        "location_text": "在府城西门外",
+        "description": "宋范仲淹知青州有惠政，洋溪侧出醴泉，人以范公目之",
+        "lore": "今医家用以丸药，名青州白丸子"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "芹泉",
+        "type": "泉",
+        "location_text": "在府城西五十里",
+        "description": "中多芹菜，故名",
+        "lore": "元怀远大将军王英居其侧"
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "水帘洞",
+        "type": "洞",
+        "location_text": "在云门山之阴",
+        "description": "中有泉清冽常不枯，旁有石床石枕几",
+        "lore": "仰天山上亦有水帘洞泉"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "李昻",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "青州府知府",
+        "summary": "成化间知青州府，锄奸植善，岁饥发官廪数十万石，又劝富民出粟八万余石，全活甚众；郡人比之富公，生立祠于表海亭"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "赵麟",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "莒州知州",
+        "summary": "国初知莒州，长于文学，廉公有为，凡州之儒学公署皆其所建修"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "青州府学",
+        "type": "学校",
+        "location_text": "在府治东",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "海岱楼",
+        "type": "宫室",
+        "location_text": "在府城内",
+        "history_lore": "金统军司廨后，一名凝翠"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "富相亭",
+        "type": "宫室",
+        "location_text": "在府城西四里瀑水涧侧",
+        "history_lore": "宋富弼知青州时建，后人名之"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "表海亭",
+        "type": "宫室",
+        "location_text": "在府城北南洋桥北",
+        "history_lore": "取《左传》世胙太公以表东海为名；宋欧阳修尝有诗"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "范公亭",
+        "type": "宫室",
+        "location_text": "在范公泉上",
+        "history_lore": "宋范仲淹构，欧阳修诸贤多赋诗刻石亭中"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "雪宫",
+        "type": "古迹",
+        "location_text": "在府城内城隍庙西",
+        "history_lore": "遗址存焉，齐王见孟子于雪宫即此"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "田文第",
+        "type": "古迹",
+        "location_text": "在府城西北隅修身坊",
+        "history_lore": "宋为龙兴寺，夏竦记曰此田文故第也，今为城隍庙"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "广县城",
+        "type": "古迹",
+        "location_text": "在府城南瀑水涧侧",
+        "history_lore": "汉县属齐郡，后魏尝于此置青州"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "广固城",
+        "type": "古迹",
+        "location_text": "在尧山之阳",
+        "history_lore": "晋永嘉后前赵于此筑城，有天涧甚广因之为固，故名；后为刘裕所夷"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "东阳城",
+        "type": "古迹",
+        "location_text": "在府城北",
+        "history_lore": "晋刘裕伐南燕废广固筑此，元魏尝为青州治所"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "苏秦墓",
+        "type": "陵墓",
+        "location_text": "在益都县东二十五里",
+        "history_lore": "秦自燕奔齐，齐大夫与秦争宠杀之，葬此"
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "弥陀寺",
+        "type": "寺观",
+        "location_text": "在府城北门外",
+        "history_lore": "宋建，本朝洪武中重建"
+      },
+      {
+        "site_id": "SITE-013",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "真武观",
+        "type": "寺观",
+        "location_text": "在府城西北隅",
+        "history_lore": "宋建后毁，本朝洪武六年建"
+      },
+      {
+        "site_id": "SITE-014",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "武成王庙",
+        "type": "祠庙",
+        "location_text": "在府城北古东阳城中",
+        "history_lore": "武成王太公望，齐始封之君也；宋真宗赞碑刻尚存"
+      },
+      {
+        "site_id": "SITE-015",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "颜文姜庙",
+        "type": "祠庙",
+        "location_text": "在府城西颜神镇三里",
+        "history_lore": "文姜齐孝妇，宋封顺德夫人"
+      },
+      {
+        "site_id": "SITE-016",
+        "item_id": "24-002",
+        "geo_id": "GEO-24002",
+        "name": "南洋桥",
+        "type": "关梁",
+        "location_text": "在府城北门外",
+        "history_lore": "旧有宋米芾书，曾肇所撰重修桥记"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "24-002",
+        "cited_work": "禹贡",
+        "cited_work_ent_id": "ENT-005",
+        "context": "考源",
+        "original": "【禹贡】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "24-002",
+        "cited_work": "汉书",
+        "cited_work_ent_id": "ENT-006",
+        "context": "立论",
+        "original": "【汉书】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "24-002",
+        "cited_work": "西汉书",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【西汉书】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "24-002",
+        "cited_work": "南燕潘聪",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【南燕潘聪】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "24-002",
+        "cited_work": "宋地志",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【宋地志】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "24-002",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "24-002",
+        "cited_work": "汉志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【汉志】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "24-002",
+        "cited_work": "隋志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【隋志】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "24-002",
+        "cited_work": "舆地记",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【舆地记】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "青州府主文件，含藩封、卫所、属州莒州；县节点在独立文件"
+  }
+}

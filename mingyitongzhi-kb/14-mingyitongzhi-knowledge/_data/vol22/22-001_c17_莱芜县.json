@@ -1,0 +1,133 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "莱芜县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c17",
+    "name": "莱芜县",
+    "type": "geo",
+    "norm": "莱芜县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c17",
+    "item_id": "22-001",
+    "name": "莱芜县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s01",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东一百二十里",
+     "households": {
+      "count": 42,
+      "unit": "里",
+      "note": "编户四十二里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-089",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "大石山",
+    "type": "山",
+    "location_text": "在莱芜县东南一十三里",
+    "description": "出铁及大石",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-090",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "仙人山",
+    "type": "山",
+    "location_text": "在莱芜县南二十里",
+    "description": "世传安期生尝修炼于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-091",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "阴凉山",
+    "type": "山",
+    "location_text": "在莱芜县北三十里",
+    "description": "产铜矿",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-092",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "基山",
+    "type": "山",
+    "location_text": "在莱芜县东五十里",
+    "description": "上有洞真观",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-093",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "原山",
+    "type": "山",
+    "location_text": "在莱芜县东五十里",
+    "description": "连淄川县界，今名岳阳山，淄水出其阴，汶水出其阳",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-094",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "普济渠",
+    "type": "堰",
+    "location_text": "在莱芜县西北一十五里",
+    "description": "唐开元中县令赵建盛开",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-022",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "莱芜县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "宋崇宁间建，本朝洪武十一年重建"
+   },
+   {
+    "site_id": "SITE-067",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "人和桥",
+    "type": "关梁",
+    "location_text": "在莱芜县东关",
+    "history_lore": ""
+   },
+   {
+    "site_id": "SITE-107",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c17",
+    "name": "贞节先生祠",
+    "type": "祠庙",
+    "location_text": "在莱芜县治",
+    "history_lore": "祀汉莱芜长范丹"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

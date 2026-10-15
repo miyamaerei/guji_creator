@@ -1,0 +1,219 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "聊城县",
+  "region": "山东",
+  "original": "聊城县【附郭】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "聊城县",
+        "type": "geo",
+        "norm": "聊城县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c01",
+        "item_id": "24-001",
+        "name": "聊城县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 24,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "聊摄地",
+        "action": "因之",
+        "detail": "本春秋时聊摄地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "聊城县",
+        "action": "置",
+        "detail": "秦置聊城县属东郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "聊城县",
+        "action": "因之",
+        "detail": "汉因之"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "三国",
+        "era": null,
+        "institution_name": "聊城县",
+        "action": "因之",
+        "detail": "魏晋俱属平原郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "聊城县",
+        "action": "改",
+        "detail": "北齐改属济州；隋初属平原郡，寻于此置博州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "博州治",
+        "action": "因之",
+        "detail": "唐为博州治"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "聊城县",
+        "action": "并",
+        "detail": "五代周省武水县入焉"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "聊城县",
+        "action": "因之",
+        "detail": "宋金元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "贾琮",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "东郡聊城",
+        "office": "交阯刺史/度辽将军",
+        "summary": "举孝廉为京兆尹，迁交阯刺史，招抚不轨之民，民歌之，官至度辽将军"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "王少玄",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "博州聊城",
+        "office": "徐王府参军",
+        "summary": "隋末父死乱兵，少玄十岁求尸，镵肤越旬而获父骨葬之"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "梁玺",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "聊城",
+        "office": "户部主事",
+        "summary": "成化间进士，督中都军储，祛宿弊，公出纳称职，卒祀乡贤祠"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "聊城县学",
+        "type": "学校",
+        "location_text": "在府城内东北",
+        "history_lore": "旧在城东门外，永乐间尝徙于城南门外，正统间复徙城东，成化间移建于此"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "郭氏城",
+        "type": "古迹",
+        "location_text": "在聊城县",
+        "history_lore": "即六国郭氏之墟"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "玉版台",
+        "type": "古迹",
+        "location_text": "在聊城县",
+        "history_lore": "相传昔人得玉版于此台故名"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "鲁连台",
+        "type": "古迹",
+        "location_text": "在古聊城中",
+        "history_lore": "高七十余尺，传为鲁仲连遗迹"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "卞庄子墓",
+        "type": "陵墓",
+        "location_text": "在聊城县界内",
+        "history_lore": "庄子，春秋时勇士"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c01",
+        "name": "吴隐之墓",
+        "type": "陵墓",
+        "location_text": "在聊城县界内",
+        "history_lore": "吴隐之，晋人，以清操称"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

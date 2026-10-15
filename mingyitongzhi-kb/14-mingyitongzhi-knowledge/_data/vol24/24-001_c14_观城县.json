@@ -1,0 +1,189 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "观城县",
+  "region": "山东",
+  "original": "观城县【在州西北七十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "观城县",
+        "type": "geo",
+        "norm": "观城县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c14",
+        "item_id": "24-001",
+        "name": "观城县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s03",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州西北七十五里",
+          "households": {
+            "count": 10,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "观国",
+        "action": "因之",
+        "detail": "本古之观国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "畔观县/卫国县",
+        "action": "置",
+        "detail": "汉为畔观县属东郡；东汉更名卫国县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "卫国县",
+        "action": "因之",
+        "detail": "晋属顿邱郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "观城县",
+        "action": "改",
+        "detail": "隋改观城县属武阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "观城县",
+        "action": "复置",
+        "detail": "唐属澶州，贞观中省，大历中复置"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "观城县",
+        "action": "因之",
+        "detail": "宋省入濮阳，寻复置属开德府；金属开州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "观城县",
+        "action": "因之",
+        "detail": "元属濮州，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "收鹤池",
+        "type": "池",
+        "location_text": "在观城县境去县五十六里",
+        "description": "相传卫灵公养鹤之所",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "原黼",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "观城知县",
+        "summary": "公廉守己，德政化民，满去民怀思不忘"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "观城县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "金泰和中建，元至元中重修，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "观国",
+        "type": "古迹",
+        "location_text": "在观城县境",
+        "history_lore": "夏有观扈，乃启子太康第五弟所封"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "卫灵公墓",
+        "type": "陵墓",
+        "location_text": "在观城县东南四十三里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "窦氏坟",
+        "type": "陵墓",
+        "location_text": "在观城县南八里",
+        "history_lore": "汉窦后父坠渊而卒，景帝命填其渊为坟，号窦氏青山"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c14",
+        "name": "真常宫",
+        "type": "寺观",
+        "location_text": "在观城县治东南",
+        "history_lore": "宣德初因旧重修"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

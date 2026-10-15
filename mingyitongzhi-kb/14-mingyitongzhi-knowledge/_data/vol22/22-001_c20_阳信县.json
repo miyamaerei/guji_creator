@@ -1,0 +1,63 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "阳信县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c20",
+    "name": "阳信县",
+    "type": "geo",
+    "norm": "阳信县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c20",
+    "item_id": "22-001",
+    "name": "阳信县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城北四十里",
+     "households": {
+      "count": 70,
+      "unit": "里",
+      "note": "编户七十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-025",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c20",
+    "name": "阳信县学",
+    "type": "学校",
+    "location_text": "在县治西",
+    "history_lore": ""
+   },
+   {
+    "site_id": "SITE-101",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c20",
+    "name": "薄姑庙",
+    "type": "祠庙",
+    "location_text": "在阳信县博昌废城",
+    "history_lore": "古为薄姑氏国，国人立祠以祀其君"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

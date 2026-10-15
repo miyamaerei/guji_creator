@@ -1,0 +1,84 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "平度州",
+  "region": "山东",
+  "type": "subprefecture",
+  "original": "平度州【在府城南一百里汉有平度县属东莱郡东汉置胶东县属北海国晋属济南郡后魏属北海郡隋改为胶水郡属东莱郡唐宋金元并为莱州本朝洪武中升县为平度州属莱州府编户一百三十六里领县二】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "平度州", "type": "geo", "norm": "平度州", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "大豁山", "type": "mtn", "norm": "大豁山", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "嵖岈山", "type": "mtn", "norm": "嵖岈山", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "金泉山", "type": "mtn", "norm": "金泉山", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "明堂山", "type": "mtn", "norm": "明堂山", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "六曲山", "type": "mtn", "norm": "六曲山", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "墨山", "type": "mtn", "norm": "墨山", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "墨水", "type": "mtn", "norm": "墨水", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "宁戚", "type": "person", "norm": "宁戚", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "侯庸", "type": "person", "norm": "侯庸", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "王氏", "type": "person", "norm": "王氏", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002s01",
+        "item_id": "25-002",
+        "name": "平度州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-25002",
+        "children": ["GEO-25002c02", "GEO-25002c03"],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城南一百里",
+          "households": {"count": 136, "unit": "里", "note": "编户一百三十六里领县二"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "汉", "era": null, "institution_name": "平度县", "action": "置", "detail": "汉有平度县属东莱郡"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "东汉", "era": null, "institution_name": "胶东县", "action": "改", "detail": "东汉置胶东县属北海国"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "晋", "era": null, "institution_name": "胶东县", "action": "因之", "detail": "晋属济南郡"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "南北朝", "era": "后魏", "institution_name": "胶东县", "action": "因之", "detail": "后魏属北海郡"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "隋", "era": null, "institution_name": "胶水县", "action": "改", "detail": "隋改为胶水县属东莱郡"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "唐宋金元", "era": null, "institution_name": "胶水县", "action": "因之", "detail": "唐宋金元并为莱州"},
+      {"evo_id": "EVO-007", "item_id": "25-002", "geo_id": "GEO-25002s01", "dynasty": "明", "era": "洪武", "institution_name": "平度州", "action": "升", "detail": "本朝洪武中升县为平度州属莱州府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "大豁山", "type": "山", "location_text": "在平度州西二十里虞乡城东南", "description": "有豁口即此，与小豁山相峙中通驿路", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "嵖岈山", "type": "山", "location_text": "在平度州北三十里", "description": "山形嵖岈", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "金泉山", "type": "山", "location_text": "在平度州东南四十里", "description": "一名金钱山，产桔梗防风", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "明堂山", "type": "山", "location_text": "在平度州东北四十里", "description": "与巨青山连，产乌头天雄", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "六曲山", "type": "山", "location_text": "在平度州东五十里", "description": "", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "墨山", "type": "山", "location_text": "在平度州东北六十里", "description": "山之石色如墨，墨水源发于此", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "海眼石", "type": "其他", "location_text": "在平度州北四十五里", "description": "石立如柱，俗传其下即海眼", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "墨水", "type": "河", "location_text": "源发平度州墨山", "description": "东经胶州即墨县界入海", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "漱玉泉", "type": "泉", "location_text": "在平度州西二十里", "description": "", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "圣水池", "type": "池", "location_text": "在平度州东一十五里", "description": "池方九尺四时不竭，祷雨辄应", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "定者渠", "type": "其他", "location_text": "在平度州南七十里流入胶水", "description": "汉武帝征和四年行幸东莱临大海上耕于钜定即此", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "初暐", "type": "人物", "dynasty": "宋", "native_place": "胶水", "office": "知潍州", "summary": "第进士，母丧庐墓衰麻蔬食经六冬，有白乌白兔驯扰坟侧"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "侯庸", "type": "人物", "dynasty": "明", "native_place": "平度州", "office": "吏部左侍郎", "summary": "登洪武乙丑进士第，为吏科给事中，以勤勉见称"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "王氏", "type": "列女", "dynasty": "明", "native_place": "平度州", "office": "车劝妻", "summary": "劝为青州总管卒，王誓不再适，子文升亦早卒，妇陶氏守节如姑，洪武三十二年旌表"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "平度州学", "type": "学校", "location_text": "在州治东南", "history_lore": "洪武十六年因旧重修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "仙人台", "type": "宫室", "location_text": "在平度州东北五十里青山下", "history_lore": "列仙传胶东公沙宿饮白鹤泉得仙尝游石台之上"},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "胶河桥", "type": "关梁", "location_text": "在平度州西八十里", "history_lore": "跨胶水"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "沽尤桥", "type": "关梁", "location_text": "在平度州东八十里", "history_lore": "跨沽河"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "圆明寺", "type": "寺观", "location_text": "在平度州治西北", "history_lore": "元元贞间建"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "德真观", "type": "寺观", "location_text": "在平度州治东北", "history_lore": "元至元间建"},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "贫女庙", "type": "祠庙", "location_text": "在平度州东六十里", "history_lore": "世传其夫行戍女裹粮从之，夫死女乞棺葬之遂自杀"},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "宁戚墓", "type": "陵墓", "location_text": "在平度州西六十里", "history_lore": "宁戚齐桓公相"},
+      {"site_id": "SITE-009", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "即墨故城", "type": "古迹", "location_text": "在平度州东南六十里", "history_lore": "齐旧邑，田单破燕兵于此，汉为胶东郡治，傍有乐毅城"},
+      {"site_id": "SITE-010", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "卢乡城", "type": "古迹", "location_text": "在平度州西北五十里", "history_lore": "汉县北齐废隋复置唐省入昌阳县"},
+      {"site_id": "SITE-011", "item_id": "25-002", "geo_id": "GEO-25002s01", "name": "胶水废县", "type": "古迹", "location_text": "在平度州城内", "history_lore": "本汉胶东县隋改曰胶水，本朝省入州"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

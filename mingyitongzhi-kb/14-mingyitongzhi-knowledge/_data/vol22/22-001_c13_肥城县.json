@@ -1,0 +1,122 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "肥城县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c13",
+    "name": "肥城县",
+    "type": "geo",
+    "norm": "肥城县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c13",
+    "item_id": "22-001",
+    "name": "肥城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西南一百六十里",
+     "households": {
+      "count": 30,
+      "unit": "里",
+      "note": "编户三十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-061",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "金牛山",
+    "type": "山",
+    "location_text": "在肥城县西一十里",
+    "description": "一名鬰葱山，南有池世传龙潜其中",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-062",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "陶山",
+    "type": "山",
+    "location_text": "在肥城县西三十里",
+    "description": "连平阴县界，范蠡浮海出齐间行止于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-063",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "凤凰山",
+    "type": "山",
+    "location_text": "在肥城县西南四十里",
+    "description": "世传汉章帝时凤凰集于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-064",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "孝堂山",
+    "type": "山",
+    "location_text": "在肥城县西北六十里",
+    "description": "上有石室，世传郭巨葬母之所",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-018",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "肥城县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "洪武四年建"
+   },
+   {
+    "site_id": "SITE-078",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "惠通寺",
+    "type": "寺观",
+    "location_text": "在肥城县治南",
+    "history_lore": "洪武间修"
+   },
+   {
+    "site_id": "SITE-079",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "幽栖寺",
+    "type": "寺观",
+    "location_text": "在肥城县陶山东",
+    "history_lore": "陶朱公隐此，唐时建寺"
+   },
+   {
+    "site_id": "SITE-117",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c13",
+    "name": "左丘明墓",
+    "type": "陵墓",
+    "location_text": "在肥城县西南二十五里",
+    "history_lore": "丘明鲁太史作春秋传者"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

@@ -1,0 +1,72 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "新城县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c06",
+    "name": "新城县",
+    "type": "geo",
+    "norm": "新城县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c06",
+    "item_id": "22-001",
+    "name": "新城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东北三百二十里",
+     "households": {
+      "count": 45,
+      "unit": "里",
+      "note": "编户四十五里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-011",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c06",
+    "name": "新城县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "元至正间建，本朝洪武初重建"
+   },
+   {
+    "site_id": "SITE-053",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c06",
+    "name": "戏马台",
+    "type": "宫室",
+    "location_text": "在新城县治东",
+    "history_lore": "世传齐桓公歇马于此，一云景公故居，旧有二公庙今废为钟楼"
+   },
+   {
+    "site_id": "SITE-133",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c06",
+    "name": "毕亨墓",
+    "type": "陵墓",
+    "location_text": "在新城县南三里白沟之阳",
+    "history_lore": ""
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

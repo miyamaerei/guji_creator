@@ -1,0 +1,250 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "茌平县",
+  "region": "山东",
+  "original": "茌平县【在府城东北七十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "茌平县",
+        "type": "geo",
+        "norm": "茌平县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c04",
+        "item_id": "24-001",
+        "name": "茌平县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在府城东北七十里",
+          "households": {
+            "count": 36,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "茌平县",
+        "action": "置",
+        "detail": "本秦旧县属东郡，汉因之"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "茌平县",
+        "action": "因之",
+        "detail": "东汉属济北国；三国魏属平原郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "茌平县",
+        "action": "废",
+        "detail": "晋末移治聊城县界兴利镇；后齐废入聊城"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "茌平县",
+        "action": "复置",
+        "detail": "唐武德间复置，贞观初省"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "茌平县",
+        "action": "复置",
+        "detail": "金时刘豫复置；元仍旧"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "茌平县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "茌平故城",
+        "type": "其他",
+        "location_text": "在茌山",
+        "description": "秦汉旧县治",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "马周",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "博州茌平",
+        "office": "中书令",
+        "summary": "少孤家贫嗜学，善诗春秋；贞观中拜监察御史，数陈时务，帝皆称善；累迁中书令，帝以飞白书赐之"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "尹齐",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "东郡茌平",
+        "office": "中尉",
+        "summary": "为御史以廉称，武帝使督盗贼，斩伐不避贵势，有能名，拜为中尉"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "马定国",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "茌平",
+        "office": "翰林学士",
+        "summary": "自少志气不群，尝著石鼓辨万余言，考定为宇文周时所出，有文集传世"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "梁宜",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "茌平",
+        "office": "礼部尚书",
+        "summary": "博雅有文学，判徽州，迁河南路总管，俱有治声，官至礼部尚书"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "李懋",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "茌平",
+        "office": "福建按察使",
+        "summary": "笃学尚志，居太学，人类推重，累官福建按察使"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "茌平县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "旧在县治南，金承安间移建于此，本朝正统十三年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "茌山草堂",
+        "type": "宫室",
+        "location_text": "在茌平县学讲堂后",
+        "history_lore": "相传马兴祖尝读书于此，本朝正统十二年修"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "孟馆",
+        "type": "古迹",
+        "location_text": "在茌平县治东",
+        "history_lore": "相传孟子游齐梁尝馆于此"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "孟子庙",
+        "type": "祠庙",
+        "location_text": "在茌平县东北孟家庄",
+        "history_lore": "相传孟子游齐梁时尝经此，后人因立祠"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "马周庙",
+        "type": "祠庙",
+        "location_text": "在茌平县学东南",
+        "history_lore": "本朝景泰二年建"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "法祥寺",
+        "type": "寺观",
+        "location_text": "在茌平县治南",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "紫微观",
+        "type": "寺观",
+        "location_text": "在茌平县治西",
+        "history_lore": "永乐中因旧重建"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c04",
+        "name": "马周墓",
+        "type": "陵墓",
+        "location_text": "在茌平县治东",
+        "history_lore": "文庙乡贤碣有赞"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

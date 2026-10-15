@@ -1,0 +1,131 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "长清县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c12",
+    "name": "长清县",
+    "type": "geo",
+    "norm": "长清县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c12",
+    "item_id": "22-001",
+    "name": "长清县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西南七十里",
+     "households": {
+      "count": 44,
+      "unit": "里",
+      "note": "编户四十四里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-057",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "隔马山",
+    "type": "山",
+    "location_text": "在长清县东南六十里",
+    "description": "左传晋师伐齐，齐侯御诸平阴，夙沙卫杀马于隘以塞道故名",
+    "lore": "其东南三里许有潭清澈，岁旱取水祷雨"
+   },
+   {
+    "mtn_id": "MTN-058",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "青崖山",
+    "type": "山",
+    "location_text": "在长清县东南六十里",
+    "description": "崖谷常青故名",
+    "lore": "金末严实尝挈家避兵于此"
+   },
+   {
+    "mtn_id": "MTN-059",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "方山",
+    "type": "山",
+    "location_text": "在长清县东南九十里",
+    "description": "四面方正故名，齐乘云疑即水经之玉符山也",
+    "lore": "上有六泉曰黄龙白露独孤防鹤卓锡石龟"
+   },
+   {
+    "mtn_id": "MTN-060",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "耿家陂",
+    "type": "湖",
+    "location_text": "在长清县西北三十五里",
+    "description": "周二十里",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-017",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "长清县学",
+    "type": "学校",
+    "location_text": "在县治东南",
+    "history_lore": "宋天禧间建，本朝永乐中重建"
+   },
+   {
+    "site_id": "SITE-080",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "灵岩寺",
+    "type": "寺观",
+    "location_text": "在长清县方山上",
+    "history_lore": "世传佛图澄卓锡之地，有立鹤泉佛日岩辟支塔十里松"
+   },
+   {
+    "site_id": "SITE-103",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "丰施侯庙",
+    "type": "祠庙",
+    "location_text": "在隔马山上",
+    "history_lore": "人祀春秋殖绰郭最"
+   },
+   {
+    "site_id": "SITE-141",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "卢城",
+    "type": "古迹",
+    "location_text": "在长清县西南二十里",
+    "history_lore": "左传齐郑寻卢之盟，汉置县属泰山郡后省"
+   },
+   {
+    "site_id": "SITE-145",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c12",
+    "name": "济北城",
+    "type": "古迹",
+    "location_text": "在长清县西六十里",
+    "history_lore": "隋置时平县属济州，大业初改今名"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

@@ -1,0 +1,109 @@
+{
+  "item_id": "02-002",
+  "volume": "02",
+  "source": "吴桥县",
+  "region": "北直隶",
+  "original": "在州东五十里本隋将陵县地属平原郡唐属德州金始于县之吴川置吴桥县属景州元仍旧本朝因之编户一十五里",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-02002-c11",
+        "name": "吴桥县",
+        "type": "geo",
+        "norm": "吴桥县",
+        "first_source": "02-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-02002-s01-c11",
+        "item_id": "02-002",
+        "name": "吴桥县",
+        "type": "county",
+        "region": "北直隶",
+        "parent": "GEO-02002-s01",
+        "children": [],
+        "volume_range": "卷2",
+        "attributes": {
+          "evo_summary": "在州东五十里本隋将陵县地属平原郡唐属德州金始于县之吴川置吴桥县属景州元仍旧本朝因之编户一十五里"
+        },
+        "original": "在州东五十里本隋将陵县地属平原郡唐属德州金始于县之吴川置吴桥县属景州元仍旧本朝因之编户一十五里"
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-02002-c11",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-s01-c11",
+        "dynasty": "未明",
+        "era": null,
+        "institution_name": "吴桥县",
+        "action": "因之",
+        "detail": "在州东五十里本隋将陵县地属平原郡唐属德州金始于县之吴川置吴桥县属景州元仍旧本朝因之编户一十五里",
+        "original": "在州东五十里本隋将陵县地属平原郡唐属德州金始于县之吴川置吴桥县属景州元仍旧本朝因之编户一十五里"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-02002-c11-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-s01-c11",
+        "name": "吴桥县学",
+        "type": "学校",
+        "location_text": "武初建在县治西南洪武初建景",
+        "history_lore": "武初建在县治西南洪武初建景",
+        "original": "吴桥县学【武初建在县治西南洪武初建景】"
+      },
+      {
+        "site_id": "SITE-02002-c11-02",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-s01-c11",
+        "name": "大乗寺",
+        "type": "宫室",
+        "location_text": "在吴桥县治西南宣德初建",
+        "history_lore": "在吴桥县治西南宣德初建",
+        "original": "大乗寺【在吴桥县治西南宣徳初建】"
+      },
+      {
+        "site_id": "SITE-02002-c11-03",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-s01-c11",
+        "name": "孙膑墓",
+        "type": "宫室",
+        "location_text": "在吴桥县东南上有庙",
+        "history_lore": "在吴桥县东南上有庙",
+        "original": "孙膑墓【在吴桥县东南上有庙】"
+      },
+      {
+        "site_id": "SITE-02002-c11-04",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-s01-c11",
+        "name": "大乗寺",
+        "type": "寺观",
+        "location_text": "在吴桥县治西南宣德初建",
+        "history_lore": "在吴桥县治西南宣德初建",
+        "original": "大乗寺【在吴桥县治西南宣徳初建】"
+      },
+      {
+        "site_id": "SITE-02002-c11-05",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-s01-c11",
+        "name": "孙膑墓",
+        "type": "陵墓",
+        "location_text": "在吴桥县东南上有庙",
+        "history_lore": "在吴桥县东南上有庙",
+        "original": "孙膑墓【在吴桥县东南上有庙】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "parent=景州; auto-extracted, pending manual review"
+  }
+}

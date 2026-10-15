@@ -1,0 +1,101 @@
+{
+  "item_id": "02-002",
+  "volume": "02",
+  "source": "兴济县",
+  "region": "北直隶",
+  "original": "在府城东一百八十里宋为范桥镇地大观初陞为兴济县金初属沧州大定中改属清州元省入防川县寻复置属凊州本朝改今属编户一十九里",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-02002-c08",
+        "name": "兴济县",
+        "type": "geo",
+        "norm": "兴济县",
+        "first_source": "02-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-02002-c08",
+        "item_id": "02-002",
+        "name": "兴济县",
+        "type": "county",
+        "region": "北直隶",
+        "parent": "GEO-02002",
+        "children": [],
+        "volume_range": "卷2",
+        "attributes": {
+          "evo_summary": "在府城东一百八十里宋为范桥镇地大观初陞为兴济县金初属沧州大定中改属清州元省入防川县寻复置属凊州本朝改今属编户一十九里"
+        },
+        "original": "在府城东一百八十里宋为范桥镇地大观初陞为兴济县金初属沧州大定中改属清州元省入防川县寻复置属凊州本朝改今属编户一十九里"
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-02002-c08",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c08",
+        "dynasty": "未明",
+        "era": null,
+        "institution_name": "兴济县",
+        "action": "因之",
+        "detail": "在府城东一百八十里宋为范桥镇地大观初陞为兴济县金初属沧州大定中改属清州元省入防川县寻复置属凊州本朝改今属编户一十九里",
+        "original": "在府城东一百八十里宋为范桥镇地大观初陞为兴济县金初属沧州大定中改属清州元省入防川县寻复置属凊州本朝改今属编户一十九里"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-02002-c08-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c08",
+        "name": "独流河",
+        "type": "河",
+        "location_text": "在兴济县北至静海县四十五里其地有蒲苇之利宋置独流北独流东二寨",
+        "description": "在兴济县北至静海县四十五里其地有蒲苇之利宋置独流北独流东二寨",
+        "lore": "",
+        "original": "独流河【在兴济县北至静海县四十五里其地有蒲苇之利宋置独流北独流东二寨】"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-02002-c08-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c08",
+        "name": "兴济县学",
+        "type": "学校",
+        "location_text": "在县治东洪武初建永乐三年重",
+        "history_lore": "在县治东洪武初建永乐三年重",
+        "original": "兴济县学【在县治东洪武初建永乐三年重】"
+      },
+      {
+        "site_id": "SITE-02002-c08-02",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c08",
+        "name": "兴国寺",
+        "type": "宫室",
+        "location_text": "在兴济县治东南宣德间建",
+        "history_lore": "在兴济县治东南宣德间建",
+        "original": "兴国寺【在兴济县治东南宣徳间建】"
+      },
+      {
+        "site_id": "SITE-02002-c08-03",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c08",
+        "name": "兴国寺",
+        "type": "寺观",
+        "location_text": "在兴济县治东南宣德间建",
+        "history_lore": "在兴济县治东南宣德间建",
+        "original": "兴国寺【在兴济县治东南宣徳间建】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "parent=河间府; auto-extracted, pending manual review"
+  }
+}

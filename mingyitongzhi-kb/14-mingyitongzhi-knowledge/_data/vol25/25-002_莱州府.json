@@ -1,0 +1,149 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "莱州府",
+  "region": "山东",
+  "type": "prefecture",
+  "original": "莱州府【东至登州府莱阳县界一百八十里西至青州府昌乐县界二百六十里南至青州府诸城县界三百五十里北至海崖九百里自府治至京师一千四百里至南京一千五里】【粮三十二万三千一百石零】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "莱州府", "type": "geo", "norm": "莱州府", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "掖县", "type": "geo", "norm": "掖县", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "平度州", "type": "geo", "norm": "平度州", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "潍县", "type": "geo", "norm": "潍县", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "昌邑县", "type": "geo", "norm": "昌邑县", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "胶州", "type": "geo", "norm": "胶州", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "高密县", "type": "geo", "norm": "高密县", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "即墨县", "type": "geo", "norm": "即墨县", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "东莱郡", "type": "geo", "norm": "东莱郡", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "莱州卫", "type": "geo", "norm": "莱州卫", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "灵山卫", "type": "geo", "norm": "灵山卫", "first_source": "25-002"},
+      {"ent_id": "ENT-012", "name": "鳌山卫", "type": "geo", "norm": "鳌山卫", "first_source": "25-002"},
+      {"ent_id": "ENT-013", "name": "大基山", "type": "mtn", "norm": "大基山", "first_source": "25-002"},
+      {"ent_id": "ENT-014", "name": "掖河", "type": "mtn", "norm": "掖河", "first_source": "25-002"},
+      {"ent_id": "ENT-015", "name": "寰宇记", "type": "book", "norm": "寰宇记", "first_source": "25-002"},
+      {"ent_id": "ENT-016", "name": "隋志", "type": "book", "norm": "隋志", "first_source": "25-002"},
+      {"ent_id": "ENT-017", "name": "齐旧志", "type": "book", "norm": "齐旧志", "first_source": "25-002"},
+      {"ent_id": "ENT-018", "name": "胶州志", "type": "book", "norm": "胶州志", "first_source": "25-002"},
+      {"ent_id": "ENT-019", "name": "蔡齐", "type": "person", "norm": "蔡齐", "first_source": "25-002"},
+      {"ent_id": "ENT-020", "name": "赵迁", "type": "person", "norm": "赵迁", "first_source": "25-002"},
+      {"ent_id": "ENT-021", "name": "黄福", "type": "person", "norm": "黄福", "first_source": "25-002"},
+      {"ent_id": "ENT-022", "name": "薛禄", "type": "person", "norm": "薛禄", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002",
+        "item_id": "25-002",
+        "name": "莱州府",
+        "type": "prefecture",
+        "region": "山东",
+        "parent": "GEO-SHANDONG",
+        "children": ["GEO-25002s01", "GEO-25002s02", "GEO-25002c01"],
+        "volume_range": "卷25",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "登州府莱阳县界", "distance_li": 180},
+            {"direction": "西", "to_place": "青州府昌乐县界", "distance_li": 260},
+            {"direction": "南", "to_place": "青州府诸城县界", "distance_li": 350},
+            {"direction": "北", "to_place": "海崖", "distance_li": 900}
+          ],
+          "to_capital": [
+            {"capital": "京师", "distance_li": 1400},
+            {"capital": "南京", "distance_li": 1005}
+          ],
+          "grain_tax": {"amount": 323100, "unit": "石", "note": "三十二万三千一百石零"},
+          "jun_name": "东莱",
+          "topography": "土疏水阔山高海深【寰宇记】；风土甲于青齐【齐旧志】；罗山亘其东潍水阻其西神山距其南渤海枕其北【俱郡志】；负海舄卤【元志】；襟带山河【同上】",
+          "customs": "朴鲁少文义【隋志】东莱人尤朴鲁；人性刚强【寰宇记】；俗尚嚚讼【宋史仇悆传】；风流儒雅【胶州志】；好经术矜功名【元志】男通鱼盐之利女习缉纺之业",
+          "garrisons": [
+            {"name": "莱州卫", "type": "卫", "location_text": "在府治东洪武三年建"},
+            {"name": "灵山卫", "type": "卫", "location_text": "在胶州东南九十里"},
+            {"name": "鳌山卫", "type": "卫", "location_text": "在即墨县东四十里俱洪武二十一年建"},
+            {"name": "胶州守御千户所", "type": "千户所", "location_text": "在胶州城内洪武五年建"},
+            {"name": "浮山守御千户所", "type": "千户所", "location_text": "在即墨县南九十里"},
+            {"name": "雄崖守御千户所", "type": "千户所", "location_text": "在即墨县东北九十里"}
+          ],
+          "fiefs": []
+        },
+        "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004", "CIT-005", "CIT-006"]
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "周", "era": null, "institution_name": "莱子国", "action": "置", "detail": "禹贡青州之域，古莱夷地，春秋为莱子国，齐侯迁莱子于郳在国之东故曰东莱"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "秦", "era": null, "institution_name": "齐郡", "action": "因之", "detail": "秦属齐郡"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "汉", "era": null, "institution_name": "东莱郡", "action": "置", "detail": "汉始析置东莱郡治掖县属青州，东汉徙治黄县"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "晋", "era": null, "institution_name": "东莱国", "action": "改", "detail": "晋改东莱国复治于掖"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "南北朝", "era": "后魏", "institution_name": "光州", "action": "置", "detail": "刘宋仍改为郡徙治曲城，后魏分青州置光州领东莱郡同治于掖"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "隋", "era": null, "institution_name": "莱州", "action": "改", "detail": "隋初罢郡改光州为莱州，后复为东莱郡"},
+      {"evo_id": "EVO-007", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "唐", "era": null, "institution_name": "莱州", "action": "复", "detail": "唐为莱州，天宝初改东莱郡，乾元初复为莱州"},
+      {"evo_id": "EVO-008", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "宋", "era": null, "institution_name": "莱州", "action": "因之", "detail": "宋属京东东路"},
+      {"evo_id": "EVO-009", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "金", "era": null, "institution_name": "定海军", "action": "置", "detail": "金于州置定海军"},
+      {"evo_id": "EVO-010", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "元", "era": null, "institution_name": "般阳路", "action": "改", "detail": "元初废军以州属益都路，后属般阳路"},
+      {"evo_id": "EVO-011", "item_id": "25-002", "geo_id": "GEO-25002", "dynasty": "明", "era": "洪武", "institution_name": "莱州府", "action": "升", "detail": "本朝洪武九年升为莱州府，领州二县五"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002", "name": "海", "type": "其他", "location_text": "在府城北九十里，西北环昌邑潍县界，东南环胶州即墨县界", "description": "唐高适诗圣代务平典輶轩推上才", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002", "name": "福山", "type": "山", "location_text": "在府城西北五里", "description": "与禄山二山相峙俱产温石，福山俗名斧山峰岭高峻北临沧海", "lore": "北魏刺史崔挺欲于顶上营观宇，父老云岭上有龙道，挺竟营之"},
+      {"mtn_id": "MTN-003", "item_id": "25-002", "geo_id": "GEO-25002", "name": "禄山", "type": "山", "location_text": "在府城西北五里", "description": "与福山相峙", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-002", "geo_id": "GEO-25002", "name": "大基山", "type": "山", "location_text": "在府城东一十里", "description": "上有道士谷巘崿苍翠泉流潺湲松竹花卉为一郡最", "lore": "世传后魏郑文公修真于此，金刘国枢有记碑刻尚存"},
+      {"mtn_id": "MTN-005", "item_id": "25-002", "geo_id": "GEO-25002", "name": "马鞍山", "type": "山", "location_text": "在府城东南三十里", "description": "沽水源发于此，又有金山雄山土山军山优游山皆在界内", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-002", "geo_id": "GEO-25002", "name": "寒同山", "type": "山", "location_text": "在府城东三十五里", "description": "一名神山，掖水源发于此", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-002", "geo_id": "GEO-25002", "name": "三山岛", "type": "其他", "location_text": "在府城北五十里海之南岸", "description": "史记封禅书八祠三山为阴主即此，祠址尚存", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "25-002", "geo_id": "GEO-25002", "name": "蜉蝣岛", "type": "其他", "location_text": "在府城西北一百里", "description": "遥望岛在海中若蜉蝣然", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "25-002", "geo_id": "GEO-25002", "name": "神仙洞", "type": "洞", "location_text": "在府城东南一十五里", "description": "有洞七曰虚皇三清五祖六真长生披云灵官，有神仙石像四十九尊", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-002", "geo_id": "GEO-25002", "name": "盏石", "type": "其他", "location_text": "在府城北五十里北临大海", "description": "有一磐石方员五步上有污樽状", "lore": "世传秦始皇于此凿盏以盛酒醯祈祭百神"},
+      {"mtn_id": "MTN-011", "item_id": "25-002", "geo_id": "GEO-25002", "name": "坠星石", "type": "其他", "location_text": "在府城东北七十里", "description": "", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "25-002", "geo_id": "GEO-25002", "name": "掖河", "type": "河", "location_text": "源发府城东南寒同山西", "description": "流经城西又西北流会南阳河入于海", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "25-002", "geo_id": "GEO-25002", "name": "万岁河", "type": "河", "location_text": "在府城东北三十里", "description": "两岸皆沙，秦始皇汉武帝皆祷于此", "lore": ""},
+      {"mtn_id": "MTN-014", "item_id": "25-002", "geo_id": "GEO-25002", "name": "小沽河", "type": "河", "location_text": "源发府东南马鞍山东南", "description": "流经平度胶州即墨县界入海", "lore": ""},
+      {"mtn_id": "MTN-015", "item_id": "25-002", "geo_id": "GEO-25002", "name": "大沽河", "type": "河", "location_text": "源发登州府黄县蹲犬山南", "description": "流经平度州与小沽河通名为沽河", "lore": "左传沽尤以西注云沽即大沽河尤即小沽河"},
+      {"mtn_id": "MTN-016", "item_id": "25-002", "geo_id": "GEO-25002", "name": "轮井", "type": "井", "location_text": "在府城东北一十里", "description": "石穴下洞井口如轮无雕琢", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002", "name": "仇悆", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "高密县丞摄县事", "summary": "剖讼如流事无淹夕，州命摄司录，邑氓万余邀留"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002", "name": "董俊", "type": "名宦", "dynasty": "明", "native_place": "", "office": "莱州知府", "summary": "为政廉平宽猛得宜，民树碑颂其美"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002", "name": "薛瓘", "type": "名宦", "dynasty": "明", "native_place": "", "office": "莱州知府", "summary": "廉明节俭惠利及民，先守兖州以莱州守易之，兖民歌曰莫将莱州土来换兖州金"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002", "name": "崔恭", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知莱州府", "summary": "正德间知莱府，尚德化缓刑罚，蝗飞入境祷于神皆飞入海死，官至吏部尚书"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002", "name": "李楘", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知莱州", "summary": "弘治间以光禄少卿同知青州擢知莱州，葺学兴教莱人立石颂之"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002", "name": "宁戚", "type": "人物", "dynasty": "周", "native_place": "莱之夷维", "office": "齐桓公相", "summary": "饭牛扣角歌，齐桓公命后车载之授以卿位"},
+      {"per_id": "PER-007", "item_id": "25-002", "geo_id": "GEO-25002", "name": "晏婴", "type": "人物", "dynasty": "周", "native_place": "莱之夷维", "office": "齐景公相", "summary": "食不重肉妾不衣帛一狐裘三十年，尽忠补过名显诸侯"},
+      {"per_id": "PER-008", "item_id": "25-002", "geo_id": "GEO-25002", "name": "蔡齐", "type": "人物", "dynasty": "宋", "native_place": "胶水", "office": "参知政事", "summary": "举进士第一，累官参知政事，卒赠兵部尚书谥文忠"},
+      {"per_id": "PER-009", "item_id": "25-002", "geo_id": "GEO-25002", "name": "吴奎", "type": "人物", "dynasty": "宋", "native_place": "北海", "office": "参知政事", "summary": "举五经累官同知谏院，司马光言奎名望素重，论王安石新法"},
+      {"per_id": "PER-010", "item_id": "25-002", "geo_id": "GEO-25002", "name": "辛次膺", "type": "人物", "dynasty": "宋", "native_place": "莱州", "office": "参知政事", "summary": "政和初进士，立朝謇谔，仕宦五十年无纤毫挂吏议"},
+      {"per_id": "PER-011", "item_id": "25-002", "geo_id": "GEO-25002", "name": "王景", "type": "人物", "dynasty": "宋", "native_place": "掖县", "office": "太保", "summary": "五代累破契丹，宋加太保封平原郡王追封岐王谥文靖"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002", "name": "莱州府学", "type": "学校", "location_text": "在府治东", "history_lore": "宋明道间建，本朝宣德四年重修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002", "name": "东莱书院", "type": "书院", "location_text": "在府治西南", "history_lore": "宋儒吕祖谦以先世莱州人世号东莱先生，后人慕之为立书院，本朝景泰五年重修"},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002", "name": "无讼堂", "type": "宫室", "location_text": "在府治", "history_lore": "宋建政和三年有石月先生作记"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002", "name": "受宣堂", "type": "宫室", "location_text": "在府城东南隅", "history_lore": "世传邱处机修炼于此，辽金聘之皆不起，及元聘之即就道"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002", "name": "三山亭", "type": "宫室", "location_text": "在府城北", "history_lore": "世传汉武帝时建，可望海中蓬莱瀛洲方丈三山"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002", "name": "望海台", "type": "宫室", "location_text": "在府城东", "history_lore": "秦始皇所筑"},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002", "name": "幸台", "type": "宫室", "location_text": "在府城南门", "history_lore": "汉武帝东游海上访安期生登此台，当时碑刻尚存今已剥落"},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002", "name": "燕台", "type": "宫室", "location_text": "在府治东北二里", "history_lore": "后燕慕容德以东莱掖城为青州治因筑此台"},
+      {"site_id": "SITE-009", "item_id": "25-002", "geo_id": "GEO-25002", "name": "掖水桥", "type": "关梁", "location_text": "在府治西", "history_lore": "跨掖河"},
+      {"site_id": "SITE-010", "item_id": "25-002", "geo_id": "GEO-25002", "name": "万岁桥", "type": "关梁", "location_text": "在府城东北三十里", "history_lore": "跨万岁河"},
+      {"site_id": "SITE-011", "item_id": "25-002", "geo_id": "GEO-25002", "name": "资圣寺", "type": "寺观", "location_text": "在府城南门外", "history_lore": "金大定间建"},
+      {"site_id": "SITE-012", "item_id": "25-002", "geo_id": "GEO-25002", "name": "妙觉寺", "type": "寺观", "location_text": "在府城内", "history_lore": "元中统五年建"},
+      {"site_id": "SITE-013", "item_id": "25-002", "geo_id": "GEO-25002", "name": "青罗观", "type": "寺观", "location_text": "在府城内", "history_lore": "永乐间因旧重修"},
+      {"site_id": "SITE-014", "item_id": "25-002", "geo_id": "GEO-25002", "name": "万寿宫", "type": "寺观", "location_text": "在府城东神山下", "history_lore": "元至治初建，内有石洞七每洞皆有石像"},
+      {"site_id": "SITE-015", "item_id": "25-002", "geo_id": "GEO-25002", "name": "东海庙", "type": "祠庙", "location_text": "在府城西一十八里", "history_lore": "四海之一，本朝载在祀典"},
+      {"site_id": "SITE-016", "item_id": "25-002", "geo_id": "GEO-25002", "name": "六湾龙神庙", "type": "祠庙", "location_text": "在府城北三十里", "history_lore": "庑下有潭水渟滀而静深，世传有龙潜焉"},
+      {"site_id": "SITE-017", "item_id": "25-002", "geo_id": "GEO-25002", "name": "沙丘城", "type": "古迹", "location_text": "在掖县界内", "history_lore": "世传商纣所筑即秦始皇崩处，唐李白诗我来竟何事高卧沙丘城"},
+      {"site_id": "SITE-018", "item_id": "25-002", "geo_id": "GEO-25002", "name": "当利城", "type": "古迹", "location_text": "在府城西南三十六里", "history_lore": "汉县北齐废隋复置唐省入掖县"},
+      {"site_id": "SITE-019", "item_id": "25-002", "geo_id": "GEO-25002", "name": "曲台城", "type": "古迹", "location_text": "在府境", "history_lore": "唐置县后省入掖县"},
+      {"site_id": "SITE-020", "item_id": "25-002", "geo_id": "GEO-25002", "name": "万里沙", "type": "古迹", "location_text": "在府城东北三十里", "history_lore": "夹万岁河两岸沙长三百里，汉武帝元封元年大旱祈万里沙即此"}
+    ],
+    "prods": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "25-002", "cited_work": "寰宇记", "cited_work_ent_id": "ENT-015", "context": "立论", "original": "【寰宇记】"},
+      {"cit_id": "CIT-002", "item_id": "25-002", "cited_work": "隋志", "cited_work_ent_id": "ENT-016", "context": "证俗", "original": "【隋志】"},
+      {"cit_id": "CIT-003", "item_id": "25-002", "cited_work": "齐旧志", "cited_work_ent_id": "ENT-017", "context": "立论", "original": "【齐旧志】"},
+      {"cit_id": "CIT-004", "item_id": "25-002", "cited_work": "郡志", "cited_work_ent_id": null, "context": "立论", "original": "【郡志】"},
+      {"cit_id": "CIT-005", "item_id": "25-002", "cited_work": "宋史", "cited_work_ent_id": null, "context": "证俗", "original": "【宋史仇悆传】"},
+      {"cit_id": "CIT-006", "item_id": "25-002", "cited_work": "胶州志", "cited_work_ent_id": "ENT-018", "context": "证俗", "original": "【胶州志】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "prods空"}
+}

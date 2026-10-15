@@ -1,0 +1,73 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "黄县",
+  "region": "山东",
+  "type": "county",
+  "original": "黄县【在府城西南六十里汉旧县属东莱郡其治在今县东二十五里北齐徙今治隋因之唐宋及元俱属登州本朝因之编户五十里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "黄县", "type": "geo", "norm": "黄县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "莱山", "type": "mtn", "norm": "莱山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "蔚阳山", "type": "mtn", "norm": "蔚阳山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "芦山", "type": "mtn", "norm": "芦山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "蹲犬山", "type": "mtn", "norm": "蹲犬山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "九目山", "type": "mtn", "norm": "九目山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "浲水", "type": "mtn", "norm": "浲水", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "淳于髠", "type": "person", "norm": "淳于髠", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "刘渊", "type": "person", "norm": "刘渊", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c02",
+        "item_id": "25-001",
+        "name": "黄县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城西南六十里",
+          "households": {"count": 50, "unit": "里", "note": "编户五十里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c02", "dynasty": "汉", "era": null, "institution_name": "黄县", "action": "置", "detail": "汉旧县属东莱郡，其治在今县东二十五里"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c02", "dynasty": "南北朝", "era": "北齐", "institution_name": "黄县", "action": "迁", "detail": "北齐徙今治"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c02", "dynasty": "明", "era": null, "institution_name": "黄县", "action": "因之", "detail": "唐宋及元俱属登州，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "莱山", "type": "山", "location_text": "在黄县东南二十里", "description": "封禅书云齐之八祠莱山为月主", "lore": "一云山多仙圣所居"},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "蔚阳山", "type": "山", "location_text": "在黄县东二十里", "description": "", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "芦山", "type": "山", "location_text": "在黄县西南二十五里", "description": "下有芦山观，金县尹陈公撰真君宫碑记", "lore": "晋芦童子九岁居此，因食茯苓升仙，唐封冲禧真君"},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "蹲犬山", "type": "山", "location_text": "在黄县西南三十里", "description": "山似犬蹲有神", "lore": "汉刘宠出西都经此山，山犬吠之，宠曰山神谓我人也"},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "九目山", "type": "山", "location_text": "在府城东南七十里连山接黄县界", "description": "按晏谟齐记云山有九窍故名", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "浲水", "type": "河", "location_text": "源发黄县东南二十里", "description": "北流合黄水入海", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "刘渊", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知黄县", "summary": "弘治间知黄县，政尚宽和，旱祷辄应，及去民立去思碑"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "黄县学", "type": "学校", "location_text": "在县治东北", "history_lore": "洪武三十年建，永乐十三年重修"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "普安寺", "type": "寺观", "location_text": "在黄县治东北", "history_lore": "宋元祐间建"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "延真宫", "type": "寺观", "location_text": "在黄县芦山下", "history_lore": "即卢童子得道之所"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "月主祠", "type": "祠庙", "location_text": "在莱山之麓", "history_lore": "齐之八祠月主"},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "淳于髠墓", "type": "陵墓", "location_text": "在蔚阳山下", "history_lore": "髠齐之辩士"},
+      {"site_id": "SITE-006", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "士乡城", "type": "古迹", "location_text": "在黄县西北一十里", "history_lore": "汉书齐有士乡越有君子里谓此"},
+      {"site_id": "SITE-007", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "徐乡城", "type": "古迹", "location_text": "在黄县界内", "history_lore": "汉置县属东莱郡，武帝封胶东共王子为徐乡侯，东汉县省"},
+      {"site_id": "SITE-008", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "莱子城", "type": "古迹", "location_text": "在黄县东南二十五里", "history_lore": "古莱子国，地名龙门山峡之间，俗名莱子关；齐侯迁莱子于郳在国之东故曰东莱"},
+      {"site_id": "SITE-009", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "防城", "type": "古迹", "location_text": "在黄县南一百二十五里", "history_lore": "本防侯国，汉为防县，北齐省"},
+      {"site_id": "SITE-010", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "大入城", "type": "古迹", "location_text": "在黄县东北二十里", "history_lore": "魏司马懿伐东夷，将运粮入新罗筑此城以贮之"},
+      {"site_id": "SITE-011", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "中郎城", "type": "古迹", "location_text": "在黄县东", "history_lore": "郡国志石勒遣中郎将石开筑此城以防海故名"},
+      {"site_id": "SITE-012", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "宝花台", "type": "古迹", "location_text": "在黄县故金华宫西北", "history_lore": ""},
+      {"site_id": "SITE-013", "item_id": "25-001", "geo_id": "GEO-25001c02", "name": "浲水桥", "type": "关梁", "location_text": "在黄县东北三里", "history_lore": ""}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

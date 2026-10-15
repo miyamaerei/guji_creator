@@ -1,0 +1,44 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "历城县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c01",
+    "name": "历城县",
+    "type": "geo",
+    "norm": "历城县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c01",
+    "item_id": "22-001",
+    "name": "历城县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "附郭",
+     "households": {
+      "count": 98,
+      "unit": "里",
+      "note": "编户九十八里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

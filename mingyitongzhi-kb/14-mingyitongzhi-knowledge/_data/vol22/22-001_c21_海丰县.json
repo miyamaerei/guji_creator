@@ -1,0 +1,122 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "海丰县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c21",
+    "name": "海丰县",
+    "type": "geo",
+    "norm": "海丰县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c21",
+    "item_id": "22-001",
+    "name": "海丰县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s03",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东北六十里",
+     "households": {
+      "count": 43,
+      "unit": "里",
+      "note": "编户四十三里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-097",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "马谷山",
+    "type": "山",
+    "location_text": "在海丰县北八十里",
+    "description": "一名大山，中有洞深广二丈余",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-098",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "骝山",
+    "type": "山",
+    "location_text": "在海丰县北一百二十里",
+    "description": "一名小山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-099",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "黄龙湾",
+    "type": "潭",
+    "location_text": "在海丰县北七十里",
+    "description": "久旱不涸",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-100",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "无棣沟",
+    "type": "河",
+    "location_text": "在海丰县西北十五里",
+    "description": "东与鬲津河合",
+    "lore": "唐刺史薛大鼎因故道开之达海以通鱼盐之利，今淤塞"
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-026",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "海丰县学",
+    "type": "学校",
+    "location_text": "在县治东南",
+    "history_lore": "洪武三年建"
+   },
+   {
+    "site_id": "SITE-082",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "大觉寺",
+    "type": "寺观",
+    "location_text": "在海丰县治东南",
+    "history_lore": "中有古塔"
+   },
+   {
+    "site_id": "SITE-128",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "孟善墓",
+    "type": "陵墓",
+    "location_text": "在海丰县东南三里",
+    "history_lore": ""
+   },
+   {
+    "site_id": "SITE-130",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c21",
+    "name": "王佐墓",
+    "type": "陵墓",
+    "location_text": "在海丰县西南一里",
+    "history_lore": ""
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

@@ -1,0 +1,74 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "福山县",
+  "region": "山东",
+  "type": "county",
+  "original": "福山县【在府城东一百四十里本汉腄县地属东莱郡晋废唐以后地属登州金时刘豫始析登州之两水镇置福山县元仍旧本朝因之编户二十九里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "福山县", "type": "geo", "norm": "福山县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "祝圣山", "type": "mtn", "norm": "祝圣山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "福山", "type": "mtn", "norm": "福山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "侧立山", "type": "mtn", "norm": "侧立山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "峿山", "type": "mtn", "norm": "峿山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "之罘山", "type": "mtn", "norm": "之罘山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "磁山", "type": "mtn", "norm": "磁山", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "义井河", "type": "mtn", "norm": "义井河", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "奇泉", "type": "mtn", "norm": "奇泉", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "圣水泉", "type": "mtn", "norm": "圣水泉", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "张起岩", "type": "person", "norm": "张起岩", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c03",
+        "item_id": "25-001",
+        "name": "福山县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城东一百四十里",
+          "households": {"count": 29, "unit": "里", "note": "编户二十九里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c03", "dynasty": "汉", "era": null, "institution_name": "腄县地", "action": "因之", "detail": "本汉腄县地属东莱郡，晋废"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c03", "dynasty": "唐", "era": null, "institution_name": "登州地", "action": "因之", "detail": "唐以后地属登州"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c03", "dynasty": "金", "era": null, "institution_name": "福山县", "action": "置", "detail": "金时刘豫始析登州之两水镇置福山县"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001c03", "dynasty": "明", "era": null, "institution_name": "福山县", "action": "因之", "detail": "元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "祝圣山", "type": "山", "location_text": "在福山县东南二里", "description": "又名芝山南有抗仙峰芝阳洞", "lore": "俗传马丹阳升仙之地"},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "福山", "type": "山", "location_text": "在福山县北五里", "description": "本在登州两水镇，金时刘豫以此地有福取以名县；又有碁山及积金山", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "侧立山", "type": "山", "location_text": "在福山县西北三十五里", "description": "山之主峰西向侧立特出群峰之外故名", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "峿山", "type": "山", "location_text": "在福山县南三十里连栖霞县界", "description": "山势嵯峨草木畅茂，上有峿寺及圣水一泓", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "之罘山", "type": "山", "location_text": "在福山县东北三十五里连文登县界", "description": "周围五十里三面濒海", "lore": "史记秦始皇二十九年登之罘刻石纪功；郊祀志齐有八祠之罘为阳主；汉武登之罘山间称万岁"},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "磁山", "type": "山", "location_text": "在福山县南三十五里", "description": "东南有洞深三丈许内有石佛像，下有泉二泓澄澈可鉴", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "大河", "type": "河", "location_text": "源发栖霞县治南", "description": "东流经福山县界合清洋河入海", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "义井河", "type": "河", "location_text": "在福山县西南三十里", "description": "源出栖霞县翠屏山之西，流经城东清洋河入海", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "奇泉", "type": "泉", "location_text": "在福山县西三里", "description": "泉从石孔涌出味甘美冬温夏冷", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "圣水泉", "type": "泉", "location_text": "一在福山县西北三十五里侧立山东北，一在峿山顶", "description": "水皆莹洁，岁旱祷雨辄应", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "张起岩", "type": "名宦", "dynasty": "元", "native_place": "", "office": "福山县学教谕", "summary": "值县官捕蝗移摄县事听断明允，后升同知登州事"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "段坚", "type": "名宦", "dynasty": "明", "native_place": "", "office": "福山知县", "summary": "由福山知县升知登州府"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "福山县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武三年建"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "福圣寺", "type": "寺观", "location_text": "在福山县治西", "history_lore": "金大定间建"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "修真观", "type": "寺观", "location_text": "在福山县南", "history_lore": "金大定间建"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "阳主祠", "type": "祠庙", "location_text": "在之罘山下", "history_lore": "旧有秦始皇所树石刻，字画剥脱"},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "齐康公墓", "type": "陵墓", "location_text": "在之罘山上", "history_lore": "田和墓，齐迁康公于海滨死葬于此，土人讹为康王墓"},
+      {"site_id": "SITE-006", "item_id": "25-001", "geo_id": "GEO-25001c03", "name": "牟城", "type": "古迹", "location_text": "在福山县西北三十里", "history_lore": "世传春秋时牟子所筑"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

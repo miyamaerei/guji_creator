@@ -1,0 +1,74 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "栖霞县",
+  "region": "山东",
+  "type": "county",
+  "original": "栖霞县【在府城东南一百五十里亦汉腄县地属东莱郡唐以后地属登州金时刘豫始析登州之杨疃镇置栖霞县元仍旧本朝因之编户四十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "栖霞县", "type": "geo", "norm": "栖霞县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "翠屏山", "type": "mtn", "norm": "翠屏山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "岠嵎山", "type": "mtn", "norm": "岠嵎山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "艾山", "type": "mtn", "norm": "艾山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "北曲山", "type": "mtn", "norm": "北曲山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "百涧山", "type": "mtn", "norm": "百涧山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "灵山", "type": "mtn", "norm": "灵山", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "丘处机", "type": "person", "norm": "丘处机", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "高翼", "type": "person", "norm": "高翼", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "解延年", "type": "person", "norm": "解延年", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "孙鬍", "type": "person", "norm": "孙鬍", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c04",
+        "item_id": "25-001",
+        "name": "栖霞县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城东南一百五十里",
+          "households": {"count": 46, "unit": "里", "note": "编户四十六里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c04", "dynasty": "汉", "era": null, "institution_name": "腄县地", "action": "因之", "detail": "亦汉腄县地属东莱郡"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c04", "dynasty": "唐", "era": null, "institution_name": "登州地", "action": "因之", "detail": "唐以后地属登州"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c04", "dynasty": "金", "era": null, "institution_name": "栖霞县", "action": "置", "detail": "金时刘豫始析登州之杨疃镇置栖霞县"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001c04", "dynasty": "明", "era": null, "institution_name": "栖霞县", "action": "因之", "detail": "元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "翠屏山", "type": "山", "location_text": "在栖霞县治南", "description": "", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "岠嵎山", "type": "山", "location_text": "在栖霞县东二十里", "description": "尝产金亦名金山", "lore": "宋史庆历六年登州地震，岠嵎山摧即此"},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "艾山", "type": "山", "location_text": "在栖霞县西北三十里", "description": "山前有温泉", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "北曲山", "type": "山", "location_text": "在栖霞县西北三十里", "description": "产铁，又有方山唐山", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "百涧山", "type": "山", "location_text": "在栖霞县东五十里", "description": "山多水泉故名，旧产铁", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "灵山", "type": "山", "location_text": "在招远县西南五十里，又栖霞县东五里亦有灵峰", "description": "山神最灵，岁旱祷雨辄应", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "温泉", "type": "泉", "location_text": "在栖霞县艾山之麓", "description": "甃石为池引以澡浴", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "李自牧", "type": "名宦", "dynasty": "金", "native_place": "", "office": "栖霞县令", "summary": "专尚德化政简讼清，邑中大治"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "王鼎臣", "type": "名宦", "dynasty": "元", "native_place": "", "office": "栖霞县尹", "summary": "未期年政化大行而泽及于民，风俗为之一变"},
+      {"per_id": "PER-003", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "隋世昌", "type": "人物", "dynasty": "元", "native_place": "栖霞", "office": "安远大将军", "summary": "善骑射，常持铁枪重四十余斤能左右击刺，封定海侯谥忠勇"},
+      {"per_id": "PER-004", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "高翼", "type": "人物", "dynasty": "明", "native_place": "栖霞", "office": "都察院左都御史", "summary": "洪武中以才行卓异仕于朝，后命佐师征云南"},
+      {"per_id": "PER-005", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "解延年", "type": "人物", "dynasty": "明", "native_place": "栖霞", "office": "知顺庆府", "summary": "正统中进士，政先德化郡民祠之，著有物类稿"},
+      {"per_id": "PER-006", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "孙鬍", "type": "人物", "dynasty": "明", "native_place": "栖霞", "office": "山西右参政", "summary": "弘治间进士，忤刘瑾被禁锢，后知扬州有善政，累官浙江右布政"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "栖霞县学", "type": "学校", "location_text": "在县治东", "history_lore": "正统七年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "尊经阁", "type": "宫室", "location_text": "在栖霞县学", "history_lore": "元大德中县尹张鹏建"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "延福寺", "type": "寺观", "location_text": "在栖霞县治西", "history_lore": "元至正间建"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "太虚宫", "type": "寺观", "location_text": "在栖霞县北一十里", "history_lore": "即元丘处机得道之所"},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001c04", "name": "禧果", "type": "仙释", "location_text": "栖霞法胜庵", "history_lore": "本青州寿光人，永乐元年迁登州栖霞创法胜庵"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

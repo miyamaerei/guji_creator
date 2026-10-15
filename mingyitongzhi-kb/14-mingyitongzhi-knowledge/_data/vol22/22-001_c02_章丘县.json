@@ -1,0 +1,314 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "章丘县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c02",
+    "name": "章丘县",
+    "type": "geo",
+    "norm": "章丘县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c02",
+    "item_id": "22-001",
+    "name": "章丘县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城东一百一十里",
+     "households": {
+      "count": 103,
+      "unit": "里",
+      "note": "编户一百三里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [
+   {
+    "mtn_id": "MTN-030",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "女郎山",
+    "type": "山",
+    "location_text": "在章丘县南七里",
+    "description": "齐记云章亥有三女溺死葬此故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-031",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "黉山",
+    "type": "山",
+    "location_text": "在章丘县东二十五里",
+    "description": "一名黉堂岭，连淄川邹平二县界",
+    "lore": "三齐略云郑玄刊注诗书于此，上有古井生草似薤谓之郑公书带草；山下有堂，宋范仲淹尝游学"
+   },
+   {
+    "mtn_id": "MTN-032",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "乐盘山",
+    "type": "山",
+    "location_text": "在章丘县南二十七里",
+    "description": "下有乐盘城，即平陵王与章丘侯饯送之地",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-033",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "龙盘山",
+    "type": "山",
+    "location_text": "在章丘县南二十八里",
+    "description": "三齐记殷末周初有龙潜于此，上有神迹祠",
+    "lore": "相传姜嫄所履者"
+   },
+   {
+    "mtn_id": "MTN-034",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "东陵山",
+    "type": "山",
+    "location_text": "在章丘县南二十八里",
+    "description": "与龙盘山相近，盗跖死处",
+    "lore": "南有跖墓"
+   },
+   {
+    "mtn_id": "MTN-035",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "鸡山",
+    "type": "山",
+    "location_text": "在章丘县西南四十里",
+    "description": "昔有鸡鸣其上，候之者获一石洁白如玉",
+    "lore": "下有防柳泉"
+   },
+   {
+    "mtn_id": "MTN-036",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "湖山",
+    "type": "山",
+    "location_text": "在章丘县南五十里",
+    "description": "下有小山俗名一品山，有翁婆庙祷雨辄应",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-037",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "虎门山",
+    "type": "山",
+    "location_text": "在章丘县西南六十里",
+    "description": "石崖中断若门故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-038",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "龙堂洞",
+    "type": "洞",
+    "location_text": "在章丘县东南八十里",
+    "description": "洞高如半空宽如广厦深不可测，石壁上有佛像",
+    "lore": "旁有系龙柱及卧龙遗迹"
+   },
+   {
+    "mtn_id": "MTN-039",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "圣井",
+    "type": "井",
+    "location_text": "在章丘县南危山之顶",
+    "description": "穿石而成，汲不竭存不盈",
+    "lore": "邹平县西南亦有圣水井，遇旱祷雨皆应"
+   },
+   {
+    "mtn_id": "MTN-040",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "上方井",
+    "type": "井",
+    "location_text": "在章丘县东二十里",
+    "description": "常流不竭",
+    "lore": "去一里许有下方井常盈不流"
+   },
+   {
+    "mtn_id": "MTN-041",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "白云湖",
+    "type": "湖",
+    "location_text": "在章丘县西北",
+    "description": "周围五十里，俗名刘郎中泊",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-042",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "百脉泉",
+    "type": "泉",
+    "location_text": "在章丘县南三十里",
+    "description": "百脉俱发故名",
+    "lore": "曾巩云历下诸泉皆岱阴伏流所发，东则百脉为冠"
+   },
+   {
+    "mtn_id": "MTN-043",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "净明泉",
+    "type": "泉",
+    "location_text": "在百脉泉西北",
+    "description": "俗呼东麻湾泉，其水至洁可以洗目退昏翳",
+    "lore": "其西有西麻湾泉，俱北流入淯河"
+   },
+   {
+    "mtn_id": "MTN-044",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "漯河",
+    "type": "河",
+    "location_text": "在章丘县东北七里",
+    "description": "源出长白山西北流入小清河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-045",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "淯河",
+    "type": "河",
+    "location_text": "一名绣江",
+    "description": "源发章丘县会仙山，合百脉泉及东西二麻湾泉西北汇为白云湖，北流入小清河",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-007",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "章丘县学",
+    "type": "学校",
+    "location_text": "在县治西南",
+    "history_lore": "洪武三年因旧基建，永乐十六年重修"
+   },
+   {
+    "site_id": "SITE-039",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "读书堂",
+    "type": "宫室",
+    "location_text": "在章丘县黉山上",
+    "history_lore": "宋范仲淹读书于此"
+   },
+   {
+    "site_id": "SITE-048",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "绣江亭",
+    "type": "宫室",
+    "location_text": "在章丘县绣江之滨",
+    "history_lore": "金元好问游济与府参佐张子钧张飞卿觞于绣江亭"
+   },
+   {
+    "site_id": "SITE-049",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "饮江亭",
+    "type": "宫室",
+    "location_text": "在章丘县治后",
+    "history_lore": "元县尹李惟肃廉恕刚明，吏民德之，尝指绣江曰吾惟饮此水耳，人为作亭"
+   },
+   {
+    "site_id": "SITE-065",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "凤江桥",
+    "type": "关梁",
+    "location_text": "在章丘县西北小清河上",
+    "history_lore": ""
+   },
+   {
+    "site_id": "SITE-073",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "琉璃寺",
+    "type": "寺观",
+    "location_text": "在章丘县治西",
+    "history_lore": "又名广岩寺"
+   },
+   {
+    "site_id": "SITE-094",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "岱岳观",
+    "type": "寺观",
+    "location_text": "在章丘县治西南隅",
+    "history_lore": "永乐间因旧重修"
+   },
+   {
+    "site_id": "SITE-114",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "齐国公祠",
+    "type": "祠庙",
+    "location_text": "在章丘县学内",
+    "history_lore": "祀元翰林学士承旨刘敏中"
+   },
+   {
+    "site_id": "SITE-118",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "邹衍墓",
+    "type": "陵墓",
+    "location_text": "在章丘县东一十里",
+    "history_lore": "衍齐辩士"
+   },
+   {
+    "site_id": "SITE-119",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "平陵王墓",
+    "type": "陵墓",
+    "location_text": "在章丘县东北二十里危山上",
+    "history_lore": "王汉宗室"
+   },
+   {
+    "site_id": "SITE-123",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "房彦谦墓",
+    "type": "陵墓",
+    "location_text": "在章丘县西三十里",
+    "history_lore": "唐李百药撰碑，欧阳询书"
+   },
+   {
+    "site_id": "SITE-134",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c02",
+    "name": "洪汉墓",
+    "type": "陵墓",
+    "location_text": "在章丘县西南十五里",
+    "history_lore": ""
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

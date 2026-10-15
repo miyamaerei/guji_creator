@@ -1,0 +1,90 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "陵县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c15",
+    "name": "陵县",
+    "type": "geo",
+    "norm": "陵县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c15",
+    "item_id": "22-001",
+    "name": "陵县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在府城西北二百四十里",
+     "households": {
+      "count": 32,
+      "unit": "里",
+      "note": "编户三十二里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-020",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c15",
+    "name": "陵县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "洪武十四年因元德州学基重建"
+   },
+   {
+    "site_id": "SITE-104",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c15",
+    "name": "东方朔庙",
+    "type": "祠庙",
+    "location_text": "在陵县厌次故城",
+    "history_lore": "祀汉东方朔，宋元丰间封知辩侯"
+   },
+   {
+    "site_id": "SITE-108",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c15",
+    "name": "颜真卿祠",
+    "type": "祠庙",
+    "location_text": "在陵县南门内",
+    "history_lore": "元末兵燬，本朝景泰元年重建，祀唐平原太守颜真卿"
+   },
+   {
+    "site_id": "SITE-121",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c15",
+    "name": "东方朔墓",
+    "type": "陵墓",
+    "location_text": "在陵县东北二十二里",
+    "history_lore": "有唐颜真卿所书碑刻"
+   },
+   {
+    "site_id": "SITE-143",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c15",
+    "name": "厌次城",
+    "type": "古迹",
+    "location_text": "在陵县东北二十里",
+    "history_lore": "汉置县属平原郡，隋属渤海郡，唐属沧州后废"
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

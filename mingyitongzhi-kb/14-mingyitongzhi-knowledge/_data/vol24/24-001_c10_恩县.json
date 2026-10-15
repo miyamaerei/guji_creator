@@ -1,0 +1,223 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "恩县",
+  "region": "山东",
+  "original": "恩县【在州北七十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "恩县",
+        "type": "geo",
+        "norm": "恩县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c10",
+        "item_id": "24-001",
+        "name": "恩县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s02",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州北七十里",
+          "households": {
+            "count": 37,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "贝邱",
+        "action": "因之",
+        "detail": "本春秋齐贝邱"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "钜鹿郡地",
+        "action": "置",
+        "detail": "秦为钜鹿郡地；汉置清河郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "贝州",
+        "action": "置",
+        "detail": "后魏移置清河郡及县于汉历城；北齐移治汉武城县；后周置贝州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "贝州",
+        "action": "因之",
+        "detail": "隋罢郡以清河县属贝州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "永清军",
+        "action": "升",
+        "detail": "五代晋升为永清军"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "恩州",
+        "action": "改",
+        "detail": "宋改为恩州；金属大名府"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "恩县",
+        "action": "降",
+        "detail": "元直隶省部；本朝改为县属高唐州，徙今治"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "西山",
+        "type": "山",
+        "location_text": "在恩县西四十里",
+        "description": "旧恩县遗址在焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "津期河",
+        "type": "河",
+        "location_text": "在恩县南二十里",
+        "description": "溢涸无常，不通舟楫",
+        "lore": "或曰即旧永济渠也"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "王庭筠",
+        "type": "名宦",
+        "dynasty": "金",
+        "native_place": "",
+        "office": "恩州军事判官",
+        "summary": "临政有声；郡民邹四谋不轨，逮捕千余人，庭筠以计获之，分别诖误，坐预谋者十二人而已"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "张好古",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "恩州刺史",
+        "summary": "中统初为恩州刺史，访民瘼，革吏弊，立为条约"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "耶律伯坚",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "恩州同知",
+        "summary": "在郡有循良之政，凡赋役有重者必力争止之，民亲戴之"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "毛佺",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "恩州",
+        "office": "都尉",
+        "summary": "宣宗南渡率众归国，哀宗迁蔡以佺为都尉；城破自缢，其子先佺战殁"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "恩县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "洪武七年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "津期桥",
+        "type": "关梁",
+        "location_text": "在恩县南津期河上",
+        "history_lore": "今名永长桥"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "崇兴寺",
+        "type": "寺观",
+        "location_text": "在恩县治东北",
+        "history_lore": "洪武中重建"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c10",
+        "name": "四女树",
+        "type": "古迹",
+        "location_text": "在恩县西北五十里",
+        "history_lore": "有古槐一章，俗传为四女同植者"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

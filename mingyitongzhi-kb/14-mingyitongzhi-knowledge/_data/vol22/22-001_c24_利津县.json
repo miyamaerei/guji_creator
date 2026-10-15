@@ -1,0 +1,72 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "利津县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c24",
+    "name": "利津县",
+    "type": "geo",
+    "norm": "利津县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c24",
+    "item_id": "22-001",
+    "name": "利津县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s04",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东六十里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [
+   {
+    "site_id": "SITE-029",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c24",
+    "name": "利津县学",
+    "type": "学校",
+    "location_text": "在县治东",
+    "history_lore": "永乐八年建"
+   },
+   {
+    "site_id": "SITE-084",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c24",
+    "name": "洪济寺",
+    "type": "寺观",
+    "location_text": "在利津县治东北",
+    "history_lore": "金明昌初建"
+   },
+   {
+    "site_id": "SITE-097",
+    "item_id": "22-001",
+    "geo_id": "GEO-22001-c24",
+    "name": "白鹤观",
+    "type": "寺观",
+    "location_text": "在利津县永和乡",
+    "history_lore": ""
+   }
+  ],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

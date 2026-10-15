@@ -1,0 +1,104 @@
+{
+  "item_id": "25-001",
+  "volume": "25",
+  "source": "文登县",
+  "region": "山东",
+  "type": "county",
+  "original": "文登县【在州东南一百二十里本古不夜城汉置不夜县属东莱郡东汉以后省入牟平县北齐始置文登县取山为名唐武德中于此置登州寻废后复置登州于牟平县文登县属焉金属宁海州元仍旧本朝因之编户六十九里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "文登县", "type": "geo", "norm": "文登县", "first_source": "25-001"},
+      {"ent_id": "ENT-002", "name": "文登山", "type": "mtn", "norm": "文登山", "first_source": "25-001"},
+      {"ent_id": "ENT-003", "name": "白鹿山", "type": "mtn", "norm": "白鹿山", "first_source": "25-001"},
+      {"ent_id": "ENT-004", "name": "五垒山", "type": "mtn", "norm": "五垒山", "first_source": "25-001"},
+      {"ent_id": "ENT-005", "name": "石门山", "type": "mtn", "norm": "石门山", "first_source": "25-001"},
+      {"ent_id": "ENT-006", "name": "斥山", "type": "mtn", "norm": "斥山", "first_source": "25-001"},
+      {"ent_id": "ENT-007", "name": "铁槎山", "type": "mtn", "norm": "铁槎山", "first_source": "25-001"},
+      {"ent_id": "ENT-008", "name": "成山", "type": "mtn", "norm": "成山", "first_source": "25-001"},
+      {"ent_id": "ENT-009", "name": "召石山", "type": "mtn", "norm": "召石山", "first_source": "25-001"},
+      {"ent_id": "ENT-010", "name": "铁官山", "type": "mtn", "norm": "铁官山", "first_source": "25-001"},
+      {"ent_id": "ENT-011", "name": "海牛岛", "type": "mtn", "norm": "海牛岛", "first_source": "25-001"},
+      {"ent_id": "ENT-012", "name": "送驾河", "type": "mtn", "norm": "送驾河", "first_source": "25-001"},
+      {"ent_id": "ENT-013", "name": "昌阳汤", "type": "mtn", "norm": "昌阳汤", "first_source": "25-001"},
+      {"ent_id": "ENT-014", "name": "甘泉", "type": "mtn", "norm": "甘泉", "first_source": "25-001"},
+      {"ent_id": "ENT-015", "name": "五龙池", "type": "mtn", "norm": "五龙池", "first_source": "25-001"},
+      {"ent_id": "ENT-016", "name": "九阳池", "type": "mtn", "norm": "九阳池", "first_source": "25-001"},
+      {"ent_id": "ENT-017", "name": "郭长倩", "type": "person", "norm": "郭长倩", "first_source": "25-001"},
+      {"ent_id": "ENT-018", "name": "史嗣贞", "type": "person", "norm": "史嗣贞", "first_source": "25-001"},
+      {"ent_id": "ENT-019", "name": "张凤", "type": "person", "norm": "张凤", "first_source": "25-001"},
+      {"ent_id": "ENT-020", "name": "李敬", "type": "person", "norm": "李敬", "first_source": "25-001"},
+      {"ent_id": "ENT-021", "name": "毕氏", "type": "person", "norm": "毕氏", "first_source": "25-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25001c07",
+        "item_id": "25-001",
+        "name": "文登县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25001s01",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在宁海州东南一百二十里",
+          "households": {"count": 69, "unit": "里", "note": "编户六十九里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-001", "geo_id": "GEO-25001c07", "dynasty": "汉", "era": null, "institution_name": "不夜县", "action": "置", "detail": "本古不夜城，汉置不夜县属东莱郡"},
+      {"evo_id": "EVO-002", "item_id": "25-001", "geo_id": "GEO-25001c07", "dynasty": "东汉", "era": null, "institution_name": "牟平县地", "action": "省", "detail": "东汉以后省入牟平县"},
+      {"evo_id": "EVO-003", "item_id": "25-001", "geo_id": "GEO-25001c07", "dynasty": "南北朝", "era": "北齐", "institution_name": "文登县", "action": "置", "detail": "北齐始置文登县，取山为名"},
+      {"evo_id": "EVO-004", "item_id": "25-001", "geo_id": "GEO-25001c07", "dynasty": "唐", "era": "武德", "institution_name": "登州", "action": "置", "detail": "唐武德中于此置登州寻废，后复置登州于牟平县，文登县属焉"},
+      {"evo_id": "EVO-005", "item_id": "25-001", "geo_id": "GEO-25001c07", "dynasty": "金", "era": null, "institution_name": "文登县", "action": "因之", "detail": "金属宁海州"},
+      {"evo_id": "EVO-006", "item_id": "25-001", "geo_id": "GEO-25001c07", "dynasty": "明", "era": null, "institution_name": "文登县", "action": "因之", "detail": "元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "文登山", "type": "山", "location_text": "在文登县东二里", "description": "世传秦始皇东巡召集文士登此山论功颂德故名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "白鹿山", "type": "山", "location_text": "在文登县北四十里", "description": "唐刺史毕元恺于此获白鹿进之故名", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "五垒山", "type": "山", "location_text": "在文登县南五十里", "description": "南北成行入海如垒", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "石门山", "type": "山", "location_text": "在文登县东南五十里", "description": "东西二石耸立如门；又宁海州东南五十里蓬莱县四十五里俱有石门山", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "斥山", "type": "山", "location_text": "在文登县东南六十里", "description": "盖取海滨广斥之义为名", "lore": "尔雅云东北之美有斥山之文皮焉"},
+      {"mtn_id": "MTN-006", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "铁槎山", "type": "山", "location_text": "在文登县南一百二十里", "description": "山有九顶南瞰大海下有水帘洞，中有石洞十余潮至荡击声响如雷", "lore": "山之东有云光洞，世传王阳真人修炼于此"},
+      {"mtn_id": "MTN-007", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "成山", "type": "山", "location_text": "在文登县南一百二十里海滨", "description": "史记秦始皇过黄腄穷成山，汉武帝幸东海拜日于成山", "lore": "郊祀志齐有成山为日主"},
+      {"mtn_id": "MTN-008", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "召石山", "type": "山", "location_text": "在成山东", "description": "三齐略云始皇造石桥欲渡海观日出处，神人召石于山下，今山下之石皆赤色", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "铁官山", "type": "山", "location_text": "在文登县西一百四十里", "description": "汉置铁官冶铸遗迹尚存", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "海牛岛", "type": "其他", "location_text": "在文登县北海中", "description": "海牛无角长丈余紫色足似龟尾若鲇鱼，皮堪弓鞬脂可燃灯；又有海驴岛相近", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "送驾河", "type": "河", "location_text": "源发文登县东北四十里正碁山", "description": "经本县南入海", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "昌阳汤", "type": "泉", "location_text": "在文登县西南四十里", "description": "周回四十二步，南流入黑水", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "温泉", "type": "泉", "location_text": "在文登县西七里", "description": "东北六十里有温泉，皆寒温二泉并发", "lore": ""},
+      {"mtn_id": "MTN-014", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "甘泉", "type": "泉", "location_text": "在文登县西三十里", "description": "泉出石穴色莹味甘，冬夏旱涝不加增损", "lore": ""},
+      {"mtn_id": "MTN-015", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "五龙池", "type": "池", "location_text": "在文登县西三里", "description": "上有五龙神庙", "lore": ""},
+      {"mtn_id": "MTN-016", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "九阳池", "type": "池", "location_text": "在文登县西五十里", "description": "池有九曰玉华金莲龙吟虎啸化生婴姹王母洞天彩云", "lore": "皆马丹阳真人所名，旱涝水不增损"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "郭长倩", "type": "人物", "dynasty": "金", "native_place": "文登", "office": "秘书少监兼户部郎中", "summary": "登经义乙科，修起居注，尝撰石决明传，所著有昆仑集"},
+      {"per_id": "PER-002", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "史嗣贞", "type": "名宦", "dynasty": "元", "native_place": "", "office": "文登县令", "summary": "正直不受私谒，发奸摘伏庭无留讼，及代去民立生祠祀之"},
+      {"per_id": "PER-003", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "吴邦杰", "type": "名宦", "dynasty": "金", "native_place": "", "office": "登州判官", "summary": "为元兵所得驱令攻城，邦杰曰吾荷国恩讵忍攻吾君之城，被杀"},
+      {"per_id": "PER-004", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "张凤", "type": "名宦", "dynasty": "明", "native_place": "", "office": "文登知县", "summary": "洪武初文登知县，廉明正直刚毅果断，兴崇学校去后人思慕之"},
+      {"per_id": "PER-005", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "李敬", "type": "名宦", "dynasty": "明", "native_place": "", "office": "文登县知县", "summary": "识大体急时务有良吏风，迁去民为之立碑"},
+      {"per_id": "PER-006", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "毕氏", "type": "列女", "dynasty": "明", "native_place": "文登", "office": "邢和妻", "summary": "和亡毕为守节，弘治十年事闻旌表贞节"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "文登县学", "type": "学校", "location_text": "在县治东北", "history_lore": "宋建，本朝洪武七年重建"},
+      {"site_id": "SITE-002", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "秦皇宫", "type": "宫室", "location_text": "在文登县东北一百八十里", "history_lore": "始皇东游时所筑"},
+      {"site_id": "SITE-003", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "朝阳亭", "type": "宫室", "location_text": "在文登县", "history_lore": "宋庆历间建，取渡海观日之义以名"},
+      {"site_id": "SITE-004", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "望海台", "type": "宫室", "location_text": "在文登县东北一百二十里", "history_lore": "世传秦始皇筑此台以望沧海"},
+      {"site_id": "SITE-005", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "香岩寺", "type": "寺观", "location_text": "在文登县管山都景福中", "history_lore": "重修"},
+      {"site_id": "SITE-006", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "东华观", "type": "寺观", "location_text": "在文登县西五十里", "history_lore": "金马丹阳修道于此，后有紫府洞"},
+      {"site_id": "SITE-007", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "日主祠", "type": "祠庙", "location_text": "在成山之阳", "history_lore": "齐八祠日主"},
+      {"site_id": "SITE-008", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "海神庙", "type": "祠庙", "location_text": "在文登县南六十里", "history_lore": "相传秦始皇造石桥欲渡海观日，海神为驱石"},
+      {"site_id": "SITE-009", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "史嗣贞祠", "type": "祠庙", "location_text": "在文登县治前", "history_lore": "元县尹有德政，县人建祠设像而祀之"},
+      {"site_id": "SITE-010", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "不夜城", "type": "古迹", "location_text": "在文登县东北八十里", "history_lore": "齐地记云古有日夜出见于东莱，故莱子立此城以不夜为名；汉置县后省"},
+      {"site_id": "SITE-011", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "不夜亭", "type": "古迹", "location_text": "在文登县不夜故城", "history_lore": ""},
+      {"site_id": "SITE-012", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "牟平城", "type": "古迹", "location_text": "在府城东南九十里", "history_lore": "汉置县属东莱郡，武帝封齐孝王渫为牟平侯即此；北齐移治黄县马岭之南"},
+      {"site_id": "SITE-013", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "东牟城", "type": "古迹", "location_text": "在文登县西北一十里", "history_lore": "汉旧县有铁官盐官又为侯国"},
+      {"site_id": "SITE-014", "item_id": "25-001", "geo_id": "GEO-25001c07", "name": "腄城", "type": "古迹", "location_text": "在文登县西七十里", "history_lore": "汉置县寻省"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

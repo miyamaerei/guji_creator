@@ -1,0 +1,44 @@
+{
+ "item_id": "22-001",
+ "volume": "22",
+ "source": "德平县",
+ "region": "山东",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c18",
+    "name": "德平县",
+    "type": "geo",
+    "norm": "德平县",
+    "first_source": "22-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-22001-c18",
+    "item_id": "22-001",
+    "name": "德平县",
+    "type": "county",
+    "region": "山东",
+    "parent": "GEO-22001-s02",
+    "children": [],
+    "volume_range": "卷22",
+    "attributes": {
+     "location_text": "在州城东一百六十里",
+     "households": {
+      "count": 41,
+      "unit": "里",
+      "note": "编户四十一里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

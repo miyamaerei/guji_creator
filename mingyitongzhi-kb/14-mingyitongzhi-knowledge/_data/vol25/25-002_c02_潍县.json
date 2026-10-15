@@ -1,0 +1,101 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "潍县",
+  "region": "山东",
+  "type": "county",
+  "original": "潍县【在州西一百八十里本汉下密县属胶东国隋改北海县唐置潍州治北海县寻废州以县属青州宋建北海军寻复为潍州金属山东东路元属益都路本朝省县入州又改州为县属莱州府后改隶平度州编户八十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "潍县", "type": "geo", "norm": "潍县", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "孤山", "type": "mtn", "norm": "孤山", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "塔山", "type": "mtn", "norm": "塔山", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "几山", "type": "mtn", "norm": "几山", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "擂鼓山", "type": "mtn", "norm": "擂鼓山", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "白浪河", "type": "mtn", "norm": "白浪河", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "东丹河", "type": "mtn", "norm": "东丹河", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "西丹河", "type": "mtn", "norm": "西丹河", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "八角池", "type": "mtn", "norm": "八角池", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "韩熙载", "type": "person", "norm": "韩熙载", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "滕中正", "type": "person", "norm": "滕中正", "first_source": "25-002"},
+      {"ent_id": "ENT-012", "name": "孙祖德", "type": "person", "norm": "孙祖德", "first_source": "25-002"},
+      {"ent_id": "ENT-013", "name": "刘阅", "type": "person", "norm": "刘阅", "first_source": "25-002"},
+      {"ent_id": "ENT-014", "name": "李公谅", "type": "person", "norm": "李公谅", "first_source": "25-002"},
+      {"ent_id": "ENT-015", "name": "宋兑", "type": "person", "norm": "宋兑", "first_source": "25-002"},
+      {"ent_id": "ENT-016", "name": "张氏", "type": "person", "norm": "张氏", "first_source": "25-002"},
+      {"ent_id": "ENT-017", "name": "刘氏", "type": "person", "norm": "刘氏", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002c02",
+        "item_id": "25-002",
+        "name": "潍县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25002s01",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在平度州西一百八十里",
+          "households": {"count": 86, "unit": "里", "note": "编户八十六里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002c02", "dynasty": "汉", "era": null, "institution_name": "下密县", "action": "置", "detail": "本汉下密县属胶东国"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002c02", "dynasty": "隋", "era": null, "institution_name": "北海县", "action": "改", "detail": "隋改北海县"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002c02", "dynasty": "唐", "era": null, "institution_name": "潍州", "action": "置", "detail": "唐置潍州治北海县，寻废州以县属青州"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002c02", "dynasty": "宋", "era": null, "institution_name": "北海军/潍州", "action": "复", "detail": "宋建北海军寻复为潍州"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002c02", "dynasty": "元", "era": null, "institution_name": "潍州", "action": "因之", "detail": "金属山东东路，元属益都路"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002c02", "dynasty": "明", "era": null, "institution_name": "潍县", "action": "改", "detail": "本朝省县入州又改州为县属莱州府，后改隶平度州"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "孤山", "type": "山", "location_text": "在潍县西四十里", "description": "祷雨于此多应，山之神曰广灵侯，夷齐庙亦在焉", "lore": "郡志孤山之风可肃薄夫"},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "塔山", "type": "山", "location_text": "在潍县东南六十里", "description": "东丹河源发于此", "lore": "元志有方山在县西南五十里亦谓东丹河源发处"},
+      {"mtn_id": "MTN-003", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "几山", "type": "山", "location_text": "在潍县西南八十里", "description": "山形如几，西丹河发源于此", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "擂鼓山", "type": "山", "location_text": "在潍县南一百里", "description": "白浪河发源于此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "白浪河", "type": "河", "location_text": "在潍县治东", "description": "源出擂鼓山北流入海", "lore": "唐北海令窦琰尝引此水溉田，时号窦公渠"},
+      {"mtn_id": "MTN-006", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "东丹河", "type": "河", "location_text": "一名东于河", "description": "源发潍县塔山下，流至寿光县界复达本县境东北流入海", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "西丹河", "type": "河", "location_text": "一名西于河", "description": "源发潍县凡山，经昌乐县西下流合东丹河东北入海", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "八角池", "type": "池", "location_text": "在潍县东二十五里", "description": "傍有龙池，祷雨辄应", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "许仲宣", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知北海军", "summary": "度其山川谓可为州郡，图上之遂升军为潍州"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "杨美", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "北海军使", "summary": "为政尚简易民皆德之，及召还民数百诣阙乞留"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "张焘", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知潍州", "summary": "潍多圭田率计亩征绢而蠲河役，焘不肯踵例废法还其役"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "韩浩", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知潍州", "summary": "建炎初金人攻城，浩率众拒守城陷与通判朱庭杰皆力战死"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "李斌", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "莱州团练使", "summary": "淳化中莱州团练使，勤于政理人服其清慎"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "郭劝", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "通判莱州", "summary": "州民霍亮为仇人诬罪死，劝为辨理得免"},
+      {"per_id": "PER-007", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "张汾", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知莱州", "summary": "叶清臣举其材堪将帅，范仲淹欧阳修复荐其鸷武有谋略"},
+      {"per_id": "PER-008", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "宋兑", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知潍县", "summary": "成化间知潍县以德化民，去后立祠祀之"},
+      {"per_id": "PER-009", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "韩熙载", "type": "人物", "dynasty": "五代", "native_place": "潍州北海", "office": "中书侍郎光政殿学士", "summary": "唐进士奔江南事李氏，才气俊逸善为文，江左号为韩夫子"},
+      {"per_id": "PER-010", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "滕中正", "type": "人物", "dynasty": "宋", "native_place": "北海", "office": "权御史中丞", "summary": "有才干，振举纲宪人咸称之"},
+      {"per_id": "PER-011", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "孙祖德", "type": "人物", "dynasty": "宋", "native_place": "北海", "office": "吏部侍郎", "summary": "尝上章论章献太后当还政，世称其鲠直"},
+      {"per_id": "PER-012", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "刘阅", "type": "人物", "dynasty": "宋", "native_place": "北海", "office": "左金吾大将军", "summary": "从出塞遇敌矢贯左耳战不顾，后与夏人战有功"},
+      {"per_id": "PER-013", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "范成进", "type": "人物", "dynasty": "金", "native_place": "莒后家潍州", "office": "王爵", "summary": "贞祐之乱籍乡里以自蔽，义宗出汴成进将五千人从之赐以王爵"},
+      {"per_id": "PER-014", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "李公谅", "type": "人物", "dynasty": "明", "native_place": "潍县", "office": "广州知府", "summary": "以贤良举擢翼城知县，教民拾野菜槐豆五易水煮之以济饥民"},
+      {"per_id": "PER-015", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "徐问真", "type": "仙释", "dynasty": "宋", "native_place": "潍州", "office": "有道术", "summary": "与欧阳修善，尝教修引气愈足疾，苏轼试之亦验"},
+      {"per_id": "PER-016", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "张氏", "type": "列女", "dynasty": "金", "native_place": "潍州", "office": "监察御史李英妻", "summary": "元兵至，令其上马，张曰我死则为李氏鬼，顿坐不起遂见杀，追封陇西郡夫人"},
+      {"per_id": "PER-017", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "刘氏", "type": "列女", "dynasty": "明", "native_place": "潍县", "office": "灵山卫指挥刘奇之女", "summary": "正德六年为贼所执欲犯之，大骂触石而死"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "潍县学", "type": "学校", "location_text": "在县治东南", "history_lore": "洪武三年建，正统十一年重修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "靖共堂", "type": "宫室", "location_text": "在潍县东南五十五里", "history_lore": "燕慕容若褆所建，取小雅靖共尔位之意，今讹呼为太公堂"},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "麓台", "type": "宫室", "location_text": "在潍县西南二十里", "history_lore": "汉公孙弘读书于此"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "白浪桥", "type": "关梁", "location_text": "在潍县东门外", "history_lore": "跨白浪河"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "流饭桥", "type": "关梁", "location_text": "在潍县西北四十里", "history_lore": "跨西丹河，世传昔人造桥有饭自上流而下众工取之适充其食故名"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "石佛寺", "type": "寺观", "location_text": "在潍县治东南", "history_lore": ""},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "玉清宫", "type": "寺观", "location_text": "在潍县治北", "history_lore": "元至元中建"},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "孔融庙", "type": "祠庙", "location_text": "在潍县治东", "history_lore": "宋政和四年建碑刻尚存，本朝成化间重修增祀北海诸贤"},
+      {"site_id": "SITE-009", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "平寿城", "type": "古迹", "location_text": "在潍县西南三十里", "history_lore": "汉置县隋废"},
+      {"site_id": "SITE-010", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "北海废县", "type": "古迹", "location_text": "在潍县城内", "history_lore": "隋初为高密县后改曰北海，宋置潍州于此，本朝改州为县北海县亦省入"},
+      {"site_id": "SITE-011", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "寒亭", "type": "古迹", "location_text": "在潍县东北三十里", "history_lore": "古寒国浞封此"},
+      {"site_id": "SITE-012", "item_id": "25-002", "geo_id": "GEO-25002c02", "name": "斟亭", "type": "古迹", "location_text": "在潍州东南五十里", "history_lore": "古斟寻国也"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

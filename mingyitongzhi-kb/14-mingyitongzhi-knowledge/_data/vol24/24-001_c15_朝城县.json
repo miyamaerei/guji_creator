@@ -1,0 +1,220 @@
+{
+  "item_id": "24-001",
+  "volume": "24",
+  "source": "朝城县",
+  "region": "山东",
+  "original": "朝城县【在州北九十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "朝城县",
+        "type": "geo",
+        "norm": "朝城县",
+        "first_source": "24-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-24001-c15",
+        "item_id": "24-001",
+        "name": "朝城县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-24001-s03",
+        "children": [],
+        "volume_range": "卷24",
+        "attributes": {
+          "location_text": "在州北九十里",
+          "households": {
+            "count": 26,
+            "unit": "里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "卫国东鄙地",
+        "action": "因之",
+        "detail": "本春秋卫国东鄙地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东武阳县",
+        "action": "置",
+        "detail": "汉为东武阳县属东郡；东汉改为郡，寻复为武阳县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "南北朝",
+        "era": null,
+        "institution_name": "武阳县/朝城县",
+        "action": "改",
+        "detail": "魏晋俱属阳平郡；北齐废，后周复置属魏郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "武圣县/朝城",
+        "action": "改",
+        "detail": "隋属莘州，后属魏州；唐改为武圣县，又改为朝城，以县东古朝城为名"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "朝城县",
+        "action": "因之",
+        "detail": "元和中属澶州，后属魏州；五代晋属大名府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "朝城县",
+        "action": "因之",
+        "detail": "宋属开德府；金属大名府；元属濮州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "朝城县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "谭延美",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "朝城",
+        "office": "内殿直都知",
+        "summary": "伟躯干，初仕周；宋初讨朗州贼，端拱初知宁远军，契丹兵至不敢入遂引去"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "楚樟",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "朝城",
+        "office": "詹事府府丞",
+        "summary": "父惟善仕元为翰林学士；樟性资明敏博通经书，洪武初以明经举，秩满升詹事府府丞"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "谢绶",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "朝城",
+        "office": "佥都御史",
+        "summary": "成化间进士，南京御史，劾宦官蒋琮；进湖广副使，升佥都御史巡抚云中，卒赐谕祭"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "魏元",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "朝城",
+        "office": "福建右参政",
+        "summary": "正统中进士授给事中，抗疏论万氏兄弟；母丧归葬庐墓，事闻旌表"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "朝城县学",
+        "type": "学校",
+        "location_text": "在县治南",
+        "history_lore": "洪武三年因旧重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "二贤堂",
+        "type": "宫室",
+        "location_text": "在朝城县",
+        "history_lore": "汉末臧洪守东郡为袁绍所害，司马陈容奋而起曰仁义岂有常，绍亦害之；后人称为二贤，立堂祀之"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "宁国寺",
+        "type": "寺观",
+        "location_text": "在朝城县治西",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "嘉祥观",
+        "type": "寺观",
+        "location_text": "在朝城县治西",
+        "history_lore": "元大德初建"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "丹霄观",
+        "type": "寺观",
+        "location_text": "在朝城县治东北",
+        "history_lore": "宣德中因旧重建"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "24-001",
+        "geo_id": "GEO-24001-c15",
+        "name": "长春宫",
+        "type": "寺观",
+        "location_text": "在朝城县城西北",
+        "history_lore": "元至元间建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

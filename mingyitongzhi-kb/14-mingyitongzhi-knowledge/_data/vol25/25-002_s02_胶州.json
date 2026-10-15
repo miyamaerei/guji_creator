@@ -1,0 +1,87 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "胶州",
+  "region": "山东",
+  "type": "subprefecture",
+  "original": "胶州【在府城南二百二十里本春秋介国地汉为黔陬县地属琅琊郡晋属城阳郡后魏置胶州取境内胶水为名隋置胶西县以黔陬县省入唐省州入高密县宋置临海军金改为胶西县属密州元复置胶州属益都路本朝省县入州又改今属编户九十三里领县二】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "胶州", "type": "geo", "norm": "胶州", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "小珠山", "type": "mtn", "norm": "小珠山", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "大珠山", "type": "mtn", "norm": "大珠山", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "铁橛山", "type": "mtn", "norm": "铁橛山", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "胶水", "type": "mtn", "norm": "胶水", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "石臼岛", "type": "mtn", "norm": "石臼岛", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "天泽泉", "type": "mtn", "norm": "天泽泉", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "薛禄", "type": "person", "norm": "薛禄", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "殷哲", "type": "person", "norm": "殷哲", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "崔衍", "type": "person", "norm": "崔衍", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "董鼐", "type": "person", "norm": "董鼐", "first_source": "25-002"},
+      {"ent_id": "ENT-012", "name": "王氏双女", "type": "person", "norm": "王氏双女", "first_source": "25-002"},
+      {"ent_id": "ENT-013", "name": "李氏", "type": "person", "norm": "李氏", "first_source": "25-002"},
+      {"ent_id": "ENT-014", "name": "赵钱儿", "type": "person", "norm": "赵钱儿", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002s02",
+        "item_id": "25-002",
+        "name": "胶州",
+        "type": "subprefecture",
+        "region": "山东",
+        "parent": "GEO-25002",
+        "children": ["GEO-25002c04", "GEO-25002c05"],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在府城南二百二十里",
+          "households": {"count": 93, "unit": "里", "note": "编户九十三里领县二"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "周", "era": null, "institution_name": "介国", "action": "因之", "detail": "本春秋介国地"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "汉", "era": null, "institution_name": "黔陬县", "action": "置", "detail": "汉为黔陬县地属琅琊郡"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "晋", "era": null, "institution_name": "黔陬县", "action": "因之", "detail": "晋属城阳郡"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "南北朝", "era": "后魏", "institution_name": "胶州", "action": "置", "detail": "后魏置胶州取境内胶水为名"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "隋", "era": null, "institution_name": "胶西县", "action": "置", "detail": "隋置胶西县以黔陬县省入"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "唐", "era": null, "institution_name": "高密县", "action": "省", "detail": "唐省州入高密县"},
+      {"evo_id": "EVO-007", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "宋", "era": null, "institution_name": "临海军", "action": "置", "detail": "宋置临海军"},
+      {"evo_id": "EVO-008", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "金", "era": null, "institution_name": "胶西县", "action": "改", "detail": "金改为胶西县属密州"},
+      {"evo_id": "EVO-009", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "元", "era": null, "institution_name": "胶州", "action": "复置", "detail": "元复置胶州属益都路"},
+      {"evo_id": "EVO-010", "item_id": "25-002", "geo_id": "GEO-25002s02", "dynasty": "明", "era": null, "institution_name": "胶州", "action": "因之", "detail": "本朝省县入州又改今属莱州府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "小珠山", "type": "山", "location_text": "在胶州南九十里", "description": "错水出此入海", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "大珠山", "type": "山", "location_text": "在胶州南一百二十里海滨", "description": "上有石室", "lore": "俗传晋陈仲举隐此得仙"},
+      {"mtn_id": "MTN-003", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "铁橛山", "type": "山", "location_text": "在胶州西南一百二十里", "description": "胶水源发于此，一名胶山", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "石臼岛", "type": "其他", "location_text": "在胶州南一百里海中", "description": "宋高宗令副总管李宝督海舟捍御金人海师，至胶西石臼岛风驶舟薄敌，宝命火箭环射延烧敌数百艘", "lore": "金主亮方济淮闻胶西之败大怒，遂内变被弑"},
+      {"mtn_id": "MTN-005", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "胶水", "type": "河", "location_text": "源发铁橛山", "description": "北过密州五弩山卤水入焉，又北过高密县注潴泽与张奴水合，由泽北入新河经平度州昌邑县界入海", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "天泽泉", "type": "泉", "location_text": "在胶州南三十五里", "description": "祷雨辄应", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "张缉", "type": "人物", "dynasty": "元", "native_place": "胶州", "office": "防州幕职", "summary": "至正中为防州幕职弃之养亲，居扬州兵乱遇害"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "殷哲", "type": "人物", "dynasty": "明", "native_place": "胶州", "office": "中书左丞", "summary": "洪武初以贡士发身有才识，士林重之"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "薛禄", "type": "人物", "dynasty": "明", "native_place": "胶州", "office": "太保阳武侯", "summary": "洪武末有靖难功，封阳武侯，智勇兼备纪律严明，卒追封鄞国公谥忠武"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "崔衍", "type": "人物", "dynasty": "明", "native_place": "胶州", "office": "刑部侍郎", "summary": "任北平卫经历以廉能称，升河间府知府，召为刑部侍郎"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "董鼐", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知胶州", "summary": "天顺间知胶州，劝农桑兴学校，旱祷屡应，民多赖其惠"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "王氏双女", "type": "列女", "dynasty": "宋", "native_place": "胶州", "office": "靖康间避难", "summary": "与姑避难为兵所得，二女给兵放姑还，俱投海死，亲属收尸而瘗之曰双女冢"},
+      {"per_id": "PER-007", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "李氏", "type": "列女", "dynasty": "明", "native_place": "胶州", "office": "王山儿妻", "summary": "山儿早亡李为守节，天顺间旌表贞节"},
+      {"per_id": "PER-008", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "赵钱儿", "type": "列女", "dynasty": "明", "native_place": "胶州", "office": "刘伦妻", "summary": "正德六年流贼入其家，赵捣衣奋杵击贼，会贼大至遂遇害"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "胶州学", "type": "学校", "location_text": "在州治东南", "history_lore": "金大定间建，本朝洪武三年重修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "洪福寺", "type": "寺观", "location_text": "在胶州城南", "history_lore": "元至正六年建"},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "大微观", "type": "寺观", "location_text": "在胶州城南", "history_lore": "宣德初因旧重修"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "娄敬墓", "type": "陵墓", "location_text": "在胶州西三十五里", "history_lore": "敬齐人汉关内侯，墓旧有祠"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "介根城", "type": "古迹", "location_text": "在胶州西南五里", "history_lore": "左传齐侯伐莒侵介根即此，汉置计斤县"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "祓城", "type": "古迹", "location_text": "在胶州西南七十里", "history_lore": "汉祓县"},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "胶西废县", "type": "古迹", "location_text": "在胶州城内", "history_lore": "隋置此县，元于县置胶州，本朝省县入州"},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002s02", "name": "沽河桥", "type": "关梁", "location_text": "在胶州东北三十里", "history_lore": ""}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

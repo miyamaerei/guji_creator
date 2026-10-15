@@ -1,0 +1,98 @@
+{
+  "item_id": "25-002",
+  "volume": "25",
+  "source": "高密县",
+  "region": "山东",
+  "type": "county",
+  "original": "高密县【在州西五十里本齐晏平仲封邑汉置高密县取境内密水为名文帝时为胶西国宣帝改为高密国东汉国除以县属北海郡晋属城阳郡宋属高密郡隋唐皆属密州元属胶州本朝因之编户八十八里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "高密县", "type": "geo", "norm": "高密县", "first_source": "25-002"},
+      {"ent_id": "ENT-002", "name": "砺阜山", "type": "mtn", "norm": "砺阜山", "first_source": "25-002"},
+      {"ent_id": "ENT-003", "name": "九穴泊", "type": "mtn", "norm": "九穴泊", "first_source": "25-002"},
+      {"ent_id": "ENT-004", "name": "郑玄", "type": "person", "norm": "郑玄", "first_source": "25-002"},
+      {"ent_id": "ENT-005", "name": "盖公", "type": "person", "norm": "盖公", "first_source": "25-002"},
+      {"ent_id": "ENT-006", "name": "费直", "type": "person", "norm": "费直", "first_source": "25-002"},
+      {"ent_id": "ENT-007", "name": "王章", "type": "person", "norm": "王章", "first_source": "25-002"},
+      {"ent_id": "ENT-008", "name": "王骏", "type": "person", "norm": "王骏", "first_source": "25-002"},
+      {"ent_id": "ENT-009", "name": "王崇", "type": "person", "norm": "王崇", "first_source": "25-002"},
+      {"ent_id": "ENT-010", "name": "郑崇", "type": "person", "norm": "郑崇", "first_source": "25-002"},
+      {"ent_id": "ENT-011", "name": "王修", "type": "person", "norm": "王修", "first_source": "25-002"},
+      {"ent_id": "ENT-012", "name": "侯建", "type": "person", "norm": "侯建", "first_source": "25-002"},
+      {"ent_id": "ENT-013", "name": "綦崇礼", "type": "person", "norm": "綦崇礼", "first_source": "25-002"},
+      {"ent_id": "ENT-014", "name": "王国昌", "type": "person", "norm": "王国昌", "first_source": "25-002"},
+      {"ent_id": "ENT-015", "name": "仪智", "type": "person", "norm": "仪智", "first_source": "25-002"},
+      {"ent_id": "ENT-016", "name": "仪铭", "type": "person", "norm": "仪铭", "first_source": "25-002"},
+      {"ent_id": "ENT-017", "name": "李介", "type": "person", "norm": "李介", "first_source": "25-002"},
+      {"ent_id": "ENT-018", "name": "王三妻季氏", "type": "person", "norm": "季氏", "first_source": "25-002"},
+      {"ent_id": "ENT-019", "name": "明净", "type": "person", "norm": "明净", "first_source": "25-002"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-25002c04",
+        "item_id": "25-002",
+        "name": "高密县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-25002s02",
+        "children": [],
+        "volume_range": "卷25",
+        "attributes": {
+          "location_text": "在胶州西五十里",
+          "households": {"count": 88, "unit": "里", "note": "编户八十八里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "周", "era": null, "institution_name": "晏平仲封邑", "action": "因之", "detail": "本齐晏平仲封邑"},
+      {"evo_id": "EVO-002", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "汉", "era": "文帝", "institution_name": "胶西国/高密国", "action": "置", "detail": "汉置高密县取境内密水为名，文帝时为胶西国，宣帝改为高密国"},
+      {"evo_id": "EVO-003", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "东汉", "era": null, "institution_name": "高密县", "action": "因之", "detail": "东汉国除以县属北海郡"},
+      {"evo_id": "EVO-004", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "晋", "era": null, "institution_name": "高密县", "action": "因之", "detail": "晋属城阳郡"},
+      {"evo_id": "EVO-005", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "南北朝", "era": "宋", "institution_name": "高密郡", "action": "改", "detail": "宋属高密郡"},
+      {"evo_id": "EVO-006", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "隋唐", "era": null, "institution_name": "高密县", "action": "因之", "detail": "隋唐皆属密州"},
+      {"evo_id": "EVO-007", "item_id": "25-002", "geo_id": "GEO-25002c04", "dynasty": "明", "era": null, "institution_name": "高密县", "action": "因之", "detail": "元属胶州，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "砺阜山", "type": "山", "location_text": "在高密县西北五十里", "description": "产砺石", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "九穴泊", "type": "湖", "location_text": "在高密县西北", "description": "泊有九沟故名，又县东北有都泊二泊俱去县二十五里", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "盖公", "type": "人物", "dynasty": "汉", "native_place": "胶西", "office": "", "summary": "善治黄老言，曹参为齐相召问之，对曰治道贵清净而民自定，齐国大治"},
+      {"per_id": "PER-002", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "费直", "type": "人物", "dynasty": "汉", "native_place": "东莱胶东", "office": "单父令", "summary": "治易于卦筮，所著有彖象系辞十篇"},
+      {"per_id": "PER-003", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "王章", "type": "人物", "dynasty": "汉", "native_place": "琅琊皋虞", "office": "谏议大夫", "summary": "为昌邑王中尉，王即帝位以淫乱废，群臣皆诛惟章以忠直数谏正得免"},
+      {"per_id": "PER-004", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "王骏", "type": "人物", "dynasty": "汉", "native_place": "皋虞", "office": "御史大夫", "summary": "王章子，京兆有赵张后三王之号"},
+      {"per_id": "PER-005", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "王崇", "type": "人物", "dynasty": "汉", "native_place": "皋虞", "office": "大司空扶平侯", "summary": "王骏子，自吉至崇世以清廉名"},
+      {"per_id": "PER-006", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "郑崇", "type": "人物", "dynasty": "汉", "native_place": "高密", "office": "尚书仆射", "summary": "每曳革履进见，上曰我识郑尚书履声"},
+      {"per_id": "PER-007", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "郑玄", "type": "人物", "dynasty": "汉", "native_place": "北海高密", "office": "大儒", "summary": "入关从马融受学，学徒相随数百千人，遇黄巾皆拜相约不敢入县境"},
+      {"per_id": "PER-008", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "王修", "type": "名宦", "dynasty": "三国", "native_place": "", "office": "守高密令", "summary": "县有孙氏素豪侠，贼匿于孙氏，修将吏民围之，孙氏惧乃出贼"},
+      {"per_id": "PER-009", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "侯建", "type": "人物", "dynasty": "宋", "native_place": "高密", "office": "中书侍郎", "summary": "举进士历殿中侍御史，因星变上十事，与蔡京不协出典外任，谥文穆"},
+      {"per_id": "PER-010", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "綦崇礼", "type": "人物", "dynasty": "宋", "native_place": "高密徙北海", "office": "翰林学士", "summary": "从高宗南渡诏令悉出其手，所著有文集"},
+      {"per_id": "PER-011", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "王国昌", "type": "人物", "dynasty": "元", "native_place": "高密", "office": "副都指挥", "summary": "尝奉命往高丽境黑阳山觇海道，波涛汹涌直抵其处"},
+      {"per_id": "PER-012", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "仪智", "type": "人物", "dynasty": "明", "native_place": "高密", "office": "礼部左侍郎", "summary": "由教官历知高邮州宝庆府，所至宽厚得民心，年八十致仕卒"},
+      {"per_id": "PER-013", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "仪铭", "type": "人物", "dynasty": "明", "native_place": "高密", "office": "兵部尚书兼太子太保", "summary": "仪智子，宣庙实录成升侍读，正统间额森犯顺谋谟征伐之力居多，卒赠太师谥忠襄"},
+      {"per_id": "PER-014", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "李介", "type": "人物", "dynasty": "明", "native_place": "高密", "office": "兵部侍郎", "summary": "第进士擢监察御史以直谏被廷笞，巡抚宣府，北敌犯边前后上边事二十余条"},
+      {"per_id": "PER-015", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "季氏", "type": "列女", "dynasty": "明", "native_place": "高密", "office": "王三妻", "summary": "王殁季为守节，正统八年旌之曰贞节"},
+      {"per_id": "PER-016", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "明净", "type": "仙释", "dynasty": "唐", "native_place": "高密", "office": "僧", "summary": "少出家，游天台值群虎以饭纳其口中，贞观三年旱召至京祈雨大获霖雨"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "高密县学", "type": "学校", "location_text": "在县治东", "history_lore": "元至元间建，本朝洪武元年重建景泰三年增修"},
+      {"site_id": "SITE-002", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "感化寺", "type": "寺观", "location_text": "在高密县治东北", "history_lore": "洪武间因旧重建"},
+      {"site_id": "SITE-003", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "郑司农庙", "type": "祠庙", "location_text": "在高密县北五十里", "history_lore": "司农汉郑玄也"},
+      {"site_id": "SITE-004", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "郑玄墓", "type": "陵墓", "location_text": "在高密县西北五十里", "history_lore": "唐贞观中尝禁樵采，后归葬砺阜"},
+      {"site_id": "SITE-005", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "戴纶墓", "type": "陵墓", "location_text": "在高密县东十五里", "history_lore": "纶官司侍郎，仁宗朝以辩论激上怒被棰死"},
+      {"site_id": "SITE-006", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "仪智墓", "type": "陵墓", "location_text": "在高密县五里", "history_lore": "子铭孙溥官御史皆祔"},
+      {"site_id": "SITE-007", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "李介墓", "type": "陵墓", "location_text": "在高密县东五里", "history_lore": ""},
+      {"site_id": "SITE-008", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "龙且城", "type": "古迹", "location_text": "在高密县西南五十里", "history_lore": "楚将龙且所筑"},
+      {"site_id": "SITE-009", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "夷安城", "type": "古迹", "location_text": "在高密县境", "history_lore": "故莱夷潍邑，汉置夷安县"},
+      {"site_id": "SITE-010", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "城阴城", "type": "古迹", "location_text": "在高密县西南四十里", "history_lore": "汉郑玄碑云即高密城也"},
+      {"site_id": "SITE-011", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "黔陬城", "type": "古迹", "location_text": "在高密县西南十里", "history_lore": "故介国，汉为黔陬县"},
+      {"site_id": "SITE-012", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "王党桥", "type": "关梁", "location_text": "在高密县东一十五里", "history_lore": ""},
+      {"site_id": "SITE-013", "item_id": "25-002", "geo_id": "GEO-25002c04", "name": "亭口桥", "type": "关梁", "location_text": "在高密县北四十里", "history_lore": "俱跨胶水"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

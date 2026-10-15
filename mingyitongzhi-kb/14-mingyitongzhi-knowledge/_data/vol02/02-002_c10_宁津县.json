@@ -1,0 +1,109 @@
+{
+  "item_id": "02-002",
+  "volume": "02",
+  "source": "宁津县",
+  "region": "北直隶",
+  "original": "在府城东南二百九十里本保安镇金始置宁津县属景州元初属济南路至元初改属河间路本朝因之编户二十五里",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-02002-c10",
+        "name": "宁津县",
+        "type": "geo",
+        "norm": "宁津县",
+        "first_source": "02-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-02002-c10",
+        "item_id": "02-002",
+        "name": "宁津县",
+        "type": "county",
+        "region": "北直隶",
+        "parent": "GEO-02002",
+        "children": [],
+        "volume_range": "卷2",
+        "attributes": {
+          "evo_summary": "在府城东南二百九十里本保安镇金始置宁津县属景州元初属济南路至元初改属河间路本朝因之编户二十五里"
+        },
+        "original": "在府城东南二百九十里本保安镇金始置宁津县属景州元初属济南路至元初改属河间路本朝因之编户二十五里"
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-02002-c10",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c10",
+        "dynasty": "未明",
+        "era": null,
+        "institution_name": "宁津县",
+        "action": "因之",
+        "detail": "在府城东南二百九十里本保安镇金始置宁津县属景州元初属济南路至元初改属河间路本朝因之编户二十五里",
+        "original": "在府城东南二百九十里本保安镇金始置宁津县属景州元初属济南路至元初改属河间路本朝因之编户二十五里"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-02002-c10-01",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c10",
+        "name": "宁津县学",
+        "type": "学校",
+        "location_text": "建景泰三年重修在县治东南洪",
+        "history_lore": "建景泰三年重修在县治东南洪",
+        "original": "宁津县学【建景泰三年重修在县治东南洪】"
+      },
+      {
+        "site_id": "SITE-02002-c10-02",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c10",
+        "name": "清明寺",
+        "type": "宫室",
+        "location_text": "在宁津县治西正统中建",
+        "history_lore": "在宁津县治西正统中建",
+        "original": "清明寺【在宁津县治西正统中建】"
+      },
+      {
+        "site_id": "SITE-02002-c10-03",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c10",
+        "name": "黄河故道",
+        "type": "宫室",
+        "location_text": "在宁津县西三十里上接吴桥县界东北至南皮县界",
+        "history_lore": "在宁津县西三十里上接吴桥县界东北至南皮县界",
+        "original": "黄河故道【在宁津县西三十里上接吴桥县界东北至南皮县界】"
+      },
+      {
+        "site_id": "SITE-02002-c10-04",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c10",
+        "name": "清明寺",
+        "type": "寺观",
+        "location_text": "在宁津县治西正统中建",
+        "history_lore": "在宁津县治西正统中建",
+        "original": "清明寺【在宁津县治西正统中建】"
+      },
+      {
+        "site_id": "SITE-02002-c10-05",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002-c10",
+        "name": "黄河故道",
+        "type": "古迹",
+        "location_text": "在宁津县西三十里上接吴桥县界东北至南皮县界",
+        "history_lore": "在宁津县西三十里上接吴桥县界东北至南皮县界",
+        "original": "黄河故道【在宁津县西三十里上接吴桥县界东北至南皮县界】"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "parent=河间府; auto-extracted, pending manual review"
+  }
+}
