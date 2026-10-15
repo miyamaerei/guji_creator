@@ -1,0 +1,1253 @@
+{
+  "records": [
+    {
+      "geo_id": "GEO-001",
+      "item_id": "03-001",
+      "name": "真定府",
+      "type": "prefecture",
+      "region": "北直隶",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-002",
+        "GEO-003"
+      ],
+      "volume_range": "卷3",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河间府献县界",
+            "distance_li": 310
+          },
+          {
+            "direction": "西",
+            "to_place": "山西平定州界",
+            "distance_li": 180
+          },
+          {
+            "direction": "南",
+            "to_place": "顺德府内丘县界",
+            "distance_li": 210
+          },
+          {
+            "direction": "北",
+            "to_place": "保定府庆都县界",
+            "distance_li": 170
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 630
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2100
+          }
+        ],
+        "households": {
+          "count": 14,
+          "unit": "里",
+          "note": "一十四里"
+        },
+        "grain_tax": {
+          "amount": 117000,
+          "unit": "石",
+          "note": "粮一十一万七千石零"
+        },
+        "jun_name": "恒山",
+        "topography": "壮哉一都防【真定壁记】靣临滹水背倚恒山左接瀛海右抵大行【图经】…",
+        "customs": "性缓尚儒仗义任侠【通典】土广俗杂【同上】…",
+        "garrisons": [
+          {
+            "name": "真定卫",
+            "type": "卫",
+            "location_text": "在府治东南洪武三年建"
+          },
+          {
+            "name": "神武右卫",
+            "type": "卫",
+            "location_text": "在真定卫西宣德五年建"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-06001",
+      "item_id": "06-001",
+      "name": "京城",
+      "type": "metro",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "6",
+      "attributes": {
+        "name": "京城",
+        "type": "metro",
+        "region": "南直隶",
+        "city_walls": [
+          {
+            "name": "城池",
+            "desc": "旧志六朝旧城近覆舟山去秦淮五里至杨呉时改筑跨秦淮南北周廻二十五里本朝益拓而东尽钟山之麓周廻九十六里立门十三南曰正阳南之西曰通济又西曰聚寳西南曰三山曰石城北曰太平北之西曰神防曰金川曰钟阜东曰朝阳西曰清凉西之北曰定淮曰仪凤后塞钟阜仪凤二门其外城则因山控江周廻一百八十里别为十六门曰麒麟曰仙曰姚坊曰高桥曰沧波曰防桥曰夹江曰上方曰凤台曰大驯象曰大安徳曰小安徳曰江东曰佛宁曰上元曰观音"
+          }
+        ],
+        "gates": [
+          "十六门曰"
+        ]
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-06002",
+      "item_id": "06-002",
+      "name": "应天府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "6",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "镇江府丹徒县界",
+            "distance_li": "一百三十"
+          },
+          {
+            "direction": "西",
+            "to_place": "和州界",
+            "distance_li": "八十"
+          },
+          {
+            "direction": "南",
+            "to_place": "太平府当涂县界",
+            "distance_li": "八十五"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬州府仪真县界",
+            "distance_li": "一百五十五"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": "三千四百四十五"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "二十万五千六百",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "应天府上元县",
+            "is_capital_county": true,
+            "households": "一百九十四"
+          },
+          {
+            "name": "江宁县",
+            "is_capital_county": true,
+            "households": "一百三十四"
+          },
+          {
+            "name": "句容县",
+            "is_capital_county": false,
+            "households": "二百一十三"
+          },
+          {
+            "name": "溧阳县",
+            "is_capital_county": false,
+            "households": "二百七"
+          },
+          {
+            "name": "溧水县",
+            "is_capital_county": false,
+            "households": "一百十"
+          },
+          {
+            "name": "江浦县",
+            "is_capital_county": false,
+            "households": "三十七"
+          },
+          {
+            "name": "六合县",
+            "is_capital_county": false,
+            "households": "一十九"
+          },
+          {
+            "name": "高淳县",
+            "is_capital_county": false,
+            "households": "四十"
+          }
+        ],
+        "name": "应天府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-07003",
+      "item_id": "07-003",
+      "name": "凤阳府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "7",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "扬州府寳应县界",
+            "distance_li": "四百"
+          },
+          {
+            "direction": "西",
+            "to_place": "河南开封府项城县界",
+            "distance_li": "五百九十"
+          },
+          {
+            "direction": "南",
+            "to_place": "庐州府合肥县界",
+            "distance_li": "一百五十"
+          },
+          {
+            "direction": "北",
+            "to_place": "徐州萧县界",
+            "distance_li": "三百三十三"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "三百三十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "县十三凤阳县",
+            "is_capital_county": true,
+            "households": "三十四"
+          },
+          {
+            "name": "临淮县",
+            "is_capital_county": false,
+            "households": "四十九"
+          },
+          {
+            "name": "懐逺县",
+            "is_capital_county": false,
+            "households": "四十七"
+          },
+          {
+            "name": "定逺县",
+            "is_capital_county": false,
+            "households": "三十三"
+          },
+          {
+            "name": "五河县",
+            "is_capital_county": false,
+            "households": "一十五"
+          },
+          {
+            "name": "虹县",
+            "is_capital_county": false,
+            "households": "一十七"
+          },
+          {
+            "name": "夀州",
+            "is_capital_county": false,
+            "households": "五十四"
+          },
+          {
+            "name": "霍丘县",
+            "is_capital_county": false,
+            "households": "三十七"
+          },
+          {
+            "name": "蒙城县",
+            "is_capital_county": false,
+            "households": "二十五"
+          },
+          {
+            "name": "泗州",
+            "is_capital_county": true,
+            "households": "五十"
+          },
+          {
+            "name": "盱眙县",
+            "is_capital_county": false,
+            "households": "三十七"
+          },
+          {
+            "name": "天长县",
+            "is_capital_county": false,
+            "households": "一十二"
+          },
+          {
+            "name": "宿州",
+            "is_capital_county": false,
+            "households": "七十"
+          },
+          {
+            "name": "灵璧县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "颍州",
+            "is_capital_county": false,
+            "households": "八十"
+          },
+          {
+            "name": "颍上县",
+            "is_capital_county": false,
+            "households": "一十九"
+          },
+          {
+            "name": "太和县",
+            "is_capital_county": false,
+            "households": "三十五"
+          },
+          {
+            "name": "亳州",
+            "is_capital_county": false,
+            "households": "四十九"
+          }
+        ],
+        "name": "凤阳府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-08004",
+      "item_id": "08-004",
+      "name": "苏州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "8",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "东沙海岸",
+            "distance_li": "三百一十四"
+          },
+          {
+            "direction": "西",
+            "to_place": "常州府宜兴县界",
+            "distance_li": "一百"
+          },
+          {
+            "direction": "南",
+            "to_place": "浙江嘉兴府秀水县界",
+            "distance_li": "九十四"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬州府通州界",
+            "distance_li": "一百五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百八十八"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "二百五十万二千九百",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "京师县七吴县",
+            "is_capital_county": true,
+            "households": "五百十一"
+          },
+          {
+            "name": "长洲县",
+            "is_capital_county": true,
+            "households": "七百四十一"
+          },
+          {
+            "name": "昆山县",
+            "is_capital_county": false,
+            "households": "三百四十四"
+          },
+          {
+            "name": "常熟县",
+            "is_capital_county": false,
+            "households": "四百八十"
+          },
+          {
+            "name": "吴江县",
+            "is_capital_county": false,
+            "households": "五百六十七"
+          },
+          {
+            "name": "嘉定县",
+            "is_capital_county": false,
+            "households": "六百六十八"
+          },
+          {
+            "name": "太仓州",
+            "is_capital_county": false,
+            "households": "二百七十五"
+          },
+          {
+            "name": "崇明县",
+            "is_capital_county": false,
+            "households": "一百一十"
+          }
+        ],
+        "name": "苏州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-09005",
+      "item_id": "09-005",
+      "name": "松江府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "9",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "海岸",
+            "distance_li": "一百"
+          },
+          {
+            "direction": "西",
+            "to_place": "苏州府长洲县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "南",
+            "to_place": "海岸",
+            "distance_li": "七十"
+          },
+          {
+            "direction": "北",
+            "to_place": "苏州府昆山县界",
+            "distance_li": "八十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "八百"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师华亭县",
+            "is_capital_county": true,
+            "households": "八百一十一"
+          },
+          {
+            "name": "上海县",
+            "is_capital_county": false,
+            "households": "六百四十九"
+          },
+          {
+            "name": "青浦县",
+            "is_capital_county": false,
+            "households": "一百九十五"
+          }
+        ],
+        "name": "松江府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-10006",
+      "item_id": "10-006",
+      "name": "常州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "10",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "浙江湖州府长兴县界",
+            "distance_li": "二百"
+          },
+          {
+            "direction": "西",
+            "to_place": "镇江府丹阳县界",
+            "distance_li": "五十五"
+          },
+          {
+            "direction": "南",
+            "to_place": "应天府溧阳县界",
+            "distance_li": "一百八十"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬州府防兴县界",
+            "distance_li": "六十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "三百六十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师武进县",
+            "is_capital_county": true,
+            "households": "四百五十七"
+          },
+          {
+            "name": "无锡县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "江隂县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "宜兴县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "靖江县",
+            "is_capital_county": false,
+            "households": null
+          }
+        ],
+        "name": "常州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-11007",
+      "item_id": "11-007",
+      "name": "镇江府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "11",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "常州府宜兴县界",
+            "distance_li": "七十五"
+          },
+          {
+            "direction": "西",
+            "to_place": "应天府句容县界",
+            "distance_li": "四十五"
+          },
+          {
+            "direction": "南",
+            "to_place": "常州府武进县界",
+            "distance_li": "一百一十七"
+          },
+          {
+            "direction": "北",
+            "to_place": "扬子江",
+            "distance_li": "二"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "一百八十"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "三十一万五千",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "隶京师丹徒县",
+            "is_capital_county": true,
+            "households": "二百四十"
+          },
+          {
+            "name": "丹阳县",
+            "is_capital_county": false,
+            "households": "一百四十四"
+          },
+          {
+            "name": "金坛县",
+            "is_capital_county": false,
+            "households": "一百四十"
+          }
+        ],
+        "name": "镇江府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-13008",
+      "item_id": "13-008",
+      "name": "淮安府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "13",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "海岸",
+            "distance_li": "二百三十"
+          },
+          {
+            "direction": "西",
+            "to_place": "鳯阳府虹县界",
+            "distance_li": "三百一十"
+          },
+          {
+            "direction": "南",
+            "to_place": "扬州府寳应县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "北",
+            "to_place": "山东青州府营州界",
+            "distance_li": "四百五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百"
+          }
+        ],
+        "households": null,
+        "grain_tax": {
+          "amount_str": "四十万二千八百",
+          "unit": "石"
+        },
+        "counties": [
+          {
+            "name": "师县九山阳县",
+            "is_capital_county": true,
+            "households": null
+          },
+          {
+            "name": "盐城县",
+            "is_capital_county": false,
+            "households": "八十九"
+          },
+          {
+            "name": "清河县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "安东县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "桃源县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "沭阳县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "海州",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "贑榆县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "邳州",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "宿迁县",
+            "is_capital_county": false,
+            "households": "五十九"
+          },
+          {
+            "name": "睢宁县",
+            "is_capital_county": false,
+            "households": "三十四"
+          }
+        ],
+        "name": "淮安府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-14009",
+      "item_id": "14-009",
+      "name": "庐州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "14",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "和州含山县界",
+            "distance_li": "一百九十"
+          },
+          {
+            "direction": "西",
+            "to_place": "河南汝宁府固始县界",
+            "distance_li": "三百五十"
+          },
+          {
+            "direction": "南",
+            "to_place": "安庆府桐城县界",
+            "distance_li": "一百八十"
+          },
+          {
+            "direction": "北",
+            "to_place": "鳯阳府定逺县界",
+            "distance_li": "一百八十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百一十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "师县六合肥县",
+            "is_capital_county": true,
+            "households": "六十"
+          },
+          {
+            "name": "舒城县",
+            "is_capital_county": false,
+            "households": "四十五"
+          },
+          {
+            "name": "庐江县",
+            "is_capital_county": false,
+            "households": "二十"
+          },
+          {
+            "name": "无为州",
+            "is_capital_county": false,
+            "households": "四十五"
+          },
+          {
+            "name": "巢县",
+            "is_capital_county": false,
+            "households": "二十"
+          },
+          {
+            "name": "六安州",
+            "is_capital_county": false,
+            "households": "五十"
+          },
+          {
+            "name": "英山县",
+            "is_capital_county": false,
+            "households": null
+          },
+          {
+            "name": "霍山县",
+            "is_capital_county": false,
+            "households": "一十"
+          }
+        ],
+        "name": "庐州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-14010",
+      "item_id": "14-010",
+      "name": "安庆府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "14",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "庐州府无为州界",
+            "distance_li": "三百七十"
+          },
+          {
+            "direction": "西",
+            "to_place": "湖广黄州府黄梅县界",
+            "distance_li": "二百一十"
+          },
+          {
+            "direction": "南",
+            "to_place": "池州府东流县界",
+            "distance_li": "五"
+          },
+          {
+            "direction": "北",
+            "to_place": "庐州府舒城县界",
+            "distance_li": "二百一十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "七百四十五"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师懐宁县",
+            "is_capital_county": true,
+            "households": "四十二"
+          },
+          {
+            "name": "桐城县",
+            "is_capital_county": false,
+            "households": "四十九"
+          },
+          {
+            "name": "潜山县",
+            "is_capital_county": false,
+            "households": "四十四"
+          },
+          {
+            "name": "太湖县",
+            "is_capital_county": false,
+            "households": "五十七"
+          },
+          {
+            "name": "宿松县",
+            "is_capital_county": false,
+            "households": "三十八"
+          },
+          {
+            "name": "望江县",
+            "is_capital_county": false,
+            "households": "十五"
+          }
+        ],
+        "name": "安庆府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-15011",
+      "item_id": "15-011",
+      "name": "太平府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "15",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "应天府溧水县界",
+            "distance_li": "一百一十"
+          },
+          {
+            "direction": "西",
+            "to_place": "和州界",
+            "distance_li": "三十"
+          },
+          {
+            "direction": "南",
+            "to_place": "宁国府宣城县界",
+            "distance_li": "七十"
+          },
+          {
+            "direction": "北",
+            "to_place": "应天府江宁县界",
+            "distance_li": "五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "一百五十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师当涂县",
+            "is_capital_county": true,
+            "households": "一百三十九"
+          },
+          {
+            "name": "芜湖县",
+            "is_capital_county": false,
+            "households": "三十三"
+          },
+          {
+            "name": "繁昌县",
+            "is_capital_county": false,
+            "households": "一十二"
+          }
+        ],
+        "name": "太平府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-15012",
+      "item_id": "15-012",
+      "name": "宁国府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "15",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "广徳州建平县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "西",
+            "to_place": "池州府青阳县界",
+            "distance_li": "一百六十"
+          },
+          {
+            "direction": "南",
+            "to_place": "徽州府绩溪县界",
+            "distance_li": "二百二十"
+          },
+          {
+            "direction": "北",
+            "to_place": "太平府当涂县界",
+            "distance_li": "一百五十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "四百二十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师宣城县",
+            "is_capital_county": true,
+            "households": "二百一十七"
+          },
+          {
+            "name": "宁国县",
+            "is_capital_county": false,
+            "households": "五十六"
+          },
+          {
+            "name": "泾县",
+            "is_capital_county": false,
+            "households": "六十四"
+          },
+          {
+            "name": "太平县",
+            "is_capital_county": false,
+            "households": "一十九"
+          },
+          {
+            "name": "旌徳县",
+            "is_capital_county": false,
+            "households": "四十"
+          },
+          {
+            "name": "南陵县",
+            "is_capital_county": false,
+            "households": "八十五"
+          }
+        ],
+        "name": "宁国府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-16013",
+      "item_id": "16-013",
+      "name": "池州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "16",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "宁国府南陵县界",
+            "distance_li": "一百四十"
+          },
+          {
+            "direction": "西",
+            "to_place": "江西九江府彭泽县界",
+            "distance_li": "一百四十"
+          },
+          {
+            "direction": "南",
+            "to_place": "徽州府祁门县界",
+            "distance_li": "一百九十"
+          },
+          {
+            "direction": "北",
+            "to_place": "安庆府桐城县界",
+            "distance_li": "三十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "六百"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "隶京师贵池县",
+            "is_capital_county": true,
+            "households": "三十九"
+          },
+          {
+            "name": "青阳县",
+            "is_capital_county": false,
+            "households": "一十七"
+          },
+          {
+            "name": "铜陵县",
+            "is_capital_county": false,
+            "households": "一十五"
+          },
+          {
+            "name": "石埭县",
+            "is_capital_county": false,
+            "households": "一十一"
+          },
+          {
+            "name": "建徳县",
+            "is_capital_county": false,
+            "households": "九"
+          },
+          {
+            "name": "东流县",
+            "is_capital_county": false,
+            "households": "七"
+          }
+        ],
+        "name": "池州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-16014",
+      "item_id": "16-014",
+      "name": "徽州府",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "16",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "浙江杭州府昌化县界",
+            "distance_li": "一百二十"
+          },
+          {
+            "direction": "西",
+            "to_place": "江西饶州府浮梁县界",
+            "distance_li": "二百七十"
+          },
+          {
+            "direction": "南",
+            "to_place": "浙江衢州府开化县界",
+            "distance_li": "一百八十"
+          },
+          {
+            "direction": "北",
+            "to_place": "宁国府太平县界",
+            "distance_li": "一百七十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "七百二十"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "直隶京师歙县",
+            "is_capital_county": true,
+            "households": "二百六十五"
+          },
+          {
+            "name": "休寜县",
+            "is_capital_county": false,
+            "households": "二百八"
+          },
+          {
+            "name": "婺源县",
+            "is_capital_county": false,
+            "households": "一百二十三"
+          },
+          {
+            "name": "祁门县",
+            "is_capital_county": false,
+            "households": "四十六"
+          },
+          {
+            "name": "黟县",
+            "is_capital_county": false,
+            "households": "二十四"
+          },
+          {
+            "name": "绩溪县",
+            "is_capital_county": false,
+            "households": "二十五"
+          }
+        ],
+        "name": "徽州府",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-17015",
+      "item_id": "17-015",
+      "name": "广徳州",
+      "type": "prefecture",
+      "region": "南直隶",
+      "parent": "南直隶",
+      "children": [],
+      "volume_range": "17",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "浙江湖州府长兴县界",
+            "distance_li": "三十"
+          },
+          {
+            "direction": "西",
+            "to_place": "寜国府宣城县界",
+            "distance_li": "一百"
+          },
+          {
+            "direction": "南",
+            "to_place": "湖州府安吉县界",
+            "distance_li": "六十"
+          },
+          {
+            "direction": "北",
+            "to_place": "应天府溧阳县界",
+            "distance_li": "七十"
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "南京",
+            "distance_li": "五百"
+          }
+        ],
+        "households": null,
+        "grain_tax": null,
+        "counties": [
+          {
+            "name": "十七里建平县",
+            "is_capital_county": false,
+            "households": "一百二十"
+          }
+        ],
+        "name": "广徳州",
+        "type": "prefecture",
+        "region": "南直隶"
+      },
+      "cit_ids": []
+    }
+  ],
+  "count": 16
+}
