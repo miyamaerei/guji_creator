@@ -132,12 +132,8 @@
           "GEO-02002-c08",
           "GEO-02002-c09",
           "GEO-02002-c10",
-          "GEO-02002-c11",
-          "GEO-02002-c12",
-          "GEO-02002-c13",
-          "GEO-02002-c14",
-          "GEO-02002-c15",
-          "GEO-02002-c16"
+          "GEO-02002-s01",
+          "GEO-02002-s02"
         ],
         "attributes": {
           "borders": [
@@ -224,7 +220,38 @@
           ],
           "fiefs": []
         },
-        "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004"]
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004"
+        ]
+      },
+      {
+        "geo_id": "GEO-02002-s01",
+        "item_id": "02-002",
+        "name": "景州",
+        "type": "department",
+        "region": "北直隶",
+        "parent": "GEO-02002",
+        "children": [
+          "GEO-02002-s01-c11",
+          "GEO-02002-s01-c12",
+          "GEO-02002-s01-c13"
+        ]
+      },
+      {
+        "geo_id": "GEO-02002-s02",
+        "item_id": "02-002",
+        "name": "沧州",
+        "type": "department",
+        "region": "北直隶",
+        "parent": "GEO-02002",
+        "children": [
+          "GEO-02002-s02-c14",
+          "GEO-02002-s02-c15",
+          "GEO-02002-s02-c16"
+        ]
       }
     ],
     "evos": [

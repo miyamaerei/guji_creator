@@ -1,0 +1,1032 @@
+{
+  "item_id": "38-001",
+  "volume": "38",
+  "source": "杭州府",
+  "region": "浙江",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "杭州府",
+        "type": "geo",
+        "norm": "杭州府",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "钱塘县",
+        "type": "geo",
+        "norm": "钱塘县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "仁和县",
+        "type": "geo",
+        "norm": "仁和县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "海宁县",
+        "type": "geo",
+        "norm": "海宁县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "余杭县",
+        "type": "geo",
+        "norm": "余杭县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "临安县",
+        "type": "geo",
+        "norm": "临安县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "富阳县",
+        "type": "geo",
+        "norm": "富阳县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "於潜县",
+        "type": "geo",
+        "norm": "於潜县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "新城县",
+        "type": "geo",
+        "norm": "新城县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "昌化县",
+        "type": "geo",
+        "norm": "昌化县",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "海宁守御千户所",
+        "type": "geo",
+        "norm": "海宁守御千户所",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "吴山",
+        "type": "mtn",
+        "norm": "吴山",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "西湖",
+        "type": "mtn",
+        "norm": "西湖",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "浙江",
+        "type": "mtn",
+        "norm": "浙江",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "天目山",
+        "type": "mtn",
+        "norm": "天目山",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "灵隐寺",
+        "type": "site",
+        "norm": "灵隐寺",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "净慈寺",
+        "type": "site",
+        "norm": "净慈寺",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "岳飞墓",
+        "type": "site",
+        "norm": "岳飞墓",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-019",
+        "name": "钱镠",
+        "type": "person",
+        "norm": "钱镠",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-020",
+        "name": "苏轼",
+        "type": "person",
+        "norm": "苏轼",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-021",
+        "name": "白居易",
+        "type": "person",
+        "norm": "白居易",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-022",
+        "name": "林逋",
+        "type": "person",
+        "norm": "林逋",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-023",
+        "name": "岳飞",
+        "type": "person",
+        "norm": "岳飞",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-024",
+        "name": "于谦",
+        "type": "person",
+        "norm": "于谦",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-025",
+        "name": "欧阳修",
+        "type": "person",
+        "norm": "欧阳修",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-026",
+        "name": "吴越春秋",
+        "type": "book",
+        "norm": "吴越春秋",
+        "first_source": "38-001"
+      },
+      {
+        "ent_id": "ENT-027",
+        "name": "临安志",
+        "type": "book",
+        "norm": "临安志",
+        "first_source": "38-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-38001",
+        "item_id": "38-001",
+        "name": "杭州府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-38001-c01",
+          "GEO-38001-c02",
+          "GEO-38001-c03",
+          "GEO-38001-c04",
+          "GEO-38001-c05",
+          "GEO-38001-c06",
+          "GEO-38001-c07",
+          "GEO-38001-c08",
+          "GEO-38001-c09",
+          "GEO-38001-w01"
+        ],
+        "volume_range": "卷38",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "赭山海口",
+              "distance_li": 60
+            },
+            {
+              "direction": "西",
+              "to_place": "严州府桐庐县界",
+              "distance_li": 135
+            },
+            {
+              "direction": "南",
+              "to_place": "绍兴府萧山县界",
+              "distance_li": 45
+            },
+            {
+              "direction": "北",
+              "to_place": "湖州府德清县界",
+              "distance_li": 45
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 900
+            },
+            {
+              "capital": "京师",
+              "distance_li": 4200
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县九；各属县编户见下"
+          },
+          "grain_tax": {
+            "amount": 234200,
+            "unit": "石",
+            "note": "粮二十三万四千二百石零"
+          },
+          "jun_name": "钱塘【陈名】武林【因武林山而名】古杭【隋名】",
+          "topography": "湖山暎带【宋欧阳修有美堂记】；山川秀丽【宋葛澧帝都赋】；左浙江右具区北大海南天目【宋晁无咎文】；龙山据其首西湖蟠其腹天竺耸其膺东山卧其背【西征记】；外带江海内抱湖山【宋秦观雪斋记】；水陆之防【宋苏轼云】；蟠幽宅阻面湖背海【宋王阮礼部对策】",
+          "customs": "以船檝为车马【吴越春秋】；吴越尚勇【汉志】；俗尚侈靡【临安志】；尚礼厚厐【隋志】；人性敏慧【宋史地理志】；习俗工巧【宋欧阳修有美堂记】",
+          "garrisons": [
+            {
+              "name": "杭州前卫",
+              "type": "卫",
+              "location_text": "在都司前洪武八年建"
+            },
+            {
+              "name": "杭州右卫",
+              "type": "卫",
+              "location_text": "在都司前洪武八年建"
+            },
+            {
+              "name": "海宁守御千户所",
+              "type": "千户所",
+              "location_text": "在海宁县东洪武二十年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008"
+        ]
+      },
+      {
+        "geo_id": "GEO-38001-c01",
+        "item_id": "38-001",
+        "name": "钱塘县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 160,
+            "unit": "里",
+            "note": "编户一百六十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c02",
+        "item_id": "38-001",
+        "name": "仁和县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 360,
+            "unit": "里",
+            "note": "编户三百六十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c03",
+        "item_id": "38-001",
+        "name": "海宁县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {
+            "count": 356,
+            "unit": "里",
+            "note": "编户三百五十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c04",
+        "item_id": "38-001",
+        "name": "余杭县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城西北七十里",
+          "households": {
+            "count": 73,
+            "unit": "里",
+            "note": "编户七十三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c05",
+        "item_id": "38-001",
+        "name": "临安县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城西一百里",
+          "households": {
+            "count": 48,
+            "unit": "里",
+            "note": "编户四十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c06",
+        "item_id": "38-001",
+        "name": "富阳县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城西九十里",
+          "households": {
+            "count": 75,
+            "unit": "里",
+            "note": "编户七十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c07",
+        "item_id": "38-001",
+        "name": "於潜县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城西一百七十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c08",
+        "item_id": "38-001",
+        "name": "新城县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城西一百四十里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户一十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-c09",
+        "item_id": "38-001",
+        "name": "昌化县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在府城西二百一十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户一十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-38001-w01",
+        "item_id": "38-001",
+        "name": "海宁守御千户所",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-38001",
+        "children": [],
+        "volume_range": "卷38",
+        "attributes": {
+          "location_text": "在海宁县东洪武二十年建",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "扬州之域",
+        "action": "因之",
+        "detail": "禹贡扬州之域，天文斗分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "吴越地",
+        "action": "因之",
+        "detail": "春秋时属吴越"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "楚地",
+        "action": "因之",
+        "detail": "战国时属楚"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "会稽郡地",
+        "action": "置",
+        "detail": "秦为会稽郡地"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "吴郡地",
+        "action": "因之",
+        "detail": "东汉属吴郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "东安郡",
+        "action": "置",
+        "detail": "三国吴分置东安郡治富春寻罢"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "吴兴及吴郡",
+        "action": "因之",
+        "detail": "晋属吴兴及吴郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "陈",
+        "era": null,
+        "institution_name": "钱塘郡",
+        "action": "置",
+        "detail": "陈置钱塘郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "杭州/余杭郡",
+        "action": "改",
+        "detail": "隋废郡置杭州治余杭未几移治钱塘，大业初改州为余杭郡"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "唐",
+        "era": "天宝/乾元",
+        "institution_name": "余杭郡/杭州",
+        "action": "改",
+        "detail": "唐初复为杭州，天宝初又为余杭郡，乾元初复为杭州，景福初号武胜军，光化初移镇海节度治于杭置大都督府"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "吴越国",
+        "action": "因之",
+        "detail": "五代时为吴越国"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "临安府",
+        "action": "升",
+        "detail": "宋为杭州，高宗南渡迁都于杭，升为临安府"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "杭州路",
+        "action": "改",
+        "detail": "元立两浙都督府寻改杭州路"
+      },
+      {
+        "evo_id": "EVO-014",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "杭州府",
+        "action": "因之",
+        "detail": "本朝改为杭州府，领县九"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "吴山",
+        "type": "山",
+        "location_text": "在府治东南",
+        "description": "吴人怜子胥以谏死立祠其上，又名胥山，左临大江右瞰西湖",
+        "lore": "因纪念伍子胥得名"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在府治南二里",
+        "description": "下俯大江直望海门，山势若凤凰欲飞之状",
+        "lore": "南宋大内所在地"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "南屏山",
+        "type": "山",
+        "location_text": "在府城西三里",
+        "description": "怪石耸秀中穿一洞，其上石壁若屏",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "孤山",
+        "type": "山",
+        "location_text": "在府城外西湖上",
+        "description": "独立一峰为湖山胜绝处，上有林逋祠",
+        "lore": "林逋隐居处"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "秦望山",
+        "type": "山",
+        "location_text": "在府城南一十里",
+        "description": "秦始皇东游登此欲渡会稽故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "武林山",
+        "type": "山",
+        "location_text": "在府城西南一十五里",
+        "description": "武林水所出，亦曰灵隐曰灵苑，本名虎林唐避讳改武",
+        "lore": "杭州别称武林由此"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c02",
+        "name": "皋亭山",
+        "type": "山",
+        "location_text": "在府城东北二十五里",
+        "description": "高百余丈，云出则雨",
+        "lore": "元巴延入宋临安时驻兵此山下"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c02",
+        "name": "临平山",
+        "type": "山",
+        "location_text": "在府城东北六十里",
+        "description": "上有龙洞，山顶有井，旱亦不涸",
+        "lore": "苏轼有诗"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c03",
+        "name": "紫微山",
+        "type": "山",
+        "location_text": "在海宁县东北六十里",
+        "description": "唐白居易尝登此山望硖石湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c06",
+        "name": "小隐山",
+        "type": "山",
+        "location_text": "在富阳县治北",
+        "description": "为县治镇山，宋谢绛迁居于此",
+        "lore": "范仲淹有诗"
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c04",
+        "name": "大涤山",
+        "type": "山",
+        "location_text": "在余杭县西南一十八里",
+        "description": "中有日月分精金堂玉室，中峰之上有许迈升天坛",
+        "lore": "道家名山，洞霄宫所在地"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c04",
+        "name": "天柱山",
+        "type": "山",
+        "location_text": "在余杭县西南一十八里",
+        "description": "四隅陡绝耸翠参天，为道家第五十七福地",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c05",
+        "name": "衣锦山",
+        "type": "山",
+        "location_text": "在临安县治南",
+        "description": "本名石镜山，东峰有圆石其光如鉴，钱镠幼时游此",
+        "lore": "吴越王钱镠故里象征"
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c05",
+        "name": "天目山",
+        "type": "山",
+        "location_text": "在临安县西五十里",
+        "description": "为道家第三十四洞天，山下两湖若左右目故名",
+        "lore": "郭璞云天目山前两乳长龙飞凤舞到钱塘"
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c05",
+        "name": "径山",
+        "type": "山",
+        "location_text": "天目之东北峰",
+        "description": "有路可通天目故名径山，五峰周抱奇胜特异",
+        "lore": "佛教名山，径山寺所在地"
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c07",
+        "name": "西菩山",
+        "type": "山",
+        "location_text": "在於潜县西一十三里",
+        "description": "九锁交陈双峰对峙，上有明智寺，宋僧参寥子居此",
+        "lore": "苏轼有诗"
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c07",
+        "name": "生仙山",
+        "type": "山",
+        "location_text": "在於潜县南三十里",
+        "description": "汉天师张道陵生于此山之西因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c09",
+        "name": "百丈山",
+        "type": "山",
+        "location_text": "在昌化县西三十里",
+        "description": "亦名潜山，相传尧时洪水惟此山潜水中不没者百丈故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c09",
+        "name": "千顷山",
+        "type": "山",
+        "location_text": "在昌化县西北六十里",
+        "description": "上广千顷，山有龙湫鱼皆金银色祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "飞来峰",
+        "type": "峰",
+        "location_text": "在府城西二十里",
+        "description": "晋咸和中西天僧慧理登此山叹曰此是中天竺国灵鹫山之小岭不知何年飞来",
+        "lore": "佛教传说"
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "南高峰",
+        "type": "峰",
+        "location_text": "在府城西一十二里",
+        "description": "上有古塔下有石屋",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "北高峰",
+        "type": "峰",
+        "location_text": "在府城西北二十三里",
+        "description": "上有塔高七层",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "风篁岭",
+        "type": "岭",
+        "location_text": "在府城西一十二里",
+        "description": "修篁怪石风韵萧爽因名",
+        "lore": "苏轼诗有问信风篁岭下梅句"
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "栖霞岭",
+        "type": "岭",
+        "location_text": "在西湖上",
+        "description": "一名剑门岭，旧多桃花开时烂然如霞故名",
+        "lore": "岳飞墓在此岭下"
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "浙江",
+        "type": "江",
+        "location_text": "在府城西三里",
+        "description": "出歙县玉山，经建德合婺溪过富春为浙江入于海，潮水投山十折而曲",
+        "lore": "卢肇曰浙者折也"
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c06",
+        "name": "富春江",
+        "type": "江",
+        "location_text": "在富阳县南",
+        "description": "即浙江之上流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "西湖",
+        "type": "湖",
+        "location_text": "在府城西",
+        "description": "周回三十里，其源出于武林泉，自唐以来为东南游赏胜处，旧称西湖十景",
+        "lore": "白居易苏轼皆有诗；苏公堤即苏轼所筑"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c04",
+        "name": "苕溪",
+        "type": "溪",
+        "location_text": "在余杭县治前",
+        "description": "发源天目山由于潜临安东流至余杭经钱塘入湖州，夹崖多苕花秋飘散水上如飞雪因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "虎跑泉",
+        "type": "泉",
+        "location_text": "在府城西南虎跑寺",
+        "description": "旧传性空禅师居大慈山无水，夜二虎跑地泉涌出故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "龙井",
+        "type": "泉",
+        "location_text": "在西湖上",
+        "description": "旧名龙泓，相传有龙居之，宋元丰中僧辩才即其处为亭",
+        "lore": "秦观记"
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "六井",
+        "type": "井",
+        "location_text": "在钱塘县",
+        "description": "唐刺史李泌始引西湖作六井以便民汲，白居易复开治之",
+        "lore": "苏轼记其详情"
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "钱塘",
+        "type": "塘",
+        "location_text": "在府城南",
+        "description": "唐功曹华信议立此塘以防海水，募能致土石一斛与千钱，旬月之间塘遂成因号钱塘",
+        "lore": "杭州地名由来"
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "捍海塘",
+        "type": "塘",
+        "location_text": "在府城东三里",
+        "description": "梁开平中钱武肃王始建，潮水冲激板筑不就，因命强弩数百以射潮头，既而积石植木为塘",
+        "lore": "吴越王射潮传说"
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "38-001",
+        "geo_id": "GEO-38001-c01",
+        "name": "苏公堤",
+        "type": "堤",
+        "location_text": "在西湖上",
+        "description": "宋元祐中苏轼取葑田积湖中南北径三十里为长堤，植芙蓉杨柳其上望之如图画",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "38-001",
+        "cited_work": "欧阳修有美堂记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋欧阳修有美堂记邑屋华丽十余万家环以湖山左右映带】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "38-001",
+        "cited_work": "葛澧帝都赋",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋葛澧帝都赋据东南之都会号繁盛之乐土】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "38-001",
+        "cited_work": "晁无咎文",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋晁无咎文左浙江右具区北大海南天目】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "38-001",
+        "cited_work": "西征记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【西征记龙山据其首西湖蟠其腹天竺耸其膺东山卧其背】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "38-001",
+        "cited_work": "秦观雪斋记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋秦观雪斋记外带涛江涨海之险内抱湖山竹林之盛】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "38-001",
+        "cited_work": "吴越春秋",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【吴越春秋水行山处以船为车以檝为马】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "38-001",
+        "cited_work": "汉志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【汉志吴越之君皆尚勇故其民好用剑轻死易发】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "38-001",
+        "cited_work": "隋志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【隋志其人君子尚礼庸庶厚厐】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "杭州府"
+}
