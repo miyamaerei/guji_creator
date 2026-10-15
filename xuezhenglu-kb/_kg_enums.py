@@ -56,3 +56,7 @@ EVENT_TYPES_ZH = {"politics": "朝政", "coup": "政变", "military": "军事", 
                   "supernatural": "神异传说", "epidemic": "疾疫", "disaster_relief": "御灾赈济",
                   "police": "缉捕防盗", "inspection": "巡查监察", "family": "家事", "odd_tales": "异闻",
                   "religion": "宗教", "institution_change": "制度", "evolution": "沿革", "other": "其他"}
+
+# 翻译风格（TRL 层用；继承基准库 §1.13 三值封闭）
+TRL_STYLES = ["直译", "意译", "注释性翻译"]
+TRL_CONFIDENCES = ["high", "medium", "low"]
