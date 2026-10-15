@@ -1,0 +1,840 @@
+{
+  "item_id": "94-001",
+  "volume": "94",
+  "source": "雷州府",
+  "region": "广东",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "雷州府",
+        "type": "geo",
+        "norm": "雷州府",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "海康县",
+        "type": "geo",
+        "norm": "海康县",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "遂溪县",
+        "type": "geo",
+        "norm": "遂溪县",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "徐闻县",
+        "type": "geo",
+        "norm": "徐闻县",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "雷州卫",
+        "type": "geo",
+        "norm": "雷州卫",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K擎雷山",
+        "name": "擎雷山",
+        "type": "mtn",
+        "norm": "擎雷山",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K湖光岩",
+        "name": "湖光岩",
+        "type": "mtn",
+        "norm": "湖光岩",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K天宁寺",
+        "name": "天宁寺",
+        "type": "site",
+        "norm": "天宁寺",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K十贤堂",
+        "name": "十贤堂",
+        "type": "site",
+        "norm": "十贤堂",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K寇准",
+        "name": "寇准",
+        "type": "person",
+        "norm": "寇准",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K苏轼",
+        "name": "苏轼",
+        "type": "person",
+        "norm": "苏轼",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K苏辙",
+        "name": "苏辙",
+        "type": "person",
+        "norm": "苏辙",
+        "first_source": "94-001"
+      },
+      {
+        "ent_id": "ENT-K李纲",
+        "name": "李纲",
+        "type": "person",
+        "norm": "李纲",
+        "first_source": "94-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-94001",
+        "item_id": "94-001",
+        "name": "雷州府",
+        "type": "prefecture",
+        "region": "广东",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-94001-c01",
+          "GEO-94001-c02",
+          "GEO-94001-c03",
+          "GEO-94001-w01"
+        ],
+        "volume_range": "卷94",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "海岸",
+              "distance_li": 10
+            },
+            {
+              "direction": "西",
+              "to_place": "海岸",
+              "distance_li": 200
+            },
+            {
+              "direction": "南",
+              "to_place": "海岸",
+              "distance_li": 200
+            },
+            {
+              "direction": "北",
+              "to_place": "高州府石城县界",
+              "distance_li": 320
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 5595
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9040
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县三；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 55000,
+            "unit": "石",
+            "note": "粮五万五千石零"
+          },
+          "jun_name": "海康【唐名】雷阳【郡在雷水之阳故名】",
+          "topography": "地滨炎海【寰宇记】；多平田沃壤有海道可通闽浙三面并海【俱图经】；穷服岭并南海【宋州学记】；海山环抱【宋御书楼上梁文】",
+          "customs": "人多居栏以避时郁【寰宇记】；风俗颇淳人多向学【宋余靖学记海康郡濒海之乐郊也地域虽遥风俗颇淳圣训涵濡人多向学】；州杂黎俗【图经州杂黎俗故有官语客语黎语官语则可对州县官言客语则平日相与言也黎语虽州人或不能尽辨】；气候倍热【同上居海上之极南气候倍热】；以己酉为腊【郡志州人循习以立冬后己酉为腊先祭其先然后集亲故而共饮焉】",
+          "garrisons": [
+            {
+              "name": "雷州卫",
+              "type": "卫",
+              "location_text": "在府治东洪武五年建"
+            },
+            {
+              "name": "海康守御千户所",
+              "type": "千户所",
+              "location_text": "在海康县西一百七十里"
+            },
+            {
+              "name": "乐民守御千户所",
+              "type": "千户所",
+              "location_text": "在遂溪县西南一百九十里"
+            },
+            {
+              "name": "海安守御千户所",
+              "type": "千户所",
+              "location_text": "在徐闻县南二十里"
+            },
+            {
+              "name": "锦囊守御千户所",
+              "type": "千户所",
+              "location_text": "在徐闻县东一百里以上四所俱洪武二十七年建隶雷州卫"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008"
+        ]
+      },
+      {
+        "geo_id": "GEO-94001-c01",
+        "item_id": "94-001",
+        "name": "海康县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-94001",
+        "children": [],
+        "volume_range": "卷94",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 50,
+            "unit": "里",
+            "note": "编户五十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-94001-c02",
+        "item_id": "94-001",
+        "name": "遂溪县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-94001",
+        "children": [],
+        "volume_range": "卷94",
+        "attributes": {
+          "location_text": "在府城北一百八十里",
+          "households": {
+            "count": 48,
+            "unit": "里",
+            "note": "编户四十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-94001-c03",
+        "item_id": "94-001",
+        "name": "徐闻县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-94001",
+        "children": [],
+        "volume_range": "卷94",
+        "attributes": {
+          "location_text": "在府城南一百五里",
+          "households": {
+            "count": 29,
+            "unit": "里",
+            "note": "编户二十九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-94001-w01",
+        "item_id": "94-001",
+        "name": "雷州卫",
+        "type": "weisuo",
+        "region": "广东",
+        "parent": "GEO-94001",
+        "children": [],
+        "volume_range": "卷94",
+        "attributes": {
+          "location_text": "在府治东洪武五年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "象郡地",
+        "action": "因之",
+        "detail": "古粤地，天文牛女分野，秦平百粤置三郡，此属象郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "徐闻县/合浦郡",
+        "action": "置",
+        "detail": "汉为徐闻县，属合浦郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "南朝梁",
+        "era": null,
+        "institution_name": "合州/南合州",
+        "action": "置",
+        "detail": "梁分合浦郡置合州，寻改南合州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "合州/海康县",
+        "action": "改",
+        "detail": "隋仍为合州治海康县，大业初州废"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "唐",
+        "era": "贞观/天宝/至德",
+        "institution_name": "南合州/东合州/雷州/海康郡",
+        "action": "改",
+        "detail": "唐武德间复置南合州，贞观初改为东合州，寻又改为雷州，因郡有擎雷水故名；天宝初改为海康郡，至德初复为雷州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "雷州",
+        "action": "因之",
+        "detail": "五代时属南汉"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "雷州",
+        "action": "因之",
+        "detail": "宋隶广南西路"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "雷州路",
+        "action": "置",
+        "detail": "元置雷州路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "雷州府",
+        "action": "改",
+        "detail": "本朝改为雷州府，领县三"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "擎雷山",
+        "type": "山",
+        "location_text": "在府城南八里",
+        "description": "为府治之案山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "英榜山",
+        "type": "山",
+        "location_text": "在府城西南八里",
+        "description": "上有雷帅庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "雷公山",
+        "type": "山",
+        "location_text": "在府城西北四十里",
+        "description": "相传昔雷震此地因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "吉斗山",
+        "type": "山",
+        "location_text": "在府城西北四十里",
+        "description": "形如盘斗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "虎头山",
+        "type": "山",
+        "location_text": "在府城东七十里",
+        "description": "枕海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "时礼山",
+        "type": "山",
+        "location_text": "在府城东南八十里",
+        "description": "视诸山为最高",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "麻囊山",
+        "type": "山",
+        "location_text": "在府城东北八十里",
+        "description": "枕海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "博袍山",
+        "type": "山",
+        "location_text": "在府城西八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "徒廉山",
+        "type": "山",
+        "location_text": "在府城南一百三十里",
+        "description": "下歩村之西海中山巅有石奇怪万状岩穴崎岖有泉清冷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "英高山",
+        "type": "山",
+        "location_text": "在府城西南一百三十里",
+        "description": "两峰耸然高峭相并而立，山顶有泉出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "乌蛇山",
+        "type": "山",
+        "location_text": "在遂溪县东北三十里",
+        "description": "出乌药",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "螺冈山",
+        "type": "山",
+        "location_text": "在遂溪县西六十里",
+        "description": "峰如螺形",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "覆盂山",
+        "type": "山",
+        "location_text": "在遂溪县东一百二十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "调楼山",
+        "type": "山",
+        "location_text": "在遂溪县西北一百五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "围洲山",
+        "type": "山",
+        "location_text": "在遂溪县西南二百里海中",
+        "description": "旧名大蓬莱，周围七十余里，内有八村，其民专以采珠为业",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c03",
+        "name": "灵山",
+        "type": "山",
+        "location_text": "在徐闻县西四十里",
+        "description": "上有神庙，岁旱祷雨辄应故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c03",
+        "name": "石门山",
+        "type": "山",
+        "location_text": "在徐闻县北六十里",
+        "description": "上有石门山，神祈祷有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c03",
+        "name": "冠头山",
+        "type": "山",
+        "location_text": "在徐闻县东七十里",
+        "description": "望之若冠冕然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c03",
+        "name": "屯云山",
+        "type": "山",
+        "location_text": "在徐闻县东八十里",
+        "description": "四时云雾蒙蔽故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "七星岭",
+        "type": "岭",
+        "location_text": "在遂溪县南三十五里",
+        "description": "上有七小峰形若星列",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "湖光岩",
+        "type": "岩",
+        "location_text": "在遂溪县东南七十里",
+        "description": "一名陷湖，相传隋开皇间一村陷成湖，湖有岩如屋，宋李纲曾憩此改今名",
+        "lore": "岩北有神祠，岁旱乡人刑白牛祭之即雨，宋封神灵惠侯"
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "思灵岛",
+        "type": "岛",
+        "location_text": "在海中",
+        "description": "产米豆",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "英灵冈",
+        "type": "冈",
+        "location_text": "在府城北五里",
+        "description": "府治之主山，相传雷出于此英灵显异故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "海",
+        "type": "海",
+        "location_text": "在府城东一十里",
+        "description": "宋苏轼渡海诗参横斗转欲三更苦雨终风也解晴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "罗湖水",
+        "type": "水",
+        "location_text": "在府城西",
+        "description": "又名西湖，宋苏轼苏辙尝游此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "擎雷水",
+        "type": "水",
+        "location_text": "在擎雷山下",
+        "description": "今南渡是也，源出海康县铜鼓村南流七十里东入于海，昔被雷震而水出焉，州以此得名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "潭望水",
+        "type": "水",
+        "location_text": "在府城西南六里",
+        "description": "源出遂溪县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "平原水",
+        "type": "水",
+        "location_text": "在府城西北一十五里",
+        "description": "合擎雷水入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "博袍水",
+        "type": "水",
+        "location_text": "源出博袍山之南",
+        "description": "西流入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "三鸦水",
+        "type": "水",
+        "location_text": "在遂溪县东南八十里",
+        "description": "水傍有三石如鸦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c03",
+        "name": "古源水",
+        "type": "水",
+        "location_text": "在徐闻县南一十六里",
+        "description": "源出潭田村南流入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "铁杷溪",
+        "type": "溪",
+        "location_text": "在遂溪县东南七十里",
+        "description": "溪有石似铁杷，隋以此名县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c03",
+        "name": "迈胜溪",
+        "type": "溪",
+        "location_text": "在徐闻县东二十里",
+        "description": "溪水流澈胜于他溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "三水池",
+        "type": "池",
+        "location_text": "旧在海康县治南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "瑞星池",
+        "type": "池",
+        "location_text": "在府治南",
+        "description": "即寇准旧居也，宋天圣间有星陨于池翌日求之得一石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "莱泉",
+        "type": "泉",
+        "location_text": "在西馆内",
+        "description": "宋寇莱公尝饮此，元延祐间重浚",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "老鸦洲",
+        "type": "洲",
+        "location_text": "抵琼州界四里",
+        "description": "渡海至琼州折四百一十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "鹿洲",
+        "type": "洲",
+        "location_text": "在府城东南一百八十里海中",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c01",
+        "name": "卵洲",
+        "type": "洲",
+        "location_text": "在府城西南海中",
+        "description": "旧经云群鸟伏卵于上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "94-001",
+        "geo_id": "GEO-94001-c02",
+        "name": "蛇洋洲",
+        "type": "洲",
+        "location_text": "在遂溪县西南二百里",
+        "description": "特起海中，古名小蓬莱洲，有山如蛇形故名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "94-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【寰宇记地滨炎海】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "94-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【图经多平田沃壤有海道可通闽浙三面并海】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "94-001",
+        "cited_work": "宋州学记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋州学记穷服岭并南海】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "94-001",
+        "cited_work": "宋御书楼上梁文",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋御书楼上梁文海山环抱】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "94-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记人多居栏以避时郁】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "94-001",
+        "cited_work": "余靖学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋余靖学记海康郡濒海之乐郊也地域虽遥风俗颇淳圣训涵濡人多向学】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "94-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经州杂黎俗故有官语客语黎语】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "94-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志州人循习以立冬后己酉为腊先祭其先然后集亲故而共饮焉】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "雷州府"
+}

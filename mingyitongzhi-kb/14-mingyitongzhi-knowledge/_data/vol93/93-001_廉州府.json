@@ -1,0 +1,1064 @@
+{
+  "item_id": "93-001",
+  "volume": "93",
+  "source": "廉州府",
+  "region": "广东",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "廉州府",
+        "type": "geo",
+        "norm": "廉州府",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "合浦县",
+        "type": "geo",
+        "norm": "合浦县",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "灵山县",
+        "type": "geo",
+        "norm": "灵山县",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "钦州",
+        "type": "geo",
+        "norm": "钦州",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "廉州卫",
+        "type": "geo",
+        "norm": "廉州卫",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K大廉山",
+        "name": "大廉山",
+        "type": "mtn",
+        "norm": "大廉山",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K珠母海",
+        "name": "珠母海",
+        "type": "mtn",
+        "norm": "珠母海",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K廉江",
+        "name": "廉江",
+        "type": "mtn",
+        "norm": "廉江",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K三海岩",
+        "name": "三海岩",
+        "type": "mtn",
+        "norm": "三海岩",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K还珠亭",
+        "name": "还珠亭",
+        "type": "site",
+        "norm": "还珠亭",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K天涯亭",
+        "name": "天涯亭",
+        "type": "site",
+        "norm": "天涯亭",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K孟尝",
+        "name": "孟尝",
+        "type": "person",
+        "norm": "孟尝",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K苏轼",
+        "name": "苏轼",
+        "type": "person",
+        "norm": "苏轼",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K余靖",
+        "name": "余靖",
+        "type": "person",
+        "norm": "余靖",
+        "first_source": "93-001"
+      },
+      {
+        "ent_id": "ENT-K马援",
+        "name": "马援",
+        "type": "person",
+        "norm": "马援",
+        "first_source": "93-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-93001",
+        "item_id": "93-001",
+        "name": "廉州府",
+        "type": "prefecture",
+        "region": "广东",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-93001-c01",
+          "GEO-93001-c02",
+          "GEO-93001-s01",
+          "GEO-93001-w01"
+        ],
+        "volume_range": "卷93",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "化州石城县界",
+              "distance_li": 130
+            },
+            {
+              "direction": "西",
+              "to_place": "广西上思州界",
+              "distance_li": 330
+            },
+            {
+              "direction": "南",
+              "to_place": "海崖",
+              "distance_li": 80
+            },
+            {
+              "direction": "北",
+              "to_place": "广西南宁府横州界",
+              "distance_li": 260
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 5620
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9065
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县二；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 26000,
+            "unit": "石",
+            "note": "粮二万六千石零"
+          },
+          "jun_name": "合浦【汉名】珠官【吴名】",
+          "topography": "南辕穷途【钦州天涯亭代荅云】；濒海而郡【宋张栻州学记】；凿山为城门威服蛮夷【元志】；大廉峙于东巨海环于南【郡志】",
+          "customs": "以匏笙铜鼓为乐【寰宇记夷人多采珠及甲香为业防亲友以匏笙铜鼓为乐】；以腊月为岁首【同上别有夷人名高梁人不事耕稼以入海捕鱼为业婚娶不避同姓用腊月为岁首】；郡无耕稼所资珠玑【图经】；以亥日聚市【同上俗以亥日聚市黎蜑壮稚以荷叶包饭而往谓之趁墟】；病不求医惟事巫祝【同上】；俗有四民【同上俗有四民一曰客户居城郭解汉音业商贾二曰东人杂处乡村解闽语业耕种三曰俚人深居远村不解汉语惟耕垦为活四曰蜑户舟居穴处亦能汉音以采海为生】；人性俭朴词讼简稀【郡志】",
+          "garrisons": [
+            {
+              "name": "海北盐课提举司",
+              "type": "盐课司",
+              "location_text": "旧在雷州府洪武初迁于石康县西领白沙等十五盐课司"
+            },
+            {
+              "name": "廉州卫",
+              "type": "卫",
+              "location_text": "在府治东洪武二十八年建"
+            },
+            {
+              "name": "永安守御千户所",
+              "type": "千户所",
+              "location_text": "在合浦县东六十里洪武二十七年建"
+            },
+            {
+              "name": "钦州守御千户所",
+              "type": "千户所",
+              "location_text": "在钦州城内洪武二十八年建"
+            },
+            {
+              "name": "守镇灵山千户所",
+              "type": "千户所",
+              "location_text": "在灵山县东正统六年建已上三所俱隶廉州卫"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008"
+        ]
+      },
+      {
+        "geo_id": "GEO-93001-c01",
+        "item_id": "93-001",
+        "name": "合浦县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-93001",
+        "children": [],
+        "volume_range": "卷93",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 30,
+            "unit": "里",
+            "note": "编户三十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-93001-c02",
+        "item_id": "93-001",
+        "name": "灵山县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-93001",
+        "children": [],
+        "volume_range": "卷93",
+        "attributes": {
+          "location_text": "在钦州北二百一十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户二十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-93001-s01",
+        "item_id": "93-001",
+        "name": "钦州",
+        "type": "department",
+        "region": "广东",
+        "parent": "GEO-93001",
+        "children": [],
+        "volume_range": "卷93",
+        "attributes": {
+          "location_text": "在府城西一百四十里",
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-93001-w01",
+        "item_id": "93-001",
+        "name": "廉州卫",
+        "type": "weisuo",
+        "region": "广东",
+        "parent": "GEO-93001",
+        "children": [],
+        "volume_range": "卷93",
+        "attributes": {
+          "location_text": "在府治东洪武二十八年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "象郡地",
+        "action": "因之",
+        "detail": "古南粤地，天文翼轸分野，秦为象郡地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "汉",
+        "era": "元鼎",
+        "institution_name": "合浦郡",
+        "action": "置",
+        "detail": "汉武平南粤置合浦郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "珠官郡",
+        "action": "改",
+        "detail": "三国吴改珠官郡，未几复为合浦郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "南朝宋",
+        "era": null,
+        "institution_name": "越州",
+        "action": "置",
+        "detail": "刘宋于郡置越州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "禄州/合州/合浦郡",
+        "action": "改",
+        "detail": "隋初郡废州存，大业初改曰禄州，寻改为合州，又废州为合浦郡治合浦县"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "唐",
+        "era": "贞观/天宝/乾元",
+        "institution_name": "越州/廉州/合浦郡",
+        "action": "改",
+        "detail": "唐初罢郡复置越州，贞观中改为廉州，因郡有大廉洞故名；天宝初复为合浦郡，乾元初又复为廉州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "宋",
+        "era": "咸平",
+        "institution_name": "廉州/太平军",
+        "action": "改",
+        "detail": "宋徙州治长沙，改置太平军，咸平初复为廉州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "廉州路",
+        "action": "置",
+        "detail": "元置廉州路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "廉州府",
+        "action": "改",
+        "detail": "本朝洪武初改为廉州府，又改为廉州属雷州府，十四年复为府，领州一县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "黄稻山",
+        "type": "山",
+        "location_text": "在府城北凡十里",
+        "description": "州人多于山下种稻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "北峨山",
+        "type": "山",
+        "location_text": "在府城西北一百里",
+        "description": "以峰势嵯峨而名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "夫人山",
+        "type": "山",
+        "location_text": "在府城东一百二十里",
+        "description": "刘宋陈伯绍葬妻于此因名，亦名殡山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "糠头山",
+        "type": "山",
+        "location_text": "在府城西北一百四十里",
+        "description": "相传昔人舂谷积糠如山，今呼狼头山，又名军头山，盖尉佗尝驻军于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "姜山",
+        "type": "山",
+        "location_text": "在府城东北一百四十里",
+        "description": "绕山居人多姜姓故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "五黄山",
+        "type": "山",
+        "location_text": "在府城北一百五十里",
+        "description": "相传昔有樵者迷路遇五人黄冠朱颜相与谈笑，指示迷者得归",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "大廉山",
+        "type": "山",
+        "location_text": "在府城东一百五十里",
+        "description": "上有大廉洞，州以此名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "画山",
+        "type": "山",
+        "location_text": "在府城东一百五十里",
+        "description": "峰峦秀丽如画",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "百良山",
+        "type": "山",
+        "location_text": "在府城东一百五十里",
+        "description": "多产大木良材",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "文笔山",
+        "type": "山",
+        "location_text": "在钦州南二里",
+        "description": "石镇安峰山峦峭拔，状若文笔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "横山",
+        "type": "山",
+        "location_text": "在钦州东南二十里",
+        "description": "一名鸡鸣山，其形延远横拱州治",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "那怀山",
+        "type": "山",
+        "location_text": "在钦州北三十里",
+        "description": "以那怀村为名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "大墓山",
+        "type": "山",
+        "location_text": "在钦州东三十里",
+        "description": "相传唐谏议大夫甯悌原葬于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "铜鱼山",
+        "type": "山",
+        "location_text": "在钦州西北六十里",
+        "description": "相传山下有巨石，陂下铸一大铜鱼以为水窦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "罗浮山",
+        "type": "山",
+        "location_text": "在钦州西北六十五里",
+        "description": "形若惠州罗浮故名，又名安京山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "十万山",
+        "type": "山",
+        "location_text": "在钦州西北一百里",
+        "description": "峰峦高耸甲于众山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "登高山",
+        "type": "山",
+        "location_text": "废石康县治东",
+        "description": "每遇重九士民登眺于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "白石山",
+        "type": "山",
+        "location_text": "废石康县东三十里",
+        "description": "山石皆白",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "三山",
+        "type": "山",
+        "location_text": "废石康县东四十里",
+        "description": "三峰峭立",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "绿芦山",
+        "type": "山",
+        "location_text": "在灵山县南二十里",
+        "description": "其山多产芦竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "龙牙山",
+        "type": "山",
+        "location_text": "在灵山县北一十余里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "洪牙山",
+        "type": "山",
+        "location_text": "在灵山县北二十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "博岭山",
+        "type": "山",
+        "location_text": "在灵山县东四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "流洞山",
+        "type": "山",
+        "location_text": "在灵山县西南五十里",
+        "description": "中有洞水经流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "西灵山",
+        "type": "山",
+        "location_text": "在灵山县西百余里",
+        "description": "唐贞观中移灵山县治于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "黄楼山",
+        "type": "山",
+        "location_text": "在灵山县西一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "石六峰山",
+        "type": "山",
+        "location_text": "在灵山县西",
+        "description": "其峰有六因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "林冶山",
+        "type": "山",
+        "location_text": "在灵山县西南一百三十里",
+        "description": "古金坑之所",
+        "lore": "昔人诗云天涯亭下有龙窟林冶山头出碎金"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "龙门岭",
+        "type": "岭",
+        "location_text": "在府城东八里龙门村",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "冠头岭",
+        "type": "岭",
+        "location_text": "在府城南八十里",
+        "description": "形势穹窿，山石皆黑如冠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "三山岭",
+        "type": "岭",
+        "location_text": "在钦州南五里",
+        "description": "三峰特立，山中多孔雀，又名孔雀山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "望海岭",
+        "type": "岭",
+        "location_text": "在钦州北一十五里",
+        "description": "可登以望海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "分茅岭",
+        "type": "岭",
+        "location_text": "在钦州西南三百六十里",
+        "description": "汉马援征交阯立铜柱其下与之分界，山顶产茅草头南北异向至今犹然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "峰子岭",
+        "type": "岭",
+        "location_text": "在灵山县东北二十五里",
+        "description": "县之主山也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "三海岩",
+        "type": "岩",
+        "location_text": "在灵山县西三里",
+        "description": "有三岩曰钱岩月岩龟岩，宋郡守陶弼改今名",
+        "lore": "宋陶弼诗序云一呀云际天光内通如月破一若巨龟壳侧倚崖下一中洼上隆状如覆鼎"
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "仙岩",
+        "type": "岩",
+        "location_text": "在灵山县西八十里",
+        "description": "地名陁令村",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "蔡龙洞",
+        "type": "洞",
+        "location_text": "在合浦县界内",
+        "description": "唐武德中置蔡龙县以此为名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "楠石",
+        "type": "石",
+        "location_text": "在灵山县治东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "珠母海",
+        "type": "海",
+        "location_text": "在府城东南八十里",
+        "description": "巨海中有平江杨梅青婴三池，中出大蚌剖而得珠，即古合浦也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "廉江",
+        "type": "江",
+        "location_text": "在府城北三十里",
+        "description": "即合浦江，又名南流江，或名晏江，源出广西容县大容山南至本府地名州江口分为五江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "钦江",
+        "type": "江",
+        "location_text": "在钦州东",
+        "description": "源发洪牙山南入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "如洪江",
+        "type": "江",
+        "location_text": "在钦州西二十里",
+        "description": "源发罗浮山南流入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "南岸江",
+        "type": "江",
+        "location_text": "在灵山县东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c02",
+        "name": "旧州江",
+        "type": "江",
+        "location_text": "在灵山县西六十里",
+        "description": "源出流洞山西会南岸江入钦江注于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "雁湖",
+        "type": "湖",
+        "location_text": "在府城西北七十里",
+        "description": "每秋冬有双雁游于其间，为其罕有故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "铜船湖",
+        "type": "湖",
+        "location_text": "旧石康县",
+        "description": "相传汉马援铸铜船五只，一留于此，四只将过海征林邑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "五湖",
+        "type": "湖",
+        "location_text": "在钦州城外",
+        "description": "有东西南北中五湖，宋陶弼筑亭于其上，每湖各有诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "龙门水",
+        "type": "水",
+        "location_text": "在府城东二里",
+        "description": "源出龙门岭，西流分二支曰源头曰龙门，环城北入于江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "晏水",
+        "type": "水",
+        "location_text": "在府城北",
+        "description": "源出石康县界内",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "思乡水",
+        "type": "水",
+        "location_text": "在石康县",
+        "description": "发源思洞山，出武利江复回本县界入晏江，以其去而复还故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "金鸡水",
+        "type": "水",
+        "location_text": "废石康县东二十里",
+        "description": "相传昔有金鸡浴于水傍",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "石栏水",
+        "type": "水",
+        "location_text": "在钦州西五里",
+        "description": "水底有石栏横生",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "罗浮水",
+        "type": "水",
+        "location_text": "在钦州南四十里",
+        "description": "即罗浮发源之水也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "巢溪",
+        "type": "溪",
+        "location_text": "在府城北七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "明月溪",
+        "type": "溪",
+        "location_text": "在府城北八十里",
+        "description": "清夜湛然如月色",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "绿云溪",
+        "type": "溪",
+        "location_text": "在府城北一百七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "张沭溪",
+        "type": "溪",
+        "location_text": "在府城东北八十里",
+        "description": "昔有隐士张沭居此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "钟湾",
+        "type": "湾",
+        "location_text": "在府城南七里",
+        "description": "有湾接江通海，相传宋政和间灵觉寺钟一夕飞去",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-s01",
+        "name": "瀑布湾",
+        "type": "湾",
+        "location_text": "在钦州那容村",
+        "description": "瀑自石顶飞激下成深湾，岁旱乡人祈雨于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "围洲",
+        "type": "洲",
+        "location_text": "在珠母海中",
+        "description": "周回一百里，昔有野马渡此，又名马渡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "93-001",
+        "geo_id": "GEO-93001-c01",
+        "name": "庙前井",
+        "type": "井",
+        "location_text": "在府治东",
+        "description": "元坛庙前清泉涌出，一方用之未尝枯竭",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "93-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记夷人多采珠及甲香为业防亲友以匏笙铜鼓为乐】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "93-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记别有夷人名高梁人不事耕稼以入海捕鱼为业婚娶不避同姓用腊月为岁首】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "93-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经郡无耕稼所资珠玑】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "93-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经俗以亥日聚市黎蜑壮稚以荷叶包饭而往谓之趁墟】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "93-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经俗有四民一曰客户居城郭解汉音业商贾二曰东人杂处乡村解闽语业耕种三曰俚人深居远村不解汉语惟耕垦为活四曰蜑户舟居穴处亦能汉音以采海为生】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "93-001",
+        "cited_work": "张栻州学记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋张栻州学记濒海而郡】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "93-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元志凿山为城门威服蛮夷】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "93-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志人性俭朴词讼简稀】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "廉州府"
+}

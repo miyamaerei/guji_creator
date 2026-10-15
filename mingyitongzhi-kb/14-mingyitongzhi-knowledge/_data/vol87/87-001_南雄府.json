@@ -1,0 +1,838 @@
+{
+  "item_id": "87-001",
+  "volume": "87",
+  "source": "南雄府",
+  "region": "广东",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "南雄府",
+        "type": "geo",
+        "norm": "南雄府",
+        "first_source": "87-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "保昌县",
+        "type": "geo",
+        "norm": "保昌县",
+        "first_source": "87-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "始兴县",
+        "type": "geo",
+        "norm": "始兴县",
+        "first_source": "87-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "南雄守御千户所",
+        "type": "geo",
+        "norm": "南雄守御千户所",
+        "first_source": "87-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-87001",
+        "item_id": "87-001",
+        "name": "南雄府",
+        "type": "prefecture",
+        "region": "广东",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-87001-c01",
+          "GEO-87001-c02",
+          "GEO-87001-w01"
+        ],
+        "volume_range": "卷87",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "江西贑州府信丰县界",
+              "distance_li": 240
+            },
+            {
+              "direction": "西",
+              "to_place": "韶州府曲江县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "南",
+              "to_place": "贑州府龙南县界",
+              "distance_li": 300
+            },
+            {
+              "direction": "北",
+              "to_place": "江西南安府大庾县界",
+              "distance_li": 80
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3300
+            },
+            {
+              "capital": "京师",
+              "distance_li": 6745
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县二；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮三万五千石零"
+          },
+          "jun_name": "淩江【因淩皓得名详见名宦】保昌【宋名】",
+          "topography": "东广要区【图经眷始兴之列壤实东广之要区】；控带羣蛮【重脩城记州独以雄名盖以其控带羣蛮襟防百越杰然峙于一隅】；两路喉襟【宋通判题名序南雄古郡两路之喉襟由东度岭而南由南度岭而东足迹所接舟车所防其地望甚重焉】；山川明丽【元重脩路学记】",
+          "customs": "俗杂夷夏【雄州题名序】；铸铜为鼓【通典欲相攻击则鸣此鼓到者如云家有鼓者号为都老】；婚娶以槟榔为礼【郡志】；人强吏懦【寰宇记南方遐阻人强吏懦豪富兼并役属贫弱俘掠不忌】；工无巧技商无厚资【图经】；青紫相属【宋洪勲学记本朝以来操翰墨以取青紫者比比相属】；病不服药【郡志病则不服药止祭鬼求福虽倾赀亦不惜】",
+          "garrisons": [
+            {
+              "name": "南雄守御千戸所",
+              "type": "卫",
+              "location_text": "在府治西洪武元年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008"
+        ]
+      },
+      {
+        "geo_id": "GEO-87001-c01",
+        "item_id": "87-001",
+        "name": "保昌县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-87001",
+        "children": [],
+        "volume_range": "卷87",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 44,
+            "unit": "里",
+            "note": "编户四十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-87001-c02",
+        "item_id": "87-001",
+        "name": "始兴县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-87001",
+        "children": [],
+        "volume_range": "卷87",
+        "attributes": {
+          "location_text": "在府城西一百一十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-87001-w01",
+        "item_id": "87-001",
+        "name": "南雄守御千户所",
+        "type": "weisuo",
+        "region": "广东",
+        "parent": "GEO-87001",
+        "children": [],
+        "volume_range": "卷87",
+        "attributes": {
+          "location_text": "在府治西洪武元年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "扬州之域",
+        "action": "因之",
+        "detail": "禹贡扬州之域，天文牛女分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "楚地",
+        "action": "属",
+        "detail": "战国地属楚"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "南海郡",
+        "action": "属",
+        "detail": "秦属南海郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "桂阳郡",
+        "action": "兼属",
+        "detail": "汉兼属桂阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "始兴郡",
+        "action": "属",
+        "detail": "三国呉置始兴郡治曲江，此地属焉"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "南朝宋",
+        "era": null,
+        "institution_name": "广兴郡",
+        "action": "属",
+        "detail": "刘宋属广兴郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "南朝齐",
+        "era": null,
+        "institution_name": "始兴郡",
+        "action": "复",
+        "detail": "齐复属始兴郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "广州",
+        "action": "属",
+        "detail": "隋属广州"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "韶州",
+        "action": "属",
+        "detail": "唐初属韶州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "南汉",
+        "era": null,
+        "institution_name": "雄州",
+        "action": "置",
+        "detail": "南汉置雄州"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "南雄州/保昌郡",
+        "action": "改",
+        "detail": "宋为南雄州隶广南东路，宣和中锡郡名保昌"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "南雄路",
+        "action": "改",
+        "detail": "元改置南雄路"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "南雄府",
+        "action": "改",
+        "detail": "本朝洪武初改路为府，领县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "府案山",
+        "type": "山",
+        "location_text": "在府治南",
+        "description": "今山川坛在其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "三峰山",
+        "type": "山",
+        "location_text": "在府城西一十里",
+        "description": "又名笔架山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "巾山",
+        "type": "山",
+        "location_text": "在府城北三十里",
+        "description": "府之主山也，其形如巾",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "青嶂山",
+        "type": "山",
+        "location_text": "在府城东南四十里",
+        "description": "翠阜屹立，松桧隂翳，有神仙隠几一锅似玉琢成，瀑布潺湲",
+        "lore": "相传有石锅龙王居此，嵗旱有祷辄应"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "马鞍山",
+        "type": "山",
+        "location_text": "在府城东八十里",
+        "description": "有冯氏一姓居其下仅百余室，登仕版者甚众，人以为兹山灵秀所钟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "天峰山",
+        "type": "山",
+        "location_text": "在府城北八十里",
+        "description": "其形峻髙插霄汉",
+        "lore": "元季乡民多避兵其上"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "龟湖山",
+        "type": "山",
+        "location_text": "在府城东南一百二十里",
+        "description": "山上有湖",
+        "lore": "云有五色灵龟生其中，嵗旱祷雨有应"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "油山",
+        "type": "山",
+        "location_text": "在府城东一百二十里",
+        "description": "髙数千仞，其势突兀，傍有一小穴出油，人多取以为利",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "洪崖山",
+        "type": "山",
+        "location_text": "在保昌县东",
+        "description": "上有洪崖庵",
+        "lore": "元彭菊庄诗脩竹茂林山上寺瘴烟炎日岭南秋"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "丹凤山",
+        "type": "山",
+        "location_text": "在始兴县西北五里",
+        "description": "相传梁天监中有凤翔其上因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "谢公山",
+        "type": "山",
+        "location_text": "在始兴县南三十里",
+        "description": "峯蛮耸拔视他山为独髙",
+        "lore": "昔有姓谢者脩道其间故名"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "白牛山",
+        "type": "山",
+        "location_text": "在始兴县东南三十里",
+        "description": "其势昻然，与谢公山连脉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "九姑山",
+        "type": "山",
+        "location_text": "在始兴县东六十里",
+        "description": "下有九姑庙，凡水旱疾疫民皆祷焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "桂山",
+        "type": "山",
+        "location_text": "在始兴县北一百里",
+        "description": "唐张九龄故宅傍，陵谷深邃，桂树森列，清香袭人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "天柱峰",
+        "type": "峰",
+        "location_text": "在始兴县西二十里",
+        "description": "峭秀竒拔，无支峯赘阜，屹然撑天",
+        "lore": "相传梁天监中九凤翔集峯上，又名九凤山"
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "大庾岭",
+        "type": "山",
+        "location_text": "在府城北八十里",
+        "description": "汉兵击吕嘉，有禆将姓庾者戍此故名，以其多梅亦曰梅岭，苍翠叠巘壁立峻峭，往来艰于登陟，唐张九龄开凿成路行者便之",
+        "lore": "上有云封寺，傍有白猿洞"
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "小庾岭",
+        "type": "岭",
+        "location_text": "在保昌县东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "杨历岩",
+        "type": "岩",
+        "location_text": "在府城西北二十里",
+        "description": "山颠方广百余丈，前后皆竒峯怪石飞泉",
+        "lore": "防空岩畔有龙祠"
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "仙女岩",
+        "type": "岩",
+        "location_text": "在府城东北二百里",
+        "description": "阚象山杉桧郁翳，泉石潺湲，中有二仙像",
+        "lore": "谓秦时二女子避地于此得道飞升"
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "龙王岩",
+        "type": "岩",
+        "location_text": "在府城东一百一十里",
+        "description": "其岩方广二丈",
+        "lore": "古诗云坐石不知地出岩方见天"
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "玲珑岩",
+        "type": "岩",
+        "location_text": "在始兴县南一十里",
+        "description": "平地石峯髙耸，中有三石室",
+        "lore": "相传葛洪尝炼丹于此"
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "罗汉洞",
+        "type": "洞",
+        "location_text": "在府城东",
+        "description": "梁天监中有罗汉现像，逾旬忽不见",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "放钵石",
+        "type": "石",
+        "location_text": "在云封山侧",
+        "description": "髙数尺",
+        "lore": "相传唐僧卢能放钵其上，宋章得象诗石上曽经转鉢盂"
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "凌江水",
+        "type": "江",
+        "location_text": "在府城西",
+        "description": "源出百顺都丈山，下流合昌水，至城西合浈水",
+        "lore": "宋天禧中保昌令凌皓建陂其间故名；章得象诗凌江清浅绕城流庾岭南邉第一州"
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "浈水",
+        "type": "江",
+        "location_text": "在府城南",
+        "description": "又名保水，源出上朔都，至城西南合凌江水，环抱郡邑如襟带",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "鲢水",
+        "type": "水",
+        "location_text": "在府城西一十里",
+        "description": "源出凌江，其流防于保水，春多鲢鱼故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "修仁水",
+        "type": "水",
+        "location_text": "在府城南三十里",
+        "description": "齐范云为始兴守至此酌水而饮",
+        "lore": "因赋诗云三枫何习习五渡何悠悠"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "长圃水",
+        "type": "水",
+        "location_text": "在府城东北四十里",
+        "description": "源出梅岭，流合浈水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "昌水",
+        "type": "水",
+        "location_text": "在府城北六十里",
+        "description": "合凌江水，流入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "肥水",
+        "type": "水",
+        "location_text": "在始兴县西南一十五里",
+        "description": "源出曲江县云溪岭下，东北合斜阶水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "墨江水",
+        "type": "水",
+        "location_text": "在始兴县西一十五里",
+        "description": "源出韶州府翁源县界，下流与浈水合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "官石村水",
+        "type": "水",
+        "location_text": "在始兴县西一十五里",
+        "description": "源出翁源县界，下流合清化水，又合大江而注之海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "凉水",
+        "type": "水",
+        "location_text": "在始兴县东南二十七里",
+        "description": "自贑州信丰县界竹岭分流合阶水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "杜安水",
+        "type": "水",
+        "location_text": "在始兴县东北三十八里",
+        "description": "源出信丰县深窖铁子源，至县界西流合保水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "朔水",
+        "type": "水",
+        "location_text": "在始兴县东一百里",
+        "description": "源出江西贑州龙南县界，下流与清化水合",
+        "lore": "月朔即涨至晦即减因名朔水"
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "跃溪水",
+        "type": "水",
+        "location_text": "在始兴县东一百里",
+        "description": "源出龙南县，流合浈水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "斜阶水",
+        "type": "水",
+        "location_text": "在始兴县南一百三十里",
+        "description": "源出韶州丹桂岭，流至县西与浈水合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "清化水",
+        "type": "水",
+        "location_text": "在始兴县南一百五十里",
+        "description": "源出翁源县界，下流与朔水合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "龙须潭",
+        "type": "潭",
+        "location_text": "在府城东五十里",
+        "description": "二潭相望，其深莫测",
+        "lore": "世传有龙蛰其下，嵗旱祷雨辄应"
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "石镬潭",
+        "type": "潭",
+        "location_text": "在府城东五十里",
+        "description": "与龙须潭相望，其深莫测",
+        "lore": "世传有龙蛰其下，嵗旱祷雨辄应"
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "温泉",
+        "type": "泉",
+        "location_text": "有三",
+        "description": "一在府城西北一十五里，一在府城南三十里，一在府城东南五十里，虽严冬水亦热，人多浴焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "霹雳泉",
+        "type": "泉",
+        "location_text": "在大庾岭下云封寺东",
+        "description": "其泉涌出石穴，甘冽可爱",
+        "lore": "相传昔大鉴禅师得法南归卓锡于此，又名卓锡泉；宋张士逊诗灵踪遗防载卓锡在髙岑"
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c02",
+        "name": "洗钵泉",
+        "type": "泉",
+        "location_text": "在始兴县西连城寺",
+        "description": "",
+        "lore": "相传傅大士云逰至此涤鉢因名"
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "白莲池",
+        "type": "池",
+        "location_text": "在种玉亭下",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "五云泷",
+        "type": "泷",
+        "location_text": "在府城西四十里",
+        "description": "羣峯险峻，泉水潺湲，飞流曲折，髙下成潭，深不可测",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "87-001",
+        "geo_id": "GEO-87001-c01",
+        "name": "叶陂",
+        "type": "陂",
+        "location_text": "在保昌县北",
+        "description": "知府叶景泷开",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "87-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【图经眷始兴之列壤实东广之要区】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "87-001",
+        "cited_work": "重修城记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【重脩城记州独以雄名盖以其控带羣蛮襟防百越杰然峙于一隅】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "87-001",
+        "cited_work": "宋通判题名序",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋通判题名序南雄古郡两路之喉襟由东度岭而南由南度岭而东足迹所接舟车所防其地望甚重焉】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "87-001",
+        "cited_work": "元重修路学记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元重脩路学记山川明丽】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "87-001",
+        "cited_work": "雄州题名序",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【雄州题名序俗杂夷夏】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "87-001",
+        "cited_work": "通典",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【通典欲相攻击则鸣此鼓到者如云家有鼓者号为都老】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "87-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记南方遐阻人强吏懦豪富兼并役属贫弱俘掠不忌】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "87-001",
+        "cited_work": "宋洪勋学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋洪勲学记本朝以来操翰墨以取青紫者比比相属】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "南雄府"
+}

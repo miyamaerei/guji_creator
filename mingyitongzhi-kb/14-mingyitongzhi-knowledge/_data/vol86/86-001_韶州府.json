@@ -1,0 +1,1388 @@
+{
+  "item_id": "86-001",
+  "volume": "86",
+  "source": "韶州府",
+  "region": "广东",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "韶州府",
+        "type": "geo",
+        "norm": "韶州府",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "曲江县",
+        "type": "geo",
+        "norm": "曲江县",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "乐昌县",
+        "type": "geo",
+        "norm": "乐昌县",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "仁化县",
+        "type": "geo",
+        "norm": "仁化县",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "乳源县",
+        "type": "geo",
+        "norm": "乳源县",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "翁源县",
+        "type": "geo",
+        "norm": "翁源县",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "英德县",
+        "type": "geo",
+        "norm": "英德县",
+        "first_source": "86-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "韶州守御千户所",
+        "type": "geo",
+        "norm": "韶州守御千户所",
+        "first_source": "86-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-86001",
+        "item_id": "86-001",
+        "name": "韶州府",
+        "type": "prefecture",
+        "region": "广东",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-86001-c01",
+          "GEO-86001-c02",
+          "GEO-86001-c03",
+          "GEO-86001-c04",
+          "GEO-86001-c05",
+          "GEO-86001-c06",
+          "GEO-86001-w01"
+        ],
+        "volume_range": "卷86",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "南雄府始兴县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "西",
+              "to_place": "广州府阳山县界",
+              "distance_li": 450
+            },
+            {
+              "direction": "南",
+              "to_place": "广州府清逺县界",
+              "distance_li": 370
+            },
+            {
+              "direction": "北",
+              "to_place": "湖广郴州桂阳县界",
+              "distance_li": 220
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3590
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7035
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县六；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮五万石零"
+          },
+          "jun_name": "始兴【呉置】广兴【刘宋名】韶阳【在府韶石山南故名】",
+          "topography": "北岭峭险南谷平易【唐徐浩张文献公碑始兴比岭峭险巉絶大庾南谷坦然平易】；岭南属州韶为大【唐皇甫湜朝阳楼记】；越之北门【宋潘美归奏辞】；控扼五岭韶为交冲；唇齿江湘咽喉交广【俱宋余靖修州衙记】；溪山称最【余靖涌泉亭记峤南溪山之胜曲江称最】；江山秀丽【元韶州谯楼记】",
+          "customs": "习尚淳朴【图经其习朴而不杂淳而不漓】；不事逰宴【同上商不富贾不巨工不良技不巧嵗时不事逰宴】；农不力畊【郡志为农者不力于耕而运贩盐钞嵗月可以致富】；珎竒不售【同上惟简质是安而市井贸易自日用饮食之外珎竒之货不售焉】；士多愿慤【宋朱熹濓溪祠堂记韶故名邦士多愿慤可与进于道者盖有张九龄余靖之遗风】；土旷人稀【图经英州号小法塲土旷人稀为农者择沃土以耕而于硗地多不用力】；藤叶嚼槟榔【宋杨万里英徳县诗人人藤叶嚼槟榔戸户茅檐覆土床】；万室通酿酤【宋梅尧臣翁源县诗越林多蔽天黄柑杂丹橘万室通酿酤抚逺无禁律】",
+          "garrisons": [
+            {
+              "name": "韶州守御千戸所",
+              "type": "卫",
+              "location_text": "在府治东南洪武初改元万户府建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011",
+          "CIT-012"
+        ]
+      },
+      {
+        "geo_id": "GEO-86001-c01",
+        "item_id": "86-001",
+        "name": "曲江县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 40,
+            "unit": "里",
+            "note": "编户四十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-86001-c02",
+        "item_id": "86-001",
+        "name": "乐昌县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "在府城西北八十里",
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "编户一十三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-86001-c03",
+        "item_id": "86-001",
+        "name": "仁化县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "在府城东北八十里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-86001-c04",
+        "item_id": "86-001",
+        "name": "乳源县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "在府城西一百里",
+          "households": {
+            "count": 6,
+            "unit": "里",
+            "note": "编户六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-86001-c05",
+        "item_id": "86-001",
+        "name": "翁源县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "在府城东南九十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-86001-c06",
+        "item_id": "86-001",
+        "name": "英德县",
+        "type": "county",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "在府城西南二百二十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-86001-w01",
+        "item_id": "86-001",
+        "name": "韶州守御千户所",
+        "type": "weisuo",
+        "region": "广东",
+        "parent": "GEO-86001",
+        "children": [],
+        "volume_range": "卷86",
+        "attributes": {
+          "location_text": "在府治东南洪武初改元万户府建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "禹贡荆州之域",
+        "action": "因之",
+        "detail": "禹贡荆州之域，天文牛女分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "春秋百粤地",
+        "action": "因之",
+        "detail": "春秋为百粤地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "楚地",
+        "action": "属",
+        "detail": "战国属楚"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "南海郡地",
+        "action": "属",
+        "detail": "秦为南海郡地"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "南粤/桂阳郡",
+        "action": "置",
+        "detail": "汉初属南粤，武帝平南粤置曲江浈阳二县隶桂阳郡统于荆州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "始兴都尉",
+        "action": "置",
+        "detail": "东汉置始兴都尉"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "始兴郡",
+        "action": "置",
+        "detail": "三国呉分置始兴郡治曲江县"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "南朝宋",
+        "era": null,
+        "institution_name": "唐兴郡",
+        "action": "改",
+        "detail": "刘宋改唐兴郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "南朝齐",
+        "era": null,
+        "institution_name": "始兴郡",
+        "action": "复",
+        "detail": "齐复为始兴郡"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "广州",
+        "action": "属",
+        "detail": "隋平陈郡废以其地属广州"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "番州/东衡州/韶州/始兴郡",
+        "action": "改",
+        "detail": "唐置番州治曲江，寻改东衡州，贞观初改为韶州属岭南道，天宝初改为始兴郡，后复为韶州"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "南汉",
+        "action": "属",
+        "detail": "五代时属南汉"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "韶州",
+        "action": "因之",
+        "detail": "宋仍置韶州属广南东路"
+      },
+      {
+        "evo_id": "EVO-014",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "韶州路",
+        "action": "改",
+        "detail": "元改置韶州路"
+      },
+      {
+        "evo_id": "EVO-015",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "韶州府",
+        "action": "改",
+        "detail": "本朝洪武初改为韶州府，领县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "芙蓉山",
+        "type": "山",
+        "location_text": "在府城西五里",
+        "description": "相传山有芙蓉株故名，山半有石室，汉末道士康容得仙于此",
+        "lore": "唐许浑诗宋玉含凄梦亦惊芙蓉山响一猿声"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "玉山",
+        "type": "山",
+        "location_text": "在府城东北五里",
+        "description": "相传昔有人得玉璞于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "莲花山",
+        "type": "山",
+        "location_text": "在府城南五里",
+        "description": "郡治对山也，以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "越王山",
+        "type": "山",
+        "location_text": "在府城北六里",
+        "description": "俗呼白虎山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "宝石山",
+        "type": "山",
+        "location_text": "在府城南一十里",
+        "description": "一名伏虎山，相传唐时有邓姓者居其下，死后有骆家徙其一石去，至夜虎衔其石复回旧处，乡人神之立庙，石上水旱疾疫有祷辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "石头山",
+        "type": "山",
+        "location_text": "在府城北一十三里",
+        "description": "山上有石高峻，有二圣真身下建石头寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "浮山",
+        "type": "山",
+        "location_text": "在府城东北二十里",
+        "description": "其地蹑一处则百步内皆动故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "灵鹫山",
+        "type": "山",
+        "location_text": "在府城西南三十里",
+        "description": "旧多虎，一名虎市，晋义熙中有天竺僧居此",
+        "lore": "唐沈佺期有登灵鹫寺诗"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "桂山",
+        "type": "山",
+        "location_text": "在府城西四十里",
+        "description": "山多菌桂，桂水源于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在府城西五十里",
+        "description": "脉接桂山，以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "韶石山",
+        "type": "山",
+        "location_text": "在府城东北八十里",
+        "description": "山之石怪奇，有三峰四接盘龙骆驼狮子虹蜺凤阁马鞍等名，而韶石双峙如阙",
+        "lore": "相传舜南巡登此山石上奏乐因名；唐韩愈诗蹔欲系船韶石下上宾虞舜整冠裾；宋王安石诗怪石巉岩土泬寥昔人于此奏萧韶"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "钱石山",
+        "type": "山",
+        "location_text": "在府城东八十里",
+        "description": "山状四方如台，其石三面壁立，上有碎石如钱",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "昌山",
+        "type": "山",
+        "location_text": "在乐昌县治南",
+        "description": "山多乐石可为悬磬，又产竹可为管籥",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "五将军山",
+        "type": "山",
+        "location_text": "在乐昌县东一十里",
+        "description": "山顶五峰耸立若介胄士故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "灵君山",
+        "type": "山",
+        "location_text": "在乐昌县东北四十五里",
+        "description": "高数千仞，周围数百里，山下有神曰灵君因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "监豪山",
+        "type": "山",
+        "location_text": "在乐昌县",
+        "description": "崖岭峻阻，所谓泷中即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "凉伞山",
+        "type": "山",
+        "location_text": "在仁化县南一十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "廉石山",
+        "type": "山",
+        "location_text": "在仁化县北二十里",
+        "description": "石罅中有鎗竿，相传黄巢过此所投者至今不朽，山有石井其泉清冽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "白星山",
+        "type": "山",
+        "location_text": "在仁化县西五十里",
+        "description": "旧经唐武徳中有星坠山顶，光如曳练故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c04",
+        "name": "双峰山",
+        "type": "山",
+        "location_text": "在乳源县西二里",
+        "description": "两峰对峙，上有双峰寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c04",
+        "name": "云门山",
+        "type": "山",
+        "location_text": "在乳源县东北一十里",
+        "description": "常兴云雾",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c04",
+        "name": "风门山",
+        "type": "山",
+        "location_text": "在乳源县西一十五里",
+        "description": "两山夹立中通一径，多风",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c05",
+        "name": "灵池山",
+        "type": "山",
+        "location_text": "在翁源县东一百二十里",
+        "description": "山顶有石池，池中有泉八曰涌泉香泉甘泉温泉震泉龙泉乳泉玉泉，乃翁溪之源",
+        "lore": "相传有老人隠见池中庞眉皓发，人居此者多夀考因名翁水"
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在英徳县南五里",
+        "description": "以在县治南故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "皋石山",
+        "type": "山",
+        "location_text": "在英徳县南一十五里",
+        "description": "一名�?山，又名浈阳峡，崖壁千仞，猿狖不能攀，昔有樵者见飞仙于此",
+        "lore": "宋郡守廖君王诗清人耳目中流水壮客精神两岸山"
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "尧山",
+        "type": "山",
+        "location_text": "在英徳县西四十里",
+        "description": "四面瀑布倾防万丈",
+        "lore": "宋米芾诗信美此山髙穹窿逺市朝暑木诘苍隂飞泉落晴翠"
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "浈山",
+        "type": "山",
+        "location_text": "在英徳县北四十里",
+        "description": "浈水所出，尉佗作万人城于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "白鹿山",
+        "type": "山",
+        "location_text": "在英徳县旧含光县治东南一十七里",
+        "description": "始兴记云晋咸康中县令张方有徳感白鹿羣逰于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "防子峰",
+        "type": "峰",
+        "location_text": "在府城北",
+        "description": "郡之主山也，松竹蓊郁，栾如防",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "鸣弦峰",
+        "type": "峰",
+        "location_text": "在英徳县南",
+        "description": "山之背，相传舜南巡抚琴于此",
+        "lore": "宋郡守刘仲湛诗竒�?枕髙岸回合藏云烟；此峰之前有莲花峰"
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "皇冈岭",
+        "type": "岭",
+        "location_text": "在府城北五里",
+        "description": "下有舜祠，府境又有皇潭，皆以舜游此得名",
+        "lore": "本朝解缙诗千里来寻故相家曲江南畔夕阳斜钧天此日闻韶乐步上皇冈望翠华"
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "周山岭",
+        "type": "岭",
+        "location_text": "在乐昌县北十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c04",
+        "name": "钟乳岭",
+        "type": "岭",
+        "location_text": "在乳源县治北",
+        "description": "又名空冈岭，山腰有岩产钟乳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c04",
+        "name": "腊岭",
+        "type": "岭",
+        "location_text": "在乳源县西五里",
+        "description": "壁立峭拔，为五岭之一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c05",
+        "name": "狗耳岭",
+        "type": "岭",
+        "location_text": "在翁源县西北九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "观州岭",
+        "type": "岭",
+        "location_text": "在英徳县东北五里",
+        "description": "县治之来山也，盘礴蜿蜒如蛇浮水，登之可观一境",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "书堂岩",
+        "type": "岩",
+        "location_text": "在府城东一十五里",
+        "description": "白芝渡相对，岩洞豁然，泉清石洁",
+        "lore": "唐张九龄读书处"
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "锦石岩",
+        "type": "岩",
+        "location_text": "在仁化县南一十七里",
+        "description": "有三岩分上中下，宛若堂殿，其迳弯环直上千余级，夹道杉松髙凌霄汉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "通天岩",
+        "type": "岩",
+        "location_text": "在英徳县西一十五里",
+        "description": "与碧落洞相去二里，横冈峻岭，其中石乳耸峙万状，约行二里有窍通明，仰视天日焕然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "峨眉冈",
+        "type": "冈",
+        "location_text": "在英徳县旧浛光县南",
+        "description": "髙三百余丈，东西望如峨眉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "石莲冈",
+        "type": "冈",
+        "location_text": "在旧浛光县西一十五里",
+        "description": "有石似莲花",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "龟冈",
+        "type": "冈",
+        "location_text": "在英徳县东八里",
+        "description": "龟冈村当平野突起其形如龟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "涵晖谷",
+        "type": "谷",
+        "location_text": "在鸣弦峰下",
+        "description": "谷有晞阳岛飞霞岭凌烟嶂梦弼岩及桃花栖云潜灵三洞",
+        "lore": "唐人元结有涵晖谷铭刻峯石上"
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "紫防洞",
+        "type": "洞",
+        "location_text": "在府城西南一十里",
+        "description": "可容数百人",
+        "lore": "宋朱翌自中书舎人谪居曲江，遇父老指示始得此洞"
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "碧落洞",
+        "type": "洞",
+        "location_text": "在英徳县南一十五里",
+        "description": "悬石如霓旌羽盖状，旁有小洞号云华深不可测",
+        "lore": "宋余靖诗幽景前贤恨到难泉流清浅出岩间；石壁所刻唐宋名贤题咏甚富"
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "真石",
+        "type": "石",
+        "location_text": "在英徳县北二十八里",
+        "description": "一名赌妇石，东枕浈水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "逃石",
+        "type": "石",
+        "location_text": "在府境",
+        "description": "旧经云本在桂阳汝城县，因夜迅雷移至此，土人因以逃名之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "昆仑石",
+        "type": "石",
+        "location_text": "在英徳县北",
+        "description": "髙百五十丈，枕浈水，状如龙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "牯牛石",
+        "type": "石",
+        "location_text": "在英徳县南一十九里",
+        "description": "浈阳峡中，浈水为峡山所束，两石相抄水势湍急，名抄子滩，其下又有机石横截名牯牛石，皆为行舟之害",
+        "lore": "谚云过得牯牛抄石滩寄书归去报平安"
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "禅石",
+        "type": "石",
+        "location_text": "在英徳县西北五十里",
+        "description": "有禅龛",
+        "lore": "旧经云昔有僧于此修行，有碑载其事"
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "曲江",
+        "type": "江",
+        "location_text": "在府境",
+        "description": "一名湘江，以浈水武水抱城回曲而流故名，流至英徳县又名始兴江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "沧湖",
+        "type": "湖",
+        "location_text": "在乐昌县东南一十里",
+        "description": "周围三十五里，南通泷水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "浈水",
+        "type": "江",
+        "location_text": "在府城东",
+        "description": "源出大庾岭，经保昌县南流合武水为曲江，汉征南越楼船入浈水即此，下流至英徳县西一十五里两山对峙夹水上号浈阳峡",
+        "lore": "唐栁宗元诗浈水想澄湾"
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "武水",
+        "type": "江",
+        "location_text": "在府城东",
+        "description": "源出郴州临武冈，经宜章县南流入乐昌县，又南流至此合浈水为曲江，古名虎溪，唐改今名，岩崖峻阻湍泷危急又名泷水",
+        "lore": "唐韩愈诗南行逾六旬始下乐昌泷；宋孔平仲诗箫韶有遗韵流入武溪中"
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "桂水",
+        "type": "江",
+        "location_text": "在府城西北四十里",
+        "description": "源出桂岭下，东流百里合武水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "卢水",
+        "type": "水",
+        "location_text": "在府境",
+        "description": "此水合武水处甚险，又名新潼，上有太守周昕庙，昕即始开潼者，行者放鸡散米以祈福而忌湿衣入庙云",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "目岭水",
+        "type": "水",
+        "location_text": "在府城东一百一十里",
+        "description": "水岩间有石穴如人眼瞳子黑白分明故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "温水",
+        "type": "水",
+        "location_text": "在乐昌县东北四十里",
+        "description": "冬夏常温，疾者浴之皆愈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "三泷水",
+        "type": "水",
+        "location_text": "在乐昌县西六十里",
+        "description": "源出湖南莽山，水有新泷垂泷腰泷三�?故名",
+        "lore": "唐韩愈贬潮州过此有泷吏诗"
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "泷头水",
+        "type": "水",
+        "location_text": "在英徳县南一十里",
+        "description": "源出翁山，经象冈至此与泷水合，其关泷甚险隘",
+        "lore": "宋潘美伐南汉次泷头，刘鋹遣使请和，美等疑有伏兵乃挟鋹使速度诸险即此"
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "隆水",
+        "type": "水",
+        "location_text": "在英徳县东一百四十里",
+        "description": "源出羊岭下，东南流合翁源",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "沱水",
+        "type": "水",
+        "location_text": "在英徳县东南九十七里",
+        "description": "源出茗茶山，北流合翁源",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "风水",
+        "type": "水",
+        "location_text": "在英徳县北一百里",
+        "description": "源出重岭下，南流合浈水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "洭水",
+        "type": "水",
+        "location_text": "在英徳县西南四十里",
+        "description": "一名洸水，地理志又名洭浦，其地即废浛光县，下流四十里为罗溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "防浈水",
+        "type": "水",
+        "location_text": "在仁化县治南",
+        "description": "源出仁化乡，南流二百五十里合浈水，水洁清其美",
+        "lore": "相传饮之令人髙夀，意致精洁"
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "曹溪",
+        "type": "水",
+        "location_text": "在府城东南三十里",
+        "description": "源出狗耳岭，西流合浈水，又南流入英徳县界",
+        "lore": "宋苏轼诗又试曹溪一勺甘"
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "零溪",
+        "type": "水",
+        "location_text": "在府城东七十里",
+        "description": "源出清化岭，西流合浈水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "宣溪",
+        "type": "水",
+        "location_text": "在府城南八十里",
+        "description": "源出螺坑",
+        "lore": "唐韩愈诗韶州南去接宣溪云水苍茫日向西"
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "梨溪",
+        "type": "水",
+        "location_text": "在府城东九十里",
+        "description": "源出始兴县东坑岭，西流合浈水，溪岸多棠梨故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c02",
+        "name": "灵溪",
+        "type": "水",
+        "location_text": "在乐昌县东北五十里",
+        "description": "源出灵君山下，与武水合流溉田百余顷，水味甚甘，饮者多夀",
+        "lore": "乡人取以酿酒"
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "吴溪",
+        "type": "水",
+        "location_text": "在仁化县北三十里",
+        "description": "越灭呉，呉之子孙避难居此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "恩溪",
+        "type": "水",
+        "location_text": "在仁化县北一百里",
+        "description": "源出郴州",
+        "lore": "相传呉王子孙避地经此溪失路，逢一女子导之而去，乃以金帛报其恩"
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c05",
+        "name": "翁溪",
+        "type": "水",
+        "location_text": "源出翁源县灵池山",
+        "description": "西南流二百四十里至英徳县与浈水合流入广州",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "滑溪",
+        "type": "水",
+        "location_text": "在英徳县治西",
+        "description": "源出旗山，南流与浈水合，溪石多苔滑难行",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "潼阳溪",
+        "type": "水",
+        "location_text": "在仁化县东三十里",
+        "description": "东南流与浈水合，溪上多栀子黄金竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c03",
+        "name": "锦石溪",
+        "type": "水",
+        "location_text": "在仁化县",
+        "description": "其里人能绩竹为布",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "桃溪",
+        "type": "水",
+        "location_text": "在英徳县西四十里",
+        "description": "源出崇山，溪上多植桃故名，下流合洭水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "桂溪",
+        "type": "水",
+        "location_text": "在桃溪之西",
+        "description": "发源旧浛光县之五山，与凤溪俱合于罗溪，地多桂树",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c06",
+        "name": "清溪",
+        "type": "水",
+        "location_text": "在英徳县北六十里",
+        "description": "岑水曲江合流至此而洑，水有三湾环山而潴，澄澈可鉴",
+        "lore": "宋元祐间广帅蒋之竒作三湾亭"
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "玉泉井",
+        "type": "井",
+        "location_text": "在芙蓉山上",
+        "description": "相传为康仙炼丹之井，�?澄如玉故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "虞泉",
+        "type": "泉",
+        "location_text": "在皇冈虞祠东崖",
+        "description": "味甘美与他泉异",
+        "lore": "宋方信孺有铭"
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "汤泉",
+        "type": "泉",
+        "location_text": "在府城东南五十里",
+        "description": "能熟生物，每霜雪时泉气上蒸，泉中时见赤鱼防泳人不能获",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "大涌泉",
+        "type": "泉",
+        "location_text": "在府城东南二十五里",
+        "description": "纂溪泉出石罅中大如涛涌",
+        "lore": "宋余靖因作涌泉亭"
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "卓锡泉",
+        "type": "泉",
+        "location_text": "在府城东南曹溪",
+        "description": "",
+        "lore": "宋苏辙有铭"
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "86-001",
+        "geo_id": "GEO-86001-c01",
+        "name": "温泉",
+        "type": "泉",
+        "location_text": "有四",
+        "description": "一在曲江县西北四十里泉有三穴四时沸涌可以芼烹；一在乳源县西北二里石穴中；其二在灵君山及周山岭下",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "86-001",
+        "cited_work": "徐浩张文献公碑",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【唐徐浩张文献公碑始兴比岭峭险巉絶大庾南谷坦然平易】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "86-001",
+        "cited_work": "皇甫湜朝阳楼记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【唐皇甫湜朝阳楼记岭南属州韶为大】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "86-001",
+        "cited_work": "潘美归奏辞",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋潘美归奏辞越之北门】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "86-001",
+        "cited_work": "余靖修州衙记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋余靖修州衙记控扼五岭韶为交冲唇齿江湘咽喉交广】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "86-001",
+        "cited_work": "余靖涌泉亭记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【余靖涌泉亭记峤南溪山之胜曲江称最】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "86-001",
+        "cited_work": "元韶州谯楼记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元韶州谯楼记江山秀丽】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "86-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经其习朴而不杂淳而不漓】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "86-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志为农者不力于耕而运贩盐钞嵗月可以致富】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "86-001",
+        "cited_work": "朱熹濓溪祠堂记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋朱熹濓溪祠堂记韶故名邦士多愿慤可与进于道者盖有张九龄余靖之遗风】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "86-001",
+        "cited_work": "杨万里英徳县诗",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋杨万里英徳县诗人人藤叶嚼槟榔戸户茅檐覆土床】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "86-001",
+        "cited_work": "梅尧臣翁源县诗",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋梅尧臣翁源县诗越林多蔽天黄柑杂丹橘万室通酿酤抚逺无禁律】"
+      },
+      {
+        "cit_id": "CIT-012",
+        "item_id": "86-001",
+        "cited_work": "图经英州",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经英州号小法塲土旷人稀为农者择沃土以耕而于硗地多不用力】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "韶州府"
+}
