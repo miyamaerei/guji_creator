@@ -20,7 +20,7 @@ mtns = load("mtn"); pers = load("per"); sites = load("site"); cits = load("cit")
 
 # 枚举
 ENT_TYPES = {"geo","person","mtn","site","prod","book","era","dynasty","待定"}
-GEO_TYPES = {"metro","prefecture","department","subprefecture","county","tusi","foreign","other"}
+GEO_TYPES = {"metro","prefecture","department","subprefecture","county","tusi","weisuo","foreign","other"}
 
 print(f"=== registry: {len(registry)} 条 ===")
 # 1. registry 完整性
