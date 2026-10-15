@@ -193,27 +193,45 @@ def build_edges(con, rules=None, commit=True):
 
 
 # ---------------------------------------------------------------------------
-# T2：candidate_links
+# T2：candidate_links（四步匹配策略）
 # ---------------------------------------------------------------------------
 def build_candidates(con, rules=None, commit=True):
-    """跨书候选对 → candidate_links（置信度按类型封顶）。"""
+    """T2：分层匹配策略生成候选对（v3.0: 集成CBDB富化数据）。"""
     if rules is None:
         rules = load_rules()
     cur = con.cursor()
     cur.execute("DELETE FROM candidate_links")
+    
+    # v3.0: 使用分层匹配策略（集成CBDB富化数据）
+    try:
+        from layered_matching import match_all_with_layers
+        person_candidates = match_all_with_layers(con)
+        # layered_matching returns (a, b, method, score, merge, reason)
+        # 只保留merge=True的候选
+        person_candidates = [(a, b, method, conf) for a, b, method, conf, merge, reason in person_candidates if merge]
+    except ImportError:
+        # 降级到四步匹配
+        from four_step_matching import match_all_entities
+        person_candidates = match_all_entities(con)
+    
+    # v3.1: 地名和官职匹配
+    try:
+        from place_office_matching import match_all_places_offices
+        place_office_candidates = match_all_places_offices(con)
+    except ImportError:
+        place_office_candidates = []
+    
+    # 合并所有候选
+    all_candidates = person_candidates + place_office_candidates
+    
     # 预取每个 uid 的 type（用于封顶）
     type_of = {r[0]: r[1] for r in cur.execute("SELECT uid, type FROM nodes")}
     rows = []
-    seen = set()
-    for a, b, method, conf in cross_candidates(con, rules):
-        # 规范化顺序，避免 (a,b)/(b,a) 重复
-        pair = (a, b) if a < b else (b, a)
-        if pair in seen:
-            continue
-        seen.add(pair)
+    for a, b, method, conf in all_candidates:
         ta = type_of.get(a)
         conf = capped_confidence(rules, ta, method, conf)
-        rows.append((pair[0], pair[1], method, conf, 0))
+        rows.append((a, b, method, conf, 0))
+    
     cur.executemany(
         "INSERT OR REPLACE INTO candidate_links(a_uid,b_uid,method,confidence,supporting_edges)"
         " VALUES (?,?,?,?,?)",
@@ -410,15 +428,23 @@ def run_transform(con, rules=None, commit=True):
 
     顺序理由：refs 依赖 nodes（要先有 uid），裁决重放必须在 T3 之后
     （T3 会重建 canonical/members，把人工裁决冲掉）。
+    
+    v3.0: 集成CBDB富化 + 分层匹配
     """
     from refs import materialize_refs  # 局部导入避免环
     from curate import replay_overrides
+    from cbdb_enrichment import enrich_all_persons  # CBDB富化
 
     rules = rules or load_rules()
     out = {}
     out["nodes"] = build_nodes(con, rules)
     out["edges"], out["pending"] = build_edges(con, rules)
     out["refs"] = materialize_refs(con)
+    
+    # v3.0: CBDB富化（在匹配前补全ent_slots）
+    print("\n=== CBDB Enrichment ===")
+    out["cbdb_enrichment"] = enrich_all_persons(con)
+    
     out["candidates"] = build_candidates(con, rules)
     out["t3"] = disambiguate(con, rules, commit=commit)
     # 人工裁决重放：让「一切可重跑」与人工介入共存

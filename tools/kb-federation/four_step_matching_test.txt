@@ -1,0 +1,47 @@
+=== 测试四步匹配策略 ===
+
+构建索引...
+  别名索引: 692 个别名
+  关系图: 22 个节点
+  上下文索引: 349 个节点
+
+执行匹配...
+
+生成 130 个候选对
+
+=== 候选统计 ===
+总候选对数: 130
+
+按方法分类:
+  context_similarity: 112
+  exact_name: 15
+  alias_variant: 3
+
+按分数分布:
+  >=0.9: 15
+  0.8-0.9: 41
+  0.7-0.8: 74
+  0.6-0.7: 0
+  <0.6: 0
+
+=== 前 10 个高置信度候选 ===
+fqh:ENT-0223 <-> zgz:05:ENT-0018#8
+  方法: exact_name, 置信度: 0.900
+fqh:ENT-0223 <-> zgz:05:ENT-0018#1
+  方法: exact_name, 置信度: 0.900
+kzz:10:ENT-0817 <-> wzz:15:ENT-3669
+  方法: exact_name, 置信度: 0.900
+kzz:02:ENT-0262 <-> sdr:31:ENT-954
+  方法: exact_name, 置信度: 0.900
+kzz:05:ENT-0040 <-> wzz:15:ENT-3762
+  方法: exact_name, 置信度: 0.900
+kzz:04:ENT-0229 <-> wzz:04:ENT-771
+  方法: exact_name, 置信度: 0.900
+kzz:02:ENT-0220 <-> wzz:03:ENT-143
+  方法: exact_name, 置信度: 0.900
+kzz:10:ENT-1030 <-> zgz:03:ENT-0039
+  方法: exact_name, 置信度: 0.900
+kzz:10:ENT-0882 <-> wzz:06:ENT-672
+  方法: exact_name, 置信度: 0.900
+kzz:10:ENT-0399 <-> wzz:06:ENT-821
+  方法: exact_name, 置信度: 0.900

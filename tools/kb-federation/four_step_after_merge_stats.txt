@@ -1,0 +1,46 @@
+=== 四步匹配合并后状态 ===
+
+1. 基本统计
+   总节点数: 1000
+   总边数: 269
+
+2. Canonical 统计
+   Canonical 组数: 39
+   Members 总数: 110
+   合并覆盖率: 11.0% (110/1000)
+
+3. 候选方法分布
+   context_similarity: 112
+   exact_name: 15
+   alias_variant: 3
+
+4. 候选置信度分布
+   >=0.9: 6
+   0.8-0.9: 46
+   0.7-0.8: 66
+   0.6-0.7: 12
+
+5. Canonical 组详情（前 15 个）
+   canon-00007: 缪让 (person) - 9 个成员
+   canon-00011: 吴桓王 (person) - 8 个成员
+   canon-00018: 吴珵 (person) - 6 个成员
+   canon-00030: 顾天峻（谕德） (person) - 5 个成员
+   canon-00010: 烧槽琵琶 (object) - 4 个成员
+   canon-00015: 江南直隶总 (institution) - 4 个成员
+   canon-00001: 把总 (official) - 3 个成员
+   canon-00004: 朱熹 (person) - 3 个成员
+   canon-00017: 宋臣 (person) - 3 个成员
+   canon-00019: 严世蕃 (person) - 3 个成员
+   canon-00028: 王時 (person) - 3 个成员
+   canon-00029: 张似渠（御史） (person) - 3 个成员
+   canon-00031: 梁见之（通政） (person) - 3 个成员
+   canon-00036: 熊心开（兵使） (person) - 3 个成员
+   canon-00002: 古里 (place) - 2 个成员
+
+6. 跨书合并统计
+   跨书 canonical 数: 10
+   canon-00007: 缪让 - 2 本书, 9 个成员
+   canon-00004: 朱熹 - 2 本书, 3 个成员
+   canon-00001: 把总 - 2 本书, 3 个成员
+   canon-00039: 法司 - 2 本书, 2 个成员
+   canon-00038: 周礼 - 2 本书, 2 个成员

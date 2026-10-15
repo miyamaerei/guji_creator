@@ -116,7 +116,7 @@ def _collect_refs(obj, out):
             elif isinstance(v, (dict, list)):
                 _collect_refs(v, out)
     elif isinstance(obj, list):
-        for x in obj[:5]:
+        for x in obj:
             _collect_refs(x, out)
 
 

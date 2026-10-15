@@ -1,0 +1,21 @@
+=== 执行四步匹配合并流程 ===
+
+构建索引...
+  别名索引: 692 个别名
+  关系图: 22 个节点
+  上下文索引: 349 个节点
+
+执行匹配...
+
+生成 130 个候选对
+
+=== Transform 结果 ===
+nodes: 1000
+edges: 269
+pending: 4130
+refs: {'records': 22892, 'refs': 5950, 'resolved': 626, 'ambiguous': 104}
+candidates: 130
+t3: {'candidates': 130, 'canonicals': 39, 'members': 110, 'relation_boosted': 0, 'rounds': 1, 'floor': 0.35, 'secure': 0.833}
+overrides: {'overrides': 0, 'locked': 0, 'rejected': 0, 'split_canonicals': 0}
+
+合并完成！
