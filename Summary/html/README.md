@@ -137,10 +137,38 @@ node _serve_dist.js
 
 > 采集器的阶段归类优先级（首个命中即归类）：交付 > 验证 > 跨层索引 > 装填源 > 底座条目库 > 层成品 > 原文素材；规则在 `collect_times.js` 的 `STAGES` 正则数组中，新增目录形态时需同步更新。
 
+### data.js 的层数组有两种合法写法
+
+`books[].layers` 支持两种元素形态，`dashboard_app.js` 顶部的 `normLayer()` 会在加载时统一归一，写哪种都能正常渲染：
+
+```js
+// 旧式：三元组 [键, 中文名, 记录数]
+["ent","实体",8481]
+
+// 新式：对象（可附带覆盖率与备注，信息更全）
+{layer:"ent", count:649, covered:"328/401", note:"auto_v3 候选"}
+```
+
+归一后的内部形态是 `{key, name, count, covered, note, k}`——`name` 缺省时按 `layerNames` 回落到中文层名。
+`covered`（覆盖率）与 `note` 是**新式独有**字段，旧式没有；两者混用时不会报错。
+
+> ⚠️ 历史坑（2026-10-16 修复）：`normLayer()` 引入前，代码直接读 `l[2].toLocaleString()`。
+> 新式条目下 `l[2]` 为 `undefined`，`dashboard_app.js` 顶层的 `D.books.forEach` 因而抛出
+> `TypeError: Cannot read properties of undefined (reading 'toLocaleString')`。
+> 该异常发生在 `mount("#app")` **之前**，会中断整个脚本 —— 表现为**页面完全空白**（DOM 里连 `{{ }}` 都还在），
+> 而不是「表头在、数据空」。新增用新式写法的书时务必确认本条已生效。
+
+同理，`stageStates` 数组长度按 `D.stages.length`（7）归一：多余的尾部元素截断，不足的补 0。
+
 ---
 
-## 数据规模（快照 2026-10-14）
+## 数据规模（快照 2026-10-14，数据截至 2026-10-16）
 
 - 书目 22 部：完成 11 部、在建 7 部、仅有原料/未入管线 4 部
-- 层记录总量约 6 万+ 条（各层 records 求和）
-- 归一层数十种，书×层产出约 200 对
+- 层记录总量约 15.9 万条（各层 records 求和；`data.js` 内逐书实测）
+- 归一层 46 种，书×层产出 158 对
+- 阶段时间线 115 个事件，覆盖 21 部书、8 个日期（2026-09-27 → 2026-10-16）
+
+> 维护提示：根目录的 `data.js` / `times.js` / `dashboard_app.js` 才是源；
+> `dist/` 是拷贝出的发布目录，改完源文件后**必须**同步拷贝，
+> 否则 `node _serve_dist.js`（8793）看到的仍是旧版本 —— 两处数据曾因此长期不一致。

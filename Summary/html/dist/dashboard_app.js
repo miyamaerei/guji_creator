@@ -16,19 +16,35 @@ const normKey = k => NORM[k] || k;
 const fBase = f => f.replace(/[\[\]{}(（].*/,"");
 const fDesc = f => F[fBase(f)] || F[f] || "（说明待补）";
 
+// 层数组归一：data.js 里存在两种写法
+//   旧式（三元组）：["ent","实体",8481]
+//   新式（对象）  ：{layer:"ent",count:649,covered:"328/401",note:"…"}
+// 统一成 {key,name,count,covered,note}，缺 name 时回落到 layerNames / key。
+function normLayer(l, key){
+  const k  = normKey(key || l.layer || l.key || "");
+  const nm = l.name || D.layerNames[k] || k;
+  return {key:l.key||l.layer||l[0], name:nm, count:l.count!=null?l.count:(l[2]||0),
+          covered:l.covered!=null?l.covered:(l[3]||null), note:l.note||null, k};
+}
+
 D.books.forEach(b=>{
-  b.records = b.layers.reduce((x,l)=>x+(l[2]||0),0);
+  b.layers = (b.layers||[]).map(l=>normLayer(l, Array.isArray(l)?l[0]:l.layer));
+  b.records = b.layers.reduce((x,l)=>x+(l.count||0),0);
   const gts=(GT[b.id]||[]).filter(x=>x!=null);
   b.lastRun = gts.length ? dObj(Math.max(...gts)).t : '—';
+  // stageStates 长度以 D.stages 为准（个别书登记了 8 段，遇第 8 段会取到 undefined）
+  const n = D.stages.length;
+  const ss = (b.stageStates||[]).slice(0,n); while(ss.length<n) ss.push(0);
+  b.stageStates = ss;
   let cur=-1, curState=0;
   b.stageStates.forEach((s,i)=>{ if(s>0){cur=i;curState=s;} });
-  b.pct = Math.round(b.stageStates.reduce((x,s)=>x+s,0)/(b.stageStates.length*2)*100);
+  b.pct = Math.round(b.stageStates.reduce((x,s)=>x+s,0)/(n*2)*100);
   b.curLabel = cur<0 ? "未开工" : D.stages[cur] + (curState===2?" ✓":" 中");
   b.curState = curState; b.active = cur<0?0:cur+(curState===2?1:0);
-  b.layerRows = b.layers.map(l=>{
-    const k = normKey(l[0]); const m=(D.fieldMatrix[k]||{})[b.id];
-    return {key:l[0], name:l[1], count:l[2].toLocaleString(), fields: m===undefined?null:m};
-  });
+  b.layerRows = b.layers.map(l=>({key:l.key, name:l.name, count:l.count.toLocaleString(),
+                                  covered:l.covered, fields:
+                                  (D.fieldMatrix[normKey(l.key)]||{})[b.id] === undefined
+                                    ? null : (D.fieldMatrix[normKey(l.key)]||{})[b.id]}));
   const gv = GV[b.id];
   b.vols = gv ? gv.total : null;
   b.volTip = gv ? ('已装填 '+(gv.fill==null?'—':gv.fill)+'/'+gv.total+' · 已打包 '+(gv.pack==null?'—':gv.pack)+(gv.note?' · '+gv.note:'')) : '卷数未登记';
@@ -36,9 +52,9 @@ D.books.forEach(b=>{
 
 const layerBooks = {};
 D.books.forEach(b=>b.layers.forEach(l=>{
-  const k=normKey(l[0]);
+  const k=normKey(l.key);
   const hit=(layerBooks[k]=layerBooks[k]||[]).find(x=>x.id===b.id);
-  if(!hit) layerBooks[k].push({id:b.id,title:b.title,count:l[2]});
+  if(!hit) layerBooks[k].push({id:b.id,title:b.title,count:l.count});
 }));
 const allLayerKeys = [...new Set([...Object.keys(layerBooks), ...Object.keys(D.fieldMatrix)])];
 const groupOf = {}; D.layerGroups.forEach(g=>g.keys.forEach(k=>groupOf[k]=g.name));
