@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>大明一统志 - GEO 地理树浏览器</title>
+<script src="https://unpkg.com/echarts@5/dist/echarts.min.js"></script>
+<style>
+body { font-family: "Microsoft YaHei", sans-serif; margin: 20px; background: #f5f5f5; }
+h1 { color: #333; }
+#chart { width: 100%; height: 800px; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.info { margin-top: 20px; padding: 15px; background: white; border-radius: 8px; }
+</style>
+</head>
+<body>
+<h1>大明一统志 · GEO 地理树浏览器</h1>
+<div id="chart"></div>
+<div class="info">
+  <p>提示：点击节点可展开/折叠。每个节点下方标注该地理单元下的山川/人物/古迹条数。</p>
+</div>
+<script>
+const chart = echarts.init(document.getElementById('chart'));
+
+// 加载 geo_tree.json
+fetch('../geo_tree.json')
+  .then(r => r.json())
+  .then(data => {
+    // 把 regions 转成 tree 结构
+    const treeData = {
+      name: '大明一统志',
+      children: []
+    };
+    for (const [region, info] of Object.entries(data.regions)) {
+      const regionNode = {
+        name: region,
+        children: [],
+        itemStyle: { color: '#c23531' }
+      };
+      // 每个 geo 节点作为 region 的子节点
+      for (const g of info.nodes) {
+        regionNode.children.push({
+          name: g.name + (g.counts ? ` (山${g.counts.mtn||0}/人${g.counts.per||0}/迹${g.counts.site||0})` : ''),
+          value: g.children ? g.children.length : 0
+        });
+      }
+      treeData.children.push(regionNode);
+    }
+
+    const option = {
+      tooltip: { trigger: 'item', triggerOn: 'mousemove' },
+      series: [{
+        type: 'tree',
+        data: [treeData],
+        top: '5%',
+        left: '15%',
+        bottom: '5%',
+        right: '20%',
+        symbolSize: 10,
+        label: { position: 'left', verticalAlign: 'middle', align: 'right', fontSize: 12 },
+        leaves: { label: { position: 'right', verticalAlign: 'middle', align: 'left' } },
+        emphasis: { focus: 'descendant' },
+        expandAndCollapse: true,
+        animationDuration: 550,
+        animationDurationUpdate: 750
+      }]
+    };
+    chart.setOption(option);
+  });
+
+window.addEventListener('resize', () => chart.resize());
+</script>
+</body>
+</html>
