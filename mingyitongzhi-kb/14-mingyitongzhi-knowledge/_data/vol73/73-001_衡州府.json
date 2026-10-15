@@ -1,0 +1,1713 @@
+{
+  "item_id": "73-001",
+  "volume": "73",
+  "source": "衡州府",
+  "region": "湖广",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "衡州府",
+        "type": "geo",
+        "norm": "衡州府",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "衡阳县",
+        "type": "geo",
+        "norm": "衡阳县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "衡山县",
+        "type": "geo",
+        "norm": "衡山县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "耒阳县",
+        "type": "geo",
+        "norm": "耒阳县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "常宁县",
+        "type": "geo",
+        "norm": "常宁县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "安仁县",
+        "type": "geo",
+        "norm": "安仁县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "酃县",
+        "type": "geo",
+        "norm": "酃县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "桂阳州",
+        "type": "geo",
+        "norm": "桂阳州",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-S01-C01",
+        "name": "临武县",
+        "type": "geo",
+        "norm": "临武县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-S01-C02",
+        "name": "蓝山县",
+        "type": "geo",
+        "norm": "蓝山县",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K衡山",
+        "name": "衡山",
+        "type": "mtn",
+        "norm": "衡山",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K祝融峰",
+        "name": "祝融峰",
+        "type": "mtn",
+        "norm": "祝融峰",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K岣嵝峰",
+        "name": "岣嵝峰",
+        "type": "mtn",
+        "norm": "岣嵝峰",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K九疑山",
+        "name": "九疑山",
+        "type": "mtn",
+        "norm": "九疑山",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K石鼓书院",
+        "name": "石鼓书院",
+        "type": "site",
+        "norm": "石鼓书院",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K蔡伦",
+        "name": "蔡伦",
+        "type": "person",
+        "norm": "蔡伦",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K李泌",
+        "name": "李泌",
+        "type": "person",
+        "norm": "李泌",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K赵方",
+        "name": "赵方",
+        "type": "person",
+        "norm": "赵方",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K杜甫",
+        "name": "杜甫",
+        "type": "person",
+        "norm": "杜甫",
+        "first_source": "73-001"
+      },
+      {
+        "ent_id": "ENT-K炎帝陵",
+        "name": "炎帝陵",
+        "type": "site",
+        "norm": "炎帝陵",
+        "first_source": "73-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-73001",
+        "item_id": "73-001",
+        "name": "衡州府",
+        "type": "prefecture",
+        "region": "湖广",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-73001-c01",
+          "GEO-73001-c02",
+          "GEO-73001-c03",
+          "GEO-73001-c04",
+          "GEO-73001-c05",
+          "GEO-73001-c06",
+          "GEO-73001-s01",
+          "GEO-73001-w01",
+          "GEO-73001-w02",
+          "GEO-73001-w03",
+          "GEO-73001-w04"
+        ],
+        "volume_range": "卷73",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "长沙府茶陵县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "西",
+              "to_place": "宝庆府邵阳县界",
+              "distance_li": 120
+            },
+            {
+              "direction": "南",
+              "to_place": "广东广州府连州界",
+              "distance_li": 480
+            },
+            {
+              "direction": "北",
+              "to_place": "长沙府湘潭县界",
+              "distance_li": 130
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3215
+            },
+            {
+              "capital": "京师",
+              "distance_li": 6660
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县八；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 224700,
+            "unit": "石",
+            "note": "粮二十二万四千七百石零"
+          },
+          "jun_name": "湘东【吴名】衡阳【吴名】衡山【隋名】",
+          "topography": "东傍湘江北背烝水【元和郡县志】；潇湘带其左【图经】；湖右奥区【旧志】；山川秀丽【宋欧阳修云】；襟带湘江控引交广【宋练亨甫】；南连溪峒东接桂阳【常宁图册】；岭开越峤路转荆门【宋潘正夫桂阳诗】",
+          "customs": "人多纯朴【寰宇记】；民丰士闲【南齐志】；民以渔猎为业【地志】；淳朴近古畏法少讼【桂阳志】；俗重防祭士少宦情；俗尚农桑民知教化【方舆胜览】；刀耕火种【常宁图册】",
+          "garrisons": [
+            {
+              "name": "衡州卫",
+              "type": "卫",
+              "location_text": "在府治西洪武五年建"
+            },
+            {
+              "name": "镇守常宁中千户所",
+              "type": "千户所",
+              "location_text": "在常宁县治东洪武二十八年建隶衡州卫"
+            },
+            {
+              "name": "守御桂阳千户所",
+              "type": "千户所",
+              "location_text": "在州治东洪武二年建"
+            },
+            {
+              "name": "守御宁溪千户所",
+              "type": "千户所",
+              "location_text": "在蓝山县西二十里洪武三十年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010"
+        ]
+      },
+      {
+        "geo_id": "GEO-73001-c01",
+        "item_id": "73-001",
+        "name": "衡阳县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 52,
+            "unit": "里",
+            "note": "编户52里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-c02",
+        "item_id": "73-001",
+        "name": "衡山县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在府城东北一百五十里",
+          "households": {
+            "count": 21,
+            "unit": "里",
+            "note": "编户21里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-c03",
+        "item_id": "73-001",
+        "name": "耒阳县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在府城东南一百三十五里",
+          "households": {
+            "count": 38,
+            "unit": "里",
+            "note": "编户38里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-c04",
+        "item_id": "73-001",
+        "name": "常宁县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在府城西南一百二十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户7里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-c05",
+        "item_id": "73-001",
+        "name": "安仁县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在府城东二百里",
+          "households": {
+            "count": 28,
+            "unit": "里",
+            "note": "编户28里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-c06",
+        "item_id": "73-001",
+        "name": "酃县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在府城东三百九十里",
+          "households": {
+            "count": 19,
+            "unit": "里",
+            "note": "编户19里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-s01",
+        "item_id": "73-001",
+        "name": "桂阳州",
+        "type": "department",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [
+          "GEO-73001-s01-c01",
+          "GEO-73001-s01-c02"
+        ],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在府城东南三百里",
+          "households": {
+            "count": 63,
+            "unit": "里",
+            "note": "编户六十三里领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-s01-c01",
+        "item_id": "73-001",
+        "name": "临武县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001-s01",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在州城东南一百二十里",
+          "households": {
+            "count": 25,
+            "unit": "里",
+            "note": "编户二十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-s01-c02",
+        "item_id": "73-001",
+        "name": "蓝山县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-73001-s01",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "在州城西南二百里",
+          "households": {
+            "count": 28,
+            "unit": "里",
+            "note": "编户二十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-73001-w01",
+        "item_id": "73-001",
+        "name": "衡州卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-73001-w02",
+        "item_id": "73-001",
+        "name": "镇守常宁中千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-73001-w03",
+        "item_id": "73-001",
+        "name": "守御桂阳千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-73001-w04",
+        "item_id": "73-001",
+        "name": "守御宁溪千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-73001",
+        "children": [],
+        "volume_range": "卷73",
+        "attributes": {
+          "location_text": "",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "荆州南境",
+        "action": "因之",
+        "detail": "禹贡荆州之南境，天文翼轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "楚地",
+        "action": "因之",
+        "detail": "春秋楚地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "长沙郡",
+        "action": "因之",
+        "detail": "秦属长沙郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "长沙国/桂阳郡",
+        "action": "因之",
+        "detail": "汉初属长沙国又分属桂阳郡，东汉长沙桂阳二郡隶荆州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "湘东郡/衡阳郡",
+        "action": "置",
+        "detail": "吴分长沙为湘东衡阳二郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "湘州/荆州",
+        "action": "因之",
+        "detail": "晋初隶湘州后隶荆州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "南朝宋齐梁",
+        "era": null,
+        "institution_name": "湘东国/郡/衡州",
+        "action": "改",
+        "detail": "刘宋为湘东国南齐改国为郡寻复为国，梁分湘广二州置衡州，陈增置东衡州以衡州为西衡州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "衡州/衡山郡",
+        "action": "改",
+        "detail": "隋初省衡阳湘东二郡置衡州，大业初改衡山郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "衡州/衡阳郡",
+        "action": "改",
+        "detail": "唐复为衡州隶江南西道，天宝初改衡阳郡，至德初复为衡州后置湖南观察使治此"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "衡州",
+        "action": "因之",
+        "detail": "宋隶荆湖南路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "衡州路",
+        "action": "改",
+        "detail": "元置衡州路又置湖南宣慰司"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "衡州府",
+        "action": "因之",
+        "detail": "本朝改为衡州府，领州一县八"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "花药山",
+        "type": "山",
+        "location_text": "在府治西南",
+        "description": "俗传昔有神仙炼丹有五色禽尝栖于牡丹树因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "石鼓山",
+        "type": "山",
+        "location_text": "在府城东北三里",
+        "description": "有东岩西溪朱陵后洞，水经注临烝县有石鼓高六尺湘水所迳，鼓鸣则有兵革事",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "花光山",
+        "type": "山",
+        "location_text": "在府城西南十五里",
+        "description": "上有花光寺宋时花光僧居此善画梅",
+        "lore": "黄庭坚有诗"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "石窟山",
+        "type": "山",
+        "location_text": "在府城东三十里",
+        "description": "湘水记昔有人掘山作穴高十丈长一里溪水过其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "伊山",
+        "type": "山",
+        "location_text": "在府城西三十五里",
+        "description": "晋桓伊读书处亦名桓山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "清泉山",
+        "type": "山",
+        "location_text": "在府城东四十里",
+        "description": "山有清泉灌田数十顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "雨母山",
+        "type": "山",
+        "location_text": "在府城西一百里",
+        "description": "亦名云阜山上有石坛，湘水记舜南游经此后立祠，每祭有云气起豉江水出此山流合蒸水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "石盘山",
+        "type": "山",
+        "location_text": "在府城西南一百二十里",
+        "description": "山有石盘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "界浦山",
+        "type": "山",
+        "location_text": "在府城东二百里",
+        "description": "以其在耒阳县界上接浦口故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "芙蓉山",
+        "type": "山",
+        "location_text": "在桂阳州西南",
+        "description": "诸峰左右特出下有暖泉，其西有岩宋职方黄照邻父子尝读书于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "鹿头山",
+        "type": "山",
+        "location_text": "在桂阳州东",
+        "description": "山有石如鹿及有塔七层",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "大凑山",
+        "type": "山",
+        "location_text": "在桂阳州西",
+        "description": "旧经云出银矿，当其盛时炉烟蓊然上接云汉烹丁纷错商旅往来辐凑因以为名，今矿绝",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "龙渡山",
+        "type": "山",
+        "location_text": "在桂阳州南三十里",
+        "description": "州之望山也有神甚灵，下有源泉灌溉甚博",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "石门山",
+        "type": "山",
+        "location_text": "在桂阳州西北六十里",
+        "description": "山有岩穴如门，岿水自蓝山穿石门西注舟筏皆经其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "晋岭山",
+        "type": "山",
+        "location_text": "在桂阳州南八十里",
+        "description": "相传此岭晋时出银铅砂矿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "蓝山",
+        "type": "山",
+        "location_text": "在桂阳州西一百里",
+        "description": "跨临武蓝山二县界，荟蔚苍翠浮空如蓝",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "衡山",
+        "type": "山",
+        "location_text": "在衡山县西三十里",
+        "description": "五岳之一也，寰宇记云宿当翼轸度应玑衡故曰衡山，其山盘绕八百里有七十二峰十洞十五岩三十八泉二十五溪九池九潭九井",
+        "lore": "唐李白诗衡山苍苍入紫冥下看南极老人星"
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "马阜山",
+        "type": "山",
+        "location_text": "在耒阳县北二里",
+        "description": "山势高大盘踞二十余里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "虎踞山",
+        "type": "山",
+        "location_text": "在耒阳县南四里",
+        "description": "冈峦秀丽远望之如屏几",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "石臼山",
+        "type": "山",
+        "location_text": "在耒阳县西二十里",
+        "description": "有石臼巨人迹，旧传汉苏耽尝游此有苏仙祠在焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "相公山",
+        "type": "山",
+        "location_text": "在耒阳县东北四十里",
+        "description": "蜀汉相诸葛亮尝驻兵于此因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "鷔山",
+        "type": "山",
+        "location_text": "在耒阳县东北四十三里",
+        "description": "其形独秀不与众山相连，相传昔有白鷔翔于上故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "侯计山",
+        "type": "山",
+        "location_text": "在耒阳县东七十五里",
+        "description": "山有七十峰上有仙人亭观音阁，亦名侯憩山谓诸葛武侯尝于此憩息筹计兵事",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "侯昙山",
+        "type": "山",
+        "location_text": "在耒阳县东南八十里",
+        "description": "一名侯堂山跨安仁县界，有溪壕神祠傍有石井常涸，乡人遇旱祀之则水出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "城冈山",
+        "type": "山",
+        "location_text": "在耒阳县义兴乡",
+        "description": "冈峦秀拔东西有银瓶皮宝二峰对峙北有清溪水注白马渡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c04",
+        "name": "塔山",
+        "type": "山",
+        "location_text": "在常宁县治东",
+        "description": "山腰有白石七级相传昔阿育王叠石作塔于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c04",
+        "name": "盟山",
+        "type": "山",
+        "location_text": "在常宁县北七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c04",
+        "name": "逍遥山",
+        "type": "山",
+        "location_text": "在常宁县东南一百六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c05",
+        "name": "熊耳山",
+        "type": "山",
+        "location_text": "在安仁县东南七十里",
+        "description": "山高峻状若熊耳，有远天湖可容万家",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "青台山",
+        "type": "山",
+        "location_text": "在酃县北一十里",
+        "description": "形如笔架为一邑壮观",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "云秋山",
+        "type": "山",
+        "location_text": "在酃县西四十五里",
+        "description": "云烟黯惨常若秋时",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "万阳山",
+        "type": "山",
+        "location_text": "在酃县西南八十里",
+        "description": "周回三百里上多古木怪石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "韩张山",
+        "type": "山",
+        "location_text": "在临武县学后",
+        "description": "唐韩愈张署同时迁谪韩令阳山张令临武及北还防宿于此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "舜峰山",
+        "type": "山",
+        "location_text": "在临武县西北二里",
+        "description": "旧名千仞上平而北垂，邑民避难尝据其巅筑栅拒守",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "华阴山",
+        "type": "山",
+        "location_text": "在蓝山县东南一十五里",
+        "description": "跨临武蓝山两县高秀如华岳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "石柱山",
+        "type": "山",
+        "location_text": "在蓝山县北二十里",
+        "description": "亦名天柱下有岩洞石乳融结奇怪万状色如碧玉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "九疑山",
+        "type": "山",
+        "location_text": "在蓝山县西南五十里",
+        "description": "九域志云有九疑水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "黄蘖山",
+        "type": "山",
+        "location_text": "在蓝山县南九十里",
+        "description": "山出黄蘖故名亦谓之都庞山，与连州分界即五岭从东第三都庞岭是也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "回雁峰",
+        "type": "峰",
+        "location_text": "在府城南",
+        "description": "雁至衡阳不过遇春而回，或曰峰势如雁之回故名",
+        "lore": "唐杜荀鹤诗猿到夜深啼岳麓雁知春信别衡阳"
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "碧云峰",
+        "type": "峰",
+        "location_text": "在府城西南",
+        "description": "望云阳山如泼墨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "华灵峰",
+        "type": "峰",
+        "location_text": "在府城南二里",
+        "description": "旧传后汉华佗筑台其上修道辟谷年百岁犹壮容人以为仙灵因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "岣嵝峰",
+        "type": "峰",
+        "location_text": "在府城北五十二里",
+        "description": "高一千五百丈，湘中记岣嵝山有玉牒禹案其文以治水，上有禹碑",
+        "lore": "韩愈诗岣嵝山尖神禹碑字青石赤形摹奇"
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "善峰",
+        "type": "峰",
+        "location_text": "在府城北五十三里",
+        "description": "古名毛女峰乃十八高僧相防处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "白石峰",
+        "type": "峰",
+        "location_text": "在府城北五十五里",
+        "description": "山多白石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "祝融峰",
+        "type": "峰",
+        "location_text": "在衡山县西北三十里",
+        "description": "位直离宫以配火德乃祝融君游息之所，上有青玉坛道书以为第二十四福地",
+        "lore": "宋朱文公诗我来万里驾长风绝壑层云许荡胸"
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "紫盖峰",
+        "type": "峰",
+        "location_text": "在衡山",
+        "description": "以形似名上有鹤泉仙人池翠麓岩及鹤鸣宝霞天宝至台",
+        "lore": "唐韩愈诗紫盖连延接天柱石廪腾掷堆祝融"
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "云密峰",
+        "type": "峰",
+        "location_text": "在衡山峰西北",
+        "description": "上有仙坛丹霍仙人石室夜遇阴晦有光曜俗呼仙灯，又有大禹岩桃花源峰半有禹碑皆科斗文字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "石廪峰",
+        "type": "峰",
+        "location_text": "在衡山",
+        "description": "形如仓廪有二户一开一阖，湘中记云开则岁俭闭则岁丰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "天柱峰",
+        "type": "峰",
+        "location_text": "在衡山",
+        "description": "形如双柱耸拔西北有香冈出香白芷又有石室",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c05",
+        "name": "杨梅峰",
+        "type": "峰",
+        "location_text": "在安仁县西一十里",
+        "description": "五代时马殷将欧阳方于此立寨屯兵以备南汉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "东楼峰",
+        "type": "峰",
+        "location_text": "在蓝山县南五十里",
+        "description": "其下有岿水",
+        "lore": "宋刘接诗九疑山色瑞烟笼县占东楼第一峰"
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "天门岭",
+        "type": "岭",
+        "location_text": "在耒阳县云峯乡",
+        "description": "其上石岩中有泉流下祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "樟隍岭",
+        "type": "岭",
+        "location_text": "在耒阳县",
+        "description": "即罗训隐居此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c05",
+        "name": "凤冈岭",
+        "type": "岭",
+        "location_text": "在安仁县治南",
+        "description": "岭形如凤",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "潭流岭",
+        "type": "岭",
+        "location_text": "在桂阳州北一百三十里",
+        "description": "出银铅砂矿今废",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "懒残岩",
+        "type": "岩",
+        "location_text": "在衡山后",
+        "description": "唐时有异僧懒残居此因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "靖居岩",
+        "type": "岩",
+        "location_text": "在衡山县西二里",
+        "description": "有飞泉古木及罗汉果树又有防洪亭",
+        "lore": "宋张公绶诗潺潺石磴防洪泉路蹑丹梯入紫烟"
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "狮子岩",
+        "type": "岩",
+        "location_text": "在耒阳县南三十里",
+        "description": "岩有石乳滴成狮子状，宋隐士侯彭老尝避暑于此亦名侯公岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "秀岩",
+        "type": "岩",
+        "location_text": "在临武县南一十五里",
+        "description": "东北有穴通明石乳绩聚下有两穴水出其左为大溪流二百余步复入右穴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "石龙岩",
+        "type": "岩",
+        "location_text": "在临武县西二十里",
+        "description": "中有石如龙相传岁旱洗之即雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "金粟岩",
+        "type": "岩",
+        "location_text": "在临武县西北二十里",
+        "description": "石壁峭拔下有溪流岩上石璀璨如垂珠珞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "集雷岩",
+        "type": "岩",
+        "location_text": "在酃县集雷山",
+        "description": "旧传有雷神集此其神最灵",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "马岭冈",
+        "type": "冈",
+        "location_text": "在府城东南五十九里",
+        "description": "其形似马",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "曾青冈",
+        "type": "冈",
+        "location_text": "在府界",
+        "description": "冈产曾青可合仙药",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "分水冈",
+        "type": "冈",
+        "location_text": "在府城北一百一十三里",
+        "description": "与湘乡县分水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "黄龙冈",
+        "type": "冈",
+        "location_text": "在府城西一百三十里",
+        "description": "相传昔有黄龙见此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "破冈",
+        "type": "冈",
+        "location_text": "在衡阳县界",
+        "description": "湘中记宋大明中望气者云湘东有天子气遣谒者巡视斩冈石以厌之故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "朱陵洞",
+        "type": "洞",
+        "location_text": "在衡山",
+        "description": "道书第三洞天曰朱陵洞天即此又名水帘洞",
+        "lore": "宋毕田诗洞门千尺挂飞流王碎珠帘冷喷秋"
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c05",
+        "name": "李朝洞",
+        "type": "洞",
+        "location_text": "在安仁县南七十里",
+        "description": "其洞延袤数十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "锦石",
+        "type": "石",
+        "location_text": "在衡山县东江边",
+        "description": "有锦石数片云是区星遗锦于此化为石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "秦石",
+        "type": "石",
+        "location_text": "在耒阳县东四十里",
+        "description": "旧传秦皇驱石塞海至今不去",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "热石",
+        "type": "石",
+        "location_text": "在临武县",
+        "description": "置物其上立焦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "湘水",
+        "type": "江",
+        "location_text": "在府城东",
+        "description": "源出广西兴安县阳海山流至分水岭分流北流者谓之湘水，经全永州至府城东又北流入长沙界",
+        "lore": "宋文天祥诗潇湘一夜雨江海十年云相见皆成老重逢便作分"
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "蒸水",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "水气如蒸源出宝庆府邵阳县耶姜山东北流至衡阳县界合清阳水又东流经府城北会于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "上潢水",
+        "type": "水",
+        "location_text": "源出岣嵝峰",
+        "description": "屈曲流六十里可胜小舟，府城东北又有下潢水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "耒水",
+        "type": "水",
+        "location_text": "在府城北",
+        "description": "源出郴州之耒山西北流经耒阳衡阳县界至耒口注于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "肥水",
+        "type": "水",
+        "location_text": "源出侯计山",
+        "description": "其水清澈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "马水",
+        "type": "水",
+        "location_text": "在耒阳县东北百余里",
+        "description": "旧经云昔人于此水见白马跃出因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "湖屯水",
+        "type": "水",
+        "location_text": "源出龙渡山",
+        "description": "南流至湖屯折而东南流至鹿头山又东北流入郴州境",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c04",
+        "name": "潭水",
+        "type": "水",
+        "location_text": "源出桂阳州",
+        "description": "流至常宁县与宜水合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01",
+        "name": "舂水",
+        "type": "水",
+        "location_text": "在桂阳州北三十里",
+        "description": "源出道州舂陵山东流经蓝山县界又东北流至州界会岿水北至常宁县界入湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c04",
+        "name": "宜水",
+        "type": "水",
+        "location_text": "源出塔山",
+        "description": "一名宜溪水北流与石水合又西北流注于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c05",
+        "name": "小江水",
+        "type": "水",
+        "location_text": "在安仁县南",
+        "description": "源出郴州北流经县界又至衡山县合茶陵洣水入于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c05",
+        "name": "永乐水",
+        "type": "水",
+        "location_text": "在安仁县南",
+        "description": "源出郴州清溪流经县境北流至衡山县义塘江北合洣水入于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "云秋水",
+        "type": "水",
+        "location_text": "在酃县西四十里",
+        "description": "经云秋山下东北流经县东折而北流合洣水入于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c01",
+        "name": "武水",
+        "type": "水",
+        "location_text": "源出临武县西山下",
+        "description": "地名鸬鹚石经县前东流入郴州宜章县境会大小章水入广东界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-s01-c02",
+        "name": "岿水",
+        "type": "水",
+        "location_text": "在蓝山县南",
+        "description": "亦名舜水源出道州宁远县九疑山东流经县界又东北经桂阳州会舂陵水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "酃湖",
+        "type": "湖",
+        "location_text": "在府城东二十里",
+        "description": "荆州记湖周回三里取湖水酿酒酒极甘美，晋武帝尝荐酃酒于太庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "雨濑滩",
+        "type": "滩",
+        "location_text": "在耒阳县西南耒水中",
+        "description": "荆州记岁旱百姓壅塞之即雨若一乡独壅雨亦偏应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "桃源溪",
+        "type": "溪",
+        "location_text": "在酃县西四十里",
+        "description": "源出云阳五洞北流至桃源江口合云秋水至茶陵县合洣水下流入于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c01",
+        "name": "金乌井",
+        "type": "井",
+        "location_text": "在府城北二十里",
+        "description": "井在道傍水浅不满，旧传金乌井满状元出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "金井",
+        "type": "井",
+        "location_text": "在衡山县西北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "汤井",
+        "type": "井",
+        "location_text": "在耒阳县平阳五都",
+        "description": "有二泉其水春夏温和秋冬滚沸",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "玉砂泉",
+        "type": "泉",
+        "location_text": "在云密峰流洲岸下",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-095",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "浴丹泉",
+        "type": "泉",
+        "location_text": "在石廪峰",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-096",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c06",
+        "name": "洣泉",
+        "type": "泉",
+        "location_text": "在酃县东",
+        "description": "其水合云秋水北流入长沙府茶陵县境，水经注泉不常见遇邑政清明年谷丰稔则浙然如米泔瀑涌",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-097",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "流杯池",
+        "type": "池",
+        "location_text": "在衡山县南五里",
+        "description": "石上有九曲引水萦回为流觞游赏之所旧有亭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-098",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c02",
+        "name": "洗钵池",
+        "type": "池",
+        "location_text": "在衡山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-099",
+        "item_id": "73-001",
+        "geo_id": "GEO-73001-c03",
+        "name": "蔡子池",
+        "type": "池",
+        "location_text": "在耒阳县治西南",
+        "description": "汉蔡伦造纸处",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "73-001",
+        "name": "银",
+        "note": "桂阳州出旧有九坑"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "73-001",
+        "name": "铁",
+        "note": "桂阳州并衡阳耒阳常宁三县出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "73-001",
+        "name": "锡",
+        "note": "耒阳常宁二县出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "73-001",
+        "name": "纸",
+        "note": "耒阳县出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "73-001",
+        "name": "龙须草",
+        "note": "衡山出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "73-001",
+        "cited_work": "元和郡县志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元和郡县志东傍湘江北背烝水】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "73-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【图经衡之为郡直雁峰之北潇湘带其左】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "73-001",
+        "cited_work": "旧志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【旧志湖右奥区】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "73-001",
+        "cited_work": "欧阳修云",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋欧阳修云山川之秀丽称衡湘人居其间得之为俊杰】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "73-001",
+        "cited_work": "练亨甫",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋练亨甫桂阳五云观记襟带湘江控引交广】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "73-001",
+        "cited_work": "潘正夫桂阳诗",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋潘正夫桂阳诗岭开越峤通交趾路转荆门入九疑】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "73-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记地有舜之遗风人多纯朴】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "73-001",
+        "cited_work": "南齐志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【南齐志湘川之奥民丰士闲】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "73-001",
+        "cited_work": "桂阳志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【桂阳志淳朴近古畏法少讼】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "73-001",
+        "cited_work": "方舆胜览",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【方舆胜览俗尚农桑民知教化】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "衡州府"
+}

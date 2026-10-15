@@ -1,0 +1,1846 @@
+{
+  "item_id": "76-001",
+  "volume": "76",
+  "source": "永州府",
+  "region": "湖广",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "永州府",
+        "type": "geo",
+        "norm": "永州府",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "零陵县",
+        "type": "geo",
+        "norm": "零陵县",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "祁阳县",
+        "type": "geo",
+        "norm": "祁阳县",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "东安县",
+        "type": "geo",
+        "norm": "东安县",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "道州",
+        "type": "geo",
+        "norm": "道州",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-S01C01",
+        "name": "宁远县",
+        "type": "geo",
+        "norm": "宁远县",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-S01C02",
+        "name": "永明县",
+        "type": "geo",
+        "norm": "永明县",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-S01C03",
+        "name": "江华县",
+        "type": "geo",
+        "norm": "江华县",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "永州卫",
+        "type": "geo",
+        "norm": "永州卫",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "宁远卫",
+        "type": "geo",
+        "norm": "宁远卫",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "枇杷守御千户所",
+        "type": "geo",
+        "norm": "枇杷守御千户所",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-W04",
+        "name": "桃川守御千户所",
+        "type": "geo",
+        "norm": "桃川守御千户所",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K九疑山",
+        "name": "九疑山",
+        "type": "mtn",
+        "norm": "九疑山",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K潇湘",
+        "name": "潇湘",
+        "type": "mtn",
+        "norm": "潇湘",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K浯溪",
+        "name": "浯溪",
+        "type": "mtn",
+        "norm": "浯溪",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K柳宗元",
+        "name": "柳宗元",
+        "type": "person",
+        "norm": "柳宗元",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K周敦颐",
+        "name": "周敦颐",
+        "type": "person",
+        "norm": "周敦颐",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K元结",
+        "name": "元结",
+        "type": "person",
+        "norm": "元结",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K颜真卿",
+        "name": "颜真卿",
+        "type": "person",
+        "norm": "颜真卿",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K怀素",
+        "name": "怀素",
+        "type": "person",
+        "norm": "怀素",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K寇准",
+        "name": "寇准",
+        "type": "person",
+        "norm": "寇准",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K阳城",
+        "name": "阳城",
+        "type": "person",
+        "norm": "阳城",
+        "first_source": "76-001"
+      },
+      {
+        "ent_id": "ENT-K舜",
+        "name": "舜",
+        "type": "person",
+        "norm": "舜",
+        "first_source": "76-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-76001",
+        "item_id": "76-001",
+        "name": "永州府",
+        "type": "prefecture",
+        "region": "湖广",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-76001-c01",
+          "GEO-76001-c02",
+          "GEO-76001-c03",
+          "GEO-76001-s01",
+          "GEO-76001-w01",
+          "GEO-76001-w02",
+          "GEO-76001-w03",
+          "GEO-76001-w04"
+        ],
+        "volume_range": "卷65",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "衡州府常宁县界",
+              "distance_li": 200
+            },
+            {
+              "direction": "西",
+              "to_place": "广西桂林府全州界",
+              "distance_li": 140
+            },
+            {
+              "direction": "南",
+              "to_place": "广西平乐府富川县界",
+              "distance_li": 420
+            },
+            {
+              "direction": "北",
+              "to_place": "宝庆府邵阳县界",
+              "distance_li": 170
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3435
+            },
+            {
+              "capital": "京师",
+              "distance_li": 6880
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县六；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 68000,
+            "unit": "石",
+            "note": "粮六万八千石零"
+          },
+          "jun_name": "零陵【汉名】营阳【晋名】",
+          "topography": "南接九疑北接衡岳【旧经】；石崖天齐【唐元结中兴颂】；背负九疑面傃潇湘【周中行撰元次山祠堂记】；环以群山延以林麓【唐柳宗元游宴南池序】；后依列嶂前瞰重江【唐曹中永州谢表】；山水奇秀【宋倪均父题浯溪序】；与五岭接【寰宇记】；南控百越北凑三湘【宋掌禹锡道州鼓角楼记】",
+          "customs": "潇湘参百越之俗【唐柳宗元谢李吉甫启】；左衽居椎髻之半【柳宗元代韦永州谢表】；人无争讼【柳宗元道州庙学记】；家闲礼义【唐曹中永州谢表】；风浮俗鬼【柳集】；清慧而文【唐刘禹锡云】；俗兼蛮左【宋掌禹锡壁记】；俗尚韶歌【米晏殊类要】",
+          "garrisons": [
+            {
+              "name": "永州卫",
+              "type": "卫",
+              "location_text": "在府治西本朝洪武初建"
+            },
+            {
+              "name": "宁远卫",
+              "type": "卫",
+              "location_text": "在道州治西旧为道州守御千户所洪武二十九年改为卫"
+            },
+            {
+              "name": "枇杷守御千户所",
+              "type": "千户所",
+              "location_text": "在永明县东南三十里"
+            },
+            {
+              "name": "桃川守御千户所",
+              "type": "千户所",
+              "location_text": "在永明县西南四十里"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011",
+          "CIT-012",
+          "CIT-013",
+          "CIT-014"
+        ]
+      },
+      {
+        "geo_id": "GEO-76001-c01",
+        "item_id": "76-001",
+        "name": "零陵县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 28,
+            "unit": "里",
+            "note": "编户二十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-c02",
+        "item_id": "76-001",
+        "name": "祁阳县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城北一百里",
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "编户一十三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-c03",
+        "item_id": "76-001",
+        "name": "东安县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城西九十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-s01",
+        "item_id": "76-001",
+        "name": "道州",
+        "type": "department",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [
+          "GEO-76001-s01-c01",
+          "GEO-76001-s01-c02",
+          "GEO-76001-s01-c03"
+        ],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城南一百五十里",
+          "households": {
+            "count": 25,
+            "unit": "里",
+            "note": "编户二十五里；领县三"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-s01-c01",
+        "item_id": "76-001",
+        "name": "宁远县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-76001-s01",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在州东七十里",
+          "households": {
+            "count": 62,
+            "unit": "里",
+            "note": "编户六十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-s01-c02",
+        "item_id": "76-001",
+        "name": "永明县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-76001-s01",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在州西七十里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-s01-c03",
+        "item_id": "76-001",
+        "name": "江华县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-76001-s01",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在州南七十里",
+          "households": {
+            "count": 4,
+            "unit": "里",
+            "note": "编户四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-76001-w01",
+        "item_id": "76-001",
+        "name": "永州卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府治西本朝洪武初建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-76001-w02",
+        "item_id": "76-001",
+        "name": "宁远卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在道州治西",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-76001-w03",
+        "item_id": "76-001",
+        "name": "枇杷守御千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在永明县东南三十里",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-76001-w04",
+        "item_id": "76-001",
+        "name": "桃川守御千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-76001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在永明县西南四十里",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "荆州之域",
+        "action": "因之",
+        "detail": "禹贡荆州之域，天文翼轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "春秋战国",
+        "era": null,
+        "institution_name": "楚南境",
+        "action": "因之",
+        "detail": "春秋战国为楚南境"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "长沙郡地",
+        "action": "因之",
+        "detail": "秦为长沙郡地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "零陵郡",
+        "action": "置",
+        "detail": "汉置零陵郡属荆州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "三国",
+        "era": null,
+        "institution_name": "吴/营阳郡",
+        "action": "因之",
+        "detail": "三国属吴，晋属湘州又分零陵置营阳郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "南朝",
+        "era": null,
+        "institution_name": "零陵国/永阳郡",
+        "action": "改",
+        "detail": "刘宋改零陵郡为国，南齐改国为郡，梁改营阳为永阳郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "永州/零陵郡",
+        "action": "改",
+        "detail": "隋罢二郡置永州治零陵县，大业初改为零陵郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "永州/零陵郡",
+        "action": "改",
+        "detail": "唐初复置永州属江南道，天宝初改零陵郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "永州",
+        "action": "因之",
+        "detail": "宋复为永州属荆湖南路"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "永州路",
+        "action": "改",
+        "detail": "元为永州路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "永州府",
+        "action": "改",
+        "detail": "本朝改为永州府，领州一县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "高山",
+        "type": "山",
+        "location_text": "在府城内西",
+        "description": "以其高耸故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "万石山",
+        "type": "山",
+        "location_text": "在府城北",
+        "description": "多怪石下瞰碧沼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "秀零山",
+        "type": "山",
+        "location_text": "在府城东数里",
+        "description": "唐柳宗元尝登蒲州石矶以望之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "西山",
+        "type": "山",
+        "location_text": "在府城西潇江之外",
+        "description": "唐柳宗元爱其胜境有西山宴游记",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "群玉山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "巨竹脩古木樛曲怪石万状地胜景清一郡之奇观也；宋嘉定间侍郎董居谊谪居于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "石角山",
+        "type": "山",
+        "location_text": "在府城东北一十里",
+        "description": "连属十余小石峰奇峭如画，柳宗元尝游此赋诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "嵛山",
+        "type": "山",
+        "location_text": "在府城南二十里",
+        "description": "山势尖秀四望如卓笔，以其逾越众山故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "福田山",
+        "type": "山",
+        "location_text": "在府城东北五十里",
+        "description": "崖壁峭绝中有孤峰岿然耸峙俗名阿育王塔，下有石眼出泉号如意泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "永山",
+        "type": "山",
+        "location_text": "在府城西南一百里",
+        "description": "永水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "焦山",
+        "type": "山",
+        "location_text": "在府城西北一百里",
+        "description": "宋晏殊类要舜南巡所憩之处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "鸦山",
+        "type": "山",
+        "location_text": "在府城南一百五里",
+        "description": "有怪石望之似鸦",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "乳泉山",
+        "type": "山",
+        "location_text": "在府城西北一百四十里",
+        "description": "有泉垂流如乳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "大阳山",
+        "type": "山",
+        "location_text": "在府城西二百四十里",
+        "description": "大阳水际",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "祁山",
+        "type": "山",
+        "location_text": "在祁阳县北一十五里",
+        "description": "远望如城与众山裹县，县在山南故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "白鹤山",
+        "type": "山",
+        "location_text": "在祁阳县东北三十里",
+        "description": "旧经南接九疑北连衡岳；昔楚白公出奔避于此，有元孙改姓屈名处静者修炼得道乘鹤上升有仙坛丹灶存焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "包山",
+        "type": "山",
+        "location_text": "在祁阳县西一百四十里",
+        "description": "昔有包姓者居其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "四望山",
+        "type": "山",
+        "location_text": "在祁阳县西南一百二十里",
+        "description": "山最高天宇开霁其巅望见衡邵永道四郡故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "苦竹山",
+        "type": "山",
+        "location_text": "在祁阳县东一百七十里",
+        "description": "山多苦竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "白水山",
+        "type": "山",
+        "location_text": "在祁阳县东南二百里",
+        "description": "山下有水如白练",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "石燕山",
+        "type": "山",
+        "location_text": "在祁阳县",
+        "description": "山岩石色绀而状似燕，若雷风相薄则群飞颉颃",
+        "lore": "湘州记零陵有石燕得风雨则飞翔如真燕风雨止还为石"
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "龙山",
+        "type": "山",
+        "location_text": "在东安县",
+        "description": "山下有涌泉尝有龙影见故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "赤石山",
+        "type": "山",
+        "location_text": "在东安县西五里",
+        "description": "山中有岩石皆赤色",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "黄华山",
+        "type": "山",
+        "location_text": "在东安县",
+        "description": "寰宇记有猎者于此见二鹿……",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "刀摆山",
+        "type": "山",
+        "location_text": "在东安县东五十里",
+        "description": "峭壁倚空，昔有樵夫见仙女在下转盻之刀柄摆堕石罅间故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "八十四渡山",
+        "type": "山",
+        "location_text": "在东安县东一百五十里",
+        "description": "山势重复流水萦回经此山者凡八十四渡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "潇山",
+        "type": "山",
+        "location_text": "在道州西北二十五里",
+        "description": "俯临大道山下有泉可溉田",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "营山",
+        "type": "山",
+        "location_text": "在道州西四十五里",
+        "description": "营水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "营道山",
+        "type": "山",
+        "location_text": "在道州西北五十里",
+        "description": "亦名龙山状似龙，其始名营阳又曰洪道，唐改曰弘道至宋始改今名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "石城山",
+        "type": "山",
+        "location_text": "在西山东北",
+        "description": "柳宗元记土断而川分有积石横当其垠……",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "白鸡山",
+        "type": "山",
+        "location_text": "在道州西北六十里",
+        "description": "险阻不可登",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "天门山",
+        "type": "山",
+        "location_text": "在宁远县东南四十里",
+        "description": "平地直上千余尺，虽晴霁望之于下不见其顶",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "九疑山",
+        "type": "山",
+        "location_text": "在宁远县南六十里",
+        "description": "晋郭璞云其山九溪皆相似或云九峰参差互相隐映望而疑之故名；九峰曰朱明石城石楼娥皇舜源女英萧韶桂林杞林；故老相传舜登九疑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "追凉山",
+        "type": "山",
+        "location_text": "在宁远县东北七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "舂陵山",
+        "type": "山",
+        "location_text": "在宁远县东北七十五里",
+        "description": "五山相接山势秀拔，舂陵水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c02",
+        "name": "大掩山",
+        "type": "山",
+        "location_text": "在永明县治西",
+        "description": "掩水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c02",
+        "name": "白鹅山",
+        "type": "山",
+        "location_text": "在永明县西北十五里",
+        "description": "山巅有石类鹅又有洞中有石如文殊亦有似鼓钟者",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "吴望山",
+        "type": "山",
+        "location_text": "在江华县南五十里",
+        "description": "或曰秦人尝于此避乱旧名秦山；吴孙权未建号初山忽有声如雷因开洞穴石有文彩权以为瑞，唐天宝中改吴望山；山有秦岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "冬冷山",
+        "type": "山",
+        "location_text": "在江华县南一百二十里",
+        "description": "接广西贺县界，其山高广阴寒故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "歌父山",
+        "type": "山",
+        "location_text": "在江华县东南九十里",
+        "description": "荆山记冯全乡有善歌者声振林木故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "石门岭",
+        "type": "岭",
+        "location_text": "在府城东五十里",
+        "description": "岭上有双石门其上崛起如城壁复有石如楼阁羚羊尝往来其间",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "鸣水岭",
+        "type": "岭",
+        "location_text": "在府城南一百一十里",
+        "description": "有瀑布泉声闻数里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "黄蘗岭",
+        "type": "岭",
+        "location_text": "在府城东南一百二十里",
+        "description": "连亘道州中有黄蘗洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "黄龙岭",
+        "type": "岭",
+        "location_text": "在府城北二百里",
+        "description": "下有黄龙观，唐宋宗朝有申大师者居之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "黄罴岭",
+        "type": "岭",
+        "location_text": "在祁阳县北三十里",
+        "description": "岩壑深邃旧传有罴居之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "诸葛岭",
+        "type": "岭",
+        "location_text": "在东安县南三里",
+        "description": "刘备借荆州遣诸葛亮督零陵长沙桂阳三郡调赋屯驻于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "石牛岭",
+        "type": "岭",
+        "location_text": "在东安县北一百一十里",
+        "description": "有石如牛",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c02",
+        "name": "都庞岭",
+        "type": "岭",
+        "location_text": "在永明县北五十里",
+        "description": "东北连掩山西南连荆峡镇其绝顶曰都逢，土人语讹呼逢曰庞一名永明岭；秦王翦发百越以谪戍五万人守五岭，都庞其一也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "华严岩",
+        "type": "岩",
+        "location_text": "在府城南三里",
+        "description": "唐为石门精室据法华寺南隅崖下，柳宗元有诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "朝阳岩",
+        "type": "岩",
+        "location_text": "在府城西潇江之浒",
+        "description": "岩有洞涧自中出流入湘江；唐元结维丹岩下以其地高而东向遂名朝阳；古今名贤留题皆镵于石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "澹山岩",
+        "type": "岩",
+        "location_text": "在府城南二十五里",
+        "description": "岩有二门壁立万仞，东南角有石窍仰望洞然；昔有澹姓者居其下故名；宋黄庭坚诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "火星岩",
+        "type": "岩",
+        "location_text": "在府城西",
+        "description": "其岩石壁所镵先贤题识高下鳞次，穷日之力乃能尽阅；宋尹瞻与柳拱辰尝游此联句",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "九龙岩",
+        "type": "岩",
+        "location_text": "在东安县北一百里",
+        "description": "山形斗起奇石错立物象古怪，相传尝有樵者遇黄衣九士谓曰吾九龙居此久矣；宋王观诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "穿岩",
+        "type": "岩",
+        "location_text": "在道州西四十里",
+        "description": "形如圆廪中可容数万斛，东西两门通道其间望之若城门又如偃月，岩前有石如走猊伏虎其状不一",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "斑竹岩",
+        "type": "岩",
+        "location_text": "在道州南五十里",
+        "description": "多小斑竹，相传舜葬九疑二妃从至此以手拭泪把竹遂成斑色；唐刘长卿诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "阳华岩",
+        "type": "岩",
+        "location_text": "在江华县东南六七里",
+        "description": "有回山南面峻秀下有大岩岩当阳故名，唐元结撰铭瞿令问书",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "玉琯岩",
+        "type": "岩",
+        "location_text": "在宁远县南古舜祠侧",
+        "description": "汉哀帝时零陵郡文学奚景得玉琯十二于此今祠后石室是也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "高士岩",
+        "type": "岩",
+        "location_text": "在宁远县南舜祠之西",
+        "description": "旧名野猪岩亦名啸父后改曰高士；昔有猎者见群豕逐入岩不见因得乐器一部",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "龙岩",
+        "type": "岩",
+        "location_text": "在宁远县丹桂乡",
+        "description": "相传若闻岩有龙吟之声则其乡有登贤书者",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "龙洞",
+        "type": "洞",
+        "location_text": "在府城西南七十里",
+        "description": "乃唐世旻所居地，唐昭宗时盗起世旻团结乡兵保里闾……天旱祷而雨遂取其木像而祀之今石荆岸尚有庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "承平洞",
+        "type": "洞",
+        "location_text": "在府城西一百里",
+        "description": "林岭深邃相传中有野人；宋咸平间有一雌者突入田中擒一少年负去置洞岩中与之卧起既而逃归",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "含晖洞",
+        "type": "洞",
+        "location_text": "在道州南五里",
+        "description": "唐刘禹锡记薛君景晦为道州得异境有石室穹然如厦屋因名其室曰含晖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "紫虚洞",
+        "type": "洞",
+        "location_text": "在宁远县治南",
+        "description": "古木苍烟石田棋布岩窦中深必炬而入，唐薛伯高名曰斜岩，宋郡守张观名曰紫虚，内有寇准题名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "碧虚洞",
+        "type": "洞",
+        "location_text": "在宁远县南",
+        "description": "亦名嘉鱼洞，唐元结名曰无为洞，上有李峤篆刻，中有水通碧桥南注舜溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "化石",
+        "type": "石",
+        "location_text": "在府城南八十里",
+        "description": "有石状如人，郡国志昔淮南王兵败被逐至此化为石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "窊樽石",
+        "type": "石",
+        "location_text": "在道州东",
+        "description": "唐元结集州东左湖湖东有小石山山巅有窊石可以为樽乃作亭樽上又诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "五如石",
+        "type": "石",
+        "location_text": "在道州城东",
+        "description": "唐元结序洿泉之阳得怪石焉左右前后及登石巅皆相似故名之曰五如石并建五如亭于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "彭祖石",
+        "type": "石",
+        "location_text": "在宁远县地名彭祖",
+        "description": "有池池内有石若钓矶上有人迹，世传彭祖尝至此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "暖谷",
+        "type": "谷",
+        "location_text": "在江华县南寒亭之侧",
+        "description": "宋治平中县尉李伯英得之，邑大夫蒋祺命名蒋之奇作记，谓方盛寒入此谷中其气温然虽挟纩炽炭不若也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "狮子坞",
+        "type": "坞",
+        "location_text": "在祁阳县治南湘江之侧",
+        "description": "有巨石状如狮子，古谚云狮子衔球出状元",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "小丘",
+        "type": "丘",
+        "location_text": "在钴鉧潭西",
+        "description": "柳宗元记丘有竹树其石之突怒偃蹇负土而出争为奇状者殆不可数",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "湘江",
+        "type": "江",
+        "location_text": "在府城北一十里",
+        "description": "源出广西兴安县阳海山流经郡界至湘口与潇水合水至清虽十丈见底；舆地纪胜云湘水中有穴名大濩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c03",
+        "name": "卢洪江",
+        "type": "江",
+        "location_text": "在东安县治东",
+        "description": "东南流出江口入于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "天湖",
+        "type": "湖",
+        "location_text": "在九疑山麓",
+        "description": "中有禽大如雁锦羽尾长六尺，又有石洞门外左右有石人如冠剑而立",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "潇水",
+        "type": "水",
+        "location_text": "在府城外",
+        "description": "源出九疑山南流至三江口东北与沲水合又东北流至此北流至湘口会于湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "永水",
+        "type": "水",
+        "location_text": "在府城南九十里",
+        "description": "源出永山流入湘江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "祁水",
+        "type": "水",
+        "location_text": "在祁阳县治北",
+        "description": "源出宝庆府邵阳县界地名余溪东北流九十里县北入湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "营水",
+        "type": "水",
+        "location_text": "在道州西",
+        "description": "源出营山东流与沲池水合经宜阳乡与舜源水潇水合又转注单江至本府入湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "舜源水",
+        "type": "水",
+        "location_text": "在宁远县南六十里",
+        "description": "源出舜源峰流至县东西折而北与沲潇二水合流至本府入湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "舂水",
+        "type": "水",
+        "location_text": "在宁远县北八十里",
+        "description": "源出舂陵山东南流至此下流经桂阳州蓝山县境入湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c02",
+        "name": "遨水",
+        "type": "水",
+        "location_text": "在永明县",
+        "description": "源出广西富川县木马山流入县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c02",
+        "name": "掩水",
+        "type": "水",
+        "location_text": "在永明县治西",
+        "description": "源出大掩山下有石掩洞口故名东流与沲水合经三江口与潇水舜源水合",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "沲水",
+        "type": "水",
+        "location_text": "在江华县治东",
+        "description": "源出九疑山石城娥皇二峰流至县别为二又十里合为一经三江口合潇水舜源水北流至府入湘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "砯水",
+        "type": "水",
+        "location_text": "在江华县东南",
+        "description": "源出九疑山女英峰流与沲水合，其水多石湍急有声故曰砯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c03",
+        "name": "秦水",
+        "type": "水",
+        "location_text": "在江华县",
+        "description": "源出吴望山南流与冬冷水合水声鸣咽如秦陇故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "愚溪",
+        "type": "水",
+        "location_text": "在府城西一里",
+        "description": "源出鸦山旧名冉溪，唐柳宗元改今名；愚溪之上买小丘为愚丘东北得泉而又买居之为愚泉……作八愚诗纪于溪石上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "都溪",
+        "type": "水",
+        "location_text": "在府境",
+        "description": "水经注云都溪水出舂陵县西县有五色山山有一溪五水皆汇于其间故曰都溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "黄溪",
+        "type": "水",
+        "location_text": "在府城东七十里",
+        "description": "盖九疑山之西境，柳宗元记永之治百里北至于浯溪西至于湘之源南至于垅东门东至于东屯其间名山水而村者以百数黄溪最善",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "高溪",
+        "type": "水",
+        "location_text": "在府城北九十里",
+        "description": "有唐叟者世居溪上，宋乾德中一旦厌喧杂登舟而去往来垂钓伏腊则暂归受子孙谒见如此者三十年",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "浯溪",
+        "type": "水",
+        "location_text": "在祁阳县南五里",
+        "description": "流入湘江；唐元结自道州归爱其山水因家焉作大唐中兴颂颜真卿大书刻于岸；结又为峿台唐亭石室诸铭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "濂溪",
+        "type": "水",
+        "location_text": "在道州西二十余里",
+        "description": "宋儒周敦颐所居，张栻为撰祠堂记；朱文公江州祠堂记云家舂陵而老于庐山之下因取故里之号以名其川曰濂溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "钴鉧潭",
+        "type": "潭",
+        "location_text": "在西山之西",
+        "description": "柳宗元记冉水自南奔注抵山石屈折东流其颠委势峻荡击益暴啮其涯故旁广而中深毕至石乃止流沫成轮然后徐行",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "小石潭",
+        "type": "潭",
+        "location_text": "在小丘西",
+        "description": "柳宗元记水尤清冽泉石以为底近岸卷石底以出为坻为屿为嵁为岩青树翠蔓披拂潭中鱼可数百尾皆若空游",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "石马潭",
+        "type": "潭",
+        "location_text": "在府城北五十里",
+        "description": "湘水中有石状如马",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "蒲洲",
+        "type": "洲",
+        "location_text": "在府城东一十里潇水之傍",
+        "description": "柳宗元有诗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-095",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "吕虎井",
+        "type": "井",
+        "location_text": "在府城东山上",
+        "description": "吴孙权遣吕蒙取荆州尝驻兵于此插剑泉涌以其威力如虎故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-096",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "紫岩井",
+        "type": "井",
+        "location_text": "在府治北玄妙观前",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-097",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "五龙井",
+        "type": "井",
+        "location_text": "在道州城西北",
+        "description": "相传龙之所居",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-098",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "七泉",
+        "type": "泉",
+        "location_text": "在道州东郭",
+        "description": "唐元结铭序有泉七穴命其五曰洿氵贝洟汸淔欲饮者有所感发一曰漫泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-099",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "知时泉",
+        "type": "泉",
+        "location_text": "在道州城望仙门内",
+        "description": "凿石象龙以导其流夏至则盈秋分则涸，宋绍兴间郡守辛公创亭而扁之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-100",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c02",
+        "name": "甘泉",
+        "type": "泉",
+        "location_text": "在祁阳县治西北",
+        "description": "其山前后对峙泉出其间极清冽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-101",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "袁家渴",
+        "type": "水",
+        "location_text": "在朝阳岩东南",
+        "description": "柳宗元记楚越之间方言谓水之反流者为渴其中重洲小溪澄潭浅渚小山美石青荫蔚然嘉木香草胶葛摇飏其状无穷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-102",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "南池",
+        "type": "池",
+        "location_text": "在府子城东",
+        "description": "柳宗元游宴序云连山倒垂万象在下浮空泛景荡若无外横碧落以中贯凌太虚而径度诚游观之佳处也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-103",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01",
+        "name": "爱莲池",
+        "type": "池",
+        "location_text": "在道州学西濂溪书院之北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-104",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "石渠",
+        "type": "水",
+        "location_text": "在袁家渴西南",
+        "description": "柳宗元记渠之广或咫尺或倍尺其长可十许步其流抵大石伏出其下逾石而往有石泓菖蒲被之青藓环周",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-105",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-s01-c01",
+        "name": "青涧",
+        "type": "水",
+        "location_text": "在九疑山",
+        "description": "王韶之神境记九疑山半其路皆植松竹下夹路有青涧涧中生黄色莲花香气盈谷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-106",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "石涧",
+        "type": "水",
+        "location_text": "在石渠西北",
+        "description": "其水之大倍石渠之三亘石为底达于两涯水平布其上流若织文翠羽之木龙鳞之石均荫其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-107",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "石牌滩",
+        "type": "滩",
+        "location_text": "在府城北四十里",
+        "description": "其石皆片段联缀状如牌筏或云秦始皇造桥于海上有异人乘牌往助之始皇死遂弃去",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-108",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "垂幔滩",
+        "type": "滩",
+        "location_text": "在府城西南",
+        "description": "水行百里枕湘江之岸峭壁倚空遥望如帷幔之状下有滩因名垂幔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-109",
+        "item_id": "76-001",
+        "geo_id": "GEO-76001-c01",
+        "name": "烟塘",
+        "type": "塘",
+        "location_text": "在府城东北一百余里",
+        "description": "其深莫测相传昔有民得一白鳝将烹之有老叟曰此湘江之龙恐祸及民怒以为虚诞排之翌日一村俱陷",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "76-001",
+        "name": "锡",
+        "location_text": "江华县出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "76-001",
+        "name": "铁",
+        "location_text": "零陵祁阳江华永明宁远五县出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "76-001",
+        "name": "石燕青碌",
+        "location_text": "俱祁阳县出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "76-001",
+        "name": "綄线克丝",
+        "location_text": "俱零陵祁阳二县出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "76-001",
+        "name": "石磬",
+        "location_text": "零陵县出亚于徐州"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "76-001",
+        "name": "石屏",
+        "location_text": "白鹤山出"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "76-001",
+        "name": "香茅",
+        "location_text": "永州野有香茅贡以缩酒春秋楚贡苞茅不入即此"
+      },
+      {
+        "prod_id": "PROD-008",
+        "item_id": "76-001",
+        "name": "零陵香",
+        "location_text": "生湘源所生处香闻数十步"
+      },
+      {
+        "prod_id": "PROD-009",
+        "item_id": "76-001",
+        "name": "异蛇",
+        "location_text": "柳子厚捕蛇者说云黑质而白章触草木尽死腊之以为饵可以已大风挛踠瘘厉去死肌杀三虫"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "76-001",
+        "cited_work": "旧经",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【旧经南接九疑北接衡岳】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "76-001",
+        "cited_work": "元结中兴颂",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【唐元结中兴颂湘江东西中直浯溪石崖天齐可磨可镌】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "76-001",
+        "cited_work": "周中行撰元次山祠堂记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【周中行撰元次山祠堂记背负九疑面傃潇湘】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "76-001",
+        "cited_work": "柳宗元游宴南池序",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【唐柳宗元游宴南池序环以群山延以林麓】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "76-001",
+        "cited_work": "曹中永州谢表",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【唐曹中永州谢表后依列嶂前瞰重江】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "76-001",
+        "cited_work": "倪均父题浯溪序",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋倪均父题浯溪序山水奇秀】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "76-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【寰宇记道州与五岭接有炎热而无瘴气】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "76-001",
+        "cited_work": "掌禹锡道州鼓角楼记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋掌禹锡道州鼓角楼记湘水导其源疑山盘平险南控百越北凑三湘】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "76-001",
+        "cited_work": "柳宗元谢李吉甫启",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【唐柳宗元谢李吉甫启潇湘参百越之俗】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "76-001",
+        "cited_work": "柳宗元代韦永州谢表",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【柳宗元代韦永州谢表左衽居椎髻之半】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "76-001",
+        "cited_work": "柳宗元道州庙学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【柳宗元道州庙学记人无争讼】"
+      },
+      {
+        "cit_id": "CIT-012",
+        "item_id": "76-001",
+        "cited_work": "曹中永州谢表",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【唐曹中永州谢表家闲礼义而化易孚地足渔樵而人乐业】"
+      },
+      {
+        "cit_id": "CIT-013",
+        "item_id": "76-001",
+        "cited_work": "柳集",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【柳集惟是南楚风浮俗鬼】"
+      },
+      {
+        "cit_id": "CIT-014",
+        "item_id": "76-001",
+        "cited_work": "刘禹锡云",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【唐刘禹锡云潇湘间无土山无浊水民乘是气往往清慧而文】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "永州府"
+}

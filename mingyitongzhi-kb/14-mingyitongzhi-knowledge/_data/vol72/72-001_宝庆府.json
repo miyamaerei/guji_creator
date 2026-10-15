@@ -1,0 +1,1229 @@
+{
+  "item_id": "72-001",
+  "volume": "72",
+  "source": "宝庆府",
+  "region": "湖广",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "宝庆府",
+        "type": "geo",
+        "norm": "宝庆府",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "邵阳县",
+        "type": "geo",
+        "norm": "邵阳县",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "城步县",
+        "type": "geo",
+        "norm": "城步县",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "新化县",
+        "type": "geo",
+        "norm": "新化县",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "武冈州",
+        "type": "geo",
+        "norm": "武冈州",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-S01-C01",
+        "name": "新宁县",
+        "type": "geo",
+        "norm": "新宁县",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "宝庆卫",
+        "type": "geo",
+        "norm": "宝庆卫",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-K崀山",
+        "name": "崀山",
+        "type": "mtn",
+        "norm": "崀山",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-K澬水",
+        "name": "澬水",
+        "type": "mtn",
+        "norm": "澬水",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-K云山",
+        "name": "武冈云山",
+        "type": "mtn",
+        "norm": "武冈云山",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-K周敦颐",
+        "name": "周敦颐",
+        "type": "person",
+        "norm": "周敦颐",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-K陈与义",
+        "name": "陈与义",
+        "type": "person",
+        "norm": "陈与义",
+        "first_source": "72-001"
+      },
+      {
+        "ent_id": "ENT-K武冈铭",
+        "name": "武冈铭",
+        "type": "site",
+        "norm": "武冈铭",
+        "first_source": "72-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-72001",
+        "item_id": "72-001",
+        "name": "宝庆府",
+        "type": "prefecture",
+        "region": "湖广",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-72001-c01",
+          "GEO-72001-c02",
+          "GEO-72001-c03",
+          "GEO-72001-s01",
+          "GEO-72001-w01",
+          "GEO-72001-w02"
+        ],
+        "volume_range": "卷72",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "衡州府衡阳县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "西",
+              "to_place": "靖州绥宁县界",
+              "distance_li": 310
+            },
+            {
+              "direction": "南",
+              "to_place": "永州府东安县界",
+              "distance_li": 120
+            },
+            {
+              "direction": "北",
+              "to_place": "辰州府溆浦县界",
+              "distance_li": 380
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3075
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9395
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县四；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 50050,
+            "unit": "石",
+            "note": "粮五万五十石零"
+          },
+          "jun_name": "邵陵【吴名】邵阳【唐名】",
+          "topography": "接九疑之形势据三湘之上游【宋开元寺塔记】；东距洞庭西连五岭【邵州图经】；旁通荆襄外接交广【舆地纪胜】；控制溪峒弹压诸蛮【宋创武冈军敕牒】；介长沙零陵之间有唇齿辅车之势【邵阳图志序】；湖岭要冲【宋侯延庆修州门记】；溪山环郭【宋寇准邵州即事诗】",
+          "customs": "尚气喜直节俭朴厚【邵阳志序】；地接溪峒其俗好勇尚俭【图经】；风俗陋俭狱讼稀简【都梁记】；僻在万山其民团聚【旧志】；板屋畲田【宋章惇开梅山诗】",
+          "garrisons": [
+            {
+              "name": "宝庆卫",
+              "type": "卫",
+              "location_text": "在府治西本朝初立宝庆卫于长沙府益阳县洪武五年徙建于此"
+            },
+            {
+              "name": "守御武冈千户所",
+              "type": "千户所",
+              "location_text": "在武冈州治东北旧在州治西后迁于此隶靖州卫"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009"
+        ]
+      },
+      {
+        "geo_id": "GEO-72001-c01",
+        "item_id": "72-001",
+        "name": "邵阳县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-72001",
+        "children": [],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 46,
+            "unit": "里",
+            "note": "编户46里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-72001-c02",
+        "item_id": "72-001",
+        "name": "城步县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-72001",
+        "children": [],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "在府城北一百四十里",
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "编户13里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-72001-c03",
+        "item_id": "72-001",
+        "name": "新化县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-72001",
+        "children": [],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "在府城北一百八十里",
+          "households": {
+            "count": 26,
+            "unit": "里",
+            "note": "编户26里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-72001-s01",
+        "item_id": "72-001",
+        "name": "武冈州",
+        "type": "department",
+        "region": "湖广",
+        "parent": "GEO-72001",
+        "children": [
+          "GEO-72001-s01-c01"
+        ],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "在府城西南二百八十里",
+          "households": {
+            "count": 43,
+            "unit": "里",
+            "note": "编户四十三里领县一"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-72001-s01-c01",
+        "item_id": "72-001",
+        "name": "新宁县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-72001-s01",
+        "children": [],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "在州城南九十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-72001-w01",
+        "item_id": "72-001",
+        "name": "宝庆卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-72001",
+        "children": [],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "在府治西本朝初立宝庆卫于长沙府益阳县洪武五年徙建于此",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-72001-w02",
+        "item_id": "72-001",
+        "name": "守御武冈千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-72001",
+        "children": [],
+        "volume_range": "卷72",
+        "attributes": {
+          "location_text": "在武冈州治东北旧在州治西后迁于此隶靖州卫",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "荆州之域",
+        "action": "因之",
+        "detail": "禹贡荆州之域，天文轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "春秋战国",
+        "era": null,
+        "institution_name": "楚地",
+        "action": "因之",
+        "detail": "春秋战国时皆属楚"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "长沙郡",
+        "action": "因之",
+        "detail": "秦属长沙郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "长沙国/零陵郡",
+        "action": "因之",
+        "detail": "汉属长沙国，东汉属零陵郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "邵陵郡",
+        "action": "置",
+        "detail": "三国吴置邵陵郡属荆州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "晋宋齐梁",
+        "era": null,
+        "institution_name": "邵陵国",
+        "action": "因之",
+        "detail": "晋宋齐梁并为邵陵国"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "陈",
+        "era": null,
+        "institution_name": "邵陵郡",
+        "action": "因之",
+        "detail": "陈复为郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "潭州/建州",
+        "action": "改",
+        "detail": "隋初罢郡以其地属潭州，开皇中置建州治邵阳寻废"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "南梁州/邵州/邵阳郡",
+        "action": "改",
+        "detail": "唐置南梁州贞观中改为邵州，天宝初又改邵阳郡，乾元初复为邵州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "五代晋",
+        "era": null,
+        "institution_name": "敏州",
+        "action": "改",
+        "detail": "五代晋时改为敏州"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "邵州/宝庆府",
+        "action": "升",
+        "detail": "宋仍为邵州后升宝庆府"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "宝庆路",
+        "action": "改",
+        "detail": "元改为宝庆路"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "宝庆府",
+        "action": "因之",
+        "detail": "本朝仍改为府，领州一县四"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "大禹山",
+        "type": "山",
+        "location_text": "在府城北",
+        "description": "屹如障屏上有禹庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "小佘湖山",
+        "type": "山",
+        "location_text": "在府城东二里",
+        "description": "上有唐建申泰芝祠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "洛阳山",
+        "type": "山",
+        "location_text": "在府城东北五里",
+        "description": "澬邵二水合流其下有石室，唐申泰芝往来其中，明皇感梦以像求得之赐号大国师，泰芝世家洛阳故以名山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "马鞍山",
+        "type": "山",
+        "location_text": "在府城东五里",
+        "description": "以形似名；又新化县西南七十里亦有马鞍山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "石门山",
+        "type": "山",
+        "location_text": "在府城北六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "龙山",
+        "type": "山",
+        "location_text": "在府城东八十里",
+        "description": "秀峰四出望之面面相类，顶有龙池泉如涌潮分为二派，一入湘乡为涟水一入邵阳为邵水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "大佘湖山",
+        "type": "山",
+        "location_text": "在府城东南一百五十里",
+        "description": "上有台台侧有岩中有石如悬，凡祷雨有水自悬石点滴而下则雨，相传唐申泰芝飞升之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "高霞山",
+        "type": "山",
+        "location_text": "在府城南一百八十里",
+        "description": "根盘永州东安祁阳县界，昔李真人于显庆初入山修道白日升举，山下旧有高霞观",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "四望山",
+        "type": "山",
+        "location_text": "在府城南一百八十里",
+        "description": "与高霞山接境周围四十里山极高峻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "七里花山",
+        "type": "山",
+        "location_text": "在邵阳县新宁乡",
+        "description": "山形高耸常见白云生其下半山旧有望云亭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "扶阳山",
+        "type": "山",
+        "location_text": "在邵阳县境",
+        "description": "一名文竹山上有石床四面绿竹扶疏常随风委拂此床",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "梅山",
+        "type": "山",
+        "location_text": "在新化县南五里",
+        "description": "",
+        "lore": "宋章惇开梅山诗开梅山开梅山万仞摩星缠"
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "文仙山",
+        "type": "山",
+        "location_text": "在新化县西二十里",
+        "description": "一名文月山层峦叠嶂耸秀凌空，上有三峰石壁峭绝半山间有石室石桥可陟而登，旁有龙池，相传晋高平令文斤修炼之地",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "金凤山",
+        "type": "山",
+        "location_text": "在新化县西南一百里",
+        "description": "上有雷神祠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "牛栏山",
+        "type": "山",
+        "location_text": "在新化县境",
+        "description": "旧为控扼之所，与此相连者又有海山枫岭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "熊胆山",
+        "type": "山",
+        "location_text": "在新化县北一百里",
+        "description": "多出异兽，其山迤逦延袤西接巴黔之山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "火溪山",
+        "type": "山",
+        "location_text": "在新化县西一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "清江山",
+        "type": "山",
+        "location_text": "在新化县西南一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "石槽山",
+        "type": "山",
+        "location_text": "在新化县南一百三十里",
+        "description": "半山有飞瀑",
+        "lore": "宋章惇尝经此有诗云瘴霭潜消瑞气和梅峰千里阔烟萝"
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "武冈山",
+        "type": "山",
+        "location_text": "在武冈州城北五里",
+        "description": "东汉伐五溪蛮与民同保此山故又名同保，二冈左右对峙州以此得名，唐元和中黔巫蛮獠寇乱武冈潭帅柳公绰招降之，柳宗元有武冈铭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "古山",
+        "type": "山",
+        "location_text": "在武冈州城南五里",
+        "description": "上有瀑布泉",
+        "lore": "宋陈与义诗层层石壁跂云端一派飞泉如白练"
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "雷霆山",
+        "type": "山",
+        "location_text": "在武冈州南五里",
+        "description": "上有石坛水旱民祷于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "宝方山",
+        "type": "山",
+        "location_text": "在武冈州城南五里",
+        "description": "旧名澬胜山有岩洞八所曰栖真上屏太保朝阳迎阳芙蓉隐山花乳其中，龙甲神像皆滴乳所成",
+        "lore": "宋陈与义诗石窦虚明略暗穿"
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在武冈州城东南一十里",
+        "description": "山腰有泉溉田千顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "礼仙山",
+        "type": "山",
+        "location_text": "在武冈州南",
+        "description": "上有空峒莫测深浅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "云山",
+        "type": "山",
+        "location_text": "在武冈州城南一十五里",
+        "description": "山有七十一峰，宋郡守汪中立尝建七十一峰阁于上，道书以此山为第六十九福地，中有日华山月华山杏花坞投龙洞猿滕水道者岩俟公洞",
+        "lore": "宋陈与义诗崒嵂奇峰百叠横"
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "枫门山",
+        "type": "山",
+        "location_text": "在武冈州城西四十里",
+        "description": "势极高峻",
+        "lore": "宋陈与义诗丹枫如染带烟光幻出人间锦绣乡"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "金城山",
+        "type": "山",
+        "location_text": "在武冈州城东南五十里",
+        "description": "道书以为第六十八福地石真人所治处",
+        "lore": "宋李思聪诗试问金城山里事只言仙境似蓬壶"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "都梁山",
+        "type": "山",
+        "location_text": "在武冈州东一百三十里",
+        "description": "汉以此山名县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "紫阳山",
+        "type": "山",
+        "location_text": "在武冈州城东一百五十里",
+        "description": "宋周仪读书于此有石室前瞰溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "竹坪山",
+        "type": "山",
+        "location_text": "在武冈州西南一百八十里",
+        "description": "山势高耸环绕都梁为一州伟观",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "角尖山",
+        "type": "山",
+        "location_text": "在武冈州北一百八十里",
+        "description": "有二曰大角尖小角尖其状如角周回森耸路通辰沅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "唐糾山",
+        "type": "山",
+        "location_text": "在武冈州境",
+        "description": "舆地广记澬水出此，汉志都梁县有路山须水所出东北至益阳入沅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01-c01",
+        "name": "崀山",
+        "type": "山",
+        "location_text": "在新宁县西南一十五里",
+        "description": "上有一石如人状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01-c01",
+        "name": "樟木山",
+        "type": "山",
+        "location_text": "在新宁县西南四十里",
+        "description": "山下多猺民鸟言夷面",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01-c01",
+        "name": "花溪山",
+        "type": "山",
+        "location_text": "在新宁县东南七十里",
+        "description": "猺獠环居其下水经石门与夫夷水合流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "六亭岭",
+        "type": "岭",
+        "location_text": "在邵阳县治前",
+        "description": "旧有六亭在上为临眺之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "棋盘岭",
+        "type": "岭",
+        "location_text": "在府城南五里",
+        "description": "相传诸葛亮宴兵着棋于此有石盘广六尺棋痕尚存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "金钟岩",
+        "type": "岩",
+        "location_text": "在武冈州城东一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "铜鼓岩",
+        "type": "岩",
+        "location_text": "在武冈州城北三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "桃花洞",
+        "type": "洞",
+        "location_text": "在府城南一十里",
+        "description": "傍多桃花洞口高丈余直入过小溪有石岩如屋内有石凳石床石灶上有圆窍通明",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "圆通洞",
+        "type": "洞",
+        "location_text": "在武冈州界",
+        "description": "其岩甚胜垂乳交结如宝盖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "青云洞",
+        "type": "洞",
+        "location_text": "在新化县熊胆山下",
+        "description": "洞深不可测有瀑水飞流数丈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "青山洞",
+        "type": "洞",
+        "location_text": "在新化县北",
+        "description": "苍石环起呀若洞府鸾骞虎踞奇怪万状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "都梁石",
+        "type": "石",
+        "location_text": "在武冈州治东南",
+        "description": "高十丈余圆围丈余蕲然独峙人呼都梁石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "和合石",
+        "type": "石",
+        "location_text": "在武冈州城东",
+        "description": "二石相合高二丈上有秦卢生侯生二仙迹存焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "澬水",
+        "type": "水",
+        "location_text": "在府城北",
+        "description": "源出靖州绥宁县至此合邵水，禹贡九江孔殷澬其一也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "邵水",
+        "type": "水",
+        "location_text": "在府城北",
+        "description": "源出邵阳县龙山经马鞍山诸葛孔明庙下号相公潭深不可测流至此合澬水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "都梁水",
+        "type": "水",
+        "location_text": "出武冈州城西南",
+        "description": "防夫夷水经新化益阳入于洞庭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01-c01",
+        "name": "夫夷水",
+        "type": "水",
+        "location_text": "在新宁县南",
+        "description": "源出广西全州界过此至邵阳防澬水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "白香湖",
+        "type": "湖",
+        "location_text": "在武冈州境",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "白羊滩",
+        "type": "滩",
+        "location_text": "在府城西",
+        "description": "其势峻急",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "孔雀滩",
+        "type": "滩",
+        "location_text": "在府城西",
+        "description": "其势峻急",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "茱萸滩",
+        "type": "滩",
+        "location_text": "在府城北四十里",
+        "description": "澬江水势险恶，昔人置铜柱于岸侧以固率挽，俗谓五十三滩四十八难此其首也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "慈惠泉",
+        "type": "泉",
+        "location_text": "在府城内报恩寺前",
+        "description": "又有清泉在天庆观前",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "濂泉",
+        "type": "泉",
+        "location_text": "在府城旧通道坊",
+        "description": "宋濂溪周敦颐来摄州事尝饮此泉故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "仙泉井",
+        "type": "井",
+        "location_text": "在府治东",
+        "description": "相传昔有曹媪卖酒尝有道人来索饮媪饮之不厌，道人与药一丸云投井中则作酒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "武陵井",
+        "type": "井",
+        "location_text": "在武冈州治西南",
+        "description": "旧传与武陵溪源相通",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "卸甲池",
+        "type": "池",
+        "location_text": "在六亭岭下",
+        "description": "相传汉张飞卸甲于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "明月池",
+        "type": "池",
+        "location_text": "在武冈州",
+        "description": "深百丈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "龙池",
+        "type": "池",
+        "location_text": "有二，一在邵阳县龙山",
+        "description": "一在新化县文仙山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "状元洲",
+        "type": "洲",
+        "location_text": "在府城西五里",
+        "description": "相传洪水没其洲必出状元",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "紫苑洲",
+        "type": "洲",
+        "location_text": "在武冈州",
+        "description": "洲产紫苑故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-s01",
+        "name": "黄塘陂",
+        "type": "陂",
+        "location_text": "在武冈州城西",
+        "description": "溉田四千余亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "彩塘",
+        "type": "塘",
+        "location_text": "在府城东",
+        "description": "溉田三千亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c01",
+        "name": "野鸡塘",
+        "type": "塘",
+        "location_text": "在府城西三十里",
+        "description": "塘侧石崖断处峭壁上有二鸡形毛羽宛然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "72-001",
+        "geo_id": "GEO-72001-c03",
+        "name": "月塘",
+        "type": "塘",
+        "location_text": "在新化县南五里",
+        "description": "临池绝壁上有石形如月故名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "72-001",
+        "name": "银",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "72-001",
+        "name": "丹砂",
+        "note": "武冈州竹子口出永乐中尝开淘后以所出防少罢之"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "72-001",
+        "name": "黑鹇",
+        "note": "新化出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "72-001",
+        "name": "鹧鸪鲊",
+        "note": "府境出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "72-001",
+        "name": "麝香",
+        "note": "熊胆山出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "72-001",
+        "cited_work": "开元寺塔记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋开元寺塔记接九疑之形势据三湘之上游】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "72-001",
+        "cited_work": "邵州图经",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【邵州图经东距洞庭西连五岭】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "72-001",
+        "cited_work": "舆地纪胜",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【舆地纪胜旁通荆襄外接交广】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "72-001",
+        "cited_work": "创武冈军敕牒",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋创武冈军敕牒控制溪峒弹压诸蛮】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "72-001",
+        "cited_work": "邵阳图志序",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【邵阳图志序介长沙零陵之间有唇齿辅车之势】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "72-001",
+        "cited_work": "侯延庆修州门记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋侯延庆修州门记湖岭要冲】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "72-001",
+        "cited_work": "邵阳志序",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【邵阳志序其人尚气而贵信喜直而恶欺节俭而不奢朴厚而不恌】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "72-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经地接溪峒其俗好勇尚俭】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "72-001",
+        "cited_work": "都梁记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【都梁记风俗陋俭狱讼稀简】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "宝庆府"
+}

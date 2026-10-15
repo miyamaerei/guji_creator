@@ -1,0 +1,1365 @@
+{
+  "item_id": "75-001",
+  "volume": "75",
+  "source": "辰州府",
+  "region": "湖广",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "辰州府",
+        "type": "geo",
+        "norm": "辰州府",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "沅陵县",
+        "type": "geo",
+        "norm": "沅陵县",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "卢溪县",
+        "type": "geo",
+        "norm": "卢溪县",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "辰溪县",
+        "type": "geo",
+        "norm": "辰溪县",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "溆浦县",
+        "type": "geo",
+        "norm": "溆浦县",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "沅州",
+        "type": "geo",
+        "norm": "沅州",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-S01C01",
+        "name": "黔阳县",
+        "type": "geo",
+        "norm": "黔阳县",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-S01C02",
+        "name": "麻阳县",
+        "type": "geo",
+        "norm": "麻阳县",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "辰州卫",
+        "type": "geo",
+        "norm": "辰州卫",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "沅州卫",
+        "type": "geo",
+        "norm": "沅州卫",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "平溪卫",
+        "type": "geo",
+        "norm": "平溪卫",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-W04",
+        "name": "镇溪军民千户所",
+        "type": "geo",
+        "norm": "镇溪军民千户所",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-K大酉山",
+        "name": "大酉山",
+        "type": "mtn",
+        "norm": "大酉山",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-K九疑",
+        "name": "九疑山",
+        "type": "mtn",
+        "norm": "九疑山",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-K马援",
+        "name": "马援",
+        "type": "person",
+        "norm": "马援",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-K王昌龄",
+        "name": "王昌龄",
+        "type": "person",
+        "norm": "王昌龄",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-K段成式",
+        "name": "段成式",
+        "type": "person",
+        "norm": "段成式",
+        "first_source": "75-001"
+      },
+      {
+        "ent_id": "ENT-K周敦颐",
+        "name": "周敦颐",
+        "type": "person",
+        "norm": "周敦颐",
+        "first_source": "75-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-75001",
+        "item_id": "75-001",
+        "name": "辰州府",
+        "type": "prefecture",
+        "region": "湖广",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-75001-c01",
+          "GEO-75001-c02",
+          "GEO-75001-c03",
+          "GEO-75001-c04",
+          "GEO-75001-s01",
+          "GEO-75001-w01",
+          "GEO-75001-w02",
+          "GEO-75001-w03",
+          "GEO-75001-w04"
+        ],
+        "volume_range": "卷65",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "常德府桃源县界",
+              "distance_li": 140
+            },
+            {
+              "direction": "南",
+              "to_place": "宝庆府新化县界",
+              "distance_li": 320
+            },
+            {
+              "direction": "西",
+              "to_place": "贵州镇远府界",
+              "distance_li": 650
+            },
+            {
+              "direction": "北",
+              "to_place": "永顺宣慰司界",
+              "distance_li": 90
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3500
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7000
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县六；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 51300,
+            "unit": "石",
+            "note": "粮五万一千三百石零"
+          },
+          "jun_name": "沅陵【陈名】卢溪【唐名】酉阳【图经以在酉水之阳而名】",
+          "topography": "内控诸蛮咽喉外为武陵障蔽【风土记】；重冈复岭截然险峻【风土记】；溪山阻绝非人迹所履【元和志】；地连溪峒控边面甚广【宋志】；险要固塞之地【郡志】",
+          "customs": "巴渝同俗【隋地理志】；信巫鬼重淫祀【风土记】；山谷间颇杂猺俗【郡邑志】；刀耕火种【图经】",
+          "garrisons": [
+            {
+              "name": "辰州卫",
+              "type": "卫",
+              "location_text": "在府治东本朝以元万户府建"
+            },
+            {
+              "name": "沅州卫",
+              "type": "卫",
+              "location_text": "在沅州城内东北本朝吴元年建"
+            },
+            {
+              "name": "平溪卫",
+              "type": "卫",
+              "location_text": "在沅州城西南一百六十里洪武二十二年建"
+            },
+            {
+              "name": "镇溪军民千户所",
+              "type": "千户所",
+              "location_text": "在卢溪县西二百三十里宋于此置寨本朝洪武二十八年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008"
+        ]
+      },
+      {
+        "geo_id": "GEO-75001-c01",
+        "item_id": "75-001",
+        "name": "沅陵县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 58,
+            "unit": "里",
+            "note": "编户五十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-c02",
+        "item_id": "75-001",
+        "name": "卢溪县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城西六十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-c03",
+        "item_id": "75-001",
+        "name": "辰溪县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城西南一百二十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-c04",
+        "item_id": "75-001",
+        "name": "溆浦县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城南二百七十里",
+          "households": {
+            "count": 34,
+            "unit": "里",
+            "note": "编户三十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-s01",
+        "item_id": "75-001",
+        "name": "沅州",
+        "type": "department",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [
+          "GEO-75001-s01-c01",
+          "GEO-75001-s01-c02"
+        ],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府城西二百七十里",
+          "households": {
+            "count": 27,
+            "unit": "里",
+            "note": "编户二十七里；领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-s01-c01",
+        "item_id": "75-001",
+        "name": "黔阳县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-75001-s01",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在州城东南八十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-s01-c02",
+        "item_id": "75-001",
+        "name": "麻阳县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-75001-s01",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在州城北一百三十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-75001-w01",
+        "item_id": "75-001",
+        "name": "辰州卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在府治东本朝以元万户府建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-75001-w02",
+        "item_id": "75-001",
+        "name": "沅州卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在沅州城内东北本朝吴元年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-75001-w03",
+        "item_id": "75-001",
+        "name": "平溪卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在沅州城西南一百六十里洪武二十二年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-75001-w04",
+        "item_id": "75-001",
+        "name": "镇溪军民千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-75001",
+        "children": [],
+        "volume_range": "卷65",
+        "attributes": {
+          "location_text": "在卢溪县西二百三十里",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "荆州之域",
+        "action": "因之",
+        "detail": "禹贡荆州之域，天文翼轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "春秋战国",
+        "era": null,
+        "institution_name": "楚",
+        "action": "因之",
+        "detail": "本古蛮夷之地，春秋属楚"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "黔中郡",
+        "action": "置",
+        "detail": "秦属黔中郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "长沙武陵二郡地",
+        "action": "因之",
+        "detail": "汉为长沙武陵二郡地属荆州，东汉仍旧"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "三国",
+        "era": null,
+        "institution_name": "吴/蜀",
+        "action": "因之",
+        "detail": "三国时或属吴或属蜀"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "晋/齐",
+        "era": null,
+        "institution_name": "武陵郡地",
+        "action": "因之",
+        "detail": "晋东齐并为武陵郡地"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "陈",
+        "era": null,
+        "institution_name": "沅陵郡",
+        "action": "置",
+        "detail": "陈分置沅陵郡治沅陵县"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "辰州/沅陵郡",
+        "action": "改",
+        "detail": "开皇中废郡置辰州，大业初复为沅陵郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "唐",
+        "era": "天宝/乾元",
+        "institution_name": "辰州/卢溪郡",
+        "action": "改",
+        "detail": "唐初复为辰州寻置都督府，天宝初改为卢溪郡，乾元初复为辰州属江南道"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "辰州",
+        "action": "因之",
+        "detail": "宋属荆湖北路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "辰州路",
+        "action": "升",
+        "detail": "元升为辰州路"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "辰州府",
+        "action": "改",
+        "detail": "本朝改为辰州府，领州一县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "怡容山",
+        "type": "山",
+        "location_text": "在府城沅陵县治东南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "大酉山",
+        "type": "山",
+        "location_text": "在府城西北四十里",
+        "description": "道书为第二十六大酉华妙洞天，上有龙湫甚灵祷雨即应，山之巅有善卷墓",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "小酉山",
+        "type": "山",
+        "location_text": "在府城西北五十里",
+        "description": "山下有石穴其中旧有书千卷，相传昔人避秦隐学于此",
+        "lore": "梁湘东王绎赋云访酉阳之逸兴谓此"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "壶头山",
+        "type": "山",
+        "location_text": "在府城东一百三十里",
+        "description": "以山头与东海方壶相似故名；汉建武中武陵蛮叛遣马援等征之进营壶头，士卒多疫死，援穿山为室以避炎气，今山边有石穴即援所居室也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "明月山",
+        "type": "山",
+        "location_text": "在府城东二百三十里",
+        "description": "山下有明月池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "三峿山",
+        "type": "山",
+        "location_text": "在府城东二百四十里",
+        "description": "辰水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "连竭提山",
+        "type": "山",
+        "location_text": "在卢溪县南四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "居住山",
+        "type": "山",
+        "location_text": "在卢溪县西八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "无时山",
+        "type": "山",
+        "location_text": "在卢溪县西一百四十里",
+        "description": "山多茶树，乡俗当吉庆之时亲族聚会歌舞于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "思门山",
+        "type": "山",
+        "location_text": "在卢溪县西一百五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "武山",
+        "type": "山",
+        "location_text": "在卢溪县西一百八十里",
+        "description": "后汉书南蛮传昔高辛氏有畜狗曰槃瓠……山有石室遥见一石似狗形槃瓠像也，土俗至今不食犬肉有槃瓠庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "时住山",
+        "type": "山",
+        "location_text": "在辰溪县东三里",
+        "description": "蜀汉诸葛亮行师驻此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "熊头山",
+        "type": "山",
+        "location_text": "在辰溪县北二十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "五城山",
+        "type": "山",
+        "location_text": "在辰溪县东南三百六十里",
+        "description": "楚威王使将军庄蹻定黔中因山造城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "大溆山",
+        "type": "山",
+        "location_text": "在溆浦县西三十里",
+        "description": "过西二十里又有溆溪山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "嵯峨山",
+        "type": "山",
+        "location_text": "在溆浦县西北六十里",
+        "description": "又名磨嵯山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "明山",
+        "type": "山",
+        "location_text": "在沅州城北二十里",
+        "description": "周回二百余里为州之主山，冈峦重复环抱州城，浮岚积翠望如图画；宋熙宁中封其神为顺应侯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "花山",
+        "type": "山",
+        "location_text": "在沅州城东北三十里",
+        "description": "石色青赤相映如绣又谓之绣崖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "瀑布山",
+        "type": "山",
+        "location_text": "在沅州城东南五十里",
+        "description": "上有飞泉垂如疋布",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "双髻山",
+        "type": "山",
+        "location_text": "在沅州府西南五十里古镇江寨",
+        "description": "二峰并耸如髻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "保牢山",
+        "type": "山",
+        "location_text": "在沅州城东一百里",
+        "description": "昔人保聚其中以其牢险因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "高明山",
+        "type": "山",
+        "location_text": "在沅州城东一百三十里",
+        "description": "高峻为诸山之冠；又溆浦县东南四十里亦有高明山山上有洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "鸡翁山",
+        "type": "山",
+        "location_text": "在黔阳县北四十里",
+        "description": "山形如鸡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "七宝山",
+        "type": "山",
+        "location_text": "在黔阳县南一百里",
+        "description": "产楠木及七里香花",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "罗公山",
+        "type": "山",
+        "location_text": "在黔阳县东南一百六十里",
+        "description": "周回五百里四面险绝，山有鸺鹠鸣即雨至；昔有罗姓者隐此山有道术民祈请辄验；绝顶有池广数十里；西北有地平广数百亩岁大旱此乡独稔号曰熟平",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "青红山",
+        "type": "山",
+        "location_text": "在麻阳县治东南一十里",
+        "description": "岩岭幽奇花竹掩映青红如画",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "迷路山",
+        "type": "山",
+        "location_text": "在沅阳县西二十里",
+        "description": "相传昔有鹿出其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "西晃山",
+        "type": "山",
+        "location_text": "在麻阳县南五十里",
+        "description": "峰峦秀拔，儒学县治皆面之为邑之镇山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "齐天山",
+        "type": "山",
+        "location_text": "在麻阳县东南五十里",
+        "description": "峰峦高出云表，天晴则秀色愈盛，故又名霁天山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "石梯山",
+        "type": "山",
+        "location_text": "在麻阳县西一百一十里",
+        "description": "石磴如梯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "苞茅山",
+        "type": "山",
+        "location_text": "在麻阳县东一百四十里",
+        "description": "上有三脊茅可以缩酒",
+        "lore": "寰宇记即楚入贡之茅"
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "瞿仙峰",
+        "type": "峰",
+        "location_text": "在辰溪县东北",
+        "description": "相传瞿童于此修道因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "金斗崖",
+        "type": "崖",
+        "location_text": "在黔阳县西南一十里",
+        "description": "崖面有黄石如斗",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "双石崖",
+        "type": "崖",
+        "location_text": "在黔阳县南九十里",
+        "description": "有二石对立又名屏风崖三面如一；本朝景泰间苗寇弗靖人皆避其上因筑寨置戍名为安江双崖城",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "辛女崖",
+        "type": "崖",
+        "location_text": "在府城西九十里大江之左右",
+        "description": "壁高峻上有石屹立如人，相传高辛氏女于此化为石；崖下有庙每岁端午土人致祭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "黑岩洞",
+        "type": "洞",
+        "location_text": "在溆浦县东一十里",
+        "description": "其中黑暗如漆",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "红旗洞",
+        "type": "洞",
+        "location_text": "在溆浦县东二十里",
+        "description": "五代马希范遣兵收武陵诸蛮至此见洞中红旗隐隐遂屯兵于上；今萝卜葱薤野生人呼为马王菜；石壁间有义莲塘孝感桥刻字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "楠木洞",
+        "type": "洞",
+        "location_text": "在溆浦县北二十里",
+        "description": "石壁峭立梯竹以登划见天碧可纳日月光景；洞中多怪石楠木罗洞门故名下瞰流水名无尽溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "明月洞",
+        "type": "洞",
+        "location_text": "在溆浦县东六十里",
+        "description": "洞在岩上穴水一泓其状如月",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "酉水",
+        "type": "水",
+        "location_text": "在府城西北五里",
+        "description": "一名酉溪，源出酉阳东入沅水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "辰水",
+        "type": "水",
+        "location_text": "在府城东",
+        "description": "一名辰溪，源发三峿山南流入沅水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "沅水",
+        "type": "江",
+        "location_text": "在府城西南五里",
+        "description": "源出四川播州经沅州入常德府界",
+        "lore": "唐王昌龄诗沅江流水到辰阳"
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "潕水",
+        "type": "水",
+        "location_text": "在沅州城西",
+        "description": "一名潕溪，舆地纪胜巫无潕舞潕一水五名声之变耳；潕水上自镇远下流入沅水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "溆水",
+        "type": "水",
+        "location_text": "在溆浦县西三十里",
+        "description": "一名叙溪又名叙川",
+        "lore": "楚词所谓入溆浦余邅徊迷不知吾之所如即此"
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "蓝溪",
+        "type": "水",
+        "location_text": "在府城南七里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "荔溪",
+        "type": "水",
+        "location_text": "在府城西南四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "小船溪",
+        "type": "水",
+        "location_text": "在卢溪县治后",
+        "description": "又有古迪溪在县治之西",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "五溪",
+        "type": "水",
+        "location_text": "在卢溪县西武山",
+        "description": "武陵有五溪谓雄溪樠溪酉溪潕溪辰溪皆蛮夷子孙所居",
+        "lore": "唐杜甫诗五溪衣服共云山"
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "仲溪",
+        "type": "水",
+        "location_text": "在卢溪县东三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "潭溪",
+        "type": "水",
+        "location_text": "在卢溪县西五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "土桥溪",
+        "type": "水",
+        "location_text": "在卢溪县南六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "武溪",
+        "type": "水",
+        "location_text": "在卢溪县西一百三十里",
+        "description": "",
+        "lore": "汉马援歌滔滔武溪一何深鸟飞不渡兽不能临嗟哉武溪多毒淫"
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "卢溪",
+        "type": "水",
+        "location_text": "在卢溪县西二百五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "洞水溪",
+        "type": "水",
+        "location_text": "在辰溪县西一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "桑溪",
+        "type": "水",
+        "location_text": "在辰溪县东二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "杨溪",
+        "type": "水",
+        "location_text": "在沅州城南一十里",
+        "description": "源出三绕坡流至不动柱村入潕水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "稔禾溪",
+        "type": "水",
+        "location_text": "在黔阳县东南一百里",
+        "description": "源出罗公山西北流入沅水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "洪江溪",
+        "type": "水",
+        "location_text": "在黔阳县东一百六十里",
+        "description": "东北流入沅水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c02",
+        "name": "西溪",
+        "type": "水",
+        "location_text": "在麻阳县东北四十里",
+        "description": "源出古富州东北流入辰水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "河溪涧",
+        "type": "涧",
+        "location_text": "在卢溪县南九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "龙门涧",
+        "type": "涧",
+        "location_text": "在辰溪县西一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "高明涧",
+        "type": "涧",
+        "location_text": "在溆浦县南五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01-c01",
+        "name": "雪腾湫",
+        "type": "湫",
+        "location_text": "在黔阳县东安江寨",
+        "description": "岁旱祈之常有云雨之应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "米仓滩",
+        "type": "滩",
+        "location_text": "在溆浦县西四十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c02",
+        "name": "温溪崖井",
+        "type": "井",
+        "location_text": "在卢溪县西七十里□家坡",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c03",
+        "name": "瞿童井",
+        "type": "井",
+        "location_text": "在辰溪县南六十里瞿家寨",
+        "description": "井深数百仞，瞿童投之因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "龙池井",
+        "type": "井",
+        "location_text": "在溆浦县西一十里",
+        "description": "水深莫测",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-s01",
+        "name": "龙井",
+        "type": "井",
+        "location_text": "在沅州城外",
+        "description": "泉味甘美煮茗尤佳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c01",
+        "name": "北山泉",
+        "type": "泉",
+        "location_text": "在府城北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "75-001",
+        "geo_id": "GEO-75001-c04",
+        "name": "南木泉",
+        "type": "泉",
+        "location_text": "在溆浦县北二十里",
+        "description": "其源不竭祷雨辄应",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "75-001",
+        "name": "麸金",
+        "location_text": "沅州及沅陵辰溪溆浦黔阳四县出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "75-001",
+        "name": "水银",
+        "location_text": "沅陵卢溪二县出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "75-001",
+        "name": "铜",
+        "location_text": "辰溪县出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "75-001",
+        "name": "铁",
+        "location_text": "卢溪辰溪溆浦三县出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "75-001",
+        "name": "丹砂",
+        "location_text": "沅州及沅陵麻阳三县出，砂之品甚多出老鸭井者为上"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "75-001",
+        "name": "石青",
+        "location_text": "沅陵辰溪麻阳三县出"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "75-001",
+        "name": "石碌",
+        "location_text": "沅陵卢溪辰溪麻阳四县出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "75-001",
+        "cited_work": "风土记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【风土记内控诸蛮咽喉外为武陵障蔽】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "75-001",
+        "cited_work": "风土记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【风土记重冈复岭截然险峻】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "75-001",
+        "cited_work": "元和郡县志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元和志溪山阻绝非人迹所履】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "75-001",
+        "cited_work": "宋志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋志地连溪峒控边面甚广】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "75-001",
+        "cited_work": "隋地理志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【隋地理志嗜好居处颇与巴渝同俗】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "75-001",
+        "cited_work": "风土记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【风土记砦窳偷生而无积聚信巫鬼重淫祀少斗讼寡盗贼】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "75-001",
+        "cited_work": "郡邑志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡邑志居城市者衣服言语皆华人而山谷间颇杂以猺俗】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "75-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图经州介山谿俗杂蛮獠以刀耕火种为业】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "辰州府"
+}

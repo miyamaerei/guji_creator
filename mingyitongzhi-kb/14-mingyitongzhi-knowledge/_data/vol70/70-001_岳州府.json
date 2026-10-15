@@ -1,0 +1,1537 @@
+{
+  "item_id": "70-001",
+  "volume": "70",
+  "source": "岳州府",
+  "region": "湖广",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "岳州府",
+        "type": "geo",
+        "norm": "岳州府",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "巴陵县",
+        "type": "geo",
+        "norm": "巴陵县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "临湘县",
+        "type": "geo",
+        "norm": "临湘县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "华容县",
+        "type": "geo",
+        "norm": "华容县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "平江县",
+        "type": "geo",
+        "norm": "平江县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "澧州",
+        "type": "geo",
+        "norm": "澧州",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-S01C01",
+        "name": "石门县",
+        "type": "geo",
+        "norm": "石门县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-S01C02",
+        "name": "慈利县",
+        "type": "geo",
+        "norm": "慈利县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-S01C03",
+        "name": "安乡县",
+        "type": "geo",
+        "norm": "安乡县",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "岳州卫",
+        "type": "geo",
+        "norm": "岳州卫",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-K洞庭湖",
+        "name": "洞庭湖",
+        "type": "mtn",
+        "norm": "洞庭湖",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-K岳阳楼",
+        "name": "岳阳楼",
+        "type": "site",
+        "norm": "岳阳楼",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-K屈原",
+        "name": "屈原",
+        "type": "person",
+        "norm": "屈原",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-K杜甫",
+        "name": "杜甫",
+        "type": "person",
+        "norm": "杜甫",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-K范仲淹",
+        "name": "范仲淹",
+        "type": "person",
+        "norm": "范仲淹",
+        "first_source": "70-001"
+      },
+      {
+        "ent_id": "ENT-K夏原吉",
+        "name": "夏原吉",
+        "type": "person",
+        "norm": "夏原吉",
+        "first_source": "70-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-70001",
+        "item_id": "70-001",
+        "name": "岳州府",
+        "type": "prefecture",
+        "region": "湖广",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-70001-c01",
+          "GEO-70001-c02",
+          "GEO-70001-c03",
+          "GEO-70001-c04",
+          "GEO-70001-s01",
+          "GEO-70001-s01-c01",
+          "GEO-70001-s01-c02",
+          "GEO-70001-s01-c03",
+          "GEO-70001-w01",
+          "GEO-70001-w02",
+          "GEO-70001-w03",
+          "GEO-70001-w04",
+          "GEO-70001-w05",
+          "GEO-70001-w06",
+          "GEO-70001-w07",
+          "GEO-70001-w08"
+        ],
+        "volume_range": "卷70",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "江西南昌府都昌县界",
+              "distance_li": 135
+            },
+            {
+              "direction": "西",
+              "to_place": "常德府武陵县界",
+              "distance_li": 185
+            },
+            {
+              "direction": "南",
+              "to_place": "长沙府湘江县界",
+              "distance_li": 250
+            },
+            {
+              "direction": "北",
+              "to_place": "荆州府石首县界",
+              "distance_li": 365
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 2350
+            },
+            {
+              "capital": "京师",
+              "distance_li": 3890
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县七；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 158000,
+            "unit": "石",
+            "note": "粮一十五万八千石零"
+          },
+          "jun_name": "巴陵【吴名】岳阳【唐名】罗州【宋名】武昌【复名】南沮【元名】",
+          "topography": "襟江带湖控扼荆楚【舆地志岳州三江之会洞庭阻其南江陵扼其北湘津带其东武陵阻其西……】；洞庭为九江之会【方舆胜览左翦洞庭右重江汉】；大湖南北【元姚希得古岳提刑题名记大湖南北地舆殊广】；湖波万顷【宋滕子京岳州楼记湖水潇湘之沅澧会于巴陵合洞庭波万顷……】；南瞰湘川北通江汉【宋胡铨南楼记南瞰湘川北通江汉……】；东西荆门之会【元虞集岳阳楼记巴陵故郡湖波浩渺……】",
+          "customs": "风土清嘉物产繁富【岳阳旧志风土清嘉物产繁富商猜逺至人为求生】；士勤学问民务耕桑【宋张琦修岳阳学记巴陵士勤学问民务耕桑……】；红裙蹋歌【岳阳风土记湖湘之人尚声鬼之祠……荆湖民俗岁时会集或祷祠……集年少男女皆盛服靓妆谓之蹋歌……】；濒湖渔食【元吴泌修岳学记濒湖之民以渔食……】",
+          "garrisons": [
+            {
+              "name": "岳州卫",
+              "type": "卫",
+              "location_text": "在府治东洪武九年建"
+            },
+            {
+              "name": "永定卫",
+              "type": "卫",
+              "location_text": "在慈利县西北本朝初置"
+            },
+            {
+              "name": "九溪卫",
+              "type": "卫",
+              "location_text": "在慈利县西北本朝初置"
+            },
+            {
+              "name": "澧州守御千户所",
+              "type": "千户所",
+              "location_text": "在澧州治东洪武初建"
+            },
+            {
+              "name": "守御大庸千户所",
+              "type": "千户所",
+              "location_text": "在慈利县西大庸溪"
+            },
+            {
+              "name": "守御添平千户所",
+              "type": "千户所",
+              "location_text": "在慈利县西"
+            },
+            {
+              "name": "守御安福千户所",
+              "type": "千户所",
+              "location_text": "在慈利县北瓦窑冈"
+            },
+            {
+              "name": "守御麻寮千户所",
+              "type": "千户所",
+              "location_text": "在慈利县西北麻寮山"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011",
+          "CIT-012",
+          "CIT-013",
+          "CIT-014"
+        ]
+      },
+      {
+        "geo_id": "GEO-70001-c01",
+        "item_id": "70-001",
+        "name": "巴陵县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 20,
+            "unit": "里",
+            "note": "编户二十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-c02",
+        "item_id": "70-001",
+        "name": "临湘县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在府城东北九十里",
+          "households": {
+            "count": 16,
+            "unit": "里",
+            "note": "编户一十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-c03",
+        "item_id": "70-001",
+        "name": "华容县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在府城西北一百八十里",
+          "households": {
+            "count": 34,
+            "unit": "里",
+            "note": "编户三十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-c04",
+        "item_id": "70-001",
+        "name": "平江县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在府城南一百五十里",
+          "households": {
+            "count": 37,
+            "unit": "里",
+            "note": "编户三十七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-s01",
+        "item_id": "70-001",
+        "name": "澧州",
+        "type": "department",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [
+          "GEO-70001-s01-c01",
+          "GEO-70001-s01-c02",
+          "GEO-70001-s01-c03"
+        ],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在府城西北一百九十里",
+          "households": {
+            "count": 52,
+            "unit": "里",
+            "note": "编户五十二里领县三"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-s01-c01",
+        "item_id": "70-001",
+        "name": "石门县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001-s01",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在州治西六十里",
+          "households": {
+            "count": 11,
+            "unit": "里",
+            "note": "编户一十一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-s01-c02",
+        "item_id": "70-001",
+        "name": "慈利县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001-s01",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在州治西一百九十里",
+          "households": {
+            "count": 3,
+            "unit": "里",
+            "note": "编户三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-s01-c03",
+        "item_id": "70-001",
+        "name": "安乡县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-70001-s01",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在州治东南一百一十里",
+          "households": {
+            "count": 20,
+            "unit": "里",
+            "note": "编户二十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w01",
+        "item_id": "70-001",
+        "name": "岳州卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在府治东洪武九年建"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w02",
+        "item_id": "70-001",
+        "name": "永定卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在慈利县西北本朝初置"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w03",
+        "item_id": "70-001",
+        "name": "九溪卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在慈利县西北本朝初置"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w04",
+        "item_id": "70-001",
+        "name": "澧州守御千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在澧州治东洪武初建"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w05",
+        "item_id": "70-001",
+        "name": "守御大庸千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在慈利县西大庸溪"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w06",
+        "item_id": "70-001",
+        "name": "守御添平千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在慈利县西"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w07",
+        "item_id": "70-001",
+        "name": "守御安福千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在慈利县北瓦窑冈"
+        }
+      },
+      {
+        "geo_id": "GEO-70001-w08",
+        "item_id": "70-001",
+        "name": "守御麻寮千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-70001",
+        "children": [],
+        "volume_range": "卷70",
+        "attributes": {
+          "location_text": "在慈利县西北麻寮山"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "荆州之域",
+        "action": "因之",
+        "detail": "禹贡荆州之域，天文翼轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "春秋战国",
+        "era": null,
+        "institution_name": "麋子国",
+        "action": "因之",
+        "detail": "春秋时麋子国地，战国属楚"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "长沙郡",
+        "action": "因之",
+        "detail": "秦属长沙郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "下隽县",
+        "action": "因之",
+        "detail": "汉为下隽县地"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "巴陵县",
+        "action": "置",
+        "detail": "吴置巴陵县，晋因之"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "南朝宋",
+        "era": null,
+        "institution_name": "巴陵郡",
+        "action": "置",
+        "detail": "宋置巴陵郡兼立郢州，齐梁皆因之，隋初郡废改岳州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "罗州/巴陵郡",
+        "action": "改",
+        "detail": "大业初改罗州寻为巴陵郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "唐",
+        "era": "天宝/乾元",
+        "institution_name": "岳州/巴陵郡",
+        "action": "改",
+        "detail": "唐初改巴州又改鼎州，天宝初为巴陵郡乾元初复为岳州"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "宋",
+        "era": "绍兴",
+        "institution_name": "岳阳军",
+        "action": "改",
+        "detail": "宋仍为岳州，绍兴间升岳阳军"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "岳州路",
+        "action": "改",
+        "detail": "元为岳州路，至正中伪汉陈氏据之"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "岳州府",
+        "action": "改",
+        "detail": "本朝取伪汉改岳州府，洪武九年降为州隶长沙府，十四年复为府领州一县七"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "天岳山",
+        "type": "山",
+        "location_text": "在平江县南五里",
+        "description": "一名昌山，桓元放逐之所，李希烈之乱刺史眼璨遂移州治于教授，唐元和四年敕名昌江山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "崇皋山",
+        "type": "山",
+        "location_text": "在平江县北五里",
+        "description": "山高三里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "卢山",
+        "type": "山",
+        "location_text": "在平江县北七十里",
+        "description": "有虎岩石室",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "道岩山",
+        "type": "山",
+        "location_text": "在平江县东五十里",
+        "description": "有石窍内虚明平广可坐百人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "幕阜山",
+        "type": "山",
+        "location_text": "在平江县东九十里",
+        "description": "天岳之外山也，山洞有四曰石田、石泉、石洞、石桉，葛仙人禅最著，山上有石室、石洞、石碑、石炉、鼎镬之迹，土人传以为葛翁所宅，其峰峦高三百丈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c01",
+        "name": "巴丘山",
+        "type": "山",
+        "location_text": "在府城西南半里",
+        "description": "一名天岳吴，陆逊屯兵于此，又名嵩梁山，后改岳阳门",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c01",
+        "name": "官窑山",
+        "type": "山",
+        "location_text": "在府城西南",
+        "description": "五代时伪楚曾烧造于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c01",
+        "name": "九龙山",
+        "type": "山",
+        "location_text": "在府城南",
+        "description": "九山相依如蟠龙然，上有龙母祠祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "阁山",
+        "type": "山",
+        "location_text": "在临湘县东八十里",
+        "description": "上有仙人台及水湫，岁旱祷之多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "龙窖山",
+        "type": "山",
+        "location_text": "在临湘县东南九十里",
+        "description": "上有龙湫，父老传云尝有龙蜕于此，乡人祈晴雨辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "荆竹山",
+        "type": "山",
+        "location_text": "在华容县东三十里",
+        "description": "多产荆竹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "石门山",
+        "type": "山",
+        "location_text": "在石门县西二里",
+        "description": "两崖壁立峙若门然，县名以此，又澧州慈利二县亦有石门山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "芬茨山",
+        "type": "山",
+        "location_text": "在石门县西一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "层步山",
+        "type": "山",
+        "location_text": "在石门县西三十里",
+        "description": "山有三峰高峙，又名层步峰，宋田锡尝游其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "石门峡",
+        "type": "峡",
+        "location_text": "在石门县东二十里",
+        "description": "相传诸葛武侯驻兵于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "界山",
+        "type": "山",
+        "location_text": "在慈利县西八十里",
+        "description": "此山脉序分处实绾诸洞，即九溪永定等县之界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "九溪山",
+        "type": "山",
+        "location_text": "在慈利县西一百五十里",
+        "description": "上有二岩曰紫霞白石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "五溪山",
+        "type": "山",
+        "location_text": "在慈利县西二百里",
+        "description": "与蛮獠接境，五溪洞出此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "赤松山",
+        "type": "山",
+        "location_text": "在澧州西五十里",
+        "description": "一名乌浮山，唐李青莲诗松风吹解带明月照弹琴即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "灵洞山",
+        "type": "山",
+        "location_text": "在澧州北六十里",
+        "description": "上有孔子庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "天马山",
+        "type": "山",
+        "location_text": "在澧州西一里",
+        "description": "其形若马，下有月池",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c03",
+        "name": "寿山",
+        "type": "山",
+        "location_text": "在安乡县治西",
+        "description": "宋建炎洞庭盗起，民多避于此获全",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c03",
+        "name": "黄华山",
+        "type": "山",
+        "location_text": "在安乡县东五十里",
+        "description": "下有黄华驿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-w05",
+        "name": "大面山",
+        "type": "山",
+        "location_text": "在大庸千户所",
+        "description": "高峻绵亘接慈利诸洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "夹鞍山",
+        "type": "山",
+        "location_text": "在慈利县西南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "倚围山",
+        "type": "山",
+        "location_text": "在慈利县北",
+        "description": "山形如倚围",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "九渡岩",
+        "type": "岩",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "紫霞岩",
+        "type": "岩",
+        "location_text": "在慈利县南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "紫苓洞",
+        "type": "洞",
+        "location_text": "在石门县西二十里",
+        "description": "唐李羣玉读书处，又名紫玲洞",
+        "lore": "唐李羣玉诗紫苓在何处寻入白云深有路皆雷斧无溪但夜沈老松临天直修竹向山深"
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "涔水洞",
+        "type": "洞",
+        "location_text": "在澧州西三里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "金光洞",
+        "type": "洞",
+        "location_text": "在澧州西北",
+        "description": "光见则岁稔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "墨山洞",
+        "type": "洞",
+        "location_text": "在澧州西七十里",
+        "description": "中黑石可以书字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "洒耳洞",
+        "type": "洞",
+        "location_text": "在澧州北八十里",
+        "description": "有龙湫",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "石柱崖",
+        "type": "崖",
+        "location_text": "在石门县东一百里",
+        "description": "屹立千仞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "墨雾崖",
+        "type": "崖",
+        "location_text": "在石门县西一百二十里",
+        "description": "其崖尝出黑雾雾，散即雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c01",
+        "name": "五觜石",
+        "type": "石",
+        "location_text": "在府城大江中",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "大孤石",
+        "type": "石",
+        "location_text": "在华容县东二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "小孤石",
+        "type": "石",
+        "location_text": "在华容县东三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "桃花石",
+        "type": "石",
+        "location_text": "在华容县西六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "大页石",
+        "type": "石",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "瞿童上升石",
+        "type": "石",
+        "location_text": "在大沩洞",
+        "description": "唐瞿童上升于此，有蜕骨遗迹，旧名黄箓洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c01",
+        "name": "大江",
+        "type": "江",
+        "location_text": "在府城楼下",
+        "description": "即巴陵西江也，自江陵一路至城陵湾入洞庭湖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c01",
+        "name": "洞庭湖",
+        "type": "湖",
+        "location_text": "在府城西南",
+        "description": "方数百里，南并青草湖北连巴丘，夏秋水涨与冷水青草三湖通为一，秋冬水落则各为湖，中有夫子虎口递延三山以其如洞庭之洞府故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "赤沙湖",
+        "type": "湖",
+        "location_text": "在华容县东南",
+        "description": "沙脉至湖自赤而淡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "方台湖",
+        "type": "湖",
+        "location_text": "在华容县东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "孝感湖",
+        "type": "湖",
+        "location_text": "在华容县西",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "泾湖",
+        "type": "湖",
+        "location_text": "在临湘县东北",
+        "description": "上有阁山湖水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "太白湖",
+        "type": "湖",
+        "location_text": "在澧州东二十里",
+        "description": "初不知名，唐李白取岳阳过此，人因以名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "王家湖",
+        "type": "湖",
+        "location_text": "在澧州西五十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "鵅港",
+        "type": "水",
+        "location_text": "在临湘县北六十里",
+        "description": "有巨石数十处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "渚口",
+        "type": "水",
+        "location_text": "在临湘县西北",
+        "description": "三水回合之口",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "东溪",
+        "type": "水",
+        "location_text": "在平江县东五里",
+        "description": "源出平江洞流至县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "澧水",
+        "type": "水",
+        "location_text": "在澧州城南",
+        "description": "源出大岭入同溪，东会诸水经武陵入洞庭湖，州名以此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "涔水",
+        "type": "水",
+        "location_text": "在澧州东北三十里",
+        "description": "源出石门县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "淡水",
+        "type": "水",
+        "location_text": "在澧州西三十里",
+        "description": "水出穴中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "九溪",
+        "type": "水",
+        "location_text": "在慈利县西一百八十里",
+        "description": "九水俱会于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "龙潭港",
+        "type": "水",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "三江口",
+        "type": "水",
+        "location_text": "在澧州城下",
+        "description": "澧涔澹三水合流于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "沅潭市",
+        "type": "水",
+        "location_text": "在临湘县北七十里",
+        "description": "水自巴陵来合于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c02",
+        "name": "湛浦",
+        "type": "浦",
+        "location_text": "在临湘县南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "三目溪",
+        "type": "溪",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "七星山",
+        "type": "山",
+        "location_text": "在慈利县",
+        "description": "山有七峰状如七星",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "渔浦",
+        "type": "浦",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c03",
+        "name": "蜈蚣湖",
+        "type": "湖",
+        "location_text": "在安乡县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c03",
+        "name": "高梧堰",
+        "type": "堰",
+        "location_text": "在安乡县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c03",
+        "name": "圆通港",
+        "type": "港",
+        "location_text": "在华容县东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "淘港口",
+        "type": "港",
+        "location_text": "在澧州北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "浴仙池",
+        "type": "池",
+        "location_text": "在石门县东二里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "七星井",
+        "type": "井",
+        "location_text": "在澧州治东",
+        "description": "七窍相通相传以为澧州龙脉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c01",
+        "name": "温泉",
+        "type": "泉",
+        "location_text": "在石门县西",
+        "description": "水可烹茶澡身",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01",
+        "name": "玉女泉",
+        "type": "泉",
+        "location_text": "在澧州北八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "桃花井",
+        "type": "井",
+        "location_text": "在平江县东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-c04",
+        "name": "放鹤池",
+        "type": "池",
+        "location_text": "在平江县治东",
+        "description": "旧传吕仙骑鹤于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "绣溪",
+        "type": "溪",
+        "location_text": "在慈利县",
+        "description": "水出丝罗洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "书堂溪",
+        "type": "溪",
+        "location_text": "在慈利县",
+        "description": "唐李羣玉读书处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "青涧",
+        "type": "涧",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "石涧",
+        "type": "涧",
+        "location_text": "在慈利县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "70-001",
+        "geo_id": "GEO-70001-s01-c02",
+        "name": "三汐水",
+        "type": "水",
+        "location_text": "在慈利县",
+        "description": "其水一汐三潮",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "70-001",
+        "name": "簟",
+        "note": "出巴陵县"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "70-001",
+        "name": "茶",
+        "note": "出巴陵县"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "70-001",
+        "name": "糯米",
+        "note": "出巴陵县"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "70-001",
+        "name": "石芝",
+        "note": "出澧州"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "70-001",
+        "name": "车前子艾叶斑竹",
+        "note": "俱出慈利县"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "70-001",
+        "name": "金砂石葛",
+        "note": "出慈利永定"
+      },
+      {
+        "prod_id": "PROD-007",
+        "item_id": "70-001",
+        "name": "豹",
+        "note": "出九溪"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "70-001",
+        "cited_work": "舆地志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【舆地志岳州三江之会洞庭阻其南江陵扼其北湘津带其东武陵阻其西实为荆楚之要地】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "70-001",
+        "cited_work": "方舆胜览",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【方舆胜览左翦洞庭右重江汉】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "70-001",
+        "cited_work": "元姚希得古岳提刑题名记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元姚希得古岳提刑题名记大湖南北地舆殊广】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "70-001",
+        "cited_work": "宋滕子京岳州楼记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋滕子京岳州楼记湖水潇湘之沅澧会于巴陵合洞庭波万顷】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "70-001",
+        "cited_work": "宋胡铨南楼记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋胡铨南楼记南瞰湘川北通江汉】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "70-001",
+        "cited_work": "元虞集岳阳楼记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【元虞集岳阳楼记巴陵故郡湖波浩渺】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "70-001",
+        "cited_work": "岳阳旧志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【岳阳旧志风土清嘉物产繁富商猜逺至人为求生】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "70-001",
+        "cited_work": "宋张琦修岳阳学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋张琦修岳阳学记巴陵士勤学问民务耕桑】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "70-001",
+        "cited_work": "岳阳风土记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【岳阳风土记湖湘之人尚声鬼之祠荆湖民俗岁时会集或祷祠集年少男女皆盛服靓妆谓之蹋歌】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "70-001",
+        "cited_work": "元吴泌修岳学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元吴泌修岳学记濒湖之民以渔食】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "岳州府"
+}
