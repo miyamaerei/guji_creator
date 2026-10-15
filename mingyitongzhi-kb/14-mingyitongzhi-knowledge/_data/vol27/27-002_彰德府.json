@@ -1,0 +1,593 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "彰德府",
+  "region": "河南",
+  "type": "prefecture",
+  "original": "彰徳府【东至直隶大名府内黄县界七十里南至大名府濬县界七十里西至山西潞州壶闗县界一百七十里北至直隶广平府邯郸县界一百二十里自府治至京师一千二百里至南京一千七百里】【粮二十五万二千石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "彰德府",
+        "type": "geo",
+        "norm": "彰德府",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "安阳县",
+        "type": "geo",
+        "norm": "安阳县",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "汤阴县",
+        "type": "geo",
+        "norm": "汤阴县",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "临漳县",
+        "type": "geo",
+        "norm": "临漳县",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "林县",
+        "type": "geo",
+        "norm": "林县",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "磁州",
+        "type": "geo",
+        "norm": "磁州",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "武安县",
+        "type": "geo",
+        "norm": "武安县",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "涉县",
+        "type": "geo",
+        "norm": "涉县",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "魏郡",
+        "type": "geo",
+        "norm": "魏郡",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "相州",
+        "type": "geo",
+        "norm": "相州",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "邺郡",
+        "type": "geo",
+        "norm": "邺郡",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "彰德卫",
+        "type": "geo",
+        "norm": "彰德卫",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "太行山",
+        "type": "mtn",
+        "norm": "太行山",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "漳河",
+        "type": "mtn",
+        "norm": "漳河",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "图经",
+        "type": "book",
+        "norm": "图经",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "隋志",
+        "type": "book",
+        "norm": "隋志",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "郡志",
+        "type": "book",
+        "norm": "郡志",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "相台志",
+        "type": "book",
+        "norm": "相台志",
+        "first_source": "27-002"
+      },
+      {
+        "ent_id": "ENT-019",
+        "name": "赵王府",
+        "type": "geo",
+        "norm": "赵王府",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002",
+        "item_id": "27-002",
+        "name": "彰德府",
+        "type": "prefecture",
+        "region": "河南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-27002c01",
+          "GEO-27002c02",
+          "GEO-27002c03",
+          "GEO-27002c04",
+          "GEO-27002s01",
+          "GEO-27002w01",
+          "GEO-27002w02"
+        ],
+        "volume_range": "卷27",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "直隶大名府内黄县界",
+              "distance_li": 70
+            },
+            {
+              "direction": "南",
+              "to_place": "大名府濬县界",
+              "distance_li": 70
+            },
+            {
+              "direction": "西",
+              "to_place": "山西潞州壶关县界",
+              "distance_li": 170
+            },
+            {
+              "direction": "北",
+              "to_place": "直隶广平府邯郸县界",
+              "distance_li": 120
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1200
+            },
+            {
+              "capital": "南京",
+              "distance_li": 1700
+            }
+          ],
+          "grain_tax": {
+            "amount": 252000,
+            "unit": "石",
+            "note": "二十五万二千石零"
+          },
+          "jun_name": "魏郡邺郡",
+          "topography": "旁极齐秦跨蹑燕赵【晋左思魏都赋】；西泽潞东大名南卫辉北洺磁【图经】；其地平广为天下要【相台志】",
+          "customs": "得京洛之风【隋志】邺都所在浮巧成俗雕刻之工特云精巧；俗陶淳古人尚英雄【图经】自殷王河亶甲所都而俗已陶为淳古；勤于营生俭于费用【图经】；雅重儒术【郡志】土狭人稀习尚淳厚雅重儒术",
+          "garrisons": [
+            {
+              "name": "彰德卫",
+              "type": "卫",
+              "location_text": "在府城内东南隅洪武七年建"
+            },
+            {
+              "name": "守御林县中千户所",
+              "type": "千户所",
+              "location_text": "在林县治东南洪武二十八年建隶彰德卫"
+            },
+            {
+              "name": "守御磁州千户所",
+              "type": "千户所",
+              "location_text": "在州治东北洪武中建隶山西潞州卫"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "赵王府",
+              "location": "在府治东洪熙元年以彰德府治改建"
+            },
+            {
+              "name": "临漳王府",
+              "location": "在府治南景泰三年建"
+            },
+            {
+              "name": "汤阴王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "襄邑王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "洛川王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "南乐王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "平乡王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "广安王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "江宁王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "获嘉王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "成皋王府",
+              "location": "俱同城"
+            },
+            {
+              "name": "光山王府",
+              "location": "俱同城"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005"
+        ]
+      },
+      {
+        "geo_id": "GEO-27002w01",
+        "item_id": "27-002",
+        "name": "守御林县中千户所",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在林县治东南洪武二十八年建隶彰德卫"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-27002w02",
+        "item_id": "27-002",
+        "name": "守御磁州千户所",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在州治东北洪武中建隶山西潞州卫"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "商",
+        "era": null,
+        "institution_name": "相",
+        "action": "置",
+        "detail": "禹贡冀州之域，天文室壁分野，商河亶甲居相即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "晋东阳地",
+        "action": "因之",
+        "detail": "春秋为晋之东阳地，战国为魏之邺地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "上党邯郸二郡地",
+        "action": "置",
+        "detail": "秦为上党邯郸二郡地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "魏郡",
+        "action": "置",
+        "detail": "汉置魏郡治邺，东汉末冀州徙治邺，魏曹操受封于此称为邺都"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "司州",
+        "action": "改",
+        "detail": "后魏于此置相州，东魏静帝徙都之改曰司州，北齐改清都尹"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "北周",
+        "era": null,
+        "institution_name": "相州",
+        "action": "改",
+        "detail": "后周复改为相州及魏郡治安阳"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "邺郡",
+        "action": "改",
+        "detail": "隋初罢郡为相州，大业初复改魏郡，唐为相州，天宝初改邺郡乾元初复为相州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "昭德军",
+        "action": "置",
+        "detail": "五代梁置昭德军节度，晋改彰德军"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "相州",
+        "action": "因之",
+        "detail": "宋复为相州属河北道"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "彰德府",
+        "action": "升",
+        "detail": "金升彰德府，元改彰德路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "彰德府",
+        "action": "因之",
+        "detail": "本朝改彰德府，领州一县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "韩陵山",
+        "type": "山",
+        "location_text": "在府城东北一十七里",
+        "description": "曹魏刘桢诗朝发白马暮宿韩陵即此，东魏高欢破尔朱荣于此",
+        "lore": "陈徐陵谓北朝人物惟韩陵一片石耳"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "宝山",
+        "type": "山",
+        "location_text": "在府城西南四十里",
+        "description": "多产白石陶人取以为器",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "龙山",
+        "type": "山",
+        "location_text": "在府城西四十里",
+        "description": "魏都赋虎涧龙山即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "安阳河",
+        "type": "河",
+        "location_text": "一名洹水",
+        "description": "源自故洹水县东至林安阳二县，东经永和镇入卫河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "漳河",
+        "type": "河",
+        "location_text": "其源有二一出山西潞州长子县名浊漳一出平定州乐平县名清漳",
+        "description": "俱东至林县合流经临漳馆陶县界入卫河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "万金渠",
+        "type": "渠",
+        "location_text": "源出宝山经府城西分注东南溉田",
+        "description": "其利可抵万金",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "高平渠",
+        "type": "渠",
+        "location_text": "在安阳县东南二十里",
+        "description": "唐刺史李景所凿引安阳水东流溉田，宋韩琦判相州疏之",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "艾",
+        "category": "药材",
+        "note": "汤阴县扁鹊墓旁出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "磁石",
+        "category": "矿物",
+        "note": "磁州出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "锡",
+        "category": "矿物",
+        "note": "武安县出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "铁",
+        "category": "矿物",
+        "note": "俱涉县出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "自然铜",
+        "category": "矿物",
+        "note": "俱涉县出"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002",
+        "name": "知母",
+        "category": "药材",
+        "note": "府境出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "27-002",
+        "cited_work": "隋志",
+        "cited_work_ent_id": "ENT-016",
+        "context": "证俗",
+        "original": "【隋志】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "27-002",
+        "cited_work": "图经",
+        "cited_work_ent_id": "ENT-015",
+        "context": "证俗",
+        "original": "【图经】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "27-002",
+        "cited_work": "郡志",
+        "cited_work_ent_id": "ENT-017",
+        "context": "证俗",
+        "original": "【郡志】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "27-002",
+        "cited_work": "相台志",
+        "cited_work_ent_id": "ENT-018",
+        "context": "立论",
+        "original": "【相台志序】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "27-002",
+        "cited_work": "魏都赋",
+        "cited_work_ent_id": null,
+        "context": "立论",
+        "original": "【晋左思魏都赋】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/pers2；sites拆至sites.json；府级山川只留府城附近"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "偃师县",
+  "region": "河南",
+  "type": "county",
+  "original": "偃师县【在府城东七十里帝喾所都之地商有三亳成汤居西亳即此后盘庚亦徙都于此改号曰殷周武王伐纣还息偃师徒遂以为名秦属三川郡汉置偃师县属河南郡新莽改师成东汉复旧晋并入洛阳隋复置唐宋元仍旧本朝因之编户三十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "偃师县", "type": "geo", "norm": "偃师县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "首阳山", "type": "mtn", "norm": "首阳山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "缑氏山", "type": "mtn", "norm": "缑氏山", "first_source": "29-001"},
+      {"ent_id": "ENT-004", "name": "伯夷", "type": "person", "norm": "伯夷", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c02",
+        "item_id": "29-001",
+        "name": "偃师县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城东七十里",
+          "households": {"count": 36, "unit": "里", "note": "编户三十六里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c02", "dynasty": "商", "era": null, "institution_name": "西亳", "action": "置", "detail": "帝喾所都之地，商有三亳，成汤居西亳即此，后盘庚亦徙都于此改号曰殷"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c02", "dynasty": "周", "era": null, "institution_name": "偃师", "action": "置", "detail": "周武王伐纣还息偃师徒遂以为名"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c02", "dynasty": "汉", "era": null, "institution_name": "偃师县", "action": "置", "detail": "汉置偃师县属河南郡，新莽改师成，东汉复旧"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c02", "dynasty": "晋", "era": null, "institution_name": "洛阳县地", "action": "省", "detail": "晋并入洛阳，隋复置"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c02", "dynasty": "明", "era": null, "institution_name": "偃师县", "action": "因之", "detail": "唐宋元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "景山", "type": "山", "location_text": "在偃师县南二十里", "description": "诗景员维河即此", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "凤台山", "type": "山", "location_text": "在偃师县东二十里", "description": "昔有凤集筑台因名", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "首阳山", "type": "山", "location_text": "在偃师县西北二十五里", "description": "商伯夷叔齐隐此，晋阮籍诗下有采薇士上有嘉树林", "lore": "河南志言首阳者五处，史记贾逵注云在蒲坂，未详孰的"},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "缑氏山", "type": "山", "location_text": "在偃师县南四十里", "description": "一名覆釡堆，上有石室饮鹤池", "lore": "周灵王太子晋升仙之所"},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "香炉峰", "type": "峰", "location_text": "在偃师县东南六十里", "description": "以形似名", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "刘涧水", "type": "河", "location_text": "在偃师县西南五十里", "description": "周时刘康公食邑于此", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "鄩溪", "type": "溪", "location_text": "在偃师县东北一十四里", "description": "有莲池夏冷冬暖", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "拜马涧", "type": "其他", "location_text": "在偃师县南三十里", "description": "俗传王子晋乘鹤升仙弃马而去，乡人拜之因名", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "双泉", "type": "泉", "location_text": "在偃师县南", "description": "三泉并出", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "祭彤", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "偃师长", "summary": "永平中为偃师长，县无盗贼课为第一"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "毕构", "type": "人物", "dynasty": "唐", "native_place": "偃师", "office": "户部尚书", "summary": "六岁能文，玄宗立授河南尹，进户部尚书，谥曰景；子坘拒安禄山战死"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "张特立", "type": "名宦", "dynasty": "金", "native_place": "", "office": "洛阳令", "summary": "正大初为偃师主簿迁洛阳令，军旅数起民素贤特立争输于庭"},
+      {"per_id": "PER-004", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "伊尹", "type": "人物", "dynasty": "商", "native_place": "空桑", "office": "商相", "summary": "名挚，耕于莘野，受汤三聘而起，遂相伐桀，在太甲时居保衡之任"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "偃师县学", "type": "学校", "location_text": "在县治东", "history_lore": "元延祐四年建，本朝洪武三年重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "寿圣寺", "type": "寺观", "location_text": "在偃师县南", "history_lore": "元建，本朝洪武中重修"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "仙鹤观", "type": "寺观", "location_text": "在偃师县南", "history_lore": "王子晋乘鹤升仙，观以是名"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "成汤陵", "type": "陵墓", "location_text": "在偃师县东北山上", "history_lore": ""},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "伊尹墓", "type": "陵墓", "location_text": "在偃师县西", "history_lore": ""},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "首阳山四墓", "type": "陵墓", "location_text": "在偃师县首阳山南", "history_lore": "伯夷叔齐墓、杜预墓、颜真卿墓、杜甫墓皆在其地"},
+      {"site_id": "SITE-007", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "缑氏废县", "type": "古迹", "location_text": "在偃师县南二十里", "history_lore": "古滑国，汉置县"},
+      {"site_id": "SITE-008", "item_id": "29-001", "geo_id": "GEO-29001c02", "name": "袁术固", "type": "古迹", "location_text": "在偃师县西南三十五里", "history_lore": "袁术置此固，四周绝涧可容十万人，一夫守隘千夫莫当"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

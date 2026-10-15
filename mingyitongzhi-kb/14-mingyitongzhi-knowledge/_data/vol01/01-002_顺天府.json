@@ -1,0 +1,426 @@
+{
+  "item_id": "01-002",
+  "volume": "01",
+  "source": "顺天府",
+  "region": "北直隶",
+  "type": "prefecture",
+  "original": "顺天府【东至永平府滦州界三百九十里南至河间府任丘县界三百五十里西至山西大同府蔚州界三百五十里北至延庆州界一百六十里自府治至南京三千四百四十五里粮一万四千石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "顺天府",
+        "type": "geo",
+        "norm": "顺天府",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "大兴县",
+        "type": "geo",
+        "norm": "大兴县",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "宛平县",
+        "type": "geo",
+        "norm": "宛平县",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "通州",
+        "type": "geo",
+        "norm": "通州",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "昌平州",
+        "type": "geo",
+        "norm": "昌平州",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "涿州",
+        "type": "geo",
+        "norm": "涿州",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "霸州",
+        "type": "geo",
+        "norm": "霸州",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "蓟州",
+        "type": "geo",
+        "norm": "蓟州",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "广阳郡",
+        "type": "geo",
+        "norm": "广阳郡",
+        "first_source": "01-002"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "范阳郡",
+        "type": "geo",
+        "norm": "范阳郡",
+        "first_source": "01-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-01002",
+        "item_id": "01-002",
+        "name": "顺天府",
+        "type": "prefecture",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-01002-s01",
+          "GEO-01002-s02",
+          "GEO-01002-s03",
+          "GEO-01002-s04",
+          "GEO-01002-s05",
+          "GEO-01002-c01",
+          "GEO-01002-c02",
+          "GEO-01002-c03",
+          "GEO-01002-c04",
+          "GEO-01002-c05",
+          "GEO-01002-c06",
+          "GEO-01002-c07"
+        ],
+        "volume_range": "卷1",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "永平府滦州界",
+              "distance_li": 390
+            },
+            {
+              "direction": "南",
+              "to_place": "河间府任丘县界",
+              "distance_li": 350
+            },
+            {
+              "direction": "西",
+              "to_place": "山西大同府蔚州界",
+              "distance_li": 350
+            },
+            {
+              "direction": "北",
+              "to_place": "延庆州界",
+              "distance_li": 160
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3445
+            }
+          ],
+          "grain_tax": {
+            "amount": 14000,
+            "unit": "石",
+            "note": "粮一万四千石零"
+          },
+          "jun_name": "广阳(汉名)/燕山(宋名)",
+          "topography": "山雄峙水环绕【府志】；天府之国【史记苏秦说燕文侯】；地处雄要【金史梁襄传】；形势雄伟【元穆呼哩传】",
+          "customs": "多文雅士【隋志】；人多技艺【地志】；沈鸷多材力重许可【唐杜牧集】；风俗朴茂【宋范镇幽都赋】",
+          "garrisons": [
+            {
+              "name": "通州卫",
+              "type": "卫",
+              "location_text": "在通州治南，洪武三十五年建，隶兵部"
+            },
+            {
+              "name": "蓟州卫",
+              "type": "卫",
+              "location_text": "在蓟州治东北，洪武八年建"
+            },
+            {
+              "name": "遵化卫",
+              "type": "卫",
+              "location_text": "在遵化县治南，洪武十年建"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-01002-s01",
+        "item_id": "01-002",
+        "name": "通州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-01002",
+        "children": [
+          "GEO-01002-c08",
+          "GEO-01002-c09",
+          "GEO-01002-c10",
+          "GEO-01002-c11"
+        ],
+        "volume_range": "卷1",
+        "attributes": {
+          "location_text": "在府东四十五里，领县四：三河、武清、漷县、宝坻"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-01002-s02",
+        "item_id": "01-002",
+        "name": "昌平州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-01002",
+        "children": [
+          "GEO-01002-c12",
+          "GEO-01002-c13",
+          "GEO-01002-c14"
+        ],
+        "volume_range": "卷1",
+        "attributes": {
+          "location_text": "在府北九十里，领县三：顺义、密云、怀柔"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-01002-s03",
+        "item_id": "01-002",
+        "name": "涿州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-01002",
+        "children": [
+          "GEO-01002-c15"
+        ],
+        "volume_range": "卷1",
+        "attributes": {
+          "location_text": "在府西南一百四十里，领县一：房山"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-01002-s04",
+        "item_id": "01-002",
+        "name": "霸州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-01002",
+        "children": [
+          "GEO-01002-c16",
+          "GEO-01002-c17",
+          "GEO-01002-c18"
+        ],
+        "volume_range": "卷1",
+        "attributes": {
+          "location_text": "在府南二百一十里，领县三：文安、大城、保定"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-01002-s05",
+        "item_id": "01-002",
+        "name": "蓟州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-01002",
+        "children": [
+          "GEO-01002-c19",
+          "GEO-01002-c20",
+          "GEO-01002-c21",
+          "GEO-01002-c22"
+        ],
+        "volume_range": "卷1",
+        "attributes": {
+          "location_text": "在府东二百里，领县四：玉田、丰润、遵化、平谷"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "先秦",
+        "era": null,
+        "institution_name": "幽州/燕国",
+        "action": "置",
+        "detail": "禹贡冀州之域，天文尾箕分野；高阳氏谓之幽陵，虞为幽州；武王封召公奭于燕"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "上谷/渔阳二郡",
+        "action": "置",
+        "detail": "秦为上谷渔阳二郡地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "燕国/广阳郡",
+        "action": "改",
+        "detail": "汉初为燕国，又分置涿郡；元凤初改为广阳郡，本始初为广阳国；东汉复立广阳郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "隋",
+        "era": "开皇",
+        "institution_name": "幽州/涿郡",
+        "action": "改",
+        "detail": "隋开皇初郡废州存，后省州入涿郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "范阳郡/幽州",
+        "action": "改",
+        "detail": "唐武德初为幽州总管府，开元间改州为范阳郡，乾元初复为幽州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "辽",
+        "era": null,
+        "institution_name": "南京析津府",
+        "action": "升",
+        "detail": "辽升幽州为南京幽都府，后改析津府"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "中都大兴府",
+        "action": "改",
+        "detail": "宋宣和中改名燕山府，寻复入金称燕京，改号中都，以析津府为大兴府"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "大都路",
+        "action": "改",
+        "detail": "元初为燕京路号大兴府，至元初建中都，后改为大都路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "dynasty": "明",
+        "era": "永乐",
+        "institution_name": "顺天府",
+        "action": "改",
+        "detail": "本朝洪武初改为北平府，永乐初改为顺天府，领州五县二十二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "name": "西山",
+        "type": "山",
+        "location_text": "在府西三十里",
+        "description": "太行山首至幽州第八陉，千峰万壑，京师八景曰西山霁雪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "name": "卢沟河",
+        "type": "河",
+        "location_text": "在府西南",
+        "description": "本桑干河，俗呼浑河，出山西大同府桑干山，经宛平县境出卢沟桥下",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "name": "霍光",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "平阳",
+        "office": "大将军",
+        "summary": "以宣明经纬定国本，废昌邑王立宣帝"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "name": "顺天府学",
+        "type": "学校",
+        "location_text": "在府东南",
+        "history_lore": "洪武初建为大兴县学，永乐初以为府学，正统十一年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "01-002",
+        "geo_id": "GEO-01002",
+        "name": "黄金台",
+        "type": "古迹",
+        "location_text": "在府东南一十六里",
+        "history_lore": "燕昭王于易水东南筑黄金台延天下士，京师八景曰金台夕照"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "01-002",
+        "cited_work": "隋志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【隋志】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "01-002",
+        "cited_work": "金史",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【金史梁襄传】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "府级分片；散州 s01-s05 内联；县 c01-c22 在各自分片文件中"
+  }
+}

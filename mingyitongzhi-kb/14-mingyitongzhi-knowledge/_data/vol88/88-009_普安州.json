@@ -1,0 +1,473 @@
+{
+  "item_id": "88-009",
+  "volume": "88",
+  "source": "普安州",
+  "region": "贵州",
+  "type": "department",
+  "original": "普安州【东至普定卫界一百九十里西至云南平夷卫界一百二十里南至云南广南卫界四百五十里北至贵州宣慰使司界五百五十里自州治至南京五千三百里至京师□千四百里粮二千八百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "普安州",
+        "type": "geo",
+        "norm": "普安州",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "番纳牟山",
+        "type": "mtn",
+        "norm": "番纳牟山",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "八部山",
+        "type": "mtn",
+        "norm": "八部山",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "石象山",
+        "type": "mtn",
+        "norm": "石象山",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "盘江山",
+        "type": "mtn",
+        "norm": "盘江山",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "得都山",
+        "type": "mtn",
+        "norm": "得都山",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "盘江",
+        "type": "mtn",
+        "norm": "盘江",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "者卜河",
+        "type": "mtn",
+        "norm": "者卜河",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "龙潭",
+        "type": "mtn",
+        "norm": "龙潭",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "温泉",
+        "type": "mtn",
+        "norm": "温泉",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "益智",
+        "type": "person",
+        "norm": "益智",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "普安州学",
+        "type": "site",
+        "norm": "普安州学",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "芭蕉关",
+        "type": "site",
+        "norm": "芭蕉关",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "安笼箐关",
+        "type": "site",
+        "norm": "安笼箐关",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "观音寺",
+        "type": "site",
+        "norm": "观音寺",
+        "first_source": "88-009"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "郡志",
+        "type": "book",
+        "norm": "郡志",
+        "first_source": "88-009"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-88009",
+        "item_id": "88-009",
+        "name": "普安州",
+        "type": "department",
+        "region": "贵州",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-88009w01",
+          "GEO-88009w02",
+          "GEO-88009w03",
+          "GEO-88009w04"
+        ],
+        "volume_range": "卷88",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "普定卫界",
+              "distance_li": 190
+            },
+            {
+              "direction": "西",
+              "to_place": "云南平夷卫界",
+              "distance_li": 120
+            },
+            {
+              "direction": "南",
+              "to_place": "云南广南卫界",
+              "distance_li": 450
+            },
+            {
+              "direction": "北",
+              "to_place": "贵州宣慰使司界",
+              "distance_li": 550
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 5300
+            }
+          ],
+          "households": null,
+          "grain_tax": {
+            "amount": 2800,
+            "unit": "石",
+            "note": "粮二千八百石零"
+          },
+          "jun_name": "牂牁(汉名)/兴古(蜀汉名)",
+          "topography": "据险立城，控蛮夷之襟喉【郡志】；云贵川广之交【郡志】",
+          "customs": "白蛮巧佞专事商贾，阿抇蛮喜诵老佛经【郡志】",
+          "garrisons": [
+            {
+              "name": "晋安卫",
+              "type": "卫",
+              "location_text": "在州治南，洪武二十二年建，隶贵州都司"
+            },
+            {
+              "name": "乐民守御千户所",
+              "type": "所",
+              "location_text": "在州城西南九十里"
+            },
+            {
+              "name": "平夷守御千户所",
+              "type": "所",
+              "location_text": "在州城西一百里"
+            },
+            {
+              "name": "安笼守御千户所",
+              "type": "所",
+              "location_text": "在州城东南三百二十里；各所俱隶普安卫"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": [
+          "CIT-001"
+        ]
+      },
+      {
+        "geo_id": "GEO-88009w01",
+        "item_id": "88-009",
+        "name": "晋安卫",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-88009",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州治南，洪武二十二年建，隶贵州都司"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-88009w02",
+        "item_id": "88-009",
+        "name": "乐民守御千户所",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-88009",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州城西南九十里"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-88009w03",
+        "item_id": "88-009",
+        "name": "平夷守御千户所",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-88009",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州城西一百里"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-88009w04",
+        "item_id": "88-009",
+        "name": "安笼守御千户所",
+        "type": "weisuo",
+        "region": "贵州",
+        "parent": "GEO-88009",
+        "children": [],
+        "volume_range": "卷88",
+        "attributes": {
+          "location_text": "在州城东南三百二十里；各所俱隶普安卫"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "dynasty": "秦汉",
+        "era": null,
+        "institution_name": "黔中/牂牁郡",
+        "action": "未明",
+        "detail": "古夜郎地，秦为黔中地，汉隶牂牁郡，蜀汉为兴古郡地，隋属牂州",
+        "evo_id": "EVO-001",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "dynasty": "唐",
+        "era": "武德",
+        "institution_name": "西平州/盘州",
+        "action": "置",
+        "detail": "唐武德中置西平州，贞观中改盘州，隶戎州都督府；后为南诏东鄙，号于矢部",
+        "evo_id": "EVO-002",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "dynasty": "元宪宗",
+        "era": null,
+        "institution_name": "于矢万户府/普安路",
+        "action": "置",
+        "detail": "元宪宗时内附置于矢万户府，至元间改普安路，隶云南行省",
+        "evo_id": "EVO-003",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "普安军民府/普安军民指挥使司",
+        "action": "改",
+        "detail": "本朝洪武初改普安军民府隶云南布政司，后改普安军民指挥使司，寻改隶贵州都司",
+        "evo_id": "EVO-004",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "dynasty": "明",
+        "era": "永乐十三年",
+        "institution_name": "普安州",
+        "action": "改",
+        "detail": "永乐元年改普安安抚司属普安卫，十三年改为州，隶贵州布政司",
+        "evo_id": "EVO-005",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      }
+    ],
+    "mtns": [
+      {
+        "name": "番纳牟山",
+        "type": "山",
+        "location_text": "在州治西北",
+        "description": "为州镇山",
+        "lore": "",
+        "mtn_id": "MTN-001",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "八部山",
+        "type": "山",
+        "location_text": "在州城东三十里",
+        "description": "诸峰皆石矗然摩空",
+        "lore": "",
+        "mtn_id": "MTN-002",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "石象山",
+        "type": "山",
+        "location_text": "在州城西南六十里",
+        "description": "有石如象",
+        "lore": "",
+        "mtn_id": "MTN-003",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "盘江山",
+        "type": "山",
+        "location_text": "在州城东北一百八十里",
+        "description": "为安南、安庄二卫界山",
+        "lore": "",
+        "mtn_id": "MTN-004",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "得都山",
+        "type": "山",
+        "location_text": "在州城东南四百二十里",
+        "description": "一名白崖，产雄黄、水银",
+        "lore": "",
+        "mtn_id": "MTN-005",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "盘江",
+        "type": "江",
+        "location_text": "源自普畅寨",
+        "description": "经州境东北下流合乌泥江",
+        "lore": "",
+        "mtn_id": "MTN-006",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "者卜河",
+        "type": "河",
+        "location_text": "在州城东南一百八十里",
+        "description": "源出杨那山，下流入盘江；其地四时常暖",
+        "lore": "",
+        "mtn_id": "MTN-007",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "龙潭",
+        "type": "潭",
+        "location_text": "在州城西南八十里",
+        "description": "石穴深不可测，岁旱祷雨多应",
+        "lore": "",
+        "mtn_id": "MTN-008",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "温泉",
+        "type": "泉",
+        "location_text": "有二",
+        "description": "一在州城东南八十里，一在乐民千户所西，水温可浴",
+        "lore": "",
+        "mtn_id": "MTN-009",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      }
+    ],
+    "pers": [
+      {
+        "name": "益智",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "普山土酋",
+        "office": "曲靖宣慰使、普安路总管",
+        "summary": "有谋略善安辑，官至怀远大将军，掌普安路总管府事，郡人服其威信",
+        "per_id": "PER-001",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      }
+    ],
+    "sites": [
+      {
+        "name": "普安州学",
+        "type": "学校",
+        "location_text": "在州治南",
+        "history_lore": "永乐十四年建",
+        "site_id": "SITE-001",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "芭蕉关",
+        "type": "关梁",
+        "location_text": "在州城东南八十五里",
+        "history_lore": "",
+        "site_id": "SITE-002",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "安笼箐关",
+        "type": "关梁",
+        "location_text": "在州城东南三百四十五里",
+        "history_lore": "",
+        "site_id": "SITE-003",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      },
+      {
+        "name": "观音寺",
+        "type": "寺观",
+        "location_text": "在州治东",
+        "history_lore": "",
+        "site_id": "SITE-004",
+        "item_id": "88-009",
+        "geo_id": "GEO-88009"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cited_work": "郡志",
+        "context": "证形胜",
+        "original": "【郡志：控蛮夷之襟喉】",
+        "cit_id": "CIT-001",
+        "item_id": "88-009"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "京师距离源文缺字（□千四百里），仅记南京5300里"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "洛阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "洛阳县【附郭本成周地居洛水之北故曰洛阳秦属三川郡汉为河南郡治莽改宜阳东汉改雒阳魏复为洛阳晋因之隋迁郡治河南县并移县于城中唐神龙初改洛阳为永昌寻复旧宋初河南洛阳二县并置熈寕中省洛阳入河南县元祐初复置金以河南县省入元仍旧本朝因之编户八十六里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "洛阳县", "type": "geo", "norm": "洛阳县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "李密", "type": "person", "norm": "李密", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "白居易", "type": "person", "norm": "白居易", "first_source": "29-001"},
+      {"ent_id": "ENT-004", "name": "裴度", "type": "person", "norm": "裴度", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c01",
+        "item_id": "29-001",
+        "name": "洛阳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 86, "unit": "里", "note": "编户八十六里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "周", "era": null, "institution_name": "成周", "action": "置", "detail": "本成周地，居洛水之北故曰洛阳"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "秦", "era": null, "institution_name": "三川郡地", "action": "因之", "detail": "秦属三川郡"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "汉", "era": null, "institution_name": "河南郡治", "action": "置", "detail": "汉为河南郡治，莽改宜阳，东汉改雒阳，魏复为洛阳，晋因之"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "隋", "era": null, "institution_name": "洛阳县", "action": "迁", "detail": "隋迁郡治河南县并移县于城中"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "唐", "era": "神龙", "institution_name": "永昌/洛阳", "action": "改", "detail": "唐神龙初改洛阳为永昌寻复旧"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "宋", "era": "熙宁", "institution_name": "洛阳县", "action": "省", "detail": "宋初河南洛阳二县并置，熙宁中省洛阳入河南县，元祐初复置"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001c01", "dynasty": "金", "era": null, "institution_name": "洛阳县", "action": "省", "detail": "金以河南县省入，元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "蒙汜池", "type": "池", "location_text": "在洛阳县", "description": "魏明帝于宫西凿池以通御沟，义取日入蒙汜为名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "鸿池", "type": "池", "location_text": "在洛阳县东三十里", "description": "晋张衡东京赋东州鸿池清籞渌水澹澹", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "金龙池", "type": "池", "location_text": "在洛阳县东北", "description": "池有看花台，隋李密筑", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "魏王池", "type": "池", "location_text": "在洛阳县洛水溢而为池", "description": "为都城之胜，唐贞观中以赐魏王泰故名", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "古玉井", "type": "井", "location_text": "在府城外三十五里", "description": "魏明帝引谷水过九龙祠前为玉井，以白石甃之", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "琉璃井", "type": "井", "location_text": "在府城外发祥寺侧", "description": "宋太祖汲此井浴，后甃以琉璃", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "周荣", "type": "名宦", "dynasty": "明", "native_place": "", "office": "河南知府", "summary": "洪武间知府遇事果断，以密计捕得盗，府中称为神明"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "李骥", "type": "名宦", "dynasty": "明", "native_place": "", "office": "河南知府", "summary": "公平廉洁，设火甲防盗，又为劝教文，道不拾遗，郡人立庙祀之"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "戴希贤", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知河南府", "summary": "永乐间知河南府，礼贤士抑豪强，盗贼屏息道不拾遗，满去吏民泣送者塞路"},
+      {"per_id": "PER-004", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "刘健", "type": "人物", "dynasty": "明", "native_place": "洛阳", "office": "少师大学士", "summary": "天顺庚辰进士，与谢迁李东阳在内阁，敢于任事，不阿不激，卒谥文靖"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "洛阳县学", "type": "学校", "location_text": "在府治东北", "history_lore": "洪武五年建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "绿野堂", "type": "宫室", "location_text": "在洛阳县东", "history_lore": "唐裴度建于集贤里以为居第，筑山穿池有风亭水榭"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "九老堂", "type": "宫室", "location_text": "在洛阳县旧东都履道坊", "history_lore": "唐白居易宅，胡杲吉旼刘真郑据卢慎张浑李元爽僧如满并居易九老为尚齿之会"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "耆英堂", "type": "宫室", "location_text": "在洛阳县东旧资圣院", "history_lore": "宋文彦博慕唐九老，集洛中公卿大夫年德高者十三人为耆英会绘像堂中"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "云台", "type": "宫室", "location_text": "在洛阳县东水南保", "history_lore": "汉明帝图画中兴二十八将于此"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "苏宅", "type": "古迹", "location_text": "在洛阳县旧仁和里", "history_lore": "苏秦宅，后魏尚书高显业居此夜见赤光掘得金百斤名曰苏家金"},
+      {"site_id": "SITE-007", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "白乐天宅", "type": "古迹", "location_text": "在府城内", "history_lore": "乐天退居洛阳，宅有环池，与僧如满结香山社"},
+      {"site_id": "SITE-008", "item_id": "29-001", "geo_id": "GEO-29001c01", "name": "上东门", "type": "古迹", "location_text": "在府城东", "history_lore": "晋洛城门也，石勒倚啸于此"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

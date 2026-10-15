@@ -1,0 +1,124 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "柘城县",
+  "region": "河南",
+  "type": "county",
+  "original": "柘城县【在州城东南九十里编户九里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "柘城县",
+        "type": "geo",
+        "norm": "柘城县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c08",
+        "item_id": "27-001",
+        "name": "柘城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001s01",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在州城东南九十里",
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "dynasty": "古",
+        "era": null,
+        "institution_name": "朱襄氏邑",
+        "action": "置",
+        "detail": "古朱襄氏邑，春秋时为陈株野地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "柘县",
+        "action": "置",
+        "detail": "汉置柘县属淮阳国，以邑有柘沟故名，晋废"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "柘城县",
+        "action": "复",
+        "detail": "隋复置改曰柘城县属宋州，金属睢州后省"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "柘城县",
+        "action": "因之",
+        "detail": "元复置本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "name": "廓山",
+        "type": "山",
+        "location_text": "在柘城东北二里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "name": "霸王冈",
+        "type": "冈",
+        "location_text": "在柘城县西三十里",
+        "description": "世传项羽将台与汉高祖拒兵处",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c08",
+        "name": "柘城县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "旧在东南金大定初建，本朝洪武四年重建嘉靖间圮于水迁今地"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "item_id": "31-001",
+  "volume": "31",
+  "source": "新蔡县",
+  "region": "河南",
+  "type": "county",
+  "original": "新蔡县【在府城东五十里古吕国春秋时蔡平侯徙都此故曰新蔡汉置新蔡县属汝南郡晋属汝隂郡刘宋属新蔡郡南齐置北新蔡郡东魏置蔡州北齐为广宁郡隋初为舒州及广宁县寻改汝北县大业初州废县复旧名唐属蔡州宋因之金属息州元省入息州本朝洪武四年复置改今属编户一十二里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "新蔡县",
+        "type": "geo",
+        "norm": "新蔡县",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "鲖水",
+        "type": "mtn",
+        "norm": "鲖水",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "鲖阳故城",
+        "type": "geo",
+        "norm": "鲖阳故城",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "大吕亭",
+        "type": "geo",
+        "norm": "大吕亭",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "干宝",
+        "type": "person",
+        "norm": "干宝",
+        "first_source": "31-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31001c04",
+        "item_id": "31-001",
+        "name": "新蔡县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31001",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在府城东五十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "吕国/新蔡",
+        "action": "置",
+        "detail": "古吕国，春秋时蔡平侯徙都此故曰新蔡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "新蔡县",
+        "action": "置",
+        "detail": "汉置新蔡县属汝南郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "蔡州/广宁郡",
+        "action": "改",
+        "detail": "东魏置蔡州，北齐为广宁郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "新蔡县",
+        "action": "复旧",
+        "detail": "隋初为舒州及广宁县，寻改汝北县，大业初州废县复旧名"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "新蔡县",
+        "action": "省",
+        "detail": "金属息州，元省入息州，本朝洪武四年复置改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "name": "鲖水",
+        "type": "河",
+        "location_text": "在新蔡县",
+        "description": "汉因此水置鲖阳县",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "name": "干宝",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "新蔡",
+        "office": "散骑常侍",
+        "summary": "博览书记为著作郎，着晋记三十卷，又着搜神记三十卷，刘惔曰卿可谓鬼之董狐"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "name": "新蔡县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "旧在县治东古城内，洪武十一年因元旧址重建，天顺二年徙于此"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "name": "法隆寺",
+        "type": "寺观",
+        "location_text": "在新蔡县东北古城内",
+        "history_lore": "正统初重建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "name": "鲖阳故城",
+        "type": "古迹",
+        "location_text": "在新蔡县界",
+        "history_lore": "汉旧县属汝南郡，晋属汝阴郡，隋属淮阳郡"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c04",
+        "name": "大吕亭",
+        "type": "古迹",
+        "location_text": "在新蔡县界",
+        "history_lore": "东汉郡国志云故吕侯国也，县东北有栎亭，左传吴伐楚入栎即此"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "登封县",
+  "region": "河南",
+  "type": "county",
+  "original": "登封县【在府城东一百四十里禹避舜之子于阳城即此汉置阳城崇髙二县属颍川郡东汉省崇髙入阳城晋属河南郡东魏析置堙阳县改曰武林后又曰嵩阳与阳城并属河南郡唐初属嵩州寻改阳城曰告成嵩阳曰登封后又改告成曰阳邑五代周时省阳邑入登封宋金元仍旧本朝因之编户四十四里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "登封县", "type": "geo", "norm": "登封县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "嵩山", "type": "mtn", "norm": "嵩山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "箕山", "type": "mtn", "norm": "箕山", "first_source": "29-001"},
+      {"ent_id": "ENT-004", "name": "许由", "type": "person", "norm": "许由", "first_source": "29-001"},
+      {"ent_id": "ENT-005", "name": "少林寺", "type": "site", "norm": "少林寺", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c06",
+        "item_id": "29-001",
+        "name": "登封县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城东南一百四十里",
+          "households": {"count": 44, "unit": "里", "note": "编户四十四里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c06", "dynasty": "夏", "era": null, "institution_name": "阳城", "action": "因之", "detail": "禹避舜之子于阳城即此"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c06", "dynasty": "汉", "era": null, "institution_name": "阳城/崇高二县", "action": "置", "detail": "汉置阳城崇高二县属颍川郡，东汉省崇高入阳城"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c06", "dynasty": "晋", "era": null, "institution_name": "阳城", "action": "因之", "detail": "晋属河南郡"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c06", "dynasty": "南北朝", "era": "东魏", "institution_name": "堙阳/武林/嵩阳", "action": "改", "detail": "东魏析置堙阳县改曰武林，后又曰嵩阳，与阳城并属河南郡"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c06", "dynasty": "唐", "era": null, "institution_name": "登封县", "action": "改", "detail": "唐初属嵩州，寻改阳城曰告成，嵩阳曰登封，后又改告成曰阳邑"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c06", "dynasty": "五代", "era": "周", "institution_name": "登封县", "action": "省", "detail": "五代周时省阳邑入登封，宋金元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "嵩山", "type": "山", "location_text": "在登封县北一十里", "description": "五岳之中岳也，其山三尖峰东曰太室西曰少室，嵩其总名。诗曰嵩高维岳是也", "lore": "汉武帝至中岳获驳麃见夏后启母石，吏卒咸闻呼万岁者三；唐武后改山为神岳"},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "阳干山", "type": "山", "location_text": "在登封县东二十五里", "description": "颍水一源出此", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "箕山", "type": "山", "location_text": "在登封县东南三十里，一名崿岭", "description": "昔许由隐此，尧召为九州长不欲闻，洗耳水滨，巢父牵犊上流而饮之即此", "lore": "上有许由墓"},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "阳城山", "type": "山", "location_text": "在登封县北三十八里，俗名车岭山", "description": "洧水出此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "大熊山", "type": "山", "location_text": "在登封县南五十里", "description": "上可避兵，近有小熊山", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "倚箔山", "type": "山", "location_text": "在登封县西七十里", "description": "望如立箔，正西北崖下有钟乳", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "颍水", "type": "河", "location_text": "在登封县西四十里，源出阳干山流入钧州界", "description": "颍水有三源，此为左源，出少室山为中源，出少室南溪为右源", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "五渡水", "type": "河", "location_text": "在登封县东南二十五里", "description": "源出嵩山东谷，疏为三十八浦，其水萦委诉者五涉故名，东南流入颍水，其中产九节菖蒲", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "卢鸿岩", "type": "岩", "location_text": "在登封县东二十里", "description": "唐处士卢鸿读书处", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "鬼谷", "type": "其他", "location_text": "在登封县北五里", "description": "史记苏秦洛阳人事师于齐而习于鬼谷即此", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "龙潭", "type": "潭", "location_text": "在登封县东二十五里", "description": "嵩顶之东九潭相接，其深莫测", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "马仲甫", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知登封县", "summary": "轘辕道险厄，遂佣民凿平为坦涂，人便其行，为刻石颂美"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "顾少连", "type": "名宦", "dynasty": "唐", "native_place": "", "office": "登封主簿", "summary": "邑有虎孽，移文岳神，虎不为害"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "王中", "type": "人物", "dynasty": "明", "native_place": "登封", "office": "孝子", "summary": "业农未尝知书，母没庐墓三年，墓侧无水浚井四丈余不得泉，环井再拜吁天泉乃涌出，洪武间表其门"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "登封县学", "type": "学校", "location_text": "在县治西", "history_lore": "元大德五年建，本朝洪武七年重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "嵩阳书院", "type": "书院", "location_text": "在登封县太室山", "history_lore": "五代时建，宋至道初赐九经子史，景祐初赐今名及田一顷"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "颍谷书院", "type": "书院", "location_text": "在登封县西南", "history_lore": "宋崇宁间建，后废复建"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "少林寺", "type": "寺观", "location_text": "在登封县西少室山北麓", "history_lore": "后魏时建，梁时达磨居此面壁九年，唐宋以来多有名贤题咏"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "崇福宫", "type": "寺观", "location_text": "在登封县北嵩山之阳", "history_lore": "旧为万岁观，唐改太乙，宋改崇福宫以奉真宗御容"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "中岳庙", "type": "祠庙", "location_text": "在登封县东嵩山神盖峰下", "history_lore": "汉武帝祀中岳见启母石"},
+      {"site_id": "SITE-007", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "启母庙", "type": "祠庙", "location_text": "在登封县北嵩山麓", "history_lore": "启夏王也，庙前有启母石并亭，古云涂山氏所化"},
+      {"site_id": "SITE-008", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "测影台", "type": "古迹", "location_text": "在登封县东南古阳城县内", "history_lore": "周公定此地为土圭测日以验四时，其北有观星台"},
+      {"site_id": "SITE-009", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "三阳宫", "type": "宫室", "location_text": "在登封县", "history_lore": "唐圣历间建"},
+      {"site_id": "SITE-010", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "奉天宫", "type": "宫室", "location_text": "在登封县嵩山南", "history_lore": "唐永淳初建"},
+      {"site_id": "SITE-011", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "巢父冢", "type": "陵墓", "location_text": "在登封县东南四十里", "history_lore": "近有巢父洞，巢父尧时隐者"},
+      {"site_id": "SITE-012", "item_id": "29-001", "geo_id": "GEO-29001c06", "name": "峻极寺", "type": "寺观", "location_text": "在登封西门外", "history_lore": "五代晋时建，本朝景泰中重修"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

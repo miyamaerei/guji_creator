@@ -1,0 +1,325 @@
+{
+  "item_id": "31-001",
+  "volume": "31",
+  "source": "西平县",
+  "region": "河南",
+  "type": "county",
+  "original": "西平县【在府城西北一百三十里古栢子国汉置西平县属汝南郡东汉末废后魏复置并置襄城郡北齐改文城郡隋初郡废以县属蔡州大业初县废唐初复置贞观初省入郾城开元间再置属蔡州宋金元仍旧本朝因之改今属编户二十二里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "西平县",
+        "type": "geo",
+        "norm": "西平县",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "棠溪",
+        "type": "mtn",
+        "norm": "棠溪",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "周家泊",
+        "type": "mtn",
+        "norm": "周家泊",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "邓艾陂",
+        "type": "mtn",
+        "norm": "邓艾陂",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "柏亭桥",
+        "type": "mtn",
+        "norm": "柏亭桥",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "郅恽",
+        "type": "person",
+        "norm": "郅恽",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "李郃",
+        "type": "person",
+        "norm": "李郃",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "和元恕",
+        "type": "person",
+        "norm": "和元恕",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "李不作",
+        "type": "person",
+        "norm": "李不作",
+        "first_source": "31-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31001c05",
+        "item_id": "31-001",
+        "name": "西平县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31001",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在府城西北一百三十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户二十二里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "柏子国",
+        "action": "置",
+        "detail": "古柏子国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "西平县",
+        "action": "置",
+        "detail": "汉置西平县属汝南郡，东汉末废"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "襄城郡/文城郡",
+        "action": "置",
+        "detail": "后魏复置并置襄城郡，北齐改文城郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "西平县",
+        "action": "复置",
+        "detail": "隋初郡废以县属蔡州，大业初县废；唐初复置，贞观初省入郾城，开元间再置属蔡州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "西平县",
+        "action": "因之",
+        "detail": "宋金元仍旧，本朝因之改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "棠溪",
+        "type": "溪",
+        "location_text": "在西平县西",
+        "description": "有村，苏秦说韩王谓剑防出于棠溪即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "周家泊",
+        "type": "湖",
+        "location_text": "在西平县东北二十五里",
+        "description": "水则出鱼，涸则生苇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "邓艾陂",
+        "type": "陂",
+        "location_text": "在西平县",
+        "description": "艾所置陂凡二十有四因名",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "郅恽",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "汝南西平",
+        "office": "长沙太守",
+        "summary": "举孝廉为上东门侯，光武出猎夜还恽拒关不纳；后授皇太子韩诗，迁长沙太守"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "李不作",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "西平县尹",
+        "summary": "化民以德不尚威严，民兴礼让；汝水泛溢率民筑防补罅，其患遂息"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "和元恕",
+        "type": "名宦",
+        "dynasty": "元",
+        "native_place": "",
+        "office": "西平县尹",
+        "summary": "劝农兴学折节好贤，民有讼不勤鞭朴惟谕以曲直，在任五年公无负租蝗不入境"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "王敬",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "西平知县",
+        "summary": "天顺初西平知县，刚果有为，吏畏民服"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "甘镛",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "西平县典史",
+        "summary": "永乐中西平县典史，政宜于民，荐升监察御史"
+      },
+      {
+        "per_id": "PER-006",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "徐理",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "西平",
+        "office": "武康伯",
+        "summary": "国初从诸将征伐有功，洪武末从靖内难大小数十战皆贾勇争先，累官都督佥事封武康伯"
+      },
+      {
+        "per_id": "PER-007",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "毛鹏霄",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "西平",
+        "office": "邠州知州",
+        "summary": "永乐乙酉科举人，除陕西邠州知州；子祥山进士仕终云南参政"
+      },
+      {
+        "per_id": "PER-008",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "尹聪",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "西平",
+        "office": "山东左参议",
+        "summary": "永乐辛卯科举人，累官山东左参议"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "西平县学",
+        "type": "学校",
+        "location_text": "在县治东南隅",
+        "history_lore": "洪武三年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "宝岩寺",
+        "type": "寺观",
+        "location_text": "在西平县治东",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "柏亭桥",
+        "type": "关梁",
+        "location_text": "在西平县治西",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "西平故城",
+        "type": "古迹",
+        "location_text": "在西平县西",
+        "history_lore": "汉旧县治此"
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c05",
+        "name": "红花",
+        "category": "药",
+        "location_text": "西平出"
+      }
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

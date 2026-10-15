@@ -1,0 +1,64 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "新安县",
+  "region": "河南",
+  "type": "county",
+  "original": "新安县【在府城西七十里春秋时西周地秦名新安汉置新安县晋属河南郡后周改东垣县置中州后省州置新安郡隋复改东垣为新安县属谷州后省州以县属河南郡唐初属洛州后属河南府宋及金元俱仍旧本朝因之编户一十八里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "新安县", "type": "geo", "norm": "新安县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "函谷新关", "type": "site", "norm": "函谷新关", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "钱若水", "type": "person", "norm": "钱若水", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c08",
+        "item_id": "29-001",
+        "name": "新安县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城西七十里",
+          "households": {"count": 18, "unit": "里", "note": "编户一十八里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c08", "dynasty": "周", "era": null, "institution_name": "西周地", "action": "因之", "detail": "春秋时西周地，秦名新安"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c08", "dynasty": "汉", "era": null, "institution_name": "新安县", "action": "置", "detail": "汉置新安县，晋属河南郡"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c08", "dynasty": "南北朝", "era": "后周", "institution_name": "东垣县/中州", "action": "改", "detail": "后周改东垣县置中州，后省州置新安郡"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c08", "dynasty": "隋", "era": null, "institution_name": "新安县", "action": "复", "detail": "隋复改东垣为新安县属谷州，后省州以县属河南郡"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c08", "dynasty": "唐", "era": null, "institution_name": "新安县", "action": "因之", "detail": "唐初属洛州后属河南府，宋及金元俱仍旧"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c08", "dynasty": "明", "era": null, "institution_name": "新安县", "action": "因之", "detail": "本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "慕容山", "type": "山", "location_text": "在新安县治后", "description": "晋慕容垂屯军于此因名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "青要山", "type": "山", "location_text": "在新安县西北二十里，一名强山", "description": "为帝之密都，北望河曲，是多驾鸟，有草黄华赤实服之益人寿", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "缺门山", "type": "山", "location_text": "在新安县西三十里，一名扼山", "description": "山阜不相接者里余故名", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "金水", "type": "河", "location_text": "在新安县治东北", "description": "源出白墙村东南流入涧", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "少水", "type": "河", "location_text": "在新安县东一十二里", "description": "东流入涧，山海经瞻渚之上少水出其阴", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "钱若水", "type": "人物", "dynasty": "宋", "native_place": "新安", "office": "同知枢密院事", "summary": "举进士为同州推官以善决疑狱名闻于朝，后拜同知枢密院事"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "阎从", "type": "名宦", "dynasty": "元", "native_place": "", "office": "新安县尉", "summary": "县有鬻麦商为贼所杀莫知主名，从集吏民至尸傍跽听，察得贼，邻境称为神明"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "韩擒虎", "type": "人物", "dynasty": "隋", "native_place": "新安", "office": "上柱国", "summary": "容貌魁岸有胆略，以平陈功进位上柱国，尝曰生为上柱国死作阎罗王"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "新安县学", "type": "学校", "location_text": "在县治东北", "history_lore": "洪武三年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "函谷新关", "type": "关梁", "location_text": "在新安县东二里", "history_lore": "项羽坑秦降卒处，汉杨仆徙关于此"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "宝云寺", "type": "寺观", "location_text": "在新安县西北", "history_lore": "金建，元至正中重修"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "洞真观", "type": "寺观", "location_text": "在新安县西", "history_lore": "元建，本朝永乐中重修"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "楚坑", "type": "古迹", "location_text": "在新安县西南", "history_lore": "项羽诈坑秦降卒处"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c08", "name": "袁天纲李淳风墓", "type": "陵墓", "location_text": "在新安县西", "history_lore": "天纲唐术士善相，淳风唐术士善数"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

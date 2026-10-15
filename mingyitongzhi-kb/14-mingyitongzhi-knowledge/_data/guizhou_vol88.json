@@ -5607,7 +5607,12 @@
           "type": "department",
           "region": "贵州",
           "parent": "GEO-000",
-          "children": [],
+          "children": [
+            "GEO-88009w01",
+            "GEO-88009w02",
+            "GEO-88009w03",
+            "GEO-88009w04"
+          ],
           "volume_range": "卷88",
           "attributes": {
             "borders": [
@@ -5674,6 +5679,62 @@
           "cit_ids": [
             "CIT-001"
           ]
+        },
+        {
+          "geo_id": "GEO-88009w01",
+          "item_id": "88-009",
+          "name": "晋安卫",
+          "type": "weisuo",
+          "region": "贵州",
+          "parent": "GEO-88009",
+          "children": [],
+          "volume_range": "卷88",
+          "attributes": {
+            "location_text": "在州治南，洪武二十二年建，隶贵州都司"
+          },
+          "cit_ids": []
+        },
+        {
+          "geo_id": "GEO-88009w02",
+          "item_id": "88-009",
+          "name": "乐民守御千户所",
+          "type": "weisuo",
+          "region": "贵州",
+          "parent": "GEO-88009",
+          "children": [],
+          "volume_range": "卷88",
+          "attributes": {
+            "location_text": "在州城西南九十里"
+          },
+          "cit_ids": []
+        },
+        {
+          "geo_id": "GEO-88009w03",
+          "item_id": "88-009",
+          "name": "平夷守御千户所",
+          "type": "weisuo",
+          "region": "贵州",
+          "parent": "GEO-88009",
+          "children": [],
+          "volume_range": "卷88",
+          "attributes": {
+            "location_text": "在州城西一百里"
+          },
+          "cit_ids": []
+        },
+        {
+          "geo_id": "GEO-88009w04",
+          "item_id": "88-009",
+          "name": "安笼守御千户所",
+          "type": "weisuo",
+          "region": "贵州",
+          "parent": "GEO-88009",
+          "children": [],
+          "volume_range": "卷88",
+          "attributes": {
+            "location_text": "在州城东南三百二十里；各所俱隶普安卫"
+          },
+          "cit_ids": []
         }
       ],
       "evos": [

@@ -1,0 +1,144 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "宁陵县",
+  "region": "河南",
+  "type": "county",
+  "original": "宁陵县【在府城西六十里编户七里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "宁陵县",
+        "type": "geo",
+        "norm": "宁陵县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c02",
+        "item_id": "27-001",
+        "name": "宁陵县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城西六十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户七里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "葛伯国",
+        "action": "置",
+        "detail": "本古葛伯国又为甯城，春秋时宋地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "dynasty": "汉",
+        "era": "元狩",
+        "institution_name": "宁陵县",
+        "action": "置",
+        "detail": "汉元狩初置宁陵县属陈留郡，后属梁国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "dynasty": "北齐",
+        "era": null,
+        "institution_name": "废",
+        "action": "废",
+        "detail": "北齐废"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "宁陵县",
+        "action": "复",
+        "detail": "隋复置属宋州，唐因之"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "宁陵县",
+        "action": "因之",
+        "detail": "宋属拱州后属应天府，金属归德府元仍旧，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "name": "甘露岭",
+        "type": "岭",
+        "location_text": "在宁陵县西五里",
+        "description": "隋文帝幸岱至此甘露降因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "name": "圣水井",
+        "type": "井",
+        "location_text": "在宁陵县长乐乡",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "name": "黄龙井",
+        "type": "井",
+        "location_text": "在宁陵县东界",
+        "description": "甘露四年双龙见井中",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c02",
+        "name": "宁陵县学",
+        "type": "学校",
+        "location_text": "在县治后",
+        "history_lore": "旧在县治西南洪武三年建，成化十四年圮于水改建于此"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

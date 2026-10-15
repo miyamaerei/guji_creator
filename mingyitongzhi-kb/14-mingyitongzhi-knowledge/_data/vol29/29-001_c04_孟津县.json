@@ -1,0 +1,58 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "孟津县",
+  "region": "河南",
+  "type": "county",
+  "original": "孟津县【在府城东北七十里周武王伐纣师渡孟津即此汉置河阳县属河内郡后废隋复置唐初析置河清县属懐州又改属孟州后属河南府宋初治白波镇金徙置孟津渡改为孟津县元仍旧本朝因之编户五十八里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "孟津县", "type": "geo", "norm": "孟津县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "河桥", "type": "site", "norm": "河桥", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c04",
+        "item_id": "29-001",
+        "name": "孟津县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城东北七十里",
+          "households": {"count": 58, "unit": "里", "note": "编户五十八里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c04", "dynasty": "周", "era": null, "institution_name": "孟津", "action": "因之", "detail": "周武王伐纣师渡孟津即此"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c04", "dynasty": "汉", "era": null, "institution_name": "河阳县", "action": "置", "detail": "汉置河阳县属河内郡，后废"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c04", "dynasty": "隋", "era": null, "institution_name": "河阳县", "action": "复", "detail": "隋复置"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c04", "dynasty": "唐", "era": null, "institution_name": "河清县", "action": "改", "detail": "唐初析置河清县属怀州，又改属孟州，后属河南府"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c04", "dynasty": "金", "era": null, "institution_name": "孟津县", "action": "改", "detail": "宋初治白波镇，金徙置孟津渡改为孟津县，元仍旧"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c04", "dynasty": "明", "era": null, "institution_name": "孟津县", "action": "因之", "detail": "本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "八角井", "type": "井", "location_text": "在孟津县西龙王庙前", "description": "祷雨有应", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "郭肫", "type": "名宦", "dynasty": "明", "native_place": "", "office": "孟津县丞", "summary": "洪武末孟津县丞，抑豪右恤贫困，遇事勤敏赏罚明信，数年县中称治"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "姬敏", "type": "人物", "dynasty": "明", "native_place": "孟津", "office": "西安知府", "summary": "通儒书明律算，德行纯备节操过人，洪武中以材干举授西安知府"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "孟津县学", "type": "学校", "location_text": "在县治西", "history_lore": ""},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "河桥", "type": "关梁", "location_text": "在孟津县", "history_lore": "晋杜预以孟津渡险请建河桥于富平津，造舟为梁"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "观兵台", "type": "宫室", "location_text": "在孟津县东", "history_lore": "周武王观兵于此，一名选将台"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "汉光武原陵", "type": "陵墓", "location_text": "在孟津县西", "history_lore": "本朝载于祀典"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "晋景帝陵", "type": "陵墓", "location_text": "在孟津县东南", "history_lore": "景帝讳师"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c04", "name": "报恩寺", "type": "寺观", "location_text": "在孟津县西南", "history_lore": "元建，本朝洪武中重修"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

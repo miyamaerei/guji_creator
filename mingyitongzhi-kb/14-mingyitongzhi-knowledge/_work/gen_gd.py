@@ -1,0 +1,159 @@
+# -*- coding: utf-8 -*-
+"""Generate 归德府 (27-001) JSON files."""
+import json, os
+
+OUT = r"E:\git\ToolBox\guji\mingyitongzhi-kb\14-mingyitongzhi-knowledge\_data\vol27"
+
+# ============================================================
+# 1. MAIN PREFECTURE FILE
+# ============================================================
+main = {
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "归德府",
+  "region": "河南",
+  "type": "prefecture",
+  "original": "归徳府【东至直隶鳯阳府宿州界二百一十里西至开封府杞县界二百二十里南至鳯阳府太和县界一百三十里北至山东兖州府曹县界四十里自府治至京师一千五百五十里至南京一千一百八十里】【粮七万七千六百石零】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "归德府", "type": "geo", "norm": "归德府", "first_source": "27-001"},
+      {"ent_id": "ENT-002", "name": "商丘县", "type": "geo", "norm": "商丘县", "first_source": "27-001"},
+      {"ent_id": "ENT-003", "name": "宁陵县", "type": "geo", "norm": "宁陵县", "first_source": "27-001"},
+      {"ent_id": "ENT-004", "name": "鹿邑县", "type": "geo", "norm": "鹿邑县", "first_source": "27-001"},
+      {"ent_id": "ENT-005", "name": "夏邑县", "type": "geo", "norm": "夏邑县", "first_source": "27-001"},
+      {"ent_id": "ENT-006", "name": "永城县", "type": "geo", "norm": "永城县", "first_source": "27-001"},
+      {"ent_id": "ENT-007", "name": "虞城县", "type": "geo", "norm": "虞城县", "first_source": "27-001"},
+      {"ent_id": "ENT-008", "name": "睢州", "type": "geo", "norm": "睢州", "first_source": "27-001"},
+      {"ent_id": "ENT-009", "name": "考城县", "type": "geo", "norm": "考城县", "first_source": "27-001"},
+      {"ent_id": "ENT-010", "name": "柘城县", "type": "geo", "norm": "柘城县", "first_source": "27-001"},
+      {"ent_id": "ENT-011", "name": "梁国", "type": "geo", "norm": "梁国", "first_source": "27-001"},
+      {"ent_id": "ENT-012", "name": "宋州", "type": "geo", "norm": "宋州", "first_source": "27-001"},
+      {"ent_id": "ENT-013", "name": "应天府", "type": "geo", "norm": "应天府", "first_source": "27-001"},
+      {"ent_id": "ENT-014", "name": "归德卫", "type": "geo", "norm": "归德卫", "first_source": "27-001"},
+      {"ent_id": "ENT-015", "name": "睢阳卫", "type": "geo", "norm": "睢阳卫", "first_source": "27-001"},
+      {"ent_id": "ENT-016", "name": "黄河", "type": "mtn", "norm": "黄河", "first_source": "27-001"},
+      {"ent_id": "ENT-017", "name": "贾鲁河", "type": "mtn", "norm": "贾鲁河", "first_source": "27-001"},
+      {"ent_id": "ENT-018", "name": "府志", "type": "book", "norm": "府志", "first_source": "27-001"},
+      {"ent_id": "ENT-019", "name": "迁史", "type": "book", "norm": "迁史", "first_source": "27-001"},
+      {"ent_id": "ENT-020", "name": "汉志", "type": "book", "norm": "汉志", "first_source": "27-001"},
+      {"ent_id": "ENT-021", "name": "异闻集", "type": "book", "norm": "异闻集", "first_source": "27-001"},
+      {"ent_id": "ENT-022", "name": "官制", "type": "book", "norm": "官制", "first_source": "27-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001",
+        "item_id": "27-001",
+        "name": "归德府",
+        "type": "prefecture",
+        "region": "河南",
+        "parent": "GEO-000",
+        "children": ["GEO-27001c01", "GEO-27001c02", "GEO-27001c03", "GEO-27001c04", "GEO-27001c05", "GEO-27001c06", "GEO-27001s01", "GEO-27001w01", "GEO-27001w02"],
+        "volume_range": "卷27",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "直隶鳯阳府宿州界", "distance_li": 210},
+            {"direction": "西", "to_place": "开封府杞县界", "distance_li": 220},
+            {"direction": "南", "to_place": "鳯阳府太和县界", "distance_li": 130},
+            {"direction": "北", "to_place": "山东兖州府曹县界", "distance_li": 40}
+          ],
+          "to_capital": [
+            {"capital": "京师", "distance_li": 1550},
+            {"capital": "南京", "distance_li": 1180}
+          ],
+          "grain_tax": {"amount": 77600, "unit": "石", "note": "七万七千六百石零"},
+          "jun_name": "睢阳",
+          "topography": "控江淮联萧砀【府志】平衍四达控江淮联萧砀袵河脇洛此其地岂不最重哉；居天下膏腴地【迁史】谓梁为天中居天下膏腴地；精气上应列星【説者谓商丘之精气上应列星世称阏台是也】",
+          "customs": "有先王遗风【汉志】睢阳古郡犹有先王之遗风；重厚多君子【同上】重厚多君子好稼穑恶衣服而致富蔵；人皆有忠义【异闻集】人皆有忠义之风其本于张巡许逺之表倡欤；土沃俗淳【官制】土沃俗淳事简易治",
+          "garrisons": [
+            {"name": "归德卫", "type": "卫", "location_text": "在府治东"},
+            {"name": "睢阳卫", "type": "卫", "location_text": "在睢州治东南俱洪武二十二年建"}
+          ],
+          "fiefs": []
+        },
+        "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004", "CIT-005"]
+      },
+      {
+        "geo_id": "GEO-27001w01",
+        "item_id": "27-001",
+        "name": "归德卫",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {"location_text": "在府治东"},
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-27001w02",
+        "item_id": "27-001",
+        "name": "睢阳卫",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {"location_text": "在睢州治东南俱洪武二十二年建"},
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "周", "era": None, "institution_name": "宋国", "action": "置", "detail": "禹贡豫州之域，天文房心分野，古商丘汤所居亳都地，周封微子于此为宋国"},
+      {"evo_id": "EVO-002", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "战国", "era": None, "institution_name": "三分其地", "action": "因之", "detail": "战国齐楚魏三分其地"},
+      {"evo_id": "EVO-003", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "秦", "era": None, "institution_name": "砀郡", "action": "置", "detail": "秦为砀郡"},
+      {"evo_id": "EVO-004", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "汉", "era": None, "institution_name": "梁国", "action": "改", "detail": "汉改为梁国，后汉晋俱因之"},
+      {"evo_id": "EVO-005", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "南北朝", "era": "后魏", "institution_name": "梁郡", "action": "置", "detail": "后魏置梁郡，后周改曰梁州"},
+      {"evo_id": "EVO-006", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "隋", "era": None, "institution_name": "宋州", "action": "置", "detail": "隋初置宋州，大业初改为梁郡以宋城等八县属焉"},
+      {"evo_id": "EVO-007", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "唐", "era": None, "institution_name": "睢阳郡", "action": "改", "detail": "唐初仍为宋州，寻改为睢阳郡"},
+      {"evo_id": "EVO-008", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "五代", "era": None, "institution_name": "宣武军", "action": "置", "detail": "五代梁置宣武军，唐改归德军以灭梁袁象先入朝故名"},
+      {"evo_id": "EVO-009", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "宋", "era": None, "institution_name": "南京应天府", "action": "升", "detail": "宋升为南京应天府治宋城"},
+      {"evo_id": "EVO-010", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "金", "era": None, "institution_name": "归德府", "action": "改", "detail": "金改府曰归德，元仍旧"},
+      {"evo_id": "EVO-011", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "明", "era": "洪武", "institution_name": "归德州", "action": "降", "detail": "本朝洪武初降为州属开封府"},
+      {"evo_id": "EVO-012", "item_id": "27-001", "geo_id": "GEO-27001", "dynasty": "明", "era": "嘉靖", "institution_name": "归德府", "action": "升", "detail": "嘉靖中复为归德府直隶河南布政使司而增以睢州等县焉，领州一县八"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "27-001", "geo_id": "GEO-27001", "name": "幸山", "type": "山", "location_text": "在府城南三里", "description": "宋高宗即皇帝位于此", "lore": "本朝李嵩诗宋家事业已荒芜原庙犹存故里区最是翠华临驭地土人今作幸山呼"},
+      {"mtn_id": "MTN-002", "item_id": "27-001", "geo_id": "GEO-27001", "name": "黄河", "type": "河", "location_text": "在府城北三十里丁家道口北达于徐", "description": "又鹿邑县北距黄河二十里，睢州东距河一十八里，考城县北距河八里，柘城县南距河三里，县东距河二十五里", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "27-001", "geo_id": "GEO-27001", "name": "玄明河", "type": "河", "location_text": "在府城南六里", "description": "宋太祖为归德节度使尝饮马于此，又名饮马池", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "27-001", "geo_id": "GEO-27001", "name": "贾鲁河", "type": "河", "location_text": "在府城西北四十里", "description": "元工部尚书贾鲁督修因名", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "27-001", "geo_id": "GEO-27001", "name": "沙河", "type": "河", "location_text": "在府旧城南门外", "description": "源出汴梁流入于亳", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "27-001", "geo_id": "GEO-27001", "name": "沁河", "type": "河", "location_text": "在府城北三十五里", "description": "源出绵山自武陟经本府合流于徐", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "27-001", "geo_id": "GEO-27001", "name": "南湖", "type": "湖", "location_text": "在府城南五里", "description": "宋晏元献放驯鹭于湖中", "lore": "苏辙有记"},
+      {"mtn_id": "MTN-008", "item_id": "27-001", "geo_id": "GEO-27001", "name": "灵井", "type": "井", "location_text": "在府城南四十里高辛庙中", "description": "世传井始有四今存其一在东廊，四时不竭，遇旱土人取水祷雨", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "27-001", "geo_id": "GEO-27001", "name": "石井", "type": "井", "location_text": "在府城内大隅西", "description": "", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "27-001", "geo_id": "GEO-27001", "name": "漆沟", "type": "河", "location_text": "在府城北一名陨石河", "description": "春秋陨石于宋五，相传沟水涸时五石即见", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "27-001", "geo_id": "GEO-27001", "name": "黄池", "type": "池", "location_text": "在府城西三十里", "description": "梁惠王十六年侵宋黄池，宋复取之即此", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "27-001", "geo_id": "GEO-27001", "name": "清泠池", "type": "池", "location_text": "在梁园内", "description": "李白在清泠池作鸣皋歌即此", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "27-001", "geo_id": "GEO-27001", "name": "枸杞子", "category": "药材", "note": "俱各县出"},
+      {"prod_id": "PROD-002", "item_id": "27-001", "geo_id": "GEO-27001", "name": "香附子", "category": "药材", "note": ""},
+      {"prod_id": "PROD-003", "item_id": "27-001", "geo_id": "GEO-27001", "name": "瓜蒌仁", "category": "药材", "note": ""},
+      {"prod_id": "PROD-004", "item_id": "27-001", "geo_id": "GEO-27001", "name": "何首乌", "category": "药材", "note": ""},
+      {"prod_id": "PROD-005", "item_id": "27-001", "geo_id": "GEO-27001", "name": "蟾酥", "category": "药材", "note": ""},
+      {"prod_id": "PROD-006", "item_id": "27-001", "geo_id": "GEO-27001", "name": "半夏", "category": "药材", "note": ""},
+      {"prod_id": "PROD-007", "item_id": "27-001", "geo_id": "GEO-27001", "name": "天南星", "category": "药材", "note": ""},
+      {"prod_id": "PROD-008", "item_id": "27-001", "geo_id": "GEO-27001", "name": "天花粉", "category": "药材", "note": ""},
+      {"prod_id": "PROD-009", "item_id": "27-001", "geo_id": "GEO-27001", "name": "茱萸", "category": "药材", "note": ""},
+      {"prod_id": "PROD-010", "item_id": "27-001", "geo_id": "GEO-27001", "name": "麦门冬", "category": "药材", "note": ""},
+      {"prod_id": "PROD-011", "item_id": "27-001", "geo_id": "GEO-27001", "name": "菟丝子", "category": "药材", "note": ""},
+      {"prod_id": "PROD-012", "item_id": "27-001", "geo_id": "GEO-27001", "name": "地骨皮", "category": "药材", "note": ""}
+    ],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "27-001", "cited_work": "府志", "cited_work_ent_id": "ENT-018", "context": "立论", "original": "【府志】"},
+      {"cit_id": "CIT-002", "item_id": "27-001", "cited_work": "迁史", "cited_work_ent_id": "ENT-019", "context": "立论", "original": "【迁史】"},
+      {"cit_id": "CIT-003", "item_id": "27-001", "cited_work": "汉志", "cited_work_ent_id": "ENT-020", "context": "证俗", "original": "【汉志】"},
+      {"cit_id": "CIT-004", "item_id": "27-001", "cited_work": "异闻集", "cited_work_ent_id": "ENT-021", "context": "证俗", "original": "【异闻集】"},
+      {"cit_id": "CIT-005", "item_id": "27-001", "cited_work": "官制", "cited_work_ent_id": "ENT-022", "context": "证俗", "original": "【官制】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "pers层拆至pers1/pers2/pers3；sites层拆至sites.json；府级山川只留府城附近，余入县文件"}
+}
+
+with open(os.path.join(OUT, "27-001_归德府.json"), "w", encoding="utf-8") as f:
+    json.dump(main, f, ensure_ascii=False, indent=2)
+
+print("Main file written")

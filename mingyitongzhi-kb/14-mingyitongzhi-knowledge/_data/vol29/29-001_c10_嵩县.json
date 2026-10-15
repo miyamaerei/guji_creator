@@ -1,0 +1,71 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "嵩县",
+  "region": "河南",
+  "type": "county",
+  "original": "嵩县【在府城南一百六十里古伊阙地秦晋迁陆浑戎于此汉置陆浑县属农郡晋属河南郡东魏置伊川郡隋改伊州寻废唐析置伊阳县属河南府五代时以陆浑省入伊阳宋又以伊阙县省入绍兴初陞为顺州金改嵩州治伊阳县元以县省入州属南阳府本朝改州为嵩县及改今属编户二十五里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "嵩县", "type": "geo", "norm": "嵩县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "三涂山", "type": "mtn", "norm": "三涂山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "伊尹", "type": "person", "norm": "伊尹", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c10",
+        "item_id": "29-001",
+        "name": "嵩县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城南一百六十里",
+          "households": {"count": 25, "unit": "里", "note": "编户二十五里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "周", "era": null, "institution_name": "伊阙地/陆浑戎", "action": "因之", "detail": "古伊阙地，秦晋迁陆浑戎于此"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "汉", "era": null, "institution_name": "陆浑县", "action": "置", "detail": "汉置陆浑县属弘农郡，晋属河南郡"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "南北朝", "era": "东魏", "institution_name": "伊川郡/伊州", "action": "置", "detail": "东魏置伊川郡，隋改伊州寻废"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "唐", "era": null, "institution_name": "伊阳县", "action": "置", "detail": "唐析置伊阳县属河南府，五代时以陆浑省入伊阳"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "宋", "era": "绍兴", "institution_name": "顺州", "action": "升", "detail": "宋又以伊阙县省入，绍兴初升为顺州"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "金", "era": null, "institution_name": "嵩州", "action": "改", "detail": "金改嵩州治伊阳县"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "元", "era": null, "institution_name": "嵩州", "action": "因之", "detail": "元以县省入州属南阳府"},
+      {"evo_id": "EVO-008", "item_id": "29-001", "geo_id": "GEO-29001c10", "dynasty": "明", "era": null, "institution_name": "嵩县", "action": "改", "detail": "本朝改州为嵩县，及改今属河南府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "三涂山", "type": "山", "location_text": "在嵩县西南一十里", "description": "周武王南望三涂谓此，山有龙祠", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "奉牛山", "type": "山", "location_text": "在嵩县东三十里", "description": "山下有灵泉寺", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "介立山", "type": "山", "location_text": "在嵩县北四十里，一名孤山", "description": "唐武后巡幸至此将半见神人立云雾中或隐或见", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "鸣皋山", "type": "山", "location_text": "在嵩县东北四十里", "description": "宋程颢作邵雍墓志铭，鸣皋在南谓此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "陆浑山", "type": "山", "location_text": "在嵩县东北四十里，一名方山", "description": "汉末隐士胡昭隐居于此，又陆浑之山伊水出焉", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "露宝山", "type": "山", "location_text": "在嵩县北六十里", "description": "产锡矿", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "厘山", "type": "山", "location_text": "在嵩县西", "description": "山阳多玉阴多搜，有兽焉其状如牛苍身音如婴儿食人名曰犀渠", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "七峰", "type": "峰", "location_text": "在嵩县南三十里", "description": "山有七峰", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "空桑涧", "type": "其他", "location_text": "在嵩县南一十五里", "description": "昔有莘氏女采桑于伊川得子于空桑中长而相殷是为伊尹即此", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "御史滩", "type": "其他", "location_text": "在嵩县北九十里", "description": "剧谈录每僚佐有入台者即水中滩出，唐牛僧孺为尉忽三滩出", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "高都川", "type": "河", "location_text": "在嵩县西北五里", "description": "源自大矿山下流入伊", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "吴祥", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知嵩县", "summary": "永乐间知嵩县，为政宽和流民自归者二百余户，祷神获虎二十余贼党散去"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "邵雍", "type": "人物", "dynasty": "宋", "native_place": "范阳", "office": "颍州团练推官", "summary": "葬其亲伊水上遂家焉，程颢作墓志铭，墓在嵩县北"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "嵩县学", "type": "学校", "location_text": "在县治西", "history_lore": "洪武二年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "伊川书院", "type": "书院", "location_text": "在嵩县治北", "history_lore": "元延祐间建，庑东有九贤祠"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "伊尹庙", "type": "祠庙", "location_text": "在嵩县东", "history_lore": ""},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "九贤祠", "type": "祠庙", "location_text": "在嵩县治北", "history_lore": "九贤宋周敦颐程颢程颐邵雍张载司马光吕祖谦朱熹，元许衡"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "陆浑废县", "type": "古迹", "location_text": "在嵩县北三十里", "history_lore": "秦置，即秦晋迁戎之地"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c10", "name": "邵雍墓", "type": "陵墓", "location_text": "在嵩县北", "history_lore": "宋程颢作记"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

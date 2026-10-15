@@ -1,0 +1,73 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "卢氏县",
+  "region": "河南",
+  "type": "county",
+  "original": "卢氏县【在府城西南三百四十里本虢之莘地汉因卢敖得仙始置卢氏县属农郡晋属上洛郡后魏置洛安郡西魏改义川郡隋初改虢州皆治卢氏唐徙州治农五代及宋金俱属虢州元属嵩州本朝初属陜州寻改今属编户四十里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "卢氏县", "type": "geo", "norm": "卢氏县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "熊耳山", "type": "mtn", "norm": "熊耳山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "耿九畴", "type": "person", "norm": "耿九畴", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c11",
+        "item_id": "29-001",
+        "name": "卢氏县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城西南三百四十里",
+          "households": {"count": 40, "unit": "里", "note": "编户四十里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "周", "era": null, "institution_name": "虢之莘地", "action": "因之", "detail": "本虢之莘地"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "汉", "era": null, "institution_name": "卢氏县", "action": "置", "detail": "汉因卢敖得仙始置卢氏县属弘农郡"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "晋", "era": null, "institution_name": "卢氏县", "action": "因之", "detail": "晋属上洛郡"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "南北朝", "era": "后魏", "institution_name": "洛安郡/义川郡", "action": "置", "detail": "后魏置洛安郡，西魏改义川郡"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "隋", "era": null, "institution_name": "虢州", "action": "改", "detail": "隋初改虢州皆治卢氏"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "唐", "era": null, "institution_name": "卢氏县", "action": "因之", "detail": "唐徙州治弘农，五代及宋金俱属虢州"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "元", "era": null, "institution_name": "卢氏县", "action": "因之", "detail": "元属嵩州"},
+      {"evo_id": "EVO-008", "item_id": "29-001", "geo_id": "GEO-29001c11", "dynasty": "明", "era": null, "institution_name": "卢氏县", "action": "改", "detail": "本朝初属陕州寻改今属河南府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "观音山", "type": "山", "location_text": "在卢氏县西三十五里", "description": "山有观音寺，沙窝水出焉", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "小青山", "type": "山", "location_text": "在卢氏县西四十里", "description": "产青碌", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "熊耳山", "type": "山", "location_text": "在卢氏县西南五十里", "description": "山连永宁界，两峰相并如熊耳，禹贡导洛自熊耳即此", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "抱犊山", "type": "山", "location_text": "在卢氏县东南九十里，一名抱犊寨", "description": "山极高峻，昔人多避兵于此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "邢公山", "type": "山", "location_text": "在卢氏县北九十里", "description": "唐盛彦师杀李密王伯当于此，以密尝封邢国公故名", "lore": "下有断密涧"},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "老君山", "type": "山", "location_text": "在卢氏县东南二百五十里", "description": "相传老子修道于此，上有丹灶丹井", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "铁岭", "type": "岭", "location_text": "在卢氏县北四十里", "description": "山极险隘，古设关于此", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "闷顿岭", "type": "岭", "location_text": "在卢氏县东南一百六十里", "description": "伊水出焉", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "九龙凹", "type": "其他", "location_text": "在卢氏县北二里", "description": "其凹有九状如缺环，中有九龙庙", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "大淙潭", "type": "潭", "location_text": "在卢氏县东北九十里", "description": "潭中有石瓮围五十余步其深莫测，潭后有大淙因名", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "马回川", "type": "河", "location_text": "在卢氏县东北七十里", "description": "相传唐盛彦师伐李密于此振旅而回故名", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "断密涧", "type": "河", "location_text": "在卢氏县东北九十里", "description": "盛彦师斩李密处", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "王桓", "type": "名宦", "dynasty": "明", "native_place": "", "office": "卢氏知县", "summary": "洪武间卢氏知县，廉慎自持抑豪强剔蠹弊，暇日巡历乡社问民疾苦，在职六年境内熙然"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "耿九畴", "type": "人物", "dynasty": "明", "native_place": "卢氏", "office": "南京刑部尚书", "summary": "永乐甲辰进士，天性孝友，奉身节俭，凡论事是非邪正确然不移，卒谥清惠"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "耿裕", "type": "人物", "dynasty": "明", "native_place": "卢氏", "office": "吏部尚书", "summary": "九畴子，景泰甲戌进士，累官太子太保吏部尚书，平生坦夷世守清白，卒谥文恪"},
+      {"per_id": "PER-004", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "张世英", "type": "名宦", "dynasty": "元", "native_place": "", "office": "卢氏县尹", "summary": "勤于抚字，邑人祠之"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "卢氏县学", "type": "学校", "location_text": "在县治东南", "history_lore": "元元统二年建，本朝正统十年重修"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "扁鹊庙", "type": "祠庙", "location_text": "在卢氏县东", "history_lore": "扁鹊即秦越人，战国时名医"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "虢仲庙", "type": "祠庙", "location_text": "在卢氏县东北", "history_lore": "虢周诸侯"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "通真观? 成德观", "type": "寺观", "location_text": "在卢氏县东", "history_lore": "成德观后周时建，元延祐中重修"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c11", "name": "白华关", "type": "关梁", "location_text": "在卢氏县西", "history_lore": "路通陕西，今置戍隶弘农卫"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

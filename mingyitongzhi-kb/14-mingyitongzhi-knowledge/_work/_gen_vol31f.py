@@ -1,0 +1,112 @@
+# -*- coding: utf-8 -*-
+"""Generate vol31 s02 光州, c09 光山, c10 固始, c11 息县, c12 商城."""
+import json, os
+OUT = r"E:\git\ToolBox\guji\mingyitongzhi-kb\14-mingyitongzhi-knowledge\_data\vol31"
+
+def dump(name, obj):
+    p = os.path.join(OUT, name)
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+    print(f"  {name}: {os.path.getsize(p)} bytes")
+
+# s02 光州
+s02 = {
+  "item_id": "31-001", "volume": "31", "source": "光州", "region": "河南", "type": "subprefecture",
+  "original": "光州【在府城东三百里本禹贡扬州之域春秋为黄蒋三国地战国属楚秦属九江郡汉属汝南江夏二郡三国魏析置弋阳郡晋属弋阳汝隂二郡宋齐属光城弋阳新蔡三郡梁末置光州治光城县隋改弋阳郡唐复为光州徙治定城天寳初改弋阳郡后复为光州宋陞光山军节度后改蒋州寻复光州元属汝宁府省定城县入焉本朝初改属鳯阳府洪武十三年仍属汝宁府编户二十二里领县四】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "光州", "type": "geo", "norm": "光州", "first_source": "31-001"},
+      {"ent_id": "ENT-002", "name": "马家湖", "type": "mtn", "norm": "马家湖", "first_source": "31-001"},
+      {"ent_id": "ENT-003", "name": "小黄河", "type": "mtn", "norm": "小黄河", "first_source": "31-001"},
+      {"ent_id": "ENT-004", "name": "白露河", "type": "mtn", "norm": "白露河", "first_source": "31-001"},
+      {"ent_id": "ENT-005", "name": "潢水", "type": "mtn", "norm": "潢水", "first_source": "31-001"},
+      {"ent_id": "ENT-006", "name": "亚港", "type": "mtn", "norm": "亚港", "first_source": "31-001"},
+      {"ent_id": "ENT-007", "name": "金线泉", "type": "mtn", "norm": "金线泉", "first_source": "31-001"},
+      {"ent_id": "ENT-008", "name": "弋阳郡", "type": "geo", "norm": "弋阳郡", "first_source": "31-001"},
+      {"ent_id": "ENT-009", "name": "定城县", "type": "geo", "norm": "定城县", "first_source": "31-001"},
+      {"ent_id": "ENT-010", "name": "黄歇", "type": "person", "norm": "黄歇", "first_source": "31-001"},
+      {"ent_id": "ENT-011", "name": "司马光", "type": "person", "norm": "司马光", "first_source": "31-001"},
+      {"ent_id": "ENT-012", "name": "马祖常", "type": "person", "norm": "马祖常", "first_source": "31-001"},
+      {"ent_id": "ENT-013", "name": "王潮", "type": "person", "norm": "王潮", "first_source": "31-001"},
+      {"ent_id": "ENT-014", "name": "王审知", "type": "person", "norm": "王审知", "first_source": "31-001"},
+      {"ent_id": "ENT-015", "name": "柴中行", "type": "person", "norm": "柴中行", "first_source": "31-001"},
+      {"ent_id": "ENT-016", "name": "王霆", "type": "person", "norm": "王霆", "first_source": "31-001"},
+      {"ent_id": "ENT-017", "name": "刘绍先", "type": "person", "norm": "刘绍先", "first_source": "31-001"},
+      {"ent_id": "ENT-018", "name": "唐亨", "type": "person", "norm": "唐亨", "first_source": "31-001"},
+      {"ent_id": "ENT-019", "name": "沈氏", "type": "person", "norm": "沈氏", "first_source": "31-001"}
+    ],
+    "geos": [{
+      "geo_id": "GEO-31001s02", "item_id": "31-001", "name": "光州", "type": "subprefecture", "region": "河南",
+      "parent": "GEO-31001", "children": ["GEO-31001c09","GEO-31001c10","GEO-31001c11","GEO-31001c12"], "volume_range": "卷31",
+      "attributes": {"location_text": "在府城东三百里", "households": {"count": 22, "unit": "里", "note": "编户二十二里领县四"}},
+      "cit_ids": []
+    }],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "周", "era": None, "institution_name": "弦黄蒋三国地", "action": "置", "detail": "本禹贡扬州之域，春秋为弦黄蒋三国地"},
+      {"evo_id": "EVO-002", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "秦", "era": None, "institution_name": "九江郡", "action": "置", "detail": "战国属楚，秦属九江郡"},
+      {"evo_id": "EVO-003", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "汉", "era": None, "institution_name": "汝南江夏二郡", "action": "置", "detail": "汉属汝南江夏二郡"},
+      {"evo_id": "EVO-004", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "三国", "era": "魏", "institution_name": "弋阳郡", "action": "置", "detail": "三国魏析置弋阳郡"},
+      {"evo_id": "EVO-005", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "南北朝", "era": "梁", "institution_name": "光州", "action": "置", "detail": "梁末置光州治光城县，隋改弋阳郡"},
+      {"evo_id": "EVO-006", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "唐", "era": None, "institution_name": "光州", "action": "复置", "detail": "唐复为光州，徙治定城，天宝初改弋阳郡，后复为光州"},
+      {"evo_id": "EVO-007", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "宋", "era": None, "institution_name": "光山军节度/蒋州", "action": "升", "detail": "宋升光山军节度，后改蒋州寻复光州"},
+      {"evo_id": "EVO-008", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "元", "era": None, "institution_name": "光州", "action": "因之", "detail": "元属汝宁府，省定城县入焉"},
+      {"evo_id": "EVO-009", "item_id": "31-001", "geo_id": "GEO-31001s02", "dynasty": "明", "era": "洪武", "institution_name": "光州", "action": "改属", "detail": "本朝初改属凤阳府，洪武十三年仍属汝宁府"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "马家湖", "type": "湖", "location_text": "在光州西三十里", "description": "水可灌田利民", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "小黄河", "type": "河", "location_text": "在光州治前", "description": "源出湖广麻城县分水岭北流合恨沟入淮", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "白露河", "type": "河", "location_text": "在光州东四十里", "description": "源出分水岭合春河入淮", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "潢水", "type": "河", "location_text": "在光州", "description": "源出黄土白沙两关之间，东流至州南抱城而东与淮水合流", "lore": "赵彦珖诗潢河绕出郡城楼楼枕潢南城上头"},
+      {"mtn_id": "MTN-005", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "亚港", "type": "港", "location_text": "在光州东二十五里", "description": "水可灌田利民", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "金线泉", "type": "泉", "location_text": "在光州城南", "description": "", "lore": "宋赵抃诗玉甃常浮灏气鲜金线不定路南泉"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "黄歇", "type": "人物", "dynasty": "战国", "native_place": "光州", "office": "春申君", "summary": "楚人事楚考烈王封春申君，食客至三千余人；州治即其故宅，州东三里河北岸有春申君丹灶"},
+      {"per_id": "PER-002", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "王潮", "type": "人物", "dynasty": "唐", "native_place": "光州固始", "office": "威武军节度使", "summary": "与弟审邽审知并以材气知名，僖宗时举兵略定闽地，后为威武军节度使；审知后为闽王"},
+      {"per_id": "PER-003", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "柴中行", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知光州", "summary": "嘉定中知光州，严保伍精阅习，增辟屯田城壕营砦器械糗粮百尔具备，治行为淮右最"},
+      {"per_id": "PER-004", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "王霆", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知光州", "summary": "时北兵至民奔遁相属，霆分遣问探整饬战守之具，大战于谢令桥，光人遂安"},
+      {"per_id": "PER-005", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "刘绍先", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "光州驻兵", "summary": "靖康初京城失守，绍先以兵数千屯光州，故是时诸郡多破而光得独全"},
+      {"per_id": "PER-006", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "唐亨", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知光州", "summary": "永乐初知光州，练达政体勤谨自励，绰着能声"},
+      {"per_id": "PER-007", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "马祖常", "type": "流寓", "dynasty": "元", "native_place": "西域", "office": "御史中丞", "summary": "父润同知漳州路家于光州，祖常延祐初廷试第二，工文章务去陈腐，文宗谓中原硕儒唯祖常"},
+      {"per_id": "PER-008", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "何德", "type": "人物", "dynasty": "明", "native_place": "光州", "office": "庐江侯", "summary": "元季江淮兵起，德委身归本朝屡立战功，升左军都督府都督佥事，追封庐江侯谥庄毅"},
+      {"per_id": "PER-009", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "刘进", "type": "人物", "dynasty": "明", "native_place": "光州", "office": "太仆寺丞", "summary": "由贡中顺天乡试，除太平府通判，连遭父母丧哀毁骨立，结庐墓侧负土成坟，有司请旌为孝子"},
+      {"per_id": "PER-010", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "沈氏", "type": "列女", "dynasty": "明", "native_place": "光州", "office": "郝昂妻", "summary": "夫亡沈年十九，焚香吁天断左手一指誓不再醮，四十七年始终一节，诏特旌表"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "光州学", "type": "学校", "location_text": "在州治西", "history_lore": "元建，洪武七年重修"},
+      {"site_id": "SITE-002", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "镇淮楼", "type": "宫室", "location_text": "在光州潢桥门上", "history_lore": "宋建"},
+      {"site_id": "SITE-003", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "筹边楼", "type": "宫室", "location_text": "在光州城", "history_lore": "宋建"},
+      {"site_id": "SITE-004", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "愚阁", "type": "宫室", "location_text": "在光州学东南圃内", "history_lore": "宋盛度赋弋阳十咏"},
+      {"site_id": "SITE-005", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "烟水堂", "type": "宫室", "location_text": "在光山县治西", "history_lore": "宋张彻诗此堂纵逐人俱废亦有阳冰篆字存"},
+      {"site_id": "SITE-006", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "宣化堂", "type": "宫室", "location_text": "在光州治", "history_lore": "宋太守王闻有诗"},
+      {"site_id": "SITE-007", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "忠清堂", "type": "宫室", "location_text": "在光州治便厅之东", "history_lore": "宋王闻诗建以祠司马光"},
+      {"site_id": "SITE-008", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "归雁亭", "type": "宫室", "location_text": "在光州故滑城内", "history_lore": "宋欧阳修诗长河终岁足悲风亭古台荒半倚空"},
+      {"site_id": "SITE-009", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "杏亭", "type": "宫室", "location_text": "在光州治", "history_lore": "宋盛度诗弋阳信夷旷深在乱山中"},
+      {"site_id": "SITE-010", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "修竹台", "type": "台", "location_text": "在光州", "history_lore": "宋盛度诗我来小小郡爱此高高台前对苍筤竹万竿"},
+      {"site_id": "SITE-011", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "谢灵桥", "type": "关梁", "location_text": "在光州西门外", "history_lore": ""},
+      {"site_id": "SITE-012", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "南关桥", "type": "关梁", "location_text": "在光州县南", "history_lore": ""},
+      {"site_id": "SITE-013", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "普惠寺", "type": "寺观", "location_text": "在光州治西", "history_lore": ""},
+      {"site_id": "SITE-014", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "玉清观", "type": "寺观", "location_text": "在光州南", "history_lore": "正统中建"},
+      {"site_id": "SITE-015", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "司马温公庙", "type": "祠庙", "location_text": "在光州儒学有碑", "history_lore": "温公宋司马光也，洪武六年重建"},
+      {"site_id": "SITE-016", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "闵忠庙", "type": "祠庙", "location_text": "在光州西", "history_lore": "祀陈亨祖，宋绍兴末以兵据淮宁杀金知州以城归宋，后金人攻城力战死，举家五十余人皆死"},
+      {"site_id": "SITE-017", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "刘伶墓", "type": "陵墓", "location_text": "在光州北", "history_lore": "傍有井，伶晋名人相传死葬此"},
+      {"site_id": "SITE-018", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "马祖常墓", "type": "陵墓", "location_text": "在光州西四十里", "history_lore": "葬元中丞马祖常，有碑"},
+      {"site_id": "SITE-019", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "孝女墓", "type": "陵墓", "location_text": "在光山县东", "history_lore": "世传唐氏女负土葬父故名"},
+      {"site_id": "SITE-020", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "古黄国", "type": "古迹", "location_text": "在定城废县西一十二里", "history_lore": "古黄子国也"},
+      {"site_id": "SITE-021", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "弋阳城", "type": "古迹", "location_text": "在光州废定城县", "history_lore": "汉为弋阳国，后魏置郡，唐光州治此"},
+      {"site_id": "SITE-022", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "弋阳台", "type": "古迹", "location_text": "在光州定城废县西二里", "history_lore": ""},
+      {"site_id": "SITE-023", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "黄歇宅", "type": "古迹", "location_text": "光州州治", "history_lore": "楚考烈王赐春申君黄歇淮北地十二县故有宅在此"},
+      {"site_id": "SITE-024", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "东龙门/西龙门", "type": "古迹", "location_text": "在光州定城废县西南", "history_lore": "东龙门在西南二十里，西龙门在西南二百三十里"},
+      {"site_id": "SITE-025", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "废弦州", "type": "古迹", "location_text": "在光州废定城县", "history_lore": "唐初置寻废"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "石斛", "category": "药", "location_text": "光州出"},
+      {"prod_id": "PROD-002", "item_id": "31-001", "geo_id": "GEO-31001s02", "name": "棋子石", "category": "矿", "location_text": "光山息县出"}
+    ],
+    "cits": []
+  },
+  "layer_count": 7, "validation": {"errs": [], "gap": 0, "notes": ""}
+}
+dump("31-001_s02_光州.json", s02)
+
+print("DONE s02")

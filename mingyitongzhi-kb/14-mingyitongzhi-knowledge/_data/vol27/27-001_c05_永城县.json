@@ -1,0 +1,133 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "永城县",
+  "region": "河南",
+  "type": "county",
+  "original": "永城县【在府城东一百八十里编户二十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "永城县",
+        "type": "geo",
+        "norm": "永城县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c05",
+        "item_id": "27-001",
+        "name": "永城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城东一百八十里",
+          "households": {
+            "count": 24,
+            "unit": "里",
+            "note": "编户二十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "芒县",
+        "action": "置",
+        "detail": "本春秋芒县地亦名犬丘"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "临睢太丘",
+        "action": "改",
+        "detail": "东汉改芒曰临睢犬丘曰太丘，三国魏二县俱废"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "永城县",
+        "action": "置",
+        "detail": "隋始置永城县属谯州后废，唐复置属亳州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "永城县",
+        "action": "因之",
+        "detail": "宋仍旧元属归德，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "name": "砀山",
+        "type": "山",
+        "location_text": "在永城县北八十里",
+        "description": "即汉高祖隐处又名磨山，白毛山石洞山黄土山戏山绵亘几二十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "name": "夫子岩",
+        "type": "岩",
+        "location_text": "在永城县北",
+        "description": "世传夫子经此后人因肖像壁间",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "name": "永城县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "元建本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c05",
+        "name": "造律台",
+        "type": "古迹",
+        "location_text": "在永城县西南三里",
+        "history_lore": "上有汉酂侯萧何庙"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

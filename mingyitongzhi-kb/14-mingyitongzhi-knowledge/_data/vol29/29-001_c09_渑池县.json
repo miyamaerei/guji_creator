@@ -1,0 +1,68 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "渑池县",
+  "region": "河南",
+  "type": "county",
+  "original": "渑池县【在府城西一百六十里本韩地后属秦汉置渑池县属农郡以地在崤黾间故名新莽改陜亭东汉复旧曹魏徙治蠡城西魏属河南郡后周属同轨郡隋徙治大坞城属熊州后属宜阳郡唐初属谷州贞观初徙今治宋属河南府金置韶州元省州复为县本朝因之编户二十五里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "渑池县", "type": "geo", "norm": "渑池县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "韶山", "type": "mtn", "norm": "韶山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "曹端", "type": "person", "norm": "曹端", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c09",
+        "item_id": "29-001",
+        "name": "渑池县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城西一百六十里",
+          "households": {"count": 25, "unit": "里", "note": "编户二十五里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "战国", "era": null, "institution_name": "韩地/秦地", "action": "因之", "detail": "本韩地后属秦"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "汉", "era": null, "institution_name": "渑池县", "action": "置", "detail": "汉置渑池县属弘农郡，以地在崤黾间故名，新莽改陕亭东汉复旧"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "三国", "era": "魏", "institution_name": "渑池县", "action": "迁", "detail": "曹魏徙治蠡城，西魏属河南郡，后周属同轨郡"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "隋", "era": null, "institution_name": "渑池县", "action": "迁", "detail": "隋徙治大坞城属熊州，后属宜阳郡"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "唐", "era": "贞观", "institution_name": "渑池县", "action": "迁", "detail": "唐初属谷州，贞观初徙今治"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "金", "era": null, "institution_name": "韶州", "action": "置", "detail": "宋属河南府，金置韶州"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001c09", "dynasty": "元", "era": null, "institution_name": "渑池县", "action": "省", "detail": "元省州复为县，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "白石山", "type": "山", "location_text": "在渑池县东北二十三里", "description": "涧水所出", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "田山", "type": "山", "location_text": "在渑池县东北三十里", "description": "山平可种", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "韶山", "type": "山", "location_text": "在渑池县北三十里", "description": "左右有金乌玉兔二峰", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "方山", "type": "山", "location_text": "在渑池县东北三十里", "description": "山顶四方", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "广阳山", "type": "山", "location_text": "在渑池县东北三十里，一名沔池山", "description": "北溪水出焉", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "桓王山", "type": "山", "location_text": "在渑池县北九十七里", "description": "以山顶有周桓王庙而名", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "渑水", "type": "河", "location_text": "在渑池县南", "description": "源出马头山东流过千秋岭与潭水合", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "渑池", "type": "池", "location_text": "在渑池县治北", "description": "黾似蛙而腹大，池有此因名", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "曹端", "type": "人物", "dynasty": "明", "native_place": "渑池", "office": "蒲霍二州学正", "summary": "端重有守潜心经书，尤好性理之学，其教人每以践履为主，号月川先生"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "卢方春", "type": "人物", "dynasty": "明", "native_place": "渑池", "office": "山东布政使", "summary": "性明敏博通经史，洪武间以才行卓越荐任山东布政使"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "刘瑾", "type": "人物", "dynasty": "明", "native_place": "渑池", "office": "福建右布政使", "summary": "资貌魁伟性孝友，永乐初以大学生任福建右布政使"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "渑池县学", "type": "学校", "location_text": "在县治南", "history_lore": "洪武五年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "会盟台", "type": "古迹", "location_text": "在渑池县西城外", "history_lore": "秦昭王与赵惠王会盟于此，今有秦赵二王庙在县治西"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "桓王陵", "type": "陵墓", "location_text": "在渑池县北桓王山上", "history_lore": "周桓王"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "魏文帝首阳陵", "type": "陵墓", "location_text": "在渑池县首阳山南", "history_lore": ""},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "廨院寺", "type": "寺观", "location_text": "在渑池县南", "history_lore": "宋建，本朝洪武中重修"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c09", "name": "曹端祠", "type": "祠庙", "location_text": "在渑池县学内", "history_lore": "祀本朝曹端，本朝蒲霍二州学正"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

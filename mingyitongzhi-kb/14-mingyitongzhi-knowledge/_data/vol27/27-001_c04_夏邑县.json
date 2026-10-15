@@ -1,0 +1,112 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "夏邑县",
+  "region": "河南",
+  "type": "county",
+  "original": "夏邑县【在府城东一百二十里编户一十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "夏邑县",
+        "type": "geo",
+        "norm": "夏邑县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c04",
+        "item_id": "27-001",
+        "name": "夏邑县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c04",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "下邑地",
+        "action": "因之",
+        "detail": "战国时下邑地，秦属砀郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "下邑县",
+        "action": "置",
+        "detail": "汉置下邑县属梁国，后魏置砀郡于此"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c04",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "夏邑县",
+        "action": "改",
+        "detail": "金始改夏邑县属永州，元初并入睢阳寻复置"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c04",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "夏邑县",
+        "action": "因之",
+        "detail": "以谷熟县省入，本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c04",
+        "name": "夏邑县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "金大定间建，本朝洪武三年重建嘉靖间修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c04",
+        "name": "崇正书院",
+        "type": "书院",
+        "location_text": "在夏邑县慈胜寺西",
+        "history_lore": "嘉靖间重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

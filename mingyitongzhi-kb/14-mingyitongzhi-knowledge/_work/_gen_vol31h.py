@@ -1,0 +1,119 @@
+# -*- coding: utf-8 -*-
+"""Generate vol31 c10 固始, c11 息县, c12 商城."""
+import json, os
+OUT = r"E:\git\ToolBox\guji\mingyitongzhi-kb\14-mingyitongzhi-knowledge\_data\vol31"
+
+def dump(name, obj):
+    p = os.path.join(OUT, name)
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+    print(f"  {name}: {os.path.getsize(p)} bytes")
+
+# c10 固始县
+c10 = {
+  "item_id": "31-001", "volume": "31", "source": "固始县", "region": "河南", "type": "county",
+  "original": "固始县【在州东一百四十里春秋为蓼国汉为寝县属汝南郡东汉初改曰固始晋属汝隂郡梁改蓼县北齐复名固始置北建州寻废州置新蔡郡后周改置浍州隋初州郡并废以县属弋阳郡唐属光州宋以殷城县省入元仍旧本朝因之编户四十九里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "固始县", "type": "geo", "norm": "固始县", "first_source": "31-001"},
+      {"ent_id": "ENT-002", "name": "雾露山", "type": "mtn", "norm": "雾露山", "first_source": "31-001"},
+      {"ent_id": "ENT-003", "name": "安阳山", "type": "mtn", "norm": "安阳山", "first_source": "31-001"},
+      {"ent_id": "ENT-004", "name": "铜井山", "type": "mtn", "norm": "铜井山", "first_source": "31-001"},
+      {"ent_id": "ENT-005", "name": "木贼山", "type": "mtn", "norm": "木贼山", "first_source": "31-001"},
+      {"ent_id": "ENT-006", "name": "太苏山", "type": "mtn", "norm": "太苏山", "first_source": "31-001"},
+      {"ent_id": "ENT-007", "name": "金刚台山", "type": "mtn", "norm": "金刚台山", "first_source": "31-001"},
+      {"ent_id": "ENT-008", "name": "横溪山", "type": "mtn", "norm": "横溪山", "first_source": "31-001"},
+      {"ent_id": "ENT-009", "name": "人山", "type": "mtn", "norm": "人山", "first_source": "31-001"},
+      {"ent_id": "ENT-010", "name": "上天山", "type": "mtn", "norm": "上天山", "first_source": "31-001"},
+      {"ent_id": "ENT-011", "name": "史河", "type": "mtn", "norm": "史河", "first_source": "31-001"},
+      {"ent_id": "ENT-012", "name": "曲河", "type": "mtn", "norm": "曲河", "first_source": "31-001"},
+      {"ent_id": "ENT-013", "name": "石漕河", "type": "mtn", "norm": "石漕河", "first_source": "31-001"},
+      {"ent_id": "ENT-014", "name": "大灌水/小灌水", "type": "mtn", "norm": "大灌水", "first_source": "31-001"},
+      {"ent_id": "ENT-015", "name": "金浆涧水", "type": "mtn", "norm": "金浆涧水", "first_source": "31-001"},
+      {"ent_id": "ENT-016", "name": "淠水", "type": "mtn", "norm": "淠水", "first_source": "31-001"},
+      {"ent_id": "ENT-017", "name": "龙潭", "type": "mtn", "norm": "龙潭", "first_source": "31-001"},
+      {"ent_id": "ENT-018", "name": "金线源", "type": "mtn", "norm": "金线源", "first_source": "31-001"},
+      {"ent_id": "ENT-019", "name": "漆井", "type": "mtn", "norm": "漆井", "first_source": "31-001"},
+      {"ent_id": "ENT-020", "name": "温泉", "type": "mtn", "norm": "温泉", "first_source": "31-001"},
+      {"ent_id": "ENT-021", "name": "茹陂", "type": "mtn", "norm": "茹陂", "first_source": "31-001"},
+      {"ent_id": "ENT-022", "name": "期思城", "type": "geo", "norm": "期思城", "first_source": "31-001"},
+      {"ent_id": "ENT-023", "name": "废浍州", "type": "geo", "norm": "废浍州", "first_source": "31-001"},
+      {"ent_id": "ENT-024", "name": "孙叔敖", "type": "person", "norm": "孙叔敖", "first_source": "31-001"},
+      {"ent_id": "ENT-025", "name": "杨行密", "type": "person", "norm": "杨行密", "first_source": "31-001"},
+      {"ent_id": "ENT-026", "name": "王潮", "type": "person", "norm": "王潮", "first_source": "31-001"},
+      {"ent_id": "ENT-027", "name": "王审知", "type": "person", "norm": "王审知", "first_source": "31-001"},
+      {"ent_id": "ENT-028", "name": "王彬", "type": "person", "norm": "王彬", "first_source": "31-001"},
+      {"ent_id": "ENT-029", "name": "胡综", "type": "person", "norm": "胡综", "first_source": "31-001"},
+      {"ent_id": "ENT-030", "name": "许逵", "type": "person", "norm": "许逵", "first_source": "31-001"},
+      {"ent_id": "ENT-031", "name": "桂荣", "type": "person", "norm": "桂荣", "first_source": "31-001"}
+    ],
+    "geos": [{
+      "geo_id": "GEO-31001c10", "item_id": "31-001", "name": "固始县", "type": "county", "region": "河南",
+      "parent": "GEO-31001s02", "children": [], "volume_range": "卷31",
+      "attributes": {"location_text": "在州东一百四十里", "households": {"count": 49, "unit": "里", "note": "编户四十九里"}},
+      "cit_ids": []
+    }],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "31-001", "geo_id": "GEO-31001c10", "dynasty": "周", "era": None, "institution_name": "蓼国", "action": "置", "detail": "春秋为蓼国"},
+      {"evo_id": "EVO-002", "item_id": "EVO-002", "geo_id": "GEO-31001c10", "dynasty": "汉", "era": None, "institution_name": "寝县/固始县", "action": "改", "detail": "汉为寝县属汝南郡，东汉初改曰固始"},
+      {"evo_id": "EVO-003", "item_id": "31-001", "geo_id": "GEO-31001c10", "dynasty": "南北朝", "era": "北齐", "institution_name": "北建州/浍州", "action": "改", "detail": "梁改蓼县，北齐复名固始置北建州，寻废州置新蔡郡，后周改置浍州"},
+      {"evo_id": "EVO-004", "item_id": "31-001", "geo_id": "GEO-31001c10", "dynasty": "隋", "era": None, "institution_name": "固始县", "action": "因之", "detail": "隋初州郡并废以县属弋阳郡"},
+      {"evo_id": "EVO-005", "item_id": "31-001", "geo_id": "GEO-31001c10", "dynasty": "宋", "era": None, "institution_name": "固始县", "action": "省并", "detail": "唐属光州，宋以殷城县省入，元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "雾露山", "type": "山", "location_text": "在固始县西四十里", "description": "大灌水出此，旧经云山在雩娄之顶语讹为雾露", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "安阳山", "type": "山", "location_text": "在固始县东五十里一名大山", "description": "势高耸，上有白龙池", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "铜井山", "type": "山", "location_text": "在固始县西南八十里", "description": "上有井，旧用铜作口故名", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "木贼山", "type": "山", "location_text": "在固始县南一百里", "description": "产木贼草", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "太苏山", "type": "山", "location_text": "在固始县南一百五十里", "description": "有苏仙市", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "金刚台山", "type": "山", "location_text": "在固始县南一百八十里山极崇峻双峯高峙", "description": "一名石额山，上有风洞龙井祷雨辄应", "lore": "宋嘉熙初尝筑石城于山之阳为光州寓治"},
+      {"mtn_id": "MTN-007", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "横溪山", "type": "山", "location_text": "在固始县南二百八十里夹横水上", "description": "旧传为唐武后梳洗崖，相对有照镜崖，内有胭脂石粉石油石火石，其下有沙分为十八道", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "人山", "type": "山", "location_text": "在固始县南三里", "description": "有石似人", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "上天山", "type": "山", "location_text": "在固始县西南三百里", "description": "世传吴真人修道处，旧有石洞", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "史河", "type": "河", "location_text": "在固始县东二里", "description": "源出牛山东北流入淮", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "曲河", "type": "河", "location_text": "在固始县西一十里", "description": "源出汤坑池梅河北流入淮", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "石漕河", "type": "河", "location_text": "在固始县南一百五十里", "description": "源出太苏山北流入史河", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "大灌水/小灌水", "type": "河", "location_text": "俱在固始县西南四十里", "description": "俗音讹为浍水", "lore": "褚先论神龟出于江灌水间嘉林之中谓此水也"},
+      {"mtn_id": "MTN-014", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "金浆涧水", "type": "河", "location_text": "在固始县", "description": "源出太苏山，本名淦水，司马陈德顺以此水如白浆故改今名", "lore": ""},
+      {"mtn_id": "MTN-015", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "淠水", "type": "河", "location_text": "在固始县西五十里", "description": "水经云淠水入弋阳南岳山北流注于淮", "lore": "图经谓之白露水"},
+      {"mtn_id": "MTN-016", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "龙潭", "type": "潭", "location_text": "在固始县", "description": "旧瑞光院亦名挥泉，岁旱祷之有应；又有圣人潭石佛潭皆在县境", "lore": ""},
+      {"mtn_id": "MTN-017", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "金线源", "type": "泉", "location_text": "在固始县城外", "description": "自西南沿城东北与潢水合", "lore": ""},
+      {"mtn_id": "MTN-018", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "漆井", "type": "井", "location_text": "在固始县", "description": "前世传汉帝追项羽至此用漆布井便不通鹻水", "lore": ""},
+      {"mtn_id": "MTN-019", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "温泉", "type": "泉", "location_text": "在固始县西南山中", "description": "其热如汤，其色绿", "lore": ""},
+      {"mtn_id": "MTN-020", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "茹陂", "type": "陂", "location_text": "在固始县东南四十里", "description": "汉刺史刘馥筑以溉田", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "孙叔敖", "type": "人物", "dynasty": "周", "native_place": "楚", "office": "楚相", "summary": "为楚庄王相，封其子于寝丘四百户；固始西北七十里有期思城即其地"},
+      {"per_id": "PER-002", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "王潮", "type": "人物", "dynasty": "唐", "native_place": "光州固始", "office": "威武军节度使", "summary": "与弟审邽审知并以材气知名，举兵略定闽地，后为威武军节度使"},
+      {"per_id": "PER-003", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "王审知", "type": "人物", "dynasty": "五代", "native_place": "光州固始", "office": "闽王", "summary": "梁以为闽王；延嗣力谏义不帝秦，审知终其身不失臣节"},
+      {"per_id": "PER-004", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "胡综", "type": "人物", "dynasty": "三国", "native_place": "固始", "office": "吴偏将军", "summary": "仕吴典军国密事，为盟文文义甚美，官至偏将军兼左执法"},
+      {"per_id": "PER-005", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "王彬", "type": "人物", "dynasty": "宋", "native_place": "固始", "office": "太常少卿", "summary": "淳化中进士，所至能推恩行宽，后历京西京东陕西转运使"},
+      {"per_id": "PER-006", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "许逵", "type": "人物", "dynasty": "明", "native_place": "固始", "office": "江西副使", "summary": "正德戊辰进士，授乐陵知县以斩流贼功升山东佥事，转江西副使，值宸濠之变不屈被害，赠礼部尚书谥忠节"},
+      {"per_id": "PER-007", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "桂荣", "type": "名宦", "dynasty": "明", "native_place": "", "office": "固始县丞", "summary": "成化中固始县丞，慈爱得民，因名之曰桂惜民因"},
+      {"per_id": "PER-008", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "侯源", "type": "名宦", "dynasty": "明", "native_place": "", "office": "固始县簿", "summary": "天顺末主固始县簿，在任五年以绩著"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "固始县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武八年因元旧址重建"},
+      {"site_id": "SITE-002", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "远景阁", "type": "宫室", "location_text": "在固始县仙居镇", "history_lore": "宋绍圣初建，濮温其有记"},
+      {"site_id": "SITE-003", "item_id": "SITE-003", "geo_id": "GEO-31001c10", "name": "五水关", "type": "关梁", "location_text": "在固始县西南一百三十里", "history_lore": "古有隘口"},
+      {"site_id": "SITE-004", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "观音寺", "type": "寺观", "location_text": "在固始县西南", "history_lore": "洪武初因旧重建"},
+      {"site_id": "SITE-005", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "玄妙观", "type": "寺观", "location_text": "在固始县东南", "history_lore": "洪武中建"},
+      {"site_id": "SITE-006", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "孙叔敖庙", "type": "祠庙", "location_text": "在固始县西北七十里", "history_lore": "楚庄王封叔敖之子于寝丘遂建庙祠焉，宋赐额曰遗爱"},
+      {"site_id": "SITE-007", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "杨行密庙", "type": "祠庙", "location_text": "在固始县独山", "history_lore": "祀吴王杨行密"},
+      {"site_id": "SITE-008", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "霸王台", "type": "台", "location_text": "在固始县南", "history_lore": "世传汉高祖与项羽相拒筑此，今遗址存丛棘中"},
+      {"site_id": "SITE-009", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "白鹿崖/万安山/铁林山", "type": "古迹", "location_text": "在固始县", "history_lore": "皆旧有寨"},
+      {"site_id": "SITE-010", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "期思城", "type": "古迹", "location_text": "在固始县西北七十里", "history_lore": "古蒋国，春秋时为弦子邑，汉英布大夫贲赫封期思侯即此"},
+      {"site_id": "SITE-011", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "废浍州", "type": "古迹", "location_text": "在固始县", "history_lore": "北齐置北建州，后周改置浍州，隋初废"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "31-001", "geo_id": "GEO-31001c10", "name": "木贼", "category": "药", "location_text": "固始县出"}
+    ],
+    "cits": []
+  },
+  "layer_count": 7, "validation": {"errs": [], "gap": 0, "notes": ""}
+}
+# fix duplicate item_id in SITE-003
+c10["layers"]["sites"][2]["item_id"] = "31-001"
+dump("31-001_c10_固始县.json", c10)
+
+print("DONE c10")

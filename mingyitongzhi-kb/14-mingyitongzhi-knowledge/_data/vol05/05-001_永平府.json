@@ -1,0 +1,359 @@
+{
+  "item_id": "05-001",
+  "volume": "05",
+  "source": "永平府",
+  "region": "北直隶",
+  "type": "prefecture",
+  "original": "永平府【东至山海关一百八十里西至顺天府丰润县界一百二十里南至海岸一百六十里北至桃林口六十里自府治至京师五百五十里至南京凡三千九百九十五里粮四万五千零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "永平府",
+        "type": "geo",
+        "norm": "永平府",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "卢龙县",
+        "type": "geo",
+        "norm": "卢龙县",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "滦州",
+        "type": "geo",
+        "norm": "滦州",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "孤竹国",
+        "type": "geo",
+        "norm": "孤竹国",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "碣石山",
+        "type": "mtn",
+        "norm": "碣石山",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "山海关",
+        "type": "site",
+        "norm": "山海关",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "伯夷",
+        "type": "person",
+        "norm": "伯夷",
+        "first_source": "05-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "叔齐",
+        "type": "person",
+        "norm": "叔齐",
+        "first_source": "05-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-05001",
+        "item_id": "05-001",
+        "name": "永平府",
+        "type": "prefecture",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-05001-s01",
+          "GEO-05001-c01",
+          "GEO-05001-c02",
+          "GEO-05001-c03",
+          "GEO-05001-c04"
+        ],
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "山海关",
+              "distance_li": 180
+            },
+            {
+              "direction": "西",
+              "to_place": "顺天府丰润县界",
+              "distance_li": 120
+            },
+            {
+              "direction": "南",
+              "to_place": "海岸",
+              "distance_li": 160
+            },
+            {
+              "direction": "北",
+              "to_place": "桃林口",
+              "distance_li": 60
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 550
+            },
+            {
+              "capital": "南京",
+              "distance_li": 3995
+            }
+          ],
+          "grain_tax": {
+            "amount": 45000,
+            "unit": "石",
+            "note": "粮四万五千零"
+          },
+          "jun_name": "孤竹(古名)/北平(秦名)/卢龙(魏名)",
+          "topography": "连接边郡【隋地理志】；山如龙形【元和志】；四塞险固东北雄邦【地志】；负山带河为形胜之地【辽地理志】",
+          "customs": "人性劲悍习于戎马【隋地理志】；人尚义勇节俭务农【元志】；孝义为先质朴相染【郡志】",
+          "garrisons": [
+            {
+              "name": "永平卫",
+              "type": "卫",
+              "location_text": "在府治南，洪武四年建"
+            },
+            {
+              "name": "山海卫",
+              "type": "卫",
+              "location_text": "在抚宁县关口，洪武十四年建"
+            },
+            {
+              "name": "抚宁卫",
+              "type": "卫",
+              "location_text": "在抚宁县北十里，永乐三年建"
+            },
+            {
+              "name": "东胜左卫",
+              "type": "卫",
+              "location_text": "在府治东北，永乐元年移建"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-05001-s01",
+        "item_id": "05-001",
+        "name": "滦州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-05001",
+        "children": [
+          "GEO-05001-c05"
+        ],
+        "volume_range": "卷5",
+        "attributes": {
+          "location_text": "在府城南四十里，领县一：乐亭"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "商",
+        "era": null,
+        "institution_name": "孤竹国",
+        "action": "封",
+        "detail": "禹贡冀州之域，商为孤竹国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "幽州/山戎肥子国",
+        "action": "属",
+        "detail": "周属幽州，春秋时为山戎肥子二国地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "辽西/右北平二郡",
+        "action": "置",
+        "detail": "秦为辽西右北平二郡地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "卢龙郡",
+        "action": "改",
+        "detail": "汉末为公孙度所据，魏改卢龙郡，北燕置平州及乐浪郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "北平郡/平州",
+        "action": "改",
+        "detail": "后魏改乐浪为北平郡，隋改为平州，后废州为郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "唐",
+        "era": "天宝",
+        "institution_name": "北平郡/平州",
+        "action": "改",
+        "detail": "唐复改平州，天宝初改为北平郡，乾元初复为平州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "金",
+        "era": "天辅",
+        "institution_name": "兴平军/平州",
+        "action": "升",
+        "detail": "五代唐以为辽兴军，金升为南京，天辅初复为平州升兴平军"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "元",
+        "era": "中统",
+        "institution_name": "平滦路/永平路",
+        "action": "升",
+        "detail": "元改兴平府，中统初升为平滦路，大德中改永平路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "永平府",
+        "action": "改",
+        "detail": "本朝洪武二年改为永平府，属北平布政司，永乐中直隶京师，领州一县五"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "碣石山",
+        "type": "山",
+        "location_text": "在昌黎县西北二十里",
+        "description": "禹贡碣石在北平郡骊城县西南河口之北，今在平州东离海三十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "滦河",
+        "type": "河",
+        "location_text": "源自口北开平东南，流经迁安县界至卢龙县合漆河，又南至乐亭县入于海",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "伯夷",
+        "type": "人物",
+        "dynasty": "商",
+        "native_place": "孤竹",
+        "office": "孤竹君长子",
+        "summary": "孤竹君长子，让国逃去，武王伐纣叩马而谏，殷亡耻食周粟隐首阳山"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "李广",
+        "type": "名宦",
+        "dynasty": "汉",
+        "native_place": "陇西成纪",
+        "office": "右北平太守",
+        "summary": "为右北平太守，匈奴号曰飞将军，避之数岁不敢近塞"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "山海关",
+        "type": "关梁",
+        "location_text": "在抚宁县东",
+        "history_lore": "其北为山其南为海，相距不数里，实险要之地；本朝魏国公徐达移榆关于此改今名"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "伯夷叔齐庙",
+        "type": "祠庙",
+        "location_text": "在旧府治西漆河之滨",
+        "history_lore": "本朝洪武九年于城东北隅重建，有司每岁春秋仲月祭焉"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "05-001",
+        "geo_id": "GEO-05001",
+        "name": "永平府学",
+        "type": "学校",
+        "location_text": "在府治西北",
+        "history_lore": "元至正间因其旧修，本朝永乐十五年重修"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "05-001",
+        "cited_work": "隋地理志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【隋地理志】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "05-001",
+        "cited_work": "元和志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元和志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "府级分片；散州 s01 滦州内联；县在各自分片"
+  }
+}

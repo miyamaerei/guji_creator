@@ -1,0 +1,236 @@
+{
+  "item_id": "01-001",
+  "volume": "01",
+  "source": "京师",
+  "region": "北直隶",
+  "type": "metro",
+  "original": "京师【古幽蓟之地左环沧海右拥太行北枕居庸南襟河济形胜甲于天下】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-01001",
+        "name": "京师",
+        "type": "geo",
+        "norm": "京师",
+        "first_source": "01-001"
+      },
+      {
+        "ent_id": "ENT-01002",
+        "name": "北京城",
+        "type": "site",
+        "norm": "北京城",
+        "first_source": "01-001"
+      },
+      {
+        "ent_id": "ENT-01003",
+        "name": "皇城",
+        "type": "site",
+        "norm": "皇城",
+        "first_source": "01-001"
+      },
+      {
+        "ent_id": "ENT-01004",
+        "name": "天寿山",
+        "type": "mtn",
+        "norm": "天寿山",
+        "first_source": "01-001"
+      },
+      {
+        "ent_id": "ENT-01005",
+        "name": "太液池",
+        "type": "mtn",
+        "norm": "太液池",
+        "first_source": "01-001"
+      },
+      {
+        "ent_id": "ENT-01006",
+        "name": "居庸关",
+        "type": "site",
+        "norm": "居庸关",
+        "first_source": "01-001"
+      },
+      {
+        "ent_id": "ENT-01007",
+        "name": "卢沟桥",
+        "type": "site",
+        "norm": "卢沟桥",
+        "first_source": "01-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-01001",
+        "item_id": "01-001",
+        "name": "京师",
+        "type": "metro",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": [],
+        "volume_range": "卷1",
+        "attributes": {
+          "topography": "左环沧海右拥太行北枕居庸南襟河济，形胜甲于天下，诚所谓天府之国",
+          "customs": "人多文雅士【隋志】；沈鸷多材力重许可【唐杜牧集】；多感慨悲歌之士【唐韩愈送董邵南序】",
+          "garrisons": [
+            {
+              "name": "五军营",
+              "type": "京营",
+              "location_text": "永乐间建，三大营之一"
+            },
+            {
+              "name": "三千营",
+              "type": "京营",
+              "location_text": "永乐间建"
+            },
+            {
+              "name": "神机营",
+              "type": "京营",
+              "location_text": "永乐间建"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "dynasty": "唐虞",
+        "era": null,
+        "institution_name": "幽陵/幽都",
+        "action": "置",
+        "detail": "高阳氏谓之幽陵，陶唐曰幽都，虞为幽州"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "燕国",
+        "action": "封",
+        "detail": "武王封召公奭于燕，即此"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "dynasty": "辽",
+        "era": null,
+        "institution_name": "南京幽都府/析津府",
+        "action": "升",
+        "detail": "辽升幽州为南京幽都府，后改析津府"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "中都大兴府",
+        "action": "改",
+        "detail": "金称燕京，改号中都，以析津府为大兴府"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "大都路",
+        "action": "建",
+        "detail": "元初为燕京路，至元初建中都，后改为大都路"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "dynasty": "明",
+        "era": "永乐",
+        "institution_name": "北京",
+        "action": "迁都",
+        "detail": "本朝洪武初置北平布政司，永乐七年为北京，十九年营建宫殿成，乃拓其城，迁都焉"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "天寿山",
+        "type": "山",
+        "location_text": "在京城北一百里",
+        "description": "山自西山一带东折而北，群峰耸拔若龙翔凤舞，为长陵诸陵所在",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "太液池",
+        "type": "池",
+        "location_text": "在皇城内",
+        "description": "池周围深广，波光澄澈，绿荷芳藻；京师八景有太液晴波、琼岛春云",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "北京城",
+        "type": "城池",
+        "location_text": "元至元四年建大都城，本朝洪武初置北平布政司于此，永乐十九年拓其城周回四十里，立门九",
+        "history_lore": "正南曰正阳，南之左曰崇文右曰宣武，北之东曰安定西曰德胜，东之北曰东直南曰朝阳，西之北曰西直南曰阜成"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "皇城",
+        "type": "宫室",
+        "location_text": "在京城之中",
+        "history_lore": "宫殿森严，楼阙壮丽"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "天地坛",
+        "type": "坛庙",
+        "location_text": "在正阳门之南，周回十里",
+        "history_lore": "中为大祀殿，永乐间建"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "居庸关",
+        "type": "关梁",
+        "location_text": "在府北一百二十里",
+        "history_lore": "两山夹峙一水旁流，最为要险；京师八景曰居庸叠翠"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "01-001",
+        "geo_id": "GEO-01001",
+        "name": "卢沟桥",
+        "type": "关梁",
+        "location_text": "在府西南三十五里，跨卢沟河",
+        "history_lore": "金明昌初建，本朝正统九年重修，长二百余步，石栏刻为狮形；京师八景曰卢沟晓月"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "京师 metro，附郭顺天府 GEO-01002"
+  }
+}

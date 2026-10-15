@@ -1,0 +1,134 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "虞城县",
+  "region": "河南",
+  "type": "county",
+  "original": "虞城县【在府城东北六十里编户一十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "虞城县",
+        "type": "geo",
+        "norm": "虞城县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c06",
+        "item_id": "27-001",
+        "name": "虞城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城东北六十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "dynasty": "虞",
+        "era": null,
+        "institution_name": "虞国",
+        "action": "置",
+        "detail": "本古虞国即禹封商均之地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "虞县",
+        "action": "置",
+        "detail": "汉置虞县属梁国，后魏属沛郡，北齐省"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "虞城县",
+        "action": "复",
+        "detail": "隋复置属宋州，唐置东虞州寻废改县曰虞城"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "虞城县",
+        "action": "因之",
+        "detail": "金废元复置属济宁路，本朝改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "name": "孟潴泽",
+        "type": "湖",
+        "location_text": "在虞城县西北一十里",
+        "description": "尔雅作孟诸，禹贡所谓导菏泽被孟诸即此",
+        "lore": "高适诗有我本渔樵孟诸野一生自是悠悠者之句"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "name": "空桐泽",
+        "type": "湖",
+        "location_text": "在虞城县南一十里",
+        "description": "睢水东南流经此泽有空桐亭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "name": "李令泉",
+        "type": "泉",
+        "location_text": "在虞城县治内",
+        "description": "旧井水清而味苦，县令李锡下车尝之莞尔笑曰既苦且清足以符吾志",
+        "lore": "李白为送去思颂"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c06",
+        "name": "虞城县学",
+        "type": "学校",
+        "location_text": "在县治南",
+        "history_lore": "旧在县治西元建，本朝洪武四年重建嘉靖九年圮于水迁今地"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

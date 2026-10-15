@@ -1,0 +1,376 @@
+{
+  "item_id": "02-001",
+  "volume": "02",
+  "source": "保定府",
+  "region": "北直隶",
+  "type": "prefecture",
+  "original": "保定府【东至河间府静海县界三百里西至山西大同府广昌县界三百里南至真定府安平县界一百二十里北至顺天府涿州界一百里自府治至京师三百五十里至南京三千一百里粮一万千石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "保定府",
+        "type": "geo",
+        "norm": "保定府",
+        "first_source": "02-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "清苑县",
+        "type": "geo",
+        "norm": "清苑县",
+        "first_source": "02-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "祁州",
+        "type": "geo",
+        "norm": "祁州",
+        "first_source": "02-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "安州",
+        "type": "geo",
+        "norm": "安州",
+        "first_source": "02-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "易州",
+        "type": "geo",
+        "norm": "易州",
+        "first_source": "02-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "上谷郡",
+        "type": "geo",
+        "norm": "上谷郡",
+        "first_source": "02-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "紫荆关",
+        "type": "site",
+        "norm": "紫荆关",
+        "first_source": "02-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-02001",
+        "item_id": "02-001",
+        "name": "保定府",
+        "type": "prefecture",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-02001-s01",
+          "GEO-02001-s02",
+          "GEO-02001-s03",
+          "GEO-02001-c01",
+          "GEO-02001-c02",
+          "GEO-02001-c03",
+          "GEO-02001-c04",
+          "GEO-02001-c05",
+          "GEO-02001-c06",
+          "GEO-02001-c07",
+          "GEO-02001-c08",
+          "GEO-02001-c09",
+          "GEO-02001-c10",
+          "GEO-02001-c11",
+          "GEO-02001-c12"
+        ],
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "河间府静海县界",
+              "distance_li": 300
+            },
+            {
+              "direction": "西",
+              "to_place": "山西大同府广昌县界",
+              "distance_li": 300
+            },
+            {
+              "direction": "南",
+              "to_place": "真定府安平县界",
+              "distance_li": 120
+            },
+            {
+              "direction": "北",
+              "to_place": "顺天府涿州界",
+              "distance_li": 100
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 350
+            },
+            {
+              "capital": "南京",
+              "distance_li": 3100
+            }
+          ],
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮一万千石零"
+          },
+          "jun_name": "上谷(秦名)/清苑(宋名)",
+          "topography": "临城四野地址坦平【图经】；二川交流夹绕州治【元志】；易水在东孔山在北【水经】；三关重地以控幽蓟【古雄图经】",
+          "customs": "稍事诗书之业略无侥竞之风【宋刘涣记】；轻生而尚义有荆轲之遗风【图经】；民质朴劲勇不以浮华为习【郡志】",
+          "garrisons": [
+            {
+              "name": "大宁都司",
+              "type": "司",
+              "location_text": "在府治西，洪武二十年建，永乐初改为大宁都司"
+            },
+            {
+              "name": "保定左卫",
+              "type": "卫",
+              "location_text": "在都司治西，永乐中建"
+            },
+            {
+              "name": "茂山卫",
+              "type": "卫",
+              "location_text": "在易州治南，景泰元年移建"
+            },
+            {
+              "name": "守御紫荆关中千户所",
+              "type": "千户所",
+              "location_text": "隶大宁都司"
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-02001-s01",
+        "item_id": "02-001",
+        "name": "祁州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-02001",
+        "children": [
+          "GEO-02001-s01-c13",
+          "GEO-02001-s01-c14"
+        ],
+        "volume_range": "卷2",
+        "attributes": {
+          "location_text": "在府城南一百二十里，领县二：深泽、束鹿"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-02001-s02",
+        "item_id": "02-001",
+        "name": "安州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-02001",
+        "children": [
+          "GEO-02001-s02-c15",
+          "GEO-02001-s02-c16"
+        ],
+        "volume_range": "卷2",
+        "attributes": {
+          "location_text": "在府城东七十里，领县二：高阳、新安"
+        },
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-02001-s03",
+        "item_id": "02-001",
+        "name": "易州",
+        "type": "subprefecture",
+        "region": "北直隶",
+        "parent": "GEO-02001",
+        "children": [
+          "GEO-02001-s03-c17"
+        ],
+        "volume_range": "卷2",
+        "attributes": {
+          "location_text": "在府城西北一百二十里，领县一：涞水"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "赵地/上谷钜鹿二郡",
+        "action": "置",
+        "detail": "禹贡冀州之域，战国时属赵；秦为上谷钜鹿二郡地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "涿郡/信都/中山国",
+        "action": "置",
+        "detail": "汉为涿郡及信都中山国地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "莫/定/满/瀛等州",
+        "action": "属",
+        "detail": "唐时其地属莫定满瀛等州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "泰州/清苑县",
+        "action": "割",
+        "detail": "五代晋割属契丹于此置泰州，后移州治满城而旧州仍为清苑县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "宋",
+        "era": "太平兴国",
+        "institution_name": "保塞军/保州",
+        "action": "升",
+        "detail": "宋即县置保塞军，太平兴国中升为保州，政和初号清苑郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "元",
+        "era": "至元",
+        "institution_name": "保定路",
+        "action": "改",
+        "detail": "元初为保州，寻改顺天路，至元中又改保定路"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "保定府",
+        "action": "改",
+        "detail": "本朝洪武元年改为保定府，初属北平布政司，今直隶京师，领州三县十七"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "郎山",
+        "type": "山",
+        "location_text": "在府城西北五十里，一名狼山",
+        "description": "其峰尖锐如削，皎然玉立",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "易水",
+        "type": "河",
+        "location_text": "在安州城北",
+        "description": "府境曹河徐河石桥河诸水至此合流为易水，又至雄县南为瓦济河过直沽入于海",
+        "lore": "燕太子丹使荆轲刺秦王送至易水，歌曰风萧萧兮易水寒"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "刘因",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "容城",
+        "office": "右赞善大夫",
+        "summary": "号静修先生，潜心性理学，隐居教授，有四书精要、诗文集"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "张柔",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "易州定兴",
+        "office": "河北路都元帅",
+        "summary": "金末聚众西山东流寨后归元，营建顺天城市庐舍，封蔡国公"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "保定府学",
+        "type": "学校",
+        "location_text": "在府治东南",
+        "history_lore": "元中统间建，本朝洪武八年重建，正统中重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "紫荆关",
+        "type": "关梁",
+        "location_text": "在易州城西八十里",
+        "history_lore": "历代为扼塞之所，本朝撤而新之，城高池深"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "02-001",
+        "geo_id": "GEO-02001",
+        "name": "莲花池",
+        "type": "池",
+        "location_text": "在府治南",
+        "history_lore": "元守帅张柔开凿，中有临澡亭，引鸡水为府中胜槩"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "02-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【图经】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "02-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "府级分片；散州 s01-s03 内联；县在各自分片"
+  }
+}

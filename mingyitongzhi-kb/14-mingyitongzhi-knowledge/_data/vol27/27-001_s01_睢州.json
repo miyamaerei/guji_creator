@@ -1,0 +1,198 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "睢州",
+  "region": "河南",
+  "type": "subprefecture",
+  "original": "睢州【在府城东一百二十里春秋时宋陈地秦置襄邑县汉属陈留郡北齐并襄邑入雍丘隋复置襄邑属宋州唐属杞州后仍属宋州宋属应天府崇宁间建拱州以为东辅大观中废拱州后复置金改睢州元因之并以襄邑县为附郭本朝省入州属开封府嘉靖二十四年改今属编户三十九里领县二】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "睢州",
+        "type": "geo",
+        "norm": "睢州",
+        "first_source": "27-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "襄邑县",
+        "type": "geo",
+        "norm": "襄邑县",
+        "first_source": "27-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "拱州",
+        "type": "geo",
+        "norm": "拱州",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001s01",
+        "item_id": "27-001",
+        "name": "睢州",
+        "type": "subprefecture",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [
+          "GEO-27001c07",
+          "GEO-27001c08"
+        ],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {
+            "count": 39,
+            "unit": "里",
+            "note": "编户三十九里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "宋陈地",
+        "action": "因之",
+        "detail": "春秋时宋陈地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "襄邑县",
+        "action": "置",
+        "detail": "秦置襄邑县汉属陈留郡，北齐并襄邑入雍丘"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "dynasty": "宋",
+        "era": "崇宁",
+        "institution_name": "拱州",
+        "action": "升",
+        "detail": "宋属应天府，崇宁间建拱州以为东辅，大观中废拱州后复置"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "睢州",
+        "action": "改",
+        "detail": "金改睢州元因之，并以襄邑县为附郭"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "dynasty": "明",
+        "era": "嘉靖",
+        "institution_name": "睢州",
+        "action": "因之",
+        "detail": "本朝省入州属开封府，嘉靖二十四年改今属，领县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "恒山",
+        "type": "山",
+        "location_text": "在睢州城西北一十二里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "骆驼冈",
+        "type": "冈",
+        "location_text": "在睢州襄公台后",
+        "description": "其形起伏如驼故名，环冈佳木郁葱地颇幽胜",
+        "lore": "说者谓襄公游玩地"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "西湖",
+        "type": "湖",
+        "location_text": "在睢州城西骆驼岭后",
+        "description": "周四十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "睢水",
+        "type": "河",
+        "location_text": "在睢州北七里",
+        "description": "州之得名以此，韩信败龙且睢水为之不流此即其上流也",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "睢州学",
+        "type": "学校",
+        "location_text": "在州治北",
+        "history_lore": "洪武三年建，正统弘治中俱重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "锦襄书院",
+        "type": "书院",
+        "location_text": "在睢州骆驼冈",
+        "history_lore": "旧为僧寺，嘉靖初改建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "圣寿寺",
+        "type": "寺观",
+        "location_text": "在睢州南",
+        "history_lore": "元建本朝正统中重建"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001s01",
+        "name": "襄陵",
+        "type": "陵墓",
+        "location_text": "在睢州东",
+        "history_lore": "一名古襄陵，宋襄公春秋五霸之一"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

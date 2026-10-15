@@ -1,0 +1,67 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "巩县",
+  "region": "河南",
+  "type": "county",
+  "original": "巩县【在府城东一百三十里周巩伯邑西周惠公封少子班于巩是为东周汉始置巩县属河南郡治故巩城魏晋因之后魏属成臯郡北齐属洛州隋徙治洛口唐宋金元皆仍旧本朝因之编户二十四里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "巩县", "type": "geo", "norm": "巩县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "宋八陵", "type": "site", "norm": "宋八陵", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c03",
+        "item_id": "29-001",
+        "name": "巩县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城东一百三十里",
+          "households": {"count": 24, "unit": "里", "note": "编户二十四里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c03", "dynasty": "周", "era": null, "institution_name": "巩伯邑/东周", "action": "置", "detail": "周巩伯邑，西周惠公封少子班于巩是为东周"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c03", "dynasty": "汉", "era": null, "institution_name": "巩县", "action": "置", "detail": "汉始置巩县属河南郡，治故巩城，魏晋因之"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c03", "dynasty": "南北朝", "era": "后魏", "institution_name": "巩县", "action": "因之", "detail": "后魏属成皋郡，北齐属洛州"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c03", "dynasty": "隋", "era": null, "institution_name": "巩县", "action": "迁", "detail": "隋徙治洛口，唐宋金元皆仍旧"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c03", "dynasty": "明", "era": null, "institution_name": "巩县", "action": "因之", "detail": "本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "虎头山", "type": "山", "location_text": "在巩县治南", "description": "其西有骆驼岭，二山并峙甚奇", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "侯山", "type": "山", "location_text": "在巩县东南二十五里", "description": "汉王亥隐此，景帝时累征不出因封之", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "赵封山", "type": "山", "location_text": "在巩县东南四十里", "description": "宋种茶于此而封固其地因名", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "青龙山", "type": "山", "location_text": "在巩县南四十里", "description": "以其在宋太祖陵东故名，其尾接洛河者曰龙尾山", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "寒战山", "type": "山", "location_text": "在巩县东南五十里", "description": "其山陡峻临玉仙河，经者战惧故名", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "黑云云山", "type": "山", "location_text": "在巩县西六十里", "description": "昔成汤于此祷旱，忽起黑云，天降大雨", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "洛汭", "type": "其他", "location_text": "在巩县洛水入河之处", "description": "清浊异流，亦名什谷，禹贡东过洛汭即此", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "莲花池", "type": "池", "location_text": "在巩县西南", "description": "宋陵寝所在，种莲于此", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "饮马沟", "type": "其他", "location_text": "在巩县东七里", "description": "汉吕布屯军虎牢饮马于此", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "尹勋", "type": "人物", "dynasty": "汉", "native_place": "巩县", "office": "大司农", "summary": "伯父睦为司徒，宗族多居贵位而勋独持清操，桓帝诛梁冀勋建大谋封都乡侯"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "范祖述", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知巩县", "summary": "凿南山导水入洛，县无水患，文彦博称其能"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "王翺", "type": "名宦", "dynasty": "元", "native_place": "", "office": "巩县尹", "summary": "大德间为巩县尹有治声，民感其德"},
+      {"per_id": "PER-004", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "魏敏", "type": "人物", "dynasty": "明", "native_place": "巩县", "office": "给事中", "summary": "登洪武戊辰进士，母病谒告归省未至而母卒，庐墓三年乡里称其孝，事闻表其门"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "巩县学", "type": "学校", "location_text": "在县治南", "history_lore": "元大德十一年建，本朝洪武三年重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "宋八陵", "type": "陵墓", "location_text": "在巩县西南", "history_lore": "永安、太祖永昌、太宗永熙、真宗永定、仁宗永昭、英宗永厚、神宗永裕、哲宗永从八陵，本朝载祀典"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "赵普曹彬墓", "type": "陵墓", "location_text": "在巩县西南", "history_lore": "赵普宋名相，曹彬宋名将，俱葬此"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "洛口仓", "type": "古迹", "location_text": "在巩县西", "history_lore": "隋炀帝聚粟于此"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "夏台", "type": "古迹", "location_text": "在巩县西南", "history_lore": "即夏桀囚汤处"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c03", "name": "普安寺", "type": "寺观", "location_text": "在巩县治南", "history_lore": "洪武中建"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

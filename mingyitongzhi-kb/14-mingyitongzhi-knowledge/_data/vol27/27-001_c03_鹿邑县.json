@@ -1,0 +1,153 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "鹿邑县",
+  "region": "河南",
+  "type": "county",
+  "original": "鹿邑县【在府城南一百二十里编户三十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "鹿邑县",
+        "type": "geo",
+        "norm": "鹿邑县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c03",
+        "item_id": "27-001",
+        "name": "鹿邑县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城南一百二十里",
+          "households": {
+            "count": 34,
+            "unit": "里",
+            "note": "编户三十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "鸣鹿",
+        "action": "置",
+        "detail": "春秋晋邑本曰鸣鹿，左传诸侯侵陈至于鸣鹿即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "武平县",
+        "action": "置",
+        "detail": "汉为郸县地属沛郡，东汉析置武平县属陈国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "鹿邑县",
+        "action": "改",
+        "detail": "隋始改鹿邑县属陈州，唐属亳州，宋金元仍旧"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "鹿邑县",
+        "action": "因之",
+        "detail": "本朝改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "name": "阴灵山",
+        "type": "山",
+        "location_text": "在鹿邑县一十一里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "name": "隐山",
+        "type": "山",
+        "location_text": "在鹿邑县东一十三里",
+        "description": "与阴灵山对峙，世传陈抟炼丹之处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "name": "九龙井",
+        "type": "井",
+        "location_text": "在鹿邑县东皋乡太清宫",
+        "description": "世传老子诞生九龙吐水",
+        "lore": "今太极殿有井存焉"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "name": "灵溪池",
+        "type": "池",
+        "location_text": "在鹿邑县太清宫前",
+        "description": "世传九龙吐水浴老子池也",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "name": "鹿邑县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武三年建嘉靖初重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c03",
+        "name": "太清宫",
+        "type": "寺观",
+        "location_text": "在鹿邑县东一十里",
+        "history_lore": "唐建初名明道宫，宋改今名"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

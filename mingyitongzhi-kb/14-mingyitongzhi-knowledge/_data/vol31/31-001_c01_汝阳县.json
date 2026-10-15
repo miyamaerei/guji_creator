@@ -1,0 +1,253 @@
+{
+  "item_id": "31-001",
+  "volume": "31",
+  "source": "汝阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "汝阳县【附郭周为沈国地汉置汝阳县属汝南郡刘宋属汝阳郡隋初属豫州寻改为溵水县属陈州又析上蔡县地别置汝阳县省溵水入焉即今县也唐为蔡州治金仍旧元省平舆入焉本朝因之编户三十三里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "汝阳县",
+        "type": "geo",
+        "norm": "汝阳县",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "潘河",
+        "type": "mtn",
+        "norm": "潘河",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "陈尧叟",
+        "type": "person",
+        "norm": "陈尧叟",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "蔡顺",
+        "type": "person",
+        "norm": "蔡顺",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "董永",
+        "type": "person",
+        "norm": "董永",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "许虔",
+        "type": "person",
+        "norm": "许虔",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "许劭",
+        "type": "person",
+        "norm": "许劭",
+        "first_source": "31-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31001c01",
+        "item_id": "31-001",
+        "name": "汝阳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31001",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 33,
+            "unit": "里",
+            "note": "编户三十三里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "沈国地",
+        "action": "置",
+        "detail": "周为沈国地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "汝阳县",
+        "action": "置",
+        "detail": "汉置汝阳县属汝南郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "汝阳县",
+        "action": "改",
+        "detail": "隋初属豫州，寻改为溵水县属陈州，又析上蔡县地别置汝阳县，省溵水入焉"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "汝阳县",
+        "action": "因之",
+        "detail": "唐为蔡州治，金仍旧，元省平舆入焉，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "倚江亭下汝河",
+        "type": "河",
+        "location_text": "在汝阳县治东南城上",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "陈尧叟",
+        "type": "人物",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "名臣",
+        "summary": "宋名臣，尝寓居汝阳，宅在县东北"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "蔡顺",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "汝南",
+        "office": "孝子",
+        "summary": "以至孝称，王莽末人相食，顺拾桑椹黑者奉母赤者自食，贼遗米受而不食；母终火逼其舍，顺伏棺号哭火遂越他舍"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "董永",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "汝南",
+        "office": "孝子",
+        "summary": "与蔡顺所居为二孝庄，在汝阳县西"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "汝阳县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武十一年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "来瑞亭",
+        "type": "宫室",
+        "location_text": "在府治",
+        "history_lore": "宋刘敞通守蔡州日有白雀巢于庑下，作小赋记之，后建亭扁曰来瑞"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "然身台",
+        "type": "台",
+        "location_text": "在汝阳县东射桥保",
+        "history_lore": "汉令张熹然身救旱处"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "二孝庄",
+        "type": "古迹",
+        "location_text": "在汝阳县西",
+        "history_lore": "汉孝子蔡顺董永所居"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "月旦里",
+        "type": "古迹",
+        "location_text": "在汝阳县东北",
+        "history_lore": "汉许虔许劭兄弟所居，故名二龙乡月旦里"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "陈尧叟宅",
+        "type": "古迹",
+        "location_text": "在汝阳县东北在城保",
+        "history_lore": "尧叟宋名臣尝寓居于此"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "翟方进墓",
+        "type": "陵墓",
+        "location_text": "在汝阳县界内",
+        "history_lore": "刘敞诗恃法虽深上不疑疏广何事触刑机"
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c01",
+        "name": "生姜",
+        "category": "药",
+        "location_text": "汝阳县出"
+      }
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

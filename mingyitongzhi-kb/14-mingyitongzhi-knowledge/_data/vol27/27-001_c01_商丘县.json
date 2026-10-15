@@ -1,0 +1,144 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "商丘县",
+  "region": "河南",
+  "type": "county",
+  "original": "商丘县【附郭编户二十七里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "商丘县",
+        "type": "geo",
+        "norm": "商丘县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c01",
+        "item_id": "27-001",
+        "name": "商丘县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 27,
+            "unit": "里",
+            "note": "编户二十七里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "商丘",
+        "action": "置",
+        "detail": "本高辛氏子阏伯所居商丘也，相土代之继主火祀"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "砀郡地",
+        "action": "因之",
+        "detail": "秦为砀郡地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "睢阳县",
+        "action": "置",
+        "detail": "汉置睢阳县属梁国，后汉魏晋俱因之"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "dynasty": "隋",
+        "era": "开皇",
+        "institution_name": "宋城县",
+        "action": "改",
+        "detail": "隋开皇初改郡曰宋州改县曰宋城"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "睢阳县",
+        "action": "改",
+        "detail": "金为睢阳县，元以姑熟县省入"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "dynasty": "明",
+        "era": "嘉靖",
+        "institution_name": "商丘县",
+        "action": "置",
+        "detail": "本朝洪武初降归德府为州省睢阳县，嘉靖二十四年升州为府置商丘县"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "name": "幸山",
+        "type": "山",
+        "location_text": "在府城南三里",
+        "description": "宋高宗即皇帝位于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "name": "南湖",
+        "type": "湖",
+        "location_text": "在府城南五里",
+        "description": "宋晏元献放驯鹭于湖中",
+        "lore": "苏辙有记"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c01",
+        "name": "商丘县学",
+        "type": "学校",
+        "location_text": "在县治",
+        "history_lore": "附郭府学同城"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

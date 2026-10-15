@@ -1,0 +1,287 @@
+{
+  "item_id": "31-001",
+  "volume": "31",
+  "source": "遂平县",
+  "region": "河南",
+  "type": "county",
+  "original": "遂平县【在府城西九十里本春秋房子国汉为吴房县属汝南郡后魏改遂宁县属襄城郡隋复为吴房县属汝南郡唐贞观初县废寻复置属蔡州元和中改遂平县属唐州长庆初还属蔡州宋金仍旧元初省入汝阳大徳间复置属汝宁府本朝因之编户二十八里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "遂平县",
+        "type": "geo",
+        "norm": "遂平县",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "嵖岈山",
+        "type": "mtn",
+        "norm": "嵖岈山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "洪山",
+        "type": "mtn",
+        "norm": "洪山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "奥来山",
+        "type": "mtn",
+        "norm": "奥来山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "石洋河",
+        "type": "mtn",
+        "norm": "石洋河",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "神沟",
+        "type": "mtn",
+        "norm": "神沟",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "上渠沟",
+        "type": "mtn",
+        "norm": "上渠沟",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "吴房城",
+        "type": "geo",
+        "norm": "吴房城",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "张庸",
+        "type": "person",
+        "norm": "张庸",
+        "first_source": "31-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31001c06",
+        "item_id": "31-001",
+        "name": "遂平县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31001",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在府城西九十里",
+          "households": {
+            "count": 28,
+            "unit": "里",
+            "note": "编户二十八里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "房子国",
+        "action": "置",
+        "detail": "本春秋房子国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "吴房县",
+        "action": "置",
+        "detail": "汉为吴房县属汝南郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "遂宁县",
+        "action": "改",
+        "detail": "后魏改遂宁县属襄城郡，隋复为吴房县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "dynasty": "唐",
+        "era": "元和",
+        "institution_name": "遂平县",
+        "action": "改",
+        "detail": "唐贞观初县废寻复置属蔡州，元和中改遂平县属唐州，长庆初还属蔡州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "dynasty": "元",
+        "era": "大德",
+        "institution_name": "遂平县",
+        "action": "复置",
+        "detail": "元初省入汝阳，大德间复置属汝宁府，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "嵖岈山",
+        "type": "山",
+        "location_text": "在遂平县西七十里一名嵯峨山",
+        "description": "其山中空有洞穴可深入，前有马鞍山",
+        "lore": "唐书节度李观及吴元济战嵖岈山；五代史黄巢由颍蔡保嵖岈山"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "洪山",
+        "type": "山",
+        "location_text": "在遂平县西六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "奥来山",
+        "type": "山",
+        "location_text": "在遂平县西六十八里",
+        "description": "过西二里有平头垛山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "石洋河",
+        "type": "河",
+        "location_text": "在遂平县北五里",
+        "description": "源出平头垛山东流入汝水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "神沟",
+        "type": "沟",
+        "location_text": "在遂平县西北三十五里",
+        "description": "有古岳庙基",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "上渠沟",
+        "type": "沟",
+        "location_text": "在遂平县西南三十五里",
+        "description": "源出嵖岈山东流合阳奉沟入沙河",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "张庸",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "遂平知县",
+        "summary": "持身清洁处心正大，自莅政以来邑无堕业之民，岁无饥寒之患"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "遂平县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武三年因元旧址重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "兴国寺",
+        "type": "寺观",
+        "location_text": "在遂平县治西南",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "丹阳观",
+        "type": "寺观",
+        "location_text": "在遂平县城内东北",
+        "history_lore": "景泰中建"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "沙河桥",
+        "type": "关梁",
+        "location_text": "在遂平县南沙河上",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "吴房城",
+        "type": "古迹",
+        "location_text": "在遂平县",
+        "history_lore": "春秋为房子国，吴王阖闾弟夫槩奔楚封于此故曰房山，汉置吴房县，唐以吴元济叛改曰遂平"
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c06",
+        "name": "红花",
+        "category": "药",
+        "location_text": "遂平出"
+      }
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

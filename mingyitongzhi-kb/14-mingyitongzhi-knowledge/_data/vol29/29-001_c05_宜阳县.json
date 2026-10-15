@@ -1,0 +1,71 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "宜阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "宜阳县【在府城西南七十里周为召伯聴讼之所汉为宜阳县地魏析置甘棠县属新安郡后改曰宜阳后魏置宜阳郡东魏置阳州后周改熊州以县属焉隋初因之寻改谷州后废州属河南郡义寕初复置宜阳郡唐初改郡曰熊州改县曰福昌后唐改福庆县宋初复旧名熈寕中省入夀安县后复置金复改宜阳元仍旧本朝因之编户五十八里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "宜阳县", "type": "geo", "norm": "宜阳县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "女几山", "type": "mtn", "norm": "女几山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "李贺", "type": "person", "norm": "李贺", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c05",
+        "item_id": "29-001",
+        "name": "宜阳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城西南七十里",
+          "households": {"count": 58, "unit": "里", "note": "编户五十八里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "周", "era": null, "institution_name": "召伯听讼之所", "action": "因之", "detail": "周为召伯听讼之所"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "汉", "era": null, "institution_name": "宜阳县地", "action": "置", "detail": "汉为宜阳县地"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "三国", "era": "魏", "institution_name": "甘棠县", "action": "置", "detail": "魏析置甘棠县属新安郡，后改曰宜阳"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "南北朝", "era": "后魏", "institution_name": "宜阳郡/熊州", "action": "置", "detail": "后魏置宜阳郡，东魏置阳州，后周改熊州以县属焉"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "隋", "era": null, "institution_name": "谷州/河南郡", "action": "改", "detail": "隋初因之寻改谷州，后废州属河南郡，义宁初复置宜阳郡"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "唐", "era": null, "institution_name": "福昌县", "action": "改", "detail": "唐初改郡曰熊州改县曰福昌，后唐改福庆县"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "宋", "era": "熙宁", "institution_name": "寿安县地", "action": "省", "detail": "宋初复旧名，熙宁中省入寿安县后复置"},
+      {"evo_id": "EVO-008", "item_id": "29-001", "geo_id": "GEO-29001c05", "dynasty": "金", "era": null, "institution_name": "宜阳县", "action": "复", "detail": "金复改宜阳，元仍旧，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "锦屏山", "type": "山", "location_text": "在宜阳县治南", "description": "唐武后幸此赐名，上有玉柱峰", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "石墨山", "type": "山", "location_text": "在宜阳县西南二里", "description": "水经洛水侧有墨山石尽墨，可以书", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "公山", "type": "山", "location_text": "在宜阳县西九里", "description": "状如公字，又云山顶有周公庙因名", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "憩鹤山", "type": "山", "location_text": "在宜阳县东南四十里", "description": "世传王子晋得仙缑岭乘白鹤憩此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "女几山", "type": "山", "location_text": "在宜阳县西九十里", "description": "唐李贺集白兰香神女上升遗几在焉故名", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "鹿蹄山", "type": "山", "location_text": "在宜阳县", "description": "俗名非山，山上多美玉下多金，甘水出焉西北流注于洛", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "昌谷水", "type": "河", "location_text": "在宜阳县西九十里", "description": "旧名昌河，源出陕州界东南流入洛", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "甘泉", "type": "泉", "location_text": "在宜阳县西南", "description": "味美异常", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "喷玉泉", "type": "泉", "location_text": "在宜阳县东南", "description": "宋司马光有诗", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "党理", "type": "名宦", "dynasty": "明", "native_place": "", "office": "宜阳知县", "summary": "莅政公勤律身清白，抑豪强禁浮习，俾游食之民各安其业"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "赵瑁", "type": "人物", "dynasty": "明", "native_place": "宜阳", "office": "吏部尚书", "summary": "洪武间由儒学任河南府学训导，升广东琼州知府，再迁吏部尚书"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "杜氏", "type": "列女", "dynasty": "明", "native_place": "宜阳", "office": "陈忠妻", "summary": "年二十夫死遗腹子复礼，杜誓死不嫁织纺为生，洪武十二年状闻旌表"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "宜阳县学", "type": "学校", "location_text": "在县治东南", "history_lore": "洪武三年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "福昌宫", "type": "宫室", "location_text": "在宜阳县西坊郭保", "history_lore": "隋炀帝建"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "连昌宫", "type": "宫室", "location_text": "在宜阳县旧寿安县西二十九里", "history_lore": "唐显庆间建"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "兴泰宫", "type": "宫室", "location_text": "在宜阳县西南万安山", "history_lore": "唐长安四年建"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "太清观", "type": "寺观", "location_text": "在宜阳县治东", "history_lore": "永乐中建"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "后晋高祖显陵", "type": "陵墓", "location_text": "在宜阳县西北", "history_lore": ""},
+      {"site_id": "SITE-007", "item_id": "29-001", "geo_id": "GEO-29001c05", "name": "西城门", "type": "古迹", "location_text": "在宜阳县", "history_lore": "汉时赤眉樊崇与刘盆子奉玺绶降光武处"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

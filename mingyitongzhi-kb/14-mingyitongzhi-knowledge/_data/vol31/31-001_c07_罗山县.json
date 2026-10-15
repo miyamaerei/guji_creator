@@ -1,0 +1,442 @@
+{
+  "item_id": "31-001",
+  "volume": "31",
+  "source": "罗山县",
+  "region": "河南",
+  "type": "county",
+  "original": "罗山县【在府城南一百四十里春秋时蔡地战国时为楚地秦属颍川郡汉为鄳县属江夏郡晋属汝南郡北齐置髙安县隋初罢后复置改为罗山县唐初置南维州寻罢州以县属申州宋初省入义阳复复置属信阳军元属信阳州后迁州于故县以县治移于西南即今所也本朝因之编户二十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "罗山县",
+        "type": "geo",
+        "norm": "罗山县",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "鹊山",
+        "type": "mtn",
+        "norm": "鹊山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "罗山",
+        "type": "mtn",
+        "norm": "罗山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "子路山",
+        "type": "mtn",
+        "norm": "子路山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "小确山",
+        "type": "mtn",
+        "norm": "小确山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "大确山",
+        "type": "mtn",
+        "norm": "大确山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "牢山",
+        "type": "mtn",
+        "norm": "牢山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "灵山",
+        "type": "mtn",
+        "norm": "灵山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "六斗山",
+        "type": "mtn",
+        "norm": "六斗山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "仙居山",
+        "type": "mtn",
+        "norm": "仙居山",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "转山湖",
+        "type": "mtn",
+        "norm": "转山湖",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "竹竿河",
+        "type": "mtn",
+        "norm": "竹竿河",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "九重关",
+        "type": "geo",
+        "norm": "九重关",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "张庸",
+        "type": "person",
+        "norm": "张庸",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "蒋良辅",
+        "type": "person",
+        "norm": "蒋良辅",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "徐廷璋",
+        "type": "person",
+        "norm": "徐廷璋",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "郑氏",
+        "type": "person",
+        "norm": "郑氏",
+        "first_source": "31-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31001c07",
+        "item_id": "31-001",
+        "name": "罗山县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31001s01",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在府城南一百四十里",
+          "households": {
+            "count": 20,
+            "unit": "里",
+            "note": "编户二十里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "蔡地/楚地",
+        "action": "置",
+        "detail": "春秋时蔡地，战国时为楚地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "鄳县",
+        "action": "置",
+        "detail": "汉为鄳县属江夏郡，晋属汝南郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "dynasty": "南北朝",
+        "era": "北齐",
+        "institution_name": "高安县/罗山县",
+        "action": "改",
+        "detail": "北齐置高安县，隋初罢后复置改为罗山县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "罗山县",
+        "action": "因之",
+        "detail": "唐初置南维州寻罢州以县属申州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "罗山县",
+        "action": "迁治",
+        "detail": "宋初省入义阳复置属信阳军，元属信阳州，后迁州于故县以县治移于西南即今所也，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "鹊山",
+        "type": "山",
+        "location_text": "在罗山县南九里",
+        "description": "山水清秀为一县奇观，俗传昔有群鹊栖此山，遇风雨鹊必先群噪故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "罗山",
+        "type": "山",
+        "location_text": "在罗山县西南一十里",
+        "description": "峰峦环抱，隋因山名县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "子路山",
+        "type": "山",
+        "location_text": "在罗山县西南四十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "小确山",
+        "type": "山",
+        "location_text": "在罗山县西南七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "大确山",
+        "type": "山",
+        "location_text": "在罗山县南七十九里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "牢山",
+        "type": "山",
+        "location_text": "在罗山县东南九十里",
+        "description": "层峦叠嶂势极险峻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "灵山",
+        "type": "山",
+        "location_text": "在罗山县西南一百四十里",
+        "description": "视众山最高，云兴则雨，旧名霸山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "六斗山",
+        "type": "山",
+        "location_text": "在罗山县西南一百九十里",
+        "description": "六峰如南斗形",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "仙居山",
+        "type": "山",
+        "location_text": "在罗山县南二百三十里",
+        "description": "昔有人于此得道故名，旧尝以此山名县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "转山湖",
+        "type": "湖",
+        "location_text": "在罗山县治南",
+        "description": "水绕山下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "竹竿河",
+        "type": "河",
+        "location_text": "在罗山县东三十里",
+        "description": "源出窟垅山，比流合伞柄羊马二河入淮",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "蒋良辅",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "罗山知县",
+        "summary": "凡有科差量户贫富多寡适均，民有争讼以至公断之，修举废坠不劳民伤财"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "徐廷璋",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "罗山",
+        "office": "右副都御史",
+        "summary": "由进士除工科给事中，言论侃侃不避权贵，累官右副都御史"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "郑氏",
+        "type": "列女",
+        "dynasty": "元",
+        "native_place": "罗山",
+        "office": "李思齐妾",
+        "summary": "元末汝颍兵起，思齐卒，郑氏自经死，事闻追赠淑人谥曰贞烈"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "罗山县学",
+        "type": "学校",
+        "location_text": "在县治东北",
+        "history_lore": "洪武四年因元旧址重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "御书楼",
+        "type": "宫室",
+        "location_text": "在罗山县学内",
+        "history_lore": "本朝建以藏颁赐书籍"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "九重关",
+        "type": "关梁",
+        "location_text": "在罗山县西南一百二十里",
+        "history_lore": "即古黄岘关"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "破关",
+        "type": "关梁",
+        "location_text": "在罗山县南一百二十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "大胜关",
+        "type": "关梁",
+        "location_text": "在罗山县南一百四十里",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "白胜寺",
+        "type": "寺观",
+        "location_text": "在罗山县治东北",
+        "history_lore": "相传为楚白公胜别业，洪武中因旧重建"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "高安城",
+        "type": "古迹",
+        "location_text": "在罗山县西南一百里",
+        "history_lore": "北齐县，隋初废"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "𫑡县城",
+        "type": "古迹",
+        "location_text": "在废仙居县北四十里",
+        "history_lore": "汉置属江夏郡，惠帝封黎朱仓为侯即此，晋属弋阳郡"
+      }
+    ],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c07",
+        "name": "茶",
+        "category": "茶",
+        "location_text": "罗山县出"
+      }
+    ],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

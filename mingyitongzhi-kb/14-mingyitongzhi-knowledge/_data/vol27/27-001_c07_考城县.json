@@ -1,0 +1,134 @@
+{
+  "item_id": "27-001",
+  "volume": "27",
+  "source": "考城县",
+  "region": "河南",
+  "type": "county",
+  "original": "考城县【在州城东北九十里编户一十一里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "考城县",
+        "type": "geo",
+        "norm": "考城县",
+        "first_source": "27-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27001c07",
+        "item_id": "27-001",
+        "name": "考城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27001s01",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在州城东北九十里",
+          "households": {
+            "count": 11,
+            "unit": "里",
+            "note": "编户一十一里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "戴国",
+        "action": "置",
+        "detail": "本周之戴国，春秋时郑取之改名谷城"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "甾县",
+        "action": "置",
+        "detail": "秦置甾县汉属梁国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "考城县",
+        "action": "改",
+        "detail": "东汉始改考城属陈留郡，晋省后魏置考阳县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "考城县",
+        "action": "复",
+        "detail": "隋复为考城县属宋州，金属睢州，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "name": "葛冈",
+        "type": "冈",
+        "location_text": "在考城县南二里",
+        "description": "世传葛洪炼丹处又曰葛伯所筑未知孰是",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "name": "卧龙岗",
+        "type": "冈",
+        "location_text": "在考城县南十五里",
+        "description": "世传诸葛亮游寓于此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "name": "葵丘",
+        "type": "古迹",
+        "location_text": "在考城县治东",
+        "description": "春秋诸侯盟于葵丘即此",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-001",
+        "geo_id": "GEO-27001c07",
+        "name": "考城县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "洪武二十四年建圮于水，正统间重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}
