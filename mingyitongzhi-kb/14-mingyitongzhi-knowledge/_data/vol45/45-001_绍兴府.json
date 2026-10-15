@@ -1,0 +1,297 @@
+{
+  "item_id": "45-001",
+  "volume": "45",
+  "source": "绍兴府",
+  "region": "浙江",
+  "title": "绍兴府",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "绍兴府", "type": "geo", "norm": "绍兴府", "first_source": "45-001"},
+      {"ent_id": "ENT-002", "name": "山阴县", "type": "geo", "norm": "山阴县", "first_source": "45-001"},
+      {"ent_id": "ENT-003", "name": "会稽县", "type": "geo", "norm": "会稽县", "first_source": "45-001"},
+      {"ent_id": "ENT-004", "name": "萧山县", "type": "geo", "norm": "萧山县", "first_source": "45-001"},
+      {"ent_id": "ENT-005", "name": "诸暨县", "type": "geo", "norm": "诸暨县", "first_source": "45-001"},
+      {"ent_id": "ENT-006", "name": "余姚县", "type": "geo", "norm": "余姚县", "first_source": "45-001"},
+      {"ent_id": "ENT-007", "name": "上虞县", "type": "geo", "norm": "上虞县", "first_source": "45-001"},
+      {"ent_id": "ENT-008", "name": "嵊县", "type": "geo", "norm": "嵊县", "first_source": "45-001"},
+      {"ent_id": "ENT-009", "name": "新昌县", "type": "geo", "norm": "新昌县", "first_source": "45-001"},
+      {"ent_id": "ENT-010", "name": "会稽山", "type": "mtn", "norm": "会稽山", "first_source": "45-001"},
+      {"ent_id": "ENT-011", "name": "卧龙山", "type": "mtn", "norm": "卧龙山", "first_source": "45-001"},
+      {"ent_id": "ENT-012", "name": "镜湖", "type": "mtn", "norm": "镜湖", "first_source": "45-001"},
+      {"ent_id": "ENT-013", "name": "曹娥江", "type": "mtn", "norm": "曹娥江", "first_source": "45-001"},
+      {"ent_id": "ENT-014", "name": "若耶溪", "type": "mtn", "norm": "若耶溪", "first_source": "45-001"},
+      {"ent_id": "ENT-015", "name": "天姥山", "type": "mtn", "norm": "天姥山", "first_source": "45-001"},
+      {"ent_id": "ENT-016", "name": "兰亭", "type": "site", "norm": "兰亭", "first_source": "45-001"},
+      {"ent_id": "ENT-017", "name": "禹庙", "type": "site", "norm": "禹庙", "first_source": "45-001"},
+      {"ent_id": "ENT-018", "name": "禹陵", "type": "site", "norm": "禹陵", "first_source": "45-001"},
+      {"ent_id": "ENT-019", "name": "曹娥庙", "type": "site", "norm": "曹娥庙", "first_source": "45-001"},
+      {"ent_id": "ENT-020", "name": "陆游", "type": "person", "norm": "陆游", "first_source": "45-001"},
+      {"ent_id": "ENT-021", "name": "王羲之", "type": "person", "norm": "王羲之", "first_source": "45-001"},
+      {"ent_id": "ENT-022", "name": "谢安", "type": "person", "norm": "谢安", "first_source": "45-001"},
+      {"ent_id": "ENT-023", "name": "王守仁", "type": "person", "norm": "王守仁", "first_source": "45-001"},
+      {"ent_id": "ENT-024", "name": "王充", "type": "person", "norm": "王充", "first_source": "45-001"},
+      {"ent_id": "ENT-025", "name": "吴越春秋", "type": "book", "norm": "吴越春秋", "first_source": "45-001"},
+      {"ent_id": "ENT-026", "name": "论衡", "type": "book", "norm": "论衡", "first_source": "45-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-45001",
+        "item_id": "45-001",
+        "name": "绍兴府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-45001-c01",
+          "GEO-45001-c02",
+          "GEO-45001-c03",
+          "GEO-45001-c04",
+          "GEO-45001-c05",
+          "GEO-45001-c06",
+          "GEO-45001-c07",
+          "GEO-45001-c08",
+          "GEO-45001-w01",
+          "GEO-45001-w02"
+        ],
+        "volume_range": "卷45",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "宁波府慈谿县界", "distance_li": 200},
+            {"direction": "西", "to_place": "杭州府富阳县界", "distance_li": 135},
+            {"direction": "南", "to_place": "金华府东阳县界", "distance_li": 250},
+            {"direction": "北", "to_place": "海口", "distance_li": 30}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 1213},
+            {"capital": "京师", "distance_li": 4658}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领县八；各属县编户见下"},
+          "grain_tax": {"amount": 338900, "unit": "石", "note": "粮三十三万八千九百石零"},
+          "jun_name": "会稽【东汉名】东扬【刘宋名】",
+          "topography": "会稽佳山水【晋史】；千岩竞秀万壑争流【顾恺之传】；带海傍湖良畴数千万顷【宋书】；鉴水环其前卧龙拥其后稽山出其东秦望直其南【郡志】；襟海带江为东南一大都会【图经】；东南山水越为首剡为面沃洲天姥为眉目【白居易】",
+          "customs": "以舟楫为车马【越绝书】；民性敏柔而慧【宋书】；火耕水耨民食鱼稻【汉志】；有陂湖灌溉之利俗重犯法【郡志】；商贾工作皆着本业不以奢侈华丽为事【会稽志】；士好学笃志敦师择友【郡志】",
+          "garrisons": [
+            {"name": "绍兴卫", "type": "卫", "location_text": "在府治东洪武十二年建"},
+            {"name": "临山卫", "type": "卫", "location_text": "在余姚县西北"},
+            {"name": "三江守御千户所", "type": "千户所", "location_text": "在山阴县东北隶绍兴卫"},
+            {"name": "沥海守御千户所", "type": "千户所", "location_text": "在会稽县东北隶临山卫"},
+            {"name": "三山守御千户所", "type": "千户所", "location_text": "在余姚县东北隶临山卫，以上俱洪武二十年建"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007","CIT-008"]
+      },
+      {
+        "geo_id": "GEO-45001-c01",
+        "item_id": "45-001",
+        "name": "山阴县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 210, "unit": "里", "note": "编户二百一十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c02",
+        "item_id": "45-001",
+        "name": "会稽县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 221, "unit": "里", "note": "编户二百二十一里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c03",
+        "item_id": "45-001",
+        "name": "萧山县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府城西北九十三里",
+          "households": {"count": 140, "unit": "里", "note": "编户一百四十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c04",
+        "item_id": "45-001",
+        "name": "诸暨县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府城南一百二十里",
+          "households": {"count": 150, "unit": "里", "note": "编户一百五十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c05",
+        "item_id": "45-001",
+        "name": "余姚县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府城东一百八十里",
+          "households": {"count": 246, "unit": "里", "note": "编户二百四十六里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c06",
+        "item_id": "45-001",
+        "name": "上虞县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府城东一百二十里",
+          "households": {"count": 128, "unit": "里", "note": "编户一百二十八里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c07",
+        "item_id": "45-001",
+        "name": "嵊县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府城东南一百八十里",
+          "households": {"count": 82, "unit": "里", "note": "编户八十二里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-c08",
+        "item_id": "45-001",
+        "name": "新昌县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府城东南二百二十里",
+          "households": {"count": 30, "unit": "里", "note": "编户三十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-45001-w01",
+        "item_id": "45-001",
+        "name": "绍兴卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在府治东洪武十二年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-45001-w02",
+        "item_id": "45-001",
+        "name": "临山卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-45001",
+        "children": [],
+        "volume_range": "卷45",
+        "attributes": {
+          "location_text": "在余姚县西北洪武二十年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "夏", "era": null, "institution_name": "扬州之域", "action": "因之", "detail": "禹贡扬州之域，天文牛女分野；禹防诸侯于此计功命曰会稽，少康封少子无余于会稽以奉禹祀号曰于越"},
+      {"evo_id": "EVO-002", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "春秋战国", "era": null, "institution_name": "越国", "action": "因之", "detail": "春秋战国时为越国，后为楚所并"},
+      {"evo_id": "EVO-003", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "秦", "era": null, "institution_name": "会稽郡地", "action": "置", "detail": "秦灭楚置会稽郡治于吴，此地属焉"},
+      {"evo_id": "EVO-004", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "东汉", "era": "顺帝", "institution_name": "会稽郡治山阴", "action": "徙治", "detail": "东汉顺帝时始以吴置吴郡，而徙会稽郡治山阴"},
+      {"evo_id": "EVO-005", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "晋", "era": "咸和", "institution_name": "会稽国", "action": "改", "detail": "晋为会稽国，咸和中改郐"},
+      {"evo_id": "EVO-006", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "刘宋", "era": null, "institution_name": "东扬州", "action": "置", "detail": "刘宋置东扬州领会稽等五郡"},
+      {"evo_id": "EVO-007", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "隋", "era": "大业", "institution_name": "吴州/越州/会稽郡", "action": "改", "detail": "隋初郡废改东扬为吴州治会稽县，大业初改越州寻为会稽郡"},
+      {"evo_id": "EVO-008", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "唐", "era": "天宝/乾元", "institution_name": "越州/会稽郡", "action": "改", "detail": "唐初复置越州，天宝初改会稽郡，乾元初复为越州，置浙东观察使治于越；广明初升义胜军，乾宁中改镇东军"},
+      {"evo_id": "EVO-009", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "五代", "era": null, "institution_name": "吴越东都", "action": "因之", "detail": "五代钱氏以越为东都"},
+      {"evo_id": "EVO-010", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "宋", "era": "绍兴", "institution_name": "绍兴府", "action": "升", "detail": "宋仍为越州，绍兴初始升绍兴府"},
+      {"evo_id": "EVO-011", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "元", "era": null, "institution_name": "绍兴路", "action": "改", "detail": "元改绍兴路"},
+      {"evo_id": "EVO-012", "item_id": "45-001", "geo_id": "GEO-45001", "dynasty": "明", "era": null, "institution_name": "绍兴府", "action": "因之", "detail": "本朝复为绍兴府，领县八"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "卧龙山", "type": "山", "location_text": "在府城内", "description": "盘绕回抱如卧龙形，越大夫种葬此故又名种山", "lore": "宋苏轼诗卧龙蟠屈半东州万室鳞鳞枕其股"},
+      {"mtn_id": "MTN-002", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "龟山", "type": "山", "location_text": "在府治东南二里", "description": "一名飞来山又名宝林山，孤岫龟形", "lore": "唐徐季海诗兹山昔飞来远自琅琊台"},
+      {"mtn_id": "MTN-003", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "蕺山", "type": "山", "location_text": "在府治东北六里", "description": "越王嗜蕺常采食之因以名山，王羲之居此", "lore": "王羲之题扇故事即此处"},
+      {"mtn_id": "MTN-004", "item_id": "45-001", "geo_id": "GEO-45001-c02", "name": "会稽山", "type": "山", "location_text": "在府城东南一十二里", "description": "扬州之镇山，周回三百五十里，有阳明洞，即三十六洞天之第十一", "lore": "禹到大越上苗山爵有德封有功更名会稽"},
+      {"mtn_id": "MTN-005", "item_id": "45-001", "geo_id": "GEO-45001-c02", "name": "宛委山", "type": "山", "location_text": "在府城东南一十五里", "description": "遁甲开山图禹开宛委山得赤珪如日碧珪如月", "lore": "禹得书处传说"},
+      {"mtn_id": "MTN-006", "item_id": "45-001", "geo_id": "GEO-45001-c02", "name": "秦望山", "type": "山", "location_text": "在府城东南四十里", "description": "为众峰之杰，史记始皇尝登此以望东海因名", "lore": "唐李白诗东海横秦望西陵拱越台"},
+      {"mtn_id": "MTN-007", "item_id": "45-001", "geo_id": "GEO-45001-c02", "name": "云门山", "type": "山", "location_text": "在府城南三十里", "description": "晋王献之居此，旧有子敬山亭永禅师临书阁", "lore": "杜甫诗若耶溪云门寺青鞋布袜从此始"},
+      {"mtn_id": "MTN-008", "item_id": "45-001", "geo_id": "GEO-45001-c03", "name": "萧山", "type": "山", "location_text": "在萧山县治西", "description": "潘水所出东入海，晋许询尝登此山凭林筑室萧然自放", "lore": "一名萧然山"},
+      {"mtn_id": "MTN-009", "item_id": "45-001", "geo_id": "GEO-45001-c03", "name": "城山", "type": "山", "location_text": "在萧山县西九里", "description": "吴王阖闾侵越勾践保此山，山麓有泉多产嘉鱼", "lore": "越取双鲤报吴兵夜遁故事"},
+      {"mtn_id": "MTN-010", "item_id": "45-001", "geo_id": "GEO-45001-c03", "name": "龙门山", "type": "山", "location_text": "在萧山县西南七十里", "description": "两山对峙上有龙湫", "lore": "元张庭兰诗何年凿此混沌胎赤鲤跃出龙门开"},
+      {"mtn_id": "MTN-011", "item_id": "45-001", "geo_id": "GEO-45001-c04", "name": "苎萝山", "type": "山", "location_text": "在诸暨县南五里", "description": "下有方石，旧经西施晒纱处", "lore": "西施故里"},
+      {"mtn_id": "MTN-012", "item_id": "45-001", "geo_id": "GEO-45001-c04", "name": "五泄山", "type": "山", "location_text": "在诸暨县西五十里", "description": "上有泉水飞沫如雪沿历五级下注溪壑，俗名小雁荡", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "45-001", "geo_id": "GEO-45001-c05", "name": "秘图山", "type": "山", "location_text": "在余姚县治北", "description": "上有石匮，夏禹藏灵秘图之所", "lore": "元刘仁本于此作续兰亭会"},
+      {"mtn_id": "MTN-014", "item_id": "45-001", "geo_id": "GEO-45001-c05", "name": "龙泉山", "type": "山", "location_text": "在余姚县治西", "description": "一名灵绪山，姚江绕其南山趾有泉未尝竭", "lore": "王阳明祠在焉"},
+      {"mtn_id": "MTN-015", "item_id": "45-001", "geo_id": "GEO-45001-c05", "name": "客星山", "type": "山", "location_text": "在余姚县东北", "description": "旧名陈山，汉严子陵居此", "lore": "高节书院在其侧"},
+      {"mtn_id": "MTN-016", "item_id": "45-001", "geo_id": "GEO-45001-c06", "name": "东山", "type": "山", "location_text": "在上虞县西南四十五里", "description": "晋太傅谢安居此，绝顶有谢公调马路白云明月二亭遗迹", "lore": "谢安高卧东山；谢灵运于此读书有石壁精舍"},
+      {"mtn_id": "MTN-017", "item_id": "45-001", "geo_id": "GEO-45001-c06", "name": "兰芎山", "type": "山", "location_text": "在上虞县西北二十五里", "description": "一名兰风，葛洪尝隐于此有石井汲之不竭", "lore": ""},
+      {"mtn_id": "MTN-018", "item_id": "45-001", "geo_id": "GEO-45001-c07", "name": "剡山", "type": "山", "location_text": "在嵊县治西", "description": "始皇东游使人凿此山以泄王气，一名鹿胎山", "lore": "猎士陈惠度射鹿鹿胎草传说"},
+      {"mtn_id": "MTN-019", "item_id": "45-001", "geo_id": "GEO-45001-c07", "name": "嶀山", "type": "山", "location_text": "在嵊县北四十里", "description": "两岸峻绝临水最为奇胜", "lore": "王元琳谓嶀山及嵊山皆谓之神明境"},
+      {"mtn_id": "MTN-020", "item_id": "45-001", "geo_id": "GEO-45001-c07", "name": "丹池山", "type": "山", "location_text": "在嵊县东七十二里", "description": "旧名桐柏山，上有金庭洞，道书以为第二十七洞天", "lore": "王羲之读书楼舍为金庭观"},
+      {"mtn_id": "MTN-021", "item_id": "45-001", "geo_id": "GEO-45001-c08", "name": "沃洲山", "type": "山", "location_text": "在新昌县东三十五里", "description": "与天姥对峙，道书以为第十五福地，晋支遁居之", "lore": "唐刘文房诗莫买沃洲山时人已知处"},
+      {"mtn_id": "MTN-022", "item_id": "45-001", "geo_id": "GEO-45001-c08", "name": "天姥山", "type": "山", "location_text": "在新昌县东南五十里", "description": "东接天台，登此山者或闻天姥歌谣之声，道书以为第十六福地", "lore": "唐李白诗天姥连天向天横势拔五岳掩赤城"},
+      {"mtn_id": "MTN-023", "item_id": "45-001", "geo_id": "GEO-45001-c08", "name": "南明山", "type": "山", "location_text": "在新昌县治南", "description": "俗称橐驼卸宝山又名石城山", "lore": "晋支遁葬于此；宝相寺在焉"},
+      {"mtn_id": "MTN-024", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "日铸岭", "type": "岭", "location_text": "在府城东南五十里", "description": "昔欧冶子铸五剑采金铜之精于此，其地产茶最佳", "lore": "宋欧阳修云两浙产茶日铸第一"},
+      {"mtn_id": "MTN-025", "item_id": "45-001", "geo_id": "GEO-45001-c07", "name": "清风岭", "type": "岭", "location_text": "在嵊县北三十里", "description": "上有王烈妇祠", "lore": "元李孝光诗此心若愧王贞妇莫向清风岭上行"},
+      {"mtn_id": "MTN-026", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "钱清江", "type": "江", "location_text": "在府城西五十五里", "description": "以汉守刘宠一钱事得名", "lore": "宋建炎三年高宗还浙西至钱清复如越州即此"},
+      {"mtn_id": "MTN-027", "item_id": "45-001", "geo_id": "GEO-45001-c02", "name": "曹娥江", "type": "江", "location_text": "在府城东南七十里", "description": "即汉曹娥求父尸不得投江而死之处，县长度尚葬娥于江南道旁", "lore": "曹娥孝女传说"},
+      {"mtn_id": "MTN-028", "item_id": "45-001", "geo_id": "GEO-45001-c05", "name": "姚江", "type": "江", "location_text": "在余姚县治南", "description": "潮上下二百余里而水不咸，一名舜江", "lore": ""},
+      {"mtn_id": "MTN-029", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "镜湖", "type": "湖", "location_text": "在府城西南三十里", "description": "古称南湖，萦带郊郭连属峰岫，周回三百里，溉田九千余顷", "lore": "王羲之云从山阴路上行如在鉴中游；李白诗鉴湖三百里菡蓞发荷花"},
+      {"mtn_id": "MTN-030", "item_id": "45-001", "geo_id": "GEO-45001-c03", "name": "湘湖", "type": "湖", "location_text": "在萧山县西二里", "description": "湖生莼丝最美", "lore": "魏文靖公墓在湘湖山"},
+      {"mtn_id": "MTN-031", "item_id": "45-001", "geo_id": "GEO-45001-c06", "name": "夏盖湖", "type": "湖", "location_text": "在上虞县西北四十七里", "description": "湖内三十六沟，湖东北有山名夏盖", "lore": "余姚上虞争夏盖湖水利"},
+      {"mtn_id": "MTN-032", "item_id": "45-001", "geo_id": "GEO-45001-c02", "name": "若耶溪", "type": "溪", "location_text": "在府城南二十五里", "description": "与镜湖合，西施采莲欧冶铸剑于此", "lore": "唐徐海叹云曾子不居胜母之里吾岂游若耶之溪因改五云溪"},
+      {"mtn_id": "MTN-033", "item_id": "45-001", "geo_id": "GEO-45001-c07", "name": "剡溪", "type": "溪", "location_text": "在嵊县治南", "description": "一名戴溪", "lore": "晋王徽之雪夜访戴逵处"},
+      {"mtn_id": "MTN-034", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "樵风泾", "type": "溪", "location_text": "在府城东南二十五里", "description": "汉郑弘采薪得遗箭，后愿朝南风暮北风果然，世号樵风泾", "lore": "宋之问诗归舟何虑远日暮有樵风"},
+      {"mtn_id": "MTN-035", "item_id": "45-001", "geo_id": "GEO-45001-c01", "name": "菲饮泉", "type": "泉", "location_text": "在府城东南一十二里大禹寺西", "description": "以禹菲饮食而名", "lore": "宋王十朋诗梵王宫近夏王宫一水清垂节俭风"},
+      {"mtn_id": "MTN-036", "item_id": "45-001", "geo_id": "GEO-45001-c05", "name": "海塘", "type": "塘", "location_text": "在余姚县北四十里", "description": "宋令谢景初元州判叶恒皆尝筑塘以捍水患，一名莲花塘", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "45-001", "cited_work": "晋史", "cited_work_ent_id": null, "context": "形势", "original": "【晋史会稽佳山水】"},
+      {"cit_id": "CIT-002", "item_id": "45-001", "cited_work": "顾恺之传", "cited_work_ent_id": null, "context": "形势", "original": "【宋顾凯之传千岩竞秀万壑争流】"},
+      {"cit_id": "CIT-003", "item_id": "45-001", "cited_work": "宋书", "cited_work_ent_id": null, "context": "形势", "original": "【宋书带海傍湖良畴数千万顷膏腴土地亩直一金】"},
+      {"cit_id": "CIT-004", "item_id": "45-001", "cited_work": "郡志", "cited_work_ent_id": null, "context": "形势", "original": "【郡志鉴水环其前卧龙拥其后稽山出其东秦望直其南自浙以东最为胜处】"},
+      {"cit_id": "CIT-005", "item_id": "45-001", "cited_work": "白居易沃洲山真觉寺记", "cited_work_ent_id": null, "context": "形势", "original": "【唐白乐天沃洲山眞觉寺记东南山水越为首剡为靣沃洲天姥为眉目】"},
+      {"cit_id": "CIT-006", "item_id": "45-001", "cited_work": "越绝书", "cited_work_ent_id": null, "context": "风俗", "original": "【越絶书以舟楫为车马】"},
+      {"cit_id": "CIT-007", "item_id": "45-001", "cited_work": "汉志", "cited_work_ent_id": null, "context": "风俗", "original": "【汉志火耕水耨民食鱼稻果蓏蠃蛉食物常足】"},
+      {"cit_id": "CIT-008", "item_id": "45-001", "cited_work": "会稽志", "cited_work_ent_id": null, "context": "风俗", "original": "【防稽志商贾工作之徒皆着本业不以奢侈华丽为事】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1名宦/pers2人物/pers3列女仙释/pers4流寓；sites拆至sites1寺观祠庙陵墓/sites2宫室关梁公署学校"
+  },
+  "title": "绍兴府"
+}

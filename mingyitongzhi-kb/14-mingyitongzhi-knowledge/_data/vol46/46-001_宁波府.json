@@ -1,0 +1,235 @@
+{
+  "item_id": "46-001",
+  "volume": "46",
+  "source": "宁波府",
+  "region": "浙江",
+  "title": "宁波府",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "宁波府", "type": "geo", "norm": "宁波府", "first_source": "46-001"},
+      {"ent_id": "ENT-002", "name": "鄞县", "type": "geo", "norm": "鄞县", "first_source": "46-001"},
+      {"ent_id": "ENT-003", "name": "慈溪县", "type": "geo", "norm": "慈溪县", "first_source": "46-001"},
+      {"ent_id": "ENT-004", "name": "奉化县", "type": "geo", "norm": "奉化县", "first_source": "46-001"},
+      {"ent_id": "ENT-005", "name": "定海县", "type": "geo", "norm": "定海县", "first_source": "46-001"},
+      {"ent_id": "ENT-006", "name": "象山县", "type": "geo", "norm": "象山县", "first_source": "46-001"},
+      {"ent_id": "ENT-007", "name": "四明山", "type": "mtn", "norm": "四明山", "first_source": "46-001"},
+      {"ent_id": "ENT-008", "name": "东钱湖", "type": "mtn", "norm": "东钱湖", "first_source": "46-001"},
+      {"ent_id": "ENT-009", "name": "它山堰", "type": "mtn", "norm": "它山堰", "first_source": "46-001"},
+      {"ent_id": "ENT-010", "name": "阿育王山", "type": "mtn", "norm": "阿育王山", "first_source": "46-001"},
+      {"ent_id": "ENT-011", "name": "补陀落迦山", "type": "mtn", "norm": "补陀落迦山", "first_source": "46-001"},
+      {"ent_id": "ENT-012", "name": "月湖", "type": "mtn", "norm": "月湖", "first_source": "46-001"},
+      {"ent_id": "ENT-013", "name": "它山堰", "type": "site", "norm": "它山堰", "first_source": "46-001"},
+      {"ent_id": "ENT-014", "name": "阿育王寺", "type": "site", "norm": "阿育王寺", "first_source": "46-001"},
+      {"ent_id": "ENT-015", "name": "天童寺", "type": "site", "norm": "天童寺", "first_source": "46-001"},
+      {"ent_id": "ENT-016", "name": "王安石", "type": "person", "norm": "王安石", "first_source": "46-001"},
+      {"ent_id": "ENT-017", "name": "王应麟", "type": "person", "norm": "王应麟", "first_source": "46-001"},
+      {"ent_id": "ENT-018", "name": "黄震", "type": "person", "norm": "黄震", "first_source": "46-001"},
+      {"ent_id": "ENT-019", "name": "童中叟", "type": "book", "norm": "困学纪闻", "first_source": "46-001"},
+      {"ent_id": "ENT-020", "name": "玉海", "type": "book", "norm": "玉海", "first_source": "46-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-46001",
+        "item_id": "46-001",
+        "name": "宁波府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-46001-c01",
+          "GEO-46001-c02",
+          "GEO-46001-c03",
+          "GEO-46001-c04",
+          "GEO-46001-c05",
+          "GEO-46001-w01",
+          "GEO-46001-w02"
+        ],
+        "volume_range": "卷46",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "海岸", "distance_li": 104},
+            {"direction": "西", "to_place": "绍兴府余姚县界", "distance_li": 120},
+            {"direction": "南", "to_place": "台州府宁海县界", "distance_li": 146},
+            {"direction": "北", "to_place": "慈溪县界海岸", "distance_li": 62}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 1385},
+            {"capital": "京师", "distance_li": 4640}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领县五；各属县编户见下"},
+          "grain_tax": {"amount": 174400, "unit": "石", "note": "粮一十七万四千四百石零"},
+          "jun_name": "甬东【史记】四明【唐以山名州】庆元【宋名】",
+          "topography": "东南要防【四明图经】；东渐巨海西通五湖南畅无垠北渚浙江【吴虞翻云】；负溟渤控扶桑倚巨镇通长江【九经堂记】；抱负沧海枕山臂江【图经】；水陆并通【晋陆云答车茂安书】；太湖漫其西南大江带其东北【宋杨防引水记】",
+          "customs": "君子尚礼庸庶淳庞【隋志】；人杂五方俗类京口【隋书】；其俗不杂其人易治【宋王安石慈溪县学记】；衣冠文物甲于东南诸郡【郡志】；诗书之乡【王应麟鄞县学记】",
+          "garrisons": [
+            {"name": "宁波卫", "type": "卫", "location_text": "在府治西即宋庆元府故址本朝洪武初建明州卫寻改宁波卫"},
+            {"name": "定海卫", "type": "卫", "location_text": "在定海县治东北"},
+            {"name": "观海卫", "type": "卫", "location_text": "在府城西一百五十里慈溪县境"},
+            {"name": "昌国卫", "type": "卫", "location_text": "在府城南三百五十里象山县境，俱洪武二十年建"},
+            {"name": "浙江市舶提举司", "type": "市舶司", "location_text": "在府治西北永乐元年建"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007"]
+      },
+      {
+        "geo_id": "GEO-46001-c01",
+        "item_id": "46-001",
+        "name": "鄞县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 448, "unit": "里", "note": "编户四百四十八里"}
+        }
+      },
+      {
+        "geo_id": "GEO-46001-c02",
+        "item_id": "46-001",
+        "name": "慈溪县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "在府城西北六十里",
+          "households": {"count": 200, "unit": "里", "note": "编户二百里"}
+        }
+      },
+      {
+        "geo_id": "GEO-46001-c03",
+        "item_id": "46-001",
+        "name": "奉化县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "在府城南八十里",
+          "households": {"count": 147, "unit": "里", "note": "编户一百四十七里"}
+        }
+      },
+      {
+        "geo_id": "GEO-46001-c04",
+        "item_id": "46-001",
+        "name": "定海县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "在府城东六十五里",
+          "households": {"count": 90, "unit": "里", "note": "编户九十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-46001-c05",
+        "item_id": "46-001",
+        "name": "象山县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "在府城南二百七十里",
+          "households": {"count": 30, "unit": "里", "note": "编户三十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-46001-w01",
+        "item_id": "46-001",
+        "name": "宁波卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "在府治西洪武初建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-46001-w02",
+        "item_id": "46-001",
+        "name": "定海卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-46001",
+        "children": [],
+        "volume_range": "卷46",
+        "attributes": {
+          "location_text": "在定海县治东北洪武二十年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "夏商周", "era": null, "institution_name": "越地", "action": "因之", "detail": "禹贡扬州之域，天文牛女分野，夏商周皆为越地"},
+      {"evo_id": "EVO-002", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "秦", "era": null, "institution_name": "鄞鄮句章三县", "action": "置", "detail": "秦置鄞鄮句章三县属会稽郡"},
+      {"evo_id": "EVO-003", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "汉", "era": null, "institution_name": "因之", "action": "因之", "detail": "汉因之，三国吴及晋宋齐梁陈皆仍旧"},
+      {"evo_id": "EVO-004", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "隋", "era": null, "institution_name": "句章县", "action": "省并", "detail": "隋以鄞鄮省入句章县，隶吴州后隶越州"},
+      {"evo_id": "EVO-005", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "唐", "era": "开元/天宝/乾元", "institution_name": "鄞州/明州/余姚郡", "action": "改", "detail": "唐武德初析句章县置鄞州寻废为鄮县，开元中以鄮县置明州，天宝初改余姚郡，乾元初复为明州属江南道"},
+      {"evo_id": "EVO-006", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "五代", "era": null, "institution_name": "望海军", "action": "置", "detail": "五代时钱氏于此置望海军"},
+      {"evo_id": "EVO-007", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "宋", "era": "绍兴/绍熙", "institution_name": "奉国军/庆元府", "action": "升", "detail": "宋初改奉国军属浙东路，绍兴初置沿海制置司于此，绍熙中升州为庆元府"},
+      {"evo_id": "EVO-008", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "元", "era": null, "institution_name": "庆元路", "action": "改", "detail": "元至元中改置庆元路"},
+      {"evo_id": "EVO-009", "item_id": "46-001", "geo_id": "GEO-46001", "dynasty": "明", "era": "洪武", "institution_name": "明州府/宁波府", "action": "改", "detail": "本朝吴元年改明州府，洪武十四年又改宁波府，领县五"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "府山", "type": "山", "location_text": "在府治后", "description": "宋郡守胡榘取五方土积成此山以镇府城", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "陶公山", "type": "山", "location_text": "在府城东三十里", "description": "世传陶朱公尝隐于此故名，山有钓鱼矶", "lore": "范蠡传说"},
+      {"mtn_id": "MTN-003", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "鄮山", "type": "山", "location_text": "在府城东三十六里", "description": "旧志尝有海商贸易于此，后人因加邑从贸以为山名", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "赤堇山", "type": "山", "location_text": "在府城东四十里", "description": "山上有草名赤堇，县因此山故加邑名鄞", "lore": "鄞县得名由来"},
+      {"mtn_id": "MTN-005", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "阿育王山", "type": "山", "location_text": "在府城东五十里", "description": "旧名鄮山，晋太康中并州人刘萨诃得阿育王塔于此因名", "lore": "阿育王寺所在"},
+      {"mtn_id": "MTN-006", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "天童山", "type": "山", "location_text": "在府城东六十里", "description": "山有虎跑泉玲珑岩，下有天童寺", "lore": "宋王安石游山诗溪水清涟石老苍"},
+      {"mtn_id": "MTN-007", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "太白山", "type": "山", "location_text": "在府城东六十里", "description": "其山视诸山为最高，上有龙池云气蓊勃生于水而不绝", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "四明山", "type": "山", "location_text": "在府城西南一百五十里", "description": "周回八百里跨绍兴台州之境二百八十峰，其巅五峰绝高形如芙蓉，道书谓丹山赤水之天，上有石窗四窍通日月星辰之光故曰四明", "lore": "唐施肩吾诗半夜寻幽上四明"},
+      {"mtn_id": "MTN-009", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "大梅山", "type": "山", "location_text": "在府城东南七十里", "description": "相传汉梅子真隐于此，石洞仙井药炉丹灶遗迹犹存", "lore": "山顶大梅木唐时伐为它山堰梁"},
+      {"mtn_id": "MTN-010", "item_id": "46-001", "geo_id": "GEO-46001-c03", "name": "雪窦山", "type": "山", "location_text": "在奉化县西北六十里", "description": "中有雪窦寺千丈岩瀑布泉藤龛锦镜池含珠林隐潭形胜非一", "lore": "宋赐御书应梦名山四大字"},
+      {"mtn_id": "MTN-011", "item_id": "46-001", "geo_id": "GEO-46001-c02", "name": "大隐山", "type": "山", "location_text": "在慈溪县南三十七里", "description": "晋虞喜尝隐于此山三召不起", "lore": "唐末闽人林无隐亦侨居于此"},
+      {"mtn_id": "MTN-012", "item_id": "46-001", "geo_id": "GEO-46001-c02", "name": "句余山", "type": "山", "location_text": "在慈溪县西南四十里", "description": "以其在句章西余姚东故名，山海经云其山多金玉无草木", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "46-001", "geo_id": "GEO-46001-c04", "name": "招宝山", "type": "山", "location_text": "在定海县东五里", "description": "一名候涛山，山半有棋子坪，凡欲取棋子者先以白饭撒之翌日可得白子", "lore": "宋吕祖俭有游山记"},
+      {"mtn_id": "MTN-014", "item_id": "46-001", "geo_id": "GEO-46001-c04", "name": "蛟门山", "type": "山", "location_text": "在定海县东四十里", "description": "一名嘉门山，出此即大海洋", "lore": "古人称蛟门虎蹲天设之险即此地"},
+      {"mtn_id": "MTN-015", "item_id": "46-001", "geo_id": "GEO-46001-c04", "name": "补陀落迦山", "type": "山", "location_text": "在定海县东北故昌国县海中", "description": "佛书所谓海岸孤绝处，一名梅岑山，高丽日本新罗诸国皆由此取道以候风信", "lore": "观音道场"},
+      {"mtn_id": "MTN-016", "item_id": "46-001", "geo_id": "GEO-46001-c05", "name": "象山", "type": "山", "location_text": "在象山县治北", "description": "形如伏象，县以此得名", "lore": ""},
+      {"mtn_id": "MTN-017", "item_id": "46-001", "geo_id": "GEO-46001-c05", "name": "炼丹山", "type": "山", "location_text": "在象山县治西南", "description": "一名蓬莱山，相传梁陶弘景炼丹于此，山上有峰如掌名仙人岩", "lore": ""},
+      {"mtn_id": "MTN-018", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "它山", "type": "山", "location_text": "在府城东五十里", "description": "唐县令王元纬筑堰于山下，即它山堰", "lore": ""},
+      {"mtn_id": "MTN-019", "item_id": "46-001", "geo_id": "GEO-46001-c02", "name": "阚峰", "type": "峰", "location_text": "在慈溪县东二里", "description": "吴太傅阚泽居此故名", "lore": ""},
+      {"mtn_id": "MTN-020", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "鄞江", "type": "江", "location_text": "在府城东", "description": "其源有二：一自奉化江合它山之水东流，一自上虞经余姚慈溪境东流，俱至县东三港口合而东注至定海县大浃江入海", "lore": ""},
+      {"mtn_id": "MTN-021", "item_id": "46-001", "geo_id": "GEO-46001-c03", "name": "奉化江", "type": "江", "location_text": "在奉化县北四十五里", "description": "俗名北渡江，流入鄞江", "lore": ""},
+      {"mtn_id": "MTN-022", "item_id": "46-001", "geo_id": "GEO-46001-c02", "name": "慈溪", "type": "江", "location_text": "在慈溪县西南三十里", "description": "旧名大隐，东汉董黯因母疾思饮此溪水筑室溪滨以便取汲，故后人以慈名溪", "lore": "董黯孝行"},
+      {"mtn_id": "MTN-023", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "月湖", "type": "湖", "location_text": "在府治西南", "description": "又名西湖，中有十景曰柳汀雪汀芳草洲芙蓉洲菊花洲月岛松岛花屿烟屿竹屿，为四明游观胜概", "lore": "宋时文人多有题咏"},
+      {"mtn_id": "MTN-024", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "东钱湖", "type": "湖", "location_text": "在府城东二十五里", "description": "周回八十里溉田八百顷，又名万金湖，湖中一山突然上有二灵庵", "lore": "唐县令陆南金开广"},
+      {"mtn_id": "MTN-025", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "广德湖", "type": "湖", "location_text": "在府城西二十里", "description": "宋曾巩记东七乡之田钱湖溉之，其西七乡之田水注者则此湖也，旧名莺脰湖，后郡人楼异知郡事奏罢为田", "lore": "唐县令储仙舟更今名"},
+      {"mtn_id": "MTN-026", "item_id": "46-001", "geo_id": "GEO-46001-c02", "name": "普济湖", "type": "湖", "location_text": "在慈溪县治东北", "description": "唐县令房琯凿以溉田，旧名阚湖，宋易名慈湖，以其近普济寺又名普济湖", "lore": "杨简慈湖书院所在"},
+      {"mtn_id": "MTN-027", "item_id": "46-001", "geo_id": "GEO-46001-c05", "name": "白马湖", "type": "湖", "location_text": "在象山县东九里", "description": "相传昔邑人凿山有物如白马飞入湖中故名", "lore": ""},
+      {"mtn_id": "MTN-028", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "它山堰", "type": "塘", "location_text": "在府城西南五十里", "description": "唐鄮令王元纬始叠石为堰于两山间，阔四十二丈级三十有六冶铁灌之，渠与江截为二，流入城市缭乡村以漕以灌其利甚博", "lore": "水利名堰，民立遗德庙祀之"},
+      {"mtn_id": "MTN-029", "item_id": "46-001", "geo_id": "GEO-46001-c01", "name": "灌门海", "type": "海", "location_text": "在定海县东北故昌国县海中", "description": "有砥柱屹立中流望之如人拱立，水汇于此旋涌若沸，风雨将作有声如雷", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "46-001", "cited_work": "四明图经", "cited_work_ent_id": null, "context": "形势", "original": "【四明图经云海道辐凑之地南则闽广东则倭人商船徃来物货丰衍东出定海有蛟门虎蹲天设之险亦东南之要防】"},
+      {"cit_id": "CIT-002", "item_id": "46-001", "cited_work": "吴虞翻云", "cited_work_ent_id": null, "context": "形势", "original": "【呉虞翻云东渐巨海西通五湖南畅无垠北渚浙江】"},
+      {"cit_id": "CIT-003", "item_id": "46-001", "cited_work": "图经", "cited_work_ent_id": null, "context": "形势", "original": "【图经四明据防稽之东抱负沧海枕山臂江重阜崇岭连亘数千里】"},
+      {"cit_id": "CIT-004", "item_id": "46-001", "cited_work": "晋陆云答车茂安书", "cited_work_ent_id": null, "context": "形势", "original": "【晋陆云答车茂安书直东而出水陆并通西有太湖广纵千顷北有名山南有林泽东冇巨海徃徃无涯放船长驱一举千里】"},
+      {"cit_id": "CIT-005", "item_id": "46-001", "cited_work": "隋志", "cited_work_ent_id": null, "context": "风俗", "original": "【隋志川泽衍沃风俗澄清海陆珎异所聚蕃汉商贾并凑君子尚礼庸庶淳厐】"},
+      {"cit_id": "CIT-006", "item_id": "46-001", "cited_work": "王安石慈溪县学记", "cited_work_ent_id": null, "context": "风俗", "original": "【宋王安石慈溪县学记无防贩之民故其俗一而不杂有以自足故其人慎刑而易治】"},
+      {"cit_id": "CIT-007", "item_id": "46-001", "cited_work": "王应麟鄞县学记", "cited_work_ent_id": null, "context": "风俗", "original": "【王应麟鄞县学记是邦为诗书之乡逸民之黄纯孝之董丈士之任自汉以来为美谈】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1名宦/pers2人物/pers3列女仙释；sites拆至sites1寺观祠庙陵墓/sites2宫室关梁公署学校"
+  },
+  "title": "宁波府"
+}

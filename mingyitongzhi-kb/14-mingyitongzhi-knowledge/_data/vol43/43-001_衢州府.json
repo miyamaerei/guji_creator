@@ -1,0 +1,211 @@
+{
+  "item_id": "43-001",
+  "volume": "43",
+  "source": "衢州府",
+  "region": "浙江",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "衢州府", "type": "geo", "norm": "衢州府", "first_source": "43-001"},
+      {"ent_id": "ENT-002", "name": "西安县", "type": "geo", "norm": "西安县", "first_source": "43-001"},
+      {"ent_id": "ENT-003", "name": "龙游县", "type": "geo", "norm": "龙游县", "first_source": "43-001"},
+      {"ent_id": "ENT-004", "name": "常山县", "type": "geo", "norm": "常山县", "first_source": "43-001"},
+      {"ent_id": "ENT-005", "name": "江山县", "type": "geo", "norm": "江山县", "first_source": "43-001"},
+      {"ent_id": "ENT-006", "name": "开化县", "type": "geo", "norm": "开化县", "first_source": "43-001"},
+      {"ent_id": "ENT-007", "name": "衢州守御千户所", "type": "geo", "norm": "衢州守御千户所", "first_source": "43-001"},
+      {"ent_id": "ENT-008", "name": "烂柯山", "type": "mtn", "norm": "烂柯山", "first_source": "43-001"},
+      {"ent_id": "ENT-009", "name": "江郎山", "type": "mtn", "norm": "江郎山", "first_source": "43-001"},
+      {"ent_id": "ENT-010", "name": "三衢山", "type": "mtn", "norm": "三衢山", "first_source": "43-001"},
+      {"ent_id": "ENT-011", "name": "龙丘山", "type": "mtn", "norm": "龙丘山", "first_source": "43-001"},
+      {"ent_id": "ENT-012", "name": "仙霞岭", "type": "mtn", "norm": "仙霞岭", "first_source": "43-001"},
+      {"ent_id": "ENT-013", "name": "信安溪", "type": "mtn", "norm": "信安溪", "first_source": "43-001"},
+      {"ent_id": "ENT-014", "name": "柯山书院", "type": "site", "norm": "柯山书院", "first_source": "43-001"},
+      {"ent_id": "ENT-015", "name": "孔氏家庙", "type": "site", "norm": "孔氏家庙", "first_source": "43-001"},
+      {"ent_id": "ENT-016", "name": "徐偃王庙", "type": "site", "norm": "徐偃王庙", "first_source": "43-001"},
+      {"ent_id": "ENT-017", "name": "赵抃", "type": "person", "norm": "赵抃", "first_source": "43-001"},
+      {"ent_id": "ENT-018", "name": "龙丘苌", "type": "person", "norm": "龙丘苌", "first_source": "43-001"},
+      {"ent_id": "ENT-019", "name": "徐徽言", "type": "person", "norm": "徐徽言", "first_source": "43-001"},
+      {"ent_id": "ENT-020", "name": "程俱", "type": "person", "norm": "程俱", "first_source": "43-001"},
+      {"ent_id": "ENT-021", "name": "刘章", "type": "person", "norm": "刘章", "first_source": "43-001"},
+      {"ent_id": "ENT-022", "name": "余端礼", "type": "person", "norm": "余端礼", "first_source": "43-001"},
+      {"ent_id": "ENT-023", "name": "毛滂", "type": "person", "norm": "毛滂", "first_source": "43-001"},
+      {"ent_id": "ENT-024", "name": "宗泽", "type": "person", "norm": "宗泽", "first_source": "43-001"},
+      {"ent_id": "ENT-025", "name": "王质", "type": "person", "norm": "王质", "first_source": "43-001"},
+      {"ent_id": "ENT-026", "name": "毛晃", "type": "person", "norm": "毛晃", "first_source": "43-001"},
+      {"ent_id": "ENT-027", "name": "吾绅", "type": "person", "norm": "吾绅", "first_source": "43-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-43001",
+        "item_id": "43-001",
+        "name": "衢州府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-43001-c01",
+          "GEO-43001-c02",
+          "GEO-43001-c03",
+          "GEO-43001-c04",
+          "GEO-43001-c05",
+          "GEO-43001-w01"
+        ],
+        "volume_range": "卷43",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "金华府兰溪县界", "distance_li": 122},
+            {"direction": "西", "to_place": "江西广信府玉山县界", "distance_li": 115},
+            {"direction": "南", "to_place": "福建建宁府浦城县界", "distance_li": 210},
+            {"direction": "北", "to_place": "严州府遂安县界", "distance_li": 95}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 1570},
+            {"capital": "京师", "distance_li": 4640}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领县五；各属县编户见下"},
+          "grain_tax": {"amount": 92200, "unit": "石", "note": "粮九万二千二百石零"},
+          "jun_name": "姑蔑【春秋时名】三衢【元和志以州有三衢山故名】信安【唐名】",
+          "topography": "姑蔑之墟太末之壤【宋毛幵超览堂记】四通五达江浙闽广之所辐辏【衢州学记】得山水之胜【宋钱顗云】东南孔道闽越之交【宋毛幵和风楼记】其山邃以丽其水清以驶【宋程俱保安院记】据浙江上游川陆所会【郡志】",
+          "customs": "其民轻死易发【汉志吴越之习好勇】其俗悍以果其君子耿耿好气敏于事【宋程俱保安院记】有古遗风【超览堂记】民淳事简风俗敦厚【信安志】",
+          "garrisons": [
+            {"name": "衢州守御千户所", "type": "千户所", "location_text": "在府治西洪武初置仁和卫后罢为守御千户所"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007","CIT-008"]
+      },
+      {
+        "geo_id": "GEO-43001-c01",
+        "item_id": "43-001",
+        "name": "西安县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-43001",
+        "children": [],
+        "volume_range": "卷43",
+        "attributes": {"location_text": "附郭", "households": {"count": 168, "unit": "里", "note": "编户一百六十八里"}}
+      },
+      {
+        "geo_id": "GEO-43001-c02",
+        "item_id": "43-001",
+        "name": "龙游县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-43001",
+        "children": [],
+        "volume_range": "卷43",
+        "attributes": {"location_text": "在府城东七十里", "households": {"count": 184, "unit": "里", "note": "编户一百八十四里"}}
+      },
+      {
+        "geo_id": "GEO-43001-c03",
+        "item_id": "43-001",
+        "name": "常山县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-43001",
+        "children": [],
+        "volume_range": "卷43",
+        "attributes": {"location_text": "在府城西八十里", "households": {"count": 110, "unit": "里", "note": "编户一百一十里"}}
+      },
+      {
+        "geo_id": "GEO-43001-c04",
+        "item_id": "43-001",
+        "name": "江山县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-43001",
+        "children": [],
+        "volume_range": "卷43",
+        "attributes": {"location_text": "在府城西南七十五里", "households": {"count": 129, "unit": "里", "note": "编户一百二十九里"}}
+      },
+      {
+        "geo_id": "GEO-43001-c05",
+        "item_id": "43-001",
+        "name": "开化县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-43001",
+        "children": [],
+        "volume_range": "卷43",
+        "attributes": {"location_text": "在府城西北二百里", "households": {"count": 153, "unit": "里", "note": "编户一百五十三里"}}
+      },
+      {
+        "geo_id": "GEO-43001-w01",
+        "item_id": "43-001",
+        "name": "衢州守御千户所",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-43001",
+        "children": [],
+        "volume_range": "卷43",
+        "attributes": {"location_text": "在府治西洪武初置仁和卫后罢为守御千户所", "garrison_type": "千户所"}
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "夏", "era": null, "institution_name": "扬州之域", "action": "因之", "detail": "禹贡扬州之域，天文牛女分野"},
+      {"evo_id": "EVO-002", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "春秋", "era": null, "institution_name": "越西鄙姑蔑地", "action": "因之", "detail": "春秋为越西鄙姑蔑之地"},
+      {"evo_id": "EVO-003", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "秦", "era": null, "institution_name": "太末县", "action": "置", "detail": "秦立太末县属会稽郡"},
+      {"evo_id": "EVO-004", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "东汉", "era": null, "institution_name": "新安县", "action": "析置", "detail": "东汉分立新安县仍属会稽"},
+      {"evo_id": "EVO-005", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "三国吴", "era": null, "institution_name": "东阳郡", "action": "因之", "detail": "三国吴以二县属东阳郡"},
+      {"evo_id": "EVO-006", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "隋", "era": null, "institution_name": "婺州地", "action": "废", "detail": "隋废太末入金华属婺州"},
+      {"evo_id": "EVO-007", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "唐", "era": "天宝/乾元", "institution_name": "衢州/信安郡", "action": "置/改", "detail": "唐始析婺州信安县置衢州，天宝中改信安郡，乾元初复为衢州"},
+      {"evo_id": "EVO-008", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "宋", "era": null, "institution_name": "两浙东路", "action": "因之", "detail": "宋属两浙东路"},
+      {"evo_id": "EVO-009", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "元", "era": null, "institution_name": "衢州路", "action": "改", "detail": "元改为衢州路"},
+      {"evo_id": "EVO-010", "item_id": "43-001", "geo_id": "GEO-43001", "dynasty": "明", "era": null, "institution_name": "衢州府", "action": "改", "detail": "本朝改龙游府寻改为衢州府，领县五"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "龟峰山", "type": "山", "location_text": "在府治后", "description": "其形如龟昂首垂足，与峥嵘山相连，唐罗隐有诗", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "峥嵘山", "type": "山", "location_text": "在龟峰山西北", "description": "吴遣征虏将军郑平以千人守峥嵘镇即此；唐孟郊诗始见峥嵘状仰止逾可嘉", "lore": "三国吴峥嵘镇所在地"},
+      {"mtn_id": "MTN-003", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "烂柯山", "type": "山", "location_text": "在府城南二十里", "description": "一名石室，下有石桥，道书谓此山为青霞第八洞天烂柯福地；晋樵者王质入山伐木见二童子对弈，局终童子指示之曰汝斧柯烂矣，质归乡闾已及百岁", "lore": "王质烂柯传说，道教青霞第八洞天"},
+      {"mtn_id": "MTN-004", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "九龙山", "type": "山", "location_text": "在府城南二十里", "description": "相传邑人有客死括苍者其子以筏载棺归，抵山下为风波所覆；后求棺得诸石穴中，是夜雷雨有物飞出盖九龙，故名", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "乌巨山", "type": "山", "location_text": "在府城东三十五里", "description": "两山连亘，其西山竹树荟蔚烟云出没一尘不到，尤为奇绝", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "岑山", "type": "山", "location_text": "在龙游县南一十五里", "description": "其山自金华望之正当其面故号婺女照台山，邑中视之如笔架又呼为笔架山", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "鸡鸣山", "type": "山", "location_text": "在龙游县南三里", "description": "宋嘉祐间邑人吕防讲学于此，时登山见鸡鸣丛棘中罗得白金数十镒输之官，后防三子皆高科人以为祥", "lore": "吕防讲学处"},
+      {"mtn_id": "MTN-008", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "灵山", "type": "山", "location_text": "在龙游县南四十里", "description": "旧名徐山，下有溪，溪外有徐偃王庙", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "龙丘山", "type": "山", "location_text": "在龙游县东四十里", "description": "东阳记山有九石特秀色丹白远望状肖芙蓉，故一名九峰岩山；汉龙丘苌隐居于此与严子陵友善终年百岁，山际有三叠岩穴中有石床，唐徐安贞读书处", "lore": "龙丘苌隐居处"},
+      {"mtn_id": "MTN-010", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "白石山", "type": "山", "location_text": "在龙游县南四十五里", "description": "山有圆石耸二十余丈其色纯白故名，唐尝以此山名县", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "43-001", "geo_id": "GEO-43001-c03", "name": "三衢山", "type": "山", "location_text": "在常山县北二十五里", "description": "昔有洪水暴出派兹山为三道故名；峭峰奇石玲珑绀碧夭矫，上有岩洞名曰碧玉，中有石室旁通二门榜曰玉龙", "lore": "衢州得名由来"},
+      {"mtn_id": "MTN-012", "item_id": "43-001", "geo_id": "GEO-43001-c03", "name": "石门山", "type": "山", "location_text": "在常山县北二十五里", "description": "山巅有窍每旦出云，过东则雨验之多应", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "43-001", "geo_id": "GEO-43001-c04", "name": "江郎山", "type": "山", "location_text": "在江山县南五十里", "description": "俗传尝有江氏兄弟三人登山巅化为石故名；山顶有池产碧莲金鲫；宋王禹偁诗三茅遗躅在金陵又见江家有弟兄", "lore": "江氏兄弟化石传说"},
+      {"mtn_id": "MTN-014", "item_id": "43-001", "geo_id": "GEO-43001-c04", "name": "浮盖仙山", "type": "山", "location_text": "在江山县南一百里", "description": "中有仙洞石坛石屏奇怪百出，又多红桃花而不实；宋汪藻诗浮空高展神仙盖列障长开水墨屏", "lore": ""},
+      {"mtn_id": "MTN-015", "item_id": "43-001", "geo_id": "GEO-43001-c04", "name": "泉山", "type": "山", "location_text": "在江山县南一百三十里", "description": "山周围数百里皆高崖深谷，汉书朱买臣言闽越王所保是也", "lore": ""},
+      {"mtn_id": "MTN-016", "item_id": "43-001", "geo_id": "GEO-43001-c05", "name": "石耳山", "type": "山", "location_text": "在开化县西八十里", "description": "周围三百里连亘婺源德兴二县界，中有三仙祠", "lore": ""},
+      {"mtn_id": "MTN-017", "item_id": "43-001", "geo_id": "GEO-43001-c05", "name": "古田山", "type": "山", "location_text": "在开化县西八十里", "description": "山中虎不啮蛇不螫，中有灵湫每旦有云一缕浮空而出，所向之方辄雨", "lore": ""},
+      {"mtn_id": "MTN-018", "item_id": "43-001", "geo_id": "GEO-43001-c04", "name": "仙霞岭", "type": "岭", "location_text": "在江山县南一百里", "description": "宋史浩帅闽过此募人以石甃路三百六十级；为入闽咽喉之地", "lore": "入闽要道，仙霞关所在"},
+      {"mtn_id": "MTN-019", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "信安溪", "type": "溪", "location_text": "在府城西二里", "description": "一名西溪，环城西北东流入龙游县界号盈川溪，至县北五里又名縠溪，东流与东阳江合历严达杭入于海", "lore": ""},
+      {"mtn_id": "MTN-020", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "定阳溪", "type": "溪", "location_text": "在府城东九里", "description": "一名东溪，源出处州遂昌县之周公源东北流入本县界，至鸡鸣山下与信安溪合，其分派筑堰导流迤北溉田五万六千余亩", "lore": ""},
+      {"mtn_id": "MTN-021", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "縠溪", "type": "溪", "location_text": "在龙游县北五里", "description": "汉志太末县有縠水，唐置縠州以此", "lore": ""},
+      {"mtn_id": "MTN-022", "item_id": "43-001", "geo_id": "GEO-43001-c04", "name": "文溪", "type": "溪", "location_text": "在江山县南三十五里", "description": "其源有四：一自石鼓山一自广源一自永丰之后源一自括苍之半桃山，合为是溪", "lore": ""},
+      {"mtn_id": "MTN-023", "item_id": "43-001", "geo_id": "GEO-43001-c05", "name": "金溪", "type": "溪", "location_text": "在开化县北四十里", "description": "源出马金岭下西北流绕县治名金溪，又转而东南流经常山县郭名金川，下流与文溪合为信安溪", "lore": ""},
+      {"mtn_id": "MTN-024", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "彭湖", "type": "湖", "location_text": "在府城东一十五里", "description": "俗传里人彭氏灶下忽见双荀斸之流血即大雷雨因化为湖", "lore": ""},
+      {"mtn_id": "MTN-025", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "五百人湖", "type": "湖", "location_text": "在龙游县北三十里", "description": "俗传昔有五百人于此竭水取鱼得异鱼及铜缶，既而水暴长五百人皆没因名；凡溉田五百余顷", "lore": ""},
+      {"mtn_id": "MTN-026", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "浮石潭", "type": "泉", "location_text": "在府城北五里", "description": "有石高可丈余水大涨亦不没；唐白居易诗浮石潭前停五马望涛楼上得双鱼", "lore": ""},
+      {"mtn_id": "MTN-027", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "团石潭", "type": "泉", "location_text": "在龙游县西二十里", "description": "有石出潭上，古语云团石圆出状元；宋绍兴中大水石转正圆，明年郡人刘章果魁廷试", "lore": "刘章状元应谶"},
+      {"mtn_id": "MTN-028", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "吕公井", "type": "井", "location_text": "在龙游县治南", "description": "世传吕洞宾以杖卓地出泉故名", "lore": ""},
+      {"mtn_id": "MTN-029", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "神塘", "type": "塘", "location_text": "在府城东五十里", "description": "唐开元中因风雷摧山堰涧成塘溉田二百顷；宋赵抃诗堰外长溪溪外山卷帘空旷水云间", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "43-001", "geo_id": "GEO-43001-c01", "name": "狮橘", "type": "prod", "location_text": "西安县出"},
+      {"prod_id": "PROD-002", "item_id": "43-001", "geo_id": "GEO-43001-c02", "name": "茶", "type": "prod", "location_text": "龙游县方山者佳"},
+      {"prod_id": "PROD-003", "item_id": "43-001", "geo_id": "GEO-43001-c03", "name": "砚", "type": "prod", "location_text": "常山开化二县出"},
+      {"prod_id": "PROD-004", "item_id": "43-001", "geo_id": "GEO-43001-c05", "name": "藤纸", "type": "prod", "location_text": "开化县出"}
+    ],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "43-001", "cited_work": "毛幵超览堂记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋毛幵超览堂记郡即姑蔑之墟太末之壤东望九峯西瞻灵石南临樵谷】"},
+      {"cit_id": "CIT-002", "item_id": "43-001", "cited_work": "衢州学记", "cited_work_ent_id": null, "context": "形胜", "original": "【衢州学记四通五逹江浙闽广之所辐辏】"},
+      {"cit_id": "CIT-003", "item_id": "43-001", "cited_work": "钱顗云", "cited_work_ent_id": null, "context": "形胜", "original": "【宋钱顗云浙江而东环郡皆山惟信安得山水之胜】"},
+      {"cit_id": "CIT-004", "item_id": "43-001", "cited_work": "毛幵和风楼记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋毛幵和风楼记东南孔道闽越之交】"},
+      {"cit_id": "CIT-005", "item_id": "43-001", "cited_work": "程俱保安院记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋程俱保安院记其山邃以丽其水清以驶】"},
+      {"cit_id": "CIT-006", "item_id": "43-001", "cited_work": "汉志", "cited_work_ent_id": null, "context": "风俗", "original": "【汉志吴越之习好勇其地邉楚战闘兼并是以其民轻死易发】"},
+      {"cit_id": "CIT-007", "item_id": "43-001", "cited_work": "程俱保安院记", "cited_work_ent_id": null, "context": "风俗", "original": "【宋程俱保安院记其俗悍以果其君子耿耿好气敏于事】"},
+      {"cit_id": "CIT-008", "item_id": "43-001", "cited_work": "信安志", "cited_work_ent_id": null, "context": "风俗", "original": "【信安志民淳事简风俗敦厚】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "衢州府"
+}

@@ -1,0 +1,251 @@
+{
+  "item_id": "47-001",
+  "volume": "47",
+  "source": "台州府",
+  "region": "浙江",
+  "title": "台州府",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "台州府", "type": "geo", "norm": "台州府", "first_source": "47-001"},
+      {"ent_id": "ENT-002", "name": "临海县", "type": "geo", "norm": "临海县", "first_source": "47-001"},
+      {"ent_id": "ENT-003", "name": "黄岩县", "type": "geo", "norm": "黄岩县", "first_source": "47-001"},
+      {"ent_id": "ENT-004", "name": "天台县", "type": "geo", "norm": "天台县", "first_source": "47-001"},
+      {"ent_id": "ENT-005", "name": "仙居县", "type": "geo", "norm": "仙居县", "first_source": "47-001"},
+      {"ent_id": "ENT-006", "name": "宁海县", "type": "geo", "norm": "宁海县", "first_source": "47-001"},
+      {"ent_id": "ENT-007", "name": "太平县", "type": "geo", "norm": "太平县", "first_source": "47-001"},
+      {"ent_id": "ENT-008", "name": "天台山", "type": "mtn", "norm": "天台山", "first_source": "47-001"},
+      {"ent_id": "ENT-009", "name": "赤城山", "type": "mtn", "norm": "赤城山", "first_source": "47-001"},
+      {"ent_id": "ENT-010", "name": "括苍山", "type": "mtn", "norm": "括苍山", "first_source": "47-001"},
+      {"ent_id": "ENT-011", "name": "委羽山", "type": "mtn", "norm": "委羽山", "first_source": "47-001"},
+      {"ent_id": "ENT-012", "name": "灵江", "type": "mtn", "norm": "灵江", "first_source": "47-001"},
+      {"ent_id": "ENT-013", "name": "国清寺", "type": "site", "norm": "国清寺", "first_source": "47-001"},
+      {"ent_id": "ENT-014", "name": "桐柏观", "type": "site", "norm": "桐柏观", "first_source": "47-001"},
+      {"ent_id": "ENT-015", "name": "郑虔", "type": "person", "norm": "郑虔", "first_source": "47-001"},
+      {"ent_id": "ENT-016", "name": "骆宾王", "type": "person", "norm": "骆宾王", "first_source": "47-001"},
+      {"ent_id": "ENT-017", "name": "谢灵运", "type": "person", "norm": "谢灵运", "first_source": "47-001"},
+      {"ent_id": "ENT-018", "name": "项斯", "type": "person", "norm": "项斯", "first_source": "47-001"},
+      {"ent_id": "ENT-019", "name": "陈公辅", "type": "person", "norm": "陈公辅", "first_source": "47-001"},
+      {"ent_id": "ENT-020", "name": "陈骙", "type": "person", "norm": "陈骙", "first_source": "47-001"},
+      {"ent_id": "ENT-021", "name": "杜范", "type": "person", "norm": "杜范", "first_source": "47-001"},
+      {"ent_id": "ENT-022", "name": "谢深甫", "type": "person", "norm": "谢深甫", "first_source": "47-001"},
+      {"ent_id": "ENT-023", "name": "叶梦鼎", "type": "person", "norm": "叶梦鼎", "first_source": "47-001"},
+      {"ent_id": "ENT-024", "name": "方孝孺", "type": "person", "norm": "方孝孺", "first_source": "47-001"},
+      {"ent_id": "ENT-025", "name": "陈选", "type": "person", "norm": "陈选", "first_source": "47-001"},
+      {"ent_id": "ENT-026", "name": "谢铎", "type": "person", "norm": "谢铎", "first_source": "47-001"},
+      {"ent_id": "ENT-027", "name": "智顗", "type": "person", "norm": "智顗", "first_source": "47-001"},
+      {"ent_id": "ENT-028", "name": "天台山赋", "type": "book", "norm": "天台山赋", "first_source": "47-001"},
+      {"ent_id": "ENT-029", "name": "赤城志", "type": "book", "norm": "赤城志", "first_source": "47-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-47001",
+        "item_id": "47-001",
+        "name": "台州府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": ["GEO-47001-c01","GEO-47001-c02","GEO-47001-c03","GEO-47001-c04","GEO-47001-c05","GEO-47001-c06","GEO-47001-w01","GEO-47001-w02","GEO-47001-w03"],
+        "volume_range": "卷47",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "海岸", "distance_li": 180},
+            {"direction": "西", "to_place": "处州府缙云县界", "distance_li": 219},
+            {"direction": "南", "to_place": "温州府乐清县界", "distance_li": 239},
+            {"direction": "北", "to_place": "绍兴府新昌县界", "distance_li": 145}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 1833},
+            {"capital": "京师", "distance_li": 5778}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领县六；各属县编户见下"},
+          "grain_tax": {"amount": 125800, "unit": "石", "note": "粮一十二万五千八百石零"},
+          "jun_name": "赤城【梁名】章安【陈名】天台【唐因山名州】",
+          "topography": "双阙云竦琼台中天【晋孙绰天台山赋】；穷山海之瓌富尽人神之壮丽【同上】；川泽沃衍有海陆之饶【图经】；藐彼天台嵯峨崔嵬下临沧海遥望蓬莱【唐崔尚桐柏山碑】",
+          "customs": "其人朴静其俗俭约【宋吴子良临海县学记】；闾阎兴礼逊【宋陈襄诗】",
+          "garrisons": [
+            {"name": "台州卫", "type": "卫", "location_text": "在府治西洪武五年建"},
+            {"name": "海门卫", "type": "卫", "location_text": "在府城东九十里洪武二十年建"},
+            {"name": "松门卫", "type": "卫", "location_text": "在府城东南一百八十里洪武二十年因宋松门寨旧址建"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006"]
+      },
+      {
+        "geo_id": "GEO-47001-c01",
+        "item_id": "47-001",
+        "name": "临海县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 149, "unit": "里", "note": "编户一百四十九里"}
+        }
+      },
+      {
+        "geo_id": "GEO-47001-c02",
+        "item_id": "47-001",
+        "name": "黄岩县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {
+          "location_text": "在府城东南六十里",
+          "households": {"count": 79, "unit": "里", "note": "编户七十九里"}
+        }
+      },
+      {
+        "geo_id": "GEO-47001-c03",
+        "item_id": "47-001",
+        "name": "天台县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {
+          "location_text": "在府城北九十里",
+          "households": {"count": 36, "unit": "里", "note": "编户三十六里"}
+        }
+      },
+      {
+        "geo_id": "GEO-47001-c04",
+        "item_id": "47-001",
+        "name": "仙居县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {
+          "location_text": "在府城西九十里",
+          "households": {"count": 78, "unit": "里", "note": "编户七十八里"}
+        }
+      },
+      {
+        "geo_id": "GEO-47001-c05",
+        "item_id": "47-001",
+        "name": "宁海县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {
+          "location_text": "在府城东北一百八十里",
+          "households": {"count": 140, "unit": "里", "note": "编户一百四十里"}
+        }
+      },
+      {
+        "geo_id": "GEO-47001-c06",
+        "item_id": "47-001",
+        "name": "太平县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {
+          "location_text": "在府治东南一百四十里",
+          "households": {"count": 66, "unit": "里", "note": "编户六十六里"}
+        }
+      },
+      {
+        "geo_id": "GEO-47001-w01",
+        "item_id": "47-001",
+        "name": "台州卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {"location_text": "在府治西洪武五年建", "garrison_type": "卫"}
+      },
+      {
+        "geo_id": "GEO-47001-w02",
+        "item_id": "47-001",
+        "name": "海门卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {"location_text": "在府城东九十里洪武二十年建", "garrison_type": "卫"}
+      },
+      {
+        "geo_id": "GEO-47001-w03",
+        "item_id": "47-001",
+        "name": "松门卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-47001",
+        "children": [],
+        "volume_range": "卷47",
+        "attributes": {"location_text": "在府城东南一百八十里洪武二十年因宋松门寨旧址建", "garrison_type": "卫"}
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "夏", "era": null, "institution_name": "扬州之域", "action": "因之", "detail": "禹贡扬州之域，天文牛女分野"},
+      {"evo_id": "EVO-002", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "春秋战国", "era": null, "institution_name": "越地", "action": "因之", "detail": "春秋战国时为越地"},
+      {"evo_id": "EVO-003", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "秦", "era": null, "institution_name": "闽中郡", "action": "置", "detail": "秦属闽中郡"},
+      {"evo_id": "EVO-004", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "汉", "era": null, "institution_name": "东瓯国/回浦县", "action": "置", "detail": "汉初属东瓯国，后东瓯内徙以其地置回浦县属会稽郡南部都尉治此"},
+      {"evo_id": "EVO-005", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "东汉", "era": null, "institution_name": "章安县", "action": "改", "detail": "东汉改回浦曰章安"},
+      {"evo_id": "EVO-006", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "三国吴", "era": null, "institution_name": "临海郡", "action": "置", "detail": "吴分会稽东部为临海郡治临海县徙治章安"},
+      {"evo_id": "EVO-007", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "梁", "era": null, "institution_name": "赤城郡", "action": "改", "detail": "梁改赤城郡寻废"},
+      {"evo_id": "EVO-008", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "陈", "era": null, "institution_name": "章安郡", "action": "置", "detail": "陈置章安郡"},
+      {"evo_id": "EVO-009", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "隋", "era": null, "institution_name": "永嘉郡", "action": "罢", "detail": "隋罢郡"},
+      {"evo_id": "EVO-010", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "唐", "era": "天宝/乾元", "institution_name": "台州/临海郡", "action": "改", "detail": "唐置海州寻改台州因天台山为名，天宝初改临海郡，乾元初复为台州，至德初移治始丰升德化军"},
+      {"evo_id": "EVO-011", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "宋", "era": null, "institution_name": "台州", "action": "因之", "detail": "宋仍为台州属浙东路"},
+      {"evo_id": "EVO-012", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "元", "era": null, "institution_name": "台州路", "action": "改", "detail": "元改为台州路"},
+      {"evo_id": "EVO-013", "item_id": "47-001", "geo_id": "GEO-47001", "dynasty": "明", "era": null, "institution_name": "台州府", "action": "因之", "detail": "本朝改为台州府领县六"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "大固山", "type": "山", "location_text": "在府城内西北", "description": "蜿蜒磅礴如屏障之状，旧传晋孙恩作乱刺史辛景休于此掘堑守之恩不能犯，又名龙顾山", "lore": "辛景破孙恩处"},
+      {"mtn_id": "MTN-002", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "巾子山", "type": "山", "location_text": "在府城东南连小固山", "description": "两峰如帢帻，其顶双塔，下瞰城郭郊薮山水之胜", "lore": "唐任翻有诗"},
+      {"mtn_id": "MTN-003", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "白鹤山", "type": "山", "location_text": "在府城东二十里", "description": "上有深湖中有盘山石，前有石鼓，昔有白鹤飞入会稽雷门鼓中", "lore": "汉末徐公于此成道控鹤腾空"},
+      {"mtn_id": "MTN-004", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "盖竹山", "type": "山", "location_text": "在府城南三十里", "description": "一名竹叶山，有洞名长耀宝光之天，洞渊集以为第十九洞天，上有香炉天门二峰", "lore": "道家第十九洞天"},
+      {"mtn_id": "MTN-005", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "真隐山", "type": "山", "location_text": "在府城西南四十里", "description": "高一万六千丈周回三百里，与仙居韦羌山接，本名括苍，唐天宝中改今名", "lore": "王方平居昆仑往来括苍山即此"},
+      {"mtn_id": "MTN-006", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "金鳌山", "type": "山", "location_text": "在府城东南一百二十里", "description": "东有小洞，昔有人夜泊舟山下见波间光彩近视之乃一金色巨鳌因名", "lore": "宋建炎四年高宗航海尝泊此山留四十日"},
+      {"mtn_id": "MTN-007", "item_id": "47-001", "geo_id": "GEO-47001-c02", "name": "委羽山", "type": "山", "location_text": "在黄岩县南一十里", "description": "山东北有洞，世传仙人刘奉林于此控鹤轻举鹤尝坠翮故名，道书以此山为第二洞天号大有空明之天", "lore": "道家第二洞天"},
+      {"mtn_id": "MTN-008", "item_id": "47-001", "geo_id": "GEO-47001-c02", "name": "永宁山", "type": "山", "location_text": "在黄岩县东五里", "description": "因古县而名，一名方山", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "47-001", "geo_id": "GEO-47001-c02", "name": "丹崖山", "type": "山", "location_text": "在黄岩县西四十五里", "description": "崖石俱赤有金银星，世传仙人炼丹于此，有池深可尺余名炼丹井", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "赤城山", "type": "山", "location_text": "在天台县北六里", "description": "土皆赤色状似云霞望之如雉堞然故名", "lore": "晋孙绰赋赤城霞起以建标即此；玉京洞为道书第六洞天"},
+      {"mtn_id": "MTN-011", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "天台山", "type": "山", "location_text": "在天台县西一百一十里", "description": "道书是山上应台星，超然秀出有八重，视之如一，高一万八千丈周回八百里，山去天不远", "lore": "佛道名山，智者大师道场"},
+      {"mtn_id": "MTN-012", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "桐柏山", "type": "山", "location_text": "在天台县西北二十五里", "description": "上有朝斗坛，葛玄炼丹于此，唐司马承祯重建，悬崖石磴盘折而上九峰环列最为佳境", "lore": "道教名山"},
+      {"mtn_id": "MTN-013", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "华顶峰", "type": "峰", "location_text": "在天台县东北六十里", "description": "周回百余里高万丈，绝顶东望沧海俗称望海尖，草木薰郁殆非人世夏有积雪", "lore": "唐李白诗天台邻四明华顶高百越即此"},
+      {"mtn_id": "MTN-014", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "寒石山", "type": "山", "location_text": "在天台县西北七十里", "description": "一名寒岩，上有仙人石，唐寒山子居之", "lore": "寒山子隐居处"},
+      {"mtn_id": "MTN-015", "item_id": "47-001", "geo_id": "GEO-47001-c04", "name": "福应山", "type": "山", "location_text": "在仙居县东二里", "description": "宋皇祐间县令陈襄名之，阴阳家谓其邑治得龙首之胜，居人建浮图于上", "lore": "陈襄命名"},
+      {"mtn_id": "MTN-016", "item_id": "47-001", "geo_id": "GEO-47001-c04", "name": "韦羌山", "type": "山", "location_text": "在仙居县西四十里", "description": "绝险不可升，盖众山之最高者，上有石壁刊字如蝌蚪", "lore": "陈襄诗云千尺石岩无路到不知蝌蚪是何如"},
+      {"mtn_id": "MTN-017", "item_id": "47-001", "geo_id": "GEO-47001-c05", "name": "卧龙山", "type": "山", "location_text": "在宁海县治东南", "description": "一名应家山，山势蜿蜒如龙偃卧", "lore": ""},
+      {"mtn_id": "MTN-018", "item_id": "47-001", "geo_id": "GEO-47001-c05", "name": "盖仓山", "type": "山", "location_text": "在宁海县东北九十里", "description": "濒大海一名茶岩，上有石刻真逸二字，相传陶弘景尝居此", "lore": ""},
+      {"mtn_id": "MTN-019", "item_id": "47-001", "geo_id": "GEO-47001-c06", "name": "王城山", "type": "山", "location_text": "在太平县西北一十三里", "description": "又名方城山，上有渔翁岩石柱峰仙人濯足滩鸡母石棋盘牛脊陇水帘谷皆其胜处", "lore": ""},
+      {"mtn_id": "MTN-020", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "灵江", "type": "江", "location_text": "在府城南", "description": "一名澄江，其水自三江合流环绕郛郭，旧有赤城地灵江水丹丘井之谣", "lore": ""},
+      {"mtn_id": "MTN-021", "item_id": "47-001", "geo_id": "GEO-47001-c02", "name": "永宁江", "type": "江", "location_text": "在黄岩县西北", "description": "有二源大源出尘山东南流至左溪村小源出黄岩山东北流至大溪与大源合经县北东流入于海", "lore": ""},
+      {"mtn_id": "MTN-022", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "东湖", "type": "湖", "location_text": "在府城东三里", "description": "宋守钱暄浚中建共乐堂流杯亭", "lore": "汪泌诗云临海城东湖气象清且奇"},
+      {"mtn_id": "MTN-023", "item_id": "47-001", "geo_id": "GEO-47001-c02", "name": "黄岩溪", "type": "溪", "location_text": "在黄岩县西一百里", "description": "源出黄岩山旁有黄石五区如相拱揖", "lore": ""},
+      {"mtn_id": "MTN-024", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "青溪", "type": "溪", "location_text": "在天台县西五十里", "description": "源出天台山南流至桐柏", "lore": "刘宋谢灵运诗旦发清溪阴即此"},
+      {"mtn_id": "MTN-025", "item_id": "47-001", "geo_id": "GEO-47001-c04", "name": "永安溪", "type": "溪", "location_text": "在仙居县西北一百四十里", "description": "仙居主要溪流", "lore": ""},
+      {"mtn_id": "MTN-026", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "海", "type": "海", "location_text": "在府城东一百八十里", "description": "临海黄岩宁海三县皆濒海，旧传东海泄水处", "lore": "宁海县东海中有尾闾与海门马筋相值"},
+      {"mtn_id": "MTN-027", "item_id": "47-001", "geo_id": "GEO-47001-c01", "name": "龙井", "type": "泉", "location_text": "在巾子山西麓", "description": "旧传龙伏于此常有云气腾空，后建浮图镇之", "lore": ""},
+      {"mtn_id": "MTN-028", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "锡杖泉", "type": "泉", "location_text": "在国清寺", "description": "昔寺取水甚远，隋禅师以锡杖叩之泉水涌出", "lore": ""},
+      {"mtn_id": "MTN-029", "item_id": "47-001", "geo_id": "GEO-47001-c03", "name": "三井", "type": "井", "location_text": "在天台县北二十里", "description": "唐时尝遣使投金龙白璧于井，旧传为尼所触一井塞其二深不可测或云通海", "lore": "宋咸平中夏竦作铭"}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "47-001", "cited_work": "孙绰天台山赋", "cited_work_ent_id": "ENT-028", "context": "形胜", "original": "【晋孙绰天台山赋双阙云竦以夹路琼台中天而垂居】"},
+      {"cit_id": "CIT-002", "item_id": "47-001", "cited_work": "孙绰天台山赋", "cited_work_ent_id": "ENT-028", "context": "形胜", "original": "【晋孙绰天台山赋穷山海之瓌富尽人神之壮丽】"},
+      {"cit_id": "CIT-003", "item_id": "47-001", "cited_work": "图经", "cited_work_ent_id": null, "context": "形胜", "original": "【图经川泽沃衍有海陆之饶】"},
+      {"cit_id": "CIT-004", "item_id": "47-001", "cited_work": "崔尚桐柏山碑", "cited_work_ent_id": null, "context": "形胜", "original": "【唐崔尚桐柏山碑藐彼天台嵯峨崔嵬下临沧海遥望蓬莱】"},
+      {"cit_id": "CIT-005", "item_id": "47-001", "cited_work": "吴子良临海县学记", "cited_work_ent_id": null, "context": "风俗", "original": "【宋吴子良临海县学记其人朴静其俗俭约】"},
+      {"cit_id": "CIT-006", "item_id": "47-001", "cited_work": "陈襄诗", "cited_work_ent_id": null, "context": "风俗", "original": "【宋陈襄诗闾阎兴礼逊囹圄长榛芜】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "pers拆至pers1/2/3；sites拆至sites1/2"}
+}

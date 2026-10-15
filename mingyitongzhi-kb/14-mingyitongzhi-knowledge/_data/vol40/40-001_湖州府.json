@@ -1,0 +1,141 @@
+{
+  "item_id": "40-001",
+  "volume": "40",
+  "source": "湖州府",
+  "region": "浙江",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "湖州府", "type": "geo", "norm": "湖州府", "first_source": "40-001"},
+      {"ent_id": "ENT-002", "name": "乌程县", "type": "geo", "norm": "乌程县", "first_source": "40-001"},
+      {"ent_id": "ENT-003", "name": "归安县", "type": "geo", "norm": "归安县", "first_source": "40-001"},
+      {"ent_id": "ENT-004", "name": "长兴县", "type": "geo", "norm": "长兴县", "first_source": "40-001"},
+      {"ent_id": "ENT-005", "name": "德清县", "type": "geo", "norm": "德清县", "first_source": "40-001"},
+      {"ent_id": "ENT-006", "name": "武康县", "type": "geo", "norm": "武康县", "first_source": "40-001"},
+      {"ent_id": "ENT-007", "name": "安吉州", "type": "geo", "norm": "安吉州", "first_source": "40-001"},
+      {"ent_id": "ENT-008", "name": "孝丰县", "type": "geo", "norm": "孝丰县", "first_source": "40-001"},
+      {"ent_id": "ENT-009", "name": "卞山", "type": "mtn", "norm": "卞山", "first_source": "40-001"},
+      {"ent_id": "ENT-010", "name": "道场山", "type": "mtn", "norm": "道场山", "first_source": "40-001"},
+      {"ent_id": "ENT-011", "name": "太湖", "type": "mtn", "norm": "太湖", "first_source": "40-001"},
+      {"ent_id": "ENT-012", "name": "苕溪", "type": "mtn", "norm": "苕溪", "first_source": "40-001"},
+      {"ent_id": "ENT-013", "name": "霅溪", "type": "mtn", "norm": "霅溪", "first_source": "40-001"},
+      {"ent_id": "ENT-014", "name": "顾渚山", "type": "mtn", "norm": "顾渚山", "first_source": "40-001"},
+      {"ent_id": "ENT-015", "name": "莫干山", "type": "mtn", "norm": "莫干山", "first_source": "40-001"},
+      {"ent_id": "ENT-016", "name": "飞英寺", "type": "site", "norm": "飞英寺", "first_source": "40-001"},
+      {"ent_id": "ENT-017", "name": "墨妙亭", "type": "site", "norm": "墨妙亭", "first_source": "40-001"},
+      {"ent_id": "ENT-018", "name": "谢安墓", "type": "site", "norm": "谢安墓", "first_source": "40-001"},
+      {"ent_id": "ENT-019", "name": "防风氏庙", "type": "site", "norm": "防风氏庙", "first_source": "40-001"},
+      {"ent_id": "ENT-020", "name": "陆羽", "type": "person", "norm": "陆羽", "first_source": "40-001"},
+      {"ent_id": "ENT-021", "name": "沈约", "type": "person", "norm": "沈约", "first_source": "40-001"},
+      {"ent_id": "ENT-022", "name": "孟郊", "type": "person", "norm": "孟郊", "first_source": "40-001"},
+      {"ent_id": "ENT-023", "name": "赵孟頫", "type": "person", "norm": "赵孟頫", "first_source": "40-001"},
+      {"ent_id": "ENT-024", "name": "颜真卿", "type": "person", "norm": "颜真卿", "first_source": "40-001"},
+      {"ent_id": "ENT-025", "name": "苏轼", "type": "person", "norm": "苏轼", "first_source": "40-001"},
+      {"ent_id": "ENT-026", "name": "胡瑗", "type": "person", "norm": "胡瑗", "first_source": "40-001"},
+      {"ent_id": "ENT-027", "name": "张志和", "type": "person", "norm": "张志和", "first_source": "40-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-40001",
+        "item_id": "40-001",
+        "name": "湖州府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": ["GEO-40001-c01","GEO-40001-c02","GEO-40001-c03","GEO-40001-c04","GEO-40001-c05","GEO-40001-s01","GEO-40001-w01"],
+        "volume_range": "卷40",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "直隶苏州府吴江县界", "distance_li": 60},
+            {"direction": "西", "to_place": "直隶广德州界", "distance_li": 130},
+            {"direction": "南", "to_place": "杭州府仁和县界", "distance_li": 120},
+            {"direction": "北", "to_place": "苏州府吴县界", "distance_li": 18}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 720},
+            {"capital": "京师", "distance_li": 4300}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领州一县六；各属州县编户见下"},
+          "grain_tax": {"amount": 470000, "unit": "石", "note": "粮四十七万石零"},
+          "jun_name": "吴兴【吴名】霅川【以川名】",
+          "topography": "江表大郡吴兴为一【唐顾况刺史壁记】；山泽所通舟车所会雄于楚越【同上】；南国之奥【宋张方平湖州学记】；五湖之表【郡国志】；山水清远【宋苏轼墨妙亭记】；江外佳郡【宋司马光诗江外饶佳郡吴兴天下稀】；州在吴江之南震泽之阴【元志】；苍峰北峙群山西迤【元赵孟頫吴兴赋】",
+          "customs": "人性敏柔而慧【三朝国史志】；儒风盛于东南自湖学始【旧志】；自江左而后清流美士余风遗韵相续【宋张方平湖州学记】；其民足于鱼稻菱蒲之利寡求而不争【宋苏轼墨妙亭记】；其人寿其风信实【宋李方直苹堂记】；土风淳厚习俗归美【元长兴州志】；家有诗书之声户习廉耻之道【元赵孟頫吴兴赋】",
+          "garrisons": [
+            {"name": "湖州守御千户所", "type": "千户所", "location_text": "在府治东贵泾坊，旧为长兴卫在长兴县，本朝洪武二年改为守御千户所八年移建于此"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007","CIT-008"]
+      },
+      {"geo_id": "GEO-40001-c01", "item_id": "40-001", "name": "乌程县", "type": "county", "region": "浙江", "parent": "GEO-40001", "children": [], "volume_range": "卷40", "attributes": {"location_text": "附郭", "households": {"count": 267, "unit": "里", "note": "编户二百六十七里"}}},
+      {"geo_id": "GEO-40001-c02", "item_id": "40-001", "name": "归安县", "type": "county", "region": "浙江", "parent": "GEO-40001", "children": [], "volume_range": "卷40", "attributes": {"location_text": "附郭，宋太平兴国中析乌程东南境置", "households": {"count": 305, "unit": "里", "note": "编户三百五里"}}},
+      {"geo_id": "GEO-40001-c03", "item_id": "40-001", "name": "长兴县", "type": "county", "region": "浙江", "parent": "GEO-40001", "children": [], "volume_range": "卷40", "attributes": {"location_text": "在府城西七十里", "households": {"count": 236, "unit": "里", "note": "编户二百三十六里"}}},
+      {"geo_id": "GEO-40001-c04", "item_id": "40-001", "name": "德清县", "type": "county", "region": "浙江", "parent": "GEO-40001", "children": [], "volume_range": "卷40", "attributes": {"location_text": "在府城南九十里", "households": {"count": 214, "unit": "里", "note": "编户二百一十四里"}}},
+      {"geo_id": "GEO-40001-c05", "item_id": "40-001", "name": "武康县", "type": "county", "region": "浙江", "parent": "GEO-40001", "children": [], "volume_range": "卷40", "attributes": {"location_text": "在府城南一百七十里", "households": {"count": 63, "unit": "里", "note": "编户六十三里"}}},
+      {"geo_id": "GEO-40001-s01", "item_id": "40-001", "name": "安吉州", "type": "department", "region": "浙江", "parent": "GEO-40001", "children": ["GEO-40001-c06"], "volume_range": "卷40", "attributes": {"location_text": "在府城西北一百二十里，本朝正德二年升为州，领县一", "households": {"count": 67, "unit": "里", "note": "编户六十七里"}}},
+      {"geo_id": "GEO-40001-c06", "item_id": "40-001", "name": "孝丰县", "type": "county", "region": "浙江", "parent": "GEO-40001-s01", "children": [], "volume_range": "卷40", "attributes": {"location_text": "在府城西南九十里，本安吉县地，弘治元年析置", "households": {"count": 53, "unit": "里", "note": "编户五十三里"}}},
+      {"geo_id": "GEO-40001-w01", "item_id": "40-001", "name": "湖州守御千户所", "type": "weisuo", "region": "浙江", "parent": "GEO-40001", "children": [], "volume_range": "卷40", "attributes": {"location_text": "在府治东贵泾坊，洪武八年移建于此", "garrison_type": "千户所"}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "夏", "era": null, "institution_name": "扬州之域", "action": "因之", "detail": "禹贡扬州之域，天文斗牛分野，古为防风氏之国"},
+      {"evo_id": "EVO-002", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "春秋", "era": null, "institution_name": "吴越地", "action": "因之", "detail": "春秋时属吴后属越"},
+      {"evo_id": "EVO-003", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "战国", "era": null, "institution_name": "楚菰城地", "action": "因之", "detail": "战国时属楚为菰城"},
+      {"evo_id": "EVO-004", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "秦", "era": null, "institution_name": "乌程县", "action": "置", "detail": "秦置乌程县，介于会稽鄣两郡之间"},
+      {"evo_id": "EVO-005", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "汉", "era": "元狩", "institution_name": "会稽丹阳二郡地", "action": "因之", "detail": "汉初属荆国，景帝时属江都国，元狩初为会稽丹阳二郡地"},
+      {"evo_id": "EVO-006", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "三国吴", "era": null, "institution_name": "吴兴郡", "action": "置", "detail": "三国吴始分置吴兴郡治乌程县"},
+      {"evo_id": "EVO-007", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "梁", "era": null, "institution_name": "震州", "action": "兼置", "detail": "梁兼置震州，陈罢州仍为吴兴郡"},
+      {"evo_id": "EVO-008", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "隋", "era": "仁寿/大业", "institution_name": "湖州/吴兴郡", "action": "改", "detail": "隋初郡废以其地属苏杭二州，仁寿初置湖州取太湖为名，大业初州废复分属吴余杭二郡"},
+      {"evo_id": "EVO-009", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "唐", "era": "天宝/乾元", "institution_name": "吴兴郡/湖州", "action": "改", "detail": "唐复于乌程置湖州，天宝初改吴兴郡，乾元初复为湖州，干宁中升忠国军节度"},
+      {"evo_id": "EVO-010", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "五代", "era": null, "institution_name": "宣德军", "action": "改", "detail": "五代吴越奏改宣德军"},
+      {"evo_id": "EVO-011", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "宋", "era": null, "institution_name": "昭庆军/安吉州", "action": "改", "detail": "宋改昭庆军又改州曰安吉，属浙西路"},
+      {"evo_id": "EVO-012", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "元", "era": null, "institution_name": "湖州路", "action": "改", "detail": "元置湖州路"},
+      {"evo_id": "EVO-013", "item_id": "40-001", "geo_id": "GEO-40001", "dynasty": "明", "era": null, "institution_name": "湖州府", "action": "因之", "detail": "本朝改为湖州府，领州一县六"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "岘山", "type": "山", "location_text": "在府城西五里", "description": "本名显山，晋太守殷康建亭于上名显亭，唐改曰岘山，山多石草木疏瘦", "lore": "宋苏轼诗苕水如汉水粼粼鸭头青吴兴胜襄阳万瓦浮青甃"},
+      {"mtn_id": "MTN-002", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "何山", "type": "山", "location_text": "在府城南一十里", "description": "旧名金盖山，晋太守何楷尝居此读书因名", "lore": "宋苏轼诗今古何山是胜游乱峰萦转绕沧洲"},
+      {"mtn_id": "MTN-003", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "道场山", "type": "山", "location_text": "在府城南一十二里", "description": "唐时有僧寓此因名道场，汪藻云游道场山者如入王侯之家", "lore": "宋苏轼诗道场山顶何山麓"},
+      {"mtn_id": "MTN-004", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "卞山", "type": "山", "location_text": "在府城北一十八里", "description": "高六千丈非晴天爽月不见其顶，山有似玉之石因名，亦名弁山，其下有玲珑山石皆嵌空", "lore": "吴主孙皓葬父处"},
+      {"mtn_id": "MTN-005", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "升山", "type": "山", "location_text": "在府城东二十一里", "description": "亦名乌山，一名欧余山，晋太守王羲之尝登此山顾谓宾客曰百年之后孰知王逸少与诸卿至此乎，后人因名升山", "lore": "王羲之传说"},
+      {"mtn_id": "MTN-006", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "西塞山", "type": "山", "location_text": "在府城西二十五里", "description": "唐张志和诗西塞山边白鹭飞桃花流水鳜鱼肥", "lore": "张志和渔歌子"},
+      {"mtn_id": "MTN-007", "item_id": "40-001", "geo_id": "GEO-40001-c03", "name": "顾渚山", "type": "山", "location_text": "在长兴县西北三十里", "description": "昔吴夫概顾其渚次原隰平衍可为都邑，傍有二山相对号明月峡，产紫笋茶", "lore": "金沙泉唐时造紫笋茶太守具牲帛祭之"},
+      {"mtn_id": "MTN-008", "item_id": "40-001", "geo_id": "GEO-40001-c05", "name": "莫干山", "type": "山", "location_text": "在府城西南一百五十里", "description": "上有铸剑池旁有磨石，世传为吴王铸剑之所", "lore": "莫邪干将铸剑传说"},
+      {"mtn_id": "MTN-009", "item_id": "40-001", "geo_id": "GEO-40001-c05", "name": "封山", "type": "山", "location_text": "在武康县东一十八里", "description": "古防风氏封守之地又名封禺山，唐改为防风山", "lore": "防风氏传说"},
+      {"mtn_id": "MTN-010", "item_id": "40-001", "geo_id": "GEO-40001-c04", "name": "金鹅山", "type": "山", "location_text": "在德清县西北五里", "description": "后汉海昏侯沈戎葬其上，有金鹅飞集三鸣而去，其后沈氏通显，谚云金鹅鸣沈氏兴", "lore": "沈氏家族起源传说"},
+      {"mtn_id": "MTN-011", "item_id": "40-001", "geo_id": "GEO-40001-c04", "name": "蠡山", "type": "山", "location_text": "在德清县东北一十五里", "description": "旧传有范蠡故居因名", "lore": "范蠡传说"},
+      {"mtn_id": "MTN-012", "item_id": "40-001", "geo_id": "GEO-40001-s01", "name": "玉磬山", "type": "山", "location_text": "在安吉州西北三里", "description": "相传昔有僧昙谛居此山，每夜闻有声寻其地掘之得磬因名", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "40-001", "geo_id": "GEO-40001-c06", "name": "天目山", "type": "山", "location_text": "在孝丰县西三十里", "description": "跨杭州府界，山极高险岭有泉水甚美，东南有瀑布下注数里名蛟龙池，上有左右两池为天之目因名", "lore": ""},
+      {"mtn_id": "MTN-014", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "太湖", "type": "湖", "location_text": "在府城北一十八里乌程长兴之间", "description": "禹贡曰震泽，周职方曰具区，纵广二百八十三里周三万六千顷，跨湖宣苏常四郡，境中多奇石世号太湖石", "lore": ""},
+      {"mtn_id": "MTN-015", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "玉湖", "type": "湖", "location_text": "在府城南三里", "description": "南来之水出天目之阳至城南三里而近汇为玉湖汪汪且百顷，北流入于城中合苕水", "lore": "元赵孟頫记"},
+      {"mtn_id": "MTN-016", "item_id": "40-001", "geo_id": "GEO-40001-c05", "name": "风渚湖", "type": "湖", "location_text": "在武康县东南一十七里", "description": "其名不一曰巽湖曰封渚湖曰九里湖曰下渚湖，湖中多菱莼，湖傍土粘埴浙右陶器多出于此", "lore": ""},
+      {"mtn_id": "MTN-017", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "苕溪", "type": "溪", "location_text": "在府城西", "description": "溪有两源一源发自天目山一源发自独松岭，合浮玉山水俱至安吉州合流至府城西，又分二派入霅溪入太湖", "lore": "元赵孟頫诗溪上春风吹柳花"},
+      {"mtn_id": "MTN-018", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "霅溪", "type": "溪", "location_text": "在府治南", "description": "以其合四水为一溪故曰霅，四水者苕溪前溪余不溪北流水也，一名霅川", "lore": ""},
+      {"mtn_id": "MTN-019", "item_id": "40-001", "geo_id": "GEO-40001-c03", "name": "箬溪", "type": "溪", "location_text": "在长兴县西", "description": "溪皆生箭箬，南岸曰上箬北岸曰下箬，士人取下箬水酿酒味极醇美", "lore": "唐白居易诗劳将下箬忘忧物寄与江城爱酒翁"},
+      {"mtn_id": "MTN-020", "item_id": "40-001", "geo_id": "GEO-40001-c05", "name": "前溪", "type": "溪", "location_text": "在武康县治前", "description": "源出铜岘山，晋沈充家于此，乐府有前溪曲充所制者", "lore": "前溪曲乐府"},
+      {"mtn_id": "MTN-021", "item_id": "40-001", "geo_id": "GEO-40001-c03", "name": "金沙泉", "type": "泉", "location_text": "在顾渚山", "description": "此泉不常出，唐时将造紫笋茶太守具牲帛祭之顷之泉发源，供御者毕水即微减，元至元间赐名瑞应泉", "lore": "贡茶传说"},
+      {"mtn_id": "MTN-022", "item_id": "40-001", "geo_id": "GEO-40001-c04", "name": "半月泉", "type": "泉", "location_text": "在德清县北三里", "description": "一曰灵泉，泉出石罅间状若半月，旱涝无盈涸", "lore": "宋苏轼诗请得一月暇来游半月泉"},
+      {"mtn_id": "MTN-023", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "荻塘", "type": "塘", "location_text": "在府城南一里", "description": "晋太守殷康筑溉田千顷，隋时有沈恒居此家贫好学然荻照书因以名塘", "lore": "沈恒然荻读书"},
+      {"mtn_id": "MTN-024", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "白苹洲", "type": "洲", "location_text": "在霅溪东南", "description": "梁太守柳恽江南曲有云汀洲采白苹日暮江南春，后人因名苹洲", "lore": "柳恽江南曲"}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "40-001", "geo_id": "GEO-40001-c05", "name": "铜", "type": "prod", "location_text": "武康安吉长兴县出", "note": ""},
+      {"prod_id": "PROD-002", "item_id": "40-001", "geo_id": "GEO-40001-c03", "name": "茶", "type": "prod", "location_text": "长兴县顾渚中出", "note": "紫笋茶"},
+      {"prod_id": "PROD-003", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "莼菜", "type": "prod", "location_text": "乌程县苏湾出", "note": ""},
+      {"prod_id": "PROD-004", "item_id": "40-001", "geo_id": "GEO-40001-c01", "name": "鲈鱼", "type": "prod", "location_text": "太湖出", "note": ""},
+      {"prod_id": "PROD-005", "item_id": "40-001", "geo_id": "GEO-40001-c02", "name": "笔", "type": "prod", "location_text": "归安县出视他处特胜", "note": ""}
+    ],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "40-001", "cited_work": "唐顾况刺史壁记", "cited_work_ent_id": null, "context": "形胜", "original": "【唐顾况刺史防璧记江表大郡吴兴为一山泽所通舟车所防雄于楚越】"},
+      {"cit_id": "CIT-002", "item_id": "40-001", "cited_work": "宋张方平湖州学记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋张方平湖州学记南国之奥自江左而后清流美士余风遗韵相续】"},
+      {"cit_id": "CIT-003", "item_id": "40-001", "cited_work": "宋苏轼墨妙亭记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋苏轼墨妙亭记山水清逺其民足于鱼稻菱蒲之利寡求而不争】"},
+      {"cit_id": "CIT-004", "item_id": "40-001", "cited_work": "宋司马光诗", "cited_work_ent_id": null, "context": "形胜", "original": "【宋司马光诗江外饶佳郡吴兴天下稀】"},
+      {"cit_id": "CIT-005", "item_id": "40-001", "cited_work": "元赵孟頫吴兴赋", "cited_work_ent_id": null, "context": "形胜", "original": "【元赵孟頫呉兴赋苍峰北峙羣山西迤家有诗书之声户习防耻之道】"},
+      {"cit_id": "CIT-006", "item_id": "40-001", "cited_work": "三朝国史志", "cited_work_ent_id": null, "context": "风俗", "original": "【三朝国史志人性敏柔而慧】"},
+      {"cit_id": "CIT-007", "item_id": "40-001", "cited_work": "旧志", "cited_work_ent_id": null, "context": "风俗", "original": "【旧志儒风盛于东南自湖学始】"},
+      {"cit_id": "CIT-008", "item_id": "40-001", "cited_work": "元长兴州志", "cited_work_ent_id": null, "context": "风俗", "original": "【元长兴州志土风淳厚习俗归美】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "pers拆至pers1/2/3；sites拆至sites1/2"},
+  "title": "湖州府"
+}

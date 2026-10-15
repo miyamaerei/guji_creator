@@ -1,0 +1,235 @@
+{
+  "item_id": "48-001",
+  "volume": "48",
+  "source": "温州府",
+  "region": "浙江",
+  "title": "温州府",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "温州府", "type": "geo", "norm": "温州府", "first_source": "48-001"},
+      {"ent_id": "ENT-002", "name": "永嘉县", "type": "geo", "norm": "永嘉县", "first_source": "48-001"},
+      {"ent_id": "ENT-003", "name": "瑞安县", "type": "geo", "norm": "瑞安县", "first_source": "48-001"},
+      {"ent_id": "ENT-004", "name": "乐清县", "type": "geo", "norm": "乐清县", "first_source": "48-001"},
+      {"ent_id": "ENT-005", "name": "平阳县", "type": "geo", "norm": "平阳县", "first_source": "48-001"},
+      {"ent_id": "ENT-006", "name": "泰顺县", "type": "geo", "norm": "泰顺县", "first_source": "48-001"},
+      {"ent_id": "ENT-007", "name": "华盖山", "type": "mtn", "norm": "华盖山", "first_source": "48-001"},
+      {"ent_id": "ENT-008", "name": "雁荡山", "type": "mtn", "norm": "雁荡山", "first_source": "48-001"},
+      {"ent_id": "ENT-009", "name": "大罗山", "type": "mtn", "norm": "大罗山", "first_source": "48-001"},
+      {"ent_id": "ENT-010", "name": "楠溪", "type": "mtn", "norm": "楠溪", "first_source": "48-001"},
+      {"ent_id": "ENT-011", "name": "永宁江", "type": "mtn", "norm": "永宁江", "first_source": "48-001"},
+      {"ent_id": "ENT-012", "name": "江心寺", "type": "site", "norm": "江心寺", "first_source": "48-001"},
+      {"ent_id": "ENT-013", "name": "王羲之", "type": "person", "norm": "王羲之", "first_source": "48-001"},
+      {"ent_id": "ENT-014", "name": "谢灵运", "type": "person", "norm": "谢灵运", "first_source": "48-001"},
+      {"ent_id": "ENT-015", "name": "王十朋", "type": "person", "norm": "王十朋", "first_source": "48-001"},
+      {"ent_id": "ENT-016", "name": "叶适", "type": "person", "norm": "叶适", "first_source": "48-001"},
+      {"ent_id": "ENT-017", "name": "陈傅良", "type": "person", "norm": "陈傅良", "first_source": "48-001"},
+      {"ent_id": "ENT-018", "name": "周行己", "type": "person", "norm": "周行己", "first_source": "48-001"},
+      {"ent_id": "ENT-019", "name": "许景衡", "type": "person", "norm": "许景衡", "first_source": "48-001"},
+      {"ent_id": "ENT-020", "name": "黄淮", "type": "person", "norm": "黄淮", "first_source": "48-001"},
+      {"ent_id": "ENT-021", "name": "章纶", "type": "person", "norm": "章纶", "first_source": "48-001"},
+      {"ent_id": "ENT-022", "name": "陈宜中", "type": "person", "norm": "陈宜中", "first_source": "48-001"},
+      {"ent_id": "ENT-023", "name": "水心集", "type": "book", "norm": "水心集", "first_source": "48-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-48001",
+        "item_id": "48-001",
+        "name": "温州府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": ["GEO-48001-c01","GEO-48001-c02","GEO-48001-c03","GEO-48001-c04","GEO-48001-c05","GEO-48001-w01","GEO-48001-w02","GEO-48001-w03"],
+        "volume_range": "卷48",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "海岸", "distance_li": 90},
+            {"direction": "西", "to_place": "处州府青田县界", "distance_li": 90},
+            {"direction": "南", "to_place": "福建福州府福宁县界", "distance_li": 490},
+            {"direction": "北", "to_place": "台州府黄岩县界", "distance_li": 330}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 1890},
+            {"capital": "京师", "distance_li": 4690}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领县五；各属县编户见下"},
+          "grain_tax": {"amount": 105100, "unit": "石", "note": "粮一十万五千一百石零"},
+          "jun_name": "东瓯【汉名】永嘉【晋名】东嘉【唐名】",
+          "topography": "城当斗口【郡志郭璞相地】；东南巨都【艺文类聚】；浙东极处【宋赵抃壁记】；东界钜海西际重山【元志】",
+          "customs": "少争讼尚歌舞【隋志】；妇勤纺绩【同上】；俗喜竞渡【郡志】；乡饮以齿【永嘉志】；贤哲相踵【宋张九成】",
+          "garrisons": [
+            {"name": "温州卫", "type": "卫", "location_text": "在府治东洪武元年即元温州路故址建"},
+            {"name": "金乡卫", "type": "卫", "location_text": "在平阳县南七十里洪武二十年建"},
+            {"name": "盘石卫", "type": "卫", "location_text": "在乐清县西六十里洪武二十年建"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007","CIT-008","CIT-009"]
+      },
+      {
+        "geo_id": "GEO-48001-c01",
+        "item_id": "48-001",
+        "name": "永嘉县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {"count": 286, "unit": "里", "note": "编户二百八十六里"}
+        }
+      },
+      {
+        "geo_id": "GEO-48001-c02",
+        "item_id": "48-001",
+        "name": "瑞安县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {
+          "location_text": "在府城南六十里",
+          "households": {"count": 139, "unit": "里", "note": "编户一百三十九里"}
+        }
+      },
+      {
+        "geo_id": "GEO-48001-c03",
+        "item_id": "48-001",
+        "name": "乐清县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {
+          "location_text": "在府城东北六十里",
+          "households": {"count": 134, "unit": "里", "note": "编户一百三十四里"}
+        }
+      },
+      {
+        "geo_id": "GEO-48001-c04",
+        "item_id": "48-001",
+        "name": "平阳县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {
+          "location_text": "在府城西南一百五十里",
+          "households": {"count": 231, "unit": "里", "note": "编户二百三十一里"}
+        }
+      },
+      {
+        "geo_id": "GEO-48001-c05",
+        "item_id": "48-001",
+        "name": "泰顺县",
+        "type": "county",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {
+          "location_text": "在府城西南三百七十里",
+          "households": {"count": 18, "unit": "里", "note": "编户一十八里"}
+        }
+      },
+      {
+        "geo_id": "GEO-48001-w01",
+        "item_id": "48-001",
+        "name": "温州卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {"location_text": "在府治东洪武元年即元温州路故址建", "garrison_type": "卫"}
+      },
+      {
+        "geo_id": "GEO-48001-w02",
+        "item_id": "48-001",
+        "name": "金乡卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {"location_text": "在平阳县南七十里洪武二十年建", "garrison_type": "卫"}
+      },
+      {
+        "geo_id": "GEO-48001-w03",
+        "item_id": "48-001",
+        "name": "盘石卫",
+        "type": "weisuo",
+        "region": "浙江",
+        "parent": "GEO-48001",
+        "children": [],
+        "volume_range": "卷48",
+        "attributes": {"location_text": "在乐清县西六十里洪武二十年建", "garrison_type": "卫"}
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "夏", "era": null, "institution_name": "扬州之域", "action": "因之", "detail": "禹贡扬州之域，天文斗牛女分野"},
+      {"evo_id": "EVO-002", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "春秋战国", "era": null, "institution_name": "越地", "action": "因之", "detail": "春秋战国时并属越"},
+      {"evo_id": "EVO-003", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "秦", "era": null, "institution_name": "闽中郡", "action": "置", "detail": "秦属闽中郡"},
+      {"evo_id": "EVO-004", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "汉", "era": null, "institution_name": "东瓯王国/回浦县地", "action": "置", "detail": "汉初为东瓯王国，后为会稽郡之回浦县地"},
+      {"evo_id": "EVO-005", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "东汉", "era": null, "institution_name": "章安县/永宁县", "action": "分置", "detail": "东汉为章安县地，又分置永宁县"},
+      {"evo_id": "EVO-006", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "三国吴", "era": null, "institution_name": "临海郡", "action": "因之", "detail": "三国吴属临海郡"},
+      {"evo_id": "EVO-007", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "晋", "era": "太宁", "institution_name": "永嘉郡", "action": "置", "detail": "晋置永嘉郡治永宁"},
+      {"evo_id": "EVO-008", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "隋", "era": "大业", "institution_name": "永嘉县/永嘉郡", "action": "改", "detail": "隋初废郡改县曰永嘉属括州，大业初属永嘉郡"},
+      {"evo_id": "EVO-009", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "唐", "era": "上元/天宝/乾元", "institution_name": "东嘉州/温州/永嘉郡", "action": "改", "detail": "唐置东嘉州后废以县属括州，上元初置温州以其地恒燠少寒故名，天宝初改永嘉郡，乾元初复为温州，建靖安军"},
+      {"evo_id": "EVO-010", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "五代", "era": null, "institution_name": "靖海军", "action": "置", "detail": "五代时吴越建靖海军"},
+      {"evo_id": "EVO-011", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "宋", "era": "咸淳", "institution_name": "应道军/温州/瑞安府", "action": "升", "detail": "宋为应道军，建炎初仍为温州，咸淳初升瑞安府"},
+      {"evo_id": "EVO-012", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "元", "era": null, "institution_name": "温州路", "action": "改", "detail": "元改温州路"},
+      {"evo_id": "EVO-013", "item_id": "48-001", "geo_id": "GEO-48001", "dynasty": "明", "era": null, "institution_name": "温州府", "action": "因之", "detail": "本朝改为温州府领县五"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "华盖山", "type": "山", "location_text": "在府城东", "description": "一名东山，遥望似华盖，道书为第十八洞容成太玉之天", "lore": "温州斗城九山之一，斗魁之首"},
+      {"mtn_id": "MTN-002", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "积谷山", "type": "山", "location_text": "在华盖山南", "description": "两峰相联形圆如高廪故名，又名飞霞山", "lore": "谢灵运尝流觞其中，俗呼灵池"},
+      {"mtn_id": "MTN-003", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "松台山", "type": "山", "location_text": "在府城西", "description": "一名西岩，山巅有高塔为一城标的", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "海坛山", "type": "山", "location_text": "在府城东北", "description": "古语云海坛沙涨温州出相，宋咸淳间沙涨陈宜中应之", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "郭公山", "type": "山", "location_text": "在府城西北", "description": "下临大江，旧志晋郭璞登山相此州故名", "lore": "郭璞相地建斗城处"},
+      {"mtn_id": "MTN-006", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "孤屿山", "type": "山", "location_text": "在府城北江中", "description": "有东西二峰，峰上各有塔", "lore": "刘宋谢灵运诗乱流趋正绝孤屿媚中川即此；今江心寺所在地"},
+      {"mtn_id": "MTN-007", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "吹台山", "type": "山", "location_text": "在府城南二十里", "description": "山顶平正如台，相传为王子晋吹笙处，地产椅桐", "lore": "梁太守丘迟常采以制琴"},
+      {"mtn_id": "MTN-008", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "大罗山", "type": "山", "location_text": "在府城南四十里", "description": "一名泉山，汉朱买臣言越王居泉山一夫守险万人不得进即此", "lore": "黄淮墓在山麓"},
+      {"mtn_id": "MTN-009", "item_id": "48-001", "geo_id": "GEO-48001-c02", "name": "西岘山", "type": "山", "location_text": "在瑞安县治西", "description": "旧志昔有仙人马湘居此", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "48-001", "geo_id": "GEO-48001-c02", "name": "陶山", "type": "山", "location_text": "在瑞安县西三十里", "description": "梁陶弘景隐居之所", "lore": "道教名山"},
+      {"mtn_id": "MTN-011", "item_id": "48-001", "geo_id": "GEO-48001-c02", "name": "仙岩山", "type": "山", "location_text": "在瑞安县东四十里", "description": "道书为二十六福地，上有三皇井", "lore": "唐姚揆铭曰维仙之居既清且虚"},
+      {"mtn_id": "MTN-012", "item_id": "48-001", "geo_id": "GEO-48001-c03", "name": "九牛山", "type": "山", "location_text": "在乐清县治东", "description": "上有九大石横列远望若九牛然，山之南谢灵运曾游，又名谢公山", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "48-001", "geo_id": "GEO-48001-c03", "name": "丹霞山", "type": "山", "location_text": "在乐清县治西", "description": "一名白鹤山，常有白鹤栖鸣山上，晋张文君炼丹于此", "lore": "王羲之曾往访张文君"},
+      {"mtn_id": "MTN-014", "item_id": "48-001", "geo_id": "GEO-48001-c03", "name": "雁荡山", "type": "山", "location_text": "在乐清县东九十里", "description": "此山天下奇秀，谷深峰叠行者不能遍，分东西谷立十八寺始有驻足之地", "lore": "王十朋诗雁山门户从此入；龙湫瀑布为胜景"},
+      {"mtn_id": "MTN-015", "item_id": "48-001", "geo_id": "GEO-48001-c03", "name": "玉甑峰", "type": "峰", "location_text": "在乐清县西四十里", "description": "世传为白玉洞天，上有升仙坛，登此峰顶者五更见日出如红炉铸丸", "lore": ""},
+      {"mtn_id": "MTN-016", "item_id": "48-001", "geo_id": "GEO-48001-c03", "name": "文峰", "type": "峰", "location_text": "在乐清县东", "description": "形耸如笔，宋绍兴中祥云现其上，识者以为有文魁之应，次年王十朋果廷对第一", "lore": "王十朋状元应兆"},
+      {"mtn_id": "MTN-017", "item_id": "48-001", "geo_id": "GEO-48001-c04", "name": "仙坛山", "type": "山", "location_text": "在平阳县治东", "description": "上有平石方十余丈号仙坛，其旁有竹林风来成韵垂扫坛上，号扫坛竹", "lore": "相传昔有道人却粒于此"},
+      {"mtn_id": "MTN-018", "item_id": "48-001", "geo_id": "GEO-48001-c04", "name": "玉苍山", "type": "山", "location_text": "在平阳县西南八十里", "description": "亦名一面山，跨峙八面独高诸峰", "lore": "古碑云玉苍之山虎踞龙蟠"},
+      {"mtn_id": "MTN-019", "item_id": "48-001", "geo_id": "GEO-48001-c04", "name": "南雁荡山", "type": "山", "location_text": "在平阳县西南一百里", "description": "山有明王峰，峰顶有池，五代时僧愿齐寻访名山至此结茅其间", "lore": ""},
+      {"mtn_id": "MTN-020", "item_id": "48-001", "geo_id": "GEO-48001-c05", "name": "飞龙山", "type": "山", "location_text": "在泰顺县治南", "description": "形如龙飞", "lore": ""},
+      {"mtn_id": "MTN-021", "item_id": "48-001", "geo_id": "GEO-48001-c05", "name": "舞凤山", "type": "山", "location_text": "在泰顺县治北", "description": "形如凤舞", "lore": ""},
+      {"mtn_id": "MTN-022", "item_id": "48-001", "geo_id": "GEO-48001-c05", "name": "分水山", "type": "山", "location_text": "在泰顺县南", "description": "泉发山陇东西分流", "lore": "宋陈与义诗行尽江左路初过浙东村"},
+      {"mtn_id": "MTN-023", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "永宁江", "type": "江", "location_text": "在府城北", "description": "旧名慎江一名永嘉江，东自大海西通处州青田溪，又名蜃江", "lore": "唐元和中刺史韦宥获筝弦化为白龙腾空而去"},
+      {"mtn_id": "MTN-024", "item_id": "48-001", "geo_id": "GEO-48001-c02", "name": "安阳江", "type": "江", "location_text": "在瑞安县南", "description": "一名安固江又名飞云江，有飞云渡", "lore": ""},
+      {"mtn_id": "MTN-025", "item_id": "48-001", "geo_id": "GEO-48001-c04", "name": "横阳江", "type": "江", "location_text": "在平阳县西二十五里", "description": "一名始阳江又名前仓江", "lore": ""},
+      {"mtn_id": "MTN-026", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "楠溪", "type": "溪", "location_text": "在府城东北一十五里", "description": "流入永宁江", "lore": ""},
+      {"mtn_id": "MTN-027", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "西湖", "type": "湖", "location_text": "在府城西", "description": "谢灵运诗侧聴既窈窕环洲亦玲珑", "lore": ""},
+      {"mtn_id": "MTN-028", "item_id": "48-001", "geo_id": "GEO-48001-c01", "name": "会昌湖", "type": "湖", "location_text": "在府城西南", "description": "唐会昌中郡守韦庸所筑，溉田甚博", "lore": "又名韦公堤"},
+      {"mtn_id": "MTN-029", "item_id": "48-001", "geo_id": "GEO-48001-c04", "name": "梅溪", "type": "溪", "location_text": "在平阳县西三十里", "description": "宋郡人林尧民种梅其旁因名，又乐清县东亦有梅溪", "lore": "王十朋因取为号"},
+      {"mtn_id": "MTN-030", "item_id": "48-001", "geo_id": "GEO-48001-c03", "name": "龙湫", "type": "泉", "location_text": "在雁荡山", "description": "飞泉落云间，为雁荡绝景", "lore": "宋范宗尹诗龙湫信奇绝飞泉落云间"}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "48-001", "cited_work": "郡志", "cited_work_ent_id": null, "context": "形胜", "original": "【郡志始议建城郭璞登山相地有数山错立如北斗因曰若城于山外阴不入斗则安逸可以长守于是城于山且凿二十八井以象列宿】"},
+      {"cit_id": "CIT-002", "item_id": "48-001", "cited_work": "艺文类聚", "cited_work_ent_id": null, "context": "形胜", "original": "【艺文类聚控山带海利兼水陆实东南沃壤一巨都】"},
+      {"cit_id": "CIT-003", "item_id": "48-001", "cited_work": "赵抃壁记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋赵抃壁记温之为州最浙东极处冬无祁寒夏无甚暑】"},
+      {"cit_id": "CIT-004", "item_id": "48-001", "cited_work": "元志", "cited_work_ent_id": null, "context": "形胜", "original": "【元志东界钜海西际重山】"},
+      {"cit_id": "CIT-005", "item_id": "48-001", "cited_work": "隋志", "cited_work_ent_id": null, "context": "风俗", "original": "【隋志少争讼尚歌舞】"},
+      {"cit_id": "CIT-006", "item_id": "48-001", "cited_work": "隋志", "cited_work_ent_id": null, "context": "风俗", "original": "【同上妇人勤于纺绩有夜浣纱而旦成布者俗谓之鸡布】"},
+      {"cit_id": "CIT-007", "item_id": "48-001", "cited_work": "郡志", "cited_work_ent_id": null, "context": "风俗", "original": "【郡志旧俗以端午日竞渡于会昌湖里人游观弥岸】"},
+      {"cit_id": "CIT-008", "item_id": "48-001", "cited_work": "永嘉志", "cited_work_ent_id": null, "context": "风俗", "original": "【永嘉志每嵗旦于郡学养源堂上交拜叙贺乡曲聚会以齿不以爵】"},
+      {"cit_id": "CIT-009", "item_id": "48-001", "cited_work": "张九成语", "cited_work_ent_id": null, "context": "风俗", "original": "【宋张九云阳嘉道德之乡贤哲相踵前軰虽徃风流尚存】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "pers拆至pers1/2/3；sites拆至sites1/2"}
+}

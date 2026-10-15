@@ -1,0 +1,141 @@
+{
+  "item_id": "41-001",
+  "volume": "41",
+  "source": "严州府",
+  "region": "浙江",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "严州府", "type": "geo", "norm": "严州府", "first_source": "41-001"},
+      {"ent_id": "ENT-002", "name": "建德县", "type": "geo", "norm": "建德县", "first_source": "41-001"},
+      {"ent_id": "ENT-003", "name": "淳安县", "type": "geo", "norm": "淳安县", "first_source": "41-001"},
+      {"ent_id": "ENT-004", "name": "桐庐县", "type": "geo", "norm": "桐庐县", "first_source": "41-001"},
+      {"ent_id": "ENT-005", "name": "遂安县", "type": "geo", "norm": "遂安县", "first_source": "41-001"},
+      {"ent_id": "ENT-006", "name": "寿昌县", "type": "geo", "norm": "寿昌县", "first_source": "41-001"},
+      {"ent_id": "ENT-007", "name": "分水县", "type": "geo", "norm": "分水县", "first_source": "41-001"},
+      {"ent_id": "ENT-008", "name": "乌龙山", "type": "mtn", "norm": "乌龙山", "first_source": "41-001"},
+      {"ent_id": "ENT-009", "name": "富春山", "type": "mtn", "norm": "富春山", "first_source": "41-001"},
+      {"ent_id": "ENT-010", "name": "桐君山", "type": "mtn", "norm": "桐君山", "first_source": "41-001"},
+      {"ent_id": "ENT-011", "name": "新安江", "type": "mtn", "norm": "新安江", "first_source": "41-001"},
+      {"ent_id": "ENT-012", "name": "桐江", "type": "mtn", "norm": "桐江", "first_source": "41-001"},
+      {"ent_id": "ENT-013", "name": "七里滩", "type": "mtn", "norm": "七里滩", "first_source": "41-001"},
+      {"ent_id": "ENT-014", "name": "威平洞", "type": "mtn", "norm": "威平洞", "first_source": "41-001"},
+      {"ent_id": "ENT-015", "name": "严先生祠", "type": "site", "norm": "严先生祠", "first_source": "41-001"},
+      {"ent_id": "ENT-016", "name": "钓台", "type": "site", "norm": "钓台", "first_source": "41-001"},
+      {"ent_id": "ENT-017", "name": "商辂墓", "type": "site", "norm": "商辂墓", "first_source": "41-001"},
+      {"ent_id": "ENT-018", "name": "严光", "type": "person", "norm": "严光", "first_source": "41-001"},
+      {"ent_id": "ENT-019", "name": "方干", "type": "person", "norm": "方干", "first_source": "41-001"},
+      {"ent_id": "ENT-020", "name": "皇甫湜", "type": "person", "norm": "皇甫湜", "first_source": "41-001"},
+      {"ent_id": "ENT-021", "name": "李频", "type": "person", "norm": "李频", "first_source": "41-001"},
+      {"ent_id": "ENT-022", "name": "范仲淹", "type": "person", "norm": "范仲淹", "first_source": "41-001"},
+      {"ent_id": "ENT-023", "name": "方逢辰", "type": "person", "norm": "方逢辰", "first_source": "41-001"},
+      {"ent_id": "ENT-024", "name": "商辂", "type": "person", "norm": "商辂", "first_source": "41-001"},
+      {"ent_id": "ENT-025", "name": "胡则", "type": "person", "norm": "胡则", "first_source": "41-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-41001",
+        "item_id": "41-001",
+        "name": "严州府",
+        "type": "prefecture",
+        "region": "浙江",
+        "parent": "GEO-000",
+        "children": ["GEO-41001-c01","GEO-41001-c02","GEO-41001-c03","GEO-41001-c04","GEO-41001-c05","GEO-41001-c06","GEO-41001-w01"],
+        "volume_range": "卷41",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "杭州府富阳县界", "distance_li": 200},
+            {"direction": "西", "to_place": "直隶徽州府歙县界", "distance_li": 230},
+            {"direction": "南", "to_place": "金华府兰溪县界", "distance_li": 50},
+            {"direction": "北", "to_place": "杭州府于潜县界", "distance_li": 120}
+          ],
+          "to_capital": [
+            {"capital": "南京", "distance_li": 1170},
+            {"capital": "京师", "distance_li": 4428}
+          ],
+          "households": {"count": null, "unit": "里", "note": "领县六；各属县编户见下"},
+          "grain_tax": {"amount": 11000, "unit": "石", "note": "粮一万一千石零"},
+          "jun_name": "严陵【以严子陵居此郡得名】新都【吴名】新定【唐名】",
+          "topography": "据浙江上游【宋钱勰浮桥记】；当瓯歙数道之冲【同上】；建邦于山谷之间【宋田锡孔子庙记】；衢歙二水合于城隅【宋范仲淹云】；群峰回环一水萦带【宋苏颂灵香阁记】；江阔山深【古诗江阔桐庐岸山深建德城】；山川宏伟【宋朱熹山陵奏议】；锦峰绣岭【图经】；四达皆巇险之道【郡志】",
+          "customs": "俗号辑睦【图经俗号辑睦因以名邦可以无事治不可以多事理】；人和俗阜【寰宇记】；民贫而啬【图经序州境山谷居多地狭且瘠民贫而啬谷食不足仰给他州惟蚕桑是务】；多文学之士【郡志郡多文学之士在唐有皇甫湜方干李频宋有方逢辰钱时诸人皆以文学著名】",
+          "garrisons": [
+            {"name": "严州守御千户所", "type": "千户所", "location_text": "在府治东南洪武中建"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004","CIT-005","CIT-006","CIT-007","CIT-008"]
+      },
+      {"geo_id": "GEO-41001-c01", "item_id": "41-001", "name": "建德县", "type": "county", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "附郭", "households": {"count": 84, "unit": "里", "note": "编户八十四里"}}},
+      {"geo_id": "GEO-41001-c02", "item_id": "41-001", "name": "淳安县", "type": "county", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "在府城西一百六十里", "households": {"count": 81, "unit": "里", "note": "编户八十一里"}}},
+      {"geo_id": "GEO-41001-c03", "item_id": "41-001", "name": "桐庐县", "type": "county", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "在府城东一百里", "households": {"count": 53, "unit": "里", "note": "编户五十三里"}}},
+      {"geo_id": "GEO-41001-c04", "item_id": "41-001", "name": "遂安县", "type": "county", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "在府城西一百八十里", "households": {"count": 59, "unit": "里", "note": "编户五十九里"}}},
+      {"geo_id": "GEO-41001-c05", "item_id": "41-001", "name": "寿昌县", "type": "county", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "在府城西南九十里", "households": {"count": 30, "unit": "里", "note": "编户三十里"}}},
+      {"geo_id": "GEO-41001-c06", "item_id": "41-001", "name": "分水县", "type": "county", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "在府城东北一百五十五里", "households": {"count": 18, "unit": "里", "note": "编户一十八里"}}},
+      {"geo_id": "GEO-41001-w01", "item_id": "41-001", "name": "严州守御千户所", "type": "weisuo", "region": "浙江", "parent": "GEO-41001", "children": [], "volume_range": "卷41", "attributes": {"location_text": "在府治东南洪武中建", "garrison_type": "千户所"}}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "夏", "era": null, "institution_name": "扬州之域", "action": "因之", "detail": "禹贡扬州之域，天文牛女分野"},
+      {"evo_id": "EVO-002", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "春秋", "era": null, "institution_name": "吴越地", "action": "因之", "detail": "春秋时属吴后属越"},
+      {"evo_id": "EVO-003", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "战国", "era": null, "institution_name": "楚地", "action": "因之", "detail": "战国时属楚"},
+      {"evo_id": "EVO-004", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "秦", "era": null, "institution_name": "会稽鄣二郡地", "action": "因之", "detail": "秦为会稽鄣二郡地"},
+      {"evo_id": "EVO-005", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "汉", "era": null, "institution_name": "会稽丹阳二郡地", "action": "因之", "detail": "汉属会稽丹阳二郡，东汉属吴郡及丹阳郡"},
+      {"evo_id": "EVO-006", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "三国吴", "era": "建安", "institution_name": "新都郡", "action": "置", "detail": "建安中孙吴始置新都郡"},
+      {"evo_id": "EVO-007", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "晋", "era": null, "institution_name": "新安郡", "action": "改", "detail": "晋改为新安郡治始新"},
+      {"evo_id": "EVO-008", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "隋", "era": "仁寿/大业", "institution_name": "睦州/遂安郡", "action": "改", "detail": "隋初罢郡为新安县，仁寿中始置睦州，大业初改为遂安郡治雉山县"},
+      {"evo_id": "EVO-009", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "唐", "era": "天宝/乾元", "institution_name": "新定郡/睦州", "action": "改", "detail": "唐初复为睦州，又于桐庐别置严州寻废，天宝初改为新定郡，乾元初复为睦州"},
+      {"evo_id": "EVO-010", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "宋", "era": "宣和/咸淳", "institution_name": "严州/建德府", "action": "升", "detail": "宋置遂安军，宣和初改州曰严州军曰建德，咸淳初升州为建德府，属浙西路"},
+      {"evo_id": "EVO-011", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "元", "era": null, "institution_name": "建德路", "action": "改", "detail": "元改建德路"},
+      {"evo_id": "EVO-012", "item_id": "41-001", "geo_id": "GEO-41001", "dynasty": "明", "era": null, "institution_name": "严州府", "action": "改", "detail": "本朝改建安府寻改严州府，领县六"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "41-001", "geo_id": "GEO-41001-c01", "name": "乌龙山", "type": "山", "location_text": "在府城北三里", "description": "宋宣和初以龙为君象凡州县山水地名有龙字者避之，尝改名仁安，山之麓有乌龙庙旁有乌龙岭，岭间有三弯九曲之奇", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "41-001", "geo_id": "GEO-41001-c01", "name": "高峰山", "type": "山", "location_text": "在府城东五里", "description": "山峰峭耸，昔有浮图在其巅，古语云卯巽二峰重建塔状元从此冠群英", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "41-001", "geo_id": "GEO-41001-c01", "name": "紫盖山", "type": "山", "location_text": "在府城西北七十里", "description": "巍然高耸出众山之表，常有紫霞腾绕如盖", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "桐君山", "type": "山", "location_text": "在桐庐县东二里", "description": "一名桐庐山，相传昔有异人于此山采药求道结庐于桐木下，人问其姓则指桐以示之，因号为桐君山", "lore": "桐君采药传说"},
+      {"mtn_id": "MTN-005", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "富春山", "type": "山", "location_text": "在桐庐县西三十里", "description": "一名严陵山，清丽奇绝号锦峰绣岭，乃汉严子陵隐钓处，前临大江上有东西二钓台", "lore": "严光钓台"},
+      {"mtn_id": "MTN-006", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "戴山", "type": "山", "location_text": "在桐庐县东二里", "description": "刘宋会稽戴颙与其父兄及弟来隐居于此因名，今绝顶有遗居在焉", "lore": "戴颙隐逸"},
+      {"mtn_id": "MTN-007", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "雉山", "type": "山", "location_text": "在淳安县治西南", "description": "山形如雉蹲，隋时尝以此山名县", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "三台见山", "type": "山", "location_text": "在淳安县西一十里", "description": "屹立大溪中上有佛宇，山形甚似镇江之金山而差小故名", "lore": "胡朝颖诗绿水绕门迷客渡白云终日伴僧闲"},
+      {"mtn_id": "MTN-009", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "担盐山", "type": "山", "location_text": "在淳安县西北一百一十里", "description": "钱镠微时常贩盐经此，因苦渴以拄杖触岩泉忽涌出，名拄杖泉", "lore": "钱镠传说"},
+      {"mtn_id": "MTN-010", "item_id": "41-001", "geo_id": "GEO-41001-c05", "name": "僊池山", "type": "山", "location_text": "在寿昌县南三里", "description": "一名南山，山巅有池，乡民遇旱为机以泄池水溉山下田，天将雨则云雾兴，相传池有灵蜃因名仙池", "lore": "胡楚材诗峻嶒插天山仙池在绝顶"},
+      {"mtn_id": "MTN-011", "item_id": "41-001", "geo_id": "GEO-41001-c05", "name": "魏佗山", "type": "山", "location_text": "在寿昌县西四十里", "description": "唐李频及第挈妻归省，其妻过此山见其险隘有倦容，频戏为作诗有魏佗山前一片花岭西更有数十家之句", "lore": "李频故事"},
+      {"mtn_id": "MTN-012", "item_id": "41-001", "geo_id": "GEO-41001-c06", "name": "庆云山", "type": "山", "location_text": "在分水县治东南", "description": "唐长庆中山上有五色云现故名", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "41-001", "geo_id": "GEO-41001-c06", "name": "紫龙山", "type": "山", "location_text": "在分水县西南一十五里", "description": "上有龙池，岁旱祷雨多应", "lore": ""},
+      {"mtn_id": "MTN-014", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "独高峰", "type": "峰", "location_text": "在桐庐县北二十里", "description": "突然一峰绝顶平坦，上有石塔", "lore": ""},
+      {"mtn_id": "MTN-015", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "金紫峰", "type": "峰", "location_text": "在淳安县东北八十里", "description": "高二十余丈，中峰有圆石起数十丈光莹无草木，每旭日照灼则有金紫闪烁之色，上有九陇瀑布泉", "lore": ""},
+      {"mtn_id": "MTN-016", "item_id": "41-001", "geo_id": "GEO-41001-c01", "name": "笔架峰", "type": "峰", "location_text": "在府城西七十五里", "description": "五峰峭列如笔架然故名", "lore": ""},
+      {"mtn_id": "MTN-017", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "威平洞", "type": "洞", "location_text": "在淳安县西七十里", "description": "一名青溪洞又名帮源洞，宋宣和中方腊反韩世忠击败之穷追至此洞，贼深据岩屋为三窟，世忠挺身杖戈捣其穴格杀数十人擒腊以出，贼平改今名", "lore": "方腊起义、韩世忠擒方腊"},
+      {"mtn_id": "MTN-018", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "灵岩洞", "type": "洞", "location_text": "在淳安县东五十里", "description": "上有千仞峰下有两水，源东曰悬明西曰龙门，龙门源水又分为二曰龙湫曰均济各溉田数顷", "lore": "宋邵晃父子隐居于此"},
+      {"mtn_id": "MTN-019", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "阆仙洞", "type": "洞", "location_text": "在桐庐县北二十五里", "description": "相传昔有仙人居此，中有石床卧之甚温，石鼓击之则鸣，又有石龙石桥巨蟾碧鸡之类", "lore": "宋黄裳作记并诗千绝以纪其胜"},
+      {"mtn_id": "MTN-020", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "新安江", "type": "江", "location_text": "在淳安县南", "description": "一名青溪，出徽州自歙县经本县界至府城南合婺港东入浙江", "lore": "齐沈约诗眷言访舟客兹川信可珍；唐李白诗青溪清我水色异诸水借问新安江见底何如此"},
+      {"mtn_id": "MTN-021", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "桐江", "type": "江", "location_text": "在桐庐县北三里", "description": "亦名桐溪，源出天目山流入浙江", "lore": "宋柳耆卿词桐江好烟漠漠波如染山如削"},
+      {"mtn_id": "MTN-022", "item_id": "41-001", "geo_id": "GEO-41001-c01", "name": "东阳江", "type": "江", "location_text": "在府城东南二里", "description": "来自金华府界至此与歙港合流东入浙江", "lore": ""},
+      {"mtn_id": "MTN-023", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "白水湖", "type": "湖", "location_text": "在桐庐县北二十里", "description": "湖有四溉田甚博", "lore": ""},
+      {"mtn_id": "MTN-024", "item_id": "41-001", "geo_id": "GEO-41001-c06", "name": "天目溪", "type": "溪", "location_text": "在分水县东", "description": "源出天目山", "lore": ""},
+      {"mtn_id": "MTN-025", "item_id": "41-001", "geo_id": "GEO-41001-c05", "name": "寿昌溪", "type": "溪", "location_text": "在寿昌县西六十里", "description": "流入新安江", "lore": ""},
+      {"mtn_id": "MTN-026", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "十九泉", "type": "泉", "location_text": "在桐庐县西钓台下", "description": "泉甚甘美，茶经品第天下水味谓此泉居第十九品", "lore": "陆羽茶经"},
+      {"mtn_id": "MTN-027", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "孝子泉", "type": "泉", "location_text": "在桐庐县西南二十里", "description": "晋孝子夏孝先庐墓于此忽有泉涌出因名", "lore": "夏孝先孝行"},
+      {"mtn_id": "MTN-028", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "铁井", "type": "井", "location_text": "在淳安县治西", "description": "水极清冽官民取汲，宋政和间防以铁栏因名", "lore": ""},
+      {"mtn_id": "MTN-029", "item_id": "41-001", "geo_id": "GEO-41001-c03", "name": "七里滩", "type": "滩", "location_text": "在桐庐县西", "description": "一名严濑，即汉严光垂钓处，谚云有风七里无风七十里，盖舟行难于挽纤惟视风以为迟速", "lore": "刘宋谢灵运诗一瞬即七里箭驰犹是难"}
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "41-001", "geo_id": "GEO-41001-c01", "name": "铜", "type": "prod", "location_text": "建德遂安二县出，唐时有坑", "note": ""},
+      {"prod_id": "PROD-002", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "漆", "type": "prod", "location_text": "淳安遂安寿昌三县出", "note": ""},
+      {"prod_id": "PROD-003", "item_id": "41-001", "geo_id": "GEO-41001-c02", "name": "茶", "type": "prod", "location_text": "各县俱出，淳安鸠坑者佳", "note": ""},
+      {"prod_id": "PROD-004", "item_id": "41-001", "geo_id": "GEO-41001-c04", "name": "白石英", "type": "prod", "location_text": "遂安县出", "note": ""}
+    ],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "41-001", "cited_work": "宋钱勰浮桥记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋钱勰浮桥记据浙江上游当瓯歙数道之冲】"},
+      {"cit_id": "CIT-002", "item_id": "41-001", "cited_work": "宋田锡孔子庙记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋田钖孔子庙记建邦于山谷之间】"},
+      {"cit_id": "CIT-003", "item_id": "41-001", "cited_work": "宋范仲淹语", "cited_work_ent_id": null, "context": "形胜", "original": "【宋范仲淹云衢歙二水合于城隅】"},
+      {"cit_id": "CIT-004", "item_id": "41-001", "cited_work": "宋苏颂灵香阁记", "cited_work_ent_id": null, "context": "形胜", "original": "【宋苏颂灵香阁记羣峰回环一水萦带】"},
+      {"cit_id": "CIT-005", "item_id": "41-001", "cited_work": "古诗", "cited_work_ent_id": null, "context": "形胜", "original": "【古诗江濶桐庐岸山山建徳城】"},
+      {"cit_id": "CIT-006", "item_id": "41-001", "cited_work": "图经", "cited_work_ent_id": null, "context": "风俗", "original": "【图经俗号辑睦因以名邦可以无事治不可以多事理】"},
+      {"cit_id": "CIT-007", "item_id": "41-001", "cited_work": "图经序", "cited_work_ent_id": null, "context": "风俗", "original": "【图经序州境山谷居多地狭且瘠民贫而啬谷食不足仰给他州惟蚕桑是务】"},
+      {"cit_id": "CIT-008", "item_id": "41-001", "cited_work": "郡志", "cited_work_ent_id": null, "context": "风俗", "original": "【郡志郡多文学之士在唐有皇甫湜方干李频宋有方逢辰钱时诸人皆以文学著名】"}
+    ]
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "pers拆至pers1/2/3；sites拆至sites1/2"},
+  "title": "严州府"
+}
