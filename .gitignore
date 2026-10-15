@@ -104,3 +104,9 @@ trl_卷[0-9][0-9]_全书记译.txt
 _shots/
 **/新官轨范_阅读器/raw/
 *.epub
+
+# ---------- 交付包内的自包含副本：明会典 _deliver 整包入库 ----------
+# 上面的 _layers/ 与 _kg_join.json 是未锚定规则，会连带排除交付包内的数据副本；
+# 此处显式取反，保证交付包开箱即用（数据源仍是各项目 _layers/，不入库）。
+!/minghuidian/_deliver/
+!/minghuidian/_deliver/**
