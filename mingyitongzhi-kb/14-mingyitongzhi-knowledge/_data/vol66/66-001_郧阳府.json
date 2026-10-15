@@ -1,0 +1,1477 @@
+{
+  "item_id": "66-001",
+  "volume": "66",
+  "source": "郧阳府",
+  "region": "湖广",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "郧阳府",
+        "type": "geo",
+        "norm": "郧阳府",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "郧县",
+        "type": "geo",
+        "norm": "郧县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "房县",
+        "type": "geo",
+        "norm": "房县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "竹山县",
+        "type": "geo",
+        "norm": "竹山县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "上津县",
+        "type": "geo",
+        "norm": "上津县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "竹谿县",
+        "type": "geo",
+        "norm": "竹谿县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "郧西县",
+        "type": "geo",
+        "norm": "郧西县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-C07",
+        "name": "保康县",
+        "type": "geo",
+        "norm": "保康县",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "郧阳卫",
+        "type": "geo",
+        "norm": "郧阳卫",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "竹山守御千户所",
+        "type": "geo",
+        "norm": "竹山守御千户所",
+        "first_source": "66-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "房县守御千户所",
+        "type": "geo",
+        "norm": "房县守御千户所",
+        "first_source": "66-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-66001",
+        "item_id": "66-001",
+        "name": "郧阳府",
+        "type": "prefecture",
+        "region": "湖广",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-66001-c01",
+          "GEO-66001-c02",
+          "GEO-66001-c03",
+          "GEO-66001-c04",
+          "GEO-66001-c05",
+          "GEO-66001-c06",
+          "GEO-66001-c07",
+          "GEO-66001-w01",
+          "GEO-66001-w02",
+          "GEO-66001-w03"
+        ],
+        "volume_range": "卷66",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "河南郧阳府淅川县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "西",
+              "to_place": "陕西汉中府平利县界",
+              "distance_li": 560
+            },
+            {
+              "direction": "南",
+              "to_place": "襄阳府均州界",
+              "distance_li": 90
+            },
+            {
+              "direction": "北",
+              "to_place": "陕西汉中府白河县界",
+              "distance_li": 200
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 1910
+            },
+            {
+              "capital": "京师",
+              "distance_li": 2350
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县七；各属编户见下；粮一万二千四百石零"
+          },
+          "jun_name": "房陵【古名】",
+          "topography": "东通襄邓西逼秦蜀南接荆澧北控商洛【楚纪】；溪流湍激崖径险崎【楚纪】；中原巨镇【楚故略】；楚蜀咽喉之冲【房州谯楼记】",
+          "customs": "民多秦俗尚楚歌信鬼尚巫务农少学流寓杂处民风未淳【古志】；土薄民淳【广舆图】；昔多劲悍决烈之习近知礼义廉耻之风【皇舆考】；朴鲁简啬【楚故略】",
+          "garrisons": [
+            {
+              "name": "郧阳卫",
+              "type": "卫",
+              "location_text": "在府治东成化十三年建"
+            },
+            {
+              "name": "竹山守御千户所",
+              "type": "千户所",
+              "location_text": "在县治东成化八年建"
+            },
+            {
+              "name": "房县守御千户所",
+              "type": "千户所",
+              "location_text": "在县治东成化中建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008"
+        ]
+      },
+      {
+        "geo_id": "GEO-66001-c01",
+        "item_id": "66-001",
+        "name": "郧县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 41,
+            "unit": "里",
+            "note": "编户四十一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-c02",
+        "item_id": "66-001",
+        "name": "房县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府城西南三百一十里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-c03",
+        "item_id": "66-001",
+        "name": "竹山县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府城东南三百八十里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-c04",
+        "item_id": "66-001",
+        "name": "上津县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府城西北四百八十里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-c05",
+        "item_id": "66-001",
+        "name": "竹谿县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府城西二百六十里",
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-c06",
+        "item_id": "66-001",
+        "name": "郧西县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府城北二百九十里",
+          "households": {
+            "count": 9,
+            "unit": "里",
+            "note": "编户九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-c07",
+        "item_id": "66-001",
+        "name": "保康县",
+        "type": "county",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府城西北二百里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-66001-w01",
+        "item_id": "66-001",
+        "name": "郧阳卫",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在府治东成化十三年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-66001-w02",
+        "item_id": "66-001",
+        "name": "竹山守御千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在县治东成化八年建",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-66001-w03",
+        "item_id": "66-001",
+        "name": "房县守御千户所",
+        "type": "weisuo",
+        "region": "湖广",
+        "parent": "GEO-66001",
+        "children": [],
+        "volume_range": "卷66",
+        "attributes": {
+          "location_text": "在县治东成化中建",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "雍梁二州之域",
+        "action": "因之",
+        "detail": "禹贡雍梁二州之域，天文翼轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "古麇庸地",
+        "action": "因之",
+        "detail": "古麇庸地，春秋时曰锡穴为锡之西鄙"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "楚地",
+        "action": "属",
+        "detail": "战国属楚"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "汉中郡",
+        "action": "置",
+        "detail": "秦置汉中郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "锡县/房陵上庸二郡",
+        "action": "置",
+        "detail": "西汉始置锡县于郧仍属汉中，东汉置房陵上庸二郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "三国魏",
+        "era": null,
+        "institution_name": "魏兴郡",
+        "action": "析置",
+        "detail": "三国属魏，晋析置长利县并改属魏兴郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "郧乡县/淅阳郡",
+        "action": "改",
+        "detail": "隋更长利为郧乡县属淅阳郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "南丰州/均州",
+        "action": "改",
+        "detail": "唐初置南丰州寻省州而以县属淅川，寻又更为均州县属焉"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "武当军节度",
+        "action": "属",
+        "detail": "宋初属武当军节度"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "郧县属均州",
+        "action": "改",
+        "detail": "元初复为郧县属均州"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001",
+        "dynasty": "明",
+        "era": "成化",
+        "institution_name": "郧阳府",
+        "action": "升",
+        "detail": "本朝初随州属襄阳府，成化中升为郧阳府直隶湖广布政使司，领县七"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "龙门山",
+        "type": "山",
+        "location_text": "在府城南七十里",
+        "description": "有二崖对峙如门水从中出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "黎子山",
+        "type": "山",
+        "location_text": "在府城东一百里",
+        "description": "昔人曾置关于此因呼为黎子关",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "沧浪山",
+        "type": "山",
+        "location_text": "在横山",
+        "description": "似舟中生仓鬲产古松三株，下有圣水寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "锡义山",
+        "type": "山",
+        "location_text": "在府城一名天心山",
+        "description": "方圆百里形如城四面有门，上有石坛相传列仙所居，山高谷深生薇蘅草有风不偃无风自摇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "狼子山",
+        "type": "山",
+        "location_text": "在府城临汉水",
+        "description": "其旁凿石作六字皆方一尺，可识者玄田中立四字，下有狼子冢为水所坏成小洲",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "古寒山",
+        "type": "山",
+        "location_text": "在府城东南",
+        "description": "战国时楚城此以备秦今名大寒山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "天马山",
+        "type": "山",
+        "location_text": "在府城治南又名天马崖",
+        "description": "旧传崖崩出天马王三字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "宝盖山",
+        "type": "山",
+        "location_text": "在府城西南二里又名西山",
+        "description": "上有石蛤蟆仓卒视之与真无异，山北有崖旁视之一穴甚明号星牖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在房县南三里",
+        "description": "宋陈与义避兵奔此山有诗云避寇连三年行半天四维",
+        "lore": "南山【在房县南三里宋陈与义避兵奔此山有诗云避寇连三年行半天四维但恨平生志轻了少陵诗今年奔房陵铁马背后驰】"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "明月山",
+        "type": "山",
+        "location_text": "在房县西四十里",
+        "description": "下有崖志公修行处，夜望光如明月",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "房山",
+        "type": "山",
+        "location_text": "在房县西南三十里",
+        "description": "四面有石室如房",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "九室山",
+        "type": "山",
+        "location_text": "在房县西四十里",
+        "description": "相传五代时陈抟修炼之处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "景山",
+        "type": "山",
+        "location_text": "在房县西南二百里一名雁山又名马塞山",
+        "description": "山海经云荆山之首曰景山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "阜山",
+        "type": "山",
+        "location_text": "在房县南",
+        "description": "左传文公十六年戎伐楚西南至于阜即此地",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "侧驴山",
+        "type": "山",
+        "location_text": "在房县东二百九十里",
+        "description": "高险上有张果老倒驴迹存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "定山",
+        "type": "山",
+        "location_text": "",
+        "description": "宋吴枋漫录云房陵定山有朱仲子园三十六所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "建鼓山",
+        "type": "山",
+        "location_text": "在房县东南",
+        "description": "袁崧记云登勾将山见马鬣建鼓嶷然半天，元和郡国志建鼓与马鬃山相接冬夏积雪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "鸡鸣山",
+        "type": "山",
+        "location_text": "在房县北一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "黄竹山",
+        "type": "山",
+        "location_text": "在房县北一百里",
+        "description": "山上竹色皆黄",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "石门山",
+        "type": "山",
+        "location_text": "在房县",
+        "description": "宋陈与义诗石门泄风无旦夜古木截道藏雷雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "龙祗山",
+        "type": "山",
+        "location_text": "在竹山县南二里",
+        "description": "旧传道士王若冲于此山服柏叶上升",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "筑山",
+        "type": "山",
+        "location_text": "在竹山县西五里",
+        "description": "筑水所出，汉昭烈屯兵筑口即此水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "礜石山",
+        "type": "山",
+        "location_text": "在竹山县北",
+        "description": "旧云山有礜石其白如雪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "白马山",
+        "type": "山",
+        "location_text": "在竹山县西南三十里",
+        "description": "曹操叹金城千里即此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "庸城山",
+        "type": "山",
+        "location_text": "在竹山县西五里",
+        "description": "庸人昔居于此山上置鼓故又名悬鼓山，与横鞍山相连",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "方城山",
+        "type": "山",
+        "location_text": "在竹山县东四十五里",
+        "description": "山上平坦四面险固，山南有城周十余里，春秋庸地有四方城其一也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "女娲山",
+        "type": "山",
+        "location_text": "在竹山县西与燕子山对",
+        "description": "俗传女娲炼石补天即此，山下有女娲庙",
+        "lore": "宋刘光祖诗女娲山下少人行洞谷声中一鸟鸣"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "圣母山",
+        "type": "山",
+        "location_text": "在竹山县西一百三十里",
+        "description": "世传有圣母仙过此见恶蛇举而掷之，迄今周回四十里无蛇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "仓乐山",
+        "type": "山",
+        "location_text": "在竹山县东北百余里",
+        "description": "昔有邑人徐元周积粟于此救饥乡人德之故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "黄龙山",
+        "type": "山",
+        "location_text": "在上津县东五十里",
+        "description": "山下有洞洞有泉祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "赵湖山",
+        "type": "山",
+        "location_text": "在上津县东五十里平阔",
+        "description": "昔有赵胡二姓耕山下故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "周恭山",
+        "type": "山",
+        "location_text": "在上津县西北二十里",
+        "description": "昔周恭耕此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "十八盘山",
+        "type": "山",
+        "location_text": "在上津县西一百五十里",
+        "description": "高峻盘折十八曲方至其巅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "上庸山",
+        "type": "山",
+        "location_text": "在竹谿县北一十里",
+        "description": "雄峻为一方镇，古以上庸置邑",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "鼓圆山",
+        "type": "山",
+        "location_text": "在竹谿县南六十里",
+        "description": "两山相峙南为南鼓圆北为北鼓圆，下各有洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "鸡笼山",
+        "type": "山",
+        "location_text": "在竹谿县西北六十里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "偏头山",
+        "type": "山",
+        "location_text": "在竹谿县西南二十里",
+        "description": "偏削如拱揖状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "黄山",
+        "type": "山",
+        "location_text": "在郧西县北隅",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "广顺山",
+        "type": "山",
+        "location_text": "在郧西县北五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "槎牙山",
+        "type": "山",
+        "location_text": "在郧西县东十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "牛头山",
+        "type": "山",
+        "location_text": "在郧西县西八十里",
+        "description": "抵陕西金州墨龙寺界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "王家山",
+        "type": "山",
+        "location_text": "在郧西县北七十里",
+        "description": "上有王姓者居之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "万连山",
+        "type": "山",
+        "location_text": "在保康县北三里",
+        "description": "万峰相连叠翠奇胜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "岮峪山",
+        "type": "山",
+        "location_text": "去保康县五十步一名万朝山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "笔架山",
+        "type": "山",
+        "location_text": "在保康县学前",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "司空山",
+        "type": "山",
+        "location_text": "在保康县南八十里",
+        "description": "相传有司空驻此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "画屏峰",
+        "type": "峰",
+        "location_text": "在竹谿县西五里",
+        "description": "绝崖峻岭奇秀如画",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "五星峰",
+        "type": "峰",
+        "location_text": "在竹谿县治前",
+        "description": "叠连五峰若相顾意，时称五星聚奎，邑中文人多视苍岭为联璧之兆",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "界碑岭",
+        "type": "岭",
+        "location_text": "在郧西县西一里",
+        "description": "以南门背峪川分东西而岭居其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "尖岩",
+        "type": "岩",
+        "location_text": "在府城南一百四十里",
+        "description": "峭削屹立千尺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "红岩",
+        "type": "岩",
+        "location_text": "在府城东南二里",
+        "description": "旧名赤壁，龙滚滩侧势高峻色纯赤，日光霞彩朝夕掩映为一郡胜概",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "志公岩",
+        "type": "岩",
+        "location_text": "在房县西四十里",
+        "description": "相传僧志公结庵处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "如来岩",
+        "type": "岩",
+        "location_text": "在上津县东北四十里",
+        "description": "内有佛像",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "武阳洞",
+        "type": "洞",
+        "location_text": "在府城西五十五里",
+        "description": "悬崖深邃窦窍莫测，祷雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "仙人洞",
+        "type": "洞",
+        "location_text": "在上津县西一百一十里",
+        "description": "内有三教神像",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c05",
+        "name": "风洞",
+        "type": "洞",
+        "location_text": "在竹谿县东三十里白岩山之西",
+        "description": "洞口阔二丈其中深广不可测",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "观音洞",
+        "type": "洞",
+        "location_text": "在郧西县北七十里",
+        "description": "内出石浆滴成观音像",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "娘娘洞",
+        "type": "洞",
+        "location_text": "在郧西县西北八十里娘娘山下",
+        "description": "其泉九处出如沸鼎垂如素练声如雷，麓田悉资其灌溉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "九里冈",
+        "type": "冈",
+        "location_text": "在竹山县北七里",
+        "description": "高耸起伏拱揖迤逦县治之来脉也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "摘仙坡",
+        "type": "坡",
+        "location_text": "在府城东一十五里",
+        "description": "最高耸奇绝",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "骡马坡",
+        "type": "坡",
+        "location_text": "在保康县东南六十里",
+        "description": "相传张果老骑驴过此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "龙门河",
+        "type": "河",
+        "location_text": "在府城东六十里源出龙门山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "赵河",
+        "type": "河",
+        "location_text": "在府城北七十里",
+        "description": "西流至府东为盛水堰溉田百亩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "将军河",
+        "type": "河",
+        "location_text": "在府城南一百五十里",
+        "description": "与红石河合流入汉江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "神定河",
+        "type": "河",
+        "location_text": "在府城东南二十里源出竹山县流入汉江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "八渡河",
+        "type": "河",
+        "location_text": "在房县源出滴水崖流入汉江",
+        "description": "傍有八河渡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "北星河",
+        "type": "河",
+        "location_text": "在竹山县北三里",
+        "description": "发源陕西白河县界合水坪防峪观音沟诸水北来入庸水东注",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "箭河",
+        "type": "河",
+        "location_text": "在上津县东南二十里",
+        "description": "相传杨六郎与蛮王敌箭射山崖有孔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "石门河",
+        "type": "河",
+        "location_text": "在郧西县东南一十里",
+        "description": "空洞如门",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "五里河",
+        "type": "河",
+        "location_text": "在郧西县东五里至县前与天河合流入南门防汉水",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "汤峡河",
+        "type": "河",
+        "location_text": "在保康县西三十里",
+        "description": "水温可去疾一名汤羊河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "粉水",
+        "type": "水",
+        "location_text": "源出房山经谷城县南入汉江",
+        "description": "雍州记萧何夫人于此渍粉鲜好异于诸水俗呼粉渍水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "沮水",
+        "type": "水",
+        "location_text": "在房县西南源出景山东流入汉江",
+        "description": "左传江汉沮漳楚之望也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "浸水",
+        "type": "水",
+        "location_text": "在房县西南源出王家山",
+        "description": "可染青碧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "鳌水",
+        "type": "水",
+        "location_text": "在竹山县西一十里又名龟水",
+        "description": "其水多蛇龟，邑人云莫饮鳌谷水水中有蛇龟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "上庸水",
+        "type": "水",
+        "location_text": "在竹山县西源出上庸山南流入孔阳",
+        "description": "中有潭相传投石潭中即雷雨作",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "堵水",
+        "type": "水",
+        "location_text": "在竹山县南源出陕西平利县界下流过县东入汉江",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "孔阳水",
+        "type": "水",
+        "location_text": "在竹山县源出檀溪岭",
+        "description": "水宜洗物除垢磨刀剑亦甚利，后周以此水名县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "吉水",
+        "type": "水",
+        "location_text": "在上津县西源出鹘岭过县西南一百里入汉江",
+        "description": "俗呼夹河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "螃蟹溪",
+        "type": "溪",
+        "location_text": "在保康县东南一百一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "动心潭",
+        "type": "潭",
+        "location_text": "在郧西县西南一里",
+        "description": "其深莫测视之令人心悸",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "圣钟潭",
+        "type": "潭",
+        "location_text": "在郧西县西南天河内",
+        "description": "相传有钟飞入潭内遇风雨则钟自鸣",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "八角琉璃井",
+        "type": "井",
+        "location_text": "在房县西南隅",
+        "description": "上有真武庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "千尺井",
+        "type": "井",
+        "location_text": "宋房州竹山县殷隐容家",
+        "description": "浚井千尺无水，浚者不觉至一国题云梯仙国初得道者送此修炼及还家已三世，后浚者莫知所之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "马喊泉",
+        "type": "泉",
+        "location_text": "在府东北一百四十里",
+        "description": "相传汉光武屯兵处马喊于地忽传声掘之得泉",
+        "lore": "元至正间立有黑龙庙"
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "汤泉",
+        "type": "泉",
+        "location_text": "在房县东",
+        "description": "宋洪迈夷坚志泉中有朱砂",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c06",
+        "name": "一碗泉",
+        "type": "泉",
+        "location_text": "在郧西县北六十里",
+        "description": "有石孔大如碗泉自中涌出寒而清洁",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c07",
+        "name": "苏泉",
+        "type": "泉",
+        "location_text": "在保康后山下",
+        "description": "民取水于河知县苏惠和悯其险远因后山有泉疏导绕流，凡近县者莫不称便遂名之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "小汤池",
+        "type": "池",
+        "location_text": "在房县东十里青崖山下",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c02",
+        "name": "大汤池",
+        "type": "池",
+        "location_text": "在房县东十五里土地岭东山下",
+        "description": "四时常温澄彻愈痼疾疮癣",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c03",
+        "name": "莲花池",
+        "type": "池",
+        "location_text": "在竹山县有二",
+        "description": "一在上庸水西涯一在霍山顶东涯",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c04",
+        "name": "天池",
+        "type": "池",
+        "location_text": "在上津县西南一百二十里",
+        "description": "上有泉并池有二亩许不由人力",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "龙滚滩",
+        "type": "滩",
+        "location_text": "在府城东二里",
+        "description": "相传有龙下滚其声汹涌",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "66-001",
+        "geo_id": "GEO-66001-c01",
+        "name": "沄洲",
+        "type": "洲",
+        "location_text": "在府城东南五里",
+        "description": "以水得名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "66-001",
+        "cited_work": "楚纪",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【楚纪东通襄邓西逼秦蜀南接荆澧北控商洛】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "66-001",
+        "cited_work": "楚纪",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【楚纪溪流湍激崖径险崎故民好战尚鬼犹有麇之风焉】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "66-001",
+        "cited_work": "楚故略",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【楚故略设重臣控制为中原巨镇】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "66-001",
+        "cited_work": "房州谯楼记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【房州谯楼记楚蜀咽喉之冲】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "66-001",
+        "cited_work": "古志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【古志民多秦俗尚楚歌信鬼尚巫务农少学流寓杂处民风未淳】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "66-001",
+        "cited_work": "广舆图",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【广舆图土薄民淳近亦多讼】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "66-001",
+        "cited_work": "皇舆考",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【皇舆考昔多劲悍决烈之习近知礼义廉耻之风】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "66-001",
+        "cited_work": "楚故略",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【楚故略民性朴鲁简啬流寓多而土著少酗逞讙竞之风不可尽摄】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "郧阳府"
+}
