@@ -1,0 +1,201 @@
+[
+  {
+    "rule_id": "RULE-16-001",
+    "item_id": "16-005",
+    "type": "程序",
+    "modals": [
+      "覆"
+    ],
+    "condition": "科场被言",
+    "subject": "士子",
+    "subject_ent_ids": [],
+    "action": "必再试",
+    "object": "覆试",
+    "purpose": "昭公",
+    "punishment": null,
+    "original": "本朝士子被言者，必再试",
+    "confidence": "high",
+    "rule_origin": "惯例",
+    "actual_practice": "遵行",
+    "violation_evidence": null,
+    "time_marker": "成弘以后"
+  },
+  {
+    "rule_id": "RULE-16-002",
+    "item_id": "16-011",
+    "type": "程序",
+    "modals": [
+      "搜"
+    ],
+    "condition": "会试挟书",
+    "subject": "御史",
+    "subject_ent_ids": [],
+    "action": "添设御史二员专司搜检",
+    "object": "挟书者",
+    "purpose": "防弊",
+    "punishment": "先荷校于礼部前一月仍送法司定罪",
+    "original": "至乙丑南宫上微闻挟书之弊始命添设御史二员专司搜检",
+    "confidence": "high",
+    "rule_origin": "新例",
+    "actual_practice": "遵行",
+    "violation_evidence": null,
+    "time_marker": "嘉靖乙丑"
+  },
+  {
+    "rule_id": "RULE-16-003",
+    "item_id": "16-022",
+    "type": "程序",
+    "modals": [
+      "书"
+    ],
+    "condition": "登科录父祖官",
+    "subject": "登科录",
+    "subject_ent_ids": [],
+    "action": "但直书某官不书所官何部分何地方",
+    "object": "父祖爵秩",
+    "purpose": "得体",
+    "punishment": null,
+    "original": "其三世父祖爵秩，但直书某官，如尚书侍郎以至郎官及外寮，并不书所官何部分何地方",
+    "confidence": "high",
+    "rule_origin": "惯例",
+    "actual_practice": "变通",
+    "violation_evidence": "近日始有分析写某地者",
+    "time_marker": "本朝"
+  },
+  {
+    "rule_id": "RULE-16-004",
+    "item_id": "16-029",
+    "type": "程序",
+    "modals": [
+      "许"
+    ],
+    "condition": "宗室应试",
+    "subject": "奉国中尉以下",
+    "subject_ent_ids": [],
+    "action": "尽同民生赴考入学",
+    "object": "科举",
+    "purpose": "向学",
+    "punishment": null,
+    "original": "今奉国中尉以下，尽同民生赴考入学",
+    "confidence": "high",
+    "rule_origin": "新例",
+    "actual_practice": "遵行",
+    "violation_evidence": null,
+    "time_marker": "万历二十二年"
+  },
+  {
+    "rule_id": "RULE-16-005",
+    "item_id": "16-036",
+    "type": "程序",
+    "modals": [
+      "观"
+    ],
+    "condition": "新科进士观政",
+    "subject": "新科进士",
+    "subject_ent_ids": [],
+    "action": "分观政衙门其礼大不同",
+    "object": "观政",
+    "purpose": "实习",
+    "punishment": null,
+    "original": "新科进士，分观政衙门，本同时共事，而其礼则大不同",
+    "confidence": "high",
+    "rule_origin": "惯例",
+    "actual_practice": "遵行",
+    "violation_evidence": null,
+    "time_marker": "本朝"
+  },
+  {
+    "rule_id": "RULE-16-006",
+    "item_id": "16-010",
+    "type": "禁止",
+    "modals": [
+      "不"
+    ],
+    "condition": "冒籍中式",
+    "subject": "士子",
+    "subject_ent_ids": [
+      "ENT-4604",
+      "ENT-4603"
+    ],
+    "action": "事发斥归原籍",
+    "object": null,
+    "purpose": "肃家法",
+    "punishment": "斥归",
+    "original": "先以冒籍举顺天经魁，事发斥归",
+    "confidence": "high",
+    "rule_origin": "惯例",
+    "actual_practice": "变通",
+    "violation_evidence": "陶大顺黄寿生等多再冒籍复试得中",
+    "time_marker": "建文至嘉靖"
+  },
+  {
+    "rule_id": "RULE-16-007",
+    "item_id": "16-021",
+    "type": "处罚",
+    "modals": [
+      "必"
+    ],
+    "condition": "中式士子冒籍割卷怀挟倩笔败露",
+    "subject": "士子",
+    "subject_ent_ids": [
+      "ENT-4611",
+      "ENT-4612"
+    ],
+    "action": "斥革问罪荷校",
+    "object": "中式姓名",
+    "purpose": "饬场规",
+    "punishment": "枷号顺天府或礼部门",
+    "original": "士人已登名籍，仍斥革，且问罪荷校者",
+    "confidence": "high",
+    "rule_origin": "惯例",
+    "actual_practice": "遵行",
+    "violation_evidence": null,
+    "time_marker": "嘉隆万间"
+  },
+  {
+    "rule_id": "RULE-16-008",
+    "item_id": "16-024",
+    "type": "禁止",
+    "modals": [
+      "不得"
+    ],
+    "condition": "先因冒籍已经参论问革之人",
+    "subject": "举子",
+    "subject_ent_ids": [
+      "ENT-4617"
+    ],
+    "action": "不得复冒他籍中式",
+    "object": "他籍",
+    "purpose": "杜倖门",
+    "punishment": "查明问斥如前",
+    "original": "先是乙酉科，以余姚县生员，冒顺天通州籍，名胡正道中式，已经参论问革，今安得复冒徽州",
+    "confidence": "high",
+    "rule_origin": "惯例",
+    "actual_practice": "遵行",
+    "violation_evidence": "王国昌乙酉冒通州籍既革，戊子复冒徽州中式",
+    "time_marker": "嘉靖至万历"
+  },
+  {
+    "rule_id": "RULE-16-009",
+    "item_id": "16-028",
+    "type": "程序",
+    "modals": [
+      "覆"
+    ],
+    "condition": "举人场屋被言及大臣子弟中式无议者",
+    "subject": "举人",
+    "subject_ent_ids": [
+      "ENT-4628"
+    ],
+    "action": "奉旨覆试去留取决于上",
+    "object": "覆试",
+    "purpose": "昭公",
+    "punishment": "规避不试者论黜",
+    "original": "此诸举人奉旨再覆试，皆存留如故",
+    "confidence": "high",
+    "rule_origin": "奏议定",
+    "actual_practice": "变通",
+    "violation_evidence": "屠大壮以奔丧规避论黜",
+    "time_marker": "万历"
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "rel_id": "REL-23-001",
+    "item_id": "23-001",
+    "source": "ENT-2201",
+    "source_text": "素与唐善，以唐意轻之，每怀报复……因而中之",
+    "target": "ENT-2200",
+    "target_text": "唐伯虎",
+    "relation": "personal_feud",
+    "detail": "都穆素与唐寅善，以唐意轻之，每怀报复，会程敏政预泄场题事，因而中之，唐科场案实发于都穆。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-002",
+    "item_id": "23-002",
+    "source": "ENT-2203",
+    "source_text": "徐初以草《白鹿表》，受知于胡襄愍梅林",
+    "target": "ENT-2205",
+    "target_text": "胡襄愍梅林（胡宗宪）",
+    "relation": "patron_client",
+    "detail": "徐渭初以草《白鹿表》受知于胡宗宪，戊午浙闱胡嘱按君急收之。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-003",
+    "item_id": "23-002",
+    "source": "ENT-2203",
+    "source_text": "盖生平知己，毫不以亲疏分厚薄也",
+    "target": "ENT-2204",
+    "target_text": "张阳和太史（张元汴）",
+    "relation": "close_friend",
+    "detail": "徐渭馆于张元汴家，为生平知己；后徐杀妻论死系狱，赖张元汴及诸卿僇力得出；张殁后徐虽癃老犹扶服哭奠。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-004",
+    "item_id": "23-004",
+    "source": "ENT-2210",
+    "source_text": "胡与首揆赵兰鸡密戚深交，面许必得",
+    "target": "ENT-2213",
+    "target_text": "首揆赵兰鸡（赵志皋）",
+    "relation": "deep_bond",
+    "detail": "胡应麟与首揆赵志皋密戚深交，中书官之试面许必得。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-005",
+    "item_id": "23-004",
+    "source": "ENT-2211",
+    "source_text": "赵拔刃刺之，几为所中，逾墙得免",
+    "target": "ENT-2210",
+    "target_text": "胡元瑞（胡应麟）",
+    "relation": "attempted_killing",
+    "detail": "酒间胡戏呼赵为家丁，赵拔刃刺之，胡逾墙得免。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-006",
+    "item_id": "23-004",
+    "source": "ENT-2212",
+    "source_text": "张盖纳赂于首揆纪纲祝六者，先为道地矣",
+    "target": "ENT-2213",
+    "target_text": "首揆赵兰鸡（赵志皋）",
+    "relation": "bribery",
+    "detail": "张萱纳赂于首揆纪纲祝六，先为道地，遂得中书官。",
+    "confidence": "medium"
+  },
+  {
+    "rel_id": "REL-23-007",
+    "item_id": "23-013",
+    "source": "ENT-2221",
+    "source_text": "其妻左氏曰……遂与母及其三女俱自经",
+    "target": "ENT-2222",
+    "target_text": "左氏",
+    "relation": "spouse",
+    "detail": "镇静堡被围急，妻左氏与母及三女自经殉节，忠感愤拒守愈坚，城赖以全。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-008",
+    "item_id": "23-013",
+    "source": "ENT-2223",
+    "source_text": "萧妻杨氏……身率健妇乘城，命如薰出战",
+    "target": "ENT-2224",
+    "target_text": "杨氏",
+    "relation": "spouse",
+    "detail": "平虏城被围，妻杨氏尽出资斧簪珥犒士，身率健妇乘城，助夫坚守退贼。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-009",
+    "item_id": "23-014",
+    "source": "ENT-2226",
+    "source_text": "密以印畀妾窦氏匿之",
+    "target": "ENT-2225",
+    "target_text": "妾窦氏",
+    "relation": "concubine_trust",
+    "detail": "瑞州将破，通判姜荣密以官印畀妾窦氏匿之，印赖以全。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-010",
+    "item_id": "23-015",
+    "source": "ENT-2229",
+    "source_text": "其太夫人亲见子削夺，家之籍没……真所谓以寿为戚也",
+    "target": "ENT-2237",
+    "target_text": "赵太夫人",
+    "relation": "mother_son",
+    "detail": "张居正之母赵太夫人亲见子削夺、家籍没、子孙罹桎梏，以寿为戚。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-011",
+    "item_id": "23-020",
+    "source": "ENT-2241",
+    "source_text": "其仲女昙阳子者得道化去",
+    "target": "ENT-2242",
+    "target_text": "昙阳子",
+    "relation": "father_daughter",
+    "detail": "昙阳子者，王锡爵仲女也，得道化去，豫示化期，送者倾东南。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-012",
+    "item_id": "23-020",
+    "source": "ENT-2214",
+    "source_text": "皆顶礼称弟子",
+    "target": "ENT-2242",
+    "target_text": "昙阳子",
+    "relation": "religious_disciple",
+    "detail": "名士如弇州兄弟、沈懋学、屠隆、冯梦祯辈数百人皆顶礼称弟子；昙阳化去后弇州与相公俱入道，退居昙阳观中。",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-23-013",
+    "item_id": "23-025",
+    "source": "ENT-4841",
+    "source_text": "赖吾乡丁敬宇中丞苦口传语，始容买妾",
+    "target": "ENT-4842",
+    "target_text": "吾乡丁敬宇中丞",
+    "relation": "close_friend",
+    "detail": "李廷机垂老无子赖丁敬宇苦口传语容买妾得子，为至交助力",
+    "confidence": "medium"
+  }
+]

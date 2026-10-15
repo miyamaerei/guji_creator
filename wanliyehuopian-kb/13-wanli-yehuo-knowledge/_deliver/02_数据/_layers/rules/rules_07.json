@@ -1,0 +1,154 @@
+{
+  "records": [
+    {
+      "rule_id": "RULE-07-001",
+      "item_id": "07-001",
+      "type": "程序",
+      "modals": [
+        "以"
+      ],
+      "condition": "大臣入阁预机务",
+      "subject": "天子",
+      "subject_ent_ids": [],
+      "action": "称殿阁大学士",
+      "object": null,
+      "purpose": "备顾问",
+      "punishment": null,
+      "original": "本朝以大臣入阁预机务，此平章事之遗。而冲称殿阁大学士，则宋昭文右相，集贤左右之遗也",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "洪武以来"
+    },
+    {
+      "rule_id": "RULE-07-002",
+      "item_id": "07-026",
+      "type": "禁止",
+      "modals": [
+        "犯"
+      ],
+      "condition": "内阁辅臣",
+      "subject": "辅臣",
+      "subject_ent_ids": [],
+      "action": "不得兼领铨选",
+      "object": null,
+      "purpose": null,
+      "punishment": "犯高皇帝万禁",
+      "original": "若兼领铨选，则为真宰相，犯高皇帝万禁矣",
+      "confidence": "high",
+      "rule_origin": "祖制",
+      "actual_practice": "变通",
+      "violation_evidence": "正德间焦泌阳始兼领；嘉靖间张永嘉、方南海、吕余姚；隆庆间高新郑以故官起掌吏部",
+      "time_marker": "洪武定制"
+    },
+    {
+      "rule_id": "RULE-07-003",
+      "item_id": "07-029",
+      "type": "允许",
+      "modals": [
+        "独"
+      ],
+      "condition": "内阁",
+      "subject": "阁臣",
+      "subject_ent_ids": [],
+      "action": "进密揭",
+      "object": null,
+      "purpose": "转移圣意",
+      "punishment": null,
+      "original": "惟内阁独得进密揭，盖心膂近臣，非百司得比",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "洪武以来"
+    },
+    {
+      "rule_id": "RULE-07-004",
+      "item_id": "07-032",
+      "type": "禁止",
+      "modals": [
+        "不"
+      ],
+      "condition": "内阁辅臣",
+      "subject": "辅臣",
+      "subject_ent_ids": [],
+      "action": "不他领",
+      "object": null,
+      "purpose": "得体",
+      "punishment": null,
+      "original": "除知经筵书史总裁，更不他领，最为得体",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "变通",
+      "violation_evidence": "嘉靖初张永嘉屡领南北郊工程；李任邱夏贵溪审刑部囚；高新郑踵行之",
+      "time_marker": "洪武以来"
+    },
+    {
+      "rule_id": "RULE-07-005",
+      "item_id": "07-014",
+      "type": "程序",
+      "modals": [
+        "每",
+        "考"
+      ],
+      "condition": "每科进士除授",
+      "subject": "朝廷",
+      "subject_ent_ids": [],
+      "action": "考选庶吉士入馆教习",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "且议定每科，考选吉士，将来步武纶扉，正不可屈指矣",
+      "confidence": "high",
+      "rule_origin": "奏议定",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "万历间"
+    },
+    {
+      "rule_id": "RULE-07-006",
+      "item_id": "07-015",
+      "type": "程序",
+      "modals": [
+        "薄",
+        "节"
+      ],
+      "condition": "臣下赐赉",
+      "subject": "朝廷",
+      "subject_ent_ids": [],
+      "action": "赐赉视前代为最薄且最有节",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "本朝臣下赐赍，视前代为最薄，且最为有节",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "变通",
+      "violation_evidence": "江陵赐银至千两，大婚加禄进秩荫子，元子生诸臣进官荫子",
+      "time_marker": "嘉靖万历间"
+    },
+    {
+      "rule_id": "RULE-07-007",
+      "item_id": "07-027",
+      "type": "程序",
+      "modals": [
+        "创议",
+        "革"
+      ],
+      "condition": "外戚侯伯",
+      "subject": "吏部",
+      "subject_ent_ids": [],
+      "action": "革外戚世袭侯伯",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "方长吏部时，创议革外戚世袭侯伯",
+      "confidence": "high",
+      "rule_origin": "奏议定",
+      "actual_practice": "未明",
+      "violation_evidence": null,
+      "time_marker": "嘉靖间"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "rel_id": "REL-18-001",
+    "item_id": "18-008",
+    "source": "ENT-1710",
+    "source_text": "杨文贞（士奇）之子稷",
+    "target": "ENT-1709",
+    "target_text": "杨士奇",
+    "relation": "parent_child",
+    "detail": "杨稷为杨士奇之子",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-002",
+    "item_id": "18-008",
+    "source": "ENT-1712",
+    "source_text": "杨文敏（荣）之子恭",
+    "target": "ENT-1711",
+    "target_text": "杨荣",
+    "relation": "parent_child",
+    "detail": "杨恭为杨荣之子",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-003",
+    "item_id": "18-008",
+    "source": "ENT-1713",
+    "source_text": "其孙泰为建宁卫指挥",
+    "target": "ENT-1712",
+    "target_text": "杨恭",
+    "relation": "parent_child",
+    "detail": "杨泰为杨恭之子",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-004",
+    "item_id": "18-008",
+    "source": "ENT-1717",
+    "source_text": "杨文定之孙尚宝丞寿",
+    "target": "ENT-1716",
+    "target_text": "杨溥",
+    "relation": "grandparent",
+    "detail": "杨寿为杨溥之孙",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-005",
+    "item_id": "18-012",
+    "source": "ENT-1728",
+    "source_text": "舜宾临命，与子竞书言其故",
+    "target": "ENT-1726",
+    "target_text": "何舜宾",
+    "relation": "parent_child",
+    "detail": "何竞为何舜宾之子",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-006",
+    "item_id": "18-013",
+    "source": "ENT-1731",
+    "source_text": "梁文康（储）之子次摅",
+    "target": "ENT-1730",
+    "target_text": "梁储",
+    "relation": "parent_child",
+    "detail": "梁次摅为梁储之子",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-007",
+    "item_id": "18-017",
+    "source": "ENT-1743",
+    "source_text": "素为昌国公张鹤龄、建昌侯张延龄门客",
+    "target": "ENT-1744",
+    "target_text": "张鹤龄",
+    "relation": "retainer",
+    "detail": "刘东山为张鹤龄门客",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-008",
+    "item_id": "18-017",
+    "source": "ENT-1743",
+    "source_text": "素为昌国公张鹤龄、建昌侯张延龄门客",
+    "target": "ENT-1745",
+    "target_text": "张延龄",
+    "relation": "retainer",
+    "detail": "刘东山为张延龄门客",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-009",
+    "item_id": "18-020",
+    "source": "ENT-1748",
+    "source_text": "福达亡命携二子投钺，钺爱其才武，改姓名张寅",
+    "target": "ENT-1747",
+    "target_text": "李福达",
+    "relation": "same_person",
+    "detail": "张寅即李福达，亡命后改名",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-010",
+    "item_id": "18-020",
+    "source": "ENT-1749",
+    "source_text": "大礼年少美姿容，嬖于武定侯郭勋",
+    "target": "ENT-1748",
+    "target_text": "张寅",
+    "relation": "patron",
+    "detail": "郭勋嬖张寅（李福达）子大礼",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-011",
+    "item_id": "18-019",
+    "source": "ENT-1750",
+    "source_text": "俱议礼新贵人也",
+    "target": "ENT-1751",
+    "target_text": "桂萼",
+    "relation": "political_alliance",
+    "detail": "张璁与桂萼同为议礼新贵，比周为党",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-012",
+    "item_id": "18-022",
+    "source": "ENT-1763",
+    "source_text": "辅臣夏言、督臣曾铣，以交结近侍官员，紊乱朝政律，本人处斩",
+    "target": "ENT-1764",
+    "target_text": "曾铣",
+    "relation": "co_punished",
+    "detail": "夏言与曾铣同以交结近侍律被斩",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-013",
+    "item_id": "18-028",
+    "source": "ENT-1775",
+    "source_text": "言路憸人，借以媚首揆，遂疑江夏为之",
+    "target": "ENT-1774",
+    "target_text": "张位",
+    "relation": "political_support",
+    "detail": "赵之翰借妖书案媚首揆，陷张位",
+    "confidence": "medium"
+  },
+  {
+    "rel_id": "REL-18-014",
+    "item_id": "18-039",
+    "source": "ENT-1795",
+    "source_text": "延丹徒名士陈肖者课以举业",
+    "target": "ENT-1794",
+    "target_text": "宗名世",
+    "relation": "teacher_student",
+    "detail": "陈肖为宗名世孙之塾师",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-015",
+    "item_id": "18-037",
+    "source": "ENT-1793",
+    "source_text": "留其仆王守真等三人于衙斋",
+    "target": "ENT-1792",
+    "target_text": "王仰",
+    "relation": "servant",
+    "detail": "王守真为王仰之仆",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-016",
+    "item_id": "18-024",
+    "source": "ENT-4738",
+    "source_text": "以军功拜锦衣千户，时时进密计，钦爱之",
+    "target": "ENT-4737",
+    "target_text": "昭武伯曹钦",
+    "relation": "上下级",
+    "detail": "冯益为曹钦幕进密计受爱",
+    "confidence": "high"
+  },
+  {
+    "rel_id": "REL-18-017",
+    "item_id": "18-029",
+    "source": "ENT-4747",
+    "source_text": "有一刑部郎曾讯此案者",
+    "target": "ENT-4746",
+    "target_text": "郑宫庶方水（以伟）",
+    "relation": "同僚",
+    "detail": "部郎遇郑以伟语及往事以议论相左为苦",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,318 @@
+{
+  "records": [
+    {
+      "rule_id": "RULE-03-001",
+      "item_id": "03-001",
+      "type": "禁止",
+      "modals": [
+        "不可使"
+      ],
+      "condition": "后妃",
+      "subject": "后妃",
+      "subject_ent_ids": [],
+      "action": "预政事",
+      "object": null,
+      "purpose": "防祸乱",
+      "punishment": null,
+      "original": "后妃虽母仪天下，然不可使预政事",
+      "confidence": "high",
+      "rule_origin": "祖制",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "洪武元年定制"
+    },
+    {
+      "rule_id": "RULE-03-002",
+      "item_id": "03-005",
+      "type": "程序",
+      "modals": [
+        "尊称至"
+      ],
+      "condition": "内廷嫔御",
+      "subject": "嫔御",
+      "subject_ent_ids": [],
+      "action": "尊称至贵妃而极",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "内廷嫔御，尊称至贵妃而极",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "本朝定制"
+    },
+    {
+      "rule_id": "RULE-03-003",
+      "item_id": "03-024",
+      "type": "程序",
+      "modals": [
+        "例用"
+      ],
+      "condition": "历朝皇后谥号",
+      "subject": "礼部",
+      "subject_ent_ids": [],
+      "action": "谥号例用十二字含天圣二字",
+      "object": "皇后谥号",
+      "purpose": "存伉俪之体",
+      "punishment": null,
+      "original": "历朝皇后谥号，例用十二字，谥中必有天圣二字",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "变通",
+      "violation_evidence": "世宗追谥章圣太后改例",
+      "time_marker": "本朝定制"
+    },
+    {
+      "rule_id": "RULE-03-004",
+      "item_id": "03-043",
+      "type": "禁止",
+      "modals": [
+        "从无"
+      ],
+      "condition": "没官子女",
+      "subject": "法司",
+      "subject_ent_ids": [],
+      "action": "例发功臣为奴无从与文臣",
+      "object": "没官子女",
+      "purpose": null,
+      "punishment": null,
+      "original": "凡没官子女，例发功臣为奴，从无与文臣者",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "完全违背",
+      "violation_evidence": "正德间焦芳得钦赐岑浚妾",
+      "time_marker": "洪武定制"
+    },
+    {
+      "rule_id": "RULE-03-005",
+      "item_id": "03-007",
+      "type": "禁止",
+      "modals": [
+        "不许"
+      ],
+      "condition": "高丽贡使入境",
+      "subject": "高丽使者",
+      "subject_ent_ids": [
+        "ENT-5034"
+      ],
+      "action": "入境者皆止于边，不许入见，虽有贡赋亦不许入献",
+      "object": null,
+      "purpose": "严防女戎",
+      "punishment": null,
+      "original": "仍命边将：“自今入境者，皆止于边，不许入见，虽有贡赋亦不许入献。”",
+      "confidence": "high",
+      "rule_origin": "诏令",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "洪武十三年"
+    },
+    {
+      "rule_id": "RULE-03-006",
+      "item_id": "03-011",
+      "type": "程序",
+      "modals": [
+        "必加"
+      ],
+      "condition": "承恩殁没",
+      "subject": "朝廷",
+      "subject_ent_ids": [],
+      "action": "承恩殁没者必加封内爵，以是外廷得闻",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "然承恩殁没者，必加封内爵，以是外廷得闻",
+      "confidence": "high",
+      "rule_origin": "惯例",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "历朝"
+    },
+    {
+      "rule_id": "RULE-03-007",
+      "item_id": "03-023",
+      "type": "程序",
+      "modals": [
+        "令",
+        "选"
+      ],
+      "condition": "官女学之设",
+      "subject": "两京布政司府州县",
+      "subject_ent_ids": [
+        "ENT-5049"
+      ],
+      "action": "各修官女学，设庙奉先代女师之神，选行义父老掌其事，每年十月开学十二月止",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "又令两京布政司府州县各修官女学，设庙奉先代女师之神；傍有廊，为习女工之所；中一堂，为听教之堂。选行义父老掌其事，每年十月开学，十二月止",
+      "confidence": "high",
+      "rule_origin": "奏议定",
+      "actual_practice": "未明",
+      "violation_evidence": null,
+      "time_marker": "嘉靖中"
+    },
+    {
+      "rule_id": "RULE-03-008",
+      "item_id": "03-023",
+      "type": "程序",
+      "modals": [
+        "欲选"
+      ],
+      "condition": "女七岁以上入学",
+      "subject": "有家法之人",
+      "subject_ent_ids": [
+        "ENT-5049"
+      ],
+      "action": "选大家有家法之人为媒氏，女七岁以上入学习《女训》者书其年月名籍令之收掌，国有大嘉礼按籍而取之",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "又欲选大家有家法之人为媒氏，凡女七岁以上入学习《女训》者，书其年月名籍，令之收掌。国有大嘉礼，按籍而取之",
+      "confidence": "high",
+      "rule_origin": "奏议定",
+      "actual_practice": "未明",
+      "violation_evidence": null,
+      "time_marker": "嘉靖中"
+    },
+    {
+      "rule_id": "RULE-03-009",
+      "item_id": "03-026",
+      "type": "禁止",
+      "modals": [
+        "惟一帝一后"
+      ],
+      "condition": "帝后祔庙",
+      "subject": "朝廷",
+      "subject_ent_ids": [
+        "ENT-5055"
+      ],
+      "action": "祖宗以来惟一帝一后，不得并祔",
+      "object": null,
+      "purpose": "嫡庶昭然不敢逾尺寸",
+      "punishment": null,
+      "original": "祖宗以来，惟一帝一后。今若并祔，乃从朕坏起。况孝穆为朕生母，尚祀于奉慈殿",
+      "confidence": "high",
+      "rule_origin": "祖制",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "弘治以来"
+    },
+    {
+      "rule_id": "RULE-03-010",
+      "item_id": "03-029",
+      "type": "禁止",
+      "modals": [
+        "无服",
+        "服绝"
+      ],
+      "condition": "皇兄后之丧",
+      "subject": "世宗",
+      "subject_ent_ids": [
+        "ENT-5063"
+      ],
+      "action": "于皇兄后无服制，服制既绝不举哀，臣下亦不奉慰",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "朕于皇兄后无服制，又迫圣母寿诞，朕当青服视事",
+      "confidence": "high",
+      "rule_origin": "祖制",
+      "actual_practice": "变通",
+      "violation_evidence": null,
+      "time_marker": "嘉靖十四年"
+    },
+    {
+      "rule_id": "RULE-03-011",
+      "item_id": "03-034",
+      "type": "程序",
+      "modals": [
+        "并进"
+      ],
+      "condition": "两宫尊号",
+      "subject": "江陵与礼臣",
+      "subject_ent_ids": [
+        "ENT-5078"
+      ],
+      "action": "两宫并进为皇太后，嫡母加仁圣、生母加慈圣，各二字徽号",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "于是江陵与礼臣议两宫并进为皇太后，而于嫡母陈加仁圣，生母李加慈圣，各二字徽号而体貌俱无少别矣",
+      "confidence": "high",
+      "rule_origin": "诏令",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "隆庆六年"
+    },
+    {
+      "rule_id": "RULE-03-012",
+      "item_id": "03-034",
+      "type": "禁止",
+      "modals": [
+        "不得封",
+        "不得丁忧"
+      ],
+      "condition": "臣下嫡母在堂",
+      "subject": "臣下",
+      "subject_ent_ids": [],
+      "action": "嫡母在堂者生母不得封，即生母殁亦不得丁忧，其自爱者不过给假治丧",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "历朝以来，臣下嫡母在堂者，生母不得封；即生母殁，亦不得丁忧，其自爱者不过给假治丧",
+      "confidence": "high",
+      "rule_origin": "祖制",
+      "actual_practice": "名存实亡",
+      "violation_evidence": "今三母并封。登之令甲，而所生即媵婢，亦得尽三年之哀",
+      "time_marker": "历朝"
+    },
+    {
+      "rule_id": "RULE-03-013",
+      "item_id": "03-037",
+      "type": "优先级",
+      "modals": [
+        "邻于"
+      ],
+      "condition": "皇贵妃之体",
+      "subject": "朝廷",
+      "subject_ent_ids": [
+        "ENT-5092"
+      ],
+      "action": "皇贵妃之体邻于正嫡，禁中大庆中宫奉侍仁圣而翼坤奉侍慈圣，得并讲姑媳之体",
+      "object": null,
+      "purpose": null,
+      "punishment": null,
+      "original": "皇贵妃之体，邻于正嫡，凡禁中大庆，奉请两宫，则中宫奉侍仁圣，而翼坤奉侍慈圣，得并讲姑媳之体，他贵嫔皆退避不敢望见",
+      "confidence": "high",
+      "rule_origin": "祖制",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "万历间"
+    },
+    {
+      "rule_id": "RULE-03-014",
+      "item_id": "03-041",
+      "type": "义务",
+      "modals": [
+        "宜加",
+        "命"
+      ],
+      "condition": "王妃守节自尽",
+      "subject": "朝廷",
+      "subject_ent_ids": [
+        "ENT-5098"
+      ],
+      "action": "贞烈可嘉宜加褒恤以风示天下，礼部从厚议恤",
+      "object": null,
+      "purpose": "风示天下",
+      "punishment": null,
+      "original": "上曰：妃贞烈可嘉，宜加褒恤，以风示天下，命礼部从厚议恤来言",
+      "confidence": "high",
+      "rule_origin": "诏令",
+      "actual_practice": "遵行",
+      "violation_evidence": null,
+      "time_marker": "万历壬辰"
+    }
+  ]
+}
