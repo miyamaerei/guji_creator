@@ -70,22 +70,48 @@ WEI_SUFFIXES = ["卫", "所"]
 # 含「司/站/寨/地面」的次级锚点（都司行 / 羁縻数量行用）
 EXT_SUFFIXES = ["司", "站", "寨", "地面"]
 
+# 后定段新增切段锚点（实测 L148-183 土司行以「长官司/宣慰使司/招讨使司/万户府/安抚司」
+# 结尾、L231 驿站行以「站」结尾）；旧段无此类行，加锚不改变旧段词尾计数（回归安全）。
+TUSI_SUFFIXES = ["长官司", "宣慰使司", "宣尉使司", "招讨使司", "招讨司", "万户府", "安抚司",
+                 "仪卫司", "群牧所"]
+
 # 全部词尾锚点（用于括注锚点 + 词典贪心后的覆盖统计）
+# 单字锚在前、多字锚按长度降序，供逐字切段器优先匹配长锚（地面/万户府…）。
+ALL_ANCHORS = sorted(
+    ["卫", "所", "司", "站", "寨", "地面"] + TUSI_SUFFIXES,
+    key=len, reverse=True)
+
+# 词尾后缀集合（括注锚点/词尾计数用；单字+双字；司 已覆盖 长官司/宣慰使司 尾字）
 ALL_SUFFIXES = ["卫", "所", "司", "站", "寨", "地面"]
 
 # 括注匹配（半角/全角括号均可；紧贴前卫名）
 BRACKET_RE = re.compile(r"[（(]([^（()）]{0,80})[）)]")
 
 # 数量行锚点（实测：卫三百八十四/所二十四/站七/地面七/寨一）
+# 后定编成羁縻段（L226-250）数量标签用**汉字数目**（卫三百八十四/都指挥使司二），
+# 旧段仅 `\d+` 不命中致整行悬空（坑 #55 覆盖面）。
+_CN_NUM = "[一二三四五六七八九十百千零〾]+"
 COUNT_ROW_RE = re.compile(
-    r"^(?:卫|所|站|地面|寨|都指挥使司|指挥使司|宣尉使司|招讨司|万户府|千户所)\d+"
+    r"^[◎○]?(?:卫|所|站|地面|寨|都指挥使司|指挥使司|宣尉使司|宣慰使司|招讨司|万户府|千户所)"
+    r"(?:\d+|%s)$" % _CN_NUM
 )
+
+# 羁縻段块标题（实测 `◎都司一(奴儿干都司)`——编号都司不在 DU_SI_NAMES 表内）
+JI_MI_BLOCK_RE = re.compile(r"^[◎○]都司[一二三四五六七八九十](?=[（(])")
+
+# 张本式**块领起句**（实测后定段 L122「亲军上二十二卫，旧制止十二卫…」、
+# L224「羁縻卫所，洪武、永乐间边外归附者…」、L236「西北诸部，在明初服属…」、
+# L239「西番即古吐番。洪武初…」）：行首即块名，随后是说明句。
+# 原规则一律判 zhangben 挂起，导致整段无容器（奴儿干 384 卫混挂后军都督府——
+# SKILL.md §16-8 三子树混挂事故）。改判 block_title，说明句入块 notes。
+BLOCK_LEAD_RE = re.compile(r"^(亲军上二十二卫|羁縻卫所|西北诸部|西番)(?=[，。即])")
 
 # 张本/总起句锚点（不进树）
 ZHANGBEN_STARTS = ("初，", "初置", "后定天下", "羁縻卫所", "西北诸部", "西番即古吐番")
 
-# 府层级行锚点（实测：`◎五军都督府所属卫所` 与 `◎左军都督府` 均为层级标题）
-FU_TITLE_RE = re.compile(r"^[◎○△]*(?:[左右中前后]军都督府|五军都督府所属卫所)")
+# 府层级行锚点（实测：`◎五军都督府所属卫所` 与 `◎左军都督府` 均为层级标题；
+# 后定段南京侧用短标 `◎五军都督府属` L213）
+FU_TITLE_RE = re.compile(r"^[◎○△]*(?:[左右中前后]军都督府|五军都督府所属卫所|五军都督府属)")
 
 # 在京块锚点（○ 不保证必现，锚定行首文字）
 ZAI_JING_RE = re.compile(r"^[○]?在京")
@@ -125,8 +151,13 @@ DU_SI_NAMES = (
 _DU_SI_NAMES_SORTED = sorted(DU_SI_NAMES, key=len, reverse=True)
 
 # 块标题行（无标记裸行，均不保证前缀符号）：上N卫 / 在外 / 土官 / 北平三护卫 / 山西三护卫
+# / 亲军上二十二卫（后定段 L122 说明段领起，实测其卫列 L123 裸行跟下）
+# / 南京卫所亲军卫（L211 南京子树总标题）/ 都司N(括注)（L225 羁縻编号都司）
+# 括注尾随必须允许（L225「◎都司一(奴儿干都司)」原被误判 other → 整段无容器）
 BLOCK_TITLE_RE = re.compile(
-    r"^(?:上[一二三四五六七八九十]+卫|在外|土官|北平三护卫|山西三护卫)$"
+    r"^(?:上[一二三四五六七八九十]+卫|在外|土官|北平三护卫|山西三护卫|亲军上二十二卫"
+    r"|南京卫所亲军卫|都司[一二三四五六七八九十]+)"
+    r"(?:[（(][^（）()]{0,60}[）)])?$"
 )
 
 # 已上 区块注
@@ -179,7 +210,9 @@ def _head_block_name(s: str, kind: str) -> tuple:
         m = re.match(r"^(在京)(?:[（(]([^（）()]{0,80})[）)])?(.*)$", t)
     elif kind == "block_title":
         m = re.match(
-            r"^(上[一二三四五六七八九十]+卫|在外|土官|北平三护卫|山西三护卫)"
+            r"^(上[一二三四五六七八九十]+卫|亲军上二十二卫|羁縻卫所|西北诸部|西番"
+            r"|南京卫所亲军卫|都司[一二三四五六七八九十]"
+            r"|在外|土官|北平三护卫|山西三护卫)"
             r"(?:[（(]([^（）()]{0,80})[）)])?(.*)$",
             t,
         )
@@ -219,6 +252,8 @@ def classify_line(line: str, line_no: int) -> dict:
     kind = "other"
     if not s:
         kind = "other"
+    elif BLOCK_LEAD_RE.match(s):
+        kind = "block_title"  # 张本式块领起句（行首即块名）——容器必须建，否则整段悬空
     elif any(s.startswith(p) for p in ZHANGBEN_STARTS):
         kind = "zhangben"
     elif FU_TITLE_RE.match(s):
@@ -229,16 +264,43 @@ def classify_line(line: str, line_no: int) -> dict:
         kind = "zai_jing"
     elif any(s.lstrip("◎○△").startswith(n) for n in _DU_SI_NAMES_SORTED):
         kind = "du_si"  # 前缀符号不保证必现（L62 辽东都司无△、L110 △北平都司带△），先剥再判
-    elif BLOCK_TITLE_RE.match(s):
+    elif BLOCK_TITLE_RE.match(re.sub(r"^[◎○△]", "", s)):
         kind = "block_title"  # 实测 L52「上十二卫」/ L59、L69「在外」/ L117、L119「三护卫」/ L147「土官」
+        # ◎/○ 前缀必须先剥（后定段 L211「◎南京卫所亲军卫」、L225「◎都司一(奴儿干都司)」
+        # 原漏剥 → 判 other/卫列 → 南京子树与羁縻子树**无容器**，整段混挂他处）
     else:
-        # 句读检查必须**剥离括注**后再看：`卫(后改名武定，属后府)` 这类
-        # 括注内句读不是行级说明段标记（实测 L65/L71/L75 卫列行因此被误判）。
+        # 句读检查必须**剥离括注**后再看（`卫(后改名武定，属后府)` 括注内句读不是
+        # 行级说明段标记，实测 L65/L71/L75）。后定段实测**新缺陷**（坑 #55 同类）：
+        # ① 无括号夹注（L142「岷州卫旧军民指挥使司，嘉靖二十四年添设…」）；
+        # ② 坏括注缺左括号（L160「贵州前卫旧无，后设)」）——原规则整行判 other，
+        #    实为**锚点密集卫列行**（卫/所/司/站尾缀 ≥3）。改判据：剥括注后数锚，
+        #    多锚行归 wei_col（内嵌夹注串由切段器标 pending 交 AI，不猜边界）；
+        # ③ 尾缀只认 卫/所 → 驿栈/地面/寨/仪卫司/长官司行漏判，扩尾锚全集。
         inner = BRACKET_RE.sub("", s)
-        if any(ch in inner for ch in "，。；：,;."):
-            kind = "other"  # 行级句读 = 说明段，不进树
+        # 坏括注（缺左括号的 `…后设)`）判据：**剥配对括注后仍有孤立右括号**，
+        # 且卫/所尾锚数 ≥3 → 卫列行（夹注串由切段器断串+pending 承载）。
+        # 不得先剥孤立括号再切段（曾改变 L75 切段致 3 叶漂移——回归教训）。
+        stray_rp = inner.count(")") + inner.count("）")
+        wei_suo = inner.count("卫") + inner.count("所")
+        # ④ 无括号夹注长卫列行（L142 陕西都司 / L154 广西都司 / L185 湖广都司）：
+        #    夹注引入句读会让整行误判说明段而**整行漏采**（实测漏 90+ 卫所）。
+        #    判据锚定行首（坑 #47）：首个句读之前的串必须形如
+        #    「2–8 字 + 卫/所」起头，且该前段卫/所尾缀 ≥4——说明段首句
+        #    不可能有这么密的卫所尾缀（实测 L45-50/L122/L252 均 ≤2）。
+        pre = re.split(r"[，。；：,;]", inner)[0]
+        dense_head = (re.match(r"^[\u4e00-\u9fff]{2,8}[卫所]", pre) is not None
+                      and pre.count("卫") + pre.count("所") >= 4)
+        if stray_rp >= 1 and wei_suo >= 3:
+            kind = "wei_col"
+        elif dense_head:
+            kind = "wei_col"  # 夹注串由切段器断串 + pending 承载，不猜边界
         elif re.search(r"[\u4e00-\u9fff]{2,8}[卫所]$", inner):
-            kind = "wei_col"  # 2-8 汉字+卫/所收尾；3 字卫名（L95「九江卫」）也须命中
+            kind = "other" if any(ch in inner for ch in "，。；：,;.") else "wei_col"
+        elif re.search(r"[\u4e00-\u9fff]{1,12}(?:站|寨|地面|官司|使司|招讨司|万户府)$", inner) \
+                and not any(ch in inner for ch in "，。；：,."):
+            kind = "wei_col"  # 驿栈/土司/地面/寨行（后定段 L231/233/235/148-183）
+        else:
+            kind = "other"
     if kind in ("fu_title", "zai_jing", "du_si", "block_title"):
         head, bnotes, rest = _head_block_name(s, kind)
         cls = {"line_no": line_no, "raw": line, "kind": kind}
@@ -338,6 +400,26 @@ def cut_wei_row(line: str, line_no: int, index: dict) -> dict:
             if br:
                 notes_ctx.append(br)
             continue
+        # 内嵌句读（无括号夹注/坏括注残留，实测 L142/L160）→ 按标点断串递归；
+        # 无锚尾缀残串整段标 ai_review 交 AI（夹注混正文不猜边界——坑 #54）。
+        if any(ch in text for ch in "，。；：,;."):
+            subs = [p for p in re.split(r"[，。；：,;.]+", text) if p]
+            if len(subs) > 1:
+                for sub in subs:
+                    if sum(sub.count(x) for x in ALL_SUFFIXES) >= 1:
+                        r2 = cut_wei_row(sub, line_no, index)
+                        for n in r2["nodes"]:
+                            (pending if n.get("ai_review") else determined).append(n)
+                    else:
+                        pending.append({
+                            "cand": True, "name": sub, "notes": [],
+                            "src_loc": "卷66-L%d" % line_no, "confidence": 0.3,
+                            "ai_review": "required",
+                            "why": "句读残串无锚尾缀：夹注混正文，AI 判夹注/续接前名",
+                        })
+                if br:
+                    notes_ctx.append(br)
+                continue
         # 段内词尾后缀出现次数：1 = 单一卫名（括注锚点前词必完整）；
         # >1 = 多卫粘连，必须词典分解；词典解不动 → 整段待复核
         tail_count = sum(text.count(s) for s in ALL_SUFFIXES)
@@ -425,6 +507,10 @@ def build_candidate_tree(lines, list_ver: str, volume: str, index: dict) -> dict
     stack = [root]
     to_review = []
     stat = {"determined": 0, "pending": 0}
+    # 「府容器」= 五军都督府所属卫所（北京）/ 五军都督府属（南京）。
+    # 实测后定段两套五府**同名**（L125 与 L214 都是「◎左军都督府」），
+    # 靠栈内固定名查找会把南京五府挂回北京容器（三子树混挂——SKILL.md §16-8）。
+    fu_container = None
 
     def _attach_wei_col(text, line_no, index, parent):
         """把一条卫列文本（整行或混合行余留）切段并挂到 parent 下。
@@ -438,7 +524,21 @@ def build_candidate_tree(lines, list_ver: str, volume: str, index: dict) -> dict
             if n.get("kind") == "block_note":
                 parent.setdefault("notes", []).extend(n["notes"])
             else:
-                n["level"] = "卫" if n["name"].endswith("卫") else "所"
+                nm = n["name"]
+                if nm.endswith("卫"):
+                    n["level"] = "卫"
+                elif nm.endswith("所"):
+                    n["level"] = "所"
+                elif nm.endswith("站"):
+                    n["level"] = "驿"
+                elif nm.endswith("地面"):
+                    n["level"] = "地面"
+                elif nm.endswith("寨"):
+                    n["level"] = "寨"
+                elif any(nm.endswith(s) for s in ("官司", "使司", "招讨司", "万户府", "安抚司")):
+                    n["level"] = "土司"
+                else:
+                    n["level"] = "卫"
                 parent["children"].append(n)
 
     for line_no, line in lines:
@@ -472,27 +572,39 @@ def build_candidate_tree(lines, list_ver: str, volume: str, index: dict) -> dict
                 while len(stack) > 1 and stack[-1]["level"] not in levels:
                     stack.pop()
 
+            def _pop_to_fu_container():
+                """弹回「府容器」节点（找不到则退回 root）。"""
+                nonlocal stack
+                if fu_container is not None:
+                    idx = next((i for i, x in enumerate(stack) if x is fu_container), -1)
+                    if idx >= 0:
+                        del stack[idx + 1:]
+                        return
+                stack[:] = [root]
+
             if kind == "fu_title":
                 if head == "五军都督府所属卫所":
-                    stack[:] = [root]
-                else:  # 左/右/中/前/后军都督府 → 挂「五军都督府所属卫所」容器下
-                    idx = next(
-                        (
-                            i
-                            for i, s in enumerate(stack)
-                            if s.get("name") == "五军都督府所属卫所"
-                        ),
-                        -1,
-                    )
-                    if idx >= 0:
-                        del stack[idx + 1 :]
-                    else:
-                        stack[:] = [root]
+                    stack[:] = [root]          # 北京总容器（旧/后定段的 L52/L124）
+                    fu_container = None        # 待本节点压栈后再置
+                elif head == "五军都督府属":
+                    # 南京侧子容器（L213）：挂在当前「块」（南京卫所）下
+                    _pop_to(("块",))
+                else:  # 左/右/中/前/后军都督府 → 挂**当前容器**下（北京 or 南京）
+                    _pop_to_fu_container()
             elif kind == "zai_jing":
                 _pop_to(("府",))  # 在京 → 挂当前府下
             elif kind == "block_title":
-                if head == "上十二卫":
-                    stack[:] = [root]  # 亲军不属五府，挂卷根
+                if head in ("上十二卫", "亲军上二十二卫", "南京卫所亲军卫", "羁縻卫所"):
+                    # 卷级并列子树（亲军不属五府 / 南京 / 羁縻）——SKILL.md §16-8
+                    stack[:] = [root]
+                elif head in ("西北诸部", "西番"):
+                    # 羁縻内**分段**领起句 → 与「都司一」平级，一律挂回羁縻卫所块
+                    # （弹到 ('块',) 会把它们塞进 都司一 之下——实测 L236/L239）
+                    while len(stack) > 1 and stack[-1].get("name") != "羁縻卫所":
+                        stack.pop()
+                elif head.startswith("都司") and len(head) <= 4:
+                    while len(stack) > 1 and stack[-1].get("name") != "羁縻卫所":
+                        stack.pop()
                 elif head == "在外":
                     _pop_to(("府",))  # 在外 → 挂当前府下
                 elif head in ("北平三护卫", "山西三护卫"):
@@ -507,15 +619,35 @@ def build_candidate_tree(lines, list_ver: str, volume: str, index: dict) -> dict
                 else:  # 土官等 → 挂当前栈顶（都司/在京/在外均可，作为其子块）
                     pass
             else:  # du_si
-                # 都司 → 挂最近「在外」块下；无在外则挂府下兜底
-                _pop_to(("块", "府"))
+                # 都司 → 挂最近「在外」块下；无在外则挂府下兜底。
+                # 「土官」是都司的**子块**，不得反过来承接下一个都司行
+                # （实测后定段 L149 四川行都司曾挂进 L147 土官 下）。
+                while len(stack) > 1:
+                    top = stack[-1]
+                    if top["level"] == "府":
+                        break
+                    if top["level"] == "块" and top.get("name") in ("在外", "直隶"):
+                        break
+                    stack.pop()
             stack[-1]["children"].append(node)
             stack.append(node)
+            if kind == "fu_title" and head in ("五军都督府所属卫所", "五军都督府属"):
+                fu_container = node
             # 「块标题+卫列」混合行（实测 L112「北平行都司(…)+大宁左卫…」）：
             # 余留文本切段挂到刚压栈的块下
             rest = (cls.get("rest") or "").strip()
             if rest:
-                _attach_wei_col(rest, line_no, index, node)
+                # 说明句型余留（张本式块领起句 L122/L224/L236/L239）→ 块 notes。
+                # 这些句子本身含「卫所/指挥」等字，锚点计数判据**不适用**
+                # （实测 L224「…设都司卫所。」被误切成 卫/所 叶），故按块名白名单强制。
+                if head in ("亲军上二十二卫", "羁縻卫所", "西北诸部", "西番"):
+                    node.setdefault("notes", []).append(rest)
+                else:
+                    anchors = sum(rest.count(x) for x in ALL_ANCHORS)
+                    if anchors >= 3:
+                        _attach_wei_col(rest, line_no, index, node)
+                    else:
+                        node.setdefault("notes", []).append(rest)
         elif kind == "wei_col":
             _attach_wei_col(line, line_no, index, stack[-1])
         elif kind == "count_row":
