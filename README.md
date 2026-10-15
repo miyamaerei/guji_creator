@@ -273,16 +273,22 @@ python server.py checklist                     # 全库体检
 
 ### 6.6.2 `tools/book-mcp/` —— 契约线，新书格式契约（C0 只读）
 
-> **给第 7 本及以后的新书用。** 存量书不归它管。
+> **给第 7 本及以后的新书用。** 存量书不归它管——**例外是 C8/C9**（著录与结构），
+> 它们登记的是客观书目事实与可重算派生物，不是语义判定，故对存量 22 本一并回填。
 
 不治理数据，**只回答「格式是什么」**：目录结构、ID 命名空间、底座、层定义、
-枚举单点、产物交付、元数据，共 **C1–C7 七条**。契约本体是 `contract.json`（机器可读，唯一真源），
+枚举单点、产物交付、实例登记，加上新增的著录元数据与结构脊柱，共 **C1–C9 九条**。契约本体是 `contract.json`（机器可读，唯一真源），
 `server.py` 只是读取并回答，零第三方依赖。
+
+| 新增契约 | 管什么 | 字段设计人读视图 |
+|---|---|---|
+| **C8 著录元数据** | 一本书一份 `book.meta.json`：书名/作者/版本/藏地/卷数/叶数/梗概，逐字段标 A/B/C/D 可得性，取不到必须 `null` + 理由 | `docs/书籍著录与结构契约.md` §1 |
+| **C9 结构脊柱** | 一本书一份 `spine.json`：书→卷→篇→章→段→句 节点树 + 条内字符偏移；段句由派生器生成，不要求全书到句 | 同上 §3 |
 
 ```bash
 cd tools/book-mcp
-python server.py selftest              # 自检（20 项）
-python server.py list                  # C1–C7 七条契约
+python server.py selftest              # 自检（22 项）
+python server.py list                  # C1–C9 九条契约
 python server.py get --id C5           # 某条契约（如 C5 = 枚举单点必建）
 python server.py layers                # 层库全部候选层（22 项）
 python server.py layer --key appt      # 某一层（key / code / 前缀 / 名称片段均可）

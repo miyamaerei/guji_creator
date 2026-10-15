@@ -567,8 +567,8 @@ def selftest():
         ("enum_get/EVENT", lambda: enum_get("EVENT")),
         ("enum_get/ENTITY", lambda: enum_get("ENTITY")),
     ] + [("contract_get/%s" % cid, lambda cid=cid: contract_get(cid))
-         for cid in ["C1", "C2", "C3", "C4", "C5", "C6", "C7"]] + [
-        ("contract_get/未知 id", lambda: contract_get("C9")),
+         for cid in [x["id"] for x in load_contract().get("contracts", [])]] + [
+        ("contract_get/未知 id", lambda: contract_get("C99")),
         ("layer_get/未知 key", lambda: layer_get("不存在的层")),
         ("enum_get/未知组", lambda: enum_get("NOPE")),
     ]
