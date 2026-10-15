@@ -1,0 +1,1284 @@
+{
+  "item_id": "101-001",
+  "volume": "101",
+  "source": "浔州府",
+  "region": "广西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "浔州府",
+        "type": "geo",
+        "norm": "浔州府",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "桂平县",
+        "type": "geo",
+        "norm": "桂平县",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "平南县",
+        "type": "geo",
+        "norm": "平南县",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "贵县",
+        "type": "geo",
+        "norm": "贵县",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "武靖州",
+        "type": "geo",
+        "norm": "武靖州",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "浔州卫",
+        "type": "geo",
+        "norm": "浔州卫",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "奉议卫",
+        "type": "geo",
+        "norm": "奉议卫",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "守御贵县中前千户所",
+        "type": "geo",
+        "norm": "守御贵县中前千户所",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-W04",
+        "name": "向武军民千户所",
+        "type": "geo",
+        "norm": "向武军民千户所",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K浔江",
+        "name": "浔江",
+        "type": "mtn",
+        "norm": "浔江",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K郁江",
+        "name": "郁江",
+        "type": "mtn",
+        "norm": "郁江",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K黔江",
+        "name": "黔江",
+        "type": "mtn",
+        "norm": "黔江",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K白石山",
+        "name": "白石山",
+        "type": "mtn",
+        "norm": "白石山",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K罗丛岩",
+        "name": "罗丛岩",
+        "type": "mtn",
+        "norm": "罗丛岩",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K大藤峡",
+        "name": "大藤峡",
+        "type": "mtn",
+        "norm": "大藤峡",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K南山",
+        "name": "南山",
+        "type": "mtn",
+        "norm": "南山",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K陆绩",
+        "name": "陆绩",
+        "type": "person",
+        "norm": "陆绩",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K谷永",
+        "name": "谷永",
+        "type": "person",
+        "norm": "谷永",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K梁嵩",
+        "name": "梁嵩",
+        "type": "person",
+        "norm": "梁嵩",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K周敦颐",
+        "name": "周敦颐",
+        "type": "person",
+        "norm": "周敦颐",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K苏轼",
+        "name": "苏轼",
+        "type": "person",
+        "norm": "苏轼",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K潘长寿",
+        "name": "潘长寿",
+        "type": "person",
+        "norm": "潘长寿",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K三先生祠",
+        "name": "三先生祠",
+        "type": "site",
+        "norm": "三先生祠",
+        "first_source": "101-001"
+      },
+      {
+        "ent_id": "ENT-K报恩寺",
+        "name": "报恩寺",
+        "type": "site",
+        "norm": "报恩寺",
+        "first_source": "101-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-101001",
+        "item_id": "101-001",
+        "name": "浔州府",
+        "type": "prefecture",
+        "region": "广西",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-101001-c01",
+          "GEO-101001-c02",
+          "GEO-101001-c03",
+          "GEO-101001-s01",
+          "GEO-101001-w01",
+          "GEO-101001-w02",
+          "GEO-101001-w03",
+          "GEO-101001-w04"
+        ],
+        "volume_range": "卷101",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "梧州府藤县界",
+              "distance_li": 165
+            },
+            {
+              "direction": "西",
+              "to_place": "南宁府宣化县界",
+              "distance_li": 518
+            },
+            {
+              "direction": "南",
+              "to_place": "梧州府容县界",
+              "distance_li": 188
+            },
+            {
+              "direction": "北",
+              "to_place": "柳州府武宣县界",
+              "distance_li": 180
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 5500
+            },
+            {
+              "capital": "京师",
+              "distance_li": 8545
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州一县三；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 36000,
+            "unit": "石",
+            "note": "粮三万六千石零"
+          },
+          "jun_name": "桂平【梁名】浔江【唐名】",
+          "topography": "封域广袤实有三州之地【浔江志】；南北限以二江【同上】；钟釜秀峙映带州宅【显惠庙记】；江山气象之秀【宋李邦彦题白石】；山水奇秀地理宽广【府志】",
+          "customs": "椎髻箕踞乃其旧风【隋志】；民淳讼简【浔江志】；其民从化【浔江学记】；并服礼仪【图经】；人物纯和【风土记】；土风尚朴【怀泽志】",
+          "garrisons": [
+            {
+              "name": "浔州卫",
+              "type": "卫",
+              "location_text": "在府治西洪武二十九年建"
+            },
+            {
+              "name": "奉议卫",
+              "type": "卫",
+              "location_text": "在贵县治西北本朝正统十一年自奉议州徙建于此"
+            },
+            {
+              "name": "守御贵县中前千户所",
+              "type": "千户所",
+              "location_text": "在县治西怀泽驿旧址"
+            },
+            {
+              "name": "向武军民千户所",
+              "type": "千户所",
+              "location_text": "在贵县北门外正统十一年自奉议州徙建于此"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010"
+        ]
+      },
+      {
+        "geo_id": "GEO-101001-c01",
+        "item_id": "101-001",
+        "name": "桂平县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 17,
+            "unit": "里",
+            "note": "编户一十七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-101001-c02",
+        "item_id": "101-001",
+        "name": "平南县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在府城东一百三十里",
+          "households": {
+            "count": 24,
+            "unit": "里",
+            "note": "编户二十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-101001-c03",
+        "item_id": "101-001",
+        "name": "贵县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在府城西一百四十里",
+          "households": {
+            "count": 34,
+            "unit": "里",
+            "note": "编户三十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-101001-s01",
+        "item_id": "101-001",
+        "name": "武靖州",
+        "type": "department",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在府城西一百二十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里本朝隆庆中改置"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-101001-w01",
+        "item_id": "101-001",
+        "name": "浔州卫",
+        "type": "weisuo",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在府治西洪武二十九年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-101001-w02",
+        "item_id": "101-001",
+        "name": "奉议卫",
+        "type": "weisuo",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在贵县治西北本朝正统十一年自奉议州徙建于此",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-101001-w03",
+        "item_id": "101-001",
+        "name": "守御贵县中前千户所",
+        "type": "weisuo",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在县治西怀泽驿旧址旧在县治西北正统十一年改建为奉议卫因迁所于此隶南宁卫",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-101001-w04",
+        "item_id": "101-001",
+        "name": "向武军民千户所",
+        "type": "weisuo",
+        "region": "广西",
+        "parent": "GEO-101001",
+        "children": [],
+        "volume_range": "卷101",
+        "attributes": {
+          "location_text": "在贵县北门外正统十一年自奉议州徙建于此隶奉议卫",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "百粤地",
+        "action": "因之",
+        "detail": "古百粤地，天文翼轸分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "桂林郡",
+        "action": "因之",
+        "detail": "秦为桂林郡地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "郁林苍梧二郡",
+        "action": "因之",
+        "detail": "汉属郁林苍梧二郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "梁",
+        "era": null,
+        "institution_name": "桂平郡",
+        "action": "置",
+        "detail": "梁分郁林于此置桂平郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "郁林郡/桂平县",
+        "action": "改",
+        "detail": "隋废桂平郡为县，属郁林郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "鷰州/浔州/浔江郡",
+        "action": "改",
+        "detail": "唐属鷰州，贞观间始置浔州治桂平，天宝初改浔江郡，乾元初复为浔州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "浔州",
+        "action": "因之",
+        "detail": "宋省寻复置"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "浔州路",
+        "action": "改",
+        "detail": "元至元中改置浔州路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "浔州府",
+        "action": "改",
+        "detail": "本朝洪武元年以贵横二州及永淳县来属，三年改路为府，改贵州为贵县；九年以横州永淳县割属南宁府，今领州一县三"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "思灵山",
+        "type": "山",
+        "location_text": "在府城西五里",
+        "description": "又名西山，秀峙穹窿，映带府治，上有三清岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "凤巢山",
+        "type": "山",
+        "location_text": "在府城西五十里",
+        "description": "下有龙潭，祈雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "石鹿山",
+        "type": "山",
+        "location_text": "在府城北五十里",
+        "description": "上有石如鹿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "白石山",
+        "type": "山",
+        "location_text": "在府城南六十里",
+        "description": "两峰并立，下有岩洞，即道书第二十一洞天，通容县勾漏洞，世传葛洪炼丹尝往来其间；洞之上有仙岩，有炼丹灶及八仙石存焉",
+        "lore": "宋张志道诗山似游龙势欲奔山中有路透天阍峰峦长带烟霞色洞穴浑无斧凿痕；杨子春诗晓餐沆瀣夕餐霞"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "罗影山",
+        "type": "山",
+        "location_text": "在府城北七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "鸡栖山",
+        "type": "山",
+        "location_text": "在府城北八十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "吉盘山",
+        "type": "山",
+        "location_text": "在府城北九十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "阆石山",
+        "type": "山",
+        "location_text": "在府城北一百六十里",
+        "description": "峰峦竞秀如列旌旗，下有读书岩，五代时状元梁嵩尝读书于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "燕石山",
+        "type": "山",
+        "location_text": "在平南县东南一十二里",
+        "description": "山有石燕，唐置燕州取此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "古仑山",
+        "type": "山",
+        "location_text": "在平南县北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "大峡山",
+        "type": "山",
+        "location_text": "在平南县北一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "瓮山",
+        "type": "山",
+        "location_text": "在平南县西六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "磨云山",
+        "type": "山",
+        "location_text": "在平南县南一百里",
+        "description": "山顶常有云雾",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在贵县南一十里",
+        "description": "上有二十四峰，峭拔异秀，甲于一郡",
+        "lore": "宋俞括诗二十四峰尖参差列郡南半空擎梵宇绝顶寄僧龛"
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "东山",
+        "type": "山",
+        "location_text": "在贵县东二十里",
+        "description": "峰峦秀特，相传唐时有何特进履光二人隐此山化为石，今山顶有石状如二人并立；西北一峰望之如妇人搭帔簪花，俗呼为新妇岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "北山",
+        "type": "山",
+        "location_text": "在贵县北二十七里",
+        "description": "又名宜贵山，上有瀑布千仞，禅僧羽客多栖止焉；山有石牛，每旱则杀牲取血和泥涂牛背以防卤，涂牛口歌牧牛诗以乐之，祀毕则雨泥尽乃晴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "西山",
+        "type": "山",
+        "location_text": "在贵县西三十里",
+        "description": "五峰并立，山多踯躅花",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "银山",
+        "type": "山",
+        "location_text": "在贵县东北",
+        "description": "上有石函，望之如银，俗呼为仙人函",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "龙山",
+        "type": "山",
+        "location_text": "在贵县北五十里",
+        "description": "山有茶树，邑中人赖之；地道记曰龙山合水所出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "龙影山",
+        "type": "山",
+        "location_text": "在贵县南",
+        "description": "石壁上有五色彩画出龙影",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "马岭山",
+        "type": "山",
+        "location_text": "在贵县西北七十里",
+        "description": "一名龙马，又名马度山，多虺，其毒杀人，惟冷石可以解之；俗传有马嘶及奔踶声则人多疫疠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "横岭",
+        "type": "岭",
+        "location_text": "在府城北五里",
+        "description": "旧志云在贵平县南九十里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "三鼎岭",
+        "type": "岭",
+        "location_text": "在府城东三十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "宝子岭",
+        "type": "岭",
+        "location_text": "在府城南三十里",
+        "description": "山势磊落如聚宝玉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "棱层岭",
+        "type": "岭",
+        "location_text": "在府城西南七十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "南顿岭",
+        "type": "岭",
+        "location_text": "在府城南一百二十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "仙女岭",
+        "type": "岭",
+        "location_text": "在贵县北七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "独秀峰",
+        "type": "峰",
+        "location_text": "在白石山之侧",
+        "description": "孤翠飞骞，百里所瞻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "会仙岩",
+        "type": "岩",
+        "location_text": "在白石山上",
+        "description": "磴道险峻攀缘而上，其广可容数十人，中有葛仙翁丹灶",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "罗丛岩",
+        "type": "岩",
+        "location_text": "在府城西南六十里",
+        "description": "其岩明爽可容二三百人，内有三教殿，殿东西有碧虚灵源二洞，实浔之胜概；每岁重九郡人登高于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "高阳岩",
+        "type": "岩",
+        "location_text": "在平南县",
+        "description": "与思鹅岩对峙，岩宇高旷而明豁，前瞰平野；又有湖叟岩在此岩之阴，有宋治平中名贤题跋",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "思鹅岩",
+        "type": "岩",
+        "location_text": "在平南县",
+        "description": "旧经谓之思鹅石，状若八角楼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "畅岩",
+        "type": "岩",
+        "location_text": "在平南县西北三十里",
+        "description": "一名姚公岩",
+        "lore": "宋郡守姚嗣宗诗石作洞房势水随人意流两岩尝溅雨五月便惊秋"
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "登仙崖",
+        "type": "崖",
+        "location_text": "在北山路傍接仙女岭",
+        "description": "山上或闻宴鼓声即岁丰人安，闻战鼓声即兵戈起",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "狮子冈",
+        "type": "冈",
+        "location_text": "在府城西五十里",
+        "description": "状如狮子",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "昆仑冈",
+        "type": "冈",
+        "location_text": "在府城西七十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "蛇黄冈",
+        "type": "冈",
+        "location_text": "在平南县北四里",
+        "description": "冈势盘纡，出蛇黄，每岁九月邑人掘深七八尺始得之，大者如鸡子，小者类弹丸，其色紫，磨之可傅肿毒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "显朝冈",
+        "type": "冈",
+        "location_text": "在贵县北二十里",
+        "description": "郡志云陆续为太守，尝登此冈制浑天仪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "大藤峡",
+        "type": "峡",
+        "location_text": "在府城西北一百五十里",
+        "description": "大山夹江绵延数百里，山势险峻，中多猺人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "金鸡峡",
+        "type": "峡",
+        "location_text": "在贵县西六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "浔江",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "乃郁黔二江至城下合流，东过藤梧至番禺入于海",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "郁江",
+        "type": "江",
+        "location_text": "在府城南",
+        "description": "又名南江，源出交阯界，经邕州至此合黔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "黔江",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "又名北江，源出牂牁，经柳象至此合郁江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "龚江",
+        "type": "江",
+        "location_text": "在平南县东南",
+        "description": "一名都泥江，西通邕宜二江，东过藤梧会诸川入于海，唐龚州以此名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "乌江",
+        "type": "江",
+        "location_text": "在平南县治西",
+        "description": "流入龚江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c02",
+        "name": "白马江",
+        "type": "江",
+        "location_text": "在平南县东六十里",
+        "description": "流入龚江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "宝江",
+        "type": "江",
+        "location_text": "在贵县西二里",
+        "description": "一名浮江，水来自宾州界，入郁江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "武思江",
+        "type": "江",
+        "location_text": "在贵县西六十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "南湖",
+        "type": "湖",
+        "location_text": "在府城南",
+        "description": "长三里，俗名结塘湖，湖上有洲，洲上旧有平波亭，临岸又有南浦亭，郡人时乘小舟游赏于其间",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "渌水",
+        "type": "水",
+        "location_text": "在府城南一十五里",
+        "description": "旷野中天然怪石甃其傍，水泉深碧清澄，中有巨鱼人不敢捕",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "罗叶水",
+        "type": "水",
+        "location_text": "在府城南一十里",
+        "description": "流入郁江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "思陵水",
+        "type": "水",
+        "location_text": "在府城西北一十里",
+        "description": "合大隍水入黔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "绣江水",
+        "type": "水",
+        "location_text": "在府城西南三十里",
+        "description": "合浔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "都耶水",
+        "type": "水",
+        "location_text": "在府城北三十里",
+        "description": "合大隍水入浔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "横眉水",
+        "type": "水",
+        "location_text": "在府城西南四十里",
+        "description": "入郁江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "大隍水",
+        "type": "水",
+        "location_text": "在府城东北五十里",
+        "description": "源出柳州府武宣县界，东流合浔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "木赖水",
+        "type": "水",
+        "location_text": "在府城西北九十里",
+        "description": "源出贵县界，流合黔江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "泛水",
+        "type": "水",
+        "location_text": "在贵县南四里",
+        "description": "流合郁江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "谷永井",
+        "type": "井",
+        "location_text": "在贵县旧贵州治东北",
+        "description": "相传汉谷太守所凿",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "东井",
+        "type": "井",
+        "location_text": "在贵县北二里",
+        "description": "怪石涌出，水流石底",
+        "lore": "宋施才诗深随石窦千寻去远自云峰万里来"
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "司命井",
+        "type": "井",
+        "location_text": "在贵县西北半里",
+        "description": "半淡潜通大江，四时不竭，合境汲饮，人多耆年；若水竭则人疫岁荒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "嘉鱼井",
+        "type": "井",
+        "location_text": "在贵县西",
+        "description": "井泉通江，中有嘉鱼，临观之历历可睹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "陆绩井",
+        "type": "井",
+        "location_text": "在贵县城内东偏",
+        "description": "有橘一株，乃干和中刺史刘传古所种",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "龙腹井",
+        "type": "井",
+        "location_text": "在贵县北二十里",
+        "description": "水深三尺，观之则浊，汲之则清；岁旱祷雨辄应，汉封其神为清源公",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "漱玉泉",
+        "type": "泉",
+        "location_text": "在白石山",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "紫泉",
+        "type": "泉",
+        "location_text": "在贵县南",
+        "description": "水出郁江有两派，其出不常，出则有异应；自县门流下者必擢贤守令或生英俊，县上流下者应在僚属；其水长而狭色如紫练",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "潮水泉",
+        "type": "泉",
+        "location_text": "在贵县西六十里",
+        "description": "其水盈涸不时，汉封其神为澄澜公；凡祀飨时或日三四十潮，邑人烹牲以卜岁事",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c03",
+        "name": "谢雕池",
+        "type": "池",
+        "location_text": "在贵县治北",
+        "description": "唐刺史谢雕于此凿池种莲，久废",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "101-001",
+        "geo_id": "GEO-101001-c01",
+        "name": "铜鼓滩",
+        "type": "滩",
+        "location_text": "在浔江中",
+        "description": "滩有五曰碧滩弩滩思傍滩斫石滩并铜鼓为五，水石险隘有声如鼓",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "101-001",
+        "cited_work": "浔江志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【浔江志封域广袤实有三州之地】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "101-001",
+        "cited_work": "浔江志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【浔江志南北限以二江左黔右郁合于山之麓曰浔水故云二江】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "101-001",
+        "cited_work": "显惠庙记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【显惠庙记钟釜秀峙映带州宅】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "101-001",
+        "cited_work": "李邦彦题白石",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋李邦彦题白石云浔江穷瘴岭之南郡虽僻傍与都峤勾漏为邻而白石近在境上江山气象之秀有足嘉者】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "101-001",
+        "cited_work": "府志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【府志山水竒秀地理寛广】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "101-001",
+        "cited_work": "隋志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【隋志椎髻箕踞乃其旧风】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "101-001",
+        "cited_work": "浔江志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【浔江志浔虽古荒服沃壌颇多山水竒秀民淳讼简人多业儒】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "101-001",
+        "cited_work": "浔江学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【浔江学记鬱江东注土无氛恶蛮溪獠洞不际其境民之从化岂间然哉】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "101-001",
+        "cited_work": "风土记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【风土记力耕为业不产蚕丝人物纯和无行谄诈】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "101-001",
+        "cited_work": "怀泽志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【懐泽志土风尚朴不事华饰不机巧趍利】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2；sites拆至sites1/2"
+  },
+  "title": "浔州府"
+}

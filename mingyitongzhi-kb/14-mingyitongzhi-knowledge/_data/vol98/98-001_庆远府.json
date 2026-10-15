@@ -1,0 +1,957 @@
+{
+  "item_id": "98-001",
+  "volume": "98",
+  "source": "庆远府",
+  "region": "广西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "庆远府",
+        "type": "geo",
+        "norm": "庆远府",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "宜山县",
+        "type": "geo",
+        "norm": "宜山县",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "天河县",
+        "type": "geo",
+        "norm": "天河县",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "忻城县",
+        "type": "geo",
+        "norm": "忻城县",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "思恩县",
+        "type": "geo",
+        "norm": "思恩县",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "荔波县",
+        "type": "geo",
+        "norm": "荔波县",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-S01",
+        "name": "河池州",
+        "type": "geo",
+        "norm": "河池州",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "南丹州",
+        "type": "geo",
+        "norm": "南丹州",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-T02",
+        "name": "东兰州",
+        "type": "geo",
+        "norm": "东兰州",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-T03",
+        "name": "那地州",
+        "type": "geo",
+        "norm": "那地州",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "庆远卫",
+        "type": "geo",
+        "norm": "庆远卫",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "河池守御千户所",
+        "type": "geo",
+        "norm": "河池守御千户所",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-K龙江",
+        "name": "龙江",
+        "type": "mtn",
+        "norm": "龙江",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-K宋荐",
+        "name": "宋荐",
+        "type": "person",
+        "norm": "宋荐",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-K冯京",
+        "name": "冯京",
+        "type": "person",
+        "norm": "冯京",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-K黄庭坚",
+        "name": "黄庭坚",
+        "type": "person",
+        "norm": "黄庭坚",
+        "first_source": "98-001"
+      },
+      {
+        "ent_id": "ENT-K宜山",
+        "name": "宜山",
+        "type": "mtn",
+        "norm": "宜山",
+        "first_source": "98-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-98001",
+        "item_id": "98-001",
+        "name": "庆远府",
+        "type": "prefecture",
+        "region": "广西",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-98001-c01",
+          "GEO-98001-c02",
+          "GEO-98001-c03",
+          "GEO-98001-s01",
+          "GEO-98001-t01",
+          "GEO-98001-t02",
+          "GEO-98001-t03",
+          "GEO-98001-w01",
+          "GEO-98001-w02"
+        ],
+        "volume_range": "卷98",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "柳州府柳城县界",
+              "distance_li": 70
+            },
+            {
+              "direction": "西",
+              "to_place": "利州界",
+              "distance_li": 700
+            },
+            {
+              "direction": "南",
+              "to_place": "柳州府宾州界",
+              "distance_li": 140
+            },
+            {
+              "direction": "北",
+              "to_place": "柳州府融县界",
+              "distance_li": 90
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 7500
+            },
+            {
+              "capital": "京师",
+              "distance_li": 11000
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州四县五；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 14000,
+            "unit": "石",
+            "note": "粮一万四千石零"
+          },
+          "jun_name": "龙水【唐名】宜阳",
+          "topography": "府控九溪之水连百粤之郊【郡志】；蛮越要区【岭外代答群溪之地接于宜者无虑数十宜之为州乃蛮越要区也】；山川旋绕【宋地理志江山旋绕风水环抱】；以两江为池以群蛮为障【寰宇记阻隽江之水连雕阴之山】；土旷人稀【东兰州志地势险阻自唐历宋为羁縻之郡虽置金紫官豪长世袭而通判定差上州知州以重其寄】",
+          "customs": "地边夷獠【宋地理志地边夷獠人希屋陋以竹木为屋以新泥涂之】；人物纯朴【寰宇记人物纯朴陋不知文不患贫而患不平】；饮食以布班画为饰【宜阳志自河池平凤二郡抵南丹界尤异大率聘礼用马婚姻以布班画为饰祭以牛酒】；夷夏杂处【宜阳志夷夏杂处天气多瘴】",
+          "garrisons": [
+            {
+              "name": "庆远卫",
+              "type": "卫",
+              "location_text": "在府城东北洪武二十九年建"
+            },
+            {
+              "name": "河池守御千户所",
+              "type": "千户所",
+              "location_text": "在宜山县德胜镇西二里洪武三十二年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009"
+        ]
+      },
+      {
+        "geo_id": "GEO-98001-c01",
+        "item_id": "98-001",
+        "name": "宜山县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户一十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-98001-c02",
+        "item_id": "98-001",
+        "name": "天河县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城北九十里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户一十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-98001-c03",
+        "item_id": "98-001",
+        "name": "忻城县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城南一百一十里",
+          "households": {
+            "count": 1,
+            "unit": "里",
+            "note": "编户一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-98001-s01",
+        "item_id": "98-001",
+        "name": "河池州",
+        "type": "department",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [
+          "GEO-98001-c04",
+          "GEO-98001-c05"
+        ],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城西二百一十五里",
+          "households": {
+            "count": 34,
+            "unit": "里",
+            "note": "编户三十四里领县二"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-98001-c04",
+        "item_id": "98-001",
+        "name": "思恩县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-98001-s01",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在州城西一百五十里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户一十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-98001-c05",
+        "item_id": "98-001",
+        "name": "荔波县",
+        "type": "county",
+        "region": "广西",
+        "parent": "GEO-98001-s01",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在州西北一百八十里",
+          "households": {
+            "count": 16,
+            "unit": "里",
+            "note": "编户一十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-98001-t01",
+        "item_id": "98-001",
+        "name": "南丹州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城西二百四十里"
+        }
+      },
+      {
+        "geo_id": "GEO-98001-t02",
+        "item_id": "98-001",
+        "name": "东兰州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城西南四百二十里"
+        }
+      },
+      {
+        "geo_id": "GEO-98001-t03",
+        "item_id": "98-001",
+        "name": "那地州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城西南二百四十里"
+        }
+      },
+      {
+        "geo_id": "GEO-98001-w01",
+        "item_id": "98-001",
+        "name": "庆远卫",
+        "type": "weisuo",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在府城东北洪武二十九年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-98001-w02",
+        "item_id": "98-001",
+        "name": "河池守御千户所",
+        "type": "weisuo",
+        "region": "广西",
+        "parent": "GEO-98001",
+        "children": [],
+        "volume_range": "卷98",
+        "attributes": {
+          "location_text": "在宜山县德胜镇西二里洪武三十二年建",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "荆州之域",
+        "action": "因之",
+        "detail": "禹贡荆州之域"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "百粤地",
+        "action": "因之",
+        "detail": "古百粤地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "象郡",
+        "action": "因之",
+        "detail": "秦为象郡地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "交趾日南",
+        "action": "因之",
+        "detail": "汉平岭南地属交趾日南二郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "粤州/宜州",
+        "action": "置",
+        "detail": "唐置粤州，贞观中改宜州治龙水县"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "龙水郡",
+        "action": "改",
+        "detail": "天宝初改龙水郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "楚/南汉",
+        "action": "因之",
+        "detail": "五代时为楚马氏所有，后属南汉"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "宜州/庆远军节度/庆远府",
+        "action": "升",
+        "detail": "宋仍为宜州，宣和初赐郡名曰庆远，咸淳初以度宗潜邸升庆远府"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "庆远路",
+        "action": "改",
+        "detail": "元改置庆远路"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "庆远府",
+        "action": "因之",
+        "detail": "本朝复为庆远府，领州四县五"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "宜山",
+        "type": "山",
+        "location_text": "在府城北二里",
+        "description": "八山之原名宜山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "天门拜相山",
+        "type": "山",
+        "location_text": "在府城北",
+        "description": "上有三峰形如笔架，唐尝有陈姓者父子俱登朝籍，咸以为拜相之兆，宋开宝间改龙山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在府城南",
+        "description": "深岩秀拔，山巅有石穴深广",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "日山",
+        "type": "山",
+        "location_text": "在府城西南",
+        "description": "山石白类太华",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "九龙山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "有九峰而下，山口有潭曰九龙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "仙山",
+        "type": "山",
+        "location_text": "在府城北三里",
+        "description": "中有丹岩玉井石枰，昔陆仙翁隐此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "青鸟山",
+        "type": "山",
+        "location_text": "在府城西",
+        "description": "其形似凤，上有合峰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "月山",
+        "type": "山",
+        "location_text": "在府城南四里",
+        "description": "山形圆如满月",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-s01",
+        "name": "屏风山",
+        "type": "山",
+        "location_text": "在河池州南",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-s01",
+        "name": "智州山",
+        "type": "山",
+        "location_text": "在河池州西",
+        "description": "有石乳泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-t01",
+        "name": "孟英山",
+        "type": "山",
+        "location_text": "在南丹州境",
+        "description": "出银砂",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c02",
+        "name": "北陵山",
+        "type": "山",
+        "location_text": "在天河县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c03",
+        "name": "龙塘山",
+        "type": "山",
+        "location_text": "在忻城县",
+        "description": "上有石崖",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c03",
+        "name": "叠石山",
+        "type": "山",
+        "location_text": "在忻城县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c04",
+        "name": "暗岭山",
+        "type": "山",
+        "location_text": "在思恩县东南",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c04",
+        "name": "啸山",
+        "type": "山",
+        "location_text": "在思恩县东",
+        "description": "遇天晴日出则清泰无事，阴雨则啸为风声，南丹兵起必有此验",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c05",
+        "name": "水巗山",
+        "type": "山",
+        "location_text": "在荔波县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "龙隐洞",
+        "type": "洞",
+        "location_text": "在南山中",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "白龙洞",
+        "type": "洞",
+        "location_text": "在仙山中",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "丹岩",
+        "type": "岩",
+        "location_text": "在仙山中",
+        "description": "昔陆仙翁隐此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "龙江",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "发源贵州界，东流合小江，又东至柳城县为柳江",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "小江",
+        "type": "江",
+        "location_text": "在府城北",
+        "description": "源出废琳州",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "洛濛江",
+        "type": "江",
+        "location_text": "在府城南六十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-s01",
+        "name": "金城江",
+        "type": "江",
+        "location_text": "在河池州境",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-s01",
+        "name": "猫儿溪",
+        "type": "溪",
+        "location_text": "在河池州东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c03",
+        "name": "乌泥江",
+        "type": "江",
+        "location_text": "在忻城县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c02",
+        "name": "思吾溪",
+        "type": "溪",
+        "location_text": "在天河县",
+        "description": "源出废歌招州",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c02",
+        "name": "三潮水",
+        "type": "江",
+        "location_text": "在天河县",
+        "description": "一日三潮水自穴出，乡人名其处曰三水",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c04",
+        "name": "带溪水",
+        "type": "江",
+        "location_text": "在思恩县",
+        "description": "源出茅南山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "莲花塘",
+        "type": "塘",
+        "location_text": "在府城东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "龙塘",
+        "type": "塘",
+        "location_text": "在九龙山下",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "宜江井",
+        "type": "井",
+        "location_text": "在宜山县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "龙泉",
+        "type": "泉",
+        "location_text": "在府城北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-s01",
+        "name": "悬崖泉",
+        "type": "泉",
+        "location_text": "在河池州",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c04",
+        "name": "婆婆泉",
+        "type": "泉",
+        "location_text": "在思恩县",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "饮军池",
+        "type": "池",
+        "location_text": "在府城南",
+        "description": "宋庆历间曹利征伐侬贼过此，军人皆渴，忽一泉出，挹饮不竭，后构亭其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "98-001",
+        "geo_id": "GEO-98001-c01",
+        "name": "九龙潭",
+        "type": "潭",
+        "location_text": "在九龙山口",
+        "description": "九峰之下山口有潭",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "98-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【郡志府控九溪之水连百粤之郊】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "98-001",
+        "cited_work": "岭外代答",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【岭外代答蛮越要区群溪之地接于宜者无虑数十宜之为州乃蛮越要区也】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "98-001",
+        "cited_work": "宋地理志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋地理志山川旋绕江山旋绕风水环抱】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "98-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【寰宇记以两江为池以群蛮为障阻隽江之水连雕阴之山】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "98-001",
+        "cited_work": "东兰州志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【东兰州志土旷人稀地势险阻自唐历宋为羁縻之郡虽置金紫官豪长世袭而通判定差上州知州以重其寄】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "98-001",
+        "cited_work": "宋地理志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋地理志地边夷獠人希屋陋以竹木为屋以新泥涂之】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "98-001",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【寰宇记人物纯朴陋不知文不患贫而患不平】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "98-001",
+        "cited_work": "宜阳志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宜阳志饮食以布班画为饰自河池平凤二郡抵南丹界尤异大率聘礼用马婚姻以布班画为饰祭以牛酒】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "98-001",
+        "cited_work": "宜阳志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【同上夷夏杂处夷夏杂处天气多瘴】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2；本府无列女仙释故无pers3；sites拆至sites1/2"
+  },
+  "title": "庆远府"
+}

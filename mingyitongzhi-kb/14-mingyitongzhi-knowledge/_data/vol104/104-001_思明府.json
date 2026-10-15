@@ -1,0 +1,441 @@
+{
+  "item_id": "104-001",
+  "volume": "104",
+  "source": "思明府",
+  "region": "广西",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "思明府",
+        "type": "geo",
+        "norm": "思明府",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-T01",
+        "name": "忠州",
+        "type": "geo",
+        "norm": "忠州",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-T02",
+        "name": "思明州",
+        "type": "geo",
+        "norm": "思明州",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-T03",
+        "name": "上石西州",
+        "type": "geo",
+        "norm": "上石西州",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-T04",
+        "name": "下石西州",
+        "type": "geo",
+        "norm": "下石西州",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-T05",
+        "name": "凭祥州",
+        "type": "geo",
+        "norm": "凭祥州",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-K明江",
+        "name": "明江",
+        "type": "mtn",
+        "norm": "明江",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-K马跑泉",
+        "name": "马跑泉",
+        "type": "mtn",
+        "norm": "马跑泉",
+        "first_source": "104-001"
+      },
+      {
+        "ent_id": "ENT-K广明寺",
+        "name": "广明寺",
+        "type": "site",
+        "norm": "广明寺",
+        "first_source": "104-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-104001",
+        "item_id": "104-001",
+        "name": "思明府",
+        "type": "prefecture",
+        "region": "广西",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-104001-t01",
+          "GEO-104001-t02",
+          "GEO-104001-t03",
+          "GEO-104001-t04",
+          "GEO-104001-t05"
+        ],
+        "volume_range": "卷104",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "广东钦州界",
+              "distance_li": 300
+            },
+            {
+              "direction": "西",
+              "to_place": "交阯界",
+              "distance_li": 130
+            },
+            {
+              "direction": "南",
+              "to_place": "思陵州界",
+              "distance_li": 80
+            },
+            {
+              "direction": "北",
+              "to_place": "江州界",
+              "distance_li": 40
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 6360
+            },
+            {
+              "capital": "京师",
+              "distance_li": 9527
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领州五"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": ""
+          },
+          "jun_name": "",
+          "topography": "石山卓立江水回绕【郡志】",
+          "customs": "畏官法无医药【郡志】",
+          "garrisons": []
+        }
+      },
+      {
+        "geo_id": "GEO-104001-t01",
+        "item_id": "104-001",
+        "name": "忠州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-104001",
+        "children": [],
+        "volume_range": "卷104",
+        "attributes": {
+          "location_text": "在府城东",
+          "households": {
+            "count": 1,
+            "unit": "里",
+            "note": "编户一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-104001-t02",
+        "item_id": "104-001",
+        "name": "思明州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-104001",
+        "children": [],
+        "volume_range": "卷104",
+        "attributes": {
+          "location_text": "在府城西北",
+          "households": {
+            "count": 1,
+            "unit": "里",
+            "note": "编户一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-104001-t03",
+        "item_id": "104-001",
+        "name": "上石西州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-104001",
+        "children": [],
+        "volume_range": "卷104",
+        "attributes": {
+          "location_text": "在府城西",
+          "households": {
+            "count": 1,
+            "unit": "里",
+            "note": "编户一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-104001-t04",
+        "item_id": "104-001",
+        "name": "下石西州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-104001",
+        "children": [],
+        "volume_range": "卷104",
+        "attributes": {
+          "location_text": "在府城西",
+          "households": {
+            "count": 1,
+            "unit": "里",
+            "note": "编户一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-104001-t05",
+        "item_id": "104-001",
+        "name": "凭祥州",
+        "type": "tusi",
+        "region": "广西",
+        "parent": "GEO-104001",
+        "children": [],
+        "volume_range": "卷104",
+        "attributes": {
+          "location_text": "在府城西北",
+          "households": {
+            "count": 2,
+            "unit": "里",
+            "note": "编户二里"
+          }
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "dynasty": "古",
+        "era": null,
+        "institution_name": "百粤地",
+        "action": "因之",
+        "detail": "古百粤地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "交阯郡地",
+        "action": "因之",
+        "detail": "汉属交阯郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "思明州",
+        "action": "置",
+        "detail": "唐置思明州，隶邕州都督府"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "思明州",
+        "action": "因之",
+        "detail": "宋隶邕州永平寨"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "dynasty": "元",
+        "era": "至元二十四年",
+        "institution_name": "思明路",
+        "action": "改",
+        "detail": "元至元二十四年改置思明路"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "dynasty": "明",
+        "era": "洪武元年",
+        "institution_name": "思明府",
+        "action": "改",
+        "detail": "本朝洪武元年改为思明府，领州五"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "回团山",
+        "type": "山",
+        "location_text": "在府治西南一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "公母山",
+        "type": "山",
+        "location_text": "在府治南一百二十里",
+        "description": "顶有两峰相对",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001-t01",
+        "name": "藏旦山",
+        "type": "山",
+        "location_text": "在忠州西南一百二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "栋抱山",
+        "type": "山",
+        "location_text": "在西平州南三里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001-t02",
+        "name": "逐象山",
+        "type": "山",
+        "location_text": "在思明州东",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001-t03",
+        "name": "古望山",
+        "type": "山",
+        "location_text": "在上石西州北",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001-t04",
+        "name": "白乐山",
+        "type": "山",
+        "location_text": "在下石西州治北",
+        "description": "峰峦耸秀林木苍翠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001-t05",
+        "name": "坡干山",
+        "type": "山",
+        "location_text": "在凭祥州治北",
+        "description": "山有六尖峰",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "风门岭",
+        "type": "岭",
+        "location_text": "在府城北一十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "磨天岭",
+        "type": "岭",
+        "location_text": "在府城南一十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "明江",
+        "type": "江",
+        "location_text": "源出十万山",
+        "description": "流绕府治南又北流一百八十里入龙州龙江",
+        "lore": "宋陶弼诗几年来瘴外此夜宿溪中照枕残鸡月吹灯落叶风卢循犹伪国杨仆已衰翁起戴寒星去前村烧影红"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "104-001",
+        "geo_id": "GEO-104001",
+        "name": "马跑泉",
+        "type": "泉",
+        "location_text": "在府治西",
+        "description": "元镇南王讨占城班师还思明，士卒饮明江水疾作，祷于神忽马跑地有水涌出，味甘美千百人汲之不涸，遂甃为井，又名太子井，本朝洪武初建楼其上",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "104-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【郡志石山卓立江水回绕】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "104-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志蓬头跣足畏官法无医药如有假贷则刻竹比指信若契书】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "思明府"
+}
