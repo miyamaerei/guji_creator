@@ -1,0 +1,1238 @@
+{
+  "item_id": "84-001",
+  "volume": "84",
+  "source": "漳州府",
+  "region": "福建",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "漳州府",
+        "type": "geo",
+        "norm": "漳州府",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "龙溪县",
+        "type": "geo",
+        "norm": "龙溪县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "漳浦县",
+        "type": "geo",
+        "norm": "漳浦县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "龙岩县",
+        "type": "geo",
+        "norm": "龙岩县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "南靖县",
+        "type": "geo",
+        "norm": "南靖县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "长泰县",
+        "type": "geo",
+        "norm": "长泰县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "漳平县",
+        "type": "geo",
+        "norm": "漳平县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C07",
+        "name": "平和县",
+        "type": "geo",
+        "norm": "平和县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C08",
+        "name": "诏安县",
+        "type": "geo",
+        "norm": "诏安县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C09",
+        "name": "海澄县",
+        "type": "geo",
+        "norm": "海澄县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-C10",
+        "name": "宁洋县",
+        "type": "geo",
+        "norm": "宁洋县",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "漳州卫",
+        "type": "geo",
+        "norm": "漳州卫",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "镇海卫",
+        "type": "geo",
+        "norm": "镇海卫",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "守御六鳌千户所",
+        "type": "geo",
+        "norm": "守御六鳌千户所",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-W04",
+        "name": "守御铜山千户所",
+        "type": "geo",
+        "norm": "守御铜山千户所",
+        "first_source": "84-001"
+      },
+      {
+        "ent_id": "ENT-W05",
+        "name": "守御玄钟千户所",
+        "type": "geo",
+        "norm": "守御玄钟千户所",
+        "first_source": "84-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-84001",
+        "item_id": "84-001",
+        "name": "漳州府",
+        "type": "prefecture",
+        "region": "福建",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-84001-c01",
+          "GEO-84001-c02",
+          "GEO-84001-c03",
+          "GEO-84001-c04",
+          "GEO-84001-c05",
+          "GEO-84001-c06",
+          "GEO-84001-c07",
+          "GEO-84001-c08",
+          "GEO-84001-c09",
+          "GEO-84001-c10",
+          "GEO-84001-w01",
+          "GEO-84001-w02",
+          "GEO-84001-w03",
+          "GEO-84001-w04",
+          "GEO-84001-w05"
+        ],
+        "volume_range": "卷84",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "泉州府同安县界",
+              "distance_li": 80
+            },
+            {
+              "direction": "西",
+              "to_place": "汀州府长汀县界",
+              "distance_li": 230
+            },
+            {
+              "direction": "南",
+              "to_place": "广东潮州府潮阳县界",
+              "distance_li": 315
+            },
+            {
+              "direction": "北",
+              "to_place": "延平府尤溪县界",
+              "distance_li": 300
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3525
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7525
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县十；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": 116000,
+            "unit": "石",
+            "note": "粮一十一万六千石零"
+          },
+          "jun_name": "漳浦【唐名】清漳【以水名又曰临漳】",
+          "topography": "闽岭粤区【舆地纪胜】；东南际海【宋史地志】；境旷穷山外城标涨海边【唐张登诗】；在闽会之极南【宋傅自得道院记】；一水清流列峰秀出【宋进士题名记】；地兼山海秀【宋郭祥正诗】；控引番禺襟喉岭表【郡志】；地偏海近【本朝王祎诗】",
+          "customs": "其民务本不事末作【宋傅有得道院记】；俗故穷陋【宋龙岩县学记】；业农业渔【龙溪记】；乐善远罪【宋郭祥正记】；悍强难治【宋綦崇礼传】；敦尚质朴【郡志】",
+          "garrisons": [
+            {
+              "name": "漳州卫",
+              "type": "卫",
+              "location_text": "在府治西"
+            },
+            {
+              "name": "镇海卫",
+              "type": "卫",
+              "location_text": "在漳浦县东海濵"
+            },
+            {
+              "name": "守御六鳌千户所",
+              "type": "千户所",
+              "location_text": "在漳浦县东"
+            },
+            {
+              "name": "守御铜山千户所",
+              "type": "千户所",
+              "location_text": "在漳浦县南"
+            },
+            {
+              "name": "守御玄钟千户所",
+              "type": "千户所",
+              "location_text": "在漳浦县南海濵"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011",
+          "CIT-012",
+          "CIT-013",
+          "CIT-014"
+        ]
+      },
+      {
+        "geo_id": "GEO-84001-c01",
+        "item_id": "84-001",
+        "name": "龙溪县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 148,
+            "unit": "里",
+            "note": "编户一百四十八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c02",
+        "item_id": "84-001",
+        "name": "漳浦县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城南一百里",
+          "households": {
+            "count": 53,
+            "unit": "里",
+            "note": "编户五十三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c03",
+        "item_id": "84-001",
+        "name": "龙岩县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城西四百里",
+          "households": {
+            "count": 29,
+            "unit": "里",
+            "note": "编户二十九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c04",
+        "item_id": "84-001",
+        "name": "南靖县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城西四十里",
+          "households": {
+            "count": 16,
+            "unit": "里",
+            "note": "编户一十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c05",
+        "item_id": "84-001",
+        "name": "长泰县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城东三十七里",
+          "households": {
+            "count": 11,
+            "unit": "里",
+            "note": "编户一十一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c06",
+        "item_id": "84-001",
+        "name": "漳平县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城西北三百二十里",
+          "households": {
+            "count": 24,
+            "unit": "里",
+            "note": "编户二十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c07",
+        "item_id": "84-001",
+        "name": "平和县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城西南二百五里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户一十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c08",
+        "item_id": "84-001",
+        "name": "诏安县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城南二百一十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户二十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c09",
+        "item_id": "84-001",
+        "name": "海澄县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城南二百八十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户一十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-c10",
+        "item_id": "84-001",
+        "name": "宁洋县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府城西南三百里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-84001-w01",
+        "item_id": "84-001",
+        "name": "漳州卫",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在府治西",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-84001-w02",
+        "item_id": "84-001",
+        "name": "镇海卫",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在漳浦县东海濵",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-84001-w03",
+        "item_id": "84-001",
+        "name": "守御六鳌千户所",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在漳浦县东",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-84001-w04",
+        "item_id": "84-001",
+        "name": "守御铜山千户所",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在漳浦县南",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-84001-w05",
+        "item_id": "84-001",
+        "name": "守御玄钟千户所",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-84001",
+        "children": [],
+        "volume_range": "卷84",
+        "attributes": {
+          "location_text": "在漳浦县南海濵",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "夏周以前",
+        "era": null,
+        "institution_name": "七闽地",
+        "action": "因之",
+        "detail": "禹贡扬州之域，天文牛女分野，周为七闽地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "闽中郡",
+        "action": "属",
+        "detail": "秦属闽中郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东冶县",
+        "action": "属",
+        "detail": "汉为东冶县地，东汉为南部都尉地，并属会稽郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "晋安郡",
+        "action": "属",
+        "detail": "晋属晋安郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "梁",
+        "era": null,
+        "institution_name": "南安郡",
+        "action": "属",
+        "detail": "梁属南安郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "闽州",
+        "action": "属",
+        "detail": "隋属闽州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "漳州",
+        "action": "置",
+        "detail": "唐垂拱初析福州西南境置漳州，以南有漳水为名，治漳浦县；开元初徙治李澳川；天宝初改漳浦郡；乾元初复为漳州，又徙治龙溪"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "南州",
+        "action": "改",
+        "detail": "五代晋时留从效改为南州"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "漳州",
+        "action": "复",
+        "detail": "宋复为漳州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "漳州路",
+        "action": "升",
+        "detail": "元升为漳州路"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "漳州府",
+        "action": "改",
+        "detail": "本朝改为漳州府，领县十"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "登高山",
+        "type": "山",
+        "location_text": "在府城",
+        "description": "山自西北来连亘三十余里，至此一峰耸拔，山顶旧有临漳台，本朝洪武中建亭名曰威镇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "九龙山",
+        "type": "山",
+        "location_text": "在府城",
+        "description": "郡志山下有九龙水，山北又有金溪水",
+        "lore": "宋陈尧佐诗人生五马贵山有九龙游"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "筋山",
+        "type": "山",
+        "location_text": "在府城东",
+        "description": "上有白云覆之，或阴晦则闻箫吹之声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "圆山",
+        "type": "山",
+        "location_text": "在府城西八里",
+        "description": "秀丽而崇圆，山顶有石池，山麓有康仙祠",
+        "lore": "宋僧宝禅诗南望西山十里赊五云深处问琵琶从来天子封侯庙元是神仙炼药家"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "岐山",
+        "type": "山",
+        "location_text": "在府城东一十五里",
+        "description": "山有南北二峰，五代时僧楚熙居此，有石禅床、题诗石、桃源口、诵经坛、一人泉、石翁岩、石棋枰、虚白岩、千人洞",
+        "lore": "宋郭永即其景为十咏"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "名第山",
+        "type": "山",
+        "location_text": "在府城东南一十六里",
+        "description": "旧名天城山，唐周匡物潘存实读书此山，匡物登元和进士第，因号名第山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "大武山",
+        "type": "山",
+        "location_text": "在漳浦县东北",
+        "description": "去州二百八十里，东邻大海，世传越王建德尝避兵于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "梁山",
+        "type": "山",
+        "location_text": "在漳浦县南",
+        "description": "古记云梁岳闽中之望也，山有大峰十二",
+        "lore": "唐吴伟明诗梁山重回首翠峰三十六潘存实诗盘根来楚蜀作镇表瓯闽"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "云霄山",
+        "type": "山",
+        "location_text": "在漳浦县西九十里",
+        "description": "以其高耸霄汉故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "将军山",
+        "type": "山",
+        "location_text": "在漳浦县西南九十里",
+        "description": "接南靖县界，唐将军陈元光征蛮筑城于此，山有磨剑试剑石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "九侯山",
+        "type": "山",
+        "location_text": "在漳浦县西南",
+        "description": "郡志谓九峰之神各主一山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c03",
+        "name": "天公山",
+        "type": "山",
+        "location_text": "在龙岩县西北",
+        "description": "山顶有瀑布飞洒数十丈，唐初山贼至为雷所击就擒，故名，山阴晦时闻箫鼓声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c03",
+        "name": "龙岩山",
+        "type": "山",
+        "location_text": "在龙岩县东",
+        "description": "有小石山突起，中有石岩穴容百许人，石壁上纹状若双龙，常有泉滴故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c04",
+        "name": "欧寮山",
+        "type": "山",
+        "location_text": "在南靖县北",
+        "description": "又有大武安南北二峰峭拔，周回百余里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c04",
+        "name": "三平山",
+        "type": "山",
+        "location_text": "在南靖县南清宁里",
+        "description": "唐僧义中尝从大颠后建三平院住持此山，山有十一奇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c05",
+        "name": "良冈山",
+        "type": "山",
+        "location_text": "在长泰县北石铭里",
+        "description": "山有泉，遇旱祷雨即应，山麓有良冈寺",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c05",
+        "name": "鼓鸣山",
+        "type": "山",
+        "location_text": "在长泰县东北",
+        "description": "旧志云每风雨晦暝常闻鼓声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "蔡岗岭",
+        "type": "岭",
+        "location_text": "在府境",
+        "description": "旧名揭鸿岭",
+        "lore": "唐慕容韦诗闽越曾为塞将军旧置营我歌胡感慨西北望神京"
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c03",
+        "name": "砚石岭",
+        "type": "岭",
+        "location_text": "在龙岩县东",
+        "description": "峰峦秀丽，气脉融和，取其石作砚甚光润",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "丹霞屿",
+        "type": "屿",
+        "location_text": "在府城东南海中",
+        "description": "一名赤屿，石朝色如丹，晚色如霞",
+        "lore": "宋林宗臣诗笑凭诗句说丹霞城郭人民数万家礼接紫阳风俗厚学传东鲁道源赊"
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "荆屿",
+        "type": "屿",
+        "location_text": "在府城东海中",
+        "description": "屿上多荆草故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "梁屿",
+        "type": "屿",
+        "location_text": "在府城东海中",
+        "description": "其洲上有水豹水人",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "紫云岩",
+        "type": "岩",
+        "location_text": "在府城南厢外",
+        "description": "岩前诸峰甚奇，峰之巅常有紫云覆之，宋僧雪山创庵其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "石狮岩",
+        "type": "岩",
+        "location_text": "在府城南",
+        "description": "",
+        "lore": "宋李弥逊诗翠合峰峦万叶稠云擎佛屋出岩幽秋光不到庭阴树晓日光明竹外楼"
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "乌石岩",
+        "type": "岩",
+        "location_text": "在龙溪县南一十三都",
+        "description": "宋淳熙间有僧陈圣者隐此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "中峰岩",
+        "type": "岩",
+        "location_text": "在漳浦县南梁山",
+        "description": "",
+        "lore": "唐钟绍京有诗"
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "观音岩",
+        "type": "岩",
+        "location_text": "在龙溪县",
+        "description": "",
+        "lore": "宋林迪有诗"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "瑞龟岩",
+        "type": "岩",
+        "location_text": "在龙溪县东二十七都",
+        "description": "",
+        "lore": "宋蔡希蘧有诗"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "屏风石",
+        "type": "石",
+        "location_text": "在岐山",
+        "description": "有石壁立如削，名曰屏风",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "齐帝石",
+        "type": "石",
+        "location_text": "在梁山中峰",
+        "description": "旧名莲花石，相传为齐武帝所赏，晋亭在其西，葛洪尝居之",
+        "lore": "唐张登诗孤高齐帝石潇洒晋亭峰"
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "海",
+        "type": "海",
+        "location_text": "龙溪漳浦二县滨大海",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "九龙江",
+        "type": "江",
+        "location_text": "在府城东北",
+        "description": "又名北溪，源出汀州及延平沙县界，梁大同间九龙戏于江因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "柳营江",
+        "type": "江",
+        "location_text": "在府城东",
+        "description": "源出北溪，流至峡里为柳营江，漳州东偏之险要",
+        "lore": "唐欧阳詹柳营江通源驿诗回峰叠嶂绕亭隅数点烟霞胜画图"
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "漳江",
+        "type": "江",
+        "location_text": "在漳浦县南",
+        "description": "",
+        "lore": "宋徐俯王言彻皆有诗"
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "东湖",
+        "type": "湖",
+        "location_text": "在府城东",
+        "description": "",
+        "lore": "宋郭祥正有诗"
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "西湖",
+        "type": "湖",
+        "location_text": "在府城西",
+        "description": "有泉极甘美可以辟瘴疠，古谚云圆山啸西湖平此时出公卿",
+        "lore": "宋蔡襄有诗"
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "蜡湖",
+        "type": "湖",
+        "location_text": "在漳浦县西一十里",
+        "description": "本名淡溪，忽有一蜡鱼因改今名，随潮盈缩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "石塍溪",
+        "type": "溪",
+        "location_text": "在漳浦县西二百五十七里",
+        "description": "源发江西闽广之交，其水恶，徒涉则足黑，饮之则病瘴",
+        "lore": "杜佑通典独载此"
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c03",
+        "name": "罗溪",
+        "type": "溪",
+        "location_text": "在龙岩县",
+        "description": "以人姓得名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c03",
+        "name": "藿溪",
+        "type": "溪",
+        "location_text": "在龙岩县东北",
+        "description": "源自连城县下流入九龙江，昔人尝闻溪边有藿香气因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c02",
+        "name": "李澳溪",
+        "type": "溪",
+        "location_text": "在漳浦县西",
+        "description": "源出梁山北，灌田千顷，又有温溪两泉涌出，一微暖一微热",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "瀑布泉",
+        "type": "泉",
+        "location_text": "在梁山",
+        "description": "",
+        "lore": "宋蔡希蘧诗会稽之南罗浮北中有大梁神仙宅瀑流今古挂长虹"
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "惠民泉",
+        "type": "泉",
+        "location_text": "在府城北门外",
+        "description": "泉甚清冽",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "天庆观井",
+        "type": "井",
+        "location_text": "在府城中",
+        "description": "水极美可辟瘴疠，仕宦者先汲此泉往迓",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "天宫井",
+        "type": "井",
+        "location_text": "在府城西西湖天宫院",
+        "description": "泉极甘美",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c03",
+        "name": "三井",
+        "type": "井",
+        "location_text": "在龙岩县西",
+        "description": "以泉味高下分上中下三井",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c04",
+        "name": "思清井",
+        "type": "井",
+        "location_text": "在南靖县学",
+        "description": "元时所凿，其泉甘美",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c05",
+        "name": "义泉井",
+        "type": "井",
+        "location_text": "在长泰县治南旧环珠楼西",
+        "description": "宋时凿，虽大旱不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "满月池",
+        "type": "池",
+        "location_text": "在府城开元寺",
+        "description": "池上有松百余株，号松关",
+        "lore": "宋蔡襄有诗"
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c01",
+        "name": "丽藻池",
+        "type": "池",
+        "location_text": "在府学前",
+        "description": "南通溪，秋冬不竭，夏时绝蛙声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "84-001",
+        "geo_id": "GEO-84001-c05",
+        "name": "西湖池",
+        "type": "池",
+        "location_text": "在长泰县治西",
+        "description": "宋嘉熙中县令郑师申开凿，亭其上",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "84-001",
+        "cited_work": "舆地纪胜",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【舆地纪胜闽岭粤区】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "84-001",
+        "cited_work": "宋史地志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋史地志东南际海】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "84-001",
+        "cited_work": "张登诗",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【唐张登诗境旷穷山外城标涨海边】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "84-001",
+        "cited_work": "傅自得道院记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋傅自得道院记在闽会之极南】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "84-001",
+        "cited_work": "进士题名记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋进士题名记漳极闽之南一水清流列峰秀出拥成郡势不在建剑下】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "84-001",
+        "cited_work": "郭祥正诗",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋郭祥正诗地兼山海秀】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "84-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【郡志控引番禺襟喉岭表】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "84-001",
+        "cited_work": "王祎诗",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【本朝王祎诗漳水南边郡闽州到此穷地偏冬少雪海近夜风多】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "84-001",
+        "cited_work": "傅有得道院记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋傅有得道院记其民务本不事末作】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "84-001",
+        "cited_work": "龙岩县学记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋龙岩县学记俗故穷陋】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "84-001",
+        "cited_work": "龙溪记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【龙溪记业农者近郭之民业渔者濒海之民】"
+      },
+      {
+        "cit_id": "CIT-012",
+        "item_id": "84-001",
+        "cited_work": "郭祥正记",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋郭祥正记闽之八州漳最在南民有田以耕纺苎为布弗迫于衣食乐善远罪非七州之比】"
+      },
+      {
+        "cit_id": "CIT-013",
+        "item_id": "84-001",
+        "cited_work": "綦崇礼传",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋綦崇礼传其俗悍强号难治】"
+      },
+      {
+        "cit_id": "CIT-014",
+        "item_id": "84-001",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【郡志敦尚质朴务业者多健讼者少】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "漳州府"
+}

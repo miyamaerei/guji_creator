@@ -1,0 +1,1306 @@
+{
+  "item_id": "81-001",
+  "volume": "81",
+  "source": "汀州府",
+  "region": "福建",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "汀州府",
+        "type": "geo",
+        "norm": "汀州府",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "长汀县",
+        "type": "geo",
+        "norm": "长汀县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "宁化县",
+        "type": "geo",
+        "norm": "宁化县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "上杭县",
+        "type": "geo",
+        "norm": "上杭县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "武平县",
+        "type": "geo",
+        "norm": "武平县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "清流县",
+        "type": "geo",
+        "norm": "清流县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "连城县",
+        "type": "geo",
+        "norm": "连城县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C07",
+        "name": "归化县",
+        "type": "geo",
+        "norm": "归化县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-C08",
+        "name": "永定县",
+        "type": "geo",
+        "norm": "永定县",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "汀州卫",
+        "type": "geo",
+        "norm": "汀州卫",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "守御武平千户所",
+        "type": "geo",
+        "norm": "守御武平千户所",
+        "first_source": "81-001"
+      },
+      {
+        "ent_id": "ENT-W03",
+        "name": "上杭守御千户所",
+        "type": "geo",
+        "norm": "上杭守御千户所",
+        "first_source": "81-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-81001",
+        "item_id": "81-001",
+        "name": "汀州府",
+        "type": "prefecture",
+        "region": "福建",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-81001-c01",
+          "GEO-81001-c02",
+          "GEO-81001-c03",
+          "GEO-81001-c04",
+          "GEO-81001-c05",
+          "GEO-81001-c06",
+          "GEO-81001-c07",
+          "GEO-81001-c08",
+          "GEO-81001-w01",
+          "GEO-81001-w02",
+          "GEO-81001-w03"
+        ],
+        "volume_range": "卷81",
+        "attributes": {
+          "borders": [],
+          "to_capital": [],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县八；各属编户见下"
+          },
+          "grain_tax": {
+            "count": null,
+            "unit": "石",
+            "note": null
+          },
+          "jun_name": "临汀【唐名】鄞江【以郡内有鄞江故名】",
+          "topography": "崇山复岭【鄞江志今汀闽越西南与章贡潮梅接崇山复岭民生尚武】；南通交广北达江右【宋郑强移剏州学记】；瓯闽奥壤【宋张文修学记】；在山谷斗绝之地【文献通考】；西邻赣吉南接潮梅【鄞江志】；山重水迅【图志】",
+          "customs": "风声气习颇类中州【宋陈一新跋瞻学田碑】；刚愎好斗【图志气刚愎而好斗心褊迫而浅中】；质直好义【元志君子质直好义而怙于进取小人则愿悫少文而安于勤劳】；岛居者安渔盐之利山居者任耕织之劳【鄞江志】",
+          "garrisons": [
+            {
+              "name": "汀州卫",
+              "type": "卫",
+              "location_text": "在府治东洪武元年建"
+            },
+            {
+              "name": "守御武平千户所",
+              "type": "千户所",
+              "location_text": "在武平县西洪武二十四年建隶汀州卫"
+            },
+            {
+              "name": "上杭守御千户所",
+              "type": "千户所",
+              "location_text": "在上杭县治东"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010"
+        ]
+      },
+      {
+        "geo_id": "GEO-81001-c01",
+        "item_id": "81-001",
+        "name": "长汀县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 46,
+            "unit": "里",
+            "note": "编户四十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c02",
+        "item_id": "81-001",
+        "name": "宁化县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城东北一百八十里",
+          "households": {
+            "count": 60,
+            "unit": "里",
+            "note": "编户六十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c03",
+        "item_id": "81-001",
+        "name": "上杭县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城南一百九十里",
+          "households": {
+            "count": 41,
+            "unit": "里",
+            "note": "编户四十一里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c04",
+        "item_id": "81-001",
+        "name": "武平县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城西南二百一十里",
+          "households": {
+            "count": 20,
+            "unit": "里",
+            "note": "编户二十里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c05",
+        "item_id": "81-001",
+        "name": "清流县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城东北二百一十里",
+          "households": {
+            "count": 56,
+            "unit": "里",
+            "note": "编户五十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c06",
+        "item_id": "81-001",
+        "name": "连城县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城东南一百七十里",
+          "households": {
+            "count": 32,
+            "unit": "里",
+            "note": "编户三十二里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c07",
+        "item_id": "81-001",
+        "name": "归化县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城东北二百八十里",
+          "households": {
+            "count": 45,
+            "unit": "里",
+            "note": "编户四十五里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-c08",
+        "item_id": "81-001",
+        "name": "永定县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府城南三百一十里",
+          "households": {
+            "count": 19,
+            "unit": "里",
+            "note": "编户一十九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-81001-w01",
+        "item_id": "81-001",
+        "name": "汀州卫",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在府治东洪武元年建",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-81001-w02",
+        "item_id": "81-001",
+        "name": "守御武平千户所",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在武平县西洪武二十四年建隶汀州卫",
+          "garrison_type": "千户所"
+        }
+      },
+      {
+        "geo_id": "GEO-81001-w03",
+        "item_id": "81-001",
+        "name": "上杭守御千户所",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-81001",
+        "children": [],
+        "volume_range": "卷81",
+        "attributes": {
+          "location_text": "在上杭县治东",
+          "garrison_type": "千户所"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "夏周以前",
+        "era": null,
+        "institution_name": "禹贡扬州之域",
+        "action": "因之",
+        "detail": "禹贡扬州之域，天文牛女分野，周为七闽地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "闽中郡",
+        "action": "属",
+        "detail": "秦属闽中郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "闽越国/冶县",
+        "action": "属",
+        "detail": "汉属闽越国，后为冶县地，属会稽郡；东汉属会稽南部都尉"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "建安郡",
+        "action": "属",
+        "detail": "三国吴属建安郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "晋南北朝隋",
+        "era": null,
+        "institution_name": "新罗县/晋安郡",
+        "action": "置",
+        "detail": "晋于此置新罗县，属晋安郡；宋齐梁陈隋皆省"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "汀州",
+        "action": "置",
+        "detail": "唐开元末始开福抚二州山洞置汀州，因长汀溪为名；天宝初改临汀郡；乾元初复为汀州；初治新罗，大历中徙治白石"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "闽/南唐",
+        "action": "属",
+        "detail": "五代时初属闽王氏，后属南唐"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "福建路",
+        "action": "属",
+        "detail": "宋隶福建路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "汀州路",
+        "action": "改",
+        "detail": "元改为汀州路"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "汀州府",
+        "action": "改",
+        "detail": "本朝改为汀州府，领县八"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "卧龙山",
+        "type": "山",
+        "location_text": "在府治后",
+        "description": "为郡之主山，偃卧如龙，一名无境山",
+        "lore": "宋郭祥正诗卧龙胜事堪图画逈压闽南七八州"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "南山",
+        "type": "山",
+        "location_text": "在府城南",
+        "description": "屹然如屏，青葱可爱，其下坦夷，有文殊同庆二寺",
+        "lore": "宋陈轩诗呀然碧玉洞屹立分双户天生佳景常恐尘土汚"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "圆珠山",
+        "type": "山",
+        "location_text": "在府城南",
+        "description": "一名龙珠山，形如珠圆，俗又呼宝珠峰",
+        "lore": "宋郡守张宪诗万叠层冈揖卧龙一峰圆顶翠凌空"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "笔架山",
+        "type": "山",
+        "location_text": "在府城东",
+        "description": "三峰齐耸，形如笔架",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "拜相山",
+        "type": "山",
+        "location_text": "在府城东南二里",
+        "description": "形如人拜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "玉女山",
+        "type": "山",
+        "location_text": "在府城南一十五里",
+        "description": "旧传王氏女修真之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "鸡笼山",
+        "type": "山",
+        "location_text": "在府城北五十里",
+        "description": "旧传宋时王中正成道之所",
+        "lore": "郭祥正诗神仙之府名鸡笼千寻翠玉擎寒空秀色凌风入城郭半街晓日金蒙蒙"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "灵蛇山",
+        "type": "山",
+        "location_text": "在府城南一百八十里",
+        "description": "旧传山多蛇，其下有蛇山庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "翠华山",
+        "type": "山",
+        "location_text": "在宁化县北二里",
+        "description": "山色苍翠故曰翠华，春时邑人多游览焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在宁化县北五十里",
+        "description": "其形如凤",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "南宝山",
+        "type": "山",
+        "location_text": "在上杭县北七里",
+        "description": "据金山之阳故名，望之如笔插空",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "金山",
+        "type": "山",
+        "location_text": "在上杭县西一十里",
+        "description": "宋康定间尝产金因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "铜鼓山",
+        "type": "山",
+        "location_text": "在上杭县东南一百里",
+        "description": "旧传山有铜鼓声，闻则岁大稔，石壁上有倒书千年二字今存",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "羊厨山",
+        "type": "山",
+        "location_text": "在上杭县西南一百余里",
+        "description": "高岩怪石千态万状，据汀潮二州界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "灵洞山",
+        "type": "山",
+        "location_text": "在武平县西一十里",
+        "description": "下有灵石汤泉，大洞三十六小洞二十八",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "梁山",
+        "type": "山",
+        "location_text": "在武平县东三十五里",
+        "description": "嵳峩险峻，其形叠出，绝顶有白莲池。昔乡民采茗误至一岩，披蒙茸而入，内有佛像经帙钟磬幢盖俨然如新，后再往迷失故路",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "丰山",
+        "type": "山",
+        "location_text": "在清流县",
+        "description": "山极峭绝，人迹罕到。宋时有道士刘姓者奋勇攀登凡六日，至其巅坦夷可坐数十人，有棋局丹灶础石散于地如故居废址，疑为仙境",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "屏山",
+        "type": "山",
+        "location_text": "在清流县北",
+        "description": "屹然独立如屏，拥于县治之后",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "莲峰山",
+        "type": "山",
+        "location_text": "在连城县东七里",
+        "description": "状若莲花。元马周卿取山中奇胜命题凡十三，以隶书刻石：苍玉峡、云栈、天梯、冠豸、桃源、清如许、芙蓉波、金字泉、白云深处、天光咫尺、苍谷、虚灵、小崆峒",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "白云山",
+        "type": "山",
+        "location_text": "在连城县西一百里",
+        "description": "崚嶒叠秀，高插霄汉，时有白云覆顶故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "金鸡山",
+        "type": "山",
+        "location_text": "在连城县南",
+        "description": "世传有人至山见一庵，有金鸡飞鸣，因寄宿，觉后遂失庵所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "天马山",
+        "type": "山",
+        "location_text": "在连城县东北",
+        "description": "怪石昂藏若天马争奔。旧传遇风雨夜则嘶鸣，鸣则乡里不靖，元末雷击其首",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "三仙山",
+        "type": "山",
+        "location_text": "在连城县东北",
+        "description": "旧传山中常有三人谈笑，一日皆乘鹤而去",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "二老峰",
+        "type": "峰",
+        "location_text": "在府城东五里",
+        "description": "双石峭立如人形故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "翠峰",
+        "type": "峰",
+        "location_text": "在府城东南一十五里",
+        "description": "壁立千仞，烟云出没，惟天色清霁，卓午方见其顶",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "双峰",
+        "type": "峰",
+        "location_text": "在府城东南二百里",
+        "description": "峰峦双耸，插入云汉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "鹫峰",
+        "type": "峰",
+        "location_text": "在府城南山半",
+        "description": "有鹫峰院",
+        "lore": "宋蒋之奇诗山前千里入青苍猿鸟声中建道场日转竹阴侵阁冷水流花片过门香"
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "佛岭",
+        "type": "岭",
+        "location_text": "在府城东南五里",
+        "description": "今名通济岩，石壁间有佛庵，宋长史邓曾建，后人创长史亭于庵侧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "新路岭",
+        "type": "岭",
+        "location_text": "在府城西六十里",
+        "description": "峭险壁立，砂砾崎岖，行者病焉。岭背即隶江西，此天以限闽中也",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "黄公岭",
+        "type": "岭",
+        "location_text": "在武平县",
+        "description": "岭巅有泉一泓从石而出，虽千百人饮汲之不竭，名卓锡泉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "登高岭",
+        "type": "岭",
+        "location_text": "在宁化县治北",
+        "description": "邑人九月九日载酒囊茱游赏于此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "金船岭",
+        "type": "岭",
+        "location_text": "在宁化县东三十里",
+        "description": "旧传山有金船，其光夜现，求之弗得",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "香岭",
+        "type": "岭",
+        "location_text": "在上杭县东",
+        "description": "尝产木乳，膏居人采而焚之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "垂珠岭",
+        "type": "岭",
+        "location_text": "在连城县南",
+        "description": "宋丞相文天祥起义兵勤王，尝过此岭，回首垂涕",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "霹雳岩",
+        "type": "岩",
+        "location_text": "在拜相山",
+        "description": "宋元祐间白昼起雷一声，岩窦划开，中有丹灶，后建祐圣道院于岩间",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "石燕岩",
+        "type": "岩",
+        "location_text": "在府城南七里",
+        "description": "昔有飞燕颉颃，遇骤雨集石上，雨止视之皆化为石",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "狮子岩",
+        "type": "岩",
+        "location_text": "在府城东南九十里",
+        "description": "相传定光佛初振锡于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "西岩",
+        "type": "岩",
+        "location_text": "在宁化县东北五十里",
+        "description": "石笋屹立如门，有数石室，其一曰乳穴，必烈炬然后可入，中有泉，乡人旱祷辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "东岩",
+        "type": "岩",
+        "location_text": "在西岩之侧",
+        "description": "石室傍有石莲数朵，又有石如壶，泉涌壶口，其南最高处有石鹤若奋飞之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "石钟岩",
+        "type": "岩",
+        "location_text": "在上杭县太平乡",
+        "description": "中有石乳",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "仙女岩",
+        "type": "岩",
+        "location_text": "在上杭县东",
+        "description": "有石天窗透日，昔有仙女居之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "南安岩",
+        "type": "岩",
+        "location_text": "在武平县南八十五里",
+        "description": "俗呼为龙穿洞，相传定光佛所开。中有二岩，南岩窈窕虚旷石室天成，东岩差隘而石龛尤缜密",
+        "lore": "宋郭祥正诗汀梅之间山万重南安岩窦何玲珑青瑶屹立敞四壁巧匠缩手难为工"
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "七峰岩",
+        "type": "岩",
+        "location_text": "在清流县界",
+        "description": "有峰突然成列者七故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "侍郎岩",
+        "type": "岩",
+        "location_text": "在清流县东北",
+        "description": "宋熙丰间侍郎张驾、祭酒杨时、司谏陈瓘读书之所。相传三君子肄业时不置卧榻，啜粥饮水终岁不到岩下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "石门岩",
+        "type": "岩",
+        "location_text": "在连城县东七里",
+        "description": "双石对峙，壁立万仞故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "潭飞磜",
+        "type": "磜",
+        "location_text": "在宁化县南乡",
+        "description": "重冈复岭环布森列，登陟极难，磜居其中坦然而平，山环水合，有田有池，草茂林深，易于藏聚。宋绍定间有寇作乱于此，未几平之，因置南平寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "苍玉洞",
+        "type": "洞",
+        "location_text": "在府城东二里东禅寺前",
+        "description": "道傍石对峙如门，一洞内有石名曰抱云",
+        "lore": "宋陈轩诗截断苍山百尺崖峥嵘相倚洞门开天生只隔红尘路不碍浮云自往来"
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "黄连洞",
+        "type": "洞",
+        "location_text": "在宁化县东五里",
+        "description": "县旧以此名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "灵隐洞",
+        "type": "洞",
+        "location_text": "在宁化县北五十里",
+        "description": "洞前重冈叠巘森列左右，小涧横绝，烟云缥缈，有圣水桃竹，又有一石柱地而起，上有洼樽乳泉滴沥满而不溢，饮之愈病",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "象洞",
+        "type": "洞",
+        "location_text": "在武平县南一百里",
+        "description": "其中广阔，号九十九洞，宋时尝于此置寨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "玉华西洞",
+        "type": "洞",
+        "location_text": "在清流县东北六十里",
+        "description": "石峰拔地，苍翠横空，玲珑穿透可容百余人，中有石观音石莲花石狮子之类。宋乾道间始建佛庐，诗人多有题咏",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "飞来石",
+        "type": "石",
+        "location_text": "在府城内云骧阁西",
+        "description": "相传一夕随雷雨而至",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "狂波石",
+        "type": "石",
+        "location_text": "在宁化县东七里赤冈潭中",
+        "description": "旧传有二龙蟠石上，水涨时波涛汹涌",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "莲花石",
+        "type": "石",
+        "location_text": "在上杭县南",
+        "description": "屹立大溪中，状若莲花，石壁间有山嶂隐然如妇人逐一鹅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c03",
+        "name": "马迹石",
+        "type": "石",
+        "location_text": "在上杭县南涧水中",
+        "description": "上有马迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "寅湖",
+        "type": "湖",
+        "location_text": "在府城东二里",
+        "description": "以其居寅位故名。湖中有王中正祖坟，号王仙人坟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "蛟湖",
+        "type": "湖",
+        "location_text": "在宁化县北六十里",
+        "description": "深不可测。昔有僧见白龙卧湖面，乡人遇旱投败铁于内，辄作暴雨怒涛涌出其铁而后已。宋嘉泰间祷雨有应，遂建龙神庙于湖侧",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "柘湖",
+        "type": "湖",
+        "location_text": "在宁化县北",
+        "description": "其水四时不涸，溉田甚多，境内赖焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "鄞江",
+        "type": "江",
+        "location_text": "在府城东",
+        "description": "即东溪水，自翠峰发源，合鄞坑水至张家陂与正溪合",
+        "lore": "宋蒋之奇诗鄞江一丈水清可照人心"
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "正溪",
+        "type": "溪",
+        "location_text": "在府城东南",
+        "description": "又名大溪",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "西溪",
+        "type": "溪",
+        "location_text": "在府城西五里",
+        "description": "自太原发源",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "汀水",
+        "type": "水",
+        "location_text": "溪水自北发源至州境而东遂南流入海",
+        "description": "是天下之水皆东，惟汀水独南，南丁位也，以水合丁为文",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "五百滩",
+        "type": "滩",
+        "location_text": "自汀抵潮",
+        "description": "其滩险有五百",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "长空滩",
+        "type": "滩",
+        "location_text": "在清流县东",
+        "description": "滩下有潭深不可测，其中屹立一大石，水势汹涌，舟楫艰于往来",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "九龙滩",
+        "type": "滩",
+        "location_text": "在清流县东南",
+        "description": "乃溪水最险处，过者必遵陆空舟而行，内三滩属沙县，故又名六龙滩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c05",
+        "name": "渔沧潭",
+        "type": "潭",
+        "location_text": "在清流县治东",
+        "description": "其泽有三皆深不可测，西岸巨石对峙，渔人多捕鱼于此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "古井",
+        "type": "井",
+        "location_text": "在宁化县西五里",
+        "description": "清澈甘冽，病者饮之即愈",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "龙泉井",
+        "type": "井",
+        "location_text": "在武平县禅果寺",
+        "description": "相传定光佛所凿，尝有龙见其中",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c06",
+        "name": "三龙井",
+        "type": "井",
+        "location_text": "在连城县南顺里",
+        "description": "邑人每见其中云雾腾起即雨，旧传有龙居其间，岁旱祷雨辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "汤泉",
+        "type": "泉",
+        "location_text": "在府城南四十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "金乳泉",
+        "type": "泉",
+        "location_text": "在府城内",
+        "description": "相传为定光佛卓锡处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "玉泉",
+        "type": "泉",
+        "location_text": "在府城东南",
+        "description": "流为瀑布",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c02",
+        "name": "万斛泉",
+        "type": "泉",
+        "location_text": "在宁化县北五十里石洞中",
+        "description": "坌涌而出",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "圣公泉",
+        "type": "泉",
+        "location_text": "在黄公岭上",
+        "description": "相传定光佛过此偶渴，卓锡山水，仅林勺，虽千人饮之不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c01",
+        "name": "胆水池",
+        "type": "池",
+        "location_text": "在金山上",
+        "description": "池有三，旧传可浸铁成铜，今不然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "81-001",
+        "geo_id": "GEO-81001-c04",
+        "name": "蛟塘",
+        "type": "塘",
+        "location_text": "在武平县",
+        "description": "其水无源，其深无际。昔有蛟为民患，泊南安祖师建院于岩下，其毒遂弭",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "81-001",
+        "cited_work": "鄞江志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【鄞江志今汀闽越西南与章贡潮梅接崇山复岭民生尚武】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "81-001",
+        "cited_work": "郑强移剏州学记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋郑强移剏州学记南通交广北达江右】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "81-001",
+        "cited_work": "张文修学记",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【宋张文修学记瓯闽奥壤】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "81-001",
+        "cited_work": "文献通考",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【文献通考在山谷斗绝之地】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "81-001",
+        "cited_work": "鄞江志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【鄞江志西邻赣吉南接潮梅】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "81-001",
+        "cited_work": "图志",
+        "cited_work_ent_id": null,
+        "context": "形势",
+        "original": "【图志山重水迅】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "81-001",
+        "cited_work": "陈一新跋瞻学田碑",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋陈一新跋瞻学田碑风声气习颇类中州】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "81-001",
+        "cited_work": "图志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图志气刚愎而好斗心褊迫而浅中】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "81-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【元志君子质直好义而怙于进取小人则愿悫少文而安于勤劳】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "81-001",
+        "cited_work": "鄞江志",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【鄞江志岛居者安渔盐之利山居者任耕织之劳】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "汀州府"
+}

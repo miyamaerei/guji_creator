@@ -1,0 +1,1602 @@
+{
+  "item_id": "78-001",
+  "volume": "78",
+  "source": "泉州府",
+  "region": "福建",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "泉州府",
+        "type": "geo",
+        "norm": "泉州府",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C01",
+        "name": "晋江县",
+        "type": "geo",
+        "norm": "晋江县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C02",
+        "name": "南安县",
+        "type": "geo",
+        "norm": "南安县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C03",
+        "name": "惠安县",
+        "type": "geo",
+        "norm": "惠安县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C04",
+        "name": "德化县",
+        "type": "geo",
+        "norm": "德化县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C05",
+        "name": "安溪县",
+        "type": "geo",
+        "norm": "安溪县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C06",
+        "name": "同安县",
+        "type": "geo",
+        "norm": "同安县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-C07",
+        "name": "永春县",
+        "type": "geo",
+        "norm": "永春县",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-W01",
+        "name": "泉州卫",
+        "type": "geo",
+        "norm": "泉州卫",
+        "first_source": "78-001"
+      },
+      {
+        "ent_id": "ENT-W02",
+        "name": "永宁卫",
+        "type": "geo",
+        "norm": "永宁卫",
+        "first_source": "78-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-78-001-",
+        "item_id": "78-001",
+        "name": "泉州府",
+        "type": "prefecture",
+        "region": "福建",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-78-001-c01",
+          "GEO-78-001-c02",
+          "GEO-78-001-c03",
+          "GEO-78-001-c04",
+          "GEO-78-001-c05",
+          "GEO-78-001-c06",
+          "GEO-78-001-c07",
+          "GEO-78-001-w01",
+          "GEO-78-001-w02"
+        ],
+        "volume_range": "卷78",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "海岸",
+              "distance_li": 130
+            },
+            {
+              "direction": "西",
+              "to_place": "漳州府长泰县界",
+              "distance_li": 150
+            },
+            {
+              "direction": "南",
+              "to_place": "海岸",
+              "distance_li": 103
+            },
+            {
+              "direction": "北",
+              "to_place": "兴化府仙游县界",
+              "distance_li": 132
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "南京",
+              "distance_li": 3255
+            },
+            {
+              "capital": "京师",
+              "distance_li": 7255
+            }
+          ],
+          "households": {
+            "count": null,
+            "unit": "里",
+            "note": "领县七；各属编户见下"
+          },
+          "grain_tax": {
+            "amount": null,
+            "unit": "石",
+            "note": "粮一十万九千石零"
+          },
+          "jun_name": "清源【唐名】温陵【图经其地少寒故曰温陵】",
+          "topography": "川逼溟渤山连苍梧【唐欧阳詹二公亭记】；近接三吴远连二广【宋连南夫修城记】；闽越奥区【方壁记】；地带岭海【宋钱熙记】；表以紫帽龙首之峰带以金溪石笋之阻【宋陈知柔修二门记】",
+          "customs": "民淳讼简【宋王十朋止讼文】；俗尚俭朴【图册】；风俗淳厚【宋张阑云】；素习诗书【宋曹修睦建学表】；槟榔为礼【图册】",
+          "garrisons": [
+            {
+              "name": "泉州卫",
+              "type": "卫",
+              "location_text": "在府治西元为总管府本朝洪武初改置卫"
+            },
+            {
+              "name": "永宁卫",
+              "type": "卫",
+              "location_text": "在府城东南洪武二十年建"
+            },
+            {
+              "name": "守御福泉千户所",
+              "type": "千户所",
+              "location_text": "在晋江县东南"
+            },
+            {
+              "name": "守御金门千户所",
+              "type": "千户所",
+              "location_text": "在同安县东南俱洪武二十年建"
+            },
+            {
+              "name": "守御中左千户所",
+              "type": "千户所",
+              "location_text": "在同安县之西南"
+            },
+            {
+              "name": "守御高浦千户所",
+              "type": "千户所",
+              "location_text": "在同安县西俱洪武中建俱隶永宁卫"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006",
+          "CIT-007",
+          "CIT-008",
+          "CIT-009",
+          "CIT-010",
+          "CIT-011"
+        ]
+      },
+      {
+        "geo_id": "GEO-78-001-c01",
+        "item_id": "78-001",
+        "name": "晋江县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 136,
+            "unit": "里",
+            "note": "编户一百三十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-c02",
+        "item_id": "78-001",
+        "name": "南安县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城西十五里",
+          "households": {
+            "count": 49,
+            "unit": "里",
+            "note": "编户四十九里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-c03",
+        "item_id": "78-001",
+        "name": "惠安县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城东北五十里",
+          "households": {
+            "count": 36,
+            "unit": "里",
+            "note": "编户三十六里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-c04",
+        "item_id": "78-001",
+        "name": "德化县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城西一百八十五里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户八里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-c05",
+        "item_id": "78-001",
+        "name": "安溪县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城西一百五里",
+          "households": {
+            "count": 17,
+            "unit": "里",
+            "note": "编户一十七里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-c06",
+        "item_id": "78-001",
+        "name": "同安县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城西南六百三十里",
+          "households": {
+            "count": 53,
+            "unit": "里",
+            "note": "编户五十三里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-c07",
+        "item_id": "78-001",
+        "name": "永春县",
+        "type": "county",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城西北一百二十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里"
+          }
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-w01",
+        "item_id": "78-001",
+        "name": "泉州卫",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府治西元为总管府本朝洪武初改置卫",
+          "garrison_type": "卫"
+        }
+      },
+      {
+        "geo_id": "GEO-78-001-w02",
+        "item_id": "78-001",
+        "name": "永宁卫",
+        "type": "weisuo",
+        "region": "福建",
+        "parent": "GEO-78-001-",
+        "children": [],
+        "volume_range": "卷78",
+        "attributes": {
+          "location_text": "在府城东南洪武二十年建",
+          "garrison_type": "卫"
+        }
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "扬州之域",
+        "action": "因之",
+        "detail": "禹贡扬州之域，天文牛女分野"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "七闽地",
+        "action": "因之",
+        "detail": "周职方为七闽地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "闽中郡",
+        "action": "属",
+        "detail": "秦属闽中郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "闽越国/会稽郡",
+        "action": "属",
+        "detail": "汉初属闽越国，武帝时以其地属会稽郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "三国吴",
+        "era": null,
+        "institution_name": "建安郡",
+        "action": "属",
+        "detail": "三国吴属建安郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "晋安郡",
+        "action": "属",
+        "detail": "晋属晋安郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "南朝梁",
+        "era": null,
+        "institution_name": "南安郡",
+        "action": "置",
+        "detail": "梁置南安郡治晋安县"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "闽州",
+        "action": "废",
+        "detail": "隋废郡以其地属闽州"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "唐",
+        "era": "贞观/圣历/景云/天宝/乾元",
+        "institution_name": "丰州/武荣州/泉州/清源郡",
+        "action": "改",
+        "detail": "唐初以南安县置丰州，贞观初州废，圣历初置武荣州治晋江，景云初改置泉州，天宝初改清源郡，乾元初复为泉州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "清源军",
+        "action": "置",
+        "detail": "五代时南唐置清源军节度"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "平海军/泉州",
+        "action": "改",
+        "detail": "宋改平海军"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "泉州路",
+        "action": "改",
+        "detail": "元为泉州路"
+      },
+      {
+        "evo_id": "EVO-013",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "泉州府",
+        "action": "改",
+        "detail": "本朝改为泉州府，领县七"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "泉山",
+        "type": "山",
+        "location_text": "在府城北五里",
+        "description": "一名齐云山又名北山，峰峦耸秀为郡之镇，上有石乳泉清洁甘美，州名泉郡名清源盖本于此",
+        "lore": "宋钱熙诗巍峨堆压郡城阴秀出天涯几万寻"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "龟山",
+        "type": "山",
+        "location_text": "在府城西南",
+        "description": "三峰高耸其状类龟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "紫帽山",
+        "type": "山",
+        "location_text": "在府城西南二十里",
+        "description": "常有紫云覆其巅",
+        "lore": "宋李邴云唐时泉人客洛阳邂逅一羽衣寄书紫帽隐者既归授书遗以粟米半升还家视之金粟也"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "宝盖山",
+        "type": "山",
+        "location_text": "在府城南",
+        "description": "上有石塔宏壮耸拔，商自海还者以塔为抵岸之期",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "石城山",
+        "type": "山",
+        "location_text": "在府城南",
+        "description": "又惠安县东有城山，皆状若连城故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "高盖山",
+        "type": "山",
+        "location_text": "在晋江县境",
+        "description": "唐欧阳詹母坟在其下",
+        "lore": "詹拜坟有诗云高盖山前日影微黄昏宿鸟傍林飞坟前滴酒空垂泪不见叮咛道早归"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "金钗山",
+        "type": "山",
+        "location_text": "在府城东南",
+        "description": "两峰延袤若钗股然",
+        "lore": "宋梁克家尝读书于此"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "龟岩",
+        "type": "岩",
+        "location_text": "在泉山之半",
+        "description": "有巨石如龟嵌空",
+        "lore": "唐林藻林蕴欧阳詹皆读书于此有石砚尚存又有崇秀坞醉月石"
+      },
+      {
+        "mtn_id": "MTN-009",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "金粟洞",
+        "type": "洞",
+        "location_text": "在紫帽山",
+        "description": "相传元德真人郑文叔居之",
+        "lore": "宋宁宗御书金粟之洞四字刻于石"
+      },
+      {
+        "mtn_id": "MTN-010",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "清源洞",
+        "type": "洞",
+        "location_text": "在泉山之颠",
+        "description": "乃东瓯王避汉兵处，山阴有梵刹四，逼峻峰叠巘，寓目登眺如在天上，郡人岁时游焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-011",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "彭湖屿",
+        "type": "屿",
+        "location_text": "自府城东出海舟行三日抵彭湖屿",
+        "description": "在巨浸中环岛三十六",
+        "lore": "施肩吾诗云腥臊海边多鬼市岛屿居处无乡里黑皮年少学采珠手把生犀照咸水"
+      },
+      {
+        "mtn_id": "MTN-012",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "海",
+        "type": "海",
+        "location_text": "在府城东及惠安同安二县东南皆濒海",
+        "description": "自府正东海道行二日至高华屿又二日至鼋鼊屿又二日至琉球国",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-013",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "晋江",
+        "type": "江",
+        "location_text": "在晋江县治南",
+        "description": "晋南渡衣冠士族避地者多沿江以居故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-014",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "洛阳江",
+        "type": "江",
+        "location_text": "在晋江县南二十里",
+        "description": "发源惠安县至县境入海",
+        "lore": "唐宣宗尝微行览山川胜概有类吾洛阳之语因名"
+      },
+      {
+        "mtn_id": "MTN-015",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "天水淮",
+        "type": "淮",
+        "location_text": "在府城西南",
+        "description": "唐刺史赵棨开灌田至一百五十顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-016",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "东湖",
+        "type": "湖",
+        "location_text": "在府城东",
+        "description": "",
+        "lore": "清源集有欧阳詹泉州泛东湖序"
+      },
+      {
+        "mtn_id": "MTN-017",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "万家湖",
+        "type": "湖",
+        "location_text": "城之东隅",
+        "description": "渺弥十里",
+        "lore": "李谊二仓记云"
+      },
+      {
+        "mtn_id": "MTN-018",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "龙湖",
+        "type": "湖",
+        "location_text": "在府城南一百里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-019",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "常稔塘",
+        "type": "塘",
+        "location_text": "在府城东",
+        "description": "唐刺史赵昌置，后昌为尚书，民思之更名尚书塘，溉田三百余顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-020",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "清玉泉井",
+        "type": "井",
+        "location_text": "在府治东南",
+        "description": "其水用以染练胜于他井",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-021",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "旃檀林井",
+        "type": "井",
+        "location_text": "在府治东南承天寺旃檀林之南",
+        "description": "味甚甘冽宜炼糖霜",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-022",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "蔡公泉",
+        "type": "泉",
+        "location_text": "在府治",
+        "description": "宋皇祐中蔡襄知泉州与僚属登山求水，有泉自石罅出，后人作亭其上故名",
+        "lore": "曾公济记"
+      },
+      {
+        "mtn_id": "MTN-023",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c01",
+        "name": "芙蓉池",
+        "type": "池",
+        "location_text": "在晋江县治南",
+        "description": "内产芙蓉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-024",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "九日山",
+        "type": "山",
+        "location_text": "在南安县治西连晋江县",
+        "description": "",
+        "lore": "唐秦系隐此山，宋朱熹诗北游九日山散发岩上石仰看天宇近俯叹崖境窄"
+      },
+      {
+        "mtn_id": "MTN-025",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "梅花山",
+        "type": "山",
+        "location_text": "在南安县西",
+        "description": "山上多梅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-026",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "金鸡山",
+        "type": "山",
+        "location_text": "在南安县南六里",
+        "description": "俗传昔有金鸡栖其山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-027",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "朋山",
+        "type": "山",
+        "location_text": "在南安县东北一十五里",
+        "description": "两峰并立如朋字",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-028",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "莲花峰",
+        "type": "峰",
+        "location_text": "在南安县西北",
+        "description": "其山耸峙上八石若莲花然",
+        "lore": "宋朱熹诗八石天开势绝攀算来未似此心顽已吞缭白萦青外依旧个中云梦宽"
+      },
+      {
+        "mtn_id": "MTN-029",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "姜相峰",
+        "type": "峰",
+        "location_text": "在九日山之东",
+        "description": "唐相姜公辅贬居此卒葬峰上因名",
+        "lore": "宋王十朋诗相国忠如宋广平危言流落晋江城天资自直无心卖何事青山亦得名"
+      },
+      {
+        "mtn_id": "MTN-030",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "高士峰",
+        "type": "峰",
+        "location_text": "在九日山",
+        "description": "唐秦系隐于此，有石篆题曰高士峰",
+        "lore": "元张光道诗淡淡梨花寂寂春一声啼鸟隔花鸣高峰影转金鸡月渤海晴横碧峤云"
+      },
+      {
+        "mtn_id": "MTN-031",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "金溪",
+        "type": "溪",
+        "location_text": "在南安县西一十里",
+        "description": "古谚云金溪通人行状元方始生",
+        "lore": "宋建炎初县令江慎置小桥是年梁克家生"
+      },
+      {
+        "mtn_id": "MTN-032",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "九溪",
+        "type": "溪",
+        "location_text": "在南安县南",
+        "description": "源发柏峰山逶折而东",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-033",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "黄龙溪",
+        "type": "溪",
+        "location_text": "在南安县南",
+        "description": "",
+        "lore": "宋王十朋诗清源太守鬓蓬松未遂归农又劝农农事正兴天不雨谁能唤起老黄龙"
+      },
+      {
+        "mtn_id": "MTN-034",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "桃林溪",
+        "type": "溪",
+        "location_text": "在南安县西二十里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-035",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c02",
+        "name": "秀才堤",
+        "type": "堤",
+        "location_text": "在南安县",
+        "description": "唐南安黄谞有文声，郡守乌仲儒以女妻之，为筑沙堤十里直抵其庐，号秀才堤",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-036",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "螺山",
+        "type": "山",
+        "location_text": "在惠安县北",
+        "description": "势若螺髻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-037",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "登科山",
+        "type": "山",
+        "location_text": "在惠安县西北",
+        "description": "宋卢瞻读书于此，后举八行科因以名山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-038",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "卧龙山",
+        "type": "山",
+        "location_text": "在惠安县西北",
+        "description": "迂回千丈状若卧龙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-039",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "文笔山",
+        "type": "山",
+        "location_text": "在惠安县南",
+        "description": "其峰尖耸若笔",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-040",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "鹤堂山",
+        "type": "山",
+        "location_text": "在惠安县西",
+        "description": "旧传南唐留鄂公葬时有二鹤来止于此因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-041",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "龙泉山",
+        "type": "山",
+        "location_text": "在惠安县南",
+        "description": "下有龙窟深尺许泉水涌出，居近者时见龙出之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-042",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "九峰山",
+        "type": "山",
+        "location_text": "在惠安县南",
+        "description": "九峰高耸争雄",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-043",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "锦田山",
+        "type": "山",
+        "location_text": "在惠安县东南",
+        "description": "旧经昔有民居山下开腴田万顷",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-044",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "嘶山",
+        "type": "山",
+        "location_text": "在惠安县东南",
+        "description": "世传五季时其山忽嘶响应十余里樵牧不敢近",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-045",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "五公山",
+        "type": "山",
+        "location_text": "在惠安县东北",
+        "description": "相传梁僧宝公等五人隐于此故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-046",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "登龙峰",
+        "type": "峰",
+        "location_text": "在惠安县北",
+        "description": "宋崔拱偕二子正则丽则读书于此，后父子相继登第因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-047",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "三合岩",
+        "type": "岩",
+        "location_text": "在惠安县北",
+        "description": "连延万叠三峰耸起峭绝不可攀缘，上有灵湫仙迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-048",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c03",
+        "name": "金莲池",
+        "type": "池",
+        "location_text": "在惠安县治南",
+        "description": "产花似莲其色若金",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-049",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "绣屏山",
+        "type": "山",
+        "location_text": "在德化县北",
+        "description": "层崖峭壁若巨屏然，上有仙人迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-050",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "九仙山",
+        "type": "山",
+        "location_text": "在德化县西",
+        "description": "耸起九峰如笔，中峰有人迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-051",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "九坐山",
+        "type": "山",
+        "location_text": "在德化县北八十里",
+        "description": "其山有石龛广阔数丈，唐正觉大师由九仙来宴坐其间",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-052",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "戴云山",
+        "type": "山",
+        "location_text": "在德化县西北",
+        "description": "山顶高耸雄跨数里，常有云气集其上",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-053",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "太湖山",
+        "type": "山",
+        "location_text": "在德化县西",
+        "description": "四面崔嵬山顶平广数丈，内有池丈许影涵太空",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-054",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "五华山",
+        "type": "山",
+        "location_text": "在德化县西",
+        "description": "上有五峰如莲花状，又名根山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-055",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "南台山",
+        "type": "山",
+        "location_text": "在德化县西南",
+        "description": "一名台阁山，其势高耸上平如掌，下有巨石如盘，盘上有仙人足迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-056",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "琼山",
+        "type": "山",
+        "location_text": "在德化县西南",
+        "description": "一名囷山，上有石堂石灶石鼎",
+        "lore": "俗传秦汉间有隐士居此修炼"
+      },
+      {
+        "mtn_id": "MTN-057",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "凤翥山",
+        "type": "山",
+        "location_text": "在德化县南",
+        "description": "秀出诸峰如鸟之跂翥然，一名鹞山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-058",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "灵山",
+        "type": "山",
+        "location_text": "在德化县东",
+        "description": "奇峰峭壁常兴云气，遇旱祷辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-059",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "石牛山",
+        "type": "山",
+        "location_text": "在德化县东北",
+        "description": "有石类牛状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-060",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "双鱼山",
+        "type": "山",
+        "location_text": "在德化县",
+        "description": "自琼山而来两峰奔趋若双鱼然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-061",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "灵馨岩",
+        "type": "岩",
+        "location_text": "在德化县东北",
+        "description": "昔樵人于此采杉获异香",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-062",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c04",
+        "name": "丁溪",
+        "type": "溪",
+        "location_text": "在德化县南",
+        "description": "俗云水画丁罗簪缨，宋时一夕雷雨决流一纵一横宛然成丁字，邑人程扬休果登高第",
+        "lore": "林应龙诗水从鳌顶分丁绝地人向蟾宫占甲科"
+      },
+      {
+        "mtn_id": "MTN-063",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "驷马山",
+        "type": "山",
+        "location_text": "在安溪县西北",
+        "description": "以势若驷马奔腾",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-064",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "黄龙山",
+        "type": "山",
+        "location_text": "在安溪县治南",
+        "description": "又名登高山，上有石如屏如床几",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-065",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "黄蘖山",
+        "type": "山",
+        "location_text": "在安溪县西南",
+        "description": "又名南山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-066",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "阆山",
+        "type": "山",
+        "location_text": "在安溪县西南",
+        "description": "俗名浪来山，以其山势之来似浪然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-067",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "旗山",
+        "type": "山",
+        "location_text": "在安溪县东",
+        "description": "山势逶迤若旗之掩映",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-068",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "宫山",
+        "type": "山",
+        "location_text": "在安溪县东",
+        "description": "山腰有盘石可坐数十人，石中空虚宛若宫室",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-069",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "蓝溪",
+        "type": "溪",
+        "location_text": "在安溪县南",
+        "description": "源发万山中环绕一邑，水深而碧故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-070",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c05",
+        "name": "甘泉",
+        "type": "泉",
+        "location_text": "在安溪县南",
+        "description": "极甘冽异他井",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-071",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "大轮山",
+        "type": "山",
+        "location_text": "在同安县治北",
+        "description": "群峰环列如异人奇鬼，或乘车张盖或露冕峨冠或如带甲或如跃马或如奔轮",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-072",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "三秀山",
+        "type": "山",
+        "location_text": "在同安县西北",
+        "description": "又名仙人亭，山上有石榻禅床及仙人迹",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-073",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "莲花山",
+        "type": "山",
+        "location_text": "在同安县西北",
+        "description": "峰峦高耸状若莲花，又名金冠山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-074",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "万石山",
+        "type": "山",
+        "location_text": "在同安县西北",
+        "description": "其山众石错综",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-075",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "夕阳山",
+        "type": "山",
+        "location_text": "在同安县西",
+        "description": "以其常带落日故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-076",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "文圃山",
+        "type": "山",
+        "location_text": "在同安县西",
+        "description": "上有花圃",
+        "lore": "唐文士谢修尝读书于此"
+      },
+      {
+        "mtn_id": "MTN-077",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "昆山",
+        "type": "山",
+        "location_text": "在同安县西南",
+        "description": "上有石如盘，盘有巨人迹，祈雨多应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-078",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "金鞍山",
+        "type": "山",
+        "location_text": "在同安县南",
+        "description": "形若马鞍，上有泉自石罅出虽大旱不竭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-079",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "宝伞山",
+        "type": "山",
+        "location_text": "在同安县南",
+        "description": "形若伞盖，又名宝盖山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-080",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "黄渐峰",
+        "type": "峰",
+        "location_text": "在同安县东",
+        "description": "卓然秀出冠于群山，其间多产黄菊，又名黄菊山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-081",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "嘉木屿",
+        "type": "屿",
+        "location_text": "在同安县海中",
+        "description": "延袤百余里民居千余家，又有大登小登二屿亦在海中，小登广十五里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-082",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "涪洲屿",
+        "type": "屿",
+        "location_text": "在同安县",
+        "description": "广一十五里居民千余家",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-083",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "苎溪",
+        "type": "溪",
+        "location_text": "在同安县西三十里",
+        "description": "众流所会",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-084",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c06",
+        "name": "临溪石井",
+        "type": "井",
+        "location_text": "在同安县治东",
+        "description": "较诸他水最重，俗云能愈瘴",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-085",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "康山",
+        "type": "山",
+        "location_text": "在永春县北",
+        "description": "其山顿伏而起为县之障卫",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-086",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "大鹏山",
+        "type": "山",
+        "location_text": "在永春县北",
+        "description": "突起万状形若鸟翼",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-087",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "羊岭山",
+        "type": "山",
+        "location_text": "在永春县北",
+        "description": "地名黄羊故山名羊岭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-088",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "浮空山",
+        "type": "山",
+        "location_text": "在永春县北",
+        "description": "一峰突耸宛如浮空之状",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-089",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "高镇山",
+        "type": "山",
+        "location_text": "在永春县北",
+        "description": "形势极峻高出群峰为一邑之镇",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-090",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "向龙山",
+        "type": "山",
+        "location_text": "在永春县北",
+        "description": "起伏屈回宛如龙蛇相向",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-091",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "三贯山",
+        "type": "山",
+        "location_text": "在永春县西北",
+        "description": "三峰秀拔势若贯天",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-092",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "石皷山",
+        "type": "山",
+        "location_text": "在永春县",
+        "description": "其状如鼓鸣则天降霖雨",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-093",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "大羽山",
+        "type": "山",
+        "location_text": "在永春县西",
+        "description": "重冈叠嶂若鸟张翼然",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-094",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "白岩山",
+        "type": "山",
+        "location_text": "在永春县西",
+        "description": "山势峻拔下有白石岩",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-095",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "文章山",
+        "type": "山",
+        "location_text": "在永春县西",
+        "description": "宋陈光读书于此后以文名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-096",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "朝拜山",
+        "type": "山",
+        "location_text": "在永春县南",
+        "description": "峰峦森列苍翠状若朝拜，一名应龙山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-097",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "锦绣山",
+        "type": "山",
+        "location_text": "在永春县东",
+        "description": "旧名鬼岫山，宋光宗更今名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-098",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "乐山",
+        "type": "山",
+        "location_text": "在永春县东北",
+        "description": "周回数十里时有音乐之声",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-099",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "万岁山",
+        "type": "山",
+        "location_text": "在永春县东",
+        "description": "上有一石刻万岁山三大字磨之不动",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-100",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "玉柱山",
+        "type": "山",
+        "location_text": "在永春县东",
+        "description": "一峰突起状若玉柱",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-101",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "魁星岩",
+        "type": "岩",
+        "location_text": "在永春县",
+        "description": "与县学相对",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-102",
+        "item_id": "78-001",
+        "geo_id": "GEO-78-001-c07",
+        "name": "龙潭",
+        "type": "潭",
+        "location_text": "在永春县东",
+        "description": "居近者时见龙出之状，祷雨即应",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "78-001",
+        "cited_work": "欧阳詹二公亭记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【唐欧阳詹二公亭记川逼溟渤山连苍梧】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "78-001",
+        "cited_work": "连南夫修城记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋连南夫修城记惟闽之泉近接三吴远连二广万骑貔貅千艘犀象】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "78-001",
+        "cited_work": "方壁记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【方壁记泉州闽越奥区家尚礼乐】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "78-001",
+        "cited_work": "钱熙记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋钱熙记闽之奥区泉南为最其地带岭海华实之物颇与岷蜀同】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "78-001",
+        "cited_work": "陈知柔修二门记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【宋陈知柔修二门记表以紫帽龙首之峰带以金溪石笋之阻】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "78-001",
+        "cited_work": "王十朋止讼文",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋王十朋止讼文泉在七闽之中民淳讼简素号易治】"
+      },
+      {
+        "cit_id": "CIT-007",
+        "item_id": "78-001",
+        "cited_work": "图册",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图册濒海者恃鱼盐为命依山者以桑麻为业大抵皆尚俭朴】"
+      },
+      {
+        "cit_id": "CIT-008",
+        "item_id": "78-001",
+        "cited_work": "张阑云",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋张阑云泉之为郡风俗淳厚其人乐善素号佛国】"
+      },
+      {
+        "cit_id": "CIT-009",
+        "item_id": "78-001",
+        "cited_work": "曹修睦建学表",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【宋曹修睦建学表地推多士素习诗书】"
+      },
+      {
+        "cit_id": "CIT-010",
+        "item_id": "78-001",
+        "cited_work": "图册",
+        "cited_work_ent_id": null,
+        "context": "风俗",
+        "original": "【图册里闾朋友吉凶庆吊皆以槟榔为礼】"
+      },
+      {
+        "cit_id": "CIT-011",
+        "item_id": "78-001",
+        "cited_work": "图经",
+        "cited_work_ent_id": null,
+        "context": "郡名",
+        "original": "【图经其地少寒故曰温陵】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers拆至pers1/2/3；sites拆至sites1/2"
+  },
+  "title": "泉州府"
+}
