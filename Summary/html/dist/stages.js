@@ -1,0 +1,76 @@
+﻿// 七段流程的统一数据结构：书目总览 / 书籍详情 / 时间线 共用
+// 每步字段：
+//   name 阶段名（与 data.js 的 stages 一一对应）
+//   goal 这一步在做什么（一句话）
+//   mark 完成标志（磁盘判定特征）
+//   next 完成后下一步
+//   where  👉 AI 接手去哪：工程目录里找什么、跑什么命令
+//   do     👉 具体做什么动作（先试点再批量等）
+//   out    👉 产出什么文件算这步完成（可核验的磁盘信号）
+//   ref    👉 范本项目 / 参考文档
+//   pit    👉 常见坑（别踩）
+window.GSTAGES = [
+  { key:"raw", name:"原料/原文",
+    goal:"把该书原料文本备齐并校勘，按卷或全卷单文件存放。",
+    mark:"原料文件在盘、逐卷齐全、正文已校对，尚未产生切条结果。",
+    next:"进入「底座切条」：把原文切成带 item_id 的底座条目。",
+    where:"工程根 `_source/`（环境变量 `<书缩写>_SRC` 可指别处）；实例 skill 的 `assets/sources/` 是例外随仓入库。",
+    do:"① 找到原书 txt（分卷或全本）放入 `_source/`；② 确认 UTF-8 编码；③ 标出卷/章边界（哪几行是卷一、卷二……）。",
+    out:"`_source/` 下原书 txt 在盘，逐卷齐全；仓库 `_source/README.md` 有放置说明。",
+    ref:"根目录 README §7「环境要求与源文本放置」表；范式样本 `kezuozhuiyu-kb/_source/`、`Skills/01-shuidong-riji-knowledge/assets/sources/水东日记.txt`。",
+    pit:"原书正文默认不 git 入库（体积+版权），只放 `_source/`；后续装填绝不手抄原文，原文只从指纹库注入。" },
+  { key:"base", name:"底座切条",
+    goal:"以底座条目（ent）为全书唯一主键：item_id 连续不断号，逐条挂原文。",
+    mark:"底座 ent 文件生成、条目数与原文规模相称、item_id 可解析。",
+    next:"进入「装填解读」：逐卷对条目做解读，把知识填进各层文件。",
+    where:"工程根目录跑 `python build_base.py`（水东日记走 `python run_all.py --volumes NN`；蘧编走 `build_base.py`）。",
+    do:"① 先定切条粒度：有【】标题按条切、无标题按「空行段落=条」（先进遗风案例）；② 复合条（如卷五异闻百则）按子则拆分；③ 跑切条，对账条目数与原文规模是否相称。",
+    out:"`_extract/NN_卷名.txt`（格式 `条N|正文`）+ **`_item_registry.json`**（{NN-NNN:{original,norm}}）——指纹库不可重建，必须 git 入库。",
+    ref:"根目录 README §2 四段式管线；粒度特例看 `kezuozhuiyu-kb/README.md` §4；空行切条看 `xianjinyifeng-kb/05-xianjinyifeng-knowledge`。",
+    pit:"item_id 必须连续不断号；切条粒度没定好就批量跑是最大返工源；正史志书按卷段分片时条数取 SKILL 口径并写进看板 notes。" },
+  { key:"fill", name:"装填解读",
+    goal:"逐卷抽取/人工解读，写入各层 records（层文件与卷文件对应）。",
+    mark:"逐卷装填文件在盘且 records 非空（>800B）；卷进度以「已装填卷/总卷」计。",
+    next:"装填覆盖全卷后进入「层成品打包」。",
+    where:"`_src/_<layer>_ai_NN.py`（五杂俎统一卷源 `_src/_vol_NN.py`；水东日记用 `python scaffold_volume.py --volumes NN` 生成卷脚手架）。",
+    do:"① **先探针**：挑 3~5 条试点，走通 装填→打包→验证 全链路再批量；② 逐卷只写「条号+解读」，层字段契约照该书实例 `references/schemas.md`；③ 某卷先查 `references/volume-profile.md` 卷阅读模式（制度优先/名录优先…），不平均用力。",
+    out:"`_src/` 下逐卷源数据文件在盘、非空；看板 GVOLS.fill 卷数逐卷增长。",
+    ref:"该书实例 skill：`Skills/<NN>-<slug>-knowledge/SKILL.md` + `references/schemas.md` + `volume-profile.md`；安全网范本 `wuzazu-kb/_vol_roundtrip.py`。",
+    pit:"枚举值必须走单点 `_kg_enums.py`，未知值走「收集→报告→暂存」，禁止现场造词；跨卷同名实体先查 `ent_keys.json`/`_global/` 主键表再决定新建；绝不手抄原文。" },
+  { key:"pack", name:"层成品打包",
+    goal:"把各层散装记录归一成成品层文件（_layers/ 或 data 层目录），字段对齐工厂契约。",
+    mark:"归一层 JSON 存在、记录数可统计、与逐卷草稿脱耦。",
+    next:"进入「跨层索引」：以底座 item_id 为全局锚建立层间互访。",
+    where:"工程根跑 `python build_layers.py`（五杂俎 `build_all.py`；新官轨范 `build_struct_ai_*.py` 等四路并行）。",
+    do:"① 跑打包：ID 分配→形状归一→跨层回填→枚举校验→原文从 registry 注入；② 逐卷重跑幂等（`--volumes NN` 只覆盖该卷，不动共享汇总）；③ 层记录数对账：与看板 layers 列一致。",
+    out:"`_layers/<layer>_NN.json`（顶层 `{volume, records}`；水东日记在 `data/<layer>/`，新官轨范在带书名前缀的目录）。",
+    ref:"端到端自检范本 `python wuzazu-kb/run_selftest.py`（31 项断言逐字节还原）；枚举漂移体检 `cd tools/kb-mcp && python server.py drift --book <目录名>`。",
+    pit:"各书成品目录名不统一（看板详情「本书目录形态」卡有登记）；明会典 `_layers/*.json` 是裸数组、仅 org_tree 是对象，属已知特例。" },
+  { key:"index", name:"跨层索引",
+    goal:"建立 ent ↔ 各层记录的双向索引，任一条底座记录可跳转到全部相关层。",
+    mark:"索引文件/跨层引用生成，反查 item_id 全部可解析、无悬挂。",
+    next:"进入「验证」。",
+    where:"跑 `python build_kg_join.py`（蘧编聚合成 `归一_*.json`）。",
+    do:"以底座 item_id 为全局锚生成全层回链；检查跨层 *_ids 回填是否可解析（选举志 regs 层带 tme_keys/evt_keys/proc_keys/ent_keys 四类交叉键，是最密样本）。",
+    out:"`_kg_join.json` + `_kg_join_flat.csv`（一条一行，全层回链）。",
+    ref:"`xinguanguifan-kb/build_kg_join.py`；跨书联邦合并看 `docs/跨书合并-ELT设计.md`。",
+    pit:"empty_items 必须为 0；索引悬挂（指向不存在的 item_id）是验证阶段头号报错。" },
+  { key:"verify", name:"验证",
+    goal:"用规则脚本+抽查清单校验数据质量，失败项修复回写闭环。",
+    mark:"验证记录存在、已知错误清零（或偏差已登记入看板 drift 说明）。",
+    next:"进入「交付」。",
+    where:"跑 `python validate_layers.py`（蘧编产出 `*验证缺漏清单.txt`；水东日记报告在 `reports/`）。",
+    do:"跑规则检查：item_id 覆盖、必填字段、卷完整性、引用一致性；失败项修回 `_src/` 后重跑该卷。**一切以 JSON records 实际内容计**，不信体积启发。",
+    out:"`_validate/`（或 `reports/`）验证报告：ERR=0 / GAP=0（水东日记 OK=322 为标杆）。",
+    ref:"错误分类 `Skills/00-…/references/error-taxonomy.md`；全库体检 `cd tools/kb-mcp && python server.py checklist`。",
+    pit:"验证器退出码是唯一验收闸门；数据齐但 git untracked（如食货志）视同未交付——先 `git add`。" },
+  { key:"deliver", name:"交付",
+    goal:"产出可离线打开的单文件阅读器或发布包，流程收口。",
+    mark:"交付物在盘、版本号（V1.0→V1.1）与盘点记录同步更新。",
+    next:"本流程完成；后续增强以版本增量推进；交付后移交 tools/kb-mcp 存量线体检。",
+    where:"`_deliver/`（水东日记叫 `交付物/`；新官轨范叫 `新官轨范_阅读器/`）。",
+    do:"① 产出交付物：层聚合 JSON+CSV、跨层索引 CSV、实体主键表、记译合册、复盘报告；② 按 `Skills/00-…/assets/templates/usage_report_template.md` 写使用报告；③ **回写看板**：改 `Summary/html/data.js`（layers 计数/notes/drift/stageStates）并跑 `node Summary/html/collect_times.js` 刷新 times.js。",
+    out:"`_deliver/` 在盘；看板「书目总览」该书状态变为 ✅；`Summary/01–04` 盘点同步。",
+    ref:"报告模板 `Skills/00-book-knowledge-factory/assets/templates/`；看板刷新规范 `Skills/progress-dashboard-integration/SKILL.md`。",
+    pit:"在途未收口的书在看板 note 写明「快照 日期，卷X 在途」；交付后写案例反馈 `references/case-feedback-<slug>.md` 回写工厂台账。" }
+];

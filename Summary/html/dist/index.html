@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>古集·进度看板（Vue3）</title>
+<link rel="stylesheet" href="vendor/element-plus.css">
+<script src="vendor/vue.global.prod.js"></script>
+<script src="vendor/element-plus.full.min.js"></script>
+<script src="vendor/echarts.min.js"></script>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div id="app">
+  <div class="topbar">
+    <span class="brand">古集·进度看板</span>
+    <el-tabs v-model="tab" style="flex:1;margin-bottom:-15px">
+      <el-tab-pane label="书目总览" name="books"></el-tab-pane>
+      <el-tab-pane label="书籍详情" name="book"></el-tab-pane>
+      <el-tab-pane label="全量数据结构" name="layers"></el-tab-pane>
+      <el-tab-pane label="同层对比" name="compare"></el-tab-pane>
+      <el-tab-pane label="时间线" name="timeline"></el-tab-pane>
+    </el-tabs>
+    <span class="note">盘点 {{D.generated}} · 静态版在 index.html</span>
+  </div>
+
+  <!-- ================= 1. 书目总览 ================= -->
+  <template v-if="tab==='books'">
+    <div class="filterbar">
+      <el-input v-model="q" placeholder="搜索书名 / 目录 / 作者 / 性质" clearable style="width:280px"></el-input>
+      <el-select v-model="fStatus" placeholder="状态" clearable style="width:130px">
+        <el-option label="✅ 完成" value="done"></el-option><el-option label="🚧 在建" value="wip"></el-option><el-option label="⬜ 无产出" value="none"></el-option>
+      </el-select>
+      <el-select v-model="fStage" placeholder="当前阶段" clearable style="width:160px">
+        <el-option v-for="(s,i) in D.stages" :key="i" :label="s" :value="i"></el-option>
+      </el-select>
+      <span class="muted">共 {{filteredBooks.length}} / {{D.books.length}} 本</span>
+    </div>
+    <el-table :data="filteredBooks" border stripe size="small" row-key="id">
+      <el-table-column type="index" label="#" width="42"></el-table-column>
+      <el-table-column label="书名" min-width="190" :sort-by="b=>b.title" sortable>
+        <template #default="{row}">
+          <a class="booklink" @click="openBook(row)"><b>《{{row.title}}》</b></a>
+          <div class="muted">{{row.dir}}</div>
+        </template>
+      </el-table-column>
+      <el-table-column prop="author" label="作者·时代" width="150"></el-table-column>
+      <el-table-column prop="genre" label="性质" min-width="160" show-overflow-tooltip></el-table-column>
+      <el-table-column label="状态" width="92" align="center">
+        <template #default="{row}"><el-tag :type="stTag[row.status]" size="small" effect="dark">{{stTxt2[row.status]}}</el-tag></template>
+      </el-table-column>
+      <el-table-column label="层数" width="70" align="center" :sort-by="b=>b.layers.length" sortable>
+        <template #default="{row}"><b>{{row.layers.length||'—'}}</b></template>
+      </el-table-column>
+      <el-table-column prop="items" label="底座" width="120"></el-table-column>
+      <el-table-column label="卷数" width="90" align="center" :sort-by="b=>b.vols||0" sortable>
+        <template #default="{row}"><span :title="row.volTip">{{row.vols==null?'—':'共 '+row.vols}}</span></template>
+      </el-table-column>
+      <el-table-column label="产出记录" width="100" align="center" :sort-by="b=>b.records" sortable>
+        <template #default="{row}">{{row.records?row.records.toLocaleString():'—'}}</template>
+      </el-table-column>
+      <el-table-column label="当前阶段" width="150" align="center">
+        <template #default="{row}"><el-tag size="small" :type="row.curState===2?'success':'warning'" effect="plain">{{row.curLabel}}</el-tag></template>
+      </el-table-column>
+      <el-table-column label="流程最后执行" width="140" :sort-by="b=>b.lastRun" sortable>
+        <template #default="{row}"><span class="muted">{{row.lastRun}}</span></template>
+      </el-table-column>
+      <el-table-column label="总进度" width="150">
+        <template #default="{row}"><el-progress :percentage="row.pct" :stroke-width="12" text-inside></el-progress></template>
+      </el-table-column>
+    </el-table>
+  </template>
+
+  <!-- ================= 1b. 书籍详情（点书名进入，非弹窗） ================= -->
+  <template v-if="tab==='book'">
+    <div v-if="cur.id" class="bookpage">
+      <div class="toolbar-row" style="margin-bottom:8px">
+        <el-button size="small" @click="tab='books'">← 返回书目总览</el-button>
+        <b style="font-size:18px">《{{cur.title}}》</b>
+        <el-tag :type="stTag[cur.status]" size="small" effect="dark">{{stTxt2[cur.status]}}</el-tag>
+        <span class="muted">{{cur.author}} · {{cur.genre}} · 目录 <code>{{cur.dir}}</code> · 底座 {{cur.items}}<template v-if="cur.vols!=null"> · 共 {{cur.vols}} 卷</template></span>
+      </div>
+      <el-steps :active="cur.active" finish-status="success" align-center>
+        <el-step v-for="(s,i) in D.stages" :key="i" :title="s" :description="stepDesc(cur,i)" :status="stepStatus(i)"></el-step>
+      </el-steps>
+      <p v-if="volText(cur)" class="volprog">卷进度：{{volText(cur)}}</p>
+
+      <div class="flowcard" v-if="curFlow">
+        <div>👉 当前节点：<b>《{{cur.title}}》· {{curFlow.name}}</b>
+          <el-tag size="small" :type="curFlow.state===2?'success':'warning'">{{curFlow.state===2?'该阶段已完成':'该阶段进行中 · 现在就做这步'}}</el-tag>
+          　磁盘标志：{{curFlow.mark}}</div>
+        <div class="nx" style="margin-top:6px">
+          <div v-if="curFlow.where"><b>① 去哪：</b>{{curFlow.where}}</div>
+          <div v-if="curFlow.do" style="margin-top:4px"><b>② 做什么：</b>{{curFlow.do}}</div>
+          <div v-if="curFlow.out" style="margin-top:4px"><b>③ 产出算完：</b>{{curFlow.out}}</div>
+          <div v-if="curFlow.ref" style="margin-top:4px"><b>④ 范本/文档：</b>{{curFlow.ref}}</div>
+          <div v-if="curFlow.pit" style="margin-top:4px"><b>⚠ 别踩：</b>{{curFlow.pit}}</div>
+          <div v-if="curFlow.next" style="margin-top:6px;color:#8b1f1f"><b>这步做完后：</b>{{curFlow.next}}</div>
+        </div>
+      </div>
+
+      <div v-if="pipeRow" class="flowcard" style="margin-top:8px">
+        <div><b>📁 本书目录形态</b><span class="muted">（各书命名不一致，照此找文件，勿凭印象）</span></div>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:5px">
+          <div v-for="(c,i) in pipeCols" :key="i"><span class="muted">{{c}}：</span><code>{{pipeRow[i]}}</code></div>
+        </div>
+      </div>
+
+      <h4 style="margin:14px 0 6px;color:#8b1f1f">整体流程 · 七步全列（展开任一步看操作细节）</h4>
+      <el-table :data="flowRows(cur)" border size="small" row-key="i">
+        <el-table-column type="expand">
+          <template #default="{row}">
+            <div style="padding:8px 18px;background:#fdf9ef;line-height:1.7">
+              <div><b>去哪：</b>{{row.where}}</div>
+              <div style="margin-top:3px"><b>做什么：</b>{{row.do}}</div>
+              <div style="margin-top:3px"><b>产出算完：</b>{{row.out}}</div>
+              <div style="margin-top:3px"><b>范本/文档：</b>{{row.ref}}</div>
+              <div v-if="row.pit" style="margin-top:3px;color:#a33"><b>别踩：</b>{{row.pit}}</div>
+            </div>
+          </template>
+        </el-table-column>
+        <el-table-column label="阶段" width="110">
+          <template #default="{row}"><span class="lgdot" :style="{background:STAGEC[row.i]}"></span>{{row.name}}</template>
+        </el-table-column>
+        <el-table-column prop="goal" label="这一步在做什么" min-width="200"></el-table-column>
+        <el-table-column label="本书状态" width="90" align="center">
+          <template #default="{row}"><el-tag size="small" :type="row.st==='完成'?'success':row.st==='进行中'?'warning':'info'" effect="plain">{{row.st}}</el-tag></template>
+        </el-table-column>
+        <el-table-column label="执行时间" width="125">
+          <template #default="{row}"><span class="muted">{{row.time}}</span></template>
+        </el-table-column>
+        <el-table-column label="完成标志 / 下一步" min-width="280">
+          <template #default="{row}">
+            <div class="muted" style="font-size:12px">{{row.mark}}</div>
+            <div style="margin-top:3px">{{row.next}}</div>
+          </template>
+        </el-table-column>
+      </el-table>
+
+      <p style="margin:10px 0">{{cur.notes}}</p>
+      <el-collapse v-if="cur.drift&&cur.drift.length">
+        <el-collapse-item title="⚠ 与标准流程 / 全量契约的偏移点" name="d">
+          <ul style="margin:4px 0;padding-left:20px"><li v-for="x in cur.drift" :key="x" style="margin:3px 0">{{x}}</li></ul>
+        </el-collapse-item>
+      </el-collapse>
+      <el-table v-if="cur.layers&&cur.layers.length" :data="cur.layerRows" border size="small" style="margin-top:12px">
+        <el-table-column prop="key" label="层" width="110"><template #default="{row}"><code>{{row.key}}</code></template></el-table-column>
+        <el-table-column prop="name" label="含义" width="200"></el-table-column>
+        <el-table-column prop="count" label="记录数" width="90" align="center"></el-table-column>
+        <el-table-column label="record 字段（中文标注见「全量数据结构」页）">
+          <template #default="{row}"><code v-for="f in row.fields" :key="f" style="margin-right:4px">{{f}}</code><span v-if="!row.fields" class="muted">沿工厂契约 / 本书特化</span></template>
+        </el-table-column>
+      </el-table>
+    </div>
+    <p v-else class="muted" style="padding:30px 4px">← 请在「书目总览」或时间线中点击书名进入本书详情。</p>
+  </template>
+
+  <!-- ================= 2. 全量数据结构（左类别目录 + 右层详情，每本书可展开收起） ================= -->
+  <template v-if="tab==='layers'">
+    <div class="filterbar">
+      <el-input v-model="layerQ" placeholder="筛层名 / 字段" clearable style="width:260px"></el-input>
+      <span class="muted">归一层 {{allLayerKeys.length}} 种 · 书×层 {{totalPairs}} 对 · 选择左侧类别/层，再用「选书」下拉多选展开各书字段 JSON</span>
+    </div>
+    <div class="layout">
+      <!-- 左侧类别目录 -->
+      <aside class="catnav">
+        <template v-for="g in navGroups" :key="g.name">
+          <div v-if="g.list.length">
+            <h4>{{g.name}}</h4>
+            <div v-for="L in g.list" :key="L.key" class="item" :class="{on:selLayer&&selLayer.key===L.key}" @click="pickLayer(L)">
+              <span><code>{{L.key}}</code> {{L.name}}</span>
+              <span class="cnt">{{L.books.length}}书/{{L.total.toLocaleString()}}</span>
+            </div>
+          </div>
+        </template>
+      </aside>
+
+      <!-- 右侧层详情 -->
+      <section class="detail" v-if="selLayer">
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+          <el-tag type="warning" effect="dark">{{selLayer.key}}</el-tag>
+          <b style="font-size:17px">{{selLayer.name}}</b>
+          <el-tag size="small" :type="selLayer.custom?'danger':'info'" effect="plain">{{selLayer.custom?'本书自定义层':'工厂层库'}}</el-tag>
+          <span class="muted">{{selLayer.desc}}</span>
+        </div>
+
+        <div class="toolbar-row">
+          <el-select v-model="layerSel" multiple filterable collapse-tags collapse-tags-tooltip placeholder="选择要展开的书（可多选）" style="min-width:340px;max-width:640px">
+            <el-option v-for="fb in selLayer.bookFields" :key="fb.id" :label="'《'+fb.title+'》 '+fb.count.toLocaleString()+' 条'" :value="fb.id"></el-option>
+          </el-select>
+          <el-button size="small" @click="layerSel=selLayer.bookFields.map(x=>x.id)">全选</el-button>
+          <el-button size="small" @click="layerSel=[]">清空</el-button>
+          <el-button size="small" :type="openAllJson?'primary':''" plain @click="openAllJson=!openAllJson">层 JSON 骨架</el-button>
+          <span class="muted">产出 {{selLayer.books.length}} 本 · 合计 {{selLayer.total.toLocaleString()}} 条</span>
+        </div>
+
+        <div class="json" v-if="openAllJson" v-html="layerJson(selLayer)"></div>
+
+        <!-- 选中的书逐一展开，可单独收起 -->
+        <el-collapse v-if="layerSel.length" v-model="bookOpen" style="margin-top:10px">
+          <el-collapse-item v-for="fb in selLayer.bookFields.filter(x=>layerSel.includes(x.id))" :key="fb.id" :name="fb.id">
+            <template #title>
+              <div style="display:flex;gap:10px;align-items:center;width:100%">
+                <b>《{{fb.title}}》</b>
+                <span class="muted">{{fb.count.toLocaleString()}} 条</span>
+                <template v-if="fb.fields">
+                  <el-tag v-if="fb.uniq.length" size="small" type="warning">偏移 {{fb.uniq.length}} 字段</el-tag>
+                  <el-tag v-if="fb.miss.length" size="small" type="danger">缺共性 {{fb.miss.length}}</el-tag>
+                  <el-tag v-if="!fb.uniq.length&&!fb.miss.length" size="small" type="success">与主流一致</el-tag>
+                </template>
+                <el-tag v-else size="small" type="info">沿工厂契约（未逐字段采集）</el-tag>
+              </div>
+            </template>
+            <div class="json" v-html="bookLayerJson(selLayer.key, fb)"></div>
+          </el-collapse-item>
+        </el-collapse>
+        <p v-else class="muted" style="margin:8px 0">▸ 在上方选择一本书或多本书后展开其字段 JSON；点「层 JSON 骨架」看本层通用结构。</p>
+        <div v-if="selLayer.bookFields.length===0" class="muted">本层仅在层库登记，暂无书籍产出。</div>
+      </section>
+      <section class="detail" v-else><p class="muted">← 从左侧类别目录选择一个层</p></section>
+    </div>
+  </template>
+
+  <!-- ================= 3. 同层对比（矩阵 + 每本书 JSON 可展开收起/切换） ================= -->
+  <template v-if="tab==='compare'">
+    <div class="filterbar">
+      <span>选择层：</span>
+      <el-select v-model="cmpLayer" filterable style="width:260px" @change="cmpOpen=[]">
+        <el-option v-for="k in cmpKeys" :key="k" :label="k+' · '+(D.layerNames[k]||'')" :value="k"></el-option>
+      </el-select>
+      <el-select v-model="cmpOnly" placeholder="高亮某本书" clearable filterable style="width:200px">
+        <el-option v-for="b in cmpBooks" :key="b" :label="'《'+bookOf(b).title+'》'" :value="b"></el-option>
+      </el-select>
+      <el-switch v-model="cmpAnnot" active-text="字段列带中文"></el-switch>
+      <span class="muted">绿✓=共性　黄●=偏移/独有　红✗=缺共性　—=沿契约</span>
+    </div>
+
+    <el-table :data="cmpRows" border size="small" max-height="480" :row-class-name="({row})=>row.common?'':'dimrow'">
+      <el-table-column prop="field" label="字段" fixed width="210">
+        <template #default="{row}">
+          <code>{{row.field}}</code>
+          <div v-if="cmpAnnot" class="muted" style="line-height:1.3">{{fDesc(row.field)}}</div>
+          <el-tag v-if="row.heat===cmpKnown" size="small" type="success" effect="plain">全有</el-tag>
+          <el-tag v-else-if="row.heat<cmpMajority" size="small" type="info" effect="plain">少数</el-tag>
+        </template>
+      </el-table-column>
+      <el-table-column v-for="b in cmpBooks" :key="b" :label="'《'+bookOf(b).title+'》'" width="126" align="center">
+        <template #default="{row}"><span :class="cmpCellCls(b,row)">{{ cmpMark(b,row) }}</span></template>
+      </el-table-column>
+    </el-table>
+
+    <div class="grid2" style="margin-top:16px">
+      <div class="detail">
+        <b>差异摘要</b>
+        <div v-for="s in cmpSummary" :key="s.id" style="margin:8px 0;font-size:13px">
+          <a class="booklink" @click="cmpOnly=s.id">《{{s.title}}》</a>
+          <template v-if="s.uniq.length"> 偏移/独有 <el-tag v-for="f in s.uniq" :key="f" size="small" type="warning" style="margin:1px">{{f}}</el-tag></template>
+          <template v-if="s.miss.length"> 缺共性 <el-tag v-for="f in s.miss" :key="f" size="small" type="danger" style="margin:1px">{{f}}</el-tag></template>
+          <span v-if="!s.uniq.length&&!s.miss.length" class="muted">与主流一致</span>
+        </div>
+      </div>
+      <div class="detail">
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <b>各书 JSON（{{cmpLayer}} 层）</b>
+          <el-button size="small" @click="cmpOpen=cmpKnownIds">全部展开</el-button>
+          <el-button size="small" @click="cmpOpen=[]">全部收起</el-button>
+          <el-select v-model="cmpSwitch" placeholder="切换查看一本书" filterable clearable size="small" style="width:190px" @change="v=>{if(v)cmpOpen=[v]}">
+            <el-option v-for="id in cmpKnownIds" :key="id" :label="'《'+bookOf(id).title+'》'" :value="id"></el-option>
+          </el-select>
+        </div>
+        <el-collapse v-model="cmpOpen" style="margin-top:8px">
+          <el-collapse-item v-for="id in cmpKnownIds" :key="id" :name="id">
+            <template #title>
+              <div style="display:flex;gap:10px;align-items:center;width:100%">
+                <b>《{{bookOf(id).title}}》</b>
+                <el-tag v-if="uniqOf(id).length" size="small" type="warning">偏移 {{uniqOf(id).length}}</el-tag>
+                <el-tag v-if="missOf(id).length" size="small" type="danger">缺共性 {{missOf(id).length}}</el-tag>
+                <el-tag v-if="!uniqOf(id).length&&!missOf(id).length" size="small" type="success">与主流一致</el-tag>
+              </div>
+            </template>
+            <div class="json" v-html="cmpBookJson(id)"></div>
+          </el-collapse-item>
+        </el-collapse>
+      </div>
+    </div>
+  </template>
+
+  <!-- ================= 4. 时间线（ECharts 全书/单书 + 按天 DOM 视图，共用 GTIMES 阶段数据） ================= -->
+  <template v-if="tab==='timeline'">
+    <div class="filterbar">
+      <el-radio-group v-model="tlMode" size="small">
+        <el-radio-button value="chart">全书时间轴（可缩放）</el-radio-button>
+        <el-radio-button value="one">单书时间轴</el-radio-button>
+        <el-radio-button value="dom">按天 · 明细视图</el-radio-button>
+      </el-radio-group>
+      <el-select v-if="tlMode==='one'" v-model="tlBook" filterable placeholder="选择一本书" style="width:220px">
+        <el-option v-for="b in tlChartBooks" :key="b.id" :label="'《'+b.title+'》'" :value="b.id"></el-option>
+      </el-select>
+      <el-input v-if="tlMode==='dom'" v-model="tlQ" placeholder="筛书名 / 目录（只看一本书即单书时间轴）" clearable style="width:250px"></el-input>
+      <el-checkbox-group v-model="tlStages" style="display:flex;gap:4px;flex-wrap:wrap">
+        <el-checkbox v-for="(s,i) in D.stages" :key="i" :value="i"><span class="lgdot" :style="{background:STAGEC[i]}"></span>{{s}}</el-checkbox>
+      </el-checkbox-group>
+    </div>
+
+    <div class="legendbox">
+      <b>图例说明：</b>每个圆点 = <b>某一本书某一流程阶段</b>的最后一次执行——纵向位置是书名（行），横向位置是执行时刻，<b>颜色对应七个流程阶段</b>：
+      <span v-for="(s,i) in D.stages" :key="i" style="margin:0 6px"><span class="lgdot" :style="{background:STAGEC[i]}"></span>{{i}}·{{s}}</span>。
+      一本书最多 7 个点，从左到右读出它走完了流程的哪几段。数据与「书目总览」的当前阶段、详情流程表同源（GTIMES 阶段时间戳）。
+      ECharts 视图底部有缩放滑条，可框选任一时间区间（也支持滚轮/拖拽平移）；勾选框控制显示哪些阶段。
+    </div>
+
+    <div v-show="tlMode!=='dom'" ref="tlChart" class="chartbox" :class="{one:tlMode==='one'}"></div>
+
+    <template v-if="tlMode==='dom'">
+      <div class="tlday" v-for="dy in tlDays" :key="dy.date">
+        <h4>{{dy.date}}<span class="muted">　{{dy.cnt}} 次阶段执行 · 轴 {{dy.h0}}:00 – {{dy.h1}}:00</span></h4>
+        <div class="tl-axis">
+          <span v-for="h in dy.hours" :key="h" class="tick" :style="{left:tlPos(h,dy)}">{{h}}时</span>
+        </div>
+        <div class="tl-lane" v-for="ln in dy.lanes" :key="ln.id">
+          <div class="lnName"><a class="booklink" @click="openBook(bookOf(ln.id))">《{{bookOf(ln.id).title}}》</a></div>
+          <div class="lnTrack">
+            <span v-for="(e,j) in ln.evs" :key="j" class="dot" :style="{left:tlPos(e.h,dy),background:STAGEC[e.s]}" :title="D.stages[e.s]+' · '+e.t"></span>
+          </div>
+        </div>
+      </div>
+      <p v-if="!tlDays.length" class="muted">无匹配的阶段执行记录</p>
+    </template>
+  </template>
+</div>
+
+<script src="data.js"></script>
+<script src="fields.js"></script>
+<script src="times.js"></script>
+<script src="stages.js"></script>
+<script src="dashboard_app.js"></script>
+</body>
+</html>

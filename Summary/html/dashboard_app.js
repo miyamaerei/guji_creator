@@ -232,11 +232,11 @@ createApp({
     const curFlow = computed(()=>{
       const b=cur.value; if(!b.id||!b.stageStates) return null;
       let ci=-1, st=0; b.stageStates.forEach((s,i)=>{ if(s>0){ci=i;st=s;} });
-      if(ci<0) return {name:"未开工", state:0, mark:"尚无任何阶段产出（原料也未入库）", next:GS.length?("先做「"+GS[0].name+"」："+GS[0].goal):"—"};
-      const g=GS[ci]||{name:D.stages[ci],mark:"",next:""};
+      if(ci<0) return {name:"未开工", state:0, mark:"尚无任何阶段产出（原料也未入库）", next:GS.length?("先做「"+GS[0].name+"」："+GS[0].goal):"—", where:GS[0]?GS[0].where:"", do:GS[0]?GS[0].do:"", out:GS[0]?GS[0].out:"", ref:GS[0]?GS[0].ref:""};
+      const g=GS[ci]||{name:D.stages[ci],mark:"",next:"",where:"",do:"",out:"",ref:"",pit:""};
       const next = st===1 ? ("本阶段进行中，先做完："+g.next)
         : (ci+1<GS.length ? ("本阶段已完成 ✓，进入「"+GS[ci+1].name+"」："+GS[ci+1].goal) : "全流程已交付，后续以版本增量维护");
-      return {name:g.name, state:st, mark:g.mark, next};
+      return {name:g.name, state:st, mark:g.mark, next, where:g.where, do:g.do, out:g.out, ref:g.ref, pit:g.pit};
     });
     function flowRows(b){
       return GS.map((g,i)=>{
@@ -247,9 +247,12 @@ createApp({
         else if(stv===1) next = g.next;
         else next = "待前序阶段完成后进入本步："+g.goal;
         return {i, name:g.name, goal:g.goal, mark:g.mark, st:stv===2?"完成":stv===1?"进行中":"未开始",
-          next, time: ms!=null?dObj(ms).t:"—"};
+          next, time: ms!=null?dObj(ms).t:"—", where:g.where, do:g.do, out:g.out, ref:g.ref, pit:g.pit};
       });
     }
+    // 本书目录形态（data.js pipelineShapes）：列名 × 该书实际目录名
+    const pipeCols = computed(()=>D.pipelineShapes?D.pipelineShapes.columns:[]);
+    const pipeRow = computed(()=>D.pipelineShapes&&D.pipelineShapes.rows?D.pipelineShapes.rows[cur.value.id]:null);
     function stepStatus(i){ const s=cur.value.stageStates&&cur.value.stageStates[i]; return s===2?"success":s===1?"process":"wait"; }
     function bookOf(id){ return D.books.find(x=>x.id===id)||{}; }
     function pickLayer(L){ selLayerKey.value=L.key; openAllJson.value=false; }
@@ -278,6 +281,7 @@ createApp({
       allLayerKeys,totalPairs:Object.values(layerBooks).reduce((s,v)=>s+v.length,0),
       cmpLayer,cmpOnly,cmpAnnot,cmpOpen,cmpSwitch,cmpKeys,cmpBooks,cmpKnownIds,cmpKnown,cmpMajority,
       cmpRows,cmpSummary,cmpBookJson,cmpCellCls,cmpMark,uniqOf,missOf,bookOf,fDesc,
-      tlQ,tlStages,tlDays,tlPos,STAGEC,tlMode,tlBook,tlChart,tlChartBooks};
+      tlQ,tlStages,tlDays,tlPos,STAGEC,tlMode,tlBook,tlChart,tlChartBooks,
+      pipeCols,pipeRow};
   }
 }).use(ElementPlus).mount("#app");

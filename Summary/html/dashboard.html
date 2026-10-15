@@ -86,27 +86,54 @@
       <p v-if="volText(cur)" class="volprog">卷进度：{{volText(cur)}}</p>
 
       <div class="flowcard" v-if="curFlow">
-        <div>当前节点：<b>{{curFlow.name}}</b>
-          <el-tag size="small" :type="curFlow.state===2?'success':'warning'">{{curFlow.state===2?'该阶段已完成':'该阶段进行中'}}</el-tag>
-          　标志：{{curFlow.mark}}</div>
-        <div class="nx" style="margin-top:4px">下一步：{{curFlow.next}}</div>
+        <div>👉 当前节点：<b>《{{cur.title}}》· {{curFlow.name}}</b>
+          <el-tag size="small" :type="curFlow.state===2?'success':'warning'">{{curFlow.state===2?'该阶段已完成':'该阶段进行中 · 现在就做这步'}}</el-tag>
+          　磁盘标志：{{curFlow.mark}}</div>
+        <div class="nx" style="margin-top:6px">
+          <div v-if="curFlow.where"><b>① 去哪：</b>{{curFlow.where}}</div>
+          <div v-if="curFlow.do" style="margin-top:4px"><b>② 做什么：</b>{{curFlow.do}}</div>
+          <div v-if="curFlow.out" style="margin-top:4px"><b>③ 产出算完：</b>{{curFlow.out}}</div>
+          <div v-if="curFlow.ref" style="margin-top:4px"><b>④ 范本/文档：</b>{{curFlow.ref}}</div>
+          <div v-if="curFlow.pit" style="margin-top:4px"><b>⚠ 别踩：</b>{{curFlow.pit}}</div>
+          <div v-if="curFlow.next" style="margin-top:6px;color:#8b1f1f"><b>这步做完后：</b>{{curFlow.next}}</div>
+        </div>
       </div>
 
-      <h4 style="margin:14px 0 6px;color:#8b1f1f">整体流程 · 逐段标志与下一步</h4>
-      <el-table :data="flowRows(cur)" border size="small">
+      <div v-if="pipeRow" class="flowcard" style="margin-top:8px">
+        <div><b>📁 本书目录形态</b><span class="muted">（各书命名不一致，照此找文件，勿凭印象）</span></div>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:5px">
+          <div v-for="(c,i) in pipeCols" :key="i"><span class="muted">{{c}}：</span><code>{{pipeRow[i]}}</code></div>
+        </div>
+      </div>
+
+      <h4 style="margin:14px 0 6px;color:#8b1f1f">整体流程 · 七步全列（展开任一步看操作细节）</h4>
+      <el-table :data="flowRows(cur)" border size="small" row-key="i">
+        <el-table-column type="expand">
+          <template #default="{row}">
+            <div style="padding:8px 18px;background:#fdf9ef;line-height:1.7">
+              <div><b>去哪：</b>{{row.where}}</div>
+              <div style="margin-top:3px"><b>做什么：</b>{{row.do}}</div>
+              <div style="margin-top:3px"><b>产出算完：</b>{{row.out}}</div>
+              <div style="margin-top:3px"><b>范本/文档：</b>{{row.ref}}</div>
+              <div v-if="row.pit" style="margin-top:3px;color:#a33"><b>别踩：</b>{{row.pit}}</div>
+            </div>
+          </template>
+        </el-table-column>
         <el-table-column label="阶段" width="110">
           <template #default="{row}"><span class="lgdot" :style="{background:STAGEC[row.i]}"></span>{{row.name}}</template>
         </el-table-column>
-        <el-table-column prop="goal" label="这一步在做什么" min-width="220"></el-table-column>
-        <el-table-column prop="mark" label="完成标志" min-width="230"></el-table-column>
-        <el-table-column label="本书状态" width="110" align="center">
+        <el-table-column prop="goal" label="这一步在做什么" min-width="200"></el-table-column>
+        <el-table-column label="本书状态" width="90" align="center">
           <template #default="{row}"><el-tag size="small" :type="row.st==='完成'?'success':row.st==='进行中'?'warning':'info'" effect="plain">{{row.st}}</el-tag></template>
         </el-table-column>
-        <el-table-column label="执行时间" width="130">
+        <el-table-column label="执行时间" width="125">
           <template #default="{row}"><span class="muted">{{row.time}}</span></template>
         </el-table-column>
-        <el-table-column label="下一步该怎么做" min-width="200">
-          <template #default="{row}">{{row.next}}</template>
+        <el-table-column label="完成标志 / 下一步" min-width="280">
+          <template #default="{row}">
+            <div class="muted" style="font-size:12px">{{row.mark}}</div>
+            <div style="margin-top:3px">{{row.next}}</div>
+          </template>
         </el-table-column>
       </el-table>
 
