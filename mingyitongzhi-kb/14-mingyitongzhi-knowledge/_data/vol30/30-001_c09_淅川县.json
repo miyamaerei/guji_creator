@@ -1,0 +1,36 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "淅川县",
+  "region": "河南",
+  "type": "county",
+  "original": "淅川县【在州城西北一百二十里秦汉属南阳郡北魏置淅川县属邓州寻改淅阳县属荆州隋唐因之宋复置金元省入内乡县本朝成化初复置仍旧属编户一十九里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "淅川县", "type": "geo", "norm": "淅川县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c09", "item_id": "30-001", "name": "淅川县", "type": "county", "region": "河南", "parent": "GEO-30001s01", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在邓州西北一百二十里", "households": {"count": 19, "unit": "里", "note": "编户一十九里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c09", "dynasty": "秦汉", "era": null, "institution_name": "南阳郡地", "action": "因之", "detail": "秦汉属南阳郡"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c09", "dynasty": "南北朝", "era": "北魏", "institution_name": "淅川县/淅阳县", "action": "置", "detail": "北魏置淅川县属邓州，寻改淅阳县属荆州"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c09", "dynasty": "隋唐", "era": null, "institution_name": "淅阳县", "action": "因之", "detail": "隋唐因之，宋复置"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c09", "dynasty": "金元", "era": null, "institution_name": "内乡县地", "action": "省", "detail": "金元省入内乡县"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c09", "dynasty": "明", "era": "成化", "institution_name": "淅川县", "action": "复", "detail": "本朝成化初复置仍旧属邓州"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c09", "name": "岝岭山", "type": "山", "location_text": "在淅川县北二百里", "description": "其山甚高峭壁如削，上有忠国师结庐处", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c09", "name": "白崖山", "type": "山", "location_text": "在淅川县东南七十里", "description": "山石莹白若缟素，旧有香严寺，宋范仲淹诗白崖山下古禅刹即此", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c09", "name": "淅水", "type": "河", "location_text": "在淅川县西南三十里", "description": "源自商县流经本县南合汤防回车等河与丹水合流入汉江", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c09", "name": "淅川县学", "type": "学校", "location_text": "在县治东南", "history_lore": "成化中建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c09", "name": "香岩寺", "type": "寺观", "location_text": "在淅川县南", "history_lore": "唐建，本朝永乐中修"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c09", "name": "丹朱冢", "type": "陵墓", "location_text": "在淅川县西北七十里", "history_lore": "丹朱帝尧子"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

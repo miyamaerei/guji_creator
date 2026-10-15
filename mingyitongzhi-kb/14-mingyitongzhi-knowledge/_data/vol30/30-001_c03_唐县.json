@@ -1,0 +1,50 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "唐县",
+  "region": "河南",
+  "type": "county",
+  "original": "唐县【在府城东南一百二十里本汉北阳县属南阳郡后魏置东荆州西魏改淮州隋初改显州后改淮安郡唐初复为显州寻废州以县属泌州又改泌州为唐州治北阳县天宝初改淮安郡乾元初复为唐州五代梁改泌州徙治泌阳后唐复为唐州晋又改泌州汉又复旧宋属京西南路元属南阳府本朝降州为县编户二十里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "唐县", "type": "geo", "norm": "唐县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c03", "item_id": "30-001", "name": "唐县", "type": "county", "region": "河南", "parent": "GEO-30001", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在府城东南一百二十里", "households": {"count": 20, "unit": "里", "note": "编户二十里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c03", "dynasty": "汉", "era": null, "institution_name": "北阳县", "action": "置", "detail": "本汉北阳县属南阳郡"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c03", "dynasty": "南北朝", "era": "后魏", "institution_name": "东荆州/淮州/显州", "action": "置", "detail": "后魏置东荆州，西魏改淮州，隋初改显州后改淮安郡"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c03", "dynasty": "唐", "era": "天宝", "institution_name": "唐州", "action": "改", "detail": "唐初复为显州寻废州以县属泌州，又改泌州为唐州治北阳县，天宝初改淮安郡乾元初复为唐州"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c03", "dynasty": "五代", "era": null, "institution_name": "泌州/唐州", "action": "改", "detail": "五代梁改泌州徙治泌阳，后唐复为唐州，晋又改泌州汉又复旧"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c03", "dynasty": "宋", "era": null, "institution_name": "唐州", "action": "因之", "detail": "宋属京西南路，元属南阳府"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001c03", "dynasty": "明", "era": null, "institution_name": "唐县", "action": "降", "detail": "本朝降州为县"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "双山", "type": "山", "location_text": "在唐县东北四十五里", "description": "两山相并故名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "白玉山", "type": "山", "location_text": "在唐县南五十里，一名发山", "description": "上有卓锡泉", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "蓼山", "type": "山", "location_text": "在唐县南九十里", "description": "古蓼国地上有蓼王庙", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "石柱山", "type": "山", "location_text": "在唐县东南一百里", "description": "山有石柱柱有铁环莫考其故", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "唐子山", "type": "山", "location_text": "在唐县南一百里", "description": "汉高凤隐居处，唐因此山置唐州一名西唐山", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "牡丹山", "type": "山", "location_text": "在唐县东南一百五十里", "description": "上产牡丹", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "北水", "type": "河", "location_text": "源出唐县大胡山", "description": "一名马仁陂乃聚泽也，溉田万顷，汉因此水置比阳县", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "高公陂", "type": "陂", "location_text": "在唐县", "description": "凡四十四处，宋治平初知州高赋所作", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "召堰", "type": "堰", "location_text": "在唐县", "description": "汉召信臣守南阳障水灌田民赖其利因名，唐刺史卢庠委郡从事李廙之修其故迹岁增良田四万顷", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "赵尚宽", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知唐州", "summary": "嘉祐中知唐州开故渠溉田四万余顷，四方民归者云布，比三年榛莽皆为膏腴增户至万余，治有异等民像以祠之"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "高赋", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知唐州", "summary": "知唐州募两河流民计口授以旷田使耕作陂堰四十余，比其去田增辟三万余顷户增万一千三百，玺书褒谕民为立生祠"},
+      {"per_id": "PER-003", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "范百禄", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知唐州", "summary": "元丰中知唐州为政以宽囹圄空虚大兴学校士习丕变"},
+      {"per_id": "PER-004", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "宋玒", "type": "人物", "dynasty": "明", "native_place": "唐县", "office": "金华知府", "summary": "洪武中举人材知祁县事廉慎有为以才行超卓迁监察御史执法不阿，未几夺情起为金华知府"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "唐县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武三年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "菩提寺", "type": "寺观", "location_text": "在唐县治东南", "history_lore": "宋绍圣初建，本朝洪武中重建"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "清风? 清德堂", "type": "宫室", "location_text": "在唐县治", "history_lore": "唐李适之为刺史人为作清德颂，宋知州事顿起读其辞慕其人因建堂刻颂"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "湖阳城", "type": "古迹", "location_text": "在唐县南", "history_lore": "故廖国也汉为县光武封姊为湖阳公主即此"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001c03", "name": "宋玉墓", "type": "陵墓", "location_text": "在唐县东", "history_lore": "葬楚大夫宋玉"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

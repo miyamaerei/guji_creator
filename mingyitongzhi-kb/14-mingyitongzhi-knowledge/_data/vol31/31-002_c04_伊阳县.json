@@ -1,0 +1,313 @@
+{
+  "item_id": "31-002",
+  "volume": "31",
+  "source": "伊阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "伊阳县【在州西五十里春秋秦晋迁陆浑之城创伊川即此战国属韩秦置新城县属三辅郡两汉因之三国属魏晋复为陆浑属河南府唐置伊州陆浑隶焉寻改为伊阳县五代及宋皆因之隶河南府绍兴九年改为顺川寻复伊阳元改为嵩州属南阳府本朝洪武初改州为县成化十一年仍置伊阳县改隶汝州编户一十八里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "伊阳县",
+        "type": "geo",
+        "norm": "伊阳县",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "云夢山",
+        "type": "mtn",
+        "norm": "云夢山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "岘山",
+        "type": "mtn",
+        "norm": "岘山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "筛子垛山",
+        "type": "mtn",
+        "norm": "筛子垛山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "甘泉山",
+        "type": "mtn",
+        "norm": "甘泉山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "九皋山",
+        "type": "mtn",
+        "norm": "九皋山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "凤凰山",
+        "type": "mtn",
+        "norm": "凤凰山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "九女泉",
+        "type": "mtn",
+        "norm": "九女泉",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "不救关",
+        "type": "geo",
+        "norm": "不救关",
+        "first_source": "31-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31002c04",
+        "item_id": "31-002",
+        "name": "伊阳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31002",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在州西五十里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户一十八里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "陆浑/伊川地",
+        "action": "置",
+        "detail": "春秋秦晋迁陆浑之戎，创伊川即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "新城县",
+        "action": "置",
+        "detail": "战国属韩，秦置新城县属三川郡，两汉因之"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "陆浑县",
+        "action": "因之",
+        "detail": "三国属魏，晋复为陆浑属河南郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "伊阳县",
+        "action": "改",
+        "detail": "唐置伊州陆浑隶焉，寻改为伊阳县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "嵩州",
+        "action": "改",
+        "detail": "五代及宋皆因之隶河南府，绍兴九年改为顺川寻复伊阳，元改为嵩州属南阳府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "dynasty": "明",
+        "era": "成化",
+        "institution_name": "伊阳县",
+        "action": "改州为县",
+        "detail": "本朝洪武初改州为县，成化十一年仍置伊阳县改隶汝州"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "云夢山",
+        "type": "山",
+        "location_text": "在伊阳县东南七里",
+        "description": "相传鬼谷修道处，其北有水自洞下注如垂帘，名水帘洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "岘山",
+        "type": "山",
+        "location_text": "在伊阳县南四十里",
+        "description": "昔唐文帝经此，以其危峰独见遂名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "筛子垛山",
+        "type": "山",
+        "location_text": "在伊阳县西七十里",
+        "description": "产铜矿，洞口最多有似筛子眼故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "甘泉山",
+        "type": "山",
+        "location_text": "在伊阳县北五里",
+        "description": "中有泉水味甘",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "九皋山",
+        "type": "山",
+        "location_text": "在伊阳县西北二十五里",
+        "description": "昔有鹤鸣于上故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "凤凰山",
+        "type": "山",
+        "location_text": "在伊阳县北三十里",
+        "description": "以形似故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "九女泉",
+        "type": "泉",
+        "location_text": "在伊阳县南三十里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "伊阳县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "成化十二年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "不救关",
+        "type": "关梁",
+        "location_text": "在伊阳县西南",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "紫罗桥",
+        "type": "关梁",
+        "location_text": "在伊阳县城东",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "漫流桥",
+        "type": "关梁",
+        "location_text": "在伊阳县城外",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "枣林桥",
+        "type": "关梁",
+        "location_text": "在伊阳县城西",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "练溪寺",
+        "type": "寺观",
+        "location_text": "在伊阳县城外",
+        "history_lore": "元大德初建"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "清凉寺",
+        "type": "寺观",
+        "location_text": "在伊阳县城外",
+        "history_lore": "宋熙宁五年建"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c04",
+        "name": "太古观",
+        "type": "寺观",
+        "location_text": "在伊阳县城外",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

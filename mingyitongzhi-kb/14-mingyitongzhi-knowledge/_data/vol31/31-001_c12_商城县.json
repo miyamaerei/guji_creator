@@ -1,0 +1,130 @@
+{
+  "item_id": "31-001",
+  "volume": "31",
+  "source": "商城县",
+  "region": "河南",
+  "type": "county",
+  "original": "商城县【在州北一百里春秋时为黄国战国属楚秦属九江郡西汉属汝南郡东汉属淮阳国晋属汝隂郡刘宋置殷城县唐初改置义州寻废以地属弋阳郡宋复置商城县寻省入固始县金元仍旧本朝初因之成化十一年复置改今属编户二十六里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "商城县",
+        "type": "geo",
+        "norm": "商城县",
+        "first_source": "31-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "黄国",
+        "type": "geo",
+        "norm": "黄国",
+        "first_source": "31-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31001c12",
+        "item_id": "31-001",
+        "name": "商城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31001s02",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在州北一百里",
+          "households": {
+            "count": 26,
+            "unit": "里",
+            "note": "编户二十六里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "黄国",
+        "action": "置",
+        "detail": "春秋时为黄国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "汝南郡地",
+        "action": "置",
+        "detail": "西汉属汝南郡，东汉属淮阳国，晋属汝阴郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "dynasty": "南北朝",
+        "era": "刘宋",
+        "institution_name": "殷城县",
+        "action": "置",
+        "detail": "刘宋置殷城县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "义州",
+        "action": "废",
+        "detail": "唐初改置义州寻废以地属弋阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "商城县",
+        "action": "复置",
+        "detail": "宋复置商城县，寻省入固始县，金元仍旧"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "dynasty": "明",
+        "era": "成化",
+        "institution_name": "商城县",
+        "action": "复置",
+        "detail": "本朝初因之，成化十一年复置改今属"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-001",
+        "geo_id": "GEO-31001c12",
+        "name": "商城县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "成化十三年因置县始建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "县志简，山川无额外条目"
+  }
+}

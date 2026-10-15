@@ -1,0 +1,45 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "叶县",
+  "region": "河南",
+  "type": "county",
+  "original": "叶县【在州北一百二十里古应子国周为应乡春秋为楚地迁许于叶即此后为沈诸梁邑汉置叶县晋属南阳国北齐置襄州东魏置定南郡后周废襄州置南襄城郡又废定南郡为县隋初郡废以县属许州后以定南县省入唐初于此置叶州州罢仍以县属许州后析置仙凫县属仙州寻罢仙州及省仙凫县宋属汝州金属裕州元仍旧本朝因之编户三十二里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "叶县", "type": "geo", "norm": "叶县", "first_source": "30-001"}, {"ent_id": "ENT-002", "name": "沈诸梁", "type": "person", "norm": "沈诸梁", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c11", "item_id": "30-001", "name": "叶县", "type": "county", "region": "河南", "parent": "GEO-30001s02", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在裕州北一百二十里", "households": {"count": 32, "unit": "里", "note": "编户三十二里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c11", "dynasty": "周", "era": null, "institution_name": "应乡/叶邑", "action": "因之", "detail": "古应子国周为应乡，春秋为楚地迁许于叶即此，后为沈诸梁邑"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c11", "dynasty": "汉", "era": null, "institution_name": "叶县", "action": "置", "detail": "汉置叶县晋属南阳国"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c11", "dynasty": "南北朝", "era": "北齐", "institution_name": "襄州/定南郡", "action": "置", "detail": "北齐置襄州，东魏置定南郡，后周废襄州置南襄城郡又废定南郡为县"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c11", "dynasty": "隋", "era": null, "institution_name": "叶县", "action": "因之", "detail": "隋初郡废以县属许州，后以定南县省入"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c11", "dynasty": "唐", "era": null, "institution_name": "叶县", "action": "因之", "detail": "唐初于此置叶州州罢仍以县属许州，后析置仙凫县属仙州寻罢仙州及省仙凫县"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001c11", "dynasty": "金", "era": null, "institution_name": "叶县", "action": "因之", "detail": "宋属汝州，金属裕州，元仍旧"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "黄城山", "type": "山", "location_text": "在叶县北一十里，一名苦华一名长城", "description": "即长沮桀溺耕处，下有东流水即子路问津处", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "滍水", "type": "河", "location_text": "源出鲁山流至叶县入沙河", "description": "左传楚人与晋师夹泜而军即此，汉光武破王寻于昆阳士卒溺死滍水为之不流", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "湛水", "type": "河", "location_text": "源出汝州马跑泉流经叶县入汝水", "description": "左传楚公子格与晋战于湛阪即此", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "沈诸梁", "type": "名宦", "dynasty": "周", "native_place": "楚", "office": "叶县尹", "summary": "春秋时为楚叶县尹僭称公，时孔子自卫适楚公尝问政"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "王乔", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "叶令", "summary": "每朔望自县诣朝，章帝怪之，太史言临至辄有双凫从东南来，举罗得双舄，乃所赐尚书官属履"},
+      {"per_id": "PER-003", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "黄庭坚", "type": "名宦", "dynasty": "宋", "native_place": "分宁", "office": "叶县尉", "summary": "神宗时调叶县尉，尝作漫尉诗知其居官有守"},
+      {"per_id": "PER-004", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "刘从益", "type": "名宦", "dynasty": "金", "native_place": "", "office": "叶县令", "summary": "大安初为叶县令修学励俗有古良吏风，请减流亡粮一万石流民归者四千余家"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "叶县学", "type": "学校", "location_text": "在县治东南", "history_lore": "洪武三年因金旧址重建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "万安寺", "type": "寺观", "location_text": "在叶县治北", "history_lore": "洪武初建"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "双凫观", "type": "寺观", "location_text": "在叶县治东北", "history_lore": "祀汉王乔，宋黄庭坚诗青山空在衣冠古白鹤不归宫殿秋"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "叶公庙", "type": "祠庙", "location_text": "在叶县", "history_lore": "叶公墓在叶县南二十里，葬沈诸梁"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "昆阳城", "type": "古迹", "location_text": "在叶县南", "history_lore": "汉县属颍川郡，光武破王寻于此，苏轼有吊昆阳赋"},
+      {"site_id": "SITE-006", "item_id": "30-001", "geo_id": "GEO-30001c11", "name": "翫龙台", "type": "古迹", "location_text": "在叶县南", "history_lore": "叶公画龙之所，唐王维有诗"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

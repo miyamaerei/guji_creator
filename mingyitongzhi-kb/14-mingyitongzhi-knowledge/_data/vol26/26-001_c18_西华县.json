@@ -1,0 +1,144 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "西华县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "西华县",
+        "type": "geo",
+        "norm": "西华县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c18",
+        "item_id": "26-001",
+        "name": "西华县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s01",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城西北九十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户22里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "长平西华二县地",
+        "action": "置",
+        "detail": "汉为长平西华二县地属汝南郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "梁国",
+        "action": "属",
+        "detail": "晋省西华以长平属梁国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "西华县",
+        "action": "复置",
+        "detail": "宋复置西华北齐省长平入焉"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "鸿沟县",
+        "action": "改",
+        "detail": "隋初改为鸿沟县后复名西华属淮阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "箕城县",
+        "action": "改",
+        "detail": "唐改箕城县属陈州长寿初改曰武城景云初复曰西华"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "淮宁府",
+        "action": "属",
+        "detail": "宋属淮宁府金属陈州元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "name": "柳城",
+        "type": "古迹",
+        "location_text": "在西华县南",
+        "description": "一名娲城世传为女娲氏之都",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "name": "长平城",
+        "type": "古迹",
+        "location_text": "在西华县东北",
+        "description": "汉置县属汝南郡晋属梁国",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c18",
+        "name": "西华县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

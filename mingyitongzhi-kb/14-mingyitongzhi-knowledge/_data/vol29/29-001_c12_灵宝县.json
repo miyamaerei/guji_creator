@@ -1,0 +1,68 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "灵宝县",
+  "region": "河南",
+  "type": "county",
+  "original": "灵寳县【在陜州城西六十里本汉陕县地隋开皇十六年置桃林县相传元鼎于此获宝鼎改曰灵寳唐天宝元年因於古函谷关得灵符乃改县为灵寳五代及宋金皆仍旧元省入陜县寻复置本朝因之编户一十二里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "灵宝县", "type": "geo", "norm": "灵宝县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "函谷旧关", "type": "site", "norm": "函谷旧关", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "许进", "type": "person", "norm": "许进", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c12",
+        "item_id": "29-001",
+        "name": "灵宝县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001s01",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在陕州城西六十里",
+          "households": {"count": 12, "unit": "里", "note": "编户一十二里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c12", "dynasty": "汉", "era": null, "institution_name": "陕县地", "action": "因之", "detail": "本汉陕县地"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c12", "dynasty": "隋", "era": "开皇", "institution_name": "桃林县", "action": "置", "detail": "隋开皇十六年置桃林县，相传元鼎于此获宝鼎改曰灵宝"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c12", "dynasty": "唐", "era": "天宝", "institution_name": "灵宝县", "action": "改", "detail": "唐天宝元年因於古函谷关得灵符乃改县为灵宝"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c12", "dynasty": "元", "era": null, "institution_name": "灵宝县", "action": "省", "detail": "五代及宋金皆仍旧，元省入陕县寻复置"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c12", "dynasty": "明", "era": null, "institution_name": "灵宝县", "action": "因之", "detail": "本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "岘山", "type": "山", "location_text": "在灵宝县南五十里", "description": "即张襄阳羊祜酈宪叔之碑处", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "虢山", "type": "山", "location_text": "在灵宝县西二十里", "description": "上有虢公墓", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "柏山", "type": "山", "location_text": "在灵宝县东南五十里", "description": "多柏，山上有泉名马跑", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "夸父山", "type": "山", "location_text": "在灵宝县东南五十里", "description": "俗名秦山，相传夸父追日至此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "荆山", "type": "山", "location_text": "在灵宝县东南一百六十里", "description": "山下有湖即黄帝铸鼎之处，今为湖水", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "稠桑原", "type": "其他", "location_text": "在灵宝县北", "description": "有古稠桑驿", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "鼎湖", "type": "湖", "location_text": "在灵宝县南", "description": "黄帝采首山铜铸鼎於荆山下，鼎既成有龙垂胡髯下迎，后世因名其处曰鼎湖", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "曹阳涧", "type": "河", "location_text": "在灵宝县东一十二里，俗名七里澗", "description": "汉献帝兵败於曹阳即此", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "望气台", "type": "台", "location_text": "在灵宝县东南函谷关左", "description": "老子西游关令尹喜先见紫气浮关而果见老子度关", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "鸡鸣台", "type": "台", "location_text": "在灵宝县东南函谷关右", "description": "孟尝君度关客有鸡鸣而关开因筑台", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "许进", "type": "人物", "dynasty": "明", "native_place": "灵宝", "office": "兵部尚书", "summary": "成化戊戌进士，累官兵部尚书，平石城贼有方"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "许诰", "type": "人物", "dynasty": "明", "native_place": "灵宝", "office": "南京户部尚书", "summary": "进子，弘治壬戌进士，历官侍读学士，著述温雅"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "许赞", "type": "人物", "dynasty": "明", "native_place": "灵宝", "office": "吏部尚书", "summary": "进子，弘治壬子进士，以务持大体为相业之最，谥文简"},
+      {"per_id": "PER-004", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "许论", "type": "人物", "dynasty": "明", "native_place": "灵宝", "office": "兵部尚书", "summary": "进子，嘉靖丙戌进士，官至兵部尚书，著九边图"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "灵宝县学", "type": "学校", "location_text": "在县治东南", "history_lore": ""},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "函谷旧关", "type": "关梁", "location_text": "在灵宝县南一十里", "history_lore": "老聃西度田文东出皆此关，左右有望气鸡鸣二台遗址"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "鼎湖宫", "type": "宫室", "location_text": "在灵宝县南", "history_lore": "汉武帝建宫以祀黄帝"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "魏文帝庙", "type": "祠庙", "location_text": "在灵宝县南", "history_lore": "帝曹丕"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001c12", "name": "昭庆寺", "type": "寺观", "location_text": "在灵宝县治东", "history_lore": "宋建"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

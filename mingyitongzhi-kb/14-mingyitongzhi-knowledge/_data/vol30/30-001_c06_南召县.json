@@ -1,0 +1,33 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "南召县",
+  "region": "河南",
+  "type": "county",
+  "original": "南召县【在府城北一百四十里本南阳县地世传楚王故城汉属西鄂州唐属向城县宋属南阳府元因之本朝初置巡检司成化十二年析为南召县因地有南召店故名编户一十八里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "南召县", "type": "geo", "norm": "南召县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c06", "item_id": "30-001", "name": "南召县", "type": "county", "region": "河南", "parent": "GEO-30001", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在府城北一百四十里", "households": {"count": 18, "unit": "里", "note": "编户一十八里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c06", "dynasty": "汉唐", "era": null, "institution_name": "南阳县/向城县地", "action": "因之", "detail": "本南阳县地，世传楚王故城，汉属西鄂州，唐属向城县"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c06", "dynasty": "宋", "era": null, "institution_name": "南阳府地", "action": "因之", "detail": "宋属南阳府元因之"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c06", "dynasty": "明", "era": "成化", "institution_name": "南召县", "action": "置", "detail": "本朝初置巡检司，成化十二年析为南召县，因地有南召店故名"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c06", "name": "天子望山", "type": "山", "location_text": "在南召县西南二十里", "description": "世传光武鸦导而出登此山以望南阳故名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c06", "name": "金童山", "type": "山", "location_text": "在南召县西五里", "description": "峰林秀丽，世传山南多有古王侯墓故名", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c06", "name": "铁朵山", "type": "山", "location_text": "在南召县西南八十里", "description": "世传下产铁石古有铁冶故名", "lore": ""}
+    ],
+    "pers": [],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c06", "name": "南召县学", "type": "学校", "location_text": "在县治西北", "history_lore": "成化十二年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c06", "name": "丹霞寺", "type": "寺观", "location_text": "在南召县西四十里", "history_lore": "唐丹霞禅师修炼之所因以名寺"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

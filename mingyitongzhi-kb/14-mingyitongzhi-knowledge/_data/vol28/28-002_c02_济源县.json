@@ -1,0 +1,105 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "济源县",
+  "region": "河南",
+  "type": "county",
+  "original": "济源县【在府城西北一百二十里编户二十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "济源县",
+        "type": "geo",
+        "norm": "济源县",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002c02",
+        "item_id": "28-002",
+        "name": "济源县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城西北一百二十里",
+          "households": {
+            "count": 20,
+            "unit": "里",
+            "note": "编户二十里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "原邑",
+        "action": "因之",
+        "detail": "本周原邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c02",
+        "dynasty": "隋",
+        "era": "开皇",
+        "institution_name": "济源县",
+        "action": "置",
+        "detail": "隋开皇十年析轵县北置济源县因济水发源为名"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c02",
+        "dynasty": "元",
+        "era": "太宗",
+        "institution_name": "原州",
+        "action": "升",
+        "detail": "元太宗时升为原州，后仍为县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c02",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "济源县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c02",
+        "name": "王屋山",
+        "type": "山",
+        "location_text": "在济源县西八十里",
+        "description": "山有三重其路盘山而行，愚公移山即此",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "怀庆府"
+}

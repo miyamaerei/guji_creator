@@ -1,0 +1,495 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "卫辉府",
+  "region": "河南",
+  "type": "prefecture",
+  "original": "卫辉府【东至直隷大名府滑县界五十里南至开封府延津县界四十里西至山西泽州陵川县界二百一十里北至彰徳府汤隂县界七十里自府治至京师一千四百里至南京一千五百里】【粮二十四万五千六百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "卫辉府",
+        "type": "geo",
+        "norm": "卫辉府",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "汲县",
+        "type": "geo",
+        "norm": "汲县",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "胙城县",
+        "type": "geo",
+        "norm": "胙城县",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "新乡县",
+        "type": "geo",
+        "norm": "新乡县",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "获嘉县",
+        "type": "geo",
+        "norm": "获嘉县",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "淇县",
+        "type": "geo",
+        "norm": "淇县",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "辉县",
+        "type": "geo",
+        "norm": "辉县",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "朝歌",
+        "type": "geo",
+        "norm": "朝歌",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "卫州",
+        "type": "geo",
+        "norm": "卫州",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "苏门山",
+        "type": "mtn",
+        "norm": "苏门山",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "太行山",
+        "type": "mtn",
+        "norm": "太行山",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "史记",
+        "type": "book",
+        "norm": "史记",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "宋地理志",
+        "type": "book",
+        "norm": "宋地理志",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "元志",
+        "type": "book",
+        "norm": "元志",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "汉书",
+        "type": "book",
+        "norm": "汉书",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "舆地志",
+        "type": "book",
+        "norm": "舆地志",
+        "first_source": "28-001"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "续郡志",
+        "type": "book",
+        "norm": "续郡志",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001",
+        "item_id": "28-001",
+        "name": "卫辉府",
+        "type": "prefecture",
+        "region": "河南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-28001c01",
+          "GEO-28001c02",
+          "GEO-28001c03",
+          "GEO-28001c04",
+          "GEO-28001c05",
+          "GEO-28001c06",
+          "GEO-28001w01"
+        ],
+        "volume_range": "卷28",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "直隶大名府滑县界",
+              "distance_li": 50
+            },
+            {
+              "direction": "南",
+              "to_place": "开封府延津县界",
+              "distance_li": 40
+            },
+            {
+              "direction": "西",
+              "to_place": "山西泽州陵川县界",
+              "distance_li": 210
+            },
+            {
+              "direction": "北",
+              "to_place": "彰德府汤阴县界",
+              "distance_li": 70
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1400
+            },
+            {
+              "capital": "南京",
+              "distance_li": 1500
+            }
+          ],
+          "grain_tax": {
+            "amount": 245600,
+            "unit": "石",
+            "note": "二十四万五千六百石零"
+          },
+          "jun_name": "古卫朝歌汲郡",
+          "topography": "左孟门右太行【史记】；南滨大河西压上党【宋地理志】；峰麓奇峻地当冲要泉甘水温【俱元志】",
+          "customs": "刚武尚气力【汉书】周末有子路夏育民人慕之故其俗刚武上气力；民情颇事商贾地饶俗淳勤于播种【俱元志】；重义疏财有先王遗风【舆地志】；人知向学彬彬有文【续郡志】",
+          "garrisons": [
+            {
+              "name": "守御卫辉前千户所",
+              "type": "千户所",
+              "location_text": "在府城内东洪武二十三年建属怀庆卫"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "汝府",
+              "location": "在府城内"
+            },
+            {
+              "name": "潞府",
+              "location": "在府城内万历十六年建"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005",
+          "CIT-006"
+        ]
+      },
+      {
+        "geo_id": "GEO-28001w01",
+        "item_id": "28-001",
+        "name": "守御卫辉前千户所",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城内东洪武二十三年建属怀庆卫"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "商",
+        "era": null,
+        "institution_name": "朝歌",
+        "action": "因之",
+        "detail": "禹贡冀州之域，天文室壁分野，本殷纣所都朝歌之地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "邶鄘卫",
+        "action": "置",
+        "detail": "周武王克殷分其北为邶南为鄘东为卫，后封康叔于卫"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "魏地",
+        "action": "因之",
+        "detail": "春秋时邶鄘入之，战国属魏"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "河东郡地",
+        "action": "置",
+        "detail": "秦属河东郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "汲县地",
+        "action": "置",
+        "detail": "汉为汲县地属河内郡，曹魏置朝歌郡属冀州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "汲郡",
+        "action": "改",
+        "detail": "晋改汲郡，后魏徙郡治枋头城而于此置义州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "北周",
+        "era": null,
+        "institution_name": "卫州",
+        "action": "改",
+        "detail": "后周改卫州，隋大业初改汲郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "卫州",
+        "action": "复",
+        "detail": "唐武德初复为义州寻复改卫州，天宝初又为汲郡乾元初复为卫州属河北道"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "河平军",
+        "action": "改",
+        "detail": "宋因之，金改河平军徙治胙城"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "卫辉路",
+        "action": "改",
+        "detail": "元改卫辉路还治汲县"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "卫辉府",
+        "action": "改",
+        "detail": "本朝改为卫辉府领县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "苍山",
+        "type": "山",
+        "location_text": "在府城西北四十里一名苍峪山",
+        "description": "产珉石上有龙潭神祠岁旱祷雨有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "卫河",
+        "type": "河",
+        "location_text": "源发苏门山东北流经府城北一里",
+        "description": "东入大名府濬县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "黄河",
+        "type": "河",
+        "location_text": "自新乡县西南敦留村入境",
+        "description": "东南流经胙城县入开封府原武县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "太公泉",
+        "type": "泉",
+        "location_text": "在府城西北二十五里",
+        "description": "下流达于卫河，上有周太公吕望庙",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "青铁",
+        "category": "矿物",
+        "note": "俱汲县苍山出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "珉石",
+        "category": "矿物",
+        "note": "俱汲县苍山出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "括蒌根",
+        "category": "药材",
+        "note": "胙城县出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "仙茅",
+        "category": "药材",
+        "note": "新乡县鲁包村出"
+      },
+      {
+        "prod_id": "PROD-005",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "锡",
+        "category": "矿物",
+        "note": "俱淇县出"
+      },
+      {
+        "prod_id": "PROD-006",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001",
+        "name": "青瓷",
+        "category": "矿物",
+        "note": "俱淇县出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "28-001",
+        "cited_work": "史记",
+        "cited_work_ent_id": "ENT-012",
+        "context": "立论",
+        "original": "【史记】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "28-001",
+        "cited_work": "宋地理志",
+        "cited_work_ent_id": "ENT-013",
+        "context": "立论",
+        "original": "【宋地理志】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "28-001",
+        "cited_work": "元志",
+        "cited_work_ent_id": "ENT-014",
+        "context": "立论",
+        "original": "【俱元志】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "28-001",
+        "cited_work": "汉书",
+        "cited_work_ent_id": "ENT-015",
+        "context": "证俗",
+        "original": "【汉书】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "28-001",
+        "cited_work": "舆地志",
+        "cited_work_ent_id": "ENT-016",
+        "context": "证俗",
+        "original": "【舆地志】"
+      },
+      {
+        "cit_id": "CIT-006",
+        "item_id": "28-001",
+        "cited_work": "续郡志",
+        "cited_work_ent_id": "ENT-017",
+        "context": "证俗",
+        "original": "【续郡志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers和sites拆为独立文件；府级山川只留府城附近"
+  },
+  "title": "卫辉府"
+}

@@ -1,0 +1,174 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "密县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "密县",
+        "type": "geo",
+        "norm": "密县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c26",
+        "item_id": "26-001",
+        "name": "密县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s03",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城西北一百二十里",
+          "households": {
+            "count": 23,
+            "unit": "里",
+            "note": "编户23里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "密国",
+        "action": "置",
+        "detail": "本古密国亦郐国地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "密县",
+        "action": "置",
+        "detail": "汉始置县属河南郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "荥阳郡",
+        "action": "属",
+        "detail": "晋属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "南北朝",
+        "era": "后周",
+        "institution_name": "荥州",
+        "action": "属",
+        "detail": "后周属荥州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "属",
+        "detail": "隋属郑州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "密州",
+        "action": "置",
+        "detail": "唐初于县置密州寻废州以县属郑州后属河南府"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "河南府",
+        "action": "属",
+        "detail": "宋属郑州寻属河南府"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "dynasty": "金元",
+        "era": null,
+        "institution_name": "钧州",
+        "action": "属",
+        "detail": "金属郑州元属钧州本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "name": "云珑山",
+        "type": "山",
+        "location_text": "在密县北三十里",
+        "description": "一名侵云山其西南又有承云山东南有石楼山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "name": "开阳山",
+        "type": "山",
+        "location_text": "在密县西北一十二里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "name": "黑龙池",
+        "type": "池",
+        "location_text": "在密县西北香峪山",
+        "description": "元至正间县人祷雨于此有黑龙见因名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c26",
+        "name": "密县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "以上俱洪武三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

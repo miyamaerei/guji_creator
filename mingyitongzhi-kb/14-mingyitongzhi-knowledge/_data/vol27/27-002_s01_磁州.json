@@ -1,0 +1,138 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "磁州",
+  "region": "河南",
+  "type": "subprefecture",
+  "original": "磁州【在府城北七十里本秦邯郸郡地汉为魏郡武安县地后魏析置临水县后周割临水置滏阳县及成安郡隋罢郡于滏阳置磁州后罢唐改为惠州后复为磁州宋以昭义县省入滏阳元初升为滏源军节度属广平路后复为磁州本朝并省滏阳县入焉及改今属编户四十一里领县二】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "磁州",
+        "type": "geo",
+        "norm": "磁州",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002s01",
+        "item_id": "27-002",
+        "name": "磁州",
+        "type": "subprefecture",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [
+          "GEO-27002c05",
+          "GEO-27002c06"
+        ],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城北七十里",
+          "households": {
+            "count": 41,
+            "unit": "里",
+            "note": "编户四十一里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "邯郸郡地",
+        "action": "因之",
+        "detail": "本秦邯郸郡地，汉为魏郡武安县地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "临水县",
+        "action": "置",
+        "detail": "后魏析置临水县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "磁州",
+        "action": "置",
+        "detail": "后周割临水置滏阳县及成安郡，隋罢郡于滏阳置磁州后罢"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "惠州",
+        "action": "改",
+        "detail": "唐改为惠州后复为磁州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "磁州",
+        "action": "因之",
+        "detail": "本朝并省滏阳县入焉，改今属领县二"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "name": "贺兰山",
+        "type": "山",
+        "location_text": "在磁州城西北四十里",
+        "description": "相传昔宋贺兰真人尝居此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "name": "滏水",
+        "type": "河",
+        "location_text": "源出磁州西北神麋山",
+        "description": "涌沸如汤出滏东流至临漳县界入漳河",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002s01",
+        "name": "磁州学",
+        "type": "学校",
+        "location_text": "在州治东",
+        "history_lore": "洪武五年建正统十四年重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "舞阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "舞阳县【在州东北一百四十里本汉旧县属南阳郡以在舞水之阳故名东汉属颍川郡魏置舞阳郡后仍为县晋属襄城郡后改北舞县隋属颍川郡唐贞观中属许州寻废开元中复置仍曰舞阳五代宋金并仍旧元初省入叶县后复置本朝因之编户四十四里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "舞阳县", "type": "geo", "norm": "舞阳县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c10", "item_id": "30-001", "name": "舞阳县", "type": "county", "region": "河南", "parent": "GEO-30001s02", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在裕州东北一百四十里", "households": {"count": 44, "unit": "里", "note": "编户四十四里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c10", "dynasty": "汉", "era": null, "institution_name": "舞阳县", "action": "置", "detail": "本汉旧县属南阳郡，以在舞水之阳故名"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c10", "dynasty": "晋", "era": null, "institution_name": "舞阳县", "action": "因之", "detail": "东汉属颍川郡，魏置舞阳郡后仍为县，晋属襄城郡"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c10", "dynasty": "隋", "era": null, "institution_name": "北舞县", "action": "改", "detail": "后改北舞县，隋属颍川郡"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c10", "dynasty": "唐", "era": "开元", "institution_name": "舞阳县", "action": "复", "detail": "贞观中属许州寻废，开元中复置仍曰舞阳"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c10", "dynasty": "元", "era": null, "institution_name": "舞阳县", "action": "省", "detail": "五代宋金并仍旧，元初省入叶县后复置"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "箕山", "type": "山", "location_text": "在舞阳县南三十五里", "description": "以形似名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "马鞍山", "type": "山", "location_text": "在舞阳县西南四十里", "description": "以形似名", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "十八盘山", "type": "山", "location_text": "在舞阳县南八十里", "description": "周回一十八里", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "舞水泉", "type": "泉", "location_text": "在舞阳县东南三里河南岸", "description": "泉踊跃若舞，舞阳之名取此", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "沙河", "type": "河", "location_text": "源出鲁山县吴大岭流经舞阳县合澧水灰绵封等河东达黄河", "description": "", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "王骐", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知舞阳县", "summary": "永乐中知舞阳县时夏麦失秋，请以布花代输公私两便，岁歉民饥发不待报民赖全活"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "周炳", "type": "人物", "dynasty": "明", "native_place": "舞阳", "office": "孝子", "summary": "事母焦氏至孝，母尝病甚炳哀号吁天愿以身代，后有獐入其室杀以奉母病遂愈，洪武中旌表其门"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "舞阳县学", "type": "学校", "location_text": "在县治东南", "history_lore": "洪武五年因宋旧址重建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "开元寺", "type": "寺观", "location_text": "在舞阳县治西", "history_lore": "洪武中建"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "汉樊哙? 樊哙墓", "type": "古迹", "location_text": "在舞阳县樊村", "history_lore": "舞阳为汉樊哙封邑"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c10", "name": "鄼侯庙", "type": "祠庙", "location_text": "在舞阳县治西", "history_lore": "祀汉萧何"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

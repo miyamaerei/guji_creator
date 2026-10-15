@@ -1,0 +1,94 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "汲县",
+  "region": "河南",
+  "type": "county",
+  "original": "汲县【附郭编户四十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "汲县",
+        "type": "geo",
+        "norm": "汲县",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001c01",
+        "item_id": "28-001",
+        "name": "汲县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 40,
+            "unit": "里",
+            "note": "编户四十里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c01",
+        "dynasty": "殷",
+        "era": null,
+        "institution_name": "牧野地",
+        "action": "因之",
+        "detail": "本殷牧野之地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "汲县",
+        "action": "置",
+        "detail": "汉置汲县属河内郡，魏属朝歌郡，晋为汲郡治"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c01",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "汲县",
+        "action": "复",
+        "detail": "后魏置伍城郡及县，周以县属卫州，隋复改为汲县属汲郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c01",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "汲县",
+        "action": "因之",
+        "detail": "唐徙卫州治此，宋元仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "卫辉府"
+}

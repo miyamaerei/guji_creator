@@ -1,0 +1,144 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "郾城县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "郾城县",
+        "type": "geo",
+        "norm": "郾城县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c23",
+        "item_id": "26-001",
+        "name": "郾城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s02",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城南一百二十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户22里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "郾子国",
+        "action": "置",
+        "detail": "本古郾子国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "郾县",
+        "action": "置",
+        "detail": "汉置郾县属颍川郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "dynasty": "南北朝",
+        "era": "北齐",
+        "institution_name": "临颍郡",
+        "action": "置",
+        "detail": "北齐置临颍郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "道州",
+        "action": "置",
+        "detail": "隋置道州改县曰郾城县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "许州",
+        "action": "废道州",
+        "detail": "后废道州以县属许州唐复置道州寻废以县属溵州又属许州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "dynasty": "宋金元",
+        "era": null,
+        "institution_name": "郾城县",
+        "action": "因之",
+        "detail": "宋属颍昌府金元属许州本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "name": "溵水",
+        "type": "河",
+        "location_text": "在郾城县",
+        "description": "有大小二水大者在县治南一里小者在县治北一里隋溵州以此水名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "name": "召陵城",
+        "type": "古迹",
+        "location_text": "在郾城县东四十五里",
+        "description": "春秋盟于召陵即此隋置邵陵县唐省",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c23",
+        "name": "郾城县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "以上俱洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

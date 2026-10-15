@@ -1,0 +1,40 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "新野县",
+  "region": "河南",
+  "type": "county",
+  "original": "新野县【在州东南七十里汉旧县属南阳郡晋为义阳郡治后改义阳为新野郡治棘阳县西魏改郡曰黄冈及改棘阳为百宁县后周以南棘阳县省入隋仍为新野县属邓州唐省入穰县五代宋金俱为新野镇元复置县属邓州本朝因之编户一十八里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "新野县", "type": "geo", "norm": "新野县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c08", "item_id": "30-001", "name": "新野县", "type": "county", "region": "河南", "parent": "GEO-30001s01", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在邓州东南七十里", "households": {"count": 18, "unit": "里", "note": "编户一十八里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c08", "dynasty": "汉", "era": null, "institution_name": "新野县", "action": "置", "detail": "汉旧县属南阳郡"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c08", "dynasty": "晋", "era": null, "institution_name": "义阳郡/新野郡", "action": "置", "detail": "晋为义阳郡治，后改义阳为新野郡治棘阳县"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c08", "dynasty": "南北朝", "era": "西魏", "institution_name": "黄冈郡/百宁县", "action": "改", "detail": "西魏改郡曰黄冈及改棘阳为百宁县，后周以南棘阳县省入"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c08", "dynasty": "隋", "era": null, "institution_name": "新野县", "action": "复", "detail": "隋仍为新野县属邓州"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c08", "dynasty": "唐", "era": null, "institution_name": "穰县地", "action": "省", "detail": "唐省入穰县，五代宋金俱为新野镇"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001c08", "dynasty": "元", "era": null, "institution_name": "新野县", "action": "复", "detail": "元复置县属邓州，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "弹子池", "type": "池", "location_text": "在新野县东北", "description": "世传汉光武尝弹蛙于此，至今有蛙不鸣", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "邓禹", "type": "人物", "dynasty": "汉", "native_place": "新野", "office": "大司徒高密侯", "summary": "杖策见光武，前将军持节入关，名震关西"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "寇义", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知新野县", "summary": "永乐中知新野县有能声，宣德中知邓州正直严明听讼即知"},
+      {"per_id": "PER-003", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "孙宗富", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知新野县", "summary": "正统初知新野县修筑堤堰至今民获其利"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "新野县学", "type": "学校", "location_text": "在县治西", "history_lore": "洪武六年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "干明寺", "type": "寺观", "location_text": "在新野县东南二里", "history_lore": "即东汉阴皇后故宅后建为寺，本朝洪武中重建"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "邓禹庙", "type": "祠庙", "location_text": "在新野县东南", "history_lore": ""},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c08", "name": "议事堂", "type": "宫室", "location_text": "在新野县学内", "history_lore": "世传汉昭烈与徐庶议枉顾诸葛亮于此后人建堂今为文昌祠"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

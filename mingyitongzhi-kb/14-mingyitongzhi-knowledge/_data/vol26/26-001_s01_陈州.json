@@ -1,0 +1,168 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "陈州",
+  "region": "河南",
+  "type": "subprefecture",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "陈州",
+        "type": "geo",
+        "norm": "陈州",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001s01",
+        "item_id": "26-001",
+        "name": "陈州",
+        "type": "subprefecture",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [
+          "GEO-26001c17",
+          "GEO-26001c18",
+          "GEO-26001c19",
+          "GEO-26001c20"
+        ],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东南三百五十里",
+          "households": {
+            "count": 45,
+            "unit": "里",
+            "note": "编户45里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "陈国",
+        "action": "置",
+        "detail": "古伏羲所都周封舜后于此为陈国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "颍川郡地",
+        "action": "属",
+        "detail": "秦为颍川郡地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "淮阳国",
+        "action": "置",
+        "detail": "汉置陈县淮阳国治此"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "陈郡",
+        "action": "置",
+        "detail": "晋于此置豫州后魏置陈郡又置北扬州治项县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "南北朝",
+        "era": "北齐",
+        "institution_name": "信州",
+        "action": "改",
+        "detail": "北齐改为信州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "南北朝",
+        "era": "后周",
+        "institution_name": "陈州",
+        "action": "改",
+        "detail": "后周改曰陈州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "宛丘县",
+        "action": "改",
+        "detail": "隋废陈郡改县曰宛丘后改州为淮阳郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "陈州",
+        "action": "复置",
+        "detail": "唐复为陈州五代晋为镇安州周为镇安军"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "宋",
+        "era": "宣和",
+        "institution_name": "淮宁府",
+        "action": "升",
+        "detail": "宋宣和初升淮宁府"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "金元",
+        "era": null,
+        "institution_name": "陈州",
+        "action": "复为",
+        "detail": "金元复为陈州并以宛丘县为附郭"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "陈州",
+        "action": "省县",
+        "detail": "本朝省县入州领县四"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

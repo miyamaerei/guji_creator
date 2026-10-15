@@ -1,0 +1,94 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "孟县",
+  "region": "河南",
+  "type": "county",
+  "original": "孟县【在府城南八十里编户一十七里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "孟县",
+        "type": "geo",
+        "norm": "孟县",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002c05",
+        "item_id": "28-002",
+        "name": "孟县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城南八十里",
+          "households": {
+            "count": 17,
+            "unit": "里",
+            "note": "编户一十七里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c05",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "孟津",
+        "action": "因之",
+        "detail": "本周之孟津"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c05",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "河阳郡",
+        "action": "置",
+        "detail": "晋咸宁中置河阳郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c05",
+        "dynasty": "唐",
+        "era": "武德",
+        "institution_name": "孟州",
+        "action": "置",
+        "detail": "唐武德初置孟州，金以河阳县省入州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c05",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "孟县",
+        "action": "降",
+        "detail": "本朝洪武十年仍降为县，编户一十七里"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "怀庆府"
+}

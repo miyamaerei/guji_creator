@@ -1,0 +1,144 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "原武县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "原武县",
+        "type": "geo",
+        "norm": "原武县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c12",
+        "item_id": "26-001",
+        "name": "原武县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城西北一百二十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户14里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "原武县",
+        "action": "置",
+        "detail": "汉置属河南郡晋省"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "荥阳郡",
+        "action": "属",
+        "detail": "后魏属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "广武县",
+        "action": "改",
+        "detail": "东魏改置广武县北齐省"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "原陵县",
+        "action": "改",
+        "detail": "隋置原陵县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "原武县",
+        "action": "改",
+        "detail": "唐改原武县属郑州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "dynasty": "宋",
+        "era": "元祐",
+        "institution_name": "原武县",
+        "action": "复置",
+        "detail": "宋省入阳武县元祐初复置金元属郑州本朝改今属"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "name": "黑阳山",
+        "type": "山",
+        "location_text": "在原武县北二十里连阳武县界",
+        "description": "黄河经其下",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "name": "卷城",
+        "type": "古迹",
+        "location_text": "在原武县西北",
+        "description": "汉置县属河南郡",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c12",
+        "name": "原武县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "永乐十年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

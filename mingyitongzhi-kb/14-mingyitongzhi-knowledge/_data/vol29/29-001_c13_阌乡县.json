@@ -1,0 +1,64 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "阌乡县",
+  "region": "河南",
+  "type": "county",
+  "original": "阌乡县【在陜州城西一百二十里本汉湖阌乡县地属京兆尹后汉迁阅乡县以统之属农郡晋省入湖县后魏复置并属西恒农郡后周并湖阌二县为崤郡隋初郡废后郡复置以阌乡县属焉开皇初郡废徙县属虢州义寜初以阌乡县省入唐武德元年复置贞观八年徙郡治此宋建隆初改乡镇曰好阳金因之寻废元仍为阌乡县本朝因之编户九里】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "阌乡县", "type": "geo", "norm": "阌乡县", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "潼关", "type": "site", "norm": "潼关", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "杨震", "type": "person", "norm": "杨震", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001c13",
+        "item_id": "29-001",
+        "name": "阌乡县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-29001s01",
+        "children": [],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在陕州城西一百二十里",
+          "households": {"count": 9, "unit": "里", "note": "编户九里"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "汉", "era": null, "institution_name": "湖县/阌乡", "action": "因之", "detail": "本汉湖阌乡县地属京兆尹"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "东汉", "era": null, "institution_name": "阌乡县", "action": "置", "detail": "后汉迁阌乡县以统之属弘农郡"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "晋", "era": null, "institution_name": "湖县地", "action": "省", "detail": "晋省入湖县，后魏复置并属西恒农郡"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "南北朝", "era": "后周", "institution_name": "崤郡", "action": "置", "detail": "后周并湖阌二县为崤郡"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "隋", "era": "开皇", "institution_name": "阌乡县", "action": "废", "detail": "隋初郡废，后郡复置以阌乡县属焉，开皇初郡废徙县属虢州"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "唐", "era": "武德", "institution_name": "阌乡县", "action": "复", "detail": "义宁初以阌乡县省入，唐武德元年复置"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "宋", "era": "建隆", "institution_name": "好阳镇", "action": "改", "detail": "贞观八年徙郡治此，宋建隆初改乡镇曰好阳，金因之寻废"},
+      {"evo_id": "EVO-008", "item_id": "29-001", "geo_id": "GEO-29001c13", "dynasty": "元", "era": null, "institution_name": "阌乡县", "action": "因之", "detail": "元仍为阌乡县，本朝因之"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "盘豆山", "type": "山", "location_text": "在阌乡县东南二十里", "description": "上有盘豆城", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "阳山", "type": "山", "location_text": "在阌乡县东南三十里，一名阳岭", "description": "上有女娲洞", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "夸父山", "type": "山", "location_text": "在阌乡县东南三十五里", "description": "即夸父追日处", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "皇天原", "type": "其他", "location_text": "在阌乡县东", "description": "即汉武躬耕处", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "全乌水", "type": "河", "location_text": "在阌乡县西", "description": "源自虢州废城，东流至阌乡南合湖水入于河", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "太池", "type": "池", "location_text": "在阌乡县东南", "description": "一名凤池", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "风陵堆", "type": "其他", "location_text": "在阌乡县南", "description": "传说风后墓在此，黄河由北而南冲射其处，河流至此始东", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "杨震", "type": "人物", "dynasty": "汉", "native_place": "阌乡", "office": "太尉", "summary": "大儒，关西夫子，东汉太尉，四世三公，名臣杨彪杨赐皆其后"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "阌乡县学", "type": "学校", "location_text": "在县治东南", "history_lore": "洪武八年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "潼关", "type": "关梁", "location_text": "在阌乡县西六十里与陕西华阴县分界", "history_lore": "本朝置卫于此"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "女娲陵", "type": "陵墓", "location_text": "在阌乡县", "history_lore": "女娲古帝也"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001c13", "name": "汉武帝思仙台", "type": "古迹", "location_text": "在阌乡县东北", "history_lore": "即汉武帝望仙处"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

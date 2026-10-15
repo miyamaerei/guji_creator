@@ -1,0 +1,73 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "沈丘县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "沈丘县",
+        "type": "geo",
+        "norm": "沈丘县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c20",
+        "item_id": "26-001",
+        "name": "沈丘县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s01",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州西南一十五里",
+          "households": {
+            "count": 13,
+            "unit": "里",
+            "note": "编户13里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c20",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "沈丘县",
+        "action": "置",
+        "detail": "本朝分置"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c20",
+        "name": "沈丘县学",
+        "type": "学校",
+        "location_text": "在县治南",
+        "history_lore": "本朝建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

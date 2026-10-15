@@ -1,0 +1,114 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "涉县",
+  "region": "河南",
+  "type": "county",
+  "original": "涉县【在州城西二百里编户一十八里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "涉县",
+        "type": "geo",
+        "norm": "涉县",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002c06",
+        "item_id": "27-002",
+        "name": "涉县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27002s01",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在州城西二百里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户一十八里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c06",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "沙侯国",
+        "action": "置",
+        "detail": "古沙侯国地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "涉县",
+        "action": "置",
+        "detail": "汉置沙县，后因漳水人民徒涉遂名涉县属魏郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c06",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "涉县",
+        "action": "复",
+        "detail": "后魏并入临水县，后周移临水县治涉城，隋复于涉城置涉县隶韩州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c06",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "崇州",
+        "action": "升",
+        "detail": "宋仍旧金升为崇州，元罢州复置县属真定路"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c06",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "涉县",
+        "action": "因之",
+        "detail": "本朝改隶磁州"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c06",
+        "name": "涉县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "洪武三年建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

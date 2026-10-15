@@ -1,0 +1,177 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "中牟县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "中牟县",
+        "type": "geo",
+        "norm": "中牟县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c10",
+        "item_id": "26-001",
+        "name": "中牟县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城西七十里",
+          "households": {
+            "count": 26,
+            "unit": "里",
+            "note": "编户26里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "中牟邑",
+        "action": "置",
+        "detail": "本春秋郑邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "中牟县",
+        "action": "置",
+        "detail": "汉始置县属河南郡晋属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "广武郡",
+        "action": "属",
+        "detail": "后魏省寻复置东魏增置广武郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "内牟县",
+        "action": "改",
+        "detail": "后周徙县治圃田城隋初废郡改县曰内牟属郑州后又徙旧治"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "中牟县",
+        "action": "复改",
+        "detail": "唐复改中牟县并置牟州寻罢州以县属管州龙朔初属郑州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "dynasty": "五代",
+        "era": "梁",
+        "institution_name": "开封府",
+        "action": "属",
+        "detail": "五代梁属开封府唐属郑州宋属开封金元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "name": "狗脊山",
+        "type": "山",
+        "location_text": "在中牟县治后",
+        "description": "其上产黄麻",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "name": "圃田泽",
+        "type": "泽",
+        "location_text": "在中牟县西北七里",
+        "description": "周职方豫州薮曰圃田即此，其泽东西五十里南北二十六里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "name": "官渡城",
+        "type": "古迹",
+        "location_text": "在中牟县北",
+        "description": "汉末曹操与袁绍相持于官渡口即此",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "name": "甯越",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "中牟",
+        "office": "齐威公师",
+        "summary": "苦耕之劳发奋学，十五年而齐威公师之"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "name": "鲁恭",
+        "type": "名宦",
+        "dynasty": "汉",
+        "native_place": "",
+        "office": "中牟令",
+        "summary": "肃宗时为中牟令专尚德化不任刑罚，时螟伤稼不入中牟"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c10",
+        "name": "中牟县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武八年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

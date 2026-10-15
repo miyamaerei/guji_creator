@@ -1,0 +1,105 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "武安县",
+  "region": "河南",
+  "type": "county",
+  "original": "武安县【在州城北一百二十里编户三十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "武安县",
+        "type": "geo",
+        "norm": "武安县",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002c05",
+        "item_id": "27-002",
+        "name": "武安县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27002s01",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在州城北一百二十里",
+          "households": {
+            "count": 34,
+            "unit": "里",
+            "note": "编户三十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "武安县",
+        "action": "置",
+        "detail": "汉置属魏郡，曹魏属广平郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c05",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "武安郡",
+        "action": "因之",
+        "detail": "隋属武安郡，唐初属洺州后改属磁州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c05",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "武安县",
+        "action": "复",
+        "detail": "元初省入邯郸县寻复置，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c05",
+        "name": "粟山",
+        "type": "山",
+        "location_text": "在武安县东南一十二里",
+        "description": "相传秦白起拒赵廉颇于此，赵将绝粮起命将士以布囊盛积至山巅",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c05",
+        "name": "鼓山",
+        "type": "山",
+        "location_text": "在武安县南二十里一名滏山",
+        "description": "有二石如鼓南北相当，邺城西有石鼓鸣则兵起",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

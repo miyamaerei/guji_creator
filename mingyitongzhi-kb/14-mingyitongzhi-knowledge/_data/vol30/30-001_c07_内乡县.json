@@ -1,0 +1,45 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "内乡县",
+  "region": "河南",
+  "type": "county",
+  "original": "内乡县【在州西北一百二十里本楚之白羽地春秋时改曰析秦置中乡县属南阳郡汉为析县属农郡晋属顺阳郡后魏以县置淅阳郡西魏改内乡县后周废隋复置属浙州唐贞观中州罢以县属邓州宋析置顺阳县元以顺阳省入仍属邓州本朝因之编户三十四里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "内乡县", "type": "geo", "norm": "内乡县", "first_source": "30-001"}, {"ent_id": "ENT-002", "name": "菊潭", "type": "mtn", "norm": "菊潭", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c07", "item_id": "30-001", "name": "内乡县", "type": "county", "region": "河南", "parent": "GEO-30001s01", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在邓州西北一百二十里", "households": {"count": 34, "unit": "里", "note": "编户三十四里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c07", "dynasty": "周", "era": null, "institution_name": "白羽/析", "action": "因之", "detail": "本楚之白羽地，春秋时改曰析"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c07", "dynasty": "秦", "era": null, "institution_name": "中乡县", "action": "置", "detail": "秦置中乡县属南阳郡"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c07", "dynasty": "汉", "era": null, "institution_name": "析县", "action": "改", "detail": "汉为析县属弘农郡，晋属顺阳郡"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c07", "dynasty": "南北朝", "era": "后魏", "institution_name": "淅阳郡/内乡县", "action": "改", "detail": "后魏以县置淅阳郡，西魏改内乡县，后周废"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c07", "dynasty": "唐", "era": "贞观", "institution_name": "内乡县", "action": "因之", "detail": "隋复置属淅州，唐贞观中州罢以县属邓州"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001c07", "dynasty": "元", "era": null, "institution_name": "内乡县", "action": "省", "detail": "宋析置顺阳县，元以顺阳省入仍属邓州"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "石堂山", "type": "山", "location_text": "在内乡县西五十里", "description": "山洞若堂又名灵堂，即麻衣子所居修道处", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "熊耳山", "type": "山", "location_text": "在内乡县东一十二里", "description": "山连卢氏县详见卢氏县山川", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "墨山", "type": "山", "location_text": "在内乡县北五十里", "description": "山色尽黑一名石墨山", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "丹崖山", "type": "山", "location_text": "在内乡县西一百里", "description": "其石悉赤壁峙霞绛若江云，秀空二岫更为绝出", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "菊潭", "type": "潭", "location_text": "在内乡县西北", "description": "源出析谷东石涧山，其水重于诸水傍生菊，水极甘馨，有数十家惟饮此水寿多至百岁之上", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "丹水", "type": "河", "location_text": "源出陕西商县竹山东流至内乡与淅水合", "description": "抱朴子云丹水丹鱼先夏至十日夜伺之鱼皆浮水赤光如火", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "元好问", "type": "名宦", "dynasty": "金", "native_place": "", "office": "知内乡县", "summary": "兴定间知内乡劳抚流亡边境宁谧，后又知南阳县"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "郑时", "type": "名宦", "dynasty": "明", "native_place": "", "office": "内乡知县", "summary": "天顺初以监察御史改内乡知县有善政，累升陕西巡抚"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "内乡县学", "type": "学校", "location_text": "在县治东南", "history_lore": "元大德八年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "建福寺", "type": "寺观", "location_text": "在内乡县治东", "history_lore": "洪武中建"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "商于城", "type": "古迹", "location_text": "在内乡县商于城保", "history_lore": "秦张仪许楚商于之地即此"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "郦县城", "type": "古迹", "location_text": "在内乡县东", "history_lore": "汉县属南阳郡，隋改菊潭县，今有南郦北郦二城"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001c07", "name": "西峡口关", "type": "关梁", "location_text": "在内乡县西北", "history_lore": "有巡检司"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

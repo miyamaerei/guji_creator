@@ -1,0 +1,54 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "邓州",
+  "region": "河南",
+  "type": "subprefecture",
+  "original": "邓州【在府城西南一百二十里本春秋时邓侯国秦为穰邑汉为穰县属南阳郡后魏为南阳郡治又于此置荆州隋初罢郡改荆州为邓州大业初复改南阳郡唐为邓州天宝初改南阳郡乾元初复为邓州五代梁置宣化军节度唐改威胜军周改武胜军宋复为邓州属襄阳府金属开封府元属南阳府本朝以穰县省入编户三十七里领县三】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "邓州", "type": "geo", "norm": "邓州", "first_source": "30-001"}, {"ent_id": "ENT-002", "name": "范仲淹", "type": "person", "norm": "范仲淹", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001s01", "item_id": "30-001", "name": "邓州", "type": "subprefecture", "region": "河南", "parent": "GEO-30001", "children": ["GEO-30001c07","GEO-30001c08","GEO-30001c09"], "volume_range": "卷30", "attributes": {"location_text": "在府城西南一百二十里", "households": {"count": 37, "unit": "里", "note": "编户三十七里领县三"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "周", "era": null, "institution_name": "邓侯国", "action": "因之", "detail": "本春秋时邓侯国"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "秦", "era": null, "institution_name": "穰邑", "action": "因之", "detail": "秦为穰邑"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "汉", "era": null, "institution_name": "穰县", "action": "置", "detail": "汉为穰县属南阳郡，后魏为南阳郡治又于此置荆州"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "隋", "era": null, "institution_name": "邓州", "action": "改", "detail": "隋初罢郡改荆州为邓州，大业初复改南阳郡"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "唐", "era": "天宝", "institution_name": "邓州/南阳郡", "action": "改", "detail": "唐为邓州，天宝初改南阳郡乾元初复为邓州"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "五代", "era": null, "institution_name": "威胜军/武胜军", "action": "改", "detail": "五代梁置宣化军节度，唐改威胜军周改武胜军"},
+      {"evo_id": "EVO-007", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "宋", "era": null, "institution_name": "邓州", "action": "复", "detail": "宋复为邓州属襄阳府，金属开封府，元属南阳府"},
+      {"evo_id": "EVO-008", "item_id": "30-001", "geo_id": "GEO-30001s01", "dynasty": "明", "era": null, "institution_name": "邓州", "action": "因之", "detail": "本朝以穰县省入"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "紫金山", "type": "山", "location_text": "在邓州西南", "description": "冈阜孤起因为城角，崖下二洞宋状元贾黯尝读书其中", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "五垄山", "type": "山", "location_text": "在邓州西", "description": "山有五堆连接故名，上有诸谢兆域谢绛尝家焉", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "禹山", "type": "山", "location_text": "在邓州西南九十里", "description": "此山祈祷有应因名雨山后人遂为禹山", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "汤山", "type": "山", "location_text": "在邓州西七十里", "description": "山有两峰东西列峙，东峰上有成汤庙", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "覆釜山", "type": "山", "location_text": "在邓州西北八十里", "description": "以形似名俗呼吐雾山，上有五龙池", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "湍水", "type": "河", "location_text": "在邓州城北三里", "description": "源出熊耳山枪竿岭东南流经内乡绕邓州城北转东南合赵沐沙沟黄水等河至新野合于淯水", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "百花洲", "type": "其他", "location_text": "在邓州城南", "description": "宋范仲淹知州时所营，仁宗时张士逊以邓国公致仕还第与仲淹于此洲游咏，仲淹有渔家傲词五首", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "钳卢陂", "type": "陂", "location_text": "在邓州南六十里", "description": "汉置，州之陂堰虽多惟此最大灌田万余顷", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "楚堰", "type": "堰", "location_text": "在邓州西北六十里", "description": "引湍水溉田千余顷民赖其利", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "李贤", "type": "人物", "dynasty": "明", "native_place": "邓州", "office": "少保吏部尚书", "summary": "宣德癸丑进士，居位好崇尚正学能容善类得时行志，赠太师谥文达"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "贾黯", "type": "人物", "dynasty": "宋", "native_place": "邓州穰", "office": "御史中丞", "summary": "擢进士第一累官给事中权御史中丞，修洁自喜在朝数言事人称其介直"},
+      {"per_id": "PER-003", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "张衡", "type": "人物", "dynasty": "汉", "native_place": "南阳西鄂", "office": "侍中", "summary": "作二京赋作浑天仪地动仪（详见府级）"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "邓州学", "type": "学校", "location_text": "在府治东南", "history_lore": "洪武五年因金旧址重建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "福胜寺", "type": "寺观", "location_text": "在邓州治南", "history_lore": "宋天圣间建，本朝洪武中重建，东北隅有塔十三层高百余丈"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "香岩寺", "type": "寺观", "location_text": "在邓州西北白崖山", "history_lore": "唐一行与虎茵二师所开，山中香气一月不息乃名其寺"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "范文正公祠", "type": "祠庙", "location_text": "在邓州", "history_lore": "祀宋守范仲淹"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "寇莱公祠", "type": "祠庙", "location_text": "在邓州", "history_lore": "祀宋寇准"},
+      {"site_id": "SITE-006", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "穰侯庙", "type": "祠庙", "location_text": "在邓州南旧城内", "history_lore": "秦封魏冉为穰侯就封于此"},
+      {"site_id": "SITE-007", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "冠军城", "type": "古迹", "location_text": "在邓州", "history_lore": "汉县为霍去病封邑窦宪亦封此，城中东北隅有去病墓西北隅有宪墓"},
+      {"site_id": "SITE-008", "item_id": "30-001", "geo_id": "GEO-30001s01", "name": "魏冉墓", "type": "陵墓", "location_text": "在邓州新城东", "history_lore": "世传秦穰侯魏冉葬于此"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "内乡淅川新野另见c07/c08/c09"}
+}

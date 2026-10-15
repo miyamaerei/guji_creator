@@ -1,0 +1,134 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "洧川县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "洧川县",
+        "type": "geo",
+        "norm": "洧川县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c07",
+        "item_id": "26-001",
+        "name": "洧川县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城西南一百五十里",
+          "households": {
+            "count": 17,
+            "unit": "里",
+            "note": "编户17里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "曲洧",
+        "action": "置",
+        "detail": "本春秋郑之曲洧"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "扶沟县地",
+        "action": "属",
+        "detail": "汉为淮阳国扶沟县地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "洧州",
+        "action": "置",
+        "detail": "唐置洧州贞观初废"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "宋楼镇",
+        "action": "属",
+        "detail": "宋为宋楼镇属尉氏县"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "洧川县",
+        "action": "置",
+        "detail": "金始置洧川县属开封府以洧水为名元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "name": "双洎河",
+        "type": "河",
+        "location_text": "在洧川县南",
+        "description": "即溱洧二水之下流",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "name": "青龙泉",
+        "type": "泉",
+        "location_text": "在洧川县西北",
+        "description": "东南入双泊河",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c07",
+        "name": "洧川县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "金正大间建本朝洪武三年重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

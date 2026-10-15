@@ -1,0 +1,176 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "南阳府",
+  "region": "河南",
+  "type": "prefecture",
+  "original": "南阳府【东至汝宁府遂平县界二百八十里南至湖广襄阳府襄阳县界一百八十里西至郧阳府郧县界二百里北至河南府登封县界四百三十里自府治至京师二千一百四十五里至南京一千七百里】【粮一十一万四千四百石零】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "南阳府", "type": "geo", "norm": "南阳府", "first_source": "30-001"},
+      {"ent_id": "ENT-002", "name": "南阳县", "type": "geo", "norm": "南阳县", "first_source": "30-001"},
+      {"ent_id": "ENT-003", "name": "镇平县", "type": "geo", "norm": "镇平县", "first_source": "30-001"},
+      {"ent_id": "ENT-004", "name": "唐县", "type": "geo", "norm": "唐县", "first_source": "30-001"},
+      {"ent_id": "ENT-005", "name": "泌阳县", "type": "geo", "norm": "泌阳县", "first_source": "30-001"},
+      {"ent_id": "ENT-006", "name": "桐柏县", "type": "geo", "norm": "桐柏县", "first_source": "30-001"},
+      {"ent_id": "ENT-007", "name": "南召县", "type": "geo", "norm": "南召县", "first_source": "30-001"},
+      {"ent_id": "ENT-008", "name": "邓州", "type": "geo", "norm": "邓州", "first_source": "30-001"},
+      {"ent_id": "ENT-009", "name": "裕州", "type": "geo", "norm": "裕州", "first_source": "30-001"},
+      {"ent_id": "ENT-010", "name": "南阳卫", "type": "geo", "norm": "南阳卫", "first_source": "30-001"},
+      {"ent_id": "ENT-011", "name": "卧龙岗", "type": "site", "norm": "卧龙岗", "first_source": "30-001"},
+      {"ent_id": "ENT-012", "name": "诸葛亮", "type": "person", "norm": "诸葛亮", "first_source": "30-001"},
+      {"ent_id": "ENT-013", "name": "史记", "type": "book", "norm": "史记", "first_source": "30-001"},
+      {"ent_id": "ENT-014", "name": "汉书", "type": "book", "norm": "汉书", "first_source": "30-001"},
+      {"ent_id": "ENT-015", "name": "隋书", "type": "book", "norm": "隋书", "first_source": "30-001"},
+      {"ent_id": "ENT-016", "name": "郡志", "type": "book", "norm": "郡志", "first_source": "30-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-30001",
+        "item_id": "30-001",
+        "name": "南阳府",
+        "type": "prefecture",
+        "region": "河南",
+        "parent": "GEO-000",
+        "children": ["GEO-30001c01","GEO-30001c02","GEO-30001c03","GEO-30001c04","GEO-30001c05","GEO-30001c06","GEO-30001s01","GEO-30001s02","GEO-30001w01","GEO-30001w02"],
+        "volume_range": "卷30",
+        "attributes": {
+          "borders": [
+            {"direction": "东", "to_place": "汝宁府遂平县界", "distance_li": 280},
+            {"direction": "南", "to_place": "湖广襄阳府襄阳县界", "distance_li": 180},
+            {"direction": "西", "to_place": "郧阳府郧县界", "distance_li": 200},
+            {"direction": "北", "to_place": "河南府登封县界", "distance_li": 430}
+          ],
+          "to_capital": [
+            {"capital": "京师", "distance_li": 2145},
+            {"capital": "南京", "distance_li": 1700}
+          ],
+          "grain_tax": {"amount": 114400, "unit": "石", "note": "一十一万四千四百石零"},
+          "jun_name": "南阳",
+          "topography": "成皋之固商阪之阻【苏秦云北有成皋之固西有商阪之阻】；西通武关东受淮海【史记宛西通武关东受淮海一都之会也】；沧浪为隍方城为墉【汉张衡南都赋】；用武之国【宋熊刚大云南阳北连中原东通吴会西接巴蜀南控蛮粤故诸葛亮以为用武之国】；地称陆海【元志邓州山峰合而气清水泉深而壤阔舟车辏泊地称陆海】",
+          "customs": "有先王遗风【史记南阳本夏禹之国夏人政尚忠朴犹有先王遗风】；上气力好商贾【西汉书】；搢绅所出【隋志南阳古帝乡搢绅所出】；淳朴尚农【元志被召杜之化淳朴尚农俗以殷富至今犹然】；敦尚诗礼【郡志邓州之俗古称醇厚敦尚诗礼务勤耕桑不喜争讼有东汉遗风】",
+          "garrisons": [
+            {"name": "南阳卫", "type": "卫", "location_text": "在府治东北洪武二年初建于府治西北正统元年徙建于此"},
+            {"name": "南阳中护卫", "type": "卫", "location_text": "在府治东洪武中为唐府置"},
+            {"name": "守御邓州前千户所", "type": "千户所", "location_text": "在邓州治东洪武二年建"},
+            {"name": "守御唐县右千户所", "type": "千户所", "location_text": "在唐县治东南洪武三年建俱属南阳卫"}
+          ],
+          "fiefs": [
+            {"name": "唐王府", "location_text": "在府城内正中本旧南阳卫治永乐六年改建"},
+            {"name": "新野王府", "location_text": "在府治东北"},
+            {"name": "承休王府", "location_text": "在府城东南隅"},
+            {"name": "汤阴王府", "location_text": "在本城内长史司东"},
+            {"name": "郾城王府", "location_text": "在府城西北"},
+            {"name": "卫辉王府", "location_text": "在府东北隅"},
+            {"name": "文城王府", "location_text": "在府城东门内"}
+          ]
+        },
+        "cit_ids": ["CIT-001","CIT-002","CIT-003","CIT-004"]
+      },
+      {
+        "geo_id": "GEO-30001w01",
+        "item_id": "30-001",
+        "name": "南阳卫",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-30001",
+        "children": [],
+        "volume_range": "卷30",
+        "attributes": {"location_text": "在府治东北洪武二年建"},
+        "cit_ids": []
+      },
+      {
+        "geo_id": "GEO-30001w02",
+        "item_id": "30-001",
+        "name": "南阳中护卫",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-30001",
+        "children": [],
+        "volume_range": "卷30",
+        "attributes": {"location_text": "在府治东洪武中为唐府置"},
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "夏", "era": null, "institution_name": "豫州之域", "action": "因之", "detail": "禹贡豫州之域，天文张分野，本夏禹之国"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "周", "era": null, "institution_name": "申伯邓侯之封", "action": "因之", "detail": "在周为申伯邓侯之封，春秋时并于楚"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "战国", "era": null, "institution_name": "韩地", "action": "因之", "detail": "战国属韩"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "秦", "era": null, "institution_name": "南阳郡", "action": "置", "detail": "秦取韩地自汉江以北置南阳郡治宛，以其在中国之南而居阳地故曰南阳"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "汉", "era": null, "institution_name": "南阳郡", "action": "因之", "detail": "汉因秦制领于荆州刺史，光武起兵舂陵更始立于淯水皆在此地"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "晋", "era": null, "institution_name": "南阳国", "action": "改", "detail": "晋为南阳国，宋齐并为南阳郡"},
+      {"evo_id": "EVO-007", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "南北朝", "era": "后魏", "institution_name": "荆州", "action": "置", "detail": "后魏于穰县置荆州以郡属焉"},
+      {"evo_id": "EVO-008", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "隋", "era": null, "institution_name": "邓州/南阳县", "action": "改", "detail": "隋初罢郡置邓州治穰，改宛为南阳县"},
+      {"evo_id": "EVO-009", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "唐", "era": null, "institution_name": "宛州", "action": "置", "detail": "唐初于南阳县置宛州寻罢"},
+      {"evo_id": "EVO-010", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "金", "era": null, "institution_name": "申州", "action": "置", "detail": "五代至宋因之，金置申州"},
+      {"evo_id": "EVO-011", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "元", "era": null, "institution_name": "南阳府", "action": "升", "detail": "元升为南阳府"},
+      {"evo_id": "EVO-012", "item_id": "30-001", "geo_id": "GEO-30001", "dynasty": "明", "era": null, "institution_name": "南阳府", "action": "因之", "detail": "本朝因之，领州三县十一"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001", "name": "豫山", "type": "山", "location_text": "在府城东北一十五里", "description": "孤峰峭立俗名独山，下有三十六陂", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001", "name": "紫山", "type": "山", "location_text": "在府城北二十五里，一名紫灵山", "description": "有水无所壅通冬夏常温因曰阳谷", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001", "name": "丰山", "type": "山", "location_text": "在府城东北三十里", "description": "山海经山有九钟霜降则鸣，下有泉曰清冷泉，神耕父处之", "lore": "金元好问诗丰山一何高古屋苍烟重"},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001", "name": "磨山", "type": "山", "location_text": "在府城西北三十里", "description": "石可为磨硙因名，羊山与磨山并峙", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001", "name": "百重山", "type": "山", "location_text": "在府城北七十里", "description": "山峦重复，可记者鹿鸣武阳乱石柘禽鲤鱼五山总曰百重", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "30-001", "geo_id": "GEO-30001", "name": "雉衡山", "type": "山", "location_text": "在府城北七十五里", "description": "山有石室中甚精洁，水出雉衡山最高", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "30-001", "geo_id": "GEO-30001", "name": "丹霞山", "type": "山", "location_text": "在府城东北一百五十里三鸦路中，一名留山", "description": "上有栖霞寺，寺后一峰巉岩千仞左右两峰夹立", "lore": "唐孟郊送芳颜二上人还丹霞山诗"},
+      {"mtn_id": "MTN-008", "item_id": "30-001", "geo_id": "GEO-30001", "name": "淯水", "type": "河", "location_text": "在府城东三里，俗名白河", "description": "源出嵩县双鸡岭东南流经南阳新野，合梅溪洱灌湍水留山黄渠栗鸦泗潦刁等河与泌水合流南至襄阳入汉江，有四堰曰上石谷马渡港蜣蜋沙堰溉田六千余顷，乃汉召信臣所置东汉杜诗晋杜预皆尝增广", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "30-001", "geo_id": "GEO-30001", "name": "石碣", "type": "堰", "location_text": "在府城三里", "description": "淯水环流为一城之胜，可以御水患而障城郭，其坚完甃石犹在前贤题咏甚多", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "30-001", "geo_id": "GEO-30001", "name": "瓜里津", "type": "其他", "location_text": "在府城北四十里", "description": "辨方志有曰柴篱者是也，津上有三梁谓之瓜里渡，邓奉拒光武于此", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "30-001", "geo_id": "GEO-30001", "name": "金龟潭", "type": "潭", "location_text": "在府城西南", "description": "昔人于水侧见有大龟长尺余背有金线四足各踏一小龟而行因以名潭", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "30-001", "geo_id": "GEO-30001", "name": "三鸦路", "type": "其他", "location_text": "在府城北七十里", "description": "分二路东北带西而行者谓之三鸦路，中有石山鲤鱼山拓禽山，乃行人来往趋西洛之便路也，石川为第一鸦路口分水岭第二鸦路口今在汝州界者第三鸦路口也", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "30-001", "geo_id": "GEO-30001", "name": "卧龙岗", "type": "其他", "location_text": "在府城西南七里", "description": "起自嵩山之南绵亘数百里至此截然而住回旋如巢然，草庐在其内，时人以孔明为卧龙因号其冈云，其下平如掌即孔明躬耕处", "lore": "唐李白诗赤符起颓运卧龙得孔明当其南阳时陇亩躬自耕"}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001", "name": "申伯", "type": "名宦", "dynasty": "周", "native_place": "", "office": "宣王舅", "summary": "宣王之母舅封于申，筑城于谢，仲山甫作诗送之"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001", "name": "召信臣", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "南阳太守", "summary": "视民如子兴水利以广灌溉郡以殷实，止奢靡禁游遨其化大行，吏民亲爱号曰召父，治行为当时第一"},
+      {"per_id": "PER-003", "item_id": "30-001", "geo_id": "GEO-30001", "name": "杜诗", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "南阳太守", "summary": "建武中南阳太守政治清平，造水排铸农器修陂塘拓田土比室殷足，时人有前召父后杜母之语皆为立祠"},
+      {"per_id": "PER-004", "item_id": "30-001", "geo_id": "GEO-30001", "name": "杜预", "type": "名宦", "dynasty": "晋", "native_place": "", "office": "都督荆州诸军事", "summary": "咸宁中都督荆州诸军事屯守南阳，大修宛叶陂堰垦辟荒芜租赋增羡，军民获济"},
+      {"per_id": "PER-005", "item_id": "30-001", "geo_id": "GEO-30001", "name": "羊续", "type": "名宦", "dynasty": "汉", "native_place": "", "office": "南阳太守", "summary": "中平间南阳太守，入界羸服间行历县采谣，后击平贼寇班宣政令百姓欢服，府丞尝献生鱼续受而悬于庭以杜其再进"},
+      {"per_id": "PER-006", "item_id": "30-001", "geo_id": "GEO-30001", "name": "范仲淹", "type": "名宦", "dynasty": "宋", "native_place": "苏州", "office": "知邓州", "summary": "仁宗时知邓州孜孜民事政平讼理，公余营花圃为台榭之胜许郡民游乐，子纯粹亦尝知是州民便其政"},
+      {"per_id": "PER-007", "item_id": "30-001", "geo_id": "GEO-30001", "name": "寇准", "type": "名宦", "dynasty": "宋", "native_place": "下邽", "office": "知邓州", "summary": "至道初知邓州，所得俸禄惟务施予，治郡一以宽慈待民，民甚德之既去为之立祠"},
+      {"per_id": "PER-008", "item_id": "30-001", "geo_id": "GEO-30001", "name": "诸葛亮", "type": "流寓", "dynasty": "汉", "native_place": "琅邪", "office": "蜀丞相", "summary": "汉末避乱寓居南阳之西冈躬耕陇亩好为梁父吟，每自比管仲乐毅，先主三往乃见，跨有荆益结好孙权伯业可成，出处之义同于伊尹三代以下一人而已"},
+      {"per_id": "PER-009", "item_id": "30-001", "geo_id": "GEO-30001", "name": "百里奚", "type": "人物", "dynasty": "周", "native_place": "南阳宛", "office": "秦大夫", "summary": "事虞公七年无所遇，秦穆公闻其贤以五羊皮赎之授以国政，秦日强盛号曰五羖大夫"},
+      {"per_id": "PER-010", "item_id": "30-001", "geo_id": "GEO-30001", "name": "范蠡", "type": "人物", "dynasty": "周", "native_place": "南阳宛", "office": "越大夫", "summary": "事越王勾践苦身戮力与谋灭吴以报会稽之耻，及勾践既霸遂辞越乘舟浮于五湖，之陶为陶朱公"},
+      {"per_id": "PER-011", "item_id": "30-001", "geo_id": "GEO-30001", "name": "张衡", "type": "人物", "dynasty": "汉", "native_place": "南阳西鄂", "office": "侍中/河间相", "summary": "善属文通五经作二京赋精思十年乃成，善机巧尤精天文历筭，作浑天仪复造候风地动仪"},
+      {"per_id": "PER-012", "item_id": "30-001", "geo_id": "GEO-30001", "name": "张巡", "type": "人物", "dynasty": "唐", "native_place": "南阳", "office": "真源令", "summary": "博通群书晓战阵法气志高迈，禄山反巡起兵讨贼与许远同守睢阳，大小四百战粮尽城陷骂贼而死"},
+      {"per_id": "PER-013", "item_id": "30-001", "geo_id": "GEO-30001", "name": "邓禹", "type": "人物", "dynasty": "汉", "native_place": "南阳新野", "office": "大司徒/高密侯", "summary": "杖策往见光武，莫如延揽英雄务悦民心立高祖之业救万民之命，拜大司徒封高密侯，内文明笃行淳备"},
+      {"per_id": "PER-014", "item_id": "30-001", "geo_id": "GEO-30001", "name": "吴汉", "type": "人物", "dynasty": "汉", "native_place": "宛", "office": "大司马/舞阳侯", "summary": "勇鸷有谋，光武尝曰吴公差强人意隐若一敌国，在朝斤斤谨质形于体貌，卒谥忠侯"},
+      {"per_id": "PER-015", "item_id": "30-001", "geo_id": "GEO-30001", "name": "李贤", "type": "人物", "dynasty": "明", "native_place": "邓州", "office": "少保吏部尚书", "summary": "宣德癸丑进士，累官吏部尚书历升少保，孝友忠信谦恭严密，居位好崇尚正学能容善类，卒赠太师谥文达"},
+      {"per_id": "PER-016", "item_id": "30-001", "geo_id": "GEO-30001", "name": "岑参", "type": "人物", "dynasty": "唐", "native_place": "南阳", "office": "嘉州太守", "summary": "文本之后，天宝进士第官至侍御史，能诗与李杜相颉颃后为嘉州太守"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001", "name": "南阳府学", "type": "学校", "location_text": "在府城延曦门外", "history_lore": "永乐七年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001", "name": "诸葛书院", "type": "书院", "location_text": "在卧龙冈汉诸葛孔明草庐故地之东", "history_lore": "元至大中建，程钜夫作记"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001", "name": "诸葛草庐", "type": "古迹", "location_text": "在府城西南七里卧龙冈上", "history_lore": "即孔明所居，旧为祠以奉之，本朝有碑杨士奇撰文"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001", "name": "诸葛井", "type": "古迹", "location_text": "在卧龙冈上诸葛草庐前", "history_lore": "青石为床有汲绠渠百十道"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001", "name": "武侯庙", "type": "祠庙", "location_text": "在南阳县东北博望镇南隐山顶上", "history_lore": "世传昭烈与关公张侯尝隐兵于此"},
+      {"site_id": "SITE-006", "item_id": "30-001", "geo_id": "GEO-30001", "name": "三太守祠", "type": "祠庙", "location_text": "府城东山独山", "history_lore": "祀召信臣杜诗杜预"},
+      {"site_id": "SITE-007", "item_id": "30-001", "geo_id": "GEO-30001", "name": "汉光武庙", "type": "祠庙", "location_text": "在裕州东北", "history_lore": "又南阳镇平新野叶皆有庙，按世祖纪帝起自舂陵至新野由南阳讨河朔"},
+      {"site_id": "SITE-008", "item_id": "30-001", "geo_id": "GEO-30001", "name": "范蠡庙", "type": "祠庙", "location_text": "在府城南三十里", "history_lore": "汉末大将军司马范曾尝为立碑"},
+      {"site_id": "SITE-009", "item_id": "30-001", "geo_id": "GEO-30001", "name": "百里奚宅", "type": "古迹", "location_text": "在府城西七里", "history_lore": "南去一里道旁有墓，墓前有七石俗呼七星冢"},
+      {"site_id": "SITE-010", "item_id": "30-001", "geo_id": "GEO-30001", "name": "张衡宅", "type": "古迹", "location_text": "在府城北西鄂城东", "history_lore": "遗址尚存，城西南四里有墓，又有平子读书台"},
+      {"site_id": "SITE-011", "item_id": "30-001", "geo_id": "GEO-30001", "name": "博望城", "type": "古迹", "location_text": "在府城东北七十里", "history_lore": "汉县属南阳郡为张骞封邑"},
+      {"site_id": "SITE-012", "item_id": "30-001", "geo_id": "GEO-30001", "name": "吕城", "type": "古迹", "location_text": "在府城西三十里", "history_lore": "虞夏时封吕望先祖于此，今名董吕村"},
+      {"site_id": "SITE-013", "item_id": "30-001", "geo_id": "GEO-30001", "name": "桐柏山", "type": "山", "location_text": "在桐柏县东南一里", "history_lore": "淮水出其下，上有玉女卧龙紫霄翠微莲花诸峰，近山又有大木山"}
+    ],
+    "prods": [
+      {"prod_id": "PROD-001", "item_id": "30-001", "geo_id": "GEO-30001", "name": "铜", "category": "矿产", "location_text": "镇平县骑立山出有矿"},
+      {"prod_id": "PROD-002", "item_id": "30-001", "geo_id": "GEO-30001", "name": "铁", "category": "矿产", "location_text": "南阳内乡二县俱有冶"},
+      {"prod_id": "PROD-003", "item_id": "30-001", "geo_id": "GEO-30001", "name": "锡", "category": "矿产", "location_text": "裕州出有洞"},
+      {"prod_id": "PROD-004", "item_id": "30-001", "geo_id": "GEO-30001", "name": "紫石英", "category": "矿产", "location_text": "邓州覆釜山出"},
+      {"prod_id": "PROD-005", "item_id": "30-001", "geo_id": "GEO-30001", "name": "滑石", "category": "矿产", "location_text": "裕州七峰山出"},
+      {"prod_id": "PROD-006", "item_id": "30-001", "geo_id": "GEO-30001", "name": "白花蛇", "category": "动物", "location_text": "南阳县鸦路山出"},
+      {"prod_id": "PROD-007", "item_id": "30-001", "geo_id": "GEO-30001", "name": "香橙", "category": "果木", "location_text": "邓州出"},
+      {"prod_id": "PROD-008", "item_id": "30-001", "geo_id": "GEO-30001", "name": "甘菊花", "category": "药草", "location_text": "内乡县出"}
+    ],
+    "cits": [
+      {"cit_id": "CIT-001", "item_id": "30-001", "cited_work": "史记", "cited_work_ent_id": "ENT-013", "context": "立论", "original": "【史记】"},
+      {"cit_id": "CIT-002", "item_id": "30-001", "cited_work": "汉书", "cited_work_ent_id": "ENT-014", "context": "证俗", "original": "【汉书】"},
+      {"cit_id": "CIT-003", "item_id": "30-001", "cited_work": "隋书", "cited_work_ent_id": "ENT-015", "context": "证俗", "original": "【隋书】"},
+      {"cit_id": "CIT-004", "item_id": "30-001", "cited_work": "郡志", "cited_work_ent_id": "ENT-016", "context": "证俗", "original": "【郡志】"}
+    ]
+  },
+  "layer_count": 8,
+  "validation": {"errs": [], "gap": 0, "notes": "府城级山川入府文件，属县山川入县文件；名宦人物取其要"}
+}

@@ -1,0 +1,264 @@
+{
+  "item_id": "31-002",
+  "volume": "31",
+  "source": "宝丰县",
+  "region": "河南",
+  "type": "county",
+  "original": "宝丰县【在州东南八十里春秋郑地后入蔡战国属韩秦汉属汝州唐置龙兴县宋更名寳豊县辽金因之元省本朝初仍旧成化十年复置寳豊县属汝州编户三十一里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "宝丰县",
+        "type": "geo",
+        "norm": "宝丰县",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "香山",
+        "type": "mtn",
+        "norm": "香山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "九里山",
+        "type": "mtn",
+        "norm": "九里山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "五朵山",
+        "type": "mtn",
+        "norm": "五朵山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "青条岭",
+        "type": "mtn",
+        "norm": "青条岭",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "贾复",
+        "type": "person",
+        "norm": "贾复",
+        "first_source": "31-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31002c03",
+        "item_id": "31-002",
+        "name": "宝丰县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31002",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在州东南八十里",
+          "households": {
+            "count": 31,
+            "unit": "里",
+            "note": "编户三十一里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "郑地/蔡地",
+        "action": "置",
+        "detail": "春秋郑地后入蔡，战国属韩"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "龙兴县",
+        "action": "置",
+        "detail": "唐置龙兴县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "宝丰县",
+        "action": "改",
+        "detail": "宋更名宝丰县，辽金因之"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "宝丰县",
+        "action": "省",
+        "detail": "元省入梁县，本朝初仍旧"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "dynasty": "明",
+        "era": "成化",
+        "institution_name": "宝丰县",
+        "action": "复置",
+        "detail": "成化十年复置宝丰县属汝州"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "香山",
+        "type": "山",
+        "location_text": "在宝丰县东二十里",
+        "description": "旧名火珠，有大龙山小龙山，相传大悲观音证道之所，唐时寺塔并存，塔后有天地池架石梁",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "九里山",
+        "type": "山",
+        "location_text": "在宝丰县东三十里",
+        "description": "相传汉高祖败项羽于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "五朵山",
+        "type": "山",
+        "location_text": "在宝丰县西八十里",
+        "description": "五山叠翠俨若屏风，青拥县门故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "青条岭",
+        "type": "岭",
+        "location_text": "在宝丰县西二十里",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "贾复",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "",
+        "office": "胶东侯",
+        "summary": "汉将，墓在汝州城东南，后人为立胶东侯庙于宝丰县城西北隅"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "宝丰县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "成化十一年建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "程子书院",
+        "type": "书院",
+        "location_text": "在宝丰县",
+        "history_lore": "成化十六年建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "龙兴寺",
+        "type": "寺观",
+        "location_text": "一在宝丰县南，一在宝丰县北",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "灵相寺",
+        "type": "寺观",
+        "location_text": "在宝丰县城西南隅",
+        "history_lore": "金大安初建"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "神应观",
+        "type": "寺观",
+        "location_text": "在宝丰县城北",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "胶东侯祠",
+        "type": "祠庙",
+        "location_text": "在宝丰县城西北隅",
+        "history_lore": "祀汉时贾复"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "通济桥",
+        "type": "关梁",
+        "location_text": "在宝丰县净肠河",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c03",
+        "name": "石桥",
+        "type": "关梁",
+        "location_text": "在宝丰县双酒务保",
+        "history_lore": ""
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

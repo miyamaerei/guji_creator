@@ -1,0 +1,224 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "泛水县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "泛水县",
+        "type": "geo",
+        "norm": "泛水县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c30",
+        "item_id": "26-001",
+        "name": "泛水县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s04",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城西一百一十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户10里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "东虢国地",
+        "action": "置",
+        "detail": "古东虢国地春秋时为郑岩邑又名虎牢"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "三川郡",
+        "action": "属",
+        "detail": "秦属三川郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "成皋县",
+        "action": "置",
+        "detail": "汉置成皋县属河南郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "关",
+        "action": "废",
+        "detail": "东汉废县为关"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "三国",
+        "era": "魏",
+        "institution_name": "成皋县",
+        "action": "复置",
+        "detail": "三国魏复置县晋属河南郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "南北朝",
+        "era": "刘宋",
+        "institution_name": "司州",
+        "action": "置",
+        "detail": "刘宋于此置司州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "泛水县",
+        "action": "改",
+        "detail": "后魏北豫州及成皋郡同治于此隋始改县曰泛水属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "属",
+        "detail": "唐初析置成皋县贞观中又省入泛水属郑州后属孟州"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "孟州",
+        "action": "属",
+        "detail": "宋初属洛州元丰初复属孟州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "dynasty": "金元",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "属",
+        "detail": "金属郑州元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "三山",
+        "type": "山",
+        "location_text": "在泛水县界",
+        "description": "山有三峰故名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "方山",
+        "type": "山",
+        "location_text": "在泛水县南四十里",
+        "description": "泛水出焉",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "伯牛冈",
+        "type": "冈",
+        "location_text": "在泛水县东北三十里",
+        "description": "有冉伯牛庙",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "泛水",
+        "type": "河",
+        "location_text": "源出泛水县西方山东南入黄河",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "厄井",
+        "type": "井",
+        "location_text": "在泛水县东南七十里",
+        "description": "风俗通云汉高祖与项羽战败于京索遁入此井鸠止鸣其上追者以为无人遂得脱因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "古崤关",
+        "type": "关",
+        "location_text": "在泛水县西二里",
+        "description": "本周之虎牢汉置成皋隋为虎牢关唐改武牢关本朝始易今名置巡检司",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c30",
+        "name": "泛水县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "以上俱洪武三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

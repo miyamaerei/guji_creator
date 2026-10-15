@@ -1,0 +1,124 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "长葛县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "长葛县",
+        "type": "geo",
+        "norm": "长葛县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c24",
+        "item_id": "26-001",
+        "name": "长葛县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s02",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城北五十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户22里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "长葛邑",
+        "action": "置",
+        "detail": "本春秋郑邑宋人伐郑取长葛即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "许县地",
+        "action": "属",
+        "detail": "汉为颍川郡许县地晋省"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "长葛县",
+        "action": "置",
+        "detail": "隋始置长葛县属颍川郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "许州",
+        "action": "属",
+        "detail": "唐属许州宋属颍昌府金元仍属许州本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "name": "灵池",
+        "type": "池",
+        "location_text": "在长葛县西",
+        "description": "一名葛仙池世传吴人葛玄寓居于此池有石甃每遇旱祷雨辄应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "name": "潩水",
+        "type": "河",
+        "location_text": "源出大隗山名鲁固河一名清流河东南经长葛县西又东至临颍县入颍水",
+        "description": "",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c24",
+        "name": "长葛县学",
+        "type": "学校",
+        "location_text": "在县治东北",
+        "history_lore": "以上俱洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

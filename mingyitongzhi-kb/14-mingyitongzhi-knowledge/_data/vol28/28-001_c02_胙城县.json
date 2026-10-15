@@ -1,0 +1,84 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "胙城县",
+  "region": "河南",
+  "type": "county",
+  "original": "胙城县【在府城东三十五里编户一十九里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "胙城县",
+        "type": "geo",
+        "norm": "胙城县",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001c02",
+        "item_id": "28-001",
+        "name": "胙城县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城东三十五里",
+          "households": {
+            "count": 19,
+            "unit": "里",
+            "note": "编户一十九里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "胙国",
+        "action": "置",
+        "detail": "古胙国，周公别子封胙伯于此，春秋时为南燕国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c02",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "南燕县",
+        "action": "置",
+        "detail": "汉置南燕县属东郡，晋时慕容德据之号东燕县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c02",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "胙城县",
+        "action": "改",
+        "detail": "隋始改为胙城县属滑州，唐置胙州后州废，宋元仍旧本朝改今属"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "卫辉府"
+}

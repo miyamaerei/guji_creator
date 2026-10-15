@@ -1,0 +1,469 @@
+{
+  "item_id": "02-002",
+  "volume": "02",
+  "source": "河间府",
+  "region": "北直隶",
+  "type": "prefecture",
+  "original": "河间府【东至山东济南府海丰县界三百里南至济南府德州界二百九十二里西至保定府蠡县界六十里北至保定府雄县界一百三十里自府治至京师四百一十里至南京二千九百四十里粮六万五千石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "河间府",
+        "type": "geo",
+        "norm": "河间府",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "河间县",
+        "type": "geo",
+        "norm": "河间县",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "献县",
+        "type": "geo",
+        "norm": "献县",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "任丘县",
+        "type": "geo",
+        "norm": "任丘县",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "景州",
+        "type": "geo",
+        "norm": "景州",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "沧州",
+        "type": "geo",
+        "norm": "沧州",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "河间国",
+        "type": "geo",
+        "norm": "河间国",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "瀛州",
+        "type": "geo",
+        "norm": "瀛州",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "武垣县",
+        "type": "geo",
+        "norm": "武垣县",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "滹沱河",
+        "type": "mtn",
+        "norm": "滹沱河",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "董仲舒",
+        "type": "person",
+        "norm": "董仲舒",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "张郃",
+        "type": "person",
+        "norm": "张郃",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "高适",
+        "type": "person",
+        "norm": "高适",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "寰宇记",
+        "type": "book",
+        "norm": "太平寰宇记",
+        "first_source": "02-002"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "长芦都转运盐使司",
+        "type": "site",
+        "norm": "长芦都转运盐使司",
+        "first_source": "02-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-02002",
+        "item_id": "02-002",
+        "name": "河间府",
+        "type": "prefecture",
+        "region": "北直隶",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-02002-c01",
+          "GEO-02002-c02",
+          "GEO-02002-c03",
+          "GEO-02002-c04",
+          "GEO-02002-c05",
+          "GEO-02002-c06",
+          "GEO-02002-c07",
+          "GEO-02002-c08",
+          "GEO-02002-c09",
+          "GEO-02002-c10",
+          "GEO-02002-c11",
+          "GEO-02002-c12",
+          "GEO-02002-c13",
+          "GEO-02002-c14",
+          "GEO-02002-c15",
+          "GEO-02002-c16"
+        ],
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "山东济南府海丰县界",
+              "distance_li": 300
+            },
+            {
+              "direction": "南",
+              "to_place": "济南府德州界",
+              "distance_li": 292
+            },
+            {
+              "direction": "西",
+              "to_place": "保定府蠡县界",
+              "distance_li": 60
+            },
+            {
+              "direction": "北",
+              "to_place": "保定府雄县界",
+              "distance_li": 130
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 410
+            },
+            {
+              "capital": "南京",
+              "distance_li": 2940
+            }
+          ],
+          "grain_tax": {
+            "amount": 65000,
+            "unit": "石",
+            "note": "六万五千石零"
+          },
+          "jun_name": "河间(汉名)/瀛海(宋名)",
+          "topography": "河经武垣之北【寰宇记】；九河之防五垒之居【寰宇记】；东濒沧海西麓太行【古碑记】；南枕滹沱北背高河【元献州记】；地势广阔【元莫州图经】；水陆要冲【元史河间当水陆要冲四方供亿皆取给焉】",
+          "customs": "民性敦厚务在农桑【隋志】；人多贵德俗皆淳朴【旧郡志】；农桑为先务诗书为要领【郡志】；高尚气力【寰宇记沧州古渤海地风俗鸷戾高尚气力】；不事浮华【元清州志其民质朴不事浮华民勤稼穑女务农桑】；俗尚祈祷信鬼神【莫州图经】",
+          "garrisons": [
+            {
+              "name": "长芦都转运盐使司",
+              "type": "司",
+              "location_text": "在沧州治东南"
+            },
+            {
+              "name": "河间卫",
+              "type": "卫",
+              "location_text": "在府治南，永乐中建"
+            },
+            {
+              "name": "沈阳中屯卫",
+              "type": "卫",
+              "location_text": "在府治东南"
+            },
+            {
+              "name": "大同中屯卫",
+              "type": "卫",
+              "location_text": "在府治西，永乐元年建"
+            },
+            {
+              "name": "天津卫",
+              "type": "卫",
+              "location_text": "在静海县小直沽，永乐二年筑城三年调天津卫"
+            },
+            {
+              "name": "天津左卫",
+              "type": "卫",
+              "location_text": "在静海县小直沽，永乐二年筑城"
+            },
+            {
+              "name": "天津右卫",
+              "type": "卫",
+              "location_text": "在静海县小直沽，永乐四年复调天津右卫以守备"
+            },
+            {
+              "name": "沧州守御千户所",
+              "type": "千户所",
+              "location_text": ""
+            }
+          ],
+          "fiefs": []
+        },
+        "cit_ids": ["CIT-001", "CIT-002", "CIT-003", "CIT-004"]
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "钜鹿上谷二郡地",
+        "action": "置",
+        "detail": "禹贡冀州之域，春秋时为晋东阳地，战国时为燕赵齐三国之境，秦为钜鹿上谷二郡地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "河间国",
+        "action": "置",
+        "detail": "汉置河间国，东汉并入信都，和帝时复旧"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "后魏",
+        "era": null,
+        "institution_name": "瀛州/河间郡",
+        "action": "置",
+        "detail": "后魏于乐成县立瀛州，后置河间郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "瀛州/河间郡",
+        "action": "改",
+        "detail": "隋罢郡置瀛州，大业初改为河间郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "唐",
+        "era": "天宝/乾元",
+        "institution_name": "瀛州/河间郡",
+        "action": "改",
+        "detail": "唐改瀛州，天宝初仍为河间郡，乾元初复为瀛州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "五代",
+        "era": null,
+        "institution_name": "入辽/周复取",
+        "action": "未明",
+        "detail": "五代晋初入辽，周复取之"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "河间府/瀛海军节度",
+        "action": "升",
+        "detail": "宋升为河间府瀛海军节度"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "河间路",
+        "action": "改",
+        "detail": "元为河间路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "河间府",
+        "action": "改",
+        "detail": "本朝洪武初改河间府，属北平布政司，今直隶京师，领州二县十六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "掘鲤淀",
+        "type": "其他",
+        "location_text": "在任丘县东南，滱水枯涸后铁灯竿河口为水冲决，流经河间城下，东北流入县境聚而为淀",
+        "description": "遇霖潦则淀溢，唐志莫州有九十九淀，此其一也",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "董仲舒",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "广川",
+        "office": "江都相",
+        "summary": "少治春秋，下帷讲授三年不窥园，以贤良对策劝武帝勉强学问，正谊明道之言度越诸子，为汉醇儒"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "张郃",
+        "type": "人物",
+        "dynasty": "三国魏",
+        "native_place": "河间鄚",
+        "office": "偏将军/都乡侯",
+        "summary": "从攻邺有功，文帝即位封都乡侯，与诸葛亮战中流矢死，谥壮侯"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "高适",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "沧州",
+        "office": "谏议大夫",
+        "summary": "玄宗时举有道科，负气敢言，官至谏议大夫，出为蜀彭刺史，年五十始为诗即工，每一篇已好事者辄传布"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "冯道",
+        "type": "人物",
+        "dynasty": "五代",
+        "native_place": "瀛州乐寿",
+        "office": "将相/瀛王",
+        "summary": "少以孝谨闻，唐庄宗时始贵，历仕晋汉周官皆将相，为人简俭宽宏滑稽多智，后封瀛王"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "河间府学",
+        "type": "学校",
+        "location_text": "在府治东南",
+        "history_lore": "洪武初建，正统六年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "资胜寺",
+        "type": "寺观",
+        "location_text": "在府治东",
+        "history_lore": "洪武中因旧重建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "丹阳观",
+        "type": "寺观",
+        "location_text": "在府治西南",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "高阳台",
+        "type": "宫室",
+        "location_text": "在府城东北，与瀛台相望",
+        "history_lore": "上旧有台，瀛州旧置高阳关台，因以名"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "02-002",
+        "geo_id": "GEO-02002",
+        "name": "武垣城",
+        "type": "古迹",
+        "location_text": "在府城西南三十八里",
+        "history_lore": "秦置县，隋省入河间，唐仍置武垣县后省；汉武帝元封初巡狩至东武垣，望气者言有异女，访得赵氏女以为钩弋夫人即此"
+      }
+    ],
+    "prods": [],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "02-002",
+        "cited_work": "寰宇记",
+        "cited_work_ent_id": "ENT-014",
+        "context": "形胜",
+        "original": "【寰宇记】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "02-002",
+        "cited_work": "元献州记",
+        "cited_work_ent_id": null,
+        "context": "形胜",
+        "original": "【元献州记】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "02-002",
+        "cited_work": "隋志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【隋志】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "02-002",
+        "cited_work": "郡志",
+        "cited_work_ent_id": null,
+        "context": "证俗",
+        "original": "【郡志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "府级分片；散州景州/沧州节点不在本文件定义，children 仅列16县；卫所含长芦盐司及天津三卫"
+  }
+}

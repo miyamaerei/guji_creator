@@ -1,0 +1,40 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "镇平县",
+  "region": "河南",
+  "type": "county",
+  "original": "镇平县【在府城西七十里本汉安众县属南阳郡晋改安昌县属义阳郡南北朝废为穰县北乡地金初置阳管镇后始置镇平县属申州元属南阳府本朝初省入南阳县寻复置编户一十七里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "镇平县", "type": "geo", "norm": "镇平县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c02", "item_id": "30-001", "name": "镇平县", "type": "county", "region": "河南", "parent": "GEO-30001", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在府城西七十里", "households": {"count": 17, "unit": "里", "note": "编户一十七里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c02", "dynasty": "汉", "era": null, "institution_name": "安众县", "action": "置", "detail": "本汉安众县属南阳郡"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c02", "dynasty": "晋", "era": null, "institution_name": "安昌县", "action": "改", "detail": "晋改安昌县属义阳郡，南北朝废为穰县北乡地"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c02", "dynasty": "金", "era": null, "institution_name": "镇平县", "action": "置", "detail": "金初置阳管镇后始置镇平县属申州"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c02", "dynasty": "明", "era": null, "institution_name": "镇平县", "action": "因之", "detail": "元属南阳府，本朝初省入南阳县寻复置"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "遮山", "type": "山", "location_text": "在镇平县东三十里", "description": "峦岫岧峣沟涧深阻，相传莽兵追光武至此为山所遮竟弗能及因名", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "骑立山", "type": "山", "location_text": "在镇平县西北五十里", "description": "状若立骑，其山五峰并峙又名五朵山，上有龙湫三穴祷雨辄应", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "杏花山", "type": "山", "location_text": "在镇平县西北五十里", "description": "地宜杏，上有龙潭", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "菱花池", "type": "池", "location_text": "在镇平县西南", "description": "俗名天池广五里余，中产莲藕蒲芡", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "柳泉", "type": "泉", "location_text": "在遮山北", "description": "广五丈余溉田甚远", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "王焕", "type": "名宦", "dynasty": "明", "native_place": "", "office": "镇平县主簿", "summary": "永乐初镇平县主簿存心宽恕临事明决，尝督民运材木抚绥慰谕民不知劳"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "武斌", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知镇平县", "summary": "永乐中知镇平县勤于抚字洞烛民情兴理学政人材彬彬"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "镇平县学", "type": "学校", "location_text": "在县治西北", "history_lore": "元至元初建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "中兴寺", "type": "寺观", "location_text": "在镇平县西南", "history_lore": "元大德中创建，本朝洪武中重修"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c02", "name": "伏羲? 安众城", "type": "古迹", "location_text": "在府城西南三十里", "history_lore": "汉县属南阳郡为刘崇封邑，有土鲁山出紫石英"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

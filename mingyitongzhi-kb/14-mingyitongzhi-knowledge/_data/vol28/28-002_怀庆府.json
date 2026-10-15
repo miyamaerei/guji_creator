@@ -1,0 +1,490 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "怀庆府",
+  "region": "河南",
+  "type": "prefecture",
+  "original": "懐庆府【东至卫辉府获嘉县界二百四十里西至山西平阳府絳州垣曲县界二百五十里南至河南府巩县界七十里北至山西泽州界六十五里自府治至京师及南京俱一千八百里】【粮三十三万六百石零】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "怀庆府",
+        "type": "geo",
+        "norm": "怀庆府",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "河内县",
+        "type": "geo",
+        "norm": "河内县",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "济源县",
+        "type": "geo",
+        "norm": "济源县",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "修武县",
+        "type": "geo",
+        "norm": "修武县",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "武陟县",
+        "type": "geo",
+        "norm": "武陟县",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "孟县",
+        "type": "geo",
+        "norm": "孟县",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "温县",
+        "type": "geo",
+        "norm": "温县",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "河内郡",
+        "type": "geo",
+        "norm": "河内郡",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "怀州",
+        "type": "geo",
+        "norm": "怀州",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "太行山",
+        "type": "mtn",
+        "norm": "太行山",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "黄河",
+        "type": "mtn",
+        "norm": "黄河",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "济渎",
+        "type": "mtn",
+        "norm": "济渎",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "禹贡",
+        "type": "book",
+        "norm": "禹贡",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "左传",
+        "type": "book",
+        "norm": "左传",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "汉书",
+        "type": "book",
+        "norm": "汉书",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "宋志",
+        "type": "book",
+        "norm": "宋志",
+        "first_source": "28-002"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "地志",
+        "type": "book",
+        "norm": "地志",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002",
+        "item_id": "28-002",
+        "name": "怀庆府",
+        "type": "prefecture",
+        "region": "河南",
+        "parent": "GEO-000",
+        "children": [
+          "GEO-28002c01",
+          "GEO-28002c02",
+          "GEO-28002c03",
+          "GEO-28002c04",
+          "GEO-28002c05",
+          "GEO-28002c06",
+          "GEO-28002w01"
+        ],
+        "volume_range": "卷28",
+        "attributes": {
+          "borders": [
+            {
+              "direction": "东",
+              "to_place": "卫辉府获嘉县界",
+              "distance_li": 240
+            },
+            {
+              "direction": "西",
+              "to_place": "山西平阳府绛州垣曲县界",
+              "distance_li": 250
+            },
+            {
+              "direction": "南",
+              "to_place": "河南府巩县界",
+              "distance_li": 70
+            },
+            {
+              "direction": "北",
+              "to_place": "山西泽州界",
+              "distance_li": 65
+            }
+          ],
+          "to_capital": [
+            {
+              "capital": "京师",
+              "distance_li": 1800
+            },
+            {
+              "capital": "南京",
+              "distance_li": 1800
+            }
+          ],
+          "grain_tax": {
+            "amount": 330600,
+            "unit": "石",
+            "note": "三十三万六百石零"
+          },
+          "jun_name": "覃怀河内",
+          "topography": "地接太行南通河洛【宋志】；群山万壑环带如绣【地志】",
+          "customs": "君子深思俭陋【汉书】；人性质厚多尚农事【宋志】；地险民彊多以气节相尚【地志】",
+          "garrisons": [
+            {
+              "name": "怀庆卫",
+              "type": "卫",
+              "location_text": "在府城内东南隅洪武元年建"
+            }
+          ],
+          "fiefs": [
+            {
+              "name": "郑王府",
+              "location": "在府治东洪熙元年建"
+            },
+            {
+              "name": "泾阳王府",
+              "location": "在府治西南景泰二年建"
+            },
+            {
+              "name": "朝邑王府",
+              "location": "在府城内"
+            },
+            {
+              "name": "庐江王府",
+              "location": "在府城内"
+            },
+            {
+              "name": "繁昌王府",
+              "location": "在府城内"
+            },
+            {
+              "name": "东垣王府",
+              "location": "在府城内"
+            },
+            {
+              "name": "徳庆王府",
+              "location": "在府城内"
+            }
+          ]
+        },
+        "cit_ids": [
+          "CIT-001",
+          "CIT-002",
+          "CIT-003",
+          "CIT-004",
+          "CIT-005"
+        ]
+      },
+      {
+        "geo_id": "GEO-28002w01",
+        "item_id": "28-002",
+        "name": "怀庆卫",
+        "type": "weisuo",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城内东南隅洪武元年建"
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "覃怀",
+        "action": "因之",
+        "detail": "禹贡冀州之域，天文室壁分野，即覃怀地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "雍畿内邑",
+        "action": "因之",
+        "detail": "周为畿内邑，春秋时谓之南阳"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "汉",
+        "era": "高帝",
+        "institution_name": "河内郡",
+        "action": "置",
+        "detail": "汉高帝二年为河内郡，治怀县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "河内郡",
+        "action": "因之",
+        "detail": "晋因之，后魏置怀州及河内郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "河内郡",
+        "action": "改",
+        "detail": "隋初罢郡为怀州，大业初复为河内郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "唐",
+        "era": "武德",
+        "institution_name": "怀州",
+        "action": "复",
+        "detail": "唐武德初复为怀州，天宝初改为河内郡乾元初复为怀州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "宋",
+        "era": "建中靖国",
+        "institution_name": "防御州",
+        "action": "升",
+        "detail": "宋为防御州，建炎后没于金"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "元",
+        "era": "宪宗",
+        "institution_name": "怀庆路",
+        "action": "改",
+        "detail": "元宪宗为王傅府，至元三年改怀庆路"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "怀庆府",
+        "action": "改",
+        "detail": "本朝洪武初改怀庆府领县六"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "太行山",
+        "type": "山",
+        "location_text": "在府城北二十里",
+        "description": "一名王屋山，山有三重其路盘山而行故名太行",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "沁水",
+        "type": "河",
+        "location_text": "源出山西沁州禄山至河南武陟入河",
+        "description": "一名洎水一名沁水，汉沟洫志曰堤阔百馀里",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "济水",
+        "type": "河",
+        "location_text": "源出济源县西北王屋山",
+        "description": "详见山川志",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "黄河",
+        "type": "河",
+        "location_text": "在府城南三十里",
+        "description": "自孟津北流经温县入卫辉府界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "尧池",
+        "type": "池",
+        "location_text": "在河内县西五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "猪野陂",
+        "type": "陂",
+        "location_text": "在河内县东南",
+        "description": "周回七十五里",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [
+      {
+        "prod_id": "PROD-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "牛膝",
+        "category": "药材",
+        "note": "怀庆府出"
+      },
+      {
+        "prod_id": "PROD-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "地黄",
+        "category": "药材",
+        "note": "怀庆府出"
+      },
+      {
+        "prod_id": "PROD-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "山药",
+        "category": "药材",
+        "note": "怀庆府出"
+      },
+      {
+        "prod_id": "PROD-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002",
+        "name": "菊花",
+        "category": "药材",
+        "note": "怀庆府出"
+      }
+    ],
+    "cits": [
+      {
+        "cit_id": "CIT-001",
+        "item_id": "28-002",
+        "cited_work": "禹贡",
+        "cited_work_ent_id": "ENT-013",
+        "context": "立论",
+        "original": "【禹贡】"
+      },
+      {
+        "cit_id": "CIT-002",
+        "item_id": "28-002",
+        "cited_work": "左传",
+        "cited_work_ent_id": "ENT-014",
+        "context": "立论",
+        "original": "【左传】"
+      },
+      {
+        "cit_id": "CIT-003",
+        "item_id": "28-002",
+        "cited_work": "汉书",
+        "cited_work_ent_id": "ENT-015",
+        "context": "证俗",
+        "original": "【汉书】"
+      },
+      {
+        "cit_id": "CIT-004",
+        "item_id": "28-002",
+        "cited_work": "宋志",
+        "cited_work_ent_id": "ENT-016",
+        "context": "立论",
+        "original": "【宋志】"
+      },
+      {
+        "cit_id": "CIT-005",
+        "item_id": "28-002",
+        "cited_work": "地志",
+        "cited_work_ent_id": "ENT-017",
+        "context": "立论",
+        "original": "【地志】"
+      }
+    ]
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "pers和sites拆为独立文件；府级山川只留府城附近"
+  },
+  "title": "怀庆府"
+}

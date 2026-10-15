@@ -1,0 +1,144 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "商水县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "商水县",
+        "type": "geo",
+        "norm": "商水县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c17",
+        "item_id": "26-001",
+        "name": "商水县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s01",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城西九十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户12里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "汝阳县地",
+        "action": "置",
+        "detail": "本汉汝阳县地属汝南郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "汝南国",
+        "action": "属",
+        "detail": "晋属汝南国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "汝阳郡",
+        "action": "属",
+        "detail": "后魏属汝阳郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "溵水县",
+        "action": "置",
+        "detail": "隋置溵水县属陈州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "溵州",
+        "action": "属",
+        "detail": "唐属溵州后属陈州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "商水县",
+        "action": "改",
+        "detail": "宋改商水县金仍旧元末徙治旧南顿县本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "name": "驿马沟",
+        "type": "河",
+        "location_text": "在商水县西南一十三里",
+        "description": "其湍急如驿马因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "name": "章华台",
+        "type": "古迹",
+        "location_text": "在商水县西北三里",
+        "description": "楚灵王初筑章华台于华容城及襄王为秦将白起所迫北保于陈更筑此台",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c17",
+        "name": "商水县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "宋大观初建本朝洪武四年重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

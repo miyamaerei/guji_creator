@@ -1,0 +1,178 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "郑州",
+  "region": "河南",
+  "type": "subprefecture",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "郑州",
+        "type": "geo",
+        "norm": "郑州",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001s04",
+        "item_id": "26-001",
+        "name": "郑州",
+        "type": "subprefecture",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [
+          "GEO-26001c27",
+          "GEO-26001c28",
+          "GEO-26001c29",
+          "GEO-26001c30"
+        ],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城西一百四十里",
+          "households": {
+            "count": 33,
+            "unit": "里",
+            "note": "编户33里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "管叔鲜封地",
+        "action": "置",
+        "detail": "周管叔鲜封于此后为郑国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "三川郡",
+        "action": "属",
+        "detail": "秦属三川郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "河南郡",
+        "action": "属",
+        "detail": "汉属河南郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "东汉",
+        "era": null,
+        "institution_name": "荥阳郡",
+        "action": "分置",
+        "detail": "东汉分置荥阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "东恒农郡",
+        "action": "改",
+        "detail": "后魏为东恒农郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "广武郡",
+        "action": "置",
+        "detail": "东魏置广武郡"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "南北朝",
+        "era": "后周",
+        "institution_name": "荥州",
+        "action": "置",
+        "detail": "后周置荥州后改为郑州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "管州",
+        "action": "置",
+        "detail": "隋于管城县置管州后改为郑州寻为荥阳郡"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "复置",
+        "detail": "唐初于武牢置郑州贞观中移治管城天宝初又改为荥阳郡乾元初复郑州"
+      },
+      {
+        "evo_id": "EVO-010",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "奉宁军",
+        "action": "置",
+        "detail": "宋置奉宁军"
+      },
+      {
+        "evo_id": "EVO-011",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "金元",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "因之",
+        "detail": "金复为郑州元因之"
+      },
+      {
+        "evo_id": "EVO-012",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001s04",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "省县",
+        "detail": "本朝以管城县省入领县四"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

@@ -1,0 +1,145 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "林县",
+  "region": "河南",
+  "type": "county",
+  "original": "林县【在府城西一百二十里编户三十五里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "林县",
+        "type": "geo",
+        "norm": "林县",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002c04",
+        "item_id": "27-002",
+        "name": "林县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城西一百二十里",
+          "households": {
+            "count": 35,
+            "unit": "里",
+            "note": "编户三十五里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "隆虑县",
+        "action": "置",
+        "detail": "本汉隆虑县属河内郡"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "dynasty": "后汉",
+        "era": null,
+        "institution_name": "林虑县",
+        "action": "改",
+        "detail": "后汉改林虑县，三国魏属朝歌郡，晋属汲郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "岩州县",
+        "action": "置",
+        "detail": "后魏复置兼置林虑郡，隋罢郡置岩州县仍旧"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "林州",
+        "action": "升",
+        "detail": "唐初复置岩州寻罢，宋因之，金升为林州元因之"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "林县",
+        "action": "降",
+        "detail": "本朝洪武三年降为县"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "name": "太行山",
+        "type": "山",
+        "location_text": "在林县西二十里",
+        "description": "群山一带形势崔嵬，其在本府界者绵亘二百里总曰太行",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "name": "黄华山",
+        "type": "山",
+        "location_text": "在林县西二十里一名林虑山",
+        "description": "山有三峰名仙人楼玉女台，北岩出瀑布",
+        "lore": "金王庭筠尝隐居于此"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "name": "天平山",
+        "type": "山",
+        "location_text": "在林县西南三十里",
+        "description": "山势平坦有滴乳泉沿石而下如滴乳然",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c04",
+        "name": "林县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "元至元间建，本朝洪武七年重建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

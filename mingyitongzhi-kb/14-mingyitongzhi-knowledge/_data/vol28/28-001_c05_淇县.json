@@ -1,0 +1,123 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "淇县",
+  "region": "河南",
+  "type": "county",
+  "original": "淇县【在府城北五十里编户二十二里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "淇县",
+        "type": "geo",
+        "norm": "淇县",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001c05",
+        "item_id": "28-001",
+        "name": "淇县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城北五十里",
+          "households": {
+            "count": 22,
+            "unit": "里",
+            "note": "编户二十二里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "dynasty": "商",
+        "era": null,
+        "institution_name": "朝歌",
+        "action": "因之",
+        "detail": "古朝歌地，周为沬邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "三川郡地",
+        "action": "因之",
+        "detail": "秦属三川郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "朝歌县",
+        "action": "置",
+        "detail": "汉置朝歌县属河内郡，三国魏属朝歌郡晋属汲郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "淇州",
+        "action": "升",
+        "detail": "后魏废元置淇州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "淇县",
+        "action": "降",
+        "detail": "本朝降为县"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "name": "摘星楼",
+        "type": "宫室",
+        "location_text": "在淇县古朝歌城上",
+        "history_lore": "相传纣与妲己观斮朝涉之胫处"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c05",
+        "name": "淇县学",
+        "type": "学校",
+        "location_text": "在县治西北",
+        "history_lore": "元至元间建，本朝洪武三年重修"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "卫辉府"
+}

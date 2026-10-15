@@ -1,0 +1,154 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "延津县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "延津县",
+        "type": "geo",
+        "norm": "延津县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c14",
+        "item_id": "26-001",
+        "name": "延津县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城西北九十里",
+          "households": {
+            "count": 8,
+            "unit": "里",
+            "note": "编户8里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "廪延",
+        "action": "置",
+        "detail": "本春秋郑之廪延战国尝为韩所都"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "酸枣县",
+        "action": "置",
+        "detail": "秦置酸枣县汉属陈留郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "东郡",
+        "action": "属",
+        "detail": "后魏并入小黄后复置属东郡北齐并入南燕县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "滑州",
+        "action": "复置",
+        "detail": "隋初复析置酸枣县属滑州大业初属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "滑州",
+        "action": "因之",
+        "detail": "唐复属滑州五代梁属开封府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "延津县",
+        "action": "改",
+        "detail": "宋改延津县金置延州后废元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "name": "酸枣山",
+        "type": "山",
+        "location_text": "在延津县东南二里",
+        "description": "俗称土山",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "name": "冰井",
+        "type": "井",
+        "location_text": "在延津县西南二十里",
+        "description": "世传韩襄王藏冰之所",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "name": "蔡邕题碑",
+        "type": "古迹",
+        "location_text": "在延津县治",
+        "description": "邕尝为酸枣令刘书撰去思碑题碣存焉",
+        "lore": "唐王建诗苍苔满字土埋龟"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c14",
+        "name": "延津县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "洪武三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

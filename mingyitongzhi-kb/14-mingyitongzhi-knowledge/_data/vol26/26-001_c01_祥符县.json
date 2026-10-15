@@ -1,0 +1,203 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "祥符县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "祥符县",
+        "type": "geo",
+        "norm": "祥符县",
+        "first_source": "26-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "夷山",
+        "type": "mtn",
+        "norm": "夷山",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c01",
+        "item_id": "26-001",
+        "name": "祥符县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 158,
+            "unit": "里",
+            "note": "编户158里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "浚仪县",
+        "action": "置",
+        "detail": "本汉浚仪县属陈留郡，魏晋以后皆因之"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "梁州",
+        "action": "置",
+        "detail": "东魏于此置梁州，后周改汴州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "废",
+        "detail": "隋废陈留郡以县属郑州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "dynasty": "唐",
+        "era": "武德",
+        "institution_name": "汴州",
+        "action": "置",
+        "detail": "唐于此置汴州，以开封县省入寻复旧"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "dynasty": "宋",
+        "era": "初",
+        "institution_name": "祥符县",
+        "action": "改",
+        "detail": "宋初改祥符县，金元因之"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "祥符县",
+        "action": "因之",
+        "detail": "本朝复以开封县并入"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "夷山",
+        "type": "山",
+        "location_text": "在府城安远门内",
+        "description": "以山平夷而名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "甘泉井",
+        "type": "井",
+        "location_text": "在府城内",
+        "description": "本朝魏国公徐达故宅，永乐初忽涌此泉色莹而味甘因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "八角井",
+        "type": "井",
+        "location_text": "在府城西南",
+        "description": "水苦不可饮",
+        "lore": "宋刘敞诗谁凿八角井不方亦不圆"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "蓬池",
+        "type": "池",
+        "location_text": "在府城东北",
+        "description": "本春秋之蓬泽后因为池，唐玄宗改为福源池禁渔采",
+        "lore": "晋阮籍诗徘徊蓬池上回首望大梁"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "凝碧池",
+        "type": "池",
+        "location_text": "在府城东南平台侧",
+        "description": "唐为牧泽，宋真宗时凿为池后为河水淤塞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "金明池",
+        "type": "池",
+        "location_text": "在府城西",
+        "description": "周世宗时凿，宋太祖幸此观习水战",
+        "lore": "王安石诗宜秋西冠碧参差"
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "樊将军庙",
+        "type": "祠庙",
+        "dynasty": "汉",
+        "native_place": "",
+        "office": "祠",
+        "summary": "在祥符县仁和门外祀汉樊哙"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c01",
+        "name": "祥符县学",
+        "type": "学校",
+        "location_text": "在府城大梁门内",
+        "history_lore": "洪武五年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

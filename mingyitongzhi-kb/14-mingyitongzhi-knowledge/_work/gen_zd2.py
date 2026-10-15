@@ -63,8 +63,8 @@ lz = cty("c03","临漳县","GEO-27002","在府城东北一百一十里","三十�
 ],
 sites=[
   {"site_id":"SITE-001","item_id":IID,"geo_id":"GEO-27002c03","name":"临漳县学","type":"学校","location_text":"在县治西","history_lore":"旧在县治东洪武十八年沦于河，二十七年徙建于此"},
-  {"site_id":"SITE-002","item_id":IID,"geo_id":"GEO-27002c03","name":"铜雀台","古迹","location_text":"在临漳县治西","history_lore":"魏曹操筑，并金虎冰井三台相去各六十步"},
-  {"site_id":"SITE-003","item_id":IID,"geo_id":"GEO-27002c03","name":"邺城","古迹","location_text":"在临漳县西二十里","history_lore":"三国魏后赵前燕东魏皆都于此"},
+  {"site_id":"SITE-002","item_id":IID,"geo_id":"GEO-27002c03","name":"铜雀台","type":"古迹","location_text":"在临漳县治西","history_lore":"魏曹操筑，并金虎冰井三台相去各六十步"},
+  {"site_id":"SITE-003","item_id":IID,"geo_id":"GEO-27002c03","name":"邺城","type":"古迹","location_text":"在临漳县西二十里","history_lore":"三国魏后赵前燕东魏皆都于此"},
 ])
 with open(os.path.join(OUT,"27-002_c03_临漳县.json"),"w",encoding="utf-8") as f: json.dump(lz,f,ensure_ascii=False,indent=2)
 print("c03 done")
@@ -124,7 +124,7 @@ wa = cty("c05","武安县","GEO-27002s01","在州城北一百二十里","三十�
 ],
 mtns=[
   {"mtn_id":"MTN-001","item_id":IID,"geo_id":"GEO-27002c05","name":"粟山","type":"山","location_text":"在武安县东南一十二里","description":"相传秦白起拒赵廉颇于此，赵将绝粮起命将士以布囊盛积至山巅","lore":""},
-  {"mtn_id":"MTN-002","item_id":"IID","geo_id":"GEO-27002c05","name":"鼓山","type":"山","location_text":"在武安县南二十里一名滏山","description":"有二石如鼓南北相当，邺城西有石鼓鸣则兵起","lore":""},
+  {"mtn_id":"MTN-002","item_id":IID,"geo_id":"GEO-27002c05","name":"鼓山","type":"山","location_text":"在武安县南二十里一名滏山","description":"有二石如鼓南北相当，邺城西有石鼓鸣则兵起","lore":""},
 ])
 with open(os.path.join(OUT,"27-002_c05_武安县.json"),"w",encoding="utf-8") as f: json.dump(wa,f,ensure_ascii=False,indent=2)
 print("c05 done")

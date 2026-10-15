@@ -1,0 +1,46 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "裕州",
+  "region": "河南",
+  "type": "subprefecture",
+  "original": "裕州【在府城东北一百二十里本春秋时楚之方城汉为堵阳叶二县地属南阳郡东汉为顺阳县西魏置方城县及襄邑郡隋初废郡以县属淯州唐初于此置北淯州贞观中改鲁州寻罢州以县属唐州宋仍旧金始置裕州治方城元属南阳府本朝以方城县省入编户三十二里领县二】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "裕州", "type": "geo", "norm": "裕州", "first_source": "30-001"}, {"ent_id": "ENT-002", "name": "方城山", "type": "mtn", "norm": "方城山", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001s02", "item_id": "30-001", "name": "裕州", "type": "subprefecture", "region": "河南", "parent": "GEO-30001", "children": ["GEO-30001c10","GEO-30001c11"], "volume_range": "卷30", "attributes": {"location_text": "在府城东北一百二十里", "households": {"count": 32, "unit": "里", "note": "编户三十二里领县二"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "周", "era": null, "institution_name": "楚之方城", "action": "因之", "detail": "本春秋时楚之方城"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "汉", "era": null, "institution_name": "堵阳叶二县地", "action": "因之", "detail": "汉为堵阳叶二县地属南阳郡，东汉为顺阳县"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "南北朝", "era": "西魏", "institution_name": "方城县/襄邑郡", "action": "置", "detail": "西魏置方城县及襄邑郡"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "隋", "era": null, "institution_name": "方城县", "action": "因之", "detail": "隋初废郡以县属淯州"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "唐", "era": "贞观", "institution_name": "北淯州/鲁州", "action": "改", "detail": "唐初于此置北淯州，贞观中改鲁州寻罢州以县属唐州"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "金", "era": null, "institution_name": "裕州", "action": "置", "detail": "宋仍旧，金始置裕州治方城，元属南阳府"},
+      {"evo_id": "EVO-007", "item_id": "30-001", "geo_id": "GEO-30001s02", "dynasty": "明", "era": null, "institution_name": "裕州", "action": "因之", "detail": "本朝以方城县省入"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "方城山", "type": "山", "location_text": "在裕州东北四十里", "description": "左传楚屈完对齐桓公曰方城以为城即此，杜预注云山在叶县南则此山是", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "七峰山", "type": "山", "location_text": "在裕州北三十里", "description": "上有七峰列峙", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "泉白山", "type": "山", "location_text": "在裕州北四十里", "description": "与七峰山对峙，山顶有泉下流如布", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "黄石山", "type": "山", "location_text": "在裕州北五十里", "description": "葛仙翁于此升仙，上有仙翁观", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "宝泉山", "type": "山", "location_text": "在裕州北六十里", "description": "上有甘泉", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "圣井", "type": "井", "location_text": "在裕州东", "description": "其地四面皆下井居其中独高仞余泉常仰溢旱祷辄应", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "曹居敬", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知裕州", "summary": "永乐初知裕州谨慎慈惠不施鞭朴，妻孥衣粗食粝安于俭约，九载秩满吏民感泣不忍其去"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "孔彦禄", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知裕州", "summary": "成化中知裕州爱民礼士有善政人咸德之"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "裕州学", "type": "学校", "location_text": "在州治西", "history_lore": "洪武三年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "子房庙", "type": "祠庙", "location_text": "在裕州东南房山", "history_lore": "祀汉张良"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "张释之庙", "type": "祠庙", "location_text": "在裕州城西", "history_lore": "石碣尚存"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "堵阳城", "type": "古迹", "location_text": "在裕州东六里", "history_lore": "汉县属南阳郡晋因之后废，俗呼堵阳堆"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001s02", "name": "襄邑城", "type": "古迹", "location_text": "在裕州南二里", "history_lore": "西魏置郡隋废郡为方城县"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "舞阳叶县另见c10/c11"}
+}

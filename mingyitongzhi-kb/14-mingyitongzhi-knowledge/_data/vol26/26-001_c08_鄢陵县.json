@@ -1,0 +1,157 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "鄢陵县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "鄢陵县",
+        "type": "geo",
+        "norm": "鄢陵县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c08",
+        "item_id": "26-001",
+        "name": "鄢陵县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城南一百六十里",
+          "households": {
+            "count": 26,
+            "unit": "里",
+            "note": "编户26里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "鄢陵邑",
+        "action": "置",
+        "detail": "春秋郑邑郑伯克段于鄢即此战国谓之安陵"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "鄢陵县",
+        "action": "置",
+        "detail": "汉始置鄢陵县属颍川郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "许昌郡",
+        "action": "属",
+        "detail": "东魏属许昌郡北齐省入许昌县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "许州",
+        "action": "复置",
+        "detail": "隋复置属许州唐因之宋属开封府金元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "name": "彭祖冈",
+        "type": "冈",
+        "location_text": "在鄢陵县北二十里",
+        "description": "或云有彭祖墓",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "name": "漆井",
+        "type": "井",
+        "location_text": "在鄢陵县",
+        "description": "汉陈寔祠前",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "name": "西河",
+        "type": "河",
+        "location_text": "在鄢陵县城西",
+        "description": "周二里",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "name": "张兴",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "鄢陵",
+        "office": "太子少傅",
+        "summary": "治梁丘易举孝廉累官太子少傅，明帝数访以经术"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "name": "庾乘",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "鄢陵",
+        "office": "征君",
+        "summary": "少为县门士郭泰劝游学宫征不起号征君"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c08",
+        "name": "鄢陵县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

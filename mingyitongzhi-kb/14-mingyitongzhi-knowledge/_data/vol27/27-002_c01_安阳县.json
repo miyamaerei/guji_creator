@@ -1,0 +1,135 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "安阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "安阳县【附郭编户八十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "安阳县",
+        "type": "geo",
+        "norm": "安阳县",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002c01",
+        "item_id": "27-002",
+        "name": "安阳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 84,
+            "unit": "里",
+            "note": "编户八十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "dynasty": "商",
+        "era": null,
+        "institution_name": "相",
+        "action": "因之",
+        "detail": "本纣都之地，左传茀阳即此地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "宁新中邑",
+        "action": "置",
+        "detail": "战国为魏宁新中邑，秦更名安阳"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "安阳县",
+        "action": "置",
+        "detail": "汉省入荡阴县，晋始置安阳县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "dynasty": "后周",
+        "era": null,
+        "institution_name": "安阳县",
+        "action": "迁",
+        "detail": "后周自古邺城移相州治此，隋唐宋皆仍旧"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "安阳县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "name": "韩陵山",
+        "type": "山",
+        "location_text": "在府城东北一十七里",
+        "description": "东魏高欢破尔朱荣于此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "name": "安阳河",
+        "type": "河",
+        "location_text": "一名洹水",
+        "description": "东经永和镇入卫河",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c01",
+        "name": "安阳县学",
+        "type": "学校",
+        "location_text": "在县治西北",
+        "history_lore": "元至元间建"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

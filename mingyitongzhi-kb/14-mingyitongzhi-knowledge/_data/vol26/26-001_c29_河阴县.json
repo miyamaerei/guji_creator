@@ -1,0 +1,164 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "河阴县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "河阴县",
+        "type": "geo",
+        "norm": "河阴县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c29",
+        "item_id": "26-001",
+        "name": "河阴县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s04",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城西北五十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户7里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "平阴县",
+        "action": "置",
+        "detail": "秦置平阴县在广武山"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "河阴县",
+        "action": "改",
+        "detail": "汉徙治濒河山下始曰河阴县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "河南郡",
+        "action": "属",
+        "detail": "晋属河南郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "输场",
+        "action": "徙治",
+        "detail": "唐又徙治输场之东渠口开元初属河南府会昌初属孟州"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "泛水县",
+        "action": "省入",
+        "detail": "宋以泛水县省入"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "属",
+        "detail": "金属郑州"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "大峪口",
+        "action": "移治",
+        "detail": "元移治广武山之大峪口本朝初又徙今治"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "name": "广武山",
+        "type": "山",
+        "location_text": "在河阴县北一十里",
+        "description": "三皇山二山相连其上有东西广武二城即楚汉相拒处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "name": "敖山",
+        "type": "山",
+        "location_text": "在河阴县西北二十里",
+        "description": "秦时敖氏筑仓于上因以名山汉郦食其劝高祖据敖仓之粟",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "name": "鸿沟",
+        "type": "河",
+        "location_text": "在河阴县东",
+        "description": "即楚汉分界处北接广武山与荥泽连",
+        "lore": "宋吕蒙正诗沟中流水已成尘"
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c29",
+        "name": "河阴县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "以上俱洪武三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

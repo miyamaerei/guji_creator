@@ -1,0 +1,132 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "临漳县",
+  "region": "河南",
+  "type": "county",
+  "original": "临漳县【在府城东北一百一十里编户三十六里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "临漳县",
+        "type": "geo",
+        "norm": "临漳县",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002c03",
+        "item_id": "27-002",
+        "name": "临漳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城东北一百一十里",
+          "households": {
+            "count": 36,
+            "unit": "里",
+            "note": "编户三十六里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "dynasty": "战国",
+        "era": null,
+        "institution_name": "邺地",
+        "action": "因之",
+        "detail": "本邺地，魏文侯始封于此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "魏郡地",
+        "action": "因之",
+        "detail": "汉属魏郡，东汉末魏公曹操居此"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "临漳县",
+        "action": "置",
+        "detail": "晋始改为临漳县，东魏复增置邺县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "灵芝县",
+        "action": "改",
+        "detail": "后周移临漳治于城东二十里，隋改为灵芝县俄复旧"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "临漳县",
+        "action": "因之",
+        "detail": "宋省邺县入焉，金元仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "name": "临漳县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "旧在县治东洪武十八年沦于河，二十七年徙建于此"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "name": "铜雀台",
+        "type": "古迹",
+        "location_text": "在临漳县治西",
+        "history_lore": "魏曹操筑，并金虎冰井三台相去各六十步"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c03",
+        "name": "邺城",
+        "type": "古迹",
+        "location_text": "在临漳县西二十里",
+        "history_lore": "三国魏后赵前燕东魏皆都于此"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

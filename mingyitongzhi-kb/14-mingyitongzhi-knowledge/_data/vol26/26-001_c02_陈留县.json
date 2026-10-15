@@ -1,0 +1,187 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "陈留县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "陈留县",
+        "type": "geo",
+        "norm": "陈留县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c02",
+        "item_id": "26-001",
+        "name": "陈留县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东五十里",
+          "households": {
+            "count": 39,
+            "unit": "里",
+            "note": "编户39里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "留地",
+        "action": "置",
+        "detail": "古有莘城春秋为留地属郑后为陈所并故曰陈留"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "陈留县",
+        "action": "置",
+        "detail": "秦始置陈留县，汉为陈留郡治"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "废",
+        "action": "废",
+        "detail": "晋末郡县皆废"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "宋州",
+        "action": "复置",
+        "detail": "隋初复置属宋州后属梁郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "汴州",
+        "action": "改",
+        "detail": "唐初属杞州又改属汴州，五代属开封府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "陈留县",
+        "action": "因之",
+        "detail": "宋金元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "巴河",
+        "type": "河",
+        "location_text": "在陈留县东北三十五里",
+        "description": "东入宁陵县界",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "睢水",
+        "type": "河",
+        "location_text": "在陈留县东北四十里",
+        "description": "东经睢州达宁陵县",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "潘冈",
+        "type": "冈",
+        "location_text": "在陈留县东北四十里",
+        "description": "宋名臣潘美尝居此因名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "空桑城",
+        "type": "古迹",
+        "location_text": "在陈留县南一十五里",
+        "description": "伊尹生于空桑",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "郦商",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "陈留高阳",
+        "office": "曲周侯",
+        "summary": "高帝为沛公略地商以四千人属沛公从击项籍黥布以功封曲周侯"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "郦食其",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "陈留高阳",
+        "office": "广野君",
+        "summary": "商之弟以儒者见高帝使说齐下齐七十余城韩信破齐齐以食其为卖己遂烹之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c02",
+        "name": "陈留县学",
+        "type": "学校",
+        "location_text": "在县治西北",
+        "history_lore": "旧在县治西洪武十年改建于此"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

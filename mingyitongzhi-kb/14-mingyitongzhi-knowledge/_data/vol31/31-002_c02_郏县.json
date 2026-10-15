@@ -1,0 +1,505 @@
+{
+  "item_id": "31-002",
+  "volume": "31",
+  "source": "郏县",
+  "region": "河南",
+  "type": "county",
+  "original": "郏县【在州东九十里春秋时郑地后为楚边邑战国属韩汉置郏县属頴州郡东汉省三国魏复置后魏改龙山县属襄城郡东魏以县置顺阳郡隋初改龙山为汝南县寻改辅城县属汝州大业中又改郏城县以期城县省入唐因之宋属许州金属汝州元初省入梁县后复置郏县本朝因之编户四十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "郏县",
+        "type": "geo",
+        "norm": "郏县",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "峨眉山",
+        "type": "mtn",
+        "norm": "峨眉山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-003",
+        "name": "凤翅山",
+        "type": "mtn",
+        "norm": "凤翅山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-004",
+        "name": "紫云山",
+        "type": "mtn",
+        "norm": "紫云山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-005",
+        "name": "大刘山",
+        "type": "mtn",
+        "norm": "大刘山",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-006",
+        "name": "长桥河",
+        "type": "mtn",
+        "norm": "长桥河",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-007",
+        "name": "三苏祠",
+        "type": "geo",
+        "norm": "三苏祠",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-008",
+        "name": "二苏墓",
+        "type": "geo",
+        "norm": "二苏墓",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-009",
+        "name": "苏轼",
+        "type": "person",
+        "norm": "苏轼",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-010",
+        "name": "苏辙",
+        "type": "person",
+        "norm": "苏辙",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-011",
+        "name": "苏过",
+        "type": "person",
+        "norm": "苏过",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-012",
+        "name": "范士衡",
+        "type": "person",
+        "norm": "范士衡",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-013",
+        "name": "杜思进",
+        "type": "person",
+        "norm": "杜思进",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-014",
+        "name": "傅子荣",
+        "type": "person",
+        "norm": "傅子荣",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-015",
+        "name": "王玺",
+        "type": "person",
+        "norm": "王玺",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-016",
+        "name": "张鉴",
+        "type": "person",
+        "norm": "张鉴",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-017",
+        "name": "袁恺",
+        "type": "person",
+        "norm": "袁恺",
+        "first_source": "31-002"
+      },
+      {
+        "ent_id": "ENT-018",
+        "name": "李希颜",
+        "type": "person",
+        "norm": "李希颜",
+        "first_source": "31-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-31002c02",
+        "item_id": "31-002",
+        "name": "郏县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-31002",
+        "children": [],
+        "volume_range": "卷31",
+        "attributes": {
+          "location_text": "在州东九十里",
+          "households": {
+            "count": 44,
+            "unit": "里",
+            "note": "编户四十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "郑地/楚边邑",
+        "action": "置",
+        "detail": "春秋时郑地，后为楚边邑，战国属韩"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "郏县",
+        "action": "置",
+        "detail": "汉置郏县属颍川郡，东汉省"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "龙山县/辅城县",
+        "action": "改",
+        "detail": "三国魏复置，后魏改龙山县属襄城郡，东魏以县置顺阳郡；隋初改龙山为汝南县寻改辅城县属汝州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "dynasty": "隋",
+        "era": "大业",
+        "institution_name": "郏城县",
+        "action": "改",
+        "detail": "大业中又改郏城县，以期城县省入"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "郏县",
+        "action": "复置",
+        "detail": "宋属许州，金属汝州，元初省入梁县后复置郏县，本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "峨眉山",
+        "type": "山",
+        "location_text": "在郏县西北三十五里",
+        "description": "与扈阳山相近，下有广庆寺，寺内有三苏祠",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "凤翅山",
+        "type": "山",
+        "location_text": "在郏县西北四十里",
+        "description": "以形似名，上有灵泉祷雨有应",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "紫云山",
+        "type": "山",
+        "location_text": "在郏县东南六十里",
+        "description": "其上常有云气舒布，隆冬雪霁青紫可爱，其阴有白虎潭",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "大刘山",
+        "type": "山",
+        "location_text": "在郏县北三十里",
+        "description": "世传汉高祖入关驻此名沛公垒，东汉光武亦驻，后人立庙山间，因有大刘小刘之异",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "长桥河",
+        "type": "河",
+        "location_text": "在郏县东四十里",
+        "description": "又呼蓝桥，发源自钧州南流入于汝河",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "范士衡",
+        "type": "名宦",
+        "dynasty": "宋",
+        "native_place": "",
+        "office": "郏县令",
+        "summary": "兴学造士，建大成殿于县治"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "杜思进",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "知郏县",
+        "summary": "洪武中知郏县，课农桑均徭役，谦己爱人抚字得宜，以治称最"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "傅子荣",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "郏县丞",
+        "summary": "正统间任郏县丞，持身廉谨案牍无滞，秩满百姓保留复任，卒于官吏民甚哀悼为立永思碑"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "王玺",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "知郏县",
+        "summary": "天顺间知郏县，以廉能著绩升去，士民泣送"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "张鉴",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "郏县簿",
+        "summary": "天顺初主郏县簿，有猷有为，征税弭盗尤得其法，修举废坠无不善理，寻以疾乞休吏民不舍为立去思碑"
+      },
+      {
+        "per_id": "PER-006",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "袁恺",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "郏县",
+        "office": "副都御史",
+        "summary": "由进士累官副都御史，总督南京粮储"
+      },
+      {
+        "per_id": "PER-007",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "李希颜",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "郏县",
+        "office": "左春坊赞善大夫",
+        "summary": "博通经史穷极根抵，洪武初被征为左春坊赞善大夫，进讲经筵多所裨益，尝注大学中庸心法"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "郏县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "金建，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "青云书院",
+        "type": "书院",
+        "location_text": "在郏县城内",
+        "history_lore": "成化五年建"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "婆娑园",
+        "type": "古迹",
+        "location_text": "在郏县",
+        "history_lore": "宋崔鶠居此，又名石牛庄，鶠诗晚禽噪竹千百翅残菊横枝三两花"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "钧台",
+        "type": "台",
+        "location_text": "在郏县西",
+        "history_lore": "相传黄帝问道广成驻跸于此，大奏钧天之乐故名"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "神龟台",
+        "type": "台",
+        "location_text": "在郏县西",
+        "history_lore": "郡国志隋开皇初获神龟腹文曰天下杨兴，左有尹字右有月字即此地"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "望仙台",
+        "type": "台",
+        "location_text": "在郏县西望仙村内",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "义济桥",
+        "type": "关梁",
+        "location_text": "在郏县西十里沪涧溪上",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "汝河桥",
+        "type": "关梁",
+        "location_text": "在郏县东南十五里汝河上",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "长桥",
+        "type": "关梁",
+        "location_text": "在郏县东四十里跨长桥河",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "开元寺",
+        "type": "寺观",
+        "location_text": "在郏县治东",
+        "history_lore": "后魏建，唐改胜法寺"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "龙兴寺",
+        "type": "寺观",
+        "location_text": "一在郏县东",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "玉阳观",
+        "type": "寺观",
+        "location_text": "在郏县治东南",
+        "history_lore": "元建"
+      },
+      {
+        "site_id": "SITE-013",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "萧酂侯庙",
+        "type": "祠庙",
+        "location_text": "在郏县治内",
+        "history_lore": "祀萧何"
+      },
+      {
+        "site_id": "SITE-014",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "唐太宗庙",
+        "type": "祠庙",
+        "location_text": "在郏县东北",
+        "history_lore": ""
+      },
+      {
+        "site_id": "SITE-015",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "汉寿亭侯庙",
+        "type": "祠庙",
+        "location_text": "在郏县城内",
+        "history_lore": "洪武中建"
+      },
+      {
+        "site_id": "SITE-016",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "三苏祠",
+        "type": "祠庙",
+        "location_text": "在郏县西北峨眉山",
+        "history_lore": "元至正间建"
+      },
+      {
+        "site_id": "SITE-017",
+        "item_id": "31-002",
+        "geo_id": "GEO-31002c02",
+        "name": "二苏墓",
+        "type": "陵墓",
+        "location_text": "在郏县峨眉山",
+        "history_lore": "苏轼卒于常州，长子迈卜葬于此山遵治命也，辙后亦葬焉"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "兰阳县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "兰阳县",
+        "type": "geo",
+        "norm": "兰阳县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c15",
+        "item_id": "26-001",
+        "name": "兰阳县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东北九十里",
+          "households": {
+            "count": 29,
+            "unit": "里",
+            "note": "编户29里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "东明镇地",
+        "action": "置",
+        "detail": "本秦东明镇地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东昏县地",
+        "action": "属",
+        "detail": "汉为东昏县地属陈留郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "dynasty": "三国",
+        "era": "魏",
+        "institution_name": "东明镇",
+        "action": "废",
+        "detail": "魏废县为镇"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "东明县",
+        "action": "复置",
+        "detail": "宋初复置东明县属开封府"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "兰阳县",
+        "action": "置",
+        "detail": "金析东明六乡为县取其首乡曰兰阳以为名元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "name": "仪城",
+        "type": "古迹",
+        "location_text": "在兰阳县西北二十里",
+        "description": "即仪封人请见孔子处今县北有仪封乡",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c15",
+        "name": "兰阳县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": "洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

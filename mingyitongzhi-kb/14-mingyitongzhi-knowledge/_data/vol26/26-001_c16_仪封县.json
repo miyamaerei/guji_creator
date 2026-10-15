@@ -1,0 +1,123 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "仪封县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "仪封县",
+        "type": "geo",
+        "norm": "仪封县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c16",
+        "item_id": "26-001",
+        "name": "仪封县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东北一百一十五里",
+          "households": {
+            "count": 15,
+            "unit": "里",
+            "note": "编户15里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "仪邑",
+        "action": "置",
+        "detail": "春秋时卫邑仪封人见夫子即此"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东明县地",
+        "action": "属",
+        "detail": "汉为东明县地"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "考阳县地",
+        "action": "属",
+        "detail": "后魏为考阳县地属北梁郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "dynasty": "南北朝",
+        "era": "北齐",
+        "institution_name": "郡县并废",
+        "action": "废",
+        "detail": "北齐郡县并废"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "通安堡",
+        "action": "置",
+        "detail": "金为通安堡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "仪封县",
+        "action": "置",
+        "detail": "元始置仪封县属睢州本朝改今属"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c16",
+        "name": "仪封县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "洪武二十三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

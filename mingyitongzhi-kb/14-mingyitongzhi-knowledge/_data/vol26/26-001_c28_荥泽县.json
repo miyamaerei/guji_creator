@@ -1,0 +1,154 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "荥泽县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "荥泽县",
+        "type": "geo",
+        "norm": "荥泽县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c28",
+        "item_id": "26-001",
+        "name": "荥泽县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s04",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城北五十里",
+          "households": {
+            "count": 10,
+            "unit": "里",
+            "note": "编户10里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "荥泽",
+        "action": "置",
+        "detail": "本古泽名春秋卫侯及狄人战于荥泽即此地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "三川郡",
+        "action": "移治",
+        "detail": "秦三川郡尝移治于此"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "荥阳县地",
+        "action": "属",
+        "detail": "汉为荥阳县地"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "荥阳郡",
+        "action": "属",
+        "detail": "晋属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "广武县",
+        "action": "置",
+        "detail": "隋置广武县仁寿初改为荥泽县属郑州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "因之",
+        "detail": "唐因之"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "管城",
+        "action": "省",
+        "detail": "宋省入管城元祐初复为县"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "dynasty": "元",
+        "era": null,
+        "institution_name": "汴梁路",
+        "action": "属",
+        "detail": "元属汴梁路本朝属郑州"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "name": "衡雍",
+        "type": "古迹",
+        "location_text": "在荥泽县西北一十五里",
+        "description": "左传晋文公败楚师于城濮遂至衡雍作王宫于践土",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c28",
+        "name": "荥泽县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "以上俱洪武三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

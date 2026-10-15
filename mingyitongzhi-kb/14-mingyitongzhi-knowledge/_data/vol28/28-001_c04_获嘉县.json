@@ -1,0 +1,105 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "获嘉县",
+  "region": "河南",
+  "type": "county",
+  "original": "获嘉县【在府城西北一百里编户一十八里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "获嘉县",
+        "type": "geo",
+        "norm": "获嘉县",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001c04",
+        "item_id": "28-001",
+        "name": "获嘉县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城西北一百里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户一十八里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c04",
+        "dynasty": "殷",
+        "era": null,
+        "institution_name": "宁邑",
+        "action": "因之",
+        "detail": "本殷之宁邑地，周为修武地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "获嘉县",
+        "action": "置",
+        "detail": "汉武帝幸缑氏至汲县得南越相吕嘉首，因置县名获嘉属河内郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c04",
+        "dynasty": "隋",
+        "era": "开皇",
+        "institution_name": "获嘉县",
+        "action": "迁",
+        "detail": "北齐移获嘉治共城，隋开皇中移治于此，唐初置殷州贞观中州废以县属怀州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c04",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "获嘉县",
+        "action": "因之",
+        "detail": "宋元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c04",
+        "name": "同盟山",
+        "type": "山",
+        "location_text": "在获嘉县东北五十里",
+        "description": "相传武王伐纣与诸侯同盟于此故名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "卫辉府"
+}

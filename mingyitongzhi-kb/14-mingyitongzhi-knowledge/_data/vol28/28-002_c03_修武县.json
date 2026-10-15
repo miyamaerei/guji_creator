@@ -1,0 +1,94 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "修武县",
+  "region": "河南",
+  "type": "county",
+  "original": "修武县【在府城东南六十里编户一十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "修武县",
+        "type": "geo",
+        "norm": "修武县",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002c03",
+        "item_id": "28-002",
+        "name": "修武县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城东南六十里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c03",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "宁邑",
+        "action": "因之",
+        "detail": "本周之宁邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c03",
+        "dynasty": "秦",
+        "era": "始皇",
+        "institution_name": "修武",
+        "action": "改",
+        "detail": "秦始皇改修武属三川郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c03",
+        "dynasty": "晋",
+        "era": "启宁",
+        "institution_name": "修武县",
+        "action": "置",
+        "detail": "晋启宁时改置修武县属河内郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c03",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "修武县",
+        "action": "因之",
+        "detail": "唐宋元仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "怀庆府"
+}

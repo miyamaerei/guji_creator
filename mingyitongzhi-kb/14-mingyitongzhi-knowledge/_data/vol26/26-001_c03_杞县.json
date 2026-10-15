@@ -1,0 +1,176 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "杞县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "杞县",
+        "type": "geo",
+        "norm": "杞县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c03",
+        "item_id": "26-001",
+        "name": "杞县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东一百里",
+          "households": {
+            "count": 84,
+            "unit": "里",
+            "note": "编户84里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "雍国",
+        "action": "置",
+        "detail": "古雍国黄帝之后殷周皆以封夏后为杞国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "雍丘县",
+        "action": "置",
+        "detail": "汉置雍丘县属陈留郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "阳夏郡",
+        "action": "属",
+        "detail": "后魏属阳夏郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "杞州",
+        "action": "置",
+        "detail": "隋初置杞州大业初废州以县属梁郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "dynasty": "五代",
+        "era": "晋",
+        "institution_name": "杞县",
+        "action": "改",
+        "detail": "五代晋始改杞县，汉周至宋仍曰雍丘"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "杞县",
+        "action": "因之",
+        "detail": "金复为杞县元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "name": "铁里河",
+        "type": "河",
+        "location_text": "在杞县西南三十五里",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "name": "高阳城",
+        "type": "古迹",
+        "location_text": "在杞县西二十九里",
+        "description": "颛顼高阳氏佐少昊有功封此",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "name": "外黄城",
+        "type": "古迹",
+        "location_text": "在杞县东北",
+        "description": "左传惠公败宋师于黄即此汉置县属陈留郡",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "name": "圉城",
+        "type": "古迹",
+        "location_text": "在杞县南五十里",
+        "description": "春秋晋韩起如楚送女于杞即此汉置县属淮阳国",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "name": "祖逖",
+        "type": "名宦",
+        "dynasty": "晋",
+        "native_place": "",
+        "office": "豫州刺史",
+        "summary": "以豫州刺史镇雍丘爱人下士克己务施，及卒豫州士女若丧考妣为之立祠"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c03",
+        "name": "杞县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": ""
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

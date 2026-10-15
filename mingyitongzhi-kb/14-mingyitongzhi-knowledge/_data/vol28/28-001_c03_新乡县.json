@@ -1,0 +1,94 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "新乡县",
+  "region": "河南",
+  "type": "county",
+  "original": "新乡县【在府城西五十里编户三十二里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "新乡县",
+        "type": "geo",
+        "norm": "新乡县",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001c03",
+        "item_id": "28-001",
+        "name": "新乡县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城西五十里",
+          "households": {
+            "count": 32,
+            "unit": "里",
+            "note": "编户三十二里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c03",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "获嘉汲二县地",
+        "action": "因之",
+        "detail": "本汉河内郡获嘉汲二县地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c03",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "新乡县",
+        "action": "置",
+        "detail": "隋于古新乐城置新乡县，唐初属义州后属卫州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c03",
+        "dynasty": "宋",
+        "era": "熙宁",
+        "institution_name": "废",
+        "action": "废",
+        "detail": "宋熙宁中省入汲县，元祐初复置"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c03",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "新乡县",
+        "action": "因之",
+        "detail": "金元仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "卫辉府"
+}

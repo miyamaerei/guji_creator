@@ -1,0 +1,144 @@
+{
+  "item_id": "28-001",
+  "volume": "28",
+  "source": "辉县",
+  "region": "河南",
+  "type": "county",
+  "original": "辉县【在府城西六十里编户三十六里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "辉县",
+        "type": "geo",
+        "norm": "辉县",
+        "first_source": "28-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28001c06",
+        "item_id": "28-001",
+        "name": "辉县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28001",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城西六十里",
+          "households": {
+            "count": 36,
+            "unit": "里",
+            "note": "编户三十六里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "共国",
+        "action": "置",
+        "detail": "古共伯之国，周共国地，春秋时并于卫"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "共县",
+        "action": "置",
+        "detail": "汉置共县属河内郡，晋属汲郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "共城县",
+        "action": "改",
+        "detail": "隋改为共城县，唐初以县置共州并析置凡城县寻废州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "辉州",
+        "action": "升",
+        "detail": "金改河平县又改苏门县后升为辉州，元因之"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "辉县",
+        "action": "降",
+        "detail": "本朝仍为县"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "name": "苏门山",
+        "type": "山",
+        "location_text": "在辉县西北七里一名百门山",
+        "description": "晋孙登隐此号苏门先生，阮籍往见之",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "name": "共山",
+        "type": "山",
+        "location_text": "在辉县东北八里俗呼九山",
+        "description": "以九日登临故名",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "name": "辉县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "元至元间建，本朝洪武九年重修"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "28-001",
+        "geo_id": "GEO-28001c06",
+        "name": "百泉亭",
+        "type": "古迹",
+        "location_text": "在百门泉上",
+        "history_lore": "金明昌间建，元儒许衡尝与门生咏于此"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "卫辉府"
+}

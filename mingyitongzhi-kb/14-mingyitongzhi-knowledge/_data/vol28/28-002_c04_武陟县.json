@@ -1,0 +1,74 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "武陟县",
+  "region": "河南",
+  "type": "county",
+  "original": "武陟县【在府城东南一百里编户一十四里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "武陟县",
+        "type": "geo",
+        "norm": "武陟县",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002c04",
+        "item_id": "28-002",
+        "name": "武陟县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城东南一百里",
+          "households": {
+            "count": 14,
+            "unit": "里",
+            "note": "编户一十四里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "怀县地",
+        "action": "因之",
+        "detail": "本汉怀县地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c04",
+        "dynasty": "隋",
+        "era": "开皇",
+        "institution_name": "武陟县",
+        "action": "置",
+        "detail": "隋开皇六年分修武县地置武陟县"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "怀庆府"
+}

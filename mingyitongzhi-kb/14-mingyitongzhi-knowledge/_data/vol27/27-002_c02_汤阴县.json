@@ -1,0 +1,144 @@
+{
+  "item_id": "27-002",
+  "volume": "27",
+  "source": "汤阴县",
+  "region": "河南",
+  "type": "county",
+  "original": "汤阴县【在府城南四十五里编户四十一里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "汤阴县",
+        "type": "geo",
+        "norm": "汤阴县",
+        "first_source": "27-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-27002c02",
+        "item_id": "27-002",
+        "name": "汤阴县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-27002",
+        "children": [],
+        "volume_range": "卷27",
+        "attributes": {
+          "location_text": "在府城南四十五里",
+          "households": {
+            "count": 41,
+            "unit": "里",
+            "note": "编户四十一里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "羑里",
+        "action": "因之",
+        "detail": "古羑里地，战国为魏荡阴地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "荡阴县",
+        "action": "置",
+        "detail": "汉置荡阴县属河内郡，后魏省"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "汤阴县",
+        "action": "置",
+        "detail": "隋于县东十七里置汤阴县属汲郡，寻省入安阳后复分置汤源县"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "dynasty": "唐",
+        "era": "贞观",
+        "institution_name": "汤阴县",
+        "action": "改",
+        "detail": "唐初复置汤源县，贞观初改汤阴县属相州，金属彰德府元不改"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "汤阴县",
+        "action": "因之",
+        "detail": "本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "name": "飞凤山",
+        "type": "山",
+        "location_text": "在汤阴县西三里",
+        "description": "以形似名",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "name": "羑水",
+        "type": "河",
+        "location_text": "源出汤阴县西北鹤山",
+        "description": "流至羑城北会防水入汤水",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "name": "汤阴县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "宋大观元年建，本朝洪武三年重建"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "27-002",
+        "geo_id": "GEO-27002c02",
+        "name": "文王庙",
+        "type": "祠庙",
+        "location_text": "在汤阴县北一十里",
+        "history_lore": "商纣囚文王于羑里，庙后方城即羑里也"
+      }
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "彰德府"
+}

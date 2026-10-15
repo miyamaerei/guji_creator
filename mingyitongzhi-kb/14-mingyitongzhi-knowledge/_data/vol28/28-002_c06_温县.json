@@ -1,0 +1,84 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "温县",
+  "region": "河南",
+  "type": "county",
+  "original": "温县【在府城东南八十里编户九七里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "温县",
+        "type": "geo",
+        "norm": "温县",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002c06",
+        "item_id": "28-002",
+        "name": "温县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "在府城东南八十里",
+          "households": {
+            "count": 7,
+            "unit": "里",
+            "note": "编户九七里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c06",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "温邑",
+        "action": "置",
+        "detail": "本周畿内温邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c06",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "温县",
+        "action": "置",
+        "detail": "汉置温县属河内郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c06",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "温县",
+        "action": "因之",
+        "detail": "后魏及唐宋皆仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "怀庆府"
+}

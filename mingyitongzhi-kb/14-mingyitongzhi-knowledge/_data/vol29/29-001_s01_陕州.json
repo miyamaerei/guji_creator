@@ -1,0 +1,83 @@
+{
+  "item_id": "29-001",
+  "volume": "29",
+  "source": "陕州",
+  "region": "河南",
+  "type": "subprefecture",
+  "original": "陜州【在府城西三百里周为虢国地王季子虢仲封于此周召分治东西以陜为界即此春秋时属晋后属韩韩灭入秦汉置陜县为农郡治魏晋因之后魏始置陜州隋大业初州废以县属河南郡后复置农郡唐初复为陜州天寳初改陜府乾元初改陕郡昭宗时陞为唐兴府哀宗初置保义军宋改保平军金复为陕州又改西安军元仍为陕州本朝以陜县省入编户三十里领县二】",
+  "layers": {
+    "ents": [
+      {"ent_id": "ENT-001", "name": "陕州", "type": "geo", "norm": "陕州", "first_source": "29-001"},
+      {"ent_id": "ENT-002", "name": "砥柱山", "type": "mtn", "norm": "砥柱山", "first_source": "29-001"},
+      {"ent_id": "ENT-003", "name": "姚崇", "type": "person", "norm": "姚崇", "first_source": "29-001"},
+      {"ent_id": "ENT-004", "name": "茅津", "type": "site", "norm": "茅津", "first_source": "29-001"}
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-29001s01",
+        "item_id": "29-001",
+        "name": "陕州",
+        "type": "subprefecture",
+        "region": "河南",
+        "parent": "GEO-29001",
+        "children": ["GEO-29001c12", "GEO-29001c13"],
+        "volume_range": "卷29",
+        "attributes": {
+          "location_text": "在府城西三百里",
+          "households": {"count": 30, "unit": "里", "note": "编户三十里领县二"}
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "周", "era": null, "institution_name": "虢国", "action": "置", "detail": "周为虢国地，王季子虢仲封于此，周召分治东西以陕为界即此"},
+      {"evo_id": "EVO-002", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "战国", "era": null, "institution_name": "晋/韩地", "action": "因之", "detail": "春秋时属晋，后属韩，韩灭入秦"},
+      {"evo_id": "EVO-003", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "汉", "era": null, "institution_name": "陕县/弘农郡治", "action": "置", "detail": "汉置陕县为弘农郡治，魏晋因之"},
+      {"evo_id": "EVO-004", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "南北朝", "era": "后魏", "institution_name": "陕州", "action": "置", "detail": "后魏始置陕州"},
+      {"evo_id": "EVO-005", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "隋", "era": "大业", "institution_name": "弘农郡", "action": "废", "detail": "隋大业初州废以县属河南郡，后复置弘农郡"},
+      {"evo_id": "EVO-006", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "唐", "era": "天宝", "institution_name": "陕府/陕郡", "action": "改", "detail": "唐初复为陕州，天宝初改陕府，乾元初改陕郡，昭宗时升为唐兴府"},
+      {"evo_id": "EVO-007", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "宋", "era": null, "institution_name": "保平军", "action": "改", "detail": "哀宗初置保义军，宋改保平军"},
+      {"evo_id": "EVO-008", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "金", "era": null, "institution_name": "陕州/西安军", "action": "复", "detail": "金复为陕州又改西安军，元仍为陕州"},
+      {"evo_id": "EVO-009", "item_id": "29-001", "geo_id": "GEO-29001s01", "dynasty": "明", "era": null, "institution_name": "陕州", "action": "因之", "detail": "本朝以陕县省入"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "羊角山", "type": "山", "location_text": "在陕州城西北隅，高百尺", "description": "上有披云亭", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "鸡足山", "type": "山", "location_text": "在陕州城西南二里", "description": "上有虎岩洞，临河宛如鸡足", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "砥柱山", "type": "山", "location_text": "在陕州城东四十里黄河中", "description": "禹贡导河至于砥柱即此，石形似柱故名。山有三门，南曰鬼门中曰神门北曰人门，谓之三门集津", "lore": "有唐太宗所勒铭"},
+      {"mtn_id": "MTN-004", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "梨山", "type": "山", "location_text": "在陕州城东北四十五里", "description": "山腰有庙祷雨即应", "lore": ""},
+      {"mtn_id": "MTN-005", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "三觜山", "type": "山", "location_text": "在陕州城东五十里", "description": "山有三峰故名", "lore": ""},
+      {"mtn_id": "MTN-006", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "槖山", "type": "山", "location_text": "在陕州城东五十里", "description": "槖水源出于此", "lore": ""},
+      {"mtn_id": "MTN-007", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "明山", "type": "山", "location_text": "在陕州城东南一百里", "description": "上有石岩并龙潭，祷雨辄应", "lore": ""},
+      {"mtn_id": "MTN-008", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "莘原", "type": "其他", "location_text": "在陕州城去硖石旧县一十五里", "description": "左传神降于莘即此", "lore": ""},
+      {"mtn_id": "MTN-009", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "槖水", "type": "河", "location_text": "在陕州城南，一名永定涧", "description": "源出槖山，水漫流故又名漫涧，南流入河", "lore": ""},
+      {"mtn_id": "MTN-010", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "谯水", "type": "河", "location_text": "在陕州城南三里", "description": "涌出入河，俗呼三里涧", "lore": ""},
+      {"mtn_id": "MTN-011", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "七里涧", "type": "河", "location_text": "在陕州西南七里，今名石桥沟", "description": "北流入河，后汉献帝东迁李傕郭汜等追乘舆战于东涧即此地", "lore": ""},
+      {"mtn_id": "MTN-012", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "墨池", "type": "池", "location_text": "在陕州", "description": "汉张芝好书所居池水尽黑，今尚存遗迹", "lore": ""},
+      {"mtn_id": "MTN-013", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "茅津", "type": "其他", "location_text": "在陕州城北四里，一名陕津一名大阳津", "description": "春秋秦伯伐晋自茅津济封崤尸而还即此", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "姚崇", "type": "人物", "dynasty": "唐", "native_place": "陕州硖石", "office": "梁国公", "summary": "少尚气节长乃好学，玄宗立说以十事遂拜相，封梁国公"},
+      {"per_id": "PER-002", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "上官仪", "type": "人物", "dynasty": "唐", "native_place": "陕州陕县", "office": "西台侍郎", "summary": "工诗词，高宗时累迁西台侍郎，武后得志仪密请废后后闻而杀之"},
+      {"per_id": "PER-003", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "李彦仙", "type": "名宦", "dynasty": "宋", "native_place": "定西", "office": "知陕州", "summary": "靖康初为石壕尉，以计复陕州，金人屡攻彦仙极力御之，守城再逾年城陷巷战投河而死，庙号义烈"},
+      {"per_id": "PER-004", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "魏野", "type": "人物", "dynasty": "宋", "native_place": "陕县", "office": "处士", "summary": "居东郊弹琴赋诗号草堂居士，真宗召之辞疾不至"},
+      {"per_id": "PER-005", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "张士贵", "type": "人物", "dynasty": "唐", "native_place": "卢氏", "office": "虢国公", "summary": "善左右射，隋末从群盗，高祖招降之，从征有功进爵虢国公"},
+      {"per_id": "PER-006", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "曹端", "type": "人物", "dynasty": "明", "native_place": "渑池", "office": "学正", "summary": "蒲霍二州学正，号月川先生（详见渑池县）"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "陕州学", "type": "学校", "location_text": "在州治东北", "history_lore": "洪武三年因旧重建"},
+      {"site_id": "SITE-002", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "兴国万寿寺", "type": "寺观", "location_text": "在陕州治东南", "history_lore": "隋开皇中建，本朝洪武中重修"},
+      {"site_id": "SITE-003", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "开化寺", "type": "寺观", "location_text": "在陕州东三门集津", "history_lore": "宋司马光诗山有古来色河流无尽期"},
+      {"site_id": "SITE-004", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "佑德观", "type": "寺观", "location_text": "在陕州治西南", "history_lore": "宋崇宁初建，本朝永乐中重修"},
+      {"site_id": "SITE-005", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "召公庙", "type": "祠庙", "location_text": "在陕州治东", "history_lore": "祀周太保召公奭，宋邵雍诗开周为太保封陕辅成王"},
+      {"site_id": "SITE-006", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "姚崇庙", "type": "祠庙", "location_text": "在陕州东", "history_lore": "崇唐名相"},
+      {"site_id": "SITE-007", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "太原仓", "type": "古迹", "location_text": "在陕州西南六里", "history_lore": "隋置"},
+      {"site_id": "SITE-008", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "石壕", "type": "古迹", "location_text": "在陕州城东七十里", "history_lore": "唐杜甫有石壕吏诗"},
+      {"site_id": "SITE-009", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "大阳关", "type": "关梁", "location_text": "在陕州城西", "history_lore": "汉献帝北渡大阳津即此"},
+      {"site_id": "SITE-010", "item_id": "29-001", "geo_id": "GEO-29001s01", "name": "硖石关", "type": "关梁", "location_text": "在陕州城东旧硖石县", "history_lore": "即古崤陵关路，东通渑池西通函谷，今建巡检司"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": "灵宝阌乡二县另见c12/c13"}
+}

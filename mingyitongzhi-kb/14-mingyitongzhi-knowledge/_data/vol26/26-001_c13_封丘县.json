@@ -1,0 +1,144 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "封丘县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "封丘县",
+        "type": "geo",
+        "norm": "封丘县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c13",
+        "item_id": "26-001",
+        "name": "封丘县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城北七十里",
+          "households": {
+            "count": 26,
+            "unit": "里",
+            "note": "编户26里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "封父国",
+        "action": "置",
+        "detail": "本古封父国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "封丘县",
+        "action": "置",
+        "detail": "汉始置封丘县属陈留郡寻析置平丘县"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "陈留国",
+        "action": "属",
+        "detail": "晋省平丘以县属陈留国"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "酸枣县",
+        "action": "省",
+        "detail": "后魏省入酸枣县寻复置北齐省"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "滑州",
+        "action": "复置",
+        "detail": "隋复置属滑州后属东郡"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "汴州",
+        "action": "属",
+        "detail": "唐属汴州五代属开封府宋元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "name": "黑山",
+        "type": "山",
+        "location_text": "在封丘县北三里",
+        "description": "曹操防袁术粮道处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "name": "黄池",
+        "type": "池",
+        "location_text": "在封丘县南一十里",
+        "description": "春秋公会吴子于黄池即此",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c13",
+        "name": "封丘县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "元至正间成本朝洪武五年重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

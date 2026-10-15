@@ -1,0 +1,177 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "太康县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "太康县",
+        "type": "geo",
+        "norm": "太康县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c05",
+        "item_id": "26-001",
+        "name": "太康县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东南二百一十里",
+          "households": {
+            "count": 35,
+            "unit": "里",
+            "note": "编户35里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "dynasty": "夏",
+        "era": null,
+        "institution_name": "太康城",
+        "action": "置",
+        "detail": "本夏太康所筑城"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "阳夏县",
+        "action": "置",
+        "detail": "汉置阳夏县属淮阳国东汉属陈国晋属梁国"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "dynasty": "南北朝",
+        "era": "后魏",
+        "institution_name": "阳夏郡",
+        "action": "置",
+        "detail": "后魏置阳夏郡"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "太康县",
+        "action": "改",
+        "detail": "隋改县曰太康属匡城郡后复置阳夏郡改县曰匡城县隋末废"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "陈州",
+        "action": "复置",
+        "detail": "唐初复置属陈州五代梁属开封府"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "dynasty": "宋",
+        "era": "宣和",
+        "institution_name": "拱州",
+        "action": "属",
+        "detail": "宋宣和初属拱州金属开封元属汴梁本朝仍旧"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "name": "南拒台",
+        "type": "古迹",
+        "location_text": "在太康县南二十里",
+        "description": "相去一里间即汉王追项羽至阳夏相拒处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "name": "北拒台",
+        "type": "古迹",
+        "location_text": "在太康县南二十里",
+        "description": "相去一里间即汉王追项羽至阳夏相拒处",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "name": "霸王台",
+        "type": "古迹",
+        "location_text": "在太康县北五里",
+        "description": "世传为项王将台",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "name": "谢安",
+        "type": "人物",
+        "dynasty": "晋",
+        "native_place": "阳夏",
+        "office": "太保",
+        "summary": "鲲从子少有重名寓居会稽之东山，年四十始为桓温司马，累官尚书仆射"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "name": "谢道韫",
+        "type": "列女",
+        "dynasty": "晋",
+        "native_place": "阳夏",
+        "office": "王凝之妻",
+        "summary": "奕之女幼聪敏才辩，未若柳絮因风起安大奇之"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c05",
+        "name": "太康县学",
+        "type": "学校",
+        "location_text": "在县治东北",
+        "history_lore": "以上俱洪武三年因旧学重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

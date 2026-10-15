@@ -1,0 +1,44 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "南阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "南阳县【附郭本周申伯国战国为韩宛邑秦为宛县南阳郡治此汉因之后魏改上陌县后周改上宛县隋初改南阳县属邓州唐初于县置宛州寻罢州仍以县属邓州唐末以向城县省入五代及宋皆因之金为申州治所元改州为南阳府仍置县属焉本朝因之编户二十五里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "南阳县", "type": "geo", "norm": "南阳县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c01", "item_id": "30-001", "name": "南阳县", "type": "county", "region": "河南", "parent": "GEO-30001", "children": [], "volume_range": "卷30", "attributes": {"location_text": "附郭", "households": {"count": 25, "unit": "里", "note": "编户二十五里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "周", "era": null, "institution_name": "申伯国", "action": "因之", "detail": "本周申伯国"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "战国", "era": null, "institution_name": "韩宛邑", "action": "因之", "detail": "战国为韩宛邑"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "秦", "era": null, "institution_name": "宛县", "action": "置", "detail": "秦为宛县南阳郡治此，汉因之"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "南北朝", "era": "后魏", "institution_name": "上陌/上宛县", "action": "改", "detail": "后魏改上陌县，后周改上宛县"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "隋", "era": null, "institution_name": "南阳县", "action": "改", "detail": "隋初改南阳县属邓州"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "唐", "era": null, "institution_name": "宛州/南阳县", "action": "置", "detail": "唐初于县置宛州寻罢，唐末以向城县省入"},
+      {"evo_id": "EVO-007", "item_id": "30-001", "geo_id": "GEO-30001c01", "dynasty": "金", "era": null, "institution_name": "申州治", "action": "因之", "detail": "五代及宋皆因之，金为申州治所，元改州为南阳府仍置县属焉"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "分水岭", "type": "岭", "location_text": "在府城北七十里", "description": "有水自岭南北分流俗呼为分头岭，其水为鸦河乃三鸦之第二鸦也", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "刁河", "type": "河", "location_text": "在邓州城南一十五源自内乡西北萧山流过州至新野东南入于淯水", "description": "", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "燕若冲", "type": "名宦", "dynasty": "宋", "native_place": "", "office": "知南阳县", "summary": "元丰中知南阳县政治清平修陂堰辟田土比屋殷富岁资丰稔"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "车敬", "type": "名宦", "dynasty": "明", "native_place": "", "office": "南阳县知县", "summary": "洪武中南阳县知县清慎方介政令一新兴学劝农平徭均税芟锄凶恶囹圄空虚"},
+      {"per_id": "PER-003", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "郑刚", "type": "人物", "dynasty": "明", "native_place": "南阳", "office": "工部右侍郎", "summary": "家贫嗜学，洪武中释褐胄监署广西布政使事，恭慎小心为时所重，洪熙初赠工部尚书"},
+      {"per_id": "PER-004", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "王鸿儒", "type": "人物", "dynasty": "明", "native_place": "南阳", "office": "户部尚书", "summary": "成化丁未进士历官山西提举吏部侍郎终尚书为名臣，卒谥文庄"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "南阳县学", "type": "学校", "location_text": "在县治东", "history_lore": "洪武九年因元旧址重建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "郦县城? 南乡城", "type": "古迹", "location_text": "在南阳县一百里地名沙堰", "history_lore": "东汉置县属南阳郡晋属顺阳郡隋析州治此"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "临湍城? 朝王城", "type": "古迹", "location_text": "在南阳县朝水之阳", "history_lore": "汉县属南阳郡今为朝王村俗呼刁城"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "雷义? 赵云墓", "type": "陵墓", "location_text": "在南阳县南三十里", "history_lore": "葬蜀汉偏将军赵云"},
+      {"site_id": "SITE-005", "item_id": "30-001", "geo_id": "GEO-30001c01", "name": "黄权墓", "type": "陵墓", "location_text": "在南阳豫山南", "history_lore": "葬魏车骑将军黄权，墓前有四碑"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

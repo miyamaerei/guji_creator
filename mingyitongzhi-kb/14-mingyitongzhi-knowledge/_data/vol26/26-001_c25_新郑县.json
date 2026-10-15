@@ -1,0 +1,226 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "新郑县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "新郑县",
+        "type": "geo",
+        "norm": "新郑县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c25",
+        "item_id": "26-001",
+        "name": "新郑县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s03",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城东北九十里",
+          "households": {
+            "count": 19,
+            "unit": "里",
+            "note": "编户19里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "郐国",
+        "action": "置",
+        "detail": "周封黄帝后于此为郐国"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "春秋",
+        "era": null,
+        "institution_name": "新郑",
+        "action": "都",
+        "detail": "春秋时为郑武公之国名曰新郑"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "颍川郡",
+        "action": "属",
+        "detail": "秦属颍川"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "新郑县",
+        "action": "置",
+        "detail": "汉始置新郑县属河南郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "省",
+        "action": "废",
+        "detail": "晋省"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "南北朝",
+        "era": "刘宋",
+        "institution_name": "荥阳郡",
+        "action": "复置",
+        "detail": "刘宋复置属荥阳郡后魏省"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "新郑县",
+        "action": "复置",
+        "detail": "隋复置唐宋皆属郑州"
+      },
+      {
+        "evo_id": "EVO-008",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "钧州",
+        "action": "属",
+        "detail": "金属钧州元仍旧"
+      },
+      {
+        "evo_id": "EVO-009",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "开封府",
+        "action": "改属",
+        "detail": "本朝改属本府"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "邢山",
+        "type": "山",
+        "location_text": "在新郑县南三十里",
+        "description": "上有郑大夫祭仲墓一云子产冢",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "抱獐山",
+        "type": "山",
+        "location_text": "在新郑县北三十里",
+        "description": "宋陈尧佐于上筑驻节台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "具茨山",
+        "type": "山",
+        "location_text": "在新郑县西南四十里",
+        "description": "又名大隗山水经注云黄帝登此山升于洪堤受神芝图于黄盖童子今其山有轩辕避暑洞",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "溱水",
+        "type": "河",
+        "location_text": "源出密县一名浍水东北至新郑县与洧水合",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "洧水",
+        "type": "河",
+        "location_text": "源出密县东至新郑县会溱水为双洎河至西华县入黄河",
+        "description": "",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "轩辕丘",
+        "type": "古迹",
+        "location_text": "在新郑县境",
+        "description": "古有熊氏之国轩辕黄帝生于此故名",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "子产",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "新郑",
+        "office": "郑卿",
+        "summary": "即国侨，作封洫不毁乡校制参辟铸刑书，孔子过郑因与之厚，及卒泣曰古之遗爱也"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c25",
+        "name": "新郑县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "以上俱洪武三年建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

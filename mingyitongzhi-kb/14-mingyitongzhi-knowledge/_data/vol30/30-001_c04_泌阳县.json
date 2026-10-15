@@ -1,0 +1,41 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "泌阳县",
+  "region": "河南",
+  "type": "county",
+  "original": "泌阳县【在府城东二百二十里汉为舞隂县属南阳郡东魏改临舞县及置期城郡隋废郡以县属显州唐始改泌阳县乾元初属唐州五代梁初尝以泌州徙治此宋金皆属唐州元初因之后省本朝复置编户三十六里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "泌阳县", "type": "geo", "norm": "泌阳县", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c04", "item_id": "30-001", "name": "泌阳县", "type": "county", "region": "河南", "parent": "GEO-30001", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在府城东二百二十里", "households": {"count": 36, "unit": "里", "note": "编户三十六里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c04", "dynasty": "汉", "era": null, "institution_name": "舞阴县", "action": "因之", "detail": "汉为舞阴县属南阳郡"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c04", "dynasty": "南北朝", "era": "东魏", "institution_name": "临舞县/期城郡", "action": "改", "detail": "东魏改临舞县及置期城郡"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c04", "dynasty": "隋", "era": null, "institution_name": "临舞县", "action": "因之", "detail": "隋废郡以县属显州"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c04", "dynasty": "唐", "era": null, "institution_name": "泌阳县", "action": "改", "detail": "唐始改泌阳县，乾元初属唐州"},
+      {"evo_id": "EVO-005", "item_id": "30-001", "geo_id": "GEO-30001c04", "dynasty": "元", "era": null, "institution_name": "泌阳县", "action": "省", "detail": "五代梁初尝以泌州徙治此，宋金皆属唐州，元初因之后省"},
+      {"evo_id": "EVO-006", "item_id": "30-001", "geo_id": "GEO-30001c04", "dynasty": "明", "era": null, "institution_name": "泌阳县", "action": "复", "detail": "本朝复置"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "铜山", "type": "山", "location_text": "在泌阳县东四十里", "description": "其地有分水处东流为淮西流为泌同源异流，相传汉邓通鼓铸其上", "lore": ""},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "盘古山", "type": "山", "location_text": "在泌阳县南四十里", "description": "上有盘古庙", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "碁盘山", "type": "山", "location_text": "在泌阳县东北八十里", "description": "上有石碁盘与截军山并峙", "lore": ""},
+      {"mtn_id": "MTN-004", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "泌水", "type": "河", "location_text": "在唐县源出铜山流经泌阳县", "description": "诗云泌之洋洋可以乐饥即此水也", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "胡惠", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知泌阳县", "summary": "洪武中知泌阳县县革而复设民杂处两界中恃以逃赋，惠抚字公平民皆归化"},
+      {"per_id": "PER-002", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "胡清", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知泌阳县", "summary": "永乐中知泌阳县县久乏科贡清孜孜兴学亲为讲说，至是始有其人且杜私谒革奸弊爱民如子"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "泌阳县学", "type": "学校", "location_text": "在县治西", "history_lore": "洪武十四年因元旧址重建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "古蓝乡", "type": "古迹", "location_text": "在泌阳县", "history_lore": "汉光武兄刘縯败王莽前队大夫甄阜属正梁邱赐尽获其辎重即此地"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c04", "name": "象河关", "type": "关梁", "location_text": "在泌阳县北", "history_lore": "南阳卫戍守"}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

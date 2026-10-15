@@ -1,0 +1,38 @@
+{
+  "item_id": "30-001",
+  "volume": "30",
+  "source": "桐柏县",
+  "region": "河南",
+  "type": "county",
+  "original": "桐柏县【在府城东南三百里本古唐州地秦汉并属南阳郡西汉始置复阳县三国属魏晋属南阳国隋改复阳为桐柏县唐属河南道五代因之宋属京西南路金因之元省入唐州本朝初置巡检司成化十二年复置为桐柏县因县东有桐柏山故属南阳府编户一十四里】",
+  "layers": {
+    "ents": [{"ent_id": "ENT-001", "name": "桐柏县", "type": "geo", "norm": "桐柏县", "first_source": "30-001"}, {"ent_id": "ENT-002", "name": "桐柏山", "type": "mtn", "norm": "桐柏山", "first_source": "30-001"}],
+    "geos": [
+      {"geo_id": "GEO-30001c05", "item_id": "30-001", "name": "桐柏县", "type": "county", "region": "河南", "parent": "GEO-30001", "children": [], "volume_range": "卷30", "attributes": {"location_text": "在府城东南三百里", "households": {"count": 14, "unit": "里", "note": "编户一十四里"}}, "cit_ids": []}
+    ],
+    "evos": [
+      {"evo_id": "EVO-001", "item_id": "30-001", "geo_id": "GEO-30001c05", "dynasty": "秦汉", "era": null, "institution_name": "唐州地/复阳县", "action": "置", "detail": "本古唐州地秦汉并属南阳郡，西汉始置复阳县"},
+      {"evo_id": "EVO-002", "item_id": "30-001", "geo_id": "GEO-30001c05", "dynasty": "隋", "era": null, "institution_name": "桐柏县", "action": "改", "detail": "隋改复阳为桐柏县，唐属河南道"},
+      {"evo_id": "EVO-003", "item_id": "30-001", "geo_id": "GEO-30001c05", "dynasty": "元", "era": null, "institution_name": "唐州地", "action": "省", "detail": "五代因之，宋属京西南路，金因之，元省入唐州"},
+      {"evo_id": "EVO-004", "item_id": "30-001", "geo_id": "GEO-30001c05", "dynasty": "明", "era": "成化", "institution_name": "桐柏县", "action": "复", "detail": "本朝初置巡检司，成化十二年复置为桐柏县"}
+    ],
+    "mtns": [
+      {"mtn_id": "MTN-001", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "桐柏山", "type": "山", "location_text": "在桐柏县东南一里", "description": "其山东南随川界西接枣阳界，峰峦奇秀上有玉女卧龙紫霄翠微莲花诸峰，淮水出其下", "lore": "晋祖逖将家属避难于此"},
+      {"mtn_id": "MTN-002", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "高老山", "type": "山", "location_text": "在桐柏县东一百里，一名栲栳山", "description": "峰峦峻起高出群山", "lore": ""},
+      {"mtn_id": "MTN-003", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "淮水", "type": "河", "location_text": "在唐县东南一百八十里", "description": "即禹贡导淮自桐柏者天下有四渎此其一也，今桐柏支冈有水泉潜流三十里东出大复山经汝宁信阳县东流合沂泗入于海", "lore": ""}
+    ],
+    "pers": [
+      {"per_id": "PER-001", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "汪云", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知桐柏县", "summary": "成化末知桐柏县时县初创建营建百出，云之功居多而民赖以不扰"}
+    ],
+    "sites": [
+      {"site_id": "SITE-001", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "桐柏县学", "type": "学校", "location_text": "在县治西", "history_lore": "成化十二年建"},
+      {"site_id": "SITE-002", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "淮渎庙", "type": "祠庙", "location_text": "在桐柏山左", "history_lore": "汉延熹间建唐宋及元皆加神以封爵，本朝止称为东渎大淮之神祀典有祭"},
+      {"site_id": "SITE-003", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "罗汉寺", "type": "寺观", "location_text": "在桐柏县东七十里", "history_lore": "宋建"},
+      {"site_id": "SITE-004", "item_id": "30-001", "geo_id": "GEO-30001c05", "name": "桐柏关", "type": "关梁", "location_text": "在桐柏县东", "history_lore": ""}
+    ],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {"errs": [], "gap": 0, "notes": ""}
+}

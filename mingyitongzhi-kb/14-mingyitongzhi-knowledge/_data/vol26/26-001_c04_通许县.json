@@ -1,0 +1,105 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "通许县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "通许县",
+        "type": "geo",
+        "norm": "通许县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c04",
+        "item_id": "26-001",
+        "name": "通许县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城东南九十里",
+          "households": {
+            "count": 12,
+            "unit": "里",
+            "note": "编户12里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c04",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "陈留扶沟二县地",
+        "action": "置",
+        "detail": "本汉陈留扶沟二县地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c04",
+        "dynasty": "宋",
+        "era": "初",
+        "institution_name": "通许镇",
+        "action": "置",
+        "detail": "宋初始置通许镇咸平中升为咸平县属开封府"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c04",
+        "dynasty": "金",
+        "era": null,
+        "institution_name": "通许县",
+        "action": "改",
+        "detail": "金改通许县元仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c04",
+        "name": "子羽",
+        "type": "人物",
+        "dynasty": "周",
+        "native_place": "通许",
+        "office": "郑行人",
+        "summary": "子羽郑行人，墓在通许县东"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c04",
+        "name": "通许县学",
+        "type": "学校",
+        "location_text": "在县治东",
+        "history_lore": ""
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

@@ -1,0 +1,134 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "临颍县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "临颍县",
+        "type": "geo",
+        "norm": "临颍县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c21",
+        "item_id": "26-001",
+        "name": "临颍县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001s02",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在州城南六十里",
+          "households": {
+            "count": 18,
+            "unit": "里",
+            "note": "编户18里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "临颍县",
+        "action": "置",
+        "detail": "本汉旧县属颍川郡以在颍水之上故名"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "许州",
+        "action": "属",
+        "detail": "隋属许州"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "溵州",
+        "action": "属",
+        "detail": "唐属溵州贞元初仍属许州"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "dynasty": "宋金元",
+        "era": null,
+        "institution_name": "临颍县",
+        "action": "因之",
+        "detail": "宋金元皆仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "name": "石梁河",
+        "type": "河",
+        "location_text": "在临颍县北三十里",
+        "description": "东南入黄河",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "name": "尚书台",
+        "type": "古迹",
+        "location_text": "在临颍县东南四十里",
+        "description": "汉马融尝讲书其上因名唐高宗于此阅兵更名讲武台",
+        "lore": ""
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "name": "繁昌城",
+        "type": "古迹",
+        "location_text": "在临颍县西北",
+        "description": "魏置县隋属颍川郡唐省入临颍",
+        "lore": ""
+      }
+    ],
+    "pers": [],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c21",
+        "name": "临颍县学",
+        "type": "学校",
+        "location_text": "在县治东南",
+        "history_lore": "以上俱洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}

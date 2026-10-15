@@ -1,0 +1,94 @@
+{
+  "item_id": "28-002",
+  "volume": "28",
+  "source": "河内县",
+  "region": "河南",
+  "type": "county",
+  "original": "河内县【附郭编户二十里】",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "河内县",
+        "type": "geo",
+        "norm": "河内县",
+        "first_source": "28-002"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-28002c01",
+        "item_id": "28-002",
+        "name": "河内县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-28002",
+        "children": [],
+        "volume_range": "卷28",
+        "attributes": {
+          "location_text": "附郭",
+          "households": {
+            "count": 20,
+            "unit": "里",
+            "note": "编户二十里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c01",
+        "dynasty": "周",
+        "era": null,
+        "institution_name": "野王邑",
+        "action": "因之",
+        "detail": "本周野王邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c01",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "野王县",
+        "action": "置",
+        "detail": "秦置野王县属河内郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c01",
+        "dynasty": "隋",
+        "era": "开皇",
+        "institution_name": "河内县",
+        "action": "改",
+        "detail": "隋开皇初始改河内县为怀州治"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "28-002",
+        "geo_id": "GEO-28002c01",
+        "dynasty": "明",
+        "era": null,
+        "institution_name": "河内县",
+        "action": "因之",
+        "detail": "唐宋元仍旧本朝因之"
+      }
+    ],
+    "mtns": [],
+    "pers": [],
+    "sites": [],
+    "prods": [],
+    "cits": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "怀庆府"
+}

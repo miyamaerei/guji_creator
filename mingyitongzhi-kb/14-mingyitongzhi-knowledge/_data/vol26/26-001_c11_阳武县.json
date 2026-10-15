@@ -1,0 +1,158 @@
+{
+  "item_id": "26-001",
+  "volume": "26",
+  "source": "阳武县",
+  "region": "河南",
+  "type": "county",
+  "layers": {
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "阳武县",
+        "type": "geo",
+        "norm": "阳武县",
+        "first_source": "26-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-26001c11",
+        "item_id": "26-001",
+        "name": "阳武县",
+        "type": "county",
+        "region": "河南",
+        "parent": "GEO-26001",
+        "children": [],
+        "volume_range": "卷26-27",
+        "attributes": {
+          "location_text": "在府城西北九十里",
+          "households": {
+            "count": 45,
+            "unit": "里",
+            "note": "编户45里"
+          }
+        },
+        "cit_ids": []
+      }
+    ],
+    "evos": [
+      {
+        "evo_id": "EVO-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "dynasty": "秦",
+        "era": null,
+        "institution_name": "博浪沙地",
+        "action": "置",
+        "detail": "秦为博浪沙地"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "阳武县",
+        "action": "置",
+        "detail": "汉始置阳武县属河南郡晋属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "dynasty": "南北朝",
+        "era": "东魏",
+        "institution_name": "广武郡",
+        "action": "属",
+        "detail": "东魏属广武郡北齐省"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "荥阳郡",
+        "action": "复置",
+        "detail": "隋复置属荥阳郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "郑州",
+        "action": "属",
+        "detail": "唐属郑州五代属开封府宋元仍旧本朝因之"
+      }
+    ],
+    "mtns": [
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "name": "博浪城",
+        "type": "古迹",
+        "location_text": "在府城北三十里一名博浪沙亭",
+        "description": "即张良令力士击秦始皇处一云在阳武县东南三里",
+        "lore": ""
+      }
+    ],
+    "pers": [
+      {
+        "per_id": "PER-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "name": "陈平",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "阳武",
+        "office": "右丞相",
+        "summary": "少家贫好读书，佐高帝定天下凡六出奇计官至右丞相封曲逆侯"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "name": "张苍",
+        "type": "人物",
+        "dynasty": "汉",
+        "native_place": "阳武",
+        "office": "丞相",
+        "summary": "好书律历尝仕秦为御史，后归汉以功封北平侯孝文初为丞相"
+      },
+      {
+        "per_id": "PER-003",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "name": "韦思谦",
+        "type": "人物",
+        "dynasty": "唐",
+        "native_place": "阳武",
+        "office": "肃政大夫",
+        "summary": "八岁丧母以孝闻举进士累官肃政大夫振明纲纪朝廷肃然"
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "item_id": "26-001",
+        "geo_id": "GEO-26001c11",
+        "name": "阳武县学",
+        "type": "学校",
+        "location_text": "在县治西南",
+        "history_lore": "洪武三年因故址重建"
+      }
+    ],
+    "cits": [],
+    "prods": []
+  },
+  "layer_count": 7,
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": ""
+  },
+  "title": "开封府"
+}
