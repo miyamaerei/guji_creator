@@ -1,0 +1,47 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "耀州",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-s04",
+    "name": "耀州",
+    "type": "geo",
+    "norm": "耀州",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-s04",
+    "item_id": "32-001",
+    "name": "耀州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c24",
+     "GEO-32001-c25"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城北一百八十里",
+     "households": {
+      "count": 14,
+      "unit": "里",
+      "note": "编户一十四里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

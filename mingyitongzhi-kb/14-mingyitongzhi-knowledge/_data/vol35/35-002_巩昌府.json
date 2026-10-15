@@ -1,0 +1,1795 @@
+{
+ "item_id": "35-002",
+ "volume": "35",
+ "source": "巩昌府",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-001",
+    "name": "巩昌府",
+    "type": "geo",
+    "norm": "巩昌府",
+    "first_source": "35-002"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "祁山",
+    "type": "mtn",
+    "norm": "祁山",
+    "first_source": "35-002"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "仇池山",
+    "type": "mtn",
+    "norm": "仇池山",
+    "first_source": "35-002"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "麦积山",
+    "type": "mtn",
+    "norm": "麦积山",
+    "first_source": "35-002"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "李广",
+    "type": "person",
+    "norm": "李广",
+    "first_source": "35-002"
+   },
+   {
+    "ent_id": "ENT-006",
+    "name": "李白",
+    "type": "person",
+    "norm": "李白",
+    "first_source": "35-002"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-35002",
+    "item_id": "35-002",
+    "name": "巩昌府",
+    "type": "prefecture",
+    "region": "陕西",
+    "parent": "GEO-000",
+    "children": [
+     "GEO-35002-c01",
+     "GEO-35002-c02",
+     "GEO-35002-c03",
+     "GEO-35002-c04",
+     "GEO-35002-c05",
+     "GEO-35002-c06",
+     "GEO-35002-c07",
+     "GEO-35002-c08",
+     "GEO-35002-c09",
+     "GEO-35002-s01",
+     "GEO-35002-s02",
+     "GEO-35002-s03",
+     "GEO-35002-w01",
+     "GEO-35002-w02",
+     "GEO-35002-w03",
+     "GEO-35002-w04"
+    ],
+    "volume_range": "卷35",
+    "attributes": {
+     "borders": [
+      {
+       "direction": "东",
+       "to_place": "凤翔府陇州界",
+       "distance_li": 550
+      },
+      {
+       "direction": "西",
+       "to_place": "临洮府渭源县界",
+       "distance_li": 75
+      },
+      {
+       "direction": "南",
+       "to_place": "汉中府凤县界",
+       "distance_li": 1300
+      },
+      {
+       "direction": "北",
+       "to_place": "平凉府固原州界",
+       "distance_li": 600
+      }
+     ],
+     "to_capital": [
+      {
+       "capital": "京师",
+       "distance_li": 3620
+      },
+      {
+       "capital": "南京",
+       "distance_li": 3630
+      }
+     ],
+     "households": {
+      "count": null,
+      "unit": "里",
+      "note": "领州三县十四；各属州县编户见下"
+     },
+     "grain_tax": {
+      "amount": 159000,
+      "unit": "石",
+      "note": "粮十五万九千石零"
+     },
+     "jun_name": "陇西【秦名】天水【汉名】汉阳【东汉名】",
+     "topography": "西倾朱圉鸟鼠诸山称雄【郡志】；天水名郡秦地重镇【天水志】；用武之国【同谷志成州为郡界秦陇间得两界山河之首古为用武之国】；土地险阻【华阳国志武都东接梓潼西接天水北接始平土地险阻】；接壤羌戎通道陇蜀【宋郑价知阶州制】；背山面池襟带秦陇【宋成州题名记】",
+     "customs": "尚存古风【图经秦国风十篇历世虽远军旅久戍而妇人言念君子温其如玉尚存古风】；高尚气力【汉书天水陇西皆迫近戎狄修习战备高尚气力以射猎为生】；勤稼穑多畜牧【隋志天水于古为六郡之地其人性尤质直然尚俭约习仁义勤于稼穑多畜牧无复寇盗矣】；猎野务农【图经】；习无浇浮【读书堂记】；其民质朴劲勇【宋成州郡守题名记】；俗于婚葬之仪多循古制【元志】",
+     "garrisons": [
+      {
+       "name": "巩昌卫",
+       "type": "卫",
+       "location_text": "在府治北本元总帅府本朝洪武三年建为卫"
+      },
+      {
+       "name": "秦州卫",
+       "type": "卫",
+       "location_text": "在州治东洪武十五年建"
+      },
+      {
+       "name": "礼店守御前千户所",
+       "type": "千户所",
+       "location_text": "在秦州西南二百二十里洪武中建"
+      },
+      {
+       "name": "阶州守御右千户所",
+       "type": "千户所",
+       "location_text": "在州治西洪武四年建俱隶秦州卫"
+      }
+     ],
+     "fiefs": []
+    },
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003",
+     "CIT-004",
+     "CIT-005",
+     "CIT-006",
+     "CIT-007",
+     "CIT-008",
+     "CIT-009",
+     "CIT-010",
+     "CIT-011",
+     "CIT-012"
+    ]
+   },
+   {
+    "geo_id": "GEO-35002-c01",
+    "item_id": "35-002",
+    "name": "陇西县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "附郭",
+     "households": {
+      "count": 32,
+      "unit": "里",
+      "note": "编户三十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c02",
+    "item_id": "35-002",
+    "name": "安定县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城北一百八十里",
+     "households": {
+      "count": 19,
+      "unit": "里",
+      "note": "编户一十九里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c03",
+    "item_id": "35-002",
+    "name": "会宁县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城北二百二十里",
+     "households": {
+      "count": 12,
+      "unit": "里",
+      "note": "编户一十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c04",
+    "item_id": "35-002",
+    "name": "通渭县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东北六十里",
+     "households": {
+      "count": 16,
+      "unit": "里",
+      "note": "编户一十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c05",
+    "item_id": "35-002",
+    "name": "漳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城南七十里",
+     "households": {
+      "count": 5,
+      "unit": "里",
+      "note": "编户五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c06",
+    "item_id": "35-002",
+    "name": "宁远县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东九十里",
+     "households": {
+      "count": 14,
+      "unit": "里",
+      "note": "编户一十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c07",
+    "item_id": "35-002",
+    "name": "伏羌县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东一百八十里",
+     "households": {
+      "count": 12,
+      "unit": "里",
+      "note": "编户一十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c08",
+    "item_id": "35-002",
+    "name": "西和县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东南四百里",
+     "households": {
+      "count": 7,
+      "unit": "里",
+      "note": "编户七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c09",
+    "item_id": "35-002",
+    "name": "成县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东南六百里",
+     "households": {
+      "count": 5,
+      "unit": "里",
+      "note": "编户五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-s01",
+    "item_id": "35-002",
+    "name": "秦州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [
+     "GEO-35002-c10",
+     "GEO-35002-c11",
+     "GEO-35002-c12"
+    ],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东三百里",
+     "households": {
+      "count": 32,
+      "unit": "里",
+      "note": "编户三十二里领县三"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c10",
+    "item_id": "35-002",
+    "name": "秦安县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002-s01",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州西北九十里",
+     "households": {
+      "count": 7,
+      "unit": "里",
+      "note": "编户七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c11",
+    "item_id": "35-002",
+    "name": "清水县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002-s01",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州东一百五十里",
+     "households": {
+      "count": 8,
+      "unit": "里",
+      "note": "编户八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c12",
+    "item_id": "35-002",
+    "name": "礼县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002-s01",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州西一百六十里",
+     "households": {
+      "count": 19,
+      "unit": "里",
+      "note": "编户一十九里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-s02",
+    "item_id": "35-002",
+    "name": "阶州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [
+     "GEO-35002-c13"
+    ],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城南八百里",
+     "households": {
+      "count": 13,
+      "unit": "里",
+      "note": "编户一十三里领县一"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c13",
+    "item_id": "35-002",
+    "name": "文县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002-s02",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州东二百一十里",
+     "households": {
+      "count": 3,
+      "unit": "里",
+      "note": "编户三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-s03",
+    "item_id": "35-002",
+    "name": "徽州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [
+     "GEO-35002-c14"
+    ],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府城东四百八十里",
+     "households": {
+      "count": 19,
+      "unit": "里",
+      "note": "编户一十九里领县一"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-c14",
+    "item_id": "35-002",
+    "name": "两当县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35002-s03",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州东八十里",
+     "households": {
+      "count": 5,
+      "unit": "里",
+      "note": "编户五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-35002-w01",
+    "item_id": "35-002",
+    "name": "巩昌卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在府治北洪武三年建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-35002-w02",
+    "item_id": "35-002",
+    "name": "秦州卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州治东洪武十五年建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-35002-w03",
+    "item_id": "35-002",
+    "name": "礼店守御前千户所",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在秦州西南二百二十里洪武中建",
+     "garrison_type": "千户所"
+    }
+   },
+   {
+    "geo_id": "GEO-35002-w04",
+    "item_id": "35-002",
+    "name": "阶州守御右千户所",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-35002",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州治西洪武四年建",
+     "garrison_type": "千户所"
+    }
+   }
+  ],
+  "evos": [
+   {
+    "evo_id": "EVO-001",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "周",
+    "era": null,
+    "institution_name": "雍州之域",
+    "action": "因之",
+    "detail": "禹贡雍州之域，天文井鬼分野"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "春秋战国",
+    "era": null,
+    "institution_name": "戎羌所居",
+    "action": "因之",
+    "detail": "春秋戎羌所居"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "秦",
+    "era": null,
+    "institution_name": "陇西郡",
+    "action": "置郡",
+    "detail": "秦属陇西郡"
+   },
+   {
+    "evo_id": "EVO-004",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "东汉",
+    "era": "灵帝",
+    "institution_name": "南安郡",
+    "action": "析置",
+    "detail": "东汉灵帝时分立南安郡"
+   },
+   {
+    "evo_id": "EVO-005",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "三国",
+    "era": "魏",
+    "institution_name": "陇西郡/南安郡",
+    "action": "因之",
+    "detail": "魏陇西郡治襄武，南安郡治豲道"
+   },
+   {
+    "evo_id": "EVO-006",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "晋",
+    "era": null,
+    "institution_name": "因之",
+    "action": "因之",
+    "detail": "晋仍旧"
+   },
+   {
+    "evo_id": "EVO-007",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "后魏",
+    "era": null,
+    "institution_name": "渭州",
+    "action": "置",
+    "detail": "后魏为陇西南安安阳三郡，兼置渭州"
+   },
+   {
+    "evo_id": "EVO-008",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "后周",
+    "era": null,
+    "institution_name": "南安郡",
+    "action": "并",
+    "detail": "后周并为南安郡"
+   },
+   {
+    "evo_id": "EVO-009",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "隋",
+    "era": null,
+    "institution_name": "陇西郡",
+    "action": "改",
+    "detail": "隋废后复置陇西郡"
+   },
+   {
+    "evo_id": "EVO-010",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "唐",
+    "era": "天宝",
+    "institution_name": "陇西郡",
+    "action": "改",
+    "detail": "唐置渭州，天宝初改陇西郡，宝应后没于吐蕃"
+   },
+   {
+    "evo_id": "EVO-011",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "宋",
+    "era": "熙宁",
+    "institution_name": "巩州",
+    "action": "升",
+    "detail": "皇祐中置古渭寨，熙宁中改通远军，崇宁中改巩州"
+   },
+   {
+    "evo_id": "EVO-012",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "金",
+    "era": null,
+    "institution_name": "巩昌府",
+    "action": "改",
+    "detail": "金始为巩昌府"
+   },
+   {
+    "evo_id": "EVO-013",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "巩昌路",
+    "action": "改",
+    "detail": "元初改巩昌路"
+   },
+   {
+    "evo_id": "EVO-014",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "dynasty": "明",
+    "era": "洪武",
+    "institution_name": "巩昌府",
+    "action": "改",
+    "detail": "本朝洪武三年改为巩昌府，领州三县十四"
+   }
+  ],
+  "mtns": [
+   {
+    "mtn_id": "MTN-001",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "仁寿山",
+    "type": "山",
+    "location_text": "在府城南",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-002",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "东山",
+    "type": "山",
+    "location_text": "在府城东一十五里",
+    "description": "赤亭水所出",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-003",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "赤觜山",
+    "type": "山",
+    "location_text": "在府城南二十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-004",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "马鹿山",
+    "type": "山",
+    "location_text": "在府城南八十里",
+    "description": "四围石崖甚险",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-005",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "西山",
+    "type": "山",
+    "location_text": "在府城西九十里",
+    "description": "广汉水所出",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-006",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "兴原山",
+    "type": "山",
+    "location_text": "在安定县东二里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-007",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "西岩山",
+    "type": "山",
+    "location_text": "在安定县西二里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-008",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "雪山",
+    "type": "山",
+    "location_text": "在会宁县北五百里",
+    "description": "春夏积雪不消",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-009",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "照城山",
+    "type": "山",
+    "location_text": "在通渭县治北",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-010",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "庙山",
+    "type": "山",
+    "location_text": "在通渭县南二里",
+    "description": "上有东岳庙",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-011",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "玉狼山",
+    "type": "山",
+    "location_text": "在通渭县北四十里",
+    "description": "俗传元时尝有白狼游此因名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-012",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "箭筈山",
+    "type": "山",
+    "location_text": "在漳县西南三十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-013",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "西倾山",
+    "type": "山",
+    "location_text": "在漳县西北八十里",
+    "description": "即禹贡所谓西倾是也",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-014",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "广吴山",
+    "type": "山",
+    "location_text": "在宁远县西二十里",
+    "description": "广吴堡故城在焉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-015",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "石门山",
+    "type": "山",
+    "location_text": "在宁远县东北五十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-016",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "斗山",
+    "type": "山",
+    "location_text": "在宁远县南七十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-017",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天门山",
+    "type": "山",
+    "location_text": "在伏羌县南三里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-018",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "朱圉山",
+    "type": "山",
+    "location_text": "在伏羌县西南三百里",
+    "description": "即禹贡所谓朱圉，俗名白崖山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-019",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "大像山",
+    "type": "山",
+    "location_text": "在伏羌县西南五里",
+    "description": "上有石佛像，自山顶至山下一千二百三十丈",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-020",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "锦镜山",
+    "type": "山",
+    "location_text": "在伏羌县南三十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-021",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "石鼓山",
+    "type": "山",
+    "location_text": "在伏羌县南五十里",
+    "description": "山有石鼓，不击自鸣，鸣则兵起",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-022",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "祁山",
+    "type": "山",
+    "location_text": "在西和县北七里",
+    "description": "山上有城极严固，三国诸葛亮率诸军攻祁山即此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-023",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "鸡峰山",
+    "type": "山",
+    "location_text": "在西和县东北一十五里",
+    "description": "其形如圭，古名圭峰",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-024",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "宝泉山",
+    "type": "山",
+    "location_text": "在西和县北二十里",
+    "description": "上有湫池",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-025",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "崆峒山",
+    "type": "山",
+    "location_text": "在西和县南一百二十里",
+    "description": "寰宇记在溢乐县治西",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-026",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "通灵山",
+    "type": "山",
+    "location_text": "在西和县东南三百余里",
+    "description": "四山环合二水萦流，有清泉自岩窦飞落如玉障然",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-027",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "紫金山",
+    "type": "山",
+    "location_text": "有二",
+    "description": "一在成县旧成州治所，一在徽州北三十里",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-028",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "凤凰山",
+    "type": "山",
+    "location_text": "在成县东南一十里",
+    "description": "汉世尝有凤凰栖其上，山有瀑布名迸玑泉",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-029",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "宝井山",
+    "type": "山",
+    "location_text": "在成县东南一十里",
+    "description": "宋石洵直题名记云长庆中始迁于宝井即今治也",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-030",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "鹿玉山",
+    "type": "山",
+    "location_text": "在成县东一十里",
+    "description": "云径如线，山有狮子洞，溪中水漱石如玉名曰玉井",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-031",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "鸡头山",
+    "type": "山",
+    "location_text": "在成县西南一十五里",
+    "description": "状如鸡首，中有龙洞院，后有睹佛台",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-032",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天井山",
+    "type": "山",
+    "location_text": "在成县西二十里",
+    "description": "有汉耿勋磨崖碑",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-033",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "泥功山",
+    "type": "山",
+    "location_text": "在成县西二十里",
+    "description": "上有泥功庙石像古怪",
+    "lore": "唐赵鸿诗"
+   },
+   {
+    "mtn_id": "MTN-034",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "兊山",
+    "type": "山",
+    "location_text": "在成县东废栗亭县境",
+    "description": "尧申命和仲宅西曰昧谷，今人谓之兊山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-035",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "五仙山",
+    "type": "山",
+    "location_text": "在成县南三十里",
+    "description": "山半有洞五，尝有公孙氏五子学仙于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-036",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "方山",
+    "type": "山",
+    "location_text": "在成县东四十里",
+    "description": "晋武都氐尝据此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-037",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "石船山",
+    "type": "山",
+    "location_text": "在成县北四十里",
+    "description": "上有龙湫",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-038",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "黑谷山",
+    "type": "山",
+    "location_text": "在成县北",
+    "description": "大山乔林跨数郡，山有黑谷关，宋绍兴中郡守程俊置",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-039",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "太祖山",
+    "type": "山",
+    "location_text": "在成县东南",
+    "description": "岩峦耸秀林壑邃深，下瞰数州历历可辨",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-040",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "仇池山",
+    "type": "山",
+    "location_text": "在成县西北一百里",
+    "description": "四面壁立峭绝险固，上有平地方二十余里，羊肠盘道三十六回",
+    "lore": "唐杜甫诗"
+   },
+   {
+    "mtn_id": "MTN-041",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天靖山",
+    "type": "山",
+    "location_text": "在成县西北二十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-042",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "龟峰山",
+    "type": "山",
+    "location_text": "在秦州东南四十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-043",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "大阳山",
+    "type": "山",
+    "location_text": "在秦州南五十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-044",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "崦嵫山",
+    "type": "山",
+    "location_text": "在秦州西五十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-045",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "嶓冢山",
+    "type": "山",
+    "location_text": "在秦州西南六十里",
+    "description": "禹贡嶓冢导漾东流为汉，西汉水之所出也",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-046",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "麦积山",
+    "type": "山",
+    "location_text": "在秦州东南九十里",
+    "description": "状如麦积，为秦地林泉之冠",
+    "lore": "宋李师中诗"
+   },
+   {
+    "mtn_id": "MTN-047",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "金门山",
+    "type": "山",
+    "location_text": "在秦州东二百三十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-048",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "岳平山",
+    "type": "山",
+    "location_text": "在秦州西南四百里",
+    "description": "上有龙王庙",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-049",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "瓦亭山",
+    "type": "山",
+    "location_text": "在秦州东北",
+    "description": "即汉时隗嚣使将军牛邯所守处",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-050",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "九龙山",
+    "type": "山",
+    "location_text": "在秦安县东北六十里",
+    "description": "九峰相拱故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-051",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "邽山",
+    "type": "山",
+    "location_text": "在清水县治后",
+    "description": "寰宇记云在大潭县南",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-052",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "宝盖山",
+    "type": "山",
+    "location_text": "在清水县北一百五十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-053",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "卧龙山",
+    "type": "山",
+    "location_text": "在阶州治北",
+    "description": "一名北山，其在州境者又有露骨龙拽等山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-054",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "石鸡山",
+    "type": "山",
+    "location_text": "在阶州东七十里",
+    "description": "上有石鸡神庙，过东一十里又有石鹤山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-055",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "盘堤山",
+    "type": "山",
+    "location_text": "在阶州东南七十三里",
+    "description": "近有盘堤城，晋将邓艾与蜀将姜维相持于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-056",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "南山",
+    "type": "山",
+    "location_text": "在文县南",
+    "description": "清水江绕其下",
+    "lore": "宋阎苍舒诗"
+   },
+   {
+    "mtn_id": "MTN-057",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天牢山",
+    "type": "山",
+    "location_text": "在文县西北二里",
+    "description": "相传即古羑里也，上有羑里城",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-058",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "龙女山",
+    "type": "山",
+    "location_text": "在文县西南二里",
+    "description": "相传蜀广政间有郡守梦一女于此山自称龙女",
+    "lore": "宋孙谔诗"
+   },
+   {
+    "mtn_id": "MTN-059",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "螳螂山",
+    "type": "山",
+    "location_text": "在文县东三里",
+    "description": "以形似名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-060",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "龙头山",
+    "type": "山",
+    "location_text": "在文县西七里",
+    "description": "其山如龙头",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-061",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "邓至山",
+    "type": "山",
+    "location_text": "在文县东二十五里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-062",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "铁窟山",
+    "type": "山",
+    "location_text": "在文县北八十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-063",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "金珠山",
+    "type": "山",
+    "location_text": "在文县东",
+    "description": "寰宇记云武德元年移州于阴平白马水东接金珠山即此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-064",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "素岭山",
+    "type": "山",
+    "location_text": "在文县西",
+    "description": "其山高耸冬夏积雪，黑水源于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-065",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天魏山",
+    "type": "山",
+    "location_text": "在文县西北一百三十里",
+    "description": "旧属长松县",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-066",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "壁玉山",
+    "type": "山",
+    "location_text": "在文县东二百里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-067",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "太白山",
+    "type": "山",
+    "location_text": "在文县南二百五十余里",
+    "description": "其山谷高深尝多霜雪，春夏不消",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-068",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "伶伦山",
+    "type": "山",
+    "location_text": "在徽州南一十里",
+    "description": "石壁如舞优状故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-069",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "青泥山",
+    "type": "山",
+    "location_text": "在徽州界",
+    "description": "",
+    "lore": "唐史瑜诗"
+   },
+   {
+    "mtn_id": "MTN-070",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "大夫山",
+    "type": "山",
+    "location_text": "在两当县东南",
+    "description": "图经云唐末郡守满存移治于此因名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-071",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "鸑鷟山",
+    "type": "山",
+    "location_text": "在两当县东一十五里",
+    "description": "古凤州以此得名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-072",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "团峦山",
+    "type": "山",
+    "location_text": "在两当县境",
+    "description": "山峰耸秀",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-073",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "木皮岭",
+    "type": "山",
+    "location_text": "在徽州西一十里",
+    "description": "唐杜甫诗，黄巢之乱王铎置关于此以遮秦陇",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-074",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "铁堂峡",
+    "type": "峡",
+    "location_text": "在秦州天水废县东五里",
+    "description": "峡有石笋青翠，郡志蜀汉姜维居此",
+    "lore": "唐杜甫诗"
+   },
+   {
+    "mtn_id": "MTN-075",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "鱼窍峡",
+    "type": "峡",
+    "location_text": "在成县西二十里",
+    "description": "有汉武都太守李翕磨崖颂",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-076",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "白水江",
+    "type": "江",
+    "location_text": "在西和县北二里",
+    "description": "一名白江，后西蕃界东流经武阶州下文龙合嘉陵江",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-077",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "嘉陵江",
+    "type": "江",
+    "location_text": "源出大散关之西",
+    "description": "流至凤州入两当徽州，又经兴利果合州重庆府入于蜀江",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-078",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "渭水",
+    "type": "河",
+    "location_text": "在府城北五里",
+    "description": "源出临洮府渭源县，禹贡导渭自鸟鼠同穴是也",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-079",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "漳水",
+    "type": "河",
+    "location_text": "在漳县南三里",
+    "description": "自县西木寨坡发源，西北会东匝谷水合流东入于渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-080",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "西汉水",
+    "type": "河",
+    "location_text": "在西和县西南",
+    "description": "源出嶓冢山西流与马池水合，有诸葛亮垒",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-081",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "清水",
+    "type": "河",
+    "location_text": "在清水县境",
+    "description": "县因以名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-082",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "两当水",
+    "type": "河",
+    "location_text": "在两当县境",
+    "description": "流入故道川，又名故道水",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-083",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "白水",
+    "type": "河",
+    "location_text": "在文县城外",
+    "description": "源自松州赤磨岭流下东北流至县境",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-084",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "黑水",
+    "type": "河",
+    "location_text": "源出素岭山",
+    "description": "水经注云黑水出于羌中西南经黑水城西入于白水",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-085",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "六泉",
+    "type": "泉",
+    "location_text": "在府城东南五里",
+    "description": "乞伏国仁率骑兵袭鲜卑三部于六泉即此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-086",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "马跑泉",
+    "type": "泉",
+    "location_text": "在秦州东四十里",
+    "description": "唐尉迟敬德与蕃将战，士卒罢，马忽跑出泉",
+    "lore": "宋游师雄诗"
+   },
+   {
+    "mtn_id": "MTN-087",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天水湖",
+    "type": "湖",
+    "location_text": "在秦州南七里",
+    "description": "其水冬夏无增减，天水郡以此得名",
+    "lore": "宋蒋之奇诗"
+   },
+   {
+    "mtn_id": "MTN-088",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "裴公湖",
+    "type": "湖",
+    "location_text": "在成县西南隅",
+    "description": "唐刺史裴守真所创，荷花数十亩，花柳夹岸为一郡之胜",
+    "lore": "宋李师中诗"
+   },
+   {
+    "mtn_id": "MTN-089",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "万丈潭",
+    "type": "潭",
+    "location_text": "在成县东南七里",
+    "description": "俗传昔有黑龙自潭飞出，一名凤凰潭",
+    "lore": "唐杜甫诗"
+   },
+   {
+    "mtn_id": "MTN-090",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "龙池",
+    "type": "池",
+    "location_text": "在徽州西南二十里",
+    "description": "汉郡国志天池即此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-091",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天池",
+    "type": "池",
+    "location_text": "在文县西北一百六十里",
+    "description": "合众山凹为大壑，环一百五十里，水积其中不见畔岸",
+    "lore": ""
+   }
+  ],
+  "pers": [],
+  "sites": [],
+  "prods": [
+   {
+    "prod_id": "PROD-001",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "铁",
+    "note": "宁远县出"
+   },
+   {
+    "prod_id": "PROD-002",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "麝",
+    "note": "陇西县出"
+   },
+   {
+    "prod_id": "PROD-003",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "熊",
+    "note": "文县出"
+   },
+   {
+    "prod_id": "PROD-004",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "麂",
+    "note": "文县出"
+   },
+   {
+    "prod_id": "PROD-005",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "狨",
+    "note": "文县出"
+   },
+   {
+    "prod_id": "PROD-006",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "盐",
+    "note": "西和县东北八十里有井煮水成盐"
+   },
+   {
+    "prod_id": "PROD-007",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "杉木",
+    "note": "文县出"
+   },
+   {
+    "prod_id": "PROD-008",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "当归",
+    "note": "秦州出"
+   },
+   {
+    "prod_id": "PROD-009",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "防风",
+    "note": "会宁县出"
+   },
+   {
+    "prod_id": "PROD-010",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "雄黄",
+    "note": "阶州出"
+   },
+   {
+    "prod_id": "PROD-011",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "芎䓖",
+    "note": "秦州出"
+   },
+   {
+    "prod_id": "PROD-012",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "天门冬",
+    "note": "文县出"
+   },
+   {
+    "prod_id": "PROD-013",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "麦门冬",
+    "note": "文县出"
+   },
+   {
+    "prod_id": "PROD-014",
+    "item_id": "35-002",
+    "geo_id": "GEO-35002",
+    "name": "羚羊角",
+    "note": "阶州出"
+   }
+  ],
+  "cits": [
+   {
+    "cit_id": "CIT-001",
+    "item_id": "35-002",
+    "cited_work": "郡志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【郡志西倾朱圉鸟鼠诸山称雄】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "35-002",
+    "cited_work": "天水志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【天水志天水名郡秦地重镇】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "35-002",
+    "cited_work": "同谷志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【同谷志成州为郡界秦陇间得两界山河之首古为用武之国】"
+   },
+   {
+    "cit_id": "CIT-004",
+    "item_id": "35-002",
+    "cited_work": "华阳国志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【华阳国志武都东接梓潼西接天水北接始平土地险阻】"
+   },
+   {
+    "cit_id": "CIT-005",
+    "item_id": "35-002",
+    "cited_work": "宋郑价知阶州制",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【宋郑价知阶州制接壤羌戎通道陇蜀】"
+   },
+   {
+    "cit_id": "CIT-006",
+    "item_id": "35-002",
+    "cited_work": "宋成州题名记",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【宋成州题名记城郭之胜背山面池风土之盛襟带秦陇】"
+   },
+   {
+    "cit_id": "CIT-007",
+    "item_id": "35-002",
+    "cited_work": "图经",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【图经秦国风十篇历世虽远军旅久戍而妇人言念君子温其如玉尚存古风】"
+   },
+   {
+    "cit_id": "CIT-008",
+    "item_id": "35-002",
+    "cited_work": "汉书",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【汉书天水陇西皆迫近戎狄修习战备高尚气力以射猎为生】"
+   },
+   {
+    "cit_id": "CIT-009",
+    "item_id": "35-002",
+    "cited_work": "隋志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【隋志天水于古为六郡之地其人性尤质直然尚俭约习仁义勤于稼穑多畜牧】"
+   },
+   {
+    "cit_id": "CIT-010",
+    "item_id": "35-002",
+    "cited_work": "读书堂记",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【读书堂记习无浇浮】"
+   },
+   {
+    "cit_id": "CIT-011",
+    "item_id": "35-002",
+    "cited_work": "宋成州郡守题名记",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【宋成州郡守题名记其民质朴劲勇】"
+   },
+   {
+    "cit_id": "CIT-012",
+    "item_id": "35-002",
+    "cited_work": "元志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【元志俗于婚葬之仪多循古制】"
+   }
+  ]
+ },
+ "layer_count": 7,
+ "validation": {
+  "errs": [],
+  "gap": 0,
+  "notes": "pers 层拆至 35-002_pers1_名宦流寓.json 与 35-002_pers2_人物列女仙释.json；sites 层拆至 35-002_sites1_古迹陵墓祠庙寺观.json 与 35-002_sites2_宫室关梁公署学校.json"
+ }
+}

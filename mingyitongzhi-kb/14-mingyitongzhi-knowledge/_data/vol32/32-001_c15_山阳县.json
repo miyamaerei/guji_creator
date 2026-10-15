@@ -1,0 +1,44 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "山阳县",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c15",
+    "name": "山阳县",
+    "type": "geo",
+    "norm": "山阳县",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-c15",
+    "item_id": "32-001",
+    "name": "山阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s02",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东南一百二十里",
+     "households": {
+      "count": 20,
+      "unit": "里",
+      "note": "编户二十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

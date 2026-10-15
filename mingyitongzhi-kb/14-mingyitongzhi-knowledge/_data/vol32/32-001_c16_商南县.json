@@ -1,0 +1,44 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "商南县",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c16",
+    "name": "商南县",
+    "type": "geo",
+    "norm": "商南县",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-c16",
+    "item_id": "32-001",
+    "name": "商南县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s02",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东六十里",
+     "households": {
+      "count": 12,
+      "unit": "里",
+      "note": "编户一十二里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

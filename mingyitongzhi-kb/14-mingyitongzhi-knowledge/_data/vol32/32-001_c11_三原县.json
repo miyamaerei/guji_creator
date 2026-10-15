@@ -1,0 +1,44 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "三原县",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c11",
+    "name": "三原县",
+    "type": "geo",
+    "norm": "三原县",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-c11",
+    "item_id": "32-001",
+    "name": "三原县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城南九十里",
+     "households": {
+      "count": 20,
+      "unit": "里",
+      "note": "编户二十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

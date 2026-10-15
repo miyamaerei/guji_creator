@@ -1,0 +1,44 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "兴平县",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c04",
+    "name": "兴平县",
+    "type": "geo",
+    "norm": "兴平县",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-c04",
+    "item_id": "32-001",
+    "name": "兴平县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西一百里",
+     "households": {
+      "count": 15,
+      "unit": "里",
+      "note": "编户一十五里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

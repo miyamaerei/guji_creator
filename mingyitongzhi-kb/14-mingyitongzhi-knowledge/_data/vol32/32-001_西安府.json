@@ -1,0 +1,2642 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "西安府",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-001",
+    "name": "西安府",
+    "type": "geo",
+    "norm": "西安府",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-002",
+    "name": "终南山",
+    "type": "mtn",
+    "norm": "终南山",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-003",
+    "name": "华山",
+    "type": "mtn",
+    "norm": "华山",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-004",
+    "name": "渭水",
+    "type": "mtn",
+    "norm": "渭水",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-005",
+    "name": "泾水",
+    "type": "mtn",
+    "norm": "泾水",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-006",
+    "name": "杜甫",
+    "type": "person",
+    "norm": "杜甫",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-007",
+    "name": "白居易",
+    "type": "person",
+    "norm": "白居易",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-008",
+    "name": "史记",
+    "type": "book",
+    "norm": "史记",
+    "first_source": "32-001"
+   },
+   {
+    "ent_id": "ENT-009",
+    "name": "汉书",
+    "type": "book",
+    "norm": "汉书",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001",
+    "item_id": "32-001",
+    "name": "西安府",
+    "type": "prefecture",
+    "region": "陕西",
+    "parent": "GEO-000",
+    "children": [
+     "GEO-32001-s01",
+     "GEO-32001-s02",
+     "GEO-32001-s03",
+     "GEO-32001-s04",
+     "GEO-32001-s05",
+     "GEO-32001-s06",
+     "GEO-32001-w01",
+     "GEO-32001-w02",
+     "GEO-32001-w03",
+     "GEO-32001-w04",
+     "GEO-32001-w05",
+     "GEO-32001-c01",
+     "GEO-32001-c02",
+     "GEO-32001-c03",
+     "GEO-32001-c04",
+     "GEO-32001-c05",
+     "GEO-32001-c06",
+     "GEO-32001-c07",
+     "GEO-32001-c08",
+     "GEO-32001-c09",
+     "GEO-32001-c10",
+     "GEO-32001-c11",
+     "GEO-32001-c12",
+     "GEO-32001-c13",
+     "GEO-32001-c14",
+     "GEO-32001-c15",
+     "GEO-32001-c16",
+     "GEO-32001-c17",
+     "GEO-32001-c18",
+     "GEO-32001-c19",
+     "GEO-32001-c20",
+     "GEO-32001-c21",
+     "GEO-32001-c22",
+     "GEO-32001-c23",
+     "GEO-32001-c24",
+     "GEO-32001-c25",
+     "GEO-32001-c26",
+     "GEO-32001-c27",
+     "GEO-32001-c28",
+     "GEO-32001-c29",
+     "GEO-32001-c30",
+     "GEO-32001-c31"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "borders": [
+      {
+       "direction": "东",
+       "to_place": "山西蒲州黄河界",
+       "distance_li": 350
+      },
+      {
+       "direction": "西",
+       "to_place": "凤翔府扶风县界",
+       "distance_li": 240
+      },
+      {
+       "direction": "南",
+       "to_place": "汉中府金州界",
+       "distance_li": 680
+      },
+      {
+       "direction": "北",
+       "to_place": "延安府宜君县界",
+       "distance_li": 350
+      }
+     ],
+     "to_capital": [
+      {
+       "capital": "京师",
+       "distance_li": 2650
+      },
+      {
+       "capital": "南京",
+       "distance_li": 2430
+      }
+     ],
+     "households": {
+      "count": null,
+      "unit": "里",
+      "note": "领州六县三十；各属州县编户见下"
+     },
+     "grain_tax": {
+      "amount": 865000,
+      "unit": "石",
+      "note": "粮八十六万五千石零"
+     },
+     "jun_name": "京兆【汉名】永兴【宋名】安西【元名】",
+     "topography": "四塞之国被山带河【史记】；金城千里天府之国【汉书】；践华为城因河为池【贾谊过秦论】；陆海之地【东方朔】；关中奥区【旧志】；前临沙苑后枕浒冈【同州志】；左控桃林右阻蓝田【华州志】；漆水经其东沮水绕其西【耀州志】；依山为城地势雄壮【邠州志】",
+     "customs": "有先生遗风好稼穑务本业【汉志】；俗杂五方【同上】；尚气概先勇力【诗传】；衣冠文物俨有古风【方舆胜览】；习俗淳雅人多精医【同上耀州】；俗尚俭约野无惰农【元志邠州】；男勤稼穑女事桑麻【新志乾州】",
+     "fiefs": [
+      {
+       "name": "秦王府",
+       "type": "王府",
+       "note": "在府治东洪武九年建"
+      },
+      {
+       "name": "永寿王府",
+       "type": "王府",
+       "note": "在秦府西南二里"
+      },
+      {
+       "name": "保安王府",
+       "type": "王府",
+       "note": "在秦府西半里"
+      },
+      {
+       "name": "兴平王府",
+       "type": "王府",
+       "note": "在秦府西南二里"
+      },
+      {
+       "name": "永兴王府",
+       "type": "王府",
+       "note": "在秦府西南二里"
+      },
+      {
+       "name": "隆德王府",
+       "type": "王府",
+       "note": "在秦府西南二里"
+      },
+      {
+       "name": "宜川王府",
+       "type": "王府",
+       "note": "在秦府西南三里"
+      },
+      {
+       "name": "临潼王府",
+       "type": "王府",
+       "note": "在秦府东北二里"
+      },
+      {
+       "name": "郃阳王府",
+       "type": "王府",
+       "note": "在秦府东南二里"
+      },
+      {
+       "name": "汧阳王府",
+       "type": "王府",
+       "note": "在秦府西北半里"
+      }
+     ]
+    },
+    "cit_ids": [
+     "CIT-001",
+     "CIT-002",
+     "CIT-003",
+     "CIT-004",
+     "CIT-005",
+     "CIT-006",
+     "CIT-007",
+     "CIT-008"
+    ]
+   },
+   {
+    "geo_id": "GEO-32001-s01",
+    "item_id": "32-001",
+    "name": "华州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c22",
+     "GEO-32001-c23"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城东二百里",
+     "households": {
+      "count": 41,
+      "unit": "里",
+      "note": "编户四十一里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-s02",
+    "item_id": "32-001",
+    "name": "商州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c13",
+     "GEO-32001-c14",
+     "GEO-32001-c15",
+     "GEO-32001-c16"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城东南二百六十里",
+     "households": {
+      "count": 28,
+      "unit": "里",
+      "note": "编户二十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-s03",
+    "item_id": "32-001",
+    "name": "同州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c17",
+     "GEO-32001-c18",
+     "GEO-32001-c19",
+     "GEO-32001-c20",
+     "GEO-32001-c21"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城东北二百八十里",
+     "households": {
+      "count": 35,
+      "unit": "里",
+      "note": "编户三十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-s04",
+    "item_id": "32-001",
+    "name": "耀州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c24",
+     "GEO-32001-c25"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城北一百八十里",
+     "households": {
+      "count": 14,
+      "unit": "里",
+      "note": "编户一十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-s05",
+    "item_id": "32-001",
+    "name": "乾州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c26",
+     "GEO-32001-c27",
+     "GEO-32001-c28",
+     "GEO-32001-c29"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西北一百八十里",
+     "households": {
+      "count": 27,
+      "unit": "里",
+      "note": "编户二十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-s06",
+    "item_id": "32-001",
+    "name": "邠州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c30",
+     "GEO-32001-c31"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西北三百五十里",
+     "households": {
+      "count": 27,
+      "unit": "里",
+      "note": "编户二十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c01",
+    "item_id": "32-001",
+    "name": "长安县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "附郭",
+     "households": {
+      "count": 55,
+      "unit": "里",
+      "note": "编户五十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c02",
+    "item_id": "32-001",
+    "name": "咸宁县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "附郭",
+     "households": {
+      "count": 66,
+      "unit": "里",
+      "note": "编户六十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c03",
+    "item_id": "32-001",
+    "name": "咸阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西北五十里",
+     "households": {
+      "count": 10,
+      "unit": "里",
+      "note": "编户一十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c04",
+    "item_id": "32-001",
+    "name": "兴平县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西一百里",
+     "households": {
+      "count": 15,
+      "unit": "里",
+      "note": "编户一十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c05",
+    "item_id": "32-001",
+    "name": "临潼县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城东七十里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c06",
+    "item_id": "32-001",
+    "name": "泾阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城北七十里",
+     "households": {
+      "count": 44,
+      "unit": "里",
+      "note": "编户四十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c07",
+    "item_id": "32-001",
+    "name": "高陵县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城北八十里",
+     "households": {
+      "count": 15,
+      "unit": "里",
+      "note": "编户一十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c08",
+    "item_id": "32-001",
+    "name": "鄠县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西南七十里",
+     "households": {
+      "count": 23,
+      "unit": "里",
+      "note": "编户二十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c09",
+    "item_id": "32-001",
+    "name": "蓝田县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城东南九十里",
+     "households": {
+      "count": 20,
+      "unit": "里",
+      "note": "编户二十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c10",
+    "item_id": "32-001",
+    "name": "盩厔县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西南一百六十里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c11",
+    "item_id": "32-001",
+    "name": "三原县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城南九十里",
+     "households": {
+      "count": 20,
+      "unit": "里",
+      "note": "编户二十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c12",
+    "item_id": "32-001",
+    "name": "渭南县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西五十里",
+     "households": {
+      "count": 56,
+      "unit": "里",
+      "note": "编户五十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c13",
+    "item_id": "32-001",
+    "name": "镇安县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s02",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城南二百五十里",
+     "households": {
+      "count": 18,
+      "unit": "里",
+      "note": "编户一十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c14",
+    "item_id": "32-001",
+    "name": "洛南县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s02",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城南二百里",
+     "households": {
+      "count": 21,
+      "unit": "里",
+      "note": "编户二十一里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c15",
+    "item_id": "32-001",
+    "name": "山阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s02",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东南一百二十里",
+     "households": {
+      "count": 20,
+      "unit": "里",
+      "note": "编户二十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c16",
+    "item_id": "32-001",
+    "name": "商南县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s02",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东六十里",
+     "households": {
+      "count": 12,
+      "unit": "里",
+      "note": "编户一十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c17",
+    "item_id": "32-001",
+    "name": "朝邑县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s03",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东三十里",
+     "households": {
+      "count": 65,
+      "unit": "里",
+      "note": "编户六十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c18",
+    "item_id": "32-001",
+    "name": "郃阳县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s03",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东北一百二十里",
+     "households": {
+      "count": 47,
+      "unit": "里",
+      "note": "编户四十七里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c19",
+    "item_id": "32-001",
+    "name": "澄城县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s03",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城北一百二十里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c20",
+    "item_id": "32-001",
+    "name": "白水县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s03",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城西北一百二十里",
+     "households": {
+      "count": 29,
+      "unit": "里",
+      "note": "编户二十九里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c21",
+    "item_id": "32-001",
+    "name": "韩城县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s03",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东北二百二十里",
+     "households": {
+      "count": 36,
+      "unit": "里",
+      "note": "编户三十六里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c22",
+    "item_id": "32-001",
+    "name": "华阴县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s01",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东七十里",
+     "households": {
+      "count": 30,
+      "unit": "里",
+      "note": "编户三十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c23",
+    "item_id": "32-001",
+    "name": "蒲城县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s01",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城北一百二十里",
+     "households": {
+      "count": 54,
+      "unit": "里",
+      "note": "编户五十四里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c24",
+    "item_id": "32-001",
+    "name": "同官县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s04",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城北七十五里",
+     "households": {
+      "count": 13,
+      "unit": "里",
+      "note": "编户一十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c25",
+    "item_id": "32-001",
+    "name": "富平县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s04",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东南七十五里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c26",
+    "item_id": "32-001",
+    "name": "醴泉县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s05",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东七十五里",
+     "households": {
+      "count": 18,
+      "unit": "里",
+      "note": "编户一十八里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c27",
+    "item_id": "32-001",
+    "name": "武功县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s05",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城西南六十里",
+     "households": {
+      "count": 15,
+      "unit": "里",
+      "note": "编户十五里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c28",
+    "item_id": "32-001",
+    "name": "长武县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s05",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城西北百二十里",
+     "households": {
+      "count": null,
+      "unit": "里",
+      "note": "新设编户里数未详"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c29",
+    "item_id": "32-001",
+    "name": "永寿县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s05",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城北九十里",
+     "households": {
+      "count": 10,
+      "unit": "里",
+      "note": "编户一十里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c30",
+    "item_id": "32-001",
+    "name": "淳化县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s06",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东二百里",
+     "households": {
+      "count": 33,
+      "unit": "里",
+      "note": "编户三十三里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-c31",
+    "item_id": "32-001",
+    "name": "三水县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s06",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城东四十里",
+     "households": {
+      "count": 12,
+      "unit": "里",
+      "note": "编户一十二里"
+     }
+    }
+   },
+   {
+    "geo_id": "GEO-32001-w01",
+    "item_id": "32-001",
+    "name": "西安左卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府治东南本朝洪武初建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-32001-w02",
+    "item_id": "32-001",
+    "name": "西安前卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府治东南本朝洪武初建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-32001-w03",
+    "item_id": "32-001",
+    "name": "西安后卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府治东南本朝洪武初建",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-32001-w04",
+    "item_id": "32-001",
+    "name": "西安右护卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府治东洪武中为秦府置",
+     "garrison_type": "卫"
+    }
+   },
+   {
+    "geo_id": "GEO-32001-w05",
+    "item_id": "32-001",
+    "name": "潼关卫",
+    "type": "weisuo",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在潼关城中洪武三年建直隶",
+     "garrison_type": "卫"
+    }
+   }
+  ],
+  "evos": [
+   {
+    "evo_id": "EVO-001",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "周",
+    "era": null,
+    "institution_name": "王畿地",
+    "action": "因之",
+    "detail": "禹贡雍州之域，天文井鬼分野，周为王畿"
+   },
+   {
+    "evo_id": "EVO-002",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "秦",
+    "era": null,
+    "institution_name": "内史",
+    "action": "置",
+    "detail": "秦置内史以领关中"
+   },
+   {
+    "evo_id": "EVO-003",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "汉",
+    "era": "景帝",
+    "institution_name": "左右内史/京兆尹",
+    "action": "改",
+    "detail": "汉初置渭南郡寻罢，景帝分置左右内史，武帝改京兆尹，与左冯翊右扶风为三辅"
+   },
+   {
+    "evo_id": "EVO-004",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "三国魏",
+    "era": null,
+    "institution_name": "京兆郡/雍州",
+    "action": "改",
+    "detail": "魏改京兆尹为守，晋置雍州理京兆，后为刘石苻姚所据"
+   },
+   {
+    "evo_id": "EVO-005",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "隋",
+    "era": null,
+    "institution_name": "雍州/京兆郡",
+    "action": "改",
+    "detail": "隋初置雍州，寻改为京兆郡"
+   },
+   {
+    "evo_id": "EVO-006",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "唐",
+    "era": "开元",
+    "institution_name": "京兆府",
+    "action": "改",
+    "detail": "唐初复雍州又改京兆郡，开元初改京兆府，自周秦汉晋西魏后周隋唐并都于此"
+   },
+   {
+    "evo_id": "EVO-007",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "五代",
+    "era": null,
+    "institution_name": "佑国军/永平军/晋昌军/永兴军",
+    "action": "改",
+    "detail": "唐末为佑国军，梁改永平军，唐复京兆府，晋改晋昌，汉改永兴"
+   },
+   {
+    "evo_id": "EVO-008",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "宋",
+    "era": null,
+    "institution_name": "京兆府",
+    "action": "因之",
+    "detail": "宋仍京兆府属永兴军路"
+   },
+   {
+    "evo_id": "EVO-009",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "金",
+    "era": null,
+    "institution_name": "京兆府路",
+    "action": "因之",
+    "detail": "金属京兆府路"
+   },
+   {
+    "evo_id": "EVO-010",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "元",
+    "era": null,
+    "institution_name": "安西路/奉元路",
+    "action": "改",
+    "detail": "元改安西路，后改奉元路"
+   },
+   {
+    "evo_id": "EVO-011",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "dynasty": "明",
+    "era": "洪武",
+    "institution_name": "西安府",
+    "action": "改",
+    "detail": "本朝洪武初改为西安府，领州六县三十"
+   }
+  ],
+  "mtns": [
+   {
+    "mtn_id": "MTN-001",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "龙首山",
+    "type": "山",
+    "location_text": "在府城北一十里",
+    "description": "首入渭水尾达樊川长六十里，土赤不毛",
+    "lore": "隋以长安城狭小改作新都于龙首山迁焉"
+   },
+   {
+    "mtn_id": "MTN-002",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "终南山",
+    "type": "山",
+    "location_text": "在府城南五十里",
+    "description": "一名南山，东西连亘蓝田咸宁长安盩厔四县之境，产玉石金银铜铁",
+    "lore": "禹贡所谓终南，上有终南神祠，唐韩愈有南山诗"
+   },
+   {
+    "mtn_id": "MTN-003",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "太一山",
+    "type": "山",
+    "location_text": "在终南山南二十里",
+    "description": "连亘秀特上插云霄",
+    "lore": "唐王维诗太一近天都"
+   },
+   {
+    "mtn_id": "MTN-004",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "骊山",
+    "type": "山",
+    "location_text": "在临潼县东南二里",
+    "description": "因骊戎所居故名，山之麓温泉所出，山左肩东绣岭右肩西绣岭",
+    "lore": "唐玄宗更名昭应，上有老母庙"
+   },
+   {
+    "mtn_id": "MTN-005",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "胏浮山",
+    "type": "山",
+    "location_text": "在临潼县",
+    "description": "水经冷水出胏浮山，盖骊山之麓而异名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-006",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "金斧山",
+    "type": "山",
+    "location_text": "在骊山东南",
+    "description": "石罅中有斧，以杖抵之则动",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-007",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "庆山",
+    "type": "山",
+    "location_text": "在临潼县东南三十五里",
+    "description": "唐武后时因风雷涌出，初高六尺余渐至二百余尺",
+    "lore": "俞文俊上书以为非庆"
+   },
+   {
+    "mtn_id": "MTN-008",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c10",
+    "name": "石楼山",
+    "type": "山",
+    "location_text": "在盩厔县东三十七里",
+    "description": "旁有炼丹峰，东南有五福山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-009",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c08",
+    "name": "牛首山",
+    "type": "山",
+    "location_text": "在鄠县南二十三里",
+    "description": "",
+    "lore": "汉班固西都赋绕黄山而款牛首"
+   },
+   {
+    "mtn_id": "MTN-010",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c08",
+    "name": "鸡头山",
+    "type": "山",
+    "location_text": "在鄠县东南三十里",
+    "description": "",
+    "lore": "秦苻生尝走此山遇害"
+   },
+   {
+    "mtn_id": "MTN-011",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "金山",
+    "type": "山",
+    "location_text": "在蓝田县南一十里",
+    "description": "上有金山神庙",
+    "lore": "以祀风后"
+   },
+   {
+    "mtn_id": "MTN-012",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "七盘山",
+    "type": "山",
+    "location_text": "在蓝田县南二十里",
+    "description": "",
+    "lore": "唐贞元初刺史李西华自蓝田至内乡开新道七百余里，人不病涉"
+   },
+   {
+    "mtn_id": "MTN-013",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "峣山",
+    "type": "山",
+    "location_text": "在蓝田县南二十里",
+    "description": "秦之峣关以此山为名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-014",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "蒉山",
+    "type": "山",
+    "location_text": "在蓝田县东南二十五里",
+    "description": "",
+    "lore": "汉高帝引兵轀蒉山击秦军即此"
+   },
+   {
+    "mtn_id": "MTN-015",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "蓝田山",
+    "type": "山",
+    "location_text": "在蓝田县东南三十里",
+    "description": "山出玉英因名，又名玉山、覆车山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-016",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "嵯峨山",
+    "type": "山",
+    "location_text": "在泾阳县北五十里",
+    "description": "一名嶻薛，又名慈峨，山巅云起辄雨",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-017",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "仲山",
+    "type": "山",
+    "location_text": "在泾阳县西北七十里",
+    "description": "俗传汉高祖兄仲所居，上有仲子庙",
+    "lore": "岁旱围此射猎则有风雨"
+   },
+   {
+    "mtn_id": "MTN-018",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "甘泉山",
+    "type": "山",
+    "location_text": "在泾阳县西北一百二十里",
+    "description": "亦名石鼓原，甘泉所出",
+    "lore": "汉甘泉宫在其上"
+   },
+   {
+    "mtn_id": "MTN-019",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c11",
+    "name": "尧门山",
+    "type": "山",
+    "location_text": "在三原县西北三十里",
+    "description": "其山两合如门",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-020",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c12",
+    "name": "玄象山",
+    "type": "山",
+    "location_text": "在渭南县东南三十七里",
+    "description": "亦名倒兽谷",
+    "lore": "秦时王嘉隐处"
+   },
+   {
+    "mtn_id": "MTN-021",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "高东山",
+    "type": "山",
+    "location_text": "在商州西南五里",
+    "description": "以其高于东山故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-022",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "熊耳山",
+    "type": "山",
+    "location_text": "在商州西五十里",
+    "description": "以形似名，伊水所出",
+    "lore": "山多谷漆及丹青树"
+   },
+   {
+    "mtn_id": "MTN-023",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "嶓岭山",
+    "type": "山",
+    "location_text": "在商州南六十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-024",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "良余山",
+    "type": "山",
+    "location_text": "在商州西南九十里",
+    "description": "乳水所出",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-025",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "商洛山",
+    "type": "山",
+    "location_text": "在商州东南九十里",
+    "description": "亦名楚山",
+    "lore": "即秦时四皓隐处"
+   },
+   {
+    "mtn_id": "MTN-026",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "讙举山",
+    "type": "山",
+    "location_text": "在商州西北一百二十里",
+    "description": "洛水发源于此",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-027",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "竹山",
+    "type": "山",
+    "location_text": "在商州东南二百里",
+    "description": "丹水所出",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-028",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c13",
+    "name": "车轮山",
+    "type": "山",
+    "location_text": "在镇安县南二十五里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-029",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c22",
+    "name": "太华山",
+    "type": "山",
+    "location_text": "在华阴县南一十里",
+    "description": "即西岳也，以西有少华故名太华，削成四方高五千仞",
+    "lore": "有芙蓉明星玉女三峰苍龙岭黑龙潭仙掌石等胜，道书以为总仙洞天，唐杜甫诗"
+   },
+   {
+    "mtn_id": "MTN-030",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s01",
+    "name": "少华山",
+    "type": "山",
+    "location_text": "在华州南",
+    "description": "东连大华山",
+    "lore": "山海经云其木多荆杞，宋时此山尝摧"
+   },
+   {
+    "mtn_id": "MTN-031",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "尧山",
+    "type": "山",
+    "location_text": "在蒲城县北二十里",
+    "description": "亦名浮山",
+    "lore": "相传尧洪水时诸山尽没独此山若浮"
+   },
+   {
+    "mtn_id": "MTN-032",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "丰山",
+    "type": "山",
+    "location_text": "在蒲城县西北三十里",
+    "description": "为县之名山，一名苏愚",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-033",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "金粟山",
+    "type": "山",
+    "location_text": "在蒲城县东北三十里",
+    "description": "山有碎石若金粟然",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-034",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "金帜山",
+    "type": "山",
+    "location_text": "在蒲城县西北三十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-035",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "白堂山",
+    "type": "山",
+    "location_text": "在蒲城县东北三十五里",
+    "description": "",
+    "lore": "旧图经秦白起立寨于此因名"
+   },
+   {
+    "mtn_id": "MTN-036",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "不群山",
+    "type": "山",
+    "location_text": "在白堂山南",
+    "description": "诸谷相接唯此独峙",
+    "lore": "又名孤山"
+   },
+   {
+    "mtn_id": "MTN-037",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "马冢山",
+    "type": "山",
+    "location_text": "在蒲城县西北五十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-038",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c14",
+    "name": "玄扈山",
+    "type": "山",
+    "location_text": "在洛南县西北一百里",
+    "description": "",
+    "lore": "世传黄帝时凤衔图至此山帝拜受之"
+   },
+   {
+    "mtn_id": "MTN-039",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s04",
+    "name": "土门山",
+    "type": "山",
+    "location_text": "在耀州城东南四里",
+    "description": "中断如门",
+    "lore": "唐杜甫诗北上惟土门"
+   },
+   {
+    "mtn_id": "MTN-040",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s04",
+    "name": "磬玉山",
+    "type": "山",
+    "location_text": "在耀州城东五里",
+    "description": "山出青石，唐天宝中取为磬",
+    "lore": "唐白居易诗华原磬与泗滨石"
+   },
+   {
+    "mtn_id": "MTN-041",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s04",
+    "name": "鉴山",
+    "type": "山",
+    "location_text": "在耀州城东一十里",
+    "description": "年丰则山中有光如鉴",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-042",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s04",
+    "name": "三石山",
+    "type": "山",
+    "location_text": "在耀州城北六十八里",
+    "description": "山脊有三石峰",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-043",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c25",
+    "name": "荆山",
+    "type": "山",
+    "location_text": "在富平县西南一十里",
+    "description": "",
+    "lore": "禹铸鼎于荆山，唐李商隐诗"
+   },
+   {
+    "mtn_id": "MTN-044",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c25",
+    "name": "频山",
+    "type": "山",
+    "location_text": "在富平县东北七十里",
+    "description": "秦厉公尝于山南立频阳县",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-045",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c25",
+    "name": "万斛山",
+    "type": "山",
+    "location_text": "在富平县东北九十里",
+    "description": "山有石形如斗斛者以万数",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-046",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c25",
+    "name": "中山",
+    "type": "山",
+    "location_text": "在富平县",
+    "description": "",
+    "lore": "汉武获宝鼎于汾阳荐之甘泉，鼎至中山氤氲有黄气"
+   },
+   {
+    "mtn_id": "MTN-047",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c24",
+    "name": "鳌背山",
+    "type": "山",
+    "location_text": "在同官县东二十五里",
+    "description": "冈峦状若鳌背",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-048",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c21",
+    "name": "大象山",
+    "type": "山",
+    "location_text": "在韩城县西三里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-049",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c21",
+    "name": "龙门山",
+    "type": "山",
+    "location_text": "在韩城县东北八十里",
+    "description": "",
+    "lore": "禹贡导河至龙门，三秦记鱼鼈莫上故有暴腮龙门之困"
+   },
+   {
+    "mtn_id": "MTN-050",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s05",
+    "name": "梁山",
+    "type": "山",
+    "location_text": "在乾州城西北五里",
+    "description": "",
+    "lore": "古公亶父逾梁山至岐下即此"
+   },
+   {
+    "mtn_id": "MTN-051",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c29",
+    "name": "烈山",
+    "type": "山",
+    "location_text": "在永寿县东三里",
+    "description": "上有烈山神祠",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-052",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c29",
+    "name": "明月山",
+    "type": "山",
+    "location_text": "在永寿县西南八十里",
+    "description": "夜望之如月明故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-053",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c29",
+    "name": "峗山",
+    "type": "山",
+    "location_text": "在永寿县西南九十里",
+    "description": "其山巍然故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-054",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c26",
+    "name": "武将山",
+    "type": "山",
+    "location_text": "在醴泉县西北一十八里",
+    "description": "一名冯山",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-055",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c26",
+    "name": "九嵕山",
+    "type": "山",
+    "location_text": "在醴泉县西北六十里",
+    "description": "高六百余尺",
+    "lore": "唐太宗昭陵在其上"
+   },
+   {
+    "mtn_id": "MTN-056",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c26",
+    "name": "承阳山",
+    "type": "山",
+    "location_text": "在醴泉县西北五十里",
+    "description": "左右有水合流入甘河",
+    "lore": "三辅黄图所谓浪水"
+   },
+   {
+    "mtn_id": "MTN-057",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c27",
+    "name": "太白山",
+    "type": "山",
+    "location_text": "在武功县南九十里",
+    "description": "山极高上恒积雪望之皓然",
+    "lore": "谚云武功太白去天三百，道书第十一洞天，上有太白神祠"
+   },
+   {
+    "mtn_id": "MTN-058",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c27",
+    "name": "武功山",
+    "type": "山",
+    "location_text": "在武功县南一百里",
+    "description": "北连太白山最为秀杰",
+    "lore": "县以此得名，杜甫诗"
+   },
+   {
+    "mtn_id": "MTN-059",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c27",
+    "name": "惇物山",
+    "type": "山",
+    "location_text": "在武功县东南二百里",
+    "description": "又名垂山",
+    "lore": "即禹贡所谓惇物"
+   },
+   {
+    "mtn_id": "MTN-060",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s06",
+    "name": "紫微山",
+    "type": "山",
+    "location_text": "在邠州城西南",
+    "description": "上有宋金屯兵寨",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-061",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s06",
+    "name": "寿山",
+    "type": "山",
+    "location_text": "在邠州境内",
+    "description": "顶平，旧有茂林修竹之胜",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-062",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c30",
+    "name": "石门山",
+    "type": "山",
+    "location_text": "在淳化县北六十里",
+    "description": "山有石如门",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-063",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c08",
+    "name": "紫阁峰",
+    "type": "峰",
+    "location_text": "在鄠县东南三十里",
+    "description": "",
+    "lore": "杜甫诗紫阁峰阴入渼陂"
+   },
+   {
+    "mtn_id": "MTN-064",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c22",
+    "name": "落雁峰",
+    "type": "峰",
+    "location_text": "在华山",
+    "description": "",
+    "lore": "唐李白登之曰此山最高呼吸想通帝座"
+   },
+   {
+    "mtn_id": "MTN-065",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c12",
+    "name": "钓鱼峰",
+    "type": "峰",
+    "location_text": "在渭南县东南一十七里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-066",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c10",
+    "name": "沉岭",
+    "type": "岭",
+    "location_text": "在盩厔县南五十里",
+    "description": "",
+    "lore": "蜀汉姜维率众出骆谷经此，亦名姜维岭"
+   },
+   {
+    "mtn_id": "MTN-067",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "横岭",
+    "type": "岭",
+    "location_text": "在蓝田县北三十五里",
+    "description": "自骊山东入蓝田界",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-068",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "秦岭",
+    "type": "岭",
+    "location_text": "在蓝田县界",
+    "description": "",
+    "lore": "唐韩愈云横秦岭家何在"
+   },
+   {
+    "mtn_id": "MTN-069",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c26",
+    "name": "温宿岭",
+    "type": "岭",
+    "location_text": "在醴泉县北",
+    "description": "汉时温宿国人居此田牧因名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-070",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c13",
+    "name": "圣灯崖",
+    "type": "崖",
+    "location_text": "在镇安县南一百五十里",
+    "description": "云盖寺侧",
+    "lore": "相传遇良夜辄见一灯出崖畔"
+   },
+   {
+    "mtn_id": "MTN-071",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "石鳖谷",
+    "type": "谷",
+    "location_text": "在府城南六十里",
+    "description": "谷口大石如鳖",
+    "lore": "咸宁长安两县以此分界"
+   },
+   {
+    "mtn_id": "MTN-072",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "锡谷",
+    "type": "谷",
+    "location_text": "在府城东南六十里",
+    "description": "有路至归安镇合义谷路通汉中府",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-073",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "子午谷",
+    "type": "谷",
+    "location_text": "在府城南一百里",
+    "description": "谷口路通南北故名",
+    "lore": "杜甫诗故人今居子午谷"
+   },
+   {
+    "mtn_id": "MTN-074",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "坑儒谷",
+    "type": "谷",
+    "location_text": "在临潼县西南五里",
+    "description": "",
+    "lore": "秦坑诸生处，后人号愍儒乡，唐立旌儒庙"
+   },
+   {
+    "mtn_id": "MTN-075",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c08",
+    "name": "高观谷",
+    "type": "谷",
+    "location_text": "在鄠县东南三十里",
+    "description": "",
+    "lore": "宋程颢诗"
+   },
+   {
+    "mtn_id": "MTN-076",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c10",
+    "name": "芒谷",
+    "type": "谷",
+    "location_text": "在盩厔县东南",
+    "description": "芒水所出，谷中有汉马融读书石室",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-077",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c19",
+    "name": "云门谷",
+    "type": "谷",
+    "location_text": "在澄城县西北七十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-078",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c22",
+    "name": "车箱谷",
+    "type": "谷",
+    "location_text": "在华阴县西南二十五里",
+    "description": "深不可测",
+    "lore": "祷雨者投以石，有鸟飞出即雨"
+   },
+   {
+    "mtn_id": "MTN-079",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "湘子洞",
+    "type": "洞",
+    "location_text": "在蓝田县南四十五里",
+    "description": "",
+    "lore": "相传唐韩湘尝隐于此"
+   },
+   {
+    "mtn_id": "MTN-080",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c22",
+    "name": "水帘洞",
+    "type": "洞",
+    "location_text": "在华山上",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-081",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "乐游原",
+    "type": "原",
+    "location_text": "在府城南八里",
+    "description": "汉宣帝起乐游庙在曲江北",
+    "lore": "亦曰乐游苑，唐张说诗"
+   },
+   {
+    "mtn_id": "MTN-082",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "少陵原",
+    "type": "原",
+    "location_text": "在府城西南四十里",
+    "description": "汉时名鸿固原",
+    "lore": "近有凤栖神禾二原"
+   },
+   {
+    "mtn_id": "MTN-083",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "细柳原",
+    "type": "原",
+    "location_text": "在昆明池南",
+    "description": "",
+    "lore": "即汉周亚夫屯兵处"
+   },
+   {
+    "mtn_id": "MTN-084",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c03",
+    "name": "毕原",
+    "type": "原",
+    "location_text": "在咸阳县北",
+    "description": "",
+    "lore": "周文武成康葬于此原"
+   },
+   {
+    "mtn_id": "MTN-085",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c04",
+    "name": "始平原",
+    "type": "原",
+    "location_text": "在兴平县治北",
+    "description": "亦名北芒",
+    "lore": "汉富人袁广汉于此筑园"
+   },
+   {
+    "mtn_id": "MTN-086",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "凤凰原",
+    "type": "原",
+    "location_text": "在临潼县东北一十里",
+    "description": "",
+    "lore": "后汉延光初凤集新丰即此"
+   },
+   {
+    "mtn_id": "MTN-087",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "石安原",
+    "type": "原",
+    "location_text": "在泾阳县西南七里",
+    "description": "",
+    "lore": "苻坚登此叹美哉斯原"
+   },
+   {
+    "mtn_id": "MTN-088",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c07",
+    "name": "鹿苑原",
+    "type": "原",
+    "location_text": "在高陵县西南三十里",
+    "description": "",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-089",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "白鹿原",
+    "type": "原",
+    "location_text": "在蓝田县西五里",
+    "description": "",
+    "lore": "周平王时有白鹿游此"
+   },
+   {
+    "mtn_id": "MTN-090",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "凉风原",
+    "type": "原",
+    "location_text": "在蓝田县西南四十五里",
+    "description": "一作风凉",
+    "lore": "遁甲开山图亦雍州福地"
+   },
+   {
+    "mtn_id": "MTN-091",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s03",
+    "name": "商原",
+    "type": "原",
+    "location_text": "在同州城北三十五里",
+    "description": "",
+    "lore": "水经洛水南经商原"
+   },
+   {
+    "mtn_id": "MTN-092",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s03",
+    "name": "许原",
+    "type": "原",
+    "location_text": "在同州城北五十里",
+    "description": "沮水之浒",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-093",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c21",
+    "name": "韩原",
+    "type": "原",
+    "location_text": "在韩城县",
+    "description": "",
+    "lore": "即春秋秦获晋侯以归处"
+   },
+   {
+    "mtn_id": "MTN-094",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c21",
+    "name": "高门原",
+    "type": "原",
+    "location_text": "在韩城县",
+    "description": "原南有层峦秀出云表",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-095",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c23",
+    "name": "蟠龙原",
+    "type": "原",
+    "location_text": "在蒲城县西三十里",
+    "description": "",
+    "lore": "唐明皇游此见云雾中黄龙状因名"
+   },
+   {
+    "mtn_id": "MTN-096",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c27",
+    "name": "三畤原",
+    "type": "原",
+    "location_text": "在武功县西南二十里",
+    "description": "",
+    "lore": "隋文帝泰陵在其上"
+   },
+   {
+    "mtn_id": "MTN-097",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c27",
+    "name": "五丈原",
+    "type": "原",
+    "location_text": "在武功县西南七十里",
+    "description": "",
+    "lore": "即汉诸葛亮屯兵处"
+   },
+   {
+    "mtn_id": "MTN-098",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "长乐坡",
+    "type": "坡",
+    "location_text": "在府城东北一十里",
+    "description": "浐水西岸",
+    "lore": "汉长乐宫在其西北"
+   },
+   {
+    "mtn_id": "MTN-099",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c04",
+    "name": "马嵬坡",
+    "type": "坡",
+    "location_text": "在兴平县西二十五里",
+    "description": "唐杨妃葬处，坡有马嵬泉",
+    "lore": "本朝洪武中其旁涌出一泉"
+   },
+   {
+    "mtn_id": "MTN-100",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "鸿门坂",
+    "type": "坂",
+    "location_text": "在临潼县东一十七里",
+    "description": "",
+    "lore": "即汉高祖会项羽处"
+   },
+   {
+    "mtn_id": "MTN-101",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "长平坂",
+    "type": "坂",
+    "location_text": "在泾阳县西南五十里",
+    "description": "汉武帝上甘泉经此",
+    "lore": "东方朔所谓秦故狱处"
+   },
+   {
+    "mtn_id": "MTN-102",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "黄河",
+    "type": "河",
+    "location_text": "自龙门而下历韩城郃阳至朝邑县界",
+    "description": "稍折而东入蒲州境",
+    "lore": "唐柳宗元晋问谓冲奔太华运肘东指"
+   },
+   {
+    "mtn_id": "MTN-103",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "渭河",
+    "type": "河",
+    "location_text": "在府城北五十里",
+    "description": "出临洮府渭源县鸟鼠山，东经盩厔兴平咸阳渭南至华阴入黄河",
+    "lore": "淮南子曰渭水多力宜黍"
+   },
+   {
+    "mtn_id": "MTN-104",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "泾河",
+    "type": "河",
+    "location_text": "发源平凉府界岍头山",
+    "description": "经邠州醴泉泾阳至高陵入渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-105",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c14",
+    "name": "洛河",
+    "type": "河",
+    "location_text": "在洛南县北五里",
+    "description": "发源嶓岭山东流入河南卢氏县界",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-106",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "沣水",
+    "type": "河",
+    "location_text": "出终南山合太平高观谷水",
+    "description": "东至咸阳县入于渭",
+    "lore": "诗曰丰水东注维禹之绩"
+   },
+   {
+    "mtn_id": "MTN-107",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "潏水",
+    "type": "河",
+    "location_text": "在府城南一十里",
+    "description": "一名沉水，发源南山石壁谷北流注于渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-108",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "浐水",
+    "type": "河",
+    "location_text": "在府城东一十五里",
+    "description": "源出蓝田县合金谷水北流入霸水",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-109",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "霸水",
+    "type": "河",
+    "location_text": "在府城东二十里",
+    "description": "本名滋水，秦穆公更名以章霸功，源出秦岭入浐水北注于渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-110",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "滮水",
+    "type": "河",
+    "location_text": "在府城西北二十里",
+    "description": "发源咸阳县之滮池西北合镐水",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-111",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "交水",
+    "type": "河",
+    "location_text": "在府城南三十里",
+    "description": "一名福水，上承樊川，一注沣河一入昆明池",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-112",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "戏水",
+    "type": "河",
+    "location_text": "在临潼县东三十里",
+    "description": "出骊山鸿谷东北流经戏亭入渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-113",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "冷水",
+    "type": "河",
+    "location_text": "出临潼县胏浮山",
+    "description": "历阴盘新丰二原间北注于渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-114",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c08",
+    "name": "涝水",
+    "type": "河",
+    "location_text": "出鄠县南山涝谷",
+    "description": "合渼陂水流至长安县界入潏水",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-115",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s02",
+    "name": "丹水",
+    "type": "河",
+    "location_text": "出商州竹山",
+    "description": "东流入河南界",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-116",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c18",
+    "name": "郃水",
+    "type": "河",
+    "location_text": "在郃阳县",
+    "description": "来自西北经县北东入黄河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-117",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c20",
+    "name": "白水",
+    "type": "河",
+    "location_text": "在白水县西三里",
+    "description": "县以此名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-118",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s01",
+    "name": "敷水",
+    "type": "河",
+    "location_text": "在华州城东南一十五里",
+    "description": "源出小敷谷流经华阴入渭",
+    "lore": "唐开元中姜师度凿敷水渠"
+   },
+   {
+    "mtn_id": "MTN-119",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c12",
+    "name": "赤水",
+    "type": "河",
+    "location_text": "在渭南县东二十里",
+    "description": "以水色名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-120",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c12",
+    "name": "湭水",
+    "type": "河",
+    "location_text": "在渭南县西",
+    "description": "源出石楼山北注于渭",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-121",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "樊川",
+    "type": "川",
+    "location_text": "在府城南二十里",
+    "description": "",
+    "lore": "汉赐樊哙食邑于此"
+   },
+   {
+    "mtn_id": "MTN-122",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "御宿川",
+    "type": "川",
+    "location_text": "在府城西南四十里",
+    "description": "一名华严川",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-123",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c21",
+    "name": "芝川",
+    "type": "川",
+    "location_text": "在韩城县南二十三里",
+    "description": "东流入黄河",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-124",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c06",
+    "name": "白公渠",
+    "type": "渠",
+    "location_text": "在泾阳县西北",
+    "description": "汉白公引泾水溉田，有大白中白南白三渠",
+    "lore": "民歌曰泾水一石其泥数斗且溉且粪长我禾黍"
+   },
+   {
+    "mtn_id": "MTN-125",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c25",
+    "name": "郑国渠",
+    "type": "渠",
+    "location_text": "在富平县南二十里",
+    "description": "即韩水工郑国说秦所穿渠，汉儿宽开六辅渠",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-126",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "龙首渠",
+    "type": "渠",
+    "location_text": "引浐水入府城",
+    "description": "隋初穿渠因得龙首故名",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-127",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c05",
+    "name": "温泉",
+    "type": "泉",
+    "location_text": "在骊山麓",
+    "description": "秦始皇于此砌石起宇，汉武加修饰",
+    "lore": "唐建温泉宫"
+   },
+   {
+    "mtn_id": "MTN-128",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-s03",
+    "name": "九龙泉",
+    "type": "泉",
+    "location_text": "在同州城东南一十五里",
+    "description": "泉有九穴汇于一池，俗又名鹅鸭池",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-129",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c17",
+    "name": "苦泉",
+    "type": "泉",
+    "location_text": "在朝邑县西北四十五里",
+    "description": "其水咸苦，羊饮之肥美",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-130",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c26",
+    "name": "醴泉",
+    "type": "泉",
+    "location_text": "在醴泉县东南三十里",
+    "description": "唐贞观中泉涌出味如醴，县名因此",
+    "lore": "魏徵有铭欧阳询书"
+   },
+   {
+    "mtn_id": "MTN-131",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c29",
+    "name": "吕公泉",
+    "type": "泉",
+    "location_text": "在永寿县",
+    "description": "宋知县吕大防引泉入城",
+    "lore": "民赖之号吕公泉"
+   },
+   {
+    "mtn_id": "MTN-132",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c30",
+    "name": "金泉",
+    "type": "泉",
+    "location_text": "在淳化县东南三十里",
+    "description": "",
+    "lore": "世传目昏者洗之可明"
+   },
+   {
+    "mtn_id": "MTN-133",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "曲江池",
+    "type": "湖",
+    "location_text": "在府城东南一十里",
+    "description": "汉武帝所凿，其水曲折似嘉陵江",
+    "lore": "唐开元中疏凿为胜境，都人游赏盛于中和节"
+   },
+   {
+    "mtn_id": "MTN-134",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "昆明池",
+    "type": "湖",
+    "location_text": "在汉上林苑",
+    "description": "武帝欲伐昆明穿此池习水战",
+    "lore": "中有豫章台石鲸鱼，旁有石人象牵牛织女，杜甫诗"
+   },
+   {
+    "mtn_id": "MTN-135",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001",
+    "name": "太液池",
+    "type": "湖",
+    "location_text": "在汉建章宫北",
+    "description": "以象海刻石为鲸鱼",
+    "lore": "池边多雕菰紫萚，凫雁充满"
+   },
+   {
+    "mtn_id": "MTN-136",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c08",
+    "name": "渼陂",
+    "type": "湖",
+    "location_text": "在鄠县西",
+    "description": "陂鱼甚美",
+    "lore": "唐宝历初禁采捕，任百姓溉田"
+   },
+   {
+    "mtn_id": "MTN-137",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c12",
+    "name": "金氏陂",
+    "type": "湖",
+    "location_text": "在渭南县废下邽城东南二十里",
+    "description": "汉昭帝以金日磾有功赐此陂",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-138",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c17",
+    "name": "通灵陂",
+    "type": "湖",
+    "location_text": "在朝邑县北四里",
+    "description": "唐开元中姜师度引洛堰河溉田百余顷",
+    "lore": ""
+   },
+   {
+    "mtn_id": "MTN-139",
+    "item_id": "32-001",
+    "geo_id": "GEO-32001-c09",
+    "name": "蓝田汤泉",
+    "type": "泉",
+    "location_text": "在蓝田县西南四十里",
+    "description": "唐时尝大雪此地即融",
+    "lore": "异僧云必温泉也掘之果然"
+   }
+  ],
+  "pers": [],
+  "sites": [],
+  "prods": [
+   {
+    "prod_id": "PROD-001",
+    "item_id": "32-001",
+    "name": "金",
+    "category": "物产",
+    "location_text": "终南山出",
+    "note": "银铜铁俱终南山出"
+   },
+   {
+    "prod_id": "PROD-002",
+    "item_id": "32-001",
+    "name": "玉英",
+    "category": "物产",
+    "location_text": "蓝田县出",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-003",
+    "item_id": "32-001",
+    "name": "石青",
+    "category": "物产",
+    "location_text": "洛南县出有洞",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-004",
+    "item_id": "32-001",
+    "name": "麝香枳壳",
+    "category": "物产",
+    "location_text": "商州出",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-005",
+    "item_id": "32-001",
+    "name": "天南星",
+    "category": "物产",
+    "location_text": "镇安县出",
+    "note": ""
+   },
+   {
+    "prod_id": "PROD-006",
+    "item_id": "32-001",
+    "name": "漆",
+    "category": "物产",
+    "location_text": "华州南山出",
+    "note": "茯苓亦华州出"
+   },
+   {
+    "prod_id": "PROD-007",
+    "item_id": "32-001",
+    "name": "茧耳羊",
+    "category": "物产",
+    "location_text": "同州沙苑出",
+    "note": "其羊耳小味甚美"
+   },
+   {
+    "prod_id": "PROD-008",
+    "item_id": "32-001",
+    "name": "紫草",
+    "category": "物产",
+    "location_text": "郃阳县出",
+    "note": "矾澄城出"
+   }
+  ],
+  "cits": [
+   {
+    "cit_id": "CIT-001",
+    "item_id": "32-001",
+    "cited_work": "史记",
+    "cited_work_ent_id": "ENT-008",
+    "context": "立论",
+    "original": "【史记秦四塞之国被山带河】"
+   },
+   {
+    "cit_id": "CIT-002",
+    "item_id": "32-001",
+    "cited_work": "汉书",
+    "cited_work_ent_id": "ENT-009",
+    "context": "立论",
+    "original": "【汉书关中左殽函右陇蜀沃野千里此所谓金城千里天府之国也】"
+   },
+   {
+    "cit_id": "CIT-003",
+    "item_id": "32-001",
+    "cited_work": "贾谊过秦论",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【汉贾谊过秦论践华为城因河为池】"
+   },
+   {
+    "cit_id": "CIT-004",
+    "item_id": "32-001",
+    "cited_work": "东方朔语",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【汉东方朔云三辅之地此所谓陆海之地也】"
+   },
+   {
+    "cit_id": "CIT-005",
+    "item_id": "32-001",
+    "cited_work": "旧志",
+    "cited_work_ent_id": null,
+    "context": "立论",
+    "original": "【旧志关中奥区也】"
+   },
+   {
+    "cit_id": "CIT-006",
+    "item_id": "32-001",
+    "cited_work": "汉志",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【汉志其民有先王遗风好稼穑务本业】"
+   },
+   {
+    "cit_id": "CIT-007",
+    "item_id": "32-001",
+    "cited_work": "诗传",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【诗传秦人之俗大抵尚气概先勇力】"
+   },
+   {
+    "cit_id": "CIT-008",
+    "item_id": "32-001",
+    "cited_work": "方舆胜览",
+    "cited_work_ent_id": null,
+    "context": "证俗",
+    "original": "【方舆胜览华州衣冠文物俨有古风】"
+   }
+  ]
+ },
+ "layer_count": 7,
+ "validation": {
+  "errs": [],
+  "gap": 0,
+  "notes": "pers拆至pers1名宦/pers2人物/pers3流寓列女仙释；sites拆至sites文件；县志/属州/卫所各自单文件"
+ }
+}

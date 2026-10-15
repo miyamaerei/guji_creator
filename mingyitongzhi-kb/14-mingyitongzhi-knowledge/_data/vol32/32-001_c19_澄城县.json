@@ -1,0 +1,44 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "澄城县",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c19",
+    "name": "澄城县",
+    "type": "geo",
+    "norm": "澄城县",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-c19",
+    "item_id": "32-001",
+    "name": "澄城县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-32001-s03",
+    "children": [],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在州城北一百二十里",
+     "households": {
+      "count": 40,
+      "unit": "里",
+      "note": "编户四十里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

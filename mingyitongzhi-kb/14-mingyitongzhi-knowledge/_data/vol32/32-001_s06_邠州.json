@@ -1,0 +1,47 @@
+{
+ "item_id": "32-001",
+ "volume": "32",
+ "source": "邠州",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-s06",
+    "name": "邠州",
+    "type": "geo",
+    "norm": "邠州",
+    "first_source": "32-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-32001-s06",
+    "item_id": "32-001",
+    "name": "邠州",
+    "type": "subprefecture",
+    "region": "陕西",
+    "parent": "GEO-32001",
+    "children": [
+     "GEO-32001-c30",
+     "GEO-32001-c31"
+    ],
+    "volume_range": "卷32-33",
+    "attributes": {
+     "location_text": "在府城西北三百五十里",
+     "households": {
+      "count": 27,
+      "unit": "里",
+      "note": "编户二十七里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}

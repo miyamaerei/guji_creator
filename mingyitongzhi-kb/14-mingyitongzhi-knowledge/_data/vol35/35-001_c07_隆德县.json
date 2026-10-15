@@ -1,0 +1,44 @@
+{
+ "item_id": "35-001",
+ "volume": "35",
+ "source": "隆德县",
+ "region": "陕西",
+ "layers": {
+  "ents": [
+   {
+    "ent_id": "ENT-c07",
+    "name": "隆德县",
+    "type": "geo",
+    "norm": "隆德县",
+    "first_source": "35-001"
+   }
+  ],
+  "geos": [
+   {
+    "geo_id": "GEO-35001-c07",
+    "item_id": "35-001",
+    "name": "隆德县",
+    "type": "county",
+    "region": "陕西",
+    "parent": "GEO-35001-s03",
+    "children": [],
+    "volume_range": "卷35",
+    "attributes": {
+     "location_text": "在州城东九十里",
+     "households": {
+      "count": 5,
+      "unit": "里",
+      "note": "编户5里"
+     }
+    }
+   }
+  ],
+  "evos": [],
+  "mtns": [],
+  "pers": [],
+  "sites": [],
+  "prods": [],
+  "cits": []
+ },
+ "layer_count": 7
+}
