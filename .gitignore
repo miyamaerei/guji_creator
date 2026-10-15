@@ -1,6 +1,5 @@
 # ---------- 联邦库（可重建派生库，不入仓）----------
-tools/kb-federation/kb.sqlite
-tools/kb-federation/kb_dw.sqlite
+tools/kb-federation/*.sqlite
 tools/kb-federation/*.sqlite.bak_*
 
 # ============================================================
@@ -110,3 +109,11 @@ _shots/
 # 此处显式取反，保证交付包开箱即用（数据源仍是各项目 _layers/，不入库）。
 !/minghuidian/_deliver/
 !/minghuidian/_deliver/**
+
+# ---------- 万历野获编：派生视图库（build_views.py 全量重建，不入仓）----------
+# build_views.py 第 24 行 VIEWS=views/、第 92-93 行 shutil.rmtree 后全量重写；
+# 输入仅 _layers/ + _global/ + _item_registry.json，属纯派生产物。
+wanliyehuopian-kb/*/views/
+
+# ---------- 明一统志：旧分层快照备份（已被 _layers/ 取代，不入仓）----------
+mingyitongzhi-kb/*/_layers_old/

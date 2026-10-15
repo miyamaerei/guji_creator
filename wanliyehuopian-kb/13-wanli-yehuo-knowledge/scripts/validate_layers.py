@@ -99,17 +99,20 @@ def check_item_refs(data, layer, vol, registry_ids):
     if missing:
         unique_missing = set(missing)
         warnings.append(f"[REF] {layer}_{vol}: {len(unique_missing)} item_ids not in registry: {sorted(unique_missing)[:3]}...")
+    return {r.get("item_id", r.get("source", "")) for r in records if r.get("item_id", r.get("source", ""))}
 
 def main():
     print("=" * 60)
     print("《万历野获编》Layer 文件校验")
     print("=" * 60)
 
-    registry_ids = load_registry()
+    registry = load_registry()
+    registry_ids = registry
     print(f"Registry: {len(registry_ids)} items loaded\n")
 
     total_records = 0
     vol_stats = {}
+    covered = set()
 
     for layer in LAYER_TYPES:
         layer_dir = LAYERS / layer
@@ -128,7 +131,7 @@ def main():
 
             count = check_empty(data, layer, vol)
             ids = check_ids(data, layer, vol) if count > 0 else []
-            check_item_refs(data, layer, vol, registry_ids)
+            covered |= check_item_refs(data, layer, vol, registry_ids)
 
             total_records += count
             vol_stats.setdefault(vol, {})
@@ -151,6 +154,20 @@ def main():
         status = "FULL" if filled == 10 else f"PARTIAL({filled}/10)"
         empty_str = f" empty: {empty_layers}" if empty_layers else ""
         print(f"  Vol {vol}: {total:5d} records, {filled}/10 layers  [{status}]{empty_str}")
+
+    print(f"\n--- Per-item coverage gate (GAP=0 required) ---")
+    gaps = sorted(registry_ids - covered)
+    by_vol = {}
+    for iid in gaps:
+        by_vol.setdefault(iid[:2], []).append(iid)
+    cov_rate = (len(registry_ids) - len(gaps)) / max(len(registry_ids), 1) * 100
+    print(f"  items covered: {len(registry_ids) - len(gaps)}/{len(registry_ids)} ({cov_rate:.1f}%)")
+    if gaps:
+        for v in sorted(by_vol):
+            print(f"    GAP vol {v}: {len(by_vol[v])} 条未覆盖 (如 {by_vol[v][:3]})")
+        errors.append(f"[GAP] {len(gaps)} registry items not referenced by any layer record")
+    else:
+        print("  GAP=0: 全部条目均被层记录引用")
 
     if errors:
         print(f"\n!!! ERRORS ({len(errors)}) !!!")
