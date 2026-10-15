@@ -6,63 +6,485 @@
   "volume_range": "卷23",
   "original": "东阿县【在州西北七十里春秋时齐柯邑汉置东阿县属东郡晋属济北国隋属济北郡唐初属济阳郡后属郓州宋徙治新桥镇属东平府金元仍旧本朝洪武八年还旧治编户二十四里】",
   "layers": {
-    "ents": [{"ent_id": "ENT-001", "name": "东阿县", "type": "geo", "norm": "东阿县", "first_source": "23-001"},
-      {"ent_id": "ENT-002", "name": "程昱", "type": "person", "norm": "程昱", "first_source": "23-001"}],
-    "geos": [{"geo_id": "GEO-23001-c18", "item_id": "23-001", "name": "东阿县", "type": "county", "region": "山东", "parent": "GEO-23001-s03", "children": [], "volume_range": "卷23",
-      "attributes": {"location_text": "在东平州西北七十里", "households": {"count": 24, "unit": "里", "note": "编户二十四里"}}}],
+    "ents": [
+      {
+        "ent_id": "ENT-001",
+        "name": "东阿县",
+        "type": "geo",
+        "norm": "东阿县",
+        "first_source": "23-001"
+      },
+      {
+        "ent_id": "ENT-002",
+        "name": "程昱",
+        "type": "person",
+        "norm": "程昱",
+        "first_source": "23-001"
+      }
+    ],
+    "geos": [
+      {
+        "geo_id": "GEO-23001-c18",
+        "item_id": "23-001",
+        "name": "东阿县",
+        "type": "county",
+        "region": "山东",
+        "parent": "GEO-23001-s03",
+        "children": [],
+        "volume_range": "卷23",
+        "attributes": {
+          "location_text": "在东平州西北七十里",
+          "households": {
+            "count": 24,
+            "unit": "里",
+            "note": "编户二十四里"
+          }
+        }
+      }
+    ],
     "evos": [
-      {"evo_id": "EVO-001", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "周", "era": "春秋", "institution_name": "齐柯邑", "action": "因之", "detail": "春秋时齐柯邑"},
-      {"evo_id": "EVO-002", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "汉", "era": null, "institution_name": "东阿县", "action": "置", "detail": "汉置东阿县，属东郡"},
-      {"evo_id": "EVO-003", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "晋", "era": null, "institution_name": "济北国", "action": "因之", "detail": "晋属济北国"},
-      {"evo_id": "EVO-004", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "隋", "era": null, "institution_name": "济北郡", "action": "因之", "detail": "隋属济北郡"},
-      {"evo_id": "EVO-005", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "唐", "era": null, "institution_name": "郓州", "action": "改", "detail": "唐初属济阳郡，后属郓州"},
-      {"evo_id": "EVO-006", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "宋", "era": null, "institution_name": "新桥镇", "action": "迁", "detail": "宋徙治新桥镇，属东平府"},
-      {"evo_id": "EVO-007", "item_id": "23-001", "geo_id": "GEO-23001-c18", "dynasty": "明", "era": "洪武", "institution_name": "东阿县", "action": "复", "detail": "金元仍旧，本朝洪武八年还旧治"}
+      {
+        "evo_id": "EVO-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "周",
+        "era": "春秋",
+        "institution_name": "齐柯邑",
+        "action": "因之",
+        "detail": "春秋时齐柯邑"
+      },
+      {
+        "evo_id": "EVO-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "汉",
+        "era": null,
+        "institution_name": "东阿县",
+        "action": "置",
+        "detail": "汉置东阿县，属东郡"
+      },
+      {
+        "evo_id": "EVO-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "晋",
+        "era": null,
+        "institution_name": "济北国",
+        "action": "因之",
+        "detail": "晋属济北国"
+      },
+      {
+        "evo_id": "EVO-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "隋",
+        "era": null,
+        "institution_name": "济北郡",
+        "action": "因之",
+        "detail": "隋属济北郡"
+      },
+      {
+        "evo_id": "EVO-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "唐",
+        "era": null,
+        "institution_name": "郓州",
+        "action": "改",
+        "detail": "唐初属济阳郡，后属郓州"
+      },
+      {
+        "evo_id": "EVO-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "宋",
+        "era": null,
+        "institution_name": "新桥镇",
+        "action": "迁",
+        "detail": "宋徙治新桥镇，属东平府"
+      },
+      {
+        "evo_id": "EVO-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "dynasty": "明",
+        "era": "洪武",
+        "institution_name": "东阿县",
+        "action": "复",
+        "detail": "金元仍旧，本朝洪武八年还旧治"
+      }
     ],
     "mtns": [
-      {"mtn_id": "MTN-001", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "谷城山", "type": "山", "location_text": "在东阿县东北五里", "description": "一名黄山，即汉张良得黄石之所", "lore": "", "original": "谷城山【在东阿县东北五里一名黄山即汉张良得黄石之所】"},
-      {"mtn_id": "MTN-002", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "碻磝山", "type": "山", "location_text": "在东阿县南七里", "description": "刘宋檀道济与后魏交兵于此，今城南三土堆即道济唱筹量沙之所", "lore": "", "original": "碻磝山【在东阿县南七里刘宋檀道济与后魏交兵于此今城南三土堆即道济唱筹量沙之所】"},
-      {"mtn_id": "MTN-003", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "鱼山", "type": "山", "location_text": "在东阿县西八里", "description": "一名吾山，汉武帝瓠子河诗：功无已时兮吾山平", "lore": "", "original": "鱼山【在东阿县西八里一名吾山汉武帝瓠子河诗功无已时兮吾山平注云吾山即鱼山也】"},
-      {"mtn_id": "MTN-004", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "山", "type": "山", "location_text": "在东阿县东南三十里", "description": "其山高大，为群山之冠", "lore": "", "original": "山【在东阿县东南三十里其山髙大为羣山之冠】"},
-      {"mtn_id": "MTN-005", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "云翠山", "type": "山", "location_text": "在东阿县南四十里", "description": "", "lore": "", "original": "云翠山【在东阿县南四十里】"},
-      {"mtn_id": "MTN-006", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "鹅山", "type": "山", "location_text": "在东阿县西南一十二里", "description": "以形似名", "lore": "", "original": "鹅山【在东阿县西南一十二里以形似名】"},
-      {"mtn_id": "MTN-007", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "狼溪水", "type": "河", "location_text": "源发东阿县东南二十八里狼山下", "description": "西北流经县城内，又北流入汶水", "lore": "", "original": "狼溪水【源发东阿县东南二十八里狼山下西北流经县城内又北流入汶水】"},
-      {"mtn_id": "MTN-008", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "白雁泉", "type": "泉", "location_text": "在东阿县东南三十五里", "description": "相传汉王伐楚经此，士卒渴甚，忽见白雁惊起，遂得清泉", "lore": "", "original": "白雁泉【在东阿县东南三十五里相传汉王伐楚经此士卒渇甚忽见白雁惊起遂得清泉故名】"}
+      {
+        "mtn_id": "MTN-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "谷城山",
+        "type": "山",
+        "location_text": "在东阿县东北五里",
+        "description": "一名黄山，即汉张良得黄石之所",
+        "lore": "",
+        "original": "谷城山【在东阿县东北五里一名黄山即汉张良得黄石之所】"
+      },
+      {
+        "mtn_id": "MTN-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "碻磝山",
+        "type": "山",
+        "location_text": "在东阿县南七里",
+        "description": "刘宋檀道济与后魏交兵于此，今城南三土堆即道济唱筹量沙之所",
+        "lore": "",
+        "original": "碻磝山【在东阿县南七里刘宋檀道济与后魏交兵于此今城南三土堆即道济唱筹量沙之所】"
+      },
+      {
+        "mtn_id": "MTN-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "鱼山",
+        "type": "山",
+        "location_text": "在东阿县西八里",
+        "description": "一名吾山，汉武帝瓠子河诗：功无已时兮吾山平",
+        "lore": "",
+        "original": "鱼山【在东阿县西八里一名吾山汉武帝瓠子河诗功无已时兮吾山平注云吾山即鱼山也】"
+      },
+      {
+        "mtn_id": "MTN-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "山",
+        "type": "山",
+        "location_text": "在东阿县东南三十里",
+        "description": "其山高大，为群山之冠",
+        "lore": "",
+        "original": "山【在东阿县东南三十里其山髙大为羣山之冠】"
+      },
+      {
+        "mtn_id": "MTN-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "云翠山",
+        "type": "山",
+        "location_text": "在东阿县南四十里",
+        "description": "",
+        "lore": "",
+        "original": "云翠山【在东阿县南四十里】"
+      },
+      {
+        "mtn_id": "MTN-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "鹅山",
+        "type": "山",
+        "location_text": "在东阿县西南一十二里",
+        "description": "以形似名",
+        "lore": "",
+        "original": "鹅山【在东阿县西南一十二里以形似名】"
+      },
+      {
+        "mtn_id": "MTN-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "狼溪水",
+        "type": "河",
+        "location_text": "源发东阿县东南二十八里狼山下",
+        "description": "西北流经县城内，又北流入汶水",
+        "lore": "",
+        "original": "狼溪水【源发东阿县东南二十八里狼山下西北流经县城内又北流入汶水】"
+      },
+      {
+        "mtn_id": "MTN-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "白雁泉",
+        "type": "泉",
+        "location_text": "在东阿县东南三十五里",
+        "description": "相传汉王伐楚经此，士卒渴甚，忽见白雁惊起，遂得清泉",
+        "lore": "",
+        "original": "白雁泉【在东阿县东南三十五里相传汉王伐楚经此士卒渇甚忽见白雁惊起遂得清泉故名】"
+      }
     ],
     "pers": [
-      {"per_id": "PER-001", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "程昱", "type": "人物", "dynasty": "三国", "native_place": "东阿", "office": "东中郎将、安乡侯", "summary": "汉末保东阿归曹操，累迁都督兖州事，尝劝操因兖州三城以图伯业", "original": "程昱【东阿人汉末保东阿归曹操累迁都督兖州事卒谥肃侯尝劝操因兖州三城以图伯业策袁绍必禽公孙瓒孙权必不杀刘备无不中者】"},
-      {"per_id": "PER-002", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "曹植（陈思王）", "type": "人物", "dynasty": "三国", "native_place": "谯", "office": "陈王", "summary": "魏陈思王，墓在东阿县西北一十三里", "original": "陈思王墓【在东阿县西北一十三里思王魏曹植】"},
-      {"per_id": "PER-003", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "于慎行", "type": "人物", "dynasty": "明", "native_place": "东阿", "office": "礼部尚书", "summary": "（注：明代东阿名臣，本卷未详载，存目）", "original": ""},
-      {"per_id": "PER-004", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "汤文", "type": "名宦", "dynasty": "明", "native_place": "", "office": "东阿知县", "summary": "洪武初勤于为政，宽以抚众，流离之民咸复其业", "original": "黄哲【洪武初东阿知县勤于为政寛以抚众流离之民咸复其业】"},
-      {"per_id": "PER-005", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "王季立", "type": "名宦", "dynasty": "明", "native_place": "", "office": "东阿知县", "summary": "洪武间秩将满，知府郑刚荐其历练老成，邑民奏其清廉直干", "original": "王季立【洪武间东阿知县秩将满知府郑刚荐其歴练老成政学兼备邑民奏其清亷直干守法奉公咸乞留之】"},
-      {"per_id": "PER-006", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "贝恒", "type": "名宦", "dynasty": "明", "native_place": "", "office": "知东阿县", "summary": "永乐中甚得民心，在县十余年，岁无不登，耆老百余人诣阙乞留", "original": "贝恒【永乐中知东阿县甚得民心在县十余年嵗无不登有荐其堪任风宪者耆老百余人诣阙乞留从之后卒于任乡人士女日会哭者数百人】"},
-      {"per_id": "PER-007", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "侯挚", "type": "人物", "dynasty": "金", "native_place": "东阿", "office": "平章政事、萧国公", "summary": "明昌初进士，宣宗时行省河北，上言开沁水以便馈运，终平章政事", "original": "侯挚【东阿人明昌初进士入官慷慨有为尝以尚书右丞行省河北上言宜开沁水以便馈运从之盗起诏挚行省事于东平终平章政事封萧国公致仕】"},
-      {"per_id": "PER-008", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "张万公", "type": "人物", "dynasty": "金", "native_place": "东阿", "office": "参知政事、寿国公", "summary": "正隆初进士，淳厚刚正，辅政八年，所引多廉让之士，卒谥文贞", "original": "张万公【东阿人正隆初进士飏歴中外累迁叅知政事封夀国公卒谥文贞万公淳厚刚正门无杂宾典章文物多所裁正辅政八年所引多亷让之士】"},
-      {"per_id": "PER-009", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "李谦", "type": "人物", "dynasty": "元", "native_place": "东阿", "office": "集贤大学士", "summary": "始就学日记数千言，为赋有声，学者称为野斋先生", "original": "李谦【郓州东阿人始就学日纪数千言为赋有声世祖时召为应奉翰林文字成宗时官至集贤大学士尝上疏以正心为首其文章醇厚有古风学者称为野斋先生】"},
-      {"per_id": "PER-010", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "师逵", "type": "人物", "dynasty": "明", "native_place": "东阿", "office": "户部尚书兼吏部事", "summary": "以国子生擢监察御史，升陕西按察使，历官兵吏二部侍郎，寻升户部尚书", "original": "师逵【东阿人以国子生擢监察御史陞陜西按察使歴兵吏二部侍郎寻陞户部尚书兼吏部事卒赐祭葬逵有徳量为时所重】"},
-      {"per_id": "PER-011", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "张本", "type": "人物", "dynasty": "明", "native_place": "东阿", "office": "兵部尚书兼掌都察院事", "summary": "以国子生授江都知县，召为工部侍郎，以事谪交阯，起为刑部侍郎，后升兵部尚书", "original": "张本【东阿人以国子生授江都知县陞扬州知府继陞江西叅政皆有治声召为工部侍郎以事谪交阯起为刑部侍郎治狱平恕后陞兵部尚书兼掌都察院事复兼太子宾客卒赐葬祭复其家】"}
+      {
+        "per_id": "PER-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "程昱",
+        "type": "人物",
+        "dynasty": "三国",
+        "native_place": "东阿",
+        "office": "东中郎将、安乡侯",
+        "summary": "汉末保东阿归曹操，累迁都督兖州事，尝劝操因兖州三城以图伯业",
+        "original": "程昱【东阿人汉末保东阿归曹操累迁都督兖州事卒谥肃侯尝劝操因兖州三城以图伯业策袁绍必禽公孙瓒孙权必不杀刘备无不中者】"
+      },
+      {
+        "per_id": "PER-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "曹植（陈思王）",
+        "type": "人物",
+        "dynasty": "三国",
+        "native_place": "谯",
+        "office": "陈王",
+        "summary": "魏陈思王，墓在东阿县西北一十三里",
+        "original": "陈思王墓【在东阿县西北一十三里思王魏曹植】"
+      },
+      {
+        "per_id": "PER-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "汤文",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "东阿知县",
+        "summary": "洪武初勤于为政，宽以抚众，流离之民咸复其业",
+        "original": "黄哲【洪武初东阿知县勤于为政寛以抚众流离之民咸复其业】"
+      },
+      {
+        "per_id": "PER-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "王季立",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "东阿知县",
+        "summary": "洪武间秩将满，知府郑刚荐其历练老成，邑民奏其清廉直干",
+        "original": "王季立【洪武间东阿知县秩将满知府郑刚荐其歴练老成政学兼备邑民奏其清亷直干守法奉公咸乞留之】"
+      },
+      {
+        "per_id": "PER-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "贝恒",
+        "type": "名宦",
+        "dynasty": "明",
+        "native_place": "",
+        "office": "知东阿县",
+        "summary": "永乐中甚得民心，在县十余年，岁无不登，耆老百余人诣阙乞留",
+        "original": "贝恒【永乐中知东阿县甚得民心在县十余年嵗无不登有荐其堪任风宪者耆老百余人诣阙乞留从之后卒于任乡人士女日会哭者数百人】"
+      },
+      {
+        "per_id": "PER-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "侯挚",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "东阿",
+        "office": "平章政事、萧国公",
+        "summary": "明昌初进士，宣宗时行省河北，上言开沁水以便馈运，终平章政事",
+        "original": "侯挚【东阿人明昌初进士入官慷慨有为尝以尚书右丞行省河北上言宜开沁水以便馈运从之盗起诏挚行省事于东平终平章政事封萧国公致仕】"
+      },
+      {
+        "per_id": "PER-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "张万公",
+        "type": "人物",
+        "dynasty": "金",
+        "native_place": "东阿",
+        "office": "参知政事、寿国公",
+        "summary": "正隆初进士，淳厚刚正，辅政八年，所引多廉让之士，卒谥文贞",
+        "original": "张万公【东阿人正隆初进士飏歴中外累迁叅知政事封夀国公卒谥文贞万公淳厚刚正门无杂宾典章文物多所裁正辅政八年所引多亷让之士】"
+      },
+      {
+        "per_id": "PER-009",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "李谦",
+        "type": "人物",
+        "dynasty": "元",
+        "native_place": "东阿",
+        "office": "集贤大学士",
+        "summary": "始就学日记数千言，为赋有声，学者称为野斋先生",
+        "original": "李谦【郓州东阿人始就学日纪数千言为赋有声世祖时召为应奉翰林文字成宗时官至集贤大学士尝上疏以正心为首其文章醇厚有古风学者称为野斋先生】"
+      },
+      {
+        "per_id": "PER-010",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "师逵",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "东阿",
+        "office": "户部尚书兼吏部事",
+        "summary": "以国子生擢监察御史，升陕西按察使，历官兵吏二部侍郎，寻升户部尚书",
+        "original": "师逵【东阿人以国子生擢监察御史陞陜西按察使歴兵吏二部侍郎寻陞户部尚书兼吏部事卒赐祭葬逵有徳量为时所重】"
+      },
+      {
+        "per_id": "PER-011",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "张本",
+        "type": "人物",
+        "dynasty": "明",
+        "native_place": "东阿",
+        "office": "兵部尚书兼掌都察院事",
+        "summary": "以国子生授江都知县，召为工部侍郎，以事谪交阯，起为刑部侍郎，后升兵部尚书",
+        "original": "张本【东阿人以国子生授江都知县陞扬州知府继陞江西叅政皆有治声召为工部侍郎以事谪交阯起为刑部侍郎治狱平恕后陞兵部尚书兼掌都察院事复兼太子宾客卒赐葬祭复其家】"
+      }
     ],
     "sites": [
-      {"site_id": "SITE-001", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "东阿县学", "type": "学校", "location_text": "在县治西", "history_lore": "洪武八年建", "original": "东阿县学【在县治西洪武八年建】"},
-      {"site_id": "SITE-002", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "野斋书院", "type": "书院", "location_text": "在东阿县境内", "history_lore": "即元翰林承旨李谦故居，谦卒诏立书院并设山长以掌谦祀", "original": "野斋书院【在东阿县境内即元翰林承防李谦故居谦卒诏立书院并设山长以掌谦祀】"},
-      {"site_id": "SITE-003", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "寿圣寺", "type": "寺观", "location_text": "在东阿县治东南", "history_lore": "元建", "original": "夀圣寺【在东阿县治东南元建】"},
-      {"site_id": "SITE-004", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "灵祐观", "type": "寺观", "location_text": "在东阿县西六十里张秋镇", "history_lore": "景泰中建", "original": "灵祐观【在东阿县西六十里张秋镇景泰中建】"},
-      {"site_id": "SITE-005", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "黄石公祠", "type": "祠庙", "location_text": "在谷城山之阳", "history_lore": "汉书张良于下邳桥逢老父受书，后十三年济北谷城山下黄石即我，今有司岁以三月十八日致祭", "original": "黄石公祠【在谷城山之阳汉书张良于下邳桥逢老父受良书一编曰后十三年济北谷城山下黄石即我也后良果于此得黄石寳而祀之今有司嵗以三月十八日致祭】"},
-      {"site_id": "SITE-006", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "大河神祠", "type": "祠庙", "location_text": "在东阿县西南七十里沙湾", "history_lore": "正统十四年建，寻加封神为朝宗顺正惠通灵显广济大河之神", "original": "大河神祠【在东阿县西南七十里沙湾正统十四年建寻加封神为朝宗顺正惠通灵显广济大河之神】"},
-      {"site_id": "SITE-007", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "显惠庙", "type": "祠庙", "location_text": "在东阿县西六十里安平镇", "history_lore": "本朝弘治五年建，祀河神", "original": "显惠庙【在东阿县西六十里安平镇本朝治五年建祀河神】"},
-      {"site_id": "SITE-008", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "谷城", "type": "古迹", "location_text": "在东阿县南一十二里", "history_lore": "春秋时为管仲采邑，东汉置县后省", "original": "谷城【在东阿县南一十二里春秋时为管仲采邑东汉置县后省】"},
-      {"site_id": "SITE-009", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "桃城", "type": "古迹", "location_text": "在东阿县西南五十里", "history_lore": "春秋公会齐侯于桃丘即此", "original": "桃城【在东阿县西南五十里春秋公会齐侯于桃丘即此】"},
-      {"site_id": "SITE-010", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "管仲井", "type": "古迹", "location_text": "在东阿县谷城内", "history_lore": "元陈孚诗：画野分民乱井田，百王礼乐散寒烟", "original": "管仲井【在东阿县谷城内元陈孚诗画野分民乱井田百王礼乐散寒烟平生一勺潢污水不信东溟浪沃天今湮没】"},
-      {"site_id": "SITE-011", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "三归台", "type": "古迹", "location_text": "在东阿县西二里", "history_lore": "世传以为管仲所筑", "original": "三归台【在东阿县西二里世传以为管仲所筑】"},
-      {"site_id": "SITE-012", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "项羽墓", "type": "陵墓", "location_text": "在东阿县东南一十二里", "history_lore": "汉高祖既灭楚，项羽持其首以示鲁，鲁服，遂以鲁公礼葬羽于此，俗呼为霸冢", "original": "项羽墓【在东阿县东南一十二里汉髙帝既灭楚项羽持其首以示鲁鲁服遂以鲁公礼葬羽于此俗呼为覇冡】"},
-      {"site_id": "SITE-013", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "陈思王墓", "type": "陵墓", "location_text": "在东阿县西北一十三里", "history_lore": "思王魏曹植", "original": "陈思王墓【在东阿县西北一十三里思王魏曹植】"},
-      {"site_id": "SITE-014", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "永济桥", "type": "关梁", "location_text": "在东阿县治西，跨狼溪水", "history_lore": "", "original": "永济桥【在东平州治东跨汶河又东阿县治西亦有永济桥跨狼溪水】"}
+      {
+        "site_id": "SITE-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "东阿县学",
+        "type": "学校",
+        "location_text": "在县治西",
+        "history_lore": "洪武八年建",
+        "original": "东阿县学【在县治西洪武八年建】"
+      },
+      {
+        "site_id": "SITE-002",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "野斋书院",
+        "type": "书院",
+        "location_text": "在东阿县境内",
+        "history_lore": "即元翰林承旨李谦故居，谦卒诏立书院并设山长以掌谦祀",
+        "original": "野斋书院【在东阿县境内即元翰林承防李谦故居谦卒诏立书院并设山长以掌谦祀】"
+      },
+      {
+        "site_id": "SITE-003",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "寿圣寺",
+        "type": "寺观",
+        "location_text": "在东阿县治东南",
+        "history_lore": "元建",
+        "original": "夀圣寺【在东阿县治东南元建】"
+      },
+      {
+        "site_id": "SITE-004",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "灵祐观",
+        "type": "寺观",
+        "location_text": "在东阿县西六十里张秋镇",
+        "history_lore": "景泰中建",
+        "original": "灵祐观【在东阿县西六十里张秋镇景泰中建】"
+      },
+      {
+        "site_id": "SITE-005",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "黄石公祠",
+        "type": "祠庙",
+        "location_text": "在谷城山之阳",
+        "history_lore": "汉书张良于下邳桥逢老父受书，后十三年济北谷城山下黄石即我，今有司岁以三月十八日致祭",
+        "original": "黄石公祠【在谷城山之阳汉书张良于下邳桥逢老父受良书一编曰后十三年济北谷城山下黄石即我也后良果于此得黄石寳而祀之今有司嵗以三月十八日致祭】"
+      },
+      {
+        "site_id": "SITE-006",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "大河神祠",
+        "type": "祠庙",
+        "location_text": "在东阿县西南七十里沙湾",
+        "history_lore": "正统十四年建，寻加封神为朝宗顺正惠通灵显广济大河之神",
+        "original": "大河神祠【在东阿县西南七十里沙湾正统十四年建寻加封神为朝宗顺正惠通灵显广济大河之神】"
+      },
+      {
+        "site_id": "SITE-007",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "显惠庙",
+        "type": "祠庙",
+        "location_text": "在东阿县西六十里安平镇",
+        "history_lore": "本朝弘治五年建，祀河神",
+        "original": "显惠庙【在东阿县西六十里安平镇本朝治五年建祀河神】"
+      },
+      {
+        "site_id": "SITE-008",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "谷城",
+        "type": "古迹",
+        "location_text": "在东阿县南一十二里",
+        "history_lore": "春秋时为管仲采邑，东汉置县后省",
+        "original": "谷城【在东阿县南一十二里春秋时为管仲采邑东汉置县后省】"
+      },
+      {
+        "site_id": "SITE-009",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "桃城",
+        "type": "古迹",
+        "location_text": "在东阿县西南五十里",
+        "history_lore": "春秋公会齐侯于桃丘即此",
+        "original": "桃城【在东阿县西南五十里春秋公会齐侯于桃丘即此】"
+      },
+      {
+        "site_id": "SITE-010",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "管仲井",
+        "type": "古迹",
+        "location_text": "在东阿县谷城内",
+        "history_lore": "元陈孚诗：画野分民乱井田，百王礼乐散寒烟",
+        "original": "管仲井【在东阿县谷城内元陈孚诗画野分民乱井田百王礼乐散寒烟平生一勺潢污水不信东溟浪沃天今湮没】"
+      },
+      {
+        "site_id": "SITE-011",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "三归台",
+        "type": "古迹",
+        "location_text": "在东阿县西二里",
+        "history_lore": "世传以为管仲所筑",
+        "original": "三归台【在东阿县西二里世传以为管仲所筑】"
+      },
+      {
+        "site_id": "SITE-012",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "项羽墓",
+        "type": "陵墓",
+        "location_text": "在东阿县东南一十二里",
+        "history_lore": "汉高祖既灭楚，项羽持其首以示鲁，鲁服，遂以鲁公礼葬羽于此，俗呼为霸冢",
+        "original": "项羽墓【在东阿县东南一十二里汉髙帝既灭楚项羽持其首以示鲁鲁服遂以鲁公礼葬羽于此俗呼为覇冡】"
+      },
+      {
+        "site_id": "SITE-013",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "陈思王墓",
+        "type": "陵墓",
+        "location_text": "在东阿县西北一十三里",
+        "history_lore": "思王魏曹植",
+        "original": "陈思王墓【在东阿县西北一十三里思王魏曹植】"
+      },
+      {
+        "site_id": "SITE-014",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "永济桥",
+        "type": "关梁",
+        "location_text": "在东阿县治西，跨狼溪水",
+        "history_lore": "",
+        "original": "永济桥【在东平州治东跨汶河又东阿县治西亦有永济桥跨狼溪水】"
+      }
     ],
     "prods": [
-      {"prod_id": "PROD-001", "item_id": "23-001", "geo_id": "GEO-23001-c18", "name": "阿胶", "category": "药材", "note": "阳谷县出，旧属东阿", "original": "阿胶井【在阳谷县东北六十里水清冽而甘煮革为胶可以愈疾旧属东阿故名阿胶井】"}
+      {
+        "prod_id": "PROD-001",
+        "item_id": "23-001",
+        "geo_id": "GEO-23001-c18",
+        "name": "阿胶",
+        "category": "药材",
+        "note": "阳谷县出，旧属东阿",
+        "original": "阿胶井【在阳谷县东北六十里水清冽而甘煮革为胶可以愈疾旧属东阿故名阿胶井】"
+      }
     ],
     "cits": []
   },
   "layer_count": 7,
-  "validation": {"errs": [], "gap": 0, "notes": "PER-003 于慎行为明东阿名臣但本卷未载，标注存疑。SITE-007 site_id 误写为SITE-007，其余正常。"}
+  "validation": {
+    "errs": [],
+    "gap": 0,
+    "notes": "PER-003 于慎行为明东阿名臣但本卷未载，标注存疑。SITE-007 site_id 误写为SITE-007，其余正常。"
+  }
 }
