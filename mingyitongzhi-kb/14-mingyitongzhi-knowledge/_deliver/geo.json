@@ -1247,7 +1247,706 @@
         "region": "南直隶"
       },
       "cit_ids": []
+    },
+    {
+      "geo_id": "GEO-001",
+      "item_id": "19-001",
+      "name": "太原府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-002",
+        "GEO-003"
+      ],
+      "volume_range": "卷19",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "真定府井陉县界",
+            "distance_li": 375
+          },
+          {
+            "direction": "南",
+            "to_place": "沁州武乡县界",
+            "distance_li": 210
+          },
+          {
+            "direction": "西",
+            "to_place": "陕西延安府吴堡县界",
+            "distance_li": 505
+          },
+          {
+            "direction": "北",
+            "to_place": "大同府马邑县界",
+            "distance_li": 355
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1200
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2400
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领州六县二十二"
+        },
+        "grain_tax": {
+          "amount": 570000,
+          "unit": "石",
+          "note": "粮五十七万零"
+        },
+        "jun_name": "晋阳(古名)/太原(秦名)/冀宁(元名)",
+        "topography": "左有恒山之险右有大河之固【魏牵招说高干】句注险阻【晋句注碑】灵山角立【唐柳宗元送文畅登五台序】襟四塞控五原【唐李白饯王赞序】还绕一郡之内得沾水之胜【平定州志】南有石岭之关北有云内之塞【忻州志】",
+        "customs": "好乐无荒【诗唐风】文字盛兴【通典山西土瘠其人勤俭魏晋以降文字盛兴】忧深思远【诗集注】淳俭好学【太原图册】人物辈出【太原图经】民风清简【元志】民性质朴【忻州志】",
+        "garrisons": [
+          {
+            "name": "太原左卫",
+            "type": "卫",
+            "location_text": "在府城内西南洪武三年建"
+          },
+          {
+            "name": "太原右卫",
+            "type": "卫",
+            "location_text": "在府城内东南洪武三年建"
+          },
+          {
+            "name": "太原前卫",
+            "type": "卫",
+            "location_text": "在府城西南洪武三年建"
+          },
+          {
+            "name": "振武卫",
+            "type": "卫",
+            "location_text": "在代州城内东南洪武二十三年建"
+          },
+          {
+            "name": "镇西卫",
+            "type": "卫",
+            "location_text": "在岢岚州城内之西洪武七年建"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "晋王府",
+            "location_text": "在府城内之东洪武九年建"
+          },
+          {
+            "name": "庆成王府",
+            "location_text": "在府城内东南永乐三年建"
+          },
+          {
+            "name": "宁化王府",
+            "location_text": "在府城内东南永乐七年建"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-001",
+      "item_id": "20-001",
+      "name": "平阳府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-002",
+        "GEO-003"
+      ],
+      "volume_range": "卷20",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "泽州沁水县界",
+            "distance_li": 155
+          },
+          {
+            "direction": "南",
+            "to_place": "黄河岸",
+            "distance_li": 365
+          },
+          {
+            "direction": "西",
+            "to_place": "黄河岸",
+            "distance_li": 310
+          },
+          {
+            "direction": "北",
+            "to_place": "汾州孝义县界",
+            "distance_li": 320
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1800
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2400
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领州六县二十九"
+        },
+        "grain_tax": {
+          "amount": 1109000,
+          "unit": "石",
+          "note": "粮一百一十万九千石零"
+        },
+        "jun_name": "河东(秦名)/平河(隋名)/晋宁(元名)",
+        "topography": "被山带河天下要地【三国志杜畿传】晋之故封【唐柳宗元晋问】水陆形势【唐元载中都议】表里河山【平阳志】面岭背冈【解州志】介两河间【绛州志】据山川之胜【霍州志】皆崎岖之地【郡志】",
+        "customs": "尧之遗风【唐柳宗元晋问】忧深思远【平阳志】虞夏治迹【河中志】俗崇礼让【解梁志】人多勇敢【绛州志】其民勤俭【霍州志】其性朴实【郡志】民淳事简【元赵孟頫送田衍知河中府序】",
+        "garrisons": [
+          {
+            "name": "平阳卫",
+            "type": "卫",
+            "location_text": "在府治东永乐元年建"
+          },
+          {
+            "name": "蒲州守御千户所",
+            "type": "所",
+            "location_text": "在府城东洪武二年建"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "交城王府",
+            "location_text": "在府城西北隅"
+          },
+          {
+            "name": "阳曲王府",
+            "location_text": "在府城西北隅"
+          },
+          {
+            "name": "西河王府",
+            "location_text": "在府城西北隅"
+          },
+          {
+            "name": "山阴王府",
+            "location_text": "在蒲州"
+          },
+          {
+            "name": "襄垣王府",
+            "location_text": "在蒲州"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-001",
+        "CIT-002",
+        "CIT-003",
+        "CIT-004"
+      ]
+    },
+    {
+      "geo_id": "GEO-21001",
+      "item_id": "21-001",
+      "name": "大同府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21002",
+        "GEO-21003",
+        "GEO-21004",
+        "GEO-21005"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "直隶保安州深井界",
+            "distance_li": 360
+          },
+          {
+            "direction": "南",
+            "to_place": "太原府代州鴈门关界",
+            "distance_li": 290
+          },
+          {
+            "direction": "西",
+            "to_place": "大同右卫黄土山墩界",
+            "distance_li": 230
+          },
+          {
+            "direction": "北",
+            "to_place": "本府旧宣宁县猫儿庄界",
+            "distance_li": 120
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 900
+          },
+          {
+            "capital": "南京",
+            "distance_li": 3500
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领州四县七，编户散见各州县"
+        },
+        "grain_tax": {
+          "amount": 126000,
+          "unit": "石",
+          "note": "粮一十二万六千石零"
+        },
+        "jun_name": "云中/代郡",
+        "topography": "北临广野【寰宇记】绵亘千里【同上】用武之地【通鉴】京师藩屏【郡志】三面临边最号要害",
+        "customs": "质直朴野【汉志】俗尚武艺【郡志】垦田为生【应州图经】淳厚守业【浑源州图经】节用恭谦【元志】去华从俭【同上】",
+        "garrisons": [
+          {
+            "name": "山西行都司",
+            "type": "司",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "大同前卫",
+            "type": "卫",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "大同后卫",
+            "type": "卫",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "朔州卫",
+            "type": "卫",
+            "location_text": "在朔州治东"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "代王府",
+            "location_text": "在府治东洪武二十五年建"
+          },
+          {
+            "name": "广灵王府",
+            "location_text": "在府城内"
+          },
+          {
+            "name": "潞城王府",
+            "location_text": "在府城内"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21001",
+        "CIT-21002",
+        "CIT-21003",
+        "CIT-21004",
+        "CIT-21005"
+      ]
+    },
+    {
+      "geo_id": "GEO-21101",
+      "item_id": "21-002",
+      "name": "潞安府",
+      "type": "prefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21102"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河南彰德府林县界",
+            "distance_li": 170
+          },
+          {
+            "direction": "西",
+            "to_place": "平阳府岳阳县界",
+            "distance_li": 150
+          },
+          {
+            "direction": "南",
+            "to_place": "泽州高平县界",
+            "distance_li": 75
+          },
+          {
+            "direction": "北",
+            "to_place": "辽州界",
+            "distance_li": 200
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1300
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2260
+          }
+        ],
+        "households": {
+          "count": 0,
+          "unit": "里",
+          "note": "领县八，编户散见各州县"
+        },
+        "grain_tax": {
+          "amount": 203800,
+          "unit": "石",
+          "note": "粮二十万三千八百石零"
+        },
+        "jun_name": "上党/昭义/隆德",
+        "topography": "居天下之脊当河朔之喉【唐文粹】肘京洛而履蒲津倚太原而跨河朔【唐杜牧贺平泽潞启】河东雄胜之地【元潞州公廨记】",
+        "customs": "民俗醇古【郡志】民多俭质而力农，士尚气节而务学【同上】",
+        "garrisons": [
+          {
+            "name": "潞州卫",
+            "type": "卫",
+            "location_text": "在府治南洪武元年建"
+          },
+          {
+            "name": "沈阳中护卫",
+            "type": "卫",
+            "location_text": "在府城内永乐七年为沈府置"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "沈王府",
+            "location_text": "在府治东永乐六年建"
+          },
+          {
+            "name": "陵川王府",
+            "location_text": "在府城内"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21101",
+        "CIT-21102",
+        "CIT-21103"
+      ]
+    },
+    {
+      "geo_id": "GEO-21201",
+      "item_id": "21-003",
+      "name": "汾州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21202"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "太原府祈县界",
+            "distance_li": 140
+          },
+          {
+            "direction": "西",
+            "to_place": "太原府石州界",
+            "distance_li": 60
+          },
+          {
+            "direction": "南",
+            "to_place": "平阳府灵石县界",
+            "distance_li": 100
+          },
+          {
+            "direction": "北",
+            "to_place": "太原府文水县界",
+            "distance_li": 50
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1380
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2430
+          }
+        ],
+        "households": {
+          "count": 95,
+          "unit": "里",
+          "note": "编户九十五里，领县四"
+        },
+        "grain_tax": {
+          "amount": 151000,
+          "unit": "石",
+          "note": "粮一十五万一千石"
+        },
+        "jun_name": "西河/汾阳",
+        "topography": "美哉山河之固【史记】山川峭拔【郡志】",
+        "customs": "其民重厚知义尚信好文【郡志】其人勤俭【文献通考】",
+        "garrisons": [
+          {
+            "name": "汾州卫",
+            "type": "卫",
+            "location_text": "在州城内三贤坊，洪武二十四年建守御千户所，正德中升为卫"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "庆成王府",
+            "location_text": "在州城内同节坊，永乐十一年改旧州治建"
+          },
+          {
+            "name": "永和王府",
+            "location_text": "在州城内安静坊，永乐十二年改旧千户所治建"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21201",
+        "CIT-21202",
+        "CIT-21203"
+      ]
+    },
+    {
+      "geo_id": "GEO-21301",
+      "item_id": "21-004",
+      "name": "辽州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21302"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河南彰德府磁州武安县界",
+            "distance_li": 140
+          },
+          {
+            "direction": "南",
+            "to_place": "沁州武乡县界",
+            "distance_li": 40
+          },
+          {
+            "direction": "西",
+            "to_place": "太原府太谷县界",
+            "distance_li": 190
+          },
+          {
+            "direction": "北",
+            "to_place": "平定州乐平县界",
+            "distance_li": 130
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1200
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2420
+          }
+        ],
+        "households": {
+          "count": 27,
+          "unit": "里",
+          "note": "编户二十七里，领县二"
+        },
+        "grain_tax": {
+          "amount": 2600,
+          "unit": "石",
+          "note": "粮二千六百石零"
+        },
+        "jun_name": "乐平",
+        "topography": "山川险峻地少平川【元志】地居太行绝顶【州志】",
+        "customs": "其民信实纯厚【元志】其俗刚悍朴直【郡志】朴实少文【同上】",
+        "garrisons": [],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-21301",
+        "CIT-21302",
+        "CIT-21303"
+      ]
+    },
+    {
+      "geo_id": "GEO-21401",
+      "item_id": "21-005",
+      "name": "沁州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21402"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "潞安府界",
+            "distance_li": 210
+          },
+          {
+            "direction": "西",
+            "to_place": "平阳府霍州界",
+            "distance_li": 250
+          },
+          {
+            "direction": "南",
+            "to_place": "潞安府界",
+            "distance_li": 350
+          },
+          {
+            "direction": "北",
+            "to_place": "太原府太谷县界",
+            "distance_li": 330
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1700
+          },
+          {
+            "capital": "南京",
+            "distance_li": 2400
+          }
+        ],
+        "households": {
+          "count": 66,
+          "unit": "里",
+          "note": "编户六十六里，领县二"
+        },
+        "grain_tax": {
+          "amount": 48200,
+          "unit": "石",
+          "note": "粮四万八千二百石零"
+        },
+        "jun_name": "义宁/阳城",
+        "topography": "铜鞮案其前龟山镇其后【郡志】",
+        "customs": "专力耕农少事商贾【州志：其俗勤俭朴实，专力耕农，少事商贾】",
+        "garrisons": [
+          {
+            "name": "沁州守御千户所",
+            "type": "所",
+            "location_text": "在州治西，本朝洪武十一年建"
+          }
+        ],
+        "fiefs": []
+      },
+      "cit_ids": [
+        "CIT-21401",
+        "CIT-21402",
+        "CIT-21403"
+      ]
+    },
+    {
+      "geo_id": "GEO-21501",
+      "item_id": "21-006",
+      "name": "泽州",
+      "type": "subprefecture",
+      "region": "山西",
+      "parent": "GEO-000",
+      "children": [
+        "GEO-21502"
+      ],
+      "volume_range": "卷21",
+      "attributes": {
+        "borders": [
+          {
+            "direction": "东",
+            "to_place": "河南卫辉府辉县界",
+            "distance_li": 410
+          },
+          {
+            "direction": "西",
+            "to_place": "平阳府翼城县界",
+            "distance_li": 290
+          },
+          {
+            "direction": "南",
+            "to_place": "河南怀庆府河内县界",
+            "distance_li": 140
+          },
+          {
+            "direction": "北",
+            "to_place": "潞安府长子县界",
+            "distance_li": 190
+          }
+        ],
+        "to_capital": [
+          {
+            "capital": "京师",
+            "distance_li": 1800
+          },
+          {
+            "capital": "南京",
+            "distance_li": 1800
+          }
+        ],
+        "households": {
+          "count": 167,
+          "unit": "里",
+          "note": "编户一百六十七里，领县四"
+        },
+        "grain_tax": {
+          "amount": 46600,
+          "unit": "石",
+          "note": "粮四万六千六百石零"
+        },
+        "jun_name": "高都/长平",
+        "topography": "太行险固【唐奏议：泽州全有太行之险固，实为东洛之藩垣】山川环抱【旧郡志：泽州在唐为雄镇，山川环抱，有自然之险】山高涧深道路险窄【州志】",
+        "customs": "性质气豪【元志：人性质而好学，其气豪劲】俭朴敦本【同上：其民俭朴而敦本，有唐晋之遗风】力勤耕种【郡志】民淳而好义俭而用礼【同上】",
+        "garrisons": [
+          {
+            "name": "宁山卫",
+            "type": "卫",
+            "location_text": "在州治东北隅，洪武十一年建，直隶"
+          }
+        ],
+        "fiefs": [
+          {
+            "name": "宣宁王府",
+            "location_text": "在州城内，天顺五年自大同迁此"
+          },
+          {
+            "name": "隰川王府",
+            "location_text": "在州城内，天顺五年自大同迁此"
+          }
+        ]
+      },
+      "cit_ids": [
+        "CIT-21501",
+        "CIT-21502",
+        "CIT-21503",
+        "CIT-21504"
+      ]
     }
   ],
-  "count": 16
+  "count": 24
 }
