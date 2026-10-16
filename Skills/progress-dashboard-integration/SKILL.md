@@ -61,9 +61,10 @@ stages.js（八段流程语义，手写，改流程才动）                    
 
 **4. 例外只写在三处，不写侧文件。** 几何例外 → `LAYER_SPEC` 的行内注释；口径例外 → `data.js` 该书 `drift[]`（看板书籍详情页直接显示）；方法论例外 → 本文件。**没有 `*_whitelist.json` 一类的旁路名单**：门看到分歧就报，人决定怎么归一，归一后的理由必须留在文档里而不是配置里。
 
-**5. 分级与退出码。** `ERR`=声明会让看板说假话（条数/层数/状态与实测矛盾、声明了盘上不存在的层码、交付说完成但四类交付物全空、联邦入库状态与 `books` 表相反）→ 必须改到 0，脚本退出码 1；
+**5. 分级与退出码。** `ERR`=声明会让看板说假话（条数/层数/状态与实测矛盾、声明了盘上不存在的层码、交付说完成但四类交付物全空、联邦入库状态与 `books` 表相反、同一本书 `book.meta.json` 与 `书籍json` 两载体并存）→ 必须改到 0，脚本退出码 1；
 `WARN`=两口径都能自圆（分卷/聚合、著录卷数/底座前缀、契约落点缺口如交付未落 `_deliver/`、底座在影子目录）→ 写进 `drift`；
-`INFO`=已知例外或待回填（C8/C9 未回填、卷首/序/后记/校记段不计卷、状态位落后于盘上）。
+`INFO`=已知例外或待回填（C8 载体未回填、C9 无 spine 且按 `contract.json` v0.3.0 `scope.do_not_build` 只到卷级豁免、卷首/序/后记/校记段不计卷、状态位落后于盘上）。
+**C8/C9 按载体判，不按文件名判**（`contract.json` 0.3.0）：新书认 `book.meta.json`，存量认 `书籍json/<书>_校对版.json` 的 meta 块（契约键 `book-json/1.1`）——整书页在场但无 `契约` 键＝本轮刻意跳过，报 INFO 不报 WARN；有 `契约` 键却缺 8 项或 null 无 `_依据/_来源`＝WARN（重跑 `tools/book_json_augment.py` 幂等可解）。
 门自身**只读**：不改任何声明文件，报告每条都要人工归一到四处（`Summary/01`、`Summary/02`、`data.js`、`times.js`）。
 
 **6. 卷数规则。** `GVOLS.total` 是著录口径；`item_id` 前缀（`NN-`）是盘上口径，常多出院首/序/后记/校记段——只要正文 `01..total` 全覆盖就只报 INFO。前缀语义不是卷号的书（如大明一统志按府/门编号）在 `GVOLS` 里加 `prefixBasis` 说明，门即不再拿前缀当卷数。`Summary/01` 的「卷数」列与 `GVOLS.total` 必须相等。
@@ -89,7 +90,7 @@ stages.js（八段流程语义，手写，改流程才动）                    
 3. 对上面列出的书**以磁盘实况为准复核装填/打包卷数**（数 `_layers/` 或逐卷文件里 records 非空的卷），不要信体积启发，也不要信执行侧的完成汇报——一切以 JSON 实际内容计。
 4. 改 `times.js`：GTIMES/GVOLS 对应书那一行（含 `total` 卷数）；改 `data.js`：layers 计数、notes、`items`（只写底座条数，不写卷数）、必要时 stageStates。
 5. **跑归一门直到 ERR=0**：`node Skills/progress-dashboard-integration/scripts/check_summary.js`（可加 `--only wzz,mhd`）。
-   剩下的 WARN 逐条落进该书 `drift[]`，INFO 里的 C8/C9 缺口属存量待回填。
+   剩下的 WARN 逐条落进该书 `drift[]`；INFO 里的 C8 未回填（含刻意跳过的整书页）与 C9 卷级豁免属存量线，不是本轮要修的账。
 6. 同步 `Summary/01_书目总览.md`（一行一书：层数/卷数/底座条目/产出记录数）与 `Summary/02_各书产出层.md`（一节一书、逐层记录数）——门会拿这两张表和 data.js 对撞，不一致直接报。
 7. 刷新完成后 `check_updates.js --update` 回写基线，与看板数据一起提交（`chore(Summary): 看板进度刷新 <日期>`）。在途未收口的书（如野获编补卷）在 note 里写明"快照 <日期>，卷X 在途"。
 8. 若看板要发布（Qoder Site / `dist/`），把 `data.js/times.js/dashboard_app.js/dashboard.css/stages.js/fields.js` 同步拷进 `Summary/html/dist/` 再上线。
@@ -104,6 +105,7 @@ stages.js（八段流程语义，手写，改流程才动）                    
 | bz 兵志 | 全 0 | 仅卷66 卫所树试点 → 人工记 1；`LAYER_SPEC.bz.none` 声明整目录非层成品，门不把它当层件 |
 | xgg 新官轨范 | pack 采集 0 | 成品在书特化目录 `新官轨范_章节/`（带书名前缀），不匹配打包契约正则 → 人工记 11（按章） |
 | 原料列 | 任何 `.txt/.json` 都算 | 报告/清单类文件会污染原料时间，慎采 |
+| 载体 `书籍json/` | 不参与七段时间、不估卷数、不进层账；**只在盘上无 `_item_registry.json` 时**当底座计量源 | `collect_times.js` 的 `CARRIER_SEG` 一处定义、两处用（阶段时间跳过、`collect_meta.js` 的 `collectLayersFor` 先滤）——它是从 `_item_registry.json` 派生的 C8/C9 成品，当成原料会把「资产化那天」冒充「原料改动那天」，当成层件会以乱码 key 冒充未注册层（2026-10-16 实见 mhd 180 / zp 11 / sdr 78）。第三种形态：《物理夜航船》这类不走工厂谱系的书，切条库就地只在载体里（§6b 就地路线）→ `registryFromCarrier()` 回退量条数/卷前缀，门把这类差异记为 **WARN+来源说明而非 ERR**（载体条=著录粒度，选举志 3 条 vs 声明 58 段就是这种情况），并在 `registry.fromCarrier` 上标形 |
 | 卷数 est | qb 22 / zxl 8 / xjz 47 / dlz 36 虚高 | 原料或分片文件名带数字编号，est 只作核对线索，登记 total 为准 |
 | myt 明一统志 | 装填/底座时间、fill/pack 全采不到 | 工程在 `mingyitongzhi-kb/14-mingyitongzhi-knowledge/`，布局 `_data/`+`pilot/`（非 `_extract`/`_layers`）；est=18 是 `_06_18` 文件名误抽 → GTIMES/GVOLS(total=90) 人工登记；`item_id` 前缀是府/门序号（`prefixBasis`），不是卷号 |
 

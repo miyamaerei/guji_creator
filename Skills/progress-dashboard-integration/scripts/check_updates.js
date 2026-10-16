@@ -46,10 +46,16 @@ if (process.argv.includes('--seed')) {
   if (!upd.length) console.log('自上次基线以来，所有书籍目录均无文件更新。');
   for (const id of upd) {
     const b = base[id] ? base[id].max : 0;
-    const newer = [];
-    walk(path.join(ROOT, DIRS[id]), (p, r, st) => { if (st.mtimeMs > b + 60000) newer.push([r, st.mtimeMs]); }, path.join(ROOT, DIRS[id]), 0);
+    const newer = [], carrier = [];
+    walk(path.join(ROOT, DIRS[id]), (p, r, st) => { if (st.mtimeMs > b + 60000) (COL.CARRIER_SEG.test(r) ? carrier : newer).push([r, st.mtimeMs]); }, path.join(ROOT, DIRS[id]), 0);
+    // 载体（书籍json）是从底座派生的成品：它更新不代表流程动了。全为载体的书单独标注，
+    // 免得下一轮把「资产化那天」当成「这本书有新工作」再核一遍盘。
     newer.sort((x, y) => y[1] - x[1]);
-    console.log(id.padEnd(4), '有更新:', fmt(b), '→', fmt(cur[id].max), '（新改动 ' + newer.length + ' 个文件，最新:', newer.slice(0, 3).map(x => x[0]).join(', ') + (newer.length > 3 ? ' …' : '') + '）');
+    const head = newer.length ? newer.slice(0, 3).map(x => x[0]).join(', ')
+      : carrier.length ? carrier.slice(0, 2).map(x => x[0]).join(', ') + ' 等' : '(无)';
+    console.log(id.padEnd(4), '有更新:', fmt(b), '→', fmt(cur[id].max),
+      '（流程 ' + newer.length + ' 个文件' + (carrier.length ? ' + 书籍json 载体 ' + carrier.length + ' 个' : '') + '，最新:', head + (newer.length > 3 ? ' …' : '') + '）');
+    if (!newer.length && carrier.length) console.log(''.padEnd(4), '   ↑ 只有载体更新（book-json 重建），流程未动 → 无需核盘卷数');
   }
   if (upd.length) console.log('\n对上面列出的书：核盘卷数/层计数 → 刷新 times.js & data.js（见 SKILL.md 例行刷新）。');
   if (process.argv.includes('--update')) {

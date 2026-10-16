@@ -1,5 +1,9 @@
 /* 古籍知识工程进度看板数据 —— 2026-10-16 实测归一（盘上真值由 Summary/html/collect_meta.js 量得，
-   差集由 Skills/progress-dashboard-integration/scripts/check_summary.js 判定；改数前先跑管线） */
+   差集由 Skills/progress-dashboard-integration/scripts/check_summary.js 判定；改数前先跑管线）
+   2026-10-16 载体轮：17 本就地补 book-json/1.1 meta（<书>/书籍json/<书>_校对版.json）——
+   C8 著录与 C9 结构（书→卷→条）由该载体承载，这些书不另建 book.meta.json / spine.json
+   （contract.json 0.3.0：C8.carriers.stock、C9.scope.do_not_build）。采集器已把 书籍json/
+   排除在七段时间与卷数估算之外，它不是流程产物也不是原料。 */
 window.GDATA = {
   generated: "2026-10-16",
   stages: ["原料/原文", "底座切条", "装填解读", "层成品打包", "跨层索引", "验证", "交付", "联邦入库"],
@@ -212,7 +216,14 @@ window.GDATA = {
              "item_id 前缀不是卷号：是「府/门」序号 1–169（跳 12、18），共 167 个前缀；卷数 90 只认 times.js 的著录口径（已登记 prefixBasis）",
              "体裁地理总志：以府/直隶州/外夷国条目为最小单位（每府固定 20 门），新层 GEO/EVO/MTN/PER/SITE/PROD/CIT（工厂层库外候选）",
              "源文件尾部混入《钦定大清一统志》卷首，抽取边界已标定（正文止于「总志之属」标签前）",
-             "不做白话全译（90 卷工作量过大）"] }
+             "不做白话全译（90 卷工作量过大）"] },
+    { id:"yhc", dir:"yehangchuan", title:"物理夜航船：直觉与猜算", author:"[美] 徐一鸿（A. Zee）著·姬扬译", genre:"科普（物理学夜航船/信封背面估算）", status:"wip",
+      items:"80 条 (载体 11 段：前置 00 + 正文第1–9章 + 附录 10)", stageStates:[2,2,0,0,0,0,0,0], layers:[],
+      notes:"非古籍，现代科普（世界图书出版公司 2024.10，ISBN 978-7-5232-1686-6，原名 Fly by Night Physics）。源为 PDF OCR（MinerU 3.4.4 hybrid），抽取器 tools/extract_yehangchuan.py。",
+      drift:["本书不属古籍工厂谱系（只有 _source 原文 + 书籍json 载体，无 _extract/_layers 管线），切条库就地住在载体里（book-json/1.1）",
+             "OCR 两份源已首尾相接（印刷页 176/177 处，同属 6.2 节，无缺口无重叠）：源A 偏移 −23、源B 偏移 +177，全书前言/第1–9章/附录齐",
+             "章节边界不靠正则：第4章隔页无「第4章」字样、第1/3章章号与章名分属两块，必须用目录印刷页 + 偏移定位",
+             "para_blocks 与 preproc_blocks 有 56 页不一致，抽取一律用 preproc_blocks"] }
   ],
 
   // 管线形态对照（README §3 + 实测）：源数据/公共基座/枚举单点/底座切分/分层成品/验证输出/交付物

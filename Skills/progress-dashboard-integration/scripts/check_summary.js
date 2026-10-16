@@ -90,8 +90,14 @@ function main() {
     if (!m.registry) {
       if (declItems !== null) add('WARN', id, '底座条数', b.items, '盘上无 _item_registry.json', 'C3 未落盘：声明值无从校验（不是假话，是缺口）');
     } else if (declItems !== m.registry.items) {
-      add(declItems === null ? 'WARN' : 'ERR', id, '底座条数', b.items, m.registry.items + ' 条（' + m.registry.file + '）',
-        'data.js 声明 vs 底座实测');
+      // 载体来源单独判：书籍json 的「条」是著录粒度（每卷可并 1 条），与 data.js 记的段数本就两口径
+      add(declItems === null || m.registry.fromCarrier ? 'WARN' : 'ERR', id, '底座条数', b.items,
+        m.registry.items + ' 条（' + m.registry.file + '）',
+        m.registry.fromCarrier
+          ? '条数取自 书籍json 载体（盘上无 _item_registry.json）——载体条=著录粒度，与声明的分段数是两回事；要对齐先重建载体或落 registry'
+          : 'data.js 声明 vs 底座实测对不上');
+    } else if (m.registry.fromCarrier) {
+      add('INFO', id, '底座来源', '_item_registry.json', '条数取自 书籍json 载体（' + m.registry.file + '）', '§6b 就地路线：切条库就在载体里，C3 落点豁免');
     }
     const decl = normLayers(b);
     const declLayerSum = decl.reduce((a, L) => a + (L.count || 0), 0);
@@ -134,9 +140,14 @@ function main() {
       const need = []; for (let i = 1; i <= g.total; i++) need.push(String(i).padStart(2, '0'));
       const missJuan = need.filter(p => prefs.indexOf(p) < 0);
       const extras = prefs.filter(p => need.indexOf(p) < 0);
-      const fedV = m.federation.volumes === null ? '未入库' : m.federation.volumes;
+      const fedV = m.federation.in_books ? (m.federation.volumes || 0) : null;
       if (realJuan === null) add('INFO', id, '卷数', 'times.js total=' + g.total, '盘上无底座或非 NN-NNN', '卷数不可由前缀推，以著录口径为准');
-      else if (g.total === realJuan) add('INFO', id, '卷数', 'times.js total=' + g.total, '底座前缀=' + realJuan + '，联邦 volumes=' + fedV, '三口径一致');
+      else if (g.total === realJuan) {
+        // 书已入库但 volumes 零行 ≠ 「三口径一致」：卷维在库里是空的，按卷查询会查无此卷
+        if (fedV === 0) add('WARN', id, '卷数', 'times.js total=' + g.total, '底座前缀=' + realJuan + '，联邦 volumes=0（已入库未建卷行）',
+          'items/records 已入库但 volumes 表零行 → 卷维待 volumes.py 补跑');
+        else add('INFO', id, '卷数', 'times.js total=' + g.total, '底座前缀=' + realJuan + '，联邦 volumes=' + (fedV === null ? '未入库' : fedV), '三口径一致');
+      }
       else if (g.prefixBasis) add('INFO', id, '卷数', 'times.js total=' + g.total, '底座前缀=' + realJuan, 'times.js 已声明前缀口径「' + g.prefixBasis + '」，卷数以著录为准');
       else if (!missJuan.length) add('INFO', id, '卷数', 'times.js total=' + g.total, '底座前缀=' + realJuan + '（正文 01–' + need[need.length - 1] + ' 全覆盖）',
         '盘上另有非正文段 [' + extras.join(',') + ']（卷首/序/后记/校记一类），著录不计卷——两口径本就差这些段');
@@ -185,9 +196,25 @@ function main() {
             : (declLayerSum === real ? 'data.js 与盘上一致 → 02 表陈旧' : '两处声明都不合盘上实测'));
       }
     } else add('INFO', id, '02 表', '缺节', '', b.dir + ' 不在 02_各书产出层.md 里');
-    // C8/C9 回填状态
-    if (!m.structure.metaFiles.length) add('INFO', id, 'C8 著录', '未回填', '无 book.meta.json', '存量 22 本待回填（契约已开例外）');
-    if (!m.structure.spineFiles.length) add('INFO', id, 'C9 结构', '未回填', '无 spine.json', '同上');
+    // C8/C9 载体归属（contract.json v0.3.0：新书 book.meta.json / 存量就地补 书籍json；spine 只给需要条内定位的书）
+    const S = m.structure, BJ = S.bookJson;
+    if (S.metaFiles.length && BJ) add('ERR', id, 'C8 载体', 'book.meta.json + 书籍json 并存', '同一事实两份真源', 'C8.carriers.ban：二选一，删掉一份（存量留 书籍json，新书留 book.meta.json）');
+    if (!S.metaFiles.length) {
+      if (BJ) {
+        if (BJ.contract === null) add('INFO', id, 'C8 著录', '未回填', '整书页在场但 meta 无「契约」键（augment 未跑过）', BJ.file + '——本轮刻意跳过的书即此形，不是缺陷');
+        else {
+          if (BJ.contract !== 'book-json/1.1') add('WARN', id, 'C8 载体(1.1)', '契约键=' + BJ.contract, '应为 book-json/1.1', BJ.file + '——重跑 tools/book_json_augment.py');
+          if (BJ.absentKeys.length) add('WARN', id, 'C8 载体(1.1)', '缺键 ' + BJ.absentKeys.join('/'), '就地补未齐 8 项', BJ.file + '——重跑 tools/book_json_augment.py 幂等补齐');
+          if (BJ.nullsWithoutBasis.length) add('WARN', id, 'C8 null_basis', BJ.nullsWithoutBasis.join('/'), '值为 null 但无 _依据/_来源', 'meta_null_basis：每个 null 都要给理由，区分「没查」与「底本没有」');
+        }
+      } else add('INFO', id, 'C8 著录', '未回填', '既无 book.meta.json 也无 书籍json meta 块', '新书按 C8 建 book.meta.json；存量按 carriers.stock 就地补');
+    }
+    if (!S.spineFiles.length) {
+      add('INFO', id, 'C9 结构', '无 spine.json',
+        BJ ? '载体=书籍json（书→卷→条 ' + (BJ.volumes === null ? '?' : BJ.volumes) + ' 卷就地）' : '无结构载体',
+        BJ ? '按 C9.scope.do_not_build，只到卷级即豁免；若该书需条内定位（篇/章/段/句），先在 Phase ② 登记 declared_depth 再建 spine'
+           : '新书 Phase ③ 底座切完即生成 spine.json');
+    }
     if (m.registry && m.registry.dominantScheme === 'other') add('WARN', id, 'C2 item_id', 'NN-NNN', m.registry.dominantScheme + ' 为主', m.registry.file);
     if (m.registry && m.registry.shadowOnly) add('WARN', id, 'C3 底座落点', '_item_registry.json 在实例根', m.registry.file, '底座住在影子目录：数值真实但落点违 C1/C3，待迁移');
   }

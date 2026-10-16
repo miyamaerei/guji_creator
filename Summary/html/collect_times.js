@@ -10,7 +10,7 @@ const DIRS = {
   xjz:'mingshi/mingshi-xuanju', mhd:'minghuidian', yhb:'wanliyehuopian-kb',
   xjy:'xianjinyifeng-kb', shz:'mingshi/mingshi-shihuozhi', dlz:'mingshi/mingshi-dilizhi',
   bz:'mingshi/mingshi-bingzhi', scm:'songchuangmengyu-kb', zp:'zhipu-kb',
-  xf:'mingshi/mingshi-xingfa', myt:'mingyitongzhi-kb',
+  xf:'mingshi/mingshi-xingfa', myt:'mingyitongzhi-kb', yhc:'yehangchuan',
 };
 
 // 阶段优先顺序：交付 > 验证 > 跨层 > 装填 > 底座 > 打包 > 原料（首个命中即归类）
@@ -23,6 +23,11 @@ const STAGES = [
   /_layers\/|(^|\/)data\/(?!_)[a-z_]+\/|归一_|_标注|_kg_\d+\.json/,
   /assets\/sources\/|_source\/|原文\/|白话文\/|\.(txt|json|epub)$/i,
 ];
+
+// C8/C9 载体目录：书籍json/ 是从 _item_registry 派生的成品（整书页 + 分卷片），
+// 既不是七段产物也不是原料——拿它当原料会把「资产化那天」冒充「原料改动那天」（2026-10-16 污染 17 本），
+// 拿它估卷数则分卷片文件名里的卷号会重复计入。一律跳过。
+const CARRIER_SEG = /(^|\/)书籍json(\/|$)/;
 
 function walk(root, cb, dir, depth) {
   dir = dir || root; depth = depth || 0;
@@ -41,7 +46,8 @@ function walk(root, cb, dir, depth) {
 
 // 文件名里抽卷号
 function volOf(base) {
-  let m = base.match(/_(\d{1,3})\.py$/) || base.match(/_?(\d{1,3})\.json$/) || base.match(/^(\d{1,3})_/);
+  // _volNN_ai.py（zp 的卷源脚本）卷号在名字中段，尾部的 _ai.py 让第一条正则抓不到
+  let m = base.match(/_(\d{1,3})\.py$/) || base.match(/^_vol(\d{1,3})[_a-z]/i) || base.match(/_?(\d{1,3})\.json$/) || base.match(/^(\d{1,3})_/);
   if (m) { const n = +m[1]; return n <= 200 ? n : null; }
   return null;
 }
@@ -65,6 +71,7 @@ for (const [id, rel0] of Object.entries(DIRS)) {
   const files = [];
   let estMax = 0; // 卷数估算：全目录（含原料区）文件名里出现过的最大数字卷号
   walk(dir, (p, r, st) => {
+    if (CARRIER_SEG.test(r)) return;   // 载体目录不参与阶段时间与卷数估算（见上注）
     for (let i = 0; i < STAGES.length; i++) {
       if (STAGES[i].test(r)) { if (stageMax[i] === null || st.mtimeMs > stageMax[i]) stageMax[i] = st.mtimeMs; break; }
     }
@@ -107,4 +114,4 @@ for (const id of Object.keys(DIRS)) {
 fs.writeFileSync(path.join(__dirname, '_collect_out.json'), JSON.stringify({ GTIMES, GVOLS }, null, 1));
 }
 if (require.main === module) main();
-module.exports = { DIRS, ROOT, walk, volOf, jsonNonEmpty };
+module.exports = { DIRS, ROOT, walk, volOf, jsonNonEmpty, CARRIER_SEG };

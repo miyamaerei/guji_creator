@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
-const { DIRS, ROOT, walk } = require('./collect_times.js');
+const { DIRS, ROOT, walk, CARRIER_SEG } = require('./collect_times.js');
 
 // ---------- 通用 ----------
 function readJson(p) { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch (e) { return null; } }
@@ -111,8 +111,17 @@ function collectRegistry(files) {
   // 择优：先按主流 id 方案占比，再按条数——避免旁挂的小样本索引文件冒充主库
   parsed.sort((a, b) => (b.mainRatio - a.mainRatio) || (b.keys.length - a.keys.length));
   const m = parsed[0];
+  return Object.assign(summarizeRegistry(m.f, m.ent), {
+    others: parsed.slice(1).map(x => ({ file: x.f.r, items: x.keys.length, dominant: x.dominant })),
+    ignoredShadow: shadowOnly ? [] : files.filter(f => REG_NAMES.test(path.posix.basename(f.r)) && SHADOW.test(f.r)).map(f => f.r),
+    shadowOnly: !!shadowOnly,
+  });
+}
+
+// 底座条目 → 计量汇总（id 方案 / 字段覆盖 / 卷前缀）：_item_registry 与 书籍json 载体两种来源共用
+function summarizeRegistry(f, ent) {
   const fields = {}; const byScheme = {}; const vols = {};
-  for (const [k, v] of m.ent) {
+  for (const [k, v] of ent) {
     if (v && typeof v === 'object' && !Array.isArray(v)) for (const fld of Object.keys(v)) fields[fld] = (fields[fld] || 0) + 1;
     const s = idScheme(k);
     byScheme[s] = (byScheme[s] || 0) + 1;
@@ -123,18 +132,40 @@ function collectRegistry(files) {
       if (mm[3]) vols[p].subitems++;
     }
   }
-  const noId = (byScheme.other || 0) === m.keys.length ? m.keys.length : 0;
+  const keys = ent.map(e => e[0]);
+  const dominant = Object.entries(byScheme).sort((a, b) => b[1] - a[1])[0];
   return {
-    file: m.f.r, items: m.keys.length, idSchemes: byScheme, dominantScheme: m.dominant,
+    file: f.r, items: keys.length, idSchemes: byScheme, dominantScheme: dominant ? dominant[0] : null,
     fieldUnion: Object.keys(fields).sort(), fieldCoverage: fields,
     volumePrefixes: Object.keys(vols).sort((a, b) => Number(a) - Number(b)),
     volumeCount: Object.keys(vols).length,
-    noItemIdCount: noId, hasSubitemIds: Object.keys(byScheme).length > 1,
-    registryHash: sha16(m.f.p),
-    others: parsed.slice(1).map(x => ({ file: x.f.r, items: x.keys.length, dominant: x.dominant })),
-    ignoredShadow: shadowOnly ? [] : files.filter(f => REG_NAMES.test(path.posix.basename(f.r)) && SHADOW.test(f.r)).map(f => f.r),
-    shadowOnly: !!shadowOnly,
+    noItemIdCount: (byScheme.other || 0) === keys.length ? keys.length : 0,
+    hasSubitemIds: Object.keys(byScheme).length > 1,
+    registryHash: sha16(f.p),
   };
+}
+
+// 结构域回退：实例根没有 _item_registry.json 时，切条库就地住在 书籍json 载体里
+// （整书页 volumes[].items 就是条，id 也在条上）——§6b「就地补，不另建文件」的路线，
+// 所以载体既量 C8 元数据，也在无 registry 时充当底座计量源。通用规则，不逐本点名。
+function registryFromCarrier(files) {
+  const bjs = files.filter(f => /(^|\/)书籍json\/[^/]+\.json$/i.test(f.r) && !/\/分卷json\//.test(f.r) && !SHADOW.test(f.r));
+  for (const f of bjs) {
+    const d = readJson(f.p);
+    if (!d || !Array.isArray(d.volumes)) continue;
+    const ent = [];
+    for (const vol of d.volumes) {
+      const items = Array.isArray(vol) ? vol : (vol && vol.items);
+      if (!Array.isArray(items)) continue;
+      items.forEach((it, i) => {
+        if (!it || typeof it !== 'object') return;
+        ent.push([it.id || it.item_id || ((vol.no || vol.volume || '00') + '-' + String(i + 1).padStart(3, '0')), it]);
+      });
+    }
+    if (!ent.length) continue;
+    return Object.assign(summarizeRegistry(f, ent), { fromCarrier: true });
+  }
+  return null;
 }
 
 // ---------- ② 层产物（知识域）----------
@@ -239,7 +270,12 @@ function loadDeclaredLayers() {
     return out;
   } catch (e) { return {}; }
 }
+// C8/C9 载体目录（书籍json/）是从 _item_registry.json 派生的成品（整书页 + 分卷片），不是知识层。
+// 它必须从层的几何里剔出去：留在探针候选里会选错层根，留在 slice 里会因为
+// f.r.slice(prefixOf.length) 不校验前缀而把路径切成乱码 key，冒充「未注册层件」
+// （2026-10-16 实见：mhd 明会典_校对版=180、zp 卷json=11、sdr n=78）。
 function collectLayersFor(files, spec, declared) {
+  files = files.filter(f => !CARRIER_SEG.test(f.r));
   const layers = {}; let root = null; let mode = null; let candidates = [];
   const skippedAssembly = [], variants = [], extras = [], ignored = [];
   const dirAlias = (spec && spec.dirs) || {};      // 盘上目录名 → 注册层码（中文名/别名的书）
@@ -306,6 +342,7 @@ function collectLayersFor(files, spec, declared) {
     if (spec.fileRx) {
       mode = 'files:declared';
       for (const f of files) {
+        if (prefixOf && !f.r.startsWith(prefixOf)) continue;
         const rest = f.r.slice(prefixOf.length);
         if (!rest || rest.includes('/')) continue;
         const b = path.posix.basename(rest);
@@ -335,6 +372,7 @@ function collectLayersFor(files, spec, declared) {
       mode = flat ? 'files:declared' : 'subdirs:declared';
       for (const f of files) {
         if (!/\.json$/i.test(f.r) || SHADOW.test(f.r)) continue;
+        if (prefixOf && !f.r.startsWith(prefixOf)) continue;
         const rest = f.r.slice(prefixOf.length);
         if (!rest) continue;
         if (flat) { if (rest.includes('/')) continue; place(null, f); }
@@ -387,7 +425,10 @@ function collectLayersFor(files, spec, declared) {
     skipped, skippedAssembly, variants, extras, ignored, mismatch, candidates: candidates.map(c => c.d) };
 }
 
-// ---------- ③ 结构脊柱实测（C9 的卷级可得性）----------
+// ---------- ③ 结构脊柱实测（C9 的卷级可得性 + C8/C9 载体归属）----------
+// 1.1 就地载体的必备 meta 键（tools/book_json_augment.py 写的 8 项，实测键名不猜）
+const BJ_META_KEYS = ['契约', 'book_id', '著者', '朝代', '体裁', '成书年', '底本版本', '数字化', '条字段'];
+const BJ_ID_KEYS = ['著者', '作者'];   // 书上已写「作者」的沿用原键，不建同义键
 function collectStructure(files, registry) {
   // 原料是否按卷分文件：_src|_source|assets/sources 下的直属文件名带卷号 → 卷级标记存在
   const srcRoots = {};
@@ -399,12 +440,37 @@ function collectStructure(files, registry) {
     root.files++;
     if (/(?:^|[^0-9])(\d{2,3})(?:[-_.]|$)|^卷|卷[0-9一二三四五六七八九十百]+/.test(m[2])) root.volumeMarked++;
   }
+  // 书籍json 整书页：书籍json/ 根下的 *.json（分卷json/ 里的分片不是载体）
+  let bookJson = null;
+  const bjs = files.filter(f => /(^|\/)书籍json\/[^/]+\.json$/i.test(f.r) && !/\/分卷json\//.test(f.r) && !SHADOW.test(f.r));
+  for (const f of bjs) {
+    const d = readJson(f.p);
+    if (!d || typeof d.meta !== 'object' || d.meta === null) continue;
+    const mt = d.meta;
+    const absents = [], nullsNoBasis = [];
+    for (const k of BJ_META_KEYS) {
+      if (!(k in mt) && !(k === '著者' && BJ_ID_KEYS.some(x => x in mt))) { absents.push(k); continue; }
+      if (mt[k] === null && !mt[k + '_依据'] && !mt[k + '_来源']) nullsNoBasis.push(k);
+    }
+    bookJson = {
+      file: f.r,
+      contract: mt['契约'] || null,
+      book_id: mt.book_id || null,
+      digitization: mt['数字化'] ? (mt['数字化']['形态'] || '有值') : null,
+      punctuation: mt['数字化'] && mt['数字化']['标点形态'] ? mt['数字化']['标点形态'] : null,
+      volumes: Array.isArray(d.volumes) ? d.volumes.length : null,
+      absentKeys: absents, nullsWithoutBasis: nullsNoBasis,
+      lookedFor: bjs.map(x => x.r),
+    };
+    break;
+  }
   return {
     juanFromItemPrefix: registry ? registry.volumeCount : null,
     prefixes: registry ? registry.volumePrefixes : null,
     srcRoots: Object.entries(srcRoots).map(([d, v]) => ({ dir: d, files: v.files, volumeMarked: v.volumeMarked })),
     spineFiles: files.filter(f => /(^|\/)spine(\.source)?\.json$/i.test(f.r) && !SHADOW.test(f.r)).map(f => f.r),
     metaFiles: files.filter(f => /(^|\/)book\.meta\.json$/i.test(f.r) && !SHADOW.test(f.r)).map(f => f.r),
+    bookJson,
   };
 }
 
@@ -453,8 +519,10 @@ function federationSnapshot() {
     const { execFileSync } = require('child_process');
     const py = 'import sqlite3,json;c=sqlite3.connect(r' + JSON.stringify(db.split('\\').join('/')) + ');' +
       'g=lambda s:{r[0]:r[1] for r in c.execute("select book_id,count(*) from "+s+" group by book_id")};' +
+      // layer_catalog.layer_code 全库 100 行都是 NULL（旧装载只写 layer_key），
+      // 按 layer_code 数会恒得 0 → 看板长期谎报「库内 0 层」。注册层以 layer_key 计。
       'out={"volumes":g("volumes"),"items":g("items"),"records":g("records")};' +
-      'out["layers"]={r[0]:r[1] for r in c.execute("select book_id,count(distinct layer_code) from layer_catalog group by book_id")};' +
+      'out["layers"]={r[0]:r[1] for r in c.execute("select book_id,count(distinct layer_key) from layer_catalog group by book_id")};' +
       'out["in_books"]=[r[0] for r in c.execute("select book_id from books")];' +
       'print(json.dumps(out))';
     return JSON.parse(execFileSync('python', ['-Xutf8', '-c', py], { encoding: 'utf8' }).trim());
@@ -498,15 +566,19 @@ function collect() {
     if (!fs.existsSync(dir)) { out[id] = { missing: rel }; continue; }
     const files = [];
     walk(dir, (p, r, st) => files.push({ p, r, st }));
-    const registry = collectRegistry(files);
+    const registry = collectRegistry(files) || registryFromCarrier(files);
     const spec = LAYER_SPEC[id] || null;
     const layers = collectLayersFor(files, spec, declaredMap[id] || null);
     const code = idMap[id] || id;
     const f = k => (fed && fed[k] && fed[k][code] !== undefined ? fed[k][code] : null);
+    const inBooks = !!(fed.in_books && fed.in_books.indexOf(code) >= 0);
     const federation = {
       code,
-      in_books: !!(fed.in_books && fed.in_books.indexOf(code) >= 0),
-      volumes: f('volumes'), items: f('items'), records: f('records'), layers: f('layers'),
+      in_books: inBooks,
+      // volumes/items/records 按 book_id 分组，缺键有两种意思：书没入库，或书在库里但该表零行。
+      // 混报成「未入库」会让 fhs/ppy/wz/shz/zgz 这种「入库但没建卷行」的书看起来不用管。
+      volumes: f('volumes') !== null ? f('volumes') : (inBooks ? 0 : null),
+      items: f('items'), records: f('records'), layers: f('layers'),
     };
     const guessed = Object.values(layers.layers).reduce((a, L) => a + ((L.shapes && L.shapes['longest-array']) || 0), 0);
     const deliver = collectDeliver(files);
