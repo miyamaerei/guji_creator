@@ -1,14 +1,15 @@
 {
-  "format_version": "0.2.0",
+  "format_version": "0.3.0",
   "updated": "2026-10-16",
-  "applies_to": "第 7 本及以后的新书。已交付的 6 本存量书不受本契约约束（它们由 tools/kb-mcp/ 体检）。例外：C8/C9（著录与结构）自 2026-10-16 起对存量 22 本一并回填——它们登记的是客观书目事实与可重算的派生物，不是语义判定，回溯无「层设计被推翻」风险；「不回头治理存量」禁的是强制旧书改层格式。",
+  "applies_to": "第 7 本及以后的新书。已交付的 6 本存量书不受本契约约束（它们由 tools/kb-mcp/ 体检）。例外：C8/C9 登记的是客观书目事实与可重算派生物，不是语义判定，故可对存量回溯——但存量走「就地补」而非新建文件（见 C8.carriers / C9.scope），且只到卷级。",
   "source_of_truth": "本文件是「新书格式」的唯一真源。Skills/00-…/references/ 下的 Markdown 是条文出处，不是执行依据；Markdown 只是给人读的渲染视图，改格式先改这里。",
   "principle": [
     "契约必须机器可读——否则又变成「人工读 Markdown 再人工比对」，正是枚举漂移（pitfalls #27）的根源。",
     "校验前置——违反在写入前被拒，不留到交付后复盘。",
     "不回头治理存量——对旧书只读不写、不强制回溯。旧书的账由存量线自己结。",
     "不抄值——契约只存「格式规则」，层定义与枚举值从权威源实时读，避免副本过期（enum-induction-guide 曾因抄值而过期的教训）。",
-    "不存可计算量、不抄原文——凡能由既有字段算出的（字符数、节点计数、卷数）一律不落字段；原文唯一源是 C3 指纹库，C9 只存偏移量。跨域交点只有锚点（item_id + start/end）。"
+    "不存可计算量、不抄原文——凡能由既有字段算出的（字符数、节点计数、卷数）一律不落字段；原文唯一源是 C3 指纹库，C9 只存偏移量。跨域交点只有锚点（item_id + start/end）。",
+    "能就地补的，不另建文件——同一事实只许有一个载体。载体上已有的树与全文（书籍json）就地补字段，不再复制一份并行维护；这条铁律反过来管契约自己。"
   ],
   "sources": {
     "layer_library": "../../Skills/00-book-knowledge-factory/references/layer-library.md",
@@ -152,22 +153,29 @@
     },
     {
       "id": "C8",
-      "title": "著录元数据 book.meta.json",
-      "statement": "每本书在工程目录根放一份 book.meta.json，分 ident / work / expression / manifestation / governance 五块。每个字段按 A（机采）/B（散文可抽）/C（需人工登记）/D（来源物理不可得）四级可得性登记；取不到必须填 null 并在同块给 <字段>_basis 理由，禁止留空、禁止臆造、禁止把 D 伪装成 A。",
-      "why": "联邦库 book_meta 只有 11/13 行、不在 schema.sql、全仓无任何代码引用，且缺版本/藏地/叶数/梗概四字段；底本信息唯一的存在形态是 registry.md「源文件」列里的散文「底本=四库全书本」。书目身份四处 id 空间（看板 id / 工程目录 / 联邦 book_id / 实例 skill 名）散在 collect_times.js 的 DIRS 与 data.js 的 federation.idMap 两处硬编码副本，已有 6 本异名（fhs↔fqh、xgg↔xgf、lgsz↔lgs、zxl↔xzl、wz↔ysz、xjy↔xyf）。内容梗概全仓 0 处。",
+      "title": "著录元数据",
+      "statement": "登记「这是哪一本书、什么版本、藏在哪」的客观书目事实。新书一份 book.meta.json（五块）；已有 书籍json 的存量书就地补 meta 块，不另建文件。",
+      "why": "book_meta 只有 11/13 行且不在 schema.sql；底本信息的唯一存在形态是 registry.md 散文里的「底本=」；四处 id 空间散在 collect_times.js 的 DIRS 与 data.js 的 federation.idMap 两处硬编码副本（已有 6 本异名：fhs↔fqh、xgg↔xgf、lgsz↔lgs、zxl↔xzl、wz↔ysz、xjy↔xyf）；内容梗概全仓 0 处。",
       "file": "book.meta.json",
-      "scope": "新书 Phase ① 开工即建（14 项最小可用集，见 docs/书籍著录与结构契约.md §1.3）；存量 22 本由 collect_meta.js 回填。",
+      "carriers": {
+        "new_book": "book.meta.json，工程目录根，与 _item_registry.json 同级，入库可 diff",
+        "stock": "<书>/书籍json/<书>_校对版.json 的 meta 块（契约键 book-json/1.1，由 tools/book_json_augment.py 幂等回填，2026-10-16 已落 17 本）",
+        "stock_covers": "ident.book_id + work.creator/genre + 字形与标点形态 + manifestation.digitization",
+        "stock_defers": "work.abstract / physical / holding / call_number 仍是 C 级人工项，不因走了 1.1 而算已回填",
+        "ban": "同一本书两种载体不得并存：已走 stock 的不许再建 book.meta.json，反之亦然"
+      },
+      "availability": "逐字段标 A 机采 / B 散文可抽 / C 需人工登记 / D 该底本物理不可得；分级细则与字段全表见 docs §1.1、§1.2。",
       "rules": [
-        {"check": "file_required", "args": {"name": "book.meta.json", "desc": "工程目录根，与 _item_registry.json 同级；入库可 diff"}},
-        {"check": "meta_blocks", "args": {"blocks": ["ident", "work", "expression", "manifestation", "governance"], "desc": "五块缺一即报；不得自增顶层块"}},
-        {"check": "meta_ident_spaces", "args": {"fields": ["book_id", "repo_dir", "board_id", "instance_skill"], "conditional": "federation_book_id 已入库必填", "desc": "四处 id 空间同址登记；本块是 DIRS/idMap 的权威源，采集器改读本块不再硬编码"}},
+        {"check": "file_required", "args": {"name": "book.meta.json", "applies_to": "新书", "desc": "工程目录根，与 _item_registry.json 同级，入库可 diff；已有 书籍json 的存量书按 carriers.stock 就地补，不另建此件"}},
+        {"check": "meta_blocks", "args": {"blocks": ["ident", "work", "expression", "manifestation", "governance"], "applies_to": "book.meta.json", "desc": "五块缺一即报，不得自增顶层块"}},
         {"check": "meta_min_set", "args": {"fields": ["book_id", "title", "repo_dir", "board_id", "work.creator.name", "work.creator.dynasty", "work.genre", "expression.punctuation", "expression.base_kind", "manifestation.digitization.format", "manifestation.digitization.file", "governance.availability", "governance.confidence", "governance.updated"], "desc": "14 项开工最小集，必须非 null"}},
-        {"check": "meta_availability_map", "args": {"field": "governance.availability", "values": ["A", "B", "C", "D"], "desc": "逐字段标级；每个 null 值都必须能在本块找到 C 或 D 的标注"}},
-        {"check": "meta_null_basis", "args": {"desc": "D 级字段值为 null 时，同块必须有 \"<字段>_basis\" 一句理由（区分「我没查」与「这个底本没有」）"}},
+        {"check": "meta_ident_spaces", "args": {"fields": ["book_id", "repo_dir", "board_id", "instance_skill"], "conditional": "federation_book_id 已入库必填", "desc": "四处 id 同址登记；本块是 DIRS 与 idMap 的权威源，采集器改读本块不再硬编码"}},
+        {"check": "meta_availability_map", "args": {"field": "governance.availability", "values": ["A", "B", "C", "D"], "desc": "每个 null 都必须能在本块找到 C 或 D 的标注"}},
+        {"check": "meta_null_basis", "args": {"desc": "值为 null 时同块必须给 <字段>_basis 一句理由——区分「我没查」与「这个底本没有」"}},
         {"check": "meta_no_invent", "args": {"fields": ["manifestation.physical.ye", "manifestation.holding", "manifestation.call_number", "work.creator.role"], "desc": "叶数/藏地/索书号不得由推测落值；txt 转录本无叶信息属正常，不是缺陷"}},
-        {"check": "meta_abstract_source", "args": {"desc": "work.abstract 非空则 work.abstract_source 必填（本书序跋/凡例自述 | 四库全书总目提要 | 自撰）。梗概不许是模型印象"}},
-        {"check": "meta_author_split", "args": {"desc": "creator.name 与 creator.dynasty 必须分列；源数据里的粘连串「明·顾起元」须拆开，不得整串塞进 name"}},
-        {"check": "meta_juan_declared_single_source", "args": {"field": "expression.juan_declared", "authority": "Summary/html/times.js GVOLS[bid].total", "desc": "著录卷数只此一处；不得在 book_meta.note、01 表散文等处再存第二第三份。实测卷数属 C9，二者是两个事实，差异报 INFO 不报 ERR（wzz 著录 16 / 实测 12 = 有 4 卷从未装载）"}},
+        {"check": "meta_abstract_source", "args": {"desc": "work.abstract 非空则 abstract_source 必填（本书序跋凡例自述 | 四库全书总目提要 | 自撰）——梗概不许是模型印象"}},
+        {"check": "meta_author_split", "args": {"desc": "creator.name 与 creator.dynasty 分列，粘连串「明·顾起元」须拆开，不得整串塞进 name"}},
+        {"check": "meta_juan_declared_single_source", "args": {"field": "expression.juan_declared", "authority": "Summary/html/times.js GVOLS[bid].total", "desc": "著录卷数只此一处，不得在 note、01 表散文等处再存第二第三份；实测卷数属 C9，是两个事实，差异报 INFO 不报 ERR（wzz 著录 16 / 实测 12 = 有 4 卷从未装载）"}},
         {"check": "meta_no_computed_fields", "args": {"banned": ["volume_count", "record_count", "item_count", "layer_count", "chars"], "desc": "可由 spine 节点计数 / items / records 算出的一律不落字段"}},
         {"check": "meta_governance", "args": {"fields": ["availability", "confidence", "sources", "updated", "updated_by"], "desc": "confidence 沿用 book_meta.confidence 口径不另立标尺；updated_by 区分机器写入与人工覆盖"}}
       ],
@@ -176,49 +184,54 @@
         "work": "现有 book_meta（name/dynasty/author/genre/subject 已对得上）+ 新列 abstract；前置动作：book_meta 并入 schema.sql、补 shz/zgz 两行",
         "expression_manifestation": "新表 book_biblio(book_id, expression_json, manifestation_json, availability_json, updated_at)——跨书可得性差异大，存 JSON 块不拆宽列（宽列会半数 NULL）"
       },
-      "ok": "manifestation.physical.ye = null 且 ye_basis=\"源为文硕阁 epub 转 txt，版刻叶信息已丢失\"，availability.ye=\"D\"",
-      "bad": "为了给 22 本书填满叶数一律填 1，或 availability 全填 A 而值实际来自模型印象",
-      "source": "docs/书籍著录与结构契约.md §1、§2、§4.2；实测 docs/跨书合并-数据库设计.md §11.2 A1"
+      "ok": "数字化字段实测出形态与文件；底本版本抽不到则填 null 并在 _来源 写 lookedFor（17 本命中 9、空 8，即此形）",
+      "bad": "为了给 22 本书填满叶数一律填 1；availability 全填 A 而值实际来自模型印象；给已有 书籍json 的书再建一份 book.meta.json",
+      "source": "docs/书籍著录与结构契约.md §1、§2、§6b；实测 docs/跨书合并-数据库设计.md §11.2 A1"
     },
     {
       "id": "C9",
       "title": "结构脊柱 spine.json",
-      "statement": "每本书一份 spine.json：书→卷→篇→章→段→句 的节点树（sid 层级文法）+ 条内字符偏移。段/句由 build_spine.py 依工厂 B 的 structure.json 规则派生（origin=derived），不要求全书统一到句——交付深度由 declared_depth 在 Phase ② 拍板。spine 只存偏移不存原文。",
-      "why": "联邦库 items 是平表（无 parent、无 kind），只到 书→卷→条；盘上 18 个 _item_registry.json 实测 4 种 schema（13 个仅 original/norm；minghuidian 有 volume+node_kind+section+source；qubian_kb 旁挂 章→节→段 树；mingyitongzhi 有 region/type）；全库 _layers/**/*.json grep folio/paragraph/sentence/lines 零命中——段只以 \\n\\n 混在 original 串里，句级全无。records 虽有 item_id 但无偏移，只能定位到条、定位不到条内。",
+      "statement": "登记「内容在原书哪里、切到哪一级」：书→卷→篇→章→段→句 的节点树（sid 层级文法）+ 条内字符偏移。只给需要条内定位的书建；只到卷级的不建——卷级树已由 item_id 前缀（C2）承载。spine 只存偏移不存原文。",
+      "why": "联邦库 items 是平表（无 parent、无 kind），只到 书→卷→条；盘上 18 个 _item_registry.json 实测 4 种 schema；段只以空行混在 original 串里、句级全库 0，records 有 item_id 却无偏移——定位得到条、定位不到条内。",
       "file": "spine.json",
-      "scope": "新书 Phase ③ 底座切完即生成；存量 22 本先补卷级（零成本，item_id 前缀即卷号），段/句按 declared_depth 分书处理。",
+      "scope": {
+        "build_when": "declared_depth 含 pian/zhang/duan/ju 任一级（Phase ② 拍板后 Phase ③ 生成）",
+        "do_not_build": "只到卷级的存量 17 本——书籍json 已是 book→卷→条 树带稳定 id 与条级全文，再建 spine 是把已有结构复制一份并行维护（违 principle 末条）",
+        "not_required": "不要求全书到句：mhd 名录型到 node_kind 即够，shz 表格型到段才有意义"
+      },
       "rules": [
-        {"check": "file_required", "args": {"name": "spine.json", "desc": "工程目录根；派生物不入 git，source 节点的 evidence 另存 spine.source.json 入库"}},
-        {"check": "spine_kinds", "args": {"values": ["book", "juan", "pian", "zhang", "duan", "ju"], "desc": "六级封闭集，是**角色词表不是固定层数**：古籍的节/门/类/部/汇考等名目一律不新增 kind，写进 title。注意「条」不是 spine 节点——它已由 item_id（C2/C3）登记，重列即第二份真源"}},
-        {"check": "spine_kind_order", "args": {"order": ["book", "juan", "pian", "zhang", "duan", "ju"], "desc": "沿 parent 链 kind 次序必须非递减，同 kind 允许嵌套（蘧编 章→节 记作 zhang/zhang，判据是链上位置不是名字）；禁止卷在章之下、段包含卷（S13）"}},
-        {"check": "spine_sid_grammar", "args": {"pattern": "^[a-z0-9_-]+(:[jpsz][0-9]{2}(/[jpsz][0-9]{2})*)?$", "desc": "sid = <book_id>:<K><no>/… ；K∈j卷 p篇 z章 d段 s句；no 是 parent 内相对序（上层插节点不重编下层 id），sid 不含偏移故文本改动不破坏 id 稳定"}},
-        {"check": "spine_tree", "args": {"desc": "root（kind=book）恰一个；除 root 外 parent 必须存在；同 parent 的 no 连续递增不跳号（S1/S2/S3）"}},
+        {"check": "file_required", "args": {"name": "spine.json", "applies_to": "scope.build_when 成立的书", "desc": "条件必建：declared_depth 含 pian/zhang/duan/ju 任一级即须有此件；只到卷级按 scope.do_not_build 豁免，不得拿豁免当默认"}},
+        {"check": "spine_kinds", "args": {"values": ["book", "juan", "pian", "zhang", "duan", "ju"], "desc": "六级封闭集，是角色词表不是固定层数：节/门/类/部/汇考等名目一律写进 title 不新增 kind。注意「条」不是 spine 节点——已由 item_id（C2/C3）登记，重列即第二份真源"}},
+        {"check": "spine_sid_grammar", "args": {"pattern": "^[a-z0-9_-]+(:[jpsz][0-9]{2}(/[jpsz][0-9]{2})*)?$", "desc": "sid = <book_id>:<K><no>/…；K∈j卷 p篇 z章 d段 s句。no 是 parent 内相对序（上层插节点不重编下层 id），sid 不含偏移故文本改动不破坏 id 稳定"}},
+        {"check": "spine_tree", "args": {"s": ["S1", "S2", "S3"], "desc": "root（kind=book）恰一个，sid 书内唯一；除 root 外 parent 必须存在；同 parent 的 no 连续递增不跳号不重号"}},
+        {"check": "spine_kind_order", "args": {"order": ["book", "juan", "pian", "zhang", "duan", "ju"], "s": "S13", "desc": "沿 parent 链 kind 次序非递减；同 kind 允许嵌套（蘧编 章→节 记作 zhang/zhang）、深浅由链上位置定不由名字定。禁止卷在章之下、段包含卷"}},
         {"check": "spine_two_states", "args": {"aggregate": {"kinds": ["book", "juan", "pian", "zhang"], "fields": ["first_item", "last_item"], "forbidden": ["start", "end"]}, "container": {"kinds": ["duan", "ju"], "fields": ["item_id", "start", "end"], "forbidden": ["first_item", "last_item"]}, "desc": "按 kind 判别两态，不留交叉空列。聚合态存 item_id 闭区间（同卷内条号连续），容器态存单条 + 半开区间 [start,end)"}},
-        {"check": "spine_offset_unit", "args": {"unit": "char", "into": "_item_registry.json[item_id].original", "desc": "字符偏移（非字节），指入 original 串不得指 norm（归一会致失配）。全 spine 只允许这一个偏移空间——段/句真实分段若只存在于旁挂文件，不许另开偏移空间，见 spine_offset_align"}},
-        {"check": "spine_offset_align", "args": {"desc": "旁挂对齐闸（S14）：当段/句的分段信息只存在于别的文件（实测蘧编：段只在 _source/蘧编_结构化.json 的 paras 里，而 _item_registry.json['01-001'].original 是 522 字无分隔连续串，5 段落位后覆盖 489 字，余 28 字是 title 字段所载的条标题），派生器必须以「忽略空白的定位」把每段映射进 original 的字符区间，并校验：每段都能落位、区间互不重叠、**未覆盖的字符只能是在别处已登记的文本**（如 title 所载条标题）且须列出未覆盖区间与归属。禁止退化成按比例估算偏移——估算会把空白与标题字符摊进正文，下游切片即错"}},
-        {"check": "spine_isomorphism", "args": {"desc": "同构识别闸（S15）：候选节点与既有卷节点同名、且其子节点数等于该卷条数 ⇒ 判为同一结构，只登记一次。实测蘧编：25 章中 20 章名即「卷一…卷二十」，其下节数与 registry 对应前缀条数 20/20 全等（卷一 40 节 = 01-001…01-040），「节」就是「条」。若当两棵树装载，卷数从 23 变 48、章数凭空多 25，且两份都各自自洽、无任何一层能发现——这是 A 族「全绿但答不了」的结构版"}},
-        {"check": "spine_origin", "args": {"values": ["source", "derived"], "desc": "source=此级在所用文本中已有明确标记（原书目录/卷首标题/整理本所加），derived=本管线按规则切出。刻本段落连续无分隔，派生段是整理段不是原书段，必须靠 origin 区分"}, "requires": {"source": ["evidence"], "derived": ["rule"]}},
-        {"check": "spine_single_tree", "args": {"desc": "一个 spine.json 是一棵严格树：同一 item_id 在该轴内不得被两个兄弟分支同时覆盖。第二套切分轴（如蘧编：底本 20 卷轴 + 整理本 25 章轴）另存 spine-<axis>.json，recipe.axis 标轴名，装载主键 (book_id, axis, sid)（S12）"}},
-        {"check": "spine_evidence_required", "args": {"desc": "origin=source 必须给 evidence（目录著录/卷首标题/序跋所述/结构化文件），防止把臆造的层级当原书结构（S11）"}},
-        {"check": "spine_derive_rule", "args": {"values": ["blank-line", "punct-cjk", "json-para-align", "manual"], "desc": "origin=derived 必须给 rule id；规则正文在 structure.json，spine 只存引用。json-para-align=段信息只在旁挂结构化文件、经 S14 对齐落进 original（蘧编即此形）"}},
-        {"check": "spine_recipe_hash", "args": {"fields": ["axis", "structure_json", "registry", "registry_hash", "offset_unit", "generator", "generated_at"], "desc": "失效闸：registry_hash 与当前 _item_registry.json 实算哈希不符 → 本 spine 作废必须重算。偏移安全全靠这一条 + C3 只读。axis 默认 primary"}},
-        {"check": "spine_offset_replay", "args": {"desc": "hash 一致时按 rule 重切 original 必须逐字符复现全部 start/end；同 parent 区间不得重叠且按 no 递增（S5/S6）"}},
-        {"check": "spine_item_prefix_match", "args": {"desc": "聚合节点 first_item/last_item 的卷前缀 NN 必须等于其 juan 祖先的 no——把 C2 的 item_id=NN-NNN 与 C9 的卷树焊在一起（S7）"}},
-        {"check": "spine_declared_depth", "args": {"fields": ["juan", "pian", "zhang", "duan", "ju"], "desc": "Phase ② 用户拍板的交付深度（决策不是数据）。声明 true 而未产出该 kind → WARN；不要求全书到句（mhd 名录型到 node_kind 即够，shz 表格型到段有意义）"}},
-        {"check": "spine_no_text_no_computed", "args": {"banned": ["text", "original", "chars"], "desc": "原文唯一源是 C3；字符数可由 start/end 或子节点求和得出（S8）"}},
-        {"check": "spine_ju_requires_punctuation", "args": {"constraint": "expression.punctuation != '原本无' 才允许 declared_depth.ju=true", "desc": "跨契约硬约束：无句读本里的「句」是现代人切的，若当原书结构会在下游生成「古人这样断句」的假事实"}},
-        {"check": "spine_volume_coverage", "args": {"desc": "kind=juan 节点集合必须 ⊇ items 表出现过的 volume 值（S9，WARN）。wzz 实测 items 卷号 05-16 缺 01-04 即由此暴露"}},
+        {"check": "spine_offset_unit", "args": {"unit": "char", "into": "_item_registry.json[item_id].original", "s": ["S4", "S6"], "desc": "字符偏移（非字节），指入 original 串不得指 norm（归一会致失配）；同 parent 区间不得重叠且按 no 递增。全 spine 只允许这一个偏移空间"}},
+        {"check": "spine_offset_align", "args": {"s": "S14", "desc": "旁挂对齐闸：分段信息只存在于别的文件时（实测蘧编：段只在 _source/蘧编_结构化.json 的 paras，而 original 是 522 字无分隔连续串），须以「忽略空白的定位」把每段落进 original 区间并校验逐段落位、互不重叠，且列出未覆盖字符及其归属（如 title 所载条标题占 0..28）。禁止退化成按比例估算——估算会把空白与标题字符摊进正文，下游切片即错"}},
+        {"check": "spine_isomorphism", "args": {"s": "S15", "desc": "同构识别闸：候选节点与既有卷节点同名、且其子节点数等于该卷条数 ⇒ 判为同一结构，只登记一次。实测蘧编 25 章中 20 章名即「卷一…卷二十」，其下节数与对应前缀条数 20/20 全等（「节」就是「条」）。若当两棵树装载，卷数 23→48、章数凭空多 25，且两份各自自洽、没有任何一层能发现"}},
+        {"check": "spine_origin", "args": {"values": ["source", "derived"], "requires": {"source": ["evidence"], "derived": ["rule"]}, "desc": "source=此级在所用文本中已有明确标记（原书目录/卷首标题/整理本所加），derived=本管线按规则切出。刻本段落连续无分隔，派生段是整理段不是原书段，必须靠 origin 区分"}},
+        {"check": "spine_evidence_required", "args": {"s": "S11", "constraint": "origin=source ⇒ evidence 非空", "desc": "说得出证据才算文本里有此级——防止把臆造的层级当原书结构"}},
+        {"check": "spine_derive_rule", "args": {"values": ["blank-line", "punct-cjk", "json-para-align", "manual"], "desc": "origin=derived 必须给 rule id；规则正文在工厂 B 的 structure.json，spine 只存引用不重存正则。json-para-align=段信息只在旁挂结构化文件、经 S14 对齐落进 original（蘧编即此形）"}},
+        {"check": "spine_recipe_hash", "args": {"fields": ["axis", "structure_json", "registry", "registry_hash", "offset_unit", "generator", "generated_at"], "desc": "失效闸：registry_hash 与当前 _item_registry.json 实算哈希不符 → 本 spine 作废必须重算。偏移安全全靠这一条 + C3 只读；axis 默认 primary"}},
+        {"check": "spine_offset_replay", "args": {"s": "S5", "desc": "hash 一致时按 rule 重切 original 必须逐字符复现全部 start/end——把「偏移对不对」从人工抽查变成确定性重算"}},
+        {"check": "spine_item_prefix_match", "args": {"s": "S7", "desc": "聚合节点 first_item/last_item 的卷前缀 NN 必须等于其 juan 祖先的 no——把 C2 的 item_id=NN-NNN 与 C9 的卷树焊在一起"}},
+        {"check": "spine_single_tree", "args": {"s": "S12", "desc": "一个 spine.json 是一棵严格树：同一 item_id 在该轴内不得被两个兄弟分支同时覆盖。第二套切分轴（方志的门类轴与卷轴互不对应时才成立）另存 spine-<axis>.json，recipe.axis 标轴名，装载主键 (book_id, axis, sid)。蘧编不是本条例证"}},
+        {"check": "spine_declared_depth", "args": {"fields": ["juan", "pian", "zhang", "duan", "ju"], "s": "S10", "desc": "Phase ② 用户拍板的交付深度（决策不是数据）。声明 true 而未产出该 kind → WARN"}},
+        {"check": "spine_no_text_no_computed", "args": {"banned": ["text", "original", "chars"], "s": "S8", "desc": "原文唯一源是 C3；字符数可由 start/end 或子节点求和得出"}},
+        {"check": "spine_ju_requires_punctuation", "args": {"constraint": "expression.punctuation != 原本无", "desc": "跨契约硬约束：expression.punctuation=原本无 时 declared_depth.ju 必须 false。无句读本里的「句」是现代人切的，若当原书结构会在下游生成「古人这样断句」的假事实；段同理"}},
+        {"check": "spine_volume_coverage", "args": {"s": "S9", "desc": "kind=juan 节点集合必须 ⊇ items 表出现过的 volume 值（WARN）。wzz 实测 items 卷号 05-16 缺 01-04 即由此暴露"}},
         {"check": "spine_tier1_only", "args": {"desc": "装载为 Tier1 忠实装载表，不进 Tier2 派生图谱：spine 不参与消歧，build_nodes / canonical 不许读它"}}
       ],
       "landing": {
         "nodes": "新表 spine(book_id, axis, sid, parent_sid, kind, no, title, origin, evidence, rule, item_id, start_offset, end_offset, first_item, last_item)，主键 (book_id, axis, sid)",
         "recipe_declared_depth": "Tier0 一行（与 registry_hash 同址，构成失效判据）",
+        "stock_volume_only": "按 scope.do_not_build 不建 spine 的书：卷级由 item_id 前缀现算，不落表、不另立第二份结构",
         "records_hook": "不加列。records.item_id 已有，条内定位经 sid → item_id 反查；再加 spine_id 即与既有结构重复",
         "dw": "dim_volume 由卷平表升级为 spine 维（自连接出层级），使「卷三第二章第三条」类查询可答"
       },
       "ok": "yhb:j03/z02（origin=source, evidence=目录著录, first_item=03-012, last_item=03-027）→ yhb:j03/z02/d01（origin=derived, rule=blank-line, item_id=03-012, start=118, end=307）",
-      "bad": "给每本书硬造到句级；或在 spine 节点里存 text 全文；或改了 _item_registry.json 却没重算 spine 仍用旧偏移",
-      "source": "docs/书籍著录与结构契约.md §3、§4、§5；实测 docs/跨书合并-数据库设计.md §11.2 A3/A4"
+      "bad": "给每本书硬造到句级；给只到卷级的存量书建 spine.json 与 书籍json 并行维护；在 spine 节点里存 text 全文；改了 _item_registry.json 却没重算 spine 仍用旧偏移",
+      "source": "docs/书籍著录与结构契约.md §3、§4、§6b；实测 docs/跨书合并-数据库设计.md §11.2 A3/A4"
     }
   ]
 }
