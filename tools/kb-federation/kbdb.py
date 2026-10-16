@@ -77,6 +77,8 @@ def md5(text):
 
 
 # Tier1 + Tier2 中按 book_id 隔离的表（wipe_book 清理范围）
+# 注意：**不含 spine / spine_meta**。spine 由 tools/kb-federation/spine_build.py
+# 独立维护（C9 §6b 豁免书的就地派生产物），load/load-all 不应连带清掉它。
 _BOOK_ID_TABLES = [
     "records",
     "items",

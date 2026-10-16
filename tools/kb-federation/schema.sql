@@ -299,6 +299,52 @@ CREATE TABLE IF NOT EXISTS enum_drift (
 );
 
 -- ============================================================
+-- Tier 1：著录与结构（C9 spine）
+-- 契约：docs/书籍著录与结构契约.md §3
+-- ============================================================
+
+-- 结构骨架：book / juan / pian / zhang / duan / ju 六级 ladder。
+-- Tier1 忠实装载，**不进 Tier2**（transform.py 的 build_nodes 不许读它）。
+-- 盘上 17 本为 C9 §6b 豁免书：无独立 spine.json，节点由
+-- tools/kb-federation/spine_build.py 从 书籍json 就地派生。
+CREATE TABLE IF NOT EXISTS spine (
+  book_id      TEXT NOT NULL,
+  axis         TEXT NOT NULL,          -- primary | geo | date ...（本批全 primary）
+  sid          TEXT NOT NULL,          -- 节点稳定标识 <book_id>[:<seg>...]
+  parent_sid   TEXT,                   -- 父节点 sid；根为 NULL
+  kind         TEXT NOT NULL,          -- book|juan|pian|zhang|duan|ju
+  no           TEXT,                   -- 同级序号
+  title        TEXT,                   -- 显示标题
+  origin       TEXT NOT NULL,          -- source | derived
+  evidence     TEXT,
+  rule         TEXT,
+  item_id      TEXT,                   -- duan/ju 指向条目
+  start_offset INTEGER,
+  end_offset   INTEGER,
+  first_item   TEXT,
+  last_item    TEXT,
+  PRIMARY KEY (book_id, axis, sid),
+  FOREIGN KEY (book_id) REFERENCES books(book_id)
+);
+CREATE INDEX IF NOT EXISTS idx_spine_parent ON spine(book_id, axis, parent_sid);
+CREATE INDEX IF NOT EXISTS idx_spine_item   ON spine(book_id, item_id);
+CREATE INDEX IF NOT EXISTS idx_spine_kind   ON spine(book_id, kind);
+
+-- 轴级元信息（declared_depth / registry_hash 等，C9 §3.4）
+CREATE TABLE IF NOT EXISTS spine_meta (
+  book_id        TEXT NOT NULL,
+  axis           TEXT NOT NULL,
+  declared_depth TEXT,
+  registry_hash  TEXT,
+  offset_unit    TEXT,
+  generator      TEXT,
+  generated_at   TEXT,
+  contract       TEXT,
+  note           TEXT,
+  PRIMARY KEY (book_id, axis)
+);
+
+-- ============================================================
 -- 辅助表
 -- ============================================================
 
