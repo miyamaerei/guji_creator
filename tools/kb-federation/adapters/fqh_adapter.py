@@ -1,9 +1,9 @@
 """adapters/fqh_adapter.py —— 福惠全书（fqh）适配器
 
 与 YszAdapter/LgsAdapter 同构（_layers/<key>/<key>_NN.json 子目录 + _kg_join.json records 指针），
-启用八层：ent / rule / struct / reg / opn / proc / doc / rel。
+启用九层：ent / rule / struct / reg / opn / proc / doc / rel / trl。
 - ent：ent_id 全局唯一跨卷复用 → 按 ent_id 去重合并 surfaces。
-- 其余七层：rule_id / struct_id / reg_id / opn_id / process_id / doc_id / rel_id
+- 其余各层：rule_id / struct_id / reg_id / opn_id / process_id / doc_id / rel_id / trl_id
   全局唯一段位分配，local_id 直取记录 ID。
 注意：id_key 必须对实际字段名（xzl 曾误用 evt_id 实为 event_id 致 50 折叠；proc 为 process_id 非 proc_id）。
 """
@@ -38,6 +38,7 @@ class FqhAdapter(BookAdapter):
         "proc": "process_id",
         "doc": "doc_id",
         "rel": "rel_id",
+        "trl": "trl_id",
     }
 
     def __init__(self, book_id, source_root, layer_keys, join_rel=JOIN_REL):

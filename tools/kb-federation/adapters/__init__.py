@@ -83,11 +83,11 @@ BOOK_LAYERS = {
     "xgf": ["ent", "rule", "proc", "event", "ledger", "time", "doc", "actor", "fraud"],
     "qb": ["ent", "appt", "event", "rel", "lit", "mem", "chr", "trl"],
     "xyf": ["ent", "appt", "rel", "event", "opn", "trl"],
-    "lgs": ["ent", "rule", "struct"],
-    "xzl": ["ent", "rule", "struct", "reg", "evt"],
+    "lgs": ["ent", "rule", "struct", "trl"],
+    "xzl": ["ent", "rule", "struct", "reg", "evt", "trl"],
     "ysz": ["ent", "appt", "evt", "lit", "reg", "nam", "opn", "cus", "geo"],
-    "fqh": ["ent", "rule", "struct", "reg", "opn", "proc", "doc", "rel"],
-    "ppy": ["ent", "rule", "struct", "reg", "opn"],
+    "fqh": ["ent", "rule", "struct", "reg", "opn", "proc", "doc", "rel", "trl"],
+    "ppy": ["ent", "rule", "struct", "reg", "opn", "trl"],
     # 明史·食货志：8 层（目录/文件名复数，卷号在前 NN_ents.json；structs 7 维 dict）
     "shz": ["ent", "rule", "proc", "appt", "tme", "opn", "reg", "struct"],
     # 明史·职官志：7 层（目录/文件名复数，卷号在后 ents_NN.json；structs 目录
@@ -173,19 +173,21 @@ LAYER_DECL = {
         "opn": ("annotation", "layers", ""),
         "trl": ("annotation", "layers", ""),
     },
-    # 吕公实政录：3 层（struct 内 ACT-/FRD-/LGR-/TME- 四维前缀混用，登记 ACT- 为代表）
+    # 吕公实政录：4 层（struct 内 ACT-/FRD-/LGR-/TME- 四维前缀混用，登记 ACT- 为代表）
     "lgs": {
         "ent": ("node", "layers", "ENT-"),
         "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
+        "trl": ("annotation", "layers", "TRL-"),
     },
-    # 政学录：5 层（reg REG-/evt EVT-）
+    # 政学录：6 层（reg REG-/evt EVT-/trl TRL-）
     "xzl": {
         "ent": ("node", "layers", "ENT-"),
         "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
         "reg": ("annotation", "layers", "REG-"),
         "evt": ("edge", "layers", "EVT-"),
+        "trl": ("annotation", "layers", "TRL-"),
     },
     # 宛署杂记：9 层（appt APPT-/evt EVT-/lit LIT-/reg REG-/nam NAM-/opn OPN-/cus CUS-/geo GEO-）
     "ysz": {
@@ -199,8 +201,8 @@ LAYER_DECL = {
         "cus": ("annotation", "layers", "CUS-"),
         "geo": ("node", "layers", "GEO-"),
     },
-    # 福惠全书：8 层（rule RULE-/struct STRUCT-（四维前缀混用，登记 ACT- 为代表）
-    # /reg REG-/opn OPN-/proc PROC-/doc DOC-/rel REL-）
+    # 福惠全书：9 层（rule RULE-/struct STRUCT-（四维前缀混用，登记 ACT- 为代表）
+    # /reg REG-/opn OPN-/proc PROC-/doc DOC-/rel REL-/trl TRL-）
     "fqh": {
         "ent": ("node", "layers", "ENT-"),
         "rule": ("annotation", "layers", "RULE-"),
@@ -210,15 +212,17 @@ LAYER_DECL = {
         "proc": ("annotation", "layers", "PROC-"),
         "doc": ("annotation", "layers", "DOC-"),
         "rel": ("edge", "layers", "REL-"),
+        "trl": ("annotation", "layers", "TRL-"),
     },
-    # 平平言：5 层（rule RULE-/struct ACT-（四维前缀混用，登记 ACT- 为代表）
-    # /reg REG-/opn OPN-）
+    # 平平言：6 层（rule RULE-/struct ACT-（四维前缀混用，登记 ACT- 为代表）
+    # /reg REG-/opn OPN-/trl TRL-）
     "ppy": {
         "ent": ("node", "layers", "ENT-"),
         "rule": ("annotation", "layers", "RULE-"),
         "struct": ("annotation", "layers", "ACT-"),
         "reg": ("annotation", "layers", "REG-"),
         "opn": ("annotation", "layers", "OPN-"),
+        "trl": ("annotation", "layers", "TRL-"),
     },
     # 明史·食货志：8 层（ent ENT-01001.. 六卷含卷号段全局唯一；struct 7 维前缀
     #   QUAN-/INST-/EVO-/FISC-/HK-/LAND-/TRANS- 混用，登记 QUAN- 为代表）

@@ -1,7 +1,7 @@
 """adapters/xzl_adapter.py —— 政学录（xzl）适配器
 
 与 LgsAdapter 同构（_layers/<key>/<key>_NN.json 子目录 + _kg_join.json records 指针），
-但启用五层：ent / rule / struct / reg / evt。
+但启用六层：ent / rule / struct / reg / evt / trl。
 - ent：ent_id 全局唯一（ENT-0001..1102）跨卷复用 → 按 ent_id 去重合并 surfaces。
 - rule / struct / reg / evt：rule_id / struct_id / reg_id / evt_id 全局唯一段位分配，
   local_id 直取记录 ID（无 ent 去重问题）。
@@ -82,6 +82,7 @@ class XzlAdapter(BookAdapter):
                         id_key = {
                             "rule": "rule_id", "struct": "struct_id",
                             "reg": "reg_id", "evt": "event_id",
+                            "trl": "trl_id",
                         }.get(layer)
                         local = rec.get(id_key) or rec.get("item_id") or "?"
                     recs.append(

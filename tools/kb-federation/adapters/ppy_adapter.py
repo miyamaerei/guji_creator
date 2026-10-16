@@ -2,9 +2,9 @@
 
 与 FqhAdapter 同构（_layers/<key>/<key>_NN.json 子目录 + _kg_join.json records 指针），
 差异：产物目录与文件名均为**单数**（rule/struct/reg/opn + rule_01.json），无复数映射。
-启用五层：ent / rule / struct / reg / opn。
+启用六层：ent / rule / struct / reg / opn / trl。
 - ent：ent_id 全局唯一跨卷复用 → 按 ent_id 去重合并 surfaces。
-- 其余四层：rule_id / struct_id / reg_id / opn_id 全局唯一段位分配，local_id 直取记录 ID。
+- 其余各层：rule_id / struct_id / reg_id / opn_id / trl_id 全局唯一段位分配，local_id 直取记录 ID。
 """
 
 import os
@@ -22,6 +22,7 @@ class PpyAdapter(BookAdapter):
         "struct": "struct_id",
         "reg": "reg_id",
         "opn": "opn_id",
+        "trl": "trl_id",
     }
 
     def __init__(self, book_id, source_root, layer_keys, join_rel=JOIN_REL):

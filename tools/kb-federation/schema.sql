@@ -3,7 +3,7 @@
 -- 纯标准库 sqlite3 兼容（零第三方依赖，守项目铁律）
 --
 -- 三层存储：
---   Tier 0  联邦目录   books / layer_catalog / layer_fields  —— 扩展点（新书/新层只插这里）
+--   Tier 0  联邦目录   books / book_meta / layer_catalog / layer_fields —— 扩展点（新书/新层只插这里）
 --   Tier 1  忠实装载   items / records                        —— 无损、真源、原文只存指针
 --   Tier 2  派生图谱   nodes / edges / canonical / members /  —— 可重建、不入 git
 --                       candidate_links / pending_refs
@@ -34,11 +34,30 @@ CREATE TABLE IF NOT EXISTS books (
   source_rev     TEXT                   -- 源工程目录的 git rev / 快照 id（增量水印；见 §增量）
 );
 
+-- 著录元数据（C8 消费侧）：一书的「谁写的/什么朝代/什么体裁」书级一句话档案。
+-- 真源是各书 <书>/书籍json/<书>_校对版.json 的 meta 块（book-json/1.1 就地载体），
+-- 本表只是它的扁平化副本，便于 SQL 直接按朝代/体裁筛选跨书统计。
+CREATE TABLE IF NOT EXISTS book_meta (
+  book_id    TEXT PRIMARY KEY,
+  name       TEXT NOT NULL,             -- 书名（与 books.name 一致，便于单独查看本表）
+  dynasty    TEXT NOT NULL,             -- 朝代：明 / 清 / …
+  author     TEXT NOT NULL,             -- 作者；集体著作可写「某某等」；不详写「佚名」
+  genre      TEXT NOT NULL,             -- 体裁（短语）：笔记 / 政书 / 年谱 / 官箴书 / 志书 / 遗闻录
+  subject    TEXT NOT NULL,             -- 主题一句话
+  source     TEXT NOT NULL,             -- 著录依据（书目/工具书/仓库内配置）
+  confidence TEXT NOT NULL DEFAULT 'high', -- high / medium / low；无把握置 low 不臆造
+  note       TEXT,                      -- 附注（卷数诸本不一、库内数据问题等）
+  updated_at TEXT NOT NULL
+);
+
 -- 层目录：声明「某书有哪些层、各层是什么形态」
 -- 新层 = 在这里插一行，T 阶段据 kind 自动决定抽成 node 还是 edge
 CREATE TABLE IF NOT EXISTS layer_catalog (
   book_id        TEXT NOT NULL,
   layer_key      TEXT NOT NULL,         -- 归一后的 key：'ent'/'appt'/'evt'/...
+                                        --   本列是联邦侧唯一层码口径：一律单数。盘上目录/文件名
+                                        --   可为复数（qb/shz/zgz 的 ents/structs…），复数原形只记在
+                                        --   adapters 的 LAYER_DIR_NAMES，看板按盘上形显示——两者不是漂移。
   layer_code     TEXT,                  -- 层库原编号：'L1'/'C1'/...
   layer_name     TEXT,                  -- 实体层 / 职官任职层
   container_kind TEXT,                  -- rows|list|entries|records|fingerprints

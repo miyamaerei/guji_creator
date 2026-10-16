@@ -4,7 +4,7 @@
 - ent：ent_id 全局唯一（ENT-0001..0573）且跨卷复用（同一实体多卷出现）——
   按 ent_id 跨卷去重（保留首条，合并各卷 text 变体进 payload.surfaces），
   local_id = ent_id（无需卷前缀，ID 全局唯一不撞号）。
-- rule / struct：rule_id / struct_id 全局唯一段位分配（RULE- / ACT- 等），
+- rule / struct / trl：rule_id / struct_id / trl_id 全局唯一段位分配（RULE- / ACT- 等），
   local_id 直取记录 ID。
 - fingerprints：工程根 _kg_join.json（{"records":[...]}），items 只存指针。
 
@@ -87,6 +87,8 @@ class LgsAdapter(BookAdapter):
                         local = eid
                     elif layer == "rule":
                         local = rec.get("rule_id") or (rec.get("item_id") or "?")
+                    elif layer == "trl":
+                        local = rec.get("trl_id") or (rec.get("item_id") or "?")
                     else:  # struct
                         local = rec.get("struct_id") or (rec.get("item_id") or "?")
                     recs.append(
