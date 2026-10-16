@@ -1,0 +1,98 @@
+{
+ "meta_version": "1",
+ "book_id": "myt",
+ "ident": {
+  "title": "大明一统志",
+  "other_titles": [
+   "明一统志",
+   "一统志"
+  ],
+  "repo_dir": "mingyitongzhi-kb",
+  "board_id": "myt",
+  "federation_book_id": null,
+  "federation_book_id_basis": "未入联邦库：data.js federation.idMap 无 myt，pending.myt 记「已交付 7 层 49429 条，未写 adapter」",
+  "instance_skill": "14-mingyitongzhi-knowledge"
+ },
+ "work": {
+  "creator": {
+   "name": "李贤",
+   "dynasty": "明",
+   "role": "奉敕撰（总裁官李贤·彭时·吕原等）"
+  },
+  "completed_year": 1461,
+  "genre": "地理总志（史部地理类·总志之属）",
+  "subject": [
+   "舆地",
+   "总志",
+   "明代两京十三布政司疆域"
+  ],
+  "abstract": "明一统志九十卷，明吏部尚书兼翰林院学士李贤等奉敕撰。洪武三年命儒臣编天下郡县地理形势为大明志，书不传；永乐中再采天下图经纂辑，未及成而中辍。英宗复辟后命李贤等重编，天顺五年四月书成奏进，赐名大明一统志，御制序冠其首，锓板颁行。其义例一仍元大一统志之旧，以两京十三布政司为纲，府州县卫各系建置沿革、形胜、风俗、山川、土产、公署、学校、寺观、古迹、名宦、人物等门。四库馆臣评其纂修诸臣不出一手、舛错抵牾为顾炎武日知录所讥，然职方图籍为一代掌故，仍录存备考。",
+  "abstract_source": "本书卷首四库提要（明一统志.txt 行 3–6，乾隆四十五年十月恭校上）+ 天顺御制序（行 21–33，末署「天顺五年五月十日」）"
+ },
+ "expression": {
+  "language": "zh",
+  "script": "繁简混",
+  "punctuation": "原本无",
+  "base_kind": "数据库导出",
+  "base_edition": "钦定四库全书本（史部地理类总志之属）",
+  "juan_declared": 90
+ },
+ "manifestation": {
+  "digitization": {
+   "format": "txt",
+   "file": "../明一统志.txt",
+   "bytes": 6894092,
+   "lines": 6553
+  },
+  "physical": {
+   "ye": null,
+   "banxin": null
+  },
+  "holding": null,
+  "call_number": null
+ },
+ "governance": {
+  "availability": {
+   "ident.title": "A",
+   "ident.other_titles": "A",
+   "ident.repo_dir": "A",
+   "ident.board_id": "A",
+   "ident.federation_book_id": "A",
+   "ident.instance_skill": "B",
+   "work.creator.name": "A",
+   "work.creator.dynasty": "A",
+   "work.creator.role": "B",
+   "work.completed_year": "B",
+   "work.genre": "A",
+   "work.subject": "B",
+   "work.abstract": "B",
+   "work.abstract_source": "B",
+   "expression.language": "A",
+   "expression.script": "A",
+   "expression.punctuation": "A",
+   "expression.base_kind": "B",
+   "expression.base_edition": "B",
+   "expression.juan_declared": "A",
+   "manifestation.digitization.format": "A",
+   "manifestation.digitization.file": "A",
+   "manifestation.digitization.bytes": "A",
+   "manifestation.digitization.lines": "A",
+   "manifestation.physical.ye": "D",
+   "manifestation.physical.banxin": "D",
+   "manifestation.holding": "C",
+   "manifestation.call_number": "C"
+  },
+  "confidence": 0.85,
+  "sources": [
+   "mingyitongzhi-kb/明一统志.txt 行 1–57（卷首提要/御制序/进表/职名）实测",
+   "Skills/00-book-knowledge-factory/references/registry.md 行 14（底本=四库全书本 / 6.89MB/6552行）",
+   "Summary/html/times.js GVOLS.myt（total=90）",
+   "Summary/html/data.js books[myt]（title/author/genre/items/layers）",
+   "Summary/html/collect_times.js DIRS.myt",
+   "mingyitongzhi-kb/14-mingyitongzhi-knowledge/_item_registry.json 实测 217 条",
+   "文本实测：标点字符 0、私用区缺字形 6054、卷题记 177 处、门题行 3442 处、建置沿革块 256 处"
+  ],
+  "updated": "2026-10-16",
+  "updated_by": "docs/samples/daming-yitongzhi 样例生成（手工实测；collect_meta.js 尚未接本书）"
+ }
+}
