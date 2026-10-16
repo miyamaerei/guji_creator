@@ -11,6 +11,7 @@ r"""
        ISBN 978-7-5232-1686-6
 输出 : <OUT>/<书名>_校对版.json + <OUT>/分卷json/NN_<卷名>.json
        OUT 默认 E:\git\ToolBox\guji\yehangchuan\书籍json
+       两份 layout.json 放置于 yehangchuan/_source/layout_A.json、layout_B.json
 
 结构定位（关键：不靠正则找章号，靠目录页 + 印刷页码偏移）
   * A 偏移 -23、B 偏移 -177（各自由 page_number 块实测，偏移恒定）
@@ -37,8 +38,9 @@ except Exception:
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(BASE)
 
-SRC_A = r"C:\Users\Administrator\AppData\Roaming\dsh-desktop\harness\attachments\v1\files\ad\ad6690c3ce62d4effa11148d07e144f23e1ad6fd99242e5a2eefcd1156331363\layout.json"
-SRC_B = r"C:\Users\Administrator\MinerU\物理夜航船 直觉与猜算 （压缩+书签） (A.Zee (徐一鸿)) (z-library.sk, 1lib.sk, z-lib.sk).pdf-974cd55f-1316-4db1-8c46-3f54e3db316b\layout.json"
+# OCR 源放 <根>/yehangchuan/_source/（按仓库规则 **/_source/** 不入仓，重跑前需自行放置）
+SRC_A = os.path.join(ROOT, "yehangchuan", "_source", "layout_A.json")
+SRC_B = os.path.join(ROOT, "yehangchuan", "_source", "layout_B.json")
 DEFAULT_OUT = os.path.join(ROOT, "yehangchuan", "书籍json")
 
 BOOK = "物理夜航船"
